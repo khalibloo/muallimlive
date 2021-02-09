@@ -8,6 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@rematch/core": "^2.0.0",
+    "@rematch/immer": "^2.0.0",
+    "@rematch/loading": "^2.0.0",
     "antd": "^4.12.2",
     "next": "10.0.6",
     "react": "17.0.1",

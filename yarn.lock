@@ -213,6 +213,21 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
+"@rematch/core@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@rematch/core/-/core-2.0.0.tgz#f8b812274446e2536acaee04ac4675a2d8496888"
+  integrity sha512-9v7zAS5OshWY0kMOt5ZcllRjn9yVApuAm9y4JOxq/LViFe5cYrKQgf3Q4iX67cRS4LTfTro97vyClGxbq28ZIg==
+
+"@rematch/immer@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@rematch/immer/-/immer-2.0.0.tgz#4c031ded0a82967acb826f64de44a958615e89aa"
+  integrity sha512-MUCe9SOOtVLPsxcbNDtOXxbb+LnImCiqspGdNw8Nc0fiCCHX31yfBYciQ/LEcbQn40EiHpLKyigz08Vn/NMnIQ==
+
+"@rematch/loading@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@rematch/loading/-/loading-2.0.0.tgz#7bf6f087c16bd3d614d68de89348756c60986dfb"
+  integrity sha512-rWy0vTR5vMmUIjSMjWg7esmB/1eSqU8cJQM5EWgqcUxQXyStby7a1BXcycf5q7nqlsaCoeMQPRlpVN6BedJxSw==
+
 "@types/json-schema@^7.0.6":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
