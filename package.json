@@ -12,9 +12,11 @@
     "@rematch/immer": "^2.0.0",
     "@rematch/loading": "^2.0.0",
     "antd": "^4.12.2",
+    "axios": "^0.21.1",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-query": "^3.8.2",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {

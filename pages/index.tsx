@@ -2,8 +2,17 @@ import React from "react";
 import { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { Button, Spin } from "antd";
+import usePosts from "@/queries/usePosts";
 
 const Home: NextPage = () => {
+  const { data, isError, isLoading } = usePosts();
+  if (isLoading) {
+    return <Spin size="large" />;
+  }
+  if (isError) {
+    return <p>Error...</p>;
+  }
   return (
     <div className={styles.container}>
       <Head>
@@ -15,6 +24,18 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <p className="bg-primary">
+          Get started by editing{" "}
+          <code className={styles.code}>pages/index.js</code>
+        </p>
+        <Button type="primary" size="large">
+          Blah
+        </Button>
+        <div>
+          {data?.map((post) => (
+            <p key={post.id}>{post.title}</p>
+          ))}
+        </div>
 
         <p className={styles.description}>
           Get started by editing{" "}
