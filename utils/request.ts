@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export default axios.create({
-  //   baseURL: "https://some-domain.com/api/",
-  //   headers: { "X-Custom-Header": "foobar" },
+  baseURL: process.env.NEXT_PUBLIC_API_URI,
+  //   headers: { "Content-Type": "application/json" },
 });

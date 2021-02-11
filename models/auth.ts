@@ -6,19 +6,25 @@ type Question = {
   title: string;
 };
 
-interface CountState {
+interface AuthState {
+  authenticated: boolean;
+  role: "guest" | "user" | "tutor" | "admin" | "superadmin";
   questions: Array<Question>;
   questionType: QuestionType;
 }
 
-export const count = createModel<RootModel>()({
+export const auth = createModel<RootModel>()({
   state: {
+    authenticated: false,
+    role: "guest",
     questions: [],
     questionType: "true-false",
-  } as CountState, // typed complex state
+  } as AuthState,
+  selectors: (slice, createSelector, hasProps) => ({}),
   reducers: {
-    // handle state changes with pure functions
-    increment(state, payload: number) {
+    setAuthenticated(state, { role }) {
+      state.role = role;
+      state.authenticated = role !== "guest";
       return state;
     },
   },

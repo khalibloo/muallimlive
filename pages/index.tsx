@@ -3,10 +3,26 @@ import { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { Button, Spin } from "antd";
-import usePosts from "@/queries/usePosts";
+import { connect } from "react-redux";
+import { RootState, Dispatch } from "@/utils/store";
 
-const Home: NextPage = () => {
+import usePosts from "@/queries/usePosts";
+import useLogin from "@/mutations/useLogin";
+
+interface Props {
+  authenticated: RootState["auth"]["authenticated"];
+}
+const mapState = (state: RootState) => ({
+  authenticated: state.auth.authenticated,
+});
+
+// const mapDispatch = (dispatch: Dispatch) => ({
+//     increment: () => dispatch.auth.increment(1),
+//     incrementAsync: () => dispatch.auth.incrementAsync(1),
+// })
+const Home: NextPage<Props> = ({ authenticated }) => {
   const { data, isError, isLoading } = usePosts();
+  const loginMutation = useLogin();
   if (isLoading) {
     return <Spin size="large" />;
   }
@@ -28,7 +44,19 @@ const Home: NextPage = () => {
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
-        <Button type="primary" size="large">
+        <Button
+          type="primary"
+          size="large"
+          disabled={authenticated}
+          loading={loginMutation.isLoading}
+          onClick={async () =>
+            loginMutation.mutate({
+              username: "luigi@example.com",
+              password: "blahblah",
+              remember: false,
+            })
+          }
+        >
           Blah
         </Button>
         <div>
@@ -87,4 +115,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default connect(mapState)(Home);

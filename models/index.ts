@@ -1,8 +1,8 @@
 import { Models } from "@rematch/core";
-import { count } from "./auth";
+import { auth } from "./auth";
 
 export interface RootModel extends Models<RootModel> {
-  count: typeof count;
+  auth: typeof auth;
 }
 
-export const models: RootModel = { count };
+export const models: RootModel = { auth };
