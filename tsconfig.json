@@ -15,9 +15,11 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     },
     "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "removeComments": true,
     "noImplicitAny": false
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

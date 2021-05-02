@@ -1,4 +1,3 @@
 {
   "extends": ["web-recommended", "progressive-web-apps"],
-  "browserslist": ["> 1%", "last 2 versions"]
 }

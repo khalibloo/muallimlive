@@ -1,0 +1,169 @@
+{
+  "tafsirs": [
+    {
+      "id": 169,
+      "name": "Tafsir Ibn Kathir",
+      "author_name": "Hafiz Ibn Kathir",
+      "slug": "en-tafisr-ibn-kathir",
+      "language_name": "english",
+      "translated_name": {
+        "name": "Tafsir Ibn Kathir",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 168,
+      "name": "Maarif-ul-Quran",
+      "author_name": "Mufti Muhammad Shafi",
+      "slug": "en-tafsir-maarif-ul-quran",
+      "language_name": "english",
+      "translated_name": {
+        "name": "Maarif-ul-Quran",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 170,
+      "name": "Russian Tafseer Al Saddi",
+      "author_name": "Saddi",
+      "slug": "ru-tafseer-al-saddi",
+      "language_name": "russian",
+      "translated_name": {
+        "name": "Russian Tafseer Al Saddi",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 90,
+      "name": "Arabic Qurtubi Tafseer",
+      "author_name": "Qurtubi",
+      "slug": null,
+      "language_name": "arabic",
+      "translated_name": {
+        "name": "Arabic Qurtubi Tafseer",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 91,
+      "name": "Arabic Saddi Tafseer",
+      "author_name": "Saddi",
+      "slug": null,
+      "language_name": "arabic",
+      "translated_name": {
+        "name": "Arabic Saddi Tafseer",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Arabic Tanweer Tafseer",
+      "author_name": "Tanweer",
+      "slug": null,
+      "language_name": "arabic",
+      "translated_name": {
+        "name": "Arabic Tanweer Tafseer",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Arabic Waseet Tafseer",
+      "author_name": "Waseet",
+      "slug": null,
+      "language_name": "arabic",
+      "translated_name": {
+        "name": "Arabic Waseet Tafseer",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 94,
+      "name": "Arabic Baghawy Tafseer",
+      "author_name": "Baghawy",
+      "slug": null,
+      "language_name": "arabic",
+      "translated_name": {
+        "name": "Arabic Baghawy Tafseer",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 171,
+      "name": "English Mokhtasar",
+      "author_name": "Al-Mukhtasar",
+      "slug": null,
+      "language_name": "english",
+      "translated_name": {
+        "name": "English Mokhtasar",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 165,
+      "name": "Tafsir Ahsanul Bayaan",
+      "author_name": "Bayaan Foundation",
+      "slug": "bn-tafsir-ahsanul-bayaan",
+      "language_name": "bengali",
+      "translated_name": {
+        "name": "Tafsir Ahsanul Bayaan",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 166,
+      "name": "Tafsir Abu Bakr Zakaria",
+      "author_name": "King Fahd Quran Printing Complex",
+      "slug": "bn-tafsir-abu-bakr-zakaria",
+      "language_name": "bengali",
+      "translated_name": {
+        "name": "Tafsir Abu Bakr Zakaria",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 164,
+      "name": "তাফসীর ইবনে কাছীর",
+      "author_name": "Tawheed Publication",
+      "slug": "bn-tafseer-ibn-e-kaseer",
+      "language_name": "bengali",
+      "translated_name": {
+        "name": "Tafseer ibn Kathir",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 159,
+      "name": "تفسیر بیان القرآن",
+      "author_name": "Dr. Israr Ahmad",
+      "slug": "tafsir-bayan-ul-quran",
+      "language_name": "urdu",
+      "translated_name": {
+        "name": "تفسیر بیان القرآن",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 160,
+      "name": "تفسیر ابنِ کثیر",
+      "author_name": "Hafiz Ibn Kathir",
+      "slug": "tafseer-ibn-e-kaseer-urdu",
+      "language_name": "urdu",
+      "translated_name": {
+        "name": "تفسیر ابنِ کثیر",
+        "language_name": "english"
+      }
+    },
+    {
+      "id": 157,
+      "name": "فی ظلال القرآن",
+      "author_name": "Sayyid Ibrahim Qutb",
+      "slug": "tafsir-fe-zalul-quran-syed-qatab",
+      "language_name": "urdu",
+      "translated_name": {
+        "name": "فی ظلال القرآن",
+        "language_name": "english"
+      }
+    }
+  ]
+}
