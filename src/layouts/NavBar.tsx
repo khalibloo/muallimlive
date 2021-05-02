@@ -9,7 +9,11 @@ import {
   Modal,
   Button,
 } from "antd";
-import { GlobalOutlined, MenuOutlined } from "@ant-design/icons";
+import {
+  GlobalOutlined,
+  MenuOutlined,
+  SettingOutlined,
+} from "@ant-design/icons";
 
 import { useResponsive } from "ahooks";
 import Link from "next/link";
@@ -51,12 +55,19 @@ const NavBar: React.FC<Props> = () => {
           <Menu
             mode="horizontal"
             className="bg-transparent border-none h-full"
-            selectedKeys={[]}
+            selectable={false}
           >
-            <Menu.Item key="lang" className="p-0 h-full align-top">
-              <Dropdown overlay={langMenu} trigger={["click", "hover"]}>
-                <div className="px-5">
-                  <GlobalOutlined className="mr-0 text-2xl" />
+            <Menu.Item key="lang" className="m-0 h-full">
+              <Dropdown overlay={langMenu} trigger={["click"]}>
+                <div className="px-2">
+                  <GlobalOutlined className="text-2xl" />
+                </div>
+              </Dropdown>
+            </Menu.Item>
+            <Menu.Item key="settings" className="m-0 h-full">
+              <Dropdown overlay={langMenu} trigger={["click"]}>
+                <div className="px-2">
+                  <SettingOutlined className="text-2xl" />
                 </div>
               </Dropdown>
             </Menu.Item>

@@ -10,7 +10,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 interface Props {
-  pageTitle?: string;
+  pageTitle: string;
   noPadding?: boolean;
 }
 const BasicLayout: React.FC<Props> = ({ children, pageTitle, noPadding }) => {

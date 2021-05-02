@@ -1,16 +1,19 @@
 import React from "react";
 import { NextPage } from "next";
 import { Button, Col, Drawer, Menu, Row, Tooltip, Typography } from "antd";
+import { useBoolean } from "ahooks";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
-import usePosts from "@/queries/usePosts";
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
-import chaptersData from "@/data/chapters.json";
-import Link from "next/link";
-import { useBoolean } from "ahooks";
 import { MenuOutlined } from "@ant-design/icons";
+import useTranslations from "@/queries/useTranslations";
+import useRecitations from "@/queries/useRecitations";
+import useTafsirs from "@/queries/useTafsirs";
+import useLanguages from "@/queries/useLanguages";
+import useChapters from "@/queries/useChapters";
 
 interface Props {}
 
@@ -24,19 +27,33 @@ const ChapterPage: NextPage<Props> = ({}) => {
     { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer },
   ] = useBoolean(false);
 
-  const { data, isLoading } = usePosts();
-  if (isLoading) {
+  const {
+    data: translations,
+    isLoading: translationsLoading,
+  } = useTranslations();
+  const { data: tafsirs, isLoading: tafsirsLoading } = useTafsirs();
+  const { data: recitations, isLoading: recitationsLoading } = useRecitations();
+  const { data: languages, isLoading: languagesLoading } = useLanguages();
+  const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
+
+  if (
+    translationsLoading ||
+    tafsirsLoading ||
+    recitationsLoading ||
+    languagesLoading ||
+    chaptersLoading
+  ) {
     return (
-      <BasicLayout pageTitle="Privacy Policy">
+      <BasicLayout pageTitle="">
         <Loader showRandomMessage />
       </BasicLayout>
     );
   }
-  const currentChapter = chaptersData.chapters.find(
+  const currentChapter = chaptersData?.chapters.find(
     (c) => c.id === chapterNumber,
   );
   return (
-    <BasicLayout noPadding>
+    <BasicLayout noPadding pageTitle={currentChapter?.name_simple}>
       <Drawer
         placement="left"
         closable={false}
@@ -45,7 +62,7 @@ const ChapterPage: NextPage<Props> = ({}) => {
         visible={chaptersDrawerOpen}
       >
         <Menu theme="dark" selectedKeys={[id]} mode="inline">
-          {chaptersData.chapters.map((chapter) => (
+          {chaptersData?.chapters.map((chapter) => (
             <Menu.Item key={chapter.id} style={{ textAlign: "left" }}>
               <Link href={`/chapters/${chapter.id}`}>
                 <Tooltip
@@ -72,13 +89,13 @@ const ChapterPage: NextPage<Props> = ({}) => {
           >
             Chapters
           </Button>
-          <Typography.Title level={2} className="capitalize text-center m-0">
+          <Typography.Title level={4} className="capitalize text-center m-0">
             {currentChapter?.name_simple} -{" "}
             {currentChapter?.translated_name.name}
           </Typography.Title>
         </div>
       </div>
-      <Row className="mt-20 py-9" justify="center">
+      <Row className="mt-16 py-9" justify="center">
         <Col span={22}>
           <div className="h-screen">Content</div>
         </Col>
