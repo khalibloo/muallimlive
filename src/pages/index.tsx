@@ -32,7 +32,7 @@ const Home: NextPage<Props> = ({ authenticated }) => {
   }
 
   return (
-    <BasicLayout>
+    <BasicLayout pageTitle="Home">
       {/* <Row justify="center" className="mb-9">
         <Col span={16}>
           <Input.Search className="w-full" size="large" />
