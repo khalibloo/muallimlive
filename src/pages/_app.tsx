@@ -3,9 +3,10 @@ import { AppProps } from "next/app";
 import { Provider } from "react-redux";
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import "@/styles/global.css";
-import "@/styles/global.less";
 import { store } from "@/utils/store";
+
+import "@/styles/global.css";
+require("@/styles/global.less");
 
 const queryClient = new QueryClient();
 
