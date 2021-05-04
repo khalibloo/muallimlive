@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetVersesImlaeiResponse {
   verses: VerseImlaei[];
@@ -14,7 +13,7 @@ const getVersesImlaei = async (chapterNumber?: number) => {
 
 export default function useVersesImlaei(
   chapterNumber?: number,
-  options?: QueryOptions<GetVersesImlaeiResponse, Error>,
+  options?: UseQueryOptions<GetVersesImlaeiResponse, Error>,
 ) {
   return useQuery<GetVersesImlaeiResponse, Error>(
     ["verses-imlaei", { chapterNumber }],

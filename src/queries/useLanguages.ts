@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetLanguagesResponse {
   languages: Language[];
@@ -13,7 +12,7 @@ const getLanguages = async () => {
 };
 
 export default function useLanguages(
-  options?: QueryOptions<GetLanguagesResponse, Error>,
+  options?: UseQueryOptions<GetLanguagesResponse, Error>,
 ) {
   return useQuery<GetLanguagesResponse, Error>(
     ["languages", { language: "en" }],

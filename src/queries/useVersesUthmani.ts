@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetVersesUthmaniResponse {
   verses: VerseUthmani[];
@@ -14,7 +13,7 @@ const getVersesUthmani = async (chapterNumber?: number) => {
 
 export default function useVersesUthmani(
   chapterNumber?: number,
-  options?: QueryOptions<GetVersesUthmaniResponse, Error>,
+  options?: UseQueryOptions<GetVersesUthmaniResponse, Error>,
 ) {
   return useQuery<GetVersesUthmaniResponse, Error>(
     ["verses-uthmani", { chapterNumber }],

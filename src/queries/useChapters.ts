@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetChaptersResponse {
   chapters: Chapter[];
@@ -13,7 +12,7 @@ const getChapters = async () => {
 };
 
 export default function useChapters(
-  options?: QueryOptions<GetChaptersResponse, Error>,
+  options?: UseQueryOptions<GetChaptersResponse, Error>,
 ) {
   return useQuery<GetChaptersResponse, Error>(
     ["chapters", { language: "en" }],

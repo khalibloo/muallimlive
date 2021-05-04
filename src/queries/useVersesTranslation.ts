@@ -1,4 +1,4 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
 
 interface GetVersesTranslationResponse {
@@ -17,7 +17,7 @@ const getVersesTranslation = async (
 export default function useVersesTranslation(
   translationId: number,
   chapterNumber?: number,
-  options?: QueryOptions<GetVersesTranslationResponse, Error>,
+  options?: UseQueryOptions<GetVersesTranslationResponse, Error>,
 ) {
   return useQuery<GetVersesTranslationResponse, Error>(
     ["verses-translation", { translationId, chapterNumber }],

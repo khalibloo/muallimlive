@@ -1,4 +1,4 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
 
 interface GetVersesRecitationResponse {
@@ -17,7 +17,7 @@ const getVersesRecitation = async (
 export default function useVersesRecitation(
   recitationId: number,
   chapterNumber?: number,
-  options?: QueryOptions<GetVersesRecitationResponse, Error>,
+  options?: UseQueryOptions<GetVersesRecitationResponse, Error>,
 ) {
   return useQuery<GetVersesRecitationResponse, Error>(
     ["verses-recitation", { recitationId, chapterNumber }],

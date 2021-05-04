@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetTranslationsResponse {
   translations: Translation[];
@@ -13,7 +12,7 @@ const getTranslations = async () => {
 };
 
 export default function useTranslations(
-  options?: QueryOptions<GetTranslationsResponse, Error>,
+  options?: UseQueryOptions<GetTranslationsResponse, Error>,
 ) {
   return useQuery<GetTranslationsResponse, Error>(
     ["translations", { language: "en" }],

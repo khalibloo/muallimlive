@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetVersesIndopakResponse {
   verses: VerseIndopak[];
@@ -14,7 +13,7 @@ const getVersesIndopak = async (chapterNumber?: number) => {
 
 export default function useVersesIndopak(
   chapterNumber?: number,
-  options?: QueryOptions<GetVersesIndopakResponse, Error>,
+  options?: UseQueryOptions<GetVersesIndopakResponse, Error>,
 ) {
   return useQuery<GetVersesIndopakResponse, Error>(
     ["verses-indopak", { chapterNumber }],

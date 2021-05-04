@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetTafsirsResponse {
   tafsirs: Tafsir[];
@@ -13,7 +12,7 @@ const getTafsirs = async () => {
 };
 
 export default function useTafsirs(
-  options?: QueryOptions<GetTafsirsResponse, Error>,
+  options?: UseQueryOptions<GetTafsirsResponse, Error>,
 ) {
   return useQuery<GetTafsirsResponse, Error>(
     ["tafsirs", { language: "en" }],

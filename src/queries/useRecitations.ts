@@ -1,6 +1,5 @@
-import { QueryOptions, useQuery } from "react-query";
+import { useQuery, UseQueryOptions } from "react-query";
 import axios from "@/utils/request";
-import config from "@/utils/config";
 
 interface GetRecitationsResponse {
   recitations: Recitation[];
@@ -13,7 +12,7 @@ const getRecitations = async () => {
 };
 
 export default function useRecitations(
-  options?: QueryOptions<GetRecitationsResponse, Error>,
+  options?: UseQueryOptions<GetRecitationsResponse, Error>,
 ) {
   return useQuery<GetRecitationsResponse, Error>(
     ["recitations", { language: "en" }],
