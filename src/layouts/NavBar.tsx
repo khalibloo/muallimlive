@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { Typography, Row, Col, Menu, Dropdown, Modal, Tabs } from "antd";
+import {
+  Typography,
+  Row,
+  Col,
+  Menu,
+  Dropdown,
+  Modal,
+  Tabs,
+  notification,
+} from "antd";
 import { GlobalOutlined, SettingOutlined } from "@ant-design/icons";
 
 import Link from "next/link";
@@ -45,7 +54,11 @@ const NavBar: React.FC<Props> = () => {
       >
         <Tabs activeKey={settingsTab} onChange={setSettingsTab}>
           <Tabs.TabPane key="reader" tab="Reader Settings">
-            <ReaderSettingsForm />
+            <ReaderSettingsForm
+              onSubmit={() => {
+                notification.success({ message: "Changes Saved Successfully" });
+              }}
+            />
           </Tabs.TabPane>
           <Tabs.TabPane key="storage" tab="Offline Storage">
             <span>Coming soon</span>

@@ -11,8 +11,10 @@ import useTafsirs from "@/queries/useTafsirs";
 import Loader from "./Loader";
 import config from "@/utils/config";
 
-interface Props {}
-const ReaderSettingsForm: React.FC<Props> = () => {
+interface Props {
+  onSubmit?: () => void;
+}
+const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   const [form] = useForm();
   const [useSplitView, setUseSplitView] = useState(false);
   const [settings, setSettings] = useState<ReaderSettings>();
@@ -137,10 +139,10 @@ const ReaderSettingsForm: React.FC<Props> = () => {
         (item) => item.content && item.content.length > 0,
       ),
     };
-    console.log(cleanedValues);
     setSettings(cleanedValues);
     lf.setItem("reader-settings", cleanedValues);
     form.resetFields();
+    onSubmit?.();
   };
 
   const handleCascaderSearch = (inputValue, path) =>
