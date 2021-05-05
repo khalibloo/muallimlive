@@ -208,7 +208,7 @@ const ChapterPage: NextPage<Props> = () => {
                     chapterNumber={chapterNumber}
                     verseNumber={i + 1}
                   />,
-                  <Tooltip title="View Notes">
+                  <Tooltip title="View Notes - coming soon">
                     <Button type="text">
                       <FormOutlined />
                     </Button>
