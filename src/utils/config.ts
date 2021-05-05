@@ -9,7 +9,7 @@ const defaultSettings: ReaderSettings = {
   splitView: true,
   left: [
     { content: ["translation", "en", 22] },
-    // { content: ["tafsir", "en", 169] },
+    { content: ["tafsir", "en", 169] },
   ],
   right: [
     { content: ["translation", "ar", "uthmani"] },

@@ -1,4 +1,6 @@
 import { useQueries, UseQueryOptions, UseQueryResult } from "react-query";
+import dompurify from "dompurify";
+
 import axios from "@/utils/request";
 
 interface GetVersesTafsirResponse {
@@ -11,7 +13,11 @@ const getVersesTafsir = async (tafsirId: number, chapterNumber?: number) => {
       params: { chapter_number: chapterNumber },
     },
   );
-  return data.tafsirs.map((t) => ({ id: t.resource_id, text: t.text }));
+  return data.tafsirs.map((t) => ({
+    id: t.resource_id,
+    isHTML: true,
+    text: dompurify.sanitize(t.text),
+  }));
 };
 
 export default function useVersesTafsir(

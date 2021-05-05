@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col, Typography } from "antd";
+import { Row, Col, Typography, List } from "antd";
+import clx from "classnames";
 
 interface Props {
   number: number;
@@ -24,22 +25,56 @@ const Verse: React.FC<Props> = ({ number, left, right, faved }) => {
           <div className="flex gap-2">
             <div>{number})</div>
             <div className="flex-grow">
-              {left.map((v) => (
-                <div key={v.id}>
-                  <Typography.Text>{v.text}</Typography.Text>
-                </div>
-              ))}
+              <List
+                dataSource={left}
+                renderItem={(v) => (
+                  <List.Item key={v.id}>
+                    <div>
+                      {v.isHTML ? (
+                        <div
+                          className="font-light"
+                          dangerouslySetInnerHTML={{ __html: v.text }}
+                        />
+                      ) : (
+                        <Typography.Text
+                          className={clx({ "text-lg": v.isBold })}
+                          strong={v.isBold}
+                        >
+                          {v.text}
+                        </Typography.Text>
+                      )}
+                    </div>
+                  </List.Item>
+                )}
+              />
             </div>
           </div>
         </Col>
       )}
       {right.length > 0 && (
         <Col span={rightColSpan}>
-          {right.map((v) => (
-            <div key={v.id}>
-              <Typography.Text>{v.text}</Typography.Text>
-            </div>
-          ))}
+          <List
+            dataSource={right}
+            renderItem={(v) => (
+              <List.Item key={v.id}>
+                <div>
+                  {v.isHTML ? (
+                    <div
+                      className="font-light"
+                      dangerouslySetInnerHTML={{ __html: v.text }}
+                    />
+                  ) : (
+                    <Typography.Text
+                      className={clx({ "text-lg": v.isBold })}
+                      strong={v.isBold}
+                    >
+                      {v.text}
+                    </Typography.Text>
+                  )}
+                </div>
+              </List.Item>
+            )}
+          />
         </Col>
       )}
     </Row>

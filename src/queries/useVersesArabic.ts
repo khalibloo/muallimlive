@@ -20,6 +20,7 @@ const getVersesArabic = async (name: ArabicScript, chapterNumber?: number) => {
   );
   return data.verses.map((v) => ({
     id: v.id,
+    isBold: true,
     verse_key: v.verse_key,
     text: v[`text_${name}`],
   }));

@@ -14,7 +14,11 @@ const getVersesTranslation = async (
       params: { chapter_number: chapterNumber },
     },
   );
-  return data.translations.map((t) => ({ id: t.resource_id, text: t.text }));
+  return data.translations.map((t) => ({
+    id: t.resource_id,
+    isBold: true,
+    text: t.text,
+  }));
 };
 
 const useVersesTranslation = (

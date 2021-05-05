@@ -65,6 +65,8 @@ interface VerseContent extends BaseEntity {
 
 interface VerseText extends VerseContent {
   text: string;
+  isHTML?: boolean;
+  isBold?: boolean;
 }
 
 interface VerseIndopak extends VerseContent {
