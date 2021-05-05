@@ -1,24 +1,29 @@
-import { useQuery, UseQueryOptions } from "react-query";
+import { useQueries, UseQueryOptions, UseQueryResult } from "react-query";
 import axios from "@/utils/request";
 
 interface GetVersesTafsirResponse {
-  tafsirs: VerseText[];
+  tafsirs: { resource_id: number; text: string }[];
 }
 const getVersesTafsir = async (tafsirId: number, chapterNumber?: number) => {
-  const { data } = await axios.get(`/quran/tafsirs/${tafsirId}`, {
-    params: { chapter_number: chapterNumber },
-  });
-  return data;
+  const { data } = await axios.get<GetVersesTafsirResponse>(
+    `/quran/tafsirs/${tafsirId}`,
+    {
+      params: { chapter_number: chapterNumber },
+    },
+  );
+  return data.tafsirs.map((t) => ({ id: t.resource_id, text: t.text }));
 };
 
 export default function useVersesTafsir(
-  tafsirId: number,
+  tafsirIds: number[],
   chapterNumber?: number,
-  options?: UseQueryOptions<GetVersesTafsirResponse, Error>,
+  options?: UseQueryOptions,
 ) {
-  return useQuery<GetVersesTafsirResponse, Error>(
-    ["verses-tafsir", { tafsirId, chapterNumber }],
-    () => getVersesTafsir(tafsirId, chapterNumber),
-    options,
-  );
+  return useQueries(
+    tafsirIds.map((tafsirId) => ({
+      queryKey: ["verses-tafsir", { tafsirId, chapterNumber }],
+      queryFn: () => getVersesTafsir(tafsirId, chapterNumber),
+      ...options,
+    })),
+  ) as UseQueryResult<VerseText[], Error>[];
 }

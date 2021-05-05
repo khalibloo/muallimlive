@@ -1,19 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { NextPage } from "next";
-import { Button, Col, Drawer, Menu, Row, Tooltip, Typography } from "antd";
+import {
+  Button,
+  Col,
+  Drawer,
+  List,
+  Menu,
+  Row,
+  Tooltip,
+  Typography,
+} from "antd";
 import { useBoolean } from "ahooks";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import _ from "lodash";
+import lf from "localforage";
 
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
-import { MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined, MessageOutlined } from "@ant-design/icons";
 import useTranslations from "@/queries/useTranslations";
 import useRecitations from "@/queries/useRecitations";
 import useTafsirs from "@/queries/useTafsirs";
 import useLanguages from "@/queries/useLanguages";
 import useChapters from "@/queries/useChapters";
+import useVersesArabic from "@/queries/useVersesArabic";
+import useVersesTranslation from "@/queries/useVersesTranslation";
+import useVersesTafsir from "@/queries/useVersesTafsir";
+import Verse from "@/components/Verse";
+import Fave from "@/components/Fave";
+import config from "@/utils/config";
 
 interface Props {}
 
@@ -27,6 +44,17 @@ const ChapterPage: NextPage<Props> = ({}) => {
     { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer },
   ] = useBoolean(false);
 
+  const [settings, setSettings] = useState<ReaderSettings>();
+
+  React.useEffect(() => {
+    lf.getItem("reader-settings").then((settings) => {
+      // TODO: validate object somehow
+      const defaultSettings = config.defaultReaderSettings;
+      setSettings((settings as ReaderSettings) || defaultSettings);
+    });
+  }, []);
+
+  // resources
   const {
     data: translations,
     isLoading: translationsLoading,
@@ -35,6 +63,79 @@ const ChapterPage: NextPage<Props> = ({}) => {
   const { data: recitations, isLoading: recitationsLoading } = useRecitations();
   const { data: languages, isLoading: languagesLoading } = useLanguages();
   const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
+
+  const currentChapter = chaptersData?.chapters.find(
+    (c) => c.id === chapterNumber,
+  );
+
+  const contentTypes = settings ? [...settings.left, ...settings.right] : [];
+  const arabicContentTypes = contentTypes.filter(
+    (c) => c.content?.[0] === "translation" && c.content[1] === "ar",
+  );
+  const translationContentTypes = contentTypes.filter(
+    (c) => c.content?.[0] === "translation" && c.content[1] !== "ar",
+  );
+  const tafsirContentTypes = contentTypes.filter(
+    (c) => c.content?.[0] === "tafsir",
+  );
+
+  const shouldFetchContent = (content: VerseLayoutItem) => {
+    return settings != null && contentTypes.includes(content);
+  };
+
+  // data
+  const arabicScriptsResults = useVersesArabic(
+    arabicContentTypes.map((c) => (c.content as ArabicScript[])[2]),
+    chapterNumber,
+    { enabled: settings != null },
+  );
+  const translationResults = useVersesTranslation(
+    translationContentTypes.map((c) => (c.content as number[])[2]),
+    chapterNumber,
+    { enabled: settings != null },
+  );
+  const tafsirResults = useVersesTafsir(
+    tafsirContentTypes.map((c) => (c.content as number[])[2]),
+    chapterNumber,
+    { enabled: settings != null },
+  );
+
+  if (
+    settings == null ||
+    arabicScriptsResults.some((r) => r.isLoading) ||
+    translationResults.some((r) => r.isLoading) ||
+    tafsirResults.some((r) => r.isLoading)
+  ) {
+    return <Loader showRandomMessage />;
+  }
+
+  const mapContent = (c) => {
+    if (c.content?.[0] === "translation" && c.content[1] === "ar") {
+      const i = arabicContentTypes.findIndex(
+        (t) => t.content?.[2] === c.content?.[2],
+      );
+      return arabicScriptsResults[i];
+    } else if (c.content?.[0] === "translation" && c.content[1] !== "ar") {
+      const i = translationContentTypes.findIndex(
+        (t) => t.content?.[2] === c.content?.[2],
+      );
+      return translationResults[i];
+    } else if (c.content?.[0] === "tafsir") {
+      const i = tafsirContentTypes.findIndex(
+        (t) => t.content?.[2] === c.content?.[2],
+      );
+      return tafsirResults[i];
+    }
+    return null;
+  };
+  const leftContent = settings ? settings.left.map(mapContent) : [];
+  const rightContent = settings ? settings.right.map(mapContent) : [];
+  const verseList = _.range(currentChapter?.verses_count as number).map((i) => {
+    return {
+      left: leftContent.map((c) => c?.data?.[i]),
+      right: rightContent.map((c) => c?.data?.[i]),
+    };
+  });
 
   if (
     translationsLoading ||
@@ -49,9 +150,7 @@ const ChapterPage: NextPage<Props> = ({}) => {
       </BasicLayout>
     );
   }
-  const currentChapter = chaptersData?.chapters.find(
-    (c) => c.id === chapterNumber,
-  );
+
   return (
     <BasicLayout noPadding pageTitle={currentChapter?.name_simple}>
       <Drawer
@@ -97,7 +196,29 @@ const ChapterPage: NextPage<Props> = ({}) => {
       </div>
       <Row className="mt-16 py-9" justify="center">
         <Col span={22}>
-          <div className="h-screen">Content</div>
+          <List
+            itemLayout="vertical"
+            dataSource={verseList}
+            renderItem={(item, i) => (
+              <List.Item
+                key={[...item.left, ...item.right]?.[0]?.[0]?.id}
+                actions={[
+                  <Fave
+                    faved={false}
+                    chapterNumber={chapterNumber}
+                    verseNumber={i + 1}
+                  />,
+                  <Button type="text">
+                    <MessageOutlined />
+                  </Button>,
+                ]}
+              >
+                <div className="w-full">
+                  <Verse number={i + 1} left={item.left} right={item.right} />
+                </div>
+              </List.Item>
+            )}
+          />
         </Col>
       </Row>
     </BasicLayout>

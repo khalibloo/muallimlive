@@ -5,6 +5,17 @@ if (process.env.NODE_ENV === "production") {
   console.warn = () => {};
   console.error = () => {};
 }
+const defaultSettings: ReaderSettings = {
+  splitView: true,
+  left: [
+    { content: ["translation", "en", 22] },
+    // { content: ["tafsir", "en", 169] },
+  ],
+  right: [
+    { content: ["translation", "ar", "uthmani"] },
+    { content: ["translation", "en", 57] },
+  ],
+};
 
 export default {
   env: appEnv,
@@ -13,4 +24,5 @@ export default {
   gtmEnabled: Boolean(process.env.NEXT_PUBLIC_GTM_CODE),
   gtmCode: process.env.NEXT_PUBLIC_GTM_CODE,
   staleTime: 30 * 86400 * 1000, // 30 days
+  defaultReaderSettings: defaultSettings,
 };

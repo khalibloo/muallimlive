@@ -49,7 +49,7 @@ interface Chapter extends TranslatedEntity {
   pages: number[];
 }
 
-interface Verse extends BaseEntity {
+interface VerseInfo extends BaseEntity {
   verse_number: number;
   verse_key: string;
   juz_number: number;
@@ -94,3 +94,20 @@ interface VerseImlaeiSimple extends VerseContent {
 interface VerseRecitation extends VerseContent {
   url: string;
 }
+
+type Verse =
+  | VerseText
+  | VerseIndopak
+  | VerseImlaei
+  | VerseImlaeiSimple
+  | VerseUthmani
+  | VerseUthmaniSimple
+  | VerseUthmaniTajweed;
+
+type ArabicScript =
+  | "uthmani"
+  | "uthmani_simple"
+  | "uthmani_tajweed"
+  | "imlaei"
+  | "imlaei_simple"
+  | "indopak";
