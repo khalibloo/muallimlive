@@ -12,7 +12,7 @@ const defaultSettings: ReaderSettings = {
     { content: ["tafsir", "en", 169] },
   ],
   right: [
-    { content: ["translation", "ar", "uthmani"] },
+    { content: ["translation", "ar", "indopak"] },
     { content: ["translation", "en", 57] },
   ],
 };
