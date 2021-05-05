@@ -19,7 +19,7 @@ import lf from "localforage";
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
-import { MenuOutlined, MessageOutlined } from "@ant-design/icons";
+import { FormOutlined, MenuOutlined } from "@ant-design/icons";
 import useTranslations from "@/queries/useTranslations";
 import useRecitations from "@/queries/useRecitations";
 import useTafsirs from "@/queries/useTafsirs";
@@ -34,7 +34,7 @@ import config from "@/utils/config";
 
 interface Props {}
 
-const ChapterPage: NextPage<Props> = ({}) => {
+const ChapterPage: NextPage<Props> = () => {
   const router = useRouter();
   const q = router.query;
   const id = q.id as string;
@@ -79,10 +79,6 @@ const ChapterPage: NextPage<Props> = ({}) => {
     (c) => c.content?.[0] === "tafsir",
   );
 
-  const shouldFetchContent = (content: VerseLayoutItem) => {
-    return settings != null && contentTypes.includes(content);
-  };
-
   // data
   const arabicScriptsResults = useVersesArabic(
     arabicContentTypes.map((c) => (c.content as ArabicScript[])[2]),
@@ -104,9 +100,18 @@ const ChapterPage: NextPage<Props> = ({}) => {
     settings == null ||
     arabicScriptsResults.some((r) => r.isLoading) ||
     translationResults.some((r) => r.isLoading) ||
-    tafsirResults.some((r) => r.isLoading)
+    tafsirResults.some((r) => r.isLoading) ||
+    translationsLoading ||
+    tafsirsLoading ||
+    recitationsLoading ||
+    languagesLoading ||
+    chaptersLoading
   ) {
-    return <Loader showRandomMessage />;
+    return (
+      <BasicLayout pageTitle="">
+        <Loader showRandomMessage />
+      </BasicLayout>
+    );
   }
 
   const mapContent = (c) => {
@@ -130,26 +135,15 @@ const ChapterPage: NextPage<Props> = ({}) => {
   };
   const leftContent = settings ? settings.left.map(mapContent) : [];
   const rightContent = settings ? settings.right.map(mapContent) : [];
-  const verseList = _.range(currentChapter?.verses_count as number).map((i) => {
-    return {
-      left: leftContent.map((c) => c?.data?.[i]),
-      right: rightContent.map((c) => c?.data?.[i]),
-    };
-  });
 
-  if (
-    translationsLoading ||
-    tafsirsLoading ||
-    recitationsLoading ||
-    languagesLoading ||
-    chaptersLoading
-  ) {
-    return (
-      <BasicLayout pageTitle="">
-        <Loader showRandomMessage />
-      </BasicLayout>
-    );
-  }
+  const verseList: { left: VerseText[]; right: VerseText }[] = [];
+  _.range(currentChapter?.verses_count as number).forEach((i) => {
+    const l = leftContent.map((c) => c?.data?.[i]);
+    const r = rightContent.map((c) => c?.data?.[i]);
+    if (![...l, ...r].includes(undefined)) {
+      verseList.push({ left: l, right: r });
+    }
+  });
 
   return (
     <BasicLayout noPadding pageTitle={currentChapter?.name_simple}>
@@ -162,18 +156,24 @@ const ChapterPage: NextPage<Props> = ({}) => {
       >
         <Menu theme="dark" selectedKeys={[id]} mode="inline">
           {chaptersData?.chapters.map((chapter) => (
-            <Menu.Item key={chapter.id} style={{ textAlign: "left" }}>
+            <Menu.Item
+              key={chapter.id}
+              style={{ textAlign: "left" }}
+              onClick={() => closeChaptersDrawer()}
+            >
               <Link href={`/chapters/${chapter.id}`}>
-                <Tooltip
-                  overlayClassName="capitalize"
-                  title={chapter.translated_name.name}
-                  placement="right"
-                >
-                  <Typography.Text className="capitalize">
-                    <span className="mr-3">{chapter.id}</span>
-                    {chapter.name_simple}
-                  </Typography.Text>
-                </Tooltip>
+                <a>
+                  <Tooltip
+                    overlayClassName="capitalize"
+                    title={chapter.translated_name.name}
+                    placement="right"
+                  >
+                    <Typography.Text className="capitalize">
+                      <span className="mr-3">{chapter.id}</span>
+                      {chapter.name_simple}
+                    </Typography.Text>
+                  </Tooltip>
+                </a>
               </Link>
             </Menu.Item>
           ))}
@@ -208,9 +208,11 @@ const ChapterPage: NextPage<Props> = ({}) => {
                     chapterNumber={chapterNumber}
                     verseNumber={i + 1}
                   />,
-                  <Button type="text">
-                    <MessageOutlined />
-                  </Button>,
+                  <Tooltip title="View Notes">
+                    <Button type="text">
+                      <FormOutlined />
+                    </Button>
+                  </Tooltip>,
                 ]}
               >
                 <div className="w-full">

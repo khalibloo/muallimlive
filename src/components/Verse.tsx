@@ -15,9 +15,12 @@ const Verse: React.FC<Props> = ({ number, left, right, faved }) => {
   const rightColSpan = split && left.length > 0 ? 12 : 24;
 
   return (
-    <Row gutter={24} className="mt-6 w-full">
+    <Row gutter={24} className="mt-6 w-full items-stretch">
       {left.length > 0 && (
-        <Col span={leftColSpan}>
+        <Col
+          span={leftColSpan}
+          style={{ borderRight: split ? "1px solid #666" : undefined }}
+        >
           <div className="flex gap-2">
             <div>{number})</div>
             <div className="flex-grow">
