@@ -1,12 +1,10 @@
 import React from "react";
 import { NextPage } from "next";
-import { Card, Col, Input, Row, Typography } from "antd";
+import { Card, Col, Row, Typography } from "antd";
 import { connect } from "react-redux";
 import { RootState } from "@/utils/store";
 
-import usePosts from "@/queries/usePosts";
 import BasicLayout from "@/layouts/BasicLayout";
-import Loader from "@/components/Loader";
 import Link from "next/link";
 
 interface Props {
@@ -20,17 +18,7 @@ const mapState = (state: RootState) => ({
 //     increment: () => dispatch.auth.increment(1),
 //     incrementAsync: () => dispatch.auth.incrementAsync(1),
 // })
-const Home: NextPage<Props> = ({ authenticated }) => {
-  const { data, isError, isLoading } = usePosts();
-
-  if (isLoading) {
-    return (
-      <BasicLayout pageTitle="Privacy Policy">
-        <Loader showRandomMessage />
-      </BasicLayout>
-    );
-  }
-
+const Home: NextPage<Props> = () => {
   return (
     <BasicLayout pageTitle="Home">
       {/* <Row justify="center" className="mb-9">
