@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { Row, Col, Form, Switch, Typography, Cascader, Button } from "antd";
+import {
+  Row,
+  Col,
+  Form,
+  Switch,
+  Typography,
+  Cascader,
+  Button,
+  Alert,
+} from "antd";
 import { useForm } from "antd/lib/form/Form";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import _ from "lodash";
@@ -10,11 +19,13 @@ import useLanguages from "@/queries/useLanguages";
 import useTafsirs from "@/queries/useTafsirs";
 import Loader from "./Loader";
 import config from "@/utils/config";
+import { useResponsive } from "ahooks";
 
 interface Props {
   onSubmit?: () => void;
 }
 const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
+  const responsive = useResponsive();
   const [form] = useForm();
   const [useSplitView, setUseSplitView] = useState(false);
   const [settings, setSettings] = useState<ReaderSettings>();
@@ -154,7 +165,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   const paneFields = (fields, { add, remove }) => (
     <>
       {fields.map(({ key, name, fieldKey, ...restField }) => (
-        <Row key={key} className="mb-2" gutter={16}>
+        <Row key={key} className="mb-2 flex-nowrap" gutter={16}>
           <Col className="flex-grow">
             <Form.Item
               {...restField}
@@ -197,6 +208,19 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
 
   return (
     <Form form={form} onFinish={handleSubmit} initialValues={settings}>
+      <Alert
+        type="info"
+        message="Split view allows you to have content on right and left sides of your screen"
+        showIcon
+      />
+      {useSplitView && !responsive.md && (
+        <Alert
+          className="mt-2"
+          type="warning"
+          message="Right and left panes are merged if on a mobile screen"
+          showIcon
+        />
+      )}
       <Form.Item name="splitView" label="Use Spit View" valuePropName="checked">
         <Switch
           checked={useSplitView}
@@ -204,11 +228,11 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
         />
       </Form.Item>
       <Row gutter={24}>
-        <Col span={useSplitView ? 12 : 24}>
+        <Col span={useSplitView && responsive.md ? 12 : 24}>
           {useSplitView && <Typography.Text strong>Left Pane</Typography.Text>}
           <Form.List name="left">{paneFields}</Form.List>
         </Col>
-        <Col span={useSplitView ? 12 : 0}>
+        <Col span={useSplitView ? (responsive.md ? 12 : 24) : 0}>
           <Typography.Text strong>Right Pane</Typography.Text>
           <Form.List name="right">{paneFields}</Form.List>
         </Col>
