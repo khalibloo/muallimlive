@@ -12,16 +12,17 @@ import {
 import { GlobalOutlined, SettingOutlined } from "@ant-design/icons";
 
 import Link from "next/link";
-import { useBoolean } from "ahooks";
+import { useBoolean, useResponsive } from "ahooks";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 
 interface Props {}
 const NavBar: React.FC<Props> = () => {
+  const responsive = useResponsive();
   const [
     settingsModalOpen,
     { setTrue: openSettingsModal, setFalse: closeSettingsModal },
   ] = useBoolean(false);
-  const [settingsTab, setSettingsTab] = useState("reader");
+  const [settingsTab, setSettingsTab] = useState("display");
 
   const langMenu = (
     <Menu onClick={(item) => {}}>
@@ -37,11 +38,18 @@ const NavBar: React.FC<Props> = () => {
         setSettingsTab(item.key);
       }}
     >
-      <Menu.Item key="reader">Reader Settings</Menu.Item>
+      <Menu.Item key="display">Display Settings</Menu.Item>
       <Menu.Item key="storage">Offline Storage</Menu.Item>
       <Menu.Item key="sync">Sync Settings</Menu.Item>
     </Menu>
   );
+
+  let modalWidth;
+  if (responsive?.lg) {
+    modalWidth = "60%";
+  } else if (responsive?.md) {
+    modalWidth = "90%";
+  }
 
   return (
     <>
@@ -50,20 +58,20 @@ const NavBar: React.FC<Props> = () => {
         maskClosable={false}
         footer={null}
         onCancel={closeSettingsModal}
-        width={"60%"}
+        width={modalWidth}
       >
         <Tabs activeKey={settingsTab} onChange={setSettingsTab}>
-          <Tabs.TabPane key="reader" tab="Reader Settings">
+          <Tabs.TabPane key="display" tab="Display">
             <ReaderSettingsForm
               onSubmit={() => {
                 notification.success({ message: "Changes Saved Successfully" });
               }}
             />
           </Tabs.TabPane>
-          <Tabs.TabPane key="storage" tab="Offline Storage">
+          <Tabs.TabPane key="storage" tab="Storage">
             <span>Coming soon</span>
           </Tabs.TabPane>
-          <Tabs.TabPane key="sync" tab="Sync Settings">
+          <Tabs.TabPane key="sync" tab="Sync">
             <span>Coming soon</span>
           </Tabs.TabPane>
         </Tabs>

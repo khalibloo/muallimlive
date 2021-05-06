@@ -10,7 +10,8 @@ import {
   Tooltip,
   Typography,
 } from "antd";
-import { useBoolean } from "ahooks";
+import { useBoolean, useResponsive } from "ahooks";
+import clx from "classnames";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import _ from "lodash";
@@ -35,6 +36,7 @@ import config from "@/utils/config";
 interface Props {}
 
 const ChapterPage: NextPage<Props> = () => {
+  const responsive = useResponsive();
   const router = useRouter();
   const q = router.query;
   const id = q.id as string;
@@ -180,21 +182,33 @@ const ChapterPage: NextPage<Props> = () => {
         </Menu>
       </Drawer>
       <div className="fixed shadow-md bg-444 w-full z-10">
-        <div className="relative h-full py-4">
-          <Button
-            className="absolute left-0 top-0 h-full border-none rounded-none"
-            onClick={openChaptersDrawer}
-            icon={<MenuOutlined className="text-xl" />}
-          >
-            Chapters
-          </Button>
-          <Typography.Title level={4} className="capitalize text-center m-0">
-            {currentChapter?.name_simple} -{" "}
-            {currentChapter?.translated_name.name}
-          </Typography.Title>
+        <div className="flex items-stretch">
+          <div>
+            <Button
+              className={clx("h-full border-none rounded-none", {
+                "px-3": !responsive.md,
+              })}
+              onClick={openChaptersDrawer}
+            >
+              <MenuOutlined className="text-xl" />
+              {responsive.md && "Chapters"}
+            </Button>
+          </div>
+          <div className="flex-grow p-3 text-center">
+            <Typography.Text
+              ellipsis={{
+                tooltip: `${currentChapter?.name_simple} - ${currentChapter?.translated_name.name}`,
+              }}
+              className="capitalize text-lg"
+              strong={responsive.md}
+            >
+              {currentChapter?.name_simple} -{" "}
+              {currentChapter?.translated_name.name}
+            </Typography.Text>
+          </div>
         </div>
       </div>
-      <Row className="mt-16 py-9" justify="center">
+      <Row className="mt-13 py-6" justify="center">
         <Col span={22}>
           <List
             itemLayout="vertical"

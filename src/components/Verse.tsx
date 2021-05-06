@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Typography, List } from "antd";
 import clx from "classnames";
+import { useResponsive } from "ahooks";
 
 interface Props {
   number: number;
@@ -11,6 +12,7 @@ interface Props {
 }
 
 const Verse: React.FC<Props> = ({ number, left, right, faved }) => {
+  const responsive = useResponsive();
   const split = left.length > 0 && right.length > 0;
   const leftColSpan = split && right.length > 0 ? 12 : 24;
   const rightColSpan = split && left.length > 0 ? 12 : 24;
@@ -20,7 +22,11 @@ const Verse: React.FC<Props> = ({ number, left, right, faved }) => {
       {left.length > 0 && (
         <Col
           span={leftColSpan}
-          style={{ borderRight: split ? "1px solid #666" : undefined }}
+          xs={24}
+          md={leftColSpan}
+          style={{
+            borderRight: split && responsive.md ? "1px solid #666" : undefined,
+          }}
         >
           <div className="flex gap-2">
             <div>{number})</div>
@@ -52,7 +58,7 @@ const Verse: React.FC<Props> = ({ number, left, right, faved }) => {
         </Col>
       )}
       {right.length > 0 && (
-        <Col span={rightColSpan}>
+        <Col span={rightColSpan} xs={24} md={rightColSpan}>
           <List
             dataSource={right}
             renderItem={(v) => (
