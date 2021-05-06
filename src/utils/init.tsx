@@ -2,6 +2,7 @@ import * as Sentry from "@sentry/browser";
 import config from "@/utils/config";
 import { configResponsive } from "ahooks";
 import { Button, notification } from "antd";
+import "./localforage";
 
 const init = () => {
   // sentry

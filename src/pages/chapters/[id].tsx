@@ -16,16 +16,12 @@ import clx from "classnames";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import _ from "lodash";
-import lf from "localforage";
+import lf from "@/utils/localforage";
 
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
 import { FormOutlined, MenuOutlined } from "@ant-design/icons";
-import useTranslations from "@/queries/useTranslations";
-import useRecitations from "@/queries/useRecitations";
-import useTafsirs from "@/queries/useTafsirs";
-import useLanguages from "@/queries/useLanguages";
 import useChapters from "@/queries/useChapters";
 import useVersesArabic from "@/queries/useVersesArabic";
 import useVersesTranslation from "@/queries/useVersesTranslation";
@@ -50,21 +46,23 @@ const ChapterPage: NextPage<Props> = () => {
   const [settings, setSettings] = useState<ReaderSettings>();
 
   React.useEffect(() => {
-    lf.getItem("reader-settings").then((settings) => {
-      // TODO: validate object somehow
-      const defaultSettings = config.defaultReaderSettings;
-      setSettings((settings as ReaderSettings) || defaultSettings);
+    const defaultSettings = config.defaultReaderSettings;
+    lf.ready().then(() => {
+      lf.getItem("reader-settings").then((settings) => {
+        // TODO: validate object somehow
+        setSettings((settings as ReaderSettings) || defaultSettings);
+      });
+
+      const ob = lf.newObservable({ key: "reader-settings" });
+      ob.subscribe({
+        next: (args) => {
+          setSettings(args.newValue || defaultSettings);
+        },
+      });
     });
   }, []);
 
   // resources
-  const {
-    data: translations,
-    isLoading: translationsLoading,
-  } = useTranslations();
-  const { data: tafsirs, isLoading: tafsirsLoading } = useTafsirs();
-  const { data: recitations, isLoading: recitationsLoading } = useRecitations();
-  const { data: languages, isLoading: languagesLoading } = useLanguages();
   const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
 
   const currentChapter = chaptersData?.chapters.find(
@@ -104,10 +102,6 @@ const ChapterPage: NextPage<Props> = () => {
     arabicScriptsResults.some((r) => r.isLoading) ||
     translationResults.some((r) => r.isLoading) ||
     tafsirResults.some((r) => r.isLoading) ||
-    translationsLoading ||
-    tafsirsLoading ||
-    recitationsLoading ||
-    languagesLoading ||
     chaptersLoading
   ) {
     return (
@@ -139,7 +133,7 @@ const ChapterPage: NextPage<Props> = () => {
   const leftContent = settings ? settings.left.map(mapContent) : [];
   const rightContent = settings ? settings.right.map(mapContent) : [];
 
-  const verseList: { left: VerseText[]; right: VerseText }[] = [];
+  const verseList: { left: VerseText[]; right: VerseText[] }[] = [];
   _.range(currentChapter?.verses_count as number).forEach((i) => {
     const l = leftContent.map((c) => c?.data?.[i]);
     const r = rightContent.map((c) => c?.data?.[i]);
