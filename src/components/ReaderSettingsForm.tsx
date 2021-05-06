@@ -12,7 +12,7 @@ import {
 import { useForm } from "antd/lib/form/Form";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import _ from "lodash";
-import lf from "localforage";
+import lf from "@/utils/localforage";
 
 import useTranslations from "@/queries/useTranslations";
 import useLanguages from "@/queries/useLanguages";

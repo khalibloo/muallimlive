@@ -7,11 +7,10 @@ interface Props {
   number: number;
   left: VerseText[];
   right: VerseText[];
-  faved: boolean;
   noBottomBorder?: boolean;
 }
 
-const Verse: React.FC<Props> = ({ number, left, right, faved }) => {
+const Verse: React.FC<Props> = ({ number, left, right }) => {
   const responsive = useResponsive();
   const split = left.length > 0 && right.length > 0;
   const leftColSpan = split && right.length > 0 ? 12 : 24;
