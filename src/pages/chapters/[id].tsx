@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NextPage } from "next";
 import {
+  BackTop,
   Button,
   Col,
   Drawer,
@@ -149,6 +150,7 @@ const ChapterPage: NextPage<Props> = () => {
 
   return (
     <BasicLayout noPadding pageTitle={currentChapter?.name_simple}>
+      <BackTop />
       <Drawer
         placement="left"
         closable={false}
