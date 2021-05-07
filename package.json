@@ -22,7 +22,7 @@
     "js-md5": "^0.7.3",
     "localforage": "^1.9.0",
     "localforage-observable": "^2.1.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "next": "10.0.6",
     "next-pwa": "^5.0.5",
     "react": "17.0.1",
@@ -31,6 +31,7 @@
     "react-query": "^3.8.2",
     "react-redux": "^7.2.2",
     "react-responsive": "^8.2.0",
+    "react-visibility-sensor": "^5.1.1",
     "redux": "^4.0.5",
     "rxjs": "^7.0.0",
     "tailwindcss": "^2.0.2"
