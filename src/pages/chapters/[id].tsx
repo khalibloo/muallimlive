@@ -65,9 +65,9 @@ const ChapterPage: NextPage<Props> = () => {
   // resources
   const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
 
-  const currentChapter = chaptersData?.chapters.find(
+  const currentChapter: Chapter = chaptersData?.chapters.find(
     (c) => c.id === chapterNumber,
-  );
+  ) as Chapter;
 
   const contentTypes = settings ? [...settings.left, ...settings.right] : [];
   const arabicContentTypes = contentTypes.filter(
@@ -97,15 +97,39 @@ const ChapterPage: NextPage<Props> = () => {
     { enabled: settings != null },
   );
 
-  if (
+  const isFinishedLoading = !(
     settings == null ||
     arabicScriptsResults.some((r) => r.isLoading) ||
     translationResults.some((r) => r.isLoading) ||
     tafsirResults.some((r) => r.isLoading) ||
     chaptersLoading
-  ) {
+  );
+
+  // restore progress
+  React.useEffect(() => {
+    if (currentChapter && isFinishedLoading) {
+      const key = `progress-surah-${chapterNumber}`;
+      lf.ready().then(() => {
+        lf.getItem(key).then((progress) => {
+          // validation
+          if (
+            typeof progress === "number" &&
+            progress > 0 &&
+            progress <= currentChapter.verses_count
+          ) {
+            const v = document.getElementById(`v-${progress}`);
+            if (v) {
+              v.scrollIntoView({ behavior: "smooth" });
+            }
+          }
+        });
+      });
+    }
+  }, [currentChapter, isFinishedLoading]);
+
+  if (!isFinishedLoading) {
     return (
-      <BasicLayout pageTitle="">
+      <BasicLayout pageTitle={currentChapter?.name_simple}>
         <Loader showRandomMessage />
       </BasicLayout>
     );
@@ -134,16 +158,16 @@ const ChapterPage: NextPage<Props> = () => {
   const rightContent = settings ? settings.right.map(mapContent) : [];
 
   const verseList: { left: VerseText[]; right: VerseText[] }[] = [];
-  _.range(currentChapter?.verses_count as number).forEach((i) => {
+  _.range(currentChapter.verses_count).forEach((i) => {
     const l = leftContent.map((c) => c?.data?.[i]);
     const r = rightContent.map((c) => c?.data?.[i]);
     if (![...l, ...r].includes(undefined)) {
-      verseList.push({ left: l, right: r });
+      verseList.push({ left: l as VerseText[], right: r as VerseText[] });
     }
   });
 
   return (
-    <BasicLayout noPadding pageTitle={currentChapter?.name_simple}>
+    <BasicLayout noPadding pageTitle={currentChapter.name_simple}>
       <BackTop />
       <Drawer
         placement="left"
@@ -193,13 +217,13 @@ const ChapterPage: NextPage<Props> = () => {
           <div className="flex-grow p-3 text-center">
             <Typography.Text
               ellipsis={{
-                tooltip: `${currentChapter?.name_simple} - ${currentChapter?.translated_name.name}`,
+                tooltip: `${currentChapter.name_simple} - ${currentChapter.translated_name.name}`,
               }}
               className="capitalize text-lg"
               strong={responsive.md}
             >
-              {currentChapter?.name_simple} -{" "}
-              {currentChapter?.translated_name.name}
+              {currentChapter.name_simple} -{" "}
+              {currentChapter.translated_name.name}
             </Typography.Text>
           </div>
         </div>
@@ -226,7 +250,13 @@ const ChapterPage: NextPage<Props> = () => {
                 ]}
               >
                 <div className="w-full">
-                  <Verse number={i + 1} left={item.left} right={item.right} />
+                  <Verse
+                    verseNumber={i + 1}
+                    chapterNumber={chapterNumber}
+                    totalVerses={currentChapter.verses_count}
+                    left={item.left}
+                    right={item.right}
+                  />
                 </div>
               </List.Item>
             )}
