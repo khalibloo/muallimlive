@@ -34,9 +34,9 @@ interface Props {}
 
 const ChapterPage: NextPage<Props> = () => {
   const responsive = useResponsive();
-  const router = useRouter();
-  const q = router.query;
-  const id = q.id as string;
+  const {
+    query: { id },
+  } = useRouter();
   const chapterNumber = parseInt(id, 10);
   const [
     chaptersDrawerOpen,
@@ -44,6 +44,7 @@ const ChapterPage: NextPage<Props> = () => {
   ] = useBoolean(false);
 
   const [settings, setSettings] = useState<ReaderSettings>();
+  const [faves, setFaves] = useState<string[]>([]);
 
   React.useEffect(() => {
     const defaultSettings = config.defaultReaderSettings;
@@ -53,7 +54,16 @@ const ChapterPage: NextPage<Props> = () => {
         setSettings((settings as ReaderSettings) || defaultSettings);
       });
 
-      const ob = lf.newObservable({ key: "reader-settings" });
+      // sync localforage across tabs
+      lf.configObservables({
+        crossTabNotification: true,
+        crossTabChangeDetection: true,
+      });
+      const ob = lf.newObservable({
+        key: "reader-settings",
+        crossTabNotification: true,
+      });
+
       ob.subscribe({
         next: (args) => {
           setSettings(args.newValue || defaultSettings);
@@ -104,6 +114,38 @@ const ChapterPage: NextPage<Props> = () => {
     tafsirResults.some((r) => r.isLoading) ||
     chaptersLoading
   );
+
+  React.useEffect(() => {
+    lf.ready().then(() => {
+      lf.getItem("faves-quran").then((favesData) => {
+        if (typeof favesData?.length === "number") {
+          const surahFaves = favesData.filter((f) =>
+            f.startsWith(`${chapterNumber}:`),
+          );
+          setFaves(surahFaves);
+        }
+      });
+
+      // sync localforage across tabs
+      lf.configObservables({
+        crossTabNotification: true,
+        crossTabChangeDetection: true,
+      });
+      const ob = lf.newObservable({
+        key: "faves-quran",
+        crossTabNotification: true,
+      });
+
+      ob.subscribe({
+        next: (args) => {
+          const surahFaves = args.newValue.filter((f) =>
+            f.startsWith(`${chapterNumber}:`),
+          );
+          setFaves(surahFaves);
+        },
+      });
+    });
+  }, [chapterNumber]);
 
   // restore progress
   React.useEffect(() => {
@@ -238,7 +280,7 @@ const ChapterPage: NextPage<Props> = () => {
                 key={[...item.left, ...item.right]?.[0]?.[0]?.id}
                 actions={[
                   <Fave
-                    faved={false}
+                    faved={faves.includes(`${chapterNumber}:${i + 1}`)}
                     chapterNumber={chapterNumber}
                     verseNumber={i + 1}
                   />,
