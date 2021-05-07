@@ -1,19 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AppProps } from "next/app";
 import { Provider } from "react-redux";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClientProvider } from "react-query";
 
 import { store } from "@/utils/store";
 
 import "@/styles/global.css";
 import Head from "next/head";
 import config from "@/utils/config";
+import { queryClient } from "@/utils/request";
+import init from "@/utils/init";
 require("@/styles/global.less");
-
-const queryClient = new QueryClient();
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   const origin = typeof window !== "undefined" ? window.location.origin : "";
+
+  useEffect(() => {
+    init();
+  }, []);
+
   return (
     <Provider store={store}>
       <QueryClientProvider client={queryClient}>
