@@ -21,7 +21,7 @@ import lf from "@/utils/localforage";
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
-import { FormOutlined, MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 import useChapters from "@/queries/useChapters";
 import useVersesArabic from "@/queries/useVersesArabic";
 import useVersesTranslation from "@/queries/useVersesTranslation";
@@ -29,6 +29,7 @@ import useVersesTafsir from "@/queries/useVersesTafsir";
 import Verse from "@/components/Verse";
 import Fave from "@/components/Fave";
 import config from "@/utils/config";
+import Notes from "@/components/Notes";
 
 interface Props {}
 
@@ -284,11 +285,7 @@ const ChapterPage: NextPage<Props> = () => {
                     chapterNumber={chapterNumber}
                     verseNumber={i + 1}
                   />,
-                  <Tooltip title="View Notes - coming soon">
-                    <Button type="text">
-                      <FormOutlined />
-                    </Button>
-                  </Tooltip>,
+                  <Notes chapterNumber={chapterNumber} verseNumber={i + 1} />,
                 ]}
               >
                 <div className="w-full">
