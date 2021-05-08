@@ -70,7 +70,10 @@ const Verse: React.FC<Props> = ({
                           />
                         ) : (
                           <Typography.Text
-                            className={clx({ "text-lg": v.isBold })}
+                            className={clx({
+                              "text-lg": v.isBold && !v.isArabic,
+                              "text-2xl": v.isArabic,
+                            })}
                             strong={v.isBold}
                           >
                             {v.text}
@@ -90,7 +93,7 @@ const Verse: React.FC<Props> = ({
               dataSource={right}
               renderItem={(v) => (
                 <List.Item key={v.id}>
-                  <div>
+                  <div className={clx("w-full", { "text-right": v.isArabic })}>
                     {v.isHTML ? (
                       <div
                         className="font-light"
@@ -98,7 +101,10 @@ const Verse: React.FC<Props> = ({
                       />
                     ) : (
                       <Typography.Text
-                        className={clx({ "text-lg": v.isBold })}
+                        className={clx({
+                          "text-lg": v.isBold && !v.isArabic,
+                          "text-3xl": v.isArabic,
+                        })}
                         strong={v.isBold}
                       >
                         {v.text}
