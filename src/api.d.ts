@@ -67,6 +67,7 @@ interface VerseText extends VerseContent {
   text: string;
   isHTML?: boolean;
   isBold?: boolean;
+  isArabic?: boolean;
 }
 
 interface VerseIndopak extends VerseContent {
