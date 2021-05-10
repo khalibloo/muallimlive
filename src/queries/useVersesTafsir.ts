@@ -16,6 +16,7 @@ const getVersesTafsir = async (tafsirId: number, chapterNumber?: number) => {
   return data.tafsirs.map((t) => ({
     id: t.resource_id,
     isHTML: true,
+    isTafsir: true,
     text: dompurify.sanitize(t.text),
   }));
 };

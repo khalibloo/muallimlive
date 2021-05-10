@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === "production") {
   console.warn = () => {};
   console.error = () => {};
 }
-const defaultSettings: ReaderSettings = {
+const defaultReaderSettings: ReaderSettings = {
   splitView: true,
   left: [
     { content: ["translation", "en", 22] },
@@ -17,12 +17,19 @@ const defaultSettings: ReaderSettings = {
   ],
 };
 
+const defaultPlaySettings: PlaySettings = {
+  reciter: 1,
+  hideTafsirs: true,
+};
+
 export default {
   env: appEnv,
   apiUri: process.env.NEXT_PUBLIC_API_URI,
+  apiMediaUri: process.env.NEXT_PUBLIC_API_MEDIA_URI,
   sentryDSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   gtmEnabled: Boolean(process.env.NEXT_PUBLIC_GTM_CODE),
   gtmCode: process.env.NEXT_PUBLIC_GTM_CODE,
   staleTime: 30 * 86400 * 1000, // 30 days
-  defaultReaderSettings: defaultSettings,
+  defaultReaderSettings,
+  defaultPlaySettings,
 };

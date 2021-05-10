@@ -1,17 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NextPage } from "next";
 import {
   BackTop,
   Button,
   Col,
   Drawer,
+  Grid,
   List,
   Menu,
+  Modal,
+  Popconfirm,
   Row,
   Tooltip,
   Typography,
 } from "antd";
-import { useBoolean, useResponsive } from "ahooks";
+import { useBoolean } from "ahooks";
 import clx from "classnames";
 import { useRouter } from "next/router";
 import Link from "next/link";
@@ -21,7 +24,11 @@ import lf from "@/utils/localforage";
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
-import { MenuOutlined } from "@ant-design/icons";
+import {
+  MenuOutlined,
+  PlayCircleFilled,
+  ReadOutlined,
+} from "@ant-design/icons";
 import useChapters from "@/queries/useChapters";
 import useVersesArabic from "@/queries/useVersesArabic";
 import useVersesTranslation from "@/queries/useVersesTranslation";
@@ -30,22 +37,33 @@ import Verse from "@/components/Verse";
 import Fave from "@/components/Fave";
 import config from "@/utils/config";
 import Notes from "@/components/Notes";
+import PlayForm, { PlayConfig } from "@/components/PlayForm";
+import AudioBar from "@/components/AudioBar";
+import useVersesRecitation from "@/queries/useVersesRecitation";
 
 interface Props {}
 
 const ChapterPage: NextPage<Props> = () => {
-  const responsive = useResponsive();
+  const responsive = Grid.useBreakpoint();
   const {
     query: { id },
   } = useRouter();
   const chapterNumber = parseInt(id, 10);
+  const [readerMode, setReaderMode] = useState<"reading" | "recitation">(
+    "reading",
+  );
   const [
     chaptersDrawerOpen,
     { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer },
   ] = useBoolean(false);
+  const [
+    playModalOpen,
+    { setTrue: openPlayModal, setFalse: closePlayModal },
+  ] = useBoolean(false);
 
   const [settings, setSettings] = useState<ReaderSettings>();
   const [faves, setFaves] = useState<string[]>([]);
+  const [playSettings, setPlaySettings] = useState<PlaySettings>();
 
   React.useEffect(() => {
     const defaultSettings = config.defaultReaderSettings;
@@ -107,6 +125,16 @@ const ChapterPage: NextPage<Props> = () => {
     chapterNumber,
     { enabled: settings != null },
   );
+  const {
+    data: recitations,
+    isLoading: recitationsLoading,
+  } = useVersesRecitation(
+    (playSettings as PlaySettings)?.reciter,
+    chapterNumber,
+    {
+      enabled: playSettings != null,
+    },
+  );
 
   const isFinishedLoading = !(
     settings == null ||
@@ -119,8 +147,8 @@ const ChapterPage: NextPage<Props> = () => {
   React.useEffect(() => {
     lf.ready().then(() => {
       lf.getItem("faves-quran").then((favesData) => {
-        if (typeof favesData?.length === "number") {
-          const surahFaves = favesData.filter((f) =>
+        if (typeof (favesData as string[])?.length === "number") {
+          const surahFaves = (favesData as string[]).filter((f) =>
             f.startsWith(`${chapterNumber}:`),
           );
           setFaves(surahFaves);
@@ -146,6 +174,11 @@ const ChapterPage: NextPage<Props> = () => {
         },
       });
     });
+  }, [chapterNumber]);
+
+  // exit recitation mode if chapter changes
+  useEffect(() => {
+    setReaderMode("reading");
   }, [chapterNumber]);
 
   // restore progress
@@ -244,6 +277,21 @@ const ChapterPage: NextPage<Props> = () => {
           ))}
         </Menu>
       </Drawer>
+      <Modal
+        title="Play Options"
+        onCancel={closePlayModal}
+        visible={playModalOpen}
+        footer={null}
+      >
+        <PlayForm
+          verseCount={currentChapter.verses_count}
+          onSubmit={(playSettingsData) => {
+            setReaderMode("recitation");
+            closePlayModal();
+            setPlaySettings(playSettingsData);
+          }}
+        />
+      </Modal>
       <div className="fixed shadow-md bg-444 w-full z-10">
         <div className="flex items-stretch">
           <div>
@@ -269,6 +317,40 @@ const ChapterPage: NextPage<Props> = () => {
               {currentChapter.translated_name.name}
             </Typography.Text>
           </div>
+          {readerMode === "reading" ? (
+            <div>
+              <Button
+                className={clx("h-full border-none rounded-none", {
+                  "px-3": !responsive.md,
+                })}
+                onClick={openPlayModal}
+                type="primary"
+              >
+                <PlayCircleFilled className="text-xl" />
+                {responsive.md && " Recite"}
+              </Button>
+            </div>
+          ) : (
+            <div>
+              <Popconfirm
+                title="Stop recitation?"
+                onConfirm={() => setReaderMode("reading")}
+                okText="Yes"
+                cancelText="No"
+                placement="bottomRight"
+              >
+                <Button
+                  className={clx("h-full border-none rounded-none", {
+                    "px-3": !responsive.md,
+                  })}
+                  type="primary"
+                >
+                  <ReadOutlined className="text-xl" />
+                  {responsive.md && " Read"}
+                </Button>
+              </Popconfirm>
+            </div>
+          )}
         </div>
       </div>
       <Row className="mt-13 py-6" justify="center">
@@ -295,6 +377,9 @@ const ChapterPage: NextPage<Props> = () => {
                     totalVerses={currentChapter.verses_count}
                     left={item.left}
                     right={item.right}
+                    hideTafsirs={
+                      readerMode === "recitation" && playSettings?.hideTafsirs
+                    }
                   />
                 </div>
               </List.Item>
@@ -302,6 +387,25 @@ const ChapterPage: NextPage<Props> = () => {
           />
         </Col>
       </Row>
+      <Drawer
+        placement="bottom"
+        visible={readerMode === "recitation"}
+        mask={false}
+        height={48}
+        closeIcon={false}
+        bodyStyle={{ padding: 0 }}
+      >
+        {recitations && readerMode === "recitation" && (
+          <AudioBar
+            audioUrls={recitations.audio_files.map((a) => {
+              const url = new URL(config.apiMediaUri);
+              url.pathname = a.url;
+              return url.href;
+            })}
+            onOpenSettings={openPlayModal}
+          />
+        )}
+      </Drawer>
     </BasicLayout>
   );
 };
