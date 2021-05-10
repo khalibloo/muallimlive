@@ -27,6 +27,7 @@ import Loader from "@/components/Loader";
 import {
   MenuOutlined,
   PlayCircleFilled,
+  PlayCircleOutlined,
   ReadOutlined,
 } from "@ant-design/icons";
 import useChapters from "@/queries/useChapters";
@@ -395,15 +396,16 @@ const ChapterPage: NextPage<Props> = () => {
         closeIcon={false}
         bodyStyle={{ padding: 0 }}
       >
-        {recitations && readerMode === "recitation" && (
+        {recitations && readerMode === "recitation" && playSettings && (
           <AudioBar
             audioUrls={recitations.audio_files
               .slice(playSettings.start - 1, playSettings.end)
               .map((a) => {
-                const url = new URL(config.apiMediaUri);
+                const url = new URL(config.apiMediaUri as string);
                 url.pathname = a.url;
                 return url.href;
               })}
+            start={playSettings.start}
             onOpenSettings={openPlayModal}
           />
         )}

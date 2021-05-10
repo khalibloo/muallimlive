@@ -13,13 +13,13 @@ import {
   StepForwardOutlined,
   SyncOutlined,
 } from "@ant-design/icons";
-import { useBoolean } from "ahooks";
 
 interface Props {
   audioUrls: string[];
+  start: number;
   onOpenSettings: () => void;
 }
-const AudioBar: React.FC<Props> = ({ audioUrls, onOpenSettings }) => {
+const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
   const [autoScroll, setAutoScroll] = useState(true);
@@ -46,7 +46,9 @@ const AudioBar: React.FC<Props> = ({ audioUrls, onOpenSettings }) => {
     } else {
       setIsPlaying(true);
       if (autoScroll) {
-        const verseEl = document.getElementById(`v-${currentIndex + 2}`);
+        const verseEl = document.getElementById(
+          `v-${currentIndex + 1 + start}`,
+        );
         if (verseEl) {
           window.scrollTo({ top: verseEl.offsetTop - 100, behavior: "smooth" });
         }
