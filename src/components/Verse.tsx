@@ -11,7 +11,7 @@ interface Props {
   totalVerses: number;
   left: VerseText[];
   right: VerseText[];
-  noBottomBorder?: boolean;
+  hideTafsirs?: boolean;
 }
 
 const Verse: React.FC<Props> = ({
@@ -20,6 +20,7 @@ const Verse: React.FC<Props> = ({
   totalVerses,
   left,
   right,
+  hideTafsirs,
 }) => {
   const responsive = useResponsive();
   const split = left.length > 0 && right.length > 0;
@@ -56,10 +57,12 @@ const Verse: React.FC<Props> = ({
             }}
           >
             <div className="flex gap-2">
-              <div>{verseNumber})</div>
+              <div className="py-3">{verseNumber})</div>
               <div className="flex-grow">
                 <List
-                  dataSource={left}
+                  dataSource={
+                    hideTafsirs ? left.filter((v) => !v.isTafsir) : left
+                  }
                   renderItem={(v) => (
                     <List.Item key={v.id}>
                       <div>
@@ -90,7 +93,9 @@ const Verse: React.FC<Props> = ({
         {right.length > 0 && (
           <Col span={rightColSpan} xs={24} md={rightColSpan}>
             <List
-              dataSource={right}
+              dataSource={
+                hideTafsirs ? right.filter((v) => !v.isTafsir) : right
+              }
               renderItem={(v) => (
                 <List.Item key={v.id}>
                   <div className={clx("w-full", { "text-right": v.isArabic })}>

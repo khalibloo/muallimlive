@@ -11,15 +11,15 @@ import {
 } from "antd";
 import { useForm } from "antd/lib/form/Form";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
+import { useResponsive } from "ahooks";
 import _ from "lodash";
-import lf from "@/utils/localforage";
 
+import lf from "@/utils/localforage";
 import useTranslations from "@/queries/useTranslations";
 import useLanguages from "@/queries/useLanguages";
 import useTafsirs from "@/queries/useTafsirs";
 import Loader from "./Loader";
 import config from "@/utils/config";
-import { useResponsive } from "ahooks";
 
 interface Props {
   onSubmit?: () => void;
@@ -171,8 +171,10 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
               {...restField}
               name={[name, "content"]}
               fieldKey={[fieldKey, "content"]}
+              rules={[{ required: true, message: "Please select content" }]}
             >
               <Cascader
+                allowClear={false}
                 options={combinedTypes}
                 showSearch={{ filter: handleCascaderSearch }}
               />
@@ -207,7 +209,12 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   }
 
   return (
-    <Form form={form} onFinish={handleSubmit} initialValues={settings}>
+    <Form
+      form={form}
+      onFinish={handleSubmit}
+      initialValues={settings}
+      requiredMark={false}
+    >
       <Alert
         type="info"
         message="Split view allows you to have content on right and left sides of your screen"
@@ -221,7 +228,11 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
           showIcon
         />
       )}
-      <Form.Item name="splitView" label="Use Spit View" valuePropName="checked">
+      <Form.Item
+        name="splitView"
+        label="Use Split View"
+        valuePropName="checked"
+      >
         <Switch
           checked={useSplitView}
           onChange={(checked) => setUseSplitView(checked)}
@@ -238,11 +249,9 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
         </Col>
       </Row>
       <Row justify="end" className="mt-6">
-        <Form.Item>
-          <Button htmlType="submit" type="primary" size="large">
-            Save Changes
-          </Button>
-        </Form.Item>
+        <Button htmlType="submit" type="primary" size="large">
+          Save Changes
+        </Button>
       </Row>
     </Form>
   );
