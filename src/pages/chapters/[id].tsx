@@ -63,7 +63,7 @@ const ChapterPage: NextPage<Props> = () => {
 
   const [settings, setSettings] = useState<ReaderSettings>();
   const [faves, setFaves] = useState<string[]>([]);
-  const [playSettings, setPlaySettings] = useState<PlaySettings>();
+  const [playSettings, setPlaySettings] = useState<PlayConfig>();
 
   React.useEffect(() => {
     const defaultSettings = config.defaultReaderSettings;
@@ -397,11 +397,13 @@ const ChapterPage: NextPage<Props> = () => {
       >
         {recitations && readerMode === "recitation" && (
           <AudioBar
-            audioUrls={recitations.audio_files.map((a) => {
-              const url = new URL(config.apiMediaUri);
-              url.pathname = a.url;
-              return url.href;
-            })}
+            audioUrls={recitations.audio_files
+              .slice(playSettings.start - 1, playSettings.end)
+              .map((a) => {
+                const url = new URL(config.apiMediaUri);
+                url.pathname = a.url;
+                return url.href;
+              })}
             onOpenSettings={openPlayModal}
           />
         )}
