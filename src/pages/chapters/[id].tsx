@@ -4,23 +4,25 @@ import {
   BackTop,
   Button,
   Col,
+  Divider,
   Drawer,
   Grid,
-  List,
   Menu,
   Modal,
   Popconfirm,
   Row,
+  Space,
   Tooltip,
   Typography,
 } from "antd";
+import { Virtuoso } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clx from "classnames";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import _ from "lodash";
-import lf from "@/utils/localforage";
 
+import lf from "@/utils/localforage";
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
@@ -354,37 +356,55 @@ const ChapterPage: NextPage<Props> = () => {
           )}
         </div>
       </div>
-      <Row className="mt-13 py-6" justify="center">
-        <Col span={22}>
-          <List
-            itemLayout="vertical"
-            dataSource={verseList}
-            renderItem={(item, i) => (
-              <List.Item
-                key={[...item.left, ...item.right]?.[0]?.[0]?.id}
-                actions={[
-                  <Fave
-                    faved={faves.includes(`${chapterNumber}:${i + 1}`)}
-                    chapterNumber={chapterNumber}
-                    verseNumber={i + 1}
-                  />,
-                  <Notes chapterNumber={chapterNumber} verseNumber={i + 1} />,
-                ]}
-              >
-                <div className="w-full">
-                  <Verse
-                    verseNumber={i + 1}
-                    chapterNumber={chapterNumber}
-                    totalVerses={currentChapter.verses_count}
-                    left={item.left}
-                    right={item.right}
-                    hideTafsirs={
-                      readerMode === "recitation" && playSettings?.hideTafsirs
-                    }
-                  />
+      <Row className="mt-13 py-6 flex-grow" justify="center">
+        <Col span={24}>
+          <Virtuoso
+            data={verseList}
+            useWindowScroll
+            itemContent={(i) => {
+              const item = verseList[i];
+              return (
+                <div key={[...item.left, ...item.right]?.[0]?.[0]?.id}>
+                  <Row justify="center">
+                    <Col
+                      span={22}
+                      className="py-3"
+                      style={{
+                        borderBottom:
+                          i === verseList.length - 1
+                            ? undefined
+                            : "1px solid #666",
+                      }}
+                    >
+                      <Verse
+                        verseNumber={i + 1}
+                        chapterNumber={chapterNumber}
+                        totalVerses={currentChapter.verses_count}
+                        left={item.left}
+                        right={item.right}
+                        hideTafsirs={
+                          readerMode === "recitation" &&
+                          playSettings?.hideTafsirs
+                        }
+                      />
+                      <div>
+                        <Space split={<Divider type="vertical" />}>
+                          <Fave
+                            faved={faves.includes(`${chapterNumber}:${i + 1}`)}
+                            chapterNumber={chapterNumber}
+                            verseNumber={i + 1}
+                          />
+                          <Notes
+                            chapterNumber={chapterNumber}
+                            verseNumber={i + 1}
+                          />
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
                 </div>
-              </List.Item>
-            )}
+              );
+            }}
           />
         </Col>
       </Row>
