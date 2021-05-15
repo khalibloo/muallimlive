@@ -30,7 +30,6 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
             content="default"
           />
           <meta name="apple-mobile-web-app-title" content="MuallimLive" />
-          <meta name="description" content="Al-Qur'an reader" />
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta
@@ -68,8 +67,6 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
 
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:url" content={origin} />
-          <meta name="twitter:title" content="MuallimLive" />
-          <meta name="twitter:description" content="Al-Qur'an reader" />
           <meta
             name="twitter:image"
             content={`${origin}/icons/android-chrome-192x192.png`}
@@ -77,8 +74,6 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
           <meta name="twitter:creator" content="@khalibloo" />
 
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="MuallimLive" />
-          <meta property="og:description" content="Al-Qur'an reader" />
           <meta property="og:site_name" content="MuallimLive" />
           <meta property="og:url" content={origin} />
           <meta
