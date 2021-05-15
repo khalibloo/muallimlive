@@ -257,7 +257,11 @@ const ChapterPage: NextPage<Props> = () => {
   });
 
   return (
-    <BasicLayout noPadding pageTitle={currentChapter.name_simple}>
+    <BasicLayout
+      noPadding
+      pageTitle={currentChapter.name_simple}
+      pageDescription={`Chapter ${chapterNumber} of the Holy Qur'an`}
+    >
       <BackTop />
       <Drawer
         placement="left"
