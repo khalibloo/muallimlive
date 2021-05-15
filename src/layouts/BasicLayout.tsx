@@ -37,14 +37,12 @@ const BasicLayout: React.FC<Props> = ({
   return (
     <>
       <Head>
-        <title>
-          {title}
-          <meta property="og:title" content={title} />
-          <meta name="twitter:title" content={title} />
-          <meta name="description" content={description} />
-          <meta property="og:description" content={description} />
-          <meta name="twitter:description" content={description} />
-        </title>
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
+        <meta name="twitter:title" content={title} />
+        <meta name="description" content={description} />
+        <meta property="og:description" content={description} />
+        <meta name="twitter:description" content={description} />
       </Head>
       <Layout className="min-h-screen">
         <Layout.Header className={clx("w-full p-0 fixed z-10 shadow-md")}>
