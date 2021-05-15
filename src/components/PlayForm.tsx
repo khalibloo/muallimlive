@@ -1,21 +1,9 @@
 import React, { useState } from "react";
-import {
-  Row,
-  Col,
-  Form,
-  Button,
-  Select,
-  Checkbox,
-  InputNumber,
-  Radio,
-} from "antd";
+import { Row, Col, Form, Button, Select, Checkbox, InputNumber } from "antd";
 import { useForm } from "antd/lib/form/Form";
-import { useResponsive } from "ahooks";
 import _ from "lodash";
 
 import lf from "@/utils/localforage";
-import Loader from "./Loader";
-import config from "@/utils/config";
 import useRecitations from "@/queries/useRecitations";
 
 export interface PlayConfig extends PlaySettings {
@@ -24,25 +12,17 @@ export interface PlayConfig extends PlaySettings {
 }
 interface Props {
   verseCount: number;
+  playSettings: PlaySettings;
   onSubmit?: (playSettings: PlayConfig) => void;
 }
-const PlayForm: React.FC<Props> = ({ verseCount, onSubmit }) => {
-  const responsive = useResponsive();
+const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
   const [form] = useForm();
-  const [settings, setSettings] = useState<PlaySettings>();
   const [recitationMode, setRecitationMode] = useState<"surah" | "verse-range">(
     "surah",
   );
   const [start, setStart] = useState(1);
   const [end, setEnd] = useState(verseCount);
   const { data: recitations, isLoading: recitationsLoading } = useRecitations();
-
-  React.useEffect(() => {
-    lf.getItem("play-settings").then((settings) => {
-      const defaultSettings = config.defaultPlaySettings;
-      setSettings((settings as PlaySettings) || defaultSettings);
-    });
-  }, []);
 
   const recitersSortFn = (a, b) =>
     a.translated_name.name > b.translated_name.name ? 1 : -1;
@@ -62,19 +42,13 @@ const PlayForm: React.FC<Props> = ({ verseCount, onSubmit }) => {
     });
   };
 
-  if (!settings) {
-    // settings will be fed to form as initial values
-    // so we must wait for localforage to load settings
-    return <Loader />;
-  }
-
   return (
     <Form
       form={form}
       onFinish={handleSubmit}
       initialValues={{
-        reciter: settings.reciter,
-        hideTafsirs: settings.hideTafsirs,
+        reciter: playSettings.reciter,
+        hideTafsirs: playSettings.hideTafsirs,
         mode: recitationMode,
         start,
         end,

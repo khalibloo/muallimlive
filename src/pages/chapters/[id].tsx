@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { createRef, useEffect, useRef, useState } from "react";
 import { NextPage } from "next";
 import {
   BackTop,
@@ -15,7 +15,7 @@ import {
   Tooltip,
   Typography,
 } from "antd";
-import { Virtuoso } from "react-virtuoso";
+import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clx from "classnames";
 import { useRouter } from "next/router";
@@ -37,9 +37,7 @@ import useVersesArabic from "@/queries/useVersesArabic";
 import useVersesTranslation from "@/queries/useVersesTranslation";
 import useVersesTafsir from "@/queries/useVersesTafsir";
 import Verse from "@/components/Verse";
-import Fave from "@/components/Fave";
 import config from "@/utils/config";
-import Notes from "@/components/Notes";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar from "@/components/AudioBar";
 import useVersesRecitation from "@/queries/useVersesRecitation";
@@ -51,7 +49,7 @@ const ChapterPage: NextPage<Props> = () => {
   const {
     query: { id },
   } = useRouter();
-  const chapterNumber = parseInt(id, 10);
+  const chapterNumber = parseInt(id as string, 10);
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">(
     "reading",
   );
@@ -64,9 +62,15 @@ const ChapterPage: NextPage<Props> = () => {
     { setTrue: openPlayModal, setFalse: closePlayModal },
   ] = useBoolean(false);
 
+  const virtualListRef = useRef<VirtuosoHandle>(null);
+
   const [settings, setSettings] = useState<ReaderSettings>();
   const [faves, setFaves] = useState<string[]>([]);
   const [playSettings, setPlaySettings] = useState<PlayConfig>();
+  const [isPlayingVerses, setIsPlayingVerses] = useState(false);
+  const [playingVerseNumber, setPlayingVerseNumber] = useState<number>();
+  const [muted, setMuted] = useState(false);
+  const [volume, setVolume] = useState(1);
 
   React.useEffect(() => {
     const defaultSettings = config.defaultReaderSettings;
@@ -134,9 +138,7 @@ const ChapterPage: NextPage<Props> = () => {
   } = useVersesRecitation(
     (playSettings as PlaySettings)?.reciter,
     chapterNumber,
-    {
-      enabled: playSettings != null,
-    },
+    { enabled: playSettings != null },
   );
 
   const isFinishedLoading = !(
@@ -184,9 +186,17 @@ const ChapterPage: NextPage<Props> = () => {
     setReaderMode("reading");
   }, [chapterNumber]);
 
+  // get play settings
+  React.useEffect(() => {
+    lf.getItem("play-settings").then((settings) => {
+      const defaultSettings = config.defaultPlaySettings;
+      setPlaySettings((settings as PlayConfig) || defaultSettings);
+    });
+  }, []);
+
   // restore progress
   React.useEffect(() => {
-    if (currentChapter && isFinishedLoading) {
+    if (currentChapter && isFinishedLoading && virtualListRef.current) {
       const key = `progress-surah-${chapterNumber}`;
       lf.ready().then(() => {
         lf.getItem(key).then((progress) => {
@@ -196,15 +206,16 @@ const ChapterPage: NextPage<Props> = () => {
             progress > 0 &&
             progress <= currentChapter.verses_count
           ) {
-            const v = document.getElementById(`v-${progress}`);
-            if (v) {
-              v.scrollIntoView({ behavior: "smooth" });
-            }
+            virtualListRef.current?.scrollToIndex({
+              index: progress - 1,
+              align: "start",
+              behavior: "smooth",
+            });
           }
         });
       });
     }
-  }, [currentChapter, isFinishedLoading]);
+  }, [currentChapter, isFinishedLoading, virtualListRef.current]);
 
   if (!isFinishedLoading) {
     return (
@@ -288,10 +299,12 @@ const ChapterPage: NextPage<Props> = () => {
       >
         <PlayForm
           verseCount={currentChapter.verses_count}
+          playSettings={playSettings}
           onSubmit={(playSettingsData) => {
             setReaderMode("recitation");
             closePlayModal();
             setPlaySettings(playSettingsData);
+            setIsPlayingVerses(true);
           }}
         />
       </Modal>
@@ -361,10 +374,11 @@ const ChapterPage: NextPage<Props> = () => {
           <Virtuoso
             data={verseList}
             useWindowScroll
+            ref={virtualListRef}
             itemContent={(i) => {
               const item = verseList[i];
               return (
-                <div key={[...item.left, ...item.right]?.[0]?.[0]?.id}>
+                <div key={i}>
                   <Row justify="center">
                     <Col
                       span={22}
@@ -379,6 +393,7 @@ const ChapterPage: NextPage<Props> = () => {
                       <Verse
                         verseNumber={i + 1}
                         chapterNumber={chapterNumber}
+                        faved={faves.includes(`${chapterNumber}:${i + 1}`)}
                         totalVerses={currentChapter.verses_count}
                         left={item.left}
                         right={item.right}
@@ -386,20 +401,22 @@ const ChapterPage: NextPage<Props> = () => {
                           readerMode === "recitation" &&
                           playSettings?.hideTafsirs
                         }
+                        audioUrl={
+                          recitations?.find(
+                            (a) => a.verse_key === `${chapterNumber}:${i + 1}`,
+                          )?.url
+                        }
+                        onPlay={() => {
+                          setPlayingVerseNumber(i + 1);
+                          setIsPlayingVerses(false);
+                        }}
+                        onEnded={() => setPlayingVerseNumber(-1)}
+                        isPlaying={playingVerseNumber === i + 1}
+                        muted={muted}
+                        setMuted={setMuted}
+                        volume={volume}
+                        setVolume={setVolume}
                       />
-                      <div>
-                        <Space split={<Divider type="vertical" />}>
-                          <Fave
-                            faved={faves.includes(`${chapterNumber}:${i + 1}`)}
-                            chapterNumber={chapterNumber}
-                            verseNumber={i + 1}
-                          />
-                          <Notes
-                            chapterNumber={chapterNumber}
-                            verseNumber={i + 1}
-                          />
-                        </Space>
-                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -418,15 +435,18 @@ const ChapterPage: NextPage<Props> = () => {
       >
         {recitations && readerMode === "recitation" && playSettings && (
           <AudioBar
-            audioUrls={recitations.audio_files
+            audioUrls={recitations
               .slice(playSettings.start - 1, playSettings.end)
-              .map((a) => {
-                const url = new URL(config.apiMediaUri as string);
-                url.pathname = a.url;
-                return url.href;
-              })}
+              .map((a) => a.url)}
             start={playSettings.start}
+            isPlaying={isPlayingVerses}
+            setIsPlaying={setIsPlayingVerses}
             onOpenSettings={openPlayModal}
+            muted={muted}
+            setMuted={setMuted}
+            volume={volume}
+            setVolume={setVolume}
+            virtualListRef={virtualListRef}
           />
         )}
       </Drawer>

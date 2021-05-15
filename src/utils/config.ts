@@ -9,10 +9,10 @@ const defaultReaderSettings: ReaderSettings = {
   splitView: true,
   left: [
     { content: ["translation", "en", 22] },
-    { content: ["tafsir", "en", 169] },
+    { content: ["tafsir", "en", 171] },
   ],
   right: [
-    { content: ["translation", "ar", "indopak"] },
+    { content: ["translation", "ar", "imlaei"] },
     { content: ["translation", "en", 57] },
   ],
 };

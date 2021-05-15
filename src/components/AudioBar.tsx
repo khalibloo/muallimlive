@@ -13,19 +13,35 @@ import {
   StepForwardOutlined,
   SyncOutlined,
 } from "@ant-design/icons";
+import { VirtuosoHandle } from "react-virtuoso";
 
 interface Props {
   audioUrls: string[];
   start: number;
+  isPlaying: boolean;
+  setIsPlaying: React.Dispatch<React.SetStateAction<boolean>>;
+  volume: number;
+  setVolume: React.Dispatch<React.SetStateAction<number>>;
+  muted: boolean;
+  setMuted: React.Dispatch<React.SetStateAction<boolean>>;
   onOpenSettings: () => void;
+  virtualListRef: React.RefObject<VirtuosoHandle>;
 }
-const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
+const AudioBar: React.FC<Props> = ({
+  audioUrls,
+  start,
+  isPlaying,
+  setIsPlaying,
+  muted,
+  setMuted,
+  volume,
+  setVolume,
+  onOpenSettings,
+  virtualListRef,
+}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
   const [autoScroll, setAutoScroll] = useState(true);
   const [loop, setLoop] = useState(false);
-  const [muted, setMuted] = useState(false);
-  const [volume, setVolume] = useState(1);
 
   const audioRefs = audioUrls.map(() => createRef<ReactPlayer>());
 
@@ -46,17 +62,16 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
     } else {
       setIsPlaying(true);
       if (autoScroll) {
-        const verseEl = document.getElementById(
-          `v-${currentIndex + 1 + start}`,
-        );
-        if (verseEl) {
-          window.scrollTo({ top: verseEl.offsetTop - 100, behavior: "smooth" });
-        }
+        virtualListRef.current?.scrollToIndex({
+          index: currentIndex + start - 1,
+          align: "start",
+          behavior: "smooth",
+        });
       }
       setCurrentIndex((val) => val + 1);
     }
   };
-  const iconSize = "1.5rem";
+  const iconStyle = { fontSize: "1.5rem" };
   return (
     <>
       {audioUrls.map((url, i) => (
@@ -82,7 +97,7 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
                 size="large"
                 onClick={() => setAutoScroll((val) => !val)}
               >
-                <ColumnHeightOutlined style={{ fontSize: iconSize }} />
+                <ColumnHeightOutlined style={iconStyle} />
               </Button>
             </Col>
             <Col>
@@ -92,12 +107,12 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
                 size="large"
                 onClick={() => setLoop((val) => !val)}
               >
-                <SyncOutlined style={{ fontSize: iconSize }} />
+                <SyncOutlined style={iconStyle} />
               </Button>
             </Col>
             <Col>
               <Button className="px-2" type="link" size="large" onClick={prev}>
-                <StepBackwardOutlined style={{ fontSize: iconSize }} />
+                <StepBackwardOutlined style={iconStyle} />
               </Button>
             </Col>
             <Col>
@@ -108,9 +123,9 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
                 size="large"
               >
                 {isPlaying ? (
-                  <PauseCircleOutlined style={{ fontSize: iconSize }} />
+                  <PauseCircleOutlined style={iconStyle} />
                 ) : (
-                  <PlayCircleOutlined style={{ fontSize: iconSize }} />
+                  <PlayCircleOutlined style={iconStyle} />
                 )}
               </Button>
             </Col>
@@ -122,7 +137,7 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
                 size="large"
                 onClick={next}
               >
-                <StepForwardOutlined style={{ fontSize: iconSize }} />
+                <StepForwardOutlined style={iconStyle} />
               </Button>
             </Col>
             <Col>
@@ -156,7 +171,7 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
                 trigger="click"
               >
                 <Button className="px-2" type="link" size="large">
-                  <SoundOutlined style={{ fontSize: iconSize }} />
+                  <SoundOutlined style={iconStyle} />
                 </Button>
               </Popover>
             </Col>
@@ -167,7 +182,7 @@ const AudioBar: React.FC<Props> = ({ audioUrls, start, onOpenSettings }) => {
                 size="large"
                 onClick={onOpenSettings}
               >
-                <SettingOutlined style={{ fontSize: iconSize }} />
+                <SettingOutlined style={iconStyle} />
               </Button>
             </Col>
           </Row>
