@@ -11,9 +11,15 @@ import Head from "next/head";
 
 interface Props {
   pageTitle: string;
+  pageDescription?: string;
   noPadding?: boolean;
 }
-const BasicLayout: React.FC<Props> = ({ children, pageTitle, noPadding }) => {
+const BasicLayout: React.FC<Props> = ({
+  children,
+  pageTitle,
+  pageDescription,
+  noPadding,
+}) => {
   const [
     cookieDrawerOpen,
     { setTrue: openCookieDrawer, setFalse: closeCookieDrawer },
@@ -25,11 +31,19 @@ const BasicLayout: React.FC<Props> = ({ children, pageTitle, noPadding }) => {
       }
     });
   }, []);
+
+  const title = pageTitle ? `${pageTitle} | MuallimLive` : "MuallimLive";
+  const description = pageDescription || "Al-Qur'an reader";
   return (
     <>
       <Head>
         <title>
-          {pageTitle ? `${pageTitle} | MuallimLive` : "MuallimLive"}
+          {title}
+          <meta property="og:title" content={title} />
+          <meta name="twitter:title" content={title} />
+          <meta name="description" content={description} />
+          <meta property="og:description" content={description} />
+          <meta name="twitter:description" content={description} />
         </title>
       </Head>
       <Layout className="min-h-screen">
