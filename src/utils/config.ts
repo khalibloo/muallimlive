@@ -7,10 +7,7 @@ if (process.env.NODE_ENV === "production") {
 }
 const defaultReaderSettings: ReaderSettings = {
   splitView: true,
-  left: [
-    { content: ["translation", "en", 22] },
-    { content: ["tafsir", "en", 171] },
-  ],
+  left: [{ content: ["translation", "en", 22] }],
   right: [
     { content: ["translation", "ar", "imlaei"] },
     { content: ["translation", "en", 57] },
