@@ -120,17 +120,17 @@ const ChapterPage: NextPage<Props> = () => {
   const arabicScriptsResults = useVersesArabic(
     arabicContentTypes.map((c) => (c.content as ArabicScript[])[2]),
     chapterNumber,
-    { enabled: settings != null },
+    { enabled: Boolean(id) && settings != null },
   );
   const translationResults = useVersesTranslation(
     translationContentTypes.map((c) => (c.content as number[])[2]),
     chapterNumber,
-    { enabled: settings != null },
+    { enabled: Boolean(id) && settings != null },
   );
   const tafsirResults = useVersesTafsir(
     tafsirContentTypes.map((c) => (c.content as number[])[2]),
     chapterNumber,
-    { enabled: settings != null },
+    { enabled: Boolean(id) && settings != null },
   );
   const {
     data: recitations,
@@ -138,7 +138,7 @@ const ChapterPage: NextPage<Props> = () => {
   } = useVersesRecitation(
     (playSettings as PlaySettings)?.reciter,
     chapterNumber,
-    { enabled: playSettings != null },
+    { enabled: Boolean(id) && playSettings != null },
   );
 
   const isFinishedLoading = !(
