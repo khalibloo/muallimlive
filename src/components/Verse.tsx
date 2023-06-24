@@ -1,7 +1,7 @@
 import React, { createRef } from "react";
 import { Row, Col, Typography, List, Space, Divider, Tooltip, Button } from "antd";
 import VisibilitySensor from "react-visibility-sensor";
-import clx from "classnames";
+import clsx from "clsx";
 import { useResponsive } from "ahooks";
 import lf from "@/utils/localforage";
 import Fave from "./Fave";
@@ -54,7 +54,7 @@ const Verse: React.FC<Props> = ({
     <VisibilitySensor
       offset={{ top: 200, bottom: 200 }}
       partialVisibility
-      onChange={(isVisible) => {
+      onChange={(isVisible: boolean) => {
         const key = `progress-surah-${chapterNumber}`;
 
         if (window.scrollY < 200 || verseNumber === totalVerses) {
@@ -87,7 +87,7 @@ const Verse: React.FC<Props> = ({
                             <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
                           ) : (
                             <Typography.Text
-                              className={clx({
+                              className={clsx({
                                 "text-lg": v.isBold && !v.isArabic,
                                 "text-2xl": v.isArabic,
                                 "text-arabic": v.isArabic,
@@ -111,12 +111,12 @@ const Verse: React.FC<Props> = ({
                 dataSource={hideTafsirs ? right.filter((v) => !v.isTafsir) : right}
                 renderItem={(v) => (
                   <List.Item key={v.id}>
-                    <div className={clx("w-full", { "text-right": v.isArabic })}>
+                    <div className={clsx("w-full", { "text-right": v.isArabic })}>
                       {v.isHTML ? (
                         <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
                       ) : (
                         <Typography.Text
-                          className={clx({
+                          className={clsx({
                             "text-lg": v.isBold && !v.isArabic,
                             "text-4xl": v.isArabic,
                             "text-arabic": v.isArabic,

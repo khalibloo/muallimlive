@@ -1,4 +1,4 @@
-import { useQueries, UseQueryOptions, UseQueryResult } from "react-query";
+import { useQueries, UseQueryOptions, UseQueryResult } from "@tanstack/react-query";
 import axios from "@/utils/request";
 
 interface GetVersesTranslationResponse {
@@ -16,13 +16,13 @@ const getVersesTranslation = async (translationId: number, chapterNumber?: numbe
 };
 
 const useVersesTranslation = (translationIds: number[], chapterNumber?: number, options?: UseQueryOptions) => {
-  return useQueries(
-    translationIds.map((translationId) => ({
+  return useQueries({
+    queries: translationIds.map((translationId) => ({
       queryKey: ["verses-translation", { translationId, chapterNumber }],
       queryFn: () => getVersesTranslation(translationId, chapterNumber),
       ...options,
-    }))
-  ) as UseQueryResult<VerseText[], Error>[];
+    })),
+  }) as UseQueryResult<VerseText[], Error>[];
 };
 
 export default useVersesTranslation;

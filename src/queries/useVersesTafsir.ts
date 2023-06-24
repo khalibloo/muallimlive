@@ -1,4 +1,4 @@
-import { useQueries, UseQueryOptions, UseQueryResult } from "react-query";
+import { useQueries, UseQueryOptions, UseQueryResult } from "@tanstack/react-query";
 import dompurify from "dompurify";
 
 import axios from "@/utils/request";
@@ -19,11 +19,11 @@ const getVersesTafsir = async (tafsirId: number, chapterNumber?: number) => {
 };
 
 export default function useVersesTafsir(tafsirIds: number[], chapterNumber?: number, options?: UseQueryOptions) {
-  return useQueries(
-    tafsirIds.map((tafsirId) => ({
+  return useQueries({
+    queries: tafsirIds.map((tafsirId) => ({
       queryKey: ["verses-tafsir", { tafsirId, chapterNumber }],
       queryFn: () => getVersesTafsir(tafsirId, chapterNumber),
       ...options,
-    }))
-  ) as UseQueryResult<VerseText[], Error>[];
+    })),
+  }) as UseQueryResult<VerseText[], Error>[];
 }

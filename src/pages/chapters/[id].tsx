@@ -3,7 +3,7 @@ import { NextPage } from "next";
 import { Button, Col, Drawer, FloatButton, Grid, Menu, Modal, Popconfirm, Row, Tooltip, Typography } from "antd";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
-import clx from "classnames";
+import clsx from "clsx";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import _ from "lodash";
@@ -132,7 +132,7 @@ const ChapterPage: NextPage<Props> = () => {
 
       ob.subscribe({
         next: (args) => {
-          const surahFaves = args.newValue.filter((f) => f.startsWith(`${chapterNumber}:`));
+          const surahFaves = args.newValue.filter((f: any) => f.startsWith(`${chapterNumber}:`));
           setFaves(surahFaves);
         },
       });
@@ -179,7 +179,7 @@ const ChapterPage: NextPage<Props> = () => {
     );
   }
 
-  const mapContent = (c) => {
+  const mapContent = (c: ReaderSettings["left"][0]) => {
     if (c.content?.[0] === "translation" && c.content[1] === "ar") {
       const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return arabicScriptsResults[i];
@@ -218,7 +218,7 @@ const ChapterPage: NextPage<Props> = () => {
         onClose={closeChaptersDrawer}
         open={chaptersDrawerOpen}
       >
-        <Menu theme="dark" selectedKeys={[id]} mode="inline">
+        <Menu theme="dark" selectedKeys={[id as string]} mode="inline">
           {chaptersData?.chapters.map((chapter) => (
             <Menu.Item key={chapter.id} className="text-left" onClick={closeChaptersDrawer}>
               <Link href={`/chapters/${chapter.id}`}>
@@ -238,7 +238,7 @@ const ChapterPage: NextPage<Props> = () => {
       <Modal title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
         <PlayForm
           verseCount={currentChapter.verses_count}
-          playSettings={playSettings}
+          playSettings={playSettings!}
           onSubmit={(playSettingsData) => {
             setReaderMode("recitation");
             closePlayModal();
@@ -251,7 +251,7 @@ const ChapterPage: NextPage<Props> = () => {
         <div className="flex items-stretch">
           <div>
             <Button
-              className={clx("h-full border-none rounded-none", {
+              className={clsx("h-full border-none rounded-none", {
                 "px-3": !responsive.md,
               })}
               onClick={openChaptersDrawer}
@@ -274,7 +274,7 @@ const ChapterPage: NextPage<Props> = () => {
           {readerMode === "reading" ? (
             <div>
               <Button
-                className={clx("h-full border-none rounded-none", {
+                className={clsx("h-full border-none rounded-none", {
                   "px-3": !responsive.md,
                 })}
                 onClick={openPlayModal}
@@ -294,7 +294,7 @@ const ChapterPage: NextPage<Props> = () => {
                 placement="bottomRight"
               >
                 <Button
-                  className={clx("h-full border-none rounded-none", {
+                  className={clsx("h-full border-none rounded-none", {
                     "px-3": !responsive.md,
                   })}
                   type="primary"

@@ -1,4 +1,4 @@
-import { useQueries, UseQueryOptions, UseQueryResult } from "react-query";
+import { useQueries, UseQueryOptions, UseQueryResult } from "@tanstack/react-query";
 import axios from "@/utils/request";
 
 interface GetVersesArabicResponse {
@@ -13,16 +13,16 @@ const getVersesArabic = async (name: ArabicScript, chapterNumber?: number) => {
     // isBold: true,
     isArabic: true,
     verse_key: v.verse_key,
-    text: v[`text_${name}`],
+    text: (v as any)[`text_${name}`] as string,
   }));
 };
 
 export default function useVersesArabic(names: ArabicScript[], chapterNumber?: number, options?: UseQueryOptions) {
-  return useQueries(
-    names.map((name) => ({
+  return useQueries({
+    queries: names.map((name) => ({
       ...options,
       queryKey: ["verses-arabic", { name, chapterNumber }],
       queryFn: () => getVersesArabic(name, chapterNumber),
-    }))
-  ) as UseQueryResult<VerseText[], Error>[];
+    })),
+  }) as UseQueryResult<VerseText[], Error>[];
 }

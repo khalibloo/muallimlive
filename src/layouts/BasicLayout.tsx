@@ -2,7 +2,7 @@ import React, { ReactNode, useEffect } from "react";
 import { Affix, Button, Col, Layout, Row, Space, Typography } from "antd";
 import lf from "localforage";
 import { useBoolean } from "ahooks";
-import clx from "classnames";
+import clsx from "clsx";
 
 import NavBar from "./NavBar";
 import Footer from "./Footer";
@@ -13,6 +13,7 @@ interface Props {
   pageTitle: string;
   pageDescription?: string;
   noPadding?: boolean;
+  children: React.ReactNode;
 }
 const BasicLayout: React.FC<Props> = ({ children, pageTitle, pageDescription, noPadding }) => {
   const [cookieDrawerOpen, { setTrue: openCookieDrawer, setFalse: closeCookieDrawer }] = useBoolean(false);
@@ -37,10 +38,10 @@ const BasicLayout: React.FC<Props> = ({ children, pageTitle, pageDescription, no
         <meta name="twitter:description" content={description} />
       </Head>
       <Layout className="min-h-screen">
-        <Layout.Header className={clx("w-full p-0 fixed z-10 shadow-md")}>
+        <Layout.Header className={clsx("w-full p-0 fixed z-10 shadow-md")}>
           <NavBar />
         </Layout.Header>
-        <Layout.Content className={clx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
+        <Layout.Content className={clsx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
         <Layout.Footer>
           <Footer />
         </Layout.Footer>

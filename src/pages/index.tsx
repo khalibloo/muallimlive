@@ -1,22 +1,12 @@
 import React from "react";
 import { NextPage } from "next";
 import { Card, Col, Row, Typography } from "antd";
-import { connect } from "react-redux";
-import { RootState } from "@/utils/store";
-
-import BasicLayout from "@/layouts/BasicLayout";
 import Link from "next/link";
 
-interface Props {
-  authenticated: RootState["auth"]["authenticated"];
-}
-const mapState = (state: RootState) => ({
-  authenticated: state.auth.authenticated,
-});
-
-const Home: NextPage<Props> = () => {
+const Home: NextPage = () => {
+  // <BasicLayout pageTitle="Home">
   return (
-    <BasicLayout pageTitle="Home">
+    <>
       {/* <Row justify="center" className="mb-9">
         <Col span={16}>
           <Input.Search className="w-full" size="large" />
@@ -45,8 +35,8 @@ const Home: NextPage<Props> = () => {
           </Row>
         </Col>
       </Row>
-    </BasicLayout>
+    </>
   );
 };
 
-export default connect(mapState)(Home);
+export default Home;
