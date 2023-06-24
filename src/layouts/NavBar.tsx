@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Typography,
-  Row,
-  Col,
-  Menu,
-  Dropdown,
-  Modal,
-  Tabs,
-  notification,
-} from "antd";
+import { Typography, Row, Col, Menu, Dropdown, Modal, Tabs, notification } from "antd";
 import { GlobalOutlined, SettingOutlined } from "@ant-design/icons";
 
 import Link from "next/link";
@@ -18,10 +9,7 @@ import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 interface Props {}
 const NavBar: React.FC<Props> = () => {
   const responsive = useResponsive();
-  const [
-    settingsModalOpen,
-    { setTrue: openSettingsModal, setFalse: closeSettingsModal },
-  ] = useBoolean(false);
+  const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);
   const [settingsTab, setSettingsTab] = useState("display");
 
   const langMenu = (
@@ -78,11 +66,7 @@ const NavBar: React.FC<Props> = () => {
       </Modal>
       <Row justify="space-between" align="middle" className="h-full">
         <Col className="h-full">
-          <Menu
-            mode="horizontal"
-            className="bg-transparent border-none h-full"
-            selectedKeys={[]}
-          >
+          <Menu mode="horizontal" className="bg-transparent border-none h-full" selectedKeys={[]}>
             <Menu.Item key="1" className="h-full block">
               <Link href="/">
                 <a className="h-full">
@@ -99,11 +83,7 @@ const NavBar: React.FC<Props> = () => {
           </Menu>
         </Col>
         <Col className="h-full">
-          <Menu
-            mode="horizontal"
-            className="bg-transparent border-none h-full"
-            selectable={false}
-          >
+          <Menu mode="horizontal" className="bg-transparent border-none h-full" selectable={false}>
             <Menu.Item key="lang" className="m-0 h-full">
               <Dropdown overlay={langMenu} trigger={["click"]}>
                 <div className="px-2">

@@ -8,14 +8,11 @@ const Footer: React.FC = () => {
       <Col>
         <div className="text-center">
           <Typography.Text>
-            <Link href="/terms">Terms of Service</Link> |{" "}
-            <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/terms">Terms of Service</Link> | <Link href="/privacy">Privacy Policy</Link>
           </Typography.Text>
         </div>
         <div>
-          <Typography.Text className="text-center">
-            Khalibloo ©2021 All Rights Reserved
-          </Typography.Text>
+          <Typography.Text className="text-center">Khalibloo ©2021 All Rights Reserved</Typography.Text>
         </div>
       </Col>
     </Row>

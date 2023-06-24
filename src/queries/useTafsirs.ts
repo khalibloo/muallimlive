@@ -11,12 +11,6 @@ const getTafsirs = async () => {
   return data;
 };
 
-export default function useTafsirs(
-  options?: UseQueryOptions<GetTafsirsResponse, Error>,
-) {
-  return useQuery<GetTafsirsResponse, Error>(
-    ["tafsirs", { language: "en" }],
-    getTafsirs,
-    options,
-  );
+export default function useTafsirs(options?: UseQueryOptions<GetTafsirsResponse, Error>) {
+  return useQuery<GetTafsirsResponse, Error>(["tafsirs", { language: "en" }], getTafsirs, options);
 }

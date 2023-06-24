@@ -1,14 +1,5 @@
 import React, { createRef } from "react";
-import {
-  Row,
-  Col,
-  Typography,
-  List,
-  Space,
-  Divider,
-  Tooltip,
-  Button,
-} from "antd";
+import { Row, Col, Typography, List, Space, Divider, Tooltip, Button } from "antd";
 import VisibilitySensor from "react-visibility-sensor";
 import clx from "classnames";
 import { useResponsive } from "ahooks";
@@ -74,36 +65,26 @@ const Verse: React.FC<Props> = ({
       }}
     >
       <>
-        <Row
-          gutter={24}
-          id={`v-${verseNumber}`}
-          className="mt-6 w-full items-stretch"
-        >
+        <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 w-full items-stretch">
           {left.length > 0 && (
             <Col
               span={leftColSpan}
               xs={24}
               md={leftColSpan}
               style={{
-                borderRight:
-                  split && responsive.md ? "1px solid #666" : undefined,
+                borderRight: split && responsive.md ? "1px solid #666" : undefined,
               }}
             >
               <div className="flex gap-2">
                 <div className="py-3">{verseNumber})</div>
                 <div className="flex-grow">
                   <List
-                    dataSource={
-                      hideTafsirs ? left.filter((v) => !v.isTafsir) : left
-                    }
+                    dataSource={hideTafsirs ? left.filter((v) => !v.isTafsir) : left}
                     renderItem={(v) => (
                       <List.Item key={v.id}>
                         <div>
                           {v.isHTML ? (
-                            <div
-                              className="font-light"
-                              dangerouslySetInnerHTML={{ __html: v.text }}
-                            />
+                            <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
                           ) : (
                             <Typography.Text
                               className={clx({
@@ -127,19 +108,12 @@ const Verse: React.FC<Props> = ({
           {right.length > 0 && (
             <Col span={rightColSpan} xs={24} md={rightColSpan}>
               <List
-                dataSource={
-                  hideTafsirs ? right.filter((v) => !v.isTafsir) : right
-                }
+                dataSource={hideTafsirs ? right.filter((v) => !v.isTafsir) : right}
                 renderItem={(v) => (
                   <List.Item key={v.id}>
-                    <div
-                      className={clx("w-full", { "text-right": v.isArabic })}
-                    >
+                    <div className={clx("w-full", { "text-right": v.isArabic })}>
                       {v.isHTML ? (
-                        <div
-                          className="font-light"
-                          dangerouslySetInnerHTML={{ __html: v.text }}
-                        />
+                        <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
                       ) : (
                         <Typography.Text
                           className={clx({
@@ -161,11 +135,7 @@ const Verse: React.FC<Props> = ({
         </Row>
         <div>
           <Space split={<Divider type="vertical" />}>
-            <Fave
-              faved={faved}
-              chapterNumber={chapterNumber}
-              verseNumber={verseNumber}
-            />
+            <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
             <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
             <Tooltip title="Play verse">
               <Button

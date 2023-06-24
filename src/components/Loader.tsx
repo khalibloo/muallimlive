@@ -42,11 +42,7 @@ const Loader: React.FC<Props> = ({
         <Spin
           {...rest}
           size={size || "large"}
-          tip={
-            showRandomMessage
-              ? messages[_.random(messages.length - 1)]
-              : undefined
-          }
+          tip={showRandomMessage ? messages[_.random(messages.length - 1)] : undefined}
         />
       </Col>
     </Row>

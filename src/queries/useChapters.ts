@@ -11,12 +11,6 @@ const getChapters = async () => {
   return data;
 };
 
-export default function useChapters(
-  options?: UseQueryOptions<GetChaptersResponse, Error>,
-) {
-  return useQuery<GetChaptersResponse, Error>(
-    ["chapters", { language: "en" }],
-    getChapters,
-    options,
-  );
+export default function useChapters(options?: UseQueryOptions<GetChaptersResponse, Error>) {
+  return useQuery<GetChaptersResponse, Error>(["chapters", { language: "en" }], getChapters, options);
 }

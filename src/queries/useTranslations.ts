@@ -11,12 +11,6 @@ const getTranslations = async () => {
   return data;
 };
 
-export default function useTranslations(
-  options?: UseQueryOptions<GetTranslationsResponse, Error>,
-) {
-  return useQuery<GetTranslationsResponse, Error>(
-    ["translations", { language: "en" }],
-    getTranslations,
-    options,
-  );
+export default function useTranslations(options?: UseQueryOptions<GetTranslationsResponse, Error>) {
+  return useQuery<GetTranslationsResponse, Error>(["translations", { language: "en" }], getTranslations, options);
 }

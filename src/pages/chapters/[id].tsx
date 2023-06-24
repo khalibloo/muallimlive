@@ -1,18 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { NextPage } from "next";
-import {
-  Button,
-  Col,
-  Drawer,
-  FloatButton,
-  Grid,
-  Menu,
-  Modal,
-  Popconfirm,
-  Row,
-  Tooltip,
-  Typography,
-} from "antd";
+import { Button, Col, Drawer, FloatButton, Grid, Menu, Modal, Popconfirm, Row, Tooltip, Typography } from "antd";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clx from "classnames";
@@ -24,11 +12,7 @@ import lf from "@/utils/localforage";
 import BasicLayout from "@/layouts/BasicLayout";
 import Loader from "@/components/Loader";
 
-import {
-  MenuOutlined,
-  PlayCircleFilled,
-  ReadOutlined,
-} from "@ant-design/icons";
+import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";
 import useChapters from "@/queries/useChapters";
 import useVersesArabic from "@/queries/useVersesArabic";
 import useVersesTranslation from "@/queries/useVersesTranslation";
@@ -47,17 +31,9 @@ const ChapterPage: NextPage<Props> = () => {
     query: { id },
   } = useRouter();
   const chapterNumber = parseInt(id as string, 10);
-  const [readerMode, setReaderMode] = useState<"reading" | "recitation">(
-    "reading",
-  );
-  const [
-    chaptersDrawerOpen,
-    { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer },
-  ] = useBoolean(false);
-  const [
-    playModalOpen,
-    { setTrue: openPlayModal, setFalse: closePlayModal },
-  ] = useBoolean(false);
+  const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
+  const [chaptersDrawerOpen, { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer }] = useBoolean(false);
+  const [playModalOpen, { setTrue: openPlayModal, setFalse: closePlayModal }] = useBoolean(false);
 
   const virtualListRef = useRef<VirtuosoHandle>(null);
 
@@ -98,44 +74,33 @@ const ChapterPage: NextPage<Props> = () => {
   // resources
   const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
 
-  const currentChapter: Chapter = chaptersData?.chapters.find(
-    (c) => c.id === chapterNumber,
-  ) as Chapter;
+  const currentChapter: Chapter = chaptersData?.chapters.find((c) => c.id === chapterNumber) as Chapter;
 
   const contentTypes = settings ? [...settings.left, ...settings.right] : [];
-  const arabicContentTypes = contentTypes.filter(
-    (c) => c.content?.[0] === "translation" && c.content[1] === "ar",
-  );
-  const translationContentTypes = contentTypes.filter(
-    (c) => c.content?.[0] === "translation" && c.content[1] !== "ar",
-  );
-  const tafsirContentTypes = contentTypes.filter(
-    (c) => c.content?.[0] === "tafsir",
-  );
+  const arabicContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] === "ar");
+  const translationContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] !== "ar");
+  const tafsirContentTypes = contentTypes.filter((c) => c.content?.[0] === "tafsir");
 
   // data
   const arabicScriptsResults = useVersesArabic(
     arabicContentTypes.map((c) => (c.content as ArabicScript[])[2]),
     chapterNumber,
-    { enabled: Boolean(id) && settings != null },
+    { enabled: Boolean(id) && settings != null }
   );
   const translationResults = useVersesTranslation(
     translationContentTypes.map((c) => (c.content as number[])[2]),
     chapterNumber,
-    { enabled: Boolean(id) && settings != null },
+    { enabled: Boolean(id) && settings != null }
   );
   const tafsirResults = useVersesTafsir(
     tafsirContentTypes.map((c) => (c.content as number[])[2]),
     chapterNumber,
-    { enabled: Boolean(id) && settings != null },
+    { enabled: Boolean(id) && settings != null }
   );
-  const {
-    data: recitations,
-    isLoading: recitationsLoading,
-  } = useVersesRecitation(
+  const { data: recitations, isLoading: recitationsLoading } = useVersesRecitation(
     (playSettings as PlaySettings)?.reciter,
     chapterNumber,
-    { enabled: Boolean(id) && playSettings != null },
+    { enabled: Boolean(id) && playSettings != null }
   );
 
   const isFinishedLoading = !(
@@ -150,9 +115,7 @@ const ChapterPage: NextPage<Props> = () => {
     lf.ready().then(() => {
       lf.getItem("faves-quran").then((favesData) => {
         if (typeof (favesData as string[])?.length === "number") {
-          const surahFaves = (favesData as string[]).filter((f) =>
-            f.startsWith(`${chapterNumber}:`),
-          );
+          const surahFaves = (favesData as string[]).filter((f) => f.startsWith(`${chapterNumber}:`));
           setFaves(surahFaves);
         }
       });
@@ -169,9 +132,7 @@ const ChapterPage: NextPage<Props> = () => {
 
       ob.subscribe({
         next: (args) => {
-          const surahFaves = args.newValue.filter((f) =>
-            f.startsWith(`${chapterNumber}:`),
-          );
+          const surahFaves = args.newValue.filter((f) => f.startsWith(`${chapterNumber}:`));
           setFaves(surahFaves);
         },
       });
@@ -198,11 +159,7 @@ const ChapterPage: NextPage<Props> = () => {
       lf.ready().then(() => {
         lf.getItem(key).then((progress) => {
           // validation
-          if (
-            typeof progress === "number" &&
-            progress > 0 &&
-            progress <= currentChapter.verses_count
-          ) {
+          if (typeof progress === "number" && progress > 0 && progress <= currentChapter.verses_count) {
             virtualListRef.current?.scrollToIndex({
               index: progress - 1,
               align: "start",
@@ -224,19 +181,13 @@ const ChapterPage: NextPage<Props> = () => {
 
   const mapContent = (c) => {
     if (c.content?.[0] === "translation" && c.content[1] === "ar") {
-      const i = arabicContentTypes.findIndex(
-        (t) => t.content?.[2] === c.content?.[2],
-      );
+      const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return arabicScriptsResults[i];
     } else if (c.content?.[0] === "translation" && c.content[1] !== "ar") {
-      const i = translationContentTypes.findIndex(
-        (t) => t.content?.[2] === c.content?.[2],
-      );
+      const i = translationContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return translationResults[i];
     } else if (c.content?.[0] === "tafsir") {
-      const i = tafsirContentTypes.findIndex(
-        (t) => t.content?.[2] === c.content?.[2],
-      );
+      const i = tafsirContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return tafsirResults[i];
     }
     return null;
@@ -269,18 +220,10 @@ const ChapterPage: NextPage<Props> = () => {
       >
         <Menu theme="dark" selectedKeys={[id]} mode="inline">
           {chaptersData?.chapters.map((chapter) => (
-            <Menu.Item
-              key={chapter.id}
-              className="text-left"
-              onClick={closeChaptersDrawer}
-            >
+            <Menu.Item key={chapter.id} className="text-left" onClick={closeChaptersDrawer}>
               <Link href={`/chapters/${chapter.id}`}>
                 <a>
-                  <Tooltip
-                    overlayClassName="capitalize"
-                    title={chapter.translated_name.name}
-                    placement="right"
-                  >
+                  <Tooltip overlayClassName="capitalize" title={chapter.translated_name.name} placement="right">
                     <Typography.Text className="capitalize">
                       <span className="mr-3">{chapter.id}</span>
                       {chapter.name_simple}
@@ -292,12 +235,7 @@ const ChapterPage: NextPage<Props> = () => {
           ))}
         </Menu>
       </Drawer>
-      <Modal
-        title="Play Options"
-        onCancel={closePlayModal}
-        open={playModalOpen}
-        footer={null}
-      >
+      <Modal title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
         <PlayForm
           verseCount={currentChapter.verses_count}
           playSettings={playSettings}
@@ -330,8 +268,7 @@ const ChapterPage: NextPage<Props> = () => {
               className="capitalize text-lg"
               strong={responsive.md}
             >
-              {currentChapter.name_simple} -{" "}
-              {currentChapter.translated_name.name}
+              {currentChapter.name_simple} - {currentChapter.translated_name.name}
             </Typography.Text>
           </div>
           {readerMode === "reading" ? (
@@ -385,10 +322,7 @@ const ChapterPage: NextPage<Props> = () => {
                       span={22}
                       className="py-3"
                       style={{
-                        borderBottom:
-                          i === verseList.length - 1
-                            ? undefined
-                            : "1px solid #666",
+                        borderBottom: i === verseList.length - 1 ? undefined : "1px solid #666",
                       }}
                     >
                       <Verse
@@ -398,15 +332,8 @@ const ChapterPage: NextPage<Props> = () => {
                         totalVerses={currentChapter.verses_count}
                         left={item.left}
                         right={item.right}
-                        hideTafsirs={
-                          readerMode === "recitation" &&
-                          playSettings?.hideTafsirs
-                        }
-                        audioUrl={
-                          recitations?.find(
-                            (a) => a.verse_key === `${chapterNumber}:${i + 1}`,
-                          )?.url
-                        }
+                        hideTafsirs={readerMode === "recitation" && playSettings?.hideTafsirs}
+                        audioUrl={recitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
                         onPlay={() => {
                           setPlayingVerseNumber(i + 1);
                           setIsPlayingVerses(false);
@@ -436,9 +363,7 @@ const ChapterPage: NextPage<Props> = () => {
       >
         {recitations && readerMode === "recitation" && playSettings && (
           <AudioBar
-            audioUrls={recitations
-              .slice(playSettings.start - 1, playSettings.end)
-              .map((a) => a.url)}
+            audioUrls={recitations.slice(playSettings.start - 1, playSettings.end).map((a) => a.url)}
             start={playSettings.start}
             isPlaying={isPlayingVerses}
             setIsPlaying={setIsPlayingVerses}

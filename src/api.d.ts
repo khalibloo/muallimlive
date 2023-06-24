@@ -108,10 +108,4 @@ type Verse =
   | VerseUthmaniSimple
   | VerseUthmaniTajweed;
 
-type ArabicScript =
-  | "uthmani"
-  | "uthmani_simple"
-  | "uthmani_tajweed"
-  | "imlaei"
-  | "imlaei_simple"
-  | "indopak";
+type ArabicScript = "uthmani" | "uthmani_simple" | "uthmani_tajweed" | "imlaei" | "imlaei_simple" | "indopak";

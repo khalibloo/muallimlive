@@ -17,15 +17,12 @@ interface Props {
 }
 const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
   const [form] = useForm();
-  const [recitationMode, setRecitationMode] = useState<"surah" | "verse-range">(
-    "surah",
-  );
+  const [recitationMode, setRecitationMode] = useState<"surah" | "verse-range">("surah");
   const [start, setStart] = useState(1);
   const [end, setEnd] = useState(verseCount);
   const { data: recitations, isLoading: recitationsLoading } = useRecitations();
 
-  const recitersSortFn = (a, b) =>
-    a.translated_name.name > b.translated_name.name ? 1 : -1;
+  const recitersSortFn = (a, b) => (a.translated_name.name > b.translated_name.name ? 1 : -1);
 
   const handleSubmit = (values) => {
     const cleanedValues: PlaySettings = {
@@ -78,18 +75,8 @@ const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
       </Form.Item>
       <Row gutter={24}>
         <Col span={12} xs={24} sm={24} md={20} lg={20}>
-          <Form.Item
-            label="Recite"
-            name="mode"
-            rules={[
-              { required: true, message: "Please select recitation mode" },
-            ]}
-          >
-            <Select
-              placeholder="Please select"
-              value={recitationMode}
-              onChange={(m) => setRecitationMode(m)}
-            >
+          <Form.Item label="Recite" name="mode" rules={[{ required: true, message: "Please select recitation mode" }]}>
+            <Select placeholder="Please select" value={recitationMode} onChange={(m) => setRecitationMode(m)}>
               <Select.Option value="surah">Entire Surah</Select.Option>
               <Select.Option value="verse-range">Verse Range</Select.Option>
             </Select>
@@ -107,31 +94,13 @@ const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
       {recitationMode === "verse-range" && (
         <Row gutter={24}>
           <Col>
-            <Form.Item
-              label="From Verse"
-              name="start"
-              rules={[{ required: true, message: "Please select start" }]}
-            >
-              <InputNumber
-                min={1}
-                max={end}
-                onChange={setStart}
-                value={start}
-              />
+            <Form.Item label="From Verse" name="start" rules={[{ required: true, message: "Please select start" }]}>
+              <InputNumber min={1} max={end} onChange={setStart} value={start} />
             </Form.Item>
           </Col>
           <Col>
-            <Form.Item
-              label="To Verse"
-              name="end"
-              rules={[{ required: true, message: "Please select end" }]}
-            >
-              <InputNumber
-                min={start}
-                max={verseCount}
-                onChange={setEnd}
-                value={end}
-              />
+            <Form.Item label="To Verse" name="end" rules={[{ required: true, message: "Please select end" }]}>
+              <InputNumber min={start} max={verseCount} onChange={setEnd} value={end} />
             </Form.Item>
           </Col>
         </Row>

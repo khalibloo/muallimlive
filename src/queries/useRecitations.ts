@@ -11,12 +11,6 @@ const getRecitations = async () => {
   return data;
 };
 
-export default function useRecitations(
-  options?: UseQueryOptions<GetRecitationsResponse, Error>,
-) {
-  return useQuery<GetRecitationsResponse, Error>(
-    ["recitations", { language: "en" }],
-    getRecitations,
-    options,
-  );
+export default function useRecitations(options?: UseQueryOptions<GetRecitationsResponse, Error>) {
+  return useQuery<GetRecitationsResponse, Error>(["recitations", { language: "en" }], getRecitations, options);
 }

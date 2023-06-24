@@ -24,11 +24,7 @@ const init = () => {
   });
 
   // SW
-  if (
-    typeof window !== "undefined" &&
-    "serviceWorker" in navigator &&
-    window.workbox !== undefined
-  ) {
+  if (typeof window !== "undefined" && "serviceWorker" in navigator && window.workbox !== undefined) {
     const wb = window.workbox;
     // add event listeners to handle any of PWA lifecycle event
     // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-window.Workbox#events

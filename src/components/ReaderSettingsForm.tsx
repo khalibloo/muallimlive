@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Row,
-  Col,
-  Form,
-  Switch,
-  Typography,
-  Cascader,
-  Button,
-  Alert,
-} from "antd";
+import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert } from "antd";
 import { useForm } from "antd/lib/form/Form";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import { useResponsive } from "ahooks";
@@ -29,10 +20,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   const [form] = useForm();
   const [useSplitView, setUseSplitView] = useState(false);
   const [settings, setSettings] = useState<ReaderSettings>();
-  const {
-    data: translationsData,
-    isLoading: translationsLoading,
-  } = useTranslations();
+  const { data: translationsData, isLoading: translationsLoading } = useTranslations();
   const { data: tafsirsData, isLoading: tafsirsLoading } = useTafsirs();
   const { data: languagesData, isLoading: languagesLoading } = useLanguages();
 
@@ -88,9 +76,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
           label: l.translated_name.name,
           value: l.iso_code,
           children: translationsData?.translations
-            .filter(
-              (t) => t.language_name.toLowerCase() === l.name.toLowerCase(),
-            )
+            .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
             .map((t) => ({ label: t.translated_name.name, value: t.id }))
             .sort(optionsSortFn),
         })),
@@ -117,9 +103,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
           label: l.translated_name.name,
           value: l.iso_code,
           children: tafsirsData?.tafsirs
-            .filter(
-              (t) => t.language_name.toLowerCase() === l.name.toLowerCase(),
-            )
+            .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
             .map((t) => ({ label: t.translated_name.name, value: t.id }))
             .sort(optionsSortFn),
         }))
@@ -143,12 +127,8 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   const handleSubmit = (values) => {
     const cleanedValues = {
       ...values,
-      left: values.left.filter(
-        (item) => item.content && item.content.length > 0,
-      ),
-      right: values.right.filter(
-        (item) => item.content && item.content.length > 0,
-      ),
+      left: values.left.filter((item) => item.content && item.content.length > 0),
+      right: values.right.filter((item) => item.content && item.content.length > 0),
     };
     setSettings(cleanedValues);
     lf.setItem("reader-settings", cleanedValues);
@@ -157,10 +137,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   };
 
   const handleCascaderSearch = (inputValue, path) =>
-    path.some(
-      (option) =>
-        option.label.toLowerCase().indexOf(inputValue.toLowerCase()) > -1,
-    );
+    path.some((option) => option.label.toLowerCase().indexOf(inputValue.toLowerCase()) > -1);
 
   const paneFields = (fields, { add, remove }) => (
     <>
@@ -173,11 +150,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
               fieldKey={[fieldKey, "content"]}
               rules={[{ required: true, message: "Please select content" }]}
             >
-              <Cascader
-                allowClear={false}
-                options={combinedTypes}
-                showSearch={{ filter: handleCascaderSearch }}
-              />
+              <Cascader allowClear={false} options={combinedTypes} showSearch={{ filter: handleCascaderSearch }} />
             </Form.Item>
           </Col>
           {fields.length > 1 && (
@@ -190,12 +163,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
         </Row>
       ))}
       <Form.Item>
-        <Button
-          type="dashed"
-          onClick={() => add()}
-          block
-          icon={<PlusOutlined />}
-        >
+        <Button type="dashed" onClick={() => add()} block icon={<PlusOutlined />}>
           Add
         </Button>
       </Form.Item>
@@ -209,12 +177,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
   }
 
   return (
-    <Form
-      form={form}
-      onFinish={handleSubmit}
-      initialValues={settings}
-      requiredMark={false}
-    >
+    <Form form={form} onFinish={handleSubmit} initialValues={settings} requiredMark={false}>
       <Alert
         type="info"
         message="Split view allows you to have content on right and left sides of your screen"
@@ -228,15 +191,8 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
           showIcon
         />
       )}
-      <Form.Item
-        name="splitView"
-        label="Use Split View"
-        valuePropName="checked"
-      >
-        <Switch
-          checked={useSplitView}
-          onChange={(checked) => setUseSplitView(checked)}
-        />
+      <Form.Item name="splitView" label="Use Split View" valuePropName="checked">
+        <Switch checked={useSplitView} onChange={(checked) => setUseSplitView(checked)} />
       </Form.Item>
       <Row gutter={24}>
         <Col span={useSplitView && responsive.md ? 12 : 24}>

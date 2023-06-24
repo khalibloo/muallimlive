@@ -11,12 +11,6 @@ const getLanguages = async () => {
   return data;
 };
 
-export default function useLanguages(
-  options?: UseQueryOptions<GetLanguagesResponse, Error>,
-) {
-  return useQuery<GetLanguagesResponse, Error>(
-    ["languages", { language: "en" }],
-    getLanguages,
-    options,
-  );
+export default function useLanguages(options?: UseQueryOptions<GetLanguagesResponse, Error>) {
+  return useQuery<GetLanguagesResponse, Error>(["languages", { language: "en" }], getLanguages, options);
 }

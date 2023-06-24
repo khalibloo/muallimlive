@@ -116,17 +116,8 @@ const AudioBar: React.FC<Props> = ({
               </Button>
             </Col>
             <Col>
-              <Button
-                className="px-2"
-                type="link"
-                onClick={() => setIsPlaying((val) => !val)}
-                size="large"
-              >
-                {isPlaying ? (
-                  <PauseCircleOutlined style={iconStyle} />
-                ) : (
-                  <PlayCircleOutlined style={iconStyle} />
-                )}
+              <Button className="px-2" type="link" onClick={() => setIsPlaying((val) => !val)} size="large">
+                {isPlaying ? <PauseCircleOutlined style={iconStyle} /> : <PlayCircleOutlined style={iconStyle} />}
               </Button>
             </Col>
             <Col>
@@ -161,11 +152,7 @@ const AudioBar: React.FC<Props> = ({
                       />
                     </div>
                     <Button type="link" onClick={() => setMuted((val) => !val)}>
-                      {muted ? (
-                        <BsVolumeMute fontSize="2rem" />
-                      ) : (
-                        <BsVolumeUp fontSize="2rem" />
-                      )}
+                      {muted ? <BsVolumeMute fontSize="2rem" /> : <BsVolumeUp fontSize="2rem" />}
                     </Button>
                   </Space>
                 }
@@ -178,12 +165,7 @@ const AudioBar: React.FC<Props> = ({
               </Popover>
             </Col>
             <Col>
-              <Button
-                className="px-2"
-                type="link"
-                size="large"
-                onClick={onOpenSettings}
-              >
+              <Button className="px-2" type="link" size="large" onClick={onOpenSettings}>
                 <SettingOutlined style={iconStyle} />
               </Button>
             </Col>
