@@ -155,7 +155,9 @@ const AudioBar: React.FC<Props> = ({
                           setVolume(val);
                           setMuted(false);
                         }}
-                        tipFormatter={(val) => ((val || 0) * 100).toFixed(0)}
+                        tooltip={{
+                          formatter: (val) => ((val || 0) * 100).toFixed(0),
+                        }}
                       />
                     </div>
                     <Button type="link" onClick={() => setMuted((val) => !val)}>

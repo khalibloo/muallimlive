@@ -54,7 +54,7 @@ const NavBar: React.FC<Props> = () => {
   return (
     <>
       <Modal
-        visible={settingsModalOpen}
+        open={settingsModalOpen}
         maskClosable={false}
         footer={null}
         onCancel={closeSettingsModal}

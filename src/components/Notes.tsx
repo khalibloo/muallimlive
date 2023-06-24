@@ -129,7 +129,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         placement="right"
         title={`Notes Q${chapterNumber}:${verseNumber}`}
         onClose={closeNotes}
-        visible={notesOpened}
+        open={notesOpened}
         footer={
           <Space direction="vertical" className="w-full">
             <ReactQuill theme="snow" onChange={setNewNote} value={newNote} />

@@ -1,17 +1,15 @@
-import React, { createRef, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NextPage } from "next";
 import {
-  BackTop,
   Button,
   Col,
-  Divider,
   Drawer,
+  FloatButton,
   Grid,
   Menu,
   Modal,
   Popconfirm,
   Row,
-  Space,
   Tooltip,
   Typography,
 } from "antd";
@@ -29,7 +27,6 @@ import Loader from "@/components/Loader";
 import {
   MenuOutlined,
   PlayCircleFilled,
-  PlayCircleOutlined,
   ReadOutlined,
 } from "@ant-design/icons";
 import useChapters from "@/queries/useChapters";
@@ -262,20 +259,20 @@ const ChapterPage: NextPage<Props> = () => {
       pageTitle={currentChapter.name_simple}
       pageDescription={`Chapter ${chapterNumber} of the Holy Qur'an`}
     >
-      <BackTop />
+      <FloatButton.BackTop />
       <Drawer
         placement="left"
         closable={false}
         bodyStyle={{ padding: 0 }}
         onClose={closeChaptersDrawer}
-        visible={chaptersDrawerOpen}
+        open={chaptersDrawerOpen}
       >
         <Menu theme="dark" selectedKeys={[id]} mode="inline">
           {chaptersData?.chapters.map((chapter) => (
             <Menu.Item
               key={chapter.id}
-              style={{ textAlign: "left" }}
-              onClick={() => closeChaptersDrawer()}
+              className="text-left"
+              onClick={closeChaptersDrawer}
             >
               <Link href={`/chapters/${chapter.id}`}>
                 <a>
@@ -298,7 +295,7 @@ const ChapterPage: NextPage<Props> = () => {
       <Modal
         title="Play Options"
         onCancel={closePlayModal}
-        visible={playModalOpen}
+        open={playModalOpen}
         footer={null}
       >
         <PlayForm
@@ -431,7 +428,7 @@ const ChapterPage: NextPage<Props> = () => {
       </Row>
       <Drawer
         placement="bottom"
-        visible={readerMode === "recitation"}
+        open={readerMode === "recitation"}
         mask={false}
         height={48}
         closeIcon={false}
