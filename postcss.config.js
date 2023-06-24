@@ -1,6 +1,7 @@
 module.exports = {
   plugins: {
     tailwindcss: {},
-    postcssPresetEnv: {},
+    autoprefixer: {},
+    // postcssPresetEnv: {},
   },
 };

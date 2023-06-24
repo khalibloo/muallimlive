@@ -1,9 +1,10 @@
+"use client";
 import React, { useState } from "react";
 import { Typography, Row, Col, Menu, Dropdown, Modal, Tabs, notification } from "antd";
 import { GlobalOutlined, SettingOutlined } from "@ant-design/icons";
-
 import Link from "next/link";
 import { useBoolean, useResponsive } from "ahooks";
+
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 
 interface Props {}
@@ -66,24 +67,22 @@ const NavBar: React.FC<Props> = () => {
       </Modal>
       <Row justify="space-between" align="middle" className="h-full">
         <Col className="h-full">
-          <Menu mode="horizontal" className="bg-transparent border-none h-full" selectedKeys={[]}>
+          <Menu mode="horizontal" disabledOverflow className="bg-transparent border-none h-full" selectedKeys={[]}>
             <Menu.Item key="1" className="h-full block">
-              <Link href="/">
-                <a className="h-full">
-                  <Row align="middle" className="h-full">
-                    <Col>
-                      <Typography.Title level={3} className="m-0">
-                        MuallimLive
-                      </Typography.Title>
-                    </Col>
-                  </Row>
-                </a>
+              <Link className="h-full" href="/">
+                <Row align="middle" className="h-full">
+                  <Col>
+                    <Typography.Title level={3} className="m-0">
+                      MuallimLive
+                    </Typography.Title>
+                  </Col>
+                </Row>
               </Link>
             </Menu.Item>
           </Menu>
         </Col>
         <Col className="h-full">
-          <Menu mode="horizontal" className="bg-transparent border-none h-full" selectable={false}>
+          <Menu mode="horizontal" disabledOverflow className="bg-transparent border-none h-full" selectable={false}>
             <Menu.Item key="lang" className="m-0 h-full">
               <Dropdown overlay={langMenu} trigger={["click"]}>
                 <div className="px-2">

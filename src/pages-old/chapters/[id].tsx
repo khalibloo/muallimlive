@@ -9,7 +9,7 @@ import Link from "next/link";
 import _ from "lodash";
 
 import lf from "@/utils/localforage";
-import BasicLayout from "@/layouts/BasicLayout";
+import BasicLayout from "@/app/BasicLayout";
 import Loader from "@/components/Loader";
 
 import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";

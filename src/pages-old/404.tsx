@@ -1,7 +1,7 @@
 import React from "react";
 import { NextPage } from "next";
 import { Button, Col, Row, Typography } from "antd";
-import BasicLayout from "@/layouts/BasicLayout";
+import BasicLayout from "@/app/BasicLayout";
 import Link from "next/link";
 
 interface Props {}

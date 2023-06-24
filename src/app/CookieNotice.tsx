@@ -1,21 +1,11 @@
-import React, { ReactNode, useEffect } from "react";
-import { Affix, Button, Col, Layout, Row, Space, Typography } from "antd";
+"use client";
+import React, { useEffect } from "react";
+import { Affix, Button, Col, Row, Space, Typography } from "antd";
 import lf from "localforage";
 import { useBoolean } from "ahooks";
-import clsx from "clsx";
-
-import NavBar from "./NavBar";
-import Footer from "./Footer";
 import Link from "next/link";
-import Head from "next/head";
 
-interface Props {
-  pageTitle: string;
-  pageDescription?: string;
-  noPadding?: boolean;
-  children: React.ReactNode;
-}
-const BasicLayout: React.FC<Props> = ({ children, pageTitle, pageDescription, noPadding }) => {
+const CookieNotice: React.FC = () => {
   const [cookieDrawerOpen, { setTrue: openCookieDrawer, setFalse: closeCookieDrawer }] = useBoolean(false);
   useEffect(() => {
     lf.getItem("accepted_cookie_notice").then((accepted) => {
@@ -25,27 +15,8 @@ const BasicLayout: React.FC<Props> = ({ children, pageTitle, pageDescription, no
     });
   }, []);
 
-  const title = pageTitle ? `${pageTitle} | MuallimLive` : "MuallimLive";
-  const description = pageDescription || "Al-Qur'an reader";
   return (
     <>
-      <Head>
-        <title>{title}</title>
-        <meta property="og:title" content={title} />
-        <meta name="twitter:title" content={title} />
-        <meta name="description" content={description} />
-        <meta property="og:description" content={description} />
-        <meta name="twitter:description" content={description} />
-      </Head>
-      <Layout className="min-h-screen">
-        <Layout.Header className={clsx("w-full p-0 fixed z-10 shadow-md")}>
-          <NavBar />
-        </Layout.Header>
-        <Layout.Content className={clsx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
-        <Layout.Footer>
-          <Footer />
-        </Layout.Footer>
-      </Layout>
       {cookieDrawerOpen && (
         <Affix offsetBottom={0} target={() => window}>
           <Row justify="space-around" align="middle" className="h-full bg-default p-6 shadow-md">
@@ -83,4 +54,4 @@ const BasicLayout: React.FC<Props> = ({ children, pageTitle, pageDescription, no
   );
 };
 
-export default BasicLayout;
+export default CookieNotice;

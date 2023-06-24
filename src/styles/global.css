@@ -1,14 +1,51 @@
 @import "./tailwind.css";
 @import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
 
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
   height: unset !important;
+} */
+
+.ant-btn.icon-btn {
+  border: none;
+  box-shadow: none;
+  background: transparent;
 }
 
-/* important: override tailwind svg vertical align. it messes with antd icon placement */
-svg {
-  vertical-align: unset;
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.ant-typography.inverse-text {
+  color: @text-color-inverse;
+}
+
+.ant-card-actions > li {
+  margin: 0;
+}
+
+.ant-input-number.hide-arrows .ant-input-number-handler-wrap {
+  display: none;
+}
+
+.ant-input-number-input-wrap > .ant-input-number-input {
+  height: 100%;
+}
+
+.bg-default {
+  background-color: #444;
+}
+
+.no-hover-border.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-right: none !important;
+}
+
+.ant-drawer.content-overflow .ant-drawer-content {
+  overflow: unset;
+}
+
+.text-arabic {
+  font-family: "Mirza", cursive;
 }
