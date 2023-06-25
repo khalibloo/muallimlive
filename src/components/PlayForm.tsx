@@ -1,30 +1,38 @@
 import React, { useState } from "react";
 import { Row, Col, Form, Button, Select, Checkbox, InputNumber } from "antd";
 import { useForm } from "antd/lib/form/Form";
-import _ from "lodash";
 
 import lf from "@/utils/localforage";
-import useRecitations from "@/queries/useRecitations";
 
 export interface PlayConfig extends PlaySettings {
   start: number;
   end: number;
 }
+
+interface FormValues {
+  reciter: number;
+  hideTafsirs: boolean;
+  mode: "surah" | "verse-range";
+  start: number;
+  end: number;
+}
+
 interface Props {
+  recitations: GetRecitationsResponse;
   verseCount: number;
   playSettings: PlaySettings;
   onSubmit?: (playSettings: PlayConfig) => void;
 }
-const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
-  const [form] = useForm();
+
+const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSubmit }) => {
+  const [form] = useForm<FormValues>();
   const [recitationMode, setRecitationMode] = useState<"surah" | "verse-range">("surah");
   const [start, setStart] = useState(1);
   const [end, setEnd] = useState(verseCount);
-  const { data: recitations, isLoading: recitationsLoading } = useRecitations();
 
-  const recitersSortFn = (a, b) => (a.translated_name.name > b.translated_name.name ? 1 : -1);
+  const recitersSortFn = (a: any, b: any) => (a.translated_name.name > b.translated_name.name ? 1 : -1);
 
-  const handleSubmit = (values) => {
+  const handleSubmit = (values: FormValues) => {
     const cleanedValues: PlaySettings = {
       reciter: values.reciter,
       hideTafsirs: values.hideTafsirs,
@@ -54,13 +62,13 @@ const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
       layout="vertical"
     >
       <Row>
-        <Col span={12} xs={24} sm={24} md={20} lg={20}>
+        <Col xs={24} md={20}>
           <Form.Item
             name="reciter"
             label="Audio Reciter"
             rules={[{ required: true, message: "Please select reciter" }]}
           >
-            <Select loading={recitationsLoading} placeholder="Please select">
+            <Select placeholder="Please select">
               {recitations?.recitations.sort(recitersSortFn).map((r) => (
                 <Select.Option key={r.id} value={r.id}>
                   {r.translated_name.name} {r.style && <>({r.style})</>}
@@ -95,12 +103,12 @@ const PlayForm: React.FC<Props> = ({ verseCount, playSettings, onSubmit }) => {
         <Row gutter={24}>
           <Col>
             <Form.Item label="From Verse" name="start" rules={[{ required: true, message: "Please select start" }]}>
-              <InputNumber min={1} max={end} onChange={setStart} value={start} />
+              <InputNumber min={1} max={end} onChange={(value) => setStart(value as number)} value={start} />
             </Form.Item>
           </Col>
           <Col>
             <Form.Item label="To Verse" name="end" rules={[{ required: true, message: "Please select end" }]}>
-              <InputNumber min={start} max={verseCount} onChange={setEnd} value={end} />
+              <InputNumber min={start} max={verseCount} onChange={(value) => setEnd(value as number)} value={end} />
             </Form.Item>
           </Col>
         </Row>

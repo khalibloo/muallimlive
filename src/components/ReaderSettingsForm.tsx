@@ -8,17 +8,19 @@ import { sortBy } from "lodash";
 import lf from "@/utils/localforage";
 import config from "@/utils/config";
 import Loader from "./Loader";
+import { DefaultOptionType } from "antd/es/cascader";
+import { FormListProps } from "antd/es/form";
 
 interface Props {
-  languages: any;
-  recitations: any;
-  tafsirs: any;
-  translations: any;
+  translations: GetTranslationsResponse;
+  languages: GetLanguagesResponse;
+  tafsirs: GetTafsirsResponse;
+  recitations: GetRecitationsResponse;
   onSubmit?: () => void;
 }
 const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, translations, onSubmit }) => {
   const responsive = useResponsive();
-  const [form] = useForm();
+  const [form] = useForm<ReaderSettings>();
   const [useSplitView, setUseSplitView] = useState(false);
   const [settings, setSettings] = useState<ReaderSettings>();
 
@@ -126,7 +128,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, 
     },
   ];
 
-  const handleSubmit = (values) => {
+  const handleSubmit = (values: ReaderSettings) => {
     const cleanedValues = {
       ...values,
       left: values.left.filter((item) => item.content && item.content.length > 0),
@@ -138,18 +140,17 @@ const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, 
     onSubmit?.();
   };
 
-  const handleCascaderSearch = (inputValue, path) =>
-    path.some((option) => option.label.toLowerCase().indexOf(inputValue.toLowerCase()) > -1);
+  const handleCascaderSearch = (inputValue: string, path: DefaultOptionType[]) =>
+    path.some((option) => (option.label as string).toLowerCase().indexOf(inputValue.toLowerCase()) > -1);
 
-  const paneFields = (fields, { add, remove }) => (
+  const paneFields: FormListProps["children"] = (fields, { add, remove }) => (
     <>
-      {fields.map(({ key, name, fieldKey, ...restField }) => (
+      {fields.map(({ key, name, ...restField }) => (
         <Row key={key} className="mb-2 flex-nowrap" gutter={16}>
           <Col className="flex-grow">
             <Form.Item
               {...restField}
               name={[name, "content"]}
-              // fieldKey={[fieldKey, "content"]}
               rules={[{ required: true, message: "Please select content" }]}
             >
               <Cascader allowClear={false} options={combinedTypes} showSearch={{ filter: handleCascaderSearch }} />

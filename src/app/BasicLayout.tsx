@@ -7,7 +7,12 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 interface Props {
-  settingsReources: any;
+  settingsReources: {
+    translations: GetTranslationsResponse;
+    languages: GetLanguagesResponse;
+    tafsirs: GetTafsirsResponse;
+    recitations: GetRecitationsResponse;
+  };
   noPadding?: boolean;
   children: React.ReactNode;
 }

@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const origin = `${process.env.NODE_ENV === "development" ? "http" : "https"}://${headers().get("host")}`;
-  const tafsirs = await fetchData("resources/tafsirs");
-  const recitations = await fetchData("resources/recitations");
-  const languages = await fetchData("resources/languages");
-  const translations = await fetchData("resources/translations");
+  const tafsirs = await fetchData<GetTafsirsResponse>("resources/tafsirs");
+  const recitations = await fetchData<GetRecitationsResponse>("resources/recitations");
+  const languages = await fetchData<GetLanguagesResponse>("resources/languages");
+  const translations = await fetchData<GetTranslationsResponse>("resources/translations");
 
   return (
     <html lang="en">

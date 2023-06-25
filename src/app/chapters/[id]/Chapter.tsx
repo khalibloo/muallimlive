@@ -5,26 +5,32 @@ import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clsx from "clsx";
 import Link from "next/link";
-import _ from "lodash";
-
-import lf from "@/utils/localforage";
-
+import { range } from "lodash";
 import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";
-import useChapters from "@/queries/useChapters";
-import useVersesArabic from "@/queries/useVersesArabic";
-import useVersesTranslation from "@/queries/useVersesTranslation";
-import useVersesTafsir from "@/queries/useVersesTafsir";
+
 import Verse from "@/components/Verse";
-import config from "@/utils/config";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar from "@/components/AudioBar";
-import useVersesRecitation from "@/queries/useVersesRecitation";
+import lf from "@/utils/localforage";
+import config from "@/utils/config";
 
 interface Props {
   chapter: Chapter;
+  leftContent: (VerseText[] | Translation[] | null)[];
+  rightContent: (VerseText[] | Translation[] | null)[];
+  chapters: { chapters: Chapter[] };
+  versesRecitations: { id: number; url: string; verse_key: string }[];
+  recitations: GetRecitationsResponse;
 }
 
-const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
+const Chapter: React.FC<Props> = ({
+  chapter: currentChapter,
+  chapters,
+  leftContent,
+  rightContent,
+  versesRecitations,
+  recitations,
+}) => {
   const responsive = Grid.useBreakpoint();
   const chapterNumber = currentChapter.id;
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
@@ -33,77 +39,12 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
 
   const virtualListRef = useRef<VirtuosoHandle>(null);
 
-  const [settings, setSettings] = useState<ReaderSettings>();
   const [faves, setFaves] = useState<string[]>([]);
   const [playSettings, setPlaySettings] = useState<PlayConfig>();
   const [isPlayingVerses, setIsPlayingVerses] = useState(false);
   const [playingVerseNumber, setPlayingVerseNumber] = useState<number>();
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(1);
-
-  React.useEffect(() => {
-    const defaultSettings = config.defaultReaderSettings;
-    lf.ready().then(() => {
-      lf.getItem("reader-settings").then((settings) => {
-        // TODO: validate object somehow
-        setSettings((settings as ReaderSettings) || defaultSettings);
-      });
-
-      // sync localforage across tabs
-      lf.configObservables({
-        crossTabNotification: true,
-        crossTabChangeDetection: true,
-      });
-      const ob = lf.newObservable({
-        key: "reader-settings",
-        crossTabNotification: true,
-      });
-
-      ob.subscribe({
-        next: (args) => {
-          setSettings(args.newValue || defaultSettings);
-        },
-      });
-    });
-  }, []);
-
-  // resources
-  const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
-
-  const contentTypes = settings ? [...settings.left, ...settings.right] : [];
-  const arabicContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] === "ar");
-  const translationContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] !== "ar");
-  const tafsirContentTypes = contentTypes.filter((c) => c.content?.[0] === "tafsir");
-
-  // data
-  const arabicScriptsResults = useVersesArabic(
-    arabicContentTypes.map((c) => (c.content as ArabicScript[])[2]),
-    chapterNumber,
-    { enabled: settings != null }
-  );
-  const translationResults = useVersesTranslation(
-    translationContentTypes.map((c) => (c.content as number[])[2]),
-    chapterNumber,
-    { enabled: settings != null }
-  );
-  const tafsirResults = useVersesTafsir(
-    tafsirContentTypes.map((c) => (c.content as number[])[2]),
-    chapterNumber,
-    { enabled: settings != null }
-  );
-  const { data: recitations, isLoading: recitationsLoading } = useVersesRecitation(
-    (playSettings as PlaySettings)?.reciter,
-    chapterNumber,
-    { enabled: playSettings != null }
-  );
-
-  const isFinishedLoading = !(
-    settings == null ||
-    arabicScriptsResults.some((r) => r.isLoading) ||
-    translationResults.some((r) => r.isLoading) ||
-    tafsirResults.some((r) => r.isLoading) ||
-    chaptersLoading
-  );
 
   React.useEffect(() => {
     lf.ready().then(() => {
@@ -148,50 +89,33 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
 
   // restore progress
   React.useEffect(() => {
-    if (currentChapter && isFinishedLoading && virtualListRef.current) {
-      const key = `progress-surah-${chapterNumber}`;
-      lf.ready().then(() => {
-        lf.getItem(key).then((progress) => {
-          // validation
-          if (typeof progress === "number" && progress > 0 && progress <= currentChapter.verses_count) {
-            virtualListRef.current?.scrollToIndex({
-              index: progress - 1,
-              align: "start",
-              behavior: "smooth",
-            });
-          }
-        });
+    if (!virtualListRef.current) {
+      return;
+    }
+    const key = `progress-surah-${chapterNumber}`;
+    lf.ready().then(() => {
+      lf.getItem(key).then((progress) => {
+        // validation
+        if (typeof progress === "number" && progress > 0 && progress <= currentChapter.verses_count) {
+          virtualListRef.current?.scrollToIndex({
+            index: progress - 1,
+            align: "start",
+            behavior: "smooth",
+          });
+        }
       });
-    }
-  }, [currentChapter, isFinishedLoading, virtualListRef.current]);
-
-  const mapContent = (c: ReaderSettings["left"][0]) => {
-    if (c.content?.[0] === "translation" && c.content[1] === "ar") {
-      const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
-      return arabicScriptsResults[i];
-    } else if (c.content?.[0] === "translation" && c.content[1] !== "ar") {
-      const i = translationContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
-      return translationResults[i];
-    } else if (c.content?.[0] === "tafsir") {
-      const i = tafsirContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
-      return tafsirResults[i];
-    }
-    return null;
-  };
-  const leftContent = settings ? settings.left.map(mapContent) : [];
-  const rightContent = settings ? settings.right.map(mapContent) : [];
+    });
+  }, [virtualListRef.current]);
 
   const verseList: { left: VerseText[]; right: VerseText[] }[] = [];
-  _.range(currentChapter.verses_count).forEach((i) => {
-    const l = leftContent.map((c) => c?.data?.[i]);
-    const r = rightContent.map((c) => c?.data?.[i]);
-    console.log([...l, ...r]);
+  range(currentChapter.verses_count).forEach((i) => {
+    const l = leftContent.map((c: any) => c?.[i]);
+    const r = rightContent.map((c: any) => c?.[i]);
 
     if (![...l, ...r].includes(undefined)) {
       verseList.push({ left: l as VerseText[], right: r as VerseText[] });
     }
   });
-  console.log({ verseList, currentChapter });
 
   return (
     <>
@@ -204,7 +128,7 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
         open={chaptersDrawerOpen}
       >
         <Menu theme="dark" selectedKeys={[`${currentChapter.id}`]} mode="inline">
-          {chaptersData?.chapters.map((chapter) => (
+          {chapters?.chapters.map((chapter) => (
             <Menu.Item key={chapter.id} className="text-left" onClick={closeChaptersDrawer}>
               <Link href={`/chapters/${chapter.id}`}>
                 <Tooltip overlayClassName="capitalize" title={chapter.translated_name.name} placement="right">
@@ -220,6 +144,7 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
       </Drawer>
       <Modal title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
         <PlayForm
+          recitations={recitations}
           verseCount={currentChapter.verses_count}
           playSettings={playSettings!}
           onSubmit={(playSettingsData) => {
@@ -230,7 +155,7 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
           }}
         />
       </Modal>
-      <div className="fixed shadow-md bg-444 w-full z-10">
+      <div className="fixed top-16 shadow-md bg-444 w-full z-10">
         <div className="flex items-stretch">
           <div>
             <Button
@@ -292,40 +217,6 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
       </div>
       <Row className="mt-13 py-6 flex-grow" justify="center">
         <Col span={24}>
-          {verseList.map((v, i) => (
-            <div key={JSON.stringify(v)}>
-              <Row justify="center">
-                <Col
-                  span={22}
-                  className="py-3"
-                  style={{
-                    borderBottom: i === verseList.length - 1 ? undefined : "1px solid #666",
-                  }}
-                >
-                  <Verse
-                    verseNumber={i + 1}
-                    chapterNumber={chapterNumber}
-                    faved={faves.includes(`${chapterNumber}:${i + 1}`)}
-                    totalVerses={currentChapter.verses_count}
-                    left={v.left}
-                    right={v.right}
-                    hideTafsirs={readerMode === "recitation" && playSettings?.hideTafsirs}
-                    audioUrl={recitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
-                    onPlay={() => {
-                      setPlayingVerseNumber(i + 1);
-                      setIsPlayingVerses(false);
-                    }}
-                    onEnded={() => setPlayingVerseNumber(-1)}
-                    isPlaying={playingVerseNumber === i + 1}
-                    muted={muted}
-                    setMuted={setMuted}
-                    volume={volume}
-                    setVolume={setVolume}
-                  />
-                </Col>
-              </Row>
-            </div>
-          ))}
           <Virtuoso
             data={verseList}
             useWindowScroll
@@ -350,7 +241,7 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
                         left={item.left}
                         right={item.right}
                         hideTafsirs={readerMode === "recitation" && playSettings?.hideTafsirs}
-                        audioUrl={recitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
+                        audioUrl={versesRecitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
                         onPlay={() => {
                           setPlayingVerseNumber(i + 1);
                           setIsPlayingVerses(false);
@@ -375,12 +266,13 @@ const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
         open={readerMode === "recitation"}
         mask={false}
         height={48}
+        headerStyle={{ display: "none" }}
         closeIcon={false}
         bodyStyle={{ padding: 0 }}
       >
-        {recitations && readerMode === "recitation" && playSettings && (
+        {versesRecitations && readerMode === "recitation" && playSettings && (
           <AudioBar
-            audioUrls={recitations.slice(playSettings.start - 1, playSettings.end).map((a) => a.url)}
+            audioUrls={versesRecitations.slice(playSettings.start - 1, playSettings.end).map((a) => a.url)}
             start={playSettings.start}
             isPlaying={isPlayingVerses}
             setIsPlaying={setIsPlayingVerses}

@@ -8,7 +8,12 @@ import { useBoolean, useResponsive } from "ahooks";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 
 interface Props {
-  settingsResources: any;
+  settingsResources: {
+    translations: GetTranslationsResponse;
+    languages: GetLanguagesResponse;
+    tafsirs: GetTafsirsResponse;
+    recitations: GetRecitationsResponse;
+  };
 }
 
 const NavBar: React.FC<Props> = ({ settingsResources }) => {
