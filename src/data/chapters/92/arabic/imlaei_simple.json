@@ -1,0 +1,90 @@
+{
+  "verses": [
+    {
+      "id": 6059,
+      "verse_key": "92:1",
+      "text_imlaei_simple": "والليل اذا يغشى"
+    },
+    {
+      "id": 6060,
+      "verse_key": "92:2",
+      "text_imlaei_simple": "والنهار اذا تجلى"
+    },
+    {
+      "id": 6061,
+      "verse_key": "92:3",
+      "text_imlaei_simple": "وما خلق الذكر والانثى"
+    },
+    { "id": 6062, "verse_key": "92:4", "text_imlaei_simple": "ان سعيكم لشتى" },
+    {
+      "id": 6063,
+      "verse_key": "92:5",
+      "text_imlaei_simple": "فاما من اعطى واتقى"
+    },
+    { "id": 6064, "verse_key": "92:6", "text_imlaei_simple": "وصدق بالحسنى" },
+    { "id": 6065, "verse_key": "92:7", "text_imlaei_simple": "فسنيسره لليسرى" },
+    {
+      "id": 6066,
+      "verse_key": "92:8",
+      "text_imlaei_simple": "واما من بخل واستغنى"
+    },
+    { "id": 6067, "verse_key": "92:9", "text_imlaei_simple": "وكذب بالحسنى" },
+    {
+      "id": 6068,
+      "verse_key": "92:10",
+      "text_imlaei_simple": "فسنيسره للعسرى"
+    },
+    {
+      "id": 6069,
+      "verse_key": "92:11",
+      "text_imlaei_simple": "وما يغني عنه ماله اذا تردى"
+    },
+    {
+      "id": 6070,
+      "verse_key": "92:12",
+      "text_imlaei_simple": "ان علينا للهدى"
+    },
+    {
+      "id": 6071,
+      "verse_key": "92:13",
+      "text_imlaei_simple": "وان لنا للاخرة والاولى"
+    },
+    {
+      "id": 6072,
+      "verse_key": "92:14",
+      "text_imlaei_simple": "فانذرتكم نارا تلظى"
+    },
+    {
+      "id": 6073,
+      "verse_key": "92:15",
+      "text_imlaei_simple": "لا يصلاها الا الاشقى"
+    },
+    {
+      "id": 6074,
+      "verse_key": "92:16",
+      "text_imlaei_simple": "الذي كذب وتولى"
+    },
+    {
+      "id": 6075,
+      "verse_key": "92:17",
+      "text_imlaei_simple": "وسيجنبها الاتقى"
+    },
+    {
+      "id": 6076,
+      "verse_key": "92:18",
+      "text_imlaei_simple": "الذي يؤتي ماله يتزكى"
+    },
+    {
+      "id": 6077,
+      "verse_key": "92:19",
+      "text_imlaei_simple": "وما لاحد عنده من نعمة تجزى"
+    },
+    {
+      "id": 6078,
+      "verse_key": "92:20",
+      "text_imlaei_simple": "الا ابتغاء وجه ربه الاعلى"
+    },
+    { "id": 6079, "verse_key": "92:21", "text_imlaei_simple": "ولسوف يرضى" }
+  ],
+  "meta": { "filters": { "chapter_number": "92" } }
+}

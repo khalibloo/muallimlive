@@ -1,0 +1,72 @@
+{
+  "verses": [
+    { "id": 6044, "verse_key": "91:1", "text_imlaei_simple": "والشمس وضحاها" },
+    {
+      "id": 6045,
+      "verse_key": "91:2",
+      "text_imlaei_simple": "والقمر اذا تلاها"
+    },
+    {
+      "id": 6046,
+      "verse_key": "91:3",
+      "text_imlaei_simple": "والنهار اذا جلاها"
+    },
+    {
+      "id": 6047,
+      "verse_key": "91:4",
+      "text_imlaei_simple": "والليل اذا يغشاها"
+    },
+    {
+      "id": 6048,
+      "verse_key": "91:5",
+      "text_imlaei_simple": "والسماء وما بناها"
+    },
+    {
+      "id": 6049,
+      "verse_key": "91:6",
+      "text_imlaei_simple": "والارض وما طحاها"
+    },
+    { "id": 6050, "verse_key": "91:7", "text_imlaei_simple": "ونفس وما سواها" },
+    {
+      "id": 6051,
+      "verse_key": "91:8",
+      "text_imlaei_simple": "فالهمها فجورها وتقواها"
+    },
+    {
+      "id": 6052,
+      "verse_key": "91:9",
+      "text_imlaei_simple": "قد افلح من زكاها"
+    },
+    {
+      "id": 6053,
+      "verse_key": "91:10",
+      "text_imlaei_simple": "وقد خاب من دساها"
+    },
+    {
+      "id": 6054,
+      "verse_key": "91:11",
+      "text_imlaei_simple": "كذبت ثمود بطغواها"
+    },
+    {
+      "id": 6055,
+      "verse_key": "91:12",
+      "text_imlaei_simple": "اذ انبعث اشقاها"
+    },
+    {
+      "id": 6056,
+      "verse_key": "91:13",
+      "text_imlaei_simple": "فقال لهم رسول الله ناقة الله وسقياها"
+    },
+    {
+      "id": 6057,
+      "verse_key": "91:14",
+      "text_imlaei_simple": "فكذبوه فعقروها فدمدم عليهم ربهم بذنبهم فسواها"
+    },
+    {
+      "id": 6058,
+      "verse_key": "91:15",
+      "text_imlaei_simple": "ولا يخاف عقباها"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "91" } }
+}

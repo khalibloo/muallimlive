@@ -1,0 +1,130 @@
+{
+  "verses": [
+    { "id": 5801, "verse_key": "81:1", "text_imlaei_simple": "اذا الشمس كورت" },
+    {
+      "id": 5802,
+      "verse_key": "81:2",
+      "text_imlaei_simple": "واذا النجوم انكدرت"
+    },
+    {
+      "id": 5803,
+      "verse_key": "81:3",
+      "text_imlaei_simple": "واذا الجبال سيرت"
+    },
+    {
+      "id": 5804,
+      "verse_key": "81:4",
+      "text_imlaei_simple": "واذا العشار عطلت"
+    },
+    {
+      "id": 5805,
+      "verse_key": "81:5",
+      "text_imlaei_simple": "واذا الوحوش حشرت"
+    },
+    {
+      "id": 5806,
+      "verse_key": "81:6",
+      "text_imlaei_simple": "واذا البحار سجرت"
+    },
+    {
+      "id": 5807,
+      "verse_key": "81:7",
+      "text_imlaei_simple": "واذا النفوس زوجت"
+    },
+    {
+      "id": 5808,
+      "verse_key": "81:8",
+      "text_imlaei_simple": "واذا الموءودة سئلت"
+    },
+    { "id": 5809, "verse_key": "81:9", "text_imlaei_simple": "باي ذنب قتلت" },
+    {
+      "id": 5810,
+      "verse_key": "81:10",
+      "text_imlaei_simple": "واذا الصحف نشرت"
+    },
+    {
+      "id": 5811,
+      "verse_key": "81:11",
+      "text_imlaei_simple": "واذا السماء كشطت"
+    },
+    {
+      "id": 5812,
+      "verse_key": "81:12",
+      "text_imlaei_simple": "واذا الجحيم سعرت"
+    },
+    {
+      "id": 5813,
+      "verse_key": "81:13",
+      "text_imlaei_simple": "واذا الجنة ازلفت"
+    },
+    {
+      "id": 5814,
+      "verse_key": "81:14",
+      "text_imlaei_simple": "علمت نفس ما احضرت"
+    },
+    {
+      "id": 5815,
+      "verse_key": "81:15",
+      "text_imlaei_simple": "فلا اقسم بالخنس"
+    },
+    { "id": 5816, "verse_key": "81:16", "text_imlaei_simple": "الجوار الكنس" },
+    {
+      "id": 5817,
+      "verse_key": "81:17",
+      "text_imlaei_simple": "والليل اذا عسعس"
+    },
+    {
+      "id": 5818,
+      "verse_key": "81:18",
+      "text_imlaei_simple": "والصبح اذا تنفس"
+    },
+    {
+      "id": 5819,
+      "verse_key": "81:19",
+      "text_imlaei_simple": "انه لقول رسول كريم"
+    },
+    {
+      "id": 5820,
+      "verse_key": "81:20",
+      "text_imlaei_simple": "ذي قوة عند ذي العرش مكين"
+    },
+    { "id": 5821, "verse_key": "81:21", "text_imlaei_simple": "مطاع ثم امين" },
+    {
+      "id": 5822,
+      "verse_key": "81:22",
+      "text_imlaei_simple": "وما صاحبكم بمجنون"
+    },
+    {
+      "id": 5823,
+      "verse_key": "81:23",
+      "text_imlaei_simple": "ولقد راه بالافق المبين"
+    },
+    {
+      "id": 5824,
+      "verse_key": "81:24",
+      "text_imlaei_simple": "وما هو على الغيب بضنين"
+    },
+    {
+      "id": 5825,
+      "verse_key": "81:25",
+      "text_imlaei_simple": "وما هو بقول شيطان رجيم"
+    },
+    { "id": 5826, "verse_key": "81:26", "text_imlaei_simple": "فاين تذهبون" },
+    {
+      "id": 5827,
+      "verse_key": "81:27",
+      "text_imlaei_simple": "ان هو الا ذكر للعالمين"
+    },
+    {
+      "id": 5828,
+      "verse_key": "81:28",
+      "text_imlaei_simple": "لمن شاء منكم ان يستقيم"
+    },
+    {
+      "id": 5829,
+      "verse_key": "81:29",
+      "text_imlaei_simple": "وما تشاءون الا ان يشاء الله رب العالمين"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "81" } }
+}

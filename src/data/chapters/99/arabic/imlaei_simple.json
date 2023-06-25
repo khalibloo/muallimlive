@@ -1,0 +1,45 @@
+{
+  "verses": [
+    {
+      "id": 6139,
+      "verse_key": "99:1",
+      "text_imlaei_simple": "اذا زلزلت الارض زلزالها"
+    },
+    {
+      "id": 6140,
+      "verse_key": "99:2",
+      "text_imlaei_simple": "واخرجت الارض اثقالها"
+    },
+    {
+      "id": 6141,
+      "verse_key": "99:3",
+      "text_imlaei_simple": "وقال الانسان ما لها"
+    },
+    {
+      "id": 6142,
+      "verse_key": "99:4",
+      "text_imlaei_simple": "يومئذ تحدث اخبارها"
+    },
+    {
+      "id": 6143,
+      "verse_key": "99:5",
+      "text_imlaei_simple": "بان ربك اوحى لها"
+    },
+    {
+      "id": 6144,
+      "verse_key": "99:6",
+      "text_imlaei_simple": "يومئذ يصدر الناس اشتاتا ليروا اعمالهم"
+    },
+    {
+      "id": 6145,
+      "verse_key": "99:7",
+      "text_imlaei_simple": "فمن يعمل مثقال ذرة خيرا يره"
+    },
+    {
+      "id": 6146,
+      "verse_key": "99:8",
+      "text_imlaei_simple": "ومن يعمل مثقال ذرة شرا يره"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "99" } }
+}

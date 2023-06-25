@@ -1,0 +1,30 @@
+{
+  "verses": [
+    {
+      "id": 6189,
+      "verse_key": "105:1",
+      "text_imlaei_simple": "الم تر كيف فعل ربك باصحاب الفيل"
+    },
+    {
+      "id": 6190,
+      "verse_key": "105:2",
+      "text_imlaei_simple": "الم يجعل كيدهم في تضليل"
+    },
+    {
+      "id": 6191,
+      "verse_key": "105:3",
+      "text_imlaei_simple": "وارسل عليهم طيرا ابابيل"
+    },
+    {
+      "id": 6192,
+      "verse_key": "105:4",
+      "text_imlaei_simple": "ترميهم بحجارة من سجيل"
+    },
+    {
+      "id": 6193,
+      "verse_key": "105:5",
+      "text_imlaei_simple": "فجعلهم كعصف ماكول"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "105" } }
+}

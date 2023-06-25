@@ -1,0 +1,96 @@
+{
+  "verses": [
+    {
+      "id": 5830,
+      "verse_key": "82:1",
+      "text_imlaei_simple": "اذا السماء انفطرت"
+    },
+    {
+      "id": 5831,
+      "verse_key": "82:2",
+      "text_imlaei_simple": "واذا الكواكب انتثرت"
+    },
+    {
+      "id": 5832,
+      "verse_key": "82:3",
+      "text_imlaei_simple": "واذا البحار فجرت"
+    },
+    {
+      "id": 5833,
+      "verse_key": "82:4",
+      "text_imlaei_simple": "واذا القبور بعثرت"
+    },
+    {
+      "id": 5834,
+      "verse_key": "82:5",
+      "text_imlaei_simple": "علمت نفس ما قدمت واخرت"
+    },
+    {
+      "id": 5835,
+      "verse_key": "82:6",
+      "text_imlaei_simple": "يا ايها الانسان ما غرك بربك الكريم"
+    },
+    {
+      "id": 5836,
+      "verse_key": "82:7",
+      "text_imlaei_simple": "الذي خلقك فسواك فعدلك"
+    },
+    {
+      "id": 5837,
+      "verse_key": "82:8",
+      "text_imlaei_simple": "في اي صورة ما شاء ركبك"
+    },
+    {
+      "id": 5838,
+      "verse_key": "82:9",
+      "text_imlaei_simple": "كلا بل تكذبون بالدين"
+    },
+    {
+      "id": 5839,
+      "verse_key": "82:10",
+      "text_imlaei_simple": "وان عليكم لحافظين"
+    },
+    { "id": 5840, "verse_key": "82:11", "text_imlaei_simple": "كراما كاتبين" },
+    {
+      "id": 5841,
+      "verse_key": "82:12",
+      "text_imlaei_simple": "يعلمون ما تفعلون"
+    },
+    {
+      "id": 5842,
+      "verse_key": "82:13",
+      "text_imlaei_simple": "ان الابرار لفي نعيم"
+    },
+    {
+      "id": 5843,
+      "verse_key": "82:14",
+      "text_imlaei_simple": "وان الفجار لفي جحيم"
+    },
+    {
+      "id": 5844,
+      "verse_key": "82:15",
+      "text_imlaei_simple": "يصلونها يوم الدين"
+    },
+    {
+      "id": 5845,
+      "verse_key": "82:16",
+      "text_imlaei_simple": "وما هم عنها بغائبين"
+    },
+    {
+      "id": 5846,
+      "verse_key": "82:17",
+      "text_imlaei_simple": "وما ادراك ما يوم الدين"
+    },
+    {
+      "id": 5847,
+      "verse_key": "82:18",
+      "text_imlaei_simple": "ثم ما ادراك ما يوم الدين"
+    },
+    {
+      "id": 5848,
+      "verse_key": "82:19",
+      "text_imlaei_simple": "يوم لا تملك نفس لنفس شيئا والامر يومئذ لله"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "82" } }
+}

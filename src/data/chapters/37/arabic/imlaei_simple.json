@@ -1,0 +1,891 @@
+{
+  "verses": [
+    { "id": 3789, "verse_key": "37:1", "text_imlaei_simple": "والصافات صفا" },
+    { "id": 3790, "verse_key": "37:2", "text_imlaei_simple": "فالزاجرات زجرا" },
+    { "id": 3791, "verse_key": "37:3", "text_imlaei_simple": "فالتاليات ذكرا" },
+    { "id": 3792, "verse_key": "37:4", "text_imlaei_simple": "ان الهكم لواحد" },
+    {
+      "id": 3793,
+      "verse_key": "37:5",
+      "text_imlaei_simple": "رب السماوات والارض وما بينهما ورب المشارق"
+    },
+    {
+      "id": 3794,
+      "verse_key": "37:6",
+      "text_imlaei_simple": "انا زينا السماء الدنيا بزينة الكواكب"
+    },
+    {
+      "id": 3795,
+      "verse_key": "37:7",
+      "text_imlaei_simple": "وحفظا من كل شيطان مارد"
+    },
+    {
+      "id": 3796,
+      "verse_key": "37:8",
+      "text_imlaei_simple": "لا يسمعون الى الملا الاعلى ويقذفون من كل جانب"
+    },
+    {
+      "id": 3797,
+      "verse_key": "37:9",
+      "text_imlaei_simple": "دحورا ولهم عذاب واصب"
+    },
+    {
+      "id": 3798,
+      "verse_key": "37:10",
+      "text_imlaei_simple": "الا من خطف الخطفة فاتبعه شهاب ثاقب"
+    },
+    {
+      "id": 3799,
+      "verse_key": "37:11",
+      "text_imlaei_simple": "فاستفتهم اهم اشد خلقا ام من خلقنا انا خلقناهم من طين لازب"
+    },
+    {
+      "id": 3800,
+      "verse_key": "37:12",
+      "text_imlaei_simple": "بل عجبت ويسخرون"
+    },
+    {
+      "id": 3801,
+      "verse_key": "37:13",
+      "text_imlaei_simple": "واذا ذكروا لا يذكرون"
+    },
+    {
+      "id": 3802,
+      "verse_key": "37:14",
+      "text_imlaei_simple": "واذا راوا اية يستسخرون"
+    },
+    {
+      "id": 3803,
+      "verse_key": "37:15",
+      "text_imlaei_simple": "وقالوا ان هذا الا سحر مبين"
+    },
+    {
+      "id": 3804,
+      "verse_key": "37:16",
+      "text_imlaei_simple": "ااذا متنا وكنا ترابا وعظاما اانا لمبعوثون"
+    },
+    {
+      "id": 3805,
+      "verse_key": "37:17",
+      "text_imlaei_simple": "اواباؤنا الاولون"
+    },
+    {
+      "id": 3806,
+      "verse_key": "37:18",
+      "text_imlaei_simple": "قل نعم وانتم داخرون"
+    },
+    {
+      "id": 3807,
+      "verse_key": "37:19",
+      "text_imlaei_simple": "فانما هي زجرة واحدة فاذا هم ينظرون"
+    },
+    {
+      "id": 3808,
+      "verse_key": "37:20",
+      "text_imlaei_simple": "وقالوا يا ويلنا هذا يوم الدين"
+    },
+    {
+      "id": 3809,
+      "verse_key": "37:21",
+      "text_imlaei_simple": "هذا يوم الفصل الذي كنتم به تكذبون"
+    },
+    {
+      "id": 3810,
+      "verse_key": "37:22",
+      "text_imlaei_simple": "احشروا الذين ظلموا وازواجهم وما كانوا يعبدون"
+    },
+    {
+      "id": 3811,
+      "verse_key": "37:23",
+      "text_imlaei_simple": "من دون الله فاهدوهم الى صراط الجحيم"
+    },
+    {
+      "id": 3812,
+      "verse_key": "37:24",
+      "text_imlaei_simple": "وقفوهم انهم مسئولون"
+    },
+    {
+      "id": 3813,
+      "verse_key": "37:25",
+      "text_imlaei_simple": "ما لكم لا تناصرون"
+    },
+    {
+      "id": 3814,
+      "verse_key": "37:26",
+      "text_imlaei_simple": "بل هم اليوم مستسلمون"
+    },
+    {
+      "id": 3815,
+      "verse_key": "37:27",
+      "text_imlaei_simple": "واقبل بعضهم على بعض يتساءلون"
+    },
+    {
+      "id": 3816,
+      "verse_key": "37:28",
+      "text_imlaei_simple": "قالوا انكم كنتم تاتوننا عن اليمين"
+    },
+    {
+      "id": 3817,
+      "verse_key": "37:29",
+      "text_imlaei_simple": "قالوا بل لم تكونوا مؤمنين"
+    },
+    {
+      "id": 3818,
+      "verse_key": "37:30",
+      "text_imlaei_simple": "وما كان لنا عليكم من سلطان بل كنتم قوما طاغين"
+    },
+    {
+      "id": 3819,
+      "verse_key": "37:31",
+      "text_imlaei_simple": "فحق علينا قول ربنا انا لذائقون"
+    },
+    {
+      "id": 3820,
+      "verse_key": "37:32",
+      "text_imlaei_simple": "فاغويناكم انا كنا غاوين"
+    },
+    {
+      "id": 3821,
+      "verse_key": "37:33",
+      "text_imlaei_simple": "فانهم يومئذ في العذاب مشتركون"
+    },
+    {
+      "id": 3822,
+      "verse_key": "37:34",
+      "text_imlaei_simple": "انا كذلك نفعل بالمجرمين"
+    },
+    {
+      "id": 3823,
+      "verse_key": "37:35",
+      "text_imlaei_simple": "انهم كانوا اذا قيل لهم لا اله الا الله يستكبرون"
+    },
+    {
+      "id": 3824,
+      "verse_key": "37:36",
+      "text_imlaei_simple": "ويقولون ائنا لتاركو الهتنا لشاعر مجنون"
+    },
+    {
+      "id": 3825,
+      "verse_key": "37:37",
+      "text_imlaei_simple": "بل جاء بالحق وصدق المرسلين"
+    },
+    {
+      "id": 3826,
+      "verse_key": "37:38",
+      "text_imlaei_simple": "انكم لذائقو العذاب الاليم"
+    },
+    {
+      "id": 3827,
+      "verse_key": "37:39",
+      "text_imlaei_simple": "وما تجزون الا ما كنتم تعملون"
+    },
+    {
+      "id": 3828,
+      "verse_key": "37:40",
+      "text_imlaei_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3829,
+      "verse_key": "37:41",
+      "text_imlaei_simple": "اولئك لهم رزق معلوم"
+    },
+    {
+      "id": 3830,
+      "verse_key": "37:42",
+      "text_imlaei_simple": "فواكه وهم مكرمون"
+    },
+    {
+      "id": 3831,
+      "verse_key": "37:43",
+      "text_imlaei_simple": "في جنات النعيم"
+    },
+    {
+      "id": 3832,
+      "verse_key": "37:44",
+      "text_imlaei_simple": "على سرر متقابلين"
+    },
+    {
+      "id": 3833,
+      "verse_key": "37:45",
+      "text_imlaei_simple": "يطاف عليهم بكاس من معين"
+    },
+    {
+      "id": 3834,
+      "verse_key": "37:46",
+      "text_imlaei_simple": "بيضاء لذة للشاربين"
+    },
+    {
+      "id": 3835,
+      "verse_key": "37:47",
+      "text_imlaei_simple": "لا فيها غول ولا هم عنها ينزفون"
+    },
+    {
+      "id": 3836,
+      "verse_key": "37:48",
+      "text_imlaei_simple": "وعندهم قاصرات الطرف عين"
+    },
+    {
+      "id": 3837,
+      "verse_key": "37:49",
+      "text_imlaei_simple": "كانهن بيض مكنون"
+    },
+    {
+      "id": 3838,
+      "verse_key": "37:50",
+      "text_imlaei_simple": "فاقبل بعضهم على بعض يتساءلون"
+    },
+    {
+      "id": 3839,
+      "verse_key": "37:51",
+      "text_imlaei_simple": "قال قائل منهم اني كان لي قرين"
+    },
+    {
+      "id": 3840,
+      "verse_key": "37:52",
+      "text_imlaei_simple": "يقول اانك لمن المصدقين"
+    },
+    {
+      "id": 3841,
+      "verse_key": "37:53",
+      "text_imlaei_simple": "ااذا متنا وكنا ترابا وعظاما اانا لمدينون"
+    },
+    {
+      "id": 3842,
+      "verse_key": "37:54",
+      "text_imlaei_simple": "قال هل انتم مطلعون"
+    },
+    {
+      "id": 3843,
+      "verse_key": "37:55",
+      "text_imlaei_simple": "فاطلع فراه في سواء الجحيم"
+    },
+    {
+      "id": 3844,
+      "verse_key": "37:56",
+      "text_imlaei_simple": "قال تالله ان كدت لتردين"
+    },
+    {
+      "id": 3845,
+      "verse_key": "37:57",
+      "text_imlaei_simple": "ولولا نعمة ربي لكنت من المحضرين"
+    },
+    {
+      "id": 3846,
+      "verse_key": "37:58",
+      "text_imlaei_simple": "افما نحن بميتين"
+    },
+    {
+      "id": 3847,
+      "verse_key": "37:59",
+      "text_imlaei_simple": "الا موتتنا الاولى وما نحن بمعذبين"
+    },
+    {
+      "id": 3848,
+      "verse_key": "37:60",
+      "text_imlaei_simple": "ان هذا لهو الفوز العظيم"
+    },
+    {
+      "id": 3849,
+      "verse_key": "37:61",
+      "text_imlaei_simple": "لمثل هذا فليعمل العاملون"
+    },
+    {
+      "id": 3850,
+      "verse_key": "37:62",
+      "text_imlaei_simple": "اذلك خير نزلا ام شجرة الزقوم"
+    },
+    {
+      "id": 3851,
+      "verse_key": "37:63",
+      "text_imlaei_simple": "انا جعلناها فتنة للظالمين"
+    },
+    {
+      "id": 3852,
+      "verse_key": "37:64",
+      "text_imlaei_simple": "انها شجرة تخرج في اصل الجحيم"
+    },
+    {
+      "id": 3853,
+      "verse_key": "37:65",
+      "text_imlaei_simple": "طلعها كانه رءوس الشياطين"
+    },
+    {
+      "id": 3854,
+      "verse_key": "37:66",
+      "text_imlaei_simple": "فانهم لاكلون منها فمالئون منها البطون"
+    },
+    {
+      "id": 3855,
+      "verse_key": "37:67",
+      "text_imlaei_simple": "ثم ان لهم عليها لشوبا من حميم"
+    },
+    {
+      "id": 3856,
+      "verse_key": "37:68",
+      "text_imlaei_simple": "ثم ان مرجعهم لالى الجحيم"
+    },
+    {
+      "id": 3857,
+      "verse_key": "37:69",
+      "text_imlaei_simple": "انهم الفوا اباءهم ضالين"
+    },
+    {
+      "id": 3858,
+      "verse_key": "37:70",
+      "text_imlaei_simple": "فهم على اثارهم يهرعون"
+    },
+    {
+      "id": 3859,
+      "verse_key": "37:71",
+      "text_imlaei_simple": "ولقد ضل قبلهم اكثر الاولين"
+    },
+    {
+      "id": 3860,
+      "verse_key": "37:72",
+      "text_imlaei_simple": "ولقد ارسلنا فيهم منذرين"
+    },
+    {
+      "id": 3861,
+      "verse_key": "37:73",
+      "text_imlaei_simple": "فانظر كيف كان عاقبة المنذرين"
+    },
+    {
+      "id": 3862,
+      "verse_key": "37:74",
+      "text_imlaei_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3863,
+      "verse_key": "37:75",
+      "text_imlaei_simple": "ولقد نادانا نوح فلنعم المجيبون"
+    },
+    {
+      "id": 3864,
+      "verse_key": "37:76",
+      "text_imlaei_simple": "ونجيناه واهله من الكرب العظيم"
+    },
+    {
+      "id": 3865,
+      "verse_key": "37:77",
+      "text_imlaei_simple": "وجعلنا ذريته هم الباقين"
+    },
+    {
+      "id": 3866,
+      "verse_key": "37:78",
+      "text_imlaei_simple": "وتركنا عليه في الاخرين"
+    },
+    {
+      "id": 3867,
+      "verse_key": "37:79",
+      "text_imlaei_simple": "سلام على نوح في العالمين"
+    },
+    {
+      "id": 3868,
+      "verse_key": "37:80",
+      "text_imlaei_simple": "انا كذلك نجزي المحسنين"
+    },
+    {
+      "id": 3869,
+      "verse_key": "37:81",
+      "text_imlaei_simple": "انه من عبادنا المؤمنين"
+    },
+    {
+      "id": 3870,
+      "verse_key": "37:82",
+      "text_imlaei_simple": "ثم اغرقنا الاخرين"
+    },
+    {
+      "id": 3871,
+      "verse_key": "37:83",
+      "text_imlaei_simple": "وان من شيعته لابراهيم"
+    },
+    {
+      "id": 3872,
+      "verse_key": "37:84",
+      "text_imlaei_simple": "اذ جاء ربه بقلب سليم"
+    },
+    {
+      "id": 3873,
+      "verse_key": "37:85",
+      "text_imlaei_simple": "اذ قال لابيه وقومه ماذا تعبدون"
+    },
+    {
+      "id": 3874,
+      "verse_key": "37:86",
+      "text_imlaei_simple": "ائفكا الهة دون الله تريدون"
+    },
+    {
+      "id": 3875,
+      "verse_key": "37:87",
+      "text_imlaei_simple": "فما ظنكم برب العالمين"
+    },
+    {
+      "id": 3876,
+      "verse_key": "37:88",
+      "text_imlaei_simple": "فنظر نظرة في النجوم"
+    },
+    { "id": 3877, "verse_key": "37:89", "text_imlaei_simple": "فقال اني سقيم" },
+    {
+      "id": 3878,
+      "verse_key": "37:90",
+      "text_imlaei_simple": "فتولوا عنه مدبرين"
+    },
+    {
+      "id": 3879,
+      "verse_key": "37:91",
+      "text_imlaei_simple": "فراغ الى الهتهم فقال الا تاكلون"
+    },
+    {
+      "id": 3880,
+      "verse_key": "37:92",
+      "text_imlaei_simple": "ما لكم لا تنطقون"
+    },
+    {
+      "id": 3881,
+      "verse_key": "37:93",
+      "text_imlaei_simple": "فراغ عليهم ضربا باليمين"
+    },
+    {
+      "id": 3882,
+      "verse_key": "37:94",
+      "text_imlaei_simple": "فاقبلوا اليه يزفون"
+    },
+    {
+      "id": 3883,
+      "verse_key": "37:95",
+      "text_imlaei_simple": "قال اتعبدون ما تنحتون"
+    },
+    {
+      "id": 3884,
+      "verse_key": "37:96",
+      "text_imlaei_simple": "والله خلقكم وما تعملون"
+    },
+    {
+      "id": 3885,
+      "verse_key": "37:97",
+      "text_imlaei_simple": "قالوا ابنوا له بنيانا فالقوه في الجحيم"
+    },
+    {
+      "id": 3886,
+      "verse_key": "37:98",
+      "text_imlaei_simple": "فارادوا به كيدا فجعلناهم الاسفلين"
+    },
+    {
+      "id": 3887,
+      "verse_key": "37:99",
+      "text_imlaei_simple": "وقال اني ذاهب الى ربي سيهدين"
+    },
+    {
+      "id": 3888,
+      "verse_key": "37:100",
+      "text_imlaei_simple": "رب هب لي من الصالحين"
+    },
+    {
+      "id": 3889,
+      "verse_key": "37:101",
+      "text_imlaei_simple": "فبشرناه بغلام حليم"
+    },
+    {
+      "id": 3890,
+      "verse_key": "37:102",
+      "text_imlaei_simple": "فلما بلغ معه السعي قال يا بني اني ارى في المنام اني اذبحك فانظر ماذا ترى قال يا ابت افعل ما تؤمر ستجدني ان شاء الله من الصابرين"
+    },
+    {
+      "id": 3891,
+      "verse_key": "37:103",
+      "text_imlaei_simple": "فلما اسلما وتله للجبين"
+    },
+    {
+      "id": 3892,
+      "verse_key": "37:104",
+      "text_imlaei_simple": "وناديناه ان يا ابراهيم"
+    },
+    {
+      "id": 3893,
+      "verse_key": "37:105",
+      "text_imlaei_simple": "قد صدقت الرؤيا انا كذلك نجزي المحسنين"
+    },
+    {
+      "id": 3894,
+      "verse_key": "37:106",
+      "text_imlaei_simple": "ان هذا لهو البلاء المبين"
+    },
+    {
+      "id": 3895,
+      "verse_key": "37:107",
+      "text_imlaei_simple": "وفديناه بذبح عظيم"
+    },
+    {
+      "id": 3896,
+      "verse_key": "37:108",
+      "text_imlaei_simple": "وتركنا عليه في الاخرين"
+    },
+    {
+      "id": 3897,
+      "verse_key": "37:109",
+      "text_imlaei_simple": "سلام على ابراهيم"
+    },
+    {
+      "id": 3898,
+      "verse_key": "37:110",
+      "text_imlaei_simple": "كذلك نجزي المحسنين"
+    },
+    {
+      "id": 3899,
+      "verse_key": "37:111",
+      "text_imlaei_simple": "انه من عبادنا المؤمنين"
+    },
+    {
+      "id": 3900,
+      "verse_key": "37:112",
+      "text_imlaei_simple": "وبشرناه باسحاق نبيا من الصالحين"
+    },
+    {
+      "id": 3901,
+      "verse_key": "37:113",
+      "text_imlaei_simple": "وباركنا عليه وعلى اسحاق ومن ذريتهما محسن وظالم لنفسه مبين"
+    },
+    {
+      "id": 3902,
+      "verse_key": "37:114",
+      "text_imlaei_simple": "ولقد مننا على موسى وهارون"
+    },
+    {
+      "id": 3903,
+      "verse_key": "37:115",
+      "text_imlaei_simple": "ونجيناهما وقومهما من الكرب العظيم"
+    },
+    {
+      "id": 3904,
+      "verse_key": "37:116",
+      "text_imlaei_simple": "ونصرناهم فكانوا هم الغالبين"
+    },
+    {
+      "id": 3905,
+      "verse_key": "37:117",
+      "text_imlaei_simple": "واتيناهما الكتاب المستبين"
+    },
+    {
+      "id": 3906,
+      "verse_key": "37:118",
+      "text_imlaei_simple": "وهديناهما الصراط المستقيم"
+    },
+    {
+      "id": 3907,
+      "verse_key": "37:119",
+      "text_imlaei_simple": "وتركنا عليهما في الاخرين"
+    },
+    {
+      "id": 3908,
+      "verse_key": "37:120",
+      "text_imlaei_simple": "سلام على موسى وهارون"
+    },
+    {
+      "id": 3909,
+      "verse_key": "37:121",
+      "text_imlaei_simple": "انا كذلك نجزي المحسنين"
+    },
+    {
+      "id": 3910,
+      "verse_key": "37:122",
+      "text_imlaei_simple": "انهما من عبادنا المؤمنين"
+    },
+    {
+      "id": 3911,
+      "verse_key": "37:123",
+      "text_imlaei_simple": "وان الياس لمن المرسلين"
+    },
+    {
+      "id": 3912,
+      "verse_key": "37:124",
+      "text_imlaei_simple": "اذ قال لقومه الا تتقون"
+    },
+    {
+      "id": 3913,
+      "verse_key": "37:125",
+      "text_imlaei_simple": "اتدعون بعلا وتذرون احسن الخالقين"
+    },
+    {
+      "id": 3914,
+      "verse_key": "37:126",
+      "text_imlaei_simple": "الله ربكم ورب ابائكم الاولين"
+    },
+    {
+      "id": 3915,
+      "verse_key": "37:127",
+      "text_imlaei_simple": "فكذبوه فانهم لمحضرون"
+    },
+    {
+      "id": 3916,
+      "verse_key": "37:128",
+      "text_imlaei_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3917,
+      "verse_key": "37:129",
+      "text_imlaei_simple": "وتركنا عليه في الاخرين"
+    },
+    {
+      "id": 3918,
+      "verse_key": "37:130",
+      "text_imlaei_simple": "سلام على ال ياسين"
+    },
+    {
+      "id": 3919,
+      "verse_key": "37:131",
+      "text_imlaei_simple": "انا كذلك نجزي المحسنين"
+    },
+    {
+      "id": 3920,
+      "verse_key": "37:132",
+      "text_imlaei_simple": "انه من عبادنا المؤمنين"
+    },
+    {
+      "id": 3921,
+      "verse_key": "37:133",
+      "text_imlaei_simple": "وان لوطا لمن المرسلين"
+    },
+    {
+      "id": 3922,
+      "verse_key": "37:134",
+      "text_imlaei_simple": "اذ نجيناه واهله اجمعين"
+    },
+    {
+      "id": 3923,
+      "verse_key": "37:135",
+      "text_imlaei_simple": "الا عجوزا في الغابرين"
+    },
+    {
+      "id": 3924,
+      "verse_key": "37:136",
+      "text_imlaei_simple": "ثم دمرنا الاخرين"
+    },
+    {
+      "id": 3925,
+      "verse_key": "37:137",
+      "text_imlaei_simple": "وانكم لتمرون عليهم مصبحين"
+    },
+    {
+      "id": 3926,
+      "verse_key": "37:138",
+      "text_imlaei_simple": "وبالليل افلا تعقلون"
+    },
+    {
+      "id": 3927,
+      "verse_key": "37:139",
+      "text_imlaei_simple": "وان يونس لمن المرسلين"
+    },
+    {
+      "id": 3928,
+      "verse_key": "37:140",
+      "text_imlaei_simple": "اذ ابق الى الفلك المشحون"
+    },
+    {
+      "id": 3929,
+      "verse_key": "37:141",
+      "text_imlaei_simple": "فساهم فكان من المدحضين"
+    },
+    {
+      "id": 3930,
+      "verse_key": "37:142",
+      "text_imlaei_simple": "فالتقمه الحوت وهو مليم"
+    },
+    {
+      "id": 3931,
+      "verse_key": "37:143",
+      "text_imlaei_simple": "فلولا انه كان من المسبحين"
+    },
+    {
+      "id": 3932,
+      "verse_key": "37:144",
+      "text_imlaei_simple": "للبث في بطنه الى يوم يبعثون"
+    },
+    {
+      "id": 3933,
+      "verse_key": "37:145",
+      "text_imlaei_simple": "فنبذناه بالعراء وهو سقيم"
+    },
+    {
+      "id": 3934,
+      "verse_key": "37:146",
+      "text_imlaei_simple": "وانبتنا عليه شجرة من يقطين"
+    },
+    {
+      "id": 3935,
+      "verse_key": "37:147",
+      "text_imlaei_simple": "وارسلناه الى مائة الف او يزيدون"
+    },
+    {
+      "id": 3936,
+      "verse_key": "37:148",
+      "text_imlaei_simple": "فامنوا فمتعناهم الى حين"
+    },
+    {
+      "id": 3937,
+      "verse_key": "37:149",
+      "text_imlaei_simple": "فاستفتهم الربك البنات ولهم البنون"
+    },
+    {
+      "id": 3938,
+      "verse_key": "37:150",
+      "text_imlaei_simple": "ام خلقنا الملائكة اناثا وهم شاهدون"
+    },
+    {
+      "id": 3939,
+      "verse_key": "37:151",
+      "text_imlaei_simple": "الا انهم من افكهم ليقولون"
+    },
+    {
+      "id": 3940,
+      "verse_key": "37:152",
+      "text_imlaei_simple": "ولد الله وانهم لكاذبون"
+    },
+    {
+      "id": 3941,
+      "verse_key": "37:153",
+      "text_imlaei_simple": "اصطفى البنات على البنين"
+    },
+    {
+      "id": 3942,
+      "verse_key": "37:154",
+      "text_imlaei_simple": "ما لكم كيف تحكمون"
+    },
+    { "id": 3943, "verse_key": "37:155", "text_imlaei_simple": "افلا تذكرون" },
+    {
+      "id": 3944,
+      "verse_key": "37:156",
+      "text_imlaei_simple": "ام لكم سلطان مبين"
+    },
+    {
+      "id": 3945,
+      "verse_key": "37:157",
+      "text_imlaei_simple": "فاتوا بكتابكم ان كنتم صادقين"
+    },
+    {
+      "id": 3946,
+      "verse_key": "37:158",
+      "text_imlaei_simple": "وجعلوا بينه وبين الجنة نسبا ولقد علمت الجنة انهم لمحضرون"
+    },
+    {
+      "id": 3947,
+      "verse_key": "37:159",
+      "text_imlaei_simple": "سبحان الله عما يصفون"
+    },
+    {
+      "id": 3948,
+      "verse_key": "37:160",
+      "text_imlaei_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3949,
+      "verse_key": "37:161",
+      "text_imlaei_simple": "فانكم وما تعبدون"
+    },
+    {
+      "id": 3950,
+      "verse_key": "37:162",
+      "text_imlaei_simple": "ما انتم عليه بفاتنين"
+    },
+    {
+      "id": 3951,
+      "verse_key": "37:163",
+      "text_imlaei_simple": "الا من هو صال الجحيم"
+    },
+    {
+      "id": 3952,
+      "verse_key": "37:164",
+      "text_imlaei_simple": "وما منا الا له مقام معلوم"
+    },
+    {
+      "id": 3953,
+      "verse_key": "37:165",
+      "text_imlaei_simple": "وانا لنحن الصافون"
+    },
+    {
+      "id": 3954,
+      "verse_key": "37:166",
+      "text_imlaei_simple": "وانا لنحن المسبحون"
+    },
+    {
+      "id": 3955,
+      "verse_key": "37:167",
+      "text_imlaei_simple": "وان كانوا ليقولون"
+    },
+    {
+      "id": 3956,
+      "verse_key": "37:168",
+      "text_imlaei_simple": "لو ان عندنا ذكرا من الاولين"
+    },
+    {
+      "id": 3957,
+      "verse_key": "37:169",
+      "text_imlaei_simple": "لكنا عباد الله المخلصين"
+    },
+    {
+      "id": 3958,
+      "verse_key": "37:170",
+      "text_imlaei_simple": "فكفروا به فسوف يعلمون"
+    },
+    {
+      "id": 3959,
+      "verse_key": "37:171",
+      "text_imlaei_simple": "ولقد سبقت كلمتنا لعبادنا المرسلين"
+    },
+    {
+      "id": 3960,
+      "verse_key": "37:172",
+      "text_imlaei_simple": "انهم لهم المنصورون"
+    },
+    {
+      "id": 3961,
+      "verse_key": "37:173",
+      "text_imlaei_simple": "وان جندنا لهم الغالبون"
+    },
+    {
+      "id": 3962,
+      "verse_key": "37:174",
+      "text_imlaei_simple": "فتول عنهم حتى حين"
+    },
+    {
+      "id": 3963,
+      "verse_key": "37:175",
+      "text_imlaei_simple": "وابصرهم فسوف يبصرون"
+    },
+    {
+      "id": 3964,
+      "verse_key": "37:176",
+      "text_imlaei_simple": "افبعذابنا يستعجلون"
+    },
+    {
+      "id": 3965,
+      "verse_key": "37:177",
+      "text_imlaei_simple": "فاذا نزل بساحتهم فساء صباح المنذرين"
+    },
+    {
+      "id": 3966,
+      "verse_key": "37:178",
+      "text_imlaei_simple": "وتول عنهم حتى حين"
+    },
+    {
+      "id": 3967,
+      "verse_key": "37:179",
+      "text_imlaei_simple": "وابصر فسوف يبصرون"
+    },
+    {
+      "id": 3968,
+      "verse_key": "37:180",
+      "text_imlaei_simple": "سبحان ربك رب العزة عما يصفون"
+    },
+    {
+      "id": 3969,
+      "verse_key": "37:181",
+      "text_imlaei_simple": "وسلام على المرسلين"
+    },
+    {
+      "id": 3970,
+      "verse_key": "37:182",
+      "text_imlaei_simple": "والحمد لله رب العالمين"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "37" } }
+}

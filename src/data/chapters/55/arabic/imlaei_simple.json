@@ -1,0 +1,371 @@
+{
+  "verses": [
+    { "id": 4902, "verse_key": "55:1", "text_imlaei_simple": "الرحمن" },
+    { "id": 4903, "verse_key": "55:2", "text_imlaei_simple": "علم القران" },
+    { "id": 4904, "verse_key": "55:3", "text_imlaei_simple": "خلق الانسان" },
+    { "id": 4905, "verse_key": "55:4", "text_imlaei_simple": "علمه البيان" },
+    {
+      "id": 4906,
+      "verse_key": "55:5",
+      "text_imlaei_simple": "الشمس والقمر بحسبان"
+    },
+    {
+      "id": 4907,
+      "verse_key": "55:6",
+      "text_imlaei_simple": "والنجم والشجر يسجدان"
+    },
+    {
+      "id": 4908,
+      "verse_key": "55:7",
+      "text_imlaei_simple": "والسماء رفعها ووضع الميزان"
+    },
+    {
+      "id": 4909,
+      "verse_key": "55:8",
+      "text_imlaei_simple": "الا تطغوا في الميزان"
+    },
+    {
+      "id": 4910,
+      "verse_key": "55:9",
+      "text_imlaei_simple": "واقيموا الوزن بالقسط ولا تخسروا الميزان"
+    },
+    {
+      "id": 4911,
+      "verse_key": "55:10",
+      "text_imlaei_simple": "والارض وضعها للانام"
+    },
+    {
+      "id": 4912,
+      "verse_key": "55:11",
+      "text_imlaei_simple": "فيها فاكهة والنخل ذات الاكمام"
+    },
+    {
+      "id": 4913,
+      "verse_key": "55:12",
+      "text_imlaei_simple": "والحب ذو العصف والريحان"
+    },
+    {
+      "id": 4914,
+      "verse_key": "55:13",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4915,
+      "verse_key": "55:14",
+      "text_imlaei_simple": "خلق الانسان من صلصال كالفخار"
+    },
+    {
+      "id": 4916,
+      "verse_key": "55:15",
+      "text_imlaei_simple": "وخلق الجان من مارج من نار"
+    },
+    {
+      "id": 4917,
+      "verse_key": "55:16",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4918,
+      "verse_key": "55:17",
+      "text_imlaei_simple": "رب المشرقين ورب المغربين"
+    },
+    {
+      "id": 4919,
+      "verse_key": "55:18",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4920,
+      "verse_key": "55:19",
+      "text_imlaei_simple": "مرج البحرين يلتقيان"
+    },
+    {
+      "id": 4921,
+      "verse_key": "55:20",
+      "text_imlaei_simple": "بينهما برزخ لا يبغيان"
+    },
+    {
+      "id": 4922,
+      "verse_key": "55:21",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4923,
+      "verse_key": "55:22",
+      "text_imlaei_simple": "يخرج منهما اللؤلؤ والمرجان"
+    },
+    {
+      "id": 4924,
+      "verse_key": "55:23",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4925,
+      "verse_key": "55:24",
+      "text_imlaei_simple": "وله الجوار المنشات في البحر كالاعلام"
+    },
+    {
+      "id": 4926,
+      "verse_key": "55:25",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4927,
+      "verse_key": "55:26",
+      "text_imlaei_simple": "كل من عليها فان"
+    },
+    {
+      "id": 4928,
+      "verse_key": "55:27",
+      "text_imlaei_simple": "ويبقى وجه ربك ذو الجلال والاكرام"
+    },
+    {
+      "id": 4929,
+      "verse_key": "55:28",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4930,
+      "verse_key": "55:29",
+      "text_imlaei_simple": "يساله من في السماوات والارض كل يوم هو في شان"
+    },
+    {
+      "id": 4931,
+      "verse_key": "55:30",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4932,
+      "verse_key": "55:31",
+      "text_imlaei_simple": "سنفرغ لكم ايه الثقلان"
+    },
+    {
+      "id": 4933,
+      "verse_key": "55:32",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4934,
+      "verse_key": "55:33",
+      "text_imlaei_simple": "يا معشر الجن والانس ان استطعتم ان تنفذوا من اقطار السماوات والارض فانفذوا لا تنفذون الا بسلطان"
+    },
+    {
+      "id": 4935,
+      "verse_key": "55:34",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4936,
+      "verse_key": "55:35",
+      "text_imlaei_simple": "يرسل عليكما شواظ من نار ونحاس فلا تنتصران"
+    },
+    {
+      "id": 4937,
+      "verse_key": "55:36",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4938,
+      "verse_key": "55:37",
+      "text_imlaei_simple": "فاذا انشقت السماء فكانت وردة كالدهان"
+    },
+    {
+      "id": 4939,
+      "verse_key": "55:38",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4940,
+      "verse_key": "55:39",
+      "text_imlaei_simple": "فيومئذ لا يسال عن ذنبه انس ولا جان"
+    },
+    {
+      "id": 4941,
+      "verse_key": "55:40",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4942,
+      "verse_key": "55:41",
+      "text_imlaei_simple": "يعرف المجرمون بسيماهم فيؤخذ بالنواصي والاقدام"
+    },
+    {
+      "id": 4943,
+      "verse_key": "55:42",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4944,
+      "verse_key": "55:43",
+      "text_imlaei_simple": "هذه جهنم التي يكذب بها المجرمون"
+    },
+    {
+      "id": 4945,
+      "verse_key": "55:44",
+      "text_imlaei_simple": "يطوفون بينها وبين حميم ان"
+    },
+    {
+      "id": 4946,
+      "verse_key": "55:45",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4947,
+      "verse_key": "55:46",
+      "text_imlaei_simple": "ولمن خاف مقام ربه جنتان"
+    },
+    {
+      "id": 4948,
+      "verse_key": "55:47",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    { "id": 4949, "verse_key": "55:48", "text_imlaei_simple": "ذواتا افنان" },
+    {
+      "id": 4950,
+      "verse_key": "55:49",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4951,
+      "verse_key": "55:50",
+      "text_imlaei_simple": "فيهما عينان تجريان"
+    },
+    {
+      "id": 4952,
+      "verse_key": "55:51",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4953,
+      "verse_key": "55:52",
+      "text_imlaei_simple": "فيهما من كل فاكهة زوجان"
+    },
+    {
+      "id": 4954,
+      "verse_key": "55:53",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4955,
+      "verse_key": "55:54",
+      "text_imlaei_simple": "متكئين على فرش بطائنها من استبرق وجنى الجنتين دان"
+    },
+    {
+      "id": 4956,
+      "verse_key": "55:55",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4957,
+      "verse_key": "55:56",
+      "text_imlaei_simple": "فيهن قاصرات الطرف لم يطمثهن انس قبلهم ولا جان"
+    },
+    {
+      "id": 4958,
+      "verse_key": "55:57",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4959,
+      "verse_key": "55:58",
+      "text_imlaei_simple": "كانهن الياقوت والمرجان"
+    },
+    {
+      "id": 4960,
+      "verse_key": "55:59",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4961,
+      "verse_key": "55:60",
+      "text_imlaei_simple": "هل جزاء الاحسان الا الاحسان"
+    },
+    {
+      "id": 4962,
+      "verse_key": "55:61",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4963,
+      "verse_key": "55:62",
+      "text_imlaei_simple": "ومن دونهما جنتان"
+    },
+    {
+      "id": 4964,
+      "verse_key": "55:63",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    { "id": 4965, "verse_key": "55:64", "text_imlaei_simple": "مدهامتان" },
+    {
+      "id": 4966,
+      "verse_key": "55:65",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4967,
+      "verse_key": "55:66",
+      "text_imlaei_simple": "فيهما عينان نضاختان"
+    },
+    {
+      "id": 4968,
+      "verse_key": "55:67",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4969,
+      "verse_key": "55:68",
+      "text_imlaei_simple": "فيهما فاكهة ونخل ورمان"
+    },
+    {
+      "id": 4970,
+      "verse_key": "55:69",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4971,
+      "verse_key": "55:70",
+      "text_imlaei_simple": "فيهن خيرات حسان"
+    },
+    {
+      "id": 4972,
+      "verse_key": "55:71",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4973,
+      "verse_key": "55:72",
+      "text_imlaei_simple": "حور مقصورات في الخيام"
+    },
+    {
+      "id": 4974,
+      "verse_key": "55:73",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4975,
+      "verse_key": "55:74",
+      "text_imlaei_simple": "لم يطمثهن انس قبلهم ولا جان"
+    },
+    {
+      "id": 4976,
+      "verse_key": "55:75",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4977,
+      "verse_key": "55:76",
+      "text_imlaei_simple": "متكئين على رفرف خضر وعبقري حسان"
+    },
+    {
+      "id": 4978,
+      "verse_key": "55:77",
+      "text_imlaei_simple": "فباي الاء ربكما تكذبان"
+    },
+    {
+      "id": 4979,
+      "verse_key": "55:78",
+      "text_imlaei_simple": "تبارك اسم ربك ذي الجلال والاكرام"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "55" } }
+}

@@ -1,0 +1,21 @@
+{
+  "verses": [
+    { "id": 6194, "verse_key": "106:1", "text_imlaei_simple": "لايلاف قريش" },
+    {
+      "id": 6195,
+      "verse_key": "106:2",
+      "text_imlaei_simple": "ايلافهم رحلة الشتاء والصيف"
+    },
+    {
+      "id": 6196,
+      "verse_key": "106:3",
+      "text_imlaei_simple": "فليعبدوا رب هذا البيت"
+    },
+    {
+      "id": 6197,
+      "verse_key": "106:4",
+      "text_imlaei_simple": "الذي اطعمهم من جوع وامنهم من خوف"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "106" } }
+}

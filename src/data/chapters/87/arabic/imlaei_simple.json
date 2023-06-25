@@ -1,0 +1,84 @@
+{
+  "verses": [
+    {
+      "id": 5949,
+      "verse_key": "87:1",
+      "text_imlaei_simple": "سبح اسم ربك الاعلى"
+    },
+    { "id": 5950, "verse_key": "87:2", "text_imlaei_simple": "الذي خلق فسوى" },
+    { "id": 5951, "verse_key": "87:3", "text_imlaei_simple": "والذي قدر فهدى" },
+    {
+      "id": 5952,
+      "verse_key": "87:4",
+      "text_imlaei_simple": "والذي اخرج المرعى"
+    },
+    {
+      "id": 5953,
+      "verse_key": "87:5",
+      "text_imlaei_simple": "فجعله غثاء احوى"
+    },
+    {
+      "id": 5954,
+      "verse_key": "87:6",
+      "text_imlaei_simple": "سنقرئك فلا تنسى"
+    },
+    {
+      "id": 5955,
+      "verse_key": "87:7",
+      "text_imlaei_simple": "الا ما شاء الله انه يعلم الجهر وما يخفى"
+    },
+    { "id": 5956, "verse_key": "87:8", "text_imlaei_simple": "ونيسرك لليسرى" },
+    {
+      "id": 5957,
+      "verse_key": "87:9",
+      "text_imlaei_simple": "فذكر ان نفعت الذكرى"
+    },
+    { "id": 5958, "verse_key": "87:10", "text_imlaei_simple": "سيذكر من يخشى" },
+    {
+      "id": 5959,
+      "verse_key": "87:11",
+      "text_imlaei_simple": "ويتجنبها الاشقى"
+    },
+    {
+      "id": 5960,
+      "verse_key": "87:12",
+      "text_imlaei_simple": "الذي يصلى النار الكبرى"
+    },
+    {
+      "id": 5961,
+      "verse_key": "87:13",
+      "text_imlaei_simple": "ثم لا يموت فيها ولا يحيى"
+    },
+    {
+      "id": 5962,
+      "verse_key": "87:14",
+      "text_imlaei_simple": "قد افلح من تزكى"
+    },
+    {
+      "id": 5963,
+      "verse_key": "87:15",
+      "text_imlaei_simple": "وذكر اسم ربه فصلى"
+    },
+    {
+      "id": 5964,
+      "verse_key": "87:16",
+      "text_imlaei_simple": "بل تؤثرون الحياة الدنيا"
+    },
+    {
+      "id": 5965,
+      "verse_key": "87:17",
+      "text_imlaei_simple": "والاخرة خير وابقى"
+    },
+    {
+      "id": 5966,
+      "verse_key": "87:18",
+      "text_imlaei_simple": "ان هذا لفي الصحف الاولى"
+    },
+    {
+      "id": 5967,
+      "verse_key": "87:19",
+      "text_imlaei_simple": "صحف ابراهيم وموسى"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "87" } }
+}
