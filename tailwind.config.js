@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./src/pages/**/*.{ts,tsx,mdx}", "./src/components/**/*.{ts,tsx,mdx}", "./src/app/**/*.{ts,tsx,mdx}"],
   darkMode: true,
+  important: true,
   theme: {
     extend: {
       colors: {
