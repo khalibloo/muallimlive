@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 import lf from "@/utils/localforage";
 
 import "react-quill/dist/quill.snow.css";
-import "@/styles/quill.less";
+// import "@/styles/quill.less";
 
 const ReactQuill = dynamic(() => import("react-quill"), {
   ssr: false,

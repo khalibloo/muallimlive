@@ -10,7 +10,7 @@ const getVersesRecitation = async (recitationId: number, chapterNumber?: number)
     params: { chapter_number: chapterNumber },
   });
   return data.audio_files.map((a) => {
-    const url = new URL(config.apiMediaUri as string);
+    const url = new URL(config.apiMediaUri!);
     url.pathname = a.url;
     return { ...a, url: url.href };
   });

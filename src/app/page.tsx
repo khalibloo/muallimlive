@@ -1,8 +1,9 @@
 "use client";
 import { Row, Col, Card, Typography } from "antd";
+import { NextPage } from "next";
 import Link from "next/link";
 
-export default function Home() {
+const HomePage: NextPage = () => {
   return (
     <>
       {/* <Row justify="center" className="mb-9">
@@ -35,4 +36,6 @@ export default function Home() {
       </Row>
     </>
   );
-}
+};
+
+export default HomePage;

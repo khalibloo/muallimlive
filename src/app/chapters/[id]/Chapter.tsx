@@ -1,16 +1,13 @@
+"use client";
 import React, { useEffect, useRef, useState } from "react";
-import { NextPage } from "next";
 import { Button, Col, Drawer, FloatButton, Grid, Menu, Modal, Popconfirm, Row, Tooltip, Typography } from "antd";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clsx from "clsx";
-import { useRouter } from "next/router";
 import Link from "next/link";
 import _ from "lodash";
 
 import lf from "@/utils/localforage";
-import BasicLayout from "@/app/BasicLayout";
-import Loader from "@/components/Loader";
 
 import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";
 import useChapters from "@/queries/useChapters";
@@ -23,14 +20,13 @@ import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar from "@/components/AudioBar";
 import useVersesRecitation from "@/queries/useVersesRecitation";
 
-interface Props {}
+interface Props {
+  chapter: Chapter;
+}
 
-const ChapterPage: NextPage<Props> = () => {
+const Chapter: React.FC<Props> = ({ chapter: currentChapter }) => {
   const responsive = Grid.useBreakpoint();
-  const {
-    query: { id },
-  } = useRouter();
-  const chapterNumber = parseInt(id as string, 10);
+  const chapterNumber = currentChapter.id;
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
   const [chaptersDrawerOpen, { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer }] = useBoolean(false);
   const [playModalOpen, { setTrue: openPlayModal, setFalse: closePlayModal }] = useBoolean(false);
@@ -74,8 +70,6 @@ const ChapterPage: NextPage<Props> = () => {
   // resources
   const { data: chaptersData, isLoading: chaptersLoading } = useChapters();
 
-  const currentChapter: Chapter = chaptersData?.chapters.find((c) => c.id === chapterNumber) as Chapter;
-
   const contentTypes = settings ? [...settings.left, ...settings.right] : [];
   const arabicContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] === "ar");
   const translationContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] !== "ar");
@@ -85,22 +79,22 @@ const ChapterPage: NextPage<Props> = () => {
   const arabicScriptsResults = useVersesArabic(
     arabicContentTypes.map((c) => (c.content as ArabicScript[])[2]),
     chapterNumber,
-    { enabled: Boolean(id) && settings != null }
+    { enabled: settings != null }
   );
   const translationResults = useVersesTranslation(
     translationContentTypes.map((c) => (c.content as number[])[2]),
     chapterNumber,
-    { enabled: Boolean(id) && settings != null }
+    { enabled: settings != null }
   );
   const tafsirResults = useVersesTafsir(
     tafsirContentTypes.map((c) => (c.content as number[])[2]),
     chapterNumber,
-    { enabled: Boolean(id) && settings != null }
+    { enabled: settings != null }
   );
   const { data: recitations, isLoading: recitationsLoading } = useVersesRecitation(
     (playSettings as PlaySettings)?.reciter,
     chapterNumber,
-    { enabled: Boolean(id) && playSettings != null }
+    { enabled: playSettings != null }
   );
 
   const isFinishedLoading = !(
@@ -171,14 +165,6 @@ const ChapterPage: NextPage<Props> = () => {
     }
   }, [currentChapter, isFinishedLoading, virtualListRef.current]);
 
-  if (!isFinishedLoading) {
-    return (
-      <BasicLayout pageTitle={currentChapter?.name_simple}>
-        <Loader showRandomMessage />
-      </BasicLayout>
-    );
-  }
-
   const mapContent = (c: ReaderSettings["left"][0]) => {
     if (c.content?.[0] === "translation" && c.content[1] === "ar") {
       const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
@@ -199,17 +185,16 @@ const ChapterPage: NextPage<Props> = () => {
   _.range(currentChapter.verses_count).forEach((i) => {
     const l = leftContent.map((c) => c?.data?.[i]);
     const r = rightContent.map((c) => c?.data?.[i]);
+    console.log([...l, ...r]);
+
     if (![...l, ...r].includes(undefined)) {
       verseList.push({ left: l as VerseText[], right: r as VerseText[] });
     }
   });
+  console.log({ verseList, currentChapter });
 
   return (
-    <BasicLayout
-      noPadding
-      pageTitle={currentChapter.name_simple}
-      pageDescription={`Chapter ${chapterNumber} of the Holy Qur'an`}
-    >
+    <>
       <FloatButton.BackTop />
       <Drawer
         placement="left"
@@ -218,18 +203,16 @@ const ChapterPage: NextPage<Props> = () => {
         onClose={closeChaptersDrawer}
         open={chaptersDrawerOpen}
       >
-        <Menu theme="dark" selectedKeys={[id as string]} mode="inline">
+        <Menu theme="dark" selectedKeys={[`${currentChapter.id}`]} mode="inline">
           {chaptersData?.chapters.map((chapter) => (
             <Menu.Item key={chapter.id} className="text-left" onClick={closeChaptersDrawer}>
               <Link href={`/chapters/${chapter.id}`}>
-                <a>
-                  <Tooltip overlayClassName="capitalize" title={chapter.translated_name.name} placement="right">
-                    <Typography.Text className="capitalize">
-                      <span className="mr-3">{chapter.id}</span>
-                      {chapter.name_simple}
-                    </Typography.Text>
-                  </Tooltip>
-                </a>
+                <Tooltip overlayClassName="capitalize" title={chapter.translated_name.name} placement="right">
+                  <Typography.Text className="capitalize">
+                    <span className="mr-3">{chapter.id}</span>
+                    {chapter.name_simple}
+                  </Typography.Text>
+                </Tooltip>
               </Link>
             </Menu.Item>
           ))}
@@ -309,6 +292,40 @@ const ChapterPage: NextPage<Props> = () => {
       </div>
       <Row className="mt-13 py-6 flex-grow" justify="center">
         <Col span={24}>
+          {verseList.map((v, i) => (
+            <div key={JSON.stringify(v)}>
+              <Row justify="center">
+                <Col
+                  span={22}
+                  className="py-3"
+                  style={{
+                    borderBottom: i === verseList.length - 1 ? undefined : "1px solid #666",
+                  }}
+                >
+                  <Verse
+                    verseNumber={i + 1}
+                    chapterNumber={chapterNumber}
+                    faved={faves.includes(`${chapterNumber}:${i + 1}`)}
+                    totalVerses={currentChapter.verses_count}
+                    left={v.left}
+                    right={v.right}
+                    hideTafsirs={readerMode === "recitation" && playSettings?.hideTafsirs}
+                    audioUrl={recitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
+                    onPlay={() => {
+                      setPlayingVerseNumber(i + 1);
+                      setIsPlayingVerses(false);
+                    }}
+                    onEnded={() => setPlayingVerseNumber(-1)}
+                    isPlaying={playingVerseNumber === i + 1}
+                    muted={muted}
+                    setMuted={setMuted}
+                    volume={volume}
+                    setVolume={setVolume}
+                  />
+                </Col>
+              </Row>
+            </div>
+          ))}
           <Virtuoso
             data={verseList}
             useWindowScroll
@@ -376,8 +393,8 @@ const ChapterPage: NextPage<Props> = () => {
           />
         )}
       </Drawer>
-    </BasicLayout>
+    </>
   );
 };
 
-export default ChapterPage;
+export default Chapter;

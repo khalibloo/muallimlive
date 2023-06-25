@@ -8,6 +8,11 @@ body {
   height: unset !important;
 } */
 
+body {
+  background-color: #444;
+  color: rgba(255, 255, 255, 0.85);
+}
+
 .ant-btn.icon-btn {
   border: none;
   box-shadow: none;
