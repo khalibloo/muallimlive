@@ -1,8 +1,8 @@
 import { Metadata, NextPage } from "next";
 import { notFound } from "next/navigation";
 
+import chaptersData from "@/data/resources/chapters.json";
 import Chapter from "./Chapter";
-import chaptersData from "@/data/chapters.json";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Muallimlive",
