@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 127, "text": "«Одамлар Роббисидан..." },
+    { "resource_id": 127, "text": "Одамлар подшоҳидан..." },
+    { "resource_id": 127, "text": "Одамлар Илоҳидан паноҳ сўрайман..." },
+    {
+      "resource_id": 127,
+      "text": "Беркиниб, кўриниб турувчи васвасачининг..."
+    },
+    {
+      "resource_id": 127,
+      "text": "Одамлар қалбларига васваса соладиганнинг..."
+    },
+    {
+      "resource_id": 127,
+      "text": "Жинлар ва одамлардан бўлганнинг ёмонлигидан», деб айт.<sup foot_note=48902>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "114" }
+  }
+}

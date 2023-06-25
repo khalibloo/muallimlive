@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) Məgər Rəbbinin fil sahiblərinə (Kə’bəni dağıtmaq üçün fillərlə Məkkənin üstünə gələn həbəş ordusuna) nələr etdiyini görmədinmi?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Məgər (Rəbbin) onların hiyləsini boşa çıxartmadımı?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların üstünə qatar-qatar quşlar (əbabil quşları) göndərdi."
+    },
+    {
+      "resource_id": 23,
+      "text": "(O quşlar) onlara bişmiş gildən düzəlmiş (möhkəm xırda) daşlar atırdı."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Rəbbin) onları (həşərat tərəfindən) yeyilmiş əkin yarpağına (saman çöpünə) döndərdi!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "105" }
+  }
+}

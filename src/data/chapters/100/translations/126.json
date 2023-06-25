@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Tako mi onih koji dahćući jure," },
+    { "resource_id": 126, "text": "pa varnice vrcaju," },
+    { "resource_id": 126, "text": "i zorom napadaju," },
+    { "resource_id": 126, "text": "i dižu tada prašinu" },
+    { "resource_id": 126, "text": "pa u njoj u gomilu upadaju –" },
+    {
+      "resource_id": 126,
+      "text": "čovjek je, zaista, Gospodaru svome nezahvalan"
+    },
+    { "resource_id": 126, "text": "i sam je on toga, doista, svjestan," },
+    {
+      "resource_id": 126,
+      "text": "i on je, zato što voli bogatstvo – radiša."
+    },
+    {
+      "resource_id": 126,
+      "text": "A zar on ne zna da će, kada budu oživljeni oni koji su u grobovima"
+    },
+    {
+      "resource_id": 126,
+      "text": "i kada iziđe na vidjelo ono što je u srcima,"
+    },
+    {
+      "resource_id": 126,
+      "text": "Gospodar njihov toga Dana, sigurno, sve znati o njima?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 45, "text": "Скажи: «Он - Аллах Единый," },
+    { "resource_id": 45, "text": "Аллах Самодостаточный." },
+    { "resource_id": 45, "text": "Он не родил и не был рожден," },
+    { "resource_id": 45, "text": "и нет никого равного Ему»." }
+  ],
+  "meta": {
+    "translation_name": "Russian Translation ( Elmir Kuliev )",
+    "author_name": "Elmir Kuliev",
+    "filters": { "resource_id": 45, "chapter_number": "112" }
+  }
+}

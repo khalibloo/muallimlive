@@ -1,0 +1,785 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Ta. Sin . Mim." },
+    { "resource_id": 42, "text": "To są znaki Księgi jasnej!" },
+    {
+      "resource_id": 42,
+      "text": "Być może, zadręczasz się dlatego, że oni nie wierzą."
+    },
+    {
+      "resource_id": 42,
+      "text": "Jeśli zechcemy, to sprowadzimy na nich znak z nieba i upokorzą się przed nimi ich karki."
+    },
+    {
+      "resource_id": 42,
+      "text": "A nie przychodzi do nich żadne nowe napomnienie od Miłosiernego, żeby się od niego nie odwrócili"
+    },
+    {
+      "resource_id": 42,
+      "text": "I nie uznali go za kłamstwo. Otóż niebawem przyjdą do nich wieści o tym, z czego oni się wyśmiewali."
+    },
+    {
+      "resource_id": 42,
+      "text": "Czyż oni nie patrzą na ziemię? Ileż wszelkiego rodzaju par szlachetnych wyrosło na niej za Naszą przyczyną!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, w tym jest znak, lecz większość z nich nie wierzy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "I zaprawdę, twój Pan jest Potężny, Litościwy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Oto twój Pan wezwał Mojżesza: \"Idź do ludu niesprawiedliwego,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Ludu Faraona! Czyż oni nie będą bogobojni?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Panie mój ! Boję się, żeby mnie nie uznali za kłamcę;"
+    },
+    {
+      "resource_id": 42,
+      "text": "ściśnie się moja pierś i mój język się nie rozwiąże. Poślij więc po Aarona!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni mają pewne przewinienie do zarzucenia mi i obawiam się, że mnie zabiją.\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Rzekł: \"Wcale nie! Idźcie obydwaj z Naszymi znakami. My będziemy razem z wami, będziemy się przysłuchiwać."
+    },
+    {
+      "resource_id": 42,
+      "text": "Idźcie obydwaj do Faraona i powiedzcie: Jesteśmy posłańcami od Pana światów."
+    },
+    { "resource_id": 42, "text": "Odeślij z nami synów Izraela\"" },
+    {
+      "resource_id": 42,
+      "text": "Powiedział Faraon: \"Czy nie wychowaliśmy ciebie wśród nas, kiedy byłeś dzieckiem? Czy nie przebywałeś wśród nas przez wiele lat twego życia?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Potem popełniłeś czyn, który popełniłeś; i jesteś wśród niewdzięczników!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Popełniłem ten czyn będąc wśród ludzi, którzy błądzą."
+    },
+    {
+      "resource_id": 42,
+      "text": "I uciekłem od was, ponieważ się was obawiałem; a Pan mój dał mi mądrość i uczynił mnie jednym z posłańców."
+    },
+    {
+      "resource_id": 42,
+      "text": "Czyż to dobrodziejstwo, z powodu którego czynisz mi wyrzuty, było dane po to, aby uczynić niewolnikami synów Izraela?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział Faraon: \"A kto to jest Pan światów?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Pan niebios i ziemi, i tego, co jest między nimi - jeśli jesteście pewni wiary!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział tym; którzy byli wokół niego: \"Czyż wy nie słyszycie?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział Mojżesz: \"Pan wasz i waszych pierwszych ojców!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Zaprawdę, ten wasz posłaniec, który został wam przysłany, jest chyba opętany!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"To jest Pan Wschodu i Zachodu, i tego, co jest między nimi - gdybyście tylko chcieli zrozumieć!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział Faraon: \"Jeśli weźmiesz sobie jakiegoś boga, poza mną, to ja ciebie każę wrzucić do więzienia!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"A jeśli ja przyjdę do ciebie z czymś oczywistym?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Przychodź więc z tym, jeśli jesteś prawdomówny!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Wtedy on rzucił laskę swoją i oto stała się ona prawdziwym wężem."
+    },
+    {
+      "resource_id": 42,
+      "text": "I wyciągnął swoją rękę, i oto ona stała się biała dla- patrzących."
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział do starszyzny,;, która go otaczała: \"Zaprawdę, to jest czarownik uczony!"
+    },
+    {
+      "resource_id": 42,
+      "text": "On chce przepędzić was z waszej ziemi przez swoje czary. Cóż więc doradzicie?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedzieli: \"Daj mu nieco czasu, jemu i jego bratu, i wyślij do miast ludzi,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Którzy zbiorą i przyprowadzą wszystkich mądrych czarowników.\""
+    },
+    {
+      "resource_id": 42,
+      "text": "I zostali zebrani czarownicy w ustalonym czasie określonego dnia."
+    },
+    {
+      "resource_id": 42,
+      "text": "I powiedziano ludziom: \"Czy zechcecie się zebrać?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Być może, pójdziemy za czarownikami, jeśli oni zwyciężą?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "A kiedy przyszli czarownicy, powiedzieli Faraonowi: \"Czy otrzymamy jakąś nagrodę, jeśli będziemy zwycięzcami?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "On Powiedział: \"Tak, z pewnością! I będziecie dopuszczeni do nas blisko!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział do nich Mojżesz: \"Rzućcie, co macie rzucić!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Wtedy oni rzucili swoje sznury i laski i powiedzieli: \"Na potęgę Faraona, my będziemy zwycięzcami!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Wówczas Mojżesz rzucił swoją laskę i połknęła ona to, co oni wymyślili fałszywie."
+    },
+    {
+      "resource_id": 42,
+      "text": "Wtedy czarownicy rzucili się na ziemię, wybijając pokłony."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Uwierzyliśmy w Pana światów!"
+    },
+    { "resource_id": 42, "text": "Pana Mojżesza i Aarona!\"" },
+    {
+      "resource_id": 42,
+      "text": "Powiedział Faraon: \"Uwierzyliście jemu, zanim dałem wam pozwolenie. On jest pewnie waszym mistrzem, który was nauczył czarów! Lecz wy niebawem się dowiecie. Oberznę wam ręce i nogi naprzemianlegle i każę was wszystkich ukrzyżować!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Żadna szkoda! My się zwrócimy do naszego Pana!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Pragniemy, by nasz Pan przebaczył nam nasze grzechy, ponieważ jesteśmy pierwsi z wierzących.\""
+    },
+    {
+      "resource_id": 42,
+      "text": "I objawiliśmy Mojżeszowi: \"Wyruszaj nocą z Moimi sługami! Wy na pewno będziecie ścigani!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Wtedy Faraon rozesłał po miastach ludzi zwołujących:"
+    },
+    {
+      "resource_id": 42,
+      "text": "\"Zaprawdę, oni stanowią tylko nieliczną grupę;"
+    },
+    { "resource_id": 42, "text": "Srodze nas rozgniewali," },
+    {
+      "resource_id": 42,
+      "text": "Lecz nas jest wielu i mamy się na baczności.\""
+    },
+    { "resource_id": 42, "text": "I wtedy pozbawiliśmy ich ogrodów i źródeł," },
+    { "resource_id": 42, "text": "Skarbów i szlachetnego miejsca pobytu." },
+    {
+      "resource_id": 42,
+      "text": "Tak się stało. I daliśmy to wszystko w dziedzictwo synom Izraela."
+    },
+    {
+      "resource_id": 42,
+      "text": "Wtedy Egipcjanie urządzili za nimi pościg o wschodzie słońca."
+    },
+    {
+      "resource_id": 42,
+      "text": "A kiedy ujrzały się nawzajem obie gromady ludzi, towarzysze Mojżesza powiedzieli: \"Oni nas niewątpliwie dosięgną!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Wcale nie! Zaprawdę, ze mną jest mój Pan! On mnie poprowadzi drogą prostą!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "I objawiliśmy Mojżeszowi: \"Uderz twoją laską morze!\" I ono się rozdzieliło, a każda jego część była jak wielka góra."
+    },
+    {
+      "resource_id": 42,
+      "text": "I pozwoliliśmy przybliżyć się tamtym drugim."
+    },
+    {
+      "resource_id": 42,
+      "text": "I wyratowaliśmy Mojżesza i tych wszystkich, którzy razem z nim byli."
+    },
+    { "resource_id": 42, "text": "A potopiliśmy tamtych." },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, w tym jest znak! Lecz większość z nich nie uwierzyła."
+    },
+    { "resource_id": 42, "text": "Twój Pan jest Potężny, Litościwy!" },
+    { "resource_id": 42, "text": "I opowiedz im historię Abrahama!" },
+    {
+      "resource_id": 42,
+      "text": "Oto powiedział on do swego ojca i do swego ludu: \"Co wy czcicie?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedzieli: \"Czcimy bałwany i trwamy przed nimi pobożnie.\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Czy one was słyszą, kiedy wy ich wzywacie?"
+    },
+    {
+      "resource_id": 42,
+      "text": "I czy one są wam pożyteczne czy szkodliwe?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedzieli: \"Nie! Lecz my znaleźliśmy naszych ojców, którzy w ten sposób czynili.\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"A czy przyglądnęliście się temu,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Co czciliście, wy i wasi najdawniejsi ojcowie?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Te bałwany są przecież wrogami dla mnie, a nie Pan światów,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Który mnie stworzył i który mnie prowadzi drogą prostą,"
+    },
+    { "resource_id": 42, "text": "Który mnie karmi i poi," },
+    { "resource_id": 42, "text": "A kiedy zachoruję, to mnie leczy;" },
+    {
+      "resource_id": 42,
+      "text": "Który sprowadzi na mnie śmierć, potem mnie ożywi,"
+    },
+    {
+      "resource_id": 42,
+      "text": "I który - pragnę tego gorąco - przebaczy mi moje grzechy w Dzień Sądu!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Panie mój! Użycz mi mądrości, i połącz mnie ze sprawiedliwymi."
+    },
+    {
+      "resource_id": 42,
+      "text": "Uczyń mnie językiem prawdy wśród późniejszych pokoleń."
+    },
+    {
+      "resource_id": 42,
+      "text": "Uczyń mnie jednym z dziedziców Ogrodu szczęśliwości."
+    },
+    {
+      "resource_id": 42,
+      "text": "Przebacz mojemu ojcu, był bowiem w liczbie błądzących."
+    },
+    {
+      "resource_id": 42,
+      "text": "I nie zawstydź mnie w Dniu, kiedy oni zostaną wskrzeszeni;"
+    },
+    {
+      "resource_id": 42,
+      "text": "W Dniu, kiedy nie przyniosą korzyści ani majątek, ani synowie,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Jedynie ten, który przyjdzie do Boga z czystym sercem.\""
+    },
+    {
+      "resource_id": 42,
+      "text": "I przybliżony będzie Ogród dla bogobojnych,"
+    },
+    {
+      "resource_id": 42,
+      "text": "A piekło ukaże się jasno dla tych, którzy błądzili!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Będzie im powiedziane: \"Gdzie są ci, których czciliście"
+    },
+    {
+      "resource_id": 42,
+      "text": "Poza Bogiem? Czy oni wam pomagają albo czy pomagają samym sobie?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Zostaną tam wrzuceni oni sami i ci, którzy zabłądzili,"
+    },
+    { "resource_id": 42, "text": "I zastępy Iblisa, wszyscy razem." },
+    {
+      "resource_id": 42,
+      "text": "Oni będą mówili, prowadząc tam spór między sobą:"
+    },
+    {
+      "resource_id": 42,
+      "text": "Na Boga! My byliśmy z pewnością w jawnym błędzie,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Kiedy stawialiśmy was na równi z Panem światów!"
+    },
+    { "resource_id": 42, "text": "Nas sprowadzili z drogi tylko grzesznicy," },
+    { "resource_id": 42, "text": "Nie mamy więc orędowników" },
+    { "resource_id": 42, "text": "Ani też nie mamy wiernego przyjaciela." },
+    {
+      "resource_id": 42,
+      "text": "O, jeśliby nam dany był powrót, to bylibyśmy między wiernymi!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, w tym jest znak, lecz większość ludzi nie wierzy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, twój Pan jest Potężny, Litościwy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Lud Noego uznał za kłamców tych, którzy zostali posłani."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oto powiedział im ich brat Noe: \"Czy wy nie boicie się Boga?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Ja przecież jestem dla was posłańcem godnym zaufania!"
+    },
+    { "resource_id": 42, "text": "Przeto bójcie się Boga i słuchajcie mnie!" },
+    {
+      "resource_id": 42,
+      "text": "Ja nie żądam od was za to żadnej zapłaty; moja zapłata należy tylko do Pana światów."
+    },
+    {
+      "resource_id": 42,
+      "text": "Przeto bójcie się Boga i słuchajcie mnie!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Czy mamy tobie wierzyć, skoro za tobą poszli najpodlejsi?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "On powiedział: \"Ja nie posiadam wiedzy o tym, co oni czynili."
+    },
+    {
+      "resource_id": 42,
+      "text": "Rachunek ich należy tylko do mego Pana; gdybyście byli tego świadomi!"
+    },
+    { "resource_id": 42, "text": "Ja nie chciałbym odpychać wierzących." },
+    { "resource_id": 42, "text": "Ja jestem tylko jawnie ostrzegającym.\"" },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Jeśli nie zaprzestaniesz, o Noe, to z pewnością cię ukamienujemy!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"Panie mój ! Mój lud uznał mnie za kłamcę."
+    },
+    {
+      "resource_id": 42,
+      "text": "Rozstrzygnij więc jasno między mną a nim! Uratuj mnie i tych wiernych, którzy są razem ze mną!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "I uratowaliśmy jego i tych, którzy byli z nim w załadowanym statku;"
+    },
+    { "resource_id": 42, "text": "I potopiliśmy pozostałych." },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, w tym jest znak, lecz większość ludzi nie wierzy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, twój pan jest Potężny, Litościwy!"
+    },
+    { "resource_id": 42, "text": "I lud Ad uznał wysłanników za kłamców." },
+    {
+      "resource_id": 42,
+      "text": "Oto powiedział do nich ich brat Hud: \"Czy wy się boicie się Boga?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Ja przecież jestem dla was posłańcem godnym zaufania."
+    },
+    { "resource_id": 42, "text": "Przeto bójcie się Boga i słuchajcie mnie!" },
+    {
+      "resource_id": 42,
+      "text": "Ja nie żądam od was żadnej nagrody. Moja nagroda należy tylko do Pana światów!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy nadal będziecie budować na każdym wzniesieniu jakiś znak dla daremnej zabawy?"
+    },
+    {
+      "resource_id": 42,
+      "text": "I czy zbudujecie sobie twierdzę w nadziei, że będziecie nieśmiertelni?!"
+    },
+    {
+      "resource_id": 42,
+      "text": "A kiedy przejmujecie władzę siłą, jesteście gwałtowni jak tyrani."
+    },
+    { "resource_id": 42, "text": "Bójcie się Boga i słuchajcie mnie!" },
+    {
+      "resource_id": 42,
+      "text": "Bójcie się Tego, który was zaopatrzył w to, co wam wiadomo:"
+    },
+    { "resource_id": 42, "text": "On zaopatrzył was w trzody i synów," },
+    { "resource_id": 42, "text": "Ogrody i źródła." },
+    {
+      "resource_id": 42,
+      "text": "Ja, zaprawdę, boję się dla was Wielkiego Dnia!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Nam jest wszystko jedno, czy ty nas napominasz, czy też nie jesteś z liczby napominających."
+    },
+    {
+      "resource_id": 42,
+      "text": "Nasze postępowanie podobne jest tylko do postępowania naszych przodków."
+    },
+    { "resource_id": 42, "text": "I my nie będziemy ukarani!\"" },
+    {
+      "resource_id": 42,
+      "text": "I oni uznali go za kłamcę, więc ich wytraciliśmy. Zaprawdę, w tym jest znak, lecz większość ludzi nie wierzy"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, twój Pan jest Potężny, Litościwy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "I lud Samud uznał za kłamców tych, którzy zostali posłani."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oto powiedział im ich brat Salih: \"Czy wy nie będziecie bogobojni?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Ja jestem dla was posłańcem godnym zaufania."
+    },
+    { "resource_id": 42, "text": "Przeto bójcie się Boga i słuchajcie mnie!" },
+    {
+      "resource_id": 42,
+      "text": "Nie żądam od was żadnej nagrody. Moja nagroda jest tylko u Pana światów!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy myślicie, że zawsze pozostaniecie wśród tego, co jest tutaj, bezpieczni?"
+    },
+    { "resource_id": 42, "text": "Wśród ogrodów i źródeł?" },
+    {
+      "resource_id": 42,
+      "text": "Wśród pól uprawnych i drzew palmowych o delikatnych kiściach owoców?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy myślicie, że zawsze będziecie zręcznie wykuwać domy w górach?"
+    },
+    { "resource_id": 42, "text": "Przeto bójcie się Boga i słuchajcie mnie!" },
+    { "resource_id": 42, "text": "I nie słuchajcie ludzi bezbożnych," },
+    {
+      "resource_id": 42,
+      "text": "Którzy szerzą zgorszenie na ziemi i nie czynią dobra!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Ty jesteś tylko jednym z zaczarowanych."
+    },
+    {
+      "resource_id": 42,
+      "text": "Jesteś tylko człowiekiem jak my. Przynieś nam jakiś znak, jeśli jesteś z liczby prawdomównych!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Powiedział: \"To jest wielbłądzica; ona pić będzie określonego dnia, a wy pić będziecie innego oznaczonego dnia."
+    },
+    {
+      "resource_id": 42,
+      "text": "Nie czyńcie jej nic złego, bo dosięgnie was kara Dnia Wielkiego!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni jednak przecięli jej pęciny, lecz nazajutrz tego pożałowali."
+    },
+    {
+      "resource_id": 42,
+      "text": "I dosięgła ich kara. Zaprawdę, w tym jest znak, lecz większość ludzi nie wierzy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, twój Pan jest Potężny, Litościwy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Lud Lota uznał za kłamców tych, którzy zostali posłani."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oto powiedział do nich brat ich Lot: \"Czy wy nie będziecie bogobojni?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Ja jestem dla was posłańcem godnym zaufania."
+    },
+    { "resource_id": 42, "text": "Przeto bójcie się Boga i słuchajcie mnie!" },
+    {
+      "resource_id": 42,
+      "text": "Ja nie żądam od was za to żadnej zapłaty. Moja zapłata jest tylko u Pana światów!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy będziecie obcować z mężczyznami ze wszystkich światów,"
+    },
+    {
+      "resource_id": 42,
+      "text": "A pozostawiać wasze żony, które stworzył wasz Pan dla was? Tak, jesteście ludem występnym!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Jeśli nie zaprzestaniesz, o Locie, to niechybnie zostaniesz wypędzony!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "On powiedział: \"Nienawidzę tego, co wy czynicie."
+    },
+    {
+      "resource_id": 42,
+      "text": "Panie mój! Wyratuj mnie i moją rodzinę od tego, co oni czynią!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "I wyratowaliśmy jego i jego rodzinę wszystkich razem;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Jedynie stara kobieta znalazła się wśród tych, którzy pozostali w tyle."
+    },
+    { "resource_id": 42, "text": "Następnie wytraciliśmy innych." },
+    {
+      "resource_id": 42,
+      "text": "I spuściliśmy na nich gwałtowny deszcz. A jakże zgubny jest deszcz dla tych, którzy zostali ostrzeżeni!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, w tym jest znak, lecz większość ludzi nie wierzy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, twój Pan jest Potężny, Litościwy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Mieszkańcy Gąszczu uznali za kłamców tych, którzy zostali posłani."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oto powiedział do nich Szu`ajb: \"Czy wy nie będziecie bogobojni?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Ja jestem dla was posłańcem godnym zaufania."
+    },
+    { "resource_id": 42, "text": "Bójcie się więc Boga i słuchajcie mnie!" },
+    {
+      "resource_id": 42,
+      "text": "Ja nie żądam od was żadnej zapłaty. Moja zapłata jest tylko u Pana światów!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Dawajcie pełną miarę, a nie bądźcie w liczbie tych, którzy narażają na straty!"
+    },
+    { "resource_id": 42, "text": "Ważcie dokładną wagą!" },
+    {
+      "resource_id": 42,
+      "text": "Nie zmniejszajcie ludziom ich dobytku i nie czyńcie zła na ziemi, szerząc zgorszenie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Bójcie się Tego, który was stworzył, i pokolenia dawnych przodków!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni powiedzieli: \"Ty jesteś tylko jednym z zaczarowanych."
+    },
+    {
+      "resource_id": 42,
+      "text": "Jesteś przecież tylko człowiekiem, podobnie jak my; i sądzimy, że jesteś tylko kłamcą."
+    },
+    {
+      "resource_id": 42,
+      "text": "Spuść więc na nas płaty z nieba, jeśli jesteś z liczby prawdomównych!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "On powiedział: \"Mój Pan wie najlepiej, co wy czynicie!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Lecz oni uznali go za kłamcę. I pochwyciła ich kara Dnia Cienia: to była kara Dnia Wielkiego."
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, w tym jest znak, lecz większość ludzi nie wierzy."
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, twój Pan jest Potężny, Litościwy!"
+    },
+    { "resource_id": 42, "text": "To jest objawienie Pana światów!" },
+    { "resource_id": 42, "text": "Z nim zeszedł Duch wierny" },
+    {
+      "resource_id": 42,
+      "text": "Na twoje serce, abyś był w liczbie ostrzegających"
+    },
+    { "resource_id": 42, "text": "W języku arabskim, jasnym." },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, to jest w Pismach dawnych przodków!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy to nie było dla nich znakiem, że wiedzą to uczeni synów Izraela?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Jeślibyśmy objawili to komuś z cudzoziemców"
+    },
+    {
+      "resource_id": 42,
+      "text": "I on wyrecytowałby to przed nimi, to oni też by mu nie uwierzyli."
+    },
+    {
+      "resource_id": 42,
+      "text": "W ten sposób wprowadziliśmy to w serca grzeszników."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni w to nie uwierzą, dopóki nie zobaczą kary bolesnej ."
+    },
+    {
+      "resource_id": 42,
+      "text": "I przyjdzie ona do nich nagle, kiedy nawet nie będą się jej spodziewać."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni wtedy powiedzą: \"Czy my znajdziemy się wśród tych, którym będzie dana zwłoka?\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy oni starają się przyspieszyć Naszą karę?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Jak ci się wydaje? Jeślibyśmy pozwolili im używać życia przez wiele lat,"
+    },
+    {
+      "resource_id": 42,
+      "text": "A potem przyszło do nich to, co im zostało obiecane,"
+    },
+    {
+      "resource_id": 42,
+      "text": "To czyż przyniesie im jakąkolwiek korzyść to, co było im dane używać ?"
+    },
+    {
+      "resource_id": 42,
+      "text": "I nie zniszczyliśmy żadnego miasta , zanim nie zostali tam wysłani ci, którzy ostrzegali"
+    },
+    {
+      "resource_id": 42,
+      "text": "Dla napomnienia ; ponieważ My nie byliśmy niesprawiedliwi."
+    },
+    { "resource_id": 42, "text": "Nie przynieśli go przecież szatani." },
+    {
+      "resource_id": 42,
+      "text": "To im się nie godzi i nie są do tego zdolni ;"
+    },
+    { "resource_id": 42, "text": "Oni są odsunięci od słuchania ." },
+    {
+      "resource_id": 42,
+      "text": "Nie wzywaj więc, wraz z Bogiem, żadnego innego boga, żebyś się nie znalazł wśród tych, którzy będą ukarani."
+    },
+    { "resource_id": 42, "text": "I ostrzegaj twój ród, bliskich krewnych!" },
+    {
+      "resource_id": 42,
+      "text": "Pochyl twe skrzydła ku tym spośród wiernych, którzy postępują za tobą!"
+    },
+    {
+      "resource_id": 42,
+      "text": "A jeśli ciebie nie słuchają, to powiedz im: \"Ja nie jestem winien tego, co wy czynicie!,"
+    },
+    { "resource_id": 42, "text": "Zaufaj Potężnemu, Litościwemu" },
+    { "resource_id": 42, "text": "Temu, który ciebie widzi, kiedy wstajesz" },
+    {
+      "resource_id": 42,
+      "text": "I kiedy się obracasz wśród tych, którzy wybijają pokłony."
+    },
+    { "resource_id": 42, "text": "Zaprawdę, On jest Słyszący, Wszechwiedzący" },
+    {
+      "resource_id": 42,
+      "text": "Czy ja mam was powiadomić, na kogo zstępują szatani?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zstępują oni na każdego kłamcę, grzesznika."
+    },
+    {
+      "resource_id": 42,
+      "text": "Oni podają do wiadomości to, co zasłyszeli, lecz większość z nich to kłamcy."
+    },
+    {
+      "resource_id": 42,
+      "text": "A jeśli chodzi o poetów, to postępują za nimi ci, którzy błądzą."
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy ty nie widzisz , jak oni wędrują po wszystkich dolinach"
+    },
+    { "resource_id": 42, "text": "I jak mówią to, czego nie czynią?" },
+    {
+      "resource_id": 42,
+      "text": "Wyjątek stanowią ci, którzy uwierzyli, pełnili dobre dzieła i często wspominali Boga. Oni obronili się po tym, jak doznali niesprawiedliwości. A niebawem dowiedzą się ci, którzy czynili niesprawiedliwość, jakich przeciwności losu oni doznają!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "26" }
+  }
+}

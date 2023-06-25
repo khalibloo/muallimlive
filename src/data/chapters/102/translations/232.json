@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Okunoonya okufuna ebingi,     kubalabankanyizza (ne kubajja ku kugondera amateeka ga Katonda)."
+    },
+    { "resource_id": 232, "text": "Okutuusa lwe muyingira kabbuli." },
+    {
+      "resource_id": 232,
+      "text": "Nedda, kyaddaki mujja kumanya (mu kiseera ky'okufa)"
+    },
+    {
+      "resource_id": 232,
+      "text": "Ate era oluvanyuma, kyaddaki mujja kumanya (nga muyingidde kabbuli)"
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda, singa nga mubadde mumanyi mu bukakafu bw'okumanya    (temwandirabankanyiziddwa na       kukungaanya bingi)"
+    },
+    { "resource_id": 232, "text": "Mujja kulabira ddala omuliro “Jahiim”." },
+    {
+      "resource_id": 232,
+      "text": "Ate oluvanyuma omuliro ogwo mujja kugulaba mugutegeerere ddala."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ate ddala oluvanyuma mugenda kubuuzibwa e byengera bye mwafuna ku nsi (mwabifuna mu makubo ki, era   mwabisaasaanya mu makubo ki)."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "102" }
+  }
+}

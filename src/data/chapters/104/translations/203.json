@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Woe to every slanderer and backbiter.<sup foot_note=155064>1</sup>"
+    },
+    { "resource_id": 203, "text": "  Who has gathered wealth and counted it." },
+    {
+      "resource_id": 203,
+      "text": "  He thinks that his wealth will make him last forever!"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Nay! Verily, he will be thrown into the crushing Fire."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And what will make you know what the crushing Fire is?"
+    },
+    { "resource_id": 203, "text": "  The fire of Allâh kindled," },
+    { "resource_id": 203, "text": "  Which leaps up over the hearts," },
+    { "resource_id": 203, "text": "  Verily, it shall be closed upon them," },
+    {
+      "resource_id": 203,
+      "text": "  In pillars stretched forth (i.e. they will be punished in the Fire with pillars)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "104" }
+  }
+}

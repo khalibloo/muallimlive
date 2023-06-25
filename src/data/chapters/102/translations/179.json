@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 179,
+      "text": "Umabala sa inyo, O mga tao, ang pagyayabangan sa mga yaman at mga anak palayo sa pagtalima kay Allāh."
+    },
+    {
+      "resource_id": 179,
+      "text": "hanggang sa namatay kayo at pumasok kayo sa mga libingan ninyo."
+    },
+    {
+      "resource_id": 179,
+      "text": "Hindi naging ukol sa inyo na umabala sa inyo ang pagyayabangan sa mga iyon palayo sa pagtalima kay Allāh. Malalaman ninyo ang kahihinatnan ng pagpapakaabalang iyon."
+    },
+    {
+      "resource_id": 179,
+      "text": "Pagkatapos, aba’y hindi! Malalaman ninyo ang kahihinatnan niyon."
+    },
+    {
+      "resource_id": 179,
+      "text": "Sa katotohanan, kung sakaling kayo ay nakaalam nang tiyakan na kayo ay mga bubuhayin tungo kay Allāh at na Siya ay gaganti sa inyo sa mga gawa ninyo, talagang hindi sana kayo nagpakaabala sa pagyayabangan sa mga yaman at mga anak."
+    },
+    {
+      "resource_id": 179,
+      "text": "Sumpa man kay Allāh, talagang makasasaksi nga kayo sa Apoy sa Araw ng Pagbangon."
+    },
+    {
+      "resource_id": 179,
+      "text": "Pagkatapos talagang makasasaksi nga kayo niyon ayon sa pagkakasaksi ng katiyakan na walang pagdududa hinggil dito."
+    },
+    {
+      "resource_id": 179,
+      "text": "Pagkatapos talagang magtatanong nga sa inyo si Allāh sa Araw na iyon tungkol sa ibiniyaya Niya sa inyo na kalusugan, pagkayaman, at iba pa sa dalawang ito."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tagalog Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 179, "chapter_number": "102" }
+  }
+}

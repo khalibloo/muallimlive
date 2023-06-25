@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 29,
+      "text": "(ای پیامبر) بگو: «به پروردگار سپیده دم پناه می‌برم،"
+    },
+    { "resource_id": 29, "text": "از شر تمام آنچه آفریده است،" },
+    {
+      "resource_id": 29,
+      "text": "و از شر تاریکی شب، آنگاه که همه جا را فرا گیرد."
+    },
+    {
+      "resource_id": 29,
+      "text": "و از شر (زنان جادوگر) که با افسون در گره‌ها می‌دمند."
+    },
+    { "resource_id": 29, "text": "و از شر حسود آنگاه که حسد ورزد»." }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "113" }
+  }
+}

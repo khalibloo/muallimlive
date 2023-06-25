@@ -1,0 +1,62 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "Non !... Je jure par cette Cité <sup foot_note=212580>1</sup> !"
+    },
+    {
+      "resource_id": 31,
+      "text": "et toi, tu es un résident dans cette cité <sup foot_note=212581>1</sup> -"
+    },
+    { "resource_id": 31, "text": "Et par le père et ce qu’il engendre !" },
+    {
+      "resource_id": 31,
+      "text": "Nous avons, certes, créé l’homme pour une vie de lutte."
+    },
+    {
+      "resource_id": 31,
+      "text": "Pense-t-il que personne ne pourra rien contre lui ?"
+    },
+    {
+      "resource_id": 31,
+      "text": "Il dit : \"J’ai gaspillé beaucoup de biens.\""
+    },
+    { "resource_id": 31, "text": "Pense-t-il que nul ne l’a vu?" },
+    { "resource_id": 31, "text": "Ne lui avons-Nous pas assigné deux yeux," },
+    { "resource_id": 31, "text": "et une langue et deux lèvres ?" },
+    {
+      "resource_id": 31,
+      "text": "Ne l’avons-Nous pas guidé aux deux voies <sup foot_note=212582>1</sup>."
+    },
+    {
+      "resource_id": 31,
+      "text": "Or, il ne s’engage pas dans la voie difficile ! <sup foot_note=212583>1</sup>"
+    },
+    {
+      "resource_id": 31,
+      "text": "Et qui te dira ce qu’est la voie difficile ?"
+    },
+    {
+      "resource_id": 31,
+      "text": "C’est délier un joug [affranchir un esclave],"
+    },
+    { "resource_id": 31, "text": "ou nourrir, en un jour de famine," },
+    { "resource_id": 31, "text": "un orphelin proche parent." },
+    { "resource_id": 31, "text": "ou un pauvre dans le dénouement." },
+    {
+      "resource_id": 31,
+      "text": "Et c’est être, en outre, de ceux qui croient et s’enjoignent mutuellement l’endurance, et s’enjoignent mutuellement la miséricorde."
+    },
+    { "resource_id": 31, "text": "Ceux-là sont les gens de la droite ;" },
+    {
+      "resource_id": 31,
+      "text": "alors que ceux qui ne croient pas en Nos versets sont les gens de la gauche."
+    },
+    { "resource_id": 31, "text": "Le Feu se refermera sur eux." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "90" }
+  }
+}

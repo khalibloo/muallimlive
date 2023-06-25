@@ -1,0 +1,54 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na noc, kiedy okrywa ciemnością!" },
+    { "resource_id": 42, "text": "Na dzień, kiedy jaśnieje blaskiem!" },
+    {
+      "resource_id": 42,
+      "text": "Na Tego, który stworzył mężczyznę i kobietę!"
+    },
+    { "resource_id": 42, "text": "Zaprawdę, wysiłki wasze są różnorodne!" },
+    { "resource_id": 42, "text": "Ale ten, kto daje i jest bogobojny," },
+    { "resource_id": 42, "text": "I uznaje za prawdę nagrodę najpiękniejszą" },
+    { "resource_id": 42, "text": "- temu My ułatwimy dostęp do szczęścia." },
+    { "resource_id": 42, "text": "A ten, kto skąpi i szuka bogactwa," },
+    { "resource_id": 42, "text": "I za kłamstwo uważa nagrodę najpiękniejszą" },
+    { "resource_id": 42, "text": "- na tego My sprowadzimy nieszczęście." },
+    {
+      "resource_id": 42,
+      "text": "Na nic mu się zda jego majątek, kiedy się sam zaprzepaści."
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, na Nas spoczywa kierowanie na drogę prostą!"
+    },
+    {
+      "resource_id": 42,
+      "text": "I, zaprawdę, do Nas należy życie ostateczne i pierwsze!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Przeto ostrzegam was przed ogniem, który płonie!"
+    },
+    { "resource_id": 42, "text": "Pali się w nim tylko najnieszczęśliwszy;" },
+    { "resource_id": 42, "text": "Ten, który zaprzeczał i odwracał się." },
+    {
+      "resource_id": 42,
+      "text": "Lecz zostanie odsunięty od niego bogobojny,"
+    },
+    { "resource_id": 42, "text": "Który daje swój majątek, by się oczyścić." },
+    {
+      "resource_id": 42,
+      "text": "On nie wyświadcza nikomu dobrodziejstwa, po to by otrzymać nagrodę,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Lecz jedynie z tęsknoty do oblicza swego Pana - Najwyższego!"
+    },
+    { "resource_id": 42, "text": "On z pewnością będzie zadowolony!" }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "92" }
+  }
+}

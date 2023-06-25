@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Скажи: «Він — Аллаг — Єдиний" },
+    { "resource_id": 217, "text": "Аллаг — Той, до Кого прагнуть" },
+    { "resource_id": 217, "text": "не народив і не був народжений" },
+    { "resource_id": 217, "text": "і ніхто не був рівним Йому!" }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "112" }
+  }
+}

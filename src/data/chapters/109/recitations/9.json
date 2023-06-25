@@ -1,0 +1,15 @@
+{
+  "audio_files": [
+    { "verse_key": "109:1", "url": "Minshawi/Murattal/mp3/109001.mp3" },
+    { "verse_key": "109:2", "url": "Minshawi/Murattal/mp3/109002.mp3" },
+    { "verse_key": "109:3", "url": "Minshawi/Murattal/mp3/109003.mp3" },
+    { "verse_key": "109:4", "url": "Minshawi/Murattal/mp3/109004.mp3" },
+    { "verse_key": "109:5", "url": "Minshawi/Murattal/mp3/109005.mp3" },
+    { "verse_key": "109:6", "url": "Minshawi/Murattal/mp3/109006.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed Siddiq al-Minshawi",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "109" }
+  }
+}

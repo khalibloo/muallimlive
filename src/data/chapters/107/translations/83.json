@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 83,
+      "text": "¿Acaso has observado a quien desmiente el Día del Juicio?"
+    },
+    { "resource_id": 83, "text": "Es quien rechaza al huérfano" },
+    { "resource_id": 83, "text": "y no exhorta a alimentar al pobre." },
+    { "resource_id": 83, "text": "¡Ay de los orantes" },
+    {
+      "resource_id": 83,
+      "text": "que son negligentes en sus oraciones [realizándolas fuera de su horario],"
+    },
+    { "resource_id": 83, "text": "y solo las realizan para hacerse ver," },
+    {
+      "resource_id": 83,
+      "text": "y se niegan a prestar hasta la mínima ayuda!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "107" }
+  }
+}

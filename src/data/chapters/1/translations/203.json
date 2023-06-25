@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  In the Name of Allâh, the Most Gracious, the Most Merciful"
+    },
+    {
+      "resource_id": 203,
+      "text": "  All the praises and thanks be to Allâh, the Lord<sup foot_note=154319>1</sup> of the ‘Âlamîn (mankind, jinn and all that exists).<sup foot_note=154320>2</sup>"
+    },
+    { "resource_id": 203, "text": "  The Most Gracious, the Most Merciful." },
+    {
+      "resource_id": 203,
+      "text": "  The Only Owner (and the Only Ruling Judge) of the Day of Recompense (i.e. the Day of Resurrection)"
+    },
+    {
+      "resource_id": 203,
+      "text": "  You (Alone) we worship, and You (Alone) we ask for help (for each and everything)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Guide us to the Straight Way.<sup foot_note=154321>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  The Way of those on whom You have bestowed Your Grace<sup foot_note=154322>1</sup> , not (the way) of those who earned Your Anger <sup foot_note=154323>2</sup> (i.e. those who knew the Truth, but did not follow it) nor of those who went astray (i.e. those who did not follow the Truth out of ignorance and error). <sup foot_note=154324>3</sup>, <sup foot_note=154325>4</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "1" }
+  }
+}

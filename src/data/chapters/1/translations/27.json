@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Im Namen Allahs, des Allerbarmers, des Barmherzigen."
+    },
+    {
+      "resource_id": 27,
+      "text": "(Alles) Lob gehört Allah, dem Herrn der Welten,"
+    },
+    { "resource_id": 27, "text": "dem Allerbarmer, dem Barmherzigen," },
+    { "resource_id": 27, "text": "dem Herrscher am Tag des Gerichts." },
+    {
+      "resource_id": 27,
+      "text": "Dir allein dienen wir, und zu Dir allein flehen wir um Hilfe."
+    },
+    { "resource_id": 27, "text": "Leite uns den geraden Weg," },
+    {
+      "resource_id": 27,
+      "text": "den Weg derjenigen, denen Du Gunst erwiesen hast, nicht derjenigen, die (Deinen) Zorn erregt haben, und nicht der Irregehenden!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "1" }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translations": [
+    {
+      "resource_id": 199,
+      "text": "Recita (lo que se te revela, ¡oh, Muhammad!) comenzando por el nombre de tu Señor, que ha creado (todas las cosas)."
+    },
+    {
+      "resource_id": 199,
+      "text": "Creó al hombre de un coágulo adherente<sup foot_note=151214>1</sup>."
+    },
+    {
+      "resource_id": 199,
+      "text": "¡Recita! Tu Señor es el más Noble y Generoso."
+    },
+    {
+      "resource_id": 199,
+      "text": "Él enseñó al hombre a escribir con el cálamo."
+    },
+    { "resource_id": 199, "text": "Y le enseñó lo que no sabía." },
+    { "resource_id": 199, "text": "Ciertamente, el hombre se excede" },
+    {
+      "resource_id": 199,
+      "text": "cuando se ve autosuficiente (por las riquezas que posee)."
+    },
+    { "resource_id": 199, "text": "Y a tu Señor deberá retornar." },
+    { "resource_id": 199, "text": "¿Acaso no ves a quien impide" },
+    {
+      "resource_id": 199,
+      "text": "rezar a un siervo (de Al-lah)?<sup foot_note=151215>1</sup>"
+    },
+    {
+      "resource_id": 199,
+      "text": "¿Has reparado (¡oh, Abu Yahal!) en si (Muhammad) está en el buen camino"
+    },
+    { "resource_id": 199, "text": "o si ordena la piedad?" },
+    {
+      "resource_id": 199,
+      "text": "¿Has visto (¡oh, Muhammad!) cómo (quien te impide rezar) niega la verdad y se aleja de ella?"
+    },
+    { "resource_id": 199, "text": "¿Acaso no sabe que Al-lah lo observa?" },
+    {
+      "resource_id": 199,
+      "text": "Si no desiste (de su actitud) lo agarraremos por la frente (hasta hacerlo entrar en el fuego),"
+    },
+    {
+      "resource_id": 199,
+      "text": "una frente mentirosa y pecadora<sup foot_note=151216>1</sup>."
+    },
+    {
+      "resource_id": 199,
+      "text": "¡Que llame a los suyos (para que lo auxilien)!"
+    },
+    {
+      "resource_id": 199,
+      "text": "Nosotros llamaremos a los ángeles guardianes del Infierno."
+    },
+    {
+      "resource_id": 199,
+      "text": "¡No hagas caso (a quien te impide rezar, oh, Muhammad)! Póstrate (ante tu Señor) y acércate a Él<sup foot_note=151217>1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "96" }
+  }
+}

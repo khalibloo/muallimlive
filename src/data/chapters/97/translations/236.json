@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Ni$ Nessader it id deg iv useyyi." },
+    { "resource_id": 236, "text": "Anwa ara k imlen, d acu ay d iv useyyi?" },
+    { "resource_id": 236, "text": "Iv useyyi yif agim wagguren." },
+    {
+      "resource_id": 236,
+      "text": "Lmalayek akked ôôuê, ppadren d degs, s wannuf n Mass nnsen, i yal lameô."
+    },
+    { "resource_id": 236, "text": "Di tifrat i illa alamma d tafrara." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "97" }
+  }
+}

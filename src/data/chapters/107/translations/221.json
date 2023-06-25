@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 221,
+      "text": "Há Ngươi có thấy kẻ phủ nhận việc Phán Xử (để thưởng và phạt)?"
+    },
+    { "resource_id": 221, "text": "Bởi lẽ kẻ ấy đã xua đuổi trẻ mồ côi;" },
+    {
+      "resource_id": 221,
+      "text": "Và không khuyến khích việc nuôi ăn những người thiếu thốn;"
+    },
+    {
+      "resource_id": 221,
+      "text": "Bởi thế, thiệt thân cho những người dâng lễ nguyện Salah."
+    },
+    {
+      "resource_id": 221,
+      "text": "Những ai lơ là trong việc dâng lễ nguyện Salah của họ,"
+    },
+    {
+      "resource_id": 221,
+      "text": "Những ai chỉ muốn phô trương cho (người khác) thấy,"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và từ chối giúp đỡ (láng giềng) về những vật dụng cần thiết."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "107" }
+  }
+}

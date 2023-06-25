@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 798, "text": "Nguulumbila nkuju ni nzaituni." },
+    { "resource_id": 798, "text": "Ni litumbi lya Sinai." },
+    {
+      "resource_id": 798,
+      "text": "Kwisa soni awu nsinda (wa Maaka) wantunjelele."
+    },
+    {
+      "resource_id": 798,
+      "text": "Chisimu pamasile patun'gumbile mundu mu kagumbidwe kambone nnope."
+    },
+    {
+      "resource_id": 798,
+      "text": "Kaneka nitukum'busyaaga kuŵa jwapasi kwapunda ŵapasi wosope (pa uchekulu wakulepela nao kutenda yambone)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ikaŵeje ŵandu ŵaakulupilile ni kutendaga yambone (ali ŵachilimbanganile), basi akwete kupata ŵanganyao malipilo gangamala."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ana panyuma (pa kuimanya yele) nichichi chikuntendekasya kanila ya malipilo (ga pa Kiyama)?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Ana Allah nganaŵa Nkwiilanya chenene (magambo) kwapunda akwiilanya wosope?!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "95" }
+  }
+}

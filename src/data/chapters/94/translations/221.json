@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 221,
+      "text": "Há TA đã không mở rộng lòng ngực cho Ngươi?"
+    },
+    { "resource_id": 221, "text": "Và trút bỏ khỏi Ngươi gánh nặng" },
+    { "resource_id": 221, "text": "Đã đè nặng lên lưng của Ngươi?" },
+    { "resource_id": 221, "text": "Và TA đã nâng cao danh tiếng của Ngươi?" },
+    {
+      "resource_id": 221,
+      "text": "Quả thật, sự dễ dàng đi đôi với sự khó khăn;"
+    },
+    {
+      "resource_id": 221,
+      "text": "Quả thật, sự dễ dàng đi đôi với sự khó khăn."
+    },
+    {
+      "resource_id": 221,
+      "text": "Bởi thế, khi thư thả, Ngươi hãy đứng dậy (dâng lễ nguyện Salah)."
+    },
+    {
+      "resource_id": 221,
+      "text": "Và Ngươi hãy hướng về Thượng Đế của Ngươi (mà cầu nguyện và hy vọng)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "94" }
+  }
+}

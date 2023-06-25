@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 779, "text": "Le Grand choc !" },
+    { "resource_id": 779, "text": "Qu’est-ce que le Grand choc ?" },
+    {
+      "resource_id": 779,
+      "text": "Qui pourrait t’indiquer ce qu’est le Grand choc ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "Ce Jour-là, les hommes s’éparpilleront comme des papillons<sup foot_note=205504>1</sup>,"
+    },
+    {
+      "resource_id": 779,
+      "text": "et les montagnes auront, des flocons de laine cardée, la légèreté. "
+    },
+    {
+      "resource_id": 779,
+      "text": "Celui dont la balance penchera du bon côté,"
+    },
+    {
+      "resource_id": 779,
+      "text": "jouira au Paradis d’une éternelle félicité."
+    },
+    {
+      "resource_id": 779,
+      "text": "Quant à celui dont la balance penchera du mauvais côté,"
+    },
+    {
+      "resource_id": 779,
+      "text": "il sera, dans l’Abîme, violemment précipité."
+    },
+    { "resource_id": 779, "text": "Mais qui pourrait te décrire sa réalité ?" },
+    { "resource_id": 779, "text": "Un feu ardent à jamais attisé !" }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "101" }
+  }
+}

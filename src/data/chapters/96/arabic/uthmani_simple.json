@@ -1,0 +1,92 @@
+{
+  "verses": [
+    {
+      "id": 6107,
+      "verse_key": "96:1",
+      "text_uthmani_simple": "اقرا باسم ربك الذى خلق"
+    },
+    {
+      "id": 6108,
+      "verse_key": "96:2",
+      "text_uthmani_simple": "خلق الانسن من علق"
+    },
+    {
+      "id": 6109,
+      "verse_key": "96:3",
+      "text_uthmani_simple": "اقرا وربك الاكرم"
+    },
+    {
+      "id": 6110,
+      "verse_key": "96:4",
+      "text_uthmani_simple": "الذى علم بالقلم"
+    },
+    {
+      "id": 6111,
+      "verse_key": "96:5",
+      "text_uthmani_simple": "علم الانسن ما لم يعلم"
+    },
+    {
+      "id": 6112,
+      "verse_key": "96:6",
+      "text_uthmani_simple": "كلا ان الانسن ليطغى"
+    },
+    {
+      "id": 6113,
+      "verse_key": "96:7",
+      "text_uthmani_simple": "ان رءاه استغنى"
+    },
+    {
+      "id": 6114,
+      "verse_key": "96:8",
+      "text_uthmani_simple": "ان الى ربك الرجعى"
+    },
+    {
+      "id": 6115,
+      "verse_key": "96:9",
+      "text_uthmani_simple": "ارءيت الذى ينهى"
+    },
+    { "id": 6116, "verse_key": "96:10", "text_uthmani_simple": "عبدا اذا صلى" },
+    {
+      "id": 6117,
+      "verse_key": "96:11",
+      "text_uthmani_simple": "ارءيت ان كان على الهدى"
+    },
+    {
+      "id": 6118,
+      "verse_key": "96:12",
+      "text_uthmani_simple": "او امر بالتقوى"
+    },
+    {
+      "id": 6119,
+      "verse_key": "96:13",
+      "text_uthmani_simple": "ارءيت ان كذب وتولى"
+    },
+    {
+      "id": 6120,
+      "verse_key": "96:14",
+      "text_uthmani_simple": "الم يعلم بان الله يرى"
+    },
+    {
+      "id": 6121,
+      "verse_key": "96:15",
+      "text_uthmani_simple": "كلا لئن لم ينته لنسفعۢا بالناصية"
+    },
+    {
+      "id": 6122,
+      "verse_key": "96:16",
+      "text_uthmani_simple": "ناصية كذبة خاطئة"
+    },
+    { "id": 6123, "verse_key": "96:17", "text_uthmani_simple": "فليدع ناديه" },
+    {
+      "id": 6124,
+      "verse_key": "96:18",
+      "text_uthmani_simple": "سندع الزبانية"
+    },
+    {
+      "id": 6125,
+      "verse_key": "96:19",
+      "text_uthmani_simple": "كلا لا تطعه واسجد واقترب"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "96" } }
+}

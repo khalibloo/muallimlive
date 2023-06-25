@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "Ахь āла: \"Со ларло сатасаран Деца<sup foot_note=114498>1</sup>"
+    },
+    { "resource_id": 106, "text": "Цо кхоьллинчу массо а вонах‚" },
+    {
+      "resource_id": 106,
+      "text": "Боданан вонах‚ цо /буьйсана Iалам/ дIахьулдича /гучуйолучу вочу хIуманах а ларло со/‚"
+    },
+    {
+      "resource_id": 106,
+      "text": "Шеддаш беш цу чу хIуп олучу зударийн2вонах а /ларло со/‚"
+    },
+    {
+      "resource_id": 106,
+      "text": "ХьагI лелочун вонах а /ларло со/‚ цо хьагI йича."
+    }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "113" }
+  }
+}

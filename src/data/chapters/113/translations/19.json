@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "Say: I seek refuge in the Lord of the Daybreak"
+    },
+    { "resource_id": 19, "text": "From the evil of that which He created;" },
+    {
+      "resource_id": 19,
+      "text": "From the evil of the darkness when it is intense,"
+    },
+    { "resource_id": 19, "text": "And from the evil of malignant witchcraft," },
+    {
+      "resource_id": 19,
+      "text": "And from the evil of the envier when he envieth."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "113" }
+  }
+}

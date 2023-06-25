@@ -1,0 +1,45 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "İnsanların arkasından konuşan ve onlara dil uzatanlara kötü bir akıbet ve şiddetli bir azap vardır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Onun tek kaygısı mal biriktirmek ve saymaktır. Bunun dışında başka bir kaygısı yoktur."
+    },
+    {
+      "resource_id": 172,
+      "text": "Topladığı malının, onu ölümden kurtaracağını ve sonsuza kadar dünya hayatında kalacağını zanneder."
+    },
+    {
+      "resource_id": 172,
+      "text": "Durum hiç de bu cahilin tasavvur ettiği gibi değildir. Elbette o, azabının şiddetinden ötürü içine atılan her şeyi ufalayan ve parçalayan Cehennem ateşine atılacak."
+    },
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- İçine atılan her şeyi yakıp yıkan bu ateşin ne olduğunu sana ne öğretti?"
+    },
+    {
+      "resource_id": 172,
+      "text": "Şüphesiz o, Allah'ın tutuşturulmuş ateşidir."
+    },
+    {
+      "resource_id": 172,
+      "text": "O ateş ki; insanların bedenlerinden kalplerine kadar delip geçer."
+    },
+    {
+      "resource_id": 172,
+      "text": "Şüphesiz o ateş, orada azap görenlerin üzerine kapatılmıştır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Oradan çıkmamaları için boylu boyunca uzanan sütunlarla üzerleri kapatılmıştır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Này Thiên Sứ, há Ngươi chưa từng nghe về việc Thượng Đế của Ngươi đã trừng phạt đoàn quân cưỡi voi do Vua tên Abrahah chỉ huy tiến về Makkah muốn hủy hoại Ngôi Đền thiêng liêng Ka’bah như thế nào ư?"
+    },
+    {
+      "resource_id": 177,
+      "text": "Allah đã đập tan kế hoạch xấu xa của hắn, hắn đã không làm được bất cứ gì mặc dù mọi người đã bỏ Ka'bah mà chạy trốn."
+    },
+    {
+      "resource_id": 177,
+      "text": "Ngài gởi đến họ từng đàn chim nối tiếp nhau."
+    },
+    {
+      "resource_id": 177,
+      "text": "Gắp những viên đá được đun nóng tiếp nối nhau thả xuống họ."
+    },
+    {
+      "resource_id": 177,
+      "text": "Allah tiêu diệt họ toàn bộ và họ nằm la liệt giống như những cọng rạ khô cho súc vật ăn và sau khi bị giẫm đạp."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "105" }
+  }
+}

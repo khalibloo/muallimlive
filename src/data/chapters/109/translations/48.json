@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 48, "text": "SÄG: \"Ni som förnekar sanningen!" },
+    { "resource_id": 48, "text": "Jag dyrkar inte vad ni dyrkar." },
+    { "resource_id": 48, "text": "Inte heller dyrkar ni vad jag dyrkar." },
+    {
+      "resource_id": 48,
+      "text": "Och jag kommer aldrig att dyrka vad ni dyrkar,"
+    },
+    {
+      "resource_id": 48,
+      "text": "och ni kommer heller aldrig att dyrka vad jag dyrkar."
+    },
+    { "resource_id": 48, "text": "Ni har er tro - och jag har min tro!\"" }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "109" }
+  }
+}

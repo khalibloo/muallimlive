@@ -1,0 +1,68 @@
+{
+  "translations": [
+    { "resource_id": 219, "text": "내가 이 도시를 두고 맹세컨대" },
+    {
+      "resource_id": 219,
+      "text": "- 이 도시에서 그대(무함마드의 행위)는 허락된 것이라 -"
+    },
+    {
+      "resource_id": 219,
+      "text": "그리고 낳는 자와 그가 낳은 것을 두고 맹세컨대"
+    },
+    {
+      "resource_id": 219,
+      "text": "실로 나는 인간을 고달픔 속에 있게끔 창조하였노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그는 그 누구도 자신을 제약할 수 없으리라 생각하는 것인가?"
+    },
+    {
+      "resource_id": 219,
+      "text": "그가 말하니 “나는 숱한 재산을 소비하였도다”"
+    },
+    {
+      "resource_id": 219,
+      "text": "그는 그 누구도 자신을 보지 않는다고 생각하는 것인가?"
+    },
+    { "resource_id": 219, "text": "내가 그를 위해 두 눈과" },
+    { "resource_id": 219, "text": "혀와 두 입술을 두지 않았던가?" },
+    {
+      "resource_id": 219,
+      "text": "또한 나는 그에게 두 개의 가파른 길을 가리켜 주었노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그럼에도 그는 험한 길을 헤쳐나가지 않는 것인가."
+    },
+    {
+      "resource_id": 219,
+      "text": "무엇이 그대에게 그 험한 길이 무엇인지를 알려 줄 것인가?"
+    },
+    { "resource_id": 219, "text": "(그것은) 노예를 풀어 주거나" },
+    { "resource_id": 219, "text": "허기진 날에 (사람들에게) 음식을 베풀고" },
+    { "resource_id": 219, "text": "친척 관계의 고아나" },
+    {
+      "resource_id": 219,
+      "text": "도탄에 빠진 불우한 자에게 음식을 베푸는 것이라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그 후에 그가 (하나님과 사도를) 믿고 인내를 권유하며 자비를 권유하는 자들 중의 하나가 되었더라면"
+    },
+    { "resource_id": 219, "text": "그러한 자들은 우편의 동료들이라." },
+    {
+      "resource_id": 219,
+      "text": "그러나 나의 징표를 불신하는 자들, 그들은 좌편의 동료들로서"
+    },
+    {
+      "resource_id": 219,
+      "text": "그들 위에는 굳게 닫혀진 지옥불이 있을 것이라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "90" }
+  }
+}

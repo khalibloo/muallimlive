@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 85, "text": "The Crashing Blow!" },
+    { "resource_id": 85, "text": "What is the Crashing Blow?" },
+    {
+      "resource_id": 85,
+      "text": "What will explain to you what the Crashing Blow is?"
+    },
+    {
+      "resource_id": 85,
+      "text": "On a Day when people will be like scattered moths"
+    },
+    { "resource_id": 85, "text": "and the mountains like tufts of wool," },
+    {
+      "resource_id": 85,
+      "text": "the one whose good deeds are heavy on the scales"
+    },
+    { "resource_id": 85, "text": "will have a pleasant life," },
+    { "resource_id": 85, "text": "but the one whose good deeds are light" },
+    {
+      "resource_id": 85,
+      "text": "will have the Bottomless Pit for his home––"
+    },
+    { "resource_id": 85, "text": "what will explain to you what that is?––" },
+    { "resource_id": 85, "text": "a blazing fire." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "101" }
+  }
+}

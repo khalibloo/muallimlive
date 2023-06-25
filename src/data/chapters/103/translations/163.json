@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 163, "text": "মহাকালের শপথ!" },
+    { "resource_id": 163, "text": "মানুষ অবশ্যই ক্ষতির মধ্যে রয়েছে।" },
+    {
+      "resource_id": 163,
+      "text": "কিন্তু তারা নয়, যারা ঈমান আনে ও সৎ কাজ করে এবং পরস্পরকে সত্যের উপদেশ দেয় ও ধৈর্য ধারণে পরস্পরকে উদ্ধুদ্ধ করে।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "103" }
+  }
+}

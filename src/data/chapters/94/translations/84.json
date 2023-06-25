@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 84,
+      "text": "Have We not caused your bosom to be wide open for you?"
+    },
+    { "resource_id": 84, "text": "And We removed from you your burden" },
+    { "resource_id": 84, "text": "that had (almost) broken your back," },
+    { "resource_id": 84, "text": "and We raised high your name." },
+    {
+      "resource_id": 84,
+      "text": "So, undoubtedly, along with the hardship there is ease."
+    },
+    {
+      "resource_id": 84,
+      "text": "Undoubtedly, along with the hardship there is ease."
+    },
+    {
+      "resource_id": 84,
+      "text": "So, when you are free (from collective services), toil hard (in worship),"
+    },
+    { "resource_id": 84, "text": "and towards your Lord turn with eagerness." }
+  ],
+  "meta": {
+    "translation_name": "Mufti Taqi Usmani",
+    "author_name": "Mufti Taqi Usmani",
+    "filters": { "resource_id": 84, "chapter_number": "94" }
+  }
+}

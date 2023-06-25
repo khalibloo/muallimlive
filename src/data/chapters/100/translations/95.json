@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "By (the horses) that charge snorting,<sup foot_note=\"182815\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "then raise sparks of fire (by their hoofs),<sup foot_note=\"182816\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "then raid by the dawn,<sup foot_note=\"182817\">1</sup>"
+    },
+    { "resource_id": 95, "text": "and blaze a trail of dust," },
+    { "resource_id": 95, "text": "and penetrate deep into a host." },
+    {
+      "resource_id": 95,
+      "text": "Verily man is most ungrateful to his Lord;<sup foot_note=\"182818\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and he himself is a witness to that,<sup foot_note=\"182819\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and surely he loves riches with a passionate loving.<sup foot_note=\"182820\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Is he not aware that when whatever lies (buried) in the graves is overthrown;<sup foot_note=\"182821\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and the secrets of the hearts are laid bare (and examined)?<sup foot_note=\"182822\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Surely on that Day will their Lord be fully informed about them.<sup foot_note=\"182823\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "100" }
+  }
+}

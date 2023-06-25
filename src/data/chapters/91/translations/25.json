@@ -1,0 +1,39 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Tako mi Sunca i svjetla njegova!" },
+    { "resource_id": 25, "text": "i Mjeseca kada ga prati," },
+    { "resource_id": 25, "text": "i dana kada ga vidljivim učini," },
+    { "resource_id": 25, "text": "i noći kada ga zakloni," },
+    { "resource_id": 25, "text": "i neba i Onoga Koji ga sazda," },
+    { "resource_id": 25, "text": "i Zemlje i Onoga Koji je rasprostrije," },
+    { "resource_id": 25, "text": "i duše i Onoga Koji je ispravnom stvori," },
+    {
+      "resource_id": 25,
+      "text": "pa je nadahnu da zna šta je razvrat a šta bogobojaznost;"
+    },
+    { "resource_id": 25, "text": "uspio je onaj ko je očisti," },
+    { "resource_id": 25, "text": "a izgubio je onaj ko je zapostavi!" },
+    {
+      "resource_id": 25,
+      "text": "Narod Semud je zbog obijesti svoje poricao:"
+    },
+    {
+      "resource_id": 25,
+      "text": "Kad se jedan nesretnik između njih podigao,"
+    },
+    {
+      "resource_id": 25,
+      "text": "Allahov poslanik im je doviknuo: \"Pazite na Allahovu devu i njen red pojenja!\","
+    },
+    {
+      "resource_id": 25,
+      "text": "ali su ga u laž utjerali, pa su je zaklali- i Gospodar njihov ih je, zbog grijeha njihovih uništio i kaznom sve obuhvatio"
+    },
+    { "resource_id": 25, "text": "ne bojeći se kakve će posljedice toga biti." }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "91" }
+  }
+}

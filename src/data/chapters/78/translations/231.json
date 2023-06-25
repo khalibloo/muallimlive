@@ -1,0 +1,160 @@
+{
+  "translations": [
+    {
+      "resource_id": 231,
+      "text": "Kuhusu kitu gani baadhi ya makafiri wa Kikureshi wanaulizana?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Wanaulizana kuhusu habari iliyo na uzito mkubwa kabisa,"
+    },
+    {
+      "resource_id": 231,
+      "text": "nayo ni Qur’ani tukufu inayotoa habari za kufufuliwa ambako makafiri wa Kikureshi wana shaka nako na wanakukanusha."
+    },
+    {
+      "resource_id": 231,
+      "text": "Mambo sivyo kama wanavyodhania hawa washirikina. Hapo watajua hawa washirikina upeo wa kukanusha kwao na kitawadhihirikia waziwazi kile Atakachowatenda Mwenyezi Mungu Siku ya Kiyama."
+    },
+    {
+      "resource_id": 231,
+      "text": "Kisha litahakikishika kwao jambo hilo na utahakikishika kwao ukweli wa yale aliyokuja nayo Mtume Muhammad, rehema ya Mwenyezi Mungu na amani zimshukie, kuhusu Qur’ani na kufufuliwa. Huu ni utisho na makemeo kwao."
+    },
+    {
+      "resource_id": 231,
+      "text": "Kwani hatukuwatandazia ardhi kama tandiko?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukawafanyia majabali kuwa ni vigingi, ili isitisike nanyi?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukawaumba aina mbali-mbali, mume na mke."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukafanya usingizi wenu ni mapumziko kwa viwiliwili vyenu: ndani yake mnatulia na kupumzika?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukaufanya usiku kuwa ni vazi, unawavisha giza lake na kuwafinika, kama nguo inavyomsitiri mwenye kuivaa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukaufanya mchana ni kipindi cha kutafuta maisha, mnaenea humo kwa ajili ya maisha yenu na mnatembea humo kwa ajili ya maslahi yenu?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukajenga juu yenu mbingu saba, madhubuti jengo lake, lilioumbwa kwa uzuri, halina mapasuko wala nyufa?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukalifanya jua kuwa ni taa iwakayo na kung’ara?"
+    },
+    {
+      "resource_id": 231,
+      "text": "Na Tukateremsha kutoka kwenye mawingu yanyeshayo maji yamiminikayo kwa wingi,"
+    },
+    {
+      "resource_id": 231,
+      "text": "ili Tutoe kwa maji hayo nafaka inayoliwa na watu,"
+    },
+    {
+      "resource_id": 231,
+      "text": "nyasi zinazoliwa na wanyama na miti iliyosongamana kwa kutawanyika tagaa zake?"
+    },
+    { "resource_id": 231, "text": "Hakika Siku ya Uamuzi kati ya viumbe," },
+    {
+      "resource_id": 231,
+      "text": "nayo ni Siku ya Kiyama, imekuwa ni wakati na ahadi iliyowekewa muda maalimu kwa watu wa mwanzo na wa mwisho."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na zikafunguliwa mbingu zikawa ni zenye milango mingi kwa ajili ya kuteremka Malaika."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na yakalipuliwa majabali baada ya kuwa yamekita, yakawa ni kama mangati."
+    },
+    {
+      "resource_id": 231,
+      "text": "Hakika Jahanamu, Siku Hiyo, itawalindiza wenye ukafiri ambao Moto huo umeandaliwa wao."
+    },
+    { "resource_id": 231, "text": "Kwa makafiri ndio marejeo." },
+    {
+      "resource_id": 231,
+      "text": "Watabakia humo muda mrefu ufuatanao, usiokoma."
+    },
+    {
+      "resource_id": 231,
+      "text": "Hawatakula humo chochote kitakachozizimisha joto la moto kwao."
+    },
+    {
+      "resource_id": 231,
+      "text": "Wala kinywaji kitakachowaondolea kiu yao. Isipokuwa maji moto na usaha wa watu wa motoni."
+    },
+    {
+      "resource_id": 231,
+      "text": "Watakuwa wanalipwa kwa hilo malipo ya sawa yanayolingana na vitendo vyao walivyovitenda duniani"
+    },
+    {
+      "resource_id": 231,
+      "text": "Hakika wao walikuwa hawaiyogopi Siku ya Hesabu, na kwa hivyo hawakujitayarisha nayo kwa kufanya matendo ya kuwafaa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na waliyakanusha waziwazi yaliyoletwa na Mitume."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na kila kitu Tulikijua na Tukakiandika katika Ubao uliohifadhiwa (Al-Lawḥ Al-Maḥfūd)."
+    },
+    {
+      "resource_id": 231,
+      "text": "Basi Onjeni, enyi makafiri, hayo yakiwa ni malipo ya vitendo vyenu, Hatutawazidishia isipokuwa adhabu juu ya adhabu yenu."
+    },
+    {
+      "resource_id": 231,
+      "text": "Hakika kwa wale ambao wanamuogopa Mola wao na huku wanatenda mema kuna kufaulu kwa kuingia Peponi."
+    },
+    {
+      "resource_id": 231,
+      "text": "Hakika watapata Mabustani makubwa na zabibu."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na watapata wanawake wenye umri mdogo, wenye vifua vilivyojaza, marika na waume zao."
+    },
+    { "resource_id": 231, "text": "Na watapata glasi zlizojaa pombe." },
+    {
+      "resource_id": 231,
+      "text": "Hawatasikia katika Pepo hiyo maneno ya upotofu wala kudanganyana."
+    },
+    {
+      "resource_id": 231,
+      "text": "Watayapata yote hayo yakiwa ni malipo na zawadi na kipewa kingi cha kuwatosha kutoka kwa Mwenyezi Mungu,"
+    },
+    {
+      "resource_id": 231,
+      "text": "Mola wa mbingu na ardhi na vilivyomo kati ya hizo, Mwenye kuwarehemu duniani na Akhera. Hawataweza kumuomba isipokuwa kile walichopewa ruhusa kumuomba."
+    },
+    {
+      "resource_id": 231,
+      "text": "Siku atakaposimama Jibrili na Malaika wengine hali ya kujipanga mlolongo. Hawatamuombea isipokuwa yule aliyetolewa ruhusa na Mwingi wa Rehema ya kuombewa na akasema maneno ya haki na ya sawa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Hiyo ndiyo siku ya haki isiyokuwa na shaka kuja kwake. Kwa hivyo, yule atakaye kuokoka na vituko vya Siku hiyo, na ajifanyie njia ya marejeo kwa Mola wake kutenda vitendo vyema."
+    },
+    {
+      "resource_id": 231,
+      "text": "Sisi Tunawaonya nyinyi adhabu ya Siku ya mwisho iliyo karibu. Siku ambayo atayaona kila mtu aliyoyatenda katika kheri au aliyoyachuma miongoni mwa madhambi. Na kafiri atasema, kwa kitisho cha Hesabu, «Laiti mimi nilikuwa mchanga na sikufufuliwa.»"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "author_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "filters": { "resource_id": 231, "chapter_number": "78" }
+  }
+}

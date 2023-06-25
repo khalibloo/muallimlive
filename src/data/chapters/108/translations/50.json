@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 50,
+      "text": "(நபியே!) நிச்சயமாக நாம் உமக்கு கவ்ஸர் (என்ற தடாகத்தை) கொடுத்திருக்கின்றோம்."
+    },
+    {
+      "resource_id": 50,
+      "text": "எனவே, உம் இறைவனுக்கு நீர் தொழுது, குர்பானியும் கொடுப்பீராக."
+    },
+    {
+      "resource_id": 50,
+      "text": "நிச்சயமாக உம்முடைய பகைவன் (எவனோ) அவன்தான் சந்ததியற்றவன்."
+    }
+  ],
+  "meta": {
+    "translation_name": "Jan Trust Foundation",
+    "author_name": "Jan Trust Foundation",
+    "filters": { "resource_id": 50, "chapter_number": "108" }
+  }
+}

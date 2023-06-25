@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 136,
+      "text": "Dis : « Je cherche refuge auprès du Seigneur des hommes,"
+    },
+    { "resource_id": 136, "text": "Roi des hommes," },
+    { "resource_id": 136, "text": "Dieu des hommes," },
+    {
+      "resource_id": 136,
+      "text": "contre le mal du tentateur qui toujours se dérobe,"
+    },
+    {
+      "resource_id": 136,
+      "text": "qui susurre le mal dans les cœurs des hommes,"
+    },
+    {
+      "resource_id": 136,
+      "text": "qu’il soit (quant à lui) djinn ou homme. »<sup foot_note=195251>1</sup> "
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "114" }
+  }
+}

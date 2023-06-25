@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Say, ˹O Prophet,˺ “I seek refuge in the Lord of the daybreak"
+    },
+    { "resource_id": 131, "text": "from the evil of whatever He has created," },
+    {
+      "resource_id": 131,
+      "text": "and from the evil of the night when it grows dark,"
+    },
+    {
+      "resource_id": 131,
+      "text": "and from the evil of those ˹witches casting spells by˺ blowing onto knots,"
+    },
+    {
+      "resource_id": 131,
+      "text": "and from the evil of an envier when they envy.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "113" }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "translations": [
+    {
+      "resource_id": 77,
+      "text": "Gök yarılıp Rabbine boyun eğdiği zaman, ki gök boyun eğecektir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Gök yarılıp Rabbine boyun eğdiği zaman, ki gök boyun eğecektir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Yer düzeltilip, içinde olanları dışarı atarak boşaldığı zaman ve yer Rabbine boyun eğdiği zaman, ki yer boyun eğecektir"
+    },
+    {
+      "resource_id": 77,
+      "text": "Yer düzeltilip, içinde olanları dışarı atarak boşaldığı zaman ve yer Rabbine boyun eğdiği zaman, ki yer boyun eğecektir"
+    },
+    {
+      "resource_id": 77,
+      "text": "Yer düzeltilip, içinde olanları dışarı atarak boşaldığı zaman ve yer Rabbine boyun eğdiği zaman, ki yer boyun eğecektir"
+    },
+    {
+      "resource_id": 77,
+      "text": "Ey insanoğlu! Sen Rabbine kavuşuncaya kadar çalışıp çabalarsın, sonunda O'na kavuşacaksın."
+    },
+    {
+      "resource_id": 77,
+      "text": "Amel defteri kendisine sağından verilen kimse, kolay geçireceği bir hesaba çekilir ve arkadaşlarının yanına sevinçle döner."
+    },
+    {
+      "resource_id": 77,
+      "text": "Amel defteri kendisine sağından verilen kimse, kolay geçireceği bir hesaba çekilir ve arkadaşlarının yanına sevinçle döner."
+    },
+    {
+      "resource_id": 77,
+      "text": "Amel defteri kendisine sağından verilen kimse, kolay geçireceği bir hesaba çekilir ve arkadaşlarının yanına sevinçle döner."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama amel defteri kendisine arkasından verilen kimse: &quot;Mahvoldum&quot; diye bağırır ve çılgın alevli cehenneme girer."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama amel defteri kendisine arkasından verilen kimse: &quot;Mahvoldum&quot; diye bağırır ve çılgın alevli cehenneme girer."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama amel defteri kendisine arkasından verilen kimse: &quot;Mahvoldum&quot; diye bağırır ve çılgın alevli cehenneme girer."
+    },
+    {
+      "resource_id": 77,
+      "text": "Çünkü o, dünyada, adamlarının yanında iken zevk içindeydi."
+    },
+    {
+      "resource_id": 77,
+      "text": "Zira; o, bir daha dirilip dönmeyeceğini sanmıştı."
+    },
+    { "resource_id": 77, "text": "Bilin ki, Rabbi onu şüphesiz görmekteydi." },
+    { "resource_id": 77, "text": "Akşamın alaca karanlığına and olsun;" },
+    {
+      "resource_id": 77,
+      "text": "Geceye ve gecenin içinde olan şeylere and olsun;"
+    },
+    { "resource_id": 77, "text": "Dolunay halindeki aya and olsun ki:" },
+    {
+      "resource_id": 77,
+      "text": "Şüphesiz siz bir durumdan diğerine uğratılacaksınız. (tabakadan tabakaya bineceksiniz)"
+    },
+    { "resource_id": 77, "text": "Onlara ne oluyor da inanmıyorlar?" },
+    {
+      "resource_id": 77,
+      "text": "Onlara Kuran okunduğu zaman neden secde etmiyorlar?"
+    },
+    { "resource_id": 77, "text": "Aksine, inkarcılar yalanlıyorlar." },
+    {
+      "resource_id": 77,
+      "text": "Oysa, Allah, onların sakladıklarını çok iyi bilir."
+    },
+    { "resource_id": 77, "text": "Onlara can yakıcı azabı müjde et." },
+    {
+      "resource_id": 77,
+      "text": "Yalnız, inanıp yararlı işler işleyenlere, onlara, kesintisiz ecir vardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "84" }
+  }
+}

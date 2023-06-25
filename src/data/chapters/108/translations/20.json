@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "Indeed, We have granted you, [O Muḥammad], al-Kawthar."
+    },
+    {
+      "resource_id": 20,
+      "text": "So pray to your Lord and offer sacrifice [to Him alone]."
+    },
+    {
+      "resource_id": 20,
+      "text": "Indeed, your enemy is the one cut off.<sup foot_note=197824>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "108" }
+  }
+}

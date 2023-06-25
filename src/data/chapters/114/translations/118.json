@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 118,
+      "text": " (اى نبي) ته ووایه: زه د خلقو په رب پورې پناه نیسم"
+    },
+    { "resource_id": 118, "text": " چې د خلقو بادشاه دى" },
+    { "resource_id": 118, "text": " د خلقو (حقیقي) معبود دى " },
+    { "resource_id": 118, "text": " له شره د وسوسې اچوونكي، تښتېدونكي" },
+    { "resource_id": 118, "text": " هغه چې د خلقو په سینو كې وسوسې اچوي" },
+    {
+      "resource_id": 118,
+      "text": " چی (دغه وسوسې اچوونكي) له پېریانو او انسانانو ځنې دي"
+    }
+  ],
+  "meta": {
+    "translation_name": "Zakaria Abulsalam",
+    "author_name": "Zakaria Abulsalam",
+    "filters": { "resource_id": 118, "chapter_number": "114" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Etkö ole Miettinyt mitä Herrasi teki niille, jotka norsuilla hyökkäsivät?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Eikö Hän saattanut sekasortoon heidän sotaretkensä?"
+    },
+    { "resource_id": 30, "text": "Ja lähettänyt heitä vastaan lintuparvia," },
+    {
+      "resource_id": 30,
+      "text": "jotka sinkoutuivat heihin kovien kivien lailla."
+    },
+    {
+      "resource_id": 30,
+      "text": "Näin Hän teki heistä kuin madonsyömää pellonsänkeä."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "105" }
+  }
+}

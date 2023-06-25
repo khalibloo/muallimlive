@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 158, "text": "کہہ دیجیے وہ اللہ یکتا ہے۔" },
+    { "resource_id": 158, "text": "اللہ سب کا مرجع ہے۔" },
+    { "resource_id": 158, "text": "اس نے کسی کو جنا اور نہ وہ جنا گیا۔" },
+    { "resource_id": 158, "text": "اور کوئی بھی اس کا کفو نہیں ہے۔" }
+  ],
+  "meta": {
+    "translation_name": "Bayan-ul-Quran",
+    "author_name": "Dr. Israr Ahmad",
+    "filters": { "resource_id": 158, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Por causa do pacto dos Quraich," },
+    {
+      "resource_id": 103,
+      "text": "De seu pacto da viagem de inverno e de verão."
+    },
+    {
+      "resource_id": 103,
+      "text": "Que eles adorem, então, o Senhor desta Casa,"
+    },
+    {
+      "resource_id": 103,
+      "text": "Que os alimentou contra a fome e os pôs em segurança contra o medo!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "translations": [
+    {
+      "resource_id": 52,
+      "text": "Mal toplayıp onu tekrar tekrar sayan, insanları arkadan çekiştirip, kaş göz hareketleriyle alay edenlerin (hümeze ve lümezenin) vay haline!"
+    },
+    {
+      "resource_id": 52,
+      "text": "Mal toplayıp onu tekrar tekrar sayan, insanları arkadan çekiştirip, kaş göz hareketleriyle alay edenlerin (hümeze ve lümezenin) vay haline!"
+    },
+    {
+      "resource_id": 52,
+      "text": "Malının, kendisini ebedi yaşatacağını sanır."
+    },
+    {
+      "resource_id": 52,
+      "text": "Hayır, andolsun ki, o hutame (cehennem)ye atılacaktır."
+    },
+    { "resource_id": 52, "text": "Hutame'nin ne olduğunu bilir misin?" },
+    {
+      "resource_id": 52,
+      "text": "O, kalplerin içine işleyecek, Allah'ın tutuşturulmuş bir ateşidir."
+    },
+    {
+      "resource_id": 52,
+      "text": "O, kalplerin içine işleyecek, Allah'ın tutuşturulmuş bir ateşidir."
+    },
+    {
+      "resource_id": 52,
+      "text": "Cehennemlikler, dikilmiş direklere bağlı oldukları halde, o ateşin kapıları üzerlerine kapatılacaktır."
+    },
+    {
+      "resource_id": 52,
+      "text": "Cehennemlikler, dikilmiş direklere bağlı oldukları halde, o ateşin kapıları üzerlerine kapatılacaktır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "audio_files": [
+    { "verse_key": "111:1", "url": "Shatri/mp3/111001.mp3" },
+    { "verse_key": "111:2", "url": "Shatri/mp3/111002.mp3" },
+    { "verse_key": "111:3", "url": "Shatri/mp3/111003.mp3" },
+    { "verse_key": "111:4", "url": "Shatri/mp3/111004.mp3" },
+    { "verse_key": "111:5", "url": "Shatri/mp3/111005.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Abu Bakr al-Shatri",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "111" }
+  }
+}

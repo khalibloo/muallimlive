@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "By those<sup foot_note=\"81492\">1</sup>that run panting,"
+    },
+    { "resource_id": 149, "text": "then by those igniting sparks," },
+    { "resource_id": 149, "text": "then by those raiding at dawn," },
+    { "resource_id": 149, "text": "raising clouds of dust" },
+    { "resource_id": 149, "text": "and storming into the midst of the crowd—" },
+    {
+      "resource_id": 149,
+      "text": "indeed, man is certainly ungrateful to his Lord;"
+    },
+    {
+      "resource_id": 149,
+      "text": "and indeed, he certainly bears witness to that;"
+    },
+    {
+      "resource_id": 149,
+      "text": "and indeed, in his love for wealth he is certainly fierce."
+    },
+    {
+      "resource_id": 149,
+      "text": "Does he not know that when whatever lies within the graves is scattered around,"
+    },
+    {
+      "resource_id": 149,
+      "text": "and when whatever lies within the hearts is obtained—"
+    },
+    {
+      "resource_id": 149,
+      "text": "indeed, on that day, their Lord is most surely aware of them."
+    }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "100" }
+  }
+}

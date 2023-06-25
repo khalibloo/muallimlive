@@ -1,0 +1,43 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Ma icerreg igenni," },
+    { "resource_id": 236, "text": "issemêess i Mass is, ippuêeppem." },
+    { "resource_id": 236, "text": "Ma temsawi tmurt," },
+    { "resource_id": 236, "text": "tveggeô i illan degs, texla;" },
+    { "resource_id": 236, "text": "têess i Mass is, teppuêeppem," },
+    {
+      "resource_id": 236,
+      "text": "a yamdan iôe$ben aîas Mass ik, yideS a ppemlilev!"
+    },
+    { "resource_id": 236, "text": "Wanag, win ibbwev leêsab is, yeffus is," },
+    { "resource_id": 236, "text": "ad ishel lêisab is;" },
+    { "resource_id": 236, "text": "s lferê ara iqqwel ar twacult is." },
+    {
+      "resource_id": 236,
+      "text": "Ma d win ibbwev leêsab is, deffir waârur is,"
+    },
+    { "resource_id": 236, "text": "ad issawal i ssxev," },
+    { "resource_id": 236, "text": "ad ir$ di tmessi." },
+    { "resource_id": 236, "text": "Ni$ illa ifôeê ar twacult is." },
+    { "resource_id": 236, "text": "Neppa, ih, inwa ur d ippu$al." },
+    { "resource_id": 236, "text": "Xaîi! Zi$ la t Issikid Mass is." },
+    { "resource_id": 236, "text": "Xaîi! Gulle$ s lme$ôeb!" },
+    { "resource_id": 236, "text": "S yiv akked wayen i$umm!" },
+    { "resource_id": 236, "text": "S waggur n tziri ma iççuô!" },
+    { "resource_id": 236, "text": "War ccekk, a ppeddum si lêala ar tayev!" },
+    { "resource_id": 236, "text": "Acu iten iu$en, ur uminen?" },
+    { "resource_id": 236, "text": "Mara sen $ôen Leqwôan, ur kennun." },
+    { "resource_id": 236, "text": "Xaîi! Wid ijehlen skiddiben." },
+    { "resource_id": 236, "text": "Öebbi Issen, sennig akw, ayen teffren." },
+    { "resource_id": 236, "text": "Becceô iten s uâaqeb aqeôêan!" },
+    {
+      "resource_id": 236,
+      "text": "Kkes ed wid iumnen, ixeddmen ayen ilhan; d imezgi warraz nnsen."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "84" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 162, "text": "যেহেতু কুরাইশ অভ্যস্ত," },
+    { "resource_id": 162, "text": "শীত ও গ্রীষ্মের সফরে তারা অভ্যস্ত হওয়ায়।" },
+    { "resource_id": 162, "text": "অতএব তারা যেন এ গৃহের রবের ‘ইবাদাত করে," },
+    {
+      "resource_id": 162,
+      "text": "যিনি ক্ষুধায় তাদেরকে আহার দিয়েছেন আর ভয় থেকে তাদেরকে নিরাপদ করেছেন।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "106" }
+  }
+}

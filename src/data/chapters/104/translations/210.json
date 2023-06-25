@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 210,
+      "text": "Arkadan çekiştirip duran, kaş göz hareketleriyle alay eden her kişinin vay haline!"
+    },
+    { "resource_id": 210, "text": "Mal toplayıp, onu tekrar tekrar sayan." },
+    {
+      "resource_id": 210,
+      "text": "Malının kendisini ebedi kılacağını zanneder."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır! Andolsun ki o, Hutâme’ye atılacaktır."
+    },
+    { "resource_id": 210, "text": "Hutâme’nin ne olduğunu sen ne bileceksin?" },
+    { "resource_id": 210, "text": "O, Allah'ın tutuşturulmuş ateşidir." },
+    { "resource_id": 210, "text": "Öyle ki, o kalplere kadar işler." },
+    {
+      "resource_id": 210,
+      "text": "Şüphe yok ki, bu onların üzerilerine kapatılmıştır."
+    },
+    { "resource_id": 210, "text": "Uzatılmış sütunlarla (kapatılmıştır)." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "104" }
+  }
+}

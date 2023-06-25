@@ -1,0 +1,56 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Kiedy słońce będzie spowite ciemnością" },
+    { "resource_id": 42, "text": "I kiedy gwiazdy będą zamglone;" },
+    { "resource_id": 42, "text": "Kiedy góry będą z miejsca poruszone;" },
+    {
+      "resource_id": 42,
+      "text": "Kiedy wielbłądzice w dziesiątym miesiącu będą całkowicie opuszczone;"
+    },
+    { "resource_id": 42, "text": "Kiedy dzikie zwierzęta będą zebrane;" },
+    { "resource_id": 42, "text": "Kiedy morza będą wzburzone;" },
+    { "resource_id": 42, "text": "Kiedy dusze zostaną w pary złączone;" },
+    { "resource_id": 42, "text": "Kiedy żywcem pogrzebana będzie zapytana," },
+    { "resource_id": 42, "text": "Za jaki grzech została zamordowana;" },
+    { "resource_id": 42, "text": "Kiedy karty księgi zostaną rozpostarte;" },
+    { "resource_id": 42, "text": "Kiedy niebo zostanie rozsunięte;" },
+    { "resource_id": 42, "text": "Kiedy ogień piekielny będzie rozpalony;" },
+    { "resource_id": 42, "text": "Kiedy Ogród będzie przybliżony -" },
+    {
+      "resource_id": 42,
+      "text": "Wtedy dowie się dusza, co sobie przygotowała."
+    },
+    { "resource_id": 42, "text": "Lecz nie! Przysięgam na planety," },
+    { "resource_id": 42, "text": "Wędrujące i znikające;" },
+    { "resource_id": 42, "text": "Na noc, kiedy ciemność zapada;" },
+    { "resource_id": 42, "text": "Na poranek, kiedy zaczyna oddychać!" },
+    { "resource_id": 42, "text": "To, zaprawdę, słowo Posłańca szlachetnego," },
+    {
+      "resource_id": 42,
+      "text": "Posiadającego moc u Władcy Tronu, zdecydowanego"
+    },
+    { "resource_id": 42, "text": "Słuchanego, ponadto godnego zaufania!" },
+    { "resource_id": 42, "text": "Wasz towarzysz nie jest opętany!" },
+    {
+      "resource_id": 42,
+      "text": "Z pewnością on zobaczył go na jasnym horyzoncie!"
+    },
+    { "resource_id": 42, "text": "On nie skąpi tego, co skryte." },
+    { "resource_id": 42, "text": "Nie jest to słowo szatana przeklętego." },
+    { "resource_id": 42, "text": "Dokąd więc idziecie?" },
+    { "resource_id": 42, "text": "To jest tylko napomnienie dla światów," },
+    {
+      "resource_id": 42,
+      "text": "Dla tych spośród was, którzy chcą iść prosto."
+    },
+    {
+      "resource_id": 42,
+      "text": "Lecz wy nie będziecie chcieli, jeśli nie zechce Bóg, Pan światów!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "81" }
+  }
+}

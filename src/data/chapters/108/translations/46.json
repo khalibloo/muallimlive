@@ -1,0 +1,15 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Annagaa ku Sinnay Nabiyow Waadi Janno (iyo khary badan)."
+    },
+    { "resource_id": 46, "text": "Ee tuko Eebaha dartiis, waxna u gawrac." },
+    { "resource_id": 46, "text": "Ruuxii ku necebna waa mid cidhib beelay." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "108" }
+  }
+}

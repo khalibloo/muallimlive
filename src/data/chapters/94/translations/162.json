@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "আমি কি তোমার জন্য তোমার বক্ষ প্রশস্ত করিনি?"
+    },
+    {
+      "resource_id": 162,
+      "text": "আর আমি নামিয়ে দিয়েছি তোমার থেকে তোমার বোঝা,"
+    },
+    { "resource_id": 162, "text": "যা তোমার পিঠ ভেঙ্গে দিচ্ছিল।" },
+    {
+      "resource_id": 162,
+      "text": "আর আমি তোমার (মর্যাদার) জন্য তোমার স্মরণকে সমুন্নত করেছি।"
+    },
+    { "resource_id": 162, "text": "সুতরাং কষ্টের সাথেই রয়েছে সুখ।" },
+    { "resource_id": 162, "text": "নিশ্চয় কষ্টের সাথেই রয়েছে সুখ।" },
+    {
+      "resource_id": 162,
+      "text": "অতএব যখনই তুমি অবসর পাবে, তখনই কঠোর ইবাদাতে রত হও।"
+    },
+    { "resource_id": 162, "text": "আর তোমার রবের প্রতি আকৃষ্ট হও।" }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "94" }
+  }
+}

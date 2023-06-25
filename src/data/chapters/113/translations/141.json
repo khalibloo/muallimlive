@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 141,
+      "text": "Katakanlah, “Aku berlindung kepada Tuhan yang menguasai subuh (fajar),"
+    },
+    {
+      "resource_id": 141,
+      "text": "dari kejahatan (makhluk yang) Dia ciptakan,"
+    },
+    {
+      "resource_id": 141,
+      "text": "dan dari kejahatan malam apabila telah gelap gulita,"
+    },
+    {
+      "resource_id": 141,
+      "text": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
+    },
+    {
+      "resource_id": 141,
+      "text": "dan dari kejahatan orang yang dengki apabila dia dengki.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "113" }
+  }
+}

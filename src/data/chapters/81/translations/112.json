@@ -1,0 +1,53 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Güneş dürüldüğü zaman." },
+    { "resource_id": 112, "text": "Yıldızlar, saçılıp dağıldığı zaman." },
+    { "resource_id": 112, "text": "Dağlar yürütüldüğü zaman." },
+    { "resource_id": 112, "text": "Gebe develer başıboş bırakıldığı zaman." },
+    { "resource_id": 112, "text": "Vahşi hayvanlar toplandığı zaman." },
+    { "resource_id": 112, "text": "Denizler kaynatıldığı zaman." },
+    {
+      "resource_id": 112,
+      "text": "Nefisler/kişiler (benzerleriyle) birleştirildiği zaman."
+    },
+    {
+      "resource_id": 112,
+      "text": "Diri diri gömülen kız çocuğuna sorulduğu zaman."
+    },
+    { "resource_id": 112, "text": "Hangi suçtan öldürüldüğü…" },
+    {
+      "resource_id": 112,
+      "text": "Sahifeler (amel defterleri) açıldığı zaman."
+    },
+    { "resource_id": 112, "text": "Gök, sıyrılıp, ayrıldığı zaman." },
+    { "resource_id": 112, "text": "Cehennem alevlendirildiği zaman." },
+    { "resource_id": 112, "text": "Cennet yaklaştırıldığı zaman." },
+    { "resource_id": 112, "text": "Herkes ne hazırladığını bilecektir." },
+    {
+      "resource_id": 112,
+      "text": "Hayır! Yemin ederim gizlenen (yıldızlara)."
+    },
+    { "resource_id": 112, "text": "O akıp akıp yörüngesinde gidenlere." },
+    { "resource_id": 112, "text": "Karardığında geceye." },
+    { "resource_id": 112, "text": "Aydınlanmaya başladığında sabaha." },
+    { "resource_id": 112, "text": "Şüphesiz o, şerefli bir elçinin sözüdür." },
+    { "resource_id": 112, "text": "Güçlü, Arş'ın sahibi yanında itibarlı." },
+    { "resource_id": 112, "text": "Sözü dinlenir, sonra güvenilir de." },
+    { "resource_id": 112, "text": "Arkadaşınız mecnun değildir." },
+    { "resource_id": 112, "text": "Onu (Cebrail’i) apaçık ufukta görmüştür." },
+    { "resource_id": 112, "text": "O, gayb hakkında cimri değildir." },
+    { "resource_id": 112, "text": "O, kovulmuş şeytanın sözü de değildir." },
+    { "resource_id": 112, "text": "Öyleyse nereye gidiyorsunuz?" },
+    { "resource_id": 112, "text": "O, ancak alemler için bir öğüttür." },
+    { "resource_id": 112, "text": "Sizden doğru yolu isteyenler için." },
+    {
+      "resource_id": 112,
+      "text": "Alemlerin Rabbi Allah dilemedikçe siz de dileyemezsiniz."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "81" }
+  }
+}

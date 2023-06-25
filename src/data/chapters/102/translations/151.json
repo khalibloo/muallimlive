@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 151, "text": "غفلت میں رکھا تم کو بہتایت کی حرص نے" },
+    {
+      "resource_id": 151,
+      "text": "یہاں تک کہ جا دیکھیں قبریں <sup foot_note=88915>1</sup>"
+    },
+    { "resource_id": 151, "text": "کوئی نہیں آگے جان لو گے" },
+    {
+      "resource_id": 151,
+      "text": "پھر بھی کوئی نہیں آگے جان لو گے <sup foot_note=88916>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کوئی نہیں اگر جانو تم یقین کر کے <sup foot_note=88917>1</sup>"
+    },
+    { "resource_id": 151, "text": "بیشک تم کو دیکھنا ہے دوزخ" },
+    {
+      "resource_id": 151,
+      "text": "پھر دیکھنا ہے اُسکو یقین کی آنکھ سے <sup foot_note=88918>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "پھر پوچھیں گے تم سے اُس دن آرام کی حقیقت <sup foot_note=88919>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "102" }
+  }
+}

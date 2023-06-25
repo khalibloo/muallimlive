@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": "De: “Ey kafirlər!" },
+    {
+      "resource_id": 75,
+      "text": " Mən sizin ibadət etdik­lə­rinizə iba­dət etmərəm,"
+    },
+    {
+      "resource_id": 75,
+      "text": " siz də mənim ibadət et­di­yimə iba­dət edən deyilsi­niz."
+    },
+    {
+      "resource_id": 75,
+      "text": " Mən sizin ibadət etdik­lə­rinizə iba­dət edən deyiləm,"
+    },
+    {
+      "resource_id": 75,
+      "text": " siz də mənim ibadət etdi­yimə iba­dət edən deyilsi­niz."
+    },
+    {
+      "resource_id": 75,
+      "text": " Sizin dininiz sizə, mənim dinim də mənədir!”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Pelas horas da manhã," },
+    { "resource_id": 43, "text": "E pela noite, quando é serena," },
+    {
+      "resource_id": 43,
+      "text": "Que o teu Senhor não te abandonou, nem te odiou."
+    },
+    {
+      "resource_id": 43,
+      "text": "E sem dúvida que a outra vida será melhor, para ti, do que a presente."
+    },
+    {
+      "resource_id": 43,
+      "text": "Logo o teu Senhor te agraciará, de um modo que te satisfaça."
+    },
+    {
+      "resource_id": 43,
+      "text": "Porventura, não te encontrou órgão e te amparou?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Não te encontrou extraviado e te encaminhou?"
+    },
+    { "resource_id": 43, "text": "Não te achou necessitado e te enriqueceu?" },
+    { "resource_id": 43, "text": "Portanto, não maltrates o órfão," },
+    { "resource_id": 43, "text": "Nem tampouco repudies o mendigo," },
+    {
+      "resource_id": 43,
+      "text": "Mas divulga a mercê do teu Senhor, em teu discurso."
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "93" }
+  }
+}

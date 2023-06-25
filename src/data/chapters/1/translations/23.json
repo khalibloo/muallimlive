@@ -1,0 +1,28 @@
+{
+  "translations": [
+    { "resource_id": 23, "text": "Mərhəmətli, rəhmli Allahın adı ilə!" },
+    {
+      "resource_id": 23,
+      "text": "Həmd (şükür və tə’rif) olsun Allaha (və ya: Həmd məxsusdur Allaha) – aləmlərin Rəbbinə,"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Bu dünyada hamıya) mərhəmətli, (axirətdə isə ancaq mö’minlərə) rəhmli olana,"
+    },
+    { "resource_id": 23, "text": "Haqq-Hesab (qiyamət) gününün sahibinə!" },
+    {
+      "resource_id": 23,
+      "text": "Biz yalnız Sənə ibadət edirik və yalnız Səndən kömək diləyirik!"
+    },
+    { "resource_id": 23, "text": "Bizi doğru (düz) yola yönəlt!" },
+    {
+      "resource_id": 23,
+      "text": "Ne’mət verdiyin kəslərin yoluna! Qəzəbə düçar olmuşların və (haqdan) azmışların (yoluna) yox!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "1" }
+  }
+}

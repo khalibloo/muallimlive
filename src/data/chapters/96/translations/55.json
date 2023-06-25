@@ -1,0 +1,43 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Yaratgan Robbing nomi bilan o`qi." },
+    { "resource_id": 55, "text": "U insonni alaqdan yaratdi." },
+    { "resource_id": 55, "text": "O`qi! Robbing Karamlilarning karamlisidir." },
+    { "resource_id": 55, "text": "U, qalam bilan ilm o`rgatgandir." },
+    { "resource_id": 55, "text": "U, insonga bilmagan narsasini o`rgatdi." },
+    { "resource_id": 55, "text": "Yo`q! Inson, albatta, tug`yonga ketur." },
+    { "resource_id": 55, "text": "Gar o`zini boy ko`rsa." },
+    { "resource_id": 55, "text": "Albatta, qaytib borish Robbinggadir." },
+    { "resource_id": 55, "text": "Qaytarganni ko`rdingmi?!" },
+    {
+      "resource_id": 55,
+      "text": "Bandani namoz o`qiyotganida?!<sup foot_note=\"169900\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Ayting-chi, agar o`sha hidoyatda bo`lsa." },
+    { "resource_id": 55, "text": "Yoki taqvoga chaqirsa." },
+    {
+      "resource_id": 55,
+      "text": "Ayting-chi, agar u yolg`onga chiqarsa va yuz o`girsa."
+    },
+    { "resource_id": 55, "text": "Alloh uni ko`rib turishini bilmasmi?" },
+    {
+      "resource_id": 55,
+      "text": "Yo`q! Agar qaytmasa, peshonasidan shiddat-la tutamiz!"
+    },
+    { "resource_id": 55, "text": "Yolg`onchi, xatokor peshonasidan!" },
+    { "resource_id": 55, "text": "Bas, u o`z to`pini chaqirsin." },
+    {
+      "resource_id": 55,
+      "text": "Biz ham zaboniyalarni chaqirurmiz.<sup foot_note=\"169969\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Yo`q! Sen unga itoat qilma! Sajda qil va qurbat hosil qil.<sup foot_note=\"169901\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "96" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 45, "text": "Скажи: «О неверующие!" },
+    {
+      "resource_id": 45,
+      "text": "Я не поклоняюсь тому, чему поклоняетесь вы,"
+    },
+    {
+      "resource_id": 45,
+      "text": "а вы не поклоняетесь Тому, Кому поклоняюсь я."
+    },
+    {
+      "resource_id": 45,
+      "text": "Я не поклоняюсь так, как поклоняетесь вы (или тому, чему поклоняетесь вы),"
+    },
+    {
+      "resource_id": 45,
+      "text": "а вы не поклоняетесь так, как поклоняюсь я (или Тому, Кому поклоняюсь я)."
+    },
+    { "resource_id": 45, "text": "У вас есть ваша религия, а у меня - моя!»." }
+  ],
+  "meta": {
+    "translation_name": "Russian Translation ( Elmir Kuliev )",
+    "author_name": "Elmir Kuliev",
+    "filters": { "resource_id": 45, "chapter_number": "109" }
+  }
+}

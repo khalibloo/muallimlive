@@ -1,0 +1,65 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "Has there come to you<a class=\"sup\"><sup>sg </sup></a>the news of the Overwhelming<i class=\"s\">(event) </i><sup foot_note=\"81462\">1</sup>?"
+    },
+    {
+      "resource_id": 149,
+      "text": "Some faces on that day are<i class=\"s\">(subdued) </i>in reverence,"
+    },
+    { "resource_id": 149, "text": "toiling, exhausted," },
+    {
+      "resource_id": 149,
+      "text": "<span class=\"h\">roasting<sup foot_note=\"81463\">1</sup> </span>in a hot fire,"
+    },
+    { "resource_id": 149, "text": "given to drink from a boiling spring." },
+    { "resource_id": 149, "text": "They have no food except of a thorny bush" },
+    {
+      "resource_id": 149,
+      "text": "which neither nourishes nor satisfies hunger."
+    },
+    { "resource_id": 149, "text": "Some faces on that day are blissful," },
+    { "resource_id": 149, "text": "well pleased with their endeavor," },
+    { "resource_id": 149, "text": "in a lofty Garden:" },
+    {
+      "resource_id": 149,
+      "text": "<span class=\"h\">in it you hear<sup foot_note=\"81464\">1</sup> </span><span class=\"h\">no nonsense</span>;"
+    },
+    { "resource_id": 149, "text": "in it is a flowing spring;" },
+    { "resource_id": 149, "text": "in it are raised couches," },
+    { "resource_id": 149, "text": "and cups set in place," },
+    { "resource_id": 149, "text": "and cushions set in rows," },
+    { "resource_id": 149, "text": "and carpets spread around." },
+    {
+      "resource_id": 149,
+      "text": "Do they not look at the camels—how they were created?"
+    },
+    { "resource_id": 149, "text": "And at the sky—how it was raised?" },
+    {
+      "resource_id": 149,
+      "text": "And at the mountains—how they were firmly fixed?"
+    },
+    { "resource_id": 149, "text": "And at the earth—how it was spread out?" },
+    {
+      "resource_id": 149,
+      "text": "So remind; you<a class=\"sup\"><sup>sg </sup></a>are only a reminder;"
+    },
+    { "resource_id": 149, "text": "you have no control over them." },
+    { "resource_id": 149, "text": "But whoever turns away and denies," },
+    {
+      "resource_id": 149,
+      "text": "then Allah punishes him with the greatest punishment."
+    },
+    {
+      "resource_id": 149,
+      "text": "Indeed, to Us is their<sup foot_note=\"81465\">1</sup>return,"
+    },
+    { "resource_id": 149, "text": "then upon Us is their reckoning." }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "88" }
+  }
+}

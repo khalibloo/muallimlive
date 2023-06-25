@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 109, "text": "大灾的消息，确已降临你了，" },
+    { "resource_id": 109, "text": "在那日，将有许多人是恭敬的、" },
+    { "resource_id": 109, "text": "劳动的、辛苦的，" },
+    { "resource_id": 109, "text": "他们将入烈火，" },
+    { "resource_id": 109, "text": "将饮沸泉，" },
+    { "resource_id": 109, "text": "他们没有食物，但有荆棘，" },
+    { "resource_id": 109, "text": "既不肥人，又不能充饥；" },
+    { "resource_id": 109, "text": "在那日，将有许多人，是享福的，" },
+    { "resource_id": 109, "text": "是为其劳绩而愉快的，" },
+    { "resource_id": 109, "text": "他们将在崇高的乐园中，" },
+    { "resource_id": 109, "text": "听不到恶言，" },
+    { "resource_id": 109, "text": "里面有流泉，" },
+    { "resource_id": 109, "text": "里面有高榻，" },
+    { "resource_id": 109, "text": "有陈设着的杯盏，" },
+    { "resource_id": 109, "text": "有排列着的靠枕，" },
+    { "resource_id": 109, "text": "有铺展开的绒毯。" },
+    { "resource_id": 109, "text": "难道他们不观察吗？骆驼是怎样造成的，" },
+    { "resource_id": 109, "text": "天是怎样被升高的，" },
+    { "resource_id": 109, "text": "山峦是怎样被竖立起的，" },
+    { "resource_id": 109, "text": "大地是怎样被展开的。" },
+    { "resource_id": 109, "text": "你当教诲，你只是教诲（他们的），" },
+    { "resource_id": 109, "text": "你绝不是监察他们的，" },
+    { "resource_id": 109, "text": "但谁转身离去而且不信教，" },
+    { "resource_id": 109, "text": "安拉将以最大的刑罚惩治谁。" },
+    { "resource_id": 109, "text": "他们必定只归于我，" },
+    { "resource_id": 109, "text": "他们的稽核，必定由我负责。" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Makin",
+    "author_name": "Muhammad Makin",
+    "filters": { "resource_id": 109, "chapter_number": "88" }
+  }
+}

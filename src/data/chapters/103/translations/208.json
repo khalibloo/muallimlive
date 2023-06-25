@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 208, "text": "Beim Nachmittag!" },
+    { "resource_id": 208, "text": "Die Menschen sind wahrhaftig im Verlust" },
+    {
+      "resource_id": 208,
+      "text": "außer denjenigen, die glauben und gute Werke tun und sich gegenseitig die Wahrheit ans Herz legen und sich gegenseitig zur Geduld anhalten."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "103" }
+  }
+}

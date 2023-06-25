@@ -1,0 +1,72 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Allāhu fi alẹ́ nígbà tí (ilẹ̀) bá ṣú búra." },
+    {
+      "resource_id": 125,
+      "text": "Ó tún fi ọ̀sán nígbà tí (ọ̀sán) bá pọ́n búra."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó tún fi Ẹni tí Ó dá akọ àti abo búra.1 <sup foot_note=148071>1</sup>"
+    },
+    { "resource_id": 125, "text": "Dájúdájú ọ̀tọ̀ọ̀tọ̀ ni iṣẹ́ yín." },
+    {
+      "resource_id": 125,
+      "text": "Ní ti ẹni tí ó bá tọrẹ, tí ó sì bẹ̀rù (Allāhu),"
+    },
+    {
+      "resource_id": 125,
+      "text": "(tí) ó tún pe ẹ̀san rere (Ọgbà Ìdẹ̀ra) ní òdodo,"
+    },
+    { "resource_id": 125, "text": "A sì máa ṣe iṣẹ́ rere ní ìrọ̀rùn fún un." },
+    {
+      "resource_id": 125,
+      "text": "Ní ti ẹni tí ó bá yahun, tí ó sì rí ara rẹ̀ lẹ́ni tó rọrọ̀ tayọ ẹ̀san ọ̀run,"
+    },
+    {
+      "resource_id": 125,
+      "text": "(tí) ó tún pe ẹ̀san rere (Ọgbà Ìdẹ̀ra) ní irọ́,"
+    },
+    { "resource_id": 125, "text": "A sì máa ṣe iṣẹ́ aburú ní ìrọ̀rùn fún un." },
+    {
+      "resource_id": 125,
+      "text": "Dúkìá rẹ̀ kò sì níí rọ̀ ọ́ lọ́rọ̀ nígbà tí ó bá parun, tí ó já bọ́ (sínú Iná)."
+    },
+    { "resource_id": 125, "text": "Dájúdájú tiWa ni (láti ṣàlàyé) ìmọ̀nà." },
+    { "resource_id": 125, "text": "Àti pé dájúdájú tiWa ni ọ̀run àti ayé." },
+    {
+      "resource_id": 125,
+      "text": "Nítorí náà, Mo ti fi Iná tó ń jò fòfò kìlọ̀ fún yín."
+    },
+    {
+      "resource_id": 125,
+      "text": "Kò sí ẹni tí ó máa wọ inú rẹ̀ àfi olórí burúkú,"
+    },
+    {
+      "resource_id": 125,
+      "text": "ẹni tí ó pe òdodo ní irọ́, tí ó sì kẹ̀yìn sí i."
+    },
+    {
+      "resource_id": 125,
+      "text": "Wọ́n sì máa gbé (Iná) jìnnà sí olùbẹ̀rù (Allāhu),"
+    },
+    {
+      "resource_id": 125,
+      "text": "ẹni tó ń fi dúkìá rẹ̀ tọrẹ, tí ó ń ṣàfọ̀mọ́ (rẹ̀)."
+    },
+    {
+      "resource_id": 125,
+      "text": "Kò sì sí oore ìdẹ̀ra kan tí (ó ní lọ́kàn) láti gbà ní ẹ̀san ní ọ̀dọ̀ ẹnikẹ́ni,"
+    },
+    {
+      "resource_id": 125,
+      "text": "bí kò ṣe pé láti fi wá ojú rere Olúwa rẹ̀, Ẹni Gíga jùlọ."
+    },
+    { "resource_id": 125, "text": "Láìpẹ́ ó sì máa yọ́nú (sí ẹ̀san rere rẹ̀)." }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "92" }
+  }
+}

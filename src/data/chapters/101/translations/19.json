@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "The Calamity!" },
+    { "resource_id": 19, "text": "What is the Calamity?" },
+    {
+      "resource_id": 19,
+      "text": "Ah, what will convey unto thee what the Calamity is!"
+    },
+    {
+      "resource_id": 19,
+      "text": "A day wherein mankind will be as thickly-scattered moths"
+    },
+    {
+      "resource_id": 19,
+      "text": "And the mountains will become as carded wool."
+    },
+    {
+      "resource_id": 19,
+      "text": "Then, as for him whose scales are heavy (with good works),"
+    },
+    { "resource_id": 19, "text": "He will live a pleasant life." },
+    { "resource_id": 19, "text": "But as for him whose scales are light," },
+    {
+      "resource_id": 19,
+      "text": "A bereft and Hungry One will be his mother,"
+    },
+    {
+      "resource_id": 19,
+      "text": "Ah, what will convey unto thee what she is! -"
+    },
+    { "resource_id": 19, "text": "Raging Fire." }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "101" }
+  }
+}

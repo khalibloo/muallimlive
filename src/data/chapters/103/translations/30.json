@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Kautta kuluvan ajan," },
+    { "resource_id": 30, "text": "ihminen on totisesti mennyttä," },
+    {
+      "resource_id": 30,
+      "text": "lukuunottomatta niitä, jotka uskovat ja hyvää tekevät, soveltavat toisiinsa totuutta ja kehoittavat toisiaan kestävyyteen."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "103" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 163,
+      "text": "তুমি কি দেখনি যে, তোমার রাব্ব হস্তি অধিপতিদের কিরূপ (পরিণতি) করেছিলেন?"
+    },
+    { "resource_id": 163, "text": "তিনি কি তাদের চক্রান্ত ব্যর্থ করে দেননি?" },
+    {
+      "resource_id": 163,
+      "text": "তাদের বিরুদ্ধে তিনি ঝাঁকে ঝাঁকে পক্ষীকূল প্রেরণ করেছিলেন –"
+    },
+    {
+      "resource_id": 163,
+      "text": "যারা তাদের উপর প্রস্তর কংকর নিক্ষেপ করেছিল।"
+    },
+    {
+      "resource_id": 163,
+      "text": "অতঃপর তিনি তাদেরকে ভক্ষিত তৃণ সদৃশ করে দেন।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "105" }
+  }
+}

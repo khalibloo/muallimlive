@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Нехай згинуть руки Абу Лягаба й він сам" },
+    {
+      "resource_id": 217,
+      "text": "Ні багатство його, ні статки його не допоможуть йому"
+    },
+    { "resource_id": 217, "text": "Увійде він у вогонь палаючий" },
+    { "resource_id": 217, "text": "а дружина його буде носити дрова" },
+    { "resource_id": 217, "text": "А на її шиї — мотузка з волокон пальмових!" }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "111" }
+  }
+}

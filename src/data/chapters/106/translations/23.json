@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər! Qüreyşlilərə de ki) Qüreyşin ülfəti (dostluğu və ya Allahın onlar üçün səfəri asanlaşdırması) xatirinə,"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlara qış və yay səfərini müyəssər edilməsi (qışda Yəməndə, yayda Şamda istirahət və ticarət edə bilmələri) xatirinə."
+    },
+    {
+      "resource_id": 23,
+      "text": "Bu evin Rəbbinə (Kə’bənin sahibi Allaha) ibadət etsinlər!"
+    },
+    {
+      "resource_id": 23,
+      "text": "O Allah ki, onları aclıqdan qurtarıb yemək verdi və onlara qorxudan (fil sahiblərinin təhlükəsindən) sonra əmin-amanlıq bəxş etdi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "106" }
+  }
+}

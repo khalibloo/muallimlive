@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Mitä ajattelet miehestä, joka sanoo tulevaa tuomiota valheeksi?"
+    },
+    { "resource_id": 30, "text": "Hän kohtelee orpoa karkeasti" },
+    { "resource_id": 30, "text": "eikä kehoita ruokkimaan köyhiä." },
+    { "resource_id": 30, "text": "Voi niitä rukoilevia," },
+    {
+      "resource_id": 30,
+      "text": "jotka eivät sen enempää rukouksista huolehdi,"
+    },
+    { "resource_id": 30, "text": "jotka hyvää tekevät vain näön vuoksi" },
+    { "resource_id": 30, "text": "ja kitsaasti jättävät almut antamatta!" }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "107" }
+  }
+}

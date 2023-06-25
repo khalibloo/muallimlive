@@ -1,0 +1,51 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Eebe wuxuu ku dhaartay Habeenku markuu wax qariyo."
+    },
+    { "resource_id": 46, "text": "Iyo markay Maalintu Muuqato (ifto)." },
+    { "resource_id": 46, "text": "Iyo Abuuridda Dadka Lab iyo dhaddigba." },
+    { "resource_id": 46, "text": "In Camalkiinnu (dadow) kala duwanyahay." },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise bixiya (xuquuqda) Eebana ka dhawrsada."
+    },
+    { "resource_id": 46, "text": "Rumeeyana tii wanaaga badnayd ." },
+    {
+      "resource_id": 46,
+      "text": "Waxaan u fududaynaa wanaagga (iyo Jidka fiican)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise ku bakhayla Xoolaha isna deeqtoonaysiiya «iskibriya»."
+    },
+    { "resource_id": 46, "text": "Beeniyana Tii wanaaga badnayd ." },
+    { "resource_id": 46, "text": "Waxaan u fududaynaa Jidka xun." },
+    {
+      "resource_id": 46,
+      "text": "Xoolihiisuna wax uma taraan markuu halaagsamo."
+    },
+    { "resource_id": 46, "text": "Annagaa wax hanuuninna." },
+    { "resource_id": 46, "text": "Aakhariyo Addunbana Annagaa iska leh." },
+    { "resource_id": 46, "text": "Waxana idiinka digaynaa Naar kulayl daran." },
+    { "resource_id": 46, "text": "Oosan galaynin Ruux xun mooyeen." },
+    { "resource_id": 46, "text": "Oo xaqa beeniyay jeedsadayna." },
+    {
+      "resource_id": 46,
+      "text": "Waxaana ka fogaada (galidda naarta) Ruuxii Eeba ka dhawrsada."
+    },
+    { "resource_id": 46, "text": "Ee bixiya Xoolihiisa si uu u daahirnoqdo." },
+    {
+      "resource_id": 46,
+      "text": "Ruux wax ugu nicmeeyayna oo abaalmarinna ma uusanjirin."
+    },
+    { "resource_id": 46, "text": "Ee Wuxuu u bixin dar Eebaha sareeya." },
+    { "resource_id": 46, "text": "Wuuna raalli noqondoonaa Ruuxaasi." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "92" }
+  }
+}

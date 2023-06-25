@@ -1,0 +1,57 @@
+{
+  "translations": [
+    {
+      "resource_id": 47,
+      "text": "Pasha natën që me errësirë mbulon gjithësinë!"
+    },
+    { "resource_id": 47, "text": "Pasha ditën kur ajo shkrepëtin!" },
+    { "resource_id": 47, "text": "Pasha Atë që krijoi mashkullin e femrën!" },
+    { "resource_id": 47, "text": "Vërtet, veprimi juaj është i lloj-llojtë." },
+    { "resource_id": 47, "text": "E sa i përket atij që jep dhe ruhet," },
+    { "resource_id": 47, "text": "Dhe vërteton bindshëm për më të mirën," },
+    { "resource_id": 47, "text": "Ne do ta përgatisim atë për më të lehtën." },
+    {
+      "resource_id": 47,
+      "text": "E sa i përket atij që bën koprraci dhe ndien veten të pavarur (nga Zoti),"
+    },
+    { "resource_id": 47, "text": "Dhe që mohon atë më të mirën," },
+    { "resource_id": 47, "text": "Ne do ta përgatisim për më të vështirën." },
+    {
+      "resource_id": 47,
+      "text": "E pasuria e tij nuk do t’i bëjë dobi, kur ai të zhduket."
+    },
+    { "resource_id": 47, "text": "Detyrë e jonë është vetëm të udhëzojmë." },
+    {
+      "resource_id": 47,
+      "text": "Dhe vetëm e Jona është bota tjetër si dhe kjo."
+    },
+    {
+      "resource_id": 47,
+      "text": "Unë ua kam tërhequr vërejtjen për zjarrin të ndezur fort."
+    },
+    {
+      "resource_id": 47,
+      "text": "Që aty nuk hyn tjëtërkush, pos atij që është më i prishuri."
+    },
+    { "resource_id": 47, "text": "I cili përgënjeshtroi dhe u zmbraps." },
+    {
+      "resource_id": 47,
+      "text": "Ndërsa ai që është më i devotshëm do të jetë larg tij."
+    },
+    { "resource_id": 47, "text": "Ai që e jep pasurinë e vet e pastrohet," },
+    {
+      "resource_id": 47,
+      "text": "E jo për ta shpërblyer ndokë që i ka bërë mirë më parë."
+    },
+    {
+      "resource_id": 47,
+      "text": "Por vetëm për të fituar kënaqësinë e Zotit të vet, më të lartit,"
+    },
+    { "resource_id": 47, "text": "Për Zotin, ai do të gëzojë atë kënaqësi!" }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "92" }
+  }
+}

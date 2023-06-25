@@ -1,0 +1,113 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por los enviados en ráfagas!" },
+    { "resource_id": 28, "text": "¡Por los que soplan violentamente!" },
+    {
+      "resource_id": 28,
+      "text": "¡Por los que diseminan en todos los sentidos!"
+    },
+    { "resource_id": 28, "text": "¡Por los que distinguen claramente!" },
+    { "resource_id": 28, "text": "¡Por los que lanzan una amonestación" },
+    { "resource_id": 28, "text": "a modo de excusa o de advertencia!" },
+    {
+      "resource_id": 28,
+      "text": "¡Ciertamente, aquello con que se os amenaza se cumplirá!"
+    },
+    { "resource_id": 28, "text": "Cuando las estrellas pierden su luz," },
+    { "resource_id": 28, "text": "cuando el cielo se hienda," },
+    {
+      "resource_id": 28,
+      "text": "cuando las montañas sean reducidas a polvo,"
+    },
+    { "resource_id": 28, "text": "cuando se fije a los enviados su tiempo:" },
+    { "resource_id": 28, "text": "«¿Qué día comparecerán?»" },
+    { "resource_id": 28, "text": "«¡El día del Fallo!»" },
+    { "resource_id": 28, "text": "Y ¿cómo sabrás qué es el día del Fallo?" },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "¿No hemos hecho que perecieran los primeros hombres"
+    },
+    { "resource_id": 28, "text": "y, luego, que les siguieran los últimos?" },
+    { "resource_id": 28, "text": "Así haremos con los pecadores." },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    { "resource_id": 28, "text": "¿No os hemos creado de un líquido vil," },
+    {
+      "resource_id": 28,
+      "text": "que hemos depositado en un receptáculo seguro,"
+    },
+    { "resource_id": 28, "text": "durante un tiempo determinado?" },
+    {
+      "resource_id": 28,
+      "text": "Así lo hemos decidido y ¡qué bien que lo hemos decidido!"
+    },
+    { "resource_id": 28, "text": "Ese día ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "¿No hemos hecho de la tierra lugar de reunión"
+    },
+    { "resource_id": 28, "text": "de vivos y muertos," },
+    {
+      "resource_id": 28,
+      "text": "y puesto en ella elevadas montañas? ¿No os hemos dado de beber un agua dulce?"
+    },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    { "resource_id": 28, "text": "«¡Id a lo que desmentíais!" },
+    { "resource_id": 28, "text": "¡Id a la sombra ramificada en tres," },
+    {
+      "resource_id": 28,
+      "text": "sombra tenue, sombra inútil frente a la llama!»"
+    },
+    {
+      "resource_id": 28,
+      "text": "Porque arroja chispas grandes como palacios,"
+    },
+    { "resource_id": 28, "text": "chispas que semejan camellos leonados." },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "Ése será un día en que no tendrán que decir"
+    },
+    { "resource_id": 28, "text": "ni se les permitirá excusarse." },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "«Éste es el día del Fallo. Os hemos reunido, a vosotros y a los antiguos."
+    },
+    {
+      "resource_id": 28,
+      "text": "Si disponéis de alguna artimaña, ¡empleadla contra mí»"
+    },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "Los temerosos de Alá estarán a la sombra y entre fuentes,"
+    },
+    { "resource_id": 28, "text": "y tendrán la fruta que deseen." },
+    {
+      "resource_id": 28,
+      "text": "«¡Comed y bebed en paz el fruto de vuestras obras!»"
+    },
+    { "resource_id": 28, "text": "Así retribuimos a quienes hacen el bien." },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "«¡Comed y disfrutad aún un poco!, ¡Sois unos pecadores!»"
+    },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "Cuando se les dice: «¡Inclinaos!», no se inclinan."
+    },
+    { "resource_id": 28, "text": "Ese día, ¡ay de los desmentidores!" },
+    {
+      "resource_id": 28,
+      "text": "¿En qué anuncio, después de éste, van a creer?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "77" }
+  }
+}

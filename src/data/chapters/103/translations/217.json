@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Клянуся часом" },
+    { "resource_id": 217, "text": "Воістину, людина зазнає збитків" },
+    {
+      "resource_id": 217,
+      "text": "Окрім тих, які увірували, творили добрі справи, заповідали одне одному істину, заповідали одне одному терпіння"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "103" }
+  }
+}

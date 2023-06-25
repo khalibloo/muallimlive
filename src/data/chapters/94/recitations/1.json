@@ -1,0 +1,17 @@
+{
+  "audio_files": [
+    { "verse_key": "94:1", "url": "AbdulBaset/Mujawwad/mp3/094001.mp3" },
+    { "verse_key": "94:2", "url": "AbdulBaset/Mujawwad/mp3/094002.mp3" },
+    { "verse_key": "94:3", "url": "AbdulBaset/Mujawwad/mp3/094003.mp3" },
+    { "verse_key": "94:4", "url": "AbdulBaset/Mujawwad/mp3/094004.mp3" },
+    { "verse_key": "94:5", "url": "AbdulBaset/Mujawwad/mp3/094005.mp3" },
+    { "verse_key": "94:6", "url": "AbdulBaset/Mujawwad/mp3/094006.mp3" },
+    { "verse_key": "94:7", "url": "AbdulBaset/Mujawwad/mp3/094007.mp3" },
+    { "verse_key": "94:8", "url": "AbdulBaset/Mujawwad/mp3/094008.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "AbdulBaset AbdulSamad",
+    "recitation_style": "Mujawwad",
+    "filters": { "chapter_number": "94" }
+  }
+}

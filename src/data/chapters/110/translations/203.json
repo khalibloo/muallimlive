@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": " When there comes the Help of Allâh (to you, O Muhammad صلى الله عليه وسلم against your enemies) and the conquest (of Makkah)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And you see that the people enter Allah’s religion (Islâm) in crowds."
+    },
+    {
+      "resource_id": 203,
+      "text": "  So glorify the Praises of your Lord, and ask His Forgiveness. Verily, He is the One Who accepts the repentance and Who forgives."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "110" }
+  }
+}

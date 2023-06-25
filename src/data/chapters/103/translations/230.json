@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 230, "text": "[1] ขอสาบานด้วยกาลเวลา" },
+    { "resource_id": 230, "text": "[2] แท้จริงมนุษย์นั้น อยู่ในการขาดทุน" },
+    {
+      "resource_id": 230,
+      "text": "[3] นอกจากบรรดาผู้ศรัทธาและกระทำความดีทั้งหลาย และตักเตือนกันและกันในสิ่งที่เป็นสัจธรรม และตักเตือนกันและกันให้มีความอดทน"
+    }
+  ],
+  "meta": {
+    "translation_name": "Society of Institutes and Universities",
+    "author_name": "Society of Institutes and Universities",
+    "filters": { "resource_id": 230, "chapter_number": "103" }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Quando o céu se espedaçar," },
+    { "resource_id": 103, "text": "E quando os astros se dispersarem," },
+    {
+      "resource_id": 103,
+      "text": "E quando os mares forem abertos, mesclando-se,"
+    },
+    { "resource_id": 103, "text": "E quando os sepulcros forem revolvidos," },
+    {
+      "resource_id": 103,
+      "text": "Toda alma saberá o que antecipou e atrasou."
+    },
+    {
+      "resource_id": 103,
+      "text": "Ó ser humano! O que te ilude quanto a teu Senhor, O Generoso,"
+    },
+    { "resource_id": 103, "text": "Que te criou e te formou e te endireitou?" },
+    { "resource_id": 103, "text": "Na forma que Ele quis, Ele te compôs" },
+    {
+      "resource_id": 103,
+      "text": "Em absoluto, não vos iludais! Mas vós desmentis o Juízo;"
+    },
+    {
+      "resource_id": 103,
+      "text": "E, por certo, há, sobre vós, anjos custódios,"
+    },
+    { "resource_id": 103, "text": "Honoráveis escribas," },
+    { "resource_id": 103, "text": "Eles sabem o que fazeis." },
+    {
+      "resource_id": 103,
+      "text": "Por certo, os virtuosos estarão na delícia,"
+    },
+    {
+      "resource_id": 103,
+      "text": "E, por certo, os ímpios estarão no Inferno,"
+    },
+    { "resource_id": 103, "text": "Nele se queimarão, no Dia do Juízo," },
+    { "resource_id": 103, "text": "E dele nunca estarão ausentes." },
+    {
+      "resource_id": 103,
+      "text": "- E o que te faz inteirar-te do Dia do Juízo?"
+    },
+    {
+      "resource_id": 103,
+      "text": "Mais uma vez, o que te faz inteirar-te do Dia do Juízo? -"
+    },
+    {
+      "resource_id": 103,
+      "text": "Um dia, em que alma nenhuma nada poderá fazer por outra alma. E a ordem, nesse dia, será de Allah."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "82" }
+  }
+}

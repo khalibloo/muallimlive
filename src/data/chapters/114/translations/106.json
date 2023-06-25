@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "Ахь āла: \"Со ларло нах Кхиош-кхобучуьнца<sup foot_note=114499>1</sup>‚"
+    },
+    {
+      "resource_id": 106,
+      "text": "Нехан Паччахьаца<sup foot_note=114500>1</sup>‚"
+    },
+    { "resource_id": 106, "text": "Нехан Делаца<sup foot_note=114501>1</sup>" },
+    {
+      "resource_id": 106,
+      "text": "Васвасалла (дагчу догIу вон мел дерг) кхуьссучу‚ Делан цIе яьккхича, додучу /шайтIанан/ вонах‚"
+    },
+    {
+      "resource_id": 106,
+      "text": "Ша васвасалла кхуьссуш долчу нехан дегнашка‚"
+    },
+    { "resource_id": 106, "text": "Жинийх а ду /и шайтIа/‚ нахах а ду\"." }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "114" }
+  }
+}

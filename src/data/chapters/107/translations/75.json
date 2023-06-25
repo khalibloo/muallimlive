@@ -1,0 +1,25 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " Dini yalan sayan o kim­sə­ni gör­dünmü?" },
+    { "resource_id": 75, "text": " O elə adamdır ki, yetimi qovar" },
+    {
+      "resource_id": 75,
+      "text": " və heç kəsi kasıba əl tut­ma­ğa sövq etməz."
+    },
+    { "resource_id": 75, "text": " Vay halına namaz qılan­la­rın –" },
+    {
+      "resource_id": 75,
+      "text": " o kəslərin ki, onlar na­maz­larında səhlənkardırlar."
+    },
+    { "resource_id": 75, "text": " Onlar riyakardırlar" },
+    {
+      "resource_id": 75,
+      "text": " və az bir şey verməkdən belə im­tina edirlər."
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "107" }
+  }
+}

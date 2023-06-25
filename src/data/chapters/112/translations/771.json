@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 771,
+      "text": "(ಪ್ರವಾದಿಯವರೇ) ಹೇಳಿರಿ, ಅವನು<sup foot_note=208151>1</sup> ಅಲ್ಲಾಹು<sup foot_note=208152>2</sup>. ಏಕಮಾತ್ರನು<sup foot_note=208153>3</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ಅಲ್ಲಾಹು ನಿರಪೇಕ್ಷನು,<sup foot_note=208154>1</sup> ಎಲ್ಲರೂ ಆತನ ಅವಲಂಬಿತರು."
+    },
+    { "resource_id": 771, "text": "ಅವನು ಜನ್ಮ ಕೊಟ್ಟಿಲ್ಲ ಹಾಗೂ ಜನ್ಮ ಪಡೆದಿಲ್ಲ." },
+    { "resource_id": 771, "text": "ಅವನಿಗೆ ಸರಿಸಮಾನರು ಯಾರೂ ಇಲ್ಲ." }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "112" }
+  }
+}

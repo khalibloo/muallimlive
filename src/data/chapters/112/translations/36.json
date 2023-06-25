@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 36, "text": "일러가로되 하나님은 단 한분이시고" },
+    { "resource_id": 36, "text": "하나님은 영원하시며" },
+    { "resource_id": 36, "text": "성자와 성부도 두지 않으셨으 며" },
+    { "resource_id": 36, "text": "그분과 대등한 것 세상에 없 노라" }
+  ],
+  "meta": {
+    "translation_name": "Korean",
+    "author_name": "Korean",
+    "filters": { "resource_id": 36, "chapter_number": "112" }
+  }
+}

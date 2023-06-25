@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Is het jou dan nog niet ter ore gekomen hoe jouw Heer met de metgezellen van de olifanten heeft gehandeld?"
+    },
+    {
+      "resource_id": 235,
+      "text": "Heeft Hij hun plan (om de Ka’ba te vernietigen) dan niet verijdeld?"
+    },
+    {
+      "resource_id": 235,
+      "text": "En Hij heeft over hen zwermen vogels gezonden."
+    },
+    { "resource_id": 235, "text": "Die stenen van klei op hen wierpen." },
+    { "resource_id": 235, "text": "Dat hen maakte als fijn gekauwd stro." }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "105" }
+  }
+}

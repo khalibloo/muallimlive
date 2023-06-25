@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "U ime Allaha, Milostivog, Samilosnog!" },
+    {
+      "resource_id": 126,
+      "text": "Tebe, Allaha, Gospodara svjetova, hvalimo,"
+    },
+    { "resource_id": 126, "text": "Milostivog, Samilosnog," },
+    { "resource_id": 126, "text": "Vladara Dana sudnjeg," },
+    { "resource_id": 126, "text": "Tebi se klanjamo i od Tebe pomoć tražimo!" },
+    { "resource_id": 126, "text": "Uputi nas na Pravi put," },
+    {
+      "resource_id": 126,
+      "text": "na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "1" }
+  }
+}

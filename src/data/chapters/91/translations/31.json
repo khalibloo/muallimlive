@@ -1,0 +1,54 @@
+{
+  "translations": [
+    { "resource_id": 31, "text": "Par le soleil et par sa clarté !" },
+    { "resource_id": 31, "text": "Et par la lune quand elle le suit !" },
+    { "resource_id": 31, "text": "Et par le jour quand il l’éclaire !" },
+    {
+      "resource_id": 31,
+      "text": "Et par la nuit quand elle l’enveloppe <sup foot_note=212584>1</sup> !"
+    },
+    {
+      "resource_id": 31,
+      "text": "Et par le ciel et Celui qui l’a construit !"
+    },
+    { "resource_id": 31, "text": "Et par la terre et Celui qui l’a étendue !" },
+    {
+      "resource_id": 31,
+      "text": "Et par l’âme et Celui qui l’a harmonieusement façonnée ;"
+    },
+    {
+      "resource_id": 31,
+      "text": "et lui a alors inspiré son immoralité, de même que sa piété !"
+    },
+    { "resource_id": 31, "text": "A réussi, certes celui qui la purifie." },
+    {
+      "resource_id": 31,
+      "text": "Et est perdu, certes, celui qui la corrompt."
+    },
+    {
+      "resource_id": 31,
+      "text": "Les Thamûd, par leur transgression, ont crié au mensonge,"
+    },
+    {
+      "resource_id": 31,
+      "text": "lorsque le plus misérable <sup foot_note=212585>1</sup> d’entre eux se leva (pour tuer la chamelle)"
+    },
+    {
+      "resource_id": 31,
+      "text": "Le Messager d’Allah leur avait dit : \"La chamelle d’Allah ! Laissez-la boire.\""
+    },
+    {
+      "resource_id": 31,
+      "text": "Mais, ils le traitèrent de menteur, et la tuèrent. Leur Seigneur les détruisit donc, pour leur péché et étendit Son châtiment sur tous."
+    },
+    {
+      "resource_id": 31,
+      "text": "Et Allah n’a aucune crainte des conséquences."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "91" }
+  }
+}

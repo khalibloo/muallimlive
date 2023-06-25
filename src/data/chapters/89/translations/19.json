@@ -1,0 +1,84 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "By the Dawn" },
+    { "resource_id": 19, "text": "And ten nights," },
+    { "resource_id": 19, "text": "And the Even and the Odd," },
+    { "resource_id": 19, "text": "And the night when it departeth," },
+    { "resource_id": 19, "text": "There surely is an oath for thinking man." },
+    {
+      "resource_id": 19,
+      "text": "Dost thou not consider how thy Lord dealt with (the tribe of) A'ad,"
+    },
+    { "resource_id": 19, "text": "With many-columned Iram," },
+    {
+      "resource_id": 19,
+      "text": "The like of which was not created in the lands;"
+    },
+    {
+      "resource_id": 19,
+      "text": "And with (the tribe of) Thamud, who clove the rocks in the valley;"
+    },
+    { "resource_id": 19, "text": "And with Pharaoh, firm of might," },
+    {
+      "resource_id": 19,
+      "text": "Who (all) were rebellious (to Allah) in these lands,"
+    },
+    { "resource_id": 19, "text": "And multiplied iniquity therein?" },
+    {
+      "resource_id": 19,
+      "text": "Therefore thy Lord poured on them the disaster of His punishment."
+    },
+    { "resource_id": 19, "text": "Lo! thy Lord is ever watchful." },
+    {
+      "resource_id": 19,
+      "text": "As for man, whenever his Lord trieth him by honouring him, and is gracious unto him, he saith: My Lord honoureth me."
+    },
+    {
+      "resource_id": 19,
+      "text": "But whenever He trieth him by straitening his means of life, he saith: My Lord despiseth me."
+    },
+    {
+      "resource_id": 19,
+      "text": "Nay, but ye (for your part) honour not the orphan"
+    },
+    { "resource_id": 19, "text": "And urge not on the feeding of the poor." },
+    {
+      "resource_id": 19,
+      "text": "And ye devour heritages with devouring greed."
+    },
+    { "resource_id": 19, "text": "And love wealth with abounding love." },
+    {
+      "resource_id": 19,
+      "text": "Nay, but when the earth is ground to atoms, grinding, grinding,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And thy Lord shall come with angels, rank on rank,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And hell is brought near that day; on that day man will remember, but how will the remembrance (then avail him)?"
+    },
+    {
+      "resource_id": 19,
+      "text": "He will say: Ah, would that I had sent before me (some provision) for my life!"
+    },
+    {
+      "resource_id": 19,
+      "text": "None punisheth as He will punish on that day!"
+    },
+    { "resource_id": 19, "text": "None bindeth as He then will bind." },
+    { "resource_id": 19, "text": "But ah! thou soul at peace!" },
+    {
+      "resource_id": 19,
+      "text": "Return unto thy Lord, content in His good pleasure!"
+    },
+    { "resource_id": 19, "text": "Enter thou among My bondmen!" },
+    { "resource_id": 19, "text": "Enter thou My Garden!" }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "89" }
+  }
+}

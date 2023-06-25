@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Have you not seen ˹O Prophet˺ how your Lord dealt with the Army of the Elephant?"
+    },
+    { "resource_id": 131, "text": "Did He not frustrate their scheme?" },
+    { "resource_id": 131, "text": "For He sent against them flocks of birds," },
+    {
+      "resource_id": 131,
+      "text": "that pelted them with stones of baked clay,"
+    },
+    {
+      "resource_id": 131,
+      "text": "leaving them like chewed up straw.<sup foot_note=77639>1</sup> "
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "105" }
+  }
+}

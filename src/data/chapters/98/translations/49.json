@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 49,
+      "text": "Hawakuwa walio kufuru miongoni mwa Watu wa Kitabu na washirikina waache walio nayo mpaka iwajie bayana,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Yaani Mtume aliye toka kwa Mwenyezi Mungu anaye wasomea kurasa zilizo takasika,"
+    },
+    { "resource_id": 49, "text": "Ndani yake mna maandiko yaliyo nyooka." },
+    {
+      "resource_id": 49,
+      "text": "Wala hawakufarikiana walio pewa Kitabu ila baada ya kuwajia hiyo bayana."
+    },
+    {
+      "resource_id": 49,
+      "text": "Nao hawakuamrishwa kitu ila wamuabudu Mwenyezi Mungu kwa kumtakasia Dini, wawe waongofu, na washike Sala, na watoe Zaka. Na hiyo ndiyo Dini madhubuti."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika walio kufuru miongoni mwa Watu wa Kitabu na washirikina wataingia katika Moto wa Jahannamu wadumu milele humo. Hao ndio viumbe waovu kabisa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika walio amini na wakatenda mema, hao ndio bora wa viumbe."
+    },
+    {
+      "resource_id": 49,
+      "text": "Malipo yao kwa Mola wao Mlezi ni Bustani za daima, zipitazo mito kati yake. Wakae humo milele. Mwenyezi Mungu yu radhi nao, na wao waradhi naye. Hayo ni kwa anaye mwogopa Mola wake Mlezi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "98" }
+  }
+}

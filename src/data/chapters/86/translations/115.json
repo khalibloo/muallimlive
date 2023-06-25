@@ -1,0 +1,71 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "Inã rantsuwa da sama da mai aukõwa da dare."
+    },
+    {
+      "resource_id": 115,
+      "text": "To, mẽ yã sanar da kai abin da ake cẽwa mai aukõwa da dare?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Shi ne taurãron nan mai tsananin haske.<sup foot_note=132742>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "Bãbu wani rai fãce a kansa akwai wani mai tsaro."
+    },
+    {
+      "resource_id": 115,
+      "text": "To, mutum ya dũba, daga mẽ aka halittã shi?"
+    },
+    {
+      "resource_id": 115,
+      "text": "An halittã shi daga wani ruwa mai tunkuɗar jũna."
+    },
+    {
+      "resource_id": 115,
+      "text": "Yanã fita daga tsakanin tsatso da karankarman ƙirji."
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne Shi (Allah), ga mayar da shi (mutum), tabbas Mai iyãwa ne."
+    },
+    { "resource_id": 115, "text": "Rãnar da ake jarrabawar asirai." },
+    {
+      "resource_id": 115,
+      "text": "Saboda haka, bã shi da wani ƙarfi, kuma bã shi da wani mai taimako (da zai iya kãre shi daga azãbar Allah)."
+    },
+    {
+      "resource_id": 115,
+      "text": "Ina rantsuwa da sama ma'abũciyar ruwa mai kõmãwa yana yankẽwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Da ƙasa ma'abociyar tsãgẽwa,<sup foot_note=132743>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne shĩ (Alƙur'ãni), haƙĩƙa magana ce daki-daki<sup foot_note=132744>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma shĩ bã bananci<sup foot_note=132745>1</sup> bane"
+    },
+    { "resource_id": 115, "text": "Lalle ne sũ, suna ƙulla kaidi na sõsai." },
+    {
+      "resource_id": 115,
+      "text": "Kuma Ni, Ina mayar da kaidi (gare su) kamar yadda suke ƙulla kaidi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Saboda haka, ka yi wa kafirai jinkiri, ka dakata musu, sannu-sannu."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "86" }
+  }
+}

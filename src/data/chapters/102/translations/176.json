@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Esibire la vostra ricchezza e i vostri figli, o gente, vi ha distratti dall'obbedienza dovuta ad Allāh,"
+    },
+    {
+      "resource_id": 176,
+      "text": "finché non siete morti e non siete finiti nelle vostre tombe."
+    },
+    {
+      "resource_id": 176,
+      "text": "Il vostro esibirvi non avrebbe dovuto distrarvi dall'obbedienza dovuta ad Allāh; saprete quali sono le conseguenze di quell'incuranza,"
+    },
+    { "resource_id": 176, "text": "poi ne subirete le conseguenze." },
+    {
+      "resource_id": 176,
+      "text": "No! Se foste stati certi che sareste stati Resuscitati da Allāh e che, in verità, vi avrebbe retribuito per le vostre azioni, non sareste stati incuranti, esibendo le vostre ricchezze e i vostri figli."
+    },
+    {
+      "resource_id": 176,
+      "text": "E, per Allāh, vedrete il Fuoco, nel Giorno della Resurrezione;"
+    },
+    { "resource_id": 176, "text": "poi lo vedrete chiaramente, senza dubbio." },
+    {
+      "resource_id": 176,
+      "text": "Dopodiché Allāh vi interrogherà, in quel Giorno, sulle grazie della salute, ricchezza e altro che vi ha concesso."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "102" }
+  }
+}

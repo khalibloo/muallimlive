@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 819, "text": "کہو، میں پناہ مانگتا ہوں لوگوں کے رب کی" },
+    { "resource_id": 819, "text": "لوگوں کے بادشاہ کی" },
+    { "resource_id": 819, "text": "لوگوں کے معبود کی" },
+    { "resource_id": 819, "text": "اس کے شر سے جو وسوسہ ڈالے اور چھپ جائے" },
+    { "resource_id": 819, "text": "جو لوگوں کے دلوں میں وسوسہ ڈالتا ہے" },
+    { "resource_id": 819, "text": "جن میں سے، اور انسان میں سے" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "114" }
+  }
+}

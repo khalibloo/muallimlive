@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Ved dem som pruster i galopp," },
+    { "resource_id": 41, "text": "som slår gnister," },
+    { "resource_id": 41, "text": "som stormer på ved morgengry" },
+    { "resource_id": 41, "text": "og virvler opp støv under dette," },
+    { "resource_id": 41, "text": "og derved trenger inn i flokkens midte!" },
+    {
+      "resource_id": 41,
+      "text": "Mennesket er sannelig utakknemlig mot Herren,"
+    },
+    { "resource_id": 41, "text": "og han er selv vitne til det!" },
+    {
+      "resource_id": 41,
+      "text": "Han er sterk i sitt begjær etter livets goder."
+    },
+    {
+      "resource_id": 41,
+      "text": "Vet han da ikke når det som er i gravene, tømmes ut,"
+    },
+    { "resource_id": 41, "text": "og det som bor i hjertene, bringes frem," },
+    {
+      "resource_id": 41,
+      "text": "på denne dag er Herren vel underrettet om dem?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "100" }
+  }
+}

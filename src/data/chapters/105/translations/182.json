@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 182,
+      "text": "使者啊！难道你不知道，当他们想摧毁克尔白时，真主是怎样对待艾伯拉罕和他的同伙-大象的主人的吗？"
+    },
+    {
+      "resource_id": 182,
+      "text": "真主使他们阴险的计划付之东流，他们曾期望人们远离克尔白的愿望落空了，他们一无所获。"
+    },
+    { "resource_id": 182, "text": "真主为他们派去了成群结队的鸟儿，" },
+    { "resource_id": 182, "text": "用黏土石投掷他们，" },
+    { "resource_id": 182, "text": "真主使他们变成像虫子吃过的树叶一般。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "105" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Bagambe nti, abange mmwe       abatakkiriza (abawakanyi)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ssisinza ebyo bye musinza      (amasanamu, lubaale, n'ebirala)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Wadde namwe temusinza oyo gwe nsinza (ali omu mu bwa Katonda bwe)."
+    },
+    { "resource_id": 232, "text": "Era siri waakusinza ebyo bye musinza." },
+    {
+      "resource_id": 232,
+      "text": "Era nammwe temuli baakusinza oyo gwensinza."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mulina e nkola yammwe (ey'okusinza ba Katonda abangi, nange nnina enkola yange (ey'okusinza Katonda omu yekka)."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "109" }
+  }
+}

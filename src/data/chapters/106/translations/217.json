@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Заради єднання курайшитів" },
+    {
+      "resource_id": 217,
+      "text": "єднання під час подорожей, влітку та взимку"
+    },
+    {
+      "resource_id": 217,
+      "text": "Нехай же вони поклоняються Господу цього Дому!"
+    },
+    {
+      "resource_id": 217,
+      "text": "Адже Він нагодував їх у голодний час і позбавив страху"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Noi ţie ţi-am dăruit belşugul!" },
+    {
+      "resource_id": 44,
+      "text": "Tu, roagă-te Domnului tău şi Lui îi jertfeşte,"
+    },
+    {
+      "resource_id": 44,
+      "text": "şi lipsit de urmaşi va fi cel care te urăşte!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "108" }
+  }
+}

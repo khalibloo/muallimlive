@@ -1,0 +1,46 @@
+{
+  "translations": [
+    { "resource_id": 85, "text": "When the sky is torn apart," },
+    { "resource_id": 85, "text": "when the stars are scattered," },
+    { "resource_id": 85, "text": "when the seas burst forth," },
+    { "resource_id": 85, "text": "when graves turn inside out:" },
+    {
+      "resource_id": 85,
+      "text": "each soul will know what it has done and what it has left undone."
+    },
+    { "resource_id": 85, "text": "Mankind, what has lured you away from God," },
+    {
+      "resource_id": 85,
+      "text": "your generous Lord, who created you, shaped you, proportioned you,"
+    },
+    { "resource_id": 85, "text": "in whatever form He chose?" },
+    {
+      "resource_id": 85,
+      "text": "Yet you still take the Judgement to be a lie!"
+    },
+    { "resource_id": 85, "text": "Over you stand" },
+    { "resource_id": 85, "text": "watchers, noble recorders" },
+    { "resource_id": 85, "text": "who know what you do:" },
+    { "resource_id": 85, "text": "the good will live in bliss," },
+    { "resource_id": 85, "text": "and the wicked will burn in the Fire." },
+    { "resource_id": 85, "text": "They will enter it on the Day of Judgement" },
+    { "resource_id": 85, "text": "and they will find no escape." },
+    {
+      "resource_id": 85,
+      "text": "What will explain to you what the Day of Judgement is?"
+    },
+    {
+      "resource_id": 85,
+      "text": "Yes! What will explain to you what the Day of Judgement is?"
+    },
+    {
+      "resource_id": 85,
+      "text": "The Day when no soul will be able to do anything for another; on that Day, command will belong to God."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "82" }
+  }
+}

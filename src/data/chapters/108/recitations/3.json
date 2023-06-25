@@ -1,0 +1,12 @@
+{
+  "audio_files": [
+    { "verse_key": "108:1", "url": "Sudais/mp3/108001.mp3" },
+    { "verse_key": "108:2", "url": "Sudais/mp3/108002.mp3" },
+    { "verse_key": "108:3", "url": "Sudais/mp3/108003.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Abdur-Rahman as-Sudais",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "108" }
+  }
+}

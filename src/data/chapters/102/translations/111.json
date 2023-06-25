@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "Baay’ifachuun (ibaadaa irraa) isin jaataneesse (shaagale)."
+    },
+    { "resource_id": 111, "text": "Hanga awwaala dhaqxanitti (duutanitti)." },
+    { "resource_id": 111, "text": "Dhorgamaa! Fuula dura beekuuf jirtu." },
+    {
+      "resource_id": 111,
+      "text": "Ergasiis dhorgamaa! Fuula dura beekuuf jirtu"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, odoo beekumsa mirkanaa’aa beektanii (hin shaagalamtanu ture)."
+    },
+    { "resource_id": 111, "text": "Dhugumatti ibidda ni argitu." },
+    { "resource_id": 111, "text": "Ergasii argaa mirkanaa’aa arguuf jirtu" },
+    {
+      "resource_id": 111,
+      "text": "Ergasii dhugumatti guyyaa san qananii irraa gaafatamuuf jirtu"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "102" }
+  }
+}

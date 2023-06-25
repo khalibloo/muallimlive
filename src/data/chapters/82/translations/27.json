@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Wenn der Himmel zerbricht" },
+    { "resource_id": 27, "text": "und wenn die Sterne sich zerstreuen" },
+    { "resource_id": 27, "text": "und wenn die Meere gesprengt werden" },
+    { "resource_id": 27, "text": "und wenn die Gräber durchwühlt werden," },
+    {
+      "resource_id": 27,
+      "text": "wird eine (jede) Seele erfahren, was sie vorausgeschickt und zurückgestellt hat."
+    },
+    {
+      "resource_id": 27,
+      "text": "O Mensch, was hat dich hinsichtlich deines edelmütigen Herrn getäuscht,"
+    },
+    {
+      "resource_id": 27,
+      "text": "Der dich erschaffen und da(bei) zurechtgeformt und wohlgebildet gemacht hat,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und dich, in welcher Gestalt Er wollte, zusammengefügt hat?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Keineswegs! Vielmehr erklärt ihr das Gericht für Lüge."
+    },
+    {
+      "resource_id": 27,
+      "text": "Über euch sind wahrlich Hüter (eingesetzt),"
+    },
+    { "resource_id": 27, "text": "edle, die (alles) aufschreiben" },
+    { "resource_id": 27, "text": "und die wissen, was ihr tut." },
+    { "resource_id": 27, "text": "Die Frommen werden wahrlich in Wonne sein." },
+    {
+      "resource_id": 27,
+      "text": "Und die Sittenlosen werden wahrlich in einem Höllenbrand sein,"
+    },
+    {
+      "resource_id": 27,
+      "text": "dem sie am Tag des Gerichts ausgesetzt werden"
+    },
+    { "resource_id": 27, "text": "und dem sie nicht abwesend sein werden." },
+    {
+      "resource_id": 27,
+      "text": "Und was läßt dich wissen, was der Tag des Gerichts ist?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Abermals: Was läßt dich wissen, was der Tag des Gerichts ist?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Am Tag, da keine Seele für eine (andere) Seele etwas (auszurichten) vermag; und der Befehl wird an jenem Tag Allah (allein) zustehen."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "82" }
+  }
+}

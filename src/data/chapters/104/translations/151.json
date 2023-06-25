@@ -1,0 +1,39 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "خرابی ہے ہر طعنہ دینے والے  عیب چننے والے کی <sup foot_note=88923>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "جس نے سمیٹا مال اور گن گن کر رکھا <sup foot_note=88924>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "خیال رکھتا ہے کہ اُس کا مال سدا کو رہے گا اُسکے ساتھ <sup foot_note=88925>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کوئی نہیں وہ پھینکا جائے گا اُس روندنے والی میں <sup foot_note=88926>1</sup>"
+    },
+    { "resource_id": 151, "text": "اور تو کیا سمجھا کون ہے وہ روندنے والی" },
+    { "resource_id": 151, "text": "ایک آگ ہے اللہ کی سلگائی ہوئی" },
+    {
+      "resource_id": 151,
+      "text": "وہ جھانک لیتی ہے دل کو <sup foot_note=88927>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "اُنکو اُس میں موند دیا ہے <sup foot_note=88928>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "لنبے لنبے ستونوں میں <sup foot_note=88929>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "104" }
+  }
+}

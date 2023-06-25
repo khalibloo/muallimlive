@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Qaaricada (qalbiga garaacda)." },
+    { "resource_id": 46, "text": "Qaarica maxay tahay." },
+    { "resource_id": 46, "text": "Mase taqaannaa Qaarico." },
+    { "resource_id": 46, "text": "Waa Maalinta Dadku noqon sida Baalallay." },
+    { "resource_id": 46, "text": "Buuruhuna ay noqon sida Suuf kala firdhay." },
+    { "resource_id": 46, "text": "Ruuxiise miisaankiisa (fiican) cuslaado." },
+    { "resource_id": 46, "text": "Wuxuu ku noolaan nolol raalli ah." },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise uu fududaado Miisaankiisa (fiican)."
+    },
+    { "resource_id": 46, "text": "Wuxuu u hoydaa (Naarta) Haawiya." },
+    { "resource_id": 46, "text": "Ma taqaannaa Haawiya." },
+    { "resource_id": 46, "text": "Waa Naar kulayl daran." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "101" }
+  }
+}

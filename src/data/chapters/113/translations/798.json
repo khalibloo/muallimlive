@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 798,
+      "text": "Jilani: “Ngulijuya mwa M’mbuje jwa kumasikusiku.”"
+    },
+    { "resource_id": 798, "text": "“Ku yakusakala yaŵaigumbile.”" },
+    {
+      "resource_id": 798,
+      "text": "“Ni ku yakusakala yachilo ndema jachikwinjila chipi.”"
+    },
+    {
+      "resource_id": 798,
+      "text": "“Ni ku yakusakala ya (asaŵi) ŵaakupepela mu iwundo (pakuloga).”"
+    },
+    {
+      "resource_id": 798,
+      "text": "“Ni ku yakusakala ya jwalitima ndema jajukutenda litima.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "113" }
+  }
+}

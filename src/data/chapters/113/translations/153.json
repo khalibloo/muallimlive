@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 153,
+      "text": "Di’: «Mi rifugio nel Signore dell’alba nascente,"
+    },
+    { "resource_id": 153, "text": "contro il male di ciò che ha creato," },
+    {
+      "resource_id": 153,
+      "text": "e contro il male dell’oscurità che si estende"
+    },
+    {
+      "resource_id": 153,
+      "text": "e contro il male delle soffianti sui nodi <a class=f><sup foot_note=160797>1</sup></a>,"
+    },
+    {
+      "resource_id": 153,
+      "text": "e contro il male dell’invidioso quando invidia» <a class=f><sup foot_note=160798>1</sup></a>. "
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "113" }
+  }
+}

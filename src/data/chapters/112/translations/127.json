@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 127, "text": "Айт: «У Аллоҳ ягонадир." },
+    {
+      "resource_id": 127,
+      "text": "Аллоҳ — Cомаддир.<sup foot_note=48899>1</sup>"
+    },
+    { "resource_id": 127, "text": "У туғмаган ва туғилмаган." },
+    {
+      "resource_id": 127,
+      "text": "Ва Унга ҳеч ким тенг бўлмаган».<sup foot_note=48900>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "112" }
+  }
+}

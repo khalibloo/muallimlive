@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 228,
+      "text": "නියත වශයෙන්ම අපි නුඹට අසීමිත සම්පත් පිරිනැමුවෙමු."
+    },
+    {
+      "resource_id": 228,
+      "text": "එබැවින් නුඹ නුඹගේ පරමාධිපතිට සලාතය ඉටු කර නුඹ (අල්ලාහ් වෙනුවෙන්ම) සතෙකුගේ ගෙල කපා හරිනු."
+    },
+    {
+      "resource_id": 228,
+      "text": "නියත වශයෙන්ම නුඹට දොස් පවරන්නා වන ඔහුමය පෙළපත නොමැත්තා."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Translation Pioneers Center",
+    "filters": { "resource_id": 228, "chapter_number": "108" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "SAY: \"Allah (God) is Unique!" },
+    {
+      "resource_id": 207,
+      "text": "Allah (God) is the Source [for everything and the eternal;"
+    },
+    {
+      "resource_id": 207,
+      "text": "He has not fathered anyone nor was He fathered,"
+    },
+    { "resource_id": 207, "text": "and there is nothing comparable to Him!\"" }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "112" }
+  }
+}

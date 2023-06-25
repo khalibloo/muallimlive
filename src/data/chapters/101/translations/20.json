@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 20, "text": "The Striking Calamity -" },
+    { "resource_id": 20, "text": "What is the Striking Calamity?" },
+    {
+      "resource_id": 20,
+      "text": "And what can make you know what is the Striking Calamity?"
+    },
+    {
+      "resource_id": 20,
+      "text": "It is the Day when people will be like moths, dispersed,<sup foot_note=197804>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "And the mountains will be like wool, fluffed up.<sup foot_note=197805>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Then as for one whose scales are heavy [with good deeds],"
+    },
+    { "resource_id": 20, "text": "He will be in a pleasant life." },
+    { "resource_id": 20, "text": "But as for one whose scales are light," },
+    {
+      "resource_id": 20,
+      "text": "His refuge<sup foot_note=197806>1</sup> will be an abyss.<sup foot_note=197807>2</sup>"
+    },
+    { "resource_id": 20, "text": "And what can make you know what that is?" },
+    { "resource_id": 20, "text": "It is a Fire, intensely hot." }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "101" }
+  }
+}

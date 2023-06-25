@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "In verità ti abbiamo concesso la Dovizia Eterna;"
+    },
+    { "resource_id": 209, "text": "Prega il tuo Dio e sacrifica!" },
+    {
+      "resource_id": 209,
+      "text": "In verità, chi ti disprezza, è lui ad essere senza eredi!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "108" }
+  }
+}

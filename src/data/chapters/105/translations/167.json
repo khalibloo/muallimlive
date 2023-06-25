@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 167,
+      "text": "Have you not seen how your Lord dealt with the People of the Elephant?"
+    },
+    {
+      "resource_id": 167,
+      "text": "Has He not turned their plan into nullity?"
+    },
+    {
+      "resource_id": 167,
+      "text": "And He sent upon them flying birds in flocks,"
+    },
+    { "resource_id": 167, "text": "throwing upon them stones of baked clay," },
+    {
+      "resource_id": 167,
+      "text": "and thus He turned them into an eaten-up chaff."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "105" }
+  }
+}

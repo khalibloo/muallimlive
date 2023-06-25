@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 47,
+      "text": "Kur erdhi ndihma e All-llahut dhe çlirimi (ngadhënjimi),"
+    },
+    {
+      "resource_id": 47,
+      "text": "Dhe i pe njerëzit që po hyjnë turma-turma në fenë e All-llahut."
+    },
+    {
+      "resource_id": 47,
+      "text": "Ti, pra, lartësoje Zotin tënd duke falënderuar dhe kërko nga Ai falje. Ai vërtet pranon shumë pendimin."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "110" }
+  }
+}

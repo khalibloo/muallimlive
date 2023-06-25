@@ -1,0 +1,78 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Par la nuit lorsqu’elle enveloppe tout de son obscurité !"
+    },
+    {
+      "resource_id": 779,
+      "text": "Par le jour lorsqu’il se manifeste dans toute sa clarté !"
+    },
+    {
+      "resource_id": 779,
+      "text": "Par Celui qui a créé à la fois le mâle et la femelle !"
+    },
+    {
+      "resource_id": 779,
+      "text": "Vous poursuivez, par vos œuvres, des buts éloignés."
+    },
+    {
+      "resource_id": 779,
+      "text": "A celui qui, par crainte du Seigneur, fait la charité"
+    },
+    {
+      "resource_id": 779,
+      "text": "dans l’espoir d’obtenir la récompense de l’au-delà,"
+    },
+    {
+      "resource_id": 779,
+      "text": "Nous faciliterons l’accomplissement du bien."
+    },
+    {
+      "resource_id": 779,
+      "text": "Quant à celui qui, pensant pouvoir se passer de son Seigneur, se montre avare"
+    },
+    {
+      "resource_id": 779,
+      "text": "et ne croit pas en la récompense de l’au-delà,"
+    },
+    {
+      "resource_id": 779,
+      "text": "Nous lui faciliterons l’accomplissement du mal."
+    },
+    {
+      "resource_id": 779,
+      "text": "Ses biens ne lui seront d’aucune utilité lorsqu’il sera précipité dans le Feu."
+    },
+    {
+      "resource_id": 779,
+      "text": "C’est à Nous, en vérité, qu’il appartient d’indiquer le droit chemin,"
+    },
+    {
+      "resource_id": 779,
+      "text": "et c’est Nous qui sommes Maître de l’au-delà et de ce bas monde."
+    },
+    {
+      "resource_id": 779,
+      "text": "Je vous mets en garde contre un Feu sans cesse attisé,"
+    },
+    { "resource_id": 779, "text": "que seul devra affronter le réprouvé" },
+    { "resource_id": 779, "text": "qui a renié la vérité et s’est détourné," },
+    { "resource_id": 779, "text": "et dont sera écarté celui qui, par piété," },
+    { "resource_id": 779, "text": "a dépensé ses biens pour se purifier," },
+    {
+      "resource_id": 779,
+      "text": "non en contrepartie d’un bienfait dont il aurait bénéficié,"
+    },
+    {
+      "resource_id": 779,
+      "text": "mais seulement pour être, de son Seigneur le Très Haut, agréé."
+    },
+    { "resource_id": 779, "text": "Il sera donc, un jour, entièrement comblé." }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "92" }
+  }
+}

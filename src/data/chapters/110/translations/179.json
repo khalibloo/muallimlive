@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 179,
+      "text": "Kapag dumating ang pag-aadya ni Allāh sa Relihiyon mo, O Sugo, ang pagpapalakas Niya rito, at ang pagkaganap ng pagsakop sa Makkah"
+    },
+    {
+      "resource_id": 179,
+      "text": "at nakakita ka sa mga tao na pumapasok sa Islām sa isang delegasyon matapos ng isang delegasyon"
+    },
+    {
+      "resource_id": 179,
+      "text": "ay alamin mo na iyon ay isang palatandaan sa pagkalapit ng pagwawakas ng misyon na ipinadala ka dahil doon kaya magluwalhati ka kalakip ng papuri sa Panginoon mo bilang pasasalamat sa Kanya sa biyaya ng pag-aadya at pagsakop [sa Makkah], at humiling ka mula sa Kanya ng kapatawaran. Tunay na Siya ay laging Palatanggap ng pagbabalik-loob, na tumatanggap ng pagbabalik-loob ng mga lingkod Niya at nagpapatawad sa kanila."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tagalog Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 179, "chapter_number": "110" }
+  }
+}

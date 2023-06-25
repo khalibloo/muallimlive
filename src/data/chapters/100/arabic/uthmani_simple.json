@@ -1,0 +1,56 @@
+{
+  "verses": [
+    { "id": 6147, "verse_key": "100:1", "text_uthmani_simple": "والعديت ضبحا" },
+    {
+      "id": 6148,
+      "verse_key": "100:2",
+      "text_uthmani_simple": "فالموريت قدحا"
+    },
+    {
+      "id": 6149,
+      "verse_key": "100:3",
+      "text_uthmani_simple": "فالمغيرت صبحا"
+    },
+    {
+      "id": 6150,
+      "verse_key": "100:4",
+      "text_uthmani_simple": "فاثرن به نقعا"
+    },
+    {
+      "id": 6151,
+      "verse_key": "100:5",
+      "text_uthmani_simple": "فوسطن به جمعا"
+    },
+    {
+      "id": 6152,
+      "verse_key": "100:6",
+      "text_uthmani_simple": "ان الانسن لربه لكنود"
+    },
+    {
+      "id": 6153,
+      "verse_key": "100:7",
+      "text_uthmani_simple": "وانه على ذلك لشهيد"
+    },
+    {
+      "id": 6154,
+      "verse_key": "100:8",
+      "text_uthmani_simple": "وانه لحب الخير لشديد"
+    },
+    {
+      "id": 6155,
+      "verse_key": "100:9",
+      "text_uthmani_simple": "افلا يعلم اذا بعثر ما فى القبور"
+    },
+    {
+      "id": 6156,
+      "verse_key": "100:10",
+      "text_uthmani_simple": "وحصل ما فى الصدور"
+    },
+    {
+      "id": 6157,
+      "verse_key": "100:11",
+      "text_uthmani_simple": "ان ربهم بهم يومئذ لخبيرۢ"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "100" } }
+}

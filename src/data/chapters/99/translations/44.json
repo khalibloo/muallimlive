@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Când pământul fi-va zgâlţâit de cutremur," },
+    {
+      "resource_id": 44,
+      "text": "când pământul îşi va arunca afară lăuntrurile sale,"
+    },
+    {
+      "resource_id": 44,
+      "text": "se va întreba omul: “Ce s-a întâmplat, oare?!”"
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, el îşi va spune povestea" },
+    { "resource_id": 44, "text": "precum i-a dezvăluit-o Domnul tău." },
+    {
+      "resource_id": 44,
+      "text": "În Ziua aceea, oamenii se vor scula în cete ca faptele să şi le vadă."
+    },
+    {
+      "resource_id": 44,
+      "text": "Chiar cât un fir de praf, cine a făcut un bine, îl va vedea."
+    },
+    {
+      "resource_id": 44,
+      "text": "Chiar cât un fir de praf, cine a făcut un rău, îl va vedea."
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "99" }
+  }
+}

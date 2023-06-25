@@ -1,0 +1,112 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Mitä he kyselevät toinen toiseltaan?" },
+    { "resource_id": 30, "text": "Suurta sanomaako," },
+    { "resource_id": 30, "text": "josta he ovat eri mieltä?" },
+    { "resource_id": 30, "text": "Ei, pian he saavat sen tietää." },
+    {
+      "resource_id": 30,
+      "text": "Vieläkin: ei! He tulevat sen pian kokemaan."
+    },
+    { "resource_id": 30, "text": "Emmekö ole luonut maan lakeudeksi" },
+    { "resource_id": 30, "text": "ja vuoret tukipilareiksi?" },
+    { "resource_id": 30, "text": "Me olemme luonut teidät parittain" },
+    { "resource_id": 30, "text": "ja säätänyt unen teille virkistykseksi," },
+    { "resource_id": 30, "text": "yön Me loimme teille verhoksi" },
+    {
+      "resource_id": 30,
+      "text": "ja päivän Me annoimme elatuksen hankkimiseen."
+    },
+    {
+      "resource_id": 30,
+      "text": "Yläpuolellenne olemme asettanut seitsemän vahvaa henkivaltaa"
+    },
+    { "resource_id": 30, "text": "ja laittanut valoa säteilevän lampun;" },
+    {
+      "resource_id": 30,
+      "text": "raskaista pilvistä Me lähetämme vuolaita virtoja"
+    },
+    { "resource_id": 30, "text": "kasvattaaksemme viljan ja kasvit" },
+    { "resource_id": 30, "text": "sekä tiheinä vihannoivat puutarhat." },
+    { "resource_id": 30, "text": "Totisesti tuomion päivä on määrätty," },
+    {
+      "resource_id": 30,
+      "text": "päivä, jona puhalletaan pasuunaan ja te nousette joukoittain,"
+    },
+    {
+      "resource_id": 30,
+      "text": "päivä, jolloin taivas aukeaa ja siihen ilmenee joukko portteja,"
+    },
+    {
+      "resource_id": 30,
+      "text": "jolloin vuoret siirtyvät paikoiltaan ja muuttuvat kuin varjoiksi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, helvetti silloin omaansa odottaa,"
+    },
+    { "resource_id": 30, "text": "se on määränpää syntisiä varten," },
+    { "resource_id": 30, "text": "he viruvat siellä vuosikausia," },
+    { "resource_id": 30, "text": "saamatta nauttia viileätä juomaa;" },
+    { "resource_id": 30, "text": "heidän juomansa on kiehuvaa tai jääkylmää," },
+    {
+      "resource_id": 30,
+      "text": "se on palkka, joka vastaa heidän syntejänsä."
+    },
+    {
+      "resource_id": 30,
+      "text": "He eivät totisesti uskoneet joutuvansa teoistaan tilille,"
+    },
+    {
+      "resource_id": 30,
+      "text": "vaan sanoivat julistustamme valheeksi, totuutta vääristellen."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta meillä on kaikki merkittynä muistiin."
+    },
+    {
+      "resource_id": 30,
+      "text": "»Maistakaa siis! Me emme lisää teille muuta kuin kuritusta.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti odottaa voitto niitä, jotka pelkäävät Jumalaa,"
+    },
+    { "resource_id": 30, "text": "heidän ovat hedelmä- ja viinitarhat," },
+    {
+      "resource_id": 30,
+      "text": "nuoruutta uhkuvat neidot, heidän ikäisensä,"
+    },
+    { "resource_id": 30, "text": "ja puhdasta viiniä täydet pikarit." },
+    {
+      "resource_id": 30,
+      "text": "Ei heille siellä turhuutta puhuta eikä valheita jutella."
+    },
+    {
+      "resource_id": 30,
+      "text": "Se on Herrasi antama palkka, ansioiden mukainen lahja,"
+    },
+    {
+      "resource_id": 30,
+      "text": "Herran, jonka ovat taivaat ja maa ja kaikki niiden välisessä avaruudessa, laupiaan Armahtajan, jota he eivät rohkene puhutella."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sinä päivänä, jolloin henki ja enkelit seisovat riveissä, eivät muut saa puhua kuin se, jonka Laupias sallii ja joka lausuu totuuden."
+    },
+    {
+      "resource_id": 30,
+      "text": "Tuo päivä on totuuden päivä, ja se, joka parhaimman valitsee, turvautuu Herraan."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti olemme varoittanut teitä lähestyvästä kurituksesta, päivästä, jolloin ihminen saa nähdä, mikä on hänen kättensä työ, ja epäuskoinen huudahtaa: »Ah, jospa olisin maan tomua!»"
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "78" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 218,
+      "text": "（使徒*よ、）言え。「私は黎明¹の主*に、ご加護を乞う。"
+    },
+    { "resource_id": 218, "text": "かれが創造された物の悪から。" },
+    { "resource_id": 218, "text": "また、深まった闇（夜）の悪から。" },
+    {
+      "resource_id": 218,
+      "text": "また、繋ぎ目に息を吹き込む女たちの悪から。¹"
+    },
+    { "resource_id": 218, "text": "また、嫉妬¹した妬み屋の悪から」。" }
+  ],
+  "meta": {
+    "translation_name": "Saeed Sato",
+    "author_name": "Saeed Sato",
+    "filters": { "resource_id": 218, "chapter_number": "113" }
+  }
+}

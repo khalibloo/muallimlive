@@ -1,0 +1,90 @@
+{
+  "translations": [
+    { "resource_id": 32, "text": "Inã rantsuwa da alfijiri." },
+    { "resource_id": 32, "text": "Da darũruwa gõma." },
+    { "resource_id": 32, "text": "Da (adadi na) cikã da (na) mãrã." },
+    { "resource_id": 32, "text": "Da dare idan yana shũɗewa." },
+    {
+      "resource_id": 32,
+      "text": "Ko a cikin waɗannan akwai abin rantsuwa ga mai hankali (da yake kange shi daga zunubi)?"
+    },
+    {
+      "resource_id": 32,
+      "text": "Ba ka ga yadda Ubangijinka Ya aikata da Ãdãwa ba?"
+    },
+    { "resource_id": 32, "text": "Iramawa mãsu sakon ƙĩrar jiki." },
+    {
+      "resource_id": 32,
+      "text": "Waɗanda ba a halitta kwatankwacinsu ba a cikin garũruwa (na dũniya)."
+    },
+    {
+      "resource_id": 32,
+      "text": "Da samũdãwa waɗanda suka fasa duwãtsu a cikin Wadi suka yi gidãje)?"
+    },
+    { "resource_id": 32, "text": "Da Fir'auna mai turãku." },
+    {
+      "resource_id": 32,
+      "text": "Waɗanda suka ƙẽtare iyãkarsu, a cikin garũruwa?"
+    },
+    {
+      "resource_id": 32,
+      "text": "Sabõda haka, suka yawaita yin ɓarna a cikinsu."
+    },
+    {
+      "resource_id": 32,
+      "text": "Sabõda haka Ubangijinka Ya zuba musu bũlãlar azãba."
+    },
+    { "resource_id": 32, "text": "Lalle ne, Ubangijinka Yana nan a mafaka." },
+    {
+      "resource_id": 32,
+      "text": "To, amma fa mutum idan Ubangijibsa Ya jarraba shi, wãto Yã girmama shi kuma Ya yi masa ni'ima, sai ya ce: &quot;Ubangijina Ya girmama ni.&quot;"
+    },
+    {
+      "resource_id": 32,
+      "text": "Kuma idan Ya jarraba shi, wãto Ya ƙuntata masa abincinsa, sai ya ce: &quot;Ubangijina Ya walãkanta ni.&quot;"
+    },
+    {
+      "resource_id": 32,
+      "text": "A'aha! Bari wannan, ai bã ku girmama marãya!"
+    },
+    {
+      "resource_id": 32,
+      "text": "Bã ku kwaɗaitã wa jũnanku ga (tattalin) abincin matalauci!"
+    },
+    { "resource_id": 32, "text": "Kuma kuna cin dũkiyar gãdo, ci na tãrãwa." },
+    { "resource_id": 32, "text": "Kuma kuna son dũkiya, so mai yawa." },
+    { "resource_id": 32, "text": "A'aha! Idan aka niƙa ƙasa niƙewa sosai." },
+    {
+      "resource_id": 32,
+      "text": "Kuma Ubangijinka Ya zo, alhãli malã'iku na jẽre, safũ- safu."
+    },
+    {
+      "resource_id": 32,
+      "text": "Kuma a ranar nan aka zo da Jahannama. A ranar nan mutum zai yi tunãni. To, inã fa tunãni yake a gare shi!"
+    },
+    {
+      "resource_id": 32,
+      "text": "Yana dinga cẽwa, &quot;Kaitona, dã na gabatar (da aikin ƙwarai) domin rãyuwata!&quot;"
+    },
+    {
+      "resource_id": 32,
+      "text": "To, a rãnar nan bãbu wani mai yin azãba irin azãbar Allah."
+    },
+    { "resource_id": 32, "text": "Kuma bãbu wani mai ɗauri irin ɗaurinSa." },
+    { "resource_id": 32, "text": "Yã kai rai mai natsuwa!" },
+    {
+      "resource_id": 32,
+      "text": "Ka koma zuwa ga Ubangijinka, alhãli kana mai yarda (da abin da Ya ƙaddara maka a dũniya) abar yardarwa (da sakamakon da zã a ba ka a Lãhira)."
+    },
+    {
+      "resource_id": 32,
+      "text": "Sabõbda haka, ka shiga cikin bãyiNa (mãsu bin umurui a dũniya)."
+    },
+    { "resource_id": 32, "text": "Kuma ka shiga AljannaTa (a Lãhira)." }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "89" }
+  }
+}

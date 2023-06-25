@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Non sai, o Messaggero, cosa il tuo Dio ne ha fatto di Abraha e i suoi compagni dell'elefante, quando cercarono di demolire la Ka’bah?!"
+    },
+    {
+      "resource_id": 176,
+      "text": "Allāh vanificò i loro malvagi piani di distruggerla, e non ottennero ciò che desideravano, ovvero sviare la gente della Ka'bah, e non poterono farle nulla di male."
+    },
+    {
+      "resource_id": 176,
+      "text": "E inviò loro degli uccelli, stormo dopo stormo,"
+    },
+    {
+      "resource_id": 176,
+      "text": "che scagliavano contro di loro pietre di argilla fossile,"
+    },
+    {
+      "resource_id": 176,
+      "text": "e Allāh li rese come erba di campo che le bestie mangiano e calpestano."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "105" }
+  }
+}

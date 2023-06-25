@@ -1,0 +1,53 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "Göğe ve Tarık'a and olsun;" },
+    { "resource_id": 77, "text": "Tarık'ın ne olduğunu sen bilir misin?" },
+    { "resource_id": 77, "text": "O, (ışığıyla karanlığı) delen yıldızdır." },
+    { "resource_id": 77, "text": "Üzerinde gözetici olmayan kimse yoktur." },
+    {
+      "resource_id": 77,
+      "text": "Öyleyse insan neden yaratıldığına bir baksın."
+    },
+    {
+      "resource_id": 77,
+      "text": "O, erkek ve kadının beli ile kaburga kemikleri arasından atılagelen bir sudan yaratılmıştır."
+    },
+    {
+      "resource_id": 77,
+      "text": "O, erkek ve kadının beli ile kaburga kemikleri arasından atılagelen bir sudan yaratılmıştır."
+    },
+    {
+      "resource_id": 77,
+      "text": "Şüphesiz Allah, gizliliklerin ortaya çıkacağı gün, insanı tekrar yaratmaya Kadir'dir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Şüphesiz Allah, gizliliklerin ortaya çıkacağı gün, insanı tekrar yaratmaya Kadir'dir."
+    },
+    {
+      "resource_id": 77,
+      "text": "O gün, insanın gücü de, yardımcısı da olmaz."
+    },
+    {
+      "resource_id": 77,
+      "text": "Dönüşlü göğe ve yarılan yeryüzüne and olsun ki,"
+    },
+    {
+      "resource_id": 77,
+      "text": "Dönüşlü göğe ve yarılan yeryüzüne and olsun ki,"
+    },
+    { "resource_id": 77, "text": "Doğrusu bu Kuran kesin bir sözdür." },
+    { "resource_id": 77, "text": "O, eğlence için değildir." },
+    { "resource_id": 77, "text": "Gerçekten onlar düzen kuruyorlar." },
+    { "resource_id": 77, "text": "Ben de bir düzen kurmaktayım." },
+    {
+      "resource_id": 77,
+      "text": "Sen inkarcılara mehil ver; onlara mukabeleyi biraz geri bırak."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- De ki: Ey Allah'a karşı kâfir olanlar!"
+    },
+    {
+      "resource_id": 172,
+      "text": "Ben, şimdi ve gelecekte sizin ibadet ettiğiniz putlara ibadet etmem."
+    },
+    {
+      "resource_id": 172,
+      "text": "Siz de benim ibadet ettiğim bir tek Allah'a ibadet edecek değilsiniz."
+    },
+    {
+      "resource_id": 172,
+      "text": "Ben de sizin ibadet ettiğiniz putlara ibadet edecek değilim."
+    },
+    {
+      "resource_id": 172,
+      "text": "Ve siz de benim ibadet ettiğim bir tek Allah'a ibadet edecek değilsiniz."
+    },
+    {
+      "resource_id": 172,
+      "text": "Kendiniz için uydurduğunuz dininiz size, Allah’ın bana indirdiği din ise banadır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "109" }
+  }
+}

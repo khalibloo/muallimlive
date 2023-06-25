@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Anjir bilan qasam va zaytun bilan qasam." },
+    { "resource_id": 55, "text": "Va Turi Siyno bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Va mana bu eminlik yurti (Makka) bilan qasam."
+    },
+    {
+      "resource_id": 55,
+      "text": "Batahqiq, Biz insonni eng yaxshi suvratda yaratdik."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra uni asfala saafiliynga qaytardik.<sup foot_note=\"169899\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Illo, iymon keltirganlar va yaxshi amallar qilganlarga minnatsiz va uzluksiz ajrlar bordir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, seni oxiratni yolg`onga chiqarishga nima olib kelur?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Alloh hukm qilguvchilarning eng hikmatlisi emasmi?!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "95" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 232, "text": "Ku lw'empangaala ya ba Kuraish." },
+    {
+      "resource_id": 232,
+      "text": "Empangaala yaabwe eyalimu okutambula engendo mu butiti ne mu kyeya."
+    },
+    {
+      "resource_id": 232,
+      "text": "Bateekwa basinze Katonda nannyini nyumba eno (Kaaba)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Katonda eyabawa eby'okulya,       n’abawonya enjala, n’abawa            e mirembe, ne bataba mu kutya."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "106" }
+  }
+}

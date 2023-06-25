@@ -1,0 +1,68 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "And olsun göyə və gecə gələnə! (Gecə peyda olub gündüz qeyb olana!)"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) Sən nə bilirsən (haradan bilirsən) ki, gecə gələn nədir?!"
+    },
+    { "resource_id": 23, "text": "(O, zülməti yaran) parlaq ulduzdur!" },
+    {
+      "resource_id": 23,
+      "text": "Elə bir kimsə yoxdur ki, onun üstündə bir gözətçi (mələk) olmasın!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Elə isə insan nədən yaradıldığına (bəsirət gözü ilə) bir baxsın!"
+    },
+    {
+      "resource_id": 23,
+      "text": "O, axıb tökülən bir sudan (nütfədən) yaradılmışdır."
+    },
+    {
+      "resource_id": 23,
+      "text": "(O su kişilərin) bel sümüyündən, (qadınların isə) köks sümüyündən çıxar!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, (Allah) insanı (öləndən sonra) yenidən diriltməyə qadirdir! -"
+    },
+    {
+      "resource_id": 23,
+      "text": "Bütün sirlərin aşkar olacağı o qiyamət günü;"
+    },
+    {
+      "resource_id": 23,
+      "text": "(O gün) insanın nə (əzabı dəf edəcək) bir qüvəsi, nə də bir köməkçisi olar!"
+    },
+    { "resource_id": 23, "text": "And olsun yağış sahibi olan göyə;" },
+    {
+      "resource_id": 23,
+      "text": "And olsun (növbənöv bitkilər yetirmək üçün) yarılan yerə ki,"
+    },
+    {
+      "resource_id": 23,
+      "text": "Bu (Qur’an haqla nahaqqı) ayırd edən kəlamdır!"
+    },
+    { "resource_id": 23, "text": "O, oyun-oyuncaq (əyləncə) deyildir!" },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, (Məkkə müşrikləri Qur’anın nurunu söndürmək üçün) hiylə qurdular."
+    },
+    {
+      "resource_id": 23,
+      "text": "Mən də (hiylələrinə qarşı) onlara cəza verirəm."
+    },
+    {
+      "resource_id": 23,
+      "text": "Elə isə (ya Peyğəmbər!) kafirlərə möhlət ver! Onlara azacıq möhlət ver!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "86" }
+  }
+}

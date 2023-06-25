@@ -1,0 +1,60 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por la noche cuando extiende su velo!" },
+    { "resource_id": 28, "text": "¡Por el día cuando resplandece!" },
+    {
+      "resource_id": 28,
+      "text": "¡Por Quien ha creado al varón y a la hembra!"
+    },
+    {
+      "resource_id": 28,
+      "text": "Vuestro esfuerzo, en verdad, da resultados diversos."
+    },
+    { "resource_id": 28, "text": "A quien da, teme a Dios," },
+    { "resource_id": 28, "text": "y cree en lo más bello," },
+    {
+      "resource_id": 28,
+      "text": "le facilitaremos el acceso a la mayor felicidad."
+    },
+    {
+      "resource_id": 28,
+      "text": "En cambio, a quien es avaro, cree bastarse a sí mismo"
+    },
+    { "resource_id": 28, "text": "y desmiente lo más bello," },
+    {
+      "resource_id": 28,
+      "text": "le facilitaremos el acceso a la mayor adversidad,"
+    },
+    {
+      "resource_id": 28,
+      "text": "y de nada le servirá su hacienda cuando sea precipitado."
+    },
+    {
+      "resource_id": 28,
+      "text": "Sí, es de incumbencia Nuestra la Dirección."
+    },
+    { "resource_id": 28, "text": "Sí, es cosa Nuestra la otra vida y ésta." },
+    { "resource_id": 28, "text": "Os he prevenido contra un fuego llameante," },
+    { "resource_id": 28, "text": "en el cual sólo arderá el infame," },
+    { "resource_id": 28, "text": "que desmiente y se desvía," },
+    {
+      "resource_id": 28,
+      "text": "el cual evitará quien de veras teme a Dios,"
+    },
+    { "resource_id": 28, "text": "que da su hacienda para purificarse," },
+    {
+      "resource_id": 28,
+      "text": "que, cuando hace un favor, no lo hace con ánimo de ser retribuido,"
+    },
+    {
+      "resource_id": 28,
+      "text": "sino tan sólo por deseo de agradar a su altísimo Señor."
+    },
+    { "resource_id": 28, "text": "¡Sí, ése quedará satisfecho!" }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "92" }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Yaratan Rabbinin adıyla oku!" },
+    { "resource_id": 210, "text": "O, insanı bir kan pıhtısından yarattı." },
+    { "resource_id": 210, "text": "Oku! Senin Rabbin, en cömert olandır." },
+    { "resource_id": 210, "text": "Ki O, kalem ile öğretmiştir." },
+    { "resource_id": 210, "text": "İnsana bilmediği şeyleri öğretti." },
+    { "resource_id": 210, "text": "Hayır! İnsan gerçekten azgınlık eder." },
+    { "resource_id": 210, "text": "Kendini müstağni/ihtiyacı yok gördü diye." },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz dönüş yalnızca Rabbine olacaktır."
+    },
+    { "resource_id": 210, "text": "Sen, o engel olanı gördün mü?" },
+    { "resource_id": 210, "text": "Bir kulu namaz kıldığı vakit." },
+    { "resource_id": 210, "text": "Ne dersin o (Peygamber) doğru yolda ise." },
+    { "resource_id": 210, "text": "Yahut takvayı emrettiyse." },
+    {
+      "resource_id": 210,
+      "text": "Gördün mü? Ya o (engel olan) yalanladı ve yüz çevirdiyse!"
+    },
+    {
+      "resource_id": 210,
+      "text": "O Allah’ın, her şeyi gördüğünü bilmiyor mu?"
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır! Eğer son vermezse, elbette perçeminden yakalayıp sürükleriz."
+    },
+    { "resource_id": 210, "text": "Yalancı, günahkâr perçeminden." },
+    {
+      "resource_id": 210,
+      "text": "Haydi! O meclisini /Taraftarlarını çağırsın."
+    },
+    { "resource_id": 210, "text": "Biz de Zebanileri çağıracağız." },
+    {
+      "resource_id": 210,
+      "text": "Hayır ona itaat etme! Allah’a secde et ve (yalnızca) O’na yaklaş."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "96" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Biz o (Kur'ân)nu Kadir gecesinde indirdik." },
+    {
+      "resource_id": 52,
+      "text": "Kadir gecesinin ne olduğunu sen nereden bileceksin?"
+    },
+    { "resource_id": 52, "text": "Kadir gecesi bin aydan daha hayırlıdır." },
+    {
+      "resource_id": 52,
+      "text": "Melekler ve Ruh (Cebrail veya Ruh adındaki melek) o gece Rablerinin izniyle, her iş için inerler."
+    },
+    {
+      "resource_id": 52,
+      "text": "O gece, tanyeri ağarıncaya kadar süren bir selâmettir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "97" }
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Sumpa man sa mga [anghel na] nakahanay sa isang hanay,"
+    },
+    {
+      "resource_id": 211,
+      "text": "saka sa mga tagapagtaboy sa isang pagtataboy,"
+    },
+    { "resource_id": 211, "text": "saka sa mga bumibigkas ng isang paalaala;" },
+    {
+      "resource_id": 211,
+      "text": "tunay na ang Diyos ninyo ay talagang nag-iisa,"
+    },
+    {
+      "resource_id": 211,
+      "text": "ang Panginoon ng mga langit at lupa at anumang nasa pagitan ng mga ito at ang Panginoon ng mga silangan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay gumayak sa langit na pinakamababa ng gayak: ang mga tala,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at bilang pangangalaga laban sa bawat demonyong naghihimagsik."
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi sila nakikinig-kinig sa konsehong pinakamataas [malibang] habang pinupukol sila mula sa bawat gilid"
+    },
+    {
+      "resource_id": 211,
+      "text": "sa isang pagpapalayas. Ukol sa mga ito ay isang pagdurusang palagian,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa sinumang humahablot ng hablot ngunit sinusundan siya ng isang ningas na nanunuot."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya magpahabilin ka sa kanila: \"Sila ba ay higit na matindi sa pagkakalikha o ang [ibang] nilikha Namin?\" Tunay na Kami ay lumikha sa kanila mula sa isang putik na malagkit."
+    },
+    { "resource_id": 211, "text": "Bagkus namangha ka habang nanunuya sila." },
+    {
+      "resource_id": 211,
+      "text": "Kapag pinaalalahanan sila ay hindi sila nag-aalaala."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kapag nakakita sila ng isang tanda ay ipinatutuya nila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagsasabi sila: \"Walang iba ito kundi isang panggagaway na malinaw."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kapag namatay ba kami at kami ay naging alabok at mga buto, tunay bang kami ay talagang mga bubuhayin"
+    },
+    { "resource_id": 211, "text": "at ang mga ninuno ba naming sinauna?\"" },
+    {
+      "resource_id": 211,
+      "text": "Sabihin mo: \"Oo, at kayo ay mga aabahin.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Saka ito ay nag-iisang bulyaw lamang, saka biglang sila ay nakatingin."
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasabi sila: \"O kapighatian sa amin! Ito ay ang Araw ng Paggantimpala.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Ito ay ang Araw ng Pagpapasya na kayo dati dito ay nagpapasinungaling."
+    },
+    {
+      "resource_id": 211,
+      "text": "[Sasabihin]: \"Kalapin ninyo ang mga lumabag sa katarungan, ang mga kauri nila, at ang anumang dati nilang sinasamba"
+    },
+    {
+      "resource_id": 211,
+      "text": "bukod pa kay Allāh, saka patnubayan ninyo sila tungo sa landasin ng Impiyerno,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at patigilin ninyo sila; tunay na sila ay mga pananagutin.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "[Sasabihin]: \"Ano ang mayroon sa inyo na hindi kayo nag-aadyaan?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Bagkus sila sa Araw na iyon ay mga susuko."
+    },
+    {
+      "resource_id": 211,
+      "text": "Lalapit ang iba sa kanila sa iba pa, na nagtatanungan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasabi sila: \"Tunay kayo ay dating pumupunta sa amin buhat sa kanan.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasabi sila: \"Bagkus hindi kayo dati mga mananampalataya."
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi kami nagkaroon sa inyo ng anumang kapamahalaan; bagkus kayo dati ay mga taong tagapagmalabis."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya nagindapat sa atin ang hatol ng Panginoon natin; tunay na tayo ay talagang mga lalasap [ng pagdurusa]."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya naglisya kami sa inyo; tunay na kami ay dating mga nalilisya.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tunay na sila sa Araw na iyon sa pagdurusa ay mga lumalahok."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay gagawa ng gayon sa mga salarin."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na sila dati, kapag sinabi sa kanila na walang Diyos kundi si Allāh, ay nagmamalaki"
+    },
+    {
+      "resource_id": 211,
+      "text": "at nagsasabi: \"Tunay na kami ba ay talagang mga mag-iiwan sa mga diyos namin dahil sa isang manunulang baliw?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Bagkus naghatid siya ng katotohanan at nagpatotoo sa mga isinugo."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na kayo ay talagang mga lalasap ng pagdurusang masakit."
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi kayo gagantihan maliban ng ayon sa dati ninyong ginagawa,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa mga itinanging lingkod ni Allāh."
+    },
+    {
+      "resource_id": 211,
+      "text": "Ang mga iyon ay may ukol sa kanila na isang panustos na nalalaman:"
+    },
+    {
+      "resource_id": 211,
+      "text": "mga bungang-kahoy, habang sila ay mga pinararangalan"
+    },
+    { "resource_id": 211, "text": "sa mga hardin ng kaginhawahan," },
+    { "resource_id": 211, "text": "sa mga kama na mga magkakaharap." },
+    {
+      "resource_id": 211,
+      "text": "Magpapaikot sa kanila ng kopa mula sa isang [bukal na] umaagos,"
+    },
+    {
+      "resource_id": 211,
+      "text": "na maputi, na kasarapan para sa mga iinom."
+    },
+    {
+      "resource_id": 211,
+      "text": "Wala ritong kalanguan at hindi sila buhat dito palalasingin."
+    },
+    {
+      "resource_id": 211,
+      "text": "Sa piling nila ay may mga babaing naglilimita ng sulyap, na [may magandang] mga mata,"
+    },
+    {
+      "resource_id": 211,
+      "text": "na para bang sila ay mga itlog na itinatago."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya lalapit ang iba sa kanila sa iba pa habang nagtatanungan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Sasabihin ng isang magsasabi kabilang sa kanila: \"Tunay na ako ay dating may isang kapisan"
+    },
+    {
+      "resource_id": 211,
+      "text": "na nagsasabi: \"Tunay na ikaw ba ay talagang kabilang sa mga tagapagpatotoo?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Kapag ba namatay ba kami at kami ay naging alabok at mga buto, tunay bang kami ay talagang mga tutumbasan?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasabi ito: \"Kayo kaya ay mga titingin?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya titingin ito saka makikita nito iyon sa kalagitnaan ng Impiyerno."
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasabi ito: \"Sumpa man kay Allāh, tunay na muntik ka talagang sumawi sa akin."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kung hindi dahil sa biyaya ng Panginoon ko, talaga sanang ako ay naging kabilang na sa mga padadaluhin [sa pagdurusa]."
+    },
+    { "resource_id": 211, "text": "Kaya ba tayo ay hindi mga namatay," },
+    {
+      "resource_id": 211,
+      "text": "maliban sa pagkamatay nating una, at tayo ay hindi mga pagdurusahin?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ito ay talagang ang pagkatamong sukdulan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Para sa tulad nito ay gumawa ang mga tagagawa."
+    },
+    {
+      "resource_id": 211,
+      "text": "Iyon ba ay higit na mabuti bilang tuluyan o ang puno ng zaqqūm?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay gumawa roon bilang pagsubok para sa mga tagalabag sa katarungan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ito ay isang punong-kahoy na lumalabas sa ugat ng Impiyerno."
+    },
+    {
+      "resource_id": 211,
+      "text": "Ang mga usbong nito ay para bang ang mga iyon ay mga ulo ng mga demonyo."
+    },
+    {
+      "resource_id": 211,
+      "text": "Saka tunay na sila ay talagang mga kakain mula rito saka mga pupuno mula rito ng mga tiyan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Pagkatapos tunay na ukol sa kanila higit doon ay talagang isang halo ng nakapapasong tubig."
+    },
+    {
+      "resource_id": 211,
+      "text": "Pagkatapos tunay na ang babalikan nila ay talagang tungo sa Impiyerno."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na sila ay nakasumpong sa mga magulang nila na mga naliligaw."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya sila sa mga bakas ng mga iyon ay nag-aapura."
+    },
+    {
+      "resource_id": 211,
+      "text": "Talaga ngang naligaw bago nila ang higit na marami sa mga sinauna."
+    },
+    {
+      "resource_id": 211,
+      "text": "Talaga ngang nagsugo Kami sa gitna nila ng mga tagapagbabala."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumingin ka kung papaano naging ang kinahinatnan ng mga binalaan,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa mga itinanging lingkod ni Allāh."
+    },
+    {
+      "resource_id": 211,
+      "text": "Talaga ngang nanawagan sa Amin si Noe, saka talagang kay inam ang Tagatugon."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagligtas Kami sa kanya at sa mag-anak niya mula sa dalamhating sukdulan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Gumawa Kami sa mga supling niya na sila ay ang mga natitira."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nag-iwan Kami para sa kanya sa mga nahuli [ng magandang pagbanggit]."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kapayapaan ay sumakay Noe sa mga nilalang."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay gayon gumaganti sa mga tagagawa ng maganda."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na siya ay kabilang sa mga lingkod Naming mga mananampalataya."
+    },
+    { "resource_id": 211, "text": "Pagkatapos nilunod Namin ang mga iba pa." },
+    {
+      "resource_id": 211,
+      "text": "Tunay na kabilang sa kakampi niya ay talagang si Abraham"
+    },
+    {
+      "resource_id": 211,
+      "text": "noong dumating siya sa Panginoon niya nang may pusong malinis,"
+    },
+    {
+      "resource_id": 211,
+      "text": "noong nagsabi siya sa ama niya at mga kababayan niya: \"Ano ang sinasamba ninyo?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Isang panlilinlang ba na mga diyos bukod pa kay Allāh ay ninanais ninyo?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya ano ang palagay ninyo sa Panginoon ng mga nilalang?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumingin siya nang isang tingin sa mga bituin,"
+    },
+    {
+      "resource_id": 211,
+      "text": "saka nagsabi: \"Tunay na ako ay maysakit.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumalikod sila palayo sa kanya habang mga lumilisan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumalilis siya sa mga diyos nila saka nagsabi: \"Hindi ba kayo kumakain?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Ano ang mayroon sa inyo na hindi kayo bumibigkas?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumalilis siya laban sa kanila ng isang hampas sa pamamagitan ng kanang kamay."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya lumapit [ang mga mananamba] patungo sa kanya, na kumakaripas."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagsabi siya: \"Sumasamba ba kayo sa nilililok ninyo"
+    },
+    {
+      "resource_id": 211,
+      "text": "samantalang si Allāh ay lumikha sa inyo at sa ginagawa ninyo?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagsabi sila: \"Magpatayo kayo para sa kanya ng isang gusali, saka itapon ninyo siya sa Impiyerno.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya nagnais sila sa kanya ng isang pakana, ngunit gumawa Kami sa kanila bilang mga pinakamababa."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagsabi siya: \"Tunay na ako ay pupunta sa Panginoon ko; magpapatnubay Siya sa akin."
+    },
+    {
+      "resource_id": 211,
+      "text": "Panginoon ko, magkaloob Ka para sa akin [ng anak] kabilang sa mga maayos.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya nagbalita Kami sa kanya ng nakagagalak hinggil sa isang batang matimpiin."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya noong umabot ito kasama sa kanya sa [gulang ng] pagpupunyagi ay nagsabi siya: \"O munting anak ko, tunay na ako ay nakakikita sa pagtulog na ako ay kumakatay sa iyo, kaya tumingin ka kung ano nakikita mo.\" Nagsabi ito: \"O ama ko, gawin mo po ang ipinag-uutos sa iyo. Matatagpuan mo po ako, kung niloob ni Allāh, kabilang sa mga nagtitiis.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya noong nagpasailalim silang dalawa at naglapag siya rito sa noo,"
+    },
+    { "resource_id": 211, "text": "nanawagan Kami sa kanya: \"O Abraham," },
+    {
+      "resource_id": 211,
+      "text": "nagpatotoo ka nga sa panaginip. Tunay na Kami ay gayon gumaganti sa mga tagagawa ng maganda.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ito ay talagang ang paglilitis na malinaw."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tumubos Kami sa kanya sa pamamagitan ng isang alay na dakila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nag-iwan Kami para sa kanya [ng magandang pagbanggit] sa mga nahuli."
+    },
+    { "resource_id": 211, "text": "Kapayapaan ay sumakay Abraham." },
+    {
+      "resource_id": 211,
+      "text": "Gayon Kami gumaganti sa mga tagagawa ng maganda."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na siya ay kabilang sa mga lingkod Naming mga mananampalataya."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagbalita Kami sa kanya ng nakalulugod hinggil kay Isaac bilang propeta kabilang sa mga maayos."
+    },
+    {
+      "resource_id": 211,
+      "text": "Pinagpala Namin siya at si Isaac. Kabilang sa mga supling nilang dalawa ay tagagawa ng maganda at malinaw na tagalabag sa katarungan sa sarili nito."
+    },
+    {
+      "resource_id": 211,
+      "text": "Talagang nagmagandang-loob Kami kina Moises at Aaron."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagligtas Kami sa kanilang dalawa at sa mag-anak nilang dalawa mula sa dalamhating sukdulan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nag-adya Kami sa kanila kaya sila ay naging ang mga nananaig."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagbigay Kami sa kanilang dalawa ng Kasulatang naglilinaw"
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagpatnubay Kami sa kanilang dalawa sa landasing tuwid."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nag-iwan Kami para sa kanilang dalawa [ng magandang pagbanggit] sa mga nahuli."
+    },
+    { "resource_id": 211, "text": "Kapayapaan ay sumakina Moises at Aaron." },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay gayon gumaganti sa mga tagagawa ng maganda."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na silang dalawa ay kabilang sa mga lingkod Naming mga mananampalataya."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na si Elias ay talagang kabilang sa mga isinugo,"
+    },
+    {
+      "resource_id": 211,
+      "text": "noong nagsabi siya sa mga kalipi niya: \"Hindi ba kayo mangingilag magkasala?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Dumadalangin ba kayo kay Baal at nagtatatwa kayo sa pinakamagaling sa mga tagalikha,"
+    },
+    {
+      "resource_id": 211,
+      "text": "kay Allāh na Panginoon ninyo at Panginoon ng mga ninuno ninyong mga sinauna?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Ngunit nagpasinungaling sila sa kanya kaya tunay na sila ay talagang mga padadaluhin [sa pagdurusa],"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa mga itinanging lingkod ni Allāh."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nag-iwan Kami para sa kanya [ng magandang pagbanggit] sa mga nahuli."
+    },
+    { "resource_id": 211, "text": "Kapayapaan ay sumakay Elias." },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay gayon gumaganti sa mga tagagawa ng maganda."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na siya ay kabilang sa mga lingkod Naming mga mananampalataya."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na si Lot ay talagang kabilang sa mga isinugo,"
+    },
+    {
+      "resource_id": 211,
+      "text": "noong nagligtas Kami sa kanya at sa mag-anak niya nang magkakasama,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa isang matandang babae sa mga nagpapaiwan."
+    },
+    { "resource_id": 211, "text": "Pagkatapos winasak Namin ang mga iba pa." },
+    {
+      "resource_id": 211,
+      "text": "Tunay na kayo ay talagang nagdaraan sa kanila sa umaga"
+    },
+    {
+      "resource_id": 211,
+      "text": "at sa gabi. Kaya hindi ba kayo nakapag-uunawa?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na si Jonas ay talagang kabilang sa mga isinugo,"
+    },
+    {
+      "resource_id": 211,
+      "text": "noong tumakas siya patungo sa daong na nilulanan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya nakipagpalabunutan siya ngunit siya ay naging kabilang sa mga natalo."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya nilamon siya ng isda habang siya ay masisisi."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya kung hindi dahil siya ay naging kabilang sa mga tagapagluwalhati,"
+    },
+    {
+      "resource_id": 211,
+      "text": "talaga sanang namalagi siya sa tiyan niyon hanggang sa Araw na bubuhaying muli sila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Ngunit itinapon Namin siya sa baybaying hungkag habang siya ay maysakit."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagpatubo Kami sa ibabaw niya ng isang puno ng malakalabasa."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagsugo Kami sa kanya sa isang daang libo o nakahihigit sila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya sumampalataya sila kaya nagpatamasa Kami sa kanila hanggang sa isang panahon."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya magpahabilin ka sa kanila: \"Ukol ba sa Panginoon mo ay ang mga anak na babae at ukol sa kanila at ang mga anak na lalaki?\""
+    },
+    {
+      "resource_id": 211,
+      "text": "O lumikha ba Kami ng mga anghel bilang mga babae habang sila ay mga sumasaksi?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Pansinin, tunay na sila dala ng kabulaanan nila ay talagang nagsasabi:"
+    },
+    {
+      "resource_id": 211,
+      "text": "\"Nagkaanak si Allāh.\" Tunay na sila ay talagang mga sinungaling."
+    },
+    {
+      "resource_id": 211,
+      "text": "Humirang ba Siya ng mga anak na babae higit sa mga anak na lalaki?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Ano ang mayroon sa inyo? Papaano kayong humahatol?"
+    },
+    { "resource_id": 211, "text": "Kaya hindi ba kayo magsasaalaala?" },
+    {
+      "resource_id": 211,
+      "text": "O mayroon ba kayong isang kapamahalaang malinaw?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya maglahad kayo ng kasulatan ninyo kung kayo ay mga tapat."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nag-angkin sila sa pagitan Niya at ng mga [anghel na] nakakubli ng isang pagkakamag-anak. Talaga ngang nalaman ng mga [anghel na] nakakubli na tunay na sila ay talagang mga padadaluhin [sa pagdurusa]."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaluwalhatian kay Allāh higit sa anumang inilalarawan nila,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa mga itinanging lingkod ni Allāh."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tunay na kayo at ang anumang sinasamba ninyo,"
+    },
+    {
+      "resource_id": 211,
+      "text": "kayo palayo sa Kanya ay hindi mga makatutukso,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa sinumang masusunog sa Impiyerno."
+    },
+    {
+      "resource_id": 211,
+      "text": "[Magsasabi ang mga anghel]: \"Walang kabilang sa amin malibang mayroon siyang isang katayuang nalalaman."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na kami ay talagang kami ang mga nakahanay."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na kami ay talagang kami ang mga tagaluwalhati.\""
+    },
+    { "resource_id": 211, "text": "Tunay na sila dati ay talagang nagsasabi:" },
+    {
+      "resource_id": 211,
+      "text": "\"Kung sakaling mayroon tayong isang paalaala mula sa mga sinauna,"
+    },
+    {
+      "resource_id": 211,
+      "text": "talaga sanang tayo ay naging mga itinatanging lingkod ni Allāh.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Ngunit tumanggi silang sumampalataya rito, kaya malalaman nila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Talaga ngang nauna ang salita Namin para sa mga lingkod Naming mga isinugo:"
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na sila, ukol sa kanila [na maging] ang mga iaadya;"
+    },
+    {
+      "resource_id": 211,
+      "text": "at tunay na ang mga kawal Namin, ukol sa kanila [na maging] ang tagadaig."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumalikod ka palayo sa kanila hanggang sa isang panahon."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tumingin ka sa kanila sapagkat makikita nila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya ba sa pagdurusang dulot Namin ay nagmamadali sila?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Ngunit kapag bumaba ito sa bakuran nila, kay sagwa ang umaga ng mga binalaan!"
+    },
+    {
+      "resource_id": 211,
+      "text": "Tumalikod ka palayo sa kanila hanggang sa isang panahon."
+    },
+    { "resource_id": 211, "text": "Tumingin ka sapagkat makikita nila." },
+    {
+      "resource_id": 211,
+      "text": "Kaluwalhatian sa Panginoon mo, ang Panginoon ng Kapangyarihan, higit sa anumang inilalarawan nila."
+    },
+    { "resource_id": 211, "text": "Kapayapaan sa mga isinugo." },
+    {
+      "resource_id": 211,
+      "text": "Ang papuri ay ukol kay Allāh, ang Panginoon ng mga nilalang."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "37" }
+  }
+}

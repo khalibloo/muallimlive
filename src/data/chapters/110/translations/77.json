@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 77,
+      "text": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "110" }
+  }
+}

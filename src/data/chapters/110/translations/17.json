@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "When comes the victory of Allah, and the Conquest,"
+    },
+    {
+      "resource_id": 17,
+      "text": "And you see mankind entering the Religion of Allah in troops,"
+    },
+    {
+      "resource_id": 17,
+      "text": "So extol with the praise of your Lord, and ask Him forgiveness; surely He has (always) been Superbly Relenting."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "110" }
+  }
+}

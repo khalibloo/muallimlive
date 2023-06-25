@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 131, "text": "The Striking Disaster!" },
+    { "resource_id": 131, "text": "What is the Striking Disaster?" },
+    {
+      "resource_id": 131,
+      "text": "And what will make you realize what the Striking Disaster is?"
+    },
+    {
+      "resource_id": 131,
+      "text": "˹It is˺ the Day people will be like scattered moths,"
+    },
+    {
+      "resource_id": 131,
+      "text": "and the mountains will be like carded wool."
+    },
+    {
+      "resource_id": 131,
+      "text": "So as for those whose scale is heavy ˹with good deeds˺,"
+    },
+    { "resource_id": 131, "text": "they will be in a life of bliss." },
+    { "resource_id": 131, "text": "And as for those whose scale is light," },
+    { "resource_id": 131, "text": "their home will be the abyss." },
+    {
+      "resource_id": 131,
+      "text": "And what will make you realize what that is?"
+    },
+    { "resource_id": 131, "text": "˹It is˺ a scorching Fire." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "101" }
+  }
+}

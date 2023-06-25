@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "Since the Quraysh became accustomed,<sup foot_note=\"182851\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "accustomed to the journey of winter and summer,<sup foot_note=\"182852\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "therefore, let them worship the Lord of this House;<sup foot_note=\"182853\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Who fed them against hunger,<sup foot_note=\"182854\">1</sup> and secured them against fear.<sup foot_note=\"182855\">2</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "106" }
+  }
+}

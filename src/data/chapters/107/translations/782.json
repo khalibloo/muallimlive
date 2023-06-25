@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 782,
+      "text": "Îl vezi tu<sup foot_note=203901>1</sup> pe cel care tăgăduieşte Judecata?"
+    },
+    {
+      "resource_id": 782,
+      "text": "El este acela care l alungă pe orfan [cu asprime]"
+    },
+    { "resource_id": 782, "text": "Şi nu îndeamnă la hrănirea sărmanului." },
+    { "resource_id": 782, "text": "Şi vai acelora care fac Rugăciunea" },
+    {
+      "resource_id": 782,
+      "text": "Fiind fără de grijă faţă de Rugăciunea lor,"
+    },
+    { "resource_id": 782, "text": "Care sunt numai făţarnici" },
+    { "resource_id": 782, "text": "Şi opresc de la ajutor!" }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "107" }
+  }
+}

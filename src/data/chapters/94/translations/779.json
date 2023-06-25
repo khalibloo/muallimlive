@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 779, "text": "N’avons-Nous pas épanoui ton cœur," },
+    { "resource_id": 779, "text": "te soulageant ainsi de ce fardeau" },
+    { "resource_id": 779, "text": "qui pesait si lourdement sur ton dos ?" },
+    { "resource_id": 779, "text": "N’avons-Nous pas rehaussé ton renom ?" },
+    {
+      "resource_id": 779,
+      "text": "Sache qu’il n’est d’épreuve qui ne soit suivie d’une délivrance."
+    },
+    {
+      "resource_id": 779,
+      "text": "Oui, il n’est pas d’épreuve qui ne soit suivie d’une délivrance."
+    },
+    {
+      "resource_id": 779,
+      "text": "Une fois donc libéré de tes occupations, consacre-toi au culte avec ferveur,"
+    },
+    {
+      "resource_id": 779,
+      "text": "te tournant sincèrement vers ton Seigneur, convoitant humblement Ses faveurs."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "94" }
+  }
+}

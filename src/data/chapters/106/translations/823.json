@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 823, "text": "For the security of the Quraysh:" },
+    {
+      "resource_id": 823,
+      "text": "their security in their winter and summer journeys."
+    },
+    {
+      "resource_id": 823,
+      "text": "So let them worship the Lord of this House,"
+    },
+    {
+      "resource_id": 823,
+      "text": "who provided them with food lest they go hungry and saved them from fear.<sup foot_note=213006>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "106" }
+  }
+}

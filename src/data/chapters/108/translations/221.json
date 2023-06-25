@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 221,
+      "text": "Quả thật, TA đã ban cho Ngươi (Muhammad) Al-Kauthar (một con sông nơi thiên đàng)."
+    },
+    {
+      "resource_id": 221,
+      "text": "Bởi thế, hãy dâng lễ nguyện Salah và tế lễ (dâng lên Allah)."
+    },
+    {
+      "resource_id": 221,
+      "text": "Quả thật, kẻ xúc phạm Ngươi mới thực sự bị cắt đứt (mọi hy vọng)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "108" }
+  }
+}

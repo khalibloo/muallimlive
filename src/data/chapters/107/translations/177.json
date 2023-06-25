@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Ngươi có biết ai là những kẻ phủ nhận sự Phục sinh và thưởng phạt không?"
+    },
+    {
+      "resource_id": 177,
+      "text": "Đó là những kẻ đối xử tệ bạc với trẻ mồ côi, không thực hiện đúng quyền lợi của trẻ mồ côi."
+    },
+    {
+      "resource_id": 177,
+      "text": "Và những kẻ đã không thúc bản thân mình hay người khác nuôi ăn người túng thiếu."
+    },
+    {
+      "resource_id": 177,
+      "text": "Đáng bị tiêu diệt và trừng phạt một cách nghiêm khắc đối với những kẻ dâng lễ Salah."
+    },
+    {
+      "resource_id": 177,
+      "text": "Những người mà họ không chu đáo dâng lễ nguyện Salah, thường lơ là và bê tha nó."
+    },
+    {
+      "resource_id": 177,
+      "text": "Những kẻ mà chúng chỉ muốn khoe cho thiên hạ nhìn thấy lễ nguyện Salah và việc làm thiện tốt của mình, chứ không hoàn toàn thành tâm vì Allah."
+    },
+    {
+      "resource_id": 177,
+      "text": "Và chúng thường không chịu giúp đỡ người khác mặc việc giúp đỡ không gây thiệt hại gì bản thân chúng."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "107" }
+  }
+}

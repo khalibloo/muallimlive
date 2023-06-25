@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Zeg: \"Hij is Allah, de Enige." },
+    {
+      "resource_id": 144,
+      "text": "Allah is de Enige van Wie al het geschapene afhankelijk is."
+    },
+    {
+      "resource_id": 144,
+      "text": "Hij heeft niet verwekt en is niet verwekt."
+    },
+    { "resource_id": 144, "text": "En niet één is aan Hem gelijkwaardig.\"" }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "112" }
+  }
+}

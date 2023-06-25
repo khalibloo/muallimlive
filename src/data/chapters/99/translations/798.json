@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 798,
+      "text": "Pandema jalichitenganyika litaka nichisikinya chakwe chamachili."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni kwisa koposya litaka misigo jakwe jausito (ichindu yayaliji nkati mwakwe, mpela malilo ni mitapo jambiya)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni kwisa kuŵecheta mundu (mwawoga soni mwakusimonga kuti): “Litite uli (litaka, ana Kiyama jiyiche?)”"
+    },
+    {
+      "resource_id": 798,
+      "text": "Lyele lisikulyo (litaka) lichiŵecheta abali syakwe syosope (sya indu yayatendekwele pachanya pakwe yambone kapena yakusakala)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ligongo lyanti Ambuje ŵenu tachililamula lyalakwelyo (kuti liŵechete)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Lyele lisikulyo ŵandu tachipwilingana ali m'mikutula jakulekangana-lekangana kuti akaalosye masengo gao."
+    },
+    {
+      "resource_id": 798,
+      "text": "Basi jwatapanganye chambone chausito wanti chisawu lunyilili, tachija kuchiona."
+    },
+    {
+      "resource_id": 798,
+      "text": "Nombe soni jwatapanganye chakusakala chausito wanti chisawu lunyilili, tachija kuchiona."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "99" }
+  }
+}

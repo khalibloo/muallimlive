@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 89,
+      "text": "Mjerë për secilin që e ofendon e përqesh (njerëzit),"
+    },
+    {
+      "resource_id": 89,
+      "text": "Që ka tubuar pasuri dhe që atë e ruan të mos i pakësohet."
+    },
+    {
+      "resource_id": 89,
+      "text": "E mendon se pasuria e tij do të bëjë të përjetshëm."
+    },
+    {
+      "resource_id": 89,
+      "text": "Jo, të mos medojë ashtu! Se ai pa tjetër do të hidhet në Hutame."
+    },
+    { "resource_id": 89, "text": "E çka dini ti se ç’është Hutame?" },
+    { "resource_id": 89, "text": "Është zjarri i All-llahut i ndezur fort." },
+    { "resource_id": 89, "text": "Që depërton deri në loçkë të zemrës." },
+    { "resource_id": 89, "text": "Ai i mbyll ata, ua zë frymën." },
+    { "resource_id": 89, "text": "Ata janë të lidhur në pranga" }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "104" }
+  }
+}

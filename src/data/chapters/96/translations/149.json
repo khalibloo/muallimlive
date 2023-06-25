@@ -1,0 +1,58 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "Recite: In the name of your<a class=\"sup\"><sup>sg </sup></a>Lord Who created—"
+    },
+    { "resource_id": 149, "text": "created man from a clinging form." },
+    {
+      "resource_id": 149,
+      "text": "Recite: And your<a class=\"sup\"><sup>sg </sup></a>Lord is the Most Noble,"
+    },
+    { "resource_id": 149, "text": "the OneWho taught by the pen—" },
+    { "resource_id": 149, "text": "taught man what he never knew." },
+    {
+      "resource_id": 149,
+      "text": "But no! Indeed, man surely exceeds all limits,"
+    },
+    { "resource_id": 149, "text": "for he sees himself self-sufficient." },
+    {
+      "resource_id": 149,
+      "text": "Indeed, to your<a class=\"sup\"><sup>sg </sup></a>Lord is the ultimate return."
+    },
+    {
+      "resource_id": 149,
+      "text": "Have you<a class=\"sup\"><sup>sg </sup></a>seen the one who forbids"
+    },
+    { "resource_id": 149, "text": "a servant when he prays?" },
+    {
+      "resource_id": 149,
+      "text": "Have you<a class=\"sup\"><sup>sg </sup></a>seen whether he was rightly guided"
+    },
+    {
+      "resource_id": 149,
+      "text": "or commanded to mindfulness<i class=\"s\">(of God) </i>?"
+    },
+    {
+      "resource_id": 149,
+      "text": "Have you<a class=\"sup\"><sup>sg </sup></a>seen whether he disbelieved and turned away?"
+    },
+    { "resource_id": 149, "text": "Has he not realized that Allah sees?" },
+    {
+      "resource_id": 149,
+      "text": "But no! Surely, if he does not desist, We will drag<i class=\"s\">(him) </i>by the forelock—"
+    },
+    { "resource_id": 149, "text": "a lying, wrongful forelock." },
+    { "resource_id": 149, "text": "Let him call on his gang;" },
+    { "resource_id": 149, "text": "We will call the guards of Hell." },
+    {
+      "resource_id": 149,
+      "text": "But no! Do not obey him, but prostrate yourself and draw near."
+    }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "96" }
+  }
+}

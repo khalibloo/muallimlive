@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "アッラーの援助と勝利が来て，" },
+    {
+      "resource_id": 35,
+      "text": "人びとが群れをなしてアッラーの教え（イスラーム）に入るのを見たら，"
+    },
+    {
+      "resource_id": 35,
+      "text": "あなたの主の栄光を誉め称え，また御赦しを請え。本当にかれは，度々赦される御方である。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "110" }
+  }
+}

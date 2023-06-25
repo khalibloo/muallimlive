@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "Say<a class=\"sup\"><sup>sg </sup></a>, “I seek refuge with the Lord of daybreak"
+    },
+    { "resource_id": 149, "text": "from the evil of whatever He created," },
+    {
+      "resource_id": 149,
+      "text": "and from the evil of a dusky night when it darkens,"
+    },
+    {
+      "resource_id": 149,
+      "text": "and from the evil of sorceresses who blow upon knots,"
+    },
+    {
+      "resource_id": 149,
+      "text": "and from the evil of an envier when he envies.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "113" }
+  }
+}

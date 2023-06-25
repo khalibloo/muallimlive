@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "(שבועה) בלילה המסתיר" },
+    { "resource_id": 233, "text": "וביום בזוהרו באורו," },
+    { "resource_id": 233, "text": "וביוצר הזכר והנקבה." },
+    { "resource_id": 233, "text": "אכן, מעשיכם נבדלים!" },
+    { "resource_id": 233, "text": "אולם, המוסר והירא," },
+    { "resource_id": 233, "text": "ומאמין בגמול," },
+    { "resource_id": 233, "text": "נדריך אותו לשביל מעשי החסד," },
+    { "resource_id": 233, "text": "אך, הקמצן המסופק" },
+    { "resource_id": 233, "text": "ומתכחש לגמול" },
+    { "resource_id": 233, "text": "נדריך אותו לשביל הרשע," },
+    { "resource_id": 233, "text": "ומה יועיל לו ממונו כשימות?" },
+    { "resource_id": 233, "text": "אכן, אנו רק מדריכים." },
+    { "resource_id": 233, "text": "אכן, לנו העולם הבא והעולם הזה." },
+    { "resource_id": 233, "text": "אני מזהיר אתכם מאש בוערת," },
+    { "resource_id": 233, "text": "שבה לא יישרף זולת המרושע," },
+    { "resource_id": 233, "text": "אשר התכחש וסטה," },
+    { "resource_id": 233, "text": "אך, הירא מאללה יוסט ממנה (מהאש)," },
+    { "resource_id": 233, "text": "אשר תורם ממונו להיטהר," },
+    { "resource_id": 233, "text": "לא כהחזר למישהו על טובה שהוא עשה," },
+    { "resource_id": 233, "text": "אלא, אך ורק, למען ריבונו הנעלה," },
+    { "resource_id": 233, "text": "(ובאחריתו) יהיה מתרצה (מגמולו)." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "92" }
+  }
+}

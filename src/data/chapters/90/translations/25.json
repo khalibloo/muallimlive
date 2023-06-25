@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Ne! Kunem se gradom ovim," },
+    {
+      "resource_id": 25,
+      "text": "a ti si u ovom gradu oslobođen ograničenja,"
+    },
+    { "resource_id": 25, "text": "i roditeljem i onim koga je rodio." },
+    { "resource_id": 25, "text": "Čovjeka smo stvorili da je u naporu." },
+    { "resource_id": 25, "text": "Misli li on da mu niko ništa ne može?" },
+    {
+      "resource_id": 25,
+      "text": "\"Utrošio sam imetak nagomilani!\", govori."
+    },
+    { "resource_id": 25, "text": "Zar misli da ga niko vidio nije?" },
+    { "resource_id": 25, "text": "Zar mu nismo dali oka dva" },
+    { "resource_id": 25, "text": "i jezik i usne dvije," },
+    { "resource_id": 25, "text": "i na dva puta uspinjuća mu ukazali?" },
+    { "resource_id": 25, "text": "Pa zašto nije savladao uspon?" },
+    { "resource_id": 25, "text": "A šta ti misliš: šta je to uspon?" },
+    { "resource_id": 25, "text": "Roba ropstva osloboditi," },
+    { "resource_id": 25, "text": "ili, u vrijeme gladi, nahraniti" },
+    { "resource_id": 25, "text": "siroče bliska roda," },
+    { "resource_id": 25, "text": "ili bijednika iz prašine." },
+    {
+      "resource_id": 25,
+      "text": "A potom da je bio od onih koji vjeruju, koji jedni drugima strpljivost preporučuju i koji jedni drugima milosrđe preporučuju;"
+    },
+    { "resource_id": 25, "text": "oni će biti - oni s desne strane!" },
+    {
+      "resource_id": 25,
+      "text": "A oni koji ne vjeruju u ajete i dokaze Naše, oni će biti- oni s lijeve strane,"
+    },
+    { "resource_id": 25, "text": "iznad njih će vatra zatvorena biti." }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "90" }
+  }
+}

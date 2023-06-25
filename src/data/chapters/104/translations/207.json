@@ -1,0 +1,36 @@
+{
+  "translations": [
+    {
+      "resource_id": 207,
+      "text": "How awful [will it be] for every backbiting slanderer"
+    },
+    {
+      "resource_id": 207,
+      "text": "who hoards wealth and keeps on adding to it!"
+    },
+    {
+      "resource_id": 207,
+      "text": "He thinks that his money will make him immortal."
+    },
+    {
+      "resource_id": 207,
+      "text": "Nevertheless he will be flung into the Bonecrusher!"
+    },
+    {
+      "resource_id": 207,
+      "text": "What will make you realize what the Bonecrusher is?"
+    },
+    {
+      "resource_id": 207,
+      "text": "[It is] Allah (God)'s kindled fire which leaps up"
+    },
+    { "resource_id": 207, "text": "to clutch at one's vitals." },
+    { "resource_id": 207, "text": "It will be vaulted over them" },
+    { "resource_id": 207, "text": "in outstretched columns." }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "104" }
+  }
+}

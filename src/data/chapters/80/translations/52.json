@@ -1,0 +1,66 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "(Peygamber) Yüzünü ekşitti ve döndü." },
+    { "resource_id": 52, "text": "Kendisine âmâ geldi, diye." },
+    { "resource_id": 52, "text": "Ne bilirsin, belki o temizlenecek?" },
+    {
+      "resource_id": 52,
+      "text": "Veya öğüt belleyecek de öğüt ona fayda verecek."
+    },
+    { "resource_id": 52, "text": "Ama buna ihtiyaç hissetmeyene gelince," },
+    { "resource_id": 52, "text": "Sen ona yöneliyorsun." },
+    { "resource_id": 52, "text": "Onun temizlenmemesinden sana ne?" },
+    { "resource_id": 52, "text": "Ama sana can atarak gelen," },
+    { "resource_id": 52, "text": "Allah'tan korkarak gelmişken," },
+    { "resource_id": 52, "text": "Sen onunla ilgilenmiyorsun." },
+    {
+      "resource_id": 52,
+      "text": "Hayır hayır, sakın. Çünkü o Kur'ân bir öğüttür."
+    },
+    { "resource_id": 52, "text": "Artık dileyen onu düşünür." },
+    { "resource_id": 52, "text": "O, değerli sahifelerdedir." },
+    { "resource_id": 52, "text": "Yüksek tutulan tertemiz sahifelerde." },
+    { "resource_id": 52, "text": "Yazıcıların ellerindedir," },
+    { "resource_id": 52, "text": "Değerli, iyi yazıcıların." },
+    { "resource_id": 52, "text": "O kahrolası insan, ne nankör şey." },
+    { "resource_id": 52, "text": "O yaratan onu hangi şeyden yarattı?" },
+    {
+      "resource_id": 52,
+      "text": "Bir damla sudan, onu yarattı da biçime koydu."
+    },
+    { "resource_id": 52, "text": "Sonra ona yolunu kolaylaştırdı." },
+    { "resource_id": 52, "text": "Sonra onu öldürdü de kabre koydurdu." },
+    { "resource_id": 52, "text": "Sonra dilediği vakit onu tekrar diriltir." },
+    {
+      "resource_id": 52,
+      "text": "Hayır hayır, doğrusu o, hiç Allah'ın emrini tam yerine getirmedi,"
+    },
+    { "resource_id": 52, "text": "Bir de o insan yiyeceğine baksın." },
+    { "resource_id": 52, "text": "Biz o suyu bol bol döktük." },
+    { "resource_id": 52, "text": "Sonra toprağı nasıl da yardık." },
+    { "resource_id": 52, "text": "Bu suretle orada ekinler bitirdik." },
+    { "resource_id": 52, "text": "Üzümler, yoncalar," },
+    { "resource_id": 52, "text": "Zeytinlikler, hurmalıklar," },
+    { "resource_id": 52, "text": "İri ve sık ağaçlı bahçeler," },
+    { "resource_id": 52, "text": "Meyveler, çayırlar bitirdik." },
+    { "resource_id": 52, "text": "Siz ve hayvanlarınız faydalansın diye." },
+    { "resource_id": 52, "text": "Kulakları sağır eden o gürültü geldiğinde," },
+    { "resource_id": 52, "text": "O gün kişi kaçar, kardeşinden..." },
+    { "resource_id": 52, "text": "Anasından, babasından.." },
+    { "resource_id": 52, "text": "Eşinden ve oğullarından." },
+    {
+      "resource_id": 52,
+      "text": "Onlardan her birinin o gün başından aşan işi vardır."
+    },
+    { "resource_id": 52, "text": "Yüzler var ki, o gün parıl parıl," },
+    { "resource_id": 52, "text": "Güler, sevinir." },
+    { "resource_id": 52, "text": "Yüzler de var ki, o gün tozlanmış," },
+    { "resource_id": 52, "text": "Onları karanlık bürümüş," },
+    { "resource_id": 52, "text": "İşte onlardır kâfirler, haktan sapanlar." }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "80" }
+  }
+}

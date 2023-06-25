@@ -1,0 +1,85 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Despre ce se întreabă unii pe alţii?" },
+    { "resource_id": 44, "text": "Despre Vestea cea Mare" },
+    { "resource_id": 44, "text": "asupra căreia se ceartă." },
+    { "resource_id": 44, "text": "Ba nu!... Curând ei vor avea ştire!" },
+    { "resource_id": 44, "text": "Şi iarăşi, curând ei vor avea ştire!" },
+    { "resource_id": 44, "text": "Nu am făcut Noi pământul leagăn," },
+    { "resource_id": 44, "text": "iar munţii ţăruşi?" },
+    { "resource_id": 44, "text": "Noi v-am creat pe voi cu pereche." },
+    { "resource_id": 44, "text": "Şi v-am făcut vouă somnul odihnă." },
+    { "resource_id": 44, "text": "Noi am făcut noaptea veşmânt," },
+    { "resource_id": 44, "text": "şi am făcut ziua pentru trai." },
+    { "resource_id": 44, "text": "Am zidit deasupra voastră şapte tării." },
+    { "resource_id": 44, "text": "Am făcut o candelă dogoritoare." },
+    { "resource_id": 44, "text": "Şi din nori am trimis apă şuvoi" },
+    { "resource_id": 44, "text": "ca să dea la iveală grâne şi ierburi" },
+    { "resource_id": 44, "text": "şi grădini îmbelşugate." },
+    { "resource_id": 44, "text": "Da, Ziua Cumpenei este hotărâtă." },
+    {
+      "resource_id": 44,
+      "text": "În Ziua când se va sufla în trâmbiţă, veţi veni în cete."
+    },
+    {
+      "resource_id": 44,
+      "text": "Cerul se va deschide şi vor fi numai porţi."
+    },
+    {
+      "resource_id": 44,
+      "text": "Munţii se vor pune în mişcare şi vor fi numai năluciri."
+    },
+    { "resource_id": 44, "text": "Gheena ce stă la pândă" },
+    { "resource_id": 44, "text": "va fi liman ticăloşilor" },
+    { "resource_id": 44, "text": "care vor zăcea acolo veacuri de-a rândul" },
+    { "resource_id": 44, "text": "fără să guste răcoare ori băutură," },
+    {
+      "resource_id": 44,
+      "text": "ci numai apă clocotită şi băutură împuţită,"
+    },
+    { "resource_id": 44, "text": "căci aceasta le va fi răsplată cuvenită." },
+    { "resource_id": 44, "text": "Ei nu aşteptau nici o Judecată," },
+    { "resource_id": 44, "text": "căci socoteau semnele Noastre minciuni." },
+    {
+      "resource_id": 44,
+      "text": "Noi am ţinut însă socoteala la tot într-o carte."
+    },
+    {
+      "resource_id": 44,
+      "text": "Gustaţi, aşadar! Noi vouă nu vă vom mări decât osânda!"
+    },
+    { "resource_id": 44, "text": "Cei temători vor avea un loc fericit:" },
+    { "resource_id": 44, "text": "grădini şi podgorii," },
+    { "resource_id": 44, "text": "fete cu sânul împlinit, lor însoţitoare," },
+    { "resource_id": 44, "text": "pocale ce se revarsă." },
+    {
+      "resource_id": 44,
+      "text": "Nu vor auzi acolo deşertăciuni ori minciuni."
+    },
+    {
+      "resource_id": 44,
+      "text": "Aceasta este răsplata de la Domnul tău, un dar bine socotit,"
+    },
+    {
+      "resource_id": 44,
+      "text": "de la Domnul cerurilor şi al pământului şi a ceea ce este între ele; al Milostivului ce nimănui nu-i este dat să-i vorbească."
+    },
+    {
+      "resource_id": 44,
+      "text": "În Ziua când Duhul şi îngerii vor sta aşezaţi în rând nu vor vorbi decât cei cărora Milostivul le va îngădui şi vor spune doar ceea ce se cuvine."
+    },
+    {
+      "resource_id": 44,
+      "text": "Ziua aceea este Adevărul. Cel care vrea, va afla la Domnul său liman."
+    },
+    {
+      "resource_id": 44,
+      "text": "Noi v-am prevenit pe voi asupra apropiatei osânde din Ziua în care omul se va uita la ceea ce au făptuit mâinile sale şi când tăgăduitorul va zice: “Ce bine era de-aş fi fost ţărână!”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "78" }
+  }
+}

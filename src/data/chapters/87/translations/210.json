@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Yüce Rabbinin adını tesbih et." },
+    {
+      "resource_id": 210,
+      "text": "O; yaratıp şekillendiren, düzene koyandır."
+    },
+    {
+      "resource_id": 210,
+      "text": "O, (her şeyi) ölçüyle yapıp, yol gösterendir."
+    },
+    { "resource_id": 210, "text": "Otlağı çıkarandır." },
+    {
+      "resource_id": 210,
+      "text": "Sonra da onu kuru siyah bir ota çevirmiştir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Sana (Kur’an’ı) okutacağız ve sen onu unutmayacaksın."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ancak Allah’ın dilediği hariç. Şüphesiz O; açık olanı da bilir, gizliyi de."
+    },
+    { "resource_id": 210, "text": "Ve sana en kolay olanı kolaylaştırırız." },
+    {
+      "resource_id": 210,
+      "text": "O halde –eğer öğüt fayda verirse- sen de öğüt ver."
+    },
+    {
+      "resource_id": 210,
+      "text": "(Allah'tan) İçi titreyerek korkan hatırlayıp kendine gelir."
+    },
+    { "resource_id": 210, "text": "Kötü kimse ise öğütten kaçınır." },
+    { "resource_id": 210, "text": "O kimsedir ki, en büyük ateşe girecektir." },
+    { "resource_id": 210, "text": "Sonra onun içinde ne ölür, ne de yaşar." },
+    { "resource_id": 210, "text": "Sonra onun içinde ne ölür, ne de yaşar." },
+    { "resource_id": 210, "text": "Ve Rabbinin adını anıp namaz kılan." },
+    {
+      "resource_id": 210,
+      "text": "Fakat sizler, dünya hayatını tercih ediyorsunuz."
+    },
+    { "resource_id": 210, "text": "Oysa ahiret daha iyi ve kalıcıdır." },
+    { "resource_id": 210, "text": "Şüphesiz bu, önceki sahifelerde vardır." },
+    { "resource_id": 210, "text": "İbrahim’in ve Musa’nın sahifelerinde." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "87" }
+  }
+}

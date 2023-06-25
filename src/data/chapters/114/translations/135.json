@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 135,
+      "text": "[ای پیامبر،] بگو: «به پروردگار مردم پناه می‌برم،"
+    },
+    { "resource_id": 135, "text": "فرمانروای مردم،" },
+    { "resource_id": 135, "text": "معبود مردم،" },
+    {
+      "resource_id": 135,
+      "text": "از شرِ [شیطانِ] وسوسه‌گر که [به هنگام ذکر الله،] پنهان می‌گردد؛"
+    },
+    {
+      "resource_id": 135,
+      "text": "همان [وسوسه‌گری] که در دل‌های مردم وسوسه می‌کند؛"
+    },
+    { "resource_id": 135, "text": "از جنیان [باشد] و [یا از] آدمیان»." }
+  ],
+  "meta": {
+    "translation_name": "IslamHouse.com",
+    "author_name": "IslamHouse.com",
+    "filters": { "resource_id": 135, "chapter_number": "114" }
+  }
+}

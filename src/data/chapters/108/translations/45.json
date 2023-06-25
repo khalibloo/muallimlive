@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 45,
+      "text": "Мы даровали тебе аль-Каусар (бесчисленные блага, в том числе одноименную реку в Раю)."
+    },
+    {
+      "resource_id": 45,
+      "text": "Посему совершай намаз ради своего Господа и закалывай жертву."
+    },
+    {
+      "resource_id": 45,
+      "text": "Воистину, твой ненавистник сам окажется безвестным."
+    }
+  ],
+  "meta": {
+    "translation_name": "Russian Translation ( Elmir Kuliev )",
+    "author_name": "Elmir Kuliev",
+    "filters": { "resource_id": 45, "chapter_number": "108" }
+  }
+}

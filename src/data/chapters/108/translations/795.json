@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 795, "text": "ߊ߲ ߓߘߴߌ ߛߐ߫ ߤߙߊ߫ ߛߌߦߊߡߊ߲߫ ߠߊ߫." },
+    {
+      "resource_id": 795,
+      "text": "ߒ߬ߓߊ߬ ߌ ߛߊߟߴߌ ߡߊ߰ߙߌ ߦߋ߫ ، ߊ߬ ߣߴߌ ߦߋ߫ ߜߙߐ߬ߟߌ ߞߍ߫ ( ߌ ߟߊ߫ ߟߌ߬ߦߊ߲ ߠߊ߫ )."
+    },
+    { "resource_id": 795, "text": "ߖߊ߯ߕߋ߬ ߸ ߌ ߞߐߣߌ߲ߧߊߓߊ߮ ߟߋ߬ ߞߐ ߟߊߜߊ߬ߣߊ߲߬ߕߐ߫." }
+  ],
+  "meta": {
+    "translation_name": "Suliman Kanti",
+    "author_name": "Suliman Kanti",
+    "filters": { "resource_id": 795, "chapter_number": "108" }
+  }
+}

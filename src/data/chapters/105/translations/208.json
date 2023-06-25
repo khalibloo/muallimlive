@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 208,
+      "text": "Hast du nicht gesehen, wie dein Herr mit den Leuten des Elefanten verfahren ist?"
+    },
+    { "resource_id": 208, "text": "Hat Er nicht ihre List mißlingen lassen" },
+    { "resource_id": 208, "text": "und Vögel in Scharen über sie gesandt" },
+    { "resource_id": 208, "text": "die sie mit brennenden Steinen bewarfen" },
+    {
+      "resource_id": 208,
+      "text": "und sie dadurch wie abgefressene Saat gemacht?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "105" }
+  }
+}

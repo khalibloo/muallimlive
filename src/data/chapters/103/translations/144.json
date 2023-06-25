@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Bij de tijd." },
+    { "resource_id": 144, "text": "Voorwaar, de mens lijdt zeker verlies." },
+    {
+      "resource_id": 144,
+      "text": "Behalve degenen die geloven en goede daden verrichten en elkaar aansporen tot de Waarheid en elkaar aansporen tot geduld."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "103" }
+  }
+}

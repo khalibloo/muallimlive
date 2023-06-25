@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "Indeed, We sent it [i.e., the Qur’ān] down during the Night of Decree."
+    },
+    {
+      "resource_id": 20,
+      "text": "And what can make you know what is the Night of Decree?"
+    },
+    {
+      "resource_id": 20,
+      "text": "The Night of Decree is better than a thousand months."
+    },
+    {
+      "resource_id": 20,
+      "text": "The angels and the Spirit [i.e., Gabriel] descend therein by permission of their Lord for every matter.<sup foot_note=197788>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Peace it is<sup foot_note=197789>1</sup> until the emergence of dawn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "97" }
+  }
+}

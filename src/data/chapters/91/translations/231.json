@@ -1,0 +1,63 @@
+{
+  "translations": [
+    {
+      "resource_id": 231,
+      "text": "Mwenyezi Mungu Anaapa kwa jua na mchana wake na mwangaza wake wa asubuhi."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na kwa mwezi unapolifuata wakati wa kucha na kutwa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na kwa mchana unapoliondoa giza na kulifunua."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na kwa usiku unapoifinika ardhi ikawa giza."
+    },
+    { "resource_id": 231, "text": "Na kwa mbingu na kujengeka kwake kiimara." },
+    { "resource_id": 231, "text": "Na kwa ardhi na kutandikika kwake." },
+    {
+      "resource_id": 231,
+      "text": "Na kwa kila nafsi na namna Mwenyezi Mungu alivyoikamilisha umbo lake ili itekeleze kazi iliyoumbiwa nayo."
+    },
+    {
+      "resource_id": 231,
+      "text": "Akaibainishia njia ya shari na njia ya kheri."
+    },
+    {
+      "resource_id": 231,
+      "text": "Amefaulu mwenye kuisafisha na kuikuza kwa kheri."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na ameingia kwenye hasara mwenye kuitia nafsi yake kwenye maasia."
+    },
+    {
+      "resource_id": 231,
+      "text": "Kabila la Thamūd lilimkanusha Nabii wake kwa kuvama kwenye uasi."
+    },
+    {
+      "resource_id": 231,
+      "text": "Pindi walipotoka wabaya zaidi wa kabila hilo kumchinja Ngamia. Mtume wa Mwenyezi Mungu’ Ṣāliḥ, amani imshukie,"
+    },
+    {
+      "resource_id": 231,
+      "text": "akawaambia: «Tahadharini kumgusa kwa ubaya ngamia ambaye ni miujiza ilioletwa na Mwenyezi Mungu kwenu inayoonyesha ukweli wa Nabii wenu, na msizuie kinywaji chake. Yeye ana siku yake ya kunywa na nyinyi mna siku yenu maalumu ya kunywa.» Hilo likawa zito kwao."
+    },
+    {
+      "resource_id": 231,
+      "text": "Wakamkanusha na kulipuza onyo lake wakamchinja.Mola wao Akawafinika kwa adhabu, akaisawazisha juu yao na hakuna aliyeweza kuponyoka."
+    },
+    {
+      "resource_id": 231,
+      "text": "Wala Haogopi, Mwenye uwezo uliotukuka, athari ya adhabu kali Aliywateremshia."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "author_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "filters": { "resource_id": 231, "chapter_number": "91" }
+  }
+}

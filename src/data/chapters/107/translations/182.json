@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 182, "text": "你知道否认复活日回报的人吗?" },
+    { "resource_id": 182, "text": "他就是当孤儿有求于他，而严厉呵斥之人，" },
+    { "resource_id": 182, "text": "是不主动，也不鼓励他人去施舍穷人之人，" },
+    { "resource_id": 182, "text": "毁灭并惩罚那些礼拜者" },
+    {
+      "resource_id": 182,
+      "text": "他们对自己的拜功确是疏忽的，他们不注重礼拜时间，直到时间已过，"
+    },
+    {
+      "resource_id": 182,
+      "text": "他们是以其礼拜和善功而炫耀之人，他们并不虔诚为主，"
+    },
+    { "resource_id": 182, "text": "他们在不伤自己利益时也不愿意帮助他人。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "107" }
+  }
+}

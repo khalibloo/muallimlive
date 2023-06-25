@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 798, "text": "Chagunda ntima (Kiyama)." },
+    { "resource_id": 798, "text": "Ana chagunda ntima nichichi?" },
+    {
+      "resource_id": 798,
+      "text": "Ana ni chichi champaka chimmanyisye ya chagunda ntima?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Lyele ni lisiku (lya Kiyama) lyachachiŵa ŵandu (sakalaalii!) mpela mapuluputwa gakusapalala."
+    },
+    {
+      "resource_id": 798,
+      "text": "Nombe matumbi gachiŵa (nkuwululuka) mpela litonji lyetyosye mbele."
+    },
+    {
+      "resource_id": 798,
+      "text": "Sano mundu jwachiukasitope n'diingo wakwe (wa yambone, nikwepepala yakusakala).<sup foot_note=195477>1</sup>"
+    },
+    {
+      "resource_id": 798,
+      "text": "Basi jwalakwejo takaŵe mu ndamo jakusengwasya."
+    },
+    {
+      "resource_id": 798,
+      "text": "Nambo mundu jwachiukajepepale n'dingo wakwe (wa yambone, ni kusitopa yakusakala)."
+    },
+    { "resource_id": 798, "text": "Basi liuto lyakwe ni ku Hawiya." },
+    {
+      "resource_id": 798,
+      "text": "Ana ni chichi champaka chimmanyisye ya jele (Hawiya)?"
+    },
+    { "resource_id": 798, "text": "Wele ni Moto Wakoocha nnope." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "101" }
+  }
+}

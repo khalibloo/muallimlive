@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Dis : « Il est Allah, l’Un." },
+    {
+      "resource_id": 136,
+      "text": "Allah, le Primultime.<sup foot_note=195250>1</sup>"
+    },
+    { "resource_id": 136, "text": "Il n’a pas engendré ni n’a été engendré." },
+    { "resource_id": 136, "text": "Et nul n’est Son égal ! »" }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "112" }
+  }
+}

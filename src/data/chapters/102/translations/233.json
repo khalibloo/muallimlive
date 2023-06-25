@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "תאוות הבצע הסיטה אתכם," },
+    { "resource_id": 233, "text": "עד שביקרתם בבתי הקברות." },
+    { "resource_id": 233, "text": "לא ולא! סופכם שתדעו." },
+    { "resource_id": 233, "text": "אכן! סופכם שתדעו" },
+    { "resource_id": 233, "text": "לא ולא! לו תכירו הכרה וודאית" },
+    { "resource_id": 233, "text": "את השאול הייתם רואים," },
+    { "resource_id": 233, "text": "ושנית, תראוה בוודאות!" },
+    { "resource_id": 233, "text": "ובאותו יום ,תיתנו דין וחשבון על ההנאות." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "102" }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "translations": [
+    { "resource_id": 167, "text": "I swear by the sun and his broad light," },
+    { "resource_id": 167, "text": "] and by the moon when she follows him," },
+    {
+      "resource_id": 167,
+      "text": "and by the day when it shows its brightness,"
+    },
+    { "resource_id": 167, "text": "and by the night when it envelops him," },
+    {
+      "resource_id": 167,
+      "text": "] and by the sky, and the One who built it,"
+    },
+    {
+      "resource_id": 167,
+      "text": "and by the earth, and the One who spread it,"
+    },
+    {
+      "resource_id": 167,
+      "text": "and by the soul, and the One who made it well,"
+    },
+    {
+      "resource_id": 167,
+      "text": "] then inspired it with its (instincts of) evil and piety,"
+    },
+    {
+      "resource_id": 167,
+      "text": "success is really attained by him who purifies it,"
+    },
+    {
+      "resource_id": 167,
+      "text": "and failure is really suffered by him who pollutes it."
+    },
+    {
+      "resource_id": 167,
+      "text": "(The People of) Thamud denied the truth because of their transgression,"
+    },
+    {
+      "resource_id": 167,
+      "text": "when rose up the one who was most wretched of them."
+    },
+    {
+      "resource_id": 167,
+      "text": "So, the Messenger of Allah said to them, \"Be careful of Allah's she-camel and her right to drink.\""
+    },
+    {
+      "resource_id": 167,
+      "text": "But they rejected him and killed her, so their Lord sent eradicating torment upon them, and made it equal for all."
+    },
+    { "resource_id": 167, "text": "And He has no fear of its consequence." }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "91" }
+  }
+}

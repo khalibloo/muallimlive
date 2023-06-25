@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 32,
+      "text": "Hannãye biyu na Abũlahabi sun halaka, kuma ya halaka."
+    },
+    {
+      "resource_id": 32,
+      "text": "Dũkiyarsa ba ta tsare masa kõme ba, da abin da ya tãra."
+    },
+    { "resource_id": 32, "text": "Zã ya shiga wuta mai hũruwa." },
+    { "resource_id": 32, "text": "Tãre da matarsa mai ɗaukar itacen (wuta)." },
+    {
+      "resource_id": 32,
+      "text": "A cikin kyakkyãwan wuyanta akwai igiya ta kaba (Rãnar ¡iyãma)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "111" }
+  }
+}

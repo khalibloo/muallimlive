@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Tharoang ka a: Mlindong ako ko Kadnan o manga manosiya,"
+    },
+    { "resource_id": 38, "text": "A Phapaar ko manga manosiya," },
+    { "resource_id": 38, "text": "A Tohan o manga manosiya," },
+    {
+      "resource_id": 38,
+      "text": "Phoon ko karataan o pphangonsi, a pphanoosook,"
+    },
+    {
+      "resource_id": 38,
+      "text": "So pphangonsi ko manga rarb o manga manosiya,"
+    },
+    { "resource_id": 38, "text": "A pd ko manga jinn, ago so manga manosiya" }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "114" }
+  }
+}

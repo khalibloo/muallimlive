@@ -1,0 +1,77 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Ya ayyuha almuddaththir" },
+    { "resource_id": 57, "text": "Qum faanthir" },
+    { "resource_id": 57, "text": "Warabbaka fakabbir" },
+    { "resource_id": 57, "text": "Wathiyabaka fatahhir" },
+    { "resource_id": 57, "text": "Warrujza fahjur" },
+    { "resource_id": 57, "text": "Wala tamnun tastakthir" },
+    { "resource_id": 57, "text": "Walirabbika fasbir" },
+    { "resource_id": 57, "text": "Fa-itha nuqira fee annaqoor" },
+    { "resource_id": 57, "text": "Fathalika yawma-ithin yawmunAAaseer" },
+    { "resource_id": 57, "text": "AAala alkafireena ghayruyaseer" },
+    { "resource_id": 57, "text": "Tharnee waman khalaqtu waheeda" },
+    { "resource_id": 57, "text": "WajaAAaltu lahu malan mamdooda" },
+    { "resource_id": 57, "text": "Wabaneena shuhooda" },
+    { "resource_id": 57, "text": "Wamahhadtu lahu tamheeda" },
+    { "resource_id": 57, "text": "Thumma yatmaAAu an azeed" },
+    { "resource_id": 57, "text": "Kalla innahu kana li-ayatinaAAaneeda" },
+    { "resource_id": 57, "text": "Saorhiquhu saAAooda" },
+    { "resource_id": 57, "text": "Innahu fakkara waqaddar" },
+    { "resource_id": 57, "text": "Faqutila kayfa qaddar" },
+    { "resource_id": 57, "text": "Thumma qutila kayfa qaddar" },
+    { "resource_id": 57, "text": "Thumma nathar" },
+    { "resource_id": 57, "text": "Thumma AAabasa wabasar" },
+    { "resource_id": 57, "text": "Thumma adbara wastakbar" },
+    { "resource_id": 57, "text": "Faqala in hatha illa sihrunyu/thar" },
+    { "resource_id": 57, "text": "In hatha illa qawlu albashar" },
+    { "resource_id": 57, "text": "Saosleehi saqar" },
+    { "resource_id": 57, "text": "Wama adraka ma saqar" },
+    { "resource_id": 57, "text": "La tubqee wala tathar" },
+    { "resource_id": 57, "text": "Lawwahatun lilbashar" },
+    { "resource_id": 57, "text": "AAalayha tisAAata AAashar" },
+    {
+      "resource_id": 57,
+      "text": "Wama jaAAalna as-habaannari illa mala-ikatan wamajaAAalna AAiddatahum illa fitnatan lillatheenakafaroo liyastayqina allatheena ootoo alkitabawayazdada allatheena amanoo eemananwala yartaba allatheena ootoo alkitabawalmu/minoona waliyaqoola allatheena feequloobihim maradun walkafiroona mathaarada Allahu bihatha mathalan kathalikayudillu Allahu man yashao wayahdee man yashaowama yaAAlamu junooda rabbika illa huwa wamahiya illa thikra lilbashar"
+    },
+    { "resource_id": 57, "text": "Kalla walqamar" },
+    { "resource_id": 57, "text": "Wallayli ith adbar" },
+    { "resource_id": 57, "text": "Wassubhi ithaasfar" },
+    { "resource_id": 57, "text": "Innaha la-ihda alkubar" },
+    { "resource_id": 57, "text": "Natheeran lilbashar" },
+    {
+      "resource_id": 57,
+      "text": "Liman shaa minkum an yataqaddama awyataakhkhar"
+    },
+    { "resource_id": 57, "text": "Kullu nafsin bima kasabat raheena" },
+    { "resource_id": 57, "text": "Illa as-haba alyameen" },
+    { "resource_id": 57, "text": "Fee jannatin yatasaaloon" },
+    { "resource_id": 57, "text": "AAani almujrimeen" },
+    { "resource_id": 57, "text": "Ma salakakum fee saqar" },
+    { "resource_id": 57, "text": "Qaloo lam naku mina almusalleen" },
+    { "resource_id": 57, "text": "Walam naku nutAAimu almiskeen" },
+    { "resource_id": 57, "text": "Wakunna nakhoodu maAAa alkha-ideen" },
+    { "resource_id": 57, "text": "Wakunna nukaththibu biyawmi addeen" },
+    { "resource_id": 57, "text": "Hatta atanaalyaqeen" },
+    { "resource_id": 57, "text": "Fama tanfaAAuhum shafaAAatu ashshafiAAeen" },
+    { "resource_id": 57, "text": "Fama lahum AAani attathkiratimuAArideen" },
+    { "resource_id": 57, "text": "Kaannahum humurun mustanfira" },
+    { "resource_id": 57, "text": "Farrat min qaswara" },
+    {
+      "resource_id": 57,
+      "text": "Bal yureedu kullu imri-in minhum an yu/tasuhufan munashshara"
+    },
+    { "resource_id": 57, "text": "Kalla bal la yakhafoonaal-akhira" },
+    { "resource_id": 57, "text": "Kalla innahu tathkira" },
+    { "resource_id": 57, "text": "Faman shaa thakarah" },
+    {
+      "resource_id": 57,
+      "text": "Wama yathkuroona illaan yashaa Allahu huwa ahlu attaqwawaahlu almaghfirat"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "74" }
+  }
+}

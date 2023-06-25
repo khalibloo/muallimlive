@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Sọ pé: “Ẹ̀yin aláìgbàgbọ́," },
+    {
+      "resource_id": 125,
+      "text": "Èmi kò níí jọ́sìn fún ohun tí ẹ̀ ń jọ́sìn fún."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ẹ̀yin náà kò jọ́sìn fún Ẹni tí mò ń jọ́sìn fún."
+    },
+    {
+      "resource_id": 125,
+      "text": "Èmi kò níí jọ́sìn fún ohun tí ẹ jọ́sìn fún sẹ́."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ẹ̀yin náà kò kú jọ́sìn fún Ẹni tí mò ń jọ́sìn fún."
+    },
+    { "resource_id": 125, "text": "Tiyín ni ẹ̀sìn yín, tèmi sì ni ẹ̀sìn mi.”" }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Sumpa man sa langit at sa tagapunta sa gabi."
+    },
+    {
+      "resource_id": 211,
+      "text": "Ano ang nagpabatid sa iyo kung ano ang tagapunta sa gabi?"
+    },
+    { "resource_id": 211, "text": "[Ito] ang bituing tumatagos." },
+    {
+      "resource_id": 211,
+      "text": "Walang kaluluwa malibang dito ay may isang tagapag-ingat."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tumingin ang tao mula sa ano siya nilikha."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nilikha siya mula sa isang likidong pumupulandit,"
+    },
+    {
+      "resource_id": 211,
+      "text": "na lumalabas mula sa pagitan ng gulugod at mga tadyang."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Siya, sa pagpapabalik dito, ay talagang Nakakakaya."
+    },
+    { "resource_id": 211, "text": "Sa Araw na sisiyasatin ang mga lihim," },
+    {
+      "resource_id": 211,
+      "text": "walang ukol sa kanya na anumang lakas ni tagapag-adya."
+    },
+    { "resource_id": 211, "text": "Sumpa man sa langit na may pagpapabalik," },
+    { "resource_id": 211, "text": "sumpa man sa lupa na may bitak;" },
+    {
+      "resource_id": 211,
+      "text": "tunay na [ang Qur’ān na] ito ay talagang isang sinabing pambukod,"
+    },
+    { "resource_id": 211, "text": "at hindi ito ang biru-biro." },
+    { "resource_id": 211, "text": "Tunay na sila ay nagpapakana ng pakana," },
+    { "resource_id": 211, "text": "at nagpapakana naman Ako ng pakana." },
+    {
+      "resource_id": 211,
+      "text": "Kaya mag-anta-antabay ka sa mga tagatangging sumampalataya, mag-antabay ka sa kanila nang hinay-hinay."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "translations": [
+    {
+      "resource_id": 47,
+      "text": "Pasha ata (engjëj) që marrin shpirtrat me rrëmbim (përmbytshëm)!"
+    },
+    { "resource_id": 47, "text": "Dhe ata që marrin shpirtra me lehtësim!" },
+    { "resource_id": 47, "text": "Dhe ata që notojnë me shpejtësi!" },
+    {
+      "resource_id": 47,
+      "text": "Dhe nxitësit të cilët me shpejtësi në vendin e vet i çojnë!"
+    },
+    { "resource_id": 47, "text": "Dhe pasha ata që çdo çështje rregullojnë!" },
+    { "resource_id": 47, "text": "Ditën që vrullshëm bëhet dridhja." },
+    { "resource_id": 47, "text": "Që pas saj pason tjetra." },
+    { "resource_id": 47, "text": "Atë ditë zemrat janë të tronditura." },
+    {
+      "resource_id": 47,
+      "text": "Shikimet e tyre janë të poshtruara (frikësuara)."
+    },
+    {
+      "resource_id": 47,
+      "text": "Ata (idhujtarët në dynja) thonë: “A thua do të bëhemi përsëri kështu si jemi?”"
+    },
+    {
+      "resource_id": 47,
+      "text": "A edhe pasi të jemi bërë eshtra të kalbur?”"
+    },
+    {
+      "resource_id": 47,
+      "text": "Ata thanë: “Atëherë, ai kthim do të jetë dëshpërues për ne!”"
+    },
+    {
+      "resource_id": 47,
+      "text": "Po ajo (ringjallja) nuk do të jetë tjetër pos një thirrje (klithje)."
+    },
+    { "resource_id": 47, "text": "Dhe ja, ata mbi sipërfaqen e tokës." },
+    { "resource_id": 47, "text": "A të ka ardhur ty rrëfimi i Musait?" },
+    {
+      "resource_id": 47,
+      "text": "Kur Zoti i tij e pat thirrur në luginën e bekuar Tuva (rrënzë kodrës Turi Sina)."
+    },
+    { "resource_id": 47, "text": "Shko te faraoni se vërtet ai e ka tepruar." },
+    { "resource_id": 47, "text": "Dhe thuaj: “E ke ndër mend të pastrohesh?”" },
+    {
+      "resource_id": 47,
+      "text": "Unë të udhëzoi te Zoti yt e ti t’ia keshë frikën Atij!"
+    },
+    { "resource_id": 47, "text": "Dhe ai ia tregoi mrekullinë e madhe." },
+    { "resource_id": 47, "text": "Po ai e përgënjeshtroi dhe e kundërshtoi." },
+    {
+      "resource_id": 47,
+      "text": "Pastaj u kthye prapa dhe iku me të shpejtë."
+    },
+    {
+      "resource_id": 47,
+      "text": "I tuboi (të gjithë të vetët) dhe u mbajti fjalim."
+    },
+    { "resource_id": 47, "text": "E u tha: “Unë jam zoti juaj më i lartë!”" },
+    {
+      "resource_id": 47,
+      "text": "Atëherë tmerrshëm e dënoi atë, për këtë të fundit dhe për atë të parën."
+    },
+    {
+      "resource_id": 47,
+      "text": "Në këtë ndëshkim ka përvojë mësimi për atë që frikësohet."
+    },
+    {
+      "resource_id": 47,
+      "text": "A është më i rëndë rëndë krijimi juaj apo ai i qiellit? E Ai e ngriti atë!"
+    },
+    { "resource_id": 47, "text": "Ngriti kuoën e tij dhe e përsosi atë." },
+    { "resource_id": 47, "text": "Natën ia errësoi e ditën ia ndriçoi." },
+    { "resource_id": 47, "text": "E pastaj tokën e sheshoi." },
+    {
+      "resource_id": 47,
+      "text": "Dhe prej saj nxori ujin e saj dhe kullosat e saj."
+    },
+    { "resource_id": 47, "text": "Kurse kodrat ia përforcoi." },
+    { "resource_id": 47, "text": "Si furnizim për ju dhe për kafshët tuaja." },
+    { "resource_id": 47, "text": "E kur të vijë vala e madhe (kijameti)," },
+    {
+      "resource_id": 47,
+      "text": "Atë ditë njeriu përkujton se çka ka punuar."
+    },
+    {
+      "resource_id": 47,
+      "text": "E Xhehennemi shfaqet sheshazi për atë që e sheh."
+    },
+    { "resource_id": 47, "text": "E për sa u përket atij që ka tepruar." },
+    { "resource_id": 47, "text": "Dhe i dha përparësi jetës së kësaj bote," },
+    { "resource_id": 47, "text": "Xhehennemi do të jetë vendi i tij." },
+    {
+      "resource_id": 47,
+      "text": "E kush iu frikësua paraqitjes para Zotit të vet dhe ndaloi veten prej epsheve,"
+    },
+    { "resource_id": 47, "text": "Xhenneti është vendi i tij." },
+    {
+      "resource_id": 47,
+      "text": "Ty të pyesin për kijametin: “Kur do të ndodhë ai?!”"
+    },
+    {
+      "resource_id": 47,
+      "text": "Po, në çfarë gjendje je ti t’ua përkutosh atë?"
+    },
+    { "resource_id": 47, "text": "Vetëm te Zoti yt është dijenia për të." },
+    {
+      "resource_id": 47,
+      "text": "Ti je vetëm qortues i atij që ia ka frikën Atij."
+    },
+    {
+      "resource_id": 47,
+      "text": "Ditën kur ta përjetojnë atë, atyre (idhujtarëve) do t’u duket sikur nuk kan jetuar më tepër se një mbrëmje ose një mëngjes të saj."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "79" }
+  }
+}

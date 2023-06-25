@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 199,
+      "text": "(Juro) por los caballos que resoplan cuando galopan (dirigiéndose hacia la batalla),"
+    },
+    { "resource_id": 199, "text": "hacen saltar chispas (con sus cascos)," },
+    { "resource_id": 199, "text": "se lanzan (contra el enemigo) al amanecer" },
+    { "resource_id": 199, "text": "levantando una nube de polvo," },
+    {
+      "resource_id": 199,
+      "text": "y penetran (las filas enemigas) hasta llegar al corazón de estas;"
+    },
+    {
+      "resource_id": 199,
+      "text": "(por ellos juro que) el hombre es ingrato con su Señor;"
+    },
+    {
+      "resource_id": 199,
+      "text": "y él<sup foot_note=151220>1</sup> es testigo de ello."
+    },
+    { "resource_id": 199, "text": "Y ama las riquezas con pasión." },
+    {
+      "resource_id": 199,
+      "text": "¿Acaso no sabe que se harán surgir a quienes están en las tumbas"
+    },
+    {
+      "resource_id": 199,
+      "text": "y que se desvelará lo que esconden los corazones?"
+    },
+    {
+      "resource_id": 199,
+      "text": "Ciertamente, ese día su Señor estará bien informado acerca de ellos."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "100" }
+  }
+}

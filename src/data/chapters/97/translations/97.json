@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 97,
+      "text": "ہم نے اِس (قرآن)کو شبِ قدر میں نازل کیا ہے۔ <sup foot_note=\"188553\">1</sup>"
+    },
+    { "resource_id": 97, "text": "اور تم کیا جانو کہ شب قدر کیا ہے؟" },
+    {
+      "resource_id": 97,
+      "text": "شبِ قدر ہزار مہینوں سے زیادہ بہتر ہے۔ <sup foot_note=\"188554\">1</sup>"
+    },
+    {
+      "resource_id": 97,
+      "text": "فرشتے اور رُوح <sup foot_note=\"188555\">1</sup> اُس میں اپنے ربّ کے اِذن سے ہر حکم لے کر اُترتے ہیں۔ <sup foot_note=\"188556\">2</sup>"
+    },
+    {
+      "resource_id": 97,
+      "text": "وہ رات سراسر سلامتی ہے طلوعِ فجر تک۔ <sup foot_note=\"188557\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem e Qur'an - Syed Abu Ali Maududi",
+    "author_name": "Syed Abu Ali Maududi",
+    "filters": { "resource_id": 97, "chapter_number": "97" }
+  }
+}

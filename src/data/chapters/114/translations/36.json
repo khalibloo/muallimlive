@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 36, "text": "일러가로되 인류의 주님께 보호를 구하고" },
+    { "resource_id": 36, "text": "인류의 왕이며" },
+    { "resource_id": 36, "text": "인류의 신에게" },
+    { "resource_id": 36, "text": "인간의 흉중에 도사리는 사탄 와 재앙을" },
+    { "resource_id": 36, "text": "인간의 가슴속에서 유혹하는 사탄의 유혹을" },
+    {
+      "resource_id": 36,
+      "text": "영마와 인간의 유혹으로부터 보호를 구하나이다"
+    }
+  ],
+  "meta": {
+    "translation_name": "Korean",
+    "author_name": "Korean",
+    "filters": { "resource_id": 36, "chapter_number": "114" }
+  }
+}

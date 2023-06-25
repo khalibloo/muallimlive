@@ -1,0 +1,39 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Pe soare şi lumina sa!" },
+    { "resource_id": 44, "text": "Pe lună când îi urmează!" },
+    { "resource_id": 44, "text": "Pe ziuă când îl dezvăluie!" },
+    { "resource_id": 44, "text": "Pe noapte când îl învăluie!" },
+    { "resource_id": 44, "text": "Pe cer! Şi cum l-a zidit!" },
+    { "resource_id": 44, "text": "Pe pământ! Şi cum l-a întins!" },
+    {
+      "resource_id": 44,
+      "text": "Pe suflet! Şi cum l-a plăsmuit, punând în el desfrâu şi pioşenie!"
+    },
+    { "resource_id": 44, "text": "Ferice de cel care şi-l mântuie!" },
+    { "resource_id": 44, "text": "Cel care şi-l întinează însă este pierdut!" },
+    { "resource_id": 44, "text": "Tamudiţii, în ticăloşia lor, huleau," },
+    {
+      "resource_id": 44,
+      "text": "iar cei mai nemernici dintre ei au ieşit în faţă."
+    },
+    {
+      "resource_id": 44,
+      "text": "Trimisul lui Dumnezeu le spuse: “Este cămila lui Dumnezeu! Lăsăţi-o să bea!”"
+    },
+    {
+      "resource_id": 44,
+      "text": "Ei l-au făcut mincinos şi au ologit cămila."
+    },
+    {
+      "resource_id": 44,
+      "text": "Pentru păcatul lor, Domnul lor i-a făcut fărâme pe toţi deopotrivă"
+    },
+    { "resource_id": 44, "text": "şi nu s-a temut de urmare." }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "91" }
+  }
+}

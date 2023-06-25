@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "In verità lo facemmo scendere nella notte del Prestigio."
+    },
+    {
+      "resource_id": 209,
+      "text": "E cosa sai, tu, della notte del Prestigio?"
+    },
+    {
+      "resource_id": 209,
+      "text": "La notte del Prestigio è migliore di mille mesi."
+    },
+    {
+      "resource_id": 209,
+      "text": "In quella gli angeli e lo Spirito discendono, col permesso del loro Dio, per ogni evento."
+    },
+    { "resource_id": 209, "text": "Quella è pace fino all'apparire dell'alba." }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "97" }
+  }
+}

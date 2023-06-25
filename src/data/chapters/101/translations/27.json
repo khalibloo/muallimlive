@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Das Verhängnis!" },
+    { "resource_id": 27, "text": "Was ist das Verhängnis?" },
+    {
+      "resource_id": 27,
+      "text": "Und was läßt dich wissen, was das Verhängnis ist?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Am Tag, da die Menschen wie flatternde Motten sein werden"
+    },
+    {
+      "resource_id": 27,
+      "text": "und die Berge wie zerflockte gefärbte Wolle sein werden."
+    },
+    {
+      "resource_id": 27,
+      "text": "Was nun jemanden angeht, dessen Waagschalen schwer sind,"
+    },
+    {
+      "resource_id": 27,
+      "text": "so wird er in einem zufriedenen Leben sein."
+    },
+    {
+      "resource_id": 27,
+      "text": "Was aber jemanden angeht, dessen Waagschalen leicht sind,"
+    },
+    { "resource_id": 27, "text": "dessen Mutter wird ein Abgrund sein." },
+    { "resource_id": 27, "text": "Und was läßt dich wissen, was das ist?" },
+    { "resource_id": 27, "text": "Ein sehr heißes Feuer." }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "101" }
+  }
+}

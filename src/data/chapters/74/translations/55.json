@@ -1,0 +1,128 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Ey, burkanib yotgan!" },
+    { "resource_id": 55, "text": "Tur va ogohlantir!" },
+    { "resource_id": 55, "text": "Va Robbingni ulug`la!" },
+    { "resource_id": 55, "text": "Va kiyimingni pokla!" },
+    { "resource_id": 55, "text": "Va azob(sababchisi)dan chetlan!" },
+    {
+      "resource_id": 55,
+      "text": "Va ko`p (ish) qilgan bo`lsang ham, minnat qilma."
+    },
+    { "resource_id": 55, "text": "Va Robbing uchun sabr qil." },
+    { "resource_id": 55, "text": "Bas, vaqti kelib, dudga puflansa..." },
+    { "resource_id": 55, "text": "Bas, o`sha, o`shal kun qiyin kundir." },
+    { "resource_id": 55, "text": "U kofirlarga oson emasdir." },
+    {
+      "resource_id": 55,
+      "text": "Meni O`zim yakka yaratgan kishi bilan qo`yib qo`y."
+    },
+    { "resource_id": 55, "text": "Va unga ko`plab molu dunyo berib qo`ydim." },
+    { "resource_id": 55, "text": "Va hoziru nozir farzandlar ham." },
+    {
+      "resource_id": 55,
+      "text": "Va unga (hamma narsani) osonlashtirib qo`ydim."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra, yana ziyoda qilishimni tama' qilur."
+    },
+    {
+      "resource_id": 55,
+      "text": "Yo`q! Chunki, u Bizning oyatlarimizga sarkash edi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Tezda uni mashaqqatli chiqish-la horitaman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u tafakkur qildi va chamalab ko`rdi."
+    },
+    { "resource_id": 55, "text": "La'nat bo`lsin unga, qandoq ham chamaladi!" },
+    {
+      "resource_id": 55,
+      "text": "So`ngra yana la'nat bo`lsin unga, qandoq ham chamaladi."
+    },
+    { "resource_id": 55, "text": "So`ngra nazar soldi." },
+    {
+      "resource_id": 55,
+      "text": "So`ngra yuzini burishtirdi va qavog`ini soldi."
+    },
+    { "resource_id": 55, "text": "So`ngra yuz o`girdi va takabburlik qildi." },
+    {
+      "resource_id": 55,
+      "text": "Bas, «Bu asar qolgan sehrdan o`zga hech narsa emas."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bu bashar so`zidan o`zga hech narsa emas», dedi."
+    },
+    { "resource_id": 55, "text": "Tezda uni saqar(do`zaxi)ga kiriturman." },
+    { "resource_id": 55, "text": "Va saqar nimaligini senga nima bildirdi?" },
+    { "resource_id": 55, "text": "U boqiy qoldirmas va tark ham qilmas." },
+    { "resource_id": 55, "text": "U terini ko`p kuydiruvchidir." },
+    {
+      "resource_id": 55,
+      "text": "U(saqar)ning ustida o`n to`qqizta (farishta) bor."
+    },
+    {
+      "resource_id": 55,
+      "text": "Do`zax sohiblarini farishtalardan qilganimiz va ularning adadi ham faqat kofirlarni sinash uchun. Kitob berilganlar ishonch hosil qilishlari uchun. Va iymonlilarning iymoni ziyoda bo`lishi uchun. Kitob berilganlar va mo`minlar shak-shubha qilmasliklari uchun va qalblarida kasali borlar (munofiqlar) va kofirlar, Alloh bu bilan nima misolni iroda qilmoqchi, deyishlari uchun. Shundoq qilib, Alloh xohlagan kimsani adashtirur va xohlagan kimsani hidoyatga solur. Robbingning askarlarini O`zidan boshqa hech kim bilmas. Va u (do`zax) bashar uchun eslatmadan o`zga hech narsa emas."
+    },
+    { "resource_id": 55, "text": "Yo`q! Oy bilan qasam." },
+    { "resource_id": 55, "text": "Va chekinayotgan tun bilan qasam." },
+    { "resource_id": 55, "text": "Va yorishayotgan tong bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u(do`zax) ulkan(azob)larning biridir."
+    },
+    { "resource_id": 55, "text": "U bashariyat uchun ogohlantiruvchidir." },
+    {
+      "resource_id": 55,
+      "text": "Sizlardan peshqadam bo`lishni yoki ortda qolishni xohlayotgan kimsalar uchundir."
+    },
+    { "resource_id": 55, "text": "Har bir shaxs o`z kasbining garovidir." },
+    { "resource_id": 55, "text": "(Bundan) o`ng taraf sohiblari mustasnodir." },
+    { "resource_id": 55, "text": "Ular jannatlarda, so`raydirlar." },
+    { "resource_id": 55, "text": "Gunohkorlardan." },
+    { "resource_id": 55, "text": "«Sizlarni do`zaxga nima kiritdi?» (deb)" },
+    {
+      "resource_id": 55,
+      "text": "Alar: «Namoz o`qiydiganlardan bo`lmagan edik."
+    },
+    { "resource_id": 55, "text": "Va miskinlarga taom bermagan edik." },
+    {
+      "resource_id": 55,
+      "text": "Va botilga sho`ng`uvchilar bilan birga sho`ng`ir edik."
+    },
+    { "resource_id": 55, "text": "Va qiyomat kunini yolg`onga chiqarar edik." },
+    { "resource_id": 55, "text": "Toki bizga o`lim kelgunicha», derlar." },
+    {
+      "resource_id": 55,
+      "text": "Bas, ularga shafoatchilarning shafoati manfaat bermaydir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ularga nima bo`ldiki, eslatmadan yuz o`girarlar."
+    },
+    { "resource_id": 55, "text": "Xuddi qattiq qo`rqqan eshaklar." },
+    { "resource_id": 55, "text": "Arslondan qochgani kabi." },
+    {
+      "resource_id": 55,
+      "text": "Balki ulardan har biri o`ziga nashr qilingan sahifalar berilishini iroda qilar."
+    },
+    { "resource_id": 55, "text": "Yo`q! Balki ular oxiratdan qo`rqmaslar." },
+    { "resource_id": 55, "text": "Yo`q! Albatta, u(Qur'on) eslatmadur." },
+    { "resource_id": 55, "text": "Bas, kim xohlasa, uni eslaydir." },
+    {
+      "resource_id": 55,
+      "text": "Va faqat Alloh xohlasagina, eslarlar. U zot taqvo ahlidir va mag`firat ahlidir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "74" }
+  }
+}

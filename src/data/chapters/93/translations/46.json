@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Eebe wuxuu ku dhaartay Barqinka." },
+    { "resource_id": 46, "text": "Iyo Habeenku markuu xasilo (Madoobaado)." },
+    {
+      "resource_id": 46,
+      "text": "Inaan Eebe ka tagin Nabiyow kuuna cadhoonin."
+    },
+    { "resource_id": 46, "text": "Aakharana kaaga khayr badan Aduunka." },
+    {
+      "resource_id": 46,
+      "text": "Eebaana ku siindoona (wanaag) waadna raalli noqon."
+    },
+    {
+      "resource_id": 46,
+      "text": "Miyuusan ku helin Eebahaa Adigoo Agoon ah oosan ku dhawaynin."
+    },
+    {
+      "resource_id": 46,
+      "text": "Miyuunase ku helin Adigoo baadi ah oosan ku hanuuninin."
+    },
+    {
+      "resource_id": 46,
+      "text": "Miyuunase ku helin Adigoo caydhi ah oosna ku hodminin (kuu waxyoonin)."
+    },
+    { "resource_id": 46, "text": "Ee Agoonta ha xoogin (hana dhihin)." },
+    { "resource_id": 46, "text": "Ka wax su'aalina ha canaanan." },
+    { "resource_id": 46, "text": "Nicmada Eebahaana ka sheekee (ku mahadi)." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "93" }
+  }
+}

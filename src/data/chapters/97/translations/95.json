@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "Behold, We revealed this (Qur'an) on the Night of Power.<sup foot_note=\"182792\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "And what do you know what the Night of Power is?"
+    },
+    {
+      "resource_id": 95,
+      "text": "The Night of Power is better than a thousand months.<sup foot_note=\"182793\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "The angels along with the Spirit<sup foot_note=\"182794\">1</sup> descend in it by the permission of their Lord<sup foot_note=\"182795\">2</sup> with all kinds of decrees."
+    },
+    {
+      "resource_id": 95,
+      "text": "All peace is that night until the rise of dawn.<sup foot_note=\"182796\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "97" }
+  }
+}

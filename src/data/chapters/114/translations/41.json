@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Jeg søker tilflukt hos menneskenes Herre," },
+    { "resource_id": 41, "text": "menneskenes Konge," },
+    { "resource_id": 41, "text": "menneskenes Gud," },
+    { "resource_id": 41, "text": "mot ondt fra den smygende frister," },
+    { "resource_id": 41, "text": "som hvisker i menneskenes hjerter," },
+    { "resource_id": 41, "text": "av dsjinner eller mennesker." }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "114" }
+  }
+}

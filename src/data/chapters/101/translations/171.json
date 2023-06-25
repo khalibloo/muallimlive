@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "resource_id": 171,
+      "text": "The hour that strikes the hearts of people because of the severity of its horrors."
+    },
+    {
+      "resource_id": 171,
+      "text": "What is this hour that strikes the hearts of people because of the severity of its horrors?"
+    },
+    {
+      "resource_id": 171,
+      "text": "O Messenger! And what do you know of this hour that strikes the hearts of people because of the severity of its horrors? It is the Day of Judgement."
+    },
+    {
+      "resource_id": 171,
+      "text": "On the day when the hearts of people will be struck, they will be like locusts, dispersed here and there."
+    },
+    {
+      "resource_id": 171,
+      "text": "And the mountains will be like carded wool, in the way they will move from their places with force."
+    },
+    {
+      "resource_id": 171,
+      "text": "As for the one whose good deeds will outweigh his evil deeds."
+    },
+    {
+      "resource_id": 171,
+      "text": "He will live a contented life which he will achieve in Paradise."
+    },
+    {
+      "resource_id": 171,
+      "text": "And as for the one whose evil deeds outweigh his good deeds."
+    },
+    {
+      "resource_id": 171,
+      "text": "His abode and permanent resting place will be hell on the Day of Judgement."
+    },
+    {
+      "resource_id": 171,
+      "text": "O Messenger! What do you know what that is?"
+    },
+    { "resource_id": 171, "text": "It is the intensely hot hellfire." }
+  ],
+  "meta": {
+    "translation_name": "Abridged Explanation of the Quran",
+    "author_name": "Tafsir Center of Quranic Studies",
+    "filters": { "resource_id": 171, "chapter_number": "101" }
+  }
+}

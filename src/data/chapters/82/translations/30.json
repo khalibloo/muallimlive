@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Kun taivas rikki repeytyy," },
+    { "resource_id": 30, "text": "kun tähdet hajalle pirstoutuvat," },
+    { "resource_id": 30, "text": "kun virrat tulvivat vuolaina," },
+    { "resource_id": 30, "text": "ja haudat avautuvat," },
+    {
+      "resource_id": 30,
+      "text": "saa jokainen sielu tietää, mitä on tehnyt ja mitä laiminlyönyt."
+    },
+    {
+      "resource_id": 30,
+      "text": "Oi, ihminen, mikä on vietellyt sinut jaloa Herraasi vastaan,"
+    },
+    {
+      "resource_id": 30,
+      "text": "joka on luonut sinut, tehnyt sinut täydelliseksi ja sopusuhtaiseksi?"
+    },
+    { "resource_id": 30, "text": "Haluamaansa muotoon Hän on sinut valanut." },
+    { "resource_id": 30, "text": "Voi, te sanotte tuomiota valheeksi," },
+    {
+      "resource_id": 30,
+      "text": "mutta totisesti on yläpuolellanne vartijoita,"
+    },
+    { "resource_id": 30, "text": "jaloja kirjoihin merkitsijöitä," },
+    { "resource_id": 30, "text": "jotka tuntevat tekonne." },
+    {
+      "resource_id": 30,
+      "text": "Totisesti saavat hurskaat osakseen taivaan autuuden,"
+    },
+    {
+      "resource_id": 30,
+      "text": "ja totisesti joutuvat jumalattomat helvetin tuleen,"
+    },
+    { "resource_id": 30, "text": "he joutuvat sinne tuomion päivänä" },
+    { "resource_id": 30, "text": "eivätkä he voi sitä mitenkään välttää." },
+    { "resource_id": 30, "text": "Käsitätkö, mikä Tuomion päivä on?" },
+    {
+      "resource_id": 30,
+      "text": "Vieläkin: käsitätkö, mikä Tuomion päivä on?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Se on päivä, jona yksikään sielu ei mahda mitään toisen hyväksi. Herran on kaikki valta sinä päivänä."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "82" }
+  }
+}

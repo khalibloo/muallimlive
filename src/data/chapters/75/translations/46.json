@@ -1,0 +1,97 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Waxaan ku dhaaran maalinta qiyaame." },
+    {
+      "resource_id": 46,
+      "text": "Waxaan ku dhaaran (oo kale) nafta Dagaasha (Saaxiibkeed) (Ee waa la idin soo bixin)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ma wuxuu u maleeyay Dadku inaanaan kulminhaynin lafihiisa."
+    },
+    {
+      "resource_id": 46,
+      "text": "Saas ma aha ee waan karraa inaan sinno (soona Celinno) Farihiisa."
+    },
+    {
+      "resource_id": 46,
+      "text": "Wuxuuse Dooni Dadku inay ka Gaaloobaan waxa ka horreeya."
+    },
+    { "resource_id": 46, "text": "Wuxuu waydiin waa Goorma Maalinta Qiyaame." },
+    { "resource_id": 46, "text": "Markase Araggu Wareero (Taagmo)." },
+    { "resource_id": 46, "text": "Dayuxuna Madoobaado." },
+    { "resource_id": 46, "text": "Lana Kulmiyo Qorraxd iyo Dayaxa." },
+    {
+      "resource_id": 46,
+      "text": "Wuxuu Dhihi Dadku Maalintaas xagee loo cararaa."
+    },
+    {
+      "resource_id": 46,
+      "text": "Saas ma aha ee ma jiro wax la magan Galo (Eebe Mooyee)."
+    },
+    { "resource_id": 46, "text": "Xagga Eebahaa yaana Maalintaas loo ahaan." },
+    {
+      "resource_id": 46,
+      "text": "Waxaa looga warrami dadka Maalintaas wuxuu hormarsaday iyo wuxuu Dibmarsaday."
+    },
+    { "resource_id": 46, "text": "Ruux walbana Naftiisa isagaa ku maragfuri." },
+    {
+      "resource_id": 46,
+      "text": "Si kasta Hadduu u cudurdaartana (wax uma tarto)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ha Dhaqaajinin Nabiyow Carrabka inaad Quraanka ku Dagdagto (Akhriskiiso)."
+    },
+    { "resource_id": 46, "text": "Annagaa Laabtaada ku kulmin kuuna Akhriyi." },
+    { "resource_id": 46, "text": "Ee Markaan akhrino Raac Akhriskiisa." },
+    { "resource_id": 46, "text": "Annagaana isasaarray Cadaayntiisa." },
+    {
+      "resource_id": 46,
+      "text": "saas ma aha Ee waxaad Jeceshihiin Dadow tan soo Dagdagaysa (Adduunyada)."
+    },
+    { "resource_id": 46, "text": "Waxaadna ka tagaysaan aakhiro." },
+    { "resource_id": 46, "text": "Wajiyaal Maalintaas way ifi." },
+    { "resource_id": 46, "text": "Eebeheedna way Eegi." },
+    { "resource_id": 46, "text": "Wajiyaalna Maalintaas way kaduudsami." },
+    { "resource_id": 46, "text": "Waxayna hubtaa in lugu fali Balaayo." },
+    {
+      "resource_id": 46,
+      "text": "Saas ma aha ee markay naftu gaadho Dhuunta (Waqtiga Geerida)."
+    },
+    { "resource_id": 46, "text": "Oo la Dhoho yaa ku tufi." },
+    { "resource_id": 46, "text": "Oo uu Yaqiinsado inuu Dhiman." },
+    {
+      "resource_id": 46,
+      "text": "Oo labada Dhudhun isku marmaan (sakaraad Dartiis)."
+    },
+    { "resource_id": 46, "text": "Eebahaa Xaggiisaa la aadi." },
+    { "resource_id": 46, "text": "Mase Rumaynin Gaalku Xaqa mana tukannin." },
+    { "resource_id": 46, "text": "Laakiin wuu Beeniyay wuuna Jeedsaday." },
+    { "resource_id": 46, "text": "Wuxuuna aaday Ehelkiisii isagoo kibirsan." },
+    { "resource_id": 46, "text": "Halaag Buuse Mutaa." },
+    { "resource_id": 46, "text": "Haddana Halaagbuu Mutaa." },
+    {
+      "resource_id": 46,
+      "text": "Ma wuxuu u maleeyay Dadku in looga tagi Bilaash (Dan la'aan)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Miyuusan ahayn Dhibic mani ah oo la Dhibciyo."
+    },
+    {
+      "resource_id": 46,
+      "text": "Markaas Noqoto xinjir oo Eebe Abuuro Ekeeyana."
+    },
+    { "resource_id": 46, "text": "Kana yeelo Labadii Nooc lab iyo Dhaddig." },
+    {
+      "resource_id": 46,
+      "text": "Eebaha Saas kara miyuusan Awoodin inuu soo Nooleeyo wixii Dhintay."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "75" }
+  }
+}

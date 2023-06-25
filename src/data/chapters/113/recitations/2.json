@@ -1,0 +1,14 @@
+{
+  "audio_files": [
+    { "verse_key": "113:1", "url": "AbdulBaset/Murattal/mp3/113001.mp3" },
+    { "verse_key": "113:2", "url": "AbdulBaset/Murattal/mp3/113002.mp3" },
+    { "verse_key": "113:3", "url": "AbdulBaset/Murattal/mp3/113003.mp3" },
+    { "verse_key": "113:4", "url": "AbdulBaset/Murattal/mp3/113004.mp3" },
+    { "verse_key": "113:5", "url": "AbdulBaset/Murattal/mp3/113005.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "AbdulBaset AbdulSamad",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "113" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "Biz Kur'an'ı, Ramazan ayının Kadir Gecesi'nde Peygamber -sallallahu aleyhi ve sellem-'e indirmeye başladığımız gibi, bir bütün olarak Dünya semasına indirdik."
+    },
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- Bu gecede bulunan hayır ve bereketi biliyor musun?"
+    },
+    {
+      "resource_id": 172,
+      "text": "Bu gece, büyük hayırlara sahip bir gecedir. İman edip sevabını ümit ederek o geceyi ihya eden kimse için bin aydan daha hayırlıdır."
+    },
+    {
+      "resource_id": 172,
+      "text": "O gece, melekler ve Cebrail -aleyhisselam- Rableri Allah -Subhanehu ve Teâlâ-'nın izniyle, o sene için Allah’ın takdir ettiği, rızık, ölüm, doğum veya bunların dışındaki her iş için inerler."
+    },
+    {
+      "resource_id": 172,
+      "text": "Bu mübarek gece, başlangıcından fecrin doğuşuyla gelen sonuna kadar bütünüyle hayırlıdır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "97" }
+  }
+}

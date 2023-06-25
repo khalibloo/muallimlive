@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 49,
+      "text": "Je! Imekufikia khabari ya msiba wa kufudikiza?"
+    },
+    { "resource_id": 49, "text": "Siku hiyo nyuso zitainama," },
+    { "resource_id": 49, "text": "Zikifanya kazi, nazo taabani." },
+    { "resource_id": 49, "text": "Ziingie katika Moto unao waka -" },
+    { "resource_id": 49, "text": "Zikinyweshwa kutoka chemchem inayo chemka." },
+    {
+      "resource_id": 49,
+      "text": "Hawatakuwa na chakula isipo kuwa kichungu chenye miba."
+    },
+    { "resource_id": 49, "text": "Hakinenepeshi wala hakiondoi njaa." },
+    { "resource_id": 49, "text": "Siku hiyo nyuso nyengine zitakuwa kunjufu." },
+    { "resource_id": 49, "text": "Zitakuwa radhi kwa juhudi yao," },
+    { "resource_id": 49, "text": "Katika Bustani ya juu." },
+    { "resource_id": 49, "text": "Hawatasikia humo upuuzi." },
+    { "resource_id": 49, "text": "Humo imo chemchem inayo miminika." },
+    { "resource_id": 49, "text": "Humo vimo viti vilivyo nyanyuliwa," },
+    { "resource_id": 49, "text": "Na bilauri zilizo pangwa," },
+    { "resource_id": 49, "text": "Na matakia safu safu," },
+    { "resource_id": 49, "text": "Na mazulia yaliyo tandikwa." },
+    { "resource_id": 49, "text": "Je! Hawamtazami ngamia jinsi alivyo umbwa?" },
+    { "resource_id": 49, "text": "Na mbingu jinsi ilivyo inuliwa?" },
+    { "resource_id": 49, "text": "Na milima jinsi ilivyo thibitishwa?" },
+    { "resource_id": 49, "text": "Na ardhi jinsi ilivyo tandazwa?" },
+    { "resource_id": 49, "text": "Basi kumbusha! Hakika wewe ni Mkumbushaji." },
+    { "resource_id": 49, "text": "Wewe si mwenye kuwatawalia." },
+    { "resource_id": 49, "text": "Lakini anaye rudi nyuma na kukataa," },
+    {
+      "resource_id": 49,
+      "text": "Basi Mwenyezi Mungu atamuadhibu kwa adhabu iliyo kubwa kabisa!"
+    },
+    { "resource_id": 49, "text": "Hakika ni kwetu Sisi ndio marejeo yao." },
+    { "resource_id": 49, "text": "Kisha hakika ni juu yetu Sisi hisabu yao!" }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "88" }
+  }
+}

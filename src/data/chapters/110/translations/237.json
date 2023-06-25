@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 237,
+      "text": "Когато дойде подкрепата на Аллах и победата,"
+    },
+    {
+      "resource_id": 237,
+      "text": "и видиш хората да встъпват на тълпи в религията на Аллах,"
+    },
+    {
+      "resource_id": 237,
+      "text": "прославяй своя Господ с възхвала и Го моли за опрощение! Той винаги приема покаянието."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "110" }
+  }
+}

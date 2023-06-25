@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "তুমি কি দেখনি তোমার রব হাতীওয়ালাদের সাথে কী করেছিলেন?"
+    },
+    {
+      "resource_id": 162,
+      "text": "তিনি কি তাদের ষড়যন্ত্র ব্যর্থতায় পর্যবসিত করেননি?"
+    },
+    {
+      "resource_id": 162,
+      "text": "আর তিনি তাদের বিরুদ্ধে ঝাঁকে ঝাঁকে পাখি প্রেরণ করেছিলেন।"
+    },
+    {
+      "resource_id": 162,
+      "text": "তারা তাদের ওপর নিক্ষেপ করে পোড়ামাটির কঙ্কর।"
+    },
+    {
+      "resource_id": 162,
+      "text": "অতঃপর তিনি তাদেরকে করলেন ভক্ষিত শস্যপাতার ন্যায়।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "105" }
+  }
+}

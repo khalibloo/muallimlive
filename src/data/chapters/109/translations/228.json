@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 228,
+      "text": "(නබි මුහම්මද්) පවසනු අහෝ දේව ප්‍රතික්ෂේපකයිනි!"
+    },
+    { "resource_id": 228, "text": "නුඹලා නමදින දෑ මම නොනමදිමි." },
+    {
+      "resource_id": 228,
+      "text": "තවද නුඹලා ද  මා නමදින දෑ නමදින්නෝ නොවන්නෙහුය."
+    },
+    {
+      "resource_id": 228,
+      "text": "තවද නුඹලා නැමදූ දෑ මම නමදින්නෙක් නොවූයෙමි."
+    },
+    { "resource_id": 228, "text": "මා නමදින දෑ නුඹලා ද නමදින්නෝ නොවූහ." },
+    { "resource_id": 228, "text": "නුඹලාට නුඹලාගේ දහමය. මට මාගේ දහමය." }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Translation Pioneers Center",
+    "filters": { "resource_id": 228, "chapter_number": "109" }
+  }
+}

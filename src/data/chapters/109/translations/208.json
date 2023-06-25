@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 208, "text": "Sprich: \"O ihr Ungläubigen!" },
+    { "resource_id": 208, "text": "Ich diene nicht dem, dem ihr dient" },
+    { "resource_id": 208, "text": "und ihr dient nicht Dem, Dem ich diene." },
+    {
+      "resource_id": 208,
+      "text": "Und ich werde nicht Diener dessen sein, dem ihr dient"
+    },
+    {
+      "resource_id": 208,
+      "text": "und ihr werdet nicht Diener Dessen sein, Dem ich diene."
+    },
+    {
+      "resource_id": 208,
+      "text": "Ihr habt eure Religion und ich habe meine Religion.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "109" }
+  }
+}

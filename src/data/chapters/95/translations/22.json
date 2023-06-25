@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 22, "text": "By the Fig and the Olive," },
+    { "resource_id": 22, "text": "And the Mount of Sinai," },
+    { "resource_id": 22, "text": "And this City of security,-" },
+    {
+      "resource_id": 22,
+      "text": "We have indeed created man in the best of moulds,"
+    },
+    {
+      "resource_id": 22,
+      "text": "Then do We abase him (to be) the lowest of the low,-"
+    },
+    {
+      "resource_id": 22,
+      "text": "Except such as believe and do righteous deeds: For they shall have a reward unfailing."
+    },
+    {
+      "resource_id": 22,
+      "text": "Then what can, after this, contradict thee, as to the judgment (to come)?"
+    },
+    { "resource_id": 22, "text": "Is not Allah the wisest of judges?" }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "95" }
+  }
+}

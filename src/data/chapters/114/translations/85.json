@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "Say, ‘I seek refuge with the Lord of people,"
+    },
+    { "resource_id": 85, "text": "the Controllerof people," },
+    { "resource_id": 85, "text": "the God of people," },
+    {
+      "resource_id": 85,
+      "text": "against the harm of the slinking whisperer––"
+    },
+    { "resource_id": 85, "text": "who whispers into the hearts of people––" },
+    { "resource_id": 85, "text": "whether they be jinn or people.’" }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "114" }
+  }
+}

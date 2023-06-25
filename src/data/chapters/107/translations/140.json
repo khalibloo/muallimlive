@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "¿Has reparado (¡oh, Muhammad!) en quien niega la resurrección y la rendición de cuentas?"
+    },
+    { "resource_id": 140, "text": "Ese es quien rechaza al huérfano" },
+    {
+      "resource_id": 140,
+      "text": "y no alienta (a los demás) a alimentar a los pobres (ni los alimenta él mismo)."
+    },
+    { "resource_id": 140, "text": "¡Ay de aquellos que rezan" },
+    {
+      "resource_id": 140,
+      "text": "de manera negligente (fuera de su debido tiempo, o no son constantes en la práctica del salat)!"
+    },
+    {
+      "resource_id": 140,
+      "text": "Esos que rezan para que la gente los vea (y piensen que son piadosos)"
+    },
+    {
+      "resource_id": 140,
+      "text": "mientras que no prestan la mínima ayuda (a quien la necesita)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "107" }
+  }
+}

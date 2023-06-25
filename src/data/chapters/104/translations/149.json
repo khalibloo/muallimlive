@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 149, "text": "Woe to every slandering backbiter," },
+    {
+      "resource_id": 149,
+      "text": "who <span class=\"h\">hoarded<sup foot_note=\"81496\">1</sup> </span>wealth and counted it over,"
+    },
+    {
+      "resource_id": 149,
+      "text": "thinking that his wealth has made him immortal."
+    },
+    {
+      "resource_id": 149,
+      "text": "But no! He will surely be thrown into the Crusher."
+    },
+    {
+      "resource_id": 149,
+      "text": "And what can make you realize what the Crusher is?"
+    },
+    { "resource_id": 149, "text": "Allah’s kindled Fire" },
+    { "resource_id": 149, "text": "that mounts over burning hearts." },
+    { "resource_id": 149, "text": "Indeed, it is over them with no exit," },
+    { "resource_id": 149, "text": "in extended columns." }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "104" }
+  }
+}

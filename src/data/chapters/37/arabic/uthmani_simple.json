@@ -1,0 +1,895 @@
+{
+  "verses": [
+    { "id": 3789, "verse_key": "37:1", "text_uthmani_simple": "والصفت صفا" },
+    { "id": 3790, "verse_key": "37:2", "text_uthmani_simple": "فالزجرت زجرا" },
+    { "id": 3791, "verse_key": "37:3", "text_uthmani_simple": "فالتليت ذكرا" },
+    { "id": 3792, "verse_key": "37:4", "text_uthmani_simple": "ان الهكم لوحد" },
+    {
+      "id": 3793,
+      "verse_key": "37:5",
+      "text_uthmani_simple": "رب السموت والارض وما بينهما ورب المشرق"
+    },
+    {
+      "id": 3794,
+      "verse_key": "37:6",
+      "text_uthmani_simple": "انا زينا السماء الدنيا بزينة الكواكب"
+    },
+    {
+      "id": 3795,
+      "verse_key": "37:7",
+      "text_uthmani_simple": "وحفظا من كل شيطن مارد"
+    },
+    {
+      "id": 3796,
+      "verse_key": "37:8",
+      "text_uthmani_simple": "لا يسمعون الى الملا الاعلى ويقذفون من كل جانب"
+    },
+    {
+      "id": 3797,
+      "verse_key": "37:9",
+      "text_uthmani_simple": "دحورا ولهم عذاب واصب"
+    },
+    {
+      "id": 3798,
+      "verse_key": "37:10",
+      "text_uthmani_simple": "الا من خطف الخطفة فاتبعه شهاب ثاقب"
+    },
+    {
+      "id": 3799,
+      "verse_key": "37:11",
+      "text_uthmani_simple": "فاستفتهم اهم اشد خلقا ام من خلقنا انا خلقنهم من طين لازبۭ"
+    },
+    {
+      "id": 3800,
+      "verse_key": "37:12",
+      "text_uthmani_simple": "بل عجبت ويسخرون"
+    },
+    {
+      "id": 3801,
+      "verse_key": "37:13",
+      "text_uthmani_simple": "واذا ذكروا۟ لا يذكرون"
+    },
+    {
+      "id": 3802,
+      "verse_key": "37:14",
+      "text_uthmani_simple": "واذا راوا۟ ءاية يستسخرون"
+    },
+    {
+      "id": 3803,
+      "verse_key": "37:15",
+      "text_uthmani_simple": "وقالوا۟ ان هذا الا سحر مبين"
+    },
+    {
+      "id": 3804,
+      "verse_key": "37:16",
+      "text_uthmani_simple": "اءذا متنا وكنا ترابا وعظما اءنا لمبعوثون"
+    },
+    {
+      "id": 3805,
+      "verse_key": "37:17",
+      "text_uthmani_simple": "اوءاباؤنا الاولون"
+    },
+    {
+      "id": 3806,
+      "verse_key": "37:18",
+      "text_uthmani_simple": "قل نعم وانتم دخرون"
+    },
+    {
+      "id": 3807,
+      "verse_key": "37:19",
+      "text_uthmani_simple": "فانما هى زجرة وحدة فاذا هم ينظرون"
+    },
+    {
+      "id": 3808,
+      "verse_key": "37:20",
+      "text_uthmani_simple": "وقالوا۟ يويلنا هذا يوم الدين"
+    },
+    {
+      "id": 3809,
+      "verse_key": "37:21",
+      "text_uthmani_simple": "هذا يوم الفصل الذى كنتم به تكذبون"
+    },
+    {
+      "id": 3810,
+      "verse_key": "37:22",
+      "text_uthmani_simple": "احشروا۟ الذين ظلموا۟ وازوجهم وما كانوا۟ يعبدون"
+    },
+    {
+      "id": 3811,
+      "verse_key": "37:23",
+      "text_uthmani_simple": "من دون الله فاهدوهم الى صرط الجحيم"
+    },
+    {
+      "id": 3812,
+      "verse_key": "37:24",
+      "text_uthmani_simple": "وقفوهم انهم مسـولون"
+    },
+    {
+      "id": 3813,
+      "verse_key": "37:25",
+      "text_uthmani_simple": "ما لكم لا تناصرون"
+    },
+    {
+      "id": 3814,
+      "verse_key": "37:26",
+      "text_uthmani_simple": "بل هم اليوم مستسلمون"
+    },
+    {
+      "id": 3815,
+      "verse_key": "37:27",
+      "text_uthmani_simple": "واقبل بعضهم على بعض يتساءلون"
+    },
+    {
+      "id": 3816,
+      "verse_key": "37:28",
+      "text_uthmani_simple": "قالوا۟ انكم كنتم تاتوننا عن اليمين"
+    },
+    {
+      "id": 3817,
+      "verse_key": "37:29",
+      "text_uthmani_simple": "قالوا۟ بل لم تكونوا۟ مؤمنين"
+    },
+    {
+      "id": 3818,
+      "verse_key": "37:30",
+      "text_uthmani_simple": "وما كان لنا عليكم من سلطنۭ بل كنتم قوما طغين"
+    },
+    {
+      "id": 3819,
+      "verse_key": "37:31",
+      "text_uthmani_simple": "فحق علينا قول ربنا انا لذائقون"
+    },
+    {
+      "id": 3820,
+      "verse_key": "37:32",
+      "text_uthmani_simple": "فاغوينكم انا كنا غوين"
+    },
+    {
+      "id": 3821,
+      "verse_key": "37:33",
+      "text_uthmani_simple": "فانهم يومئذ فى العذاب مشتركون"
+    },
+    {
+      "id": 3822,
+      "verse_key": "37:34",
+      "text_uthmani_simple": "انا كذلك نفعل بالمجرمين"
+    },
+    {
+      "id": 3823,
+      "verse_key": "37:35",
+      "text_uthmani_simple": "انهم كانوا۟ اذا قيل لهم لا اله الا الله يستكبرون"
+    },
+    {
+      "id": 3824,
+      "verse_key": "37:36",
+      "text_uthmani_simple": "ويقولون ائنا لتاركوا۟ ءالهتنا لشاعر مجنونۭ"
+    },
+    {
+      "id": 3825,
+      "verse_key": "37:37",
+      "text_uthmani_simple": "بل جاء بالحق وصدق المرسلين"
+    },
+    {
+      "id": 3826,
+      "verse_key": "37:38",
+      "text_uthmani_simple": "انكم لذائقوا۟ العذاب الاليم"
+    },
+    {
+      "id": 3827,
+      "verse_key": "37:39",
+      "text_uthmani_simple": "وما تجزون الا ما كنتم تعملون"
+    },
+    {
+      "id": 3828,
+      "verse_key": "37:40",
+      "text_uthmani_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3829,
+      "verse_key": "37:41",
+      "text_uthmani_simple": "او۟لئك لهم رزق معلوم"
+    },
+    {
+      "id": 3830,
+      "verse_key": "37:42",
+      "text_uthmani_simple": "فوكه وهم مكرمون"
+    },
+    {
+      "id": 3831,
+      "verse_key": "37:43",
+      "text_uthmani_simple": "فى جنت النعيم"
+    },
+    {
+      "id": 3832,
+      "verse_key": "37:44",
+      "text_uthmani_simple": "على سرر متقبلين"
+    },
+    {
+      "id": 3833,
+      "verse_key": "37:45",
+      "text_uthmani_simple": "يطاف عليهم بكاس من معينۭ"
+    },
+    {
+      "id": 3834,
+      "verse_key": "37:46",
+      "text_uthmani_simple": "بيضاء لذة للشربين"
+    },
+    {
+      "id": 3835,
+      "verse_key": "37:47",
+      "text_uthmani_simple": "لا فيها غول ولا هم عنها ينزفون"
+    },
+    {
+      "id": 3836,
+      "verse_key": "37:48",
+      "text_uthmani_simple": "وعندهم قصرت الطرف عين"
+    },
+    {
+      "id": 3837,
+      "verse_key": "37:49",
+      "text_uthmani_simple": "كانهن بيض مكنون"
+    },
+    {
+      "id": 3838,
+      "verse_key": "37:50",
+      "text_uthmani_simple": "فاقبل بعضهم على بعض يتساءلون"
+    },
+    {
+      "id": 3839,
+      "verse_key": "37:51",
+      "text_uthmani_simple": "قال قائل منهم انى كان لى قرين"
+    },
+    {
+      "id": 3840,
+      "verse_key": "37:52",
+      "text_uthmani_simple": "يقول اءنك لمن المصدقين"
+    },
+    {
+      "id": 3841,
+      "verse_key": "37:53",
+      "text_uthmani_simple": "اءذا متنا وكنا ترابا وعظما اءنا لمدينون"
+    },
+    {
+      "id": 3842,
+      "verse_key": "37:54",
+      "text_uthmani_simple": "قال هل انتم مطلعون"
+    },
+    {
+      "id": 3843,
+      "verse_key": "37:55",
+      "text_uthmani_simple": "فاطلع فرءاه فى سواء الجحيم"
+    },
+    {
+      "id": 3844,
+      "verse_key": "37:56",
+      "text_uthmani_simple": "قال تالله ان كدت لتردين"
+    },
+    {
+      "id": 3845,
+      "verse_key": "37:57",
+      "text_uthmani_simple": "ولولا نعمة ربى لكنت من المحضرين"
+    },
+    {
+      "id": 3846,
+      "verse_key": "37:58",
+      "text_uthmani_simple": "افما نحن بميتين"
+    },
+    {
+      "id": 3847,
+      "verse_key": "37:59",
+      "text_uthmani_simple": "الا موتتنا الاولى وما نحن بمعذبين"
+    },
+    {
+      "id": 3848,
+      "verse_key": "37:60",
+      "text_uthmani_simple": "ان هذا لهو الفوز العظيم"
+    },
+    {
+      "id": 3849,
+      "verse_key": "37:61",
+      "text_uthmani_simple": "لمثل هذا فليعمل العملون"
+    },
+    {
+      "id": 3850,
+      "verse_key": "37:62",
+      "text_uthmani_simple": "اذلك خير نزلا ام شجرة الزقوم"
+    },
+    {
+      "id": 3851,
+      "verse_key": "37:63",
+      "text_uthmani_simple": "انا جعلنها فتنة للظلمين"
+    },
+    {
+      "id": 3852,
+      "verse_key": "37:64",
+      "text_uthmani_simple": "انها شجرة تخرج فى اصل الجحيم"
+    },
+    {
+      "id": 3853,
+      "verse_key": "37:65",
+      "text_uthmani_simple": "طلعها كانه رءوس الشيطين"
+    },
+    {
+      "id": 3854,
+      "verse_key": "37:66",
+      "text_uthmani_simple": "فانهم لءاكلون منها فمالـون منها البطون"
+    },
+    {
+      "id": 3855,
+      "verse_key": "37:67",
+      "text_uthmani_simple": "ثم ان لهم عليها لشوبا من حميم"
+    },
+    {
+      "id": 3856,
+      "verse_key": "37:68",
+      "text_uthmani_simple": "ثم ان مرجعهم لالى الجحيم"
+    },
+    {
+      "id": 3857,
+      "verse_key": "37:69",
+      "text_uthmani_simple": "انهم الفوا۟ ءاباءهم ضالين"
+    },
+    {
+      "id": 3858,
+      "verse_key": "37:70",
+      "text_uthmani_simple": "فهم على ءاثرهم يهرعون"
+    },
+    {
+      "id": 3859,
+      "verse_key": "37:71",
+      "text_uthmani_simple": "ولقد ضل قبلهم اكثر الاولين"
+    },
+    {
+      "id": 3860,
+      "verse_key": "37:72",
+      "text_uthmani_simple": "ولقد ارسلنا فيهم منذرين"
+    },
+    {
+      "id": 3861,
+      "verse_key": "37:73",
+      "text_uthmani_simple": "فانظر كيف كان عقبة المنذرين"
+    },
+    {
+      "id": 3862,
+      "verse_key": "37:74",
+      "text_uthmani_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3863,
+      "verse_key": "37:75",
+      "text_uthmani_simple": "ولقد نادىنا نوح فلنعم المجيبون"
+    },
+    {
+      "id": 3864,
+      "verse_key": "37:76",
+      "text_uthmani_simple": "ونجينه واهله من الكرب العظيم"
+    },
+    {
+      "id": 3865,
+      "verse_key": "37:77",
+      "text_uthmani_simple": "وجعلنا ذريته هم الباقين"
+    },
+    {
+      "id": 3866,
+      "verse_key": "37:78",
+      "text_uthmani_simple": "وتركنا عليه فى الءاخرين"
+    },
+    {
+      "id": 3867,
+      "verse_key": "37:79",
+      "text_uthmani_simple": "سلم على نوح فى العلمين"
+    },
+    {
+      "id": 3868,
+      "verse_key": "37:80",
+      "text_uthmani_simple": "انا كذلك نجزى المحسنين"
+    },
+    {
+      "id": 3869,
+      "verse_key": "37:81",
+      "text_uthmani_simple": "انه من عبادنا المؤمنين"
+    },
+    {
+      "id": 3870,
+      "verse_key": "37:82",
+      "text_uthmani_simple": "ثم اغرقنا الءاخرين"
+    },
+    {
+      "id": 3871,
+      "verse_key": "37:83",
+      "text_uthmani_simple": "وان من شيعته لابرهيم"
+    },
+    {
+      "id": 3872,
+      "verse_key": "37:84",
+      "text_uthmani_simple": "اذ جاء ربه بقلب سليم"
+    },
+    {
+      "id": 3873,
+      "verse_key": "37:85",
+      "text_uthmani_simple": "اذ قال لابيه وقومه ماذا تعبدون"
+    },
+    {
+      "id": 3874,
+      "verse_key": "37:86",
+      "text_uthmani_simple": "ائفكا ءالهة دون الله تريدون"
+    },
+    {
+      "id": 3875,
+      "verse_key": "37:87",
+      "text_uthmani_simple": "فما ظنكم برب العلمين"
+    },
+    {
+      "id": 3876,
+      "verse_key": "37:88",
+      "text_uthmani_simple": "فنظر نظرة فى النجوم"
+    },
+    {
+      "id": 3877,
+      "verse_key": "37:89",
+      "text_uthmani_simple": "فقال انى سقيم"
+    },
+    {
+      "id": 3878,
+      "verse_key": "37:90",
+      "text_uthmani_simple": "فتولوا۟ عنه مدبرين"
+    },
+    {
+      "id": 3879,
+      "verse_key": "37:91",
+      "text_uthmani_simple": "فراغ الى ءالهتهم فقال الا تاكلون"
+    },
+    {
+      "id": 3880,
+      "verse_key": "37:92",
+      "text_uthmani_simple": "ما لكم لا تنطقون"
+    },
+    {
+      "id": 3881,
+      "verse_key": "37:93",
+      "text_uthmani_simple": "فراغ عليهم ضربۢا باليمين"
+    },
+    {
+      "id": 3882,
+      "verse_key": "37:94",
+      "text_uthmani_simple": "فاقبلوا۟ اليه يزفون"
+    },
+    {
+      "id": 3883,
+      "verse_key": "37:95",
+      "text_uthmani_simple": "قال اتعبدون ما تنحتون"
+    },
+    {
+      "id": 3884,
+      "verse_key": "37:96",
+      "text_uthmani_simple": "والله خلقكم وما تعملون"
+    },
+    {
+      "id": 3885,
+      "verse_key": "37:97",
+      "text_uthmani_simple": "قالوا۟ ابنوا۟ له بنينا فالقوه فى الجحيم"
+    },
+    {
+      "id": 3886,
+      "verse_key": "37:98",
+      "text_uthmani_simple": "فارادوا۟ به كيدا فجعلنهم الاسفلين"
+    },
+    {
+      "id": 3887,
+      "verse_key": "37:99",
+      "text_uthmani_simple": "وقال انى ذاهب الى ربى سيهدين"
+    },
+    {
+      "id": 3888,
+      "verse_key": "37:100",
+      "text_uthmani_simple": "رب هب لى من الصلحين"
+    },
+    {
+      "id": 3889,
+      "verse_key": "37:101",
+      "text_uthmani_simple": "فبشرنه بغلم حليم"
+    },
+    {
+      "id": 3890,
+      "verse_key": "37:102",
+      "text_uthmani_simple": "فلما بلغ معه السعى قال يبنى انى ارى فى المنام انى اذبحك فانظر ماذا ترى قال يابت افعل ما تؤمر ستجدنى ان شاء الله من الصبرين"
+    },
+    {
+      "id": 3891,
+      "verse_key": "37:103",
+      "text_uthmani_simple": "فلما اسلما وتله للجبين"
+    },
+    {
+      "id": 3892,
+      "verse_key": "37:104",
+      "text_uthmani_simple": "وندينه ان يابرهيم"
+    },
+    {
+      "id": 3893,
+      "verse_key": "37:105",
+      "text_uthmani_simple": "قد صدقت الرءيا انا كذلك نجزى المحسنين"
+    },
+    {
+      "id": 3894,
+      "verse_key": "37:106",
+      "text_uthmani_simple": "ان هذا لهو البلؤا۟ المبين"
+    },
+    {
+      "id": 3895,
+      "verse_key": "37:107",
+      "text_uthmani_simple": "وفدينه بذبح عظيم"
+    },
+    {
+      "id": 3896,
+      "verse_key": "37:108",
+      "text_uthmani_simple": "وتركنا عليه فى الءاخرين"
+    },
+    {
+      "id": 3897,
+      "verse_key": "37:109",
+      "text_uthmani_simple": "سلم على ابرهيم"
+    },
+    {
+      "id": 3898,
+      "verse_key": "37:110",
+      "text_uthmani_simple": "كذلك نجزى المحسنين"
+    },
+    {
+      "id": 3899,
+      "verse_key": "37:111",
+      "text_uthmani_simple": "انه من عبادنا المؤمنين"
+    },
+    {
+      "id": 3900,
+      "verse_key": "37:112",
+      "text_uthmani_simple": "وبشرنه باسحق نبيا من الصلحين"
+    },
+    {
+      "id": 3901,
+      "verse_key": "37:113",
+      "text_uthmani_simple": "وبركنا عليه وعلى اسحق ومن ذريتهما محسن وظالم لنفسه مبين"
+    },
+    {
+      "id": 3902,
+      "verse_key": "37:114",
+      "text_uthmani_simple": "ولقد مننا على موسى وهرون"
+    },
+    {
+      "id": 3903,
+      "verse_key": "37:115",
+      "text_uthmani_simple": "ونجينهما وقومهما من الكرب العظيم"
+    },
+    {
+      "id": 3904,
+      "verse_key": "37:116",
+      "text_uthmani_simple": "ونصرنهم فكانوا۟ هم الغلبين"
+    },
+    {
+      "id": 3905,
+      "verse_key": "37:117",
+      "text_uthmani_simple": "وءاتينهما الكتب المستبين"
+    },
+    {
+      "id": 3906,
+      "verse_key": "37:118",
+      "text_uthmani_simple": "وهدينهما الصرط المستقيم"
+    },
+    {
+      "id": 3907,
+      "verse_key": "37:119",
+      "text_uthmani_simple": "وتركنا عليهما فى الءاخرين"
+    },
+    {
+      "id": 3908,
+      "verse_key": "37:120",
+      "text_uthmani_simple": "سلم على موسى وهرون"
+    },
+    {
+      "id": 3909,
+      "verse_key": "37:121",
+      "text_uthmani_simple": "انا كذلك نجزى المحسنين"
+    },
+    {
+      "id": 3910,
+      "verse_key": "37:122",
+      "text_uthmani_simple": "انهما من عبادنا المؤمنين"
+    },
+    {
+      "id": 3911,
+      "verse_key": "37:123",
+      "text_uthmani_simple": "وان الياس لمن المرسلين"
+    },
+    {
+      "id": 3912,
+      "verse_key": "37:124",
+      "text_uthmani_simple": "اذ قال لقومه الا تتقون"
+    },
+    {
+      "id": 3913,
+      "verse_key": "37:125",
+      "text_uthmani_simple": "اتدعون بعلا وتذرون احسن الخلقين"
+    },
+    {
+      "id": 3914,
+      "verse_key": "37:126",
+      "text_uthmani_simple": "الله ربكم ورب ءابائكم الاولين"
+    },
+    {
+      "id": 3915,
+      "verse_key": "37:127",
+      "text_uthmani_simple": "فكذبوه فانهم لمحضرون"
+    },
+    {
+      "id": 3916,
+      "verse_key": "37:128",
+      "text_uthmani_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3917,
+      "verse_key": "37:129",
+      "text_uthmani_simple": "وتركنا عليه فى الءاخرين"
+    },
+    {
+      "id": 3918,
+      "verse_key": "37:130",
+      "text_uthmani_simple": "سلم على ال ياسين"
+    },
+    {
+      "id": 3919,
+      "verse_key": "37:131",
+      "text_uthmani_simple": "انا كذلك نجزى المحسنين"
+    },
+    {
+      "id": 3920,
+      "verse_key": "37:132",
+      "text_uthmani_simple": "انه من عبادنا المؤمنين"
+    },
+    {
+      "id": 3921,
+      "verse_key": "37:133",
+      "text_uthmani_simple": "وان لوطا لمن المرسلين"
+    },
+    {
+      "id": 3922,
+      "verse_key": "37:134",
+      "text_uthmani_simple": "اذ نجينه واهله اجمعين"
+    },
+    {
+      "id": 3923,
+      "verse_key": "37:135",
+      "text_uthmani_simple": "الا عجوزا فى الغبرين"
+    },
+    {
+      "id": 3924,
+      "verse_key": "37:136",
+      "text_uthmani_simple": "ثم دمرنا الءاخرين"
+    },
+    {
+      "id": 3925,
+      "verse_key": "37:137",
+      "text_uthmani_simple": "وانكم لتمرون عليهم مصبحين"
+    },
+    {
+      "id": 3926,
+      "verse_key": "37:138",
+      "text_uthmani_simple": "وباليل افلا تعقلون"
+    },
+    {
+      "id": 3927,
+      "verse_key": "37:139",
+      "text_uthmani_simple": "وان يونس لمن المرسلين"
+    },
+    {
+      "id": 3928,
+      "verse_key": "37:140",
+      "text_uthmani_simple": "اذ ابق الى الفلك المشحون"
+    },
+    {
+      "id": 3929,
+      "verse_key": "37:141",
+      "text_uthmani_simple": "فساهم فكان من المدحضين"
+    },
+    {
+      "id": 3930,
+      "verse_key": "37:142",
+      "text_uthmani_simple": "فالتقمه الحوت وهو مليم"
+    },
+    {
+      "id": 3931,
+      "verse_key": "37:143",
+      "text_uthmani_simple": "فلولا انه كان من المسبحين"
+    },
+    {
+      "id": 3932,
+      "verse_key": "37:144",
+      "text_uthmani_simple": "للبث فى بطنه الى يوم يبعثون"
+    },
+    {
+      "id": 3933,
+      "verse_key": "37:145",
+      "text_uthmani_simple": "فنبذنه بالعراء وهو سقيم"
+    },
+    {
+      "id": 3934,
+      "verse_key": "37:146",
+      "text_uthmani_simple": "وانۢبتنا عليه شجرة من يقطين"
+    },
+    {
+      "id": 3935,
+      "verse_key": "37:147",
+      "text_uthmani_simple": "وارسلنه الى ما۟ئة الف او يزيدون"
+    },
+    {
+      "id": 3936,
+      "verse_key": "37:148",
+      "text_uthmani_simple": "فـامنوا۟ فمتعنهم الى حين"
+    },
+    {
+      "id": 3937,
+      "verse_key": "37:149",
+      "text_uthmani_simple": "فاستفتهم الربك البنات ولهم البنون"
+    },
+    {
+      "id": 3938,
+      "verse_key": "37:150",
+      "text_uthmani_simple": "ام خلقنا الملئكة انثا وهم شهدون"
+    },
+    {
+      "id": 3939,
+      "verse_key": "37:151",
+      "text_uthmani_simple": "الا انهم من افكهم ليقولون"
+    },
+    {
+      "id": 3940,
+      "verse_key": "37:152",
+      "text_uthmani_simple": "ولد الله وانهم لكذبون"
+    },
+    {
+      "id": 3941,
+      "verse_key": "37:153",
+      "text_uthmani_simple": "اصطفى البنات على البنين"
+    },
+    {
+      "id": 3942,
+      "verse_key": "37:154",
+      "text_uthmani_simple": "ما لكم كيف تحكمون"
+    },
+    { "id": 3943, "verse_key": "37:155", "text_uthmani_simple": "افلا تذكرون" },
+    {
+      "id": 3944,
+      "verse_key": "37:156",
+      "text_uthmani_simple": "ام لكم سلطن مبين"
+    },
+    {
+      "id": 3945,
+      "verse_key": "37:157",
+      "text_uthmani_simple": "فاتوا۟ بكتبكم ان كنتم صدقين"
+    },
+    {
+      "id": 3946,
+      "verse_key": "37:158",
+      "text_uthmani_simple": "وجعلوا۟ بينه وبين الجنة نسبا ولقد علمت الجنة انهم لمحضرون"
+    },
+    {
+      "id": 3947,
+      "verse_key": "37:159",
+      "text_uthmani_simple": "سبحن الله عما يصفون"
+    },
+    {
+      "id": 3948,
+      "verse_key": "37:160",
+      "text_uthmani_simple": "الا عباد الله المخلصين"
+    },
+    {
+      "id": 3949,
+      "verse_key": "37:161",
+      "text_uthmani_simple": "فانكم وما تعبدون"
+    },
+    {
+      "id": 3950,
+      "verse_key": "37:162",
+      "text_uthmani_simple": "ما انتم عليه بفتنين"
+    },
+    {
+      "id": 3951,
+      "verse_key": "37:163",
+      "text_uthmani_simple": "الا من هو صال الجحيم"
+    },
+    {
+      "id": 3952,
+      "verse_key": "37:164",
+      "text_uthmani_simple": "وما منا الا له مقام معلوم"
+    },
+    {
+      "id": 3953,
+      "verse_key": "37:165",
+      "text_uthmani_simple": "وانا لنحن الصافون"
+    },
+    {
+      "id": 3954,
+      "verse_key": "37:166",
+      "text_uthmani_simple": "وانا لنحن المسبحون"
+    },
+    {
+      "id": 3955,
+      "verse_key": "37:167",
+      "text_uthmani_simple": "وان كانوا۟ ليقولون"
+    },
+    {
+      "id": 3956,
+      "verse_key": "37:168",
+      "text_uthmani_simple": "لو ان عندنا ذكرا من الاولين"
+    },
+    {
+      "id": 3957,
+      "verse_key": "37:169",
+      "text_uthmani_simple": "لكنا عباد الله المخلصين"
+    },
+    {
+      "id": 3958,
+      "verse_key": "37:170",
+      "text_uthmani_simple": "فكفروا۟ به فسوف يعلمون"
+    },
+    {
+      "id": 3959,
+      "verse_key": "37:171",
+      "text_uthmani_simple": "ولقد سبقت كلمتنا لعبادنا المرسلين"
+    },
+    {
+      "id": 3960,
+      "verse_key": "37:172",
+      "text_uthmani_simple": "انهم لهم المنصورون"
+    },
+    {
+      "id": 3961,
+      "verse_key": "37:173",
+      "text_uthmani_simple": "وان جندنا لهم الغلبون"
+    },
+    {
+      "id": 3962,
+      "verse_key": "37:174",
+      "text_uthmani_simple": "فتول عنهم حتى حين"
+    },
+    {
+      "id": 3963,
+      "verse_key": "37:175",
+      "text_uthmani_simple": "وابصرهم فسوف يبصرون"
+    },
+    {
+      "id": 3964,
+      "verse_key": "37:176",
+      "text_uthmani_simple": "افبعذابنا يستعجلون"
+    },
+    {
+      "id": 3965,
+      "verse_key": "37:177",
+      "text_uthmani_simple": "فاذا نزل بساحتهم فساء صباح المنذرين"
+    },
+    {
+      "id": 3966,
+      "verse_key": "37:178",
+      "text_uthmani_simple": "وتول عنهم حتى حين"
+    },
+    {
+      "id": 3967,
+      "verse_key": "37:179",
+      "text_uthmani_simple": "وابصر فسوف يبصرون"
+    },
+    {
+      "id": 3968,
+      "verse_key": "37:180",
+      "text_uthmani_simple": "سبحن ربك رب العزة عما يصفون"
+    },
+    {
+      "id": 3969,
+      "verse_key": "37:181",
+      "text_uthmani_simple": "وسلم على المرسلين"
+    },
+    {
+      "id": 3970,
+      "verse_key": "37:182",
+      "text_uthmani_simple": "والحمد لله رب العلمين"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "37" } }
+}

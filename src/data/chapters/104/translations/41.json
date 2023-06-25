@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Ve over hver ivrig baktaler," },
+    { "resource_id": 41, "text": "som samler rikdom, og teller og teller," },
+    {
+      "resource_id": 41,
+      "text": "og tror at hans rikdom har gjort ham udødelig!"
+    },
+    {
+      "resource_id": 41,
+      "text": "Nei, så sannelig, han skal bli kastet i al-Hotama."
+    },
+    { "resource_id": 41, "text": "Hvordan kan du vite hva al-Hotama er?" },
+    { "resource_id": 41, "text": "Det er Guds opptente Ild," },
+    { "resource_id": 41, "text": "som går oppover hjertene." },
+    { "resource_id": 41, "text": "Den hvelver seg over dem" },
+    { "resource_id": 41, "text": "i langstrakte søyler." }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "104" }
+  }
+}

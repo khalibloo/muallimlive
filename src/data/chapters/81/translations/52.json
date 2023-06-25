@@ -1,0 +1,62 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Güneş katlanıp dürüldüğünde," },
+    { "resource_id": 52, "text": "Yıldızlar bulandığında," },
+    { "resource_id": 52, "text": "Dağlar yürütüldüğünde," },
+    { "resource_id": 52, "text": "Kıyılmaz mallar bırakıldığında," },
+    { "resource_id": 52, "text": "Vahşi hayvanlar bir araya toplandığında," },
+    {
+      "resource_id": 52,
+      "text": "Denizler ateşlendiğinde (suları çekilip, volkanlar halinde ateş püskürdüğünde),"
+    },
+    {
+      "resource_id": 52,
+      "text": "Nefisler eşleştirildiğinde (iyiler iyilerle, kötüler kötülerle bir araya toplandığında),"
+    },
+    {
+      "resource_id": 52,
+      "text": "Diri diri toprağa gömülen kıza sorulduğunda,"
+    },
+    { "resource_id": 52, "text": "\"Hangi günahtan dolayı öldürüldü?\" diye." },
+    { "resource_id": 52, "text": "Amel defterleri açıldığında," },
+    { "resource_id": 52, "text": "Gök sıyrılıp açıldığında," },
+    { "resource_id": 52, "text": "Cehennem kızıştırıldığında," },
+    { "resource_id": 52, "text": "Ve cennet yaklaştırıldığında," },
+    { "resource_id": 52, "text": "Herkes ne getirmiş olduğunu anlar." },
+    {
+      "resource_id": 52,
+      "text": "Şimdi yemin ederim o sinenlere (gündüzleri gözden kaybolan yıldızlara),"
+    },
+    { "resource_id": 52, "text": "O akıp akıp yuvasına gidenlere," },
+    { "resource_id": 52, "text": "Yöneldiği an geceye," },
+    { "resource_id": 52, "text": "Nefeslendiği (ağardığı) an sabaha ki," },
+    {
+      "resource_id": 52,
+      "text": "Kuşkusuz o Kur'an, değerli bir elçinin sözüdür."
+    },
+    {
+      "resource_id": 52,
+      "text": "O elçi güçlüdür, Arş'ın sahibinin yanında çok itibarlıdır."
+    },
+    { "resource_id": 52, "text": "Orada ona itaat edilir, güvenilir." },
+    { "resource_id": 52, "text": "Arkadaşınızı cin çarpmış değildir." },
+    { "resource_id": 52, "text": "Andolsun o, Cebrail'i açık ufukta gördü." },
+    { "resource_id": 52, "text": "O, gayb hakkında cimri de değildir." },
+    { "resource_id": 52, "text": "O, kovulmuş bir şeytanın sözü değildir." },
+    { "resource_id": 52, "text": "Hâl böyle iken, siz nereye gidiyorsunuz?" },
+    {
+      "resource_id": 52,
+      "text": "O, âlemler için öğütten başka bir şey değildir,"
+    },
+    { "resource_id": 52, "text": "İçinizden doğru gitmek isteyenler için." },
+    {
+      "resource_id": 52,
+      "text": "Âlemlerin Rabbi olan Allah dilemeyince, siz dileyemezsiniz."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "81" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 221, "text": "Thề bởi thời gian." },
+    { "resource_id": 221, "text": "Quả thật, con người sẽ đi vào thua thiệt," },
+    {
+      "resource_id": 221,
+      "text": "Ngoại trừ những ai có đức tin và làm việc thiện và khuyên bảo nhau tôn trọng sự thật và khuyên bảo nhau kiên nhẫn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "103" }
+  }
+}

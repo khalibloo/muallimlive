@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 183, "text": "最後の審判の日、大地が激しく揺れ、" },
+    { "resource_id": 183, "text": "大地が遺体やその他の重荷を投げ出し、" },
+    {
+      "resource_id": 183,
+      "text": "大地が揺れ動くとは、それは何事が起っているのかと人が言う時、"
+    },
+    {
+      "resource_id": 183,
+      "text": "その偉大な日、大地は行われたすべての善悪の情報を語るが、"
+    },
+    {
+      "resource_id": 183,
+      "text": "それはアッラーが、教えられて命じられたところである。"
+    },
+    {
+      "resource_id": 183,
+      "text": "その日、人びとは清算の場所へと集団となって出て来て、かれらの行ったことを見せつけられる。"
+    },
+    {
+      "resource_id": 183,
+      "text": "蟻一匹ほどの重さでも、善を行った者はそれを見る。"
+    },
+    {
+      "resource_id": 183,
+      "text": "それほどの重さでも、悪を行った者はそれを見る。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Japanese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 183, "chapter_number": "99" }
+  }
+}

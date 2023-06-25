@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 22,
+      "text": "We have indeed revealed this (Message) in the Night of Power:"
+    },
+    {
+      "resource_id": 22,
+      "text": "And what will explain to thee what the night of power is?"
+    },
+    {
+      "resource_id": 22,
+      "text": "The Night of Power is better than a thousand months."
+    },
+    {
+      "resource_id": 22,
+      "text": "Therein come down the angels and the Spirit by Allah's permission, on every errand:"
+    },
+    { "resource_id": 22, "text": "Peace!... This until the rise of morn!" }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "97" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 97, "text": "کہو، میں پناہ مانگتا ہوں انسانوں کے رب" },
+    { "resource_id": 97, "text": "انسانوں کے بادشاہ" },
+    {
+      "resource_id": 97,
+      "text": "انسانوں کے حقیقی معبُود کی <sup foot_note=\"188659\">1</sup>"
+    },
+    {
+      "resource_id": 97,
+      "text": "اُس وسوسہ ڈالنے والے کے شر سے جو بار بار پلٹ کر آتا ہے، <sup foot_note=\"188660\">1</sup>"
+    },
+    { "resource_id": 97, "text": "جو لوگوں کے دلوں میں وسوسے ڈالتا ہے" },
+    {
+      "resource_id": 97,
+      "text": "خواہ وہ جِنّوں میں سے ہو یا انسانوں میں سے۔ <sup foot_note=\"188661\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem e Qur'an - Syed Abu Ali Maududi",
+    "author_name": "Syed Abu Ali Maududi",
+    "filters": { "resource_id": 97, "chapter_number": "114" }
+  }
+}

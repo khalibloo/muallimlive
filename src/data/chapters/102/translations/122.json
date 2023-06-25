@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 122, "text": "तुम्हें अधिक (धन) के लोभ ने मगन कर दिया।" },
+    {
+      "resource_id": 122,
+      "text": "यहाँ तक कि तुम क़ब्रिस्तान जा पहुँचे।[ <sup foot_note=134924>1</sup>"
+    },
+    { "resource_id": 122, "text": "निश्चय तुम्हें ज्ञान हो जायेगा।" },
+    { "resource_id": 122, "text": "फिर निश्चय ही तुम्हें ज्ञान हो जायेगा।" },
+    {
+      "resource_id": 122,
+      "text": "वास्तव में, यदि तुम्हें विश्वास होता (तो ऐसा न करते)।[ <sup foot_note=134925>1</sup>"
+    },
+    { "resource_id": 122, "text": "तुम नरक को अवश्य देखोगे।" },
+    { "resource_id": 122, "text": "फिर उसे विश्वास की आँख से देखोगे।" },
+    {
+      "resource_id": 122,
+      "text": "फिर उस दिन तुमसे सुख सम्पदा के विषय में अवश्य पूछ गछ होगी।[ <sup foot_note=134926>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "102" }
+  }
+}

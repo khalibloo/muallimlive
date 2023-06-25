@@ -1,0 +1,92 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Saala sa-ilun biAAathabin waqiAA" },
+    { "resource_id": 57, "text": "Lilkafireena laysa lahu dafiAA" },
+    { "resource_id": 57, "text": "Mina Allahi thee almaAAarij" },
+    {
+      "resource_id": 57,
+      "text": "TaAAruju almala-ikatu warroohuilayhi fee yawmin kana miqdaruhu khamseena alfasana"
+    },
+    { "resource_id": 57, "text": "Fasbir sabran jameela" },
+    { "resource_id": 57, "text": "Innahum yarawnahu baAAeeda" },
+    { "resource_id": 57, "text": "Wanarahu qareeba" },
+    { "resource_id": 57, "text": "Yawma takoonu assamao kalmuhl" },
+    { "resource_id": 57, "text": "Watakoonu aljibalu kalAAihn" },
+    { "resource_id": 57, "text": "Wala yas-alu hameemun hameema" },
+    {
+      "resource_id": 57,
+      "text": "Yubassaroonahum yawaddu almujrimu lawyaftadee min AAathabi yawmi-ithin bibaneeh"
+    },
+    { "resource_id": 57, "text": "Wasahibatihi waakheeh" },
+    { "resource_id": 57, "text": "Wafaseelatihi allatee tu/weeh" },
+    { "resource_id": 57, "text": "Waman fee al-ardi jameeAAan thummayunjeeh" },
+    { "resource_id": 57, "text": "Kalla innaha latha" },
+    { "resource_id": 57, "text": "NazzaAAatan lishshawa" },
+    { "resource_id": 57, "text": "TadAAoo man adbara watawalla" },
+    { "resource_id": 57, "text": "WajamaAAa faawAAa" },
+    { "resource_id": 57, "text": "Inna al-insana khuliqa halooAAa" },
+    { "resource_id": 57, "text": "Itha massahu ashsharrujazooAAa" },
+    { "resource_id": 57, "text": "Wa-itha massahu alkhayru manooAAa" },
+    { "resource_id": 57, "text": "Illa almusalleen" },
+    { "resource_id": 57, "text": "Allatheena hum AAala salatihimda-imoon" },
+    { "resource_id": 57, "text": "Wallatheena fee amwalihimhaqqun maAAloom" },
+    { "resource_id": 57, "text": "Lissa-ili walmahroom" },
+    { "resource_id": 57, "text": "Wallatheena yusaddiqoonabiyawmi addeen" },
+    {
+      "resource_id": 57,
+      "text": "Wallatheena hum min AAathabirabbihim mushfiqoon"
+    },
+    { "resource_id": 57, "text": "Inna AAathaba rabbihim ghayru ma/moon" },
+    { "resource_id": 57, "text": "Wallatheena hum lifuroojihim hafithoon" },
+    {
+      "resource_id": 57,
+      "text": "Illa AAala azwajihim awma malakat aymanuhum fa-innahum ghayru maloomeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Famani ibtagha waraa thalikafaola-ika humu alAAadoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wallatheena hum li-amanatihimwaAAahdihim raAAoon"
+    },
+    { "resource_id": 57, "text": "Wallatheena hum bishahadatihimqa-imoon" },
+    { "resource_id": 57, "text": "Wallatheena hum AAala salatihimyuhafithoon" },
+    { "resource_id": 57, "text": "Ola-ika fee jannatin mukramoon" },
+    {
+      "resource_id": 57,
+      "text": "Famali allatheena kafarooqibalaka muhtiAAeen"
+    },
+    { "resource_id": 57, "text": "AAani alyameeni waAAani ashshimaliAAizeen" },
+    {
+      "resource_id": 57,
+      "text": "AyatmaAAu kullu imri-in minhum anyudkhala jannata naAAeem"
+    },
+    { "resource_id": 57, "text": "Kalla inna khalaqnahummimma yaAAlamoon" },
+    {
+      "resource_id": 57,
+      "text": "Fala oqsimu birabbi almashariqiwalmagharibi inna laqadiroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "AAala an nubaddila khayran minhum wamanahnu bimasbooqeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fatharhum yakhoodoowayalAAaboo hatta yulaqoo yawmahumu allatheeyooAAadoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Yawma yakhrujoona mina al-ajdathi siraAAankaannahum ila nusubin yoofidoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "KhashiAAatan absaruhumtarhaquhum thillatun thalika alyawmu allatheekanoo yooAAadoon"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "70" }
+  }
+}

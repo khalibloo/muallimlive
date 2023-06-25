@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Pela plena luz matinal!" },
+    { "resource_id": 103, "text": "E pela noite, quando serena!" },
+    {
+      "resource_id": 103,
+      "text": "Teu Senhor não te abandonou nem te detestou."
+    },
+    {
+      "resource_id": 103,
+      "text": "E, em verdade, a Derradeira Vida te é melhor que a primeira."
+    },
+    {
+      "resource_id": 103,
+      "text": "E, em verdade, teu Senhor dar-te-á graças, e disso te agradarás."
+    },
+    { "resource_id": 103, "text": "Não te encontrou órfão e te abrigou?" },
+    {
+      "resource_id": 103,
+      "text": "E não te encontrou descaminhado e te guiou?"
+    },
+    {
+      "resource_id": 103,
+      "text": "E não te encontrou infortunado e te enriqueceu?"
+    },
+    { "resource_id": 103, "text": "Então, quanto ao órfão, não o oprimas" },
+    { "resource_id": 103, "text": "E, quanto ao mendigo, não o maltrates." },
+    {
+      "resource_id": 103,
+      "text": "E, quanto à graça de teu Senhor, proclama-a."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "93" }
+  }
+}

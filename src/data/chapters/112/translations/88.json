@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 88, "text": "Thuaj: “Ai është Allahu, Një dhe i Vetëm!" },
+    {
+      "resource_id": 88,
+      "text": "Allahu është Absoluti, të Cilit i përgjërohet gjithçka në amshim.<sup foot_note=195927>1</sup>"
+    },
+    { "resource_id": 88, "text": "Ai as nuk lind, as nuk është i lindur." },
+    {
+      "resource_id": 88,
+      "text": "Dhe askush nuk është i barabartë (a i krahasueshëm) me Atë!”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "112" }
+  }
+}

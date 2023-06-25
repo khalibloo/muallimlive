@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 120,
+      "text": "প্ৰাচুৰ্যৰ প্ৰতিযোগিতায় তোমালোকক অমনোযোগী কৰি ৰাখিছে।"
+    },
+    { "resource_id": 120, "text": "যেতিয়ালৈকে তোমালোকে কবৰত উপনীত নোহোৱা।" },
+    {
+      "resource_id": 120,
+      "text": "কেতিয়াও নহয়, অতি সোনকালে তোমালোকে জানিবলৈ পাবা।"
+    },
+    {
+      "resource_id": 120,
+      "text": "আকৌ কেতিয়াও নহয়, অতি সোনকালে তোমালোকে জানিবলৈ পাবা।"
+    },
+    {
+      "resource_id": 120,
+      "text": "কেতিয়াও নহয়, যদি তোমালোকে নিশ্চিতভাৱে জানিলাহেঁতেন।"
+    },
+    { "resource_id": 120, "text": "নিশ্চয় তোমালোকে জাহীম (জাহান্নাম) দেখিবা।" },
+    {
+      "resource_id": 120,
+      "text": "আকৌ, নিশ্চয় তোমালোকে ইয়াক পতিয়ন যোৱাকৈ দেখিবা।"
+    },
+    {
+      "resource_id": 120,
+      "text": "তাৰ পিছত সেইদিনা অৱশ্যই তোমালোকক নিয়ামত সম্পৰ্কে প্ৰশ্ন কৰা হ’ব।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "author_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "filters": { "resource_id": 120, "chapter_number": "102" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "দুর্ভোগ প্রত্যেকের যে সামনে নিন্দাকারী ও পেছনে গীবতকারী।"
+    },
+    { "resource_id": 162, "text": "যে সম্পদ জমা করে এবং বার বার গণনা করে।" },
+    { "resource_id": 162, "text": "সে মনে করে তার সম্পদ তাকে চিরজীবি করবে।" },
+    {
+      "resource_id": 162,
+      "text": "কখনো নয়, অবশ্যই সে নিক্ষিপ্ত হবে হুতামা’য়।"
+    },
+    { "resource_id": 162, "text": "আর কিসে তোমাকে জানাবে হুতামা কি?" },
+    { "resource_id": 162, "text": "আল্লাহর প্রজ্জ্বলিত আগুন।" },
+    { "resource_id": 162, "text": "যা হৃৎপিন্ড পর্যন্ত পৌঁছে যাবে।" },
+    { "resource_id": 162, "text": "নিশ্চয় তা তাদেরকে আবদ্ধ করে রাখবে।" },
+    { "resource_id": 162, "text": "প্রলম্বিত স্তম্ভসমূহে।" }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "104" }
+  }
+}

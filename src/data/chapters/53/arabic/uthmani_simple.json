@@ -1,0 +1,299 @@
+{
+  "verses": [
+    {
+      "id": 4785,
+      "verse_key": "53:1",
+      "text_uthmani_simple": "والنجم اذا هوى"
+    },
+    {
+      "id": 4786,
+      "verse_key": "53:2",
+      "text_uthmani_simple": "ما ضل صاحبكم وما غوى"
+    },
+    {
+      "id": 4787,
+      "verse_key": "53:3",
+      "text_uthmani_simple": "وما ينطق عن الهوى"
+    },
+    {
+      "id": 4788,
+      "verse_key": "53:4",
+      "text_uthmani_simple": "ان هو الا وحى يوحى"
+    },
+    {
+      "id": 4789,
+      "verse_key": "53:5",
+      "text_uthmani_simple": "علمه شديد القوى"
+    },
+    { "id": 4790, "verse_key": "53:6", "text_uthmani_simple": "ذو مرة فاستوى" },
+    {
+      "id": 4791,
+      "verse_key": "53:7",
+      "text_uthmani_simple": "وهو بالافق الاعلى"
+    },
+    { "id": 4792, "verse_key": "53:8", "text_uthmani_simple": "ثم دنا فتدلى" },
+    {
+      "id": 4793,
+      "verse_key": "53:9",
+      "text_uthmani_simple": "فكان قاب قوسين او ادنى"
+    },
+    {
+      "id": 4794,
+      "verse_key": "53:10",
+      "text_uthmani_simple": "فاوحى الى عبده ما اوحى"
+    },
+    {
+      "id": 4795,
+      "verse_key": "53:11",
+      "text_uthmani_simple": "ما كذب الفؤاد ما راى"
+    },
+    {
+      "id": 4796,
+      "verse_key": "53:12",
+      "text_uthmani_simple": "افتمرونه على ما يرى"
+    },
+    {
+      "id": 4797,
+      "verse_key": "53:13",
+      "text_uthmani_simple": "ولقد رءاه نزلة اخرى"
+    },
+    {
+      "id": 4798,
+      "verse_key": "53:14",
+      "text_uthmani_simple": "عند سدرة المنتهى"
+    },
+    {
+      "id": 4799,
+      "verse_key": "53:15",
+      "text_uthmani_simple": "عندها جنة الماوى"
+    },
+    {
+      "id": 4800,
+      "verse_key": "53:16",
+      "text_uthmani_simple": "اذ يغشى السدرة ما يغشى"
+    },
+    {
+      "id": 4801,
+      "verse_key": "53:17",
+      "text_uthmani_simple": "ما زاغ البصر وما طغى"
+    },
+    {
+      "id": 4802,
+      "verse_key": "53:18",
+      "text_uthmani_simple": "لقد راى من ءايت ربه الكبرى"
+    },
+    {
+      "id": 4803,
+      "verse_key": "53:19",
+      "text_uthmani_simple": "افرءيتم اللت والعزى"
+    },
+    {
+      "id": 4804,
+      "verse_key": "53:20",
+      "text_uthmani_simple": "ومنوة الثالثة الاخرى"
+    },
+    {
+      "id": 4805,
+      "verse_key": "53:21",
+      "text_uthmani_simple": "الكم الذكر وله الانثى"
+    },
+    {
+      "id": 4806,
+      "verse_key": "53:22",
+      "text_uthmani_simple": "تلك اذا قسمة ضيزى"
+    },
+    {
+      "id": 4807,
+      "verse_key": "53:23",
+      "text_uthmani_simple": "ان هى الا اسماء سميتموها انتم وءاباؤكم ما انزل الله بها من سلطن ان يتبعون الا الظن وما تهوى الانفس ولقد جاءهم من ربهم الهدى"
+    },
+    {
+      "id": 4808,
+      "verse_key": "53:24",
+      "text_uthmani_simple": "ام للانسن ما تمنى"
+    },
+    {
+      "id": 4809,
+      "verse_key": "53:25",
+      "text_uthmani_simple": "فلله الءاخرة والاولى"
+    },
+    {
+      "id": 4810,
+      "verse_key": "53:26",
+      "text_uthmani_simple": "وكم من ملك فى السموت لا تغنى شفعتهم شيـا الا منۢ بعد ان ياذن الله لمن يشاء ويرضى"
+    },
+    {
+      "id": 4811,
+      "verse_key": "53:27",
+      "text_uthmani_simple": "ان الذين لا يؤمنون بالءاخرة ليسمون الملئكة تسمية الانثى"
+    },
+    {
+      "id": 4812,
+      "verse_key": "53:28",
+      "text_uthmani_simple": "وما لهم به من علم ان يتبعون الا الظن وان الظن لا يغنى من الحق شيـا"
+    },
+    {
+      "id": 4813,
+      "verse_key": "53:29",
+      "text_uthmani_simple": "فاعرض عن من تولى عن ذكرنا ولم يرد الا الحيوة الدنيا"
+    },
+    {
+      "id": 4814,
+      "verse_key": "53:30",
+      "text_uthmani_simple": "ذلك مبلغهم من العلم ان ربك هو اعلم بمن ضل عن سبيله وهو اعلم بمن اهتدى"
+    },
+    {
+      "id": 4815,
+      "verse_key": "53:31",
+      "text_uthmani_simple": "ولله ما فى السموت وما فى الارض ليجزى الذين اسـوا۟ بما عملوا۟ ويجزى الذين احسنوا۟ بالحسنى"
+    },
+    {
+      "id": 4816,
+      "verse_key": "53:32",
+      "text_uthmani_simple": "الذين يجتنبون كبئر الاثم والفوحش الا اللمم ان ربك وسع المغفرة هو اعلم بكم اذ انشاكم من الارض واذ انتم اجنة فى بطون امهتكم فلا تزكوا۟ انفسكم هو اعلم بمن اتقى"
+    },
+    {
+      "id": 4817,
+      "verse_key": "53:33",
+      "text_uthmani_simple": "افرءيت الذى تولى"
+    },
+    {
+      "id": 4818,
+      "verse_key": "53:34",
+      "text_uthmani_simple": "واعطى قليلا واكدى"
+    },
+    {
+      "id": 4819,
+      "verse_key": "53:35",
+      "text_uthmani_simple": "اعنده علم الغيب فهو يرى"
+    },
+    {
+      "id": 4820,
+      "verse_key": "53:36",
+      "text_uthmani_simple": "ام لم ينبا بما فى صحف موسى"
+    },
+    {
+      "id": 4821,
+      "verse_key": "53:37",
+      "text_uthmani_simple": "وابرهيم الذى وفى"
+    },
+    {
+      "id": 4822,
+      "verse_key": "53:38",
+      "text_uthmani_simple": "الا تزر وازرة وزر اخرى"
+    },
+    {
+      "id": 4823,
+      "verse_key": "53:39",
+      "text_uthmani_simple": "وان ليس للانسن الا ما سعى"
+    },
+    {
+      "id": 4824,
+      "verse_key": "53:40",
+      "text_uthmani_simple": "وان سعيه سوف يرى"
+    },
+    {
+      "id": 4825,
+      "verse_key": "53:41",
+      "text_uthmani_simple": "ثم يجزىه الجزاء الاوفى"
+    },
+    {
+      "id": 4826,
+      "verse_key": "53:42",
+      "text_uthmani_simple": "وان الى ربك المنتهى"
+    },
+    {
+      "id": 4827,
+      "verse_key": "53:43",
+      "text_uthmani_simple": "وانه هو اضحك وابكى"
+    },
+    {
+      "id": 4828,
+      "verse_key": "53:44",
+      "text_uthmani_simple": "وانه هو امات واحيا"
+    },
+    {
+      "id": 4829,
+      "verse_key": "53:45",
+      "text_uthmani_simple": "وانه خلق الزوجين الذكر والانثى"
+    },
+    {
+      "id": 4830,
+      "verse_key": "53:46",
+      "text_uthmani_simple": "من نطفة اذا تمنى"
+    },
+    {
+      "id": 4831,
+      "verse_key": "53:47",
+      "text_uthmani_simple": "وان عليه النشاة الاخرى"
+    },
+    {
+      "id": 4832,
+      "verse_key": "53:48",
+      "text_uthmani_simple": "وانه هو اغنى واقنى"
+    },
+    {
+      "id": 4833,
+      "verse_key": "53:49",
+      "text_uthmani_simple": "وانه هو رب الشعرى"
+    },
+    {
+      "id": 4834,
+      "verse_key": "53:50",
+      "text_uthmani_simple": "وانه اهلك عادا الاولى"
+    },
+    {
+      "id": 4835,
+      "verse_key": "53:51",
+      "text_uthmani_simple": "وثمودا۟ فما ابقى"
+    },
+    {
+      "id": 4836,
+      "verse_key": "53:52",
+      "text_uthmani_simple": "وقوم نوح من قبل انهم كانوا۟ هم اظلم واطغى"
+    },
+    {
+      "id": 4837,
+      "verse_key": "53:53",
+      "text_uthmani_simple": "والمؤتفكة اهوى"
+    },
+    {
+      "id": 4838,
+      "verse_key": "53:54",
+      "text_uthmani_simple": "فغشىها ما غشى"
+    },
+    {
+      "id": 4839,
+      "verse_key": "53:55",
+      "text_uthmani_simple": "فباى ءالاء ربك تتمارى"
+    },
+    {
+      "id": 4840,
+      "verse_key": "53:56",
+      "text_uthmani_simple": "هذا نذير من النذر الاولى"
+    },
+    { "id": 4841, "verse_key": "53:57", "text_uthmani_simple": "ازفت الءازفة" },
+    {
+      "id": 4842,
+      "verse_key": "53:58",
+      "text_uthmani_simple": "ليس لها من دون الله كاشفة"
+    },
+    {
+      "id": 4843,
+      "verse_key": "53:59",
+      "text_uthmani_simple": "افمن هذا الحديث تعجبون"
+    },
+    {
+      "id": 4844,
+      "verse_key": "53:60",
+      "text_uthmani_simple": "وتضحكون ولا تبكون"
+    },
+    { "id": 4845, "verse_key": "53:61", "text_uthmani_simple": "وانتم سمدون" },
+    {
+      "id": 4846,
+      "verse_key": "53:62",
+      "text_uthmani_simple": "فاسجدوا۟ لله واعبدوا۟"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "53" } }
+}

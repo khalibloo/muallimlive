@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 127, "text": "«Кимники кўп» сизни машғул қилди." },
+    { "resource_id": 127, "text": "То қабрларни зиёрат қилгунингизча." },
+    { "resource_id": 127, "text": "Йўқ! Сизлар тезда биласиз." },
+    { "resource_id": 127, "text": "Яна йўқ! Сизлар тезда биласиз." },
+    {
+      "resource_id": 127,
+      "text": "Йўқ! Агар Сиз аниқ илм ила билганингизда эди."
+    },
+    { "resource_id": 127, "text": "Албатта, жаҳаннамни кўрасиз." },
+    {
+      "resource_id": 127,
+      "text": "Ва яна, албатта, уни ишонч кўзи билан кўрасиз."
+    },
+    {
+      "resource_id": 127,
+      "text": "Сўнгра, ўша кунда, албатта, берилган неъматлардан сўраласиз.<sup foot_note=48894>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "102" }
+  }
+}

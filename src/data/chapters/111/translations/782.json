@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 782,
+      "text": "Să piară mâinile lui Abu Lahab<sup foot_note=203910>1</sup> ş i s ă p iară ş i e l!<sup foot_note=203911>2</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Averea lui să nu‑i fie de nici un folos şi nici ce a agonisit!"
+    },
+    { "resource_id": 782, "text": "Va arde în Focul cu flăcări," },
+    {
+      "resource_id": 782,
+      "text": "Împreună cu muierea lui,<sup foot_note=203912>1</sup> aducătoarea de vreascuri,"
+    },
+    {
+      "resource_id": 782,
+      "text": "Care va avea la gâtul ei o funie de fire [de palmier]<sup foot_note=203913>1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "111" }
+  }
+}

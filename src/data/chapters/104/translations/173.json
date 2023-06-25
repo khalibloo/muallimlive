@@ -1,0 +1,39 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Que celui qui calomnie et diffame les gens soit honni et châtié."
+    },
+    {
+      "resource_id": 173,
+      "text": "Il amasse des richesses et les compte, n'ayant que cela comme préoccupation,"
+    },
+    {
+      "resource_id": 173,
+      "text": "et croit que les richesses qu’il amasse le sauveront de la mort et le feront vivre éternellement dans le bas monde."
+    },
+    {
+      "resource_id": 173,
+      "text": "Il n’en sera pas comme se l’imagine cet ignorant. Il sera assurément jeté dans le Feu de l’Enfer qui brise et détruit tout ce qui y est jeté."
+    },
+    {
+      "resource_id": 173,
+      "text": "Ô Messager, sais-tu ce qu’est ce Feu qui détruit tout ce qui y est jeté?"
+    },
+    { "resource_id": 173, "text": "C’est le Feu attisé d’Allah" },
+    {
+      "resource_id": 173,
+      "text": "qui traverse les corps des gens jusqu’à leurs cœurs."
+    },
+    { "resource_id": 173, "text": "Il se refermera sur les suppliciés" },
+    {
+      "resource_id": 173,
+      "text": "en longues colonnes de flammes afin qu’ils n’en sortent plus."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "translations": [
+    { "resource_id": 199, "text": "Juro por esta ciudad (de La Meca)" },
+    {
+      "resource_id": 199,
+      "text": "—y tú (Muhammad) eres libre en ella<sup foot_note=151201>1</sup>—"
+    },
+    {
+      "resource_id": 199,
+      "text": "y (juro) por un padre (Adán) y por su descendencia"
+    },
+    {
+      "resource_id": 199,
+      "text": "que creamos al hombre de manera que tuviera que pasar por dificultades."
+    },
+    { "resource_id": 199, "text": "¿Acaso piensa que nadie podrá con él?" },
+    {
+      "resource_id": 199,
+      "text": "Dice (jactándose): “He dilapidado una gran fortuna”<sup foot_note=151202>1</sup>."
+    },
+    { "resource_id": 199, "text": "¿Acaso piensa que nadie lo ha visto?" },
+    { "resource_id": 199, "text": "¿Acaso no le dimos dos ojos (para ver)" },
+    {
+      "resource_id": 199,
+      "text": "y una lengua y dos labios (para que pudiera hablar y comer)?"
+    },
+    {
+      "resource_id": 199,
+      "text": "¿Acaso no le mostramos los dos caminos (el del bien y el del mal)?"
+    },
+    {
+      "resource_id": 199,
+      "text": "Mas el hombre no emprende la vía difícil (que conduce al Paraíso)."
+    },
+    { "resource_id": 199, "text": "¿Y sabes en qué consiste dicha vía?" },
+    { "resource_id": 199, "text": "(Consiste) en liberar a un esclavo," },
+    { "resource_id": 199, "text": "o en dar de comer en días de hambruna" },
+    { "resource_id": 199, "text": "al pariente huérfano" },
+    {
+      "resource_id": 199,
+      "text": "o al pobre polvoriento (que no posee nada)."
+    },
+    {
+      "resource_id": 199,
+      "text": "Y (consiste) además en ser de quienes creen y se aconsejan entre ellos la paciencia y la misericordia."
+    },
+    {
+      "resource_id": 199,
+      "text": "Esos serán quienes reciban el registro de sus obras con la mano derecha."
+    },
+    {
+      "resource_id": 199,
+      "text": "Y quienes rechacen Nuestras aleyas (y Nuestras pruebas) serán quienes reciban el registro de sus obras con la mano izquierda"
+    },
+    {
+      "resource_id": 199,
+      "text": "y estarán cercados por el fuego (del Infierno)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "90" }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 17, "text": "The Smiter!" },
+    { "resource_id": 17, "text": "What is the Smiter?" },
+    {
+      "resource_id": 17,
+      "text": "And what makes you realize what the Smiter is?"
+    },
+    {
+      "resource_id": 17,
+      "text": "The Day (whereon) mankind will be like disseminated moths,"
+    },
+    {
+      "resource_id": 17,
+      "text": "And the mountains will be like carded wool tufts,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Then, as for him whose scales weigh heavy, (i.e., with good deeds)."
+    },
+    { "resource_id": 17, "text": "So he will be in a satisfied livelihood." },
+    {
+      "resource_id": 17,
+      "text": "And, as for him whose scales weigh light, (i.e., with deeds)."
+    },
+    {
+      "resource_id": 17,
+      "text": "Then his home is the bottom of Hell (Literally: his mother is tumbling into Hell)."
+    },
+    { "resource_id": 17, "text": "And what makes you realize what it is?" },
+    { "resource_id": 17, "text": "(It is) a Fire burning hot." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "101" }
+  }
+}

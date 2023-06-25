@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 771, "text": "ಭಯಂಕರ ಸದ್ದಿನ ಆ ಮಹಾ ದುರಂತ!" },
+    { "resource_id": 771, "text": "ಅದೆಂತಹ ಭೀಕರ ಘಟನೆ!" },
+    { "resource_id": 771, "text": "ಆ ಭೀಕರ ಘಟನೆ ಏನೆಂದು ತಮಗೆ ಗೊತ್ತೆ?" },
+    {
+      "resource_id": 771,
+      "text": "ಮನುಷ್ಯರೆಲ್ಲರೂ ಚದುರಿದ ಹಾತೆಗಳಂತೆ ಚೆಲ್ಲಾಪಿಲ್ಲಿಯಾಗುವ ದಿನ."
+    },
+    { "resource_id": 771, "text": "ಅಂದು ಪರ್ವತಗಳು ಹಿಂಜಿದ ಅರಳೆಯಂತಾಗುವುವು !" },
+    { "resource_id": 771, "text": "(ಆಗ) ಯಾರ ಸತ್ಕರ್ಮಗಳ ತಟ್ಟೆಯು ಭಾರವಾಗಿರುವುದೋ," },
+    { "resource_id": 771, "text": "ಅವನು ತೃಪ್ತಿಕರವಾದ ಜೀವನದಲ್ಲಾಗುವನು." },
+    { "resource_id": 771, "text": "ಆಗ ಯಾರ ಸತ್ಕರ್ಮಗಳ ತಟ್ಟೆಯು ಹಗುರ ವಾಗಿರುವುದೋ," },
+    { "resource_id": 771, "text": "ಅವನ ವಾಸಸ್ಥಳ ಪ್ರಪಾತವಾಗಿರುವುದು." },
+    { "resource_id": 771, "text": "ಆ ಪ್ರಪಾತ ಏನೆಂದು ನಿಮಗೆ ಗೊತ್ತೆ ?" },
+    { "resource_id": 771, "text": "ಘೋರತಾಪದ ನರಕವದು." }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "101" }
+  }
+}

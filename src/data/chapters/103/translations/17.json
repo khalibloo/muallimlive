@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 17, "text": "And (by) the afternoon! (Or: time)." },
+    { "resource_id": 17, "text": "Surely man is indeed in (sheer) loss," },
+    {
+      "resource_id": 17,
+      "text": "Except the ones who have believed, and done deeds of righteousness, and enjoin each other to the Truth, and enjoin each other to patience."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "103" }
+  }
+}

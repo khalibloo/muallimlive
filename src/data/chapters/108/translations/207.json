@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "We have given you plenty," },
+    { "resource_id": 207, "text": "so pray to your Lord and sacrifice" },
+    {
+      "resource_id": 207,
+      "text": "since your opponent is the one who will be lopped off."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "108" }
+  }
+}

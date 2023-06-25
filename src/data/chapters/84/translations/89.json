@@ -1,0 +1,76 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Kur të pëlcet qielli." },
+    {
+      "resource_id": 89,
+      "text": "T’i bindet urdhërit të Zotit të vet, ashtu si takoi."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe kur toka të shtrihet në gjerësinë e saj."
+    },
+    { "resource_id": 89, "text": "E të nxjerr çka ka brenda e të çlirohet," },
+    {
+      "resource_id": 89,
+      "text": "Dhe t’i bindet Zotit të saj, ashtu si takoi."
+    },
+    {
+      "resource_id": 89,
+      "text": "O ti njeri, vërtet ti përpiqesh me një përpjekje të madhe që çon te Zoti yt, e atë (përpjekje) do ta gjesh."
+    },
+    {
+      "resource_id": 89,
+      "text": "E përsa i përket atij që libri i vet i jepet nga e djathta,"
+    },
+    {
+      "resource_id": 89,
+      "text": "Ai do të llogaritet me një llogari të lehtë,"
+    },
+    { "resource_id": 89, "text": "Do të kthehet te familja e vet i gëzuar." },
+    {
+      "resource_id": 89,
+      "text": "E përsa i përket atij që libri i vet i jepet pas shpinës,"
+    },
+    { "resource_id": 89, "text": "Ai do t’i ndjellë vetes shkatërrim," },
+    { "resource_id": 89, "text": "Dhe do të hyjë në zjarr të ndezur fort." },
+    { "resource_id": 89, "text": "Ai ka qenë i gëzuar në familjen e vet," },
+    { "resource_id": 89, "text": "Dhe ka menduar se nuk ka për t’u kthyer." },
+    {
+      "resource_id": 89,
+      "text": "Po, se, vërtet Zoti i tij gjithnjë e ka parë atë."
+    },
+    {
+      "resource_id": 89,
+      "text": "Betohem në kuqërrimin e horizontit pas perëndimit,"
+    },
+    { "resource_id": 89, "text": "Dhe në natën dhe çka ajo tubon," },
+    { "resource_id": 89, "text": "Dhe në hënën kur ajo është e plotë." },
+    {
+      "resource_id": 89,
+      "text": "Ju patjetër do të përjetoni gjendje pas gjendjeje."
+    },
+    { "resource_id": 89, "text": "E, çka kanë ata që nuk besojnë?" },
+    {
+      "resource_id": 89,
+      "text": "Dhe kur u lexohet atyre Kur’ani, nuk përulen (nuk bien në sexhde)?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Përkundrazi, ata që nuk besuan edhe përgënjeshtrojnë?"
+    },
+    {
+      "resource_id": 89,
+      "text": "E All-llahu e di më së miri se çka mbajnë fshehtë ata!"
+    },
+    { "resource_id": 89, "text": "Lajmëroji, pra me një dënim të dhembshëm." },
+    {
+      "resource_id": 89,
+      "text": "Me përjashtim të atyre që besuan e bënë vepra të mira, të cilët kanë shpërblim të vazhdueshëm!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "84" }
+  }
+}

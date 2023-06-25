@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 153, "text": "Di’ : «Egli Allah è Unico," },
+    {
+      "resource_id": 153,
+      "text": "Allah è l’Assoluto <a class=f><sup foot_note=160794>1</sup></a> ."
+    },
+    { "resource_id": 153, "text": "Non ha generato, non è stato generato" },
+    {
+      "resource_id": 153,
+      "text": "e nessuno è uguale a Lui». <a class=f><sup foot_note=160795>1</sup></a> Una tradizione che risale all’Inviato di Allah (pace e benedizione su di lui) afferma che la recitazione di questa sura corrisponde al merito della recitazione di un terzo del Corano. Qualche commentatore l’ha definita «perfetta sintesi del tawhìd» (il monoteismo islamico). <a class=f><sup foot_note=160796>2</sup></a> Colui verso il Quale tendono tutte le creature, Colui Che è Unità assoluta, l’Impenetrabile, l’Eterno; questi alcuni dei significati di «as-Samad» che abbiamo tradotto con «l’Assoluto»."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "Maqaa Gooftaa kee olaanaa ta'ee qulqulleessi."
+    },
+    { "resource_id": 111, "text": "Isa (waan hunda) uumee guute." },
+    { "resource_id": 111, "text": "Isa murteessee qajeelche." },
+    { "resource_id": 111, "text": "Isa marga baase," },
+    { "resource_id": 111, "text": "Goggogaa gurraacha isa taasise." },
+    { "resource_id": 111, "text": "Si qaraasisuuf jirraa hin dagattu" },
+    {
+      "resource_id": 111,
+      "text": "Waan Rabbiin fedhe maleeInni mul’ataafi dhokataas ni beeka."
+    },
+    { "resource_id": 111, "text": "Nuti karaa laaftuu taateef si laaffifna" },
+    {
+      "resource_id": 111,
+      "text": "Yoo yaadachiisni kan fayyadu ta’e yaadachiisi."
+    },
+    { "resource_id": 111, "text": "Namni Rabbiin sodaatu gorfamuuf jira." },
+    { "resource_id": 111, "text": "Hoonga'aan ishee irraa fagaata." },
+    { "resource_id": 111, "text": "Inni ibidda guddoo seenu." },
+    {
+      "resource_id": 111,
+      "text": "Ergasii ishee keessatti hin du'u; hin jiraatus."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, namni of qulqulleeffate milkaa’e."
+    },
+    { "resource_id": 111, "text": "Maqaa Gooftaa isaa dubbatee kan salaate." },
+    { "resource_id": 111, "text": "Inumaa isin jiruu addunyaa filattu." },
+    {
+      "resource_id": 111,
+      "text": "Odoo Aakhiraan caaltuufi haftuu taatee jirtuu [addunyaa filattu]."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, kun barreeffamoota duraanii keessa jira."
+    },
+    {
+      "resource_id": 111,
+      "text": "Barreeffamoota Ibraahiimifi Muusaa [keessa jira]"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "87" }
+  }
+}

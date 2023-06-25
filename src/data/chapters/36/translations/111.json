@@ -1,0 +1,329 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Yaa Siin." },
+    { "resource_id": 111, "text": "Qur’aana ogummaan guutameenin kakadha." },
+    { "resource_id": 111, "text": "Dhugumatti, ati ergamtoota irraayyi" },
+    { "resource_id": 111, "text": "Karaa qajeelaa irra jirta." },
+    {
+      "resource_id": 111,
+      "text": "Buusiinsa Rabbii injifataa, rahmata godhaa ta’e irraa (buufame)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Ummata abbootiin isaanii hin akeekkachiifamin, kan dagatoo turan akka ittiin akeekkachiiftuuf (buufame)"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, irra hedduu isaanii jechi (adabbiin) irratti mirkanaa’era; kanaafuu isaan hin amananu"
+    },
+    {
+      "resource_id": 111,
+      "text": "Nuti morma isaanii irratti takaallaa goone; isheen hanga lafee areedaatti (geessi)Kanaafuu isaan (mataa) ol fudhamoodha"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dura isaaniitti cufaa, duuba isaanittis cufaa goonee isaan haguugneKanaafuu isaan hin argan"
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaan akeekkachiiftus, isaan akeekkachiisuu baattus isaan irratti wal qixa; hin amananu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Kan ati akeekkachiiftu nama gorsa hordofee Rahmaaniinis fagootti sodaate qofaAraaramaafi mindaa gaariin isa gammachiisi"
+    },
+    {
+      "resource_id": 111,
+      "text": "Nuti numatu du’aa jiraachifnaWaan isaan hojjatanii dabarsaniifi hambaalee isaanii ni barreessinaWaan hundayyuu kitaaba ifa bahaa keessatti galmeessinee jirra"
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaaniif fakkeenya warra gandaa kan yeroo ergamtoonni isheetti dhufee godhi."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo Nuti (ergamoota) lama gara isaaniitti erginee, isaan lamaanuu sobsiisanii, ergasii sadaffaadhaan (isaan) jajjabeessinee, “nuti gara keessanitti ergamoodha” jedhan (fakkeenya godhiif)"
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaanis “isin namuma akka keenyaati malee waan biraa mitiRabbiinis homa tokkoyyuu hin buufne; isinis kan sobdan malee waan biraa hin taane” jedhan"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Ergamtoonnis) “nuti gara keessanitti ergamoo ta’uu Rabbiin keenya ni beeka” jedhan."
+    },
+    {
+      "resource_id": 111,
+      "text": "“(Ergaa Rabbii) kan ifa ta’e geessuu malee homtuu nurra hin jiru.”"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Ummannis) “Nuti isiniin hooddanne (milkii ilaallanne) yoo (waamicha keessan irraa) hin dhorgamin, dhagaan isin tumnaAdabbiin laalessaa ta’es nurraa isin tuqa” jedhan."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Hooddannaan (milkii ilaallachuun) keessan isinumaa wajjin” jedhaniSila yoo gorfamtanis (ni hooddattuu)? Akkasii mitiIsinumatu ummata daangaa dabritoota” jedhan"
+    },
+    {
+      "resource_id": 111,
+      "text": "Kutaa fagoo magaalattii irraa namichi tokko fiigaa dhufee ni jedhe: “yaa ummata kiyya! Ergamtoota hordofaa."
+    },
+    {
+      "resource_id": 111,
+      "text": "Namoota mindaa (baasii) isin hin gaafanneefi ofii isaanitiifis qajeelfamoo ta’an hordofaa."
+    },
+    {
+      "resource_id": 111,
+      "text": "Ani maaliifan Isa na uume, kan isiniis gara Isaa deebifamtanu hin gabbarre?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila ani Isaa gadittiin gabbaramtoota biraa kan Yoo Rahmaan miidhaa wahiitiin na fedhe jaarsummaan isaanii homaa ana hin fayyadneefi isaaniis ana hin baraarsinen taasifadhaa?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Ani yeroo san jallina ifa galaa keessa ta’eera"
+    },
+    {
+      "resource_id": 111,
+      "text": "Ani Rabbii keessanitti amanee na dhagayaa” [jedhe](Achumaan dhagaan tumanii isa ajjeesan)."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Jannata seeni” jedhameenInnis ni jedhe: “ummanni kiyya odoo beekaniin hawwa!"
+    },
+    {
+      "resource_id": 111,
+      "text": "Waan Rabbiin kiyya naaf araarameefi kabajamtoota irraa na godhe (odoo beekaniin hawwa).”"
+    },
+    {
+      "resource_id": 111,
+      "text": "Booda isaatii ummata isaa irratti hoomaa waraanaa samii irraa hin buufne! Kan buufnus hin turre."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isheen iyya tokko malee waan biraa hin taaneYeroma san isaan dhaamoo (dhabamoo)dha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yaa gaabbii gabroota kiyyaa! Ergamaan kamillee isaanitti dhufee isatti qishinan (baacan) malee hin hafanu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila isaan dura ummata irraa meeqaatama akka balleessine hin arginee? Isaan gara isaaniitti hin deebi’anuu (hin arginee)?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, hundi isaaniituu (murtiif) fuuldura keenyatti dhihaatu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dachii duutuun Nuti ishee jiraachifneefi firii (adda addaa) ishee irraa baafnee isa irraa nyaatan isaaniif mallattoodha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Ishee keessatti oyruu muka timirootaafi inabootaa irraa ta’e taasifneerraIshee keessaa burqaalee irraas maddisiifnee jirra."
+    },
+    {
+      "resource_id": 111,
+      "text": "Fuduraa isaatiifi waan harki isaanii hojjatte irraa akka nyaataniif (kana goone)Sila hin galateeffatanuu?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Inni waan dachiin biqilchitu irraa, lubbuu isaanii irraafi wantoota isaan hin beekne irraa cimdii hunda uume qulqullaa’eera"
+    },
+    {
+      "resource_id": 111,
+      "text": "Halkanis isaaniif mallattoodhaIsarraa guyyaa baafnaYeroma san isaan dukkana keessatti ta’u."
+    },
+    {
+      "resource_id": 111,
+      "text": "Aduunis hanga daangaa murtaa’eetti deemtiSun murtee (Rabbii) injifataa, beekaati"
+    },
+    {
+      "resource_id": 111,
+      "text": "Baatiis hanga inni akka damee meexxiitti deebi’utti buufata isaa goonee jirra."
+    },
+    {
+      "resource_id": 111,
+      "text": "Aduun baatii dhaqqabuun isheef hin ta’u; halkanis guyyaa hin dursuHunduu sarara keessa deemu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Nuti sanyii isaanii doonii guutame keessatti fe’uun keenya isaaniif mallattoodha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Fakkaataa isaa (doonii Nuuh) irraas waan isaan yaabbatan isaaniif gooneerra"
+    },
+    {
+      "resource_id": 111,
+      "text": "Odoo feenee bishaaniin isaan dhidhimsina turreBirmataan tokkos isaaniif hin jiruIsaan hin baraarfamanus"
+    },
+    {
+      "resource_id": 111,
+      "text": "Rahmata nurraa ta’eef hanga yeroo (muraasaa) akka qanani’aniif (dhiifne) malee (ni dhidhimsina turre)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo “akka rahmanni isiniif godhamuuf waan fuuldura keessaniifi duuba keessan jiru sodaadhaa” isaanin jadhame (irraa gara galu)"
+    },
+    {
+      "resource_id": 111,
+      "text": "Mallattoolee Rabbii irraa mallattoon tokko isaanitti dhuftee ishee irraa gara galan malee hin hafan."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo “waan Rabbiin isiniif kenne irraa kennadhaa” isaaniin jadhame, warri kafaran warra amananiin “sila nama Rabbiin odoo fedhee isa nyaachisu nyaachifnaa? Isin jallina ifa ta’e keessa malee hin jirtanu” jedhu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Ni jedhu: “Yoo warra dhugaa dubbatu taatan waadaan kun yoomi?”"
+    },
+    {
+      "resource_id": 111,
+      "text": "Iyyansa tokkittii kan haala isaan wal falmaa jiranuun isaan qabdu malee homaa hin eeganu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo san dhaamsa (walii dabarsuu) hin danda’an; gara maatii isaaniis hin deebi’anu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Garriin (xurunbaan) ni afuufama; yoosuu isaan awwaala keessaa gara Gooftaa isaanii bahu."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Yaa badii keenya! Hirriiba keenya irraa eenyutu nu dammaqse? Kun waan Rahmaan waadaa nuuf gale; ergamtoonnis dhugaa dubbatan” jedhan."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isheen afuuffii tokko malee waan biraatii mitiYeroo san isaan hundi nu bira fidaman."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Har’a lubbuun kamillee homaa hin miidhamtuWaan dalagaa turtan malee hin mindeeffamtanu” isaaniin jedhama."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, warri jannataa har’a dalagaan qabamanii gammachuun guutamu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaaniifi niitiiwwan isaaniis gaaddisa keessa, sireewwan irratti hirkatu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaaniif ishee keessatti fuduraaleetu jiraWanti isaan kadhatan hunduu isaaniif jira."
+    },
+    {
+      "resource_id": 111,
+      "text": "Salaamtaan Rabbii abbaa rahmataa irraa isaaniin jedhama."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Isin yaa yakkamtootaa! Har’a (Mu’uminootaan) adda ba’aa” (isaaniin jedhama)."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Yaa ilmaan Aadam! Sheyxaana hin gabbarinaa; inni isiniif diina ifa ba’aadha” jechuun waadaa gara keessanitti hin dabarsinee?"
+    },
+    {
+      "resource_id": 111,
+      "text": "“Ana gabbaraa; kanatu karaa qajeelaadha” (isiniin hin jennee)?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti (sheyxaanni) isin irraa uumama baay’ee jalliseeraSila isin sammuu hin qabdanuu?"
+    },
+    {
+      "resource_id": 111,
+      "text": "“Isheen kun jahannama ishee waadaa isiniif galamaa turteedha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Waan kafaraa turtaniif har’a ishee seenaa” (jedhamaani)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Har’a afaan isaanii ni cufna; harki isaanii Nutti dubbatti; miilli isaaniis waan isaan hojjataa turan ragaa baati."
+    },
+    {
+      "resource_id": 111,
+      "text": "Odoo feenee ija isaanii haqna turreGama karaatti wal dorgomu; akkamitti argu!"
+    },
+    {
+      "resource_id": 111,
+      "text": "Odoo feenee iddoowwan isaanii irratti gara uumama biraatti isaan jijjiirras turreIsaan duratti deemuus ta’ee duubatti deebi’uu hin danda’anu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Nama umrii dheeressine uumaa kessatti isa gadi dabsina (cabsina)Sila hin yaadanuu?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Nuti isa (Nabiyyii) walaloo hin barsiifne; isaafis hin maluInni yaadannoofi Qur’aana ifa galaa malee waan biraa miti"
+    },
+    {
+      "resource_id": 111,
+      "text": "Akka inni nama jiraa ta’e akeekkachiisuufi kaafiroota irratti jechi (adabbii) mirkanaa’uuf (isa buufne)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila waan harki keenya dalagde irraa beyladoota isaaniif uumnee isaan ishee horatoo ta’an hin ilaallee?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Ishee isaaniif laaffifneGariin yaabbii isaaniitiif oolu; garii isaanii immoo ni nyaatu"
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaaniif ishee keessa faayidaafi dhugaatiiwwantu jiraSila hin galateeffattanuu?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Akka tumsamaniif jecha Rabbiin ala gabbaramtoota godhatan."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaan tumsuu hin danda’anIsaan (kaafiroonni) isaaniif (sanamaaf) garee khidmaaf dhufanuudha"
+    },
+    {
+      "resource_id": 111,
+      "text": "Jechi isaanii si hin yaaddessinNuti waan isaan dhoksaniifi waan isaan ifa godhanis ni beekna."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila namni akka Nuti bishaan saalaa irraa isa uumne hin arginee? Yeroo san inni mormaa ifa ba’aa ta’ee argama."
+    },
+    {
+      "resource_id": 111,
+      "text": "Fakkeenya Nuuf godheeti, uumama isaa dagatee “erga isheen bututtee lafee eenyutu jiraachisa?” jedhe"
+    },
+    {
+      "resource_id": 111,
+      "text": "“Isa yeroo jalqabaa ishee uumetu jiraachisa” jedhiInni uumama hunda beekaadha."
+    },
+    {
+      "resource_id": 111,
+      "text": "(Inni) Isa muka magariisa irraa ibidda isiniif godheedhaYeroo san isin isa irraa qabsiifattu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila Inni samiifi dachii uume fakkaataa isaanii uumuu irratti danda’aa mitii? Eeyyeen (danda’aa dha!)Inni akkaan uumaa, beekaadha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Ajajni Isaa, yoo waan tokko fedhe “tahi” jechuma qofa; yoosuu taha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Inni mootummaan waan hundaa harka Isaa jiru qulqullaa’e! Garuma Isaatti deebifamtu."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "36" }
+  }
+}

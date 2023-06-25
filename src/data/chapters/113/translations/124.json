@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "De ki: Sabahın Rabbine  sığınırım!" },
+    { "resource_id": 124, "text": "Yarattığı şeylerin şerrinden," },
+    {
+      "resource_id": 124,
+      "text": "karanlığı çöktüğü zaman gecenin şerrinden,"
+    },
+    {
+      "resource_id": 124,
+      "text": "düğümlere üfürüp büyü yapan üfürükçülerin şerrinden"
+    },
+    {
+      "resource_id": 124,
+      "text": "ve kıskandığı vakit kıskanç kişinin şerrinden."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "113" }
+  }
+}

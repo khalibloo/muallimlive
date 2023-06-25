@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 231,
+      "text": "Sisi tumekupa, ewe Nabii, kheri nyingi za dunia na Akhera, miongoni mwazo ni mto wa Kauthar ulioko Peponi ambao pambizo zake ni mahema ya lulu na mchanga wake ni miski."
+    },
+    {
+      "resource_id": 231,
+      "text": "Basi, mtakasie Mola wako ibada yako yote na uchinje mnyama wako kwa ajili Yake, Peke Yake, pamoja na kutaja jina Lake."
+    },
+    {
+      "resource_id": 231,
+      "text": "Mwenye kukutukia wewe na kuyatukia uliyokuja nayo ya uongofu na nuru ndiye itakayokatika athari yake na yeye mwenyewe kukatiwa kila kheri."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "author_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "filters": { "resource_id": 231, "chapter_number": "108" }
+  }
+}

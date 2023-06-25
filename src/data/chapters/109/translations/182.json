@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 182, "text": "使者啊！你说“不信真主的人们啊！" },
+    { "resource_id": 182, "text": "我现在和将来都不崇拜你们所崇拜的偶像，" },
+    { "resource_id": 182, "text": "你们也不崇拜我所崇拜的独一的真主，" },
+    { "resource_id": 182, "text": "我不崇拜你们崇拜的偶像，" },
+    { "resource_id": 182, "text": "你们也不崇拜我所崇拜的独一的真主，" },
+    {
+      "resource_id": 182,
+      "text": "你们有你们为自己创造的宗教，我有由真主降示给我的宗教。”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "109" }
+  }
+}

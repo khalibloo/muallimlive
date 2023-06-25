@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 31, "text": "Par les coursiers qui halètent," },
+    { "resource_id": 31, "text": "qui font jaillir des étincelles," },
+    { "resource_id": 31, "text": "qui attaquent au matin." },
+    { "resource_id": 31, "text": "et font ainsi voler la poussière," },
+    {
+      "resource_id": 31,
+      "text": "et pénètrent au centre de la troupe ennemie."
+    },
+    {
+      "resource_id": 31,
+      "text": "L’homme est, certes, ingrat envers son Seigneur ;"
+    },
+    {
+      "resource_id": 31,
+      "text": "et pourtant, il est certes, témoin de cela ;"
+    },
+    {
+      "resource_id": 31,
+      "text": "et pour l’amour des richesses il est certes ardent."
+    },
+    {
+      "resource_id": 31,
+      "text": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé,"
+    },
+    {
+      "resource_id": 31,
+      "text": "et que sera dévoilé ce qui est dans les poitrines,"
+    },
+    {
+      "resource_id": 31,
+      "text": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d’eux ?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 234, "text": "قریش کے مانوس کرنے کے سبب" },
+    {
+      "resource_id": 234,
+      "text": "(یعنی) ان کو جاڑے اور گرمی کے سفر سے مانوس کرنے کے سبب"
+    },
+    {
+      "resource_id": 234,
+      "text": "لوگوں کو چاہیئے کہ (اس نعمت کے شکر میں) اس گھر کے مالک کی عبادت کریں"
+    },
+    {
+      "resource_id": 234,
+      "text": "جس نے ان کو بھوک میں کھانا کھلایا اور خوف سے امن بخشا"
+    }
+  ],
+  "meta": {
+    "translation_name": "Fatah Muhammad Jalandhari",
+    "author_name": "Fatah Muhammad Jalandhari",
+    "filters": { "resource_id": 234, "chapter_number": "106" }
+  }
+}

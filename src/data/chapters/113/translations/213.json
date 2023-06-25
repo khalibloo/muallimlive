@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 213,
+      "text": "বলুন [১], ‘আমি আশ্রয় প্রার্থনা করছি [২] ঊষার রবের [৩]"
+    },
+    { "resource_id": 213, "text": "তিনি যা সৃষ্টি করেছেন তার অনিষ্ট হতে [১]," },
+    {
+      "resource_id": 213,
+      "text": "আর অনিষ্ট হতে রাতের অন্ধকারের, যখন তা গভীর হয় [১]"
+    },
+    {
+      "resource_id": 213,
+      "text": "আর অনিষ্ট হতে সমস্ত নারীদের, যারা গিরায় ফুঁক দেয় [১],"
+    },
+    {
+      "resource_id": 213,
+      "text": "আর অনিষ্ট হতে হিংসুকের [১], যখন সে হিংসা করে [২]।’"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abu Bakr Muhammad Zakaria",
+    "author_name": "Dr. Abu Bakr Muhammad Zakaria",
+    "filters": { "resource_id": 213, "chapter_number": "113" }
+  }
+}

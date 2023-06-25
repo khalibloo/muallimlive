@@ -1,0 +1,812 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Im Namen Allahs, des Allerbarmers, des Barmherzigen:Ta-Sin-Mim."
+    },
+    {
+      "resource_id": 27,
+      "text": "Dies sind die Zeichen des deutlichen Buches."
+    },
+    {
+      "resource_id": 27,
+      "text": "Vielleicht magst du dich noch selbst umbringen aus Gram (darüber), daß sie nicht gläubig sind."
+    },
+    {
+      "resource_id": 27,
+      "text": "Wenn Wir woll(t)en, könn(t)en Wir vom Himmel ein Zeichen auf sie hinabsenden, so daß sich ihre Nacken dauernd davor unterwerfen (würden)."
+    },
+    {
+      "resource_id": 27,
+      "text": "Keine neuerlich offenbarte Ermahnung kommt zu ihnen vom Allerbarmer, ohne daß sie sich davon abwenden."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie haben (sie) ja für Lüge erklärt. So werden zu ihnen die Nachrichten kommen von dem, worüber sie sich lustig zu machen pflegten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Haben sie nicht auf die Erde gesehen, wie viele edle Arten Wir auf ihr haben wachsen lassen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als dein Herr Musa zurief: „Begib dich zum ungerechten Volk,"
+    },
+    {
+      "resource_id": 27,
+      "text": "zum Volk Fir’auns, ob sie nicht gottesfürchtig sein wollen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Mein Herr, ich fürchte, daß sie mich der Lüge bezichtigen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Auch ist meine Brust beklommen, und meine Zunge ist nicht gelöst. Darum entsende (auch) Harun."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und sie haben gegen mich eine Sünde geltend zu machen; so fürchte ich, daß sie mich töten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Keineswegs! So geht denn beide hin mit Unseren Zeichen. Wir sind mit euch und hören zu."
+    },
+    {
+      "resource_id": 27,
+      "text": "Begebt euch zu Fir’aun und sagt: ,Wir sind der Gesandte des Herrn der Weltenbewohner:"
+    },
+    { "resource_id": 27, "text": "Lasse die Kinder Isra’ils mit uns gehen’." },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte: „Haben wir dich nicht als kleines Kind unter uns aufgezogen, und hast du dich nicht (viele) Jahre deines Lebens unter uns aufgehalten?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Und du hast deine Tat, die du (damals) getan hast, verübt und gehörst zu den Undankbaren."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Ich habe sie da(mals) verübt, als ich (noch) zu den Irregehenden gehörte."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und so floh ich vor euch, als ich Angst vor euch bekommen hatte. (Doch) dann schenkte mir mein Herr Urteil(skraft) und machte mich zu einem der Gesandten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Ist das (etwa) eine Gunst, die du mir vorhältst, daß du die Kinder lsra’ils geknechtet hast?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Fir’aun sagte: „Was ist denn der Herr der Weltenbewohner?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Musa) sagte: „Der Herr der Himmel und der Erde und dessen, was dazwischen ist, wenn ihr überzeugt seid."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte zu denjenigen in seiner Umgebung: „Hört ihr nicht zu?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Musa) sagte: „(Er ist) euer Herr und der Herr eurer Vorväter."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte: „Euer Gesandter, der zu euch gesandt wurde, ist fürwahr besessen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Musa) sagte: „(Er ist) der Herr des Ostens und des Westens und dessen, was dazwischen ist, wenn ihr (nur) begreifen würdet."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte: „Wenn du dir einen anderen Gott als mich nimmst, werde ich dich ganz gewiß zu einem der Gefangenen machen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Musa) sagte: „Etwa auch, wenn ich dir etwas Deutliches bringe?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte: „Dann bringe es her, wenn du zu den Wahrhaftigen gehörst."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da warf er seinen Stock hin, und sogleich war er eine deutliche Schlange."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und er zog seine Hand heraus, da war sie weiß für die Betrachter."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte zu der führenden Schar in seiner Umgebung: „Dieser ist fürwahr ein kenntnisreicher Zauberer,"
+    },
+    {
+      "resource_id": 27,
+      "text": "der euch mit seiner Zauberei aus eurem Land vertreiben will. Was befehlt ihr nun?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Stelle ihn und seinen Bruder zurück und schicke in die Städte (Boten), die (die Leute) versammeln,"
+    },
+    {
+      "resource_id": 27,
+      "text": "damit sie dir jeden kenntnisreichen Zauberer herbringen."
+    },
+    {
+      "resource_id": 27,
+      "text": "So wurden die Zauberer auf die festgesetzte Zeit eines (wohl)bekannten Tages versammelt."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und es wurde zu den Menschen gesagt: „Werdet (auch) ihr euch nun wohl versammeln?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Vielleicht werden wir den Zauberern folgen, wenn sie es sind, die siegen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als die Zauberer kamen, sagten sie zu Fir’aun: „Wir bekommen doch sicher einen Lohn, wenn wir es sind, die siegen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Ja. Und ihr werdet dann also fürwahr zu den Nahegestellten gehören."
+    },
+    {
+      "resource_id": 27,
+      "text": "Musa sagte zu ihnen: „Werft hin, was ihr zu werfen habt!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Da warfen sie ihre Stricke und Stöcke hin und sagten: „Bei der Macht Fir’auns, wir werden ganz gewiß Sieger sein."
+    },
+    {
+      "resource_id": 27,
+      "text": "So warf Musa seinen Stock hin, und da verschlang er sogleich, was sie vortäuschten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da warfen sich die Zauberer ehrerbietig nieder."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Wir glauben an den Herrn der Weltenbewohner,"
+    },
+    { "resource_id": 27, "text": "den Herrn von Musa und Harun." },
+    {
+      "resource_id": 27,
+      "text": "Er (Fir’aun) sagte: „Ihr glaubt ihm, bevor ich es euch erlaube? Er ist wahrlich euer Ältester, der euch die Zauberei gelehrt hat. Ihr werdet (es) wahrlich erfahren. Ganz gewiß werde ich eure Hände und eure Füße wechselseitig abhacken und euch allesamt ganz gewiß kreuzigen (lassen)."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Kein Schaden! Wir werden ganz gewiß zu unserem Herrn zurückkehren."
+    },
+    {
+      "resource_id": 27,
+      "text": "Wir erhoffen ja, daß unser Herr uns unsere Verfehlungen vergebe dafür, daß wir die ersten (der) Gläubigen sind."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und Wir gaben Musa (als Offenbarung) ein: „Zieh bei Nacht mit Meinen Dienern fort; ihr werdet ja verfolgt werden."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da sandte Fir’aun in die Städte (Boten), die (die Leute) versammelten:"
+    },
+    {
+      "resource_id": 27,
+      "text": "„Diese sind fürwahr (nur) eine kleine Schar;"
+    },
+    { "resource_id": 27, "text": "dennoch lassen sie uns fürwahr ergrimmen." },
+    { "resource_id": 27, "text": "Aber wir sind alle wahrlich auf der Hut." },
+    {
+      "resource_id": 27,
+      "text": "So ließen Wir sie fortziehen von Gärten und Quellen,"
+    },
+    { "resource_id": 27, "text": "von Schätzen und von trefflicher Stätte." },
+    {
+      "resource_id": 27,
+      "text": "So war es. Und Wir gaben sie den Kindern lsra’ils zum Erbe."
+    },
+    { "resource_id": 27, "text": "Dann folgten sie ihnen bei Sonnenaufgang." },
+    {
+      "resource_id": 27,
+      "text": "Als die beiden Heere einander sahen, sagten die Gefährten Musas: „Wir werden fürwahr eingeholt."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Keineswegs! Denn mit mir ist mein Herr; Er wird mich leiten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da gaben Wir Musa ein: „Schlag mit deinem Stock auf das Meer."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und Wir ließen die anderen dort nahe herankommen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und Wir retteten Musa und diejenigen, die mit ihm waren, allesamt."
+    },
+    { "resource_id": 27, "text": "Hierauf ließen Wir die anderen ertrinken." },
+    {
+      "resource_id": 27,
+      "text": "Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    { "resource_id": 27, "text": "Und verlies ihnen die Kunde von Ibrahim." },
+    {
+      "resource_id": 27,
+      "text": "Als er zu seinem Vater und seinem Volk sagte: „Wem dient ihr?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Wir dienen Götzen, und so geben wir uns dauernd ihrer Andacht hin."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Hören sie euch, wenn ihr sie anruft?"
+    },
+    { "resource_id": 27, "text": "Oder nützen sie euch, oder schaden?" },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Nein! Vielmehr fanden wir (bereits) unsere Väter desgleichen tun."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Was meint ihr wohl zu dem, was ihr zu verehren pflegt,"
+    },
+    { "resource_id": 27, "text": "ihr und eure Vorväter?" },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, sie sind mir (alle) Feinde, außer dem Herrn der Weltenbewohner,"
+    },
+    {
+      "resource_id": 27,
+      "text": "Der mich erschaffen hat und mich (nun) rechtleitet,"
+    },
+    { "resource_id": 27, "text": "und Der mir zu essen und zu trinken gibt" },
+    { "resource_id": 27, "text": "und Der, wenn ich krank bin, mich heilt," },
+    {
+      "resource_id": 27,
+      "text": "und Der mich sterben läßt und hierauf wieder lebendig macht,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und von Dem ich erhoffe, daß Er mir am Tag des Gerichts meine Verfehlung vergeben wird."
+    },
+    {
+      "resource_id": 27,
+      "text": "Mein Herr, schenke mir Urteil(skraft), und nimm mich unter die Rechtschaffenen auf"
+    },
+    {
+      "resource_id": 27,
+      "text": "Und verleihe mir einen Ruf an Wahrhaftigkeit unter den späteren (Geschlechtern)."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und mach mich zu einem (der) Erben des Gartens der Wonne."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und vergib meinem Vater, denn er gehört zu den Irregehenden."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und stürze mich nicht in Schande am Tag, da sie auferweckt werden,"
+    },
+    {
+      "resource_id": 27,
+      "text": "an dem Tag, da weder Besitz noch Söhne (jemandem) nützen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "außer, wer zu Allah mit heilem Herzen kommt."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und der (Paradies)garten wird an die Gottesfürchtigen nahe herangebracht."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und zum Erscheinen gebracht wird der Höllenbrand den Verirrten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und es wird zu ihnen gesagt: „Wo ist denn das, dem ihr zu dienen pflegtet"
+    },
+    {
+      "resource_id": 27,
+      "text": "anstatt Allahs? Können sie euch helfen oder sich selbst helfen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Dann werden sie kopfüber hineingestürzt, sie und die Verirrten,"
+    },
+    { "resource_id": 27, "text": "und die Heerscharen Iblis allesamt." },
+    {
+      "resource_id": 27,
+      "text": "Sie sagen, während sie darin miteinander streiten:"
+    },
+    {
+      "resource_id": 27,
+      "text": "„Bei Allah, wir befanden uns wahrlich in deutlichem Irrtum,"
+    },
+    {
+      "resource_id": 27,
+      "text": "als wir euch dem Herrn der Weltenbewohner gleichsetzten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Es waren nur die Übeltäter, die uns in die Irre geführt haben."
+    },
+    {
+      "resource_id": 27,
+      "text": "So haben wir nun niemanden, der Fürsprache einlegt,"
+    },
+    { "resource_id": 27, "text": "und auch keinen warmherzigen Freund." },
+    {
+      "resource_id": 27,
+      "text": "Hätten wir doch eine (Möglichkeit zur) Wiederholung, damit wir zu den Gläubigen gehörten!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Das Volk Nuhs bezichtigte die Gesandten der Lüge."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als ihr Bruder Nuh zu ihnen sagte: „Wollt ihr nicht gottesfürchtig sein?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, ich bin für euch ein vertrauenswürdiger Gesandter."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Ich verlange von euch keinen Lohn dafür. Mein Lohn obliegt nur dem Herrn der Weltenbewohner."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Sollen wir dir glauben, wo dir (nur) die Niedrigsten folgen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Welches Wissen sollte ich darüber haben, was sie zu tun pflegten?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Ihre Abrechnung obliegt nur meinem Herrn, wenn ihr nur merken würdet!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Und ich werde die Gläubigen nicht abweisen."
+    },
+    { "resource_id": 27, "text": "Ich bin nur ein deutlicher Warner." },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Wenn du nicht aufhörst, o Nuh, wirst du ganz gewiß zu den Gesteinigten gehören."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Mein Herr, gewiß mein Volk hat mich der Lüge bezichtigt."
+    },
+    {
+      "resource_id": 27,
+      "text": "So triff zwischen mir und ihnen eine klare Entscheidung und errette mich und wer von den Gläubigen mit mir ist."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da retteten Wir ihn und wer mit ihm war im vollbeladenen Schiff."
+    },
+    {
+      "resource_id": 27,
+      "text": "Hierauf ließen Wir alsdann die übrigen ertrinken."
+    },
+    {
+      "resource_id": 27,
+      "text": "Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Die ’Ad bezichtigten die Gesandten der Lüge."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als ihr Bruder Hud zu ihnen sagte: „Wollt ihr nicht gottesfürchtig sein?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, ich bin für euch ein vertrauenswürdiger Gesandter."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Ich verlange von euch keinen Lohn dafür. Mein Lohn obliegt nur dem Herrn der Weltenbewohner."
+    },
+    {
+      "resource_id": 27,
+      "text": "Baut ihr denn auf jeder Anhöhe ein Wahrzeichen und treibt ein sinnloses Spiel"
+    },
+    {
+      "resource_id": 27,
+      "text": "und nehmt euch Bauwerke (in der Hoffnung), auf daß ihr ewig leben würdet?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Und, wenn ihr zupackt, packt ihr gewalttätig zu."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Und fürchtet Denjenigen, Der euch unterstützt hat mit dem, was ihr wißt,"
+    },
+    {
+      "resource_id": 27,
+      "text": "(Der) euch unterstützt hat mit Vieh und Söhnen"
+    },
+    { "resource_id": 27, "text": "und Gärten und Quellen." },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, ich fürchte für euch die Strafe eines gewaltigen Tages."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Gleich ist es in Bezug auf uns, ob du ermahnst oder ob du nicht zu denjenigen gehörst, die ermahnen."
+    },
+    { "resource_id": 27, "text": "Das hier ist nur die Sitte der Früheren." },
+    { "resource_id": 27, "text": "Und wir werden nicht gestraft werden." },
+    {
+      "resource_id": 27,
+      "text": "So bezichtigten sie ihn der Lüge, und da vernichteten Wir sie. Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Die Tamud bezichtigten die Gesandten der Lüge."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als ihr Bruder Salih zu ihnen sagte: „Wollt ihr nicht gottesfürchtig sein?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, ich bin für euch ein vertrauenswürdiger Gesandter."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Ich verlange von euch keinen Lohn dafür. Mein Lohn obliegt nur dem Herrn der Weltenbewohner."
+    },
+    {
+      "resource_id": 27,
+      "text": "Werdet ihr etwa in Sicherheit belassen in dem, was hier ist,"
+    },
+    { "resource_id": 27, "text": "in Gärten und an Quellen." },
+    {
+      "resource_id": 27,
+      "text": "In Getreidefeldern und unter Palmen, deren Blütenscheiden zart sind?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Und werdet ihr (weiter) voller Stolz aus den Bergen Häuser aushauen?"
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Und gehorcht nicht dem Befehl der Maßlosen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "die auf der Erde Unheil stiften und keine Besserung bringen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Du gehörst ja nur zu denjenigen, die einem Zauber verfallen sind."
+    },
+    {
+      "resource_id": 27,
+      "text": "Du bist nur ein menschliches Wesen wie wir. So bringe doch ein Zeichen her, wenn du zu den Wahrhaftigen gehörst."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Dies ist eine Kamelstute; sie hat eine Trinkzeit, und ihr habt eine Trinkzeit an einem bestimmten Tag."
+    },
+    {
+      "resource_id": 27,
+      "text": "Fügt ihr nichts Böses zu, sonst überkommt euch die Strafe eines gewaltigen Tages."
+    },
+    {
+      "resource_id": 27,
+      "text": "Aber sie schnitten ihr die Sehnen durch . So wurden sie zu Leuten, die Reue empfinden."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da ergriff sie die Strafe. Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Das Volk Luts bezichtigte die Gesandten der Lüge."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als ihr Bruder Lut zu ihnen sagte: „Wollt ihr nicht gottesfürchtig sein?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, ich bin für euch ein vertrauenswürdiger Gesandter."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Ich verlange von euch keinen Lohn dafür. Mein Lohn obliegt nur dem Herrn der Weltenbewohner."
+    },
+    {
+      "resource_id": 27,
+      "text": "Laßt ihr euch etwa mit Männern unter den Weltenbewohnern ein"
+    },
+    {
+      "resource_id": 27,
+      "text": "und laßt, was euer Herr für euch an Gattinnen erschaffen hat, stehen? Aber nein! Ihr seid Leute, die Übertretungen begehen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Wenn du nicht aufhörst, o Lut, wirst du ganz gewiß zu den Vertriebenen gehören."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Ich gehöre gewiß zu denjenigen, die euer Tun verabscheuen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Mein Herr, errette mich und meine Angehörigen von dem, was sie tun."
+    },
+    {
+      "resource_id": 27,
+      "text": "Da erretteten Wir ihn und seine Angehörigen allesamt,"
+    },
+    {
+      "resource_id": 27,
+      "text": "außer einer alten Frau unter denjenigen, die zurückblieben."
+    },
+    { "resource_id": 27, "text": "Hierauf vernichteten Wir die anderen." },
+    {
+      "resource_id": 27,
+      "text": "Und Wir ließen einen Regen auf sie niedergehen; wie böse war der Regen für diejenigen, die gewarnt worden waren!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Die Bewohner des Dickichts bezichtigte die Gesandten der Lüge."
+    },
+    {
+      "resource_id": 27,
+      "text": "Als Su’aib zu ihnen sagte: „Wollt ihr nicht gottesfürchtig sein?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, ich bin für euch ein vertrauenswürdiger Gesandter."
+    },
+    { "resource_id": 27, "text": "So fürchtet Allah und gehorcht mir." },
+    {
+      "resource_id": 27,
+      "text": "Ich verlange von euch keinen Lohn dafür. Mein Lohn obliegt nur dem Herrn der Weltenbewohner."
+    },
+    {
+      "resource_id": 27,
+      "text": "Gebt volles Maß und gehört nicht zu denjenigen, die (anderen) Verlust verursachen."
+    },
+    { "resource_id": 27, "text": "Und wägt mit der richtigen Waage." },
+    {
+      "resource_id": 27,
+      "text": "Und schmälert den Menschen nicht ihre Sachen und richtet auf der Erde nicht unheilstiftend Verderben an."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und fürchtet Denjenigen, Der euch und die früheren Geschöpfe erschaffen hat."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie sagten: „Du gehörst ja nur zu denjenigen, die einem starken Zauber verfallen sind."
+    },
+    {
+      "resource_id": 27,
+      "text": "Du bist nur ein menschliches Wesen wie wir. Wir meinen wahrlich, daß du zu den Lügnern gehörst."
+    },
+    {
+      "resource_id": 27,
+      "text": "Lasse doch Stücke vom Himmel auf uns herabfallen, wenn du zu den Wahrhaftigen gehörst."
+    },
+    {
+      "resource_id": 27,
+      "text": "Er sagte: „Mein Herr weiß am besten, was ihr tut."
+    },
+    {
+      "resource_id": 27,
+      "text": "Aber sie bezichtigten ihn der Lüge. Da ergriff sie die Strafe des Tages der schattenspendenden Wolke; gewiß es war die Strafe eines gewaltigen Tages."
+    },
+    {
+      "resource_id": 27,
+      "text": "Darin ist wahrlich ein Zeichen, doch sind die meisten von ihnen nicht gläubig."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr ist fürwahr der Allmächtige und Barmherzige."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und er ist ganz sicher eine Offenbarung des Herrn der Weltenbewohner;"
+    },
+    {
+      "resource_id": 27,
+      "text": "mit dem der vertrauenswürdige Geist herabgekommen ist"
+    },
+    {
+      "resource_id": 27,
+      "text": "auf dein Herz, damit du zu den Überbringern von Warnung gehörst,"
+    },
+    { "resource_id": 27, "text": "in deutlicher arabischer Sprache." },
+    {
+      "resource_id": 27,
+      "text": "Und er ist wahrlich in den Schriften der Früheren (erwähnt)."
+    },
+    {
+      "resource_id": 27,
+      "text": "War es denn kein Zeichen für sie, daß die Gelehrten der Kinder Isra’ils darüber Bescheid wissen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Wenn Wir ihn einem der Nichtaraber offenbart hätten"
+    },
+    {
+      "resource_id": 27,
+      "text": "und er ihn ihnen vorgelesen hätte, hätten sie nicht daran geglaubt."
+    },
+    {
+      "resource_id": 27,
+      "text": "So haben Wir ihn in die Herzen der Übeltäter einziehen lassen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie glauben nicht eher daran, bis sie die schmerzhafte Strafe sehen"
+    },
+    {
+      "resource_id": 27,
+      "text": "und diese plötzlich über sie kommt, ohne daß sie merken,"
+    },
+    {
+      "resource_id": 27,
+      "text": "bis sie dann sagen: „Wird uns Aufschub gewährt?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Wünschen sie denn Unsere Strafe zu beschleunigen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Was meinst du wohl? Wenn Wir sie über Jahre hinweg genießen lassen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und hierauf über sie kommt, was ihnen stets angedroht wurde,"
+    },
+    {
+      "resource_id": 27,
+      "text": "nicht nützen wird ihnen (dann), was ihnen an Nießbrauch gewährt wurde."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und Wir vernichteten keine Stadt, ohne daß sie Überbringer von Warnungen gehabt hätte,"
+    },
+    {
+      "resource_id": 27,
+      "text": "(dies) als Ermahnung. Und nie sind Wir ungerecht."
+    },
+    {
+      "resource_id": 27,
+      "text": "Nicht die Satane sind mit ihm herabgekommen;"
+    },
+    {
+      "resource_id": 27,
+      "text": "es ziemt ihnen nicht, und sie können es (auch) nicht."
+    },
+    { "resource_id": 27, "text": "Sie sind vom Hören fürwahr ausgeschlossen." },
+    {
+      "resource_id": 27,
+      "text": "So rufe neben Allah keinen anderen Gott an, sonst wirst du zu den Gestraften gehören."
+    },
+    { "resource_id": 27, "text": "Und warne die Nächsten deiner Sippe." },
+    {
+      "resource_id": 27,
+      "text": "Und senke deinen Flügel für diejenigen von den Gläubigen, die dir folgen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Wenn sie sich dir widersetzen, dann sag: „Ich sage mich los von dem, was ihr tut."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und verlasse dich auf den Allmächtigen und Barmherzigen,"
+    },
+    { "resource_id": 27, "text": "Der dich sieht, wenn du aufrecht stehst," },
+    {
+      "resource_id": 27,
+      "text": "und deine Stellungswechsel unter denjenigen, die sich niederwerfen."
+    },
+    { "resource_id": 27, "text": "Er ist ja der Allhörende und Allwissende." },
+    {
+      "resource_id": 27,
+      "text": "Soll ich euch kundtun, auf wen die Satane herabkommen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie kommen auf jeden ungeheuerlichen Lügner und Sünder herab."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie hören hin, und die meisten von ihnen sind Lügner."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und die Dichter - es folgen ihnen die Verirrten."
+    },
+    {
+      "resource_id": 27,
+      "text": "Siehst du nicht, daß sie in jedem Tal ziellos umherwandern"
+    },
+    { "resource_id": 27, "text": "und daß sie sagen, was sie nicht tun?" },
+    {
+      "resource_id": 27,
+      "text": "Außer denjenigen, die glauben, rechtschaffene Werke tun und Allahs häufig gedenken und sich (erst) selbst helfen, nachdem ihnen ja Unrecht zugefügt wurde. Und diejenigen, die Unrecht tun, werden erfahren, was für eine Rückkehr sie haben werden."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "26" }
+  }
+}

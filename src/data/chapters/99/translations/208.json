@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 208, "text": "Wenn die Erde in aller Heftigkeit erbebt" },
+    { "resource_id": 208, "text": "und wenn die Erde ihre Lasten herausgibt" },
+    {
+      "resource_id": 208,
+      "text": "und wenn der Mensch sagt: \"Was ist mit ihr?\""
+    },
+    {
+      "resource_id": 208,
+      "text": "An jenem Tage wird sie ihre Geschichten erzählen"
+    },
+    { "resource_id": 208, "text": "so wie ihr Herr (es) ihr eingegeben hat." },
+    {
+      "resource_id": 208,
+      "text": "An jenem Tage kommen die Menschen in Gruppen zerstreut hervor, damit ihnen ihre Werke gezeigt werden."
+    },
+    {
+      "resource_id": 208,
+      "text": "Wer auch nur eines Stäubchens Gewicht Gutes tut, der wird es dann sehen."
+    },
+    {
+      "resource_id": 208,
+      "text": "Und wer auch nur eines Stäubchens Gewicht Böses tut, der wird es dann sehen."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "99" }
+  }
+}

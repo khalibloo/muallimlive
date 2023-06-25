@@ -1,0 +1,71 @@
+{
+  "translations": [
+    { "resource_id": 798, "text": "Ngulilumbila liwunde ni chakwisa chilo." },
+    {
+      "resource_id": 798,
+      "text": "Ana ni chichi champaka chimmanyisye ya chakwisa chilo?"
+    },
+    {
+      "resource_id": 798,
+      "text": "(Jalakwejo ni) ndondwa jakupowola (chipi ligongo lya kuŵala nnope)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Pangali mundu jwalijose ikaŵeje kwa jwalakwejo kwana nkunnolela (jwaakusunga itendo yakwe)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Basi achetelele mundu, ana agumbidwe kuumila ku chichi?"
+    },
+    { "resource_id": 798, "text": "Agumbidwe kuumila ku mesi gakusumbika." },
+    {
+      "resource_id": 798,
+      "text": "Gakopokaga kutyochela chilikati cha maupa ga n'gongo (wa ŵalume) ni maupa ga chidali (cha ŵakongwe)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Chisimu Jwalakwe (Allah) pakum'buchisya (kuwumi mundujo) aŵele Jwakombola kusyene."
+    },
+    {
+      "resource_id": 798,
+      "text": "Lisiku lyasichionechela papaswela asili (syosope)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni ngasakola (mundujo) machili galigose namuno nkulupusyo."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ngukulumbila kwinani kwagwisyagwisya wula."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni ngulilumbila soni litaka lyaliganjikaga (pakoposya mmela)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Chisimu jalakwe (Qur’aniji) gaŵele maloŵe gakulekanganya (chilikati cha yakuona ni yaunami)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Soni jalakweji nganijiŵa chindu chambenje."
+    },
+    {
+      "resource_id": 798,
+      "text": "Chisimu ŵanganyao akuŵa ali nkutenda malindi (kwa Asilamu)."
+    },
+    {
+      "resource_id": 798,
+      "text": "None ni ngwauchisya malindi (gaogo pangaapa ilagasyo chitema kuti alilechelele)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Basi, mwalechelesyani achimakafili, mwalechelelani panandipe (chaiwone)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "86" }
+  }
+}

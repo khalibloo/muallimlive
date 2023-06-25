@@ -1,0 +1,62 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Marka qorraxda la duubo (Qiyaamada)." },
+    { "resource_id": 46, "text": "Xiddiguhuna daataan (iyagoo Madow)." },
+    { "resource_id": 46, "text": "Buurahana la kexeeyo (La rujiyo)." },
+    { "resource_id": 46, "text": "Geelii rimmanaana la halleeyo." },
+    { "resource_id": 46, "text": "Dugaaggana la kulmiyo (Qisaas darteed)." },
+    { "resource_id": 46, "text": "Badahana la kululeeyo." },
+    { "resource_id": 46, "text": "Naf walbana Jidhkeedii lammaaneeyo." },
+    { "resource_id": 46, "text": "Gabdhihii la xabaalnololiyayna la warsado." },
+    { "resource_id": 46, "text": "Maxaa dambi ah oo loo dilay." },
+    { "resource_id": 46, "text": "Kutubta (camalkana) la fidiyo." },
+    { "resource_id": 46, "text": "Samadana la rujiyo." },
+    { "resource_id": 46, "text": "Naarta Jaxiimana la huriyo." },
+    { "resource_id": 46, "text": "Jannadana la dhaweeyo." },
+    { "resource_id": 46, "text": "Waxay ogaan nafu waxay camal fashay." },
+    {
+      "resource_id": 46,
+      "text": "(wuxuu eebe yidhi) Waxaan ku dhaartay Xiddigaha Qarsooma (Maalintii)."
+    },
+    { "resource_id": 46, "text": "Ee socda iftiinka Qorraxdana ku qarsooma." },
+    { "resource_id": 46, "text": "Iyo Habeenku markuu jeedsado." },
+    { "resource_id": 46, "text": "Iyo subaxu markuu soo qaabilo." },
+    {
+      "resource_id": 46,
+      "text": "Ee Quraanku waa hadalka Eebe, Soona raray Malag sharaf lah."
+    },
+    { "resource_id": 46, "text": "Xoogna leh Eeba agtiisana Daraja ku leh." },
+    { "resource_id": 46, "text": "Laguna addeeco halkaas aaminna ah." },
+    { "resource_id": 46, "text": "Saaxiibkiinna (Nabiguna) ma aha ku waalan." },
+    {
+      "resource_id": 46,
+      "text": "Horaybuuna ugu arkay Jibriil Jahadii Caddayd (Bariga Maka)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Nabiguna ma aha Ruux lugu shakiyo waxa Maqan."
+    },
+    {
+      "resource_id": 46,
+      "text": "Qaraankuna ma aha hadal shaydaan la fogeeyay."
+    },
+    { "resource_id": 46, "text": "Ee xaggeed Gaalooy aadaysaan." },
+    {
+      "resource_id": 46,
+      "text": "Quraankuna waxaan waanada caalamka ahayn ina aha (waa waano)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ruuxii doona inuu toosnaado (yuuna u yahay)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Waxna ma dooni kartaan in Eebaha Caalamku doona mooyec."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "81" }
+  }
+}

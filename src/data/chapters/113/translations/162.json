@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "বল, ‘আমি আশ্রয় প্রার্থনা করছি ঊষার রবের কাছে,"
+    },
+    { "resource_id": 162, "text": "তিনি যা সৃষ্টি করেছেন তার অনিষ্ট থেকে," },
+    {
+      "resource_id": 162,
+      "text": "আর রাতের অন্ধকারের অনিষ্ট থেকে যখন তা গভীর হয়,"
+    },
+    { "resource_id": 162, "text": "আর গিরায় ফুঁ-দানকারী নারীদের অনিষ্ট থেকে," },
+    { "resource_id": 162, "text": "আর হিংসুকের অনিষ্ট থেকে যখন সে হিংসা করে’।" }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "113" }
+  }
+}

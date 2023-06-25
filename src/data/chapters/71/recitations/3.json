@@ -1,0 +1,37 @@
+{
+  "audio_files": [
+    { "verse_key": "71:1", "url": "Sudais/mp3/071001.mp3" },
+    { "verse_key": "71:2", "url": "Sudais/mp3/071002.mp3" },
+    { "verse_key": "71:3", "url": "Sudais/mp3/071003.mp3" },
+    { "verse_key": "71:4", "url": "Sudais/mp3/071004.mp3" },
+    { "verse_key": "71:5", "url": "Sudais/mp3/071005.mp3" },
+    { "verse_key": "71:6", "url": "Sudais/mp3/071006.mp3" },
+    { "verse_key": "71:7", "url": "Sudais/mp3/071007.mp3" },
+    { "verse_key": "71:8", "url": "Sudais/mp3/071008.mp3" },
+    { "verse_key": "71:9", "url": "Sudais/mp3/071009.mp3" },
+    { "verse_key": "71:10", "url": "Sudais/mp3/071010.mp3" },
+    { "verse_key": "71:11", "url": "Sudais/mp3/071011.mp3" },
+    { "verse_key": "71:12", "url": "Sudais/mp3/071012.mp3" },
+    { "verse_key": "71:13", "url": "Sudais/mp3/071013.mp3" },
+    { "verse_key": "71:14", "url": "Sudais/mp3/071014.mp3" },
+    { "verse_key": "71:15", "url": "Sudais/mp3/071015.mp3" },
+    { "verse_key": "71:16", "url": "Sudais/mp3/071016.mp3" },
+    { "verse_key": "71:17", "url": "Sudais/mp3/071017.mp3" },
+    { "verse_key": "71:18", "url": "Sudais/mp3/071018.mp3" },
+    { "verse_key": "71:19", "url": "Sudais/mp3/071019.mp3" },
+    { "verse_key": "71:20", "url": "Sudais/mp3/071020.mp3" },
+    { "verse_key": "71:21", "url": "Sudais/mp3/071021.mp3" },
+    { "verse_key": "71:22", "url": "Sudais/mp3/071022.mp3" },
+    { "verse_key": "71:23", "url": "Sudais/mp3/071023.mp3" },
+    { "verse_key": "71:24", "url": "Sudais/mp3/071024.mp3" },
+    { "verse_key": "71:25", "url": "Sudais/mp3/071025.mp3" },
+    { "verse_key": "71:26", "url": "Sudais/mp3/071026.mp3" },
+    { "verse_key": "71:27", "url": "Sudais/mp3/071027.mp3" },
+    { "verse_key": "71:28", "url": "Sudais/mp3/071028.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Abdur-Rahman as-Sudais",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "71" }
+  }
+}

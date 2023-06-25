@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na porę przedwieczorną!" },
+    { "resource_id": 42, "text": "Zaprawdę, człowiek jest na drodze zguby!" },
+    {
+      "resource_id": 42,
+      "text": "Z wyjątkiem tych, którzy uwierzyli i czynili dobre dzieła, i zachęcali się wzajemnie do prawdy, i zachęcali się wzajemnie do cierpliwości."
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "103" }
+  }
+}

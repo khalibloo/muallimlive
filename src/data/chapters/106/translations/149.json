@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "for the lasting security of Quraysh<sup foot_note=\"81497\">1</sup>—"
+    },
+    {
+      "resource_id": 149,
+      "text": "their lasting security during winter and summer journeys—"
+    },
+    {
+      "resource_id": 149,
+      "text": "so let them worship the Lord of this House,"
+    },
+    {
+      "resource_id": 149,
+      "text": "who has fed them to ward off hunger and has secured them to ward off fear."
+    }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "106" }
+  }
+}

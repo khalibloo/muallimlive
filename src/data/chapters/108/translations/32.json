@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 32, "text": "Lalle ne Mu, Mun yi maka kyauta mai yawa." },
+    {
+      "resource_id": 32,
+      "text": "Saboda haka, ka yi salla dõmin Ubangijinka, kuma ka sõke (baiko, wato sukar raƙumi)."
+    },
+    {
+      "resource_id": 32,
+      "text": "Lalle mai aibanta ka shi ne mai yankakkiyar albarka."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "108" }
+  }
+}

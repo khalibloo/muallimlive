@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Zar grudi tvoje nismo prostranim učinili" },
+    { "resource_id": 25, "text": "i breme tvoje skinuli," },
+    { "resource_id": 25, "text": "koje je pleća tvoja pritiskalo," },
+    { "resource_id": 25, "text": "i spomen na tebe visoko uzdigli!" },
+    { "resource_id": 25, "text": "Pa, zaista, s mukom je olakšanje," },
+    { "resource_id": 25, "text": "zaista, s mukom je olakšanje!" },
+    { "resource_id": 25, "text": "A kad završiš, molitvi se predaj," },
+    { "resource_id": 25, "text": "i Gospodaru svome teži!" }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "94" }
+  }
+}

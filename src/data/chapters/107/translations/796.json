@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 796,
+      "text": "ߌ ߞߵߊ߬ ߦߋ߫ ߓߊ߬ ߡߍ߲ ߦߋ߫ ߛߙߊ߬ߟߌ ߡߊߛߐ߬ߛߐ߬ ߟߊ߫"
+    },
+    { "resource_id": 796, "text": "ߏ߬ ߟߋ ߦߋ߫ ߝߊߙߌߕߊ ߟߊߕߊ߲߬ߞߌ߲߬ ߠߊ߫" },
+    {
+      "resource_id": 796,
+      "text": "ߊ߬ ߘߏ߲߬ ߕߎ߲߬ ߕߍ߫ ߘߐ߬ߛߎ߬ߟߌ߫ ߞߍ߫ ߟߊ߫ ߘߐ߰ߕߐ ߘߡߊߢߌߣߌ߲ ߡߊ߬"
+    },
+    { "resource_id": 796, "text": "ߒ߬ߓߊ߬ ߜߊ߬ߟߏ߬ ߦߋ߫ ߛߊߟߌߟߊ ߟߎ߬ ߦߋ߫" },
+    {
+      "resource_id": 796,
+      "text": "ߡߍ߲ ߠߎ߬ ߦߴߊ߬ߟߎ߫ ߖߊ߲߬ߓߐ߫ ߟߴߊ߬ߟߎ߬ ߟߊ߫ ߛߊߟߌ ߘߐ߫"
+    },
+    { "resource_id": 796, "text": "ߏ߬ ߟߎ߬ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߖߘߍ߬ߦߌߘߊ ߞߍ߫ ߟߊ߫" },
+    {
+      "resource_id": 796,
+      "text": "ߊ߬ ߣߴߊ߬ߟߎ߬ ߦߋ߫ ߖߊ߲߬ߠߌ߲ ߞߍ߫ ߟߊ߫ ߓߟߏߡߊߦߟߍߡߊ߲߫ ߝߋ߲ ߠߎ߬ ߟߊ߫"
+    }
+  ],
+  "meta": {
+    "translation_name": "Baba Mamady Jani",
+    "author_name": "Baba Mamady Jani",
+    "filters": { "resource_id": 796, "chapter_number": "107" }
+  }
+}

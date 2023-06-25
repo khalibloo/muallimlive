@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " Göy parçalanacağı zaman;" },
+    { "resource_id": 75, "text": " ulduzlar səpələnəcəyi za­man;" },
+    {
+      "resource_id": 75,
+      "text": " dənizlər daşıb bir-birinə qarışacağı zaman;"
+    },
+    { "resource_id": 75, "text": " qəbirlər çevriləcəyi zaman;" },
+    {
+      "resource_id": 75,
+      "text": " hər kəs əvvəlcədən özü üçün nəyi tədarük edib, nəyi sonraya sax­ladığını biləcək."
+    },
+    {
+      "resource_id": 75,
+      "text": " Ey insan! Səni öz Səxa­vətli Rəbbinə qarşı qoyan nədir?"
+    },
+    {
+      "resource_id": 75,
+      "text": " O ki, səni yaradıb kamil­ləşdirdi və sənə gözəl bir surət verdi."
+    },
+    { "resource_id": 75, "text": " Səni istədiyi şəklə saldı." },
+    {
+      "resource_id": 75,
+      "text": " Xeyr! Əksinə, siz Qiya­mə­ti yalan hesab edir­siniz!"
+    },
+    {
+      "resource_id": 75,
+      "text": " Həqiqətən, sizin üstü­nüz­də nə­za­rətçilər var –"
+    },
+    { "resource_id": 75, "text": " çox möhtərəm, əməllə­ri­nizi ya­zanlar." },
+    { "resource_id": 75, "text": " Onlar sizin nə etdiklə­ri­nizi bi­lirlər." },
+    {
+      "resource_id": 75,
+      "text": " Həqiqətən, yaxşılar ne­mət içində ola­caqlar."
+    },
+    {
+      "resource_id": 75,
+      "text": " Şübhəsiz ki, günahkar­lar da Cə­hənnəmdə olacaqlar."
+    },
+    { "resource_id": 75, "text": " Onlar ora Haqq-hesab günü girə­cəklər." },
+    { "resource_id": 75, "text": " Onlar əsla ondan yayına bilmə­yəcəklər." },
+    {
+      "resource_id": 75,
+      "text": " Sən haradan biləydin ki, Haqq-hesab günü nədir?"
+    },
+    {
+      "resource_id": 75,
+      "text": " Doğrudan da, sən hara­dan biləy­din ki, Haqq-hesab günü nə­dir?"
+    },
+    {
+      "resource_id": 75,
+      "text": " O gün heç kəs heç kəsə fayda verə bilməz. O gün hökm yalnız Allaha məx­sus olacaq!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "82" }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Acerca de quê se interrogam?" },
+    { "resource_id": 43, "text": "Acerca da grande notícia," },
+    { "resource_id": 43, "text": "A respeito da qual discordam." },
+    { "resource_id": 43, "text": "Sim, logo saberão!" },
+    { "resource_id": 43, "text": "Sim, realmente, logo saberão!" },
+    { "resource_id": 43, "text": "Acaso, não fizemos da terra um leito," },
+    { "resource_id": 43, "text": "E das montanhas, estacas?" },
+    { "resource_id": 43, "text": "E não vos criamos, acaso, em casais," },
+    { "resource_id": 43, "text": "Nem fizemos o vosso sono, para o descanso," },
+    { "resource_id": 43, "text": "Nem fizemos a noite, como um manto," },
+    {
+      "resource_id": 43,
+      "text": "Nem fizemos o dia, para ganhardes o sustento?"
+    },
+    {
+      "resource_id": 43,
+      "text": "E não construímos, por cima de vós, os sete firmamentos?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Nem colocamos neles um esplendoroso lustre?"
+    },
+    { "resource_id": 43, "text": "Nem enviamos, das nuvens, copiosa chuva," },
+    {
+      "resource_id": 43,
+      "text": "Para produzir, por meio desta, o grão e as plantas,"
+    },
+    { "resource_id": 43, "text": "E frondosos vergéis?" },
+    {
+      "resource_id": 43,
+      "text": "Sabei que o Dia da Discriminação está com a hora fixada."
+    },
+    {
+      "resource_id": 43,
+      "text": "Será o dia em que a trombeta soará e em que comparecereis em grupos,"
+    },
+    { "resource_id": 43, "text": "E se abrirá o céu, e terá muitas portas." },
+    {
+      "resource_id": 43,
+      "text": "E as montanhas serão dispersadas, parecendo uma miragem."
+    },
+    { "resource_id": 43, "text": "Em verdade, o inferno será uma emboscada," },
+    { "resource_id": 43, "text": "Morada para os transgressores," },
+    { "resource_id": 43, "text": "Onde permanecerão, por tempo ininterrupto." },
+    {
+      "resource_id": 43,
+      "text": "Em que não provarão do frescor, nem de (qualquer) bebida,"
+    },
+    {
+      "resource_id": 43,
+      "text": "A não ser água fervente e uma paralisante beberagem, gelada,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Como castigo adequado (pelos seus feitos malignos),"
+    },
+    { "resource_id": 43, "text": "Porque nunca temeram o cômputo," },
+    {
+      "resource_id": 43,
+      "text": "E desmentiram, descarada e veementemente, os Nossos versículos."
+    },
+    { "resource_id": 43, "text": "Mas anotamos tudo, me registro." },
+    {
+      "resource_id": 43,
+      "text": "Sofrei, pois, conquanto nada vos proporcionaremos, senão castigo."
+    },
+    {
+      "resource_id": 43,
+      "text": "Por outra, os tementes obterão a recompensa,"
+    },
+    { "resource_id": 43, "text": "Jardins e videiras," },
+    {
+      "resource_id": 43,
+      "text": "E donzelas, da mesma idade, por companheiras,"
+    },
+    { "resource_id": 43, "text": "E taças transbordantes," },
+    {
+      "resource_id": 43,
+      "text": "Onde não escutarão veleidades nem mentidas."
+    },
+    {
+      "resource_id": 43,
+      "text": "Com efeito, receberão a recompensa do teu Senhor, que será uma paga suficiente,"
+    },
+    {
+      "resource_id": 43,
+      "text": "(Do) Senhor dos céus e da terra e de tudo quanto existe entre ambos, o Clemente com Quem ninguém pode dialogar."
+    },
+    {
+      "resource_id": 43,
+      "text": "No dia em que comparecerem o Espírito e os anjos enfileirados, ninguém poderá falar, salvo aquele a quem o Clemente o permitir; e falará a verdade."
+    },
+    {
+      "resource_id": 43,
+      "text": "Tal será o dia infalível; quem quiser, pois, poderá encaminhar-se para o seu Senhor!"
+    },
+    {
+      "resource_id": 43,
+      "text": "Sabei que vos temos advertido do castigo iminente, o dia em que o homem verá as obras das suas mãos, e o incrédulo dirá: Oxalá me tivesse convertido em pó!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "78" }
+  }
+}

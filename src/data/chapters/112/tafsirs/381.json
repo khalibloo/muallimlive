@@ -1,0 +1,8 @@
+{
+  "tafsirs": [
+    { "verse_id": 1, "isHTML": true, "isTafsir": true, "text": "" },
+    { "verse_id": 2, "isHTML": true, "isTafsir": true, "text": "" },
+    { "verse_id": 3, "isHTML": true, "isTafsir": true, "text": "" },
+    { "verse_id": 4, "isHTML": true, "isTafsir": true, "text": "" }
+  ]
+}

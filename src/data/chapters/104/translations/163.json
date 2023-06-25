@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 163,
+      "text": "দুর্ভোগ প্রত্যেকের, যে পশ্চাতে ও সম্মুখে লোকের নিন্দা করে,"
+    },
+    { "resource_id": 163, "text": "যে অর্থ জমায় ও তা গুণে গুণে রাখে।" },
+    {
+      "resource_id": 163,
+      "text": "সে ধারণা করে যে, তার অর্থ তাকে অমর করে রাখবে।"
+    },
+    { "resource_id": 163, "text": "কখনও না, সে অবশ্যই নিক্ষিপ্ত হবে হুতামায়।" },
+    { "resource_id": 163, "text": "হুতামা কী, তা কি তুমি জান?" },
+    { "resource_id": 163, "text": "ওটা আল্লাহর প্রজ্জ্বলিত হুতাশন –" },
+    { "resource_id": 163, "text": "যা হৃদয়কে গ্রাস করবে।" },
+    { "resource_id": 163, "text": "নিশ্চয়ই ওটা তাদেরকে পরিবেষ্টন করে রাখবে," },
+    { "resource_id": 163, "text": "দীর্ঘায়িত স্তম্ভসমূহে।" }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "104" }
+  }
+}

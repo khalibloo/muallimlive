@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "我在那高贵的夜间确已降示它," },
+    { "resource_id": 56, "text": "你怎能知道那高贵的夜间是什麽？" },
+    { "resource_id": 56, "text": "那高贵的夜间, 胜过一千个月," },
+    {
+      "resource_id": 56,
+      "text": "众天神和精神, 奉他们的主的命令, 为一切事务而在那夜间降临,"
+    },
+    { "resource_id": 56, "text": "那夜间全是平安的, 直到黎明显著的时侯。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "97" }
+  }
+}

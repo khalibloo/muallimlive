@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Při nebi a hvězdě nocí putující!" },
+    {
+      "resource_id": 26,
+      "text": "Víš ty vůbec, co je to hvězda nocí putující?"
+    },
+    { "resource_id": 26, "text": "Hvězda pronikavě zářící." },
+    { "resource_id": 26, "text": "A věru duše každá nad sebou strážce má!" },
+    { "resource_id": 26, "text": "Z čeho byl stvořen, nechť člověk posoudí!" },
+    { "resource_id": 26, "text": "Stvořen byl z vystříknuté tekutiny," },
+    { "resource_id": 26, "text": "jež z místa mezi bedry a žebry proudí." },
+    {
+      "resource_id": 26,
+      "text": "Bůh zajisté je schopen k životu jej navrátit"
+    },
+    { "resource_id": 26, "text": "v den, kdy taje budou zkoumány" },
+    {
+      "resource_id": 26,
+      "text": "a kdy člověk nebude ani sílu, ani pomocníka mít."
+    },
+    { "resource_id": 26, "text": "Při nebi návratů plném," },
+    { "resource_id": 26, "text": "při zemi rozpuklin plné!" },
+    { "resource_id": 26, "text": "Věru že toto je slovo rozhodné" },
+    { "resource_id": 26, "text": "a není řečeno jen žertem." },
+    { "resource_id": 26, "text": "Tito lidé věru strojí úklad," },
+    { "resource_id": 26, "text": "však já rovněž chystám lest!" },
+    {
+      "resource_id": 26,
+      "text": "Jen poshov nevěřícím a krátký jim popřej odklad!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "86" }
+  }
+}

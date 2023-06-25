@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Vaqtiki, osmon yorilsa." },
+    { "resource_id": 55, "text": "Va vaqtiki, yulduzlar sochilib ketsa." },
+    { "resource_id": 55, "text": "Va vaqtiki, dengizlar portlatilsa." },
+    { "resource_id": 55, "text": "Va vaqtiki, qabrlar ostin-ustin bo`lsa." },
+    {
+      "resource_id": 55,
+      "text": "Har bir jon — nimani taqdim qildiyu nimani ta'xir qildi — biladir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ey Inson! Seni nima Karamli Robbing haqida g`ururga ketkazdi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "U seni to`la-to`kis va mo`'tadil qilib yaratgandi."
+    },
+    { "resource_id": 55, "text": "O`zi xohlagan suvratda seni tarkib qildi." },
+    {
+      "resource_id": 55,
+      "text": "Yo`q!!! Balki, siz jazoni yolg`onga chiqarmoqdasiz!!!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Holbuki, sizning ustingizdan kuzatib turuvchilar bordir."
+    },
+    { "resource_id": 55, "text": "Ular hurmatli yozib turguvchilardir." },
+    { "resource_id": 55, "text": "Ular nima qilayotganingizni biladir." },
+    { "resource_id": 55, "text": "Albatta, yaxshilar jannatdadir." },
+    { "resource_id": 55, "text": "Va, albatta, fojirlar jahannamdadir." },
+    { "resource_id": 55, "text": "Ular u yerga qiyomat kuni kiradir." },
+    { "resource_id": 55, "text": "Va ular undan g`oyib bo`la olmaslar." },
+    {
+      "resource_id": 55,
+      "text": "Va, jazo kuni nima ekanini senga nima bildirdi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ng, jazo kuni nima ekanini senga nima bildirdi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`sha kunda hech bir jon boshqa bir jon uchun biror narsa qilish imkoniga molik emas. U kunda barcha ish Allohning O`ziga xos."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "82" }
+  }
+}

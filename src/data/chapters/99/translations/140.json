@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "Cuando la tierra tiemble violentamente (el Día de la Resurrección),"
+    },
+    {
+      "resource_id": 140,
+      "text": "expulse su carga<sup foot_note=150128>1</sup>"
+    },
+    { "resource_id": 140, "text": "y el hombre diga: «¿Qué le ocurre?»;" },
+    {
+      "resource_id": 140,
+      "text": "ese día (la tierra) dará a conocer su información (acerca de todas las buenas y malas acciones que se cometieron en ella)"
+    },
+    { "resource_id": 140, "text": "obedeciendo la orden de tu Señor." },
+    {
+      "resource_id": 140,
+      "text": "Ese día la gente se dispersará en grupos distintos para que les sean mostradas sus acciones."
+    },
+    {
+      "resource_id": 140,
+      "text": "Quien haya realizado una buena acción, por pequeña que sea, la verá (recompensada)."
+    },
+    {
+      "resource_id": 140,
+      "text": "Y quien haya realizado una mala acción, por pequeña que sea, verá (el castigo que esta merece)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "99" }
+  }
+}

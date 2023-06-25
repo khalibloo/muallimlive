@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 51,
+      "text": "จงกล่าวเถิด มุฮัมมัด ข้าพระองค์ขอความคุ้มครองต่อพระเจ้าแห่งรุ่งอรุณ"
+    },
+    {
+      "resource_id": 51,
+      "text": "ให้พ้นจากความชั่วร้ายที่พระองค์ได้ทรงบันดาลขึ้น"
+    },
+    {
+      "resource_id": 51,
+      "text": "และจากความชั่วร้ายแห่งความมืดของเวลากลางคืนเมื่อมันแผ่คลุม"
+    },
+    {
+      "resource_id": 51,
+      "text": "และจากความชั่วร้ายของบรรดาผู้เสกเป่าในปมเงื่อน"
+    },
+    { "resource_id": 51, "text": "และจากความชั่วร้ายของผู้อิจฉาเมื่อเขาอิจฉา" }
+  ],
+  "meta": {
+    "translation_name": "Thai Translatio (King Fahad Quran Complex)",
+    "author_name": "King Fahad Quran Complex",
+    "filters": { "resource_id": 51, "chapter_number": "113" }
+  }
+}

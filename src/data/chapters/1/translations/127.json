@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 127,
+      "text": "Меҳрибон ва раҳмли Аллоҳнинг номи билан бошлайман.<sup foot_note=47106>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Ҳамд оламларнинг Робби — Аллоҳгадир.<sup foot_note=47107>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "У Роҳман ва Роҳиймдир.<sup foot_note=47108>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Жазо-мукофот кунининг Эгасидир.<sup foot_note=47109>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Фақат Сенгагина ибодат қиламиз ва фақат Сендангина ёрдам сўраймиз.<sup foot_note=47110>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Бизни тўғри йўлга ҳидоят қилгин.<sup foot_note=47111>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Ўзинг неъмат берганларнинг йўлига. Ғазабга қолганларникига ҳам эмас, адашганларникига ҳам эмас.<sup foot_note=47112>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "1" }
+  }
+}

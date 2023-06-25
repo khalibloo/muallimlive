@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) Allahın köməyi və zəfər (Məkkənin fəthi) gəldiyi zaman;"
+    },
+    {
+      "resource_id": 23,
+      "text": "İnsanların dəstə-dəstə Allahın dininə (islama) daxil olduqlarını gördüyün zaman"
+    },
+    {
+      "resource_id": 23,
+      "text": "Rəbbini həmd-səna ilə təqdis et (Onu bütün naqis sifətlərdən uzaq tutub pak bil, “Sübhanəkə Allahümmə və bihəmdikə” kəlməsini de) və Ondan bağışlanmağını dilə. Həqiqətən, O, tövbələri qəbul edəndir!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "110" }
+  }
+}

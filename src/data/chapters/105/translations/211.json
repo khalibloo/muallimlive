@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Hindi mo ba napag-alaman kung papaano ang ginawa ng Panginoon mo sa mga kasamahan ng elepante?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi ba Siya gumawa sa pakana nila [na mauwi] sa isang pagkawala?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagsugo Siya sa kanila ng mga ibon na kawan-kawan,"
+    },
+    {
+      "resource_id": 211,
+      "text": "na nagpupukol sa kanila ng mga batong mula sa luwad na nanigas."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya gumawa Siya sa kanila gaya ng uhay na kinainan."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "105" }
+  }
+}

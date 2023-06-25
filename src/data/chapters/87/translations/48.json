@@ -1,0 +1,67 @@
+{
+  "translations": [
+    { "resource_id": 48, "text": "PRISA din Herres, den Högstes, namn!" },
+    {
+      "resource_id": 48,
+      "text": "Han som skapar [allt] och därefter formar det [med hänsyn till den uppgift som det skall fylla],"
+    },
+    {
+      "resource_id": 48,
+      "text": "och som ger [människan] hennes rätta mått och därefter leder henne på rätt väg,"
+    },
+    { "resource_id": 48, "text": "och som låter betesmarkernas gräs växa" },
+    { "resource_id": 48, "text": "för att sedan vissna och svartna." },
+    {
+      "resource_id": 48,
+      "text": "VI SKALL lära dig att läsa och du kommer inte att glömma något"
+    },
+    {
+      "resource_id": 48,
+      "text": "utom det som Gud vill [att du skall glömma]; Han vet vad [människorna] öppet tillkännager likaväl som det som [de vill] dölja."
+    },
+    {
+      "resource_id": 48,
+      "text": "Och Vi skall göra det lätt för dig [att följa religionens bud]."
+    },
+    {
+      "resource_id": 48,
+      "text": "PÅMINN nu [människorna, Muhammad] - kanske skall påminnelsen vara [dem] till nytta;"
+    },
+    {
+      "resource_id": 48,
+      "text": "den som står i bävan [inför Gud] kommer att lägga den på minnet"
+    },
+    {
+      "resource_id": 48,
+      "text": "och [bara] den olycklige stackare kommer att vända ryggen till"
+    },
+    { "resource_id": 48, "text": "som blir lågornas rov i den stora Elden," },
+    { "resource_id": 48, "text": "där han varken kan dö eller leva." },
+    {
+      "resource_id": 48,
+      "text": "Den skall det gå väl i händer som [under sitt liv] strävar efter renhet"
+    },
+    {
+      "resource_id": 48,
+      "text": "och åkallar sin Herres namn och förrättar sin bön."
+    },
+    {
+      "resource_id": 48,
+      "text": "Men ni [människor] sätter det jordiska livet före allt annat,"
+    },
+    {
+      "resource_id": 48,
+      "text": "trots att det kommande livet är bättre och varar i evighet."
+    },
+    {
+      "resource_id": 48,
+      "text": "[Allt] detta har helt visst redan [sagts] i de tidigare uppenbarelserna,"
+    },
+    { "resource_id": 48, "text": "i Abrahams och Moses uppenbarelser." }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "87" }
+  }
+}

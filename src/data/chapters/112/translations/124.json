@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "De ki : O, Allah birdir." },
+    { "resource_id": 124, "text": "Allah sameddir." },
+    { "resource_id": 124, "text": "O, doğurmamış ve doğmamıştır." },
+    { "resource_id": 124, "text": "Onun hiçbir dengi yoktur." }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "112" }
+  }
+}

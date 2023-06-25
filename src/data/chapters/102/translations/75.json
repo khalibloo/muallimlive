@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 75,
+      "text": " Çoxluğa hərisliyiniz ba­şı­nızı o qə­dər qatdı ki,"
+    },
+    { "resource_id": 75, "text": " nəhayət, qəbirləri zi­ya­rət etdi­niz." },
+    {
+      "resource_id": 75,
+      "text": " Yox-yox! Siz aqibətinizi hök­mən biləcəksiniz!"
+    },
+    {
+      "resource_id": 75,
+      "text": " Bir də yox! Siz aqibətinizi tezliklə biləcəksiniz!"
+    },
+    { "resource_id": 75, "text": " Xeyr! Kaş ki, yəqin biləy­di­niz." },
+    { "resource_id": 75, "text": " Siz Cəhənnəmi mütləq gö­rəcək­siniz!" },
+    {
+      "resource_id": 75,
+      "text": " Onu həqiqətən öz gözü­nüzlə müt­ləq görəcəksi­niz!"
+    },
+    {
+      "resource_id": 75,
+      "text": " Sonra, o gün nemətlər ba­rəsində hökmən sorğu-suala tu­tu­la­caq­sınız."
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "102" }
+  }
+}

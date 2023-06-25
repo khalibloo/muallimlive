@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Asr bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, inson xusrondadir.<sup foot_note=\"169921\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Illo, iymon keltirganlar va solih amallar qilganlar, bir-birlarini haq yo`lga chaqirganlar va bir-birlarini sabrga chaqirganlar (undoq emasdir).<sup foot_note=\"170548\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "103" }
+  }
+}

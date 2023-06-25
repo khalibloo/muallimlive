@@ -1,0 +1,84 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Yüzünü ekşitti ve arkasını döndü." },
+    { "resource_id": 210, "text": "Kendisine o âmâ geldi diye." },
+    { "resource_id": 210, "text": "Ne bilirsin belki o temizlenecekti." },
+    {
+      "resource_id": 210,
+      "text": "Yahut öğüt alacaktı da bu öğüt ona fayda verecekti."
+    },
+    { "resource_id": 210, "text": "Kendini muhtaç hissetmeyene gelince;" },
+    { "resource_id": 210, "text": "Sen, ona yöneliyorsun." },
+    {
+      "resource_id": 210,
+      "text": "(İstemiyorsa) arınmamasından sen sorumlu değilsin!"
+    },
+    { "resource_id": 210, "text": "Fakat koşup sana gelen kimse;" },
+    { "resource_id": 210, "text": "(Allah'tan) korkuğu halde;" },
+    { "resource_id": 210, "text": "Sen onu bırakıp oyalanıyorsun." },
+    { "resource_id": 210, "text": "Hayır. Bu ancak bir öğüttür." },
+    { "resource_id": 210, "text": "Artık dileyen kimse ondan öğüt alır." },
+    { "resource_id": 210, "text": "(O) şerefli sahifelerdedir." },
+    { "resource_id": 210, "text": "Yüce ve tertemiz olan." },
+    { "resource_id": 210, "text": "Kâtiplerin ellerinde." },
+    { "resource_id": 210, "text": "Değerli ve itaatkâr olan (Meleklerin)." },
+    {
+      "resource_id": 210,
+      "text": "Kahrolası (inkârcı) insan! Ne nankördür o!"
+    },
+    { "resource_id": 210, "text": "Allah, onu hangi şeyden yarattı?" },
+    {
+      "resource_id": 210,
+      "text": "Bir nutfeden yarattı ve belli bir şekle soktu."
+    },
+    { "resource_id": 210, "text": "Sonra da ona yolu kolaylaştırdı." },
+    { "resource_id": 210, "text": "Sonra da onu öldürüp kabre koydu." },
+    {
+      "resource_id": 210,
+      "text": "Sonra dilediği zaman onu yeniden diriltir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır. O (Rabbinin) kendisine emrettiğini yerine getirmedi."
+    },
+    { "resource_id": 210, "text": "İnsan yiyeceğine bir baksın." },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz biz suyu/yağmuru döktükçe döktük."
+    },
+    { "resource_id": 210, "text": "Sonra toprağı iyiden iyiye yardık!" },
+    { "resource_id": 210, "text": "Ve orada taneler bitirdik." },
+    { "resource_id": 210, "text": "Üzümler ve yoncalar," },
+    { "resource_id": 210, "text": "Zeytinler ve hurmalar," },
+    { "resource_id": 210, "text": "Sık ağaçlı bahçeler," },
+    { "resource_id": 210, "text": "Meyveler ve otlaklar," },
+    {
+      "resource_id": 210,
+      "text": "Sizin ve hayvanlarınızın yararlanması için,"
+    },
+    { "resource_id": 210, "text": "Kulakları sağır eden o ses geldiğinde," },
+    { "resource_id": 210, "text": "O gün kişi kardeşinden kaçar." },
+    { "resource_id": 210, "text": "Anasından ve babasından," },
+    { "resource_id": 210, "text": "Eşinden ve evladından," },
+    {
+      "resource_id": 210,
+      "text": "O gün herkes için kendine yetecek bir işi vardır."
+    },
+    {
+      "resource_id": 210,
+      "text": "O gün birtakım yüzler vardır ki pırıl pırıl parlarlar."
+    },
+    { "resource_id": 210, "text": "Güleç ve neşelidir." },
+    {
+      "resource_id": 210,
+      "text": "Öyle yüzler de var ki o gün üzerini toz kaplamıştır."
+    },
+    { "resource_id": 210, "text": "Onları bir siyahlık bürür." },
+    { "resource_id": 210, "text": "İşte onlar kâfirler, facirlerdir." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "80" }
+  }
+}

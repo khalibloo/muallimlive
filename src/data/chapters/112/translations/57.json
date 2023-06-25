@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Qul huwa Allahu ahad" },
+    { "resource_id": 57, "text": "Allahu assamad" },
+    { "resource_id": 57, "text": "Lam yalid walam yoolad" },
+    { "resource_id": 57, "text": "Walam yakun lahu kufuwan ahad" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "112" }
+  }
+}

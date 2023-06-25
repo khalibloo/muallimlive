@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "በአላህ ስም እጅግ በጣም ሩኅሩህ በጣም አዛኝ በኾነው፡፡" },
+    { "resource_id": 87, "text": "ምስጋና ለአላህ ይገባው የዓለማት ጌታ ለኾነው፤" },
+    { "resource_id": 87, "text": "እጅግ በጣም ርኅሩህ በጣም አዛኝ" },
+    { "resource_id": 87, "text": "የፍርዱ ቀን ባለቤት ለኾነው፡፡" },
+    { "resource_id": 87, "text": "አንተን ብቻ እንግገዛለን፤ አንተንም ብቻ እርዳታን እንለምናለን፡፡" },
+    { "resource_id": 87, "text": "ቀጥተኛውን መንገድ ምራን፡፡" },
+    {
+      "resource_id": 87,
+      "text": "የእነዚያን በነርሱ ላይ በጎ የዋልክላቸውን በነሱ ላይ ያልተቆጣህባቸውንና ያልተሳሳቱትንም ሰዎች መንገድ (ምራን፤ በሉ)፡፡"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "1" }
+  }
+}

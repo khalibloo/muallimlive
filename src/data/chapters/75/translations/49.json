@@ -1,0 +1,103 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Ninaapa kwa Siku ya Kiyama!" },
+    { "resource_id": 49, "text": "Na ninaapa kwa nafsi inayo jilaumu!" },
+    {
+      "resource_id": 49,
+      "text": "Anadhani mtu kuwa Sisi hatutaikusanya mifupa yake?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Kwani! Sisi tunaweza hata kuziweka sawa sawa ncha za vidole vyake!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Lakini mtu anataka tu kuendelea na maasi kwa siku zilioko mbele yake."
+    },
+    {
+      "resource_id": 49,
+      "text": "Anauliza: Lini itakuwa hiyo Siku ya Kiyama?"
+    },
+    { "resource_id": 49, "text": "Basi jicho litapo dawaa," },
+    { "resource_id": 49, "text": "Na mwezi utapo patwa," },
+    { "resource_id": 49, "text": "Na likakusanywa jua na mwezi," },
+    {
+      "resource_id": 49,
+      "text": "Siku hiyo mtu atasema: Yako wapi makimbilio?"
+    },
+    { "resource_id": 49, "text": "La! Hapana pa kukimbilia!" },
+    {
+      "resource_id": 49,
+      "text": "Siku hiyo pa kutua ni kwa Mola wako Mlezi tu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Siku hiyo ataambiwa aliyo yatanguliza na aliyo yaakhirisha."
+    },
+    { "resource_id": 49, "text": "Bali mtu ni hoja juu ya nafsi yake." },
+    { "resource_id": 49, "text": "Na ingawa atatoa chungu ya udhuru." },
+    {
+      "resource_id": 49,
+      "text": "Usiutikisie huu wahyi ulimi wako kwa kuufanyia haraka."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika ni juu yetu kuukusanya na kuusomesha."
+    },
+    {
+      "resource_id": 49,
+      "text": "Tunapo usoma, basi nawe fuatiliza kusoma kwake."
+    },
+    { "resource_id": 49, "text": "Kisha ni juu yetu kuubainisha." },
+    {
+      "resource_id": 49,
+      "text": "Hasha! Bali nyinyi mnapenda maisha ya duniani,"
+    },
+    { "resource_id": 49, "text": "Na mnaacha maisha ya Akhera." },
+    { "resource_id": 49, "text": "Zipo nyuso siku hiyo zitao ng'ara," },
+    { "resource_id": 49, "text": "Zinamwangallia Mola wao Mlezi." },
+    { "resource_id": 49, "text": "Na zipo nyuso siku hiyo zitakao kunjana." },
+    {
+      "resource_id": 49,
+      "text": "Zitajua ya kuwa zitafikiwa na livunjalo uti wa mgongo."
+    },
+    {
+      "resource_id": 49,
+      "text": "La, hasha! (Roho) itakapo fikia kwenye mafupa ya koo,"
+    },
+    { "resource_id": 49, "text": "Na pakasemwa: Nani wa kumganga?" },
+    {
+      "resource_id": 49,
+      "text": "Na mwenyewe akajua kwa hakika kuwa huko ndiko kufariki;"
+    },
+    { "resource_id": 49, "text": "Na utapo ambatishwa muundi kwa muundi," },
+    {
+      "resource_id": 49,
+      "text": "Siku hiyo ndiyo kuchungwa kupelekwa kwa Mola wako Mlezi!"
+    },
+    { "resource_id": 49, "text": "Kwa sababu hakusadiki, wala hakusali." },
+    { "resource_id": 49, "text": "Bali alikanusha, na akageuka." },
+    { "resource_id": 49, "text": "Kisha akenda kwa ahali zake kwa matao." },
+    { "resource_id": 49, "text": "Ole wako, ole wako!" },
+    { "resource_id": 49, "text": "Kisha Ole wako, ole wako!" },
+    { "resource_id": 49, "text": "Ati anadhani binaadamu kuwa ataachwa bure?" },
+    {
+      "resource_id": 49,
+      "text": "Kwani hakuwa yeye tone ya manii lilio shushwa?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha akawa kidonge cha damu, tena Mwenyezi Mungu akamuumba na akamtengeneza vilivyo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha akamfanya namna mbili, mwanamume na mwanamke."
+    },
+    { "resource_id": 49, "text": "Je! Huyo hakuwa ni Muweza wa kufufua wafu?" }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "75" }
+  }
+}

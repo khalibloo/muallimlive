@@ -1,0 +1,68 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "When the sun is overthrown," },
+    { "resource_id": 19, "text": "And when the stars fall," },
+    { "resource_id": 19, "text": "And when the hills are moved," },
+    {
+      "resource_id": 19,
+      "text": "And when the camels big with young are abandoned,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And when the wild beasts are herded together,"
+    },
+    { "resource_id": 19, "text": "And when the seas rise," },
+    { "resource_id": 19, "text": "And when souls are reunited," },
+    {
+      "resource_id": 19,
+      "text": "And when the girl-child that was buried alive is asked"
+    },
+    { "resource_id": 19, "text": "For what sin she was slain," },
+    { "resource_id": 19, "text": "And when the pages are laid open," },
+    { "resource_id": 19, "text": "And when the sky is torn away," },
+    { "resource_id": 19, "text": "And when hell is lighted," },
+    { "resource_id": 19, "text": "And when the Garden is brought nigh," },
+    {
+      "resource_id": 19,
+      "text": "(Then) every soul will know what it hath made ready."
+    },
+    { "resource_id": 19, "text": "Oh, but I call to witness the planets," },
+    { "resource_id": 19, "text": "The stars which rise and set," },
+    { "resource_id": 19, "text": "And the close of night," },
+    { "resource_id": 19, "text": "And the breath of morning" },
+    {
+      "resource_id": 19,
+      "text": "That this is in truth the word of an honoured messenger,"
+    },
+    {
+      "resource_id": 19,
+      "text": "Mighty, established in the presence of the Lord of the Throne,"
+    },
+    { "resource_id": 19, "text": "(One) to be obeyed, and trustworthy;" },
+    { "resource_id": 19, "text": "And your comrade is not mad." },
+    { "resource_id": 19, "text": "Surely he beheld Him on the clear horizon." },
+    { "resource_id": 19, "text": "And he is not avid of the Unseen." },
+    {
+      "resource_id": 19,
+      "text": "Nor is this the utterance of a devil worthy to be stoned."
+    },
+    { "resource_id": 19, "text": "Whither then go ye?" },
+    {
+      "resource_id": 19,
+      "text": "This is naught else than a reminder unto creation,"
+    },
+    {
+      "resource_id": 19,
+      "text": "Unto whomsoever of you willeth to walk straight."
+    },
+    {
+      "resource_id": 19,
+      "text": "And ye will not, unless (it be) that Allah willeth, the Lord of Creation."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "81" }
+  }
+}

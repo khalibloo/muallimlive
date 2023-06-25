@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "Quando la terra verrà scossa da uno scuotimento"
+    },
+    { "resource_id": 209, "text": "e la terra rigetterà il suo contenuto" },
+    { "resource_id": 209, "text": "e l'uomo disse: \"Che ha?\"," },
+    {
+      "resource_id": 209,
+      "text": "quel giorno la terra racconterà le sue vicende,"
+    },
+    { "resource_id": 209, "text": "in verità il tuo Dio glielo ha ispirato." },
+    {
+      "resource_id": 209,
+      "text": "Quel giorno gli uomini usciranno sparsi per essere confrontati con le loro azioni."
+    },
+    {
+      "resource_id": 209,
+      "text": "Chi fa del peso di un atomo di bene lo vedrà,فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ"
+    },
+    {
+      "resource_id": 209,
+      "text": "e chi fa del peso di un atomo di male, lo vedrà.وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَه"
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "99" }
+  }
+}

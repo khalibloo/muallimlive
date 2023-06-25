@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Say, ˹O Prophet,˺ “I seek refuge in the Lord of humankind,"
+    },
+    { "resource_id": 131, "text": "the Master of humankind," },
+    { "resource_id": 131, "text": "the God of humankind," },
+    { "resource_id": 131, "text": "from the evil of the lurking whisperer—" },
+    {
+      "resource_id": 131,
+      "text": "who whispers into the hearts of humankind—"
+    },
+    { "resource_id": 131, "text": "from among jinn and humankind.”" }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "114" }
+  }
+}

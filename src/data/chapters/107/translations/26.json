@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 26,
+      "text": "Co soudíš o tom, jenž nazývá náboženství lží?"
+    },
+    { "resource_id": 26, "text": "To je ten, jenž sirotka odhání" },
+    { "resource_id": 26, "text": "a k nakrmení chudáka nepobízí." },
+    { "resource_id": 26, "text": "Běda těm, kdož při modlení" },
+    { "resource_id": 26, "text": "modlitbu svou se nestarají," },
+    { "resource_id": 26, "text": "kteří chtějí být jen viděni" },
+    { "resource_id": 26, "text": "a dávat podporu odmítají." }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "107" }
+  }
+}

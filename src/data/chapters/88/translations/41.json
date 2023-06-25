@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 41,
+      "text": "Har du fått beretningen om det overdekkende?"
+    },
+    { "resource_id": 41, "text": "Noen vil på denne dag være ydmykede," },
+    { "resource_id": 41, "text": "anstrengte, utslitte," },
+    { "resource_id": 41, "text": "idet de er i den hete Ild," },
+    { "resource_id": 41, "text": "får drikke fra en kokhet kilde" },
+    { "resource_id": 41, "text": "og bare har kaktus til mat," },
+    {
+      "resource_id": 41,
+      "text": "som ikke gir næring og ikke stiller hungeren."
+    },
+    { "resource_id": 41, "text": "Andre vil på denne dag være glade," },
+    { "resource_id": 41, "text": "tilfredse med sitt strev," },
+    { "resource_id": 41, "text": "idet de er i en frittliggende have," },
+    { "resource_id": 41, "text": "hvor de ikke hører tomt prat." },
+    { "resource_id": 41, "text": "Det er en sprudlende kilde," },
+    { "resource_id": 41, "text": "behagelige benker," },
+    { "resource_id": 41, "text": "fremsatte glass," },
+    { "resource_id": 41, "text": "puter på rekke og rad" },
+    { "resource_id": 41, "text": "og tepper bredt ut." },
+    {
+      "resource_id": 41,
+      "text": "Ser de da ikke på kamelen, på hvordan den er skapt?"
+    },
+    {
+      "resource_id": 41,
+      "text": "På himmelen, hvordan den hvelves høyt oppe?"
+    },
+    { "resource_id": 41, "text": "På fjellene, hvordan de er reist opp?" },
+    { "resource_id": 41, "text": "På jorden, hvordan den er strukket ut?" },
+    { "resource_id": 41, "text": "Så minn dem på! Du er bare en formaner." },
+    { "resource_id": 41, "text": "Du har ingen makt over dem." },
+    { "resource_id": 41, "text": "Den som vender seg bort i vantro," },
+    { "resource_id": 41, "text": "vil Gud hjemsøke med den største straff." },
+    { "resource_id": 41, "text": "Til Oss skal de vende tilbake," },
+    { "resource_id": 41, "text": "og så skal Vi ordne med deres regnskap." }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "88" }
+  }
+}

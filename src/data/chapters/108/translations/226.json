@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 226,
+      "text": "१.  निःसंशय, आम्ही तुम्हाला कौसर (आणि बरेच काही) प्रदान केले आहे."
+    },
+    {
+      "resource_id": 226,
+      "text": "२.  तेव्हा, तुम्ही आपल्या पालनकर्त्यासाठी नमाज पढा आणि कुर्बानी करा."
+    },
+    {
+      "resource_id": 226,
+      "text": "३.  निःसंशय, तुमचा शत्रूच बेवारशी आणि नाव-निशाण नसलेला आहे."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Shafi’i Ansari",
+    "author_name": "Muhammad Shafi’i Ansari",
+    "filters": { "resource_id": 226, "chapter_number": "108" }
+  }
+}

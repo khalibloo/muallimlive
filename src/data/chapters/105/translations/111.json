@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "Sila Gooftan kee Abbootii Arbaa irratti akkam akka dalage hin arginee?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila tooftaa isaanii dhabama hin goonee? (godheera)."
+    },
+    { "resource_id": 111, "text": "Simbira garee gareedhaan isaanitti erge." },
+    {
+      "resource_id": 111,
+      "text": "Dhagaalee xuubii (suphee gubamte) irraa taate isaanitti darbatti."
+    },
+    {
+      "resource_id": 111,
+      "text": "Akka alalaa (okaa) nyaatamee isaan taasise."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "105" }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Yemin olsun bu şehre!" },
+    { "resource_id": 210, "text": "Sen de bu beldede bulunuyorsun." },
+    { "resource_id": 210, "text": "Babaya ve doğan çocuğa yemin olsun." },
+    {
+      "resource_id": 210,
+      "text": "Ki şüphesiz, biz insanı (dünyada) bir zorluk içinde yarattık."
+    },
+    {
+      "resource_id": 210,
+      "text": "O hiç kimsenin kendisine asla güç yetiremeyeceğini mi sanır?"
+    },
+    {
+      "resource_id": 210,
+      "text": "O der ki: \"Ben yığın yığın mal tükettim.\""
+    },
+    {
+      "resource_id": 210,
+      "text": "O kimsenin kendisini asla görmediğini mi zanneder?"
+    },
+    { "resource_id": 210, "text": "Biz, ona iki göz vermedik mi?" },
+    { "resource_id": 210, "text": "Bir de bir dil ve iki dudak." },
+    { "resource_id": 210, "text": "Ona iki de yol gösterdik." },
+    { "resource_id": 210, "text": "Fakat o, sarp yokuşu aşamadı." },
+    {
+      "resource_id": 210,
+      "text": "Sarp yokuşun ne olduğunu sen ne bileceksin?"
+    },
+    { "resource_id": 210, "text": "(O) Köle azat etmektir." },
+    { "resource_id": 210, "text": "Veya açlık gününde doyurmaktır." },
+    { "resource_id": 210, "text": "Yakınlığı olan bir yetimi." },
+    {
+      "resource_id": 210,
+      "text": "Yahut yerde sürünen bir yoksulu doyurmaktır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Sonra iman edip, birbirlerine sabır tavsiye edenlerden ve birbirlerine merhamet tavsiye edenlerden olmaktır."
+    },
+    { "resource_id": 210, "text": "İşte bunlar sağdakilerdir." },
+    {
+      "resource_id": 210,
+      "text": "Ayetlerimize küfredenler ise işte onlar soldakilerdir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Onlara, üzerlerine kapıları kapatılmış bir ateş vardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "90" }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Waylun lilmutaffifeen" },
+    {
+      "resource_id": 57,
+      "text": "Allatheena itha iktalooAAala annasi yastawfoon"
+    },
+    { "resource_id": 57, "text": "Wa-itha kaloohum aw wazanoohumyukhsiroon" },
+    { "resource_id": 57, "text": "Ala yathunnu ola-ikaannahum mabAAoothoon" },
+    { "resource_id": 57, "text": "Liyawmin AAatheem" },
+    { "resource_id": 57, "text": "Yawma yaqoomu annasu lirabbialAAalameen" },
+    { "resource_id": 57, "text": "Kalla inna kitaba alfujjarilafee sijjeen" },
+    { "resource_id": 57, "text": "Wama adraka ma sijjeen" },
+    { "resource_id": 57, "text": "Kitabun marqoom" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Allatheena yukaththiboonabiyawmi addeen" },
+    {
+      "resource_id": 57,
+      "text": "Wama yukaththibu bihi illakullu muAAtadin atheem"
+    },
+    {
+      "resource_id": 57,
+      "text": "Itha tutla AAalayhi ayatunaqala asateeru al-awwaleen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Kalla bal rana AAalaquloobihim ma kanoo yaksiboon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Kalla innahum AAan rabbihim yawma-ithinlamahjooboon"
+    },
+    { "resource_id": 57, "text": "Thumma innahum lasaloo aljaheem" },
+    {
+      "resource_id": 57,
+      "text": "Thumma yuqalu hatha allatheekuntum bihi tukaththiboon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Kalla inna kitaba al-abrarilafee AAilliyyeen"
+    },
+    { "resource_id": 57, "text": "Wama adraka maAAilliyyoon" },
+    { "resource_id": 57, "text": "Kitabun marqoom" },
+    { "resource_id": 57, "text": "Yashhaduhu almuqarraboon" },
+    { "resource_id": 57, "text": "Inna al-abrara lafee naAAeem" },
+    { "resource_id": 57, "text": "AAala al-ara-iki yanthuroon" },
+    { "resource_id": 57, "text": "TaAArifu fee wujoohihim nadrata annaAAeem" },
+    { "resource_id": 57, "text": "Yusqawna min raheeqin makhtoom" },
+    {
+      "resource_id": 57,
+      "text": "Khitamuhu miskun wafee thalikafalyatanafasi almutanafisoon"
+    },
+    { "resource_id": 57, "text": "Wamizajuhu min tasneem" },
+    { "resource_id": 57, "text": "AAaynan yashrabu biha almuqarraboon" },
+    {
+      "resource_id": 57,
+      "text": "Inna allatheena ajramoo kanoomina allatheena amanoo yadhakoon"
+    },
+    { "resource_id": 57, "text": "Wa-itha marroo bihim yataghamazoon" },
+    {
+      "resource_id": 57,
+      "text": "Wa-itha inqalaboo ila ahlihimuinqalaboo fakiheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wa-itha raawhum qaloo inna haola-iladalloon"
+    },
+    { "resource_id": 57, "text": "Wama orsiloo AAalayhim hafitheen" },
+    {
+      "resource_id": 57,
+      "text": "Falyawma allatheena amanoomina alkuffari yadhakoon"
+    },
+    { "resource_id": 57, "text": "AAala al-ara-iki yanthuroon" },
+    { "resource_id": 57, "text": "Hal thuwwiba alkuffaru ma kanooyafAAaloon" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "83" }
+  }
+}

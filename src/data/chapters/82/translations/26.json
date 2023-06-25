@@ -1,0 +1,46 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Až se nebe rozpukne," },
+    { "resource_id": 26, "text": "až se hvězdy rozptýlí," },
+    { "resource_id": 26, "text": "až se moře rozlijí," },
+    { "resource_id": 26, "text": "až se hroby převrátí," },
+    {
+      "resource_id": 26,
+      "text": "pak pozná duše každá, co učinila zavčas a co zmeškala."
+    },
+    {
+      "resource_id": 26,
+      "text": "Člověče, co zmýlilo tě o laskavém Pánu tvém,"
+    },
+    {
+      "resource_id": 26,
+      "text": "jenž stvořil tě,vyrovnal a souměrnost ti dal"
+    },
+    { "resource_id": 26, "text": "a v oné podobě tě složil, již si přál?" },
+    {
+      "resource_id": 26,
+      "text": "Pozor však, vždyť vy nazýváte den soudný výmyslem!"
+    },
+    { "resource_id": 26, "text": "Nad vámi věru strážcové dozírají," },
+    { "resource_id": 26, "text": "zapisovatelé vznešení," },
+    { "resource_id": 26, "text": "kteří o činech vašich dobře vědí!" },
+    { "resource_id": 26, "text": "Čistí zajisté ve slastech budou," },
+    { "resource_id": 26, "text": "zatímco hříšníci do ohně půjdou," },
+    { "resource_id": 26, "text": "v němž budou hořet v den soudný," },
+    { "resource_id": 26, "text": "a z něho vzdálit se moci nebudou." },
+    { "resource_id": 26, "text": "Víš ty vůbec, co je to soudný den?" },
+    {
+      "resource_id": 26,
+      "text": "A znovu: víš ty vůbec, co je to soudný den?"
+    },
+    {
+      "resource_id": 26,
+      "text": "Den, kdy žádná duše nezmůže nic pro duši jinou a kdy rozhodnutí bude patřit Bohu jen!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "82" }
+  }
+}

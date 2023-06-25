@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 153,
+      "text": "La Percotente <a class=f><sup foot_note=160740>1</sup></a> ,"
+    },
+    { "resource_id": 153, "text": "cos’è mai la Percotente?" },
+    {
+      "resource_id": 153,
+      "text": "E chi potrà farti comprendere cos’è la Percotente?"
+    },
+    {
+      "resource_id": 153,
+      "text": "Il Giorno in cui gli uomini saranno come falene disperse,"
+    },
+    {
+      "resource_id": 153,
+      "text": "e le montagne come fiocchi di lana cardata,"
+    },
+    {
+      "resource_id": 153,
+      "text": "colui le cui bilance saranno pesanti <a class=f><sup foot_note=160741>1</sup></a>"
+    },
+    {
+      "resource_id": 153,
+      "text": "avrà una vita felice <a class=f><sup foot_note=160742>1</sup></a> ;"
+    },
+    { "resource_id": 153, "text": "colui che invece avrà bilance leggere," },
+    {
+      "resource_id": 153,
+      "text": "avrà per dimora il Baratro <a class=f><sup foot_note=160743>1</sup></a> ."
+    },
+    { "resource_id": 153, "text": "E chi potrà farti comprendere cos’è?" },
+    {
+      "resource_id": 153,
+      "text": "E un Fuoco ardente. <a class=f><sup foot_note=160744>1</sup></a> «La Percotente»: uno dei nomi del Giorno della Resurrezione. <a class=f><sup foot_note=160745>2</sup></a> Verss. e «bilance pesanti… bilance leggere»: di opere meritorie. <a class=f><sup foot_note=160746>3</sup></a> «una vita felice»: nel Paradiso. <a class=f><sup foot_note=160747>4</sup></a> «avrà per dimora il Baratro »: lett. «sua madre sarà il Baratro». Nella lingua araba, i termini ‘Umm e Abû (madre e padre) vengono usati anche in senso lato, per indicare l’origine di qualcosa, la sua appartenenza assoluta, ecc. (vedi III, e la nota). In questo caso esprime il concetto che il dannato non avrà altra dimora che «al-Hâwiya» (il baratro, l’abisso)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "101" }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 782, "text": "Pe smochini şi pe măslini" },
+    {
+      "resource_id": 782,
+      "text": "Şi pe Muntele Sinin<sup foot_note=203846>1</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Şi pe această cetate sigură!<sup foot_note=203847>1</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Noi l‑am creat pe om cu cea mai frumoasă înfăţişare,"
+    },
+    {
+      "resource_id": 782,
+      "text": "Apoi îl întoarcem pe el în locul cel mai de jos<sup foot_note=203848>1</sup>,"
+    },
+    {
+      "resource_id": 782,
+      "text": "Fără de aceia care cred şi împlinesc fapte bune, căci ei vor avea parte de răsplată neîntreruptă."
+    },
+    {
+      "resource_id": 782,
+      "text": "După aceasta, ce te mai face să tăgăduieşti Judecata?"
+    },
+    {
+      "resource_id": 782,
+      "text": "Oare nu este Allah Cel mai Înţelept dintre judecători?<sup foot_note=203849>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "95" }
+  }
+}

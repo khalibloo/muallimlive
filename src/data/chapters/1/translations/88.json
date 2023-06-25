@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Me emrin e Allahut, të Gjithëmëshirshmit, Mëshirëplotit!<sup foot_note=195488>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "Çdo lavdërim i përket Allahut, Zotit të botëve,"
+    },
+    { "resource_id": 88, "text": "të Gjithëmëshirshmit, Mëshirëplotit," },
+    { "resource_id": 88, "text": "Sunduesit të Ditës së Gjykimit." },
+    {
+      "resource_id": 88,
+      "text": "Vetëm Ty të adhurojmë dhe vetëm prej Teje ndihmë kërkojmë.<sup foot_note=195489>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "Udhëzona në rrugën e drejtë!<sup foot_note=195490>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "Në rrugën e atyre që u ke dhuruar mirësi<sup foot_note=195493>1</sup> e jo në të atyre që kanë shkaktuar zemërimin Tënd,<sup foot_note=195492>2</sup> as në të atyre që janë të humbur!<sup foot_note=195491>3</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "1" }
+  }
+}

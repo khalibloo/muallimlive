@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 203, "text": "  By the (steeds) that run, with panting." },
+    {
+      "resource_id": 203,
+      "text": "  Striking sparks of fire (by their hooves)."
+    },
+    { "resource_id": 203, "text": "  And scouring to the raid at dawn." },
+    { "resource_id": 203, "text": "  And raise the dust in clouds the while." },
+    {
+      "resource_id": 203,
+      "text": "  And penetrating forthwith as one into the midst (of the foe)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Verily, man (disbeliever) is ungrateful to his Lord."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And to that he bears witness (by his deeds)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And verily, he is violent in the love of wealth."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Knows he not that when the contents of the graves are poured forth (all mankind is resurrected)?"
+    },
+    {
+      "resource_id": 203,
+      "text": " And that which is in the breasts (of men) is made known?"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Verily, that Day (i.e. the Day of Resurrection) their Lord will be Well-Acquainted with them (as to their deeds and will reward them for their deeds)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 819,
+      "text": "تباہی ہے ہر طعنہ دینے والے ،عیب نکالنے والے كے ليے"
+    },
+    { "resource_id": 819, "text": "جس نے مال کو سمیٹا اور گن گن کر رکھا" },
+    {
+      "resource_id": 819,
+      "text": "وہ خیال کرتا ہے کہ اس کامال ہمیشہ اس کے ساتھ رہے گا"
+    },
+    {
+      "resource_id": 819,
+      "text": "ہرگز نہیں ، وہ پھینکا جائے گا روندنے والی جگہ میں"
+    },
+    {
+      "resource_id": 819,
+      "text": "اور تم کیاجانو کہ وہ روندنے والی جگہ کیا ہے"
+    },
+    { "resource_id": 819, "text": "اللہ کی بھڑکائی ہوئی آگ" },
+    { "resource_id": 819, "text": "جودلوں تک پہنچے گی" },
+    { "resource_id": 819, "text": "وہ ان پر بند کردی جائے گی" },
+    { "resource_id": 819, "text": "اونچے اونچے ستونوں میں" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "104" }
+  }
+}

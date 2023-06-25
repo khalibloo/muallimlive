@@ -1,0 +1,117 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Biada oszustom!" },
+    {
+      "resource_id": 42,
+      "text": "Tym, którzy kiedy otrzymują, domagają się od ludzi pełnej miary;"
+    },
+    {
+      "resource_id": 42,
+      "text": "A kiedy mierzą lub ważą dla nich, to przyczyniają się do ich straty."
+    },
+    { "resource_id": 42, "text": "Czyż oni nie myślą, iż będą wskrzeszeni" },
+    { "resource_id": 42, "text": "Dnia wielkiego," },
+    {
+      "resource_id": 42,
+      "text": "Dnia, kiedy ludzie staną przed Panem światów?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Wcale nie! Zaprawdę, księga ludzi występnych znajduje się w Sidżdżinie!"
+    },
+    { "resource_id": 42, "text": "A co ciebie pouczy, co to jest Sidżdżin?" },
+    { "resource_id": 42, "text": "To jest księga zapisana." },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy pomawiają o kłamstwo;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Tym, którzy uważają za kłamstwo Dzień Sądu!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Za kłamstwo uważa go tylko każdy człowiek występny, grzeszny."
+    },
+    {
+      "resource_id": 42,
+      "text": "Kiedy mu recytują Nasze znaki, on mówi: \"To są baśnie praojców!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Ależ nie! Przeciwnie, rdza uczynków pokryła ich serca."
+    },
+    {
+      "resource_id": 42,
+      "text": "Wcale nie! Zaprawdę, oni tego Dnia będą oddzieleni od swego Pana!"
+    },
+    { "resource_id": 42, "text": "Potem będą się palić w piekle!" },
+    {
+      "resource_id": 42,
+      "text": "Wtedy będzie im powiedziane: \"To jest to, co uważaliście za kłamstwo!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Wcale nie tak! Zaprawdę, księga sprawiedliwych jest w Illijjun!"
+    },
+    { "resource_id": 42, "text": "A co ciebie pouczy, co to jest Illijjun?" },
+    { "resource_id": 42, "text": "To jest księga zapisana." },
+    { "resource_id": 42, "text": "Będą świadkami jej owi blisko dopuszczeni." },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, sprawiedliwi zaznają szczęśliwości;"
+    },
+    { "resource_id": 42, "text": "Spoczywając na łożach, będą spoglądać;" },
+    {
+      "resource_id": 42,
+      "text": "Na ich twarzach poznasz blask szczęśliwości."
+    },
+    {
+      "resource_id": 42,
+      "text": "Będą pojeni winem szlachetnym, pieczętowanym;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Pieczęcią jego będzie piżmo - niech się starają pragnący tego, współzawodnicząc pilnie w staraniach -"
+    },
+    { "resource_id": 42, "text": "A domieszką jego będzie woda z Tasnim" },
+    {
+      "resource_id": 42,
+      "text": "- źródła, z którego pić będą owi blisko dopuszczeni."
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, ci, którzy zgrzeszyli, naśmiewali się z tych, którzy uwierzyli;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Kiedy przechodzili mimo nich, wymieniali między sobą spojrzenia;"
+    },
+    {
+      "resource_id": 42,
+      "text": "A kiedy powracali do swoich domowników, stroili żarty."
+    },
+    {
+      "resource_id": 42,
+      "text": "A kiedy ich widzieli, mówili: \"Zaprawdę, oni są zbłąkani!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Lecz oni nie zostali posłani, aby być ich stróżami."
+    },
+    {
+      "resource_id": 42,
+      "text": "Jednak dzisiaj ci, którzy uwierzyli, śmieją się z niewiernych;"
+    },
+    { "resource_id": 42, "text": "Spoczywając na łożach, spoglądają." },
+    {
+      "resource_id": 42,
+      "text": "Czyż niewierni zostali wynagrodzeni za to, co czynili?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "83" }
+  }
+}

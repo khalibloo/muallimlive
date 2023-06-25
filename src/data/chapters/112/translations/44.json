@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Spune: “Unul este Dumnezeu." },
+    { "resource_id": 44, "text": "Dumnezeu!.. Absolutul!" },
+    { "resource_id": 44, "text": "El nu naşte şi nu se naşte," },
+    { "resource_id": 44, "text": "şi nimeni nu-I este asemenea.”" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "112" }
+  }
+}

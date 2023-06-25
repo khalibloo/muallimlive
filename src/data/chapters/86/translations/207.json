@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "By the sky and the Nightcomer!" },
+    {
+      "resource_id": 207,
+      "text": "What will make you realize what the Nightcomer is?"
+    },
+    { "resource_id": 207, "text": "The star shining [before dawn]!" },
+    {
+      "resource_id": 207,
+      "text": "Each soul has a guardian [set up] over it,"
+    },
+    {
+      "resource_id": 207,
+      "text": "so let everyman notice what he has been created from."
+    },
+    { "resource_id": 207, "text": "He was created from a fluid ejected" },
+    { "resource_id": 207, "text": "from between his backbone and his ribs." },
+    { "resource_id": 207, "text": "He is Able to revive him" },
+    { "resource_id": 207, "text": "on a day when secrets will be tested;" },
+    {
+      "resource_id": 207,
+      "text": "so he will have no strength [left] nor any supporter."
+    },
+    { "resource_id": 207, "text": "By the sky with its cycle," },
+    { "resource_id": 207, "text": "by the earth cracking open," },
+    { "resource_id": 207, "text": "it is a decisive statement!" },
+    { "resource_id": 207, "text": "It is no joke." },
+    { "resource_id": 207, "text": "They are hatching some plot" },
+    { "resource_id": 207, "text": "while I too am hatching a plot;" },
+    {
+      "resource_id": 207,
+      "text": "so put up with disbelievers; put up with them as long as you can!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "86" }
+  }
+}

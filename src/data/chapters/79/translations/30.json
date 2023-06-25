@@ -1,0 +1,121 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Niiden nimessä, jotka kaikin voimin (jousiaan) jännittävät,"
+    },
+    {
+      "resource_id": 30,
+      "text": "niiden (nuolten), jotka vinhasti eteenpäin syöksyvät,"
+    },
+    {
+      "resource_id": 30,
+      "text": "niiden (ratsujen), jotka nopeasti laukkaavat,"
+    },
+    { "resource_id": 30, "text": "ja jotka ensimmäisinä kiitävät," },
+    {
+      "resource_id": 30,
+      "text": "sekä vihdoin niiden (johtajaan), jotka voiton turvaavat."
+    },
+    { "resource_id": 30, "text": "Sinä päivänä, jolloin järkkyvä maa järkkyy" },
+    { "resource_id": 30, "text": "ja se tapahtuu, minkä tuleman pitää," },
+    { "resource_id": 30, "text": "sinä päivänä sydämet vavahtavat" },
+    { "resource_id": 30, "text": "ja katseet painuvat alas." },
+    {
+      "resource_id": 30,
+      "text": "He arvelevat: »Palautetaanko meidät todella entiseen tilaamme?"
+    },
+    { "resource_id": 30, "text": "Kuinka! Kun jo luummekin ovat lahonneet!»" },
+    {
+      "resource_id": 30,
+      "text": "He sanovat: »Sellainen paluu olisi turmiota tuottava.»"
+    },
+    { "resource_id": 30, "text": "Mutta kaikki muuttuu pelkäksi huudoksi" },
+    { "resource_id": 30, "text": "ja katso, he heräävät!" },
+    {
+      "resource_id": 30,
+      "text": "Eikö teille julistettu sanomaa Mooseksesta?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Kuinka hänen Herransa kahdesti kutsui häntä pyhässä laaksossa:"
+    },
+    {
+      "resource_id": 30,
+      "text": "»Mene faraon luo! Hän on totisesti synteihin vaipunut."
+    },
+    { "resource_id": 30, "text": "Ja sano: 'Tahdotko puhdistua?" },
+    {
+      "resource_id": 30,
+      "text": "Minä johdan sinut Herrasi luo, jotta pelkäisit Häntä.'»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Ja hän näytti faraolle suuren tunnusmerkin,"
+    },
+    { "resource_id": 30, "text": "mutta tämä hylkäsi totuuden eikä totellut." },
+    { "resource_id": 30, "text": "Sitten käänsi hän hänelle äkkiä selkänsä," },
+    { "resource_id": 30, "text": "kokosi joukon ihmisiä ja huusi heille" },
+    { "resource_id": 30, "text": "sanoen: »Minä olen teidän ylin herranne.»" },
+    {
+      "resource_id": 30,
+      "text": "Silloin Jumala yllätti hänet rangaisten sekä tässä että tulevassa elämässä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti on tässä varoittava esimerkki sille, joka pelkää Jumalaa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Kumpi on vaikeampi luoda, teidät vai taivas, jonka Hän on rakentanut?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän on sen korkealle kohottanut ja sille muodon antanut:"
+    },
+    {
+      "resource_id": 30,
+      "text": "yöksi Hän täyttää sen pimeydellä, ja siitä hän vetää taas esiin päivänvalon."
+    },
+    { "resource_id": 30, "text": "Ja sitten hän ulotti maan avaraksi" },
+    {
+      "resource_id": 30,
+      "text": "ja kohotti sen vedet pinnalle sekä levitti laitumet;"
+    },
+    { "resource_id": 30, "text": "vuoret Hän sijoitti lujasti paikoilleen," },
+    { "resource_id": 30, "text": "kaiken tämän teidän ja karjanne hyväksi." },
+    { "resource_id": 30, "text": "Mutta kun valtava tuhon päivä tulee," },
+    {
+      "resource_id": 30,
+      "text": "päivä, jona ihminen muistaa, mitä hän on tavoitellut,"
+    },
+    { "resource_id": 30, "text": "ja helvetti paljastuu näkeväiselle," },
+    { "resource_id": 30, "text": "silloin se, joka väärintekijä on" },
+    { "resource_id": 30, "text": "ja pitää parempana maallista elämää," },
+    { "resource_id": 30, "text": "saa totisesti helvetin asunnokseen." },
+    {
+      "resource_id": 30,
+      "text": "Mutta se, joka pelkää Herransa tulemista ja hillitsee sielunsa alhaiset himot,"
+    },
+    { "resource_id": 30, "text": "saa totisesti paratiisin asunnokseen." },
+    {
+      "resource_id": 30,
+      "text": "Tuota hetkeä he kysyvät sinulta; milloin sen pitää tuleman?"
+    },
+    { "resource_id": 30, "text": "Mutta kuinka voit sen sanoa?" },
+    { "resource_id": 30, "text": "Onhan sen tulo Herrasi käsissä." },
+    {
+      "resource_id": 30,
+      "text": "Sinä olet vain varoittaja jokaiselle, joka sitä kavahtaa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Päivänä, jolloin he saavat nähdä sen, on heistä kuin he olisivat odottaneet sitä vain illan tai aamun."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "79" }
+  }
+}

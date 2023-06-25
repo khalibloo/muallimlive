@@ -1,0 +1,74 @@
+{
+  "translations": [
+    {
+      "resource_id": 77,
+      "text": "Her şeyi kaplayacak kıyametin haberi sana gelmedi mi?"
+    },
+    {
+      "resource_id": 77,
+      "text": "O gün bir takım yüzler zillete bürünmüştür."
+    },
+    { "resource_id": 77, "text": "Zor işler altında bitkin düşmüştür." },
+    { "resource_id": 77, "text": "Yakıcı ateşe yaslanırlar." },
+    { "resource_id": 77, "text": "Kızgın bir kaynaktan içirilirler." },
+    {
+      "resource_id": 77,
+      "text": "Semirtmeyen, açlığı gidermeyen kötü kokulu (kuru) bir dikenden başka yiyecekleri yoktur."
+    },
+    {
+      "resource_id": 77,
+      "text": "Semirtmeyen, açlığı gidermeyen kötü kokulu (kuru) bir dikenden başka yiyecekleri yoktur."
+    },
+    {
+      "resource_id": 77,
+      "text": "İnanmış olanların yüzleri, o gün, pırıl pırıldır."
+    },
+    { "resource_id": 77, "text": "Yaptıklarından hoşnuddurlar." },
+    { "resource_id": 77, "text": "Yüksek bir cennettedirler." },
+    { "resource_id": 77, "text": "Orada boş söz işitmezler." },
+    { "resource_id": 77, "text": "Orada akan kaynak vardır." },
+    { "resource_id": 77, "text": "Orada, yükseltilmiş tahtlar vardır." },
+    { "resource_id": 77, "text": "Yerleştirilmiş kaseler," },
+    { "resource_id": 77, "text": "Sıra sıra yastıklar," },
+    { "resource_id": 77, "text": "Serilmiş, yumuşak tüylü halılar vardır." },
+    {
+      "resource_id": 77,
+      "text": "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Sen öğüt ver! Esasen sen sadece bir öğütçüsün."
+    },
+    { "resource_id": 77, "text": "Sen, onlara zor kullanacak değilsin." },
+    {
+      "resource_id": 77,
+      "text": "Ama kim yüz çevirir, inkar ederse, Allah onu en büyük azaba uğratır."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama kim yüz çevirir, inkar ederse, Allah onu en büyük azaba uğratır."
+    },
+    { "resource_id": 77, "text": "Doğrusu onların dönüşü Bize'dir." },
+    {
+      "resource_id": 77,
+      "text": "Şüphesiz sonra hesaplarını görmek de Bize düşmektedir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "88" }
+  }
+}

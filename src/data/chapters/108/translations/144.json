@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 144,
+      "text": "Waarlijk, Wij hebben jou de overvloed geschonken."
+    },
+    {
+      "resource_id": 144,
+      "text": "Verricht daarom de shalât voor jouw Heer en slacht offerdieren."
+    },
+    {
+      "resource_id": 144,
+      "text": "Voorwaar, jouw hater, hij is het die afgesneden is."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "108" }
+  }
+}

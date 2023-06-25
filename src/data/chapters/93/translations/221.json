@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 221, "text": "Thề bởi ban mai;" },
+    { "resource_id": 221, "text": "Và bởi ban đêm khi nó tĩnh mịch;" },
+    {
+      "resource_id": 221,
+      "text": "Thượng Đế của Ngươi không bỏ rơi cũng không ghét Ngươi."
+    },
+    {
+      "resource_id": 221,
+      "text": "Và chắc chắn, đời sau tốt cho Ngươi hơn đời sống (hiện tại)."
+    },
+    {
+      "resource_id": 221,
+      "text": "Và chắc chắn, Thượng Đế của Ngươi sẽ ban cho Ngươi điều làm Ngươi hài lòng;"
+    },
+    {
+      "resource_id": 221,
+      "text": "Há Ngài đã không thấy Ngươi mồ côi nên đã ban cho một chỗ nương tựa?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và thấy Ngươi lang thang (tìm Chân Lý) nên đã ban cho Chỉ Đạo?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và thấy Ngươi nghèo khó nên đã ban cho sự giàu có?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Bởi thế, đối với trẻ mồ côi chớ nên bạc đãi (chúng);"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và đối với người ăn xin chớ nên xua đuổi (họ);"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và hãy tuyên bố về Ân Huệ của Thượng Đế của Ngươi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "93" }
+  }
+}

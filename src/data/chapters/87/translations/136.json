@@ -1,0 +1,70 @@
+{
+  "translations": [
+    {
+      "resource_id": 136,
+      "text": "Rends gloire au nom de ton Seigneur, le Plus Haut !"
+    },
+    { "resource_id": 136, "text": "Celui Qui crée et façonne," },
+    { "resource_id": 136, "text": "Celui Qui prédestine et guide," },
+    { "resource_id": 136, "text": "Celui Qui fait pousser les pâturages," },
+    {
+      "resource_id": 136,
+      "text": "pour en faire ensuite une herbe sombre et desséchée."
+    },
+    {
+      "resource_id": 136,
+      "text": "Nous te ferons lire (le Coran) dont tu n’oublieras rien,"
+    },
+    {
+      "resource_id": 136,
+      "text": "sauf ce qu’Allah voudra (que tu oublies), car Il Sait ce qui se manifeste au grand jour et ce qui reste caché."
+    },
+    {
+      "resource_id": 136,
+      "text": "Nous te mettrons sur la voie la plus facile."
+    },
+    {
+      "resource_id": 136,
+      "text": "Rappelle donc ! Pour peu que le Rappel soit vraiment utile."
+    },
+    {
+      "resource_id": 136,
+      "text": "S’en souviendra sûrement celui qui craint (Allah)."
+    },
+    {
+      "resource_id": 136,
+      "text": "Et le plus malheureux fera tout pour l’éviter,"
+    },
+    {
+      "resource_id": 136,
+      "text": "lui qui brûlera dans le Feu le plus grand,"
+    },
+    {
+      "resource_id": 136,
+      "text": "puis n’y mourra point, pas plus qu’il n’y vivra."
+    },
+    { "resource_id": 136, "text": "Aura la réussite celui qui s’est purifié," },
+    {
+      "resource_id": 136,
+      "text": "a évoqué le nom de son Seigneur et a prié."
+    },
+    {
+      "resource_id": 136,
+      "text": "Vous préférez plutôt la vie en ce bas monde,"
+    },
+    {
+      "resource_id": 136,
+      "text": "alors que l’autre monde est bien meilleur et autrement durable."
+    },
+    {
+      "resource_id": 136,
+      "text": "Cela est (consigné) dans les anciens Feuillets,"
+    },
+    { "resource_id": 136, "text": "les Feuillets d’Abraham et de Moïse." }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "87" }
+  }
+}

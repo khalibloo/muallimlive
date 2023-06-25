@@ -1,0 +1,39 @@
+{
+  "audio_files": [
+    { "verse_key": "67:1", "url": "Minshawi/Mujawwad/mp3/067001.mp3" },
+    { "verse_key": "67:2", "url": "Minshawi/Mujawwad/mp3/067002.mp3" },
+    { "verse_key": "67:3", "url": "Minshawi/Mujawwad/mp3/067003.mp3" },
+    { "verse_key": "67:4", "url": "Minshawi/Mujawwad/mp3/067004.mp3" },
+    { "verse_key": "67:5", "url": "Minshawi/Mujawwad/mp3/067005.mp3" },
+    { "verse_key": "67:6", "url": "Minshawi/Mujawwad/mp3/067006.mp3" },
+    { "verse_key": "67:7", "url": "Minshawi/Mujawwad/mp3/067007.mp3" },
+    { "verse_key": "67:8", "url": "Minshawi/Mujawwad/mp3/067008.mp3" },
+    { "verse_key": "67:9", "url": "Minshawi/Mujawwad/mp3/067009.mp3" },
+    { "verse_key": "67:10", "url": "Minshawi/Mujawwad/mp3/067010.mp3" },
+    { "verse_key": "67:11", "url": "Minshawi/Mujawwad/mp3/067011.mp3" },
+    { "verse_key": "67:12", "url": "Minshawi/Mujawwad/mp3/067012.mp3" },
+    { "verse_key": "67:13", "url": "Minshawi/Mujawwad/mp3/067013.mp3" },
+    { "verse_key": "67:14", "url": "Minshawi/Mujawwad/mp3/067014.mp3" },
+    { "verse_key": "67:15", "url": "Minshawi/Mujawwad/mp3/067015.mp3" },
+    { "verse_key": "67:16", "url": "Minshawi/Mujawwad/mp3/067016.mp3" },
+    { "verse_key": "67:17", "url": "Minshawi/Mujawwad/mp3/067017.mp3" },
+    { "verse_key": "67:18", "url": "Minshawi/Mujawwad/mp3/067018.mp3" },
+    { "verse_key": "67:19", "url": "Minshawi/Mujawwad/mp3/067019.mp3" },
+    { "verse_key": "67:20", "url": "Minshawi/Mujawwad/mp3/067020.mp3" },
+    { "verse_key": "67:21", "url": "Minshawi/Mujawwad/mp3/067021.mp3" },
+    { "verse_key": "67:22", "url": "Minshawi/Mujawwad/mp3/067022.mp3" },
+    { "verse_key": "67:23", "url": "Minshawi/Mujawwad/mp3/067023.mp3" },
+    { "verse_key": "67:24", "url": "Minshawi/Mujawwad/mp3/067024.mp3" },
+    { "verse_key": "67:25", "url": "Minshawi/Mujawwad/mp3/067025.mp3" },
+    { "verse_key": "67:26", "url": "Minshawi/Mujawwad/mp3/067026.mp3" },
+    { "verse_key": "67:27", "url": "Minshawi/Mujawwad/mp3/067027.mp3" },
+    { "verse_key": "67:28", "url": "Minshawi/Mujawwad/mp3/067028.mp3" },
+    { "verse_key": "67:29", "url": "Minshawi/Mujawwad/mp3/067029.mp3" },
+    { "verse_key": "67:30", "url": "Minshawi/Mujawwad/mp3/067030.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed Siddiq al-Minshawi",
+    "recitation_style": "Mujawwad",
+    "filters": { "chapter_number": "67" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "Allah -Subhânehu ve Teâlâ-, asır/ikindi vaktine yemin etmiştir."
+    },
+    {
+      "resource_id": 172,
+      "text": "Şüphesiz insan, bir çöküş ve yok oluş içindedir."
+    },
+    {
+      "resource_id": 172,
+      "text": "Ancak, Allah’a ve Rasûlüne iman eden, salih ameller işleyen, birbirlerine hakkı ve hak üzerinde sabırlı olmayı tavsiye edenler bundan müstesnadır. Bu vasıflarla nitelenen kimseler, dünya ve ahiret hayatlarında kurtuluşa ermiş olanlardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "103" }
+  }
+}

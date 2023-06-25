@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Naapa kwa tini na zaituni!" },
+    { "resource_id": 49, "text": "Na kwa Mlima wa Sinai!" },
+    { "resource_id": 49, "text": "Na kwa mji huu wenye amani!" },
+    {
+      "resource_id": 49,
+      "text": "Bila ya shaka tumemuumba mtu kwa umbo lilio bora kabisa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha tukamrudisha kuwa chini kuliko walio chini!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Lakini wale walio amini na wakatenda mema, hao watapata ujira usio kwisha."
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi ni kipi baadaye kitacho kukukadhibishia malipo?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Kwani Mwenyezi Mungu si muadilifu kuliko mahakimu wote?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "95" }
+  }
+}

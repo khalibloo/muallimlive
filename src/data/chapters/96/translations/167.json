@@ -1,0 +1,52 @@
+{
+  "translations": [
+    {
+      "resource_id": 167,
+      "text": "Read with the name of your Lord who created (everything),"
+    },
+    { "resource_id": 167, "text": "He created man from a clot of blood." },
+    { "resource_id": 167, "text": "Read, and your Lord is the most gracious," },
+    {
+      "resource_id": 167,
+      "text": "who imparted knowledge by means of the pen."
+    },
+    { "resource_id": 167, "text": "He taught man what he did not know." },
+    { "resource_id": 167, "text": "The fact is that man crosses the limits," },
+    {
+      "resource_id": 167,
+      "text": "because he deems himself to be free of need."
+    },
+    { "resource_id": 167, "text": "Surely to your Lord is to return." },
+    { "resource_id": 167, "text": "Have you seen him who forbids" },
+    { "resource_id": 167, "text": "a slave of Allah when he prays?" },
+    { "resource_id": 167, "text": "Tell me, if he is on the right path," },
+    {
+      "resource_id": 167,
+      "text": "or bids to piety, (would the former still forbid him?)"
+    },
+    {
+      "resource_id": 167,
+      "text": "Tell me, if he rejects (the true faith) and turns away,"
+    },
+    {
+      "resource_id": 167,
+      "text": "does he not know that Allah is watching (him)?"
+    },
+    {
+      "resource_id": 167,
+      "text": "No! If he does not desist, We will certainly drag (him) by forelock,"
+    },
+    { "resource_id": 167, "text": "a lying, sinful forelock." },
+    { "resource_id": 167, "text": "So let him call the men of his council," },
+    { "resource_id": 167, "text": "We will call the soldiers of the Hell." },
+    {
+      "resource_id": 167,
+      "text": "No! Never obey him, and bow down in sajdah, and come closer."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "96" }
+  }
+}

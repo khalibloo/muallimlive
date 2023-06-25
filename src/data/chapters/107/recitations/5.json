@@ -1,0 +1,16 @@
+{
+  "audio_files": [
+    { "verse_key": "107:1", "url": "Rifai/mp3/107001.mp3" },
+    { "verse_key": "107:2", "url": "Rifai/mp3/107002.mp3" },
+    { "verse_key": "107:3", "url": "Rifai/mp3/107003.mp3" },
+    { "verse_key": "107:4", "url": "Rifai/mp3/107004.mp3" },
+    { "verse_key": "107:5", "url": "Rifai/mp3/107005.mp3" },
+    { "verse_key": "107:6", "url": "Rifai/mp3/107006.mp3" },
+    { "verse_key": "107:7", "url": "Rifai/mp3/107007.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Hani ar-Rifai",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "107" }
+  }
+}

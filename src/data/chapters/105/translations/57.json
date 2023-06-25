@@ -1,0 +1,17 @@
+{
+  "translations": [
+    {
+      "resource_id": 57,
+      "text": "Alam tara kayfa faAAala rabbuka bi-as-habialfeel"
+    },
+    { "resource_id": 57, "text": "Alam yajAAal kaydahum fee tadleel" },
+    { "resource_id": 57, "text": "Waarsala AAalayhim tayran ababeel" },
+    { "resource_id": 57, "text": "Tarmeehim bihijaratin minsijjeel" },
+    { "resource_id": 57, "text": "FajaAAalahum kaAAasfin ma/kool" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "105" }
+  }
+}

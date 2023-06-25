@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 823, "text": "Say, ‘He is God, the One," },
+    { "resource_id": 823, "text": "God, the Self-sufficient One." },
+    { "resource_id": 823, "text": "He does not give birth, nor was He born," },
+    {
+      "resource_id": 823,
+      "text": "and there is nothing like Him.’<sup foot_note=213013>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "112" }
+  }
+}

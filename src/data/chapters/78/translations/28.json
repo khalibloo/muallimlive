@@ -1,0 +1,94 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¿Por qué cosa se preguntan unos a otros?" },
+    { "resource_id": 28, "text": "Por la enorme Noticia," },
+    { "resource_id": 28, "text": "acerca de la cual discrepan." },
+    { "resource_id": 28, "text": "¡No! ¡Ya verán...!" },
+    { "resource_id": 28, "text": "¡No y no! ¡Ya verán...!" },
+    { "resource_id": 28, "text": "¿No hemos hecho de la tierra lecho" },
+    { "resource_id": 28, "text": "y de las montañas estacas?" },
+    { "resource_id": 28, "text": "Y os hemos creado por parejas," },
+    { "resource_id": 28, "text": "hecho de vuestro sueño descanso," },
+    { "resource_id": 28, "text": "de la noche vestidura," },
+    { "resource_id": 28, "text": "del día medio de subsistencia." },
+    {
+      "resource_id": 28,
+      "text": "Y hemos edificado encima de vosotros siete cielos firmes,"
+    },
+    { "resource_id": 28, "text": "y colocado una lámpara resplandeciente." },
+    {
+      "resource_id": 28,
+      "text": "Y hemos hecho bajar de las nubes un agua abundante"
+    },
+    { "resource_id": 28, "text": "para, mediante ella, sacar grano, plantas" },
+    { "resource_id": 28, "text": "y frondosos jardines." },
+    { "resource_id": 28, "text": "El día del Fallo está ya señalado." },
+    {
+      "resource_id": 28,
+      "text": "Día en que se tocará la trompeta y acudiréis en masa."
+    },
+    { "resource_id": 28, "text": "El cielo se abrirá, todo puertas;" },
+    {
+      "resource_id": 28,
+      "text": "las montañas, puestas en marcha, serán espejismo."
+    },
+    { "resource_id": 28, "text": "La gehena, al acecho," },
+    { "resource_id": 28, "text": "será refugio de los rebeldes," },
+    {
+      "resource_id": 28,
+      "text": "que permanecerán en ella durante generaciones,"
+    },
+    { "resource_id": 28, "text": "sin probar frescor ni bebida," },
+    {
+      "resource_id": 28,
+      "text": "fuera de agua muy caliente y hediondo líquido,"
+    },
+    { "resource_id": 28, "text": "retribución adecuada." },
+    { "resource_id": 28, "text": "No contaban con el ajuste de cuentas" },
+    {
+      "resource_id": 28,
+      "text": "y desmintieron descaradamente Nuestros signos,"
+    },
+    {
+      "resource_id": 28,
+      "text": "siendo así que habíamos consignado todo en una Escritura."
+    },
+    {
+      "resource_id": 28,
+      "text": "«¡Gustad, pues! ¡No haremos sino aumentaros el castigo!»"
+    },
+    {
+      "resource_id": 28,
+      "text": "En cambio, a los temerosos de Alá se les deparará el éxito:"
+    },
+    { "resource_id": 28, "text": "vergeles y viñedos," },
+    { "resource_id": 28, "text": "de turgidos senos, de una misma edad," },
+    { "resource_id": 28, "text": "copa desbordante." },
+    { "resource_id": 28, "text": "No oirán allí vaniloquio, ni falsedad." },
+    {
+      "resource_id": 28,
+      "text": "Es una retribución de tu Señor, regalo bien pensado"
+    },
+    {
+      "resource_id": 28,
+      "text": "del Señor de los cielos, de la tierra y de lo que entre ellos está, del Compasivo, a Quien no podrán dirigir la palabra."
+    },
+    {
+      "resource_id": 28,
+      "text": "Día en que el Espíritu y los ángeles estarán de pie, en fila, sin hablar, excepto aquél a quien el Compasivo se lo permita y diga algo oportuno."
+    },
+    {
+      "resource_id": 28,
+      "text": "Ese será el día de la Verdad. El que quiera. encontrará refugio junto a su Señor."
+    },
+    {
+      "resource_id": 28,
+      "text": "Os hemos prevenido contra un castigo cercano, el día que el hombre medite en sus obras pasadas y diga el infiel: «¡Ojalá fuera yo tierra!»"
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "78" }
+  }
+}

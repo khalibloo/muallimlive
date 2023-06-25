@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Dis : « Allah est la seule et unique divinité."
+    },
+    {
+      "resource_id": 779,
+      "text": "Allah est le Maître dont nul ne peut se passer<sup foot_note=205515>1</sup>."
+    },
+    {
+      "resource_id": 779,
+      "text": "Il n’a pas engendré, ni été Lui-même engendré."
+    },
+    {
+      "resource_id": 779,
+      "text": "Et nul dans Sa création n’est à même de L’égaler. »"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "112" }
+  }
+}

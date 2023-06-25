@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Når Guds hjelp kommer, og seieren," },
+    {
+      "resource_id": 41,
+      "text": "og du ser menneskene tre inn i Guds religion flokkevi"
+    },
+    {
+      "resource_id": 41,
+      "text": "lovpris da Herren, og be Ham om tilgivelse! Han er full av miskunn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "110" }
+  }
+}

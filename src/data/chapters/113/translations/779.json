@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Dis : « J’implore la protection du Seigneur de l’aube,"
+    },
+    {
+      "resource_id": 779,
+      "text": "contre le mal qui se trouve dans ce qu’Il a créé,"
+    },
+    {
+      "resource_id": 779,
+      "text": "contre le mal de la nuit qui étend son obscurité,"
+    },
+    {
+      "resource_id": 779,
+      "text": "contre le charme maléfique de tous les sorciers<sup foot_note=205516>1</sup>,"
+    },
+    {
+      "resource_id": 779,
+      "text": "contre l’envieux qui donne libre cours à sa méchanceté. »"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "113" }
+  }
+}

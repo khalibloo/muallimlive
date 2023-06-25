@@ -1,0 +1,14 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "በል «በተፈልቃቂው ጎህ ጌታ እጠበቃለሁ፡፡" },
+    { "resource_id": 87, "text": "«ከፈጠረው ፍጡር ሁሉ ክፋት፡፡" },
+    { "resource_id": 87, "text": "«ከሌሊትም ክፋት ባጨለመ ጊዜ፤" },
+    { "resource_id": 87, "text": "«በተቋጠሩ (ክሮች) ላይ ተፊዎች ከኾኑት (ደጋሚ) ሴቶችም ክፋት፡፡" },
+    { "resource_id": 87, "text": "«ከምቀኛም ክፋት በተመቀኘ ጊዜ፤ (እጠበቃለሁ በል)፡፡»" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "113" }
+  }
+}

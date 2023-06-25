@@ -1,0 +1,53 @@
+{
+  "translations": [
+    { "resource_id": 88, "text": "Për qiellin dhe për vizitorin e natës!" },
+    {
+      "resource_id": 88,
+      "text": "E kush mund të ta shpjegojë ty se ç’është vizitori i natës?"
+    },
+    { "resource_id": 88, "text": "Ai është ylli që shpon terrin." },
+    { "resource_id": 88, "text": "Për çdo njeri ka mbikëqyrës." },
+    {
+      "resource_id": 88,
+      "text": "Le të meditojë njeriu se prej çfarë është krijuar:"
+    },
+    { "resource_id": 88, "text": "është krijuar prej një lëngu që hidhet" },
+    {
+      "resource_id": 88,
+      "text": "e që del ndërmjet shtyllës kurrizore dhe brinjëve."
+    },
+    {
+      "resource_id": 88,
+      "text": "Me të vërtetë, Ai është i Fuqishëm për ta kthyer (në jetë) atë"
+    },
+    { "resource_id": 88, "text": "ditën, kur do të zbulohen të fshehtat," },
+    {
+      "resource_id": 88,
+      "text": "kur njeriu nuk do të ketë as fuqi, as ndihmës."
+    },
+    {
+      "resource_id": 88,
+      "text": "Për qiellin që kthehet pareshtur<sup foot_note=195887>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe për Tokën që plasaritet,<sup foot_note=195888>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "që kjo është një Fjalë ndarëse,<sup foot_note=195889>1</sup>"
+    },
+    { "resource_id": 88, "text": "dhe nuk është aspak shaka!" },
+    { "resource_id": 88, "text": "Në të vërtetë, ata ngrenë kurthe," },
+    { "resource_id": 88, "text": "por dhe Unë ua pres me kurth." },
+    {
+      "resource_id": 88,
+      "text": "Prandaj, jepu pak afat jobesimtarëve, lëri të qetë edhe për pak."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "86" }
+  }
+}

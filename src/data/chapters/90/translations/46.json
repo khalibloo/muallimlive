@@ -1,0 +1,56 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Eebe wuxuu ka dhaaran Magaalada «Makaad ee Sharrifan»."
+    },
+    { "resource_id": 46, "text": "Ood Nabiyow daggantahay dhexdeeda." },
+    { "resource_id": 46, "text": "Iyo Nabi Aadam iyo carruurtiisa «Dadka»." },
+    {
+      "resource_id": 46,
+      "text": "Ee Eebe Dadka wuu Abuuray iyagoo dhib iyo shaqo (Adduunka kala kulmi)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ma waxayse u maleeyeen inaan cidna awood ku lahayn (dadku)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Dadka (Gaalada) waxay odhan waxaan bixiyey xoolo badan (si xaqa loo horjoogsado)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ma wuxuu u maleeyay (xaq diiduhu) inaan cidna arkaynin."
+    },
+    { "resource_id": 46, "text": "Miyaannaan u yeelin Laba indhood." },
+    { "resource_id": 46, "text": "Iyo Carrab iyo Laba bishimood." },
+    {
+      "resource_id": 46,
+      "text": "Oo miyaannaan u caddaynin Labada Jid (khayrka iyo sharka)."
+    },
+    { "resource_id": 46, "text": "Ee Dadku muu jiidho Jiirta." },
+    { "resource_id": 46, "text": "Ma taqaannaa Jiirta." },
+    { "resource_id": 46, "text": "Waa qoor la xoreeyo." },
+    { "resource_id": 46, "text": "Iyo cunno la siiyo maalin gaajo." },
+    { "resource_id": 46, "text": "Agoon kuu dhaw." },
+    {
+      "resource_id": 46,
+      "text": "Ama Miskiin Dhulka ku dhagay (dhibaato darteed)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Markaas la noqdo kuwa Rumeeyay xaqa, isuna dardaarma Samirka, isuna dardaarma naxariista."
+    },
+    { "resource_id": 46, "text": "Kuwaasina waa kuwa Midigta mari." },
+    {
+      "resource_id": 46,
+      "text": "Kuwaka Gaaloobayse Aayaadkannaga waa kuwa jidka xun mari."
+    },
+    { "resource_id": 46, "text": "Waxaana lagu dabooli Naar." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "90" }
+  }
+}

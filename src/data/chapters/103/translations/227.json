@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 227, "text": "కాలం సాక్షిగా!" },
+    { "resource_id": 227, "text": "నిశ్చయంగా మానవుడు నష్టంలో ఉన్నాడు!" },
+    {
+      "resource_id": 227,
+      "text": "కాని విశ్వసించి, సత్కార్యాలు చేసేవారు మరియు ఒకరికొకరు సత్యాన్ని బోధించుకునే వారు మరియు ఒకరికొకరు సహనాన్ని (స్థైర్యాన్ని) బోధించుకునే వారు తప్ప!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Abder-Rahim ibn Muhammad",
+    "author_name": "Maulana Abder-Rahim ibn Muhammad",
+    "filters": { "resource_id": 227, "chapter_number": "103" }
+  }
+}

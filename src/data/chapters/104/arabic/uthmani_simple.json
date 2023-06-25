@@ -1,0 +1,46 @@
+{
+  "verses": [
+    {
+      "id": 6180,
+      "verse_key": "104:1",
+      "text_uthmani_simple": "ويل لكل همزة لمزة"
+    },
+    {
+      "id": 6181,
+      "verse_key": "104:2",
+      "text_uthmani_simple": "الذى جمع مالا وعدده"
+    },
+    {
+      "id": 6182,
+      "verse_key": "104:3",
+      "text_uthmani_simple": "يحسب ان ماله اخلده"
+    },
+    {
+      "id": 6183,
+      "verse_key": "104:4",
+      "text_uthmani_simple": "كلا لينۢبذن فى الحطمة"
+    },
+    {
+      "id": 6184,
+      "verse_key": "104:5",
+      "text_uthmani_simple": "وما ادرىك ما الحطمة"
+    },
+    {
+      "id": 6185,
+      "verse_key": "104:6",
+      "text_uthmani_simple": "نار الله الموقدة"
+    },
+    {
+      "id": 6186,
+      "verse_key": "104:7",
+      "text_uthmani_simple": "التى تطلع على الافـدة"
+    },
+    {
+      "id": 6187,
+      "verse_key": "104:8",
+      "text_uthmani_simple": "انها عليهم مؤصدة"
+    },
+    { "id": 6188, "verse_key": "104:9", "text_uthmani_simple": "فى عمد ممددةۭ" }
+  ],
+  "meta": { "filters": { "chapter_number": "104" } }
+}

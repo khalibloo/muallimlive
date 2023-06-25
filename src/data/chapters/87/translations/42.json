@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Wysławiaj imię twego Pana, Najwyższego," },
+    { "resource_id": 42, "text": "Który stworzył i ukształtował harmonijnie," },
+    { "resource_id": 42, "text": "Który wyznaczył los i poprowadził;" },
+    { "resource_id": 42, "text": "To On każe zielenić się pastwisku," },
+    { "resource_id": 42, "text": "A potem czyni je ciemniejącą paszą." },
+    { "resource_id": 42, "text": "My nauczymy cię recytować i ty zapomnisz" },
+    {
+      "resource_id": 42,
+      "text": "Tylko to, co Bóg zechce. Przecież Bóg zna to, co jawne i co skryte!"
+    },
+    {
+      "resource_id": 42,
+      "text": "I My uczynimy łatwą dla ciebie drogę ku temu, co najpomyślniejsze."
+    },
+    {
+      "resource_id": 42,
+      "text": "Napominaj więc, jeśli napomnienie jest pożyteczne!"
+    },
+    { "resource_id": 42, "text": "Opamięta się ten, kto się obawia;" },
+    {
+      "resource_id": 42,
+      "text": "A odsunie się od napomnienia najnędzniejszy,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Który się będzie palił w ogniu największym,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Gdzie ani nie umrze, ani też nie będzie żył."
+    },
+    { "resource_id": 42, "text": "Zaś szczęśliwy będzie ten, kto się oczyści" },
+    {
+      "resource_id": 42,
+      "text": "I będzie wspominał imię swego Pana, i modlił się."
+    },
+    { "resource_id": 42, "text": "Lecz wy wolicie życie tego świata," },
+    {
+      "resource_id": 42,
+      "text": "Tymczasem życie ostateczne jest lepsze i bardziej trwałe."
+    },
+    { "resource_id": 42, "text": "Zaprawdę, to jest w dawnych księgach," },
+    { "resource_id": 42, "text": "Księgach Abrahama i Mojżesza!" }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "87" }
+  }
+}

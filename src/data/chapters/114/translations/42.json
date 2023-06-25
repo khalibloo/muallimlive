@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Mów: \"Szukam schronienia u Pana ludzi," },
+    { "resource_id": 42, "text": "Króla ludzi," },
+    { "resource_id": 42, "text": "Boga ludzi," },
+    {
+      "resource_id": 42,
+      "text": "Przed złem kusiciela, wycofującego się skrycie,"
+    },
+    { "resource_id": 42, "text": "Który podszeptuje pokusę w serca ludzi" },
+    { "resource_id": 42, "text": "- spośród dżinów i ludzi.\"" }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "114" }
+  }
+}

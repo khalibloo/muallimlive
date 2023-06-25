@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "In the name of Allah, the Merciful, the Compassionate<sup foot_note=\"176997\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Praise<sup foot_note=\"176998\">1</sup> be to Allah, the Lord<sup foot_note=\"176999\">2</sup> of the entire universe."
+    },
+    {
+      "resource_id": 95,
+      "text": "The Merciful, the Compassionate<sup foot_note=\"177000\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "The Master of the Day of Recompense<sup foot_note=\"177001\">1</sup>."
+    },
+    {
+      "resource_id": 95,
+      "text": "You alone do we worship<sup foot_note=\"177002\">1</sup>, and You alone do we turn for help<sup foot_note=\"177003\">2</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Direct us on to the Straight Way<sup foot_note=\"177004\">1</sup>,"
+    },
+    {
+      "resource_id": 95,
+      "text": "The way of those whom You have favoured<sup foot_note=\"177005\">1</sup>, who did not incur Your wrath, who are not astray<sup foot_note=\"177006\">2</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "1" }
+  }
+}

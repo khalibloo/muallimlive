@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 80,
+      "text": "പറയുക: ഞാന്‍ ശരണം തേടുന്നു, ജനങ്ങളുടെ നാഥനോട്."
+    },
+    { "resource_id": 80, "text": "ജനങ്ങളുടെ രാജാവിനോട്." },
+    { "resource_id": 80, "text": "ജനങ്ങളുടെ ആരാധ്യനോട്." },
+    {
+      "resource_id": 80,
+      "text": "ദുര്‍ബോധനം നടത്തി പിന്മാറുന്ന പിശാചിന്റെ ദ്രോഹത്തില്‍നിന്ന്."
+    },
+    {
+      "resource_id": 80,
+      "text": "അവന്‍, മനുഷ്യ മനസ്സുകളില്‍ ദുര്‍ബോധനം നടത്തുന്നവനാണ്."
+    },
+    { "resource_id": 80, "text": "മനുഷ്യരിലും ജിന്നുകളിലും പെട്ടവനും." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Karakunnu and Vanidas Elayavoor",
+    "author_name": "Muhammad Karakunnu and Vanidas Elayavoor",
+    "filters": { "resource_id": 80, "chapter_number": "114" }
+  }
+}

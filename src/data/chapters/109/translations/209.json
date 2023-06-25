@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Dici: \"O miscredenti," },
+    { "resource_id": 209, "text": "non adorerò ciò che adorate," },
+    { "resource_id": 209, "text": "né voi adorate Colui che adoro." },
+    { "resource_id": 209, "text": "né io adoro ciò che voi avete adorato," },
+    { "resource_id": 209, "text": "né voi adorate Colui che adoro." },
+    {
+      "resource_id": 209,
+      "text": "a voi la vostra religione e a me la mia religione\"."
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "109" }
+  }
+}

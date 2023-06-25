@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 143,
+      "text": "ئایا بینیت ئەو کەسەی کە بڕوای بە ئایین نیە ( یان بە ڕۆژی دوایی)؟"
+    },
+    { "resource_id": 143, "text": "ئەوە کەسێکە کە پاڵ بە ھەتیوەوە دەنێت" },
+    {
+      "resource_id": 143,
+      "text": "وە ھانی خەڵکی نادات بۆ خواردندان بە ھەژاران"
+    },
+    { "resource_id": 143, "text": "ئەمجا وای بۆ نوێژکەران" },
+    { "resource_id": 143, "text": "ئەوانەی کە لە نوێژەکەیان بێ ئاگان" },
+    { "resource_id": 143, "text": "ئەوانەی کە ڕووپامایی دەکەن" },
+    {
+      "resource_id": 143,
+      "text": "وە یارمەتی خەڵک نادەن و(ھەموو چاکەیەک دەگرنەوە لە خەڵکی)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Saleh Bamoki",
+    "author_name": "Muhammad Saleh Bamoki",
+    "filters": { "resource_id": 143, "chapter_number": "107" }
+  }
+}

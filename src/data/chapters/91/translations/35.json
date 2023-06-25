@@ -1,0 +1,39 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "太陽とその輝きにおいて，" },
+    { "resource_id": 35, "text": "それに従う月において，" },
+    { "resource_id": 35, "text": "（太陽を）輝き現わす昼において，" },
+    { "resource_id": 35, "text": "それを覆う夜において，" },
+    { "resource_id": 35, "text": "天と，それを打ち建てた御方において，" },
+    { "resource_id": 35, "text": "大地と，それを広げた御方において，" },
+    { "resource_id": 35, "text": "魂と，それを釣合い秩序付けた御方において，" },
+    {
+      "resource_id": 35,
+      "text": "邪悪と信心に就いて，それ（魂）に示唆した御方において（誓う）。"
+    },
+    { "resource_id": 35, "text": "本当にそれ（魂）を清める者は成功し，" },
+    { "resource_id": 35, "text": "それを汚す者は滅びる。" },
+    {
+      "resource_id": 35,
+      "text": "サムード（の民）は，その法外な行いによって（預言者を）嘘付き呼ばわりした。"
+    },
+    {
+      "resource_id": 35,
+      "text": "かれらの中の最も邪悪の者が（不信心のため）立ち上がった時，"
+    },
+    {
+      "resource_id": 35,
+      "text": "アッラーの使徒（サーリフ）はかれらに，「アッラーの雌骼駝である。それに水を飲ませなさい。」と言った。"
+    },
+    {
+      "resource_id": 35,
+      "text": "だがかれらは，かれを嘘付き者と呼び，その膝の腱を切っ（て不具にし）た。それで主は，その罪のためにかれらを滅ぼし，平らげられた。"
+    },
+    { "resource_id": 35, "text": "かれは，その結果を顧慮されない。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "91" }
+  }
+}

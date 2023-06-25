@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 227,
+      "text": "ఇలా అను: \"నేను ఉదయ కాలపు ప్రభువు అయిన (అల్లాహ్) శరణు వేడుకుంటున్నాను."
+    },
+    { "resource_id": 227, "text": "ఆయన సృష్టించిన ప్రతిదాని కీడు నుండి;" },
+    {
+      "resource_id": 227,
+      "text": "మరియు చిమ్మచీకటి కీడు నుండి, ఎప్పుడైతే అది క్రమ్ముకుంటుందో!"
+    },
+    {
+      "resource_id": 227,
+      "text": "మరియు ముడుల మీద మంత్రించి ఊదే వారి కీడు నుండి;"
+    },
+    {
+      "resource_id": 227,
+      "text": "మరియు అసూయపరుడి కీడు నుండి, ఎప్పుడైతే అతడు అసూయపడతాడో!\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Abder-Rahim ibn Muhammad",
+    "author_name": "Maulana Abder-Rahim ibn Muhammad",
+    "filters": { "resource_id": 227, "chapter_number": "113" }
+  }
+}

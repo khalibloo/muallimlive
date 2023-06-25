@@ -1,0 +1,72 @@
+{
+  "translations": [
+    { "resource_id": 17, "text": "And (by) the night when it envelops," },
+    { "resource_id": 17, "text": "And (by) the day when it manifests itself," },
+    {
+      "resource_id": 17,
+      "text": "And (by) That (i.e., the present life) which created the male and the female,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Surely your endeavor is indeed to diverse (ends)."
+    },
+    { "resource_id": 17, "text": "So, as for him who gives, and is pious," },
+    {
+      "resource_id": 17,
+      "text": "And sincerely (believes) in the fairest (reward),"
+    },
+    { "resource_id": 17, "text": "Then We will soon ease him to the Easiest." },
+    {
+      "resource_id": 17,
+      "text": "And as for him who is miserly, and thinks himself self-sufficient,"
+    },
+    { "resource_id": 17, "text": "And cries lies to the fairest (reward)," },
+    {
+      "resource_id": 17,
+      "text": "Then We will soon ease him to the (great) Difficulty."
+    },
+    {
+      "resource_id": 17,
+      "text": "And in no way will his wealth avail him when he topples (to death)."
+    },
+    {
+      "resource_id": 17,
+      "text": "Surely upon Us (rests) indeed the guidance,"
+    },
+    {
+      "resource_id": 17,
+      "text": "And surely to Us (belong) indeed the Hereafter and the First (i.e., the present life)."
+    },
+    {
+      "resource_id": 17,
+      "text": "So I have warned you of a Fire that blazes fiercely,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Whereat none except the most wretched will be roasted-"
+    },
+    { "resource_id": 17, "text": "(He) who cried lies and turned away-" },
+    {
+      "resource_id": 17,
+      "text": "And which the most pious will soon be made to avoid-"
+    },
+    {
+      "resource_id": 17,
+      "text": "(He) who brings (forth) his wealth to cleanse himself."
+    },
+    {
+      "resource_id": 17,
+      "text": "And in no way has anyone in his presence any favor to be recompensed,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Except for seeking the Face of his Lord, The Most Exalted."
+    },
+    { "resource_id": 17, "text": "And indeed he will eventually be satisfied." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "92" }
+  }
+}

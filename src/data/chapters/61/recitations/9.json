@@ -1,0 +1,23 @@
+{
+  "audio_files": [
+    { "verse_key": "61:1", "url": "Minshawi/Murattal/mp3/061001.mp3" },
+    { "verse_key": "61:2", "url": "Minshawi/Murattal/mp3/061002.mp3" },
+    { "verse_key": "61:3", "url": "Minshawi/Murattal/mp3/061003.mp3" },
+    { "verse_key": "61:4", "url": "Minshawi/Murattal/mp3/061004.mp3" },
+    { "verse_key": "61:5", "url": "Minshawi/Murattal/mp3/061005.mp3" },
+    { "verse_key": "61:6", "url": "Minshawi/Murattal/mp3/061006.mp3" },
+    { "verse_key": "61:7", "url": "Minshawi/Murattal/mp3/061007.mp3" },
+    { "verse_key": "61:8", "url": "Minshawi/Murattal/mp3/061008.mp3" },
+    { "verse_key": "61:9", "url": "Minshawi/Murattal/mp3/061009.mp3" },
+    { "verse_key": "61:10", "url": "Minshawi/Murattal/mp3/061010.mp3" },
+    { "verse_key": "61:11", "url": "Minshawi/Murattal/mp3/061011.mp3" },
+    { "verse_key": "61:12", "url": "Minshawi/Murattal/mp3/061012.mp3" },
+    { "verse_key": "61:13", "url": "Minshawi/Murattal/mp3/061013.mp3" },
+    { "verse_key": "61:14", "url": "Minshawi/Murattal/mp3/061014.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed Siddiq al-Minshawi",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "61" }
+  }
+}

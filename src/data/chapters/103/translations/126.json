@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Tako mi vremena –" },
+    { "resource_id": 126, "text": "čovjek, doista, gubi," },
+    {
+      "resource_id": 126,
+      "text": "samo ne oni koji vjeruju i dobra djela čine, i koji jedni drugima istinu preporučuju i koji jedni drugima preporučuju strpljenje."
+    }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "103" }
+  }
+}

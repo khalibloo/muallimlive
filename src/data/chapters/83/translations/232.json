@@ -1,0 +1,138 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Okuzikirira kuli ku abo abakendeeza ebipimo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Abo bwe baba nga beebapimirwa, basaba ebipimo byabwe bijjuzibwe."
+    },
+    {
+      "resource_id": 232,
+      "text": "So nga bwe baba nga be balengera abalala, oba be bapima, bakendeeza (ebipimo)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Abaffe tebakakasa nti mazima ddala baakuzuukizibwa."
+    },
+    { "resource_id": 232, "text": "Ku lunaku oluzito (olw'enkomerero)." },
+    {
+      "resource_id": 232,
+      "text": "Olunaku abantu lwe baliyimirira mu maaso g'omulezi w’ebitonde."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala ebiwandiiko by’emirimu gy’aboonoonyi biri mu Sijjiin."
+    },
+    { "resource_id": 232, "text": "Naye omanyi Sijjiin kye ki?" },
+    {
+      "resource_id": 232,
+      "text": "Ky’ekitabo ekiwandiikibwamu ebibi by’omuntu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Okuzikirira ku lunaku olwo, kulibeera ku abo abalimbisa."
+    },
+    {
+      "resource_id": 232,
+      "text": "Abo abalimbisa olunaku lw’okusasulwa (olw’enkomerero)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Tewali alimbisa lunaku olwo okugyako oyo asukka ensalo z’amateeka ga Katonda era omwonoonyi."
+    },
+    {
+      "resource_id": 232,
+      "text": "Bw’aba asomeddwa ebigambo byaffe (Kur'ani) agamba nti ebyo nfumo z’abaasooka."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda, ssi bwekiri; wabula bye baali bakola byetuuma ku mitima gyabwe."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala abatakkiriza ku        lunaku olwo baakuziyizibwa okulaba Omulezi waabwe (Katonda)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala baakuyingira omuliro        Jahiimu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Oluvanyuma bagenda kugambibwa nti ekyo kye mwalimbisanga."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala ebiwandiiko         by’abakozi b’obulungi biri mu Illiyyiina."
+    },
+    { "resource_id": 232, "text": "Naye omanyi Illiyyiina kye ki?" },
+    {
+      "resource_id": 232,
+      "text": "Ky’ekitabo ekiwandiikibwamu        ebirungi by’omuntu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Bakisemberera Ba malayika abali okumpi ne Katonda."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima abakozi b’obulungi bagenda kubeera mu byengera."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nga bali ku bitanda ebiwunde nga batunuulira ebintu ebibeetoolodde."
+    },
+    {
+      "resource_id": 232,
+      "text": "Essanyu eriribeera ku maaso gaabwe ligenda ku kulaga okwesiima kwe balibaamu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Baligabulwanga omubisi (ogw’omu jjana) omusaanikire obulungi."
+    },
+    {
+      "resource_id": 232,
+      "text": "(Olunaagunywangako) ng'owulira akawoowo ka misk. Ne mu kyo, abaagala okuvuganya mu kukola emirimu emirungi bavuganye."
+    },
+    { "resource_id": 232, "text": "Omubisi ogwo gugenda kutabulwa mu Tasnim." },
+    {
+      "resource_id": 232,
+      "text": "Tasnim nsulo erinywebwangako        abalibeera okumpi ne Katonda."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima abantu abo abaali abajeemu baalinga ku nsi nga basekerera abakkiriza."
+    },
+    { "resource_id": 232, "text": "Bwe baabayitangako nga babageyesa amaaso." },
+    {
+      "resource_id": 232,
+      "text": "Ate nga bwe baddanga mu bantu baabwe nga beewaana."
+    },
+    {
+      "resource_id": 232,
+      "text": "Bwe baabalabangako nga bagamba nti mazima abo baabulira ddala."
+    },
+    {
+      "resource_id": 232,
+      "text": "Naye tebatumwanga kubeera nga bebalondoola emirimu gya bali."
+    },
+    {
+      "resource_id": 232,
+      "text": "Wabula olwaleero (olunaku        lw'enkomerero) abo abakkiriza bajja        kubeera nga basekerera abatakkiriza."
+    },
+    {
+      "resource_id": 232,
+      "text": "(Abakkiriza) nga bali ku bitanda ebiwunde nga babakeneka."
+    },
+    {
+      "resource_id": 232,
+      "text": "(Nga bwe bagamba nti) abaffe         abatakkiriza basasuddwa bye baalinga bakola."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "83" }
+  }
+}

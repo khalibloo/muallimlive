@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 151, "text": "اس واسطے کہ مانوس رکھا قریش کو" },
+    {
+      "resource_id": 151,
+      "text": "مانوس رکھنا اُنکو  سفر سے جاڑے کے اور گرمی کے"
+    },
+    { "resource_id": 151, "text": "تو چاہیے کہ بندگی کریں اس گھر کے رب کی" },
+    {
+      "resource_id": 151,
+      "text": "جس نے اُنکو کھانا دیا بھوک میں اور امن دیا ڈر میں <sup foot_note=88934>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "106" }
+  }
+}

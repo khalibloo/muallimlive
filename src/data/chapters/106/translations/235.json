@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 235, "text": "Vanwege de gewoonte van de Qoeraish." },
+    {
+      "resource_id": 235,
+      "text": "Hun gewoonte te reizen in winter en zomer."
+    },
+    {
+      "resource_id": 235,
+      "text": "Laten zij dus de Heer van dit Huis (de Ka’bah) aanbidden."
+    },
+    {
+      "resource_id": 235,
+      "text": "Degene die hen in hongerige tijden voedt en hen veilig stelt voor de angst."
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "106" }
+  }
+}

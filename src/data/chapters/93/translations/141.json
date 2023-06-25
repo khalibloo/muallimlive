@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "resource_id": 141,
+      "text": "Demi waktu dhuha (ketika matahari naik sepenggalah),"
+    },
+    { "resource_id": 141, "text": "Dan demi malam apabila telah sunyi." },
+    {
+      "resource_id": 141,
+      "text": "Tuhanmu tidak meninggalkan engkau (Muhammad) dan tidak (pula) membencimu,<sup foot_note=155977>1</sup>"
+    },
+    {
+      "resource_id": 141,
+      "text": "dan sungguh, yang kemudian itu lebih baik bagimu daripada yang permulaan.<sup foot_note=155978>1</sup>"
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan sungguh, kelak Tuhanmu pasti memberikan karunia-Nya kepadamu, sehingga engkau menjadi puas."
+    },
+    {
+      "resource_id": 141,
+      "text": "Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungi(mu)."
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan Dia mendapatimu sebagai seorang yang bingung,<sup foot_note=155979>1</sup> lalu Dia memberikan petunjuk."
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan Dia mendapatimu sebagai seorang yang kekurangan, lalu Dia memberikan kecukupan."
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka terhadap anak yatim janganlah engkau berlaku sewenang-wenang."
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan terhadap orang yang meminta-minta, janganlah engkau menghardik(nya)."
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan terhadap nikmat Tuhanmu, hendaklah engkau nyatakan (dengan bersyukur)."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "93" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 122,
+      "text": "(हे नबी!) जब अल्लाह की सहायता एवं विजय आ जाये।"
+    },
+    {
+      "resource_id": 122,
+      "text": "और तुम लोगों को अल्लाह के धर्म में दल के दल प्रवेश करते देख लो।[ <sup foot_note=134941>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "तो अपने पालनहार की प्रशंसा के साथ उसकी पवित्रता का वर्णन करो और उससे क्षमा माँगो, निःसंदेह वह बड़ा क्षमी है।[ <sup foot_note=134942>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "110" }
+  }
+}

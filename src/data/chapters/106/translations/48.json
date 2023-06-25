@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "SÅ ATT Quraysh kunde förbli enade och trygga,"
+    },
+    {
+      "resource_id": 48,
+      "text": "enade och trygga vad gäller såväl deras vinter- som deras sommarfärder."
+    },
+    {
+      "resource_id": 48,
+      "text": "Därför skall de tillbe Herren till denna Helgedom,"
+    },
+    {
+      "resource_id": 48,
+      "text": "som har gett dem föda när hungersnöden hotade och trygghet när fruktan hade fått makt över deras [sinnen]."
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "106" }
+  }
+}

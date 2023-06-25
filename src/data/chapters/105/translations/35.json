@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 35,
+      "text": "あなたの主が，象の仲間に，どう対処なされたか，知らなかったのか。"
+    },
+    {
+      "resource_id": 35,
+      "text": "かれは，かれらの計略を壊滅させられたではないか。"
+    },
+    { "resource_id": 35, "text": "かれらの上に群れなす数多の鳥を遣わされ，" },
+    { "resource_id": 35, "text": "焼き土の礫を投げ付けさせて，" },
+    { "resource_id": 35, "text": "食い荒らされた藁屑のようになされた。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "105" }
+  }
+}

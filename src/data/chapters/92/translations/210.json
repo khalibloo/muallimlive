@@ -1,0 +1,66 @@
+{
+  "translations": [
+    {
+      "resource_id": 210,
+      "text": "(Ortalığı) bürüdüğü zaman geceye andolsun."
+    },
+    {
+      "resource_id": 210,
+      "text": "Açılıp aydınlandığı zaman gündüze andolsun."
+    },
+    { "resource_id": 210, "text": "Erkeği ve dişiyi yaratana andolsun ki." },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz sizin çabalarınız elbette çeşit çeşittir."
+    },
+    { "resource_id": 210, "text": "Kim (malından) verir ve sakınırsa." },
+    {
+      "resource_id": 210,
+      "text": "En güzel sözü (kelime-i tevhidi) tasdik ederse."
+    },
+    { "resource_id": 210, "text": "Biz, onu en kolay olana kolayca iletiriz." },
+    {
+      "resource_id": 210,
+      "text": "Kim cimrilik eder kendini müstağni sayarsa."
+    },
+    { "resource_id": 210, "text": "Ve en güzeli yalanlarsa." },
+    { "resource_id": 210, "text": "Biz de ona zor olanı kolaylaştırırız." },
+    {
+      "resource_id": 210,
+      "text": "Cehennem'e yuvarlandığı zaman malı ona fayda vermez."
+    },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz bize düşen sadece doğru yolu göstermektir."
+    },
+    { "resource_id": 210, "text": "Şüphesiz ahiret de dünya da bizimdir." },
+    { "resource_id": 210, "text": "Sizi alevler saçan ateşe karşı uyardım." },
+    { "resource_id": 210, "text": "Ona ancak en azgın olan girecektir." },
+    {
+      "resource_id": 210,
+      "text": "Öyle yalancıdır ki, yalanlamıştır ve yüz çevirmiştir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Takva sahibi ise oradan uzak tutulacaktır."
+    },
+    { "resource_id": 210, "text": "(Ki o) Malını vererek arınır." },
+    {
+      "resource_id": 210,
+      "text": "O, verdiğini kendisine yapılan bir iyiliğin karşılığı olarak vermez."
+    },
+    {
+      "resource_id": 210,
+      "text": "(Yaptığı iyiliği) ancak yüce Rabbinin rızasını istediği için (yapar)."
+    },
+    {
+      "resource_id": 210,
+      "text": "Muhakkak kendisi de ileride razı olacaktır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "92" }
+  }
+}

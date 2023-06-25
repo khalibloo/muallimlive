@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 785, "text": "آیا سینه‌ات را برایت نکشادیم؟" },
+    { "resource_id": 785, "text": "و بار سنگین را از تو برنداشتیم؟" },
+    { "resource_id": 785, "text": "همان باری که پشت تو را سنگین کرده بود." },
+    { "resource_id": 785, "text": "و آوازه‌ات را برایت بلند گردانیدیم." },
+    { "resource_id": 785, "text": "پس یقیناً با هر سختی آسانی است." },
+    { "resource_id": 785, "text": "یقیناً با (همان) سختی آسانی (دیگر) است." },
+    {
+      "resource_id": 785,
+      "text": "پس هرگاه فارغ شدی (از دعوت و تبلیغ)، پس بکوش (برای عبادت پروردگارت)."
+    },
+    {
+      "resource_id": 785,
+      "text": "و (با رغبت و اشتیاق) به‌سوی پروردگارت روی آور."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "94" }
+  }
+}

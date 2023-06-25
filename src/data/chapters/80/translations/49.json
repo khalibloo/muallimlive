@@ -1,0 +1,66 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Alikunja kipaji na akageuka," },
+    { "resource_id": 49, "text": "Kwa sababu alimjia kipofu!" },
+    {
+      "resource_id": 49,
+      "text": "Na nini kitakujuulisha pengine yeye atatakasika?"
+    },
+    { "resource_id": 49, "text": "Au atawaidhika, na mawaidha yamfae?" },
+    { "resource_id": 49, "text": "Ama ajionaye hana haja," },
+    { "resource_id": 49, "text": "Wewe ndio unamshughulikia?" },
+    { "resource_id": 49, "text": "Na si juu yako kama hakutakasika." },
+    { "resource_id": 49, "text": "Ama anaye kujia kwa juhudi," },
+    { "resource_id": 49, "text": "Naye anaogopa," },
+    { "resource_id": 49, "text": "Ndio wewe unampuuza?" },
+    { "resource_id": 49, "text": "Sivyo hivyo! Huku ni kukumbushana." },
+    { "resource_id": 49, "text": "Basi anaye penda akumbuke." },
+    { "resource_id": 49, "text": "Yamo katika kurasa zilizo hishimiwa," },
+    { "resource_id": 49, "text": "Zilizo inuliwa, zilizo takaswa." },
+    { "resource_id": 49, "text": "Zimo mikononi mwa Malaika waandishi," },
+    { "resource_id": 49, "text": "Watukufu, wema." },
+    {
+      "resource_id": 49,
+      "text": "Ameangamia mwanaadamu! Nini kinacho mkufurisha?"
+    },
+    { "resource_id": 49, "text": "Kwa kitu gani amemuumba?" },
+    {
+      "resource_id": 49,
+      "text": "Kwa tone la manii, akamuumba na akamkadiria."
+    },
+    { "resource_id": 49, "text": "Kisha akamsahilishia njia." },
+    { "resource_id": 49, "text": "Kisha akamfisha, akamtia kaburini." },
+    { "resource_id": 49, "text": "Kisha apendapo atamfufua." },
+    { "resource_id": 49, "text": "La! Hajamaliza aliyo muamuru." },
+    { "resource_id": 49, "text": "Hebu mtu na atazame chakula chake." },
+    { "resource_id": 49, "text": "Hakika Sisi tumemimina maji kwa nguvu," },
+    { "resource_id": 49, "text": "Tena tukaipasua pasua ardhi kwa nguvu," },
+    { "resource_id": 49, "text": "Kisha tukaotesha humo nafaka," },
+    { "resource_id": 49, "text": "Na zabibu, na mimea ya majani," },
+    { "resource_id": 49, "text": "Na mizaituni, na mitende," },
+    {
+      "resource_id": 49,
+      "text": "Na bustani zenye miti iliyo songana baraabara,"
+    },
+    { "resource_id": 49, "text": "Na matunda, na malisho ya wanyama;" },
+    { "resource_id": 49, "text": "Kwa manufaa yenu na mifugo yenu." },
+    { "resource_id": 49, "text": "Basi utakapo kuja ukelele," },
+    { "resource_id": 49, "text": "Siku ambayo mtu atamkimbia nduguye," },
+    { "resource_id": 49, "text": "Na mamaye na babaye," },
+    { "resource_id": 49, "text": "Na mkewe na wanawe -" },
+    {
+      "resource_id": 49,
+      "text": "Kila mtu miongoni mwao siku hiyo atakuwa na lake la kumtosha."
+    },
+    { "resource_id": 49, "text": "Siku hiyo ziko nyuso zitazo nawiri," },
+    { "resource_id": 49, "text": "Zitacheka, zitachangamka;" },
+    { "resource_id": 49, "text": "Na nyuso siku hiyo zitakuwa na mavumbi," },
+    { "resource_id": 49, "text": "Giza totoro litazifunika," },
+    { "resource_id": 49, "text": "Hao ndio makafiri watenda maovu." }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "80" }
+  }
+}

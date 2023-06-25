@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "\"Ka ce \"Ina nẽman tsari ga Ubangijin mutãne.\""
+    },
+    { "resource_id": 115, "text": "\"Mamallakin mutane.\"" },
+    { "resource_id": 115, "text": "\"Abin bautãwar mutãne.\"" },
+    {
+      "resource_id": 115,
+      "text": "\"Daga sharrin mai sanya wasuwãsi, mai ɓoyewa.\"<sup foot_note=132772>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Wanda ke sanya wasuwãsi a cikin ƙirãzan mutane.\""
+    },
+    { "resource_id": 115, "text": "\"Daga aljannu da mutane.\"" }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "114" }
+  }
+}

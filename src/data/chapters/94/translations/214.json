@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Zar grudi tvoje nismo prostranim učinili" },
+    { "resource_id": 214, "text": "i breme tvoje skinuli," },
+    { "resource_id": 214, "text": "koje je pleća tvoja pritiskalo," },
+    { "resource_id": 214, "text": "i spomen na tebe visoko uzdigli!" },
+    { "resource_id": 214, "text": "Pa, zaista, s mukom je olakšanje," },
+    { "resource_id": 214, "text": "zaista, s mukom je olakšanje!" },
+    { "resource_id": 214, "text": "A kad završiš, molitvi se predaj," },
+    { "resource_id": 214, "text": "i Gospodaru svome teži!" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "94" }
+  }
+}

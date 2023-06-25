@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na galopujące, zadyszane," },
+    { "resource_id": 42, "text": "Krzeszące iskry ognia, ." },
+    { "resource_id": 42, "text": "Które ruszają do ataku rankiem," },
+    { "resource_id": 42, "text": "Wzbijając tuman kurzu," },
+    { "resource_id": 42, "text": "I wdzierają się w sam środek gromadnie!" },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, człowiek jest niewdzięczny względem swego Pana!"
+    },
+    { "resource_id": 42, "text": "I, zaprawdę, on sam jest tego świadkiem!" },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, jego miłość do dóbr jest ogromna!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czyż on nie wie, że kiedy zostanie wywrócone to, co jest w grobach,"
+    },
+    {
+      "resource_id": 42,
+      "text": "I kiedy zostanie wydobyte na jaw to, co jest w piersiach"
+    },
+    {
+      "resource_id": 42,
+      "text": "- zaprawdę, tego Dnia, ich Pan będzie o nich doskonale powiadomiony!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "100" }
+  }
+}

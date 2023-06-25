@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 785,
+      "text": "یقیناً ما قرآن را در شب قدر (شب دارای مرتبه و فضیلت) نازل کردیم."
+    },
+    { "resource_id": 785, "text": "و تو چه می‌دانی که شب قدر چیست؟" },
+    { "resource_id": 785, "text": "شب قدر بهتر است از هزار ماه." },
+    {
+      "resource_id": 785,
+      "text": "(خاصیت آن شب این است که) فرشتگان و جبرئیل در آن شب به حکم پروردگار خود فرود می‌آیند، برای انجام دادن هر کاری (که الله خواهد)."
+    },
+    {
+      "resource_id": 785,
+      "text": "آن شب محل نزول سلامتی و رحمت است تا طلوع صبح."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "97" }
+  }
+}

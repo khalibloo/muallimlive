@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 222, "text": "Бүкіл қорлаушы,өсекшіге нендей өкініш!" },
+    { "resource_id": 222, "text": "Сондай мал жиып,оны санағандарға." },
+    {
+      "resource_id": 222,
+      "text": "Негізінен малы,өзін мәңгі жасатады деп ойлайды."
+    },
+    {
+      "resource_id": 222,
+      "text": "Олай емес,әлбетте ол «Хұтамаға» тасталады."
+    },
+    { "resource_id": 222, "text": "«Хұтаманың не екенін қайдан білесің?»" },
+    { "resource_id": 222, "text": "Ол,Алланың жағылған оты," },
+    { "resource_id": 222, "text": "Сондай жүректерді шалатын." },
+    { "resource_id": 222, "text": "Расында олар,ол отқа қамалады," },
+    { "resource_id": 222, "text": "Ұзын діңгектерге байланады." }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "104" }
+  }
+}

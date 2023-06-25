@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 218,
+      "text": "言ってみよ、（復活と）報いを嘘とする者（について）。"
+    },
+    { "resource_id": 218, "text": "それは孤児を（その権利から）押しやり、" },
+    { "resource_id": 218, "text": "貧者*たちに食べ物を施すことを勧めない者。" },
+    { "resource_id": 218, "text": "災いあれ、礼拝者たち（ではあっても）、" },
+    { "resource_id": 218, "text": "自分たちの礼拝を、おろそかにする者¹たち。" },
+    { "resource_id": 218, "text": "見せびらかしで（善行を）行い、" },
+    { "resource_id": 218, "text": "手助け¹を妨げる者たちに。" }
+  ],
+  "meta": {
+    "translation_name": "Saeed Sato",
+    "author_name": "Saeed Sato",
+    "filters": { "resource_id": 218, "chapter_number": "107" }
+  }
+}

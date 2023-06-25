@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Ayt: «U Alloh yagonadir." },
+    {
+      "resource_id": 55,
+      "text": "Alloh — Comaddir.<sup foot_note=\"169923\">1</sup>"
+    },
+    { "resource_id": 55, "text": "U tug`magan va tug`ilmagan." },
+    {
+      "resource_id": 55,
+      "text": "Va Unga hech kim teng bo`lmagan».<sup foot_note=\"169970\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "112" }
+  }
+}

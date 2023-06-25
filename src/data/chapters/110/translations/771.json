@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 771, "text": "ಅಲ್ಲಾಹನ ಸಹಾಯ ಮತ್ತು ವಿಜಯವು ಬಂದರೆ," },
+    {
+      "resource_id": 771,
+      "text": "ಜನರು ಅಲ್ಲಾಹನ ಧರ್ಮಕ್ಕೆ ತಂಡೋಪತಂಡವಾಗಿ ಪ್ರವೇಶಿಸುವುದನ್ನು ತಾವು ಕಂಡರೆ,"
+    },
+    {
+      "resource_id": 771,
+      "text": "ತಮ್ಮ ಪಾಲಕ ಪ್ರಭು ಅಲ್ಲಾಹನ ಸ್ತುತಿಕೀರ್ತನೆಯೊಂದಿಗೆ ಅವನ ಪರಿಶುದ್ಧತೆಯನ್ನು ಕೊಂಡಾಡಿರಿ ಹಾಗೂ ಅವನೊಂದಿಗೆ ಕ್ಷಮೆ ಯಾಚಿಸಿರಿ<sup foot_note=208148>1</sup>. ಖಂಡಿತವಾಗಿಯೂ ಅವನು ಪಶ್ಚಾತ್ತಾಪವನ್ನು ಯಥೇಷ್ಠ ಸ್ವೀಕರಿಸುವವನಾಗಿರುವನು."
+    }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "110" }
+  }
+}

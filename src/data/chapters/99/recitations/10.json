@@ -1,0 +1,17 @@
+{
+  "audio_files": [
+    { "verse_key": "99:1", "url": "Shuraym/mp3/099001.mp3" },
+    { "verse_key": "99:2", "url": "Shuraym/mp3/099002.mp3" },
+    { "verse_key": "99:3", "url": "Shuraym/mp3/099003.mp3" },
+    { "verse_key": "99:4", "url": "Shuraym/mp3/099004.mp3" },
+    { "verse_key": "99:5", "url": "Shuraym/mp3/099005.mp3" },
+    { "verse_key": "99:6", "url": "Shuraym/mp3/099006.mp3" },
+    { "verse_key": "99:7", "url": "Shuraym/mp3/099007.mp3" },
+    { "verse_key": "99:8", "url": "Shuraym/mp3/099008.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Sa`ud ash-Shuraym",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "99" }
+  }
+}

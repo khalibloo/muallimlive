@@ -1,0 +1,104 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "Alguien ha pedido un castigo inmediato" },
+    {
+      "resource_id": 28,
+      "text": "para los infieles, que nadie pueda rechazar,"
+    },
+    { "resource_id": 28, "text": "que venga de Alá, Señor de las gradas." },
+    {
+      "resource_id": 28,
+      "text": "Los ángeles y el Espíritu ascienden a Él en un día que equivale a cincuenta mil años."
+    },
+    { "resource_id": 28, "text": "¡Ten, pues, digna paciencia!" },
+    { "resource_id": 28, "text": "Piensan que está lejos," },
+    { "resource_id": 28, "text": "pero Nosotros pensamos que está cerca." },
+    { "resource_id": 28, "text": "El día que el cielo parezca metal fundido," },
+    { "resource_id": 28, "text": "y las montañas, copos de lana," },
+    { "resource_id": 28, "text": "y nadie pregunte por su amigo ferviente." },
+    {
+      "resource_id": 28,
+      "text": "Les será dado verles. El pecador querrá librarse del castigo de ese día ofreciendo como rescate a sus hijos varones,"
+    },
+    { "resource_id": 28, "text": "a su compañera, a su hermano," },
+    { "resource_id": 28, "text": "Al clan que lo cobijó," },
+    { "resource_id": 28, "text": "a todos los de la tierra. Eso le salvaría." },
+    { "resource_id": 28, "text": "¡No! Será una hoguera," },
+    { "resource_id": 28, "text": "que arrancará el cuero cabelludo" },
+    {
+      "resource_id": 28,
+      "text": "y reclamará a quien retroceda y vuelva la espalda,"
+    },
+    { "resource_id": 28, "text": "a quien amase y atesore." },
+    { "resource_id": 28, "text": "El hombre es de natural impaciente." },
+    { "resource_id": 28, "text": "Pusilánime cuando sufre un mal," },
+    { "resource_id": 28, "text": "mezquino cuando la fortuna le favorece." },
+    { "resource_id": 28, "text": "Se exceptúa a quienes oran" },
+    { "resource_id": 28, "text": "perseverando en su azalá," },
+    { "resource_id": 28, "text": "parte de cuyos bienes es de derecho" },
+    { "resource_id": 28, "text": "para el mendigo y el indigente," },
+    {
+      "resource_id": 28,
+      "text": "que tienen por auténtico el día del Juicio,"
+    },
+    { "resource_id": 28, "text": "que temen el castigo de su Señor" },
+    {
+      "resource_id": 28,
+      "text": "-nadie debe sentirse seguro contra el castigo de su Señor-,"
+    },
+    { "resource_id": 28, "text": "que se abstienen de comercio carnal," },
+    {
+      "resource_id": 28,
+      "text": "salvo con sus esposas o con sus esclavas -en cuyo caso no incurren en reproche,"
+    },
+    {
+      "resource_id": 28,
+      "text": "mientras que quienes desean a otras mujeres, ésos son los que violan la ley-,"
+    },
+    {
+      "resource_id": 28,
+      "text": "que respetan los depósitos que se les confían y las promesas que hacen,"
+    },
+    { "resource_id": 28, "text": "que dicen la verdad en sus testimonios," },
+    { "resource_id": 28, "text": "que observan su azalá." },
+    { "resource_id": 28, "text": "Esos tales estarán en jardines, honrados." },
+    {
+      "resource_id": 28,
+      "text": "¿Qué les pasa a los infieles, que vienen hacia ti corriendo con el cuello extendido,"
+    },
+    {
+      "resource_id": 28,
+      "text": "en grupos, por la derecha y por la izquierda?"
+    },
+    {
+      "resource_id": 28,
+      "text": "¿Es que cada uno de ellos anhela ser introducido en un jardín de delicia?"
+    },
+    { "resource_id": 28, "text": "¡No! Les creamos de lo que saben." },
+    {
+      "resource_id": 28,
+      "text": "¡Pues no! ¡Juro por el Señor de los Orientes y de los Occidentes, que somos bien capaces"
+    },
+    {
+      "resource_id": 28,
+      "text": "de sustituirles por otros mejores que ellos, sin que nadie pueda impedírnoslo!"
+    },
+    {
+      "resource_id": 28,
+      "text": "¡Déjales que parloteen y jueguen hasta que les llegue el día con que se les ha amenazado,"
+    },
+    {
+      "resource_id": 28,
+      "text": "el día que salgan de las sepulturas, rápidos como si corrieran hacia piedras erectas,"
+    },
+    {
+      "resource_id": 28,
+      "text": "la mirada abatida, cubiertos de humillación! Tal será el día con que se les había amenazado."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "70" }
+  }
+}

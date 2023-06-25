@@ -1,0 +1,61 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Lees voor! In de naam van jouw Heer. Die heeft geschapen."
+    },
+    {
+      "resource_id": 235,
+      "text": "Die de mens heeft geschapen uit een bloedklomp."
+    },
+    {
+      "resource_id": 235,
+      "text": "Lees voor! Want jouw Heer is de meest Edele."
+    },
+    { "resource_id": 235, "text": "Degene die onderwezen heeft met de pen." },
+    {
+      "resource_id": 235,
+      "text": "Hij leerde de mens datgene wat hij niet kende."
+    },
+    {
+      "resource_id": 235,
+      "text": "Nee! Waarlijk, de mens overschrijdt alle grenzen."
+    },
+    {
+      "resource_id": 235,
+      "text": "Want hij denkt dat hij voldoende aan zichzelf heeft."
+    },
+    { "resource_id": 235, "text": "Waarlijk! Tot jouw Heer is de terugkeer." },
+    { "resource_id": 235, "text": "Heb jij degene gezien die verbiedt?" },
+    { "resource_id": 235, "text": "Een dienaar \"wanneer hij bidt?" },
+    {
+      "resource_id": 235,
+      "text": "Vertel mij of hij (Mohammed) de leiding van Allah volgt?"
+    },
+    { "resource_id": 235, "text": "En aanspoort tot vroomheid?" },
+    {
+      "resource_id": 235,
+      "text": "Vertel mij of hij (Abōe Djahl) ontkent en zich afkeert?"
+    },
+    {
+      "resource_id": 235,
+      "text": "Weet hij niet dat Allah ziet (wat hij doet)?"
+    },
+    {
+      "resource_id": 235,
+      "text": "Nee! Als hij niet ophoudt, zullen Wij hem bij zijn voorhoofdslok grijpen!"
+    },
+    { "resource_id": 235, "text": "Een leugenachtige, zondige voorhoofdslok!" },
+    { "resource_id": 235, "text": "Laat hem dan zijn bondgenoten roepen." },
+    { "resource_id": 235, "text": "Wij zullen de bewakers van de Hel roepen!" },
+    {
+      "resource_id": 235,
+      "text": "Nee! Gehoorzaam hem niet. Kniel neer en kom tot Allah!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "96" }
+  }
+}

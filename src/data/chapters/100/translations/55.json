@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Harsillab chopuvchi otlar bilan qasam." },
+    { "resource_id": 55, "text": "O`t chaqnatib chopuvchi otlar bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Tong chog`ida g`orat qiluvchi otlar bilan qasam."
+    },
+    { "resource_id": 55, "text": "O`sha ila chang qo`zg`atdilar." },
+    { "resource_id": 55, "text": "Va u ila jamoa o`rtasiga (yorib) kirdilar." },
+    { "resource_id": 55, "text": "Albatta, inson o`z Robbiga noshukrdir." },
+    { "resource_id": 55, "text": "Va albatta, u ana shunga o`zi guvohdir." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u mol-dunyoga haddan tashqari o`chdir."
+    },
+    { "resource_id": 55, "text": "U bilmasmi?! Qabrdagilar qo`zg`atilganda." },
+    { "resource_id": 55, "text": "Va ko`kraklaridagi oshkor bo`lganda." },
+    {
+      "resource_id": 55,
+      "text": "O`sha kunda Robbilari ulardan xabardor ekanini?!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "100" }
+  }
+}

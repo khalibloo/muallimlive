@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "S wakud!" },
+    { "resource_id": 236, "text": "Ih, amdan, war ccekk, ar di lexsaôa." },
+    {
+      "resource_id": 236,
+      "text": "Kkes ed wid iumnen, ixeddmen ayen ilhan, ippemyenhun ar tidep, ippemyenhun ar ûûbeô."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "103" }
+  }
+}

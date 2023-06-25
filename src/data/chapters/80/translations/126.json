@@ -1,0 +1,75 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "On se namrštio i okrenuo" },
+    { "resource_id": 126, "text": "zato što je slijepac njemu prišao." },
+    {
+      "resource_id": 126,
+      "text": "A šta ti znaš – možda on želi da se očisti,"
+    },
+    { "resource_id": 126, "text": "ili pouči pa da mu pouka bude od koristi." },
+    { "resource_id": 126, "text": "Onoga koji je bogat," },
+    { "resource_id": 126, "text": "ti njega savjetuješ," },
+    { "resource_id": 126, "text": "a ti nisi kriv ako on neće da vjeruje;" },
+    { "resource_id": 126, "text": "a onoga koji ti žureći prilazi" },
+    { "resource_id": 126, "text": "i strah osjeća," },
+    { "resource_id": 126, "text": "ti se na njega ne osvrćeš." },
+    { "resource_id": 126, "text": "Ne čini tako! Oni su pouka –" },
+    { "resource_id": 126, "text": "pa ko hoće, poučiće se –" },
+    { "resource_id": 126, "text": "na listovima su cijenjenim" },
+    { "resource_id": 126, "text": "uzvišenim, čistim," },
+    { "resource_id": 126, "text": "u rukama pisārā" },
+    { "resource_id": 126, "text": "časnih, čestitih." },
+    {
+      "resource_id": 126,
+      "text": "Proklet neka je čovjek! Koliko je on samo nezahvalan!"
+    },
+    { "resource_id": 126, "text": "Od čega ga On stvara?" },
+    {
+      "resource_id": 126,
+      "text": "Od kapi sjemena ga stvori i za ono što je dobro za njega pripremi,"
+    },
+    { "resource_id": 126, "text": "i Pravi put mu dostupnim učini," },
+    {
+      "resource_id": 126,
+      "text": "zatim mu život oduzme i učini da bude sahranjen,"
+    },
+    {
+      "resource_id": 126,
+      "text": "i poslije će ga, kada On bude htio, oživiti."
+    },
+    {
+      "resource_id": 126,
+      "text": "Uistinu! On još nije ispunio ono što mu je On naredio!"
+    },
+    { "resource_id": 126, "text": "Neka čovjek pogleda u hranu svoju;" },
+    { "resource_id": 126, "text": "Mi obilno kišu prolivamo," },
+    { "resource_id": 126, "text": "zatim zemlju pukotinama rasijecamo" },
+    { "resource_id": 126, "text": "i činimo da iz nje žito izrasta" },
+    { "resource_id": 126, "text": "i grožđe i povrće," },
+    { "resource_id": 126, "text": "i masline i palme," },
+    { "resource_id": 126, "text": "i bašče guste," },
+    { "resource_id": 126, "text": "i voće i pića," },
+    { "resource_id": 126, "text": "na uživanje vama i stoci vašoj." },
+    { "resource_id": 126, "text": "A kada dođe glas zaglušujući –" },
+    {
+      "resource_id": 126,
+      "text": "na Dan kada će čovjek od brata svoga pobjeći"
+    },
+    { "resource_id": 126, "text": "i od majke svoje i od oca svoga" },
+    { "resource_id": 126, "text": "i od drúge svoje i od sinova svojih –" },
+    {
+      "resource_id": 126,
+      "text": "toga Dana će se svaki čovjek samo o sebi brinuti –"
+    },
+    { "resource_id": 126, "text": "neka lica biće toga Dana blistava," },
+    { "resource_id": 126, "text": "nasmijana, radosna," },
+    { "resource_id": 126, "text": "a na nekim licima toga Dana biće prašina," },
+    { "resource_id": 126, "text": "tama će ih prekrivati," },
+    { "resource_id": 126, "text": "to će nevjernici – razvratnici biti." }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "80" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "audio_files": [
+    { "verse_key": "58:1", "url": "Shuraym/mp3/058001.mp3" },
+    { "verse_key": "58:2", "url": "Shuraym/mp3/058002.mp3" },
+    { "verse_key": "58:3", "url": "Shuraym/mp3/058003.mp3" },
+    { "verse_key": "58:4", "url": "Shuraym/mp3/058004.mp3" },
+    { "verse_key": "58:5", "url": "Shuraym/mp3/058005.mp3" },
+    { "verse_key": "58:6", "url": "Shuraym/mp3/058006.mp3" },
+    { "verse_key": "58:7", "url": "Shuraym/mp3/058007.mp3" },
+    { "verse_key": "58:8", "url": "Shuraym/mp3/058008.mp3" },
+    { "verse_key": "58:9", "url": "Shuraym/mp3/058009.mp3" },
+    { "verse_key": "58:10", "url": "Shuraym/mp3/058010.mp3" },
+    { "verse_key": "58:11", "url": "Shuraym/mp3/058011.mp3" },
+    { "verse_key": "58:12", "url": "Shuraym/mp3/058012.mp3" },
+    { "verse_key": "58:13", "url": "Shuraym/mp3/058013.mp3" },
+    { "verse_key": "58:14", "url": "Shuraym/mp3/058014.mp3" },
+    { "verse_key": "58:15", "url": "Shuraym/mp3/058015.mp3" },
+    { "verse_key": "58:16", "url": "Shuraym/mp3/058016.mp3" },
+    { "verse_key": "58:17", "url": "Shuraym/mp3/058017.mp3" },
+    { "verse_key": "58:18", "url": "Shuraym/mp3/058018.mp3" },
+    { "verse_key": "58:19", "url": "Shuraym/mp3/058019.mp3" },
+    { "verse_key": "58:20", "url": "Shuraym/mp3/058020.mp3" },
+    { "verse_key": "58:21", "url": "Shuraym/mp3/058021.mp3" },
+    { "verse_key": "58:22", "url": "Shuraym/mp3/058022.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Sa`ud ash-Shuraym",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "58" }
+  }
+}

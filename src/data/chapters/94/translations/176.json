@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Allāh ha rasserenato il tuo cuore e ti ha indotto ad amare il fatto di ricevere la rivelazione,"
+    },
+    { "resource_id": 176, "text": "e ti abbiamo liberato dai peccati." },
+    {
+      "resource_id": 176,
+      "text": "Colui che ti ha affaticato tanto da quasi spezzarti la schiena;"
+    },
+    {
+      "resource_id": 176,
+      "text": "e abbiamo elevato la tua reputazione, tanto da essere menzionato nell'Azhān, nel Iǭāmah e in altre situazioni."
+    },
+    {
+      "resource_id": 176,
+      "text": "In verità, dopo le avversità e la miseria vi è il sollievo e la ricchezza."
+    },
+    {
+      "resource_id": 176,
+      "text": "In verità, dopo le avversità e la miseria vi è il sollievo e la ricchezza. Se ti attieni a questo, non farai caso al male del tuo popolo e non ti impedirà di indirizzare la gente ad Allāh."
+    },
+    {
+      "resource_id": 176,
+      "text": "Quando sei libero dai tuoi impegni e li porti a termine, impegnati ad adorare il tuo Dio."
+    },
+    {
+      "resource_id": 176,
+      "text": "E fa sì che i tuoi desideri e i tuoi scopi siano rivolti ad Allāh solo."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "94" }
+  }
+}

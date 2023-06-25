@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Ô gens, rivaliser en richesse et en progéniture vous distrait d’obéir à Allah,"
+    },
+    {
+      "resource_id": 173,
+      "text": "jusqu’à ce que vous mouriez et entriez dans vos tombes."
+    },
+    {
+      "resource_id": 173,
+      "text": "Vous n’auriez pas dû être distraits d’obéir à Allah et vous saurez bientôt quelle est la conséquence d’une telle distraction."
+    },
+    { "resource_id": 173, "text": "Encore une fois, vous le saurez bientôt." },
+    {
+      "resource_id": 173,
+      "text": "En vérité, si vous étiez persuadés d'être ressuscités auprès d’Allah et d'être rétribués pour vos œuvres, rivaliser en richesse et en progéniture ne vous aurait pas distrait."
+    },
+    {
+      "resource_id": 173,
+      "text": "Par Allah, vous verrez le Feu le Jour de la Résurrection."
+    },
+    {
+      "resource_id": 173,
+      "text": "Puis vous le verrez très certainement de vos yeux."
+    },
+    {
+      "resource_id": 173,
+      "text": "Ensuite, Allah vous questionnera assurément ce Jour-là au sujet de la santé, de la richesse et d’autres bienfaits dont Il vous a fait don."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "102" }
+  }
+}

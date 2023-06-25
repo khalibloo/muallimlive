@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 183,
+      "text": "大打撃の恐ろしさで、人びとの心が震えおののく時、"
+    },
+    {
+      "resource_id": 183,
+      "text": "この大打撃の恐ろしさで、人びとの心が震えおののく時とは何か。"
+    },
+    {
+      "resource_id": 183,
+      "text": "使徒よ、大打撃の恐ろしさで、人びとの心が震えおののく時が何であるかを、あなたに教えてくれるのは何か。"
+    },
+    {
+      "resource_id": 183,
+      "text": "その日、人びとの心は打撃を受けて、飛び散った蛾のようになり、"
+    },
+    {
+      "resource_id": 183,
+      "text": "また山々は軽く動く梳かれた羊毛のようになってしまう。"
+    },
+    { "resource_id": 183, "text": "その人の秤が善行で重いのなら、" },
+    {
+      "resource_id": 183,
+      "text": "かれは喜びに満ちた楽園の暮らしをするだろう。"
+    },
+    { "resource_id": 183, "text": "だがその人の秤が悪行の方が重いならば、" },
+    { "resource_id": 183, "text": "かれの最後の住まいは地獄。" },
+    {
+      "resource_id": 183,
+      "text": "使徒よ、それが何であるかを、あなたに教えるものは何か。"
+    },
+    { "resource_id": 183, "text": "それは酷い灼熱の火だ。" }
+  ],
+  "meta": {
+    "translation_name": "Japanese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 183, "chapter_number": "101" }
+  }
+}

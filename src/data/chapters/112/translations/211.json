@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Sabihin mo: \"Siyang si Allāh ay iisa." },
+    {
+      "resource_id": 211,
+      "text": "Si Allāh ay ang Dulugan [sa pangangailangan]."
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi Siya nagkaanak at hindi Siya ipinanganak."
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi nagkaroon sa Kanya ng isang kapantay na isa man.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "112" }
+  }
+}

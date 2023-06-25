@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Say, ˹O Prophet,˺ “He is Allah—One ˹and Indivisible˺;"
+    },
+    { "resource_id": 131, "text": "Allah—the Sustainer ˹needed by all˺." },
+    {
+      "resource_id": 131,
+      "text": "He has never had offspring, nor was He born."
+    },
+    {
+      "resource_id": 131,
+      "text": "And there is none comparable to Him.”<sup foot_note=77645>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "112" }
+  }
+}

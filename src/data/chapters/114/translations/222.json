@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 222, "text": "(Мұхаммед Ғ.С): «Адамдардың Раббына,»" },
+    { "resource_id": 222, "text": "«Адамдардың иесіне,»" },
+    { "resource_id": 222, "text": "«Адамдардың иесіне,»" },
+    { "resource_id": 222, "text": "«Сыбырлап азғырушының кесірінен,»" },
+    { "resource_id": 222, "text": "«Сондай адамдардың көкейлеріне салатын;»" },
+    {
+      "resource_id": 222,
+      "text": "«Мейлі жыннан,мейлі адамдардан болсын, (бүкіл азғырушылардың кесірінен Аллаға) сиынамын» де."
+    }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "114" }
+  }
+}

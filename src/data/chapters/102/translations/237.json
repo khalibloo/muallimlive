@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 237, "text": "Увлича ви преумножаването," },
+    { "resource_id": 237, "text": "додето легнете в гробовете." },
+    { "resource_id": 237, "text": "Ала не! Ще узнаете." },
+    { "resource_id": 237, "text": "И пак не! Ще узнаете." },
+    {
+      "resource_id": 237,
+      "text": "Ала не, ако знаете с достоверното знание -"
+    },
+    { "resource_id": 237, "text": "ще видите Ада." },
+    { "resource_id": 237, "text": "После ще го видите с достоверен поглед." },
+    {
+      "resource_id": 237,
+      "text": "После ще бъдете питани в този Ден за насладите [на земята]."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "102" }
+  }
+}

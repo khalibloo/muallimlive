@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Yer o yaman sarsıntı ile sarsıldığı," },
+    {
+      "resource_id": 52,
+      "text": "Yer, içindeki ağırlıkları çıkarıp dışarı attığı,"
+    },
+    { "resource_id": 52, "text": "Ve insan: \"Ona ne oluyor?\" dediği zaman." },
+    {
+      "resource_id": 52,
+      "text": "O gün yer, Rabbinin ona vahyetmesiyle haberlerini anlatacaktır."
+    },
+    {
+      "resource_id": 52,
+      "text": "O gün yer, Rabbinin ona vahyetmesiyle haberlerini anlatacaktır."
+    },
+    {
+      "resource_id": 52,
+      "text": "O gün insanlar, amellerinin karşılığı kendilerine gösterilmek üzere bölük bölük çıkacaklardır."
+    },
+    {
+      "resource_id": 52,
+      "text": "Her kim zerre kadar hayır işlemişse onu görecektir."
+    },
+    {
+      "resource_id": 52,
+      "text": "Her kim, zerre kadar şer işlemişse onu görecektir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "99" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 206,
+      "text": "In the name of Allah, the Most Compassionate, the Most Merciful."
+    },
+    {
+      "resource_id": 206,
+      "text": "All praise be to Allah, the Lord of the worlds,"
+    },
+    {
+      "resource_id": 206,
+      "text": "the Most Compassionate, the Most Merciful,"
+    },
+    { "resource_id": 206, "text": "Master of the Day of Judgment." },
+    {
+      "resource_id": 206,
+      "text": "You alone we worship, and You alone we ask for help."
+    },
+    { "resource_id": 206, "text": "Guide us to the straight path," },
+    {
+      "resource_id": 206,
+      "text": "the path of those whom You have blessed; not of those who incurred Your Wrath, or of those who went astray."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "1" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "verses": [
+    {
+      "id": 6189,
+      "verse_key": "105:1",
+      "text_uthmani_tajweed": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَ<tajweed class=madda_normal>ـٰ</tajweed>بِ <tajweed class=ham_wasl>ٱ</tajweed>لْف<tajweed class=madda_permissible>ِي</tajweed>لِ <span class=end>١</span>"
+    },
+    {
+      "id": 6190,
+      "verse_key": "105:2",
+      "text_uthmani_tajweed": "أَلَمْ يَ<tajweed class=qalaqah>جْ</tajweed>عَلْ كَيْدَهُمْ فِى تَضْل<tajweed class=madda_permissible>ِي</tajweed>لٍ <span class=end>٢</span>"
+    },
+    {
+      "id": 6191,
+      "verse_key": "105:3",
+      "text_uthmani_tajweed": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَاب<tajweed class=madda_permissible>ِي</tajweed>لَ <span class=end>٣</span>"
+    },
+    {
+      "id": 6192,
+      "verse_key": "105:4",
+      "text_uthmani_tajweed": "تَرْمِيه<tajweed class=ikhafa_shafawi>ِم ب</tajweed>ِحِجَارَ<tajweed class=idgham_ghunnah>ةٍ م</tajweed>ِّ<tajweed class=ikhafa>ن س</tajweed>ِجّ<tajweed class=madda_permissible>ِي</tajweed>لٍ <span class=end>٤</span>"
+    },
+    {
+      "id": 6193,
+      "verse_key": "105:5",
+      "text_uthmani_tajweed": "فَجَعَلَهُمْ كَعَصْ<tajweed class=idgham_ghunnah>فٍ م</tajweed>َّأْك<tajweed class=madda_permissible>ُو</tajweed>لِۭ <span class=end>٥</span>"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "105" } }
+}

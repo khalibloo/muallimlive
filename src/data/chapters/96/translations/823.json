@@ -1,0 +1,49 @@
+{
+  "translations": [
+    {
+      "resource_id": 823,
+      "text": "Read! In the name of your Lord, who created:<sup foot_note=212994>1</sup>"
+    },
+    { "resource_id": 823, "text": "created man from a clot [of blood]." },
+    { "resource_id": 823, "text": "Read! Your Lord is the Most Bountiful One" },
+    { "resource_id": 823, "text": "who taught by the pen," },
+    {
+      "resource_id": 823,
+      "text": "taught man what he did not know.<sup foot_note=212995>1</sup>"
+    },
+    { "resource_id": 823, "text": "Yet man behaves arrogantly," },
+    {
+      "resource_id": 823,
+      "text": "because he thinks himself self-sufficient:"
+    },
+    { "resource_id": 823, "text": "truly, all will return to your Lord." },
+    { "resource_id": 823, "text": "Have you seen one who prevents" },
+    { "resource_id": 823, "text": "a worshipper from praying?" },
+    { "resource_id": 823, "text": "Do you think he is rightly guided," },
+    { "resource_id": 823, "text": "or enjoins true piety?" },
+    {
+      "resource_id": 823,
+      "text": "Do you see how he has denied the truth and turned away from it?"
+    },
+    {
+      "resource_id": 823,
+      "text": "Does he not know that God observes all things?"
+    },
+    {
+      "resource_id": 823,
+      "text": "Let him beware! If he does not desist, We will drag him by the forelock—"
+    },
+    { "resource_id": 823, "text": "his lying, sinful forelock." },
+    { "resource_id": 823, "text": "Then let him call his associates;" },
+    { "resource_id": 823, "text": "We shall summon the guards of Hell." },
+    {
+      "resource_id": 823,
+      "text": "No indeed! Do not obey him, but prostrate yourself and come closer to God."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "96" }
+  }
+}

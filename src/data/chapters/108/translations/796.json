@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 796, "text": "ߒ߬ ߓߘߴߌ ߛߐ߫ ߤߙߊ߫ ߛߌߦߊߡߊ߲߫ ߠߊ߫ ߘߋ߬" },
+    {
+      "resource_id": 796,
+      "text": "ߒ߬ߓߊ߬ ߌ ߛߊߟߴߌ ߡߊ߰ߙߌ ߦߋ߫ ߸ ߊ߬ ߣߴߌ ߦߋ߫ ߜߙߐ߬ߟߌ ߞߍ߫"
+    },
+    {
+      "resource_id": 796,
+      "text": "ߌ ߞߐߣߌ߲ߧߊߓߊ߮ ߟߋ߫ ߞߏ߬ߣߌ߲߬ ߞߐ ߟߊߜߊ߬ߣߊ߲߬ߕߐ߫ ߘߋ߬"
+    }
+  ],
+  "meta": {
+    "translation_name": "Baba Mamady Jani",
+    "author_name": "Baba Mamady Jani",
+    "filters": { "resource_id": 796, "chapter_number": "108" }
+  }
+}

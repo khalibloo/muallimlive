@@ -1,0 +1,51 @@
+{
+  "translations": [
+    { "resource_id": 131, "text": "By the sun and its brightness," },
+    {
+      "resource_id": 131,
+      "text": "and the moon as it follows it,<sup foot_note=77623>1</sup>"
+    },
+    { "resource_id": 131, "text": "and the day as it unveils it," },
+    { "resource_id": 131, "text": "and the night as it conceals it!" },
+    { "resource_id": 131, "text": "And by heaven and ˹the One˺ Who built it," },
+    {
+      "resource_id": 131,
+      "text": "and the earth and ˹the One˺ Who spread it!"
+    },
+    {
+      "resource_id": 131,
+      "text": "And by the soul and ˹the One˺ Who fashioned it,"
+    },
+    {
+      "resource_id": 131,
+      "text": "then with ˹the knowledge of˺ right and wrong inspired it!"
+    },
+    {
+      "resource_id": 131,
+      "text": "Successful indeed is the one who purifies their soul,"
+    },
+    { "resource_id": 131, "text": "and doomed is the one who corrupts it!" },
+    {
+      "resource_id": 131,
+      "text": "Thamûd rejected ˹the truth˺ out of arrogance,"
+    },
+    {
+      "resource_id": 131,
+      "text": "when the most wicked of them was roused ˹to kill the she-camel˺."
+    },
+    {
+      "resource_id": 131,
+      "text": "But the messenger of Allah warned them, “˹Do not disturb˺ Allah’s camel and her ˹turn to˺ drink!”"
+    },
+    {
+      "resource_id": 131,
+      "text": "Still they defied him and slaughtered her. So their Lord crushed them for their crime, levelling all to the ground.<sup foot_note=77624>1</sup>"
+    },
+    { "resource_id": 131, "text": "He has no fear of consequences." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "91" }
+  }
+}

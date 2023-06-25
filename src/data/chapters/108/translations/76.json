@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 76,
+      "text": "بىز ساڭا ھەقىقەتەن نۇرغۇن ياخشىلىقلارنى ئاتا قىلدۇق."
+    },
+    {
+      "resource_id": 76,
+      "text": "پەرۋەردىگارىڭ ئۈچۈن ناماز ئوقۇغىن ۋە قۇربانلىق قىلغىن."
+    },
+    {
+      "resource_id": 76,
+      "text": "ھەقىقەتەن سېنىڭ دۈشمىنىڭنىڭ نام ـ نىشانى قالمايدۇ."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Saleh",
+    "author_name": "Muhammad Saleh",
+    "filters": { "resource_id": 76, "chapter_number": "108" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 208, "text": "Beim Vormittag" },
+    { "resource_id": 208, "text": "und bei der Nacht, wenn alles still ist!" },
+    {
+      "resource_id": 208,
+      "text": "Dein Herr hat dich weder verlassen, noch verabscheut."
+    },
+    {
+      "resource_id": 208,
+      "text": "Wahrlich, das Jenseits ist besser für dich als das Diesseits."
+    },
+    {
+      "resource_id": 208,
+      "text": "Und wahrlich, dein Herr wird dir geben und du wirst wohlzufrieden sein."
+    },
+    {
+      "resource_id": 208,
+      "text": "Hat Er dich nicht als Waise gefunden und aufgenommen"
+    },
+    {
+      "resource_id": 208,
+      "text": "und dich auf dem Irrweg gefunden und richtig geführt"
+    },
+    {
+      "resource_id": 208,
+      "text": "und dich dürftig gefunden und reich gemacht?"
+    },
+    { "resource_id": 208, "text": "Darum unterdrücke nicht die Waise" },
+    { "resource_id": 208, "text": "und fahre nicht den Bettler an" },
+    {
+      "resource_id": 208,
+      "text": "und sprich überall von der Gnade deines Herrn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "93" }
+  }
+}

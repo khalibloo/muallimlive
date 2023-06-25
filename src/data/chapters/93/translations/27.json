@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Bei der Morgenhelle" },
+    { "resource_id": 27, "text": "und der Nacht, wenn sie (alles) umhüllt!" },
+    {
+      "resource_id": 27,
+      "text": "Dein Herr hat sich weder von dir verabschiedet noch haßt Er (dich)."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und das Jenseits ist wahrlich besser für dich als das Diesseits."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und dein Herr wird dir wahrlich geben, und dann wirst du zufrieden sein."
+    },
+    {
+      "resource_id": 27,
+      "text": "Hat Er dich nicht als Waise gefunden und (dir) dann Zuflucht verschafft"
+    },
+    {
+      "resource_id": 27,
+      "text": "und dich irregehend gefunden und dann rechtgeleitet"
+    },
+    {
+      "resource_id": 27,
+      "text": "und dich arm gefunden und dann reich gemacht?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Was nun die Waise angeht, so unterjoche (sie) nicht,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und was den Bettler angeht, so fahre (ihn) nicht an,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und was die Gunst deines Herrn angeht, so erzähle (davon)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "93" }
+  }
+}

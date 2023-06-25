@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 208,
+      "text": "Sprich: \"lch nehme meine Zuflucht beim Herrn der Menschen"
+    },
+    { "resource_id": 208, "text": "dem König der Menschen" },
+    { "resource_id": 208, "text": "dem Gott der Menschen" },
+    {
+      "resource_id": 208,
+      "text": "vor dem Übel des Einflüsterers, der entweicht und wiederkehrt"
+    },
+    {
+      "resource_id": 208,
+      "text": "der in die Herzen der Menschen einflüstert"
+    },
+    {
+      "resource_id": 208,
+      "text": "sei dieser aus den Ginn oder den Menschen\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "114" }
+  }
+}

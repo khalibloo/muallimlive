@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Viste quem desmente o Dia do Juízo?" },
+    { "resource_id": 103, "text": "Esse é o que repele o órfão," },
+    {
+      "resource_id": 103,
+      "text": "E não incitava ninguém a alimentar o necessitado.\""
+    },
+    { "resource_id": 103, "text": "Então, ai dos orantes" },
+    { "resource_id": 103, "text": "Que são distraídos de suas orações," },
+    {
+      "resource_id": 103,
+      "text": "Que, por ostentação, só querem ser vistos orando,"
+    },
+    { "resource_id": 103, "text": "E impedem o adjutório." }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "107" }
+  }
+}

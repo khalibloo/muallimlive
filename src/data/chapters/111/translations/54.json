@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 54,
+      "text": "ابولہب کے دونوں ہاتھ ٹوٹ گئے اور وه (خود) ہلاک ہو گیا.<sup foot_note=168354>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "نہ تو اس کا مال اس کے کام آیا اور نہ اس کی کمائی.<sup foot_note=168355>1</sup>"
+    },
+    { "resource_id": 54, "text": "وه عنقریب بھڑکنے والی آگ میں جائے گا." },
+    {
+      "resource_id": 54,
+      "text": "اور اس کی بیوی بھی (جائے گی،) جو لکڑیاں ڈھونے والی ہے.<sup foot_note=168356>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "اس کی گردن میں پوست کھجور کی بٹی ہوئی رسی ہوگی.<sup foot_note=168357>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "111" }
+  }
+}

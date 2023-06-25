@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 218, "text": "クライシュ族*の慣例に（、感嘆せよ）。¹" },
+    {
+      "resource_id": 218,
+      "text": "冬と夏の旅における彼らの慣例に（、感嘆せよ）。¹"
+    },
+    {
+      "resource_id": 218,
+      "text": "ならば彼らに、この館（カァバ神殿*）の主*を崇拝*させるのだ。"
+    },
+    {
+      "resource_id": 218,
+      "text": "空腹ゆえに食べ物を彼らにお授けになり、彼らを恐怖から安らげて下さった¹お方を。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Saeed Sato",
+    "author_name": "Saeed Sato",
+    "filters": { "resource_id": 218, "chapter_number": "106" }
+  }
+}

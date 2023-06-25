@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 118, "text": " كله چې د الله مدد راشي او فتح" },
+    {
+      "resource_id": 118,
+      "text": " او ته خلق ووینې چې د الله په دین كې ډلې ډلې داخلېږي"
+    },
+    {
+      "resource_id": 118,
+      "text": " نو ته پاكي بیانوه د خپل رب له ستاينې سره او له ده نه مغفرت غواړه، بېشكه دى تل ښه توبه قبلوونكى دى"
+    }
+  ],
+  "meta": {
+    "translation_name": "Zakaria Abulsalam",
+    "author_name": "Zakaria Abulsalam",
+    "filters": { "resource_id": 118, "chapter_number": "110" }
+  }
+}

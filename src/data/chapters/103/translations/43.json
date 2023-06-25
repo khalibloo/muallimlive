@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Pela era," },
+    { "resource_id": 43, "text": "Que o homem está na perdição," },
+    {
+      "resource_id": 43,
+      "text": "Salvo os fiéis, que praticam o bem, aconselham-se na verdade e recomendam-se, uns aos outros, a paciência e a perseverança!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "103" }
+  }
+}

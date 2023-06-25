@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 237,
+      "text": "Кажи [о, Мухаммад]: “Опазил ме Господът на хората,"
+    },
+    { "resource_id": 237, "text": "Владетелят на хората," },
+    { "resource_id": 237, "text": "Богът на хората," },
+    {
+      "resource_id": 237,
+      "text": "от злото на шепнещия съблазни [сатана], побягващия,"
+    },
+    { "resource_id": 237, "text": "който нашепва в гърдите на хората," },
+    { "resource_id": 237, "text": "[сатана] от джиновете и от хората!”" }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "114" }
+  }
+}

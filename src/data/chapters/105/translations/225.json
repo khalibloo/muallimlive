@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 225,
+      "text": "૧)   શું તમે ન જોયું, કે તમારા પાલનહારે હાથીવાળાઓ સાથે શું કર્યુ ?"
+    },
+    {
+      "resource_id": 225,
+      "text": "૨)   શું તેમની યુક્તિને નિષ્ફળ ન કરી દીધી ?"
+    },
+    {
+      "resource_id": 225,
+      "text": "૩)   અને તેમના ઉપર પક્ષીઓના ટોળે-ટોળા મોકલી દીધા."
+    },
+    {
+      "resource_id": 225,
+      "text": "૪)   જે તેમને માટી અને પત્થરની કાંકરીઓ મારી રહ્યા હતા."
+    },
+    {
+      "resource_id": 225,
+      "text": "૫)   બસ ! તેમને ખાધેલા ભુસા જેવા કરી નાખ્યા."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rabila Al-Umry",
+    "author_name": "Rabila Al-Umry",
+    "filters": { "resource_id": 225, "chapter_number": "105" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "¡Que sean destruidas las manos de Abu Lahab!, ¡que él sea destruido!<sup foot_note=150141>1</sup>"
+    },
+    {
+      "resource_id": 140,
+      "text": "De nada le servirán sus riquezas y sus hijos."
+    },
+    {
+      "resource_id": 140,
+      "text": "Entrará en el fuego llameante (del infierno)."
+    },
+    {
+      "resource_id": 140,
+      "text": "Y su esposa, que portaba espinas<sup foot_note=150142>1</sup> (para depositarlas en el camino del Profeta con el fin de herirlo),"
+    },
+    {
+      "resource_id": 140,
+      "text": "tendrá (en el infierno) alrededor de su cuello una soga hecha con fibras de hojas de palmera."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "111" }
+  }
+}

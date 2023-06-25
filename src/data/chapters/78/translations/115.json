@@ -1,0 +1,115 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "A kan mẽ suke tambayar jũna?" },
+    {
+      "resource_id": 115,
+      "text": "A kan muhimmin lãbãri mai girma (Alƙur'ãni)?"
+    },
+    { "resource_id": 115, "text": "Wanda suke sãɓa wa jũna a cikinsa?" },
+    { "resource_id": 115, "text": "A'aha! Zã su sani." },
+    { "resource_id": 115, "text": "Kuma, a'aha! Zã su sani." },
+    { "resource_id": 115, "text": "Ashe, ba Mu sanya ƙasa shimfiɗa ba?" },
+    { "resource_id": 115, "text": "Da duwãtsu turaku (ga riƙe ƙasa)?" },
+    { "resource_id": 115, "text": "Kuma, Mun halitta ku mazã da mãtã?" },
+    { "resource_id": 115, "text": "Kuma, Muka sanya barcinku hũtãwa?" },
+    { "resource_id": 115, "text": "Kuma, Muka sanya dare (ya zama) sutura?" },
+    {
+      "resource_id": 115,
+      "text": "Kuma, Muka sanya yini (yazama) lõkacin nẽman abinci?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, Muka gina, a samanku, sammai bakwai mãsu ƙarfi?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, Muka sanya fitila mai tsanin haske (rãnã)?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, Muka saukar daga cikakkun girãgizai, ruwa mai yawan zuba?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Dõmin, Mu fitar da ƙwaya da tsiri game da shi?"
+    },
+    { "resource_id": 115, "text": "Da itãcen lambuna mãsu lillibniya?" },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne, rãnar rarrabẽwa tã kasance abin ƙayyadẽ wa lõkaci."
+    },
+    {
+      "resource_id": 115,
+      "text": "Rãnar da zã a yi bũsa a cikin ƙaho, sai ku zo, jama'a jama'a."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, aka buɗe sama, sai ta kasance ƙõfõfi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, aka tafiyar da duwãtsu, sai suka kasance ƙũra."
+    },
+    { "resource_id": 115, "text": "Lalle ne, Jahannama tã kasance madãkata." },
+    { "resource_id": 115, "text": "Ga mãsu ƙẽtare iyãkõki, tã zama makõma." },
+    { "resource_id": 115, "text": "Sunã, mãsu zama a cikinta, zãmunna." },
+    {
+      "resource_id": 115,
+      "text": "Bã su ɗanɗanãwar wani sanyi a cikinta, kuma bã su ɗanɗana abin sha."
+    },
+    { "resource_id": 115, "text": "Fãce tafasasshen ruwa da ruɓaɓɓen jini." },
+    { "resource_id": 115, "text": "Sakamako mai dãcẽwa." },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne, sũ, sun kasance bã su fãtar sauƙin wani hisãbi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, suka ƙaryata game da ãyõyin Mu, ƙaryatãwa!"
+    },
+    {
+      "resource_id": 115,
+      "text": "Alhãli, kõwane abu Mun ƙididdigẽ shi, a rubũce."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sabõda haka, ku ɗanɗana domin haka, bã zã Mu ƙara muku kõme ba fãce azãba."
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne, mãsu taƙawã nã da wani wurin sãmun babban rabo."
+    },
+    { "resource_id": 115, "text": "Lambuna da inabõbi." },
+    { "resource_id": 115, "text": "Da yan Mata tsaraikun Juna" },
+    { "resource_id": 115, "text": "Da hinjãlan giya cikakku." },
+    {
+      "resource_id": 115,
+      "text": "Bã su jin yãsassar magana, a cikinta, kuma bã su jin ƙaryatãwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Dõmin sakamako daga Ubangijinka, kyautã mai yawa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Ubangijin sammai da ƙasa da abin da yake a tsakãninsu, Mai rahama, bã su da ikon yin wata magana daga gare Shi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Rãnar da Rũhi da malã'iku zã su tsaya a cikin safu, bã su magana, sai wanda Allah Ya yi masa izni, kuma ya faɗi abin da ke daidai."
+    },
+    {
+      "resource_id": 115,
+      "text": "Wancan, shi ne yini na gaskiya; to wanda ya so, ya riƙa makõma zuwa ga Ubangijinsa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne, Mũ, Mun yi muku gargaɗin azãba makusanciya, rãnar da mutum ke dũbi zuwa ga abin da hannãyensa suka aikata, kuma kafiri ya ce: \"Kaitona, dã dai nã zama turɓãya!\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "78" }
+  }
+}

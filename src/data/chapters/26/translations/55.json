@@ -1,0 +1,809 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "To. Siyn. Miym." },
+    { "resource_id": 55, "text": "Bular ochiq kitobning oyatlaridir." },
+    {
+      "resource_id": 55,
+      "text": "Ehtimol, (ular) mo`min bo`lmaganlari uchun sen o`zingni halok qilmoqchidirsan?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Agar xohlasak, ularga osmondan oyat-mo`'jiza nozil qilamiz. Bas, ularning bo`yinlari unga egilib qoladir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ularga Rohmandan yangi eslatma kelibdiki, albatta, undan yuz o`girguvchi bo`lganlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, batahqiq, yolg`onga chiqardilar. Yaqinda ularga o`zlari istehzo qilgan narsaning xabari kelajakdir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular yerga qaramaydilarmi?! Biz unda karamli juftlardan qanchalarini undirib qo`yibmiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmaslar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    { "resource_id": 55, "text": "Robbing Musoga: «U zolim qavmga borgin." },
+    {
+      "resource_id": 55,
+      "text": "Fir'avn qavmiga. (Bizdan) qo`rqmaydilarmi?!» deb nido qilganini esla."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Ey Robbim, ular meni yolg`onchi qilishlaridan qo`rqarman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va dilim siqilishidan hamda tilim burro bo`lmay qolishidan. Bas, Horunni elchi qil."
+    },
+    {
+      "resource_id": 55,
+      "text": "Mening zimmamda ular nazdida gunoh bor. Bas, meni o`ldirishlaridan xavfdaman», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U zot: «Yo`q! Bas, ikkingiz Bizning oyat-mo`'jizalarimiz ila boringlar. Albatta, Biz ikkingiz bilan eshitguvchimiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Fir'avnga boringlar va unga: «Biz Robbul olamiynning Payg`ambarlarimiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bani Isroilni biz bilan qo`yib yubor», deb aytinglar, dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U (Fir'avn): «Biz seni go`dakligingdan o`z ichimizda tarbiya qilmadikmi?! Umringning bir necha yilini bizning ichimizda o`tkazmadingmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va nonko`rlardan bo`lib, qiladigan ishingni qilib qo`ymadingmi?!» dedi.<sup foot_note=\"170348\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "U (Muso): «O`sha ishni qilgan bo`lsam, bilmasdan qilganman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, sizlardan xavfsirab qochib ketdim. Keyin Alloh menga hikmat berdi va meni Payg`ambarlardan qildi.<sup foot_note=\"170349\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`sha menga qilayotgan minnating Bani Isroilni qul qilib olganingdandir», dedi."
+    },
+    { "resource_id": 55, "text": "Fir'avn: «Robbul olamiyn nima?» dedi." },
+    {
+      "resource_id": 55,
+      "text": "U (Muso): «Agar anglamoqchi bo`lsangiz, U, osmonlaru yer va ularning orasidagi narsalarning Robbidir», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U (Fir'avn) atrofidagi kishilarga: «Eshitmayapsizlarmi?!» dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Sizning Robbingiz va avvalgi ota-bobolaringizning Robbidir», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Albatta, sizga yuborilgan Payg`ambaringiz jinnidir», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «U zot, agar aql yuritsangiz, mashriqu mag`ribning va ular o`rtasidagi narsalarning Robbidir», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Agar mendan boshqani iloh qilib olsang, albatta, men seni zindonbandlardan qilurman», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Agar men senga ochiq-oydin narsa keltirsam ham-a?» dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Agar rostgo`ylardan bo`lsang, keltir uni!» dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, u (Muso) asosini tashladi. Banogoh u aniq ajdarga aylandi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va qo`lini chiqardi. Banogoh u nazar qilguvchilarga oppoq ko`rindi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U (Fir'avn) atrofidagi a'yonlariga: «Albatta, bu o`ta bilimdon sehrgardir."
+    },
+    {
+      "resource_id": 55,
+      "text": "U o`z sehri bilan sizlarni yeringizdan chiqarmoqchi, nima deysizlar?» dedi.<sup foot_note=\"170350\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Uni va akasini qo`yib turgin-da, shaharlarga to`plovchilarni yubor."
+    },
+    {
+      "resource_id": 55,
+      "text": "Senga barcha o`ta bilimdon sehrgarlarni olib kelsinlar», dedilar.<sup foot_note=\"170351\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, sehrgarlar ma'lum kuni kelishilgan vaqtda jamlandilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va odamlarga: «Sizlar to`planib bo`ldingizmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ajab ermas, ustun kelsalar, sehrgarlarga ergashsak», deyildi.<sup foot_note=\"170352\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Sehrgarlar kelgan chog`larida Fir'avnga: «Agar biz g`olib kelguvchi bo`lsak, bizga, albatta, haq beriladimi?» dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Ha! U holda siz, albatta, eng yaqinlarimdan bo`lasiz», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Muso ularga: «Siz tashlaydigan narsangizni tashlang», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ular arqonlari va asolarini tashladilar va «Fir'avnning izzati bilan qasamki, albatta, biz g`oliblarmiz», dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra Muso asosini tashlagan edi, birdan u ularning uydirmalarini yuta boshladi.<sup foot_note=\"170353\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, sehrgarlar sajda qilgan hollarida yiqildilar."
+    },
+    { "resource_id": 55, "text": "Ular: «Robbul olamiynga iymon keltirdik." },
+    { "resource_id": 55, "text": "Muso va Horunning Robbiga», dedilar." },
+    {
+      "resource_id": 55,
+      "text": "U: «Men sizga izn bermasimdan oldin unga iymon keltirdingiz! Albatta, u sizga sehr o`rgatgan kattangizdir! Endi tezda bilasiz, men, albatta, qo`l-oyog`ingizni qarama-qarshi tomonidan kesajakman va barchangizni osajakman», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Zarari yo`q. Albatta, biz Robbimizga qaytguvchimiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Mo`minlarning avvalgisi bo`lganimiz uchun Robbimiz xatolarimizni kechirishidan umid qilamiz», dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va Musoga: «Bandalarim bilan kechasi yo`lga chiq. Albatta, ta'qib etilursiz», deb vahiy yubordik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Fir'avn shaharlarga to`plovchilar yubordi:"
+    },
+    { "resource_id": 55, "text": "«Shubhasiz, anavilar ozgina toifadirlar." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, ular bizni g`azablantirguvchilardir."
+    },
+    { "resource_id": 55, "text": "Albatta, biz hammamiz hushyormiz», deb." },
+    {
+      "resource_id": 55,
+      "text": "Bas, Biz ularni chiqardik, bog`-rog`lar va buloqlardan."
+    },
+    {
+      "resource_id": 55,
+      "text": "Xazinalar va muhtaram maskandan.<sup foot_note=\"170354\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ana shunday. O`sha(narsa)larni Bani Isroilga meros qilib berdik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ularni quyosh chiqish paytida quvib yetdilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ikki jamoat bir-birlarini ko`rgan chog`ida, Musoning odamlari: «Endi qo`lga tushdik», dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U (Muso): «Yo`q! Albatta, Robbim men bilan, U menga to`g`ri yo`lni ko`rsatur», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Biz Musoga: «Asoing bilan dengizni ur», deb vahiy qildik. Bas, u (dengiz) bo`linib, har bo`lagi ulkan tog`dek bo`ldi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va keyin boshqalarni ham yaqinlashtirdik.<sup foot_note=\"170355\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Muso va unga ergashganlarga, hammalariga najot berdik."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra boshqalarni g`arq qildik.<sup foot_note=\"170356\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    {
+      "resource_id": 55,
+      "text": "Va ularga Ibrohimning xabarini tilovat qilib ber."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shanda u otasi va qavmiga: «Nimaga ibodat qilmoqdasizlar?» degan edi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Sanamlarga ibodat qilmoqdamiz. Va ularga ixlos ila ibodat qilishda bardavom bo`lurmiz», dedilar.<sup foot_note=\"170357\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Iltijo qilganingizda ular sizni eshitadilarmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Yoxud naf yoki zarar yetkaza oladilarmi?» dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Yo`q, biz ota-bobolarimizning shunday qilayotganlarini ko`rdik», dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Nimaga ibodat qilayotganingizni bildingizmi?!"
+    },
+    { "resource_id": 55, "text": "Siz va qadimgi otalaringiz?!" },
+    {
+      "resource_id": 55,
+      "text": "Albatta, Robbul olamiyndan boshqa ularning barchasi menga dushmandir», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "U meni yaratgan Zotdir. Bas, meni hidoyat qiladigan ham Uning O`zi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va meni taomlantiradigan va sug`oradigan ham Uning O`zi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bemor bo`lganimda menga shifo beradigan ham Uning O`zi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Meni o`ldiradigan, so`ngra tiriltiradigan ham Uning O`zi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va mening xatoimni qiyomat kuni mag`firat qilishidan umidvor bo`lganim ham Uning O`zi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ey Robbim, menga hikmat hadya et va meni solihlarga qo`shgin."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va menga keyin kelguvchilar ichida sodiq maqtovlar bo`ladigan qilgin.<sup foot_note=\"169656\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va meni na'iym jannati vorislaridan qilgin."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va otamni mag`firat qil. Albatta, u adashganlardan bo`ldi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va qayta tiriltiriladigan kunda meni sharmanda qilmagin."
+    },
+    {
+      "resource_id": 55,
+      "text": "U kunda na mol manfaat berar va na bolalar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Magar, kim Alloh huzuriga toza qalb ila kelsa, (manfaat topar)."
+    },
+    { "resource_id": 55, "text": "Va jannat taqvodorlarga yaqinlashtirildi." },
+    { "resource_id": 55, "text": "Jahiym ig`voga uchganlarga zohir qilindi." },
+    {
+      "resource_id": 55,
+      "text": "Va ularga: «Ibodat qilib yurgan narsalaringiz qani?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Allohdan o`zga. Ular sizga yordam bera olurlarmi yoki o`zlarini qutqara olurlarmi?!» deyildi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ular, ig`voga uchganlar unga yuztuban tashlandilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va iblisning askarlari hammalari birgalikda."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular uning ichida bir-birlari ila xusumat qilar ekanlar, dedilar:"
+    },
+    {
+      "resource_id": 55,
+      "text": "«Allohga qasamki, albatta, biz ochiq-oydin adashuvda ekanmiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Chunki, sizlarni Robbul olamiynga tenglashtirardik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bizni faqat jinoyatchilar yo`ldan ozdirdilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Mana endi biz uchun shafoatchilar ham yo`q."
+    },
+    { "resource_id": 55, "text": "Biron qadrdon do`st ham yo`q." },
+    {
+      "resource_id": 55,
+      "text": "Qani endi ortga qaytsagu mo`minlardan bo`lsak.»"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi azizu mehribondir." },
+    {
+      "resource_id": 55,
+      "text": "Nuh qavmi Payg`ambarlarni yolg`onchi qildi."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shanda ularga birodarlari Nuh dedi: «Qo`rqmaysizmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, men sizlarga ishonchli Payg`ambarman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Men sizlardan buning uchun haq — ajr so`ramayman. Mening ajrim faqatgina Robbul olamiynning zimmasidadir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar»."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Senga pastkashlar ergashib turgan holda, biz senga iymon keltirarmidik?!» dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U dedi: «Mening ular nima qilayotganlari haqida ilmim yo`q."
+    },
+    {
+      "resource_id": 55,
+      "text": "Agar sezsangiz, ularning hisobi faqat Allohning zimmasidadir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va men mo`minlarni haydab yuborguvchi emasman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Men faqat ochiq-oydin ogohlantirguvchiman, xolos»."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Ey Nuh, agar to`xtamasang, albatta, toshbo`ron qilinganlardan bo`lasan», dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Ey Robbim, shubhasiz, qavmim meni yolg`onchi qildilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, O`zing men bilan ularning oramizni yaxshilab ochgin va menga hamda men bilan birga bo`lgan mo`minlarga najot bergin», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Biz unga va u bilan birga bo`lganlarga to`lgan kemada najot berdik."
+    },
+    { "resource_id": 55, "text": "So`ngra, qolganlarni g`arq qildik." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    { "resource_id": 55, "text": "Od qavmi Payg`ambarlarni yolg`onchi qildi." },
+    {
+      "resource_id": 55,
+      "text": "O`shanda ularga birodarlari Hud dedi: «Qo`rqmaysizlarmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, men sizlarga ishonchli Payg`ambarman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Men sizlardan buning uchun haq — ajr so`ramasman. Mening ajrim faqatgina Robbul olamiyn zimmasidadir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Har tepalikka bir belgi bo`ladigan bino qurib, behuda o`yin qilaverasizmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va xuddi mangu turajakdek «masna'lar» tutasiz.<sup foot_note=\"170358\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Tutganingizda o`ta jabrchi bo`lib tutdingiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqing va menga itoat qiling."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sizga o`zingiz bilgan narsa ila madad bergan Zotdan qo`rqing."
+    },
+    {
+      "resource_id": 55,
+      "text": "U sizlarga chorva hayvonlari va farzandlar ila madad berdi."
+    },
+    { "resource_id": 55, "text": "Bog`-rog`lar va buloqlar ila." },
+    {
+      "resource_id": 55,
+      "text": "Men, albatta, sizga ulug` kunning azobi kelishidan qo`rqaman»."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Biz uchun va'z qilsang ham yoki va'z qilguvchilardan bo`lmasang ham — bari bir."
+    },
+    { "resource_id": 55, "text": "Bu eskilarning odati, xolos." },
+    {
+      "resource_id": 55,
+      "text": "Biz azoblanguvchi emasmiz», dedilar.<sup foot_note=\"170359\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular u(Hud)ni yolg`onchi qildilar. Bas, Biz ularni halok qildik. Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    {
+      "resource_id": 55,
+      "text": "Samud (qavmi) Payg`ambarlarni yolg`onchi qildi."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shanda ularga birodarlari Solih dedi: «Qo`rqmaysizlarmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, men sizlarga ishonchli Payg`ambarman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Men sizlardan buning uchun haq — ajr so`ramayman. Mening ajrim faqatgina Robbul olamiyn zimmasidadir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Siz bu joydagi narsalarda omon holda tark qilinasizmi?!"
+    },
+    { "resource_id": 55, "text": "Bog`-rog`larda, buloqlarda?!" },
+    { "resource_id": 55, "text": "Ekinzorlaru mayin xurmozor ichlarida-ya?!" },
+    {
+      "resource_id": 55,
+      "text": "Va tog`lardan manmanlik-la uylar yo`naverasizmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va yer yuzida isrofchilarning ishiga itoat qilmanglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Yer yuzida buzg`unchilik qiladigan, isloh etmaydiganlarning»."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Sen, albatta, sehrlanganlardandirsan."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sen bizga o`xshagan bashardan boshqa hech narsa emassan. Agar rostgo`ylardan bo`lsang, mo`'jiza keltir», dedilar.<sup foot_note=\"170360\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Mana bu tuya. Unga (bir kun) suv ichish va sizga ma'lum bir kun suv ichish."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va unga yomonlik yetkazmanglar, unda, sizni ulug` kunning azobi tutadir», dedi.<sup foot_note=\"170361\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, u(tuya)ni so`ydilaru nadomat chekuvchiga aylandilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ularni azob tutdi. Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    {
+      "resource_id": 55,
+      "text": "Lut qavmi Payg`ambarlarni yolg`onchi qildi."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shanda ularga birodarlari Lut dedi: «Qo`rqmaysizlarmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, men sizlarga ishonchli Payg`ambarman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Men sizlardan buning uchun haq — ajr so`ramasman. Mening ajrim faqatgina Robbul olamiyn zimmasidadir."
+    },
+    { "resource_id": 55, "text": "Olamlar ichidan erkaklarga borasizmi?!" },
+    {
+      "resource_id": 55,
+      "text": "Va Robbingiz siz uchun yaratgan jufti halollaringizni tark qilasizmi?! Yo`q!!! Siz haddan oshgan qavmsiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular: «Ey Lut, agar to`xtamasang, albatta, haydab chiqarilganlardan bo`lasan!» dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Albatta, men bu ishingizni o`ta yomon ko`rguvchilardanman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ey Robbim, menga va ahlimga qilayotgan narsalaridan najot bergin!» dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, unga va ahliga, hammalariga najot berdik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Magar (azobda) qolguvchilardan bo`lgan bir kampirga (najot bermadik)."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra qolganlarini yer bilan yakson qildik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va ularning ustiga bir yomg`ir yog`dirdikki, bas, ogohlantirilganlarning yomg`iri qandoq ham yomon bo`ldi.<sup foot_note=\"170362\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    {
+      "resource_id": 55,
+      "text": "Qalin daraxtzor egalari Payg`ambarlarni yolg`onchi qildilar.<sup foot_note=\"170363\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shanda ularga Shu'ayb dedi: «Qo`rqmaysizlarmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, men sizlarga ishonchli Payg`ambarman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Allohdan qo`rqinglar va menga itoat qilinglar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Men sizlardan buning uchun haq — ajr so`ramasman. Mening ajrim faqatgina Robbul olamiyn zimmasidadir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, o`lchovni to`liq o`lchanglar va kamaytirguvchilardan bo`lmanglar."
+    },
+    { "resource_id": 55, "text": "Va to`g`ri tarozi ila torting." },
+    {
+      "resource_id": 55,
+      "text": "Odamlarning narsalarini kamaytirib bermang. Yer yuzida turli buzg`unchiliklar qilmang."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sizni va avvalgi nasllarni yaratgan Zotdan qo`rqing»."
+    },
+    { "resource_id": 55, "text": "Ular: «Albatta, sen sehrlanganlardansan." },
+    {
+      "resource_id": 55,
+      "text": "Va sen bizga o`xshagan bashardan boshqa narsa emassan. Biz seni, albatta, yolg`onchilardan, deb bilamiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Agar rostgo`ylardan bo`lsang, ustimizdan osmonning bir bo`lagini tashlavor», dedilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U : «Robbim qilayotgan ishingizni o`ta yaxshi bilguvchidir», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ular u(Shu'ayb)ni yolg`onchi qildilar. Bas, ularni «soyabon» kuni azobi tutdi. Albatta, u ulug` kunning azobi edi.<sup foot_note=\"170364\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, bunda oyat-belgi bor. Lekin ko`plari mo`min bo`lmadilar."
+    },
+    { "resource_id": 55, "text": "Albatta, Robbing O`zi aziyzu mehribondir." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u(Qur'on) Robbul olamiynning tushirganidir."
+    },
+    { "resource_id": 55, "text": "Uni Ruhul Amiyn olib tushdi." },
+    {
+      "resource_id": 55,
+      "text": "Sening qalbingga, ogohlantirguvchilardan bo`lishing uchun."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ochiq-oydin arab tilida.<sup foot_note=\"170365\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u(Qur'on) avvalgilarning kitoblarida ham bordir.<sup foot_note=\"170366\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Uni Bani Isroil ulamolarining bilishlari ular uchun dalil emasmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Agar Biz uni ba'zi ajamiylarga nozil qilsak."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, u ularga uni o`qib bersa ham, unga mo`min bo`lmas edilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Biz u(Qur'on)ni jinoyatchilar qalblariga ana shunday yo`lladik.<sup foot_note=\"170367\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular unga to alamli azobni ko`rmagunlaricha iymon keltirmaslar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ularga u(azob) to`satdan kelur. Ular sezmay qolurlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Shunda ular: «Bizga muhlat berilarmikan?!» deydilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bizning azobimizning tezroq kelishini istaydilarmi-ya?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Aytging-chi, agar Biz ularni yillarcha huzurlantirsak-da."
+    },
+    { "resource_id": 55, "text": "So`ngra ularga va'da qilingan narsa kelsa." },
+    {
+      "resource_id": 55,
+      "text": "O`sha huzurlanib yurgan narsalari nimaga asqotur?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Biz biron shahar-qishloqni halok qilgan bo`lsak, albatta, uning ogohlantirguvchilari bo`lgan."
+    },
+    {
+      "resource_id": 55,
+      "text": "Eslatma bo`lishi uchundir. Biz zulm qilguvchi bo`lmagandik."
+    },
+    {
+      "resource_id": 55,
+      "text": "U(Qur'on)ni shaytonlar olib tushganlari yo`q.<sup foot_note=\"170368\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Bunga ularning imkonlari yo`q va unga qodir ham emaslar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, ular eshitishdan chetlatilgandirlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Alloh bilan birga boshqa ilohga iltijo qilma. Yo`qsa, azoblanganlardan bo`lasan.<sup foot_note=\"170369\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Va yaqin qarindoshlaringni ogohlantir." },
+    {
+      "resource_id": 55,
+      "text": "Va senga ergashgan mo`minlarga qanotingni pastlat."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, agar ular senga isyon qilsalar: «Men siz qilayotgan amallardan bezorman», degin."
+    },
+    { "resource_id": 55, "text": "Va aziyz va mehribon Zotga tavakkal qil:" },
+    { "resource_id": 55, "text": "Seni qoim bo`lganingda ko`radigan." },
+    {
+      "resource_id": 55,
+      "text": "Va sajda qilguvchilar ichida harakatlanishingni (ko`radigan) Zotga.<sup foot_note=\"170370\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, Uning O`zi o`ta eshitguvchi va o`ta bilguvchi Zotdir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sizlarga shaytonlar kimga tushishini aytib beraymi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular o`ta uydirmachi va o`ta gunohkorlarga tushurlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular (shaytonlarga) quloq osarlar. Va ularning ko`plari yolg`onchilardir."
+    },
+    { "resource_id": 55, "text": "Va shoirlarga gumrohlar ergashur." },
+    { "resource_id": 55, "text": "Ularning har vodiyda daydishini." },
+    {
+      "resource_id": 55,
+      "text": "Va o`zlari qilmaydigan ishlarni aytishini ko`rmadingmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Magar, iymon keltirib, solih amallar qilganlar, Allohni ko`p zikr etganlar va mazlum bo`lganlaridan keyin nusrat qozonganlar (unday emaslar). Zulm qilganlar esa, tezda qaysi ag`darilish joyiga ag`darilishlarini bilurlar.<sup foot_note=\"170371\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "26" }
+  }
+}

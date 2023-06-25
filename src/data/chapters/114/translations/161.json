@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 161,
+      "text": "বল, ‘আমি আশ্রয় চাচ্ছি মানুষের প্রতিপালকের,"
+    },
+    { "resource_id": 161, "text": "মানুষের অধিপতির," },
+    { "resource_id": 161, "text": "মানুষের প্রকৃত ইলাহর," },
+    {
+      "resource_id": 161,
+      "text": "যে নিজেকে লুকিয়ে রেখে বার বার এসে কুমন্ত্রণা দেয় তার অনিষ্ট হতে,"
+    },
+    { "resource_id": 161, "text": "যে কুমন্ত্রণা দেয় মানুষের অন্তরে" },
+    {
+      "resource_id": 161,
+      "text": "(এই কুমন্ত্রণাদাতা হচ্ছে) জিন্নের মধ্য হতে এবং মানুষের মধ্য হতে।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Taisirul Quran",
+    "author_name": "Tawheed Publication",
+    "filters": { "resource_id": 161, "chapter_number": "114" }
+  }
+}

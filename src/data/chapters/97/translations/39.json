@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 39,
+      "text": "Sesungguhnya Kami telah menurunkan (Al-Quran) ini pada Malam Lailatul-Qadar,"
+    },
+    {
+      "resource_id": 39,
+      "text": "Dan apa jalannya engkau dapat mengetahui apa dia kebesaran Malam Lailatul-Qadar itu?"
+    },
+    {
+      "resource_id": 39,
+      "text": "Malam Lailatul-Qadar lebih baik daripada seribu bulan."
+    },
+    {
+      "resource_id": 39,
+      "text": "Pada Malam itu, turun malaikat dan Jibril dengan izin Tuhan mereka, kerana membawa segala perkara (yang ditakdirkan berlakunya pada tahun yang berikut);"
+    },
+    {
+      "resource_id": 39,
+      "text": "Sejahteralah Malam (yang berkat) itu hingga terbit fajar!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Muhammad Basmeih",
+    "author_name": "Abdullah Muhammad Basmeih",
+    "filters": { "resource_id": 39, "chapter_number": "97" }
+  }
+}

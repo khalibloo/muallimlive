@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 54,
+      "text": "یقیناً ہم نے تجھے (حوض) کوﺛر (اور بہت کچھ) دیا ہے.<sup foot_note=168346>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "پس تو اپنے رب کے لئے نماز پڑھ اور قربانی کر.<sup foot_note=168347>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "یقیناً تیرا دشمن ہی ﻻوارث اور بے نام ونشان ہے.<sup foot_note=168348>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "108" }
+  }
+}

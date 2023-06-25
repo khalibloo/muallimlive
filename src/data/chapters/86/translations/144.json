@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Bij de hemel en de verlichtende ster." },
+    {
+      "resource_id": 144,
+      "text": "En wat doet jou weten wat de verlichtende ster is?"
+    },
+    { "resource_id": 144, "text": "De doordringende ster." },
+    {
+      "resource_id": 144,
+      "text": "Voorwaar, er is geen ziel of er is een bewaker over aangesteld."
+    },
+    {
+      "resource_id": 144,
+      "text": "Laat de mens er daarom over denken waarvan hij geschapen is."
+    },
+    { "resource_id": 144, "text": "Geschapen is hij van een spurtend water." },
+    {
+      "resource_id": 144,
+      "text": "Dat komt van tussen de lendenen en de ribben."
+    },
+    {
+      "resource_id": 144,
+      "text": "Voorwaar, Hij heeft zeker macht over zijn terugkeer."
+    },
+    { "resource_id": 144, "text": "Op de Dag dat de harten beproefd worden." },
+    { "resource_id": 144, "text": "Dan heeft hij geen kracht en geen helper." },
+    { "resource_id": 144, "text": "Bij de hemel, regen bevattend." },
+    { "resource_id": 144, "text": "En bij de aarde, planten bevattend." },
+    {
+      "resource_id": 144,
+      "text": "Voorwaar, hij (de Koran) is zeker een beslissend Woord."
+    },
+    { "resource_id": 144, "text": "En hij bevat geen scherts." },
+    { "resource_id": 144, "text": "Voorwaar, zij beramen een plan." },
+    { "resource_id": 144, "text": "En Ik beraam een plan." },
+    {
+      "resource_id": 144,
+      "text": "Geef daarom de ongelovigen uitstel, geef hun even uitstel."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "86" }
+  }
+}

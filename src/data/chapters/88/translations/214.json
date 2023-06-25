@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 214,
+      "text": "Da li je doprla do tebe vijest o Općoj nevolji?"
+    },
+    { "resource_id": 214, "text": "Neka lica Dan taj bit će potištena," },
+    { "resource_id": 214, "text": "premorena, napaćena," },
+    { "resource_id": 214, "text": "u vatri užarenoj pržena," },
+    { "resource_id": 214, "text": "sa vrela uzavrelog napajana," },
+    { "resource_id": 214, "text": "kada drugog jela osim trnja neće imati," },
+    { "resource_id": 214, "text": "koje neće ni ugojiti ni glad utoliti." },
+    { "resource_id": 214, "text": "Neka lica Dan taj bit će radosna," },
+    { "resource_id": 214, "text": "trudom svojim zadovoljna," },
+    { "resource_id": 214, "text": "u Džennetu visokome," },
+    { "resource_id": 214, "text": "u kojem prazne besjede neće slušati!" },
+    { "resource_id": 214, "text": "U njemu su izvor-vode koje teku," },
+    { "resource_id": 214, "text": "u njemu su divani uzdignuti," },
+    { "resource_id": 214, "text": "i pehari postavljeni," },
+    { "resource_id": 214, "text": "i jastuci poredani" },
+    { "resource_id": 214, "text": "i ćilimi rašireni." },
+    {
+      "resource_id": 214,
+      "text": "Pa, zašto oni ne gledaju kamilu – kako je stvorena,"
+    },
+    { "resource_id": 214, "text": "i nebo – kako je uzdignuto," },
+    { "resource_id": 214, "text": "i planine – kako su postavljene," },
+    { "resource_id": 214, "text": "i Zemlju – kako je prostrta?!" },
+    {
+      "resource_id": 214,
+      "text": "Ti upozoravaj, ti samo i jesi upozoritelj,"
+    },
+    { "resource_id": 214, "text": "ti nisi onaj koji ih prisiljava!" },
+    { "resource_id": 214, "text": "A onoga koji se okreće i ne vjeruje," },
+    { "resource_id": 214, "text": "njega će Allah najvećom patnjom kazniti." },
+    { "resource_id": 214, "text": "Nama će se oni, zaista, vratiti." },
+    {
+      "resource_id": 214,
+      "text": "A potom, na Nama je, doista, da račun njihov svedemo!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "88" }
+  }
+}

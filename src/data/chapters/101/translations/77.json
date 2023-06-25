@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "Gürültü koparacak olan" },
+    { "resource_id": 77, "text": "Nedir o gürültü koparacak olan?" },
+    {
+      "resource_id": 77,
+      "text": "O gürültü koparacak olanın ne olduğunu sen bilir misin?"
+    },
+    {
+      "resource_id": 77,
+      "text": "O gün insanlar, ateş etrafında çırpınıp dökülen pervaneye dönecekler."
+    },
+    { "resource_id": 77, "text": "Dağlar, atılmış renkli yüne benzeyecekler." },
+    {
+      "resource_id": 77,
+      "text": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır."
+    },
+    { "resource_id": 77, "text": "Tartıları hafif gelenler ise," },
+    { "resource_id": 77, "text": "Onların yeri bir çukurdur." },
+    { "resource_id": 77, "text": "O çukurun ne olduğunu sen bilir misin?" },
+    { "resource_id": 77, "text": "O, kızgın bir ateştir." }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "101" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 798,
+      "text": "Mulina lya Allah, Jwaukoto wejinji, Jwachanasa channope."
+    },
+    {
+      "resource_id": 798,
+      "text": "Lumbili losope lwene alapikwe Allah, M'mbuje jwa iwumbe yosope.<sup foot_note=195252>1</sup>"
+    },
+    { "resource_id": 798, "text": "Jwaukoto wejinji, Jwachanasa channope." },
+    { "resource_id": 798, "text": "Nsyene Lisiku Lyamalipilo." },
+    {
+      "resource_id": 798,
+      "text": "Kwele Jikape tukwagalagatila, soni Kwele Jikape tukwaŵenda chikamuchisyo."
+    },
+    {
+      "resource_id": 798,
+      "text": "Tujongolelani kwitala lyagoloka.<sup foot_note=195253>1</sup>"
+    },
+    {
+      "resource_id": 798,
+      "text": "Litala lya aŵala ŵanya ŵamwapele chindimba,<sup foot_note=195254>1</sup> ngaŵaga ŵaŵatumbililidwe (aŵala ŵaŵaimanyi yakuona nikuileka), kapena ŵaŵasokonechele (aŵala ŵaŵailesile yakuona ligongo lya ujinga ni kupotela)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "1" }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Warra (safara) hir’isuuf badiin haa ta’u!" },
+    {
+      "resource_id": 111,
+      "text": "Isaan yeroo namoota irraa safaratan guuchisiifatan,"
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo namootaaf safaran yookiin madaalan immoo hir’isan."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila isaan sun kaafamuu isaanii hin yaadanii?"
+    },
+    { "resource_id": 111, "text": "Guyyaa guddaadhaaf." },
+    {
+      "resource_id": 111,
+      "text": "Guyyaa namni Gooftaa aalamaatiif dhaabbatu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, galmeen badii hojjattootaa Sijjiin keessa ta'a."
+    },
+    {
+      "resource_id": 111,
+      "text": "\"Sijjiin\" maal akka ta'e maaltu si beeksise?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Kitaaba barreeffamaadha (dalagaa yakkamtootaatu irratti barreeffama)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Kijibsiiftotaaf Guyyaa san badiin mirkanaa’e."
+    },
+    { "resource_id": 111, "text": "Isaan guyyaa murtii sobsiisaniif." },
+    {
+      "resource_id": 111,
+      "text": "Daangaa darbitoota dilaawoo cufa ta’e malee namni isa kijibsiisu hin jiru."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo keeyyattoonni Keenya isaan irratti qara'amte\"ogbarruu warra duriiti\" jedha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Haa dhorgamanu! Dhugumatti wanti isaan hojjataa turan onnee isaanii haguuge."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhagayaa! Isaan guyyaa san Gooftaa isaanii irraa haguugamoodha."
+    },
+    { "resource_id": 111, "text": "Ergasii isaan ibidda galtoota." },
+    {
+      "resource_id": 111,
+      "text": "Ergasii \"inni kun isa isin sobsiisaa turtan\" jedhama."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, galmeen toltuu hojjattootaa Illiyyiin keessa ta'a."
+    },
+    {
+      "resource_id": 111,
+      "text": "\"Illiyyiin\" maal akka ta'e maaltu si beeksise?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Kitaaba barreeffamaadha (hojii warra Rabbitti amaneetu irratti barreeffame)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Warra Rabbitti dhiheeffamantu itti hirmaata."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, toltuu hojjattoonni qananii keessa jiraatu."
+    },
+    { "resource_id": 111, "text": "Sireewwan irra (taa'anii) ilaalu." },
+    {
+      "resource_id": 111,
+      "text": "Fuula isaanii keessatti ifina qananii ni beekta."
+    },
+    { "resource_id": 111, "text": "Farsoo qadaadamaa irraa obaafamu." },
+    {
+      "resource_id": 111,
+      "text": "Dhumti isaa miskiidha; sana keessatti warri wal dorgoman wal haa dorgoman."
+    },
+    { "resource_id": 111, "text": "Makaan isaas ‘Tasniim’ irraayi." },
+    {
+      "resource_id": 111,
+      "text": "(Tasniim) laga warri Rabbitti dhiheeffaman dhuganiidha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, isaan dilaawan isaan amananitti kolfaa turan."
+    },
+    { "resource_id": 111, "text": "Yeroo isaan bira dabran wal akeeku." },
+    {
+      "resource_id": 111,
+      "text": "Yeroo gara maatii isaanii deebi'anis gammadaa deebi’u."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo isaan arganis \"dhugumatti, isaan kun jallattoota\" jedhu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Haala to'attoota ta'anii isaan irratti hin ergaminiin."
+    },
+    {
+      "resource_id": 111,
+      "text": "Har’a (guyyaa kaafamiinsaa) isaan amanantu kaafirootatti kolfa."
+    },
+    { "resource_id": 111, "text": "Sireewwan irra (ta'anii) ilaalu." },
+    {
+      "resource_id": 111,
+      "text": "\"Sila kaafiroonni waan dalagaa turan mindeffamaniiruu?” [jedhu]"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "83" }
+  }
+}

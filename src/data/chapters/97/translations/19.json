@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "Lo! We revealed it on the Night of Predestination."
+    },
+    {
+      "resource_id": 19,
+      "text": "Ah, what will convey unto thee what the Night of Power is!"
+    },
+    {
+      "resource_id": 19,
+      "text": "The Night of Power is better than a thousand months."
+    },
+    {
+      "resource_id": 19,
+      "text": "The angels and the Spirit descend therein, by the permission of their Lord, with all decrees."
+    },
+    {
+      "resource_id": 19,
+      "text": "(The night is) Peace until the rising of the dawn."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "97" }
+  }
+}

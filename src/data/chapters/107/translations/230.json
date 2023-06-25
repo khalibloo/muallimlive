@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 230,
+      "text": "[1] เจ้าเห็นแล้วมิใช่หรือผู้ที่ปฏิเสธการตอบแทน (ในปรโลก)"
+    },
+    { "resource_id": 230, "text": "[2] นั่นก็คือผู้ที่ขับไล่เด็กกำพร้า" },
+    {
+      "resource_id": 230,
+      "text": "[3] และไม่สนับสนุนในการให้อาหารแก่ผู้ขัดสน"
+    },
+    {
+      "resource_id": 230,
+      "text": "[4] ดังนั้น ความหายนะจงมีแด่บรรดาผู้ทำละหมาด"
+    },
+    {
+      "resource_id": 230,
+      "text": "[5] ผู้ที่พวกเขาละเลยต่อการละหมาดของพวกเขา"
+    },
+    { "resource_id": 230, "text": "[6] ผู้ที่พวกเขาโอ้อวดกัน" },
+    {
+      "resource_id": 230,
+      "text": "[7] และพวกเขาหวงแหนเครื่องใช้เล็กๆ น้อย (แก่เพื่อนบ้าน)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Society of Institutes and Universities",
+    "author_name": "Society of Institutes and Universities",
+    "filters": { "resource_id": 230, "chapter_number": "107" }
+  }
+}

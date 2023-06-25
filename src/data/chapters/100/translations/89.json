@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 89,
+      "text": "Pasha vrapuesit e shpejtë (kuajt) që hingëllojnë!"
+    },
+    {
+      "resource_id": 89,
+      "text": "E që me thundrat e tyre nxjerrin xixëllima zjarri nga gurët,"
+    },
+    { "resource_id": 89, "text": "Dhe të cilët vërsulen herët në agim." },
+    { "resource_id": 89, "text": "E me të (vërsulje) atëherë çojnë pluhur." },
+    {
+      "resource_id": 89,
+      "text": "Dhe ashtu hidhen në mesin e grumbullit (të armikut)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Vërtet, njeriu është përbuzës ndaj Zotit të vet."
+    },
+    {
+      "resource_id": 89,
+      "text": "Edhe vetë është dëshmues i asaj (përbuzje)."
+    },
+    { "resource_id": 89, "text": "Dhe ai është që shumë e do pasurinë." },
+    {
+      "resource_id": 89,
+      "text": "A nuk e di ai se kur të nxirret çka ëstë në varreza?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe të tubohet (të dalë në shesh) ajo që ishte në gjoksa."
+    },
+    {
+      "resource_id": 89,
+      "text": "E atë ditë, pa dyshim Zoti i tyre është i njohur për punën e tyre."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "100" }
+  }
+}

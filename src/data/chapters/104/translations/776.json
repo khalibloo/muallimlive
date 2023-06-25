@@ -1,0 +1,42 @@
+{
+  "translations": [
+    {
+      "resource_id": 776,
+      "text": "Malas consecuencias y un castigo severo esperan a quien con frecuencia calumnia a las personas y se burla de ellas."
+    },
+    {
+      "resource_id": 776,
+      "text": "A quien cuya única preocupación es acumular riqueza y contarla; no tiene otra preocupación."
+    },
+    {
+      "resource_id": 776,
+      "text": "Esa clase de persona piensa que la riqueza que acumula lo salvará de la muerte, y que permanecerá para siempre en esta vida mundanal."
+    },
+    {
+      "resource_id": 776,
+      "text": "No es como piensa, seguramente será arrojado al fuego del infierno que aplasta y rompe todo lo que se arroja en él por la inmensa fuerza que posee."
+    },
+    {
+      "resource_id": 776,
+      "text": "¡Mensajero! ¿Qué sabes de este fuego que destruye todo lo que se arroja en él?"
+    },
+    { "resource_id": 776, "text": "De hecho, es el fuego ardiente de Al-lah." },
+    {
+      "resource_id": 776,
+      "text": "El fuego que penetra en los cuerpos de las personas hasta que llega a sus corazones."
+    },
+    {
+      "resource_id": 776,
+      "text": "Se cerrará en torno a aquellos que con él serán castigados."
+    },
+    {
+      "resource_id": 776,
+      "text": "Por un período de tiempo largo y prolongado, tan largo que nunca lo abandonarán."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Mokhtasar",
+    "author_name": "Spanish Mokhtasar",
+    "filters": { "resource_id": 776, "chapter_number": "104" }
+  }
+}

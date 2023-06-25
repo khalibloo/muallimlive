@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 207,
+      "text": "When earth is shaken in her [final) quaking,"
+    },
+    { "resource_id": 207, "text": "and earth throws forth her burdens," },
+    {
+      "resource_id": 207,
+      "text": "and everyman says: \"What is [happening] to her?\""
+    },
+    { "resource_id": 207, "text": "on that day she will report her news" },
+    { "resource_id": 207, "text": "which your Lord has inspired her with." },
+    {
+      "resource_id": 207,
+      "text": "On that day men will appear in scattered groups to be shown their actions;"
+    },
+    {
+      "resource_id": 207,
+      "text": "and whoever has done an atoms’ weight of good will see it; while whoever has done an atom's weight of evil will see it."
+    },
+    {
+      "resource_id": 207,
+      "text": "and whoever has done an atoms’ weight of good will see it; while whoever has done an atom's weight of evil will see it."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "99" }
+  }
+}

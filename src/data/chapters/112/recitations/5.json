@@ -1,0 +1,13 @@
+{
+  "audio_files": [
+    { "verse_key": "112:1", "url": "Rifai/mp3/112001.mp3" },
+    { "verse_key": "112:2", "url": "Rifai/mp3/112002.mp3" },
+    { "verse_key": "112:3", "url": "Rifai/mp3/112003.mp3" },
+    { "verse_key": "112:4", "url": "Rifai/mp3/112004.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Hani ar-Rifai",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "112" }
+  }
+}

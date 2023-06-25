@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "جب پہنچ چکے مدد اللہ کی اور فیصلہ <sup foot_note=88948>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "اور تو دیکھے لوگوں کو داخل ہوتے دین میں غول کے غول"
+    },
+    {
+      "resource_id": 151,
+      "text": "تو پاکی بول اپنے رب کی خوبیاں <sup foot_note=88949>1</sup> اور گناہ بخشوا اس سے بیشک وہ معاف کرنے والا ہے <sup foot_note=88950>2</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "110" }
+  }
+}

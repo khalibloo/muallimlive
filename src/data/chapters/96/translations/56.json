@@ -1,0 +1,34 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "你应当奉你的创造主的名义而宣读，" },
+    { "resource_id": 56, "text": "他曾用血块创造人。" },
+    { "resource_id": 56, "text": "你应当宣读，你的主是最尊严的，" },
+    { "resource_id": 56, "text": "他曾教人用笔写字，" },
+    { "resource_id": 56, "text": "他曾教人知道自己所不知道的东西。" },
+    { "resource_id": 56, "text": "绝不然，人确是悖逆的，" },
+    { "resource_id": 56, "text": "因为他自己是无求的。" },
+    { "resource_id": 56, "text": "万物必定只归於你的主。" },
+    { "resource_id": 56, "text": "你告诉我吧！" },
+    { "resource_id": 56, "text": "那个禁止我的仆人礼拜的人；" },
+    { "resource_id": 56, "text": "你告诉我吧！如果他是遵循正道的，" },
+    { "resource_id": 56, "text": "或是命人敬畏的；" },
+    { "resource_id": 56, "text": "你告诉我吧！如果他是否认真理，背弃真理的，" },
+    { "resource_id": 56, "text": "难道他还不知道真主是监察的吗？" },
+    {
+      "resource_id": 56,
+      "text": "绝不然，如果他不停止，我一定要抓住他的额发--"
+    },
+    { "resource_id": 56, "text": "说谎者，犯罪者的额发。" },
+    { "resource_id": 56, "text": "让他去召集他的会众吧！" },
+    { "resource_id": 56, "text": "我将召集强悍的天神。" },
+    {
+      "resource_id": 56,
+      "text": "绝不然，你不要顺从他，你应当为真主而叩头，你应当亲近真主。※"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "96" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "Por el pacto de los coraixíes," },
+    {
+      "resource_id": 28,
+      "text": "pacto relativo a la caravana de invierno y la de verano,"
+    },
+    { "resource_id": 28, "text": "¡que sirvan, pues, al Señor de esta Casa," },
+    {
+      "resource_id": 28,
+      "text": "que les ha alimentado contra el hambre y dado seguridad frente al temor!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "verses": [
+    {
+      "id": 6214,
+      "verse_key": "110:1",
+      "text_uthmani_simple": "اذا جاء نصر الله والفتح"
+    },
+    {
+      "id": 6215,
+      "verse_key": "110:2",
+      "text_uthmani_simple": "ورايت الناس يدخلون فى دين الله افواجا"
+    },
+    {
+      "id": 6216,
+      "verse_key": "110:3",
+      "text_uthmani_simple": "فسبح بحمد ربك واستغفره انه كان توابۢا"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "110" } }
+}

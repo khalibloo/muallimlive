@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "Que périssent les deux mains d’Abû-Lahab <sup foot_note=212604>1</sup> et que lui-même périsse."
+    },
+    {
+      "resource_id": 31,
+      "text": "Sa fortune ne lui sert à rien, ni ce qu’il a acquis."
+    },
+    {
+      "resource_id": 31,
+      "text": "Il sera brûlé dans un Feu plein de flammes."
+    },
+    {
+      "resource_id": 31,
+      "text": "de même sa femme, la porteuse de bois <sup foot_note=212605>1</sup>,"
+    },
+    { "resource_id": 31, "text": "à son cou, une corde de fibres." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "111" }
+  }
+}

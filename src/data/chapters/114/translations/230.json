@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 230,
+      "text": "[1] จงกล่าวเถิด (มุฮัมมัด) ข้าพระองค์ขอความคุ้มครองต่อพระเจ้าแห่งมนุษยชาติ"
+    },
+    { "resource_id": 230, "text": "[2] พระราชาแห่งมนุษยชาติ" },
+    { "resource_id": 230, "text": "[3] พระเป็นเจ้าแห่งมนุษยชาติ" },
+    {
+      "resource_id": 230,
+      "text": "[4] ให้พ้นจากความชั่วร้ายของผู้กระซิบกระซาบที่หลอกล่อ"
+    },
+    { "resource_id": 230, "text": "[5] ที่กระซิบกระซาบในหัวอกของมนุษย์" },
+    { "resource_id": 230, "text": "[6] จากหมู่ญินและมนุษย์" }
+  ],
+  "meta": {
+    "translation_name": "Society of Institutes and Universities",
+    "author_name": "Society of Institutes and Universities",
+    "filters": { "resource_id": 230, "chapter_number": "114" }
+  }
+}

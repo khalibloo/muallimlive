@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Ang Tagakalampag." },
+    { "resource_id": 211, "text": "Ano ang Tagakalampag?" },
+    {
+      "resource_id": 211,
+      "text": "Ano ang nagpabatid sa iyo kung ano ang Tagakalampag?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Sa Araw na [iyon], ang mga tao ay magiging para bang mga gamugamong pinakalat"
+    },
+    {
+      "resource_id": 211,
+      "text": "at ang mga bundok ay magiging para bang mga lanang nahimulmol."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tungkol naman sa sinumang bumigat [sa kabutihan] ang mga timbangan niya,"
+    },
+    {
+      "resource_id": 211,
+      "text": "siya ay nasa isang pamumuhay na nakalulugod."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tungkol naman sa sinumang gumaan [sa kabutihan] ang mga timbangan niya,"
+    },
+    { "resource_id": 211, "text": "ang kanlungan niya ay kailaliman." },
+    { "resource_id": 211, "text": "Ano ang nagpabatid sa iyo kung ano iyon?" },
+    { "resource_id": 211, "text": "[Iyon ay] isang Apoy na napakainit." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "101" }
+  }
+}

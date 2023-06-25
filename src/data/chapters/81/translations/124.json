@@ -1,0 +1,71 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Güneş katlanıp dürüldüğünde," },
+    { "resource_id": 124, "text": "Yıldızlar (kararıp) döküldüğünde," },
+    { "resource_id": 124, "text": "Dağlar (sallanıp) yürütüldüğünde," },
+    { "resource_id": 124, "text": "Gebe develer salıverildiğinde," },
+    {
+      "resource_id": 124,
+      "text": "Vahşî hayvanlar toplanıp bir araya getirildiğinde,"
+    },
+    { "resource_id": 124, "text": "Denizler kaynatıldığında," },
+    { "resource_id": 124, "text": "Ruhlar (bedenlerle) birleştirildiğinde," },
+    {
+      "resource_id": 124,
+      "text": "Diri diri toprağa gömülen kıza, sorulduğunda,"
+    },
+    { "resource_id": 124, "text": "hangi günah sebebiyle öldürüldüğü," },
+    {
+      "resource_id": 124,
+      "text": "(Amellerin yazılı olduğu) defterler açıldığında,"
+    },
+    { "resource_id": 124, "text": "Gökyüzü sıyrılıp alındığında," },
+    { "resource_id": 124, "text": "cehennem tutuşturulduğunda" },
+    { "resource_id": 124, "text": "ve cennet yaklaştırıldığında," },
+    {
+      "resource_id": 124,
+      "text": "Kişi neler getirdiğini öğrenmiş olacaktır."
+    },
+    { "resource_id": 124, "text": "Hayır! (Gündüz) sinen," },
+    {
+      "resource_id": 124,
+      "text": "akıp giden, etrafı aydınlatan yıldızlara andolsun,"
+    },
+    { "resource_id": 124, "text": "Kararmaya yüz tuttuğunda geceye andolsun," },
+    { "resource_id": 124, "text": "Ağarmaya başladığında sabaha andolsun ki," },
+    {
+      "resource_id": 124,
+      "text": "itibarlı bir elçinin (Cebrail'in) getirdiği sözdür."
+    },
+    {
+      "resource_id": 124,
+      "text": "O (Kur'an), şüphesiz değerli, güçlü ve Arş'ın sahibi (Allah'ın) katında"
+    },
+    { "resource_id": 124, "text": "O orada sayılan, güvenilen (elçi)'dir." },
+    {
+      "resource_id": 124,
+      "text": "Arkadaşınız (Muhammed) de mecnun değildir."
+    },
+    {
+      "resource_id": 124,
+      "text": "Andolsun ki, onu (Cebrail'i) apaçık ufukta görmüştür."
+    },
+    { "resource_id": 124, "text": "O, gaybın bilgilerini (sizden) esirgemez." },
+    { "resource_id": 124, "text": "O lanetlenmiş şeytanın sözü de değildir." },
+    { "resource_id": 124, "text": "Hal böyle iken nereye gidiyorsunuz?" },
+    { "resource_id": 124, "text": "O, herkes için, bir öğüttür." },
+    {
+      "resource_id": 124,
+      "text": "Sizden doğru yolda gitmek isteyenler için."
+    },
+    {
+      "resource_id": 124,
+      "text": "Âlemlerin Rabbi Allah dilemedikçe siz dileyemezsiniz."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "81" }
+  }
+}

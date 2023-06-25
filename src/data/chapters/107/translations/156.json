@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 156,
+      "text": "تم نے دیکھا اس شخص کو جو آخرت کی جزاوسزا کو جھٹلاتا ہے ؟"
+    },
+    { "resource_id": 156, "text": "وہی تو ہے جو یتیم کو دھکے دیتا ہے" },
+    { "resource_id": 156, "text": "اور مسکین کا کھانا دینے پر نہیں اکساتا۔" },
+    { "resource_id": 156, "text": "پھر تباہی ہے ان نماز پڑھنے والوں کے لئے" },
+    { "resource_id": 156, "text": "جو اپنی نماز سے غفلت برتتے ہیں ،" },
+    { "resource_id": 156, "text": "جو ریاکاری کرتے ہیں" },
+    {
+      "resource_id": 156,
+      "text": "اور معمولی ضرورت کی چیزیں (لوگوں کو) دینے سے گریز کرتے ہیں “۔"
+    }
+  ],
+  "meta": {
+    "translation_name": "Fe Zilal al-Qur'an",
+    "author_name": "Sayyid Ibrahim Qutb",
+    "filters": { "resource_id": 156, "chapter_number": "107" }
+  }
+}

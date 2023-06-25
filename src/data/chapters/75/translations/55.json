@@ -1,0 +1,112 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Qiyomat kuni bilan qasam." },
+    { "resource_id": 55, "text": "Va malomatchi nafs bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "(Kofir) Inson Bizni uning suyaklarini jamlab olmas, deb o`ylarmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, Biz uning barmoq uchlarini ham asl holiga keltirishga qodirmiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Balki, inson kelajakda fisqu fujur qilishni xohlaydir."
+    },
+    { "resource_id": 55, "text": "Qiyomat kuni qachon? — deb so`raydir." },
+    {
+      "resource_id": 55,
+      "text": "Qachonki ko`z lol qolib qo`rqinchga to`lsa."
+    },
+    { "resource_id": 55, "text": "Va oy tutilsa." },
+    { "resource_id": 55, "text": "Va quyosh bilan oy jamlansa." },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda inson: «Qochar joy qayerda?» deb qoladir."
+    },
+    { "resource_id": 55, "text": "Yo`q! Qochar joy yo`qdir!" },
+    {
+      "resource_id": 55,
+      "text": "U kunda joylashuv faqat Robbing huzurida bo`ladir."
+    },
+    {
+      "resource_id": 55,
+      "text": "U kunda insonga avvalu oxir qilgan ishlarining xabari beriladir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ha, inson o`z nafsiga qarshi o`zi shohiddir."
+    },
+    { "resource_id": 55, "text": "Va agar uzrlarini to`kib solsa ham." },
+    { "resource_id": 55, "text": "Sen shoshilib u bilan tilingni qimirlatma." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u(Qur'on)ni jamlash va o`qib berish Bizning zimmamizda."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, Biz uni o`qisak, qiroatiga zehn solib tur."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra u(Qur'on)ni bayon qilib berish ham Bizning zimmamizda."
+    },
+    {
+      "resource_id": 55,
+      "text": "Yo`q! Balki sizlar shoshar dunyoni yaxshi ko`rasizlar."
+    },
+    { "resource_id": 55, "text": "Va oxiratni tark etasizlar." },
+    { "resource_id": 55, "text": "U kunda chiroyli yuzlar bor." },
+    { "resource_id": 55, "text": "O`z Robbisiga nazar soluvchilar." },
+    {
+      "resource_id": 55,
+      "text": "Va u kunda tirishib-burishgan yuzlar ham bor."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`zlariga umurtqasini sindiradigan ish bo`lishiga ishonarlar."
+    },
+    { "resource_id": 55, "text": "Yo`q! Vaqtiki, (jon) halqumga kelsa." },
+    { "resource_id": 55, "text": "Va «Kim buni qutqarar?» deyilsa." },
+    { "resource_id": 55, "text": "Va, albatta, bu firoq ekanligiga ishonsa." },
+    { "resource_id": 55, "text": "Va boldirlar bir-biriga almashsa." },
+    {
+      "resource_id": 55,
+      "text": "U kunda haydab borish joyi Robbing huzuridadir.<sup foot_note=\"171316\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Bas, u tasdiqlamadi va namoz o`qimadi." },
+    {
+      "resource_id": 55,
+      "text": "Va lekin yolg`onga chiqardi va yuz o`girdi."
+    },
+    { "resource_id": 55, "text": "So`ng o`z ahliga kerilib bordi." },
+    { "resource_id": 55, "text": "Holingga voy bo`lsin sening, voy bo`lsin!" },
+    {
+      "resource_id": 55,
+      "text": "Yana holingga voy bo`lsin sening, voy bo`lsin!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Inson behuda tark qilinishlikning hisobini qilurmi?"
+    },
+    { "resource_id": 55, "text": "U maniydan oqqan nutfa bo`lmaganmidi?" },
+    {
+      "resource_id": 55,
+      "text": "So`ng alaqa bo`ldi. Bas, bekami-ko`st etib yaratdi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, undan juftni — erkak va ayolni yaratdi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Shunday Zot o`liklarni tiriltirishga qodir emasmi?!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "75" }
+  }
+}

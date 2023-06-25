@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 35,
+      "text": "慈悲あまねく慈愛深きアッラーの御名において。"
+    },
+    { "resource_id": 35, "text": "万有の主，アッラーにこそ凡ての称讃あれ，" },
+    { "resource_id": 35, "text": "慈悲あまねく慈愛深き御方，" },
+    { "resource_id": 35, "text": "最後の審きの日の主宰者に。" },
+    {
+      "resource_id": 35,
+      "text": "わたしたちはあなたにのみ崇め仕え，あなたにのみ御助けを請い願う。"
+    },
+    { "resource_id": 35, "text": "わたしたちを正しい道に導きたまえ，" },
+    {
+      "resource_id": 35,
+      "text": "あなたが御恵みを下された人々の道に，あなたの怒りを受けし者，また踏み迷える人々の道ではなく。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "1" }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "translations": [
+    { "resource_id": 22, "text": "I do call to witness this City;-" },
+    { "resource_id": 22, "text": "And thou art a freeman of this City;-" },
+    {
+      "resource_id": 22,
+      "text": "And (the mystic ties of) parent and child;-"
+    },
+    {
+      "resource_id": 22,
+      "text": "Verily We have created man into toil and struggle."
+    },
+    {
+      "resource_id": 22,
+      "text": "Thinketh he, that none hath power over him?"
+    },
+    {
+      "resource_id": 22,
+      "text": "He may say (boastfully); Wealth have I squandered in abundance!"
+    },
+    { "resource_id": 22, "text": "Thinketh he that none beholdeth him?" },
+    { "resource_id": 22, "text": "Have We not made for him a pair of eyes?-" },
+    { "resource_id": 22, "text": "And a tongue, and a pair of lips?-" },
+    { "resource_id": 22, "text": "And shown him the two highways?" },
+    {
+      "resource_id": 22,
+      "text": "But he hath made no haste on the path that is steep."
+    },
+    {
+      "resource_id": 22,
+      "text": "And what will explain to thee the path that is steep?-"
+    },
+    { "resource_id": 22, "text": "(It is:) freeing the bondman;" },
+    {
+      "resource_id": 22,
+      "text": "Or the giving of food in a day of privation"
+    },
+    { "resource_id": 22, "text": "To the orphan with claims of relationship," },
+    { "resource_id": 22, "text": "Or to the indigent (down) in the dust." },
+    {
+      "resource_id": 22,
+      "text": "Then will he be of those who believe, and enjoin patience, (constancy, and self-restraint), and enjoin deeds of kindness and compassion."
+    },
+    { "resource_id": 22, "text": "Such are the Companions of the Right Hand." },
+    {
+      "resource_id": 22,
+      "text": "But those who reject Our Signs, they are the (unhappy) Companions of the Left Hand."
+    },
+    {
+      "resource_id": 22,
+      "text": "On them will be Fire vaulted over (all round)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "90" }
+  }
+}

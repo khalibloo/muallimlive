@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 221, "text": "Hãy nói: “Ngài, Allah, là Một (Duy nhất)." },
+    {
+      "resource_id": 221,
+      "text": "“Allah là Đấng Tự Hữu, Độc Lập mà tất cả phải nhờ vả."
+    },
+    {
+      "resource_id": 221,
+      "text": "“Ngài không sinh (đẻ) ai, cũng không do ai sinh ra."
+    },
+    {
+      "resource_id": 221,
+      "text": "“Và không một ai (cái gì) có thể so sánh với Ngài đặng.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "112" }
+  }
+}

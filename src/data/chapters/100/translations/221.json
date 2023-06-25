@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 221,
+      "text": "Thề bởi các con chiến mã chạy hùng hậu xông trận (tấn công địch);"
+    },
+    {
+      "resource_id": 221,
+      "text": "Bởi thế (móng chân của chúng) làm bắn ra tia lửa;"
+    },
+    { "resource_id": 221, "text": "Rồi tấn công vào buổi hừng sáng;" },
+    { "resource_id": 221, "text": "Rồi làm tung bụi mịt mù;" },
+    { "resource_id": 221, "text": "Và chúng xông thẳng vào lòng (quân địch);" },
+    {
+      "resource_id": 221,
+      "text": "Quả thật! Con người vong ân đối với Thượng Đế (Allah) của y;"
+    },
+    { "resource_id": 221, "text": "Và chính y là nhân chứng cho việc đó;" },
+    { "resource_id": 221, "text": "Và quả thật, y quá yêu thích sự giàu có." },
+    {
+      "resource_id": 221,
+      "text": "Há y không biết, khi mọi vật nằm dưới mộ đều bị quật lên?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và mọi điều (bí mật) trong lòng sẽ được phơi bày."
+    },
+    {
+      "resource_id": 221,
+      "text": "Quả thật, vào Ngày đó, Thượng Đế của họ sẽ rất mực Am Tường."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Tungkol sa ano nagtatanungan sila?" },
+    { "resource_id": 211, "text": "Tungkol sa balitang dakila," },
+    {
+      "resource_id": 211,
+      "text": "na sila kaugnay rito ay mga nagkakaiba-iba."
+    },
+    { "resource_id": 211, "text": "Aba’y hindi! Makaaalam sila." },
+    { "resource_id": 211, "text": "Pagkatapos aba’y hindi! Makaaalam sila." },
+    {
+      "resource_id": 211,
+      "text": "Hindi ba Kami gumawa sa lupa bilang nakalatag"
+    },
+    { "resource_id": 211, "text": "at sa mga bundok bilang mga tulos?" },
+    { "resource_id": 211, "text": "Lumikha Kami sa inyo na magkapares." },
+    {
+      "resource_id": 211,
+      "text": "Gumawa Kami sa pagtulog ninyo bilang pamamahinga."
+    },
+    { "resource_id": 211, "text": "Gumawa Kami sa gabi bilang kasuutan." },
+    {
+      "resource_id": 211,
+      "text": "Gumawa Kami sa maghapon bilang pinaghahanap-buhayan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagpatayo Kami sa ibabaw ninyo ng pitong matindi."
+    },
+    { "resource_id": 211, "text": "Gumawa Kami ng isang sulo na palaliyab." },
+    {
+      "resource_id": 211,
+      "text": "Nagpababa Kami mula sa mga dagim ng isang tubig na bumubuhos"
+    },
+    {
+      "resource_id": 211,
+      "text": "upang magpalabas Kami sa pamamagitan nito ng mga butil at halaman"
+    },
+    { "resource_id": 211, "text": "at mga harding magkakapulupot." },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ang Araw ng Pagpapasya ay isang takdang oras"
+    },
+    {
+      "resource_id": 211,
+      "text": "sa Araw na iihip sa tambuli saka pupunta kayo na pulu-pulutong."
+    },
+    {
+      "resource_id": 211,
+      "text": "Bubuksan ang langit saka ito ay magiging mga pintuan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Iuusad ang mga bundok saka ang mga ito ay magiging isang malikmata."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ang Impiyerno ay magiging isang pantambang,"
+    },
+    {
+      "resource_id": 211,
+      "text": "na para sa mga tagapagmalabis ay isang uwian,"
+    },
+    { "resource_id": 211, "text": "na mga mamamalagi roon sa mga yugto." },
+    {
+      "resource_id": 211,
+      "text": "Hindi sila makatitikim doon ng isang lamig ni isang inumin,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa isang nakapapasong tubig at isang nana"
+    },
+    { "resource_id": 211, "text": "bilang ganting angkop." },
+    {
+      "resource_id": 211,
+      "text": "Tunay na sila dati ay hindi nag-aasam ng isang pagtutuos."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagpasinungaling sila sa mga tanda Namin nang isang [tahasang] pagpapasinungaling."
+    },
+    {
+      "resource_id": 211,
+      "text": "Sa bawat bagay ay nag-isa-isa Kami sa isang talaan."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya lumasap kayo sapagkat hindi Kami magdaragdag sa inyo kundi ng isang pagdurusa."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ukol sa mga tagapangilag magkasala ay isang pagtatamuan"
+    },
+    { "resource_id": 211, "text": "ng mga hardin at mga ubasan," },
+    {
+      "resource_id": 211,
+      "text": "ng mga dalagang mabibilog ang dibdib, na mga magkasinggulang,"
+    },
+    { "resource_id": 211, "text": "at ng kopang pinuno." },
+    {
+      "resource_id": 211,
+      "text": "Hindi sila makaririnig doon ng isang kabalbalan ni isang pagsisinungaling,"
+    },
+    {
+      "resource_id": 211,
+      "text": "bilang ganti mula sa Panginoon mo, bilang bigay na sulit"
+    },
+    {
+      "resource_id": 211,
+      "text": "[mula sa] Panginoon ng mga langit at lupa at anumang nasa pagitan ng mga ito, ang Napakamaawain; hindi sila nakapangyayari sa Kanya sa isang pakikipag-usap."
+    },
+    {
+      "resource_id": 211,
+      "text": "Sa Araw na tatayo ang Espiritu at ang mga anghel nang nakahanay, hindi sila magsasalita maliban sa sinumang nagpahintulot para roon ang Napakamaawain at magsasabi iyon ng tumpak."
+    },
+    {
+      "resource_id": 211,
+      "text": "Iyon ay ang Araw na totoo; kaya ang sinumang lumuob gumawa siya tungo sa Panginoon niya ng isang uwian."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay nagbabala sa inyo ng isang pagdurusang malapit sa Araw na titingin ang tao sa anumang ipinauna ng mga kamay niya at magsasabi ang tagatangging sumampalataya: \"O kung sana ako ay naging alabok!\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "78" }
+  }
+}

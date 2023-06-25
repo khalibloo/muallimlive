@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 28,
+      "text": "Di: «Me refugio en el Señor de los hombres,"
+    },
+    { "resource_id": 28, "text": "el Rey de los hombres," },
+    { "resource_id": 28, "text": "el Dios de los hombres," },
+    {
+      "resource_id": 28,
+      "text": "del mal de la insinuación, del que se escabulle,"
+    },
+    { "resource_id": 28, "text": "que insinúa en el ánimo de los hombres," },
+    { "resource_id": 28, "text": "sea genio, sea hombre»." }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "114" }
+  }
+}

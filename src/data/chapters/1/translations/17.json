@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "In The Name of Allah, The All-Merciful, The Ever-Merciful."
+    },
+    {
+      "resource_id": 17,
+      "text": "Praise be to Allah, The Lord of the worlds."
+    },
+    { "resource_id": 17, "text": "The All-Merciful, The Ever-Merciful." },
+    { "resource_id": 17, "text": "The Possessor of the Day of Doom." },
+    {
+      "resource_id": 17,
+      "text": "You only do we worship, and You only do we beseech for help."
+    },
+    { "resource_id": 17, "text": "Guide us in the straight Path." },
+    {
+      "resource_id": 17,
+      "text": "The Path of the ones whom You have favored, other than that of the ones against whom You are angered, and not (that of) the erring. (It is customary to say \"amin\" \"amen\" at the end of this Surah)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "1" }
+  }
+}

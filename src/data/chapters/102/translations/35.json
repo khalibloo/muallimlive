@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 35,
+      "text": "あなたがたは（財産や息子などの）多いことを張り合って，現を抜かす。"
+    },
+    { "resource_id": 35, "text": "墓に追い立てられるまでも。" },
+    {
+      "resource_id": 35,
+      "text": "いや，やがて（死後）あなたがたは（その真実を）知ろう。"
+    },
+    {
+      "resource_id": 35,
+      "text": "もう一度言おうか，いや，やがてあなたがたは知ろう。"
+    },
+    {
+      "resource_id": 35,
+      "text": "いや，あなたがたは（今に）はっきり知るとよいのである。"
+    },
+    { "resource_id": 35, "text": "あなたがたは必ず獄火を見よう。" },
+    {
+      "resource_id": 35,
+      "text": "その時あなたがたはそれを明確に目で見ることであろう。"
+    },
+    {
+      "resource_id": 35,
+      "text": "その日あなたがたは，（現を抜かしていた）享楽に就いて，必ず問われるであろう。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "102" }
+  }
+}

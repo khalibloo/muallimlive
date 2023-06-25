@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 167,
+      "text": "Because of the familiarity of the Quraish,"
+    },
+    {
+      "resource_id": 167,
+      "text": "that is, their familiarity with the trips of winter and summer,"
+    },
+    { "resource_id": 167, "text": "they must worship the Lord of this House," },
+    {
+      "resource_id": 167,
+      "text": "who gave them food against hunger, and gave them security against fear."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "106" }
+  }
+}

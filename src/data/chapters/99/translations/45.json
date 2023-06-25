@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 45, "text": "Когда земля содрогнется от сотрясений," },
+    { "resource_id": 45, "text": "когда земля извергнет свою ношу," },
+    { "resource_id": 45, "text": "и человек спросит, что же с нею," },
+    { "resource_id": 45, "text": "в тот день она расскажет свои известия," },
+    { "resource_id": 45, "text": "потому что Господь твой внушит ей это." },
+    {
+      "resource_id": 45,
+      "text": "В тот день люди выйдут толпами, чтобы им показали их деяния."
+    },
+    {
+      "resource_id": 45,
+      "text": "Тот, кто сделал добро весом в мельчайшую частицу, увидит его."
+    },
+    {
+      "resource_id": 45,
+      "text": "И тот, кто сделал зло весом в мельчайшую частицу, увидит его."
+    }
+  ],
+  "meta": {
+    "translation_name": "Russian Translation ( Elmir Kuliev )",
+    "author_name": "Elmir Kuliev",
+    "filters": { "resource_id": 45, "chapter_number": "99" }
+  }
+}

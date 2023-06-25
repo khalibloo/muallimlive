@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "אבוי, לרכלן ולזה שמוציא לשון הרע" },
+    { "resource_id": 233, "text": "אשר קיבץ כסף ומנה אותו." },
+    { "resource_id": 233, "text": "הוא חושב שכספו יביא לו חיים נצחיים." },
+    { "resource_id": 233, "text": "לא ולא! אכן, ייזרק אל המועכת (הגיהינום)!" },
+    { "resource_id": 233, "text": "ומה תדע על המועכת?!" },
+    { "resource_id": 233, "text": "זו אש אללה, הבוערת" },
+    { "resource_id": 233, "text": "ואשר תשרוף את לבבות" },
+    { "resource_id": 233, "text": "הן, היא סוגרת עליהם" },
+    { "resource_id": 233, "text": "בעמודים ניצבים" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "104" }
+  }
+}

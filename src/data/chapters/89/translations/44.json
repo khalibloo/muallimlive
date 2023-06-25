@@ -1,0 +1,87 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Pe zori!" },
+    { "resource_id": 44, "text": "Pe cele zece nopţi!" },
+    { "resource_id": 44, "text": "Pe cel pereche şi pe cel nepereche!" },
+    { "resource_id": 44, "text": "Pe noapte când se împuţinează!" },
+    {
+      "resource_id": 44,
+      "text": "Este oare acesta un jurământ pentru cel cu cuget dăruit?"
+    },
+    {
+      "resource_id": 44,
+      "text": "Nu ai văzut ce a făcut Domnul tău din adiţi"
+    },
+    { "resource_id": 44, "text": "şi din Imran, cetatea cu coloane," },
+    {
+      "resource_id": 44,
+      "text": "ce în alt ţinut n-a fost ca ea alta creată?"
+    },
+    {
+      "resource_id": 44,
+      "text": "Şi din tamudiţi care au scobit stânca în vale?"
+    },
+    { "resource_id": 44, "text": "Şi din Faraon cu ţepuşele sale?" },
+    {
+      "resource_id": 44,
+      "text": "Din toţi cei care se ticăloşesc pe lumea aceasta"
+    },
+    { "resource_id": 44, "text": "şi o umplu de stricăciune?" },
+    { "resource_id": 44, "text": "Domnul tău i-a plesnit cu biciul osândei," },
+    {
+      "resource_id": 44,
+      "text": "căci Domnul tău este asupra tuturor Veghetor."
+    },
+    {
+      "resource_id": 44,
+      "text": "Când omul este pus la încercare de Domnul său, cinstindu-l şi copleşindu-l cu daruri, atunci spune: “Domnul meu mă cinsteşte!”"
+    },
+    {
+      "resource_id": 44,
+      "text": "Când însă îl pune la încercare, drămuindu-i traiul, atunci spune: “Domnul meu mă înjoseşte!”"
+    },
+    {
+      "resource_id": 44,
+      "text": "Nu, voi sunteţi cei care nu cinstiţi orfanul!"
+    },
+    {
+      "resource_id": 44,
+      "text": "Voi sunteţi cei care nu lăsaţi să fie ospătat sărmanul!"
+    },
+    { "resource_id": 44, "text": "Voi mâncaţi cu lăcomie moştenirea!" },
+    { "resource_id": 44, "text": "Voi iubiţi în neştire bogăţia!" },
+    { "resource_id": 44, "text": "Nu, când pământul va fi făcut fărâme," },
+    {
+      "resource_id": 44,
+      "text": "iar Domnul tău va veni cu îngerii, rând după rând:"
+    },
+    {
+      "resource_id": 44,
+      "text": "în Ziua aceea, va veni Gheena şi în Ziua aceea, omul îşi va aminti... La ce-i mai foloseşte însă să-şi amintească atunci?"
+    },
+    {
+      "resource_id": 44,
+      "text": "El va spune: “Ce bine ar fi fost de aş fi făcut ceva pentru Viaţa mea de Apoi!”"
+    },
+    {
+      "resource_id": 44,
+      "text": "În Ziua aceea va fi chinuit cum chinuit nu a mai fost nimeni,"
+    },
+    {
+      "resource_id": 44,
+      "text": "şi va fi încătuşat cum încătuşat nu a mai fost nimeni."
+    },
+    { "resource_id": 44, "text": "Suflete ostoit!" },
+    {
+      "resource_id": 44,
+      "text": "Întoarce-te la Domnul tău, mulţumit şi dând mulţumire!"
+    },
+    { "resource_id": 44, "text": "Intră dimpreună cu robii Mei!" },
+    { "resource_id": 44, "text": "Intră în Raiul Meu!" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "89" }
+  }
+}

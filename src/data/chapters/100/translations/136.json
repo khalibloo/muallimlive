@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Par les coursiers haletant," },
+    {
+      "resource_id": 136,
+      "text": "faisant jaillir des étincelles (en galopant),"
+    },
+    { "resource_id": 136, "text": "qui attaquent au petit jour," },
+    {
+      "resource_id": 136,
+      "text": "et font voler la poussière (sous leurs sabots),"
+    },
+    {
+      "resource_id": 136,
+      "text": "puis percent au milieu (des rangs ennemis) !"
+    },
+    {
+      "resource_id": 136,
+      "text": "L’homme est, en vérité, bien ingrat envers son Seigneur."
+    },
+    { "resource_id": 136, "text": "Il en est d’ailleurs lui-même témoin." },
+    {
+      "resource_id": 136,
+      "text": "Et certes, il porte aux biens (terrestres) un amour très intense."
+    },
+    {
+      "resource_id": 136,
+      "text": "Ne sait-il donc pas que lorsque sera dispersé ce qu’il y a dans les tombes,"
+    },
+    {
+      "resource_id": 136,
+      "text": "et que sera révélé ce que cachent les cœurs,"
+    },
+    {
+      "resource_id": 136,
+      "text": "ce jour-là, leur Seigneur sera à leur sujet parfaitement Informé ?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Andolsun Güneş’e ve aydınlığına," },
+    { "resource_id": 112, "text": "Onu takip eden Ay’a," },
+    {
+      "resource_id": 112,
+      "text": "(Yeryüzünü) (ışığıyla) ortaya çıkaran gündüze,"
+    },
+    { "resource_id": 112, "text": "(Yeryüzünü) örten geceye," },
+    { "resource_id": 112, "text": "Göğe ve onu bina edene," },
+    { "resource_id": 112, "text": "Yere ve onu yayana," },
+    {
+      "resource_id": 112,
+      "text": "Ve nefse ve ona bir düzen içinde biçim verene."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sonra da ona kötülüğü ve korunmayı ilham edene."
+    },
+    { "resource_id": 112, "text": "Ki onu arındıran kurtuluşa ermiştir." },
+    { "resource_id": 112, "text": "Onu kötülüğe gömen ise mahvolmuştur." },
+    { "resource_id": 112, "text": "Semud azgınlığı sebebiyle yalanladı." },
+    { "resource_id": 112, "text": "En azgınları ileri atılmıştı." },
+    {
+      "resource_id": 112,
+      "text": "Allah'ın Rasûlü onlara: \"Allah'ın devesine ve onun su hakkına dokunmayın!\" dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "O’nu yalanladılar ve deveyi kestiler de Rableri suçları sebebiyle azabı üzerilerine eşit olarak indirdi (kimse kurtulamadı)."
+    },
+    { "resource_id": 112, "text": "Bunun sonucundan da korkmaz." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "91" }
+  }
+}

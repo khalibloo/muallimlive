@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 33,
+      "text": "Apabila telah datang pertolongan Allah dan kemenangan,"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan engkau melihat manusia berbondong-bondong masuk agama Allah."
+    },
+    {
+      "resource_id": 33,
+      "text": "maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat."
+    }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Islamic affairs ministry",
+    "author_name": "Indonesian Islamic affairs ministry",
+    "filters": { "resource_id": 33, "chapter_number": "110" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 219,
+      "text": "아부 라합의 양 손은 궤멸할 것이며 궤멸하였노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그의 재산도 그가 얻은 것도 그에게는 보탬이 되지 못하노라."
+    },
+    { "resource_id": 219, "text": "그는 불길에 휩싸인 지옥에서 불탈 것이라." },
+    {
+      "resource_id": 219,
+      "text": "그의 아내는 장작더미를 짊어진 채로 (지옥에 들어갈 것이니)"
+    },
+    { "resource_id": 219, "text": "그녀의 목에는 질긴 밧줄이 있더라." }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "111" }
+  }
+}

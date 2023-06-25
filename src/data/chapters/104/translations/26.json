@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 26,
+      "text": "Běda každému pomlouvači, jenž na cti utrhá,"
+    },
+    { "resource_id": 26, "text": "který bohatství hromadí a stále je počítá," },
+    {
+      "resource_id": 26,
+      "text": "a že jmění jeho jej učiní nesmrtelným, se domnívá!"
+    },
+    {
+      "resource_id": 26,
+      "text": "Pozor však, vždyť věru bude uvržen do Drtící!"
+    },
+    { "resource_id": 26, "text": "Víš ty vůbec, co je to Drtící?" },
+    { "resource_id": 26, "text": "Boží oheň zažehnutý," },
+    { "resource_id": 26, "text": "až k srdcím šlehající" },
+    { "resource_id": 26, "text": "a nad nimi se v klenbu pojící" },
+    { "resource_id": 26, "text": "a jak sloupy protažené stojící." }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "104" }
+  }
+}

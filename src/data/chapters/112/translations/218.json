@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 218,
+      "text": "使徒*よ、）言え。「かれはアッラー*、唯一なるお方、"
+    },
+    { "resource_id": 218, "text": "アッラー*は、威光高き*お方、" },
+    {
+      "resource_id": 218,
+      "text": "お産みすることもなければ¹、お産まれにもならなかった²のであり、³"
+    },
+    { "resource_id": 218, "text": "誰一人、かれに匹敵するものもなかった」。" }
+  ],
+  "meta": {
+    "translation_name": "Saeed Sato",
+    "author_name": "Saeed Sato",
+    "filters": { "resource_id": 218, "chapter_number": "112" }
+  }
+}

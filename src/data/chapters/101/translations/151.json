@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 151, "text": "وہ کھڑکھڑا ڈالنے والی" },
+    { "resource_id": 151, "text": "کیا ہے وہ کھڑ کھڑا ڈالنے والی" },
+    {
+      "resource_id": 151,
+      "text": "اور تو کیا سمجھا کیا ہے وہ کھڑ کھڑا ڈالنے والی <sup foot_note=88910>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "جس دن ہوویں لوگ جیسے پتنگے بکھرے ہوئے <sup foot_note=88911>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "اور ہوویں پہاڑ جیسے رنگی ہوئی اون دُھنی ہوئی <sup foot_note=88912>1</sup>"
+    },
+    { "resource_id": 151, "text": "سو جسکی بھاری ہوئیں تولیں" },
+    {
+      "resource_id": 151,
+      "text": "تو وہ رہے گا من مانتے گذران میں <sup foot_note=88913>1</sup>"
+    },
+    { "resource_id": 151, "text": "اور جسکی ہلکی ہوئیں تولیں" },
+    { "resource_id": 151, "text": "تو اُس کا ٹھکانہ گڑھا ہے" },
+    { "resource_id": 151, "text": "اور تو کیا سمجھا وہ کیا ہے" },
+    {
+      "resource_id": 151,
+      "text": "آگ ہے دہکتی ہوئی <sup foot_note=88914>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "101" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Ngươi hãy nói - hỡi Thiên Sứ -: Bề tôi cầu xin sự che chở và cứu rỗi từ nơi Thượng Đế của bình minh."
+    },
+    {
+      "resource_id": 177,
+      "text": "Tránh khỏi tất cả mọi điều xấu mà Ngài đã tạo hóa."
+    },
+    {
+      "resource_id": 177,
+      "text": "Và tránh khỏi mọi điều xấu trong đêm tối từ động vật và trộm cướp."
+    },
+    {
+      "resource_id": 177,
+      "text": "Tránh khỏi mọi điều hãm hại của các bùa phép và ma thuật được thổi vào trong những cái gút thắt."
+    },
+    {
+      "resource_id": 177,
+      "text": "Khỏi những sự ganh ghét và hãm hại của người đời khi được Allah ban cho những ân huệ."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "113" }
+  }
+}

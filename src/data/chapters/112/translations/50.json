@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 50,
+      "text": "(நபியே!) நீர் கூறுவீராக: அல்லாஹ் அவன் ஒருவனே."
+    },
+    { "resource_id": 50, "text": "அல்லாஹ் (எவரிடத்தும்) தேவையற்றவன்." },
+    {
+      "resource_id": 50,
+      "text": "அவன் (எவரையும்) பெறவுமில்லை (எவராலும்) பெறப்படவுமில்லை."
+    },
+    { "resource_id": 50, "text": "அன்றியும், அவனுக்கு நிகராக எவரும் இல்லை." }
+  ],
+  "meta": {
+    "translation_name": "Jan Trust Foundation",
+    "author_name": "Jan Trust Foundation",
+    "filters": { "resource_id": 50, "chapter_number": "112" }
+  }
+}

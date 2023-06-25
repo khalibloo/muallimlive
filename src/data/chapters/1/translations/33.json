@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 33,
+      "text": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang."
+    },
+    {
+      "resource_id": 33,
+      "text": "Segala puji bagi Allah, Tuhan seluruh alam,"
+    },
+    { "resource_id": 33, "text": "Yang Maha Pengasih, Maha Penyayang," },
+    {
+      "resource_id": 33,
+      "text": "Pemilik hari pembalasan.<sup foot_note=134952>1</sup>"
+    },
+    {
+      "resource_id": 33,
+      "text": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan."
+    },
+    {
+      "resource_id": 33,
+      "text": "Tunjukilah kami jalan yang lurus,<sup foot_note=134953>1</sup>"
+    },
+    {
+      "resource_id": 33,
+      "text": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.<sup foot_note=134954>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Islamic affairs ministry",
+    "author_name": "Indonesian Islamic affairs ministry",
+    "filters": { "resource_id": 33, "chapter_number": "1" }
+  }
+}

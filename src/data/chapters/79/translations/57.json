@@ -1,0 +1,67 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "WannaziAAati gharqa" },
+    { "resource_id": 57, "text": "Wannashitati nashta" },
+    { "resource_id": 57, "text": "Wassabihati sabha" },
+    { "resource_id": 57, "text": "Fassabiqati sabqa" },
+    { "resource_id": 57, "text": "Falmudabbirati amra" },
+    { "resource_id": 57, "text": "Yawma tarjufu arrajifa" },
+    { "resource_id": 57, "text": "TatbaAAuha arradifa" },
+    { "resource_id": 57, "text": "Quloobun yawma-ithin wajifa" },
+    { "resource_id": 57, "text": "Absaruha khashiAAa" },
+    {
+      "resource_id": 57,
+      "text": "Yaqooloona a-inna lamardoodoona feealhafira"
+    },
+    { "resource_id": 57, "text": "A-itha kunna AAithamannakhira" },
+    { "resource_id": 57, "text": "Qaloo tilka ithan karratun khasira" },
+    { "resource_id": 57, "text": "Fa-innama hiya zajratun wahida" },
+    { "resource_id": 57, "text": "Fa-itha hum bissahira" },
+    { "resource_id": 57, "text": "Hal ataka hadeethu moosa" },
+    { "resource_id": 57, "text": "Ith nadahu rabbuhu bilwadialmuqaddasi tuwa" },
+    { "resource_id": 57, "text": "Ithhab ila firAAawna innahu tagha" },
+    { "resource_id": 57, "text": "Faqul hal laka ila an tazakka" },
+    { "resource_id": 57, "text": "Waahdiyaka ila rabbika fatakhsha" },
+    { "resource_id": 57, "text": "Faarahu al-ayata alkubra" },
+    { "resource_id": 57, "text": "Fakaththaba waAAasa" },
+    { "resource_id": 57, "text": "Thumma adbara yasAAa" },
+    { "resource_id": 57, "text": "Fahashara fanada" },
+    { "resource_id": 57, "text": "Faqala ana rabbukumu al-aAAla" },
+    {
+      "resource_id": 57,
+      "text": "Faakhathahu Allahu nakalaal-akhirati wal-oola"
+    },
+    { "resource_id": 57, "text": "Inna fee thalika laAAibratan limanyakhsha" },
+    { "resource_id": 57, "text": "Aantum ashaddu khalqan ami assamaobanaha" },
+    { "resource_id": 57, "text": "RafaAAa samkaha fasawwaha" },
+    { "resource_id": 57, "text": "Waaghtasha laylaha waakhraja duhaha" },
+    { "resource_id": 57, "text": "Wal-arda baAAda thalikadahaha" },
+    { "resource_id": 57, "text": "Akhraja minha maahawamarAAaha" },
+    { "resource_id": 57, "text": "Waljibala arsaha" },
+    { "resource_id": 57, "text": "MataAAan lakum wali-anAAamikum" },
+    { "resource_id": 57, "text": "Fa-itha jaati attammatualkubra" },
+    { "resource_id": 57, "text": "Yawma yatathakkaru al-insanu masaAAa" },
+    { "resource_id": 57, "text": "Waburrizati aljaheemu liman yara" },
+    { "resource_id": 57, "text": "Faamma man tagha" },
+    { "resource_id": 57, "text": "Waathara alhayata addunya" },
+    { "resource_id": 57, "text": "Fa-inna aljaheema hiya alma/wa" },
+    {
+      "resource_id": 57,
+      "text": "Waama man khafa maqamarabbihi wanaha annafsa AAani alhawa"
+    },
+    { "resource_id": 57, "text": "Fa-inna aljannata hiya alma/wa" },
+    { "resource_id": 57, "text": "Yas-aloonaka AAani assaAAatiayyana mursaha" },
+    { "resource_id": 57, "text": "Feema anta min thikraha" },
+    { "resource_id": 57, "text": "Ila rabbika muntahaha" },
+    { "resource_id": 57, "text": "Innama anta munthiru manyakhshaha" },
+    {
+      "resource_id": 57,
+      "text": "Kaannahum yawma yarawnaha lamyalbathoo illa AAashiyyatan aw duhaha"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "79" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "109:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/109001.mp3"
+    },
+    {
+      "verse_key": "109:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/109002.mp3"
+    },
+    {
+      "verse_key": "109:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/109003.mp3"
+    },
+    {
+      "verse_key": "109:4",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/109004.mp3"
+    },
+    {
+      "verse_key": "109:5",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/109005.mp3"
+    },
+    {
+      "verse_key": "109:6",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/109006.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed al-Tablawi",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "109" }
+  }
+}

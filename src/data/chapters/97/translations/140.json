@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "Ciertamente, hicimos descender(el Corán) en la Noche del Honor (Lailatul Qadr)<sup foot_note=150127>1</sup>."
+    },
+    {
+      "resource_id": 140,
+      "text": "¿Y sabes qué es realmente la Noche del Honor?"
+    },
+    {
+      "resource_id": 140,
+      "text": "Es una noche en la cual todas las (buenas) acciones que se realizan valen más que las que pueden efectuarse en mil meses."
+    },
+    {
+      "resource_id": 140,
+      "text": "Durante esa noche descienden los ángeles junto con el ángel Gabriel, con el permiso de su Señor, con todoslos asuntos(que Él ha decretado para ese año)."
+    },
+    {
+      "resource_id": 140,
+      "text": "(Dicha noche está llena de) paz hasta la llegada del alba."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "97" }
+  }
+}

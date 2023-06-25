@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 210,
+      "text": "Elleri kurusun Ebu Leheb’in! Zaten kurudu da."
+    },
+    {
+      "resource_id": 210,
+      "text": "Malı ve kazandıkları ona bir fayda vermedi."
+    },
+    { "resource_id": 210, "text": "O, alevli bir ateşe girecektir." },
+    { "resource_id": 210, "text": "Karısı da odun taşıyacak." },
+    {
+      "resource_id": 210,
+      "text": "Boynunda hurma lifinden bir halat olduğu halde."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "111" }
+  }
+}

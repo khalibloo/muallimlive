@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "Do you [Prophet] not see how your Lord dealt with the army of the elephant?"
+    },
+    { "resource_id": 85, "text": "Did He not utterly confound their plans?" },
+    { "resource_id": 85, "text": "He sent ranks of birds against them," },
+    {
+      "resource_id": 85,
+      "text": "pelting them with pellets of hard-baked clay:"
+    },
+    { "resource_id": 85, "text": "He made them [like] cropped stubble." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "105" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 206, "text": "By the galloping, panting horses," },
+    {
+      "resource_id": 206,
+      "text": "striking sparks of fire [with their hooves],"
+    },
+    { "resource_id": 206, "text": "launching raids at dawn," },
+    { "resource_id": 206, "text": "stirring up thereby clouds of dust," },
+    {
+      "resource_id": 206,
+      "text": "plunging thereby into the midst of the enemy,"
+    },
+    {
+      "resource_id": 206,
+      "text": "indeed, man is very ungrateful to his Lord –"
+    },
+    { "resource_id": 206, "text": "and he himself is a witness to that –" },
+    {
+      "resource_id": 206,
+      "text": "and he is truly extreme in his love of wealth."
+    },
+    {
+      "resource_id": 206,
+      "text": "Does he not know that the contents of graves will be overturned,"
+    },
+    {
+      "resource_id": 206,
+      "text": "and the secrets of the hearts will be brought to light?"
+    },
+    {
+      "resource_id": 206,
+      "text": "Indeed, their Lord is All-Aware of them on that Day."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Kiedy niebo się rozerwie" },
+    {
+      "resource_id": 42,
+      "text": "I będzie posłuszne swojemu Panu, a tak uczynić należy;"
+    },
+    { "resource_id": 42, "text": "Kiedy ziemia będzie wyrównana" },
+    {
+      "resource_id": 42,
+      "text": "I wyrzuci to, co jest w niej, i stanie się opustoszała,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Będzie posłuszna swojemu Panu, a tak czynić należy;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Wtedy, o człowieku! zwrócisz się do swego Pana całkowicie i spotkasz Go."
+    },
+    {
+      "resource_id": 42,
+      "text": "I ten, który otrzyma swoją księgę w rękę prawą,"
+    },
+    { "resource_id": 42, "text": "Będzie obliczany rachunkiem lekkim" },
+    { "resource_id": 42, "text": "I zwróci się do swojej rodziny uradowany." },
+    {
+      "resource_id": 42,
+      "text": "A ten, kto otrzyma księgę spoza swoich pleców,"
+    },
+    { "resource_id": 42, "text": "Będzie wzywał swego unicestwienia," },
+    { "resource_id": 42, "text": "Kiedy się będzie palił w ogniu." },
+    { "resource_id": 42, "text": "Był on na łonie swojej rodziny uradowany" },
+    { "resource_id": 42, "text": "I sądził, że już nie powróci." },
+    {
+      "resource_id": 42,
+      "text": "Wręcz przeciwnie! Zaprawdę, Pan obserwował go doskonale!"
+    },
+    { "resource_id": 42, "text": "O nie! Przysięgam na zmierzch" },
+    { "resource_id": 42, "text": "I na noc, i na to, co ona osłania;" },
+    { "resource_id": 42, "text": "I na księżyc, kiedy jest w pełni!" },
+    { "resource_id": 42, "text": "-będziecie wstępować warstwa po warstwie!" },
+    { "resource_id": 42, "text": "Dlaczego zatem oni nie wierzą?" },
+    {
+      "resource_id": 42,
+      "text": "I kiedy im recytują Koran, oni nie wybijają pokłonów?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Co więcej! Ci, którzy nie wierzą, mówią, że to kłamstwo!"
+    },
+    { "resource_id": 42, "text": "Lecz Bóg wie najlepiej, co oni ukrywają." },
+    { "resource_id": 42, "text": "Więc obwieszczaj im karę bolesną," },
+    {
+      "resource_id": 42,
+      "text": "Pomijając tych, którzy uwierzyli i pełnili dobre dzieła; dla nich będzie nagroda nieustanna!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "84" }
+  }
+}

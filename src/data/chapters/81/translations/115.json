@@ -1,0 +1,83 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "Idan rãna aka shafe haskenta" },
+    {
+      "resource_id": 115,
+      "text": "Kuma idan taurãri suka gurɓãce (wani ya shiga a cikin wani)."
+    },
+    { "resource_id": 115, "text": "Kuma idan duwãtsu aka tafiyar da su." },
+    {
+      "resource_id": 115,
+      "text": "Kuma idan rãƙuma mãsu cikunna<sup foot_note=132730>1</sup> aka sakẽ su wãwai, bã ga kõwa ba."
+    },
+    { "resource_id": 115, "text": "Kuma idan dabbõbin dãji aka tattara su." },
+    { "resource_id": 115, "text": "Kuma idan tẽkuna aka mayar da su wuta." },
+    {
+      "resource_id": 115,
+      "text": "Kuma idan rãyuka aka haɗa<sup foot_note=132731>1</sup> su da jikunkunansu."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma idan wadda aka turbuɗe<sup foot_note=132732>1</sup> ta da rai aka tambaye ta."
+    },
+    { "resource_id": 115, "text": "\"Sabõda wane laifi ne aka kashe ta?\"" },
+    {
+      "resource_id": 115,
+      "text": "Idan takardun ayyuka aka wãtsa su (ga mãsu su)."
+    },
+    { "resource_id": 115, "text": "Kuma idan sama aka fẽɗe ta." },
+    { "resource_id": 115, "text": "Kuma idan Jahĩm aka hũra ta" },
+    { "resource_id": 115, "text": "Kuma idan Aljanna aka kusantar da ita." },
+    {
+      "resource_id": 115,
+      "text": "Rai ya san abin da ya halartar (a rãnar nan)."
+    },
+    {
+      "resource_id": 115,
+      "text": "To, ba sai Na yi rantsuwa da taurãri matafã<sup foot_note=132733>1</sup> ba."
+    },
+    { "resource_id": 115, "text": "Mãsu gudu suna ɓũya." },
+    { "resource_id": 115, "text": "Da dare idan ya bãyar da bãya." },
+    { "resource_id": 115, "text": "Da sãfiya idan ta yi lumfashi." },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne shi (Alƙur'ãni) haƙƙan, maganar wani manzon (Allah) ne mai girma ga Allah."
+    },
+    {
+      "resource_id": 115,
+      "text": "Mai ƙarfi, mai daraja a wurin Mai Al'arshi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Wanda ake yi wa ɗã'a (wato shugaban malã'iku) ne a can, amintacce."
+    },
+    { "resource_id": 115, "text": "Kuma abokinku ba mahaukaci ba ne." },
+    {
+      "resource_id": 115,
+      "text": "Kuma lalle ne, yã gan shi<sup foot_note=132734>1</sup> a cikin sararin sama mabayyani."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma shi, ga gaibi<sup foot_note=132735>1</sup> bã mai rowa ba ne."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma shi (Alƙur'ani) bã maganar shaiɗani, wanda aka la'ana, ba ce."
+    },
+    { "resource_id": 115, "text": "Shin, a inã zã ku tafi?" },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne shi (Alƙur'ãni), bã kõme ba ne fãce gargaɗi ga talikai."
+    },
+    { "resource_id": 115, "text": "Ga wanda ya so, daga cikinku, ya shiryu." },
+    {
+      "resource_id": 115,
+      "text": "Kuma bã zã ku so ba sai idan Allah Ubangijin halitta Yã yarda."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "81" }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 28,
+      "text": "¡En el nombre de Alá, el Compasivo, el Misericordioso!"
+    },
+    { "resource_id": 28, "text": "Alabado sea Alá, Señor del universo," },
+    { "resource_id": 28, "text": "el Compasivo, el Misericordioso," },
+    { "resource_id": 28, "text": "Dueño del día del Juicio," },
+    {
+      "resource_id": 28,
+      "text": "A Ti solo servimos y a Ti solo imploramos ayuda."
+    },
+    { "resource_id": 28, "text": "Dirígenos por la vía recta," },
+    {
+      "resource_id": 28,
+      "text": "la vía de los que Tú has agraciado, no de los que han incurrido en la ira, ni de los extraviados."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "1" }
+  }
+}

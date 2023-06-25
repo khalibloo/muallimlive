@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Ved himmelen og morgenstjernen!" },
+    { "resource_id": 41, "text": "Vet du hva morgenstjernen er?" },
+    { "resource_id": 41, "text": "Den tindrende stjerne!" },
+    {
+      "resource_id": 41,
+      "text": "Over hvert menneske er det en som passer på."
+    },
+    { "resource_id": 41, "text": "La mennesket betenke hvorav han ble skapt." },
+    { "resource_id": 41, "text": "Han ble skapt av en frembrytende væske," },
+    {
+      "resource_id": 41,
+      "text": "som kommer fra mellom lendene og brystbenet!"
+    },
+    {
+      "resource_id": 41,
+      "text": "Han er visselig i stand til å bringe ham tilbake"
+    },
+    { "resource_id": 41, "text": "den dag da alle hemmeligheter prøves," },
+    { "resource_id": 41, "text": "og han har verken makt eller hjelper." },
+    { "resource_id": 41, "text": "Ved himmelen med det tilbakevendende regn" },
+    { "resource_id": 41, "text": "og jorden, som åpner sitt skjød!" },
+    { "resource_id": 41, "text": "Dette er avgjørende ord," },
+    { "resource_id": 41, "text": "det er ingen spøk." },
+    { "resource_id": 41, "text": "De anvender knep." },
+    { "resource_id": 41, "text": "Men også Jeg bruker list!" },
+    {
+      "resource_id": 41,
+      "text": "Så ta det med ro med de vantro, ta det med ro med dem for en tid."
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "(Allāhu) fi sánmọ̀ àti Tọ̄riƙ búra." },
+    { "resource_id": 125, "text": "Kí sì ni ó mú ọ mọ ohun tó ń jẹ́ Tọ̄riƙ?" },
+    { "resource_id": 125, "text": "Ìràwọ̀ tí ìmọ́lẹ̀ rẹ̀ ń tàn ròrò (ní alẹ́ ni)." },
+    {
+      "resource_id": 125,
+      "text": "Kò sí ẹ̀mí kan àfi kí ẹ̀ṣọ́ kan wà fún un (nínú àwọn mọlāika)."
+    },
+    {
+      "resource_id": 125,
+      "text": "Nítorí náà, kí ènìyàn wòye sí ohun tí A fi ṣẹ̀dá rẹ̀."
+    },
+    {
+      "resource_id": 125,
+      "text": "Wọ́n ṣẹ̀dá rẹ̀ láti inú omi tó ń tú jáde kọ̀ọ́kọ̀ọ́."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó ń jáde láti ààrin ìbàdí ọkùnrin àti àwọn ẹfọ́nhà igbá-àyà obìnrin."
+    },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú Allāhu ni Alágbára lóri ìdápadà rẹ̀"
+    },
+    {
+      "resource_id": 125,
+      "text": "ní ọjọ́ tí wọ́n máa ṣe àyẹ̀wò àwọn (iṣẹ́) àṣepamọ́."
+    },
+    {
+      "resource_id": 125,
+      "text": "Nígbà náà, kò níí sí agbára tàbí alárànṣe kan fún un."
+    },
+    {
+      "resource_id": 125,
+      "text": "Allāhu fi sánmọ̀ tó ń rọ òjò ní ọdọọdún búra."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó tún fi ilẹ̀ tó ń sán kànkàn (fún híhùjáde èso) búra."
+    },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú al-Ƙur’ān ni ọ̀rọ̀-ìpínyà (láààrin òdodo àti irọ́)."
+    },
+    { "resource_id": 125, "text": "Kì í sì ṣe àwàdà." },
+    { "resource_id": 125, "text": "Dájúdájú wọ́n ń déte gan-an." },
+    {
+      "resource_id": 125,
+      "text": "Èmi náà sì ń déte gan-an.1 <sup foot_note=148061>1</sup>"
+    },
+    {
+      "resource_id": 125,
+      "text": "Nítorí náà, lọ́ra fún àwọn aláìgbàgbọ́. Lọ́ wọn lára sẹ́ fún ìgbà díẹ̀."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "86" }
+  }
+}

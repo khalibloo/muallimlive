@@ -1,0 +1,53 @@
+{
+  "translations": [
+    { "resource_id": 38, "text": "Ibt ko langit, ago so bitoon a Tariq," },
+    {
+      "resource_id": 38,
+      "text": "Na antawaa i miyakandao rka o antonaa so bitoon a Tariq?"
+    },
+    { "resource_id": 38, "text": "So bitoon a masindaw!" },
+    { "resource_id": 38, "text": "Daa baraniyawa a ba da a somisiyap on." },
+    {
+      "resource_id": 38,
+      "text": "Na nggdagdaa o manosiya so kiyapakapoon o kiyaadna on!"
+    },
+    { "resource_id": 38, "text": "Inadn a phoon ko ig a minipantos," },
+    {
+      "resource_id": 38,
+      "text": "Phliyo a pphakapoon ko pagltan o bkhokong (o ama) ago so manga gosok (o ina)."
+    },
+    {
+      "resource_id": 38,
+      "text": "Mataan! a Skaniyan na matatangkd a Gaos Iyan a kikasowin Iyan on (ko kawyagoyag)!"
+    },
+    { "resource_id": 38, "text": "Sii ko alongan a payagn so piyamagma;" },
+    {
+      "resource_id": 38,
+      "text": "Na da a bagr iyan roo, go da a tabanga iyan."
+    },
+    {
+      "resource_id": 38,
+      "text": "Ibt ko kawang, a gii khasokasoyan (o oran),"
+    },
+    { "resource_id": 38, "text": "Go so lopa a gii mbabatkad," },
+    {
+      "resource_id": 38,
+      "text": "Ka mataan! (a giya Qor´an aya) na titho a katharo a miyakaznggaya (ko ontol ago so ribat):"
+    },
+    { "resource_id": 38, "text": "Go kna a ba skaniyan kasandagan." },
+    {
+      "resource_id": 38,
+      "text": "Mataan! a siran na pphagantangan siran sa totoo a antangan a marata,"
+    },
+    { "resource_id": 38, "text": "Na pphagantangan Ako sa totoo a antangan." },
+    {
+      "resource_id": 38,
+      "text": "Na pakaplagodang ka (ya Mohammad) so manga kapir: Pakaplagodang ka siran sa di mathay."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "86" }
+  }
+}

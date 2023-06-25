@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Que les Qouraych manifestent leur gratitude pour leur unité"
+    },
+    {
+      "resource_id": 779,
+      "text": "et leur habitude d’effectuer des voyages en hiver et en été<sup foot_note=205508>1</sup>,"
+    },
+    {
+      "resource_id": 779,
+      "text": "en vouant un culte exclusif au Seigneur de cette Demeure"
+    },
+    {
+      "resource_id": 779,
+      "text": "par la grâce duquel ils ne connaissent ni la faim, ni la peur<sup foot_note=205509>1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "106" }
+  }
+}

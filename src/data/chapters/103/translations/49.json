@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Naapa kwa Zama!" },
+    {
+      "resource_id": 49,
+      "text": "Hakika binaadamu bila ya shaka yumo katika khasara,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Ila wale walio amini, na wakatenda mema, na wakausiana kwa haki, na wakausiana kusubiri."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "103" }
+  }
+}

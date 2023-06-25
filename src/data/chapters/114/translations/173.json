@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Ô Messager, dis: Je me prémunis par le Seigneur des gens et je cherche refuge auprès de Lui,"
+    },
+    {
+      "resource_id": 173,
+      "text": "le Souverain des gens dont Il dispose comme Il le veut et qui n’ont pas d’autre souverain que Lui,"
+    },
+    {
+      "resource_id": 173,
+      "text": "le Dieu des gens qui n’ont d’autre dieu que Lui,"
+    },
+    {
+      "resource_id": 173,
+      "text": "contre le mal du démon qui harcèle l’être humain d’insufflations lorsque ce dernier oublie d’évoquer Allah ou l’évoque tardivement."
+    },
+    {
+      "resource_id": 173,
+      "text": "Le démon insuffle le mal dans les cœurs des gens"
+    },
+    {
+      "resource_id": 173,
+      "text": "et peut être un être humain comme il peut être un djinn."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "114" }
+  }
+}

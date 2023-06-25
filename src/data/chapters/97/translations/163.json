@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 163,
+      "text": "নিশ্চয়ই আমি ইহা অবতীর্ণ করেছি মহিমান্বিত রাতে;"
+    },
+    { "resource_id": 163, "text": "আর মহিমান্বিত রাত সম্বন্ধে তুমি জান কী?" },
+    { "resource_id": 163, "text": "মহিমান্বিত রাত হাজার মাস অপেক্ষা উত্তম।" },
+    {
+      "resource_id": 163,
+      "text": "ঐ রাতে (মালাইকা) ফিরিশতাগণ ও রুহ অবতীর্ণ হয় প্রত্যেক কাজে তাদের রবের অনুমতিক্রমে।"
+    },
+    {
+      "resource_id": 163,
+      "text": "শান্তিই শান্তি! সেই রাত-ফাজরের আবির্ভাব পর্যন্ত।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "97" }
+  }
+}

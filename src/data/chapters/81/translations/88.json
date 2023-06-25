@@ -1,0 +1,74 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Kur Dielli të mblidhet e të humbë shkëlqimin;"
+    },
+    { "resource_id": 88, "text": "kur yjet të rrëzohen" },
+    { "resource_id": 88, "text": "dhe malet të lëvizin tutje;" },
+    { "resource_id": 88, "text": "kur devetë barrse të braktisen" },
+    { "resource_id": 88, "text": "dhe egërsirat të tubohen;" },
+    { "resource_id": 88, "text": "kur detet të vlojnë" },
+    { "resource_id": 88, "text": "dhe shpirtrat të bashkohen (me trupat);" },
+    {
+      "resource_id": 88,
+      "text": "kur foshnja e varrosur për së gjalli të pyetet"
+    },
+    { "resource_id": 88, "text": "për çfarë faji ishte vrarë;" },
+    {
+      "resource_id": 88,
+      "text": "kur fletët të shpërndahen<sup foot_note=195881>1</sup>"
+    },
+    { "resource_id": 88, "text": "dhe qielli të zhvishet;" },
+    { "resource_id": 88, "text": "kur Xhehenemi të flakërojë" },
+    { "resource_id": 88, "text": "dhe Xheneti të afrohet:" },
+    {
+      "resource_id": 88,
+      "text": "atëherë çdokush do të marrë vesh çfarë kishte përgatitur (për këtë Ditë)."
+    },
+    { "resource_id": 88, "text": "Betohem për ata (planetë) që tërhiqen," },
+    { "resource_id": 88, "text": "që lindin e perëndojnë," },
+    { "resource_id": 88, "text": "për natën kur bie terri" },
+    { "resource_id": 88, "text": "e për agimin kur nis të zbardhë," },
+    {
+      "resource_id": 88,
+      "text": "se ky (Kuran) është Fjalë e (kumtuar prej) një të Dërguari fisnik,<sup foot_note=195882>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "që zotëron fuqi dhe pozitë të lartë te Zoti i Fronit"
+    },
+    { "resource_id": 88, "text": "e që është i respektuar atje dhe besnik." },
+    {
+      "resource_id": 88,
+      "text": "Shoku juaj<sup foot_note=195883>1</sup> nuk është i marrë."
+    },
+    {
+      "resource_id": 88,
+      "text": "Ai e ka parë atë<sup foot_note=195884>1</sup> në horizontin e qartë"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe nuk mbulon asnjë të fshehtë prej së Padukshmes."
+    },
+    {
+      "resource_id": 88,
+      "text": "As ky (Kuran) nuk është fjalë e djallit të mallkuar."
+    },
+    { "resource_id": 88, "text": "Prandaj, nga po ia mbani?" },
+    { "resource_id": 88, "text": "Ai është veçse këshillë për botët:" },
+    {
+      "resource_id": 88,
+      "text": "për secilin nga ju që dëshiron të ndjekë rrugën e drejtë."
+    },
+    {
+      "resource_id": 88,
+      "text": "Por ju nuk mund të dëshironi, përveçse me vullnetin e Allahut, Zotit të botëve!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "81" }
+  }
+}

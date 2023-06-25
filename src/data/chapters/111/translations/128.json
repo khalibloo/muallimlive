@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 128,
+      "text": "ដៃទាំងពីរ(ទង្វើ)របស់អាពូឡាហាប់បានវិនាសអន្ដរាយ ហើយគេក៏វិនាសអន្ដរាយ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "ទ្រព្យសម្បត្ដិរបស់គេនិងអ្វីៗដែលគេបានសាងកន្លងមក មិនបានផ្ដល់ផលប្រយោជន៍ដល់គេឡើយ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "គេនឹងចូលទៅក្នុងនរកដែលមានអណ្ដាតភ្លើងដ៏សន្ធោ សន្ធៅ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "ហើយភរិយារបស់គេដែលជាអ្នកយកបន្លា(រាយលើផ្លូវ ដើម្បីធ្វើបាបមូហាំម៉ាត់)ក៏ដូច្នោះដែរ។"
+    },
+    { "resource_id": 128, "text": "នៅនឹងករបស់នាងមានខ្សែច្រវ៉ាក់ភ្លើង។" }
+  ],
+  "meta": {
+    "translation_name": "Cambodian Muslim Community Development",
+    "author_name": "Cambodian Muslim Community Development",
+    "filters": { "resource_id": 128, "chapter_number": "111" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 238,
+      "text": "(اي پيغمبر) تنھنجو سِينو تولاءِ ڪشادو نه ڪيو اٿون ڇا؟"
+    },
+    { "resource_id": 238, "text": "۽ تنھنجو (اُھو) بار توکان لاٿوسون." },
+    { "resource_id": 238, "text": "جنھن تنھنجي پٺي کي ڳرو ڪيو ھو." },
+    { "resource_id": 238, "text": "۽ تنھنجي ساراھ تولاءِ مٿاھين ڪئي سون." },
+    { "resource_id": 238, "text": "ڇوته بيشڪ اھنج سان گڏ سھنج آھي." },
+    { "resource_id": 238, "text": "بيشڪ اھنج سان گڏ سھنج آھي." },
+    {
+      "resource_id": 238,
+      "text": "تنھنڪري جڏھن واندو ٿئين ته (عبادت لاءِ) محنت ڪر."
+    },
+    { "resource_id": 238, "text": "۽ خاص پنھنجي پالڻھار ڏانھن دل لڳاءِ." }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "94" }
+  }
+}

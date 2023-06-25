@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Caadaysigii Qureesheed." },
+    {
+      "resource_id": 46,
+      "text": "Ay ka caadayeesheen Safarka Xagaaga iyo Jilaalka darteed."
+    },
+    { "resource_id": 46, "text": "Ha u caabudeen Eebeha Beydkan (Kacbada)." },
+    {
+      "resource_id": 46,
+      "text": "Eebahi ka quudiyay gaajo, kana aamingaliyay cabsi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "106" }
+  }
+}

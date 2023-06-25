@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "For the accustomed security of the Quraysh<sup foot_note=197820>1</sup> -"
+    },
+    {
+      "resource_id": 20,
+      "text": "Their accustomed security [in] the caravan of winter and summer<sup foot_note=197821>1</sup> -"
+    },
+    {
+      "resource_id": 20,
+      "text": "Let them worship the Lord of this House,<sup foot_note=197822>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear."
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "106" }
+  }
+}

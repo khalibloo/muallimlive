@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "De ki: Ey Kafirler!" },
+    { "resource_id": 112, "text": "Ben sizin ibadet ettiğinize ibadet etmem." },
+    {
+      "resource_id": 112,
+      "text": "Siz de benim ibadet ettiğime ibadet edenler değilsiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ben sizin ibadet ettiğinize ibadet edici değilim."
+    },
+    {
+      "resource_id": 112,
+      "text": "Siz de benim ibadet ettiğime ibadet ediciler değilsiniz."
+    },
+    { "resource_id": 112, "text": "Sizin dininiz size, benim dinim bana!" }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "109" }
+  }
+}

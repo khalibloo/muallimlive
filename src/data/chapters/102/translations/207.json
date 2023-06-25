@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "Competition has distracted you" },
+    { "resource_id": 207, "text": "until you visit graveyards." },
+    { "resource_id": 207, "text": "Nevertheless you soon will know;" },
+    { "resource_id": 207, "text": "once more, you soon shall know!" },
+    {
+      "resource_id": 207,
+      "text": "Of course, if you realized with absolute certainty"
+    },
+    { "resource_id": 207, "text": "how you will (all) see Hades," },
+    {
+      "resource_id": 207,
+      "text": "then you would see it with the [very] eye of certainty;"
+    },
+    {
+      "resource_id": 207,
+      "text": "next you will be questioned concerning bliss [in the worldly life] on that day."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "102" }
+  }
+}

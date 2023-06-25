@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 798,
+      "text": "Gajonasiche makono ganagaŵili ga Abu Lahabi, nombe nao ajonasiche.<sup foot_note=195483>1</sup>"
+    },
+    {
+      "resource_id": 798,
+      "text": "Ngaija kwakamuchisya ipanje yao atamuno yaŵapanganyisye (mpela ŵanache ŵaŵaŵeleche)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Takajinjile ku Moto waukwete malamba (gakulapuka)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Niŵankwao ŵakwe ŵaŵaliji nkutwichila sasu (syamiŵa nikuntejelaga Muhammadi ﷺ mwakupita)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Nnukosi mwao (ŵele ŵakongweo) chimukaŵe mwana litondolo lyamiŵamiŵa (lyakwalagachisya nalyo)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "111" }
+  }
+}

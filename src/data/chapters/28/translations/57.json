@@ -1,0 +1,355 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Ta-seen-meem" },
+    { "resource_id": 57, "text": "Tilka ayatu alkitabialmubeen" },
+    {
+      "resource_id": 57,
+      "text": "Natloo AAalayka min naba-i moosawafirAAawna bilhaqqi liqawmin yu/minoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna firAAawna AAala fee al-ardiwajaAAala ahlaha shiyaAAan yastadAAifu ta-ifatanminhum yuthabbihu abnaahum wayastahyeenisaahum innahu kana mina almufsideen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wanureedu an namunna AAala allatheenaistudAAifoo fee al-ardi wanajAAalahum a-immatanwanajAAalahumu alwaritheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wanumakkina lahum fee al-ardi wanuriyafirAAawna wahamana wajunoodahuma minhum makanoo yahtharoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waawhayna ila ommi moosaan ardiAAeehi fa-itha khifti AAalayhi faalqeehi feealyammi wala takhafee wala tahzaneeinna raddoohu ilayki wajaAAiloohu minaalmursaleen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Faltaqatahu alufirAAawna liyakoona lahum AAaduwwan wahazanan innafirAAawna wahamana wajunoodahuma kanookhati-een"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqalati imraatu firAAawna qurratuAAaynin lee walaka la taqtuloohu AAasa an yanfaAAanaaw nattakhithahu waladan wahum la yashAAuroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waasbaha fu-adu ommimoosa farighan in kadat latubdee bihi lawlaan rabatna AAala qalbiha litakoonamina almu/mineen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqalat li-okhtihi qusseehifabasurat bihi AAan junubin wahum la yashAAuroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waharramna AAalayhi almaradiAAamin qablu faqalat hal adullukum AAala ahli baytinyakfuloonahu lakum wahum lahu nasihoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Faradadnahu ila ommihi kaytaqarra AAaynuha wala tahzana walitaAAlamaanna waAAda Allahi haqqun walakinnaaktharahum la yaAAlamoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walamma balagha ashuddahu wastawaataynahu hukman waAAilman wakathalikanajzee almuhsineen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wadakhala almadeenata AAala heenighaflatin min ahliha fawajada feeha rajulayniyaqtatilani hatha min sheeAAatihi wahathamin AAaduwwihi fastaghathahu allathee minsheeAAatihi AAala allathee min AAaduwwihifawakazahu moosa faqada AAalayhi qala hathamin AAamali ashshaytani innahu AAaduwwun mudillunmubeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala rabbi innee thalamtunafsee faghfir lee faghafara lahu innahu huwa alghafooruarraheem"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala rabbi bima anAAamtaAAalayya falan akoona thaheeran lilmujrimeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Faasbaha fee almadeenati kha-ifanyataraqqabu fa-itha allathee istansarahu bil-amsiyastasrikhuhu qala lahu moosa innakalaghawiyyun mubeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Falamma an arada an yabtishabillathee huwa AAaduwwun lahuma qalaya moosa atureedu an taqtulanee kama qataltanafsan bil-amsi in tureedu illa an takoona jabbaranfee al-ardi wama tureedu an takoona mina almusliheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wajaa rajulun min aqsaalmadeenati yasAAa qala ya moosa innaalmalaa ya/tamiroona bika liyaqtulooka fakhruj innee lakamina annasiheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fakharaja minha kha-ifanyataraqqabu qala rabbi najjinee mina alqawmi aththalimeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walamma tawajjaha tilqaamadyana qala AAasa rabbee an yahdiyanee sawaaassabeel"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walamma warada maa madyanawajada AAalayhi ommatan mina annasi yasqoonawawajada min doonihimu imraatayni tathoodani qalama khatbukuma qalata lanasqee hatta yusdira arriAAaowaaboona shaykhun kabeer"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fasaqa lahuma thumma tawallaila aththilli faqala rabbiinnee lima anzalta ilayya min khayrin faqeer"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fajaat-hu ihdahumatamshee AAala istihya-in qalat innaabee yadAAooka liyajziyaka ajra ma saqayta lanafalamma jaahu waqassa AAalayhi alqasasaqala la takhaf najawta mina alqawmi aththalimeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qalat ihdahuma yaabati ista/jirhu inna khayra mani ista/jarta alqawiyyu al-ameen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala innee oreedu an onkihakaihda ibnatayya hatayni AAala anta/juranee thamaniya hijajin fa-in atmamta AAashranfamin AAindika wama oreedu an ashuqqa AAalayka satajiduneein shaa Allahu mina assaliheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala thalika baynee wabaynakaayyama al-ajalayni qadaytu fala AAudwanaAAalayya wallahu AAala ma naqooluwakeel"
+    },
+    {
+      "resource_id": 57,
+      "text": "Falamma qada moosaal-ajala wasara bi-ahlihi anasa min janibi attoorinaran qala li-ahlihi omkuthoo innee anastu naranlaAAallee ateekum minha bikhabarin aw jathwatinmina annari laAAallakum tastaloon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Falamma ataha noodiyamin shati-i alwadi al-aymani fee albuqAAati almubarakatimina ashshajarati an ya moosa innee anaAllahu rabbu alAAalameen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waan alqi AAasaka falamma raahatahtazzu kaannaha jannun walla mudbiranwalam yuAAaqqib ya moosa aqbil wala takhafinnaka mina al-amineen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Osluk yadaka fee jaybika takhruj baydaamin ghayri soo-in wadmum ilayka janahakamina arrahbi fathanika burhanani minrabbika ila firAAawna wamala-ihi innahum kanooqawman fasiqeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala rabbi innee qataltu minhumnafsan faakhafu an yaqtuloon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waakhee haroonu huwa afsahuminnee lisanan faarsilhu maAAiya rid-an yusaddiquneeinnee akhafu an yukaththiboon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala sanashuddu AAadudakabi-akheeka wanajAAalu lakuma sultanan falayasiloona ilaykuma bi-ayatinaantuma wamani ittabaAAakuma alghaliboon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Falamma jaahum moosabi-ayatina bayyinatin qaloo mahatha illa sihrun muftaran wamasamiAAna bihatha fee aba-inaal-awwaleen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqala moosa rabbee aAAlamubiman jaa bilhuda min AAindihi wamantakoonu lahu AAaqibatu addari innahu layuflihu aththalimoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqala firAAawnu ya ayyuhaalmalao ma AAalimtu lakum min ilahin ghayreefaawqid lee ya hamanu AAala atteenifajAAal lee sarhan laAAallee attaliAAuila ilahi moosa wa-innee laathunnuhumina alkathibeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wastakbara huwa wajunooduhu feeal-ardi bighayri alhaqqi wathannooannahum ilayna la yurjaAAoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Faakhathnahu wajunoodahufanabathnahum fee alyammi fanthurkayfa kana AAaqibatu aththalimeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "WajaAAalnahum a-immatan yadAAoona ilaannari wayawma alqiyamati la yunsaroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "WaatbaAAnahum fee hathihi addunyalaAAnatan wayawma alqiyamati hum mina almaqbooheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walaqad atayna moosaalkitaba min baAAdi ma ahlakna alquroonaal-oola basa-ira linnasi wahudanwarahmatan laAAallahum yatathakkaroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wama kunta bijanibialgharbiyyi ith qadayna ila moosaal-amra wama kunta mina ashshahideen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walakinna ansha-naquroonan fatatawala AAalayhimu alAAumuru wama kuntathawiyan fee ahli madyana tatloo AAalayhim ayatinawalakinna kunna mursileen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wama kunta bijanibi attooriith nadayna walakin rahmatanmin rabbika litunthira qawman ma atahum minnatheerin min qablika laAAallahum yatathakkaroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walawla an tuseebahum museebatunbima qaddamat aydeehim fayaqooloo rabbana lawlaarsalta ilayna rasoolan fanattabiAAa ayatikawanakoona mina almu/mineen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Falamma jaahumu alhaqqumin AAindina qaloo lawla ootiya mithla maootiya moosa awa lam yakfuroo bima ootiya moosamin qablu qaloo sihrani tathaharawaqaloo inna bikullin kafiroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qul fa/too bikitabin min AAindi Allahihuwa ahda minhuma attabiAAhu in kuntum sadiqeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fa-in lam yastajeeboo laka faAAlamannama yattabiAAoona ahwaahum waman adallumimmani ittabaAAa hawahu bighayri hudan mina Allahiinna Allaha la yahdee alqawma aththalimeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walaqad wassalna lahumualqawla laAAallahum yatathakkaroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Allatheena ataynahumualkitaba min qablihi hum bihi yu/minoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wa-itha yutla AAalayhim qalooamanna bihi innahu alhaqqu min rabbinainna kunna min qablihi muslimeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Ola-ika yu/tawna ajrahum marrataynibima sabaroo wayadraoona bilhasanatiassayyi-ata wamimma razaqnahum yunfiqoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wa-itha samiAAoo allaghwa aAAradooAAanhu waqaloo lana aAAmaluna walakumaAAmalukum salamun AAalaykum la nabtagheealjahileen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Innaka la tahdee man ahbabtawalakinna Allaha yahdee man yashao wahuwaaAAlamu bilmuhtadeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqaloo in nattabiAAi alhudamaAAaka nutakhattaf min ardina awa lamnumakkin lahum haraman aminan yujba ilayhithamaratu kulli shay-in rizqan min ladunna walakinnaaktharahum la yaAAlamoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wakam ahlakna min qaryatin batiratmaAAeeshataha fatilka masakinuhum lam tuskan minbaAAdihim illa qaleelan wakunna nahnu alwaritheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wama kana rabbuka muhlikaalqura hatta yabAAatha fee ommiharasoolan yatloo AAalayhim ayatina wamakunna muhlikee alqura illa waahluha thalimoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wama ooteetum min shay-in famataAAualhayati addunya wazeenatuhawama AAinda Allahi khayrun waabqa afalataAAqiloon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Afaman waAAadnahu waAAdan hasananfahuwa laqeehi kaman mattaAAnahu mataAAa alhayatiaddunya thumma huwa yawma alqiyamati minaalmuhdareen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wayawma yunadeehim fayaqoolu aynashuraka-iya allatheena kuntum tazAAumoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala allatheena haqqaAAalayhimu alqawlu rabbana haola-i allatheenaaghwayna aghwaynahum kama ghawaynatabarra/na ilayka ma kanoo iyyanayaAAbudoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqeela odAAoo shurakaakumfadaAAawhum falam yastajeeboo lahum waraawoo alAAathabalaw annahum kanoo yahtadoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wayawma yunadeehim fayaqoolu mathaajabtumu almursaleen"
+    },
+    {
+      "resource_id": 57,
+      "text": "FaAAamiyat AAalayhimu al-anbaoyawma-ithin fahum la yatasaaloon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Faamma man taba waamanawaAAamila salihan faAAasa an yakoona minaalmufliheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Warabbuka yakhluqu ma yashaowayakhtaru ma kana lahumu alkhiyaratu subhanaAllahi wataAAala AAamma yushrikoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Warabbuka yaAAlamu ma tukinnu sudooruhumwama yuAAlinoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wahuwa Allahu la ilahailla huwa lahu alhamdu fee al-oola wal-akhiratiwalahu alhukmu wa-ilayhi turjaAAoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qul araaytum in jaAAala AllahuAAalaykumu allayla sarmadan ila yawmi alqiyamatiman ilahun ghayru Allahi ya/teekum bidiya-inafala tasmaAAoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qul araaytum in jaAAala AllahuAAalaykumu annahara sarmadan ila yawmialqiyamati man ilahun ghayru Allahiya/teekum bilaylin taskunoona feehi afala tubsiroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wamin rahmatihi jaAAala lakumuallayla wannahara litaskunoo feehi walitabtaghoomin fadlihi walaAAallakum tashkuroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wayawma yunadeehim fayaqoolu aynashuraka-iya allatheena kuntum tazAAumoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "WanazaAAna min kulli ommatinshaheedan faqulna hatoo burhanakumfaAAalimoo anna alhaqqa lillahi wadallaAAanhum ma kanoo yaftaroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna qaroona kana min qawmimoosa fabagha AAalayhim waataynahumina alkunoozi ma inna mafatihahu latanoo-obilAAusbati olee alquwwati ith qalalahu qawmuhu la tafrah inna Allaha layuhibbu alfariheen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wabtaghi feema atakaAllahu addara al-akhirata walatansa naseebaka mina addunya waahsinkama ahsana Allahu ilayka wala tabghialfasada fee al-ardi inna Allaha layuhibbu almufsideen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Qala innama ooteetuhu AAalaAAilmin AAindee awa lam yaAAlam anna Allaha qad ahlaka minqablihi mina alqurooni man huwa ashaddu minhu quwwatan waaktharujamAAan wala yus-alu AAan thunoobihimu almujrimoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fakharaja AAala qawmihi fee zeenatihiqala allatheena yureedoona alhayata addunyaya layta lana mithla ma ootiya qaroonuinnahu lathoo haththin AAatheem"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waqala allatheena ootooalAAilma waylakum thawabu Allahi khayrun liman amanawaAAamila salihan wala yulaqqahailla assabiroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fakhasafna bihi wabidarihial-arda fama kana lahu min fi-atin yansuroonahumin dooni Allahi wama kana mina almuntasireen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waasbaha allatheenatamannaw makanahu bil-amsi yaqooloona waykaannaAllaha yabsutu arrizqa liman yashaomin AAibadihi wayaqdiru lawla an manna AllahuAAalayna lakhasafa bina waykaannahu la yuflihualkafiroon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Tilka addaru al-akhiratunajAAaluha lillatheena la yureedoonaAAuluwwan fee al-ardi wala fasadan walAAaqibatulilmuttaqeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Man jaa bilhasanatifalahu khayrun minha waman jaa bissayyi-atifala yujza allatheena AAamiloo assayyi-atiilla ma kanoo yaAAmaloon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna allathee farada AAalaykaalqur-ana laradduka ila maAAadin qulrabbee aAAlamu man jaa bilhuda waman huwafee dalalin mubeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wama kunta tarjoo an yulqailayka alkitabu illa rahmatan min rabbikafala takoonanna thaheeran lilkafireen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wala yasuddunnaka AAan ayatiAllahi baAAda ith onzilat ilayka wadAAu ilarabbika wala takoonanna mina almushrikeen"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wala tadAAu maAAa Allahi ilahanakhara la ilaha illa huwa kullushay-in halikun illa wajhahu lahu alhukmuwa-ilayhi turjaAAoon"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "28" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 135,
+      "text": "[ای پیامبر،] آیا ندیدی پروردگارت با اصحاب فیل چه کرد؟"
+    },
+    {
+      "resource_id": 135,
+      "text": "آیا [فریب و] نقشۀ آنان را در تباهی قرار نداد؟"
+    },
+    { "resource_id": 135, "text": "و پرندگانی گروه‌گروه بر [سر] آنان فرستاد" },
+    {
+      "resource_id": 135,
+      "text": "[که] با سنگ‌گِل [که در منقار و چنگال داشتند] آنان را سنگباران می‌کردند؛"
+    },
+    { "resource_id": 135, "text": "و آنها را همچون کاهِ جویده‌شده ساخت." }
+  ],
+  "meta": {
+    "translation_name": "IslamHouse.com",
+    "author_name": "IslamHouse.com",
+    "filters": { "resource_id": 135, "chapter_number": "105" }
+  }
+}

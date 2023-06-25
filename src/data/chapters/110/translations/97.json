@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 97,
+      "text": "جب اللہ کی مدد آجائے اور فتح نصیب ہو جائے <sup foot_note=\"188637\">1</sup>"
+    },
+    {
+      "resource_id": 97,
+      "text": "اور (اے نبیؐ) تم دیکھ لو کہ لوگ فوج در فوج اللہ کے دین میں داخل ہو رہے ہیں <sup foot_note=\"188638\">1</sup>"
+    },
+    {
+      "resource_id": 97,
+      "text": "تو اپنے رب کی حمد کے ساتھ اُس کی تسبیح کرو، <sup foot_note=\"188639\">1</sup> اور اُس سے مغفرت کی دُعا مانگو، <sup foot_note=\"188640\">2</sup> بے شک وہ بڑا توبہ قبول کرنے والا ہے"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem e Qur'an - Syed Abu Ali Maududi",
+    "author_name": "Syed Abu Ali Maududi",
+    "filters": { "resource_id": 97, "chapter_number": "110" }
+  }
+}

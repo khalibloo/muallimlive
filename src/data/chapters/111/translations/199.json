@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 199,
+      "text": "¡Que sean destruidas las manos de Abu Lahab!, ¡que él sea destruido!<sup foot_note=151232>1</sup>"
+    },
+    {
+      "resource_id": 199,
+      "text": "De nada le servirán sus riquezas y sus hijos."
+    },
+    {
+      "resource_id": 199,
+      "text": "Entrará en el fuego llameante (del Infierno)."
+    },
+    {
+      "resource_id": 199,
+      "text": "Y su esposa, que portaba espinas<sup foot_note=151233>1</sup> (para depositarlas en el camino del Profeta con el fin de herirlo),"
+    },
+    {
+      "resource_id": 199,
+      "text": "tendrá (en el Infierno) alrededor de su cuello una soga hecha con fibras de hojas de palmera."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "111" }
+  }
+}

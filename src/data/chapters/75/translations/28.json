@@ -1,0 +1,100 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡No! ¡Juro por el día de la Resurreción!" },
+    { "resource_id": 28, "text": "¡Que no! ¡Juro por el alma que reprueba!" },
+    {
+      "resource_id": 28,
+      "text": "¿Cree el hombre que no juntaremos sus huesos?"
+    },
+    {
+      "resource_id": 28,
+      "text": "¡Claro que sí! Somos capaces de recomponer sus dedos."
+    },
+    {
+      "resource_id": 28,
+      "text": "Pero el hombre preferiría continuar viviendo como un libertino."
+    },
+    {
+      "resource_id": 28,
+      "text": "Pregunta: «¿Cuándo será el día de la Resurrección?»"
+    },
+    { "resource_id": 28, "text": "Cuando se ofusque la vista," },
+    { "resource_id": 28, "text": "se eclipse la luna," },
+    { "resource_id": 28, "text": "se reúnan el sol y la luna," },
+    {
+      "resource_id": 28,
+      "text": "ese día, el hombre dirá: «Y ¿adónde escapar?»"
+    },
+    { "resource_id": 28, "text": "¡No! ¡No habrá escape!" },
+    {
+      "resource_id": 28,
+      "text": "Ese día, el lugar de descanso estará junto a tu Señor."
+    },
+    {
+      "resource_id": 28,
+      "text": "Ese día, ya se le informará al hombre de lo que hizo y de lo que dejó de hacer."
+    },
+    {
+      "resource_id": 28,
+      "text": "¡Más aún! El hombre testificará contra sí mismo,"
+    },
+    { "resource_id": 28, "text": "aun cuando presente sus excusas." },
+    {
+      "resource_id": 28,
+      "text": "No muevas la lengua al recitarlo para precipitarla!"
+    },
+    {
+      "resource_id": 28,
+      "text": "¡Somos Nosotros los encargados de juntarlo y de recitarlo!"
+    },
+    {
+      "resource_id": 28,
+      "text": "Y, cuando lo recitemos, ¡sigue la recitación!"
+    },
+    { "resource_id": 28, "text": "Luego, a Nosotros nos toca explicarlo." },
+    {
+      "resource_id": 28,
+      "text": "Pero ¡no! En lugar de eso, amáis la vida fugaz"
+    },
+    { "resource_id": 28, "text": "y descuidáis la otra vida." },
+    { "resource_id": 28, "text": "Ese día, unos rostros brillarán," },
+    { "resource_id": 28, "text": "mirando a su Señor," },
+    {
+      "resource_id": 28,
+      "text": "mientras que otros, ese día, estarán tristes,"
+    },
+    { "resource_id": 28, "text": "pensando que una calamidad les alcance." },
+    { "resource_id": 28, "text": "¡No! Cuando suba hasta las clavículas," },
+    { "resource_id": 28, "text": "se diga: «¿quién es encantador?»," },
+    { "resource_id": 28, "text": "crea llegado el momento de la separación" },
+    { "resource_id": 28, "text": "y se junte una pierna con otra," },
+    { "resource_id": 28, "text": "ese día la marcha será hacia tu Señor." },
+    { "resource_id": 28, "text": "No creyó, ni oró," },
+    { "resource_id": 28, "text": "antes bien, desmintió y se desvió." },
+    {
+      "resource_id": 28,
+      "text": "Luego, se volvió a los suyos con andar altanero."
+    },
+    { "resource_id": 28, "text": "¡Ay de ti! ¡Ay!" },
+    { "resource_id": 28, "text": "¡Sí! ¡Ay de ti! ¡Ay!" },
+    {
+      "resource_id": 28,
+      "text": "¿Cree el hombre que no van a ocuparse de él?"
+    },
+    { "resource_id": 28, "text": "¿No fue una gota de esperma eyaculada" },
+    {
+      "resource_id": 28,
+      "text": "y, luego, un coágulo de sangre? Él lo creó y le dio forma armoniosa."
+    },
+    { "resource_id": 28, "text": "E hizo de él una pareja: varón y hembra." },
+    {
+      "resource_id": 28,
+      "text": "Ese tal ¿no será capaz de devolver la vida a los muertos?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "75" }
+  }
+}

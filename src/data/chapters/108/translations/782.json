@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 782,
+      "text": "Noi ţi‑am dat ţie [Al‑Kawthar]<sup foot_note=203902>1</sup> prisosinţă.<sup foot_note=203903>2</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Deci împlineşte Rugăciunea pentru Domnul tău şi jertfeşte!<sup foot_note=203904>1</sup>"
+    },
+    { "resource_id": 782, "text": "Cel ce te urăşte va fi fără copii!" }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "108" }
+  }
+}

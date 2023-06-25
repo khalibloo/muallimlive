@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "ধ্বংস হোক আবূ লাহাবের দু’হাত এবং সে নিজেও ধ্বংস হোক।"
+    },
+    {
+      "resource_id": 162,
+      "text": "তার ধন-সম্পদ এবং যা সে অর্জন করেছে তা তার কাজে আসবে না।"
+    },
+    { "resource_id": 162, "text": "অচিরেই সে দগ্ধ হবে লেলিহান আগুনে।" },
+    { "resource_id": 162, "text": "আর তার স্ত্রী লাকড়ি বহনকারী," },
+    { "resource_id": 162, "text": "তার গলায় পাকানো দড়ি।" }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "111" }
+  }
+}

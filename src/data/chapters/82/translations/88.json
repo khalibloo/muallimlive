@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 88, "text": "Kur qielli të çahet" },
+    { "resource_id": 88, "text": "dhe yjet të derdhen;" },
+    { "resource_id": 88, "text": "kur detet të përzihen" },
+    { "resource_id": 88, "text": "dhe varret të rrotullohen," },
+    {
+      "resource_id": 88,
+      "text": "atëherë çdokush do të mësojë për veprat që ka bërë dhe që ka lënë pa bërë."
+    },
+    {
+      "resource_id": 88,
+      "text": "O njeri, ç’të mashtroi ty që nuk i besove Zotit tënd bujar,"
+    },
+    {
+      "resource_id": 88,
+      "text": "i Cili të krijoi ty, të dha përmasa të rregullta dhe të harmonizoi"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe, që të ka mbrujtur në çfarëdo forme që ka dashur?!"
+    },
+    {
+      "resource_id": 88,
+      "text": "Por jo! Ju e quani të gënjeshtërt Gjykimin (pas ringjalljes),"
+    },
+    {
+      "resource_id": 88,
+      "text": "ndonëse mbi ju ka rojtarë (që ju vëzhgojnë),"
+    },
+    { "resource_id": 88, "text": "shënues të nderuar," },
+    { "resource_id": 88, "text": "që dinë gjithçka që bëni." },
+    { "resource_id": 88, "text": "Vërtet, punëdrejtët do të jenë në Xhenet," },
+    {
+      "resource_id": 88,
+      "text": "kurse fajtorët, me siguri, do të jenë në Zjarrin flakërues,"
+    },
+    {
+      "resource_id": 88,
+      "text": "në të cilin do të digjen në Ditën e Gjykimit,"
+    },
+    { "resource_id": 88, "text": "pa mundur t’i shmangen atij." },
+    {
+      "resource_id": 88,
+      "text": "E kush do të ta shpjegojë ty se ç’është Dita e Gjykimit?"
+    },
+    {
+      "resource_id": 88,
+      "text": "Edhe njëherë: Kush do të ta shpjegojë ty se ç’është Dita e Gjykimit?"
+    },
+    {
+      "resource_id": 88,
+      "text": "Ajo është Dita, kur askush nuk do të ketë fuqi për të bërë gjë për ndonjë tjetër dhe, kur pushteti do të jetë vetëm i Allahut."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "82" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 31, "text": "Nous t’avons certes, accordé l’Abondance." },
+    {
+      "resource_id": 31,
+      "text": "Accomplis la Ṣalāt pour ton Seigneur et sacrifie."
+    },
+    {
+      "resource_id": 31,
+      "text": "Celui qui te hait sera certes, sans postérité."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "108" }
+  }
+}

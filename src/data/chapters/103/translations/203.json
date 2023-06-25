@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 203, "text": " By Al-‘Asr (the time)." },
+    { "resource_id": 203, "text": "  Verily, man is in loss," },
+    {
+      "resource_id": 203,
+      "text": "  Except those who believe (in Islâmic Monotheism) and do righteous good deeds, and recommend one another to the truth [i.e. order one another to perform all kinds of good deeds (Al-Ma‘ruf) which Allâh has ordained, and abstain from all kinds of sins and evil deeds (Al-Munkar which Allâh has forbidden], and recommend one another to patience (for the sufferings, harms, and injuries which one may encounter in Allâh’s Cause during preaching His religion of Islâmic Monotheism or Jihâd)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "103" }
+  }
+}

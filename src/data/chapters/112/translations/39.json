@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 39,
+      "text": "Katakanlah (wahai Muhammad): \"(Tuhanku) ialah Allah Yang Maha Esa;"
+    },
+    {
+      "resource_id": 39,
+      "text": "\"Allah Yang menjadi tumpuan sekalian makhluk untuk memohon sebarang hajat;"
+    },
+    {
+      "resource_id": 39,
+      "text": "\"Ia tiada beranak, dan Ia pula tidak diperanakkan;"
+    },
+    {
+      "resource_id": 39,
+      "text": "\"Dan tidak ada sesiapapun yang serupa denganNya\"."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Muhammad Basmeih",
+    "author_name": "Abdullah Muhammad Basmeih",
+    "filters": { "resource_id": 39, "chapter_number": "112" }
+  }
+}

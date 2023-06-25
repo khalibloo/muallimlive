@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "כאשר תזועזע האדמה ברעידתה," },
+    { "resource_id": 233, "text": "ותוציא האדמה את מטמוניה הכבדים." },
+    { "resource_id": 233, "text": "ויגיד האדם: \"מה יש לה”?" },
+    { "resource_id": 233, "text": "ביום ההוא היא תגיד את החדשות שלה," },
+    { "resource_id": 233, "text": "מפני שכך ריבונך השרה לה." },
+    {
+      "resource_id": 233,
+      "text": "ביום ההוא ייפרדו בני האדם לקבוצות, כדי לראות את מעשיהם."
+    },
+    { "resource_id": 233, "text": "הן, מי שיעשה חסד כמשקל גרגר, יחזהו." },
+    { "resource_id": 233, "text": "הן, מי שיעשה רשע כמשקל גרגר, יחזהו." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "99" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "Did We not relieve your breast for you," },
+    { "resource_id": 207, "text": "and remove your burden from you" },
+    { "resource_id": 207, "text": "that pressed down upon your back?" },
+    { "resource_id": 207, "text": "We have even raised up renown of you!" },
+    { "resource_id": 207, "text": "Yet hardship will bring ease." },
+    { "resource_id": 207, "text": "Indeed, hardship must bring ease!" },
+    {
+      "resource_id": 207,
+      "text": "So whenever you have finished, still toil on!"
+    },
+    { "resource_id": 207, "text": "Towards your Lord direct your longing!" }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "94" }
+  }
+}

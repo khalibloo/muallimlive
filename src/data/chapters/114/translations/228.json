@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 228,
+      "text": "(නබි මුහම්මද්) නුඹ පවසනු. මිනිසුන්ගේ පරමාධිපති වෙතින් මම ආරක්ෂාව පතමි."
+    },
+    { "resource_id": 228, "text": "(ඔහු) මිනිසුන්ගේ රජු  (වේ)." },
+    { "resource_id": 228, "text": "(ඔහු) මිනිසුන්ගේ දෙවියා (ද වේ)." },
+    {
+      "resource_id": 228,
+      "text": "(නපුරු) කිලිටි කුකුස් ඇතිකරන්නාගේ හානියෙන් (ඔහුගෙන් ආරක්ෂාව  පතමි.)"
+    },
+    {
+      "resource_id": 228,
+      "text": "ඔහු මිනිසුන්ගේ සිත් තුළ කුතුහලයන් ඇති කරයි."
+    },
+    {
+      "resource_id": 228,
+      "text": "(මෙවන්නන්) ජින්නුන් හා මිනිසුන් අතරද සිටිති."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Translation Pioneers Center",
+    "filters": { "resource_id": 228, "chapter_number": "114" }
+  }
+}

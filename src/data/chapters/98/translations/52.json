@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 52,
+      "text": "Kitap ehlinden ve müşriklerden (Hakk'ı) tanımayanlar, kendilerine açık delil gelinceye kadar inkârlarından ayrılacak değillerdi."
+    },
+    {
+      "resource_id": 52,
+      "text": "(Bu delil), tertemiz sayfaları okuyan, Allah tarafından gönderilmiş bir peygamberdir."
+    },
+    { "resource_id": 52, "text": "O sayfalarda, en doğru hükümler vardır." },
+    {
+      "resource_id": 52,
+      "text": "Kitap ehli, ancak kendilerine apaçık delil geldikten sonra ayrılığa düştüler."
+    },
+    {
+      "resource_id": 52,
+      "text": "Halbuki onlar, dini sadece Allah'a tahsis ederek, Allah'ı birleyerek, ancak Allah'a ibadet etmekle, namazı kılmakla ve zekatı vermekle emrolunmuşlardır. İşte dosdoğru din budur."
+    },
+    {
+      "resource_id": 52,
+      "text": "Kâfirler, gerek kitap ehlinden olsun gerek puta tapanlardan olsun muhakkak, cehennem ateşindedirler. Orada ebedî olarak kalacaklardır. Onlar, insanların en şerlileridir."
+    },
+    {
+      "resource_id": 52,
+      "text": "İnanan ve güzel amel işleyenler de insanların en hayırlılarıdır."
+    },
+    {
+      "resource_id": 52,
+      "text": "Rableri katında onların mükâfatı, altlarından ırmaklar akan Adn cennetleridir. Orada ebedî olarak kalacaklardır. Allah onlardan razı olmuş, onlar da O'ndan razı olmuşlardır. İşte bu mükâfat, Rabbine saygı gösterene mahsustur."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "98" }
+  }
+}

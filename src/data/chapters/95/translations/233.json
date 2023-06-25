@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "(שבועה) בתאנים ובזיתים," },
+    { "resource_id": 233, "text": "ובהר סיני." },
+    { "resource_id": 233, "text": "ובעיר הבטוחה הזאת," },
+    {
+      "resource_id": 233,
+      "text": "אכן, בראנו את האדם(וצאצאיו) בדמות המושלמת ביותר,"
+    },
+    { "resource_id": 233, "text": "והשבנוהו (הכופר) לדרגה הפחותה ביותר," },
+    {
+      "resource_id": 233,
+      "text": "מלבד אלה אשר האמינו ועשו את הטוב, להם גמול אינסופי(בגן העדן)."
+    },
+    { "resource_id": 233, "text": "אם כן, מה עוד גורם לך להתכחש ליום הדין?" },
+    { "resource_id": 233, "text": "אכן, הלא אללה הוא המושלם שבשופטים?" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "95" }
+  }
+}

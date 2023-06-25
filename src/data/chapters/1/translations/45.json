@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 45, "text": "Во имя Аллаха, Милостивого, Милосердного!" },
+    { "resource_id": 45, "text": "Хвала Аллаху, Господу миров," },
+    { "resource_id": 45, "text": "Милостивому, Милосердному," },
+    { "resource_id": 45, "text": "Властелину Дня воздаяния!" },
+    {
+      "resource_id": 45,
+      "text": "Тебе одному мы поклоняемся и Тебя одного молим о помощи."
+    },
+    { "resource_id": 45, "text": "Веди нас прямым путем," },
+    {
+      "resource_id": 45,
+      "text": "путем тех, кого Ты облагодетельствовал, не тех, на кого пал гнев, и не заблудших."
+    }
+  ],
+  "meta": {
+    "translation_name": "Russian Translation ( Elmir Kuliev )",
+    "author_name": "Elmir Kuliev",
+    "filters": { "resource_id": 45, "chapter_number": "1" }
+  }
+}

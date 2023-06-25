@@ -1,0 +1,37 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Esalta il nome del tuo Dio, l'Altissimo," },
+    { "resource_id": 209, "text": "Colui che creò e formò con armonia," },
+    { "resource_id": 209, "text": "e Colui che prestabilì e guidò," },
+    { "resource_id": 209, "text": "e Colui che fece crescere i pascoli," },
+    { "resource_id": 209, "text": "e li rese secchi e neri." },
+    { "resource_id": 209, "text": "Ti insegneremo: non lo dimenticherai," },
+    {
+      "resource_id": 209,
+      "text": "se non quando Allāh lo vorrà; in verità Lui sa ciò che è evidente e ciò che è nascosto."
+    },
+    { "resource_id": 209, "text": "Ti accompagneremo alla strada più facile:" },
+    { "resource_id": 209, "text": "annuncia, se serve, l'Avvertimento;" },
+    { "resource_id": 209, "text": "chi teme ricorderà," },
+    { "resource_id": 209, "text": "ma lo eviterà il malvagio," },
+    { "resource_id": 209, "text": "colui che brucerà nel grande Fuoco," },
+    { "resource_id": 209, "text": "poi lì non morirà, né vivrà." },
+    { "resource_id": 209, "text": "Avrà successo chi si è purificato" },
+    { "resource_id": 209, "text": "e ha invocato il suo Dio, e ha pregato." },
+    { "resource_id": 209, "text": "Voi invece preferite la vita terrena," },
+    { "resource_id": 209, "text": "ma l'altra è migliore e più duratura." },
+    {
+      "resource_id": 209,
+      "text": "In verità questo è nelle Scritture precedenti,"
+    },
+    {
+      "resource_id": 209,
+      "text": "Scritture di Ibrāhīm ﴾إِبْرَاهِيم﴿ e di Mūsā.(مُوسَىٰ)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "87" }
+  }
+}

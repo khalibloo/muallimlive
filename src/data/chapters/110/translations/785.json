@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 785, "text": "چون مدد الله (فتح مکه) برسد." },
+    {
+      "resource_id": 785,
+      "text": "و مردم را ببینی که دسته دسته در دین الله (دین اسلام) داخل شوند."
+    },
+    {
+      "resource_id": 785,
+      "text": "پس پروردگار خود را به پاکی و ثنا یاد کن و از او مغفرت بخواه، چون که او توبه‌پذیر است."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "110" }
+  }
+}

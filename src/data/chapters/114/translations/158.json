@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 158,
+      "text": "کہیے کہ میں پناہ میں آتا ہوں تمام انسانوں کے رب کی۔"
+    },
+    { "resource_id": 158, "text": "تمام انسانوں کے بادشاہ کی۔" },
+    { "resource_id": 158, "text": "تمام انسانوں کے معبود کی۔" },
+    {
+      "resource_id": 158,
+      "text": "اس بار بار وسوسہ ڈالنے والے پیچھے ہٹ جانے والے کے شر سے۔"
+    },
+    {
+      "resource_id": 158,
+      "text": "جو لوگوں کے سینوں میں وسوسہ اندازی کرتا ہے۔"
+    },
+    { "resource_id": 158, "text": "خواہ وہ جنوں میں سے ہو یا انسانوں میں سے۔" }
+  ],
+  "meta": {
+    "translation_name": "Bayan-ul-Quran",
+    "author_name": "Dr. Israr Ahmad",
+    "filters": { "resource_id": 158, "chapter_number": "114" }
+  }
+}

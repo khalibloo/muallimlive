@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Bij het ochtendlicht." },
+    {
+      "resource_id": 144,
+      "text": "En bij de nacht wanneer het geheel donker is."
+    },
+    {
+      "resource_id": 144,
+      "text": "Jouw Heer heeft jou (O Moehammad) niet verlaten en Hij is niet kwaad (op jou)."
+    },
+    {
+      "resource_id": 144,
+      "text": "En het latere (het Hiernamaals) is zeker beter voor jou dan het eerste (het wereldse leven)."
+    },
+    {
+      "resource_id": 144,
+      "text": "En jouw Heer zal jou zeker gunsten schenken, zodat jij tevreden zult zijn."
+    },
+    {
+      "resource_id": 144,
+      "text": "Heeft Hij jou niet als wees gevonden en jou in bescherming genomen?"
+    },
+    {
+      "resource_id": 144,
+      "text": "En Hij heeft jou dwalend gevonden en jou geleid."
+    },
+    {
+      "resource_id": 144,
+      "text": "En Hij heeft jou behoeftig gevonden en rijk gemaakt."
+    },
+    { "resource_id": 144, "text": "Wat de wees betreft: beledig hem niet." },
+    {
+      "resource_id": 144,
+      "text": "En wat de bedelaar betreft: wijs hem niet af."
+    },
+    {
+      "resource_id": 144,
+      "text": "En wat de gunsten van jouw Heer betreft: spreek daarover!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "93" }
+  }
+}

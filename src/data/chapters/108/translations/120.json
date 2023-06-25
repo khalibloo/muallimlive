@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 120, "text": "নিশ্চয় আমি তোমাক আল-কাউছাৰ প্ৰদান কৰিছোঁ।" },
+    {
+      "resource_id": 120,
+      "text": "এতেকে তুমি তোমাৰ প্ৰতিপালকৰ উদ্দেশ্যে ছালাত আদায় কৰা আৰু কোৰবানী কৰা।"
+    },
+    {
+      "resource_id": 120,
+      "text": "নিশ্চয় তোমাৰ প্ৰতি বিদ্বেষ পোষণকাৰীয়েই নিৰ্বংশ।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "author_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "filters": { "resource_id": 120, "chapter_number": "108" }
+  }
+}

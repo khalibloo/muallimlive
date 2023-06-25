@@ -1,0 +1,76 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Yeroo samiin dhodhoote" },
+    {
+      "resource_id": 111,
+      "text": "(Yeroo isheen ajaja) Gooftaa ishee dhaggeeffatte; (wanti kana godhu waan itti argameef) dhugaa qabdi."
+    },
+    { "resource_id": 111, "text": "Yeroo dachiinis diriirfamte," },
+    {
+      "resource_id": 111,
+      "text": "Waan ishee keessa jiru darbitee, duwwaas taate,"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Yeroo isheen ajaja) Gooftaa ishee dhaggeeffatte; (wanti kana godhu waan itti argameef) dhugaa qabdi."
+    },
+    {
+      "resource_id": 111,
+      "text": "Yaa namootaa! Dhugumatti, ati gara Rabbii keetii (dhaqqabuuf) hojiin qabsaa’aadhaa, isa (hojii kee) qunnamaadhas"
+    },
+    { "resource_id": 111, "text": "Namni galmee isaa mirga isaatiin kenname;" },
+    { "resource_id": 111, "text": "Qormaata salphaa qoramuuf jira." },
+    { "resource_id": 111, "text": "Gammadaa gara maatii isaa deebi’a." },
+    {
+      "resource_id": 111,
+      "text": "Namni galmee isaa dugda duubaan kenname immoo;"
+    },
+    { "resource_id": 111, "text": "Badii kadhachuuf jira." },
+    { "resource_id": 111, "text": "Ibidda boba’aa seena." },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, inni maatii isaa keessatti gammadaa ture."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugamatti, inni (gama Rabbii) deebi’uu dhabuu yaade."
+    },
+    {
+      "resource_id": 111,
+      "text": "Lakki! (ni deebi’a)Gooftaan isaa isa argaadha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Haa dhorgamu! Diimina galgalaattin kakadha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Halkaniifi waan inni walitti qabeenis (nan kakadha)."
+    },
+    { "resource_id": 111, "text": "Ji'attis yeroo inni guuteenin (kakadha)." },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, isin sadarkaa tokko irraa gara sadarkaa biraatti ceetu."
+    },
+    { "resource_id": 111, "text": "Maaltu isaaniif jiraayi hin amanne?" },
+    {
+      "resource_id": 111,
+      "text": "Yeroo Qur'aanni isaan irratti qara'amus sujuuda hin bu'an."
+    },
+    { "resource_id": 111, "text": "Dhugumaatti, warri kafaran ni sobsiisu." },
+    {
+      "resource_id": 111,
+      "text": "Rabbiin irra beekaa waan isaan (onnee isaanii keessatti) walitti qabaniiti."
+    },
+    { "resource_id": 111, "text": "Adaba laalessaadhaan isaan gammachiisi." },
+    {
+      "resource_id": 111,
+      "text": "Garuu isaan amananii gaggaarii hojjatan isaaniif mindaa hin cinnetu jira"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "84" }
+  }
+}

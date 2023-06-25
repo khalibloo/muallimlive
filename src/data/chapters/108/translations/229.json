@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 229,
+      "text": "(நபியே!) நிச்சயமாக நாம் (சொர்க்கத்தின் நதியாகிய) \"கவ்ஸர்' ஐ உமக்குக் கொடுத்தோம்."
+    },
+    {
+      "resource_id": 229,
+      "text": "ஆகவே, உம் இறைவனுக்காகத் தொழுவீராக; அறுத்துப் பலியிடுவீராக!"
+    },
+    {
+      "resource_id": 229,
+      "text": "நிச்சயமாக உம் பகைவன்தான் நன்மையற்றவன் (-சந்ததியற்றவன்)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Omar Sharif bin Abdul Salam",
+    "author_name": "Sheikh Omar Sharif bin Abdul Salam",
+    "filters": { "resource_id": 229, "chapter_number": "108" }
+  }
+}

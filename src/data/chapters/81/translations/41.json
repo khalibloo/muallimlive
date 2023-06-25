@@ -1,0 +1,59 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Når solen formørkes," },
+    { "resource_id": 41, "text": "når stjernene fordunkles," },
+    { "resource_id": 41, "text": "når fjellene settes i bevegelse," },
+    { "resource_id": 41, "text": "når kameler som skal føde forsømmes," },
+    { "resource_id": 41, "text": "når villdyrene flokker seg," },
+    { "resource_id": 41, "text": "når havene syder," },
+    { "resource_id": 41, "text": "når sjelene forenes med kroppene," },
+    {
+      "resource_id": 41,
+      "text": "når småpiker som ble levende begravd spørres,"
+    },
+    { "resource_id": 41, "text": "for hvilken synd de ble drept," },
+    { "resource_id": 41, "text": "når skriftrullene (regnskapsbøkene) åpnes," },
+    { "resource_id": 41, "text": "når himmelen flås vekk," },
+    { "resource_id": 41, "text": "når det fyres opp i helvete," },
+    { "resource_id": 41, "text": "når paradiset bringes nær," },
+    {
+      "resource_id": 41,
+      "text": "da skal enhver få vite hva han har prestert."
+    },
+    { "resource_id": 41, "text": "Jeg sverger ved planetene," },
+    { "resource_id": 41, "text": "de vandrende og forsvinnende stjerner," },
+    { "resource_id": 41, "text": "ved natten, når den mørkner," },
+    { "resource_id": 41, "text": "ved morgenen, når den trekker pusten:" },
+    {
+      "resource_id": 41,
+      "text": "Dette er sannelig ord fra en nobel utsending,"
+    },
+    { "resource_id": 41, "text": "med stor makt hos tronens Herre," },
+    { "resource_id": 41, "text": "fast, adlydt og trofast." },
+    { "resource_id": 41, "text": "Deres bysbarn er aldeles ikke besatt!" },
+    {
+      "resource_id": 41,
+      "text": "Han har virkelig sett ham ved den klare horisont!"
+    },
+    {
+      "resource_id": 41,
+      "text": "Han var ikke tilbakeholden når det gjelder det skjulte!"
+    },
+    { "resource_id": 41, "text": "Det var ikke en forkastet satans ord!" },
+    { "resource_id": 41, "text": "Hvor vil dere da ta veien?" },
+    {
+      "resource_id": 41,
+      "text": "Dette er intet annet enn en formaning for all verden,"
+    },
+    { "resource_id": 41, "text": "for den av dere som vil holde rett kurs." },
+    {
+      "resource_id": 41,
+      "text": "Men dere vil ikke, med mindre Gud, all verdens Herre, vil."
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "81" }
+  }
+}

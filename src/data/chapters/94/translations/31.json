@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "N’avons-Nous pas ouvert <sup foot_note=212589>1</sup> pour toi ta poitrine ?"
+    },
+    {
+      "resource_id": 31,
+      "text": "Et ne t’avons-Nous pas déchargé du fardeau."
+    },
+    { "resource_id": 31, "text": "qui accablait ton dos ?" },
+    { "resource_id": 31, "text": "Et exalté pour toi ta renommée ?" },
+    {
+      "resource_id": 31,
+      "text": "A côté de la difficulté est, certes, une facilité !"
+    },
+    {
+      "resource_id": 31,
+      "text": "A côté de la difficulté, est certes, une facilité !"
+    },
+    {
+      "resource_id": 31,
+      "text": "Quand tu te libères, donc, lève-toi <sup foot_note=212590>1</sup>,"
+    },
+    { "resource_id": 31, "text": "et à ton Seigneur aspire." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "94" }
+  }
+}

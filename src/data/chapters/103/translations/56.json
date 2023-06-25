@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "以时光盟誓，" },
+    { "resource_id": 56, "text": "一切人确是在亏折之中，" },
+    {
+      "resource_id": 56,
+      "text": "惟信道而且行善，并以真理相劝，以坚忍相勉的人则不然。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "103" }
+  }
+}

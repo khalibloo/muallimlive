@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Say: (O Muhammad صلى الله عليه وسلم to these Mushrikûn and Kâfirûn): \"O Al-Kafirûn (disbelievers in Allâh, in His Oneness, in His Angels, in His Books, in His Messengers, in the Day of Resurrection, and in Al-Qadar)!"
+    },
+    { "resource_id": 203, "text": "  \"I worship not that which you worship," },
+    {
+      "resource_id": 203,
+      "text": "  \"Nor will you worship that which I worship."
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"And I shall not worship that which you are worshipping."
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"Nor will you worship that which I worship."
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"To you be your religion, and to me my religion (Islâmic Monotheism).\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "109" }
+  }
+}

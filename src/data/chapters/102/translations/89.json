@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 89,
+      "text": "Juve u preokupoi përpjekja për shumimin (e pasurirë, të fëmijve, të pozitës)!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Derisa të mos vizitoni varrezat (të bëheni banues të tyre - të vdisni)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Jo, nuk është ashtu! Gjithsesi këtë do ta kuptoni më vonë!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Përsëri jo, jeni gabim! Më vonë do ta kuptoni!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Jo, pse, sikur ta dinit me një dije të sigurt (nuk do të bënit ashtu)."
+    },
+    { "resource_id": 89, "text": "Ju pa tjetër do ta shihni Xhehennemin." },
+    {
+      "resource_id": 89,
+      "text": "Madje atë do ta shihni të bindur plotësisht."
+    },
+    {
+      "resource_id": 89,
+      "text": "Pastaj në atë ditë do të pyeteni për të mirat (e dynjas)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "102" }
+  }
+}

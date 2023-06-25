@@ -1,0 +1,42 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por el sol y su claridad!" },
+    { "resource_id": 28, "text": "¡Por la luna cuando le sigue!" },
+    { "resource_id": 28, "text": "¡Por el día cuando lo muestra brillante!" },
+    { "resource_id": 28, "text": "¡Por la noche cuando lo vela!" },
+    { "resource_id": 28, "text": "¡Por el cielo y Quien lo ha edificado!" },
+    { "resource_id": 28, "text": "¡Por la tierra y Quien la ha extentido!" },
+    {
+      "resource_id": 28,
+      "text": "¡Por el alma y Quien le ha dado forma armoniosa,"
+    },
+    {
+      "resource_id": 28,
+      "text": "instruyéndole sobre su propensión al pecado y su temor de Dios!"
+    },
+    { "resource_id": 28, "text": "¡Bienaventurado quien la purifique!" },
+    { "resource_id": 28, "text": "¡Decepcionado, empero, quien la corrompa!" },
+    {
+      "resource_id": 28,
+      "text": "Los tamudeos, en su arrogancia, desmintieron."
+    },
+    {
+      "resource_id": 28,
+      "text": "Cuando el más miserable de entre ellos se alzó."
+    },
+    {
+      "resource_id": 28,
+      "text": "El enviado de Dios les dijo: «¡Dejad a la camella de Dios y que beba!»"
+    },
+    {
+      "resource_id": 28,
+      "text": "Le desmintieron y la desjarretaron. Su Señor, entonces, les aniquiló por su pecado, a todos por igual,"
+    },
+    { "resource_id": 28, "text": "sin temer las consecuencias de ello." }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "91" }
+  }
+}

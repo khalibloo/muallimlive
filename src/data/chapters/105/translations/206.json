@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 206,
+      "text": "Have you not seen how your Lord dealt with the people of the Elephant?"
+    },
+    {
+      "resource_id": 206,
+      "text": "Did He not turn their scheme into a total loss?"
+    },
+    { "resource_id": 206, "text": "He sent against them swarms of birds," },
+    { "resource_id": 206, "text": "pelting them with stones of baked clay," },
+    {
+      "resource_id": 206,
+      "text": "leaving them like chewed up and trampled chaff."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "105" }
+  }
+}

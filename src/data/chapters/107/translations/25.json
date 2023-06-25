@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Znaš li ti onoga koji Sud poriče?" },
+    { "resource_id": 25, "text": "Pa to je onaj koji grubo odbija siroče." },
+    {
+      "resource_id": 25,
+      "text": "i koji da se nahrani siromah - ne podstiče."
+    },
+    { "resource_id": 25, "text": "Pa teško klanjačima," },
+    { "resource_id": 25, "text": "onima koji su nemarni prema svome namazu." },
+    { "resource_id": 25, "text": "koji se samo ljudima pokazuju" },
+    {
+      "resource_id": 25,
+      "text": "čak potrepštine koje se na posudbu daju oni ne daju!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "107" }
+  }
+}

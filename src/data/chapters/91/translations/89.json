@@ -1,0 +1,48 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Pasha diellin dhe dritën e tij!" },
+    { "resource_id": 89, "text": "Pasha hënën kur vjen pas tij!" },
+    { "resource_id": 89, "text": "Pasha ditën kur ai (dielli) e shndrit!" },
+    {
+      "resource_id": 89,
+      "text": "Pasha natën kur ajo e mbulon atë (dritën e diellit)!"
+    },
+    { "resource_id": 89, "text": "Pasha qiellin dhe Atë që e ndërtoi atë!" },
+    {
+      "resource_id": 89,
+      "text": "Pasha tokën dhe Atë që e shtriu atë (e sheshoi)!"
+    },
+    { "resource_id": 89, "text": "Pasha njeriun dhe Atë që e krijoi atë!" },
+    {
+      "resource_id": 89,
+      "text": "Dhe ia mësoi se cilat janë të këqijat dhe të mirat e tij."
+    },
+    { "resource_id": 89, "text": "Pra, ka shpëtuar ai që e pastroi vetveten." },
+    { "resource_id": 89, "text": "E ka dështuar ai që e poshtëroi vetveten." },
+    {
+      "resource_id": 89,
+      "text": "Themudi përgënjeshtroi për shkak të arrogancës së vet."
+    },
+    {
+      "resource_id": 89,
+      "text": "Kur më i keqi i tyre u ngrit me të shpejtë."
+    },
+    {
+      "resource_id": 89,
+      "text": "e Pejgamberi atyre u pat thënë: “Kinie kujdes devenë e All-llahut dhe ndaj pengimit të saj që të pijë ujë."
+    },
+    {
+      "resource_id": 89,
+      "text": "Ata nuk i besuan atij dhe atë (devenë) e therrën dhe Zoti i tyre për shkak të mëkatit të tyre ua rreshtoi ndëshkimet dhe i rrafshoi,"
+    },
+    {
+      "resource_id": 89,
+      "text": "Duke mos iu frikësuar prapavisë së atij (ndëshkimi)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "91" }
+  }
+}

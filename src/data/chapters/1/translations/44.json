@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 44,
+      "text": "În numele lui Dumnezeu cel Milos şi Milostiv."
+    },
+    { "resource_id": 44, "text": "Slavă lui Dumnezeu, Domnul lumilor," },
+    { "resource_id": 44, "text": "Milosul, Milostivul," },
+    { "resource_id": 44, "text": "Stăpânul Zilei Judecăţii!" },
+    { "resource_id": 44, "text": "Ţie ne închinăm, Ţie îţi cerem ajutorul." },
+    { "resource_id": 44, "text": "Călăuzeşte-ne pe Calea cea Dreaptă," },
+    {
+      "resource_id": 44,
+      "text": "calea celor binecuvântaţi de Tine, şi nu a celor care Te-au supărat, şi nici a celor rătăciţi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "1" }
+  }
+}

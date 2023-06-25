@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 171,
+      "text": "Verily, Allah has opened up your heart for you and made receiving revelation beloved to you."
+    },
+    { "resource_id": 171, "text": "And I have removed sin from you." },
+    {
+      "resource_id": 171,
+      "text": "That which was burdening you to the extent that it almost broke your back."
+    },
+    {
+      "resource_id": 171,
+      "text": "And I elevated for you your mention, so you are now remembered in the call to prayer, and the call preceding the prayer, and at other times."
+    },
+    {
+      "resource_id": 171,
+      "text": "Indeed, with difficulty and constraint, comes ease and options."
+    },
+    {
+      "resource_id": 171,
+      "text": "Indeed, with difficulty and constraint, comes ease and options; when you know that well, the troubling of your people will not terrify you and will not stop you from calling towards Allah."
+    },
+    {
+      "resource_id": 171,
+      "text": "So when you finish your work and complete it, strive in the worship of your Lord."
+    },
+    {
+      "resource_id": 171,
+      "text": "And divert your passion and resolve towards Allah alone."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abridged Explanation of the Quran",
+    "author_name": "Tafsir Center of Quranic Studies",
+    "filters": { "resource_id": 171, "chapter_number": "94" }
+  }
+}

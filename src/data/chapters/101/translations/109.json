@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 109, "text": "大难，" },
+    { "resource_id": 109, "text": "大难是什么，" },
+    { "resource_id": 109, "text": "你怎能知道大难是什么？" },
+    { "resource_id": 109, "text": "在那日, 众人将似分散的飞蛾，" },
+    { "resource_id": 109, "text": "山岳将似疏松的采绒。" },
+    { "resource_id": 109, "text": "至于善功的分量较重者，" },
+    { "resource_id": 109, "text": "将在满意的生活中；" },
+    { "resource_id": 109, "text": "至于善功的分量较轻者，" },
+    { "resource_id": 109, "text": "他的归宿是深坑。" },
+    { "resource_id": 109, "text": "你怎能知道深坑里有什么？" },
+    { "resource_id": 109, "text": "有烈火。" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Makin",
+    "author_name": "Muhammad Makin",
+    "filters": { "resource_id": 109, "chapter_number": "101" }
+  }
+}

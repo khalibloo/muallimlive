@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Kautta korskuvien sotaratsujen," },
+    { "resource_id": 30, "text": "joiden kavioniskuista säkenöi tulta," },
+    { "resource_id": 30, "text": "jotka riuhtoutuvat hyökkäykseen aamulla," },
+    { "resource_id": 30, "text": "nostattavat tomupilven ilmaan" },
+    { "resource_id": 30, "text": "ja syöksyvät sotalaumojen joukkoon," },
+    {
+      "resource_id": 30,
+      "text": "totisesti, ihminen on kiittämätön Herraansa kohtaan,"
+    },
+    { "resource_id": 30, "text": "hänen on itsensä myönnettävä se." },
+    {
+      "resource_id": 30,
+      "text": "Miten ahnaasti hän himoitseekaan maallista tavaraa!"
+    },
+    {
+      "resource_id": 30,
+      "text": "Eikö hän tiedä, että tulee hetki, jolloin kaikki haudoista herätetään,"
+    },
+    {
+      "resource_id": 30,
+      "text": "jolloin päivänvaloon tulee kaikki, mikä oli poven kätkössä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sinä päivänä heidän Herransa totisesti tuomitsee heidät tietonsa mukaan."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "100" }
+  }
+}

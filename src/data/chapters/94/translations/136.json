@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Ne t’avons-Nous pas ouvert la poitrine?" },
+    {
+      "resource_id": 136,
+      "text": "N’avons-Nous pas déposé pour toi ton fardeau"
+    },
+    { "resource_id": 136, "text": "qui pesait si lourd sur ton dos ?" },
+    { "resource_id": 136, "text": "(N’avons-Nous) pas élevé ton nom ?" },
+    {
+      "resource_id": 136,
+      "text": "Certes, avec la peine vient le soulagement;"
+    },
+    { "resource_id": 136, "text": "Oui, avec la peine vient le soulagement." },
+    {
+      "resource_id": 136,
+      "text": "Quand tu auras accompli (tes devoirs terrestres), lève-toi (pour la prière),"
+    },
+    {
+      "resource_id": 136,
+      "text": "Et recherche ton Seigneur avec empressement !"
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "94" }
+  }
+}

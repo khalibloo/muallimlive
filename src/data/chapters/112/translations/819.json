@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 819, "text": "کہو، وہ اللہ ایک ہے" },
+    { "resource_id": 819, "text": "اللہ بے نیاز ہے" },
+    {
+      "resource_id": 819,
+      "text": "نہ اس کی کوئی اولاد ہے اور نہ وہ کسی کی اولاد"
+    },
+    { "resource_id": 819, "text": "اور کوئی اس کے برابر کا نہیں" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 219, "text": "내가 그대의 가슴을 열어 넓히지 않았던가?" },
+    { "resource_id": 219, "text": "나는 그대의 짐을 내려 주었으니" },
+    { "resource_id": 219, "text": "그대의 등골을 분지르던 짐이라." },
+    {
+      "resource_id": 219,
+      "text": "그리고 나는 그대를 위하여 그대의 명예를 높여 주었노라."
+    },
+    { "resource_id": 219, "text": "그러니 실로 어려움과 함께 쉬움이 있노라." },
+    { "resource_id": 219, "text": "실로 어려움과 함께 쉬움이 있노라." },
+    {
+      "resource_id": 219,
+      "text": "그러니 (일과를) 끝마쳤을 때 그대는 (경배 행위에) 매진하고"
+    },
+    { "resource_id": 219, "text": "그대 주님께로 소망하라." }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "94" }
+  }
+}

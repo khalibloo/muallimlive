@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 118,
+      "text": " (اى نبي!) ته (دوى ته) ووایه: شان دا دى چی الله یو دى "
+    },
+    { "resource_id": 118, "text": " هم دا الله بې نیاز (بې حاجته) دى" },
+    {
+      "resource_id": 118,
+      "text": " نه يې (څوك) زېږولى دى او نه دى (له چا) زېږول شوى دى"
+    },
+    { "resource_id": 118, "text": " او د ده هیڅوك سیال (او) برابر نشته" }
+  ],
+  "meta": {
+    "translation_name": "Zakaria Abulsalam",
+    "author_name": "Zakaria Abulsalam",
+    "filters": { "resource_id": 118, "chapter_number": "112" }
+  }
+}

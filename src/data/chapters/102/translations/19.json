@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "Rivalry in worldly increase distracteth you"
+    },
+    { "resource_id": 19, "text": "Until ye come to the graves." },
+    { "resource_id": 19, "text": "Nay, but ye will come to know!" },
+    { "resource_id": 19, "text": "Nay, but ye will come to know!" },
+    {
+      "resource_id": 19,
+      "text": "Nay, would that ye knew (now) with a sure knowledge!"
+    },
+    { "resource_id": 19, "text": "For ye will behold hell-fire." },
+    { "resource_id": 19, "text": "Aye, ye will behold it with sure vision." },
+    {
+      "resource_id": 19,
+      "text": "Then, on that day, ye will be asked concerning pleasure."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "102" }
+  }
+}

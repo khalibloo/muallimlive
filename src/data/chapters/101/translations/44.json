@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Cea care bate!" },
+    { "resource_id": 44, "text": "Ce este oare cea care bate!" },
+    { "resource_id": 44, "text": "Cum vei şti tu oare ce este cea care bate?" },
+    {
+      "resource_id": 44,
+      "text": "Ea va fi Ziua când oamenii vor fi ca fluturii împrăştiaţi,"
+    },
+    { "resource_id": 44, "text": "iar munţii precum lâna scărmănaţi." },
+    { "resource_id": 44, "text": "Când cele-i cântărite greu vor atârna," },
+    { "resource_id": 44, "text": "un trai de mulţumire va afla." },
+    { "resource_id": 44, "text": "Când cele-i cântărite uşor vor atârna," },
+    { "resource_id": 44, "text": "genunea este maica ce îşi va afla." },
+    { "resource_id": 44, "text": "Şi cum o vei cunoaşte, oare?" },
+    { "resource_id": 44, "text": "O vâlvătaie dogorâtoare!" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "101" }
+  }
+}

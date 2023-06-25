@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 84,
+      "text": "With the name of Allah, the All-Merciful, the Very-Merciful."
+    },
+    {
+      "resource_id": 84,
+      "text": "Praise belongs to Allah, the Lord of all the worlds."
+    },
+    { "resource_id": 84, "text": "the All-Merciful, the Very Merciful." },
+    { "resource_id": 84, "text": "the Master of the Day of Requital." },
+    {
+      "resource_id": 84,
+      "text": "You alone do we worship, and from You alone do we seek help."
+    },
+    { "resource_id": 84, "text": "Take us on the straight path." },
+    {
+      "resource_id": 84,
+      "text": "the path of those on whom You have bestowed Your Grace, not of those who have incurred Your wrath, nor of those who have gone astray."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mufti Taqi Usmani",
+    "author_name": "Mufti Taqi Usmani",
+    "filters": { "resource_id": 84, "chapter_number": "1" }
+  }
+}

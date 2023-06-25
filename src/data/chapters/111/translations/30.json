@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Tuhon omat ovat Abu Lahabin molemmat kädet, ja tuho perii hänet itsensä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hänen rikkautensa ja ansionsa eivät häntä vähääkään hyödytä."
+    },
+    { "resource_id": 30, "text": "Pian hän kärventyy tulen liekeissä," },
+    { "resource_id": 30, "text": "ja samoin hänen vaimonsa, parjaaja," },
+    {
+      "resource_id": 30,
+      "text": "jonka kaulaan on heitetty tiukasti punottu köysi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "111" }
+  }
+}

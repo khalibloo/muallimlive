@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 238, "text": "(اي پيغمبر ڪافرن کي) چؤ ته اي ڪافرؤ." },
+    {
+      "resource_id": 238,
+      "text": "نڪي آءٌ ان جي عبادت ڪندس جنھنجي اوھين عبادت ڪندا آھيو."
+    },
+    {
+      "resource_id": 238,
+      "text": "۽ نڪي اوھين ان جي عبادت ڪندؤ جنھن جي آءٌ عبادت ڪندو آھيان."
+    },
+    {
+      "resource_id": 238,
+      "text": "۽ نڪي آءٌ ان جي عبادت ڪندس جنھنجي اوھان عبادت ڪئي."
+    },
+    {
+      "resource_id": 238,
+      "text": "۽ نڪي اوھين ان جي عبادت ڪندؤ جنھنجي آءٌ عبادت ڪندو آھيان."
+    },
+    {
+      "resource_id": 238,
+      "text": "اوھان لاءِ اوھان جو دين ۽ مون لاءِ منھنجو دين آھي."
+    }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "109" }
+  }
+}

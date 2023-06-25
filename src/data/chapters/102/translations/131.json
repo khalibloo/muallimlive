@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Competition for more ˹gains˺ diverts you ˹from Allah˺,"
+    },
+    {
+      "resource_id": 131,
+      "text": "until you end up in ˹your˺ graves.<sup foot_note=77637>1</sup>"
+    },
+    { "resource_id": 131, "text": "But no! You will soon come to know." },
+    { "resource_id": 131, "text": "Again, no! You will soon come to know." },
+    {
+      "resource_id": 131,
+      "text": "Indeed, if you were to know ˹your fate˺ with certainty, ˹you would have acted differently˺."
+    },
+    { "resource_id": 131, "text": "˹But˺ you will surely see the Hellfire." },
+    {
+      "resource_id": 131,
+      "text": "Again, you will surely see it with the eye of certainty."
+    },
+    {
+      "resource_id": 131,
+      "text": "Then, on that Day, you will definitely be questioned about ˹your worldly˺ pleasures."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "102" }
+  }
+}

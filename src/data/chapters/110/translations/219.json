@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 219, "text": "하나님의 도움과 대승리가 도래하고" },
+    {
+      "resource_id": 219,
+      "text": "사람들이 무리 지어 하나님의 종교로 입교하는 것을 보았을 때"
+    },
+    {
+      "resource_id": 219,
+      "text": "그대는 그대 주님의 완벽한 영광을 드높이고 그분께 용서를 구하라. 진실로 그분께서는 뉘우치는 자를 받아 주시는 분이도다."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "110" }
+  }
+}

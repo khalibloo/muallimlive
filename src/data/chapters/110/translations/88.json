@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Kur të vijë ndihma e Allahut dhe çlirimi (i Mekës)<sup foot_note=195923>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe t’i shohësh njerëzit duke hyrë në fenë e Allahut grupe-grupe,"
+    },
+    {
+      "resource_id": 88,
+      "text": "atëherë madhëroje me falënderim Zotin tënd dhe kërko falje nga Ai; se Ai është vërtet Pranues i madh i pendimeve."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "110" }
+  }
+}

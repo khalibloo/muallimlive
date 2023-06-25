@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Воістину, дарували Ми тобі достаток" },
+    { "resource_id": 217, "text": "Тож молися Господу своєму та жертвуй" },
+    {
+      "resource_id": 217,
+      "text": "Воістину, той, хто ненавидить тебе — сам безплідний"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "108" }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Při postupně vysílaných," },
+    { "resource_id": 26, "text": "prudce spěchajících," },
+    { "resource_id": 26, "text": "široce rozevírajících," },
+    { "resource_id": 26, "text": "ostře rozlišujících" },
+    { "resource_id": 26, "text": "a připomenutí vrhajících," },
+    { "resource_id": 26, "text": "ať pro omluvu či varování -" },
+    {
+      "resource_id": 26,
+      "text": "to, co vám je slíbeno nezvratně se přihodí!"
+    },
+    { "resource_id": 26, "text": "Až hvězdy pohasnou," },
+    { "resource_id": 26, "text": "až nebesa se roztrhnou," },
+    { "resource_id": 26, "text": "až hory rozprášeny budou," },
+    { "resource_id": 26, "text": "až čas poslům bude stanoven -" },
+    { "resource_id": 26, "text": "ke kterému dni odklad bude udělen?" },
+    { "resource_id": 26, "text": "Ke dni rozhodnutí!" },
+    { "resource_id": 26, "text": "Víš ty vůbec, co je to den rozhodnutí?" },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    { "resource_id": 26, "text": "Což jsme již předchozí nezahubili" },
+    { "resource_id": 26, "text": "a nedali je následovat jinými?" },
+    { "resource_id": 26, "text": "Takto my budeme jednat s hříšnými!" },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    {
+      "resource_id": 26,
+      "text": "Což jsme vás nestvořili z tekutiny nicotné,"
+    },
+    { "resource_id": 26, "text": "již vložili jsme na místo bezpečné" },
+    { "resource_id": 26, "text": "až do doby předem určené?" },
+    {
+      "resource_id": 26,
+      "text": "Tak určili jsme, a jak výtečnými jsme určovateli!"
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    { "resource_id": 26, "text": "Což jsme neučinili zem shromaždištěm" },
+    { "resource_id": 26, "text": "živých i mrtvých?" },
+    {
+      "resource_id": 26,
+      "text": "A na ni jsme pevně zapuštěné a vysoko se pnoucí vztyčili a vodou čerstvou jsme vás napojili."
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    { "resource_id": 26, "text": "Jděte si k tomu, co lživým jste nazvali," },
+    { "resource_id": 26, "text": "jděte si ke stínu se třemi větvemi," },
+    {
+      "resource_id": 26,
+      "text": "nepříliš stinnému, jenž nechrání proti plameni,"
+    },
+    { "resource_id": 26, "text": "který jiskry jak polena veliká vrhá," },
+    { "resource_id": 26, "text": "žlutým velbloudům podobná!" },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    {
+      "resource_id": 26,
+      "text": "To bude den, v němž zavržení ani nepromluví,"
+    },
+    {
+      "resource_id": 26,
+      "text": "ani dovoleno jim nebude, aby vznesli své omluvy."
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    {
+      "resource_id": 26,
+      "text": "To bude den rozhodnutí, a shromáždíme vás i předchozí;"
+    },
+    {
+      "resource_id": 26,
+      "text": "a vládnete-li lstí nějakou, pak pokuste se Mne přelstít!"
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    { "resource_id": 26, "text": "Bohabojní ve stínu a u pramenů budou dlít" },
+    { "resource_id": 26, "text": "a ovoce, po němž touží, na dosah ruky mít." },
+    {
+      "resource_id": 26,
+      "text": "\"Jezte a pijte v bezpečí v odměnu za to, co jste konali!\""
+    },
+    {
+      "resource_id": 26,
+      "text": "Takto my věru odměňujeme ty, kdož dobré činili."
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    {
+      "resource_id": 26,
+      "text": "A vy, nevěřící, jezte a užívejte si ještě krátce, vždyť vy věru jste hříšníci!"
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    {
+      "resource_id": 26,
+      "text": "A když je jim řečeno \"Na zem padejte!\", nepadají."
+    },
+    {
+      "resource_id": 26,
+      "text": "Běda v ten den těm, kdož za lež jej prohlásili!"
+    },
+    {
+      "resource_id": 26,
+      "text": "V jaké zvěstování by po tomto ještě mohli uvěřit?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "77" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Sening ko`ksingni keng qilib qo`ymadikmi?" },
+    { "resource_id": 55, "text": "Va sening yukingni yengillatmadikmi?" },
+    { "resource_id": 55, "text": "Yelkangni bosib turganni?" },
+    { "resource_id": 55, "text": "Va sening zikringni yuqori ko`tarmadikmi?" },
+    {
+      "resource_id": 55,
+      "text": "Bas, albatta, qiyinchilik bilan osonchilik bordir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, qiyinchilik bilan osonchilik bordir."
+    },
+    { "resource_id": 55, "text": "Forig` bo`lsang, (ibodatga) uringin." },
+    { "resource_id": 55, "text": "Va faqat Robbingga rag`bat qilgin." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "94" }
+  }
+}

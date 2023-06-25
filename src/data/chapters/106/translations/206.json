@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 206, "text": "For the accustomed security of Quraysh," },
+    {
+      "resource_id": 206,
+      "text": "secure in their winter and summer journeys."
+    },
+    {
+      "resource_id": 206,
+      "text": "Let them worship the Lord of this [Sacred] House,"
+    },
+    {
+      "resource_id": 206,
+      "text": "Who fed them against hunger and made them secure against fear."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "106" }
+  }
+}

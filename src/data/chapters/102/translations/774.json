@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Mwarangajwe no gushaka kwigwizaho ubutunzi,"
+    },
+    { "resource_id": 774, "text": "Kugeza ubwo mugeze mu mva," },
+    {
+      "resource_id": 774,
+      "text": "Oya ntibikwiye! Bidatinze muzamenya (ko ubuzima bw’imperuka ari bwo bwiza kuri mwe)."
+    },
+    { "resource_id": 774, "text": "Oya na none! Bidatinze muzamenya." },
+    {
+      "resource_id": 774,
+      "text": "Oya! Iyo muza kugira ubumenyi budashidikanywaho (bw’ibijyanye n’iherezo ryo kurangazwa no kwigwizaho imitungo, ntimwari guhugira mu by’isi)."
+    },
+    { "resource_id": 774, "text": "Mu by’ukuri muzabona umuriro wa Jahiim!" },
+    { "resource_id": 774, "text": "Rwose muzawibonera imbonankubone." },
+    {
+      "resource_id": 774,
+      "text": "Kandi rwose, kuri uwo munsi muzabazwa ku ngabire (mwahawe muri ku isi)."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "102" }
+  }
+}

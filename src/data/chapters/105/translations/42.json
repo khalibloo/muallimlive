@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 42,
+      "text": "Czy nie widziałeś, jak postąpił twój Pan z towarzyszami słonia?"
+    },
+    { "resource_id": 42, "text": "Czy nie zniweczył ich podstępu?" },
+    {
+      "resource_id": 42,
+      "text": "Czy nie rzucił przeciwko nim ptaków lecących stadami,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Które obrzuciły ich kamieniami z palonej gliny?"
+    },
+    { "resource_id": 42, "text": "I uczynił ich jak objedzone pole zboża." }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "105" }
+  }
+}

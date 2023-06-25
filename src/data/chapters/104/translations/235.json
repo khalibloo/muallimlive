@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 235, "text": "Wee voor de lasteraar en de leugenaar." },
+    { "resource_id": 235, "text": "Die de rijkdom verzamelt en deze telt." },
+    {
+      "resource_id": 235,
+      "text": "Hij denkt dat zijn bezit hem eeuwiglevend maakt."
+    },
+    {
+      "resource_id": 235,
+      "text": "Nee! Waarlijk, hij zal in het verpletterende Vuur gegooid worden."
+    },
+    {
+      "resource_id": 235,
+      "text": "En wat laat jou weten wat het verpletterende Vuur is?"
+    },
+    { "resource_id": 235, "text": "Het Vuur dat Allah heeft aangestoken." },
+    { "resource_id": 235, "text": "Wat naar hun harten opspringt." },
+    { "resource_id": 235, "text": "Waarlijk, het zal hen insluiten." },
+    { "resource_id": 235, "text": "In langgerekte zuilen." }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "104" }
+  }
+}

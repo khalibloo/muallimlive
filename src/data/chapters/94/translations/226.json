@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 226,
+      "text": "१.  काय आम्ही तुमची छाती (हृदय) उघड केली नाही?"
+    },
+    { "resource_id": 226, "text": "२.  आणि तुमच्यावरून तुमचे ओझे उतरविले." },
+    { "resource_id": 226, "text": "३.  ज्याने तुमची पाठ मोडून टाकली होती." },
+    { "resource_id": 226, "text": "४.  आणि आम्ही तुमची चर्चा बुलंद केली." },
+    { "resource_id": 226, "text": "५.  तेव्हा निश्चितच कठीणतेसह सहजता आहे." },
+    { "resource_id": 226, "text": "६.  निःसंशय, कठीणतेसह सहजता आहे." },
+    {
+      "resource_id": 226,
+      "text": "७.  तर, जेव्हा तुम्ही कामकाज आटोपून मोकळे व्हाल, तर तेव्हा (उपासनेत) मग्न व्हा."
+    },
+    { "resource_id": 226, "text": "८.  आणि आपल्या पालनकर्त्याकडे मन लावा." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Shafi’i Ansari",
+    "author_name": "Muhammad Shafi’i Ansari",
+    "filters": { "resource_id": 226, "chapter_number": "94" }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Oslavuj jméno Pána svého nejvyššího," },
+    { "resource_id": 26, "text": "jenž vše stvořil a vyrovnal," },
+    { "resource_id": 26, "text": "každý osud předurčil a usměrnil," },
+    { "resource_id": 26, "text": "jenž pastviny k životu vyvolal" },
+    { "resource_id": 26, "text": "a potom je v pěnu zčernalou přeměnil!" },
+    {
+      "resource_id": 26,
+      "text": "Naučíme tě přednášet a nezapomeneš nic z věci té,"
+    },
+    {
+      "resource_id": 26,
+      "text": "leda co Bůh bude chtít - a On zná zjevné i skryté -"
+    },
+    { "resource_id": 26, "text": "a ulehčíme ti přístup k věci snadné!" },
+    { "resource_id": 26, "text": "Připomínej, vždyť připomenutí je užitečné!" },
+    { "resource_id": 26, "text": "A kdo Boha se bojí, ten na ně si vzpomene," },
+    {
+      "resource_id": 26,
+      "text": "však odvrátí se od něho jen bídník nejhorší,"
+    },
+    { "resource_id": 26, "text": "jehož spalovat bude oheň největší," },
+    { "resource_id": 26, "text": "v něm potom nezemře ani nebude žít." },
+    { "resource_id": 26, "text": "Prospívat naopak bude ten, kdo je očištěn" },
+    {
+      "resource_id": 26,
+      "text": "a jméno Pána svého vzpomíná a modlitbu koná."
+    },
+    { "resource_id": 26, "text": "Vy však přednost životu pozemskému dáváte," },
+    { "resource_id": 26, "text": "ač život budoucí lepší a trvalejší máte." },
+    {
+      "resource_id": 26,
+      "text": "Toto vskutku je psáno ve svitcích dřívějších,"
+    },
+    { "resource_id": 26, "text": "svitcích Abrahamových a Mojžíšových." }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "87" }
+  }
+}

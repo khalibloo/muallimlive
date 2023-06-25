@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 237,
+      "text": "Не разтворихме ли Ние твоята гръд  [о, Мухаммад]?"
+    },
+    { "resource_id": 237, "text": "И снехме от теб бремето," },
+    { "resource_id": 237, "text": "което тегнеше на твоя гръб." },
+    { "resource_id": 237, "text": "И възвисихме твоето споменаване." },
+    { "resource_id": 237, "text": "С трудността има и леснина." },
+    { "resource_id": 237, "text": "Да, с трудността има и леснина." },
+    {
+      "resource_id": 237,
+      "text": "И когато приключиш, [пак] се труди усърдно,"
+    },
+    { "resource_id": 237, "text": "и на своя Господ се посвещавай!" }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "94" }
+  }
+}

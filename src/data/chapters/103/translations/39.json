@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 39, "text": "Demi Masa!" },
+    { "resource_id": 39, "text": "Sesungguhnya manusia itu dalam kerugian -" },
+    {
+      "resource_id": 39,
+      "text": "Kecuali orang-orang yang beriman dan beramal soleh, dan mereka pula berpesan-pesan dengan kebenaran serta berpesan-pesan dengan sabar."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Muhammad Basmeih",
+    "author_name": "Abdullah Muhammad Basmeih",
+    "filters": { "resource_id": 39, "chapter_number": "103" }
+  }
+}

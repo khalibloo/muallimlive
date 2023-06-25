@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "And olsun axşam çağına (ikindi vaxtına, əsr namazına, zamana və ya Peyğəmbərin əsrinə) ki,"
+    },
+    {
+      "resource_id": 23,
+      "text": "İnsan (ömrünü bihudə işlərə sərf etməklə, dünyanı axirətdən üstün tutmaqla) ziyan içindədir?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Yalnız iman gətirib yaxşı əməllər edən, bir-birinə haqqı tövsiyə edən və səbri tövsiyə edən kimsələrdən başqa! (Belələri Cənnətə nail olub əbədi səadətə qovuşanlardır!)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "103" }
+  }
+}

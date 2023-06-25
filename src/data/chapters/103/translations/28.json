@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por la tarde!" },
+    {
+      "resource_id": 28,
+      "text": "En verdad, el hombre camina hacia su perdición,"
+    },
+    {
+      "resource_id": 28,
+      "text": "Excepto quienes crean, obren bien, se recomienden mutuamente la verdad y se recomienden mutuamente la paciencia."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "103" }
+  }
+}

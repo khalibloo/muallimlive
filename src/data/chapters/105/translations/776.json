@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 776,
+      "text": "¡Mensajero! ¿Acaso no sabes cómo tu Señor trató a Abraha y su pueblo, el pueblo del elefante, cuando tenían la intención de demoler la Ka‘bah?"
+    },
+    {
+      "resource_id": 776,
+      "text": "Al-lah hizo que su plan malvado de destrucción se disolviera, no lograron lo que deseaban al intentar alejar a la gente de la Ka‘bah. No tuvieron éxito en lo más mínimo."
+    },
+    {
+      "resource_id": 776,
+      "text": "Al-lah envió pájaros sobre ellos, quienes vinieron a ellos en bandadas tras bandadas."
+    },
+    {
+      "resource_id": 776,
+      "text": "Las aves les arrojaron piedras de arcilla."
+    },
+    {
+      "resource_id": 776,
+      "text": "Entonces Al-lah los dejó como las hojas que el ganado ha masticado y pisoteado."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Mokhtasar",
+    "author_name": "Spanish Mokhtasar",
+    "filters": { "resource_id": 776, "chapter_number": "105" }
+  }
+}

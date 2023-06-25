@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 33,
+      "text": "Katakanlah (Muhammad), \"Wahai orang-orang kafir!"
+    },
+    {
+      "resource_id": 33,
+      "text": "aku tidak akan menyembah apa yang kamu sembah,"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan kamu bukan penyembah apa yang aku sembah,"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan aku tidak pernah menjadi penyembah apa yang kamu sembah,"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah."
+    },
+    { "resource_id": 33, "text": "Untukmu agamamu, dan untukku agamaku.\"" }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Islamic affairs ministry",
+    "author_name": "Indonesian Islamic affairs ministry",
+    "filters": { "resource_id": 33, "chapter_number": "109" }
+  }
+}

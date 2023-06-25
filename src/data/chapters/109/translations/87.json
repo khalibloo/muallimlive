@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "በላቸው «እናንተ ከሓዲዎች ሆይ!" },
+    { "resource_id": 87, "text": "«ያንን የምትግገዙትን (ጣዖት አሁን) አልግገዛም፡፡" },
+    {
+      "resource_id": 87,
+      "text": "«እናንተም እኔ የምግገዛውን (አምላክም አሁን) ተገዢዎች አይደላችሁም፡፡"
+    },
+    { "resource_id": 87, "text": "«እኔም ያንን የተገዛችሁትን (ወደፊት) ተገዢ አይደለሁም፡፡" },
+    { "resource_id": 87, "text": "«እናንተም እኔ የምግገዛውን (ወደፊት) ተገዢዎች አይደላችሁም፡፡" },
+    { "resource_id": 87, "text": "«ለእናንተ ሃይማኖታችሁ አልላችሁ፡፡ ለእኔም ሃይማኖቴ አለኝ፡፡" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "109" }
+  }
+}

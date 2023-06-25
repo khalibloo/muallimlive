@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 83, "text": "Di: “Me refugio en el Señor del amanecer," },
+    {
+      "resource_id": 83,
+      "text": "de todo el mal que existe en lo que Él creó,"
+    },
+    {
+      "resource_id": 83,
+      "text": "del mal de la oscuridad de la noche cuando se extiende,"
+    },
+    {
+      "resource_id": 83,
+      "text": "del mal de las [hechiceras] sopladoras de nudos<sup foot_note=169518>1</sup>,"
+    },
+    { "resource_id": 83, "text": "y del mal del envidioso cuando envidia”." }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "113" }
+  }
+}

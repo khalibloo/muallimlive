@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Thuaj: “Mbështetem në Zotin e njerëzve!" },
+    { "resource_id": 89, "text": "Sunduesin e njerëzve," },
+    { "resource_id": 89, "text": "Të adhuruarin e njerëzve," },
+    { "resource_id": 89, "text": "Prej të keqes së cytësit që fshihet." },
+    { "resource_id": 89, "text": "I cili hedh dyshime në zemrat e njerëzve," },
+    { "resource_id": 89, "text": "Qoftë ai nga xhinët ose nga njerëzit”." }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "114" }
+  }
+}

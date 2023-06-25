@@ -1,0 +1,111 @@
+{
+  "translations": [
+    { "resource_id": 23, "text": "And olsun dan yerinə;" },
+    {
+      "resource_id": 23,
+      "text": "And olsun on gecəyə (zülhiccə ayının birinci, yaxud ramazan ayının sonuncu on gecəsinə);"
+    },
+    {
+      "resource_id": 23,
+      "text": "And olsun cütə və təkə (tək olan xaliqə, erkək və dişi olmaqla cüt olan məxluqata; cüt olan hər şeyə, yaxud Qurban bayramına və yaxud Ərəfə gününə);"
+    },
+    {
+      "resource_id": 23,
+      "text": "And olsun keçib getməkdə olan gecəyə (ki, qiyamət haqdır və siz kafirlər qiyamət günü dirilib əməllərinizin cəzasını layiqincə alacaqsınız)!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Məgər bunlarda (qiyamətin haq olması barədə) ağıl sahibi üçün and yoxmudur?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) məgər görmədinmi ki, Rəbbin nələr etdi Ada (Hud peyğəmbərin Ad qövmünə)?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Sütunlar sahibi (və ya: sütun kimi uca boylu) İrəmə (İrəm camaatına)?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Elə bir qövm ki) məmləkətlər (əhli) arasında onun kimisi yaradılmamışdı."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Məgər görmədinmi ki, Rəbbin nələr etdi) vadidə qayaları olan Səmuda (Səmud qövmünə)?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Eləcə də saysız-hesabsız ordular sahibi Fir’ona?!"
+    },
+    { "resource_id": 23, "text": "O kəslər ki, məmləkətlərdə tüğyan edir," },
+    { "resource_id": 23, "text": "Oralarda çoxlu fitnə-fəsad törədirlər." },
+    {
+      "resource_id": 23,
+      "text": "Nəhayət, Rəbbin onlara əzab qamçısı endirdi."
+    },
+    {
+      "resource_id": 23,
+      "text": "Şübhəsiz ki, Rəbbin (bəndələrinin bütün əməllərini) baxıb görür."
+    },
+    {
+      "resource_id": 23,
+      "text": "İnsana gəldikdə, nə zaman Rəbbin onu imtahana çəkib ehtiram etsə, ona bir ne’mət versə, o: “Rəbbim mənə ehtiram göstərdi!”–deyər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Amma nə zaman (Rəbbin) onu imtahana çəkib ruzisini əskiltsə: “Rəbbim məni alçaltdı (mənə xor baxdı)!” – söyləyər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Xeyr! (Belə deməyin). Doğrusu, siz özünüz yetimə hörmət etmirsiniz (yetimin haqqını vermirsiniz)."
+    },
+    {
+      "resource_id": 23,
+      "text": "Bir-birinizi yoxsulu yedirtməyə rəğbətləndirmirsiniz."
+    },
+    {
+      "resource_id": 23,
+      "text": "Mirası (halal-haramına) varmadan yeyirsiniz (qadınların, uşaqların paylarını vermirsiniz)."
+    },
+    { "resource_id": 23, "text": "Mal-dövləti isə lap çox sevirsiniz." },
+    { "resource_id": 23, "text": "Xeyr! Yer dağılıb parça-parça olacağı;" },
+    {
+      "resource_id": 23,
+      "text": "Rəbbinin əmri gəlib mələklər səf-səf duracağı"
+    },
+    {
+      "resource_id": 23,
+      "text": "Və Cəhənnəmin (məhşər meydanına) gətiriləcəyi gün – məhz o gün insan (öz günahlarını) xatırlayacaqdır. Lakin bu xatırlamağın ona nə faydası?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "O: “Kaş ki, mən əvvəlcədən (axirət) həyatım üçün (yaxşı əməllər) edəydim!” – deyəcəkdir."
+    },
+    {
+      "resource_id": 23,
+      "text": "O gün (Allahın) etdiyi əzabı heç kəs edə bilməz!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Günahkarları) heç kəs Onun kimi zəncirləyə bilməz!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Qiyamət günü Allah-təala mö’min kimsəyə belə buyuracaqdır: ) “Ey (öz imanından, əməlindən və Allahın və’dindən) xatircəm olan kəs! (Və ya: “Ey arxayın nəfs!”)"
+    },
+    {
+      "resource_id": 23,
+      "text": "Dön Rəbbinə, sən Ondan razı olaraq, O da səndən!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Əməlisaleh) bəndələrimin zümrəsinə daxil ol!"
+    },
+    { "resource_id": 23, "text": "(Onlarla birlikdə) Cənnətimə varid ol!”" }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "89" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "کیا ہم نے نہیں کھول دیا تیرا سینہ <sup foot_note=88850>1</sup>"
+    },
+    { "resource_id": 151, "text": "اور اتار رکھا ہم نے تجھ پر سے بوجھ تیرا" },
+    {
+      "resource_id": 151,
+      "text": "جس نے جھکا دی تھی پیٹھ تیری <sup foot_note=88851>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "اور بلند کیا ہم نے مذکور تیرا <sup foot_note=88852>1</sup>"
+    },
+    { "resource_id": 151, "text": "سو البتہ مشکل کے ساتھ آسانی ہے" },
+    {
+      "resource_id": 151,
+      "text": "البتہ مشکل کے ساتھ آسانی ہے <sup foot_note=88853>1</sup>"
+    },
+    { "resource_id": 151, "text": "پھر جب تو فارغ ہو تو محنت کر" },
+    {
+      "resource_id": 151,
+      "text": "اور اپنے رب کی طرف دل لگا <sup foot_note=88854>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "94" }
+  }
+}

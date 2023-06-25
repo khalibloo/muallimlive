@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 785, "text": "قسم به زمانه." },
+    { "resource_id": 785, "text": "که البته انسان در خساره است." },
+    {
+      "resource_id": 785,
+      "text": "به جز آنانی که ایمان آوردند و اعمال نیک انجام دادند و یکدیگر را به حق توصیه کردند، و یکدیگر را به صبر (در راه حق) توصیه کردند."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "103" }
+  }
+}

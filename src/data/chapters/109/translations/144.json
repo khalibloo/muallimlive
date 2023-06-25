@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Zeg (O Mohammed): \"O ongelovigen." },
+    { "resource_id": 144, "text": "Ik aanbid niet wat jullie aanbidden." },
+    {
+      "resource_id": 144,
+      "text": "En jullie zijn geen aanbidders van wat ik aanbid."
+    },
+    {
+      "resource_id": 144,
+      "text": "En ik zal nooit een aanbidder worden van wat jullie aanbidden."
+    },
+    {
+      "resource_id": 144,
+      "text": "En jullie zullen nooit aanbidders worden van wat ik aanbid."
+    },
+    {
+      "resource_id": 144,
+      "text": "Daarom, voor jullie jullie godsdienst en voor mij mijn godsdienst."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "109" }
+  }
+}

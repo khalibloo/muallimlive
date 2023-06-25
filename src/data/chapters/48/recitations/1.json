@@ -1,0 +1,38 @@
+{
+  "audio_files": [
+    { "verse_key": "48:1", "url": "AbdulBaset/Mujawwad/mp3/048001.mp3" },
+    { "verse_key": "48:2", "url": "AbdulBaset/Mujawwad/mp3/048002.mp3" },
+    { "verse_key": "48:3", "url": "AbdulBaset/Mujawwad/mp3/048003.mp3" },
+    { "verse_key": "48:4", "url": "AbdulBaset/Mujawwad/mp3/048004.mp3" },
+    { "verse_key": "48:5", "url": "AbdulBaset/Mujawwad/mp3/048005.mp3" },
+    { "verse_key": "48:6", "url": "AbdulBaset/Mujawwad/mp3/048006.mp3" },
+    { "verse_key": "48:7", "url": "AbdulBaset/Mujawwad/mp3/048007.mp3" },
+    { "verse_key": "48:8", "url": "AbdulBaset/Mujawwad/mp3/048008.mp3" },
+    { "verse_key": "48:9", "url": "AbdulBaset/Mujawwad/mp3/048009.mp3" },
+    { "verse_key": "48:10", "url": "AbdulBaset/Mujawwad/mp3/048010.mp3" },
+    { "verse_key": "48:11", "url": "AbdulBaset/Mujawwad/mp3/048011.mp3" },
+    { "verse_key": "48:12", "url": "AbdulBaset/Mujawwad/mp3/048012.mp3" },
+    { "verse_key": "48:13", "url": "AbdulBaset/Mujawwad/mp3/048013.mp3" },
+    { "verse_key": "48:14", "url": "AbdulBaset/Mujawwad/mp3/048014.mp3" },
+    { "verse_key": "48:15", "url": "AbdulBaset/Mujawwad/mp3/048015.mp3" },
+    { "verse_key": "48:16", "url": "AbdulBaset/Mujawwad/mp3/048016.mp3" },
+    { "verse_key": "48:17", "url": "AbdulBaset/Mujawwad/mp3/048017.mp3" },
+    { "verse_key": "48:18", "url": "AbdulBaset/Mujawwad/mp3/048018.mp3" },
+    { "verse_key": "48:19", "url": "AbdulBaset/Mujawwad/mp3/048019.mp3" },
+    { "verse_key": "48:20", "url": "AbdulBaset/Mujawwad/mp3/048020.mp3" },
+    { "verse_key": "48:21", "url": "AbdulBaset/Mujawwad/mp3/048021.mp3" },
+    { "verse_key": "48:22", "url": "AbdulBaset/Mujawwad/mp3/048022.mp3" },
+    { "verse_key": "48:23", "url": "AbdulBaset/Mujawwad/mp3/048023.mp3" },
+    { "verse_key": "48:24", "url": "AbdulBaset/Mujawwad/mp3/048024.mp3" },
+    { "verse_key": "48:25", "url": "AbdulBaset/Mujawwad/mp3/048025.mp3" },
+    { "verse_key": "48:26", "url": "AbdulBaset/Mujawwad/mp3/048026.mp3" },
+    { "verse_key": "48:27", "url": "AbdulBaset/Mujawwad/mp3/048027.mp3" },
+    { "verse_key": "48:28", "url": "AbdulBaset/Mujawwad/mp3/048028.mp3" },
+    { "verse_key": "48:29", "url": "AbdulBaset/Mujawwad/mp3/048029.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "AbdulBaset AbdulSamad",
+    "recitation_style": "Mujawwad",
+    "filters": { "chapter_number": "48" }
+  }
+}

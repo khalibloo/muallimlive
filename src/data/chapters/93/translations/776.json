@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 776, "text": "Al-lah jura por el resplandor matinal." },
+    {
+      "resource_id": 776,
+      "text": "Y jura por la noche cuando oscurece y la gente se serena."
+    },
+    {
+      "resource_id": 776,
+      "text": "¡Mensajero! Tu Señor no te ha abandonado ni te ha aborrecido, como decían los idólatras cuando hubo una pausa en la revelación."
+    },
+    {
+      "resource_id": 776,
+      "text": "De hecho, la morada del Más Allá será mejor para ti que la mundana, debido a las recompensas eternas que te esperan."
+    },
+    {
+      "resource_id": 776,
+      "text": "Muy pronto tu Señor te agraciará con abundantes recompensas, y a tu nación también, hasta que tú y tu gente queden complacidos con lo que Él les concedió."
+    },
+    {
+      "resource_id": 776,
+      "text": "Al-lah te encontró huérfano y te amparó hasta que tu abuelo Abdul Muttalib se encariñó contigo, y luego tu tío Abu Talib."
+    },
+    {
+      "resource_id": 776,
+      "text": "Al-lah te encontró en un estado en el que no sabías lo que era la revelación o la fe, y por eso Él te enseñó lo que no sabías."
+    },
+    {
+      "resource_id": 776,
+      "text": "Y te encontró pobre, y te hizo autosuficiente."
+    },
+    {
+      "resource_id": 776,
+      "text": "Por lo tanto, no maltrates ni desprecies al huérfano."
+    },
+    { "resource_id": 776, "text": "Ni reproches al mendigo necesitado." },
+    {
+      "resource_id": 776,
+      "text": "Y agradece y divulga las bendiciones de tu Señor."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Mokhtasar",
+    "author_name": "Spanish Mokhtasar",
+    "filters": { "resource_id": 776, "chapter_number": "93" }
+  }
+}

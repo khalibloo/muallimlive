@@ -1,0 +1,112 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Söküp çıkaranlara , andolsun;" },
+    { "resource_id": 124, "text": "yavaşça çekenlere , andolsun;" },
+    { "resource_id": 124, "text": "yüzdükçe yüzenlere , andolsun;" },
+    { "resource_id": 124, "text": "yarıştıkça yarışanlara , andolsun;" },
+    { "resource_id": 124, "text": "iş düzenleyenlere  , andolsun;" },
+    { "resource_id": 124, "text": "Birinci üflemenin (kâinatı) sarstığı," },
+    { "resource_id": 124, "text": "onu ikinci üflemenin takip ettiği gün," },
+    { "resource_id": 124, "text": "işte o gün yürekler kaygıdan oynar," },
+    { "resource_id": 124, "text": "gözler yorgun düşer." },
+    {
+      "resource_id": 124,
+      "text": "«Öldükten sonra biz, (dünyadaki) ilk halimize mi döndürüleceğiz, derler."
+    },
+    {
+      "resource_id": 124,
+      "text": "(Hem de) çürümüş kemikler olduktan sonra mı?»"
+    },
+    {
+      "resource_id": 124,
+      "text": "«O zaman bu, ziyanlı bir dönüş olur» dediler."
+    },
+    { "resource_id": 124, "text": "Bu dönüş, sadece bir seslenmeye bakar." },
+    {
+      "resource_id": 124,
+      "text": "Birdenbire kendilerini mahşerde buluverirler."
+    },
+    { "resource_id": 124, "text": "(Habibim!) Sana Musa'nın haberi geldi mi?" },
+    {
+      "resource_id": 124,
+      "text": "Kutsal vadi Tuva'da Rabbi ona şöyle seslenmişti :"
+    },
+    { "resource_id": 124, "text": "Firavun'a git! Çünkü o çok azdı." },
+    { "resource_id": 124, "text": "De ki: Arınmayı ister misin?" },
+    {
+      "resource_id": 124,
+      "text": "Seni Rabbimin yoluna iletmemi, böylece ondan korkarsın."
+    },
+    { "resource_id": 124, "text": "Ve ona en büyük mucizeyi gösterdi." },
+    { "resource_id": 124, "text": "(O ise) hemen yalanladı ve isyan etti." },
+    {
+      "resource_id": 124,
+      "text": "Sonra (inkâr için) olanca çabasını göstererek sırtını döndü."
+    },
+    {
+      "resource_id": 124,
+      "text": "Derhal (adamlarını) topladı ve (onlara) bağırdı:"
+    },
+    { "resource_id": 124, "text": "Ben, sizin en yüce Rabbinizim! dedi." },
+    {
+      "resource_id": 124,
+      "text": "Allah onu, (herkese ibret olarak) dünya ve ahiret azabıyla cezalandırdı."
+    },
+    {
+      "resource_id": 124,
+      "text": "Elbette bunda, korkan kimseler için büyük bir ibret vardır."
+    },
+    {
+      "resource_id": 124,
+      "text": "Sizi yaratmak mı daha güç, yoksa gökyüzünü yaratmak mı, ki onu Allah bina etti,"
+    },
+    { "resource_id": 124, "text": "onu yükseltip düzene koydu." },
+    { "resource_id": 124, "text": "Gecesini kararttı, gündüzünü ağarttı." },
+    { "resource_id": 124, "text": "Ondan sonra da yeryüzünü yayıp döşedi." },
+    { "resource_id": 124, "text": "Yerden suyunu ve otlağını çıkardı" },
+    {
+      "resource_id": 124,
+      "text": "ve dağları sağlam bir şekilde yerleştirdi."
+    },
+    {
+      "resource_id": 124,
+      "text": "Kendiniz ve hayvanlarınız için bir faydalanma olmak üzere,"
+    },
+    {
+      "resource_id": 124,
+      "text": "her şeyi alt üst eden o büyük felâket geldiği vakit,"
+    },
+    {
+      "resource_id": 124,
+      "text": "insanın yapıp ettiklerini hatırlayacağı gün"
+    },
+    {
+      "resource_id": 124,
+      "text": "ve görene cehennem açık bir şekilde gösterildiği zaman;"
+    },
+    { "resource_id": 124, "text": "azana" },
+    { "resource_id": 124, "text": "ve dünya hayatını ahirete tercih edene," },
+    { "resource_id": 124, "text": "şüphesiz cehennem tek barınaktır." },
+    {
+      "resource_id": 124,
+      "text": "Rabbinin makamından korkan ve nefsini kötü arzulardan uzaklaştıran için ise"
+    },
+    { "resource_id": 124, "text": "şüphesiz cennet yegâne barınaktır." },
+    {
+      "resource_id": 124,
+      "text": "Sana kıyameti sorarlar: Gelip çatması ne zamandır? (derler.)"
+    },
+    { "resource_id": 124, "text": "Sen onu nereden bilip bildireceksin!" },
+    { "resource_id": 124, "text": "O'nun nihaî ilmi yalnız Rabbine aittir." },
+    { "resource_id": 124, "text": "Sen ancak ondan korkanları uyarırsın." },
+    {
+      "resource_id": 124,
+      "text": "Kıyamet gününü gördüklerinde (dünyada) sadece bir akşam vakti ya da kuşluk zamanı kadar kaldıklarını sanırlar. "
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "79" }
+  }
+}

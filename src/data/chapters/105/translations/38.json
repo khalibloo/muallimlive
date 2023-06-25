@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Bang ka da katokawi so inikidiya o Kadnan ka ko khimangark ko gadiya?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Ba Niyan da tagoa so antangan iran a marata sii ko kalogi?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go biyotawanan Iyan siran sa manga papanok a khirrngkap."
+    },
+    {
+      "resource_id": 38,
+      "text": "A pphangolog kiran sa ator a phoon ko lipaw a kiyomba;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Na biyaloy Niyan siran a miyakairing ko pr a kiyan (a old)?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "105" }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "translations": [
+    {
+      "resource_id": 49,
+      "text": "Soma kwa jina la Mola wako Mlezi aliye umba,"
+    },
+    { "resource_id": 49, "text": "Amemuumba binaadamu kwa tone la damu," },
+    {
+      "resource_id": 49,
+      "text": "Soma! Na Mola wako Mlezi ni Karimu kushinda wote!"
+    },
+    { "resource_id": 49, "text": "Ambaye amefundisha kwa kalamu." },
+    { "resource_id": 49, "text": "Kamfundisha mtu aliyo kuwa hayajui." },
+    { "resource_id": 49, "text": "Kwani! Hakika mtu bila ya shaka huwa jeuri" },
+    { "resource_id": 49, "text": "Akijiona katajirika." },
+    { "resource_id": 49, "text": "Hakika kwa Mola wako Mlezi ndio marejeo." },
+    { "resource_id": 49, "text": "Umemwona yule anaye mkataza" },
+    { "resource_id": 49, "text": "Mja anapo sali?" },
+    { "resource_id": 49, "text": "Umeona kama yeye yuko juu ya uwongofu?" },
+    { "resource_id": 49, "text": "Au anaamrisha uchamngu?" },
+    {
+      "resource_id": 49,
+      "text": "Umeona kama yeye akikanusha na anarudi nyuma?"
+    },
+    { "resource_id": 49, "text": "Hajui ya kwamba Mwenyezi Mungu anaona?" },
+    {
+      "resource_id": 49,
+      "text": "Kwani! Kama haachi, tutamkokota kwa shungi la nywele!"
+    },
+    { "resource_id": 49, "text": "Shungi la uwongo, lenye makosa!" },
+    { "resource_id": 49, "text": "Basi na awaite wenzake!" },
+    { "resource_id": 49, "text": "Nasi tutawaita Mazabania!" },
+    { "resource_id": 49, "text": "Hasha! Usimt'ii! Nawe sujudu na ujongee!" }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "96" }
+  }
+}

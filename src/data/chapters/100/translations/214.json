@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Tako mi onih koji dahćući jure," },
+    { "resource_id": 214, "text": "pa varnice vrcaju," },
+    { "resource_id": 214, "text": "i zorom napadaju," },
+    { "resource_id": 214, "text": "i tu dižu prašinu" },
+    { "resource_id": 214, "text": "pa tu svi zajedno u sredinu prodiru," },
+    {
+      "resource_id": 214,
+      "text": "čovjek je, zaista, prema Gospodaru svome poricatelj veliki,"
+    },
+    { "resource_id": 214, "text": "i sam je on, doista, svjedok toga," },
+    {
+      "resource_id": 214,
+      "text": "i on je, zbilja, u ljubavi za dobrima dunjalučkim žestok."
+    },
+    {
+      "resource_id": 214,
+      "text": "A zar on ne zna da će, kada kaburovi budu prevrnuti s onim što je u njima,"
+    },
+    {
+      "resource_id": 214,
+      "text": "i kada iziđe na vidjelo ono što je u srcima,"
+    },
+    {
+      "resource_id": 214,
+      "text": "Gospodar njihov Dan taj, sigurno, sve o njima znati?!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "100" }
+  }
+}

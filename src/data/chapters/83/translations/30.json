@@ -1,0 +1,120 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Voi väärintekijöitä mitattaessa tai punnittaessa"
+    },
+    {
+      "resource_id": 30,
+      "text": "jotka vaativat täyden mitan, kun mittaavat toisilta omaksi hyväkseen,"
+    },
+    {
+      "resource_id": 30,
+      "text": "mutta antavat vajaan mitan, kun mittaavat tai punnitsevat muille!"
+    },
+    {
+      "resource_id": 30,
+      "text": "Eivätkö nämä ihmiset usko, että heidät herätetään kuolleista"
+    },
+    { "resource_id": 30, "text": "kohtalokkaana päivänä," },
+    {
+      "resource_id": 30,
+      "text": "päivänä, jona ihmisten on seistävä maailmojen Herran edessä?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Ei! Totisesti on jumalattomien nimiluettelo Sidzinissä."
+    },
+    { "resource_id": 30, "text": "Mutta tiedätkö, mikä Sidzin on?" },
+    { "resource_id": 30, "text": "Se on selkeästi kirjoitettu kirja." },
+    {
+      "resource_id": 30,
+      "text": "Voi sinä päivänä niitä, jotka hylkivät totuutta,"
+    },
+    {
+      "resource_id": 30,
+      "text": "niitä, jotka pitävät valheena Tuomion päivää!"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta valheena sitä pitää vain julkea syntinen,"
+    },
+    {
+      "resource_id": 30,
+      "text": "joka sanoo, kun ilmoituksemme julistetaan hänelle: »Vanhojen taruja.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti ei! Heidän tekonsa ovat kuin ruoste tärvelleet heidän sydämensä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti ei heitä päästetä Herransa luokse sinä päivänä,"
+    },
+    { "resource_id": 30, "text": "vaan he saavat astua helvetin ahjoon." },
+    {
+      "resource_id": 30,
+      "text": "Silloin sanotaan: »Tämä on se, jota te olemattomaksi väititte.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta hurskaitten nimiluettelo on Illijunissa."
+    },
+    { "resource_id": 30, "text": "Tiedätkö, mikä Illijun on?" },
+    { "resource_id": 30, "text": "Kirjoitettu kirja korkeuksissa." },
+    { "resource_id": 30, "text": "Jumalan valiojoukko sen todistaa." },
+    { "resource_id": 30, "text": "Totisesti saavat hurskaat elää autuudessa," },
+    { "resource_id": 30, "text": "katsellen ympärilleen lepokorokkeiltaan." },
+    {
+      "resource_id": 30,
+      "text": "Sinä olet näkevä autuuden kirkkauden heidän kasvoillaan."
+    },
+    {
+      "resource_id": 30,
+      "text": "He saavat nauttia puhdasta, muilta sinetöityä juomaa,"
+    },
+    {
+      "resource_id": 30,
+      "text": "jonka sinetti on myskiä - tätä juomaa kaikki kaivaten kaivatkoot -"
+    },
+    { "resource_id": 30, "text": "tämä sekoitus tulee ylhäältä," },
+    {
+      "resource_id": 30,
+      "text": "lähteestä, josta Jumalaa lähelle pääsevät juovat."
+    },
+    { "resource_id": 30, "text": "Totisesti syntiset nauroivat uskovaisia," },
+    {
+      "resource_id": 30,
+      "text": "kun he kulkivat näiden ohi, iskivät he toisilleen silmää;"
+    },
+    {
+      "resource_id": 30,
+      "text": "palatessaan omiensa luo he olivat tyytyväisiä"
+    },
+    {
+      "resource_id": 30,
+      "text": "ja heidät nähdessään he sanoivat: »Totisesti nuo ovat harhateillä.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta totisesti emme Me lähettänyt tuommoisia heidän kaitsijoikseen,"
+    },
+    {
+      "resource_id": 30,
+      "text": "ja sinä päivänä saavat ne, jotka uskoivat, nauraa epäuskoisille"
+    },
+    {
+      "resource_id": 30,
+      "text": "ja katsella ylhäisiltä lepokorokkeilta ympärilleen."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta epäuskoiset saavat totisesti tekojensa palkan."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "83" }
+  }
+}

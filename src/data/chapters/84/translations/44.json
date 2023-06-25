@@ -1,0 +1,55 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Când cerul se va despica," },
+    {
+      "resource_id": 44,
+      "text": "el îl va asculta pe Domnul său şi va face ceea ce trebuie să facă."
+    },
+    { "resource_id": 44, "text": "Când pământul va fi netezit," },
+    { "resource_id": 44, "text": "şi va vărsa lăuntrurile sale, golindu-se," },
+    {
+      "resource_id": 44,
+      "text": "el îl va asculta pe Domnul său şi va face ceea ce trebuie să facă."
+    },
+    {
+      "resource_id": 44,
+      "text": "Omule, tu, cel care cauţi către Domnul tău, atunci îl vei întâlni pe El!"
+    },
+    {
+      "resource_id": 44,
+      "text": "Cel care va primi Cartea Sa cu mâna dreaptă,"
+    },
+    { "resource_id": 44, "text": "va fi judecat cu blândeţe" },
+    { "resource_id": 44, "text": "şi se va întoarce bucuros la ai săi." },
+    { "resource_id": 44, "text": "Cel care va primi Cartea Sa cu spatele," },
+    { "resource_id": 44, "text": "va fi dat pierzaniei" },
+    { "resource_id": 44, "text": "şi aruncat în Jăratec." },
+    { "resource_id": 44, "text": "El a fost fericit dimpreună cu ai săi" },
+    {
+      "resource_id": 44,
+      "text": "şi nu s-a gândit niciodată să se întoarcă spre Domnul său,"
+    },
+    { "resource_id": 44, "text": "însă Domnul său l-a văzut întotdeauna." },
+    { "resource_id": 44, "text": "Nu! Jur, pe amurg," },
+    { "resource_id": 44, "text": "pe noapte şi pe cea ce învăluie," },
+    { "resource_id": 44, "text": "pe luna plină," },
+    { "resource_id": 44, "text": "că veţi fi făcuţi fărâme." },
+    { "resource_id": 44, "text": "Ce au de nu cred?" },
+    {
+      "resource_id": 44,
+      "text": "De ce nu se prosternează când li se recită Coranul?"
+    },
+    { "resource_id": 44, "text": "Ba nu! Tăgăduitorii hulesc," },
+    { "resource_id": 44, "text": "iar Dumnezeu cunoaşte ceea ce ei ascund." },
+    { "resource_id": 44, "text": "Vesteşte-le lor o dureroasă osândă," },
+    {
+      "resource_id": 44,
+      "text": "însă nu şi celor care au crezut şi au săvârşit fapte bune, căci pe ei o răsplată necurmată îi aşteaptă."
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "84" }
+  }
+}

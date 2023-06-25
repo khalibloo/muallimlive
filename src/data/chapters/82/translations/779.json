@@ -1,0 +1,73 @@
+{
+  "translations": [
+    { "resource_id": 779, "text": "Lorsque le ciel s’entrouvrira," },
+    {
+      "resource_id": 779,
+      "text": "lorsque les astres chuteront<sup foot_note=205459>1</sup>,"
+    },
+    {
+      "resource_id": 779,
+      "text": "lorsque les mers déborderont<sup foot_note=205460>1</sup>,"
+    },
+    { "resource_id": 779, "text": "que les tombes, bouleversées, se videront" },
+    {
+      "resource_id": 779,
+      "text": "chaque âme connaîtra l’ensemble de ses actions."
+    },
+    {
+      "resource_id": 779,
+      "text": "Ô homme ! Qu’est-ce qui a bien pu t’abuser au sujet de ton noble Seigneur<sup foot_note=205461>1</sup> "
+    },
+    {
+      "resource_id": 779,
+      "text": "qui t’a créé, te donnant la forme la plus accomplie et de justes proportions,"
+    },
+    {
+      "resource_id": 779,
+      "text": "choisissant pour toi la forme qu’Il a voulue."
+    },
+    {
+      "resource_id": 779,
+      "text": "Vous ne croyez pourtant pas au Jugement dernier,"
+    },
+    {
+      "resource_id": 779,
+      "text": "alors que vos œuvres sont soigneusement consignées,"
+    },
+    { "resource_id": 779, "text": "par de nobles scribes, des anges honorés" },
+    {
+      "resource_id": 779,
+      "text": "connaissant les actes que vous accomplissez."
+    },
+    {
+      "resource_id": 779,
+      "text": "Les pieux croyants sont promis à la félicité,"
+    },
+    {
+      "resource_id": 779,
+      "text": "tandis que les impies sont voués au Brasier"
+    },
+    {
+      "resource_id": 779,
+      "text": "où ils seront introduits le Jour du jugement dernier,"
+    },
+    { "resource_id": 779, "text": "sans jamais plus pouvoir le quitter." },
+    {
+      "resource_id": 779,
+      "text": "Mais qui donc pourrait t’indiquer ce qu’est le Jour du jugement dernier ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "Oui, qui pourrait t’indiquer ce qu’est vraiment le Jour du jugement dernier ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "Le Jour où nul ne pourra rien pour autrui, tout pouvoir revenant ce Jour-là à Allah."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "82" }
+  }
+}

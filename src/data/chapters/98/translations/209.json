@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "I miscredenti tra la gente del Libro e tra gli idolatri non smisero di negare, se non quando venne loro l'Evidenza:"
+    },
+    {
+      "resource_id": 209,
+      "text": "un Messaggero di Allāh che recita pagine purificate,"
+    },
+    { "resource_id": 209, "text": "in cui ci sono precetti di valore." },
+    {
+      "resource_id": 209,
+      "text": "E la gente del Libro non si divise se non dopo che gli arrivò l'Evidenza."
+    },
+    {
+      "resource_id": 209,
+      "text": "Eppure non gli è stato ordinato se non di adorare Allāh in sincera fede, da umili وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ, e praticare la preghiera con devozione e osservare la \"Zakēt\"(وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ), e quella è la fede della gente giusta!"
+    },
+    {
+      "resource_id": 209,
+      "text": "In verità i miscredenti tra la gente del Libro, e gli idolatri, resteranno nel fuoco dell'Inferno in eterno: quelli sono il peggio del Creato."
+    },
+    {
+      "resource_id": 209,
+      "text": "In verità quelli che hanno creduto e hanno fatto il bene, quelli sono, invece, il meglio del Creato;"
+    },
+    {
+      "resource_id": 209,
+      "text": "La loro ricompensa dal loro Dio è il Paradiso d'Aden, sotto cui scorrono fiumi, e ci abiteranno in eterno: Allāh sarà compiaciuto di loro e loro saranno compiaciuti di Lui: ciò sarà per chi ha temuto il suo Dio."
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "98" }
+  }
+}

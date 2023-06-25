@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "We sent it<sup foot_note=\"81486\">1</sup>down on the Night of Determination."
+    },
+    {
+      "resource_id": 149,
+      "text": "But what can make you<a class=\"sup\"><sup>sg </sup></a>realize what the Night of Determination is?"
+    },
+    {
+      "resource_id": 149,
+      "text": "The Night of Determination is better than a thousand months—"
+    },
+    {
+      "resource_id": 149,
+      "text": "in it descend the angels, with the Spirit<sup foot_note=\"81487\">1</sup>among them, by the leave of their Lord with every command."
+    },
+    {
+      "resource_id": 149,
+      "text": "Peace! It is until the <span class=\"h\">rise<sup foot_note=\"81488\">1</sup> </span>of dawn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "97" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "Say: “O unbelievers!”<sup foot_note=\"182871\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "I do not worship those that you worship<sup foot_note=\"182872\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "neither do you worship Him Whom I worship;<sup foot_note=\"182873\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "nor will I worship those whom you have worshipped;"
+    },
+    {
+      "resource_id": 95,
+      "text": "nor are you going to worship Him Whom I worship.<sup foot_note=\"182874\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "To you is your religion, and to me, my religion.<sup foot_note=\"182875\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 774, "text": "Ndahiye igiti cy’umutini n’icy’umuzeti," },
+    { "resource_id": 774, "text": "N’umusozi wa Sinayi," },
+    { "resource_id": 774, "text": "N’uyu mujyi utekanye (Maka)," },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri twaremye umuntu mu ishusho nziza,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Hanyuma tuzamushyira mu rwego rwo hasi cyane (ageze mu zabukuru atagishoboye kugira icyo yimarira)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Uretse babandi bemeye bakanakora ibikorwa byiza (n’iyo bageze mu zabukuru, hari ibikorwa byo kwiyegereza Imana bakomeza gukora); abo bazagororerwa ibihembo bidashira (Ijuru)."
+    },
+    {
+      "resource_id": 774,
+      "text": "None se nyuma y’ibyo (yewe muntu), ni iki kigutera guhakana umunsi w’ibihembo?"
+    },
+    { "resource_id": 774, "text": "Ese Allah si We Mucamanza usumba abandi?" }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "95" }
+  }
+}

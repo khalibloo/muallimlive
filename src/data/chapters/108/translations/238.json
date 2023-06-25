@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 238, "text": "(اي پيغمبر) بيشڪ اسان توکي ڪوثر عطا ڪيو." },
+    {
+      "resource_id": 238,
+      "text": "تنھنڪري پنھنجي پالڻھار جي لاءِ نماز پڙھ ۽ قرباني ڪر."
+    },
+    { "resource_id": 238, "text": "بيشڪ تنھنجو ويري ئي بي نسل آھي." }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "108" }
+  }
+}

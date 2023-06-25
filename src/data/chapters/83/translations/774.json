@@ -1,0 +1,129 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Ibihano bikomeye bizahanishwa abatuzuza ibipimo,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ba bandi igihe bapimiwe n’abandi bantu, basaba kuzurizwa ibipimo,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Nyamara bo bapimira (abandi), bakabaha ibituzuye."
+    },
+    { "resource_id": 774, "text": "Ese bakeka ko batazazurwa (ngo babazwe)," },
+    { "resource_id": 774, "text": "Ku munsi uhambaye?" },
+    {
+      "resource_id": 774,
+      "text": "Umunsi abantu (bose) bazahagarara imbere ya Nyagasani w’ibiremwa?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Oya! Mu by’ukuri igitabo cy’inkozi z’ibibi (cyanditsemo ibikorwa byazo) gishyinguwe mu bubiko bwabugenewe bwitwa Sijiini."
+    },
+    { "resource_id": 774, "text": "None se ni iki cyakumenyesha Sijiini?" },
+    {
+      "resource_id": 774,
+      "text": "Ni igitabo cyanditse mu buryo bunoze kandi budasibama."
+    },
+    {
+      "resource_id": 774,
+      "text": "Uwo munsi ibihano bikaze bizaba kuri ba bandi bahinyura,"
+    },
+    { "resource_id": 774, "text": "Ba bandi bahinyura umunsi w’ibihembo." },
+    {
+      "resource_id": 774,
+      "text": "Kandi nta wundi uwuhakana usibye urengera (imbibi za Allah) w’umunyabyaha,"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Wa wundi) usomerwa amagambo yacu (yo muri Qur’an) akavuga ati “Ni inkuru z’abo hambere.”"
+    },
+    {
+      "resource_id": 774,
+      "text": "Oya! Ahubwo ibyo bakoraga (ibyaha) byatwikiriye imitima yabo."
+    },
+    {
+      "resource_id": 774,
+      "text": "Oya! Mu by’ukuri kuri uwo munsi bazabuzwa kureba Nyagasani wabo."
+    },
+    { "resource_id": 774, "text": "Maze bahire mu muriro ugurumana." },
+    {
+      "resource_id": 774,
+      "text": "Nuko babwirwe bati “Ibi ni byo mwajyaga muhinyura.”"
+    },
+    {
+      "resource_id": 774,
+      "text": "Oya! Mu by’ukuri igitabo cy’abakora ibyiza (cyanditsemo ibikorwa byabo) gishyinguwe mu bubiko bwabugenewe bwitwa Iliyyuuna."
+    },
+    { "resource_id": 774, "text": "None se ni iki cyakumenyesha Iliyuna?" },
+    {
+      "resource_id": 774,
+      "text": "Ni igitabo cyanditse mu buryo bunoze kandi budasibama."
+    },
+    {
+      "resource_id": 774,
+      "text": "(Abamalayika) begereye Allah ni bo bazakibera abahamya."
+    },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri abakora ibyiza bazaba mu munezero uhambaye (Ijuru);"
+    },
+    {
+      "resource_id": 774,
+      "text": "Bicaye ku bitanda byiza, bitegereza (ibyiza barimo, harimo no kureba uburanga bwa Nyagasani wabo)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Uzabona uburanga bwabo burabagirana kubera ibyishimo."
+    },
+    { "resource_id": 774, "text": "Bazahabwa ikinyobwa gipfundikiye," },
+    {
+      "resource_id": 774,
+      "text": "Intama ya nyuma (y’icyo kinyobwa) izaba ifite impumuro y’umubavu wa Miski. Kubera ibyo rero, ngaho abarushanwa nibarushanwe."
+    },
+    {
+      "resource_id": 774,
+      "text": "(Icyo kinyobwa) kizaba kivanze na Tas’niim (amazi y’isoko ituruka mu iriba ryo mu ijuru)"
+    },
+    {
+      "resource_id": 774,
+      "text": "Isoko izanyobwaho n’abazaba bari hafi (ya Allah)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri (ku isi) inkozi z’ibibi zajyaga ziseka abemeramana,"
+    },
+    { "resource_id": 774, "text": "Bazinyuraho zikabaryanira inzara." },
+    {
+      "resource_id": 774,
+      "text": "Zaba zisubiye mu miryango yazo, zikabagira urwenya."
+    },
+    {
+      "resource_id": 774,
+      "text": "N’iyo zababonaga, zaravugaga ziti “Mu by’ukuri bariya barayobye.”"
+    },
+    {
+      "resource_id": 774,
+      "text": "Nyamara ntabwo (izo nkozi z’ibibi) zashinzwe kuba abagenzuzi (b’abemeramana)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ariko uyu munsi, abemeramana ni bo bari buseke abahakanyi."
+    },
+    {
+      "resource_id": 774,
+      "text": "Bicaye ku bitanda byiza, bitegereza (ibyiza barimo, harimo no kureba uburanga bwa Nyagasani wabo)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ese abahakanyi ntabwo bahembewe ibyo bajyaga bakora?"
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "83" }
+  }
+}

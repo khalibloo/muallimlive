@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 182, "text": "真主以白昼之初盟誓，" },
+    { "resource_id": 182, "text": "以黑暗时人们停止活动的夜盟誓。" },
+    {
+      "resource_id": 182,
+      "text": "使者啊！你的主没有放弃你！也没有怨恨你。事情不像以物配主者在启示中断时所佯称的那样。"
+    },
+    {
+      "resource_id": 182,
+      "text": "后世-因其中有永不罄尽的恩泽-对于你比今世更优美，"
+    },
+    {
+      "resource_id": 182,
+      "text": "祂将给予你和你的民众浩荡的恩泽，直至你对祂给予你和你的民众的赐予心满意足。"
+    },
+    {
+      "resource_id": 182,
+      "text": "祂发现你从小就失去了父亲，就为你提供了居所，即先是你的爷爷阿卜杜·穆塔里布，后是你的叔父艾布·塔里布对你的呵护，"
+    },
+    {
+      "resource_id": 182,
+      "text": "祂发现你不晓经典和信仰，就教授你所不知道的，"
+    },
+    { "resource_id": 182, "text": "祂发现你是贫穷者而使你富裕。" },
+    { "resource_id": 182, "text": "故你不要虐待或欺凌从小失去父亲的人，" },
+    { "resource_id": 182, "text": "不要呵斥有需求的乞讨者，" },
+    { "resource_id": 182, "text": "而当感谢和宣扬真主给予你的恩惠。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "93" }
+  }
+}

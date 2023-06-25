@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Vi har visselig gitt deg i overflod!" },
+    { "resource_id": 41, "text": "Så be til Herren, og bring offer!" },
+    {
+      "resource_id": 41,
+      "text": "Sannelig, han som har lagt deg for hat, han har intet etter seg."
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "108" }
+  }
+}

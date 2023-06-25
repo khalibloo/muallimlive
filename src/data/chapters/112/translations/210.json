@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "De ki: O Allah birdir." },
+    { "resource_id": 210, "text": "Allah Samed'dir." },
+    { "resource_id": 210, "text": "Doğurmamıştır, doğurulmamıştır." },
+    { "resource_id": 210, "text": "O'nun hiçbir dengi yoktur." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "112" }
+  }
+}

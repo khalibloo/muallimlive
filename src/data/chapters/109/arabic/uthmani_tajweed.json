@@ -1,0 +1,35 @@
+{
+  "verses": [
+    {
+      "id": 6208,
+      "verse_key": "109:1",
+      "text_uthmani_tajweed": "قُلْ يَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>أَيُّهَا <tajweed class=ham_wasl>ٱ</tajweed>لْكَ<tajweed class=madda_normal>ـٰ</tajweed>فِر<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١</span>"
+    },
+    {
+      "id": 6209,
+      "verse_key": "109:2",
+      "text_uthmani_tajweed": "ل<tajweed class=madda_obligatory>َآ</tajweed> أَعْبُدُ مَا تَعْبُد<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢</span>"
+    },
+    {
+      "id": 6210,
+      "verse_key": "109:3",
+      "text_uthmani_tajweed": "وَل<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نت</tajweed>ُمْ عَ<tajweed class=madda_normal>ـٰ</tajweed>بِدُونَ م<tajweed class=madda_obligatory>َآ</tajweed> أَعْبُ<tajweed class=qalaqah>د</tajweed>ُ <span class=end>٣</span>"
+    },
+    {
+      "id": 6211,
+      "verse_key": "109:4",
+      "text_uthmani_tajweed": "وَل<tajweed class=madda_obligatory>َآ</tajweed> أَنَا۟ عَابِ<tajweed class=idgham_ghunnah>دٌ م</tajweed>َّا عَبَ<tajweed class=idgham_mutajanisayn>د</tajweed>تُّمْ <span class=end>٤</span>"
+    },
+    {
+      "id": 6212,
+      "verse_key": "109:5",
+      "text_uthmani_tajweed": "وَل<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نت</tajweed>ُمْ عَ<tajweed class=madda_normal>ـٰ</tajweed>بِدُونَ م<tajweed class=madda_obligatory>َآ</tajweed> أَعْبُ<tajweed class=qalaqah>د</tajweed>ُ <span class=end>٥</span>"
+    },
+    {
+      "id": 6213,
+      "verse_key": "109:6",
+      "text_uthmani_tajweed": "لَكُمْ دِينُكُمْ وَلِىَ د<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٦</span>"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "109" } }
+}

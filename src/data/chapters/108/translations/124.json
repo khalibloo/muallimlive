@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 124,
+      "text": "(Rasûlüm!) Kuşkusuz biz sana Kevser'i verdik."
+    },
+    {
+      "resource_id": 124,
+      "text": "Şimdi sen Rabbin için namaz kıl ve kurban kes."
+    },
+    {
+      "resource_id": 124,
+      "text": "Asıl sonu kesik olan, şüphesiz sana hınç besleyendir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "108" }
+  }
+}

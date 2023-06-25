@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Di', o Messaggero: \"Egli è Allāh, L'unico detentore della Divinità, non vi è altra divinità all'infuori di Lui."
+    },
+    {
+      "resource_id": 176,
+      "text": "Egli è il Sovrano, Colui che detiene tutti i sublimi e nobili attributi della perfezione e della bellezza, Colui al quale si rivolgono tutte le creature nel momento del bisogno,"
+    },
+    {
+      "resource_id": 176,
+      "text": "Colui che non ha generato nessuno e che non è stato generato da nessuno; Egli non ha figli, gloria Sua, né padre,"
+    },
+    {
+      "resource_id": 176,
+      "text": "né vi è qualcuno pari a Lui nel Suo Creato."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "112" }
+  }
+}

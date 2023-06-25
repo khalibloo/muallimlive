@@ -1,0 +1,70 @@
+{
+  "translations": [
+    {
+      "resource_id": 210,
+      "text": "Burûc sahibi/yıldızların (yörüngelerine) sahip göğe yemin olsun."
+    },
+    { "resource_id": 210, "text": "Vadedilmiş güne (kıyamete) yemin olsun." },
+    { "resource_id": 210, "text": "Şahit olana ve şahit olunana." },
+    { "resource_id": 210, "text": "Kahrolsun o hendek sahipleri!" },
+    { "resource_id": 210, "text": "Tutuşturulmuş ateşin." },
+    {
+      "resource_id": 210,
+      "text": "O vakit onlar, onun (ateşin) etrafında oturmuşlardı."
+    },
+    { "resource_id": 210, "text": "Mü'minlere yaptıklarını seyrediyorlardı." },
+    {
+      "resource_id": 210,
+      "text": "Onlardan; sırf göklerin ve yerin mülkü kendisine ait olan, Aziz ve Hamîd olan Allah’a iman ettikleri için intikam aldılar."
+    },
+    {
+      "resource_id": 210,
+      "text": "Allah ki; göklerin ve yerin mülkü ona aittir ve Allah her şeyin üzerine şahittir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz Mü’min erkeklerle Mü’min kadınlara işkence edip, sonra da tevbe etmeyenlere Cehennem azabı ve yakıcı azap vardır."
+    },
+    {
+      "resource_id": 210,
+      "text": "İman edip salih ameller işleyenlere gelince; onlara içinden ırmaklar akan Cennetler vardır. İşte bu büyük başarıdır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz, Rabbinin tutup, yakalaması çok çetindir."
+    },
+    {
+      "resource_id": 210,
+      "text": "İlkin var eden, sonra yeniden dirilten O'dur."
+    },
+    {
+      "resource_id": 210,
+      "text": "O; çok bağışlayandır, çok seven ve sevilendir."
+    },
+    { "resource_id": 210, "text": "Yüce Arş'ın sahibidir." },
+    { "resource_id": 210, "text": "Dilediğini muhakkak yapandır." },
+    { "resource_id": 210, "text": "Sana o orduların haberi geldi mi?" },
+    { "resource_id": 210, "text": "Firavun ve Semud’un askerlerinin haberi." },
+    {
+      "resource_id": 210,
+      "text": "Hayır, bu kâfir olanlar hâlâ yalanlamaktadırlar."
+    },
+    {
+      "resource_id": 210,
+      "text": "Oysa Allah, onları arkalarından kuşatmıştır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır! O (yalanlamakta oldukları kitap) şanı yüce bir Kur’an’dır."
+    },
+    {
+      "resource_id": 210,
+      "text": "O, korunmuş bir levhada (Levh-i Mahfuz’da) dır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "85" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "audio_files": [
+    { "verse_key": "103:1", "url": "Minshawi/Murattal/mp3/103001.mp3" },
+    { "verse_key": "103:2", "url": "Minshawi/Murattal/mp3/103002.mp3" },
+    { "verse_key": "103:3", "url": "Minshawi/Murattal/mp3/103003.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed Siddiq al-Minshawi",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "103" }
+  }
+}

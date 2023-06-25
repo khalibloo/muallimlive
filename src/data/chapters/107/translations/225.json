@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 225,
+      "text": "૧) શું તમે (તેને પણ) જોયો જે બદલાના દિવસને જુઠલાવે છે ?"
+    },
+    { "resource_id": 225, "text": "૨) આ જ તે છે જે અનાથને ધક્કા મારે છે," },
+    {
+      "resource_id": 225,
+      "text": "૩) અને ગરીબને ખવડાવવાનું પ્રોત્સાહન નથી આપતો."
+    },
+    {
+      "resource_id": 225,
+      "text": "૪) તે નમાઝીઓ માટે ખેદ છે (અને વૈલ નામની જહન્નમની જગ્યા) છે."
+    },
+    { "resource_id": 225, "text": "૫) જે પોતાની નમાઝથી બેપરવાહ છે." },
+    { "resource_id": 225, "text": "૬) જે દેખાડો કરે છે," },
+    { "resource_id": 225, "text": "૭) અને સામાન્ય જરૂરિયાતથી રોકે છે." }
+  ],
+  "meta": {
+    "translation_name": "Rabila Al-Umry",
+    "author_name": "Rabila Al-Umry",
+    "filters": { "resource_id": 225, "chapter_number": "107" }
+  }
+}

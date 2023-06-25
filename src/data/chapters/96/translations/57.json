@@ -1,0 +1,31 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Iqra/ bi-ismi rabbika allathee khalaq" },
+    { "resource_id": 57, "text": "Khalaqa al-insana min AAalaq" },
+    { "resource_id": 57, "text": "Iqra/ warabbuka al-akram" },
+    { "resource_id": 57, "text": "Allathee AAallama bilqalam" },
+    { "resource_id": 57, "text": "AAallama al-insana ma lamyaAAlam" },
+    { "resource_id": 57, "text": "Kalla inna al-insana layatgha" },
+    { "resource_id": 57, "text": "An raahu istaghna" },
+    { "resource_id": 57, "text": "Inna ila rabbika arrujAAa" },
+    { "resource_id": 57, "text": "Araayta allathee yanha" },
+    { "resource_id": 57, "text": "AAabdan itha salla" },
+    { "resource_id": 57, "text": "Araayta in kana AAala alhuda" },
+    { "resource_id": 57, "text": "Aw amara bittaqwa" },
+    { "resource_id": 57, "text": "Araayta in kaththaba watawalla" },
+    { "resource_id": 57, "text": "Alam yaAAlam bi-anna Allaha yara" },
+    {
+      "resource_id": 57,
+      "text": "Kalla la-in lam yantahi lanasfaAAanbinnasiya"
+    },
+    { "resource_id": 57, "text": "Nasiyatin kathibatin khati-a" },
+    { "resource_id": 57, "text": "FalyadAAu nadiyah" },
+    { "resource_id": 57, "text": "SanadAAu azzabaniya" },
+    { "resource_id": 57, "text": "Kalla la tutiAAhu wasjudwaqtarib" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "96" }
+  }
+}

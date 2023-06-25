@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 163, "text": "শপথ ‘তীন’ ও যাইতূন’ এর –" },
+    { "resource_id": 163, "text": "শপথ ‘সিনাই’ পর্বতের –" },
+    { "resource_id": 163, "text": "এবং শপথ এই নিরাপদ বা শান্তিময় নগরীর –" },
+    { "resource_id": 163, "text": "আমিতো সৃষ্টি করেছি মানুষকে সুন্দরতম গঠনে," },
+    {
+      "resource_id": 163,
+      "text": "অতঃপর আমি তাকে হীনতাগ্রস্তদের হীনতমে পরিণত করি –"
+    },
+    {
+      "resource_id": 163,
+      "text": "কিন্তু তাদের নয় যারা মু’মিন ও সৎ কর্মপরায়ণ; তাদের জন্যতো আছে নিরবিচ্ছিন্ন পুরস্কার।"
+    },
+    {
+      "resource_id": 163,
+      "text": "সুতরাং এরপর কিসে তোমাকে কর্মফল সম্বন্ধে অবিশ্বাসী করে?"
+    },
+    { "resource_id": 163, "text": "আল্লাহ কি বিচারকদের মধ্যে শ্রেষ্ঠ নন?" }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "95" }
+  }
+}

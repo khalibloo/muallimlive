@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 32, "text": "Idan aka girgiza ƙasa, girgizawarta." },
+    { "resource_id": 32, "text": "Kuma ƙasa ta fitar da kayanta, masu nauyi." },
+    {
+      "resource_id": 32,
+      "text": "Kuma mutum ya ce &quot;Mẽ neya same ta?&quot;"
+    },
+    { "resource_id": 32, "text": "A rãnar nan, zã ta faɗi lãbãrinta." },
+    {
+      "resource_id": 32,
+      "text": "cewa Ubangijinka Ya yi umurni zuwa gare ta."
+    },
+    {
+      "resource_id": 32,
+      "text": "A rãnar nan mutane za su fito dabam-dabam domin a nuna musu ayyukansu."
+    },
+    {
+      "resource_id": 32,
+      "text": "To, wanda ya aikata (wani aiki) gwargwadon nauyin zarra, na alheri, zai gan shi."
+    },
+    {
+      "resource_id": 32,
+      "text": "Kuma wanda ya aikata gwargwadon nauyin zarra na sharri, zai gan shi."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "99" }
+  }
+}

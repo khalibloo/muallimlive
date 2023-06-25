@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 20, "text": "When the sky breaks apart" },
+    { "resource_id": 20, "text": "And when the stars fall, scattering," },
+    { "resource_id": 20, "text": "And when the seas are erupted" },
+    {
+      "resource_id": 20,
+      "text": "And when the [contents of] graves are scattered [i.e., exposed],"
+    },
+    {
+      "resource_id": 20,
+      "text": "A soul will [then] know what it has put forth and kept back."
+    },
+    {
+      "resource_id": 20,
+      "text": "O mankind, what has deceived you concerning your Lord, the Generous,"
+    },
+    {
+      "resource_id": 20,
+      "text": "Who created you, proportioned you, and balanced you?"
+    },
+    {
+      "resource_id": 20,
+      "text": "In whatever form He willed has He assembled you."
+    },
+    { "resource_id": 20, "text": "No! But you deny the Recompense." },
+    {
+      "resource_id": 20,
+      "text": "And indeed, [appointed] over you are keepers,<sup foot_note=197724>1</sup>"
+    },
+    { "resource_id": 20, "text": "Noble and recording;" },
+    { "resource_id": 20, "text": "They know whatever you do." },
+    { "resource_id": 20, "text": "Indeed, the righteous will be in pleasure," },
+    {
+      "resource_id": 20,
+      "text": "And indeed, the wicked will be in Hellfire."
+    },
+    {
+      "resource_id": 20,
+      "text": "They will [enter to] burn therein on the Day of Recompense,"
+    },
+    { "resource_id": 20, "text": "And never therefrom will they be absent." },
+    {
+      "resource_id": 20,
+      "text": "And what can make you know what is the Day of Recompense?"
+    },
+    {
+      "resource_id": 20,
+      "text": "Then, what can make you know what is the Day of Recompense?"
+    },
+    {
+      "resource_id": 20,
+      "text": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allāh."
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "82" }
+  }
+}

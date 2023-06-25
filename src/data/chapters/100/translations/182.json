@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 182,
+      "text": "真主以因剧烈的奔跑乃至于都能听得其声的奔驰的马队起誓，"
+    },
+    {
+      "resource_id": 182,
+      "text": "祂以因剧烈的摩擦到岩石，而使马蹄溅出火花的马队发誓，"
+    },
+    { "resource_id": 182, "text": "祂以清晨迎敌的马队起誓，" },
+    { "resource_id": 182, "text": "它们的动作掀起阵阵尘埃，" },
+    { "resource_id": 182, "text": "故它们冲击着敌人的重重包围。" },
+    {
+      "resource_id": 182,
+      "text": "的确，人们对于真主所期望的善功确是辜负的，"
+    },
+    {
+      "resource_id": 182,
+      "text": "他辜负善功的行为，确是有见证者的，因此他完全不能予以否认，"
+    },
+    { "resource_id": 182, "text": "他的确酷爱钱财，并吝啬不舍，" },
+    {
+      "resource_id": 182,
+      "text": "难道贪恋今世生活的自负的人们就不知道吗？当真主将掩埋在坟墓中的死者复生，使他从地下出来接受清算和报偿时，事情与他们想象的截然不同。"
+    },
+    {
+      "resource_id": 182,
+      "text": "胸中所隐藏的意念、信仰和其它都将公布于众，"
+    },
+    {
+      "resource_id": 182,
+      "text": "的确，他们的养主在那日对他们确是全知的，任何事无法隐瞒，祂将以此报偿他们。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "100" }
+  }
+}

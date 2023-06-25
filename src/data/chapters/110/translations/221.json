@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 221,
+      "text": "Khi sự giúp đỡ của Allah đến (với Ngươi Muhammad) và sự thắng lợi (khi chinh phục Makkah),"
+    },
+    {
+      "resource_id": 221,
+      "text": "Và Ngươi thấy nhân loại gia nhập tôn giáo của Allah (Islam) từng đoàn;"
+    },
+    {
+      "resource_id": 221,
+      "text": "Bởi thế, hãy tán dương lời ca tụng Thượng Đế (Allah) của Ngươi và cầu xin Ngài tha thứ. Quả thật, Ngài Hằng quay lại tha thứ."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "110" }
+  }
+}

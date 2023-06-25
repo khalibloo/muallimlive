@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 74,
+      "text": "Бигӯ: «Ба Парвардигори субҳгоҳ паноҳ мебарам,"
+    },
+    { "resource_id": 74, "text": "аз шарри он чӣ биёфаридааст" },
+    { "resource_id": 74, "text": "ва аз шарри шаб чун дарояд" },
+    {
+      "resource_id": 74,
+      "text": "ва аз шарри ҷодугароне, ки дар гиреҳҳо афсун медаманд"
+    },
+    { "resource_id": 74, "text": "ва аз шарри ҳасуд чун ҳасад мекунад!»" }
+  ],
+  "meta": {
+    "translation_name": "Tajik",
+    "author_name": "AbdolMohammad Ayati",
+    "filters": { "resource_id": 74, "chapter_number": "113" }
+  }
+}

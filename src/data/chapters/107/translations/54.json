@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 54,
+      "text": "کیا تو نے (اسے بھی) دیکھا جو (روز) جزا کو جھٹلاتا ہے؟<sup foot_note=168340>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "یہی وه ہے جو یتیم کو دھکے دیتا ہے.<sup foot_note=168341>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "اور مسکین کو کھلانے کی ترغیب نہیں دیتا.<sup foot_note=168342>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "ان نمازیوں کے لئے افسوس (اور ویل نامی جہنم کی جگہ) ہے."
+    },
+    {
+      "resource_id": 54,
+      "text": "جو اپنی نماز سے غافل ہیں.<sup foot_note=168343>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "جو ریاکاری کرتے ہیں.<sup foot_note=168344>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "اور برتنے کی چیز روکتے ہیں.<sup foot_note=168345>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "107" }
+  }
+}

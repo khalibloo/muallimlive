@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 231, "text": "Itakapotikiswa ardhi mtikiso wa nguvu." },
+    {
+      "resource_id": 231,
+      "text": "Na ikatoa vilivyomo ndani yake: wafu na makandi."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na akauliza binadamu, kwa babaiko, «Imezukiwa na nini?»"
+    },
+    {
+      "resource_id": 231,
+      "text": "Siku ya Kiyama ardhi itatoa habari ya mambo iliyofanyiwa ya uzuri na ubaya."
+    },
+    {
+      "resource_id": 231,
+      "text": "kwa kuwa Mwenyezi Mungu, Aliyetakasika na kutukuka, Ameiamuru itoe habari ya mambo iliyofanyiwa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Siku hiyo wataondoka kutoka kwenye kisimamo cha Hesabu wakiwa makundi, ili Mwenyezi Mungu Awaoneshe waliyoyatenda, mazuri na mabaya, na Awalipe kwayo."
+    },
+    {
+      "resource_id": 231,
+      "text": "Yoyote mwenye kufanya jema wezani wa chungu mdogo atayaona malipo yake Akhera."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na yoyote mwenye kufanya baya wezani wa chungu mdogo atayaona malipo yake Akhera."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "author_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "filters": { "resource_id": 231, "chapter_number": "99" }
+  }
+}

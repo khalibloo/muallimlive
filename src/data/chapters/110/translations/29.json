@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 29,
+      "text": "(ای پیامبر) هنگامی‌که یاری الله و پیروزی فرا رسد."
+    },
+    {
+      "resource_id": 29,
+      "text": "و مردم را ببینی که گروه گروه در دین الله داخل می‌شوند."
+    },
+    {
+      "resource_id": 29,
+      "text": "پس به ستایش پروردگارت تسبیح گوی و از او آمرزش بخواه، همانا او بسیار توبه‌پذیر است."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "110" }
+  }
+}

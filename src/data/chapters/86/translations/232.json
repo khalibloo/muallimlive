@@ -1,0 +1,65 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Ndayira e ggulu ne munyeenye ezirabika e kiro."
+    },
+    {
+      "resource_id": 232,
+      "text": "Naye omanyi e munyeenye ezirabika ekiro kye ki?"
+    },
+    {
+      "resource_id": 232,
+      "text": "Z’emunyeenye ezaaka ennyo ekitangaala kyazo ne kiyita mu nzikiza ne kituuka ku nsi."
+    },
+    {
+      "resource_id": 232,
+      "text": "Buli muntu yenna aliko abakuumi      (Ba Malayika)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Kale nno omuntu yalibadde atunuulira kye yatondebwamu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Yatondebwa ng’aggyibwa mu mazzi agasambattuka."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nga gava wakati w’omugongo      gw'omusajja n’amasaabiro g'omukazi."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala oyo (Katonda) asobolera ddala okumuzzaawo."
+    },
+    { "resource_id": 232, "text": "Ku lunaku ebyama byonna lwe biribikkulwa." },
+    {
+      "resource_id": 232,
+      "text": "Omuntu tagenda kuba na maanyi gonna yadde omutaasa."
+    },
+    {
+      "resource_id": 232,
+      "text": "Era ndayira e ggulu ewava          e nkuba etonnya nga e ddingana."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne ndayira n’ettaka eryeyasa        olw’okumeza e bimera."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala yo (Kur'ani) kigambo ekyawula wakati w’amazima n’obulimba."
+    },
+    { "resource_id": 232, "text": "Kur'ani si ya lusaago." },
+    { "resource_id": 232, "text": "Mazima abatakkiriza basala        e nkwe." },
+    { "resource_id": 232, "text": "Nange nenkola enteekateeka (zange)." },
+    {
+      "resource_id": 232,
+      "text": "Abatakkiriza balindirize, nange mbawadde akaseera katono."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 229,
+      "text": "(நபியே!) உம் நெஞ்சத்தை உமக்கு நாம் விரிவாக்கவில்லையா?"
+    },
+    {
+      "resource_id": 229,
+      "text": "இன்னும் உம் சுமையை உம்மைவிட்டு அகற்றினோம்."
+    },
+    { "resource_id": 229, "text": "(அது), உம் முதுகை முறித்தது." },
+    { "resource_id": 229, "text": "இன்னும் உம் நினைவை உமக்கு உயர்த்தினோம்." },
+    {
+      "resource_id": 229,
+      "text": "ஆகவே, நிச்சயமாக சிரமத்துடன் இலேசு இருக்கிறது."
+    },
+    { "resource_id": 229, "text": "நிச்சயமாக சிரமத்துடன் இலேசு இருக்கிறது." },
+    {
+      "resource_id": 229,
+      "text": "ஆகவே, நீர் ஓய்வு பெற்றால், (அல்லாஹ்வை வணங்குவதில்) களைப்படைவீராக!"
+    },
+    {
+      "resource_id": 229,
+      "text": "இன்னும் உம் இறைவனின் பக்கம் ஆர்வம் கொள்வீராக!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Omar Sharif bin Abdul Salam",
+    "author_name": "Sheikh Omar Sharif bin Abdul Salam",
+    "filters": { "resource_id": 229, "chapter_number": "94" }
+  }
+}

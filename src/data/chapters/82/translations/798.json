@@ -1,0 +1,64 @@
+{
+  "translations": [
+    { "resource_id": 798, "text": "Pandema jalichipasuka liwunde." },
+    { "resource_id": 798, "text": "Ni ndema jasichilakatika ndondwa." },
+    { "resource_id": 798, "text": "Ni ndema jasichigumuchila mbwani." },
+    { "resource_id": 798, "text": "Ni ndema jagachiukulidwa malembe." },
+    {
+      "resource_id": 798,
+      "text": "Mundu jwalijose juchimanyilila yajwalongwesye (kupanganya) ni yajwalesile munyuma."
+    },
+    {
+      "resource_id": 798,
+      "text": "E mmwe amundu! Ana ni chichi chinnyenjile kwa (kwikanila kunnyosya) M’mbuje gwenu (Allah) Jwantuka wejinji?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Ajula jwaŵan'gumbile, ni kunkolosya pa kunnandanya (iŵalo yenu) soni ni kun'golosya (nsingu wenu)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Mukawoneche kalikose kaŵasachile (kuti m'bonecheje) ŵampanganyisye."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ngwamba! Nambo kuti ŵanganyammwe nkukanila ya malipilo."
+    },
+    {
+      "resource_id": 798,
+      "text": "Soni chisimu kwa jenumanja kwana (Achimalaika) ŵakunnolela (ni kusunga itendo yenu).<sup foot_note=195468>1</sup>"
+    },
+    { "resource_id": 798, "text": "Ŵakuchimbichika, ŵakulemba." },
+    { "resource_id": 798, "text": "Akumanyilila yankuntenda." },
+    {
+      "resource_id": 798,
+      "text": "Chisimu atenda ngoto chachiŵa nchindimba (mu Mbepo Jakusengwasya)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Sano ŵandu ŵakusakasya nnope, chisimu chene tachiŵa m’Moto Waukali."
+    },
+    { "resource_id": 798, "text": "Chachiujinjila Lisiku Lyamalipilo." },
+    {
+      "resource_id": 798,
+      "text": "Soni ŵanganyao ngasaŵa asoŵile mwalakwemo (pakopoka ata panandi)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ana ni chichi champaka chimmanyisye ya Lisiku Lyamalipilo?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Soni ana ni chichi champaka chimmanyisye ya Lisiku Lyamalipilo?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Lyele ni lisiku lyangakola mundu chilichose chanti ni kunkamuchisya mundu jwine. Nombe ulamusi (wosope) lyele lisikulyo uchiŵa wa Allah pe."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "82" }
+  }
+}

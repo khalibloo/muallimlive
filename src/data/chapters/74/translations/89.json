@@ -1,0 +1,134 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "O ti i mbuluar!" },
+    {
+      "resource_id": 89,
+      "text": "Ngrihu dhe tërhiqu vërejtjen (duke i thirrur)."
+    },
+    { "resource_id": 89, "text": "Dhe madhëroje Zotin tënd!" },
+    { "resource_id": 89, "text": "Dhe rrobat tua pastroji!" },
+    { "resource_id": 89, "text": "Dhe të keqës së ndyrë largohu!" },
+    {
+      "resource_id": 89,
+      "text": "Dhe mos u mburr me atë që jep e të duket shumë!"
+    },
+    { "resource_id": 89, "text": "Dhe për hir të Zotit tënd duro!" },
+    { "resource_id": 89, "text": "E, kur të fryhet në Sur," },
+    { "resource_id": 89, "text": "Atëherë ajo është ditë e vështirë." },
+    { "resource_id": 89, "text": "Për jobesimtarët është jo e lehtë." },
+    {
+      "resource_id": 89,
+      "text": "Ti, më le Mua dhe atë që e krijova të vetmuar."
+    },
+    { "resource_id": 89, "text": "Dhe bëra këtë pasuri të madhe." },
+    { "resource_id": 89, "text": "E bëra edhe me djem që i ka me vete." },
+    {
+      "resource_id": 89,
+      "text": "Dhe Unë i lash në disponim të gjitha mundësitë."
+    },
+    { "resource_id": 89, "text": "E ai lakmon që t’i shtoj edhe më tepër." },
+    {
+      "resource_id": 89,
+      "text": "E jo, se ai vërtet ishte mohues i fakteve tona!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Atë do ta ndrydhi me një dënim të rëndë e të padurueshëm."
+    },
+    {
+      "resource_id": 89,
+      "text": "Pse ai shumë mendonte, radhitte e përgatiste (për Kur’anin)."
+    },
+    { "resource_id": 89, "text": "Qoftë i shkatërruar, po si përceptonte?" },
+    {
+      "resource_id": 89,
+      "text": "Prapë qoftë i shkatërruar, po si përceptonte?"
+    },
+    { "resource_id": 89, "text": "Ai sërish thellohej në mendime." },
+    { "resource_id": 89, "text": "Pastaj mrrolej dhe bëhej edhe i vrazhdë." },
+    { "resource_id": 89, "text": "Pastaj ktheu shpinën me mendjemadhësi." },
+    {
+      "resource_id": 89,
+      "text": "E tha: “Ky (Kur’ani) nuk është tjetër, vetëm se magji që përcillet prej të tjerëve."
+    },
+    {
+      "resource_id": 89,
+      "text": "Ky nuk është tjetër, përveç fjalë njerëzish!”"
+    },
+    { "resource_id": 89, "text": "E Unë atë do ta hedhë në Sekar!" },
+    { "resource_id": 89, "text": "E, ku e di ti se çka është Sekar?" },
+    { "resource_id": 89, "text": "Ai nuk lë send të mbetet pa e djegur." },
+    { "resource_id": 89, "text": "Ai është që ua prish dhe ua nxin lëkurat." },
+    { "resource_id": 89, "text": "Mbikëqyrës mbi të janë nëntëmbëdhjetë." },
+    {
+      "resource_id": 89,
+      "text": "E mbiqëkyrës të zjarrit, Ne nuk bëjmë tjetër, përveç engjëjve dhe numrin e tyre (të përmendur në Kur’an) nuk e bëmë për tjetër, por vetëm si sprovë për ata që nuk besuan, e që të binden ata që u është dhënë libri, e atyre që besuan t’u shtohet besimi, e atyre që u është dhëmë libri dhe besimtarët të mos kenë dyshim, dhe ata që zemrat i kanë të sëmura dhe jobesimtarët të thonë: “çka dashti All-llahu me këtë shembull?” Ja ashtu, All-llahu e lë të humbur atë që do, e ushtrinë e Zotit tënd nuk e di kush pos Atij, e ai (Sekari), nuk është tjetër vetëm se një përkujtim për njerëz."
+    },
+    { "resource_id": 89, "text": "Jo, nuk është ashtu, Pasha hënën!" },
+    { "resource_id": 89, "text": "Edhe natën kur tërhiqet!" },
+    { "resource_id": 89, "text": "Edhe agimin kur agon!" },
+    {
+      "resource_id": 89,
+      "text": "S’ka dyshim se ai (Sekari) është një nga belatë më të mëdha."
+    },
+    { "resource_id": 89, "text": "Është vërejtje për njerëz!" },
+    {
+      "resource_id": 89,
+      "text": "Për atë nga mesi juaj që dëshiron të përparojë (në të mira) apo të ngecë."
+    },
+    { "resource_id": 89, "text": "Secili njeri është pengë i veprës së vet." },
+    { "resource_id": 89, "text": "Përveç atyre të djathtëve." },
+    {
+      "resource_id": 89,
+      "text": "Që janë në Xhennete e i bëjnë pyetje njëri-tjetrit,"
+    },
+    { "resource_id": 89, "text": "Përkitazi me kriminelët (e u thonë):" },
+    { "resource_id": 89, "text": "“çka u solli juve në Sekar?”" },
+    {
+      "resource_id": 89,
+      "text": "Ata thonë: “Nuk kemi qenë prej atyre që faleshin (që bënin namaz);"
+    },
+    { "resource_id": 89, "text": "Nuk kemi qenë që ushqyenim të varfërit;" },
+    {
+      "resource_id": 89,
+      "text": "Dhe kemi qenë që përziheshim me të tjerët në punë të kota."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe kemi qenë që nuk e besonim ditën e gjykimit."
+    },
+    { "resource_id": 89, "text": "Derisa na erdhi e vërteta (vdekja)!”" },
+    {
+      "resource_id": 89,
+      "text": "E tanimë, atyre nuk u bën dobi ndërmjetësimi i ndërmjetësuesve,"
+    },
+    {
+      "resource_id": 89,
+      "text": "Po çka kishin ata që largohesin prej këshillës (Kur’ait)?"
+    },
+    { "resource_id": 89, "text": "Ata ishin si gomarë të trembur (të egër)." },
+    { "resource_id": 89, "text": "Që ikin prej luanit (ose prej gjahtarit)." },
+    {
+      "resource_id": 89,
+      "text": "Veç kësaj, secili prej tyre dëshironte t’i jepej libër i posaçëm (i hapët, i qartë)."
+    },
+    {
+      "resource_id": 89,
+      "text": "E jo! Por ata janë që nuk frikësohen botës tjetër."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe jo! Se ai (Kur’ani) është këshillë e lartë."
+    },
+    { "resource_id": 89, "text": "E kush do, këshillohet me të." },
+    {
+      "resource_id": 89,
+      "text": "Po ata nuk mund të marrin mësim prej tij, vetëm nëse All-llahu di, Ai është i denjë për t’iu ruajtur dhe i denjë për falje mëkatesh!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "74" }
+  }
+}

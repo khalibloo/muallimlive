@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 122, "text": "जब धरती को पूरी तरह झंझोड़ दिया जायेगा।" },
+    { "resource_id": 122, "text": "तथा भूमि अपने बोझ बाहर निकाल देगी।" },
+    { "resource_id": 122, "text": "और इन्सान कहेगा कि इसे क्या हो गया?" },
+    {
+      "resource_id": 122,
+      "text": "उस दिन वह अपनी सभी सूचनायें वर्णन कर देगी।"
+    },
+    {
+      "resource_id": 122,
+      "text": "क्योंकि तेरे पालनहार ने उसे यही आदेश दिया है।"
+    },
+    {
+      "resource_id": 122,
+      "text": "उस दिन लोग तितर-बितर होकर आयेंगे, ताकि वे अपने कर्मों को देख लें।[ <sup foot_note=134915>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "तो जिसने एक कण के बराबर भी पुण्य किया होगा, उसे देख लेगा।"
+    },
+    {
+      "resource_id": 122,
+      "text": "और जिसने एक कण के बराबर भी बुरा किया होगा, उसे देख लेगा।[ <sup foot_note=134916>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "99" }
+  }
+}

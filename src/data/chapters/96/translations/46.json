@@ -1,0 +1,49 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Wax ku akhri Nabiyow Magaca Eebe ee abuuray (khaliqiga)."
+    },
+    { "resource_id": 46, "text": "Dadkana ka abuuray Calaq (Xinjir)." },
+    { "resource_id": 46, "text": "Akhri Eebana waa kan Sharafta lehe." },
+    {
+      "resource_id": 46,
+      "text": "Ee Dadka baray sida Qalinka wax loogu qoro."
+    },
+    { "resource_id": 46, "text": "Dadkana baray waxayna aqoonin." },
+    {
+      "resource_id": 46,
+      "text": "Saas ma aha ee Dadku (Gaaladu) waa gudbeen."
+    },
+    { "resource_id": 46, "text": "Markuu isku ogaaday Hodontinnimo." },
+    { "resource_id": 46, "text": "Eebaha xaggiisaase loo noqon." },
+    { "resource_id": 46, "text": "Ka warrama midka ka reebaya." },
+    { "resource_id": 46, "text": "Addoon (Eebe) oo tukan Salaadda." },
+    {
+      "resource_id": 46,
+      "text": "Bal ka warrama hadduu ka laga reebi hanuunsanyahay (waa Nabiga)."
+    },
+    { "resource_id": 46, "text": "Ama uu fari Eeba ka yaabid." },
+    {
+      "resource_id": 46,
+      "text": "Balse ka warrama hadduu midka wax ka reebi uu beeniyay (xaqa) kana jeedsaday (waa AbuuJahal iyo wixii la mid ahe)."
+    },
+    { "resource_id": 46, "text": "Miyuusan ogayn in Eebe arko." },
+    {
+      "resource_id": 46,
+      "text": "Saas ma aha ee hadduusan joogin waxaannu qaban Foodda."
+    },
+    { "resource_id": 46, "text": "Food beenaleey ah ghafna badan." },
+    { "resource_id": 46, "text": "Ha u yeedho gargaarihiisa." },
+    { "resource_id": 46, "text": "Waxaanu u yeedhi Malaa'ig darane." },
+    {
+      "resource_id": 46,
+      "text": "Saas ma aha ee warkiisa ha maqlin Sujuudna una dhawow (Eebe)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "96" }
+  }
+}

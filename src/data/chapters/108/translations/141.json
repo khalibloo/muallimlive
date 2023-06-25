@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 141,
+      "text": "Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak."
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah)."
+    },
+    {
+      "resource_id": 141,
+      "text": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah)."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "108" }
+  }
+}

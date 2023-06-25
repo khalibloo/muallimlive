@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Si: «Dere vantro!" },
+    {
+      "resource_id": 41,
+      "text": "Ikke kommer jeg til å tilbe det dere tilber,"
+    },
+    {
+      "resource_id": 41,
+      "text": "og ikke kommer dere til å tilbe det jeg tilber."
+    },
+    { "resource_id": 41, "text": "Ikke tilber jeg det som dere tilber." },
+    { "resource_id": 41, "text": "Ikke tilber dere det jeg tilber." },
+    { "resource_id": 41, "text": "Dere har deres religion, og jeg har min!»" }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "109" }
+  }
+}

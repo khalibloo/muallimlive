@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 48, "text": "VID FIKONTRÄDET och oliven" },
+    { "resource_id": 48, "text": "och Sinai berg" },
+    { "resource_id": 48, "text": "och detta trygga land!" },
+    {
+      "resource_id": 48,
+      "text": "Vi har sannerligen skapat människan i den bästa skepnad"
+    },
+    {
+      "resource_id": 48,
+      "text": "men därefter låtit henne sjunka lägre än de lägsta,"
+    },
+    {
+      "resource_id": 48,
+      "text": "utom dem som tror och lever ett rättskaffens liv; ja, deras lön skall vara utan ände!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Vad kan hädanefter förmå dig [människa] att påstå att förkunnelsen [om uppståndelse, räkenskap och dom] är lögn?"
+    },
+    { "resource_id": 48, "text": "Är inte Gud den visaste av domare?" }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "95" }
+  }
+}

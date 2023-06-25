@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "(שבועה) והסוסים השועטים בהתנשפותם!" },
+    { "resource_id": 233, "text": "המציתים ניצוצות אש," },
+    { "resource_id": 233, "text": "העורכים פשיטות (במפתיע) עם הפצעת השחר," },
+    { "resource_id": 233, "text": "ומעוררים אבק רב," },
+    { "resource_id": 233, "text": "ופורצים לאמצע צבא האויב." },
+    { "resource_id": 233, "text": "אכן, האדם מתכחש לריבונו," },
+    { "resource_id": 233, "text": "והוא מעיד על כך." },
+    { "resource_id": 233, "text": "והוא אוהב מאוד את ההון." },
+    { "resource_id": 233, "text": "הלא יכיר כשיוקמו לתחיה אלה שבקברים," },
+    { "resource_id": 233, "text": "ויתגלו הסודות אשר בלבבות?" },
+    { "resource_id": 233, "text": "ביום ההוא ריבונם בקי היסב בהם" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "100" }
+  }
+}

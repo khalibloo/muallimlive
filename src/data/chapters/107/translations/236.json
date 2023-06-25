@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Twalav win inekôen ddin?" },
+    { "resource_id": 236, "text": "Winna ipparan agujil akin." },
+    { "resource_id": 236, "text": "Ur t icqi uççi ume$bun." },
+    { "resource_id": 236, "text": "Iméulla, a tawa$it nnsen!" },
+    { "resource_id": 236, "text": "Wid istehzayen di téilla nnsen," },
+    { "resource_id": 236, "text": "wid ib$an a ten id walin," },
+    { "resource_id": 236, "text": "u gedlen talalin." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "107" }
+  }
+}

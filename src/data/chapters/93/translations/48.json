@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 48, "text": "VID DET klara morgonljuset" },
+    { "resource_id": 48, "text": "och vid natten, när dess mörker tätnar!" },
+    {
+      "resource_id": 48,
+      "text": "Din Herre har inte övergett dig och du har inte väckt Hans missnöje."
+    },
+    {
+      "resource_id": 48,
+      "text": "Det liv som ligger framför dig skall förvisso bli lättare än det som hittills varit!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Och din Herre skall skänka dig [Sitt goda i överflöd] och du skall bli helt nöjd."
+    },
+    {
+      "resource_id": 48,
+      "text": "Fann Han dig inte faderlös och gav dig ett hem?"
+    },
+    {
+      "resource_id": 48,
+      "text": "Och såg Han dig inte vilsen och vägledde dig"
+    },
+    {
+      "resource_id": 48,
+      "text": "Och såg Han dig inte lida nöd och skänkte dig allt vad du behövde"
+    },
+    { "resource_id": 48, "text": "Var därför inte hård mot den faderlöse" },
+    {
+      "resource_id": 48,
+      "text": "och stöt inte bort tiggaren med barska ord."
+    },
+    {
+      "resource_id": 48,
+      "text": "Men berätta [för alla] om din Herres välgärningar!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "93" }
+  }
+}

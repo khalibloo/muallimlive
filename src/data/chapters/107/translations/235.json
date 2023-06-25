@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Heb je degene gezien die de (Dag van het) Oordeel loochent?"
+    },
+    {
+      "resource_id": 235,
+      "text": "Dat is degene die (meedogenloos) de wees afstoot."
+    },
+    {
+      "resource_id": 235,
+      "text": "En (zichzelf noch anderen) niet aanspoort tot het voeden van de armen."
+    },
+    { "resource_id": 235, "text": "O wee, voor diegenen die bidden." },
+    {
+      "resource_id": 235,
+      "text": "Degenen die onachtzaam zijn met hun gebed."
+    },
+    { "resource_id": 235, "text": "Degenen die er een vertoning van maken." },
+    { "resource_id": 235, "text": "En de levensbenodigdheden weigeren." }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "107" }
+  }
+}

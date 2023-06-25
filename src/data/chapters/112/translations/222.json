@@ -1,0 +1,16 @@
+{
+  "translations": [
+    {
+      "resource_id": 222,
+      "text": "(Мұхаммед Ғ.С оларға) айт: Ол Алла,біреу-ақ."
+    },
+    { "resource_id": 222, "text": "Алла мұңсыз. (Әр нәрсе Оған мұхтаз)" },
+    { "resource_id": 222, "text": "Ол,тумады да туылмады." },
+    { "resource_id": 222, "text": "Әрі оған ешкім тең емес." }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "112" }
+  }
+}

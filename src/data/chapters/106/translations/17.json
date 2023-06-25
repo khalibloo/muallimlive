@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "For the (customary) accord (Or: joining together) of Quraysh,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Their (customary) accord for the winter and summer caravan-"
+    },
+    {
+      "resource_id": 17,
+      "text": "So let them worship The Lord of this House,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Who has fed them against hunger and secured them from fear."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 230, "text": "[1] เพื่อให้ความคุ้นเคยแก่ชาวกุเรช" },
+    {
+      "resource_id": 230,
+      "text": "[2] เพื่อให้ความคุ้นเคยแก่พวกเขา ในการเดินทางในฤดูหนาว (ไปเยเมน) และฤดูร้อน (ไปชาม)"
+    },
+    {
+      "resource_id": 230,
+      "text": "[3] ดังนั้น จงให้พวกเขาเคารพภักดีพระเจ้าแห่งบ้านหลังนี้เถิด (คืออัลกะอฺบะฮฺ)"
+    },
+    {
+      "resource_id": 230,
+      "text": "[4] ผู้ทรงให้อาหารแก่พวกเขาให้พ้นจากความหิว และทรงให้ความปลอดภัยแก่พวกเขาให้พ้นจากความหวาดกลัว"
+    }
+  ],
+  "meta": {
+    "translation_name": "Society of Institutes and Universities",
+    "author_name": "Society of Institutes and Universities",
+    "filters": { "resource_id": 230, "chapter_number": "106" }
+  }
+}

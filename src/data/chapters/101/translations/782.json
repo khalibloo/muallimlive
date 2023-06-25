@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 782, "text": "„Ziua aceea care loveşte”!" },
+    { "resource_id": 782, "text": "Ce este „Ziua aceea care loveşte”?" },
+    {
+      "resource_id": 782,
+      "text": "Şi de unde să ştii tu ce este „Ziua aceea care loveşte”?"
+    },
+    {
+      "resource_id": 782,
+      "text": "În Ziua aceea, oamenii vor fi ca fluturii risipiţi,<sup foot_note=203883>1</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Iar munţii vor fi ca lâna scărmănată!<sup foot_note=203884>1</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Cât despre cel ale cărui balanţe vor fi grele,"
+    },
+    {
+      "resource_id": 782,
+      "text": "El va avea parte de o viaţă plăcută<sup foot_note=203885>1</sup>,"
+    },
+    {
+      "resource_id": 782,
+      "text": "Iar cât despre cel ale cărui balanţe vor fi uşoare,"
+    },
+    {
+      "resource_id": 782,
+      "text": "Locul lui de veci va fi un abis<sup foot_note=203886>1</sup>."
+    },
+    {
+      "resource_id": 782,
+      "text": "Şi de unde să ştii tu ce este el<sup foot_note=203887>1</sup>?"
+    },
+    { "resource_id": 782, "text": "El este un Foc fierbinte!" }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "101" }
+  }
+}

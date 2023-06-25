@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 182, "text": "清高伟大的真主以时光盟誓，" },
+    { "resource_id": 182, "text": "的确，人们处于亏损和毁灭之中，" },
+    {
+      "resource_id": 182,
+      "text": "惟有信仰真主和其使者、立行善功、以真理相勉、以真理而坚忍之人除外。具有上述品行之人，他们将在今后两世的生活中得以拯救。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "103" }
+  }
+}

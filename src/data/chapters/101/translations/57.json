@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "AlqariAAa" },
+    { "resource_id": 57, "text": "Ma alqariAAa" },
+    { "resource_id": 57, "text": "Wama adraka ma alqariAAa" },
+    { "resource_id": 57, "text": "Yawma yakoonu annasu kalfarashialmabthooth" },
+    { "resource_id": 57, "text": "Watakoonu aljibalu kalAAihnialmanfoosh" },
+    { "resource_id": 57, "text": "Faamma man thaqulat mawazeenuh" },
+    { "resource_id": 57, "text": "Fahuwa fee AAeeshatin radiya" },
+    { "resource_id": 57, "text": "Waamma man khaffat mawazeenuh" },
+    { "resource_id": 57, "text": "Faommuhu hawiya" },
+    { "resource_id": 57, "text": "Wama adraka ma hiya" },
+    { "resource_id": 57, "text": "Narun hamiya" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "101" }
+  }
+}

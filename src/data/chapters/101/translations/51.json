@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 51, "text": "อัลกอริอะฮ์" },
+    { "resource_id": 51, "text": "อัลกอริอะฮ์นั้นคืออะไร?" },
+    {
+      "resource_id": 51,
+      "text": "และอะไรที่ทำให้เจ้าได้รู้ว่าอัลกอรีอะฮฺนั้นคืออะไร?"
+    },
+    {
+      "resource_id": 51,
+      "text": "วันที่มนุษย์จะเป็นเช่นแมลงเม่าที่กระจายว่อน"
+    },
+    { "resource_id": 51, "text": "และบรรดาภูเขาจะเป็นเช่นขนสัตว์ที่ปลิวว่อน" },
+    { "resource_id": 51, "text": "ส่วนผู้ที่ตราชูของเขาหนัก" },
+    { "resource_id": 51, "text": "เขาก็จะอยู่ในการมีชีวิตที่ผาสุข" },
+    { "resource_id": 51, "text": "และส่วนผู้ที่ตราชูของเขาเบา" },
+    { "resource_id": 51, "text": "ที่พำนักของเขาก็คือเหวลึก (ฮาวิยะฮ์)" },
+    {
+      "resource_id": 51,
+      "text": "และอะไรเล่าที่ทำให้เจ้ารู้ได้ว่าเหวลึกคืออะไร?"
+    },
+    { "resource_id": 51, "text": "คือไฟอันร้อนแรง" }
+  ],
+  "meta": {
+    "translation_name": "Thai Translatio (King Fahad Quran Complex)",
+    "author_name": "King Fahad Quran Complex",
+    "filters": { "resource_id": 51, "chapter_number": "101" }
+  }
+}

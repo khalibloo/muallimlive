@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Tewamanya Katonda kyeyakola eggye ly’enjovu?"
+    },
+    { "resource_id": 232, "text": "Enkwe zaabwe tezaagwa butaka?" },
+    {
+      "resource_id": 232,
+      "text": "N'abasindikira e binnyonyi nga bijjira mu bibinja."
+    },
+    { "resource_id": 232, "text": "Nga bibakanyugira amayinja amookye." },
+    {
+      "resource_id": 232,
+      "text": "Nebafuuka nga omuddo ogagayiddwa ensolo ne gufuluma nga gufuuse obusa."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "105" }
+  }
+}

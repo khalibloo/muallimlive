@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 127,
+      "text": "Роббинг фийл соҳибларини нима қилганини билмадингми?"
+    },
+    {
+      "resource_id": 127,
+      "text": "Уларнинг макру ҳийласини зое кетказмадими?"
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва уларнинг устига тўп-тўп қушларни юбормадими?"
+    },
+    { "resource_id": 127, "text": "Лойдан пиширилган тошларни отадиган." },
+    {
+      "resource_id": 127,
+      "text": "Бас, уларни қурт еб ташлаган ўсимликка ўхшатиб юбормадими?<sup foot_note=48897>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "105" }
+  }
+}

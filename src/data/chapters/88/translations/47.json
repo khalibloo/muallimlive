@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "resource_id": 47,
+      "text": "A të erdhi ty lajmi për belanë që kaplon (kijameti)?"
+    },
+    { "resource_id": 47, "text": "Atë ditë sheh fytyra të përulura," },
+    {
+      "resource_id": 47,
+      "text": "Të lodhura e të rraskapitura (nga mundimi)."
+    },
+    { "resource_id": 47, "text": "Ato hyjnë në zjarrin të ndezur fort," },
+    { "resource_id": 47, "text": "U jepet të pijnë prej një kroi të valë." },
+    {
+      "resource_id": 47,
+      "text": "Ata kanë ushqim tjetër pos një barishte me ferra helmuese."
+    },
+    { "resource_id": 47, "text": "Që as nuk jep fuqi, as nuk largon uri." },
+    { "resource_id": 47, "text": "Atë ditë dheh fytyra të ndritshme," },
+    { "resource_id": 47, "text": "Të kënaqura për veprimet e veta," },
+    { "resource_id": 47, "text": "Në Xhennet të shkallës së lartë," },
+    { "resource_id": 47, "text": "Aty nuk dëgjojnë fjalë të pakëndshme," },
+    { "resource_id": 47, "text": "Aty ka kroje që rrjedhin," },
+    { "resource_id": 47, "text": "13-14. Aty kanë shtretër të lartë," },
+    { "resource_id": 47, "text": "13-14. Aty kanë shtretër të lartë," },
+    { "resource_id": 47, "text": "Edhe jastekë të renduar për mbështetje," },
+    { "resource_id": 47, "text": "Edhe qilima të shtruar." },
+    { "resource_id": 47, "text": "A nuk i shikojnë devet se si janë krijuar?" },
+    { "resource_id": 47, "text": "Edhe qiellin se si është ngritur lart!" },
+    { "resource_id": 47, "text": "Edhe kodrat se si janë venduar!" },
+    { "resource_id": 47, "text": "Edhe tokën se si është shtruar!" },
+    {
+      "resource_id": 47,
+      "text": "E ti pra, këshillo, se je vetëm përkujtues,"
+    },
+    { "resource_id": 47, "text": "Ti ndaj tyre nuk je mbizotërues!" },
+    { "resource_id": 47, "text": "Përveç atij zbrapset e nuk beson," },
+    { "resource_id": 47, "text": "All-llahu atë me vuajtje e dënon." },
+    { "resource_id": 47, "text": "Vetëm te Ne kthimin e kanë." },
+    {
+      "resource_id": 47,
+      "text": "Dhe vetëm detyrë Jona është llogaira e tyre."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "88" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے "
+    },
+    {
+      "resource_id": 151,
+      "text": "سب تعریفیں اللہ کے لئے ہیں <sup foot_note=81607>1</sup> جو پالنے والا سارے جہان کا <sup foot_note=81608>2</sup>"
+    },
+    { "resource_id": 151, "text": "بےحد مہربان نہایت رحم والا" },
+    {
+      "resource_id": 151,
+      "text": "مالک روز جزا کا <sup foot_note=81609>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "تیری ہی ہم بندگی کرتے ہیں اور تجھی سے مدد چاہتے ہیں <sup foot_note=81610>1</sup>"
+    },
+    { "resource_id": 151, "text": "بتلا ہم کو راہ سیدھی" },
+    {
+      "resource_id": 151,
+      "text": "راہ ان لوگوں کی جن پر تو نے فضل فرمایا <sup foot_note=81611>1</sup> جن پر نہ تیرا غصہ ہوا اور نہ وہ گمراہ ہوئے <sup foot_note=81612>2</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "1" }
+  }
+}

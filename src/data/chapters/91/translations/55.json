@@ -1,0 +1,57 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Quyosh bilan va uning ziyosi bilan qasam." },
+    { "resource_id": 55, "text": "Uning ortidan kelgan oy bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Va u(quyosh)ni ravshan ko`rsatgan nahor bilan qasam."
+    },
+    { "resource_id": 55, "text": "Va u(quyosh)ni qoplagan tun bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Va osmon bilan va uning bino qilinishi bilan qasam."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va yer bilan va uning to`shalishi bilan qasam."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va nafs bilan va uning mukammal qilinishi bilan qasam."
+    },
+    { "resource_id": 55, "text": "Bas, unga fujurini va taqvosini bildirdi." },
+    {
+      "resource_id": 55,
+      "text": "Batahqiq, kim u(nafs)ni poklasa, yutuqqa erishdi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va batahqiq, kim u(nafs)ni kirlasa, noumid bo`ldi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Samud qavmi o`z tug`yoni ila yolg`onga chiqardi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Vaqtiki, uning eng badbaxti shoshilib turdi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ularga Allohning Rasuli: «Allohning tuyasiga va uning suviga tegmanglar», dedi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, (uni) yolg`onchiga chiqarishdi va (tuyani) so`yishdi. Bas, Robblari ularni gunohlari sababli yo`q qilib yubordi va bunda barchani barobar qildi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va U zot bu(ish)ning oqibatidan qo`rqmas.<sup foot_note=\"169897\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "91" }
+  }
+}

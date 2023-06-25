@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 124,
+      "text": "Gökyüzüne ve târıka (sabah yıldızına ) yemin ederim."
+    },
+    { "resource_id": 124, "text": "Tarıkın ne olduğunu nereden bileceksin?" },
+    { "resource_id": 124, "text": "(O, karanlığı) delen yıldızdır." },
+    {
+      "resource_id": 124,
+      "text": "Hiç kimse yoktur ki üzerinde bir koruyucu, bir denetleyici bulunmasın."
+    },
+    { "resource_id": 124, "text": "İnsan neden yaratıldığına bir baksın!" },
+    { "resource_id": 124, "text": "Atılan bir sudan yaratıldı." },
+    {
+      "resource_id": 124,
+      "text": "(O su) sırt ile göğüs kafesi arasından çıkar."
+    },
+    {
+      "resource_id": 124,
+      "text": "İşte Allah (başlangıçta bu şekilde yarattığı) insanı tekrar yaratmaya da kadirdir."
+    },
+    { "resource_id": 124, "text": "Gizlenenlerin ortaya döküldüğü günde" },
+    {
+      "resource_id": 124,
+      "text": "insan için ne bir güç ne de bir yardımcı vardır."
+    },
+    { "resource_id": 124, "text": "Dönüş sahibi olan (yağmur yağdıran) göğe," },
+    { "resource_id": 124, "text": "(nebat ile) yarılan yere yemin ederim ki" },
+    {
+      "resource_id": 124,
+      "text": "Kur’an, (hak ile bâtılı) ayıran bir sözdür."
+    },
+    { "resource_id": 124, "text": "O, asla bir şaka değildir." },
+    { "resource_id": 124, "text": "Onlar bir tuzak kurarlar," },
+    { "resource_id": 124, "text": "ben de bir tuzak kurarım." },
+    {
+      "resource_id": 124,
+      "text": "Kâfirlere mühlet ver, onları biraz kendi hallerine bırak (pek yakında desteğimiz sana gelecek)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "Kıyamet gününde karşılıkların verileceğini inkâr edeni bildin mi?"
+    },
+    {
+      "resource_id": 172,
+      "text": "İhtiyacından ötürü yetime kaba davranarak kovan da işte odur."
+    },
+    {
+      "resource_id": 172,
+      "text": "Fakir kimseleri doyurmaya ne kendisini, ne de başkalarını teşvik eder."
+    },
+    {
+      "resource_id": 172,
+      "text": "Namaz kılanlar için bir helâk ve azap vardır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Onlar, namazlarının vakti sona erinceye kadar namazlarında oyalanan ve umursamayanlardır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Onlar, namazları ve amelleriyle gösteriş yaparlar. Amellerini sadece Allah’a halis kılmazlar."
+    },
+    {
+      "resource_id": 172,
+      "text": "Yardım etmenin hiçbir zararı olmadığı basit işlerde dahi başkalarına yardım etmekten geri dururlar."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "107" }
+  }
+}

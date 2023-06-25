@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Vanwege de gewoonte* van de Qoeraisj." },
+    {
+      "resource_id": 144,
+      "text": "Hun gewoonte van het maken van tochten in de winter en de zomer."
+    },
+    {
+      "resource_id": 144,
+      "text": "Daarom moeten zij de Heer van dit Huis aanbidden."
+    },
+    {
+      "resource_id": 144,
+      "text": "Degene Die hun tegen de honger voedt en hen veilig stelt voor de angst."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "106" }
+  }
+}

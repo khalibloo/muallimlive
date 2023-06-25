@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Si: «Han er Gud, Én." },
+    { "resource_id": 41, "text": "Gud, den Evigvarende." },
+    {
+      "resource_id": 41,
+      "text": "Ikke har Han avlet noen, ei heller er Han selv blitt avlet."
+    },
+    { "resource_id": 41, "text": "Ingen er Hans like.»" }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "112" }
+  }
+}

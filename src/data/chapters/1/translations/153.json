@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 153,
+      "text": "In nome di Allah, il Compassionevole, il Misericordioso <a class=f><sup foot_note=155998>1</sup></a>."
+    },
+    {
+      "resource_id": 153,
+      "text": "La lode [appartiene] ad Allah <a class=f><sup foot_note=155999>1</sup></a>, Signore dei mondi <a class=f><sup foot_note=156000>2</sup></a>,"
+    },
+    { "resource_id": 153, "text": "il Compassionevole, il Misericordioso," },
+    {
+      "resource_id": 153,
+      "text": "Re del Giorno del Giudizio <a class=f><sup foot_note=156001>1</sup></a>."
+    },
+    {
+      "resource_id": 153,
+      "text": "Te noi adoriamo e a Te chiediamo aiuto <a class=f><sup foot_note=156002>1</sup></a>."
+    },
+    {
+      "resource_id": 153,
+      "text": "Guidaci sulla retta via <a class=f><sup foot_note=156003>1</sup></a>,"
+    },
+    {
+      "resource_id": 153,
+      "text": "la via di coloro che hai colmato di grazia <a class=f><sup foot_note=156004>1</sup></a>, non di coloro che [sono incorsi] nella [Tua] ira <a class=f><sup foot_note=156005>2</sup></a>, né degli sviati <a class=f><sup foot_note=156006>3</sup></a>. Nella recitazione liturgica si aggiunge: «Amin»."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "1" }
+  }
+}

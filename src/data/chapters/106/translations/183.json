@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 183,
+      "text": "クライシュ族の慣習とその慣れ親しんだことのため、"
+    },
+    {
+      "resource_id": 183,
+      "text": "冬イエメンへ、そして夏シリアへ、かれらが旅する安全のため。"
+    },
+    {
+      "resource_id": 183,
+      "text": "かれらの旅を容易にされるこの家（カアバ）の主人（アッラー）だけを奉るように。並置される何ものも、崇拝してはならない。"
+    },
+    {
+      "resource_id": 183,
+      "text": "禁忌を守り、住民を尊重することを通じて、かれらの心に置かれたもので、アッラーはかれらの飢えには食物を与え、かれらの恐怖には安全を与えられた。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Japanese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 183, "chapter_number": "106" }
+  }
+}

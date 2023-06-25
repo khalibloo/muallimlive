@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "resource_id": 798,
+      "text": "Ngusilumbila hachi syasikuwutuka sili nkupumasika."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni syasikoposya moto mu ikotwa mwakwe (pakuwutuka m’maganga)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni syasikwagungumuchila amagongo kumasikusiku."
+    },
+    { "resource_id": 798, "text": "Nikututumya palakwepo luwundu lwejinji." },
+    {
+      "resource_id": 798,
+      "text": "Nikulijinjilila palakwepo likuga (lya amagongo)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Chisimu mundu kwa Ambujegwe (Allah) juŵele jwakanila (ukoto waakumpa)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Soni chisimu jwalakwe jukuŵichila umboni pa yalakweyo (kupitila mu itendo yakwe)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Soni chisimu jwalakwe pakuchinonyela chipanje juŵele jwakupelenganya nnope."
+    },
+    {
+      "resource_id": 798,
+      "text": "Ana ngajukumanyilila pandema jaichikoposyedwa yaili m’malembe?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Nikwisa kwilochesya papaswela yaili m’mitima?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Chisimu lyele lisikulyo M’mbuje gwao (Allah) tachamanya abali syosope (syakwamba yaŵapanganyaga ŵanganyao)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "100" }
+  }
+}

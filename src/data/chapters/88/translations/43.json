@@ -1,0 +1,56 @@
+{
+  "translations": [
+    {
+      "resource_id": 43,
+      "text": "Porventura, chegou-te a notícia do evento assolador?"
+    },
+    { "resource_id": 43, "text": "Haverá rostos humildes, nesse dia," },
+    { "resource_id": 43, "text": "Fatigados, abatidos," },
+    { "resource_id": 43, "text": "Chamuscados, pelo fogo abrasador!" },
+    {
+      "resource_id": 43,
+      "text": "Ser-lhes-á dado a beber de um manancial fervente;"
+    },
+    {
+      "resource_id": 43,
+      "text": "Não terão, por alimento, nada além de frutos amargos e espinhosos,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Que não os alimentará, nem lhes saciarão a fome!"
+    },
+    {
+      "resource_id": 43,
+      "text": "(Outros) rostos, nesse dia, estarão calmos,"
+    },
+    { "resource_id": 43, "text": "Contentes, por seus (passados) esforços;" },
+    { "resource_id": 43, "text": "Estarão em um jardim suspenso," },
+    { "resource_id": 43, "text": "Onde não ouvirão futilidade alguma;" },
+    { "resource_id": 43, "text": "Nele haverá um manancial fluente," },
+    { "resource_id": 43, "text": "Nele haverá leitos elevados," },
+    { "resource_id": 43, "text": "E taças, ao alcance da mão." },
+    { "resource_id": 43, "text": "E almofadas enfileiradas," },
+    { "resource_id": 43, "text": "E tapetes de seda estendidos." },
+    {
+      "resource_id": 43,
+      "text": "Porventura, não reparam nos camelídeos, como são criados?"
+    },
+    { "resource_id": 43, "text": "E no céu, como foi elevado?" },
+    { "resource_id": 43, "text": "E nas montanhas, como foram fixadas?" },
+    { "resource_id": 43, "text": "E na terra, como foi dilatada?" },
+    {
+      "resource_id": 43,
+      "text": "Admoesta, pois, porque és tão-somente um admoestador!"
+    },
+    { "resource_id": 43, "text": "Não és, de maneira alguma, guardião deles." },
+    { "resource_id": 43, "text": "E, àquele que te for adverso e incrédulo," },
+    { "resource_id": 43, "text": "Deus infligirá o maior castigo." },
+    { "resource_id": 43, "text": "Em verdade, o seu retorno será para Nós;" },
+    { "resource_id": 43, "text": "E o seu cômputo Nos concerne." }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "88" }
+  }
+}

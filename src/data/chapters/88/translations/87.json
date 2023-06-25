@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "የሸፋኝቱ (ትንሣኤ) ወሬ መጣህን?" },
+    { "resource_id": 87, "text": "ፊቶች በዚያ ቀን ተዋራጆች ናቸው፡፡" },
+    { "resource_id": 87, "text": "ሠሪዎች ለፊዎች ናቸው፡፡" },
+    { "resource_id": 87, "text": "ተኳሳን እሳት ይገባሉ፡፡" },
+    { "resource_id": 87, "text": "በጣም ከፈላች ምንጭ ይጋታሉ፡፡" },
+    {
+      "resource_id": 87,
+      "text": "ለእነርሱ ዶሪዕ ከሚባል (እሾሃም) ዛፍ እንጅ ሌላ ምግብ የላቸውም፡፡"
+    },
+    { "resource_id": 87, "text": "የማያሰባ ከረኃብም የማያብቃቃ ከኾነው፡፡" },
+    { "resource_id": 87, "text": "ፊቶች በዚያ ቀን ተቀማጣዮች ናቸው፡፡" },
+    { "resource_id": 87, "text": "ለሥራቸው ተደሳቾች ናቸው፡፡" },
+    { "resource_id": 87, "text": "በከፍተኛ ገነት ውስጥ ናቸው፡፡" },
+    { "resource_id": 87, "text": "በውስጧ ውድቅን ነገር አይሰሙም፡፡" },
+    { "resource_id": 87, "text": "በውስጧ ፈሳሾች ምንጮች አልሉ፡፡" },
+    { "resource_id": 87, "text": "በውስጧ ከፍ የተደረጉ አልጋዎች አልሉ፡፡" },
+    { "resource_id": 87, "text": "በተርታ የተኖሩ ብርጭቆዎችም፡፡" },
+    { "resource_id": 87, "text": "የተደረደሩ መከዳዎችም፡፡" },
+    { "resource_id": 87, "text": "የተነጠፉ ስጋጃዎችም (አልሉ)፡፡" },
+    { "resource_id": 87, "text": "(ከሓዲዎች) አይመለከቱምን? ወደ ግመል እንዴት እነደተፈጠረች!" },
+    { "resource_id": 87, "text": "ወደ ሰማይም እንዴት ከፍ እንደ ተደረገች!" },
+    { "resource_id": 87, "text": "ወደ ተራራዎችም እንዴት እንደ ተቸከሉ!" },
+    { "resource_id": 87, "text": "ወደ ምድርም እንዴ እንደተዘረጋች (አይመለከቱምን?)" },
+    { "resource_id": 87, "text": "አስታውስም፤ አንተ አስታዋሽ ብቻ ነህና፡፡" },
+    { "resource_id": 87, "text": "በእነርሱ ላይ ተሿሚ (አስገዳጅ) አይደለህም፡፡" },
+    { "resource_id": 87, "text": "ግን (ከእውነት) የዞረና የካደ ሰው፤" },
+    { "resource_id": 87, "text": "አላህ ታላቁን ቅጣት ይቀጣዋል፡፡" },
+    { "resource_id": 87, "text": "መመለሻቸው ወደእኛ ብቻ ነው፡፡" },
+    { "resource_id": 87, "text": "ከዚያም ምርመራቸው በእኛ ላይ ብቻ ነው፡፡" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "88" }
+  }
+}

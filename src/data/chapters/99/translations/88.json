@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Kur të dridhet Toka me tronditjen e saj (të fundit),"
+    },
+    {
+      "resource_id": 88,
+      "text": "kur të nxjerrë barrët nga brendia e saj<sup foot_note=195904>1</sup>"
+    },
+    { "resource_id": 88, "text": "e njeriu të thotë: “Ç’po i ndodh asaj?!”" },
+    {
+      "resource_id": 88,
+      "text": "Atë Ditë ajo do të tregojë lajmet e saj,<sup foot_note=195905>1</sup>"
+    },
+    { "resource_id": 88, "text": "sepse Zoti yt e ka frymëzuar atë." },
+    {
+      "resource_id": 88,
+      "text": "Atë Ditë njerëzit do të paraqiten grupe-grupe, që t’u tregohen veprat e tyre:"
+    },
+    {
+      "resource_id": 88,
+      "text": "kush ka bërë ndonjë të mirë, qoftë sa një thërrmijë, do ta shohë atë,"
+    },
+    {
+      "resource_id": 88,
+      "text": "e kush ka bërë ndonjë të keqe, qoftë sa një thërrmijë, do ta shohë atë.<sup foot_note=195906>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "99" }
+  }
+}

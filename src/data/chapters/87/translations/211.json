@@ -1,0 +1,67 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Magluwalhati ka sa ngalan ng Panginoon mo, ang Pinakamataas,"
+    },
+    { "resource_id": 211, "text": "na lumikha saka humubog," },
+    { "resource_id": 211, "text": "na nagtakda saka nagpatnubay," },
+    { "resource_id": 211, "text": "na nagpalabas ng pastulan," },
+    {
+      "resource_id": 211,
+      "text": "saka gumawa Siya rito na yagit na nangingitim."
+    },
+    {
+      "resource_id": 211,
+      "text": "Magpapabigkas Kami sa iyo [ng Qur’ān] kaya hindi ka makalilimot,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa niloob ni Allāh. Tunay na Siya ay nakaaalam sa lantad at anumang nagkukubli."
+    },
+    {
+      "resource_id": 211,
+      "text": "Magpapadali Kami sa iyo para sa pinakamadali."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya magpaalaala ka kung mapakikinabangan ang paalaala."
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasaalaala ang sinumang natatakot [kay Allāh]"
+    },
+    { "resource_id": 211, "text": "at umiiwas dito ang pinakamalumbay," },
+    { "resource_id": 211, "text": "na masusunog sa Apoy na pinakamalaki." },
+    {
+      "resource_id": 211,
+      "text": "Pagkatapos hindi siya mamamatay roon at hindi mabubuhay."
+    },
+    {
+      "resource_id": 211,
+      "text": "Nagtagumpay nga ang sinumang nagpakalinis [sa kasalanan]"
+    },
+    {
+      "resource_id": 211,
+      "text": "at bumanggit sa ngalan ng Panginoon niya saka nagdasal."
+    },
+    {
+      "resource_id": 211,
+      "text": "Bagkus nagtatangi kayo ng buhay na pangmundo"
+    },
+    {
+      "resource_id": 211,
+      "text": "samantalang ang Kabilang-buhay ay higit na mabuti at higit na nananatili."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ito ay talagang nasa mga unang kalatas,"
+    },
+    { "resource_id": 211, "text": "na mga kalatas nina Abraham at Moises." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "87" }
+  }
+}

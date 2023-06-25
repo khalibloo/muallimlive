@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "あなたは，審判を嘘であるとする者を見たか。" },
+    { "resource_id": 35, "text": "かれは，孤児に手荒くする者であり，" },
+    {
+      "resource_id": 35,
+      "text": "また貧者に食物を与えることを勧めない者である。"
+    },
+    { "resource_id": 35, "text": "災いなるかな，礼拝する者でありながら，" },
+    { "resource_id": 35, "text": "自分の礼拝を忽せにする者。" },
+    { "resource_id": 35, "text": "（人に）見られるための礼拝をし，" },
+    { "resource_id": 35, "text": "慈善を断わる者に。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "107" }
+  }
+}

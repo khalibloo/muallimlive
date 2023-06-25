@@ -1,0 +1,55 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Kiedy niebo rozdzieli się" },
+    { "resource_id": 42, "text": "I kiedy gwiazdy zostaną rozproszone;" },
+    { "resource_id": 42, "text": "Kiedy morza się wzburzą" },
+    { "resource_id": 42, "text": "I kiedy groby zostaną wywrócone," },
+    {
+      "resource_id": 42,
+      "text": "Wtedy każda dusza się dowie, co sobie przygotowała i co zaniedbała."
+    },
+    {
+      "resource_id": 42,
+      "text": "O człowieku ! Cóż ciebie zwiodło względem twego Pana, Szlachetnego?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Tego, który ciebie stworzył i ukształtował cię harmonijnie, i wymierzył proporcjonalnie"
+    },
+    {
+      "resource_id": 42,
+      "text": "- ułożył cię w takiej postaci, w jakiej chciał?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Otóż wręcz przeciwnie! Za kłamstwo uważają Sąd!"
+    },
+    { "resource_id": 42, "text": "Zaprawdę, nad wami są stróże" },
+    { "resource_id": 42, "text": "Szlachetni, którzy zapisują;" },
+    { "resource_id": 42, "text": "Oni wiedzą, co wy czynicie!" },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, sprawiedliwi będą w szczęśliwości!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, grzesznicy będą w ogniu piekielnym!"
+    },
+    { "resource_id": 42, "text": "Oni będą się tam palić w Dniu Sądu" },
+    { "resource_id": 42, "text": "I nie będą mogli oddalić się od niego." },
+    { "resource_id": 42, "text": "A co ciebie pouczy, co to jest Dzień Sądu?" },
+    {
+      "resource_id": 42,
+      "text": "I jeszcze raz: co ciebie pouczy, co to Dzień Sądu?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Tego Dnia żadna dusza nie będzie w stanie nic pomóc innej duszy. Rozkaz, tego Dnia, będzie należeć do Boga!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "82" }
+  }
+}

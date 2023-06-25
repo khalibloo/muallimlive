@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 54, "text": "قریش کے مانوس کرنے کے لئے." },
+    {
+      "resource_id": 54,
+      "text": "(یعنی) انہیں جاڑے اور گرمی کے سفر سے مانوس کرنے کے لئے<sup foot_note=168337>1</sup>۔ (اس کے شکریہ میں)."
+    },
+    {
+      "resource_id": 54,
+      "text": "پس انہیں چاہئے کہ اسی گھر کے رب کی عبادت کرتے رہیں."
+    },
+    {
+      "resource_id": 54,
+      "text": "جس نے انہیں بھوک میں کھانا دیا<sup foot_note=168338>1</sup> اور ڈر (اور خوف) میں امن (وامان) دیا.<sup foot_note=168339>2</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "106" }
+  }
+}

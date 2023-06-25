@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Di', o Messaggero: \"Mi rifugio presso il Dio dell'albore e imploro la Sua protezione,"
+    },
+    { "resource_id": 176, "text": "dalla parte maligna delle creature," },
+    {
+      "resource_id": 176,
+      "text": "e mi rifugio presso Allāh dal male di ogni belva e dei ladri che si rivelano nella notte,"
+    },
+    {
+      "resource_id": 176,
+      "text": "e mi rifugio presso di Lui dal male delle streghe che soffiano sui nodi per praticare magia,"
+    },
+    {
+      "resource_id": 176,
+      "text": "e mi rifugio presso di Lui dal male dell'invidioso quando compie qualche atto causato dall'invidia."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "113" }
+  }
+}

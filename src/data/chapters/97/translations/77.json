@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 77,
+      "text": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Kadir gecesinin ne olduğunu sen bilir misin?"
+    },
+    { "resource_id": 77, "text": "Kadir gecesi bin aydan hayırlıdır." },
+    {
+      "resource_id": 77,
+      "text": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler."
+    },
+    {
+      "resource_id": 77,
+      "text": "O gece, tan yerinin ağarmasına kadar bir esenliktir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "97" }
+  }
+}

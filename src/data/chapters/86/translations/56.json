@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "以穷苍和启明星盟誓，" },
+    { "resource_id": 56, "text": "你怎能知道启明星是什麽？" },
+    { "resource_id": 56, "text": "是那灿烂的明星。" },
+    { "resource_id": 56, "text": "每个人，都有一个保护者。" },
+    { "resource_id": 56, "text": "人应当想一想，他自己是用什麽造成的？" },
+    { "resource_id": 56, "text": "他是射出的精液造成的。" },
+    { "resource_id": 56, "text": "那精液是从脊柱和肋骨之间发出的。" },
+    { "resource_id": 56, "text": "真主确是能使他复原的，" },
+    { "resource_id": 56, "text": "那是在一切秘密被揭穿之日。" },
+    { "resource_id": 56, "text": "他绝没有能力，也没有援助者。" },
+    { "resource_id": 56, "text": "以含雨的云" },
+    { "resource_id": 56, "text": "和有缝的地发誓，" },
+    { "resource_id": 56, "text": "这确是分别真伪的言辞，" },
+    { "resource_id": 56, "text": "这不是笑话。" },
+    { "resource_id": 56, "text": "他们必定要用计谋，" },
+    { "resource_id": 56, "text": "我也要用计谋。" },
+    {
+      "resource_id": 56,
+      "text": "所以你当宽限不信道的人们，你当宽限他们一下。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "86" }
+  }
+}

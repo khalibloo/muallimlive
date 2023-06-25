@@ -1,0 +1,57 @@
+{
+  "translations": [
+    { "resource_id": 203, "text": "  By the sun and its brightness." },
+    { "resource_id": 203, "text": "  By the moon as it follows it (the sun)." },
+    {
+      "resource_id": 203,
+      "text": "  By the day as it shows up (the sun’s) brightness."
+    },
+    {
+      "resource_id": 203,
+      "text": "  By the night as it conceals it (the sun)."
+    },
+    { "resource_id": 203, "text": "  By the heaven and Him Who built it." },
+    { "resource_id": 203, "text": "  By the earth and Him Who spread it." },
+    {
+      "resource_id": 203,
+      "text": "  By Nafs (Adam or a person or a soul), and Him Who perfected him in proportion;"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Then He showed him what is wrong for him and what is right for him."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Indeed he succeeds who purifies his ownself (i.e. obeys and performs all that Allâh ordered, by following the true Faith of Islâmic Monotheism and by doing righteous good deeds)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And indeed he fails who corrupts his ownself (i.e. disobeys what Allâh has ordered by rejecting the true Faith of Islâmic Monotheism or by following polytheism or by doing every kind of evil wicked deeds)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Thamûd (people) denied (their Prophet) through their transgression (by rejecting the true Faith of Islâmic Monotheism, and by following polytheism, and by committing every kind of sin)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  When the most wicked man among them went forth (to kill the she-camel)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  But the Messenger of Allâh [Sâlih عليه السلام] said to them: \"Be cautious! (Fear the evil end). That is the she-camel of Allâh! (Do not harm it) and bar it not from having its drink!\""
+    },
+    {
+      "resource_id": 203,
+      "text": "  Then they denied him and they killed it. So their Lord destroyed them because of their sin, and made them equal in destruction (i.e. all grades of people, rich and poor, strong and weak, etc.)!"
+    },
+    {
+      "resource_id": 203,
+      "text": "  And He (Allâh) feared not the consequences thereof."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "91" }
+  }
+}

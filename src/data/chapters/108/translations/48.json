@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "VI HAR sannerligen gett dig det goda i överflöd!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Be därför till din Herre och förrätta [ditt] offer!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Det är den som är full av hat mot dig, som är utestängd [från Guds nåd]."
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "108" }
+  }
+}

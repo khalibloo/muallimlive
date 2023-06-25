@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 43,
+      "text": "Sabei que o revelamos (o Alcorão), na Noite do Decreto."
+    },
+    {
+      "resource_id": 43,
+      "text": "E o que te fará entender o que é a Noite do Decreto?"
+    },
+    {
+      "resource_id": 43,
+      "text": "A Noite do Decreto é melhor do que mil meses."
+    },
+    {
+      "resource_id": 43,
+      "text": "Nela descem os anjos e o Espírito (Anjo Gabriel), com a anuência do seu Senhor, para executar todas as Suas ordens."
+    },
+    { "resource_id": 43, "text": "(Ela) é paz, até ao romper da aurora!" }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "97" }
+  }
+}

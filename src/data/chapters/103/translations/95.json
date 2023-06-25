@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 95, "text": "By the time!" },
+    { "resource_id": 95, "text": "Lo! Man is in a state of loss;" },
+    {
+      "resource_id": 95,
+      "text": "save those who have faith and do righteous deeds, and counsel each other to hold on to truth and counsel each other to be steadfast.<sup foot_note=\"182834\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "103" }
+  }
+}

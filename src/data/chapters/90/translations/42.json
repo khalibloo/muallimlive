@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Nie! Przysięgam na to miasto!" },
+    { "resource_id": 42, "text": "- a ty jesteś mieszkańcem tego miasta -" },
+    { "resource_id": 42, "text": "I na rodziciela, i na to, co on zrodził!" },
+    { "resource_id": 42, "text": "Zaprawdę, stworzyliśmy człowieka w udręce!" },
+    {
+      "resource_id": 42,
+      "text": "Czy on sądzi, że nikt nie będzie miał nad nim władzy?"
+    },
+    { "resource_id": 42, "text": "Mówi on: \"Roztrwoniłem majątek ogromny.\"" },
+    { "resource_id": 42, "text": "Czy on sądzi, że nikt tego nie widział?" },
+    { "resource_id": 42, "text": "Czy nie daliśmy mu dwoje oczu, i" },
+    { "resource_id": 42, "text": "Jednego języka i dwóch warg?" },
+    {
+      "resource_id": 42,
+      "text": "I czy nie poprowadziliśmy go ! na rozstajne drogi?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Lecz on nie próbował wejść na drogę stromą."
+    },
+    { "resource_id": 42, "text": "A co pouczy cię, co to jest droga stroma?" },
+    { "resource_id": 42, "text": "To uwolnienie niewolnika" },
+    { "resource_id": 42, "text": "Albo nakarmienie w dniu głodu" },
+    { "resource_id": 42, "text": "Sieroty spośród krewnych" },
+    { "resource_id": 42, "text": "Albo biedaka znajdującego się w nędzy." },
+    {
+      "resource_id": 42,
+      "text": "A także - być spośród tych, którzy wierzą, zachęcają się wzajemnie do cierpliwości, zachęcają się wzajemnie do miłosierdzia."
+    },
+    { "resource_id": 42, "text": "Ci - to towarzysze prawicy." },
+    {
+      "resource_id": 42,
+      "text": "Lecz ci, którzy nie uwierzyli w Nasze znaki - to towarzysze lewicy."
+    },
+    {
+      "resource_id": 42,
+      "text": "Nad nimi będzie ogień okrywający jak sklepienie."
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "90" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 22, "text": "Say: He is Allah, the One and Only;" },
+    { "resource_id": 22, "text": "Allah, the Eternal, Absolute;" },
+    { "resource_id": 22, "text": "He begetteth not, nor is He begotten;" },
+    { "resource_id": 22, "text": "And there is none like unto Him." }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "112" }
+  }
+}

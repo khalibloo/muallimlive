@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 175,
+      "text": "O Poslaniče, reci: Tražim zaštitu kod Gospodara jutra."
+    },
+    {
+      "resource_id": 175,
+      "text": "od zla kojeg čine stvorenja i njihovih uznemiravanja."
+    },
+    {
+      "resource_id": 175,
+      "text": "I kod Allaha tražim spas od zla koje se pojavljuje noću, u vidu životinja i lopova."
+    },
+    {
+      "resource_id": 175,
+      "text": "I kod njega tražim spas od sihirbasica koje pušu u čvorove."
+    },
+    {
+      "resource_id": 175,
+      "text": "I kod Njega tražim spas od zla zavidnika koji radi ono iz čega proizlazi zavist."
+    }
+  ],
+  "meta": {
+    "translation_name": "Bosnian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 175, "chapter_number": "113" }
+  }
+}

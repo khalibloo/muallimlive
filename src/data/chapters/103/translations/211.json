@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Sumpa man sa panahon," },
+    {
+      "resource_id": 211,
+      "text": "tunay na ang tao ay talagang nasa isang pagkalugi,"
+    },
+    {
+      "resource_id": 211,
+      "text": "maliban sa mga sumampalataya, gumawa ng mga maayos, nagtagubilinan ng katotohanan, at nagtagubilinan ng pagtitiis."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "103" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 776,
+      "text": "Di, Mensajero: ¡Ustedes que no creen en Al-lah!"
+    },
+    {
+      "resource_id": 776,
+      "text": "No adoro ni adoraré a los ídolos a los que adoran."
+    },
+    {
+      "resource_id": 776,
+      "text": "Ni adorarán ustedes a Quien yo adoro, únicamente a Al-lah."
+    },
+    {
+      "resource_id": 776,
+      "text": "Jamás voy a adorar a los ídolos que adoran."
+    },
+    {
+      "resource_id": 776,
+      "text": "Ni adorarán ustedes a Quien yo adoro, únicamente a Al-lah."
+    },
+    {
+      "resource_id": 776,
+      "text": "Ustedes tienen su religión que escogieron para ustedes, y yo tengo mi religión que Al-lah me reveló."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Mokhtasar",
+    "author_name": "Spanish Mokhtasar",
+    "filters": { "resource_id": 776, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "translations": [
+    { "resource_id": 47, "text": "E kur të çahet qielli." },
+    { "resource_id": 47, "text": "Dhe kur të shkapërderdhen yjet." },
+    { "resource_id": 47, "text": "Dhe kur të përzihen detet." },
+    { "resource_id": 47, "text": "Dhe kur të trazohen varret." },
+    {
+      "resource_id": 47,
+      "text": "Atëbotë secili njeri e din se çka punuar dhe çka ka lënë prapa!"
+    },
+    {
+      "resource_id": 47,
+      "text": "O ti njeri po ç’të mashtroi ty kundrejt Zotit tënd që është bujar e i urtë?"
+    },
+    {
+      "resource_id": 47,
+      "text": "I cili të krijoi, të përsosi dhe të drejtoi."
+    },
+    { "resource_id": 47, "text": "Të formësoi në formën që Ai dëshiroi!" },
+    {
+      "resource_id": 47,
+      "text": "Jo, nuk është ashtu. Ju përgënjeshtroni ditën e përgjegjësisë."
+    },
+    { "resource_id": 47, "text": "Kurse ndaj jush janë përcjellësit!" },
+    { "resource_id": 47, "text": "Janë shkrues të ndershëm te All-llahu." },
+    { "resource_id": 47, "text": "Ata e dinë se çka punoni." },
+    {
+      "resource_id": 47,
+      "text": "E s’ka dyshim se të mirët janë në kënaqësinë e përjetimeve (në Xhennet)."
+    },
+    { "resource_id": 47, "text": "Dhe se mëkatarët janë në Xhehennem." },
+    {
+      "resource_id": 47,
+      "text": "Aty futen ata ditën e gjykimit (të cilën nuk e besonin)."
+    },
+    { "resource_id": 47, "text": "Dhe nuk kanë të larguar prej tij." },
+    {
+      "resource_id": 47,
+      "text": "E ç’të mësoi ty se ç’është dita e gjykimit?"
+    },
+    {
+      "resource_id": 47,
+      "text": "Përsëri, ç’të mësoi ty se ç’është dita e gjykimit?"
+    },
+    {
+      "resource_id": 47,
+      "text": "Është dita kur askush, askujt nuk do të mund t’i ndihmojë asgjë; atë ditë e tërë çështja i takon vetëm All-llahut!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "82" }
+  }
+}

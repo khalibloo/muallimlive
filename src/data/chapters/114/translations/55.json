@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "«Odamlar Robbisidan..." },
+    { "resource_id": 55, "text": "Odamlar podshohidan..." },
+    { "resource_id": 55, "text": "Odamlar Ilohidan panoh so`rayman..." },
+    {
+      "resource_id": 55,
+      "text": "Berkinib, ko`rinib turuvchi vasvasachining..."
+    },
+    {
+      "resource_id": 55,
+      "text": "Odamlar qalblariga vasvasa soladiganning..."
+    },
+    {
+      "resource_id": 55,
+      "text": "Jinlar va odamlardan bo`lganning yomonligidan», deb ayt.<sup foot_note=\"169925\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "114" }
+  }
+}

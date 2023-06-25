@@ -1,0 +1,16 @@
+{
+  "translations": [
+    {
+      "resource_id": 29,
+      "text": "(ای پیامبر) بگو: «او الله یکتا و یگانه است."
+    },
+    { "resource_id": 29, "text": "الله بی‌نیاز است (و همه نیازمند او هستند)." },
+    { "resource_id": 29, "text": "نه (فرزندی) زاده و نه زاده شده است." },
+    { "resource_id": 29, "text": "و هیچ کس همانند و همتای او نبوده و نیست»." }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "112" }
+  }
+}

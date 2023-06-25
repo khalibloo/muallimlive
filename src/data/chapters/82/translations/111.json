@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Yeroo samiin dhodhoote," },
+    { "resource_id": 111, "text": "Yeroo urjiiwwan harca'an," },
+    { "resource_id": 111, "text": "Yeroo galaanonni walitti makaman," },
+    {
+      "resource_id": 111,
+      "text": "Yeroo qabroonni gara gaggalfamtee du’aa ishee keessa jiru ol baafte,"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Yeroo san) lubbuun hundi waan dabarfatte (hojjattee)fi dhiifte ni beekti"
+    },
+    {
+      "resource_id": 111,
+      "text": "Yaa namootaa! Gooftaa kee kan Arjaa ta'etti (amanuu irraa) maaltu si gowwoomse?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Isa si uumee, ergasii si guutee, si sirreesse,"
+    },
+    {
+      "resource_id": 111,
+      "text": "Boca fedhe keessatti walitti si qabe (sanarraa maaltu si gowwoomse)?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhorgamaa! Dhugumatti, guyyaa murtii ni sobsiiftu."
+    },
+    { "resource_id": 111, "text": "Dhugumatti, isin irra to’attootatu jiru." },
+    { "resource_id": 111, "text": "Kabajamoo, barreessitoota kan ta’an." },
+    { "resource_id": 111, "text": "Waan isin dalagdan ni beeku." },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, warri toltuu hojjatan qananii keessa jiraatu"
+    },
+    {
+      "resource_id": 111,
+      "text": "Warri hamtuu hojjatan immoo ibidda keessa jiraatu."
+    },
+    { "resource_id": 111, "text": "Guyyaa murtii ishee seenu." },
+    { "resource_id": 111, "text": "Isaan ishee irraa hin fagaatanu." },
+    {
+      "resource_id": 111,
+      "text": "Sila guyyaan murtii maal akka ta'e maaltu si beeksise?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Ergasii guyyaan murtii maal akka ta'e maaltu si beeksise?"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Inni) guyyaa lubbuun tokko lubbuu biraatiif homaa gochuu hin dandeenyeGuyyaa san ajajni (hundi) kan Rabbiiti."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "82" }
+  }
+}

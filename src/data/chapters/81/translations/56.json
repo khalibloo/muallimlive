@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "当太阳黯黜的时候，" },
+    { "resource_id": 56, "text": "当星宿零落的时候，" },
+    { "resource_id": 56, "text": "当山峦崩溃的时候，" },
+    { "resource_id": 56, "text": "当孕驼被抛弃的时候，" },
+    { "resource_id": 56, "text": "当野兽被集合的时候，" },
+    { "resource_id": 56, "text": "当海洋澎湃的时候，" },
+    { "resource_id": 56, "text": "当灵魂被配合的时候，" },
+    { "resource_id": 56, "text": "当被活埋的女孩被询问的时候：" },
+    { "resource_id": 56, "text": "她为什么罪过而遭杀害呢？" },
+    { "resource_id": 56, "text": "当功过簿被展开的时候，　" },
+    { "resource_id": 56, "text": "当天皮被揭去的时候，" },
+    { "resource_id": 56, "text": "当火狱被燃著的时候，" },
+    { "resource_id": 56, "text": "当乐园被送近的时候，" },
+    { "resource_id": 56, "text": "每个人都知道他所作过的善恶。" },
+    { "resource_id": 56, "text": "我誓以运行的众星--" },
+    { "resource_id": 56, "text": "没落的行星，" },
+    { "resource_id": 56, "text": "和逝去时的黑夜，" },
+    { "resource_id": 56, "text": "照耀时的早晨，" },
+    { "resource_id": 56, "text": "这确是一个尊贵的使者的言辞，" },
+    { "resource_id": 56, "text": "他在宝座的主那里，是有权力的，是有地位的，" },
+    { "resource_id": 56, "text": "是众望所归，而且忠於职守的。" },
+    { "resource_id": 56, "text": "你们的朋友，不是一个疯人，" },
+    { "resource_id": 56, "text": "他确已看见那个天使在明显的天边，" },
+    { "resource_id": 56, "text": "他对幽玄不是吝教的。" },
+    { "resource_id": 56, "text": "这不是被放逐的恶魔的言辞，" },
+    { "resource_id": 56, "text": "然则, 你们将往那里去呢？" },
+    { "resource_id": 56, "text": "这只是对於全世界的教诲--" },
+    { "resource_id": 56, "text": "对於你们中欲循规蹈矩者的教诲，" },
+    {
+      "resource_id": 56,
+      "text": "你们不欲循规蹈矩，除非真主--全世界的主--意欲的时候。　"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "81" }
+  }
+}

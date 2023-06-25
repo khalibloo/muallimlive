@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 32,
+      "text": "Ashe, ba ka ga yadda Ubangijinka Ya aikata ga mutanen giwa ba?"
+    },
+    { "resource_id": 32, "text": "Ashe, bai sanya kaidinsu a cikin ɓata ba?" },
+    {
+      "resource_id": 32,
+      "text": "Kuma Ya sako, a kansu, wasu tsuntsãye, jama'a-jama'a."
+    },
+    {
+      "resource_id": 32,
+      "text": "Suna jifar su da wasu duwatsu na yumɓun wuta."
+    },
+    {
+      "resource_id": 32,
+      "text": "Sa'an nan Ya sanya su kamar karmami wanda aka cinye?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "105" }
+  }
+}

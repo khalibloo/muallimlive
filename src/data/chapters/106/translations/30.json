@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "(Näin tapahtui) suosiosta Kureishien heimoa kohtaan,"
+    },
+    {
+      "resource_id": 30,
+      "text": "suojelukseksi heille matkoiltaan talvella ja kesällä."
+    },
+    { "resource_id": 30, "text": "Palvelkoot he siis tämän huoneen Herraa," },
+    {
+      "resource_id": 30,
+      "text": "joka sammuttaa heidän nälkänsä ja antaa turvan tunteen heidän pelätessään."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "106" }
+  }
+}

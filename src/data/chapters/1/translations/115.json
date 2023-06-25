@@ -1,0 +1,25 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "Da sũnan Allah, Mai rahama, Mai jin ƙai." },
+    {
+      "resource_id": 115,
+      "text": "Godiya ta tabbata ga Allah, Ubangijin halittu;"
+    },
+    { "resource_id": 115, "text": "Mai rahama, Mai jin ƙai;" },
+    { "resource_id": 115, "text": "Mai nuna Mulkin Rãnar Sakamako." },
+    {
+      "resource_id": 115,
+      "text": "Kai muke bautawa, kuma Kai kadai muke neman taimakonKa"
+    },
+    { "resource_id": 115, "text": "Ka shiryar da mu ga hanya madaidaiciya." },
+    {
+      "resource_id": 115,
+      "text": "Hanyar waɗanda Ka yi wa ni'ima, ba waɗanda aka yi wa fushi ba, kuma ba ɓatattu ba.<sup foot_note=131650>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "1" }
+  }
+}

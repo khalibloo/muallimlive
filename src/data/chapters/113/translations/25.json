@@ -1,0 +1,14 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Reci: \"Utječem se Gospodaru svitanja," },
+    { "resource_id": 25, "text": "od zla onoga što On stvara.\"" },
+    { "resource_id": 25, "text": "i od zla mrkle noći kad razastre tmine," },
+    { "resource_id": 25, "text": "i od zla onih koje u čvorove pušu" },
+    { "resource_id": 25, "text": "i od zla zavidnika kad zavidi.\"" }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "113" }
+  }
+}

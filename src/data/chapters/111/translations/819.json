@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 819,
+      "text": "ابولہب کے ہاتھ ٹوٹ جائیں اور وہ برباد ہوجائے"
+    },
+    {
+      "resource_id": 819,
+      "text": "نہ اس کامال اس کے کام آیا اور نہ وہ جو اس نے کمایا"
+    },
+    { "resource_id": 819, "text": "وہ عنقریب بھڑکتی ہوئی آگ میں پڑے گا" },
+    {
+      "resource_id": 819,
+      "text": "اور اس کی بیوی بھی جو ایندھن لیے پھرتی ہے سر پر"
+    },
+    { "resource_id": 819, "text": "اس کی گردن میں رسی ہے بٹی ہوئی" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "111" }
+  }
+}

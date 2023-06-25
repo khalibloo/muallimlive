@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 33,
+      "text": "Katakanlah, \"Aku berlindung kepada Tuhan yang menguasai subuh (fajar),"
+    },
+    {
+      "resource_id": 33,
+      "text": "dari kejahatan (makhluk yang) Dia ciptakan,"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan dari kejahatan malam apabila telah gelap gulita,"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan dari kejahatan orang yang dengki apabila dia dengki.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Islamic affairs ministry",
+    "author_name": "Indonesian Islamic affairs ministry",
+    "filters": { "resource_id": 33, "chapter_number": "113" }
+  }
+}

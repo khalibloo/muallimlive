@@ -1,0 +1,133 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Pelos que arrebatam violentamente" },
+    { "resource_id": 43, "text": "Pelos que extraem veementemente;" },
+    { "resource_id": 43, "text": "Pelos que gravitam serenamente;" },
+    {
+      "resource_id": 43,
+      "text": "Pelos que procuram sobrepujar repentinamente,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Arranjadores (para a execução) das ordens (do seu Senhor)!"
+    },
+    {
+      "resource_id": 43,
+      "text": "No dia em que tudo o que poderá se comover, estará em comoção,"
+    },
+    {
+      "resource_id": 43,
+      "text": "E em que acontecerá, pela segunda vez (a comoção),"
+    },
+    { "resource_id": 43, "text": "Nesse dia, os corações baterão agitados," },
+    { "resource_id": 43, "text": "Enquanto os olhares estarão humildes." },
+    {
+      "resource_id": 43,
+      "text": "Dirão: Quê! Porventura voltaremos ao nosso estado primitivo,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Mesmo que também sejamos ossos deteriorados?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Dirão (mais): Tal será, então, um retorno de perdas!"
+    },
+    { "resource_id": 43, "text": "Porém, certamente, será um só grito," },
+    { "resource_id": 43, "text": "E, ei-los plenamente acordados." },
+    {
+      "resource_id": 43,
+      "text": "Conheces (ó Mensageiro) a história de Moisés?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Seu Senhor o chamou, no vale sagrado de Tôwa,"
+    },
+    {
+      "resource_id": 43,
+      "text": "(E lhe disse): Vai ao Faraó, porque ele transgrediu,"
+    },
+    { "resource_id": 43, "text": "e dize-lhe: Desejas purificar-te," },
+    {
+      "resource_id": 43,
+      "text": "e encaminhar-te até o teu Senhor, para O temeres?"
+    },
+    { "resource_id": 43, "text": "E Moisés lhe mostrou o grande sinal," },
+    {
+      "resource_id": 43,
+      "text": "Porém (o Faraó) desmentiu (aquilo) e se rebelou;"
+    },
+    { "resource_id": 43, "text": "Então, rechaçou-o, contendendo tenazmente." },
+    {
+      "resource_id": 43,
+      "text": "Em seguida, congregou (a gente) e discursou,"
+    },
+    { "resource_id": 43, "text": "Proclamando: Sou o vosso senhor supremo!" },
+    {
+      "resource_id": 43,
+      "text": "Porém, Deus lhe infligiu o castigo e (fez dele) um exemplo para o outro mundo e para o presente."
+    },
+    {
+      "resource_id": 43,
+      "text": "Certamente, nisto há um exemplo para o temente."
+    },
+    {
+      "resource_id": 43,
+      "text": "Quê! Porventura a vossa criação é mais difícil ou é a do céu, que Ele erigiu?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Elevou a sua abóbada e, por conseguinte, a ordenou,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Escureceu a noite e, (consequentemente) clareou o dia;"
+    },
+    { "resource_id": 43, "text": "E depois disso dilatou a terra," },
+    { "resource_id": 43, "text": "Da qual fez brotar a água e os pastos;" },
+    { "resource_id": 43, "text": "E fixou, firmemente, as montanhas," },
+    { "resource_id": 43, "text": "Para o proveito vosso e do vosso gado." },
+    { "resource_id": 43, "text": "Mas, quando chegar o grande evento," },
+    {
+      "resource_id": 43,
+      "text": "O dia em que o homem se há de recordar de tudo quanto tiver feito,"
+    },
+    {
+      "resource_id": 43,
+      "text": "E a fogueira for exposta visivelmente, para quem a quiser ver,"
+    },
+    { "resource_id": 43, "text": "Então, o que tiver transgredido," },
+    { "resource_id": 43, "text": "E preferido a vida terrena," },
+    {
+      "resource_id": 43,
+      "text": "Esse certamente terá a fogueira por morada."
+    },
+    {
+      "resource_id": 43,
+      "text": "Ao contrário, quem tiver temido o comparecimento ante o seu Senhor e se tiver refreado em relação à luxúria,"
+    },
+    { "resource_id": 43, "text": "Terá o Paraíso por abrigo." },
+    {
+      "resource_id": 43,
+      "text": "Interrogar-te-ão acerca da Hora: Quando aportará?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Com quem está tu (envolvido), com tal declaração?"
+    },
+    { "resource_id": 43, "text": "Só ao teu Senhor incumbe tal conhecimento." },
+    {
+      "resource_id": 43,
+      "text": "Tu és comente um admoestador, para quem a teme."
+    },
+    {
+      "resource_id": 43,
+      "text": "No dia em que a virem, parecer-lhes-á não terem permanecido no mundo mais do que um entardecer ou um amanhecer da mesma."
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "79" }
+  }
+}

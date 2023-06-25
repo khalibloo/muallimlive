@@ -1,0 +1,93 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Aftini burishtirdi va yuz o`girdi." },
+    { "resource_id": 55, "text": "Ko`zi ko`r kishi huzuriga kelganda." },
+    { "resource_id": 55, "text": "Qayerdan bilasan, ehtimol, u poklanar." },
+    {
+      "resource_id": 55,
+      "text": "Yoki nasihat olar va mav'iza unga manfaat berar."
+    },
+    { "resource_id": 55, "text": "Ammo istig`no qilganga bo`lsa..." },
+    { "resource_id": 55, "text": "Sen u tomonga intilasan." },
+    {
+      "resource_id": 55,
+      "text": "U poklanmasa, seni hech kim malomat qilmas."
+    },
+    { "resource_id": 55, "text": "Ammo huzuringga shoshilib kelgan." },
+    {
+      "resource_id": 55,
+      "text": "Va U zotdan qo`rqqan holda bo`lgandan esa..."
+    },
+    { "resource_id": 55, "text": "Bas, Sen undan mashg`ul bo`lasan." },
+    {
+      "resource_id": 55,
+      "text": "Yo`q! Albatta ular (Qur'on oyatlari) eslatmadir."
+    },
+    { "resource_id": 55, "text": "Kim xohlasa, uni eslaydir." },
+    { "resource_id": 55, "text": "Hurmatlangan sahifalardadir." },
+    { "resource_id": 55, "text": "Oliy qadardirlar, poklangandirlar." },
+    { "resource_id": 55, "text": "Elchi(farishta)lar qo`llaridadir." },
+    { "resource_id": 55, "text": "Ular hurmatlangan va o`ta yaxshidirlar." },
+    {
+      "resource_id": 55,
+      "text": "Insonga la'nat bo`lsin, uning kofirligi qandoq shiddatli bo`ldi."
+    },
+    { "resource_id": 55, "text": "Uni qaysi narsadan yaratdi?" },
+    {
+      "resource_id": 55,
+      "text": "Nutfadan uni yaratdi va uni o`lchovli qildi."
+    },
+    { "resource_id": 55, "text": "So`ngra, chiqish yo`lini oson qildi." },
+    { "resource_id": 55, "text": "So`ngra o`ldirdi va qabrga kirgazdi." },
+    {
+      "resource_id": 55,
+      "text": "So`ngra (qachon) xohlasa, uni qayta tiriltiradi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Yo`q, undoq emas! U o`ziga U zot qilgan amrni bajarmadi."
+    },
+    { "resource_id": 55, "text": "Inson o`z taomiga nazar solsin." },
+    { "resource_id": 55, "text": "Albatta, Biz suvni rosa quyib qo`yibmiz." },
+    { "resource_id": 55, "text": "So`ngra yerni o`ziga xos yordik." },
+    { "resource_id": 55, "text": "Biz unda donni." },
+    { "resource_id": 55, "text": "Va uzum va ko`klarni." },
+    { "resource_id": 55, "text": "Va zaytun va xurmolarni." },
+    { "resource_id": 55, "text": "Va tig`iz bog`larni." },
+    {
+      "resource_id": 55,
+      "text": "Va mevalaru o`t-o`lanlarni o`stirib qo`ydik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sizlarga va chorvalaringizga manfaat va lazzat bo`lsin, deb."
+    },
+    { "resource_id": 55, "text": "Vaqtiki kar qiluvchi ovoz kelsa." },
+    { "resource_id": 55, "text": "U kunda kishi o`z aka-ukasidan." },
+    { "resource_id": 55, "text": "Va onasi va otasidan." },
+    { "resource_id": 55, "text": "Va xotini va bola-chaqasidan qochadi." },
+    {
+      "resource_id": 55,
+      "text": "U kunda ulardan har bir shaxsni ovora qiluvchi o`z ishi bor."
+    },
+    { "resource_id": 55, "text": "U kunda porloq chehralar bor." },
+    {
+      "resource_id": 55,
+      "text": "Ular kulgu bilan to`la, yetgan xushxabardan xursand."
+    },
+    {
+      "resource_id": 55,
+      "text": "U kunda bir chehralar borki, ularni g`ubor bosgan."
+    },
+    { "resource_id": 55, "text": "Ustini zulmat qoplagan." },
+    {
+      "resource_id": 55,
+      "text": "Ular, ana o`shalar, kofirlar va fojirlardir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "80" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 54,
+      "text": "آپ کہہ دیجئے! کہ میں لوگوں کے پروردگار کی پناه میں آتا ہوں.<sup foot_note=168366>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "لوگوں کے مالک کی<sup foot_note=168367>1</sup> (اور)."
+    },
+    {
+      "resource_id": 54,
+      "text": "لوگوں کے معبود کی (پناه میں).<sup foot_note=168368>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "وسوسہ ڈالنے والے پیچھے ہٹ جانے والے کے شر سے.<sup foot_note=168369>1</sup>"
+    },
+    { "resource_id": 54, "text": "جو لوگوں کے سینوں میں وسوسہ ڈالتا ہے." },
+    {
+      "resource_id": 54,
+      "text": "(خواه) وه جن میں سے ہو یا انسان میں سے.<sup foot_note=168370>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "114" }
+  }
+}

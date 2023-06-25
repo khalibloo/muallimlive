@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Inayo gonga!" },
+    { "resource_id": 49, "text": "Nini Inayo gonga?" },
+    {
+      "resource_id": 49,
+      "text": "Na nini kitacho kujuilisha nini Inayo gonga?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Siku ambayo watu watakuwa kama nondo walio tawanyika;"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na milima itakuwa kama sufi zilizo chambuliwa!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi yule ambaye mizani yake itakuwa nzito,"
+    },
+    { "resource_id": 49, "text": "Huyo atakuwa katika maisha ya kupendeza." },
+    {
+      "resource_id": 49,
+      "text": "Na yule ambaye mizani yake itakuwa khafifu,"
+    },
+    { "resource_id": 49, "text": "Huyo maskani yake yatakuwa Moto wa Hawiya!" },
+    { "resource_id": 49, "text": "Na nini kitacho kujuilisha nini hiyo?" },
+    { "resource_id": 49, "text": "Ni Moto mkali!" }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "101" }
+  }
+}

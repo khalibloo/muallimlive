@@ -1,0 +1,84 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Zachmurzył się i odwrócił," },
+    { "resource_id": 42, "text": "Bo przyszedł do niego niewidomy." },
+    { "resource_id": 42, "text": "Skąd możesz wiedzieć? może on się oczyści" },
+    {
+      "resource_id": 42,
+      "text": "Albo pomyśli o napomnieniu i to przypomnienie przyniesie mu korzyść."
+    },
+    { "resource_id": 42, "text": "Jeśli kto jest bogaty," },
+    { "resource_id": 42, "text": "To ty się nim interesujesz;" },
+    {
+      "resource_id": 42,
+      "text": "A mało się troszczysz o to, iż on się nie oczyszcza."
+    },
+    {
+      "resource_id": 42,
+      "text": "Lecz od tego, kto przychodzi do ciebie przepełniony gorliwością"
+    },
+    { "resource_id": 42, "text": "I jest pełen bojaźni" },
+    { "resource_id": 42, "text": "- ty się odsuwasz." },
+    { "resource_id": 42, "text": "Ależ nie! To jest przecież napomnienie;" },
+    { "resource_id": 42, "text": "- I kto zechce; to je sobie przypomni! -" },
+    { "resource_id": 42, "text": "Ono jest na czcigodnych kartach," },
+    { "resource_id": 42, "text": "Wyniosłych i oczyszczonych" },
+    { "resource_id": 42, "text": "Przez ręce pisarzy," },
+    { "resource_id": 42, "text": "Szlachetnych, sprawiedliwych." },
+    {
+      "resource_id": 42,
+      "text": "Niech zginie człowiek! Jakże on jest niewdzięczny!"
+    },
+    { "resource_id": 42, "text": "Z czego On go stworzył?" },
+    {
+      "resource_id": 42,
+      "text": "On go stworzył z kropli spermy i wyznaczył jego los;"
+    },
+    {
+      "resource_id": 42,
+      "text": "On go stworzył z kropli spermy i wyznaczył jego los;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Potem On sprowadza jego śmierć i każe pochować go w grobie."
+    },
+    { "resource_id": 42, "text": "Potem On wskrzesi go, kiedy zechce." },
+    {
+      "resource_id": 42,
+      "text": "Ależ nie! On nie wypełnia tego, co Bóg mu nakazał."
+    },
+    { "resource_id": 42, "text": "Niech spojrzy człowiek na swe pożywienie!" },
+    { "resource_id": 42, "text": "Jak wylaliśmy wodę obficie," },
+    { "resource_id": 42, "text": "Potem spowodowaliśmy popękanie ziemi" },
+    { "resource_id": 42, "text": "I sprawiliśmy, iż wyrosły na niej ziarna," },
+    { "resource_id": 42, "text": "Winna latorośl i trzcina cukrowa," },
+    { "resource_id": 42, "text": "Drzewa oliwne i drzewa palmowe," },
+    { "resource_id": 42, "text": "I ogrody bujnie rosnące," },
+    { "resource_id": 42, "text": "I owoce, i pastwiska" },
+    {
+      "resource_id": 42,
+      "text": "- to na używanie dla was i dla waszych trzód."
+    },
+    { "resource_id": 42, "text": "A kiedy przyjdzie huk ogłuszający," },
+    {
+      "resource_id": 42,
+      "text": "W tym Dniu, kiedy człowiek będzie uciekał od swego brata,"
+    },
+    { "resource_id": 42, "text": "Od swojej matki i od swojego ojca," },
+    { "resource_id": 42, "text": "Od swojej towarzyszki i od swoich synów" },
+    {
+      "resource_id": 42,
+      "text": "- tego Dnia każdy człowiek będzie zajęty tylko swoją sprawą!"
+    },
+    { "resource_id": 42, "text": "Tego Dnia będą twarze jaśniejące," },
+    { "resource_id": 42, "text": "Uśmiechnięte i rozradowane." },
+    { "resource_id": 42, "text": "Tego Dnia będą twarze pokryte pyłem," },
+    { "resource_id": 42, "text": "Okryte ciemnością." },
+    { "resource_id": 42, "text": "Ci zaś to niewierni i rozpustnicy." }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "80" }
+  }
+}

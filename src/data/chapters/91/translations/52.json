@@ -1,0 +1,39 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Güneş'e ve onun parıltısına," },
+    { "resource_id": 52, "text": "Güneş'in ardından gelen Ay'a," },
+    { "resource_id": 52, "text": "Güneş'i açıp ortaya çıkaran gündüze," },
+    { "resource_id": 52, "text": "Onu örten geceye," },
+    { "resource_id": 52, "text": "Göğe ve onu bina edene," },
+    { "resource_id": 52, "text": "Yere ve onu döşeyene," },
+    { "resource_id": 52, "text": "Nefse ve onu biçimlendirene," },
+    {
+      "resource_id": 52,
+      "text": "Sonra da ona kötülük ve takva kabiliyetini verene yemin olsun ki,"
+    },
+    {
+      "resource_id": 52,
+      "text": "Elbette nefsini temizleyip parlatan kurtulmuştur."
+    },
+    { "resource_id": 52, "text": "Onu kirletip gömen de ziyan etmiştir." },
+    { "resource_id": 52, "text": "Semud, azgınlığıyla Hakk'ı yalanladı," },
+    { "resource_id": 52, "text": "En azgınları ileri atılınca," },
+    {
+      "resource_id": 52,
+      "text": "Allah'ın Rasulü (Salih peygamber) onlara: \"Allah'ın devesini ve onun su nöbetini gözetin.\" demişti."
+    },
+    {
+      "resource_id": 52,
+      "text": "Fakat onlar peygamberi yalanlayıp deveyi kestiler. Rableri de günahlarını başlarına geçiriverdi de orayı dümdüz etti."
+    },
+    {
+      "resource_id": 52,
+      "text": "Öyle ya, Allah bu işin sonundan korkacak değil ya."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "91" }
+  }
+}

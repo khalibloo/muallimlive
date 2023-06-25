@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": " Have you seen him who denies the Recompense?"
+    },
+    {
+      "resource_id": 203,
+      "text": "  That is he who repulses the orphan (harshly),<sup foot_note=155066>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  And urges not on the feeding of Al-Miskîn (the poor),<sup foot_note=155067>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  So woe unto those performers of Salât (prayers) (hypocrites),"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Those who delay their Salât (prayer from their stated fixed times)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Those who do good deeds only to be seen (of men),"
+    },
+    {
+      "resource_id": 203,
+      "text": "  And prevent Al-Mâ‘ûn (small kindnesses like salt, sugar, water)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "107" }
+  }
+}

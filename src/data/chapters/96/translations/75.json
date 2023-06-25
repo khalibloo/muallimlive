@@ -1,0 +1,49 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " Yaradan Rəbbinin adı ilə oxu!" },
+    { "resource_id": 75, "text": " O, insanı qan laxtasından yaratdı." },
+    {
+      "resource_id": 75,
+      "text": " Oxu! Sənin Rəbbin mü­qa­yisəsiz sə­xavətə malikdir."
+    },
+    { "resource_id": 75, "text": " O, qələmlə yazmağı öy­rət­di." },
+    { "resource_id": 75, "text": " İnsana bilmədiklərini öy­rətdi." },
+    { "resource_id": 75, "text": " Xeyr! İnsan, doğrudan da, həddini aşır –" },
+    {
+      "resource_id": 75,
+      "text": " özünün ehtiyacsız oldu­ğunu zənn etdiyinə görə."
+    },
+    { "resource_id": 75, "text": " Axı son dönüşün Rəb­bi­nədir!" },
+    { "resource_id": 75, "text": " Gördünmü o kəsi ki, ma­ne olur –" },
+    { "resource_id": 75, "text": " bir bəndəyə namaz qıl­dı­ğı zaman?" },
+    {
+      "resource_id": 75,
+      "text": " Söylə görək, əgər o bən­də doğru yoldadırsa,"
+    },
+    {
+      "resource_id": 75,
+      "text": " yaxud Allahdan qorx­ma­ğı əmr edirsə, onda necə olsun?"
+    },
+    {
+      "resource_id": 75,
+      "text": " Söylə görək, əgər o kafir haqqı yalan sayıb üz dön­də­rib­sə, on­da necə olsun?"
+    },
+    { "resource_id": 75, "text": " Məgər o bilmir ki, Allah görür?!" },
+    {
+      "resource_id": 75,
+      "text": " Xeyr! Əgər yaramaz əmə­linə son qoy­­ma­sa, Biz onun kə­ki­lin­dən tuta­cağıq –"
+    },
+    { "resource_id": 75, "text": " yalançı, günahkar kəki­lindən." },
+    { "resource_id": 75, "text": " Qoy öz yığnağını ça­ğır­sın." },
+    { "resource_id": 75, "text": " Biz də əzab mələklərini çağıra­cağıq." },
+    {
+      "resource_id": 75,
+      "text": " Xeyr, sən ona qulaq as­ma! Səcdə qıl və Allaha ya­xınlaş!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "96" }
+  }
+}

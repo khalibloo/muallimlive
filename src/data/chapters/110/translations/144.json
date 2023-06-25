@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 144,
+      "text": "Als de hulp van Allah en de overwinning zijn gekomen."
+    },
+    {
+      "resource_id": 144,
+      "text": "En jij (O Mohammed) de mensen in grote groepen tot de godsdienst van Allah ziet toetreden."
+    },
+    {
+      "resource_id": 144,
+      "text": "Prijs dan de Glorie van jouw Heer en vraag Hem om vergeving. Voorwaar, Hij is Berouwaanvaardend."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "110" }
+  }
+}

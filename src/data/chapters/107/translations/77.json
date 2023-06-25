@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "Dini yalan sayanı gördün mü?" },
+    {
+      "resource_id": 77,
+      "text": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur."
+    },
+    {
+      "resource_id": 77,
+      "text": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur."
+    },
+    { "resource_id": 77, "text": "Vay o namaz kılanların haline ki:" },
+    { "resource_id": 77, "text": "Onlar kıldıkları namazdan gafildirler." },
+    { "resource_id": 77, "text": "Onlar gösteriş yaparlar." },
+    { "resource_id": 77, "text": "Onlar basit şeyleri dahi vermezler." }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "107" }
+  }
+}

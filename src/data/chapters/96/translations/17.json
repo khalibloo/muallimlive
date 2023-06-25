@@ -1,0 +1,46 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "Read: In the Name of your Lord Who created,"
+    },
+    { "resource_id": 17, "text": "Created man from clots." },
+    { "resource_id": 17, "text": "Read: And your Lord is The Most Honorable," },
+    { "resource_id": 17, "text": "Who taught by the pen." },
+    { "resource_id": 17, "text": "He taught man what he did not know." },
+    {
+      "resource_id": 17,
+      "text": "Not at all! Surely man does indeed (grow) inordinate."
+    },
+    {
+      "resource_id": 17,
+      "text": "That he sees himself becoming self-sufficient."
+    },
+    { "resource_id": 17, "text": "Surely to your Lord is the Returning." },
+    { "resource_id": 17, "text": "Have you seen him who forbids." },
+    { "resource_id": 17, "text": "A bondman when he prays?" },
+    { "resource_id": 17, "text": "Have you seen in case he is upon guidance" },
+    { "resource_id": 17, "text": "Or he commands (people) to piety?" },
+    {
+      "resource_id": 17,
+      "text": "Have you seen in case he cries lies and turns away?"
+    },
+    { "resource_id": 17, "text": "Does he not know that Allah sees?" },
+    {
+      "resource_id": 17,
+      "text": "Not at all! Indeed in case he does not refrain, We will indeed trail him by the forelock,"
+    },
+    { "resource_id": 17, "text": "A lying, sinful forelock." },
+    { "resource_id": 17, "text": "So let him call upon his assembly!" },
+    { "resource_id": 17, "text": "We will call upon the guards of Hell." },
+    {
+      "resource_id": 17,
+      "text": "Not at all! Do not obey him, and prostrate yourself, and draw near (to Allah)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "96" }
+  }
+}

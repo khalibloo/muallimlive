@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "El afán de lucro os distrae" },
+    { "resource_id": 28, "text": "hasta la hora de la muerte." },
+    { "resource_id": 28, "text": "¡No! ¡Ya veréis...!" },
+    { "resource_id": 28, "text": "¡No y no! ¡Ya veréis...!" },
+    { "resource_id": 28, "text": "¡No! Si supierais a ciencia cierta..." },
+    { "resource_id": 28, "text": "¡Veréis, de seguro, el fuego de la gehena!" },
+    { "resource_id": 28, "text": "¡Sí, lo veréis con ojos de certeza!" },
+    {
+      "resource_id": 28,
+      "text": "Luego, ese día, se os preguntará, ciertamente, por la delicia."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "102" }
+  }
+}

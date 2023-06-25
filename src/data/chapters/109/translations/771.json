@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 771,
+      "text": "(ಪ್ರವಾದಿಯವರೇ) ಹೇಳಿರಿ, ಓ ಸತ್ಯನಿಷೇಧಿಗಳೇ, <sup foot_note=208143>1</sup>"
+    },
+    {
+      "resource_id": 771,
+      "text": "ನೀವು ಆರಾಧಿಸುತ್ತಿರುವುದನ್ನು ನಾನು ಆರಾಧಿಸುತ್ತಿಲ್ಲ <sup foot_note=208144>1</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ನಾನು ಆರಾಧಿಸುತ್ತಿರುವುದನ್ನು ನೀವೂ ಆರಾಧಿಸುತ್ತಿಲ್ಲ<sup foot_note=208145>1</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ನೀವು ಆರಾಧಿಸುತ್ತಿರುವುದನ್ನು ನಾನು ಆರಾಧಿಸಲಾರೆ<sup foot_note=208146>1</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ನಾನು ಆರಾಧಿಸುತ್ತಿರುವುದನ್ನು ನೀವು (ಮುಂದೆಯೂ) ಆರಾಧಿಸುವವರಲ್ಲ."
+    },
+    {
+      "resource_id": 771,
+      "text": "ನಿಮ್ಮ ಧರ್ಮ ನಿಮಗೆ. ನನ್ನ ಧರ್ಮ ನನಗೆ <sup foot_note=208147>1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "109" }
+  }
+}

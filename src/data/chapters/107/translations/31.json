@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "Vois-tu celui qui traite de mensonge la Rétribution ?"
+    },
+    { "resource_id": 31, "text": "C’est bien lui qui repousse l’orphelin," },
+    {
+      "resource_id": 31,
+      "text": "et qui n’encourage point à nourrir le pauvre."
+    },
+    { "resource_id": 31, "text": "Malheur donc, à ceux qui prient." },
+    {
+      "resource_id": 31,
+      "text": "tout en négligeant (et retardant) leur prière (As-Salât),"
+    },
+    { "resource_id": 31, "text": "qui sont pleins d’ostentation," },
+    {
+      "resource_id": 31,
+      "text": "et refusent l’ustensile (à celui qui en a besoin)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "107" }
+  }
+}

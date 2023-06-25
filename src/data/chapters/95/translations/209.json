@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Per il fico e per l'ulivo" },
+    {
+      "resource_id": 209,
+      "text": "e il monte Ţūr \"Sīnīn\"*(*Sīnīn: monte Benedetto o Monte Sinai طُورِ سِينِينَ)"
+    },
+    { "resource_id": 209, "text": "e questo pacifico paese," },
+    { "resource_id": 209, "text": "creammo l'uomo nel migliore dei modi," },
+    {
+      "resource_id": 209,
+      "text": "poi lo facemmo scendere al più basso livello,"
+    },
+    {
+      "resource_id": 209,
+      "text": "tranne quelli che hanno creduto e hanno fatto il bene: avranno una ricompensa eterna."
+    },
+    {
+      "resource_id": 209,
+      "text": "Cosa ti spinge, dopo di ciò, a rinnegare la fede?"
+    },
+    { "resource_id": 209, "text": "Non è forse Allāh il migliore dei Giudici?" }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "95" }
+  }
+}

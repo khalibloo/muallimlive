@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Wehe jedem Stichler und Nörgler," },
+    {
+      "resource_id": 27,
+      "text": "der Besitz zusammenträgt und ihn zählt und immer wieder zählt,"
+    },
+    {
+      "resource_id": 27,
+      "text": "wobei er meint, daß sein Besitz ihn ewig leben ließe!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Keineswegs! Er wird ganz gewiß in al-Hutama geworfen werden."
+    },
+    { "resource_id": 27, "text": "Was läßt dich wissen, was al-Hutama ist?" },
+    { "resource_id": 27, "text": "(Sie ist) Allahs entfachtes Feuer," },
+    { "resource_id": 27, "text": "das Einblick in die Herzen gewinnt." },
+    { "resource_id": 27, "text": "Gewiß, es wird sie einschließen" },
+    { "resource_id": 27, "text": "in langgestreckten Säulen." }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "104" }
+  }
+}

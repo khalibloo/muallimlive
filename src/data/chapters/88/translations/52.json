@@ -1,0 +1,53 @@
+{
+  "translations": [
+    {
+      "resource_id": 52,
+      "text": "O her şeyi kuşatacak olan Kıyamet'in haberi sana geldi mi?"
+    },
+    {
+      "resource_id": 52,
+      "text": "Yüzler var ki, o gün eğilmiş, zillete düşmüştür."
+    },
+    { "resource_id": 52, "text": "Çalışmış, yorulmuştur." },
+    { "resource_id": 52, "text": "Kızışmış bir ateşe girer." },
+    { "resource_id": 52, "text": "Onlara kızgın bir kaynaktan su verilir." },
+    {
+      "resource_id": 52,
+      "text": "Onlar için kuru bir dikenden başka yiyecek de yoktur."
+    },
+    { "resource_id": 52, "text": "O da ne besler, ne de açlığı giderir." },
+    { "resource_id": 52, "text": "Yüzler de var ki, o gün nimetle mutludur." },
+    { "resource_id": 52, "text": "Yaptığından hoşnuttur." },
+    { "resource_id": 52, "text": "Yüksek bir cennettedir." },
+    { "resource_id": 52, "text": "Orada boş bir söz işitmez." },
+    { "resource_id": 52, "text": "Orada akan bir kaynak," },
+    { "resource_id": 52, "text": "Yükseltilmiş divanlar," },
+    { "resource_id": 52, "text": "Konulmuş kadehler," },
+    { "resource_id": 52, "text": "Dizilmiş koltuklar, yastıklar," },
+    { "resource_id": 52, "text": "Serilmiş halılar vardır." },
+    {
+      "resource_id": 52,
+      "text": "Bakmıyorlar mı o develere, nasıl yaratılmış?"
+    },
+    { "resource_id": 52, "text": "Göğe bakmıyorlar mı, nasıl yükseltilmiş?" },
+    { "resource_id": 52, "text": "Bakmıyorlar mı dağlara, nasıl dikilmiş?" },
+    { "resource_id": 52, "text": "Yere bakmıyorlar mı, nasıl yayılmış?" },
+    {
+      "resource_id": 52,
+      "text": "Haydi öğüt ver; sen şimdi sırf bir öğütçüsün."
+    },
+    { "resource_id": 52, "text": "Onların üzerinde bir zorba değilsin." },
+    { "resource_id": 52, "text": "Ancak kim yüz çevirir ve kâfir olursa," },
+    { "resource_id": 52, "text": "Allah ona en büyük azap ile azap edecek." },
+    {
+      "resource_id": 52,
+      "text": "Kuşkusuz onlar döne dolaşa bize gelecekler."
+    },
+    { "resource_id": 52, "text": "Sonra da bize hesap verecekler." }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "88" }
+  }
+}

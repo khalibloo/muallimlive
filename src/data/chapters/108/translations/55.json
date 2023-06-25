@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Albatta, Biz senga Kavsarni berdik." },
+    { "resource_id": 55, "text": "Bas, Robbingga namoz o`qi va jonliq so`y." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, seni yomon ko`rib ayblovchining o`zining orqasi kesik."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "108" }
+  }
+}

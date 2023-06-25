@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Pelo figo e pela oliva!" },
+    { "resource_id": 103, "text": "E pelo Monte Sinai!" },
+    { "resource_id": 103, "text": "E por esta Cidade segura!" },
+    {
+      "resource_id": 103,
+      "text": "Com efeito, criamos o ser humano na mais bela forma."
+    },
+    {
+      "resource_id": 103,
+      "text": "Em seguida, levamo-lo ao mais baixo dos baixos degraus,"
+    },
+    {
+      "resource_id": 103,
+      "text": "Exceto aos que crêem e fazem as boas obras: eles terão prêmio incessante."
+    },
+    {
+      "resource_id": 103,
+      "text": "Então, o que te leva, depois disso a desmentir o Dia do Juízo?"
+    },
+    { "resource_id": 103, "text": "Não é Allah O mais Sábio dos juízes?" }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "95" }
+  }
+}

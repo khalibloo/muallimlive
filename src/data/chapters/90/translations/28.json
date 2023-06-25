@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡No! ¡Juro por esta ciudad," },
+    { "resource_id": 28, "text": "en la que estás avecindado!" },
+    { "resource_id": 28, "text": "¡Por todo padre y lo que ha engendrado!" },
+    { "resource_id": 28, "text": "Hemos creado al hombre en aflicción." },
+    { "resource_id": 28, "text": "¿Cree que nadie podrá contra él?" },
+    {
+      "resource_id": 28,
+      "text": "Dice: «He consumido una hacienda considerable»."
+    },
+    { "resource_id": 28, "text": "¿Cree que nadie le ha visto?" },
+    { "resource_id": 28, "text": "¿No le hemos dado dos ojos," },
+    { "resource_id": 28, "text": "una lengua y dos labios?" },
+    { "resource_id": 28, "text": "¿No le hemos mostrado las dos vías?" },
+    { "resource_id": 28, "text": "Pues nunca se ha puesto a subir la Cuesta." },
+    { "resource_id": 28, "text": "Y ¿cómo sabrás qué es la Cuesta?" },
+    { "resource_id": 28, "text": "Es manumitir a un esclavo," },
+    { "resource_id": 28, "text": "Alimentar en tiempo de hambre" },
+    { "resource_id": 28, "text": "A un pariente próximo huérfano," },
+    { "resource_id": 28, "text": "A un pobre en la miseria." },
+    {
+      "resource_id": 28,
+      "text": "Es, también, formar parte de los que creen, de los que se recomiendan mutuamente la paciencia y la misericordia."
+    },
+    { "resource_id": 28, "text": "Ésos son los de la Derecha." },
+    {
+      "resource_id": 28,
+      "text": "En cambio, los que no creen en Nuestros signos, ésos son los de la izquierda."
+    },
+    { "resource_id": 28, "text": "Se cerrará un fuego sobre ellos." }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "90" }
+  }
+}

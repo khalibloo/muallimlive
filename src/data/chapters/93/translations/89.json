@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Pasha paraditën!" },
+    { "resource_id": 89, "text": "Pasha natën kur shtrinë errësirën!" },
+    {
+      "resource_id": 89,
+      "text": "Zoti yt nuk të ka lënë, as nuk të ka përbuzur."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe se bota e ardhshme është shumë më e mirë për ty se e para."
+    },
+    {
+      "resource_id": 89,
+      "text": "E Zoti yt do të jepë ty, e ti do të kënaqesh."
+    },
+    {
+      "resource_id": 89,
+      "text": "A nuk të gjeti ty jetim, e Ai të bëri vend (të dha përkrahje)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe të gjeti të paudhëzuar e Ai të udhëzojë."
+    },
+    { "resource_id": 89, "text": "dhe të gjeti të varfër, e Ai të begatoi." },
+    { "resource_id": 89, "text": "Pra, mos e përul jetimin!" },
+    { "resource_id": 89, "text": "As lypësin mos e përzë!" },
+    {
+      "resource_id": 89,
+      "text": "E me të mirat që të dha Zoti yt, trego (udhëzo njerëz)!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "93" }
+  }
+}

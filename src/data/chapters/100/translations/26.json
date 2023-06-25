@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Při pádících, odfrkujících," },
+    { "resource_id": 26, "text": "jiskry vykřesávajících," },
+    { "resource_id": 26, "text": "za jitra se vynořujících," },
+    { "resource_id": 26, "text": "oblaka prachu v něm zviřujících" },
+    { "resource_id": 26, "text": "a do středu tlupy vtrhujících!" },
+    {
+      "resource_id": 26,
+      "text": "Vůči svému Pánu člověk vskutku nevděčný je,"
+    },
+    { "resource_id": 26, "text": "a dokonce sám to dosvědčuje." },
+    { "resource_id": 26, "text": "Horlivý však je věru v lásce k majetku!" },
+    {
+      "resource_id": 26,
+      "text": "Cožpak neví, že až bude to, co je v hrobech, převráceno"
+    },
+    { "resource_id": 26, "text": "a to, co v hrudích je, odhaleno," },
+    {
+      "resource_id": 26,
+      "text": "Pán jejich v ten den dokonale o nich bude zpraven?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "100" }
+  }
+}

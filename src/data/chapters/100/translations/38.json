@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Ibt ko (manga koda a) pphlolompat a gii makazowara,"
+    },
+    { "resource_id": 38, "text": "Go pphamangapoyan sa kalamaging," },
+    { "resource_id": 38, "text": "Go pphamanibowa ko khapita." },
+    { "resource_id": 38, "text": "Go miyamakakayambr siran roo sa bayank," },
+    {
+      "resource_id": 38,
+      "text": "Go minilmbak iran oto ko kaoorongan (ko ridoay);"
+    },
+    {
+      "resource_id": 38,
+      "text": "Mataan! a so manosiya sii ko makapantag ko Kadnan iyan na titho a da a tadm iyan;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go mataan! a Skaniyan sa makapantag roo i titho a saksi;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go mataan! a skaniyan makapantag ko kabaya ko tamok na tonganay a minitaralo."
+    },
+    {
+      "resource_id": 38,
+      "text": "Ba niyan di katawi, - a amay ka pakaliyon so zisii ko manga kobor,"
+    },
+    { "resource_id": 38, "text": "Go payagn so zisii ko manga rarb?" },
+    {
+      "resource_id": 38,
+      "text": "Mataan! a so Kadnan iran sa alongan oto i titho a Kaip kiran."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "100" }
+  }
+}

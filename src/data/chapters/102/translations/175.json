@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 175,
+      "text": "O ljudi, vas je od pokornosti Allahu zaokupilo nastojanje da što imućniji budete i da se hvališete vašim imetkom i djecom."
+    },
+    { "resource_id": 175, "text": "sve dok ne umrete i ne uđete u kaburove." },
+    {
+      "resource_id": 175,
+      "text": "A ne treba da vas to zaokuplja od pokornosti Allahu, a saznat ćete rezultat tog vašeg zaokupljanja."
+    },
+    {
+      "resource_id": 175,
+      "text": "Zatim, saznat ćete sigurno rezultat i posljedice toga."
+    },
+    {
+      "resource_id": 175,
+      "text": "Doista, kada biste bili uvjereni da će vas Allah proživjeti i za vaša djela adekvatno tretirati, ne bi vas zaokupilo hvalisanje imetkom i djecom."
+    },
+    {
+      "resource_id": 175,
+      "text": "Tako mi Allaha, vidjet ćete Vatru na Sudnjem danu."
+    },
+    {
+      "resource_id": 175,
+      "text": "I još jednom, sasvim sigurno ćete vidjeti je, bez imalo sumnje."
+    },
+    {
+      "resource_id": 175,
+      "text": "Toga dana Allah će vas pitati o vašim blagodatima, kao što su zdravlje, bogatstvo i dr."
+    }
+  ],
+  "meta": {
+    "translation_name": "Bosnian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 175, "chapter_number": "102" }
+  }
+}

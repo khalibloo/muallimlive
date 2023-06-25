@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 183,
+      "text": "あなたは、最後の審判を否定する者を見たか。"
+    },
+    { "resource_id": 183, "text": "それは、困っている孤児を追いやり、" },
+    {
+      "resource_id": 183,
+      "text": "貧者に食物を与えることを、自分にも他人にも勧めない者。"
+    },
+    { "resource_id": 183, "text": "破滅と災いあれ。礼拝しながら、" },
+    {
+      "resource_id": 183,
+      "text": "自分の礼拝に気もそぞろ、時間が過ぎるのを気にしている。"
+    },
+    {
+      "resource_id": 183,
+      "text": "また人にこれ見よがしに礼拝し、善行に励むが、アッラーのためにするという誠実さがない者。"
+    },
+    {
+      "resource_id": 183,
+      "text": "何も難しくないことに、支援を送ることを控える者に。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Japanese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 183, "chapter_number": "107" }
+  }
+}

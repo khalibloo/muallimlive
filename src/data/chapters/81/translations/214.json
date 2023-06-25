@@ -1,0 +1,56 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Kada Sunce bude skupljeno i izgubi sjaj," },
+    { "resource_id": 214, "text": "i kada zvijezde raštrkane popadaju," },
+    { "resource_id": 214, "text": "i kada planine budu pokrenute i smrvljene" },
+    { "resource_id": 214, "text": "i kada steone kamile budu ostavljene," },
+    { "resource_id": 214, "text": "i kada divlje životinje budu sabrane" },
+    { "resource_id": 214, "text": "i kada mora budu raspaljena" },
+    { "resource_id": 214, "text": "i kada duše budu sparene," },
+    {
+      "resource_id": 214,
+      "text": "i kada djevojčica koja je živa zakopana bude upitana"
+    },
+    { "resource_id": 214, "text": "zbog kojeg je grijeha ubijena" },
+    { "resource_id": 214, "text": "i kada listovi budu rašireni" },
+    { "resource_id": 214, "text": "i kada nebo bude uklonjeno," },
+    { "resource_id": 214, "text": "kada Oganj bude razbuktan" },
+    { "resource_id": 214, "text": "i kada Džennet bude približen" },
+    { "resource_id": 214, "text": "svako će saznati ono što je pripremio." },
+    { "resource_id": 214, "text": "I ne! Kunem se onim što se skriva" },
+    { "resource_id": 214, "text": "što se kreće i sklanja," },
+    { "resource_id": 214, "text": "i noći kad dolazi," },
+    { "resource_id": 214, "text": "i zorom kad diše," },
+    {
+      "resource_id": 214,
+      "text": "On – Kur’an je, zaista, kazivanje Izaslanika Plemenitog"
+    },
+    { "resource_id": 214, "text": "Moćnog, kod Gospodara Arša, cijenjenog" },
+    {
+      "resource_id": 214,
+      "text": "Kome se drugi tamo pokoravaju, povjerljivog!"
+    },
+    { "resource_id": 214, "text": "A drug vaš nije lud" },
+    { "resource_id": 214, "text": "on ga je na obzorju jasnom vidio," },
+    {
+      "resource_id": 214,
+      "text": "i, kada je u pitanju ono što je čulima nedokučivo, on nije škrt,"
+    },
+    { "resource_id": 214, "text": "i on nije prokletog šejtana govor" },
+    { "resource_id": 214, "text": "pa kuda onda idete?!" },
+    { "resource_id": 214, "text": "On je samo opomena svjetovima," },
+    {
+      "resource_id": 214,
+      "text": "onome od vas koji hoće da je na Pravom putu,"
+    },
+    {
+      "resource_id": 214,
+      "text": "a vi ne možete ništa htjeti ako to Allah, Gospodar svjetova, neće!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "81" }
+  }
+}

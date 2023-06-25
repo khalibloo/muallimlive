@@ -1,0 +1,75 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Wajiguu u uruuriyay oo jeedsaday (Nabigu)." },
+    { "resource_id": 46, "text": "Inuu u yimid kii Indhaha la'aa." },
+    {
+      "resource_id": 46,
+      "text": "Miyaad ogtahay inay u dhawdahay inuu hanuuno oo Daahir noqdo."
+    },
+    { "resource_id": 46, "text": "Ama uu xusuusto oy xusuustu anfacdo." },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise is deeqtoonaysiiya (islana waynaada)."
+    },
+    { "resource_id": 46, "text": "Ma; Adaa u bambixi." },
+    { "resource_id": 46, "text": "Maxaa kaa saaran hadduusan hanuunin." },
+    { "resource_id": 46, "text": "Ruuxiise kuu yimaadda isagoo dagdagi." },
+    { "resource_id": 46, "text": "Oo Eeba ka yaabi." },
+    { "resource_id": 46, "text": "Miyaad ka shuqloomi." },
+    { "resource_id": 46, "text": "Saas ma; aha ee Aayadahani waa waano." },
+    { "resource_id": 46, "text": "Ruuxii doonana wuu ku waana qaadan." },
+    {
+      "resource_id": 46,
+      "text": "Waxay ku sugantahay (waanadu) Kutub Sharaf leh."
+    },
+    { "resource_id": 46, "text": "Oo la kor yeelay lana Daahiriyay." },
+    { "resource_id": 46, "text": "Oy Gacanta ku hayaan Malaa'ig (wax qorta)." },
+    { "resource_id": 46, "text": "Sharafna leh oo baarri ah." },
+    { "resource_id": 46, "text": "Gaalo halla lacnado Gaalnima badanaa." },
+    { "resource_id": 46, "text": "Muxuu Eebe ka abuuray kuwaas." },
+    { "resource_id": 46, "text": "Dhibicbuu ka abuuray wuuna ekeeyay." },
+    { "resource_id": 46, "text": "Jidkana wuu u fudaydiyay." },
+    { "resource_id": 46, "text": "Markaasuu dilaa Qabrina ku Asturaa." },
+    { "resource_id": 46, "text": "Markuu doonana wuu soo bixin." },
+    {
+      "resource_id": 46,
+      "text": "Saas ma; aha (ee Dadku) wixii la faray ma yeelin."
+    },
+    { "resource_id": 46, "text": "Dadku ha fiiriyo Cuntadiisa." },
+    { "resource_id": 46, "text": "Inaan Roob ku soo shubno." },
+    { "resource_id": 46, "text": "Dhulkana markaas aan jeexno." },
+    { "resource_id": 46, "text": "Kana soo bixinno Midho." },
+    { "resource_id": 46, "text": "Iyo cinab iyo Daaqa (Xoolaha)" },
+    { "resource_id": 46, "text": "Iyo Zeytuun iyo Timir." },
+    { "resource_id": 46, "text": "Iyo Beero waawayn." },
+    { "resource_id": 46, "text": "Iyo Faakiho (khudaar) iyo Daaq." },
+    {
+      "resource_id": 46,
+      "text": "Si aad ugu intifaacdaan idinka iyo xoolihiinnu."
+    },
+    { "resource_id": 46, "text": "Markay Qayladii darrayd timaaddo (Suurka)." },
+    { "resource_id": 46, "text": "Waa maalinta Ruuxu ka carari Walaalkiis." },
+    { "resource_id": 46, "text": "Iyo Hooyadiis Iyo Aabihiis." },
+    { "resource_id": 46, "text": "Iyo Haweeneydiisii iyo Carruurtiisii." },
+    {
+      "resource_id": 46,
+      "text": "Ruux walbana Maalintaas waxaa shuqlin xaalkiisa."
+    },
+    { "resource_id": 46, "text": "Wajiyaal Maalintaas way Nuuri (Farxi)." },
+    { "resource_id": 46, "text": "Wayna Qosli oy bishaaraysan." },
+    {
+      "resource_id": 46,
+      "text": "Wajiyaalna Maalintaas waxaa ka muuqan Dulli."
+    },
+    { "resource_id": 46, "text": "Waxaana dabooli Madow (iyo naxdin)." },
+    {
+      "resource_id": 46,
+      "text": "Kuwaasina waa Gaalada Faasiqiinta ah (aadna u xun)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "80" }
+  }
+}

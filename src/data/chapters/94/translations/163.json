@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 163,
+      "text": "আমি কি তোমার বক্ষ তোমার কল্যাণে উন্মুক্ত করে দিইনি?"
+    },
+    { "resource_id": 163, "text": "আমি তোমা হতে অপসারণ করেছি তোমার সেই ভার –" },
+    { "resource_id": 163, "text": "যা তোমার পৃষ্ঠকে অবনমিত করেছিল;" },
+    {
+      "resource_id": 163,
+      "text": "এবং আমি তোমার খ্যাতিকে উচ্চ মর্যাদা দান করেছি।"
+    },
+    { "resource_id": 163, "text": "কষ্টের সাথেই তো স্বস্তি আছে।" },
+    { "resource_id": 163, "text": "অবশ্যই কষ্টের সাথে স্বস্তি আছে।" },
+    { "resource_id": 163, "text": "অতএব যখনই অবসর পাও সাধনা কর," },
+    { "resource_id": 163, "text": "এবং তোমার রবের প্রতিই মনোনিবেশ কর।" }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "94" }
+  }
+}

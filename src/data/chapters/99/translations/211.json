@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Kapag niyanig ang lupa sa pagyanig nito," },
+    {
+      "resource_id": 211,
+      "text": "at nagpalabas ang lupa ng mga pabigat nito,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at nagsabi ang tao: \"Ano ang mayroon dito?\" –"
+    },
+    {
+      "resource_id": 211,
+      "text": "sa Araw na iyon ay magsasaysay ito ng mga ulat nito"
+    },
+    { "resource_id": 211, "text": "dahil ang Panginoon mo ay nagkasi rito." },
+    {
+      "resource_id": 211,
+      "text": "Sa Araw na iyon ay hahayo ang mga tao nang hiwa-hiwalay upang pakitaan sila ng mga gawa nila."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya ang sinumang gumawa ng kasimbigat ng isang katiting na kabutihan ay makikita niya iyon,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at ang sinumang gumawa ng kasimbigat ng isang katiting na kasamaan ay makikita niya iyon."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "99" }
+  }
+}

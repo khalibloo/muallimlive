@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "De ki: İnsanların Rabbine sığınırım." },
+    { "resource_id": 112, "text": "İnsanların melikine," },
+    { "resource_id": 112, "text": "İnsanların ilahına," },
+    {
+      "resource_id": 112,
+      "text": "Sinsi/(Allah anıldığında geri, kaçan) vesvesecinin şerrinden,"
+    },
+    { "resource_id": 112, "text": "İnsanların gönüllerine vesvese sokan," },
+    { "resource_id": 112, "text": "Cinlerden ve insanlardan!" }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "114" }
+  }
+}

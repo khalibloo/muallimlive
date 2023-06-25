@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 182, "text": "因其巨大的惊悚而震荡着人心的那一刻，" },
+    {
+      "resource_id": 182,
+      "text": "因其巨大的惊悚而震荡人心的那一刻是什么呢？"
+    },
+    {
+      "resource_id": 182,
+      "text": "使者啊！你怎么能够知道因其巨大的惊悚而震荡人心的那一刻是什么呢？它就是复活日。"
+    },
+    {
+      "resource_id": 182,
+      "text": "那日，它震荡着人心，人们就如分散的飞蛾一般乱飞。"
+    },
+    {
+      "resource_id": 182,
+      "text": "山岳犹如蓬松的毛绒，使人无法在上面行走和活动，"
+    },
+    { "resource_id": 182, "text": "至于善功多于恶行之人，" },
+    { "resource_id": 182, "text": "他们将获得乐园，享受满意的生活，" },
+    { "resource_id": 182, "text": "而恶行多于善功之人，" },
+    { "resource_id": 182, "text": "他们在复活日的归宿就是火狱，" },
+    { "resource_id": 182, "text": "使者啊！你知道那归宿是什么样的吗？" },
+    { "resource_id": 182, "text": "那就是燃着熊熊烈火的火狱。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "101" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Při slunci a jeho jasu," },
+    { "resource_id": 26, "text": "při měsíci,když je následuje," },
+    { "resource_id": 26, "text": "při dni, když je odhaluje," },
+    { "resource_id": 26, "text": "při noci, když je zahaluje," },
+    { "resource_id": 26, "text": "při nebi a při tom, kdo je vystavěl," },
+    { "resource_id": 26, "text": "při zemi a při tom, kdo ji rozprostřel," },
+    { "resource_id": 26, "text": "při duši a při tom, kdo dal jí vyrovnanost" },
+    { "resource_id": 26, "text": "a vdechl jí hříšnost i bohabojnost!" },
+    { "resource_id": 26, "text": "Kdo ji očistí, ten jistě vydělá," },
+    { "resource_id": 26, "text": "a kdo ji zanedbá, ten jistě prodělá." },
+    {
+      "resource_id": 26,
+      "text": "Ve vzpurnosti své obvinili Thamúdovci (proroka svého) ze lži,"
+    },
+    { "resource_id": 26, "text": "když bezbožník největší povstal mezi nimi." },
+    {
+      "resource_id": 26,
+      "text": "A pravil jim posel Boží: \"(Nedotýkejte se) velbloudice Boží a nechte ji napít!\""
+    },
+    {
+      "resource_id": 26,
+      "text": "Však za lháře jej prohlásili a (velbloudici) podřízli.Pán jejich je pak za jejich hříchy zahubil a se zemí je srovnal,"
+    },
+    { "resource_id": 26, "text": "aniž se následků toho obával." }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "91" }
+  }
+}

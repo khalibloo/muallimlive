@@ -1,0 +1,25 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "U ime Allaha, Milostivog, Samilosnog!" },
+    {
+      "resource_id": 214,
+      "text": "Sva hvala pripada Allahu, Gospodaru svih svjetova!"
+    },
+    { "resource_id": 214, "text": "Milostivom, Samilosnom!" },
+    { "resource_id": 214, "text": "Vladaru Sudnjega dana!" },
+    {
+      "resource_id": 214,
+      "text": "Samo Tebe obožavamo i samo od Tebe pomoć tražimo!"
+    },
+    { "resource_id": 214, "text": "Uputi nas na Pravi put!" },
+    {
+      "resource_id": 214,
+      "text": "Na put onih kojima si blagodati Svoje darovao, a ne na put onih na koje si se rasrdio, niti onih koji su zalutali."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "1" }
+  }
+}

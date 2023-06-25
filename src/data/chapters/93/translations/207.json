@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "By the morning bright (forenoon)," },
+    { "resource_id": 207, "text": "and at night when all is still" },
+    {
+      "resource_id": 207,
+      "text": "your Lord has not forsaken you nor is He annoyed."
+    },
+    {
+      "resource_id": 207,
+      "text": "The Hereafter will be even better for you than the first [life] was."
+    },
+    {
+      "resource_id": 207,
+      "text": "Your Lord will soon give you something which will leave you satisfied."
+    },
+    {
+      "resource_id": 207,
+      "text": "Did He not find you an orphan and sheltered [you]?"
+    },
+    { "resource_id": 207, "text": "He found you lost and guided [you]." },
+    { "resource_id": 207, "text": "He found you destitute and made you rich!" },
+    { "resource_id": 207, "text": "Thus the orphan must not be exploited;" },
+    {
+      "resource_id": 207,
+      "text": "and the beggar should not be brushed aside."
+    },
+    { "resource_id": 207, "text": "Still tell about your Lord's favor." }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "93" }
+  }
+}

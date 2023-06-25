@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Nei, sannelig, jeg sverger ved denne byen," },
+    { "resource_id": 41, "text": "og du bor jo i denne byen," },
+    { "resource_id": 41, "text": "og ved en far og hans avkom!" },
+    { "resource_id": 41, "text": "Vi har visselig skapt mennesket til møye." },
+    { "resource_id": 41, "text": "Tror han ikke at noen har makt over ham?" },
+    {
+      "resource_id": 41,
+      "text": "Han sier: «Jeg har satt over styr rikdom i massevis.»"
+    },
+    { "resource_id": 41, "text": "Tror han at ingen har sett ham?" },
+    { "resource_id": 41, "text": "Har Vi ikke gitt ham to øyne," },
+    { "resource_id": 41, "text": "tunge, og to lepper." },
+    { "resource_id": 41, "text": "Har Vi ikke vist ham de to veier?" },
+    {
+      "resource_id": 41,
+      "text": "Men han gav seg ikke i kast med den trange og bratte."
+    },
+    { "resource_id": 41, "text": "Vet du da hva den trange vei er?" },
+    { "resource_id": 41, "text": "Det er å skaffe en slave frihet," },
+    { "resource_id": 41, "text": "og på hungerens dag å gi mat" },
+    { "resource_id": 41, "text": "til en foreldreløs slektning," },
+    { "resource_id": 41, "text": "eller til en fattig stakkar," },
+    {
+      "resource_id": 41,
+      "text": "og så være av dem som tror, og som anbefaler hverandre standhaftighet, og råder hverandre til medfølelse."
+    },
+    { "resource_id": 41, "text": "Dette er høyre hånds folk!" },
+    {
+      "resource_id": 41,
+      "text": "Men de som fornekter Vårt ord, de er venstre hånds folk."
+    },
+    { "resource_id": 41, "text": "Over dem hvelver seg Ild." }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "90" }
+  }
+}

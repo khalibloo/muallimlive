@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Alam nashrah laka sadrak" },
+    { "resource_id": 57, "text": "WawadaAAna AAanka wizrak" },
+    { "resource_id": 57, "text": "Allathee anqada thahrak" },
+    { "resource_id": 57, "text": "WarafaAAna laka thikrak" },
+    { "resource_id": 57, "text": "Fa-inna maAAa alAAusri yusra" },
+    { "resource_id": 57, "text": "Inna maAAa alAAusri yusra" },
+    { "resource_id": 57, "text": "Fa-itha faraghta fansab" },
+    { "resource_id": 57, "text": "Wa-ila rabbika farghab" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "94" }
+  }
+}

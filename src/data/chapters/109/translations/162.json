@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 162, "text": "বল, ‘হে কাফিররা," },
+    {
+      "resource_id": 162,
+      "text": "তোমরা যার ‘ইবাদাত কর আমি তার ‘ইবাদাত করি না’।"
+    },
+    {
+      "resource_id": 162,
+      "text": "এবং আমি যার ‘ইবাদাত করি তোমরা তার ‘ইবাদাতকারী নও’।"
+    },
+    {
+      "resource_id": 162,
+      "text": "‘আর তোমরা যার ‘ইবাদত করছ আমি তার ‘ইবাদাতকারী হব না’।"
+    },
+    {
+      "resource_id": 162,
+      "text": "‘আর আমি যার ‘ইবাদাত করি তোমরা তার ‘ইবাদাতকারী হবে না’।"
+    },
+    {
+      "resource_id": 162,
+      "text": "‘তোমাদের জন্য তোমাদের দীন আর আমার জন্য আমার দীন।’"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "109" }
+  }
+}

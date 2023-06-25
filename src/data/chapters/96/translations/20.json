@@ -1,0 +1,46 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "Recite in the name of your Lord who created"
+    },
+    { "resource_id": 20, "text": "Created man from a clinging substance." },
+    {
+      "resource_id": 20,
+      "text": "Recite, and your Lord is the most Generous -"
+    },
+    { "resource_id": 20, "text": "Who taught by the pen" },
+    { "resource_id": 20, "text": "Taught man that which he knew not." },
+    { "resource_id": 20, "text": "No! [But] indeed, man transgresses" },
+    { "resource_id": 20, "text": "Because he sees himself self-sufficient." },
+    { "resource_id": 20, "text": "Indeed, to your Lord is the return." },
+    { "resource_id": 20, "text": "Have you seen the one who forbids" },
+    { "resource_id": 20, "text": "A servant when he prays?" },
+    { "resource_id": 20, "text": "Have you seen if he is upon guidance" },
+    { "resource_id": 20, "text": "Or enjoins righteousness?" },
+    {
+      "resource_id": 20,
+      "text": "Have you seen if he denies and turns away -"
+    },
+    { "resource_id": 20, "text": "Does he not know that Allāh sees?" },
+    {
+      "resource_id": 20,
+      "text": "No! If he does not desist, We will surely drag him by the forelock<sup foot_note=197786>1</sup>"
+    },
+    { "resource_id": 20, "text": "A lying, sinning forelock." },
+    { "resource_id": 20, "text": "Then let him call his associates;" },
+    {
+      "resource_id": 20,
+      "text": "We will call the angels of Hell.<sup foot_note=197787>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "No! Do not obey him. But prostrate and draw near [to Allāh]."
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "96" }
+  }
+}

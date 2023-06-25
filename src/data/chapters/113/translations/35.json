@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "言え，「黎明の主にご加護を乞い願う。" },
+    { "resource_id": 35, "text": "かれが創られるものの悪（災難）から，" },
+    { "resource_id": 35, "text": "深まる夜の闇の悪（危害）から，" },
+    {
+      "resource_id": 35,
+      "text": "結び目に息を吹きかける（妖術使いの）女たちの悪から，"
+    },
+    { "resource_id": 35, "text": "また，嫉妬する者の嫉妬の悪（災厄）から。」" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "113" }
+  }
+}

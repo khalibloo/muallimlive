@@ -1,0 +1,140 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na wysyłane kolejno" },
+    { "resource_id": 42, "text": "I na wiejące gwałtownie," },
+    { "resource_id": 42, "text": "I na rozprzestrzeniające się szeroko," },
+    { "resource_id": 42, "text": "I na rozdzielające całkowicie," },
+    { "resource_id": 42, "text": "I na rzucające napomnienie" },
+    { "resource_id": 42, "text": "- dla usprawiedliwienia i ostrzeżenia!" },
+    {
+      "resource_id": 42,
+      "text": "To, co wam zostało obiecane, z pewnością nadejdzie!"
+    },
+    { "resource_id": 42, "text": "Przeto kiedy gwiazdy utracą blask," },
+    { "resource_id": 42, "text": "Kiedy niebo zostanie rozdzielone," },
+    { "resource_id": 42, "text": "Kiedy góry zostaną rozproszone," },
+    { "resource_id": 42, "text": "Kiedy posłańcy będą mieli wyznaczony czas" },
+    { "resource_id": 42, "text": "Do jakiego to dnia będzie odłożone?" },
+    { "resource_id": 42, "text": "Do Dnia Rozstrzygnięcia." },
+    {
+      "resource_id": 42,
+      "text": "A co ciebie pouczy, co to jest Dzień Rozstrzygnięcia?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    { "resource_id": 42, "text": "Czyż nie wytraciliśmy pierwszych pokoleń?" },
+    {
+      "resource_id": 42,
+      "text": "I czy nie daliśmy im innych jako następców?"
+    },
+    { "resource_id": 42, "text": "Tak postępujemy z grzesznikami." },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    { "resource_id": 42, "text": "Cóż nie stworzyliśmy was z marnej wody" },
+    {
+      "resource_id": 42,
+      "text": "I czy nie umieściliśmy jej potem w miejscu pewnym;"
+    },
+    { "resource_id": 42, "text": "Do oznaczonego czasu?" },
+    {
+      "resource_id": 42,
+      "text": "Potem wyznaczyliśmy... a jak wspaniale My wyznaczamy!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    { "resource_id": 42, "text": "Czyż nie uczyniliśmy ziemi pomieszczeniem" },
+    { "resource_id": 42, "text": "Dla żywych i umarłych?" },
+    {
+      "resource_id": 42,
+      "text": "Czyż nie uczyniliśmy na niej silnie utwierdzonych, wyniosłych gór? Czy nie napoiliśmy was wodą słodką?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    { "resource_id": 42, "text": "Idźcie do tego, co uznaliście za kłamstwo!" },
+    { "resource_id": 42, "text": "Idźcie do cienia o trzech kolumnach" },
+    {
+      "resource_id": 42,
+      "text": "Nie ocieniającego, nie chroniącego od płomienia!"
+    },
+    { "resource_id": 42, "text": "Rzuca on iskry na podobieństwo baszty," },
+    { "resource_id": 42, "text": "Jakby to były żółte wielbłądy." },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "To będzie Dzień, kiedy oni nie będą mówili."
+    },
+    {
+      "resource_id": 42,
+      "text": "I nie będzie im dane pozwolenie, aby się mogli usprawiedliwić."
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Będzie to Dzień Rozstrzygnięcia. Zbierzemy was i praojców."
+    },
+    {
+      "resource_id": 42,
+      "text": "Jeśli macie jakiś podstęp, to użyjcie go przeciwko Mnie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, bogobojni będą wśród cieni i źródeł,"
+    },
+    { "resource_id": 42, "text": "I owoców, jakich zapragną!" },
+    {
+      "resource_id": 42,
+      "text": "\"Jedzcie i pijcie w pokoju za to, co czyniliście!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "W ten sposób My płacimy tym, którzy czynią dobro."
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "\"Jedzcie i cieszcie się troszkę, o wy - grzesznicy!\""
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Kiedy im mówią: \"Oddajcie pokłon!\" - oni nie oddają pokłonu:"
+    },
+    {
+      "resource_id": 42,
+      "text": "Biada tego Dnia tym, którzy zaprzeczają prawdzie!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Jakiejże więc mowie, po tym; oni dadzą wiarę?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "77" }
+  }
+}

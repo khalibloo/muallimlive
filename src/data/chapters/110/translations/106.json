@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "Делера гIо а деъча‚ /Макка йоккхуш/ толам а беъча<sup foot_note=114491>1</sup>‚"
+    },
+    {
+      "resource_id": 106,
+      "text": "Хьуна гира нах, Делан дин чу буьйлуш тобанашца."
+    },
+    {
+      "resource_id": 106,
+      "text": "Тасбахь де хьан Кхиош-кхобучунна хастамбарца‚ Цуьнга гечдар деха. Баккъалла а, Иза хилла т1етт1а тōба къобалдийриг."
+    }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "110" }
+  }
+}

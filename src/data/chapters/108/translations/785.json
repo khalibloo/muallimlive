@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 785,
+      "text": "البته (ای محمد! خیر بسیار که از جملۀ آن) حوض کوثر (می‌باشد) به تو دادیم."
+    },
+    {
+      "resource_id": 785,
+      "text": "پس برای (رضای) پروردگارت نماز بگزار، و قربانی کن."
+    },
+    {
+      "resource_id": 785,
+      "text": "یقیناً دشمن تو بی‌عقب و مقطوع النسل خواهد بود."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "108" }
+  }
+}

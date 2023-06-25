@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 139,
+      "text": "Эй Паёмбар, оё надонистӣ, ки Парвардигорат бо Асҳоби Фил<sup foot_note=154308>1</sup> чӣ кард? Онҳое, ки мехостанд, ки хонаи Каъбаро вайрон кунанд."
+    },
+    { "resource_id": 139, "text": "Оё макрашонро ботил насохт?" },
+    {
+      "resource_id": 139,
+      "text": "Ва бар сари онҳо паррандагони гурӯҳ-гурӯҳ фиристод,"
+    },
+    {
+      "resource_id": 139,
+      "text": "то онҳоро бо сиҷҷил<sup foot_note=154309>1</sup> сангборон карданд."
+    },
+    { "resource_id": 139, "text": "Пас, ононро чун коҳи хӯрдашуда гардонид." }
+  ],
+  "meta": {
+    "translation_name": "Khawaja Mirof & Khawaja Mir",
+    "author_name": "Khawaja Mirof & Khawaja Mir",
+    "filters": { "resource_id": 139, "chapter_number": "105" }
+  }
+}

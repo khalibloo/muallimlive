@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Gamba nti, nsaba obukuumi ewa Katonda afuga okukya kw’obudde."
+    },
+    { "resource_id": 232, "text": "Mu bubi bw’ebyo bye yatonda." },
+    { "resource_id": 232, "text": "Ne mu bubi bw’ekiro nga kikutte." },
+    {
+      "resource_id": 232,
+      "text": "Ne mu bubi bw’abakazi abalogo abasiba      ebifundikwa (ne babifuuwamu nga      balaamiriza)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne mu bubi obuva mu mukozi     wensaalwa ng'akoze ensaalwa."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "113" }
+  }
+}

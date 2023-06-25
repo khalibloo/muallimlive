@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "Хьоьга ца кхечира /хIай Мухьаммад/‚ хIун дира хьан Кхиош-кхобучо пилан дайх<sup foot_note=114482>1</sup>?"
+    },
+    { "resource_id": 106, "text": "Церан мекарло тиларчохь ца хилийтира Цо?" },
+    { "resource_id": 106, "text": "Царна тIедахийтира Цо олхазарийн жIуга," },
+    {
+      "resource_id": 106,
+      "text": "Цара кхуьссуш царна т1е багийначу поппаран тIулгаш<sup foot_note=114483>1</sup>."
+    },
+    {
+      "resource_id": 106,
+      "text": "Цо хилийтира уьш /бежнийн/ Iийшина докъар санна."
+    }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "105" }
+  }
+}

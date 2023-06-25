@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 139,
+      "text": "       Бигӯ эй Расул: «Ӯст Аллоҳи якто, дар улуҳият, рубубият ва асмо ва сифот ва касе Ӯро шарик шуда наметавонад."
+    },
+    {
+      "resource_id": 139,
+      "text": "       Аллоҳе, ки бениёз, сарвар, воло ва бароварандаи умедҳо аст,<sup foot_note=154316>1</sup>"
+    },
+    {
+      "resource_id": 139,
+      "text": "       на зоида аст ва на зоида шудааст<sup foot_note=154317>1</sup>"
+    },
+    {
+      "resource_id": 139,
+      "text": "       ва на ҳеҷ кас ҳамтои Ӯст!» дар халқ ва афъол ва номҳо ва сифатҳояш."
+    }
+  ],
+  "meta": {
+    "translation_name": "Khawaja Mirof & Khawaja Mir",
+    "author_name": "Khawaja Mirof & Khawaja Mir",
+    "filters": { "resource_id": 139, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Naapa kwa mchana!" },
+    { "resource_id": 49, "text": "Na kwa usiku unapo tanda!" },
+    {
+      "resource_id": 49,
+      "text": "Mola wako Mlezi hakukuacha, wala hakukasirika nawe."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na bila ya shaka wakati ujao utakuwa bora kwako kuliko ulio tangulia."
+    },
+    { "resource_id": 49, "text": "Na Mola wako Mlezi atakupa mpaka uridhike." },
+    { "resource_id": 49, "text": "Kwani hakukukuta yatima akakupa makaazi?" },
+    { "resource_id": 49, "text": "Na akakukuta umepotea akakuongoa?" },
+    { "resource_id": 49, "text": "Akakukuta mhitaji akakutosheleza?" },
+    { "resource_id": 49, "text": "Basi yatima usimwonee!" },
+    { "resource_id": 49, "text": "Na anaye omba au kuuliza usimkaripie!" },
+    { "resource_id": 49, "text": "Na neema za Mola wako Mlezi zisimlie." }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "93" }
+  }
+}

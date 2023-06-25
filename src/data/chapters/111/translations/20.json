@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "May the hands of Abū Lahab be ruined, and ruined is he.<sup foot_note=197827>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "His wealth will not avail him or that which he gained."
+    },
+    {
+      "resource_id": 20,
+      "text": "He will [enter to] burn in a Fire of [blazing] flame"
+    },
+    {
+      "resource_id": 20,
+      "text": "And his wife [as well] - the carrier of firewood.<sup foot_note=197828>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Around her neck is a rope of [twisted] fiber."
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "111" }
+  }
+}

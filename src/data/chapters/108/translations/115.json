@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "Lalle ne Mu, Mun yi maka kyauta mai yawa." },
+    {
+      "resource_id": 115,
+      "text": "Saboda haka, ka yi salla dõmin Ubangijinka, kuma ka sõke (baiko, wato sukar raƙumi)."
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle mai aibanta ka shi ne mai yankakkiyar albarka."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "108" }
+  }
+}

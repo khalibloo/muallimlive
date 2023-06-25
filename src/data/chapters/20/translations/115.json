@@ -1,0 +1,513 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "T,H." },
+    {
+      "resource_id": 115,
+      "text": "Ba Mu saukar da Alƙur'ãni a gare ka dõmin ka wahala ba."
+    },
+    {
+      "resource_id": 115,
+      "text": "Fãce dõmin tunãtarwa ga wanda ke tsõron Allah."
+    },
+    {
+      "resource_id": 115,
+      "text": "(An saukar da shi) saukarwa daga wanda Ya halitta ƙasa da sammai maɗaukaka."
+    },
+    {
+      "resource_id": 115,
+      "text": "Mai rahama, Ya daidaita<sup foot_note=132298>1</sup> a kan Al'arshi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Abin da yake a cikin sammai nãsa ne, da abin da yake a cikin ƙasa da abin da yake a tsakãninsu da abin da ke ƙarƙashin turɓãya."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma idan ka bayyana da magana, to, lalle Shi, Yanã sanin asĩri da mafi bõyuwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Allah bãbu abin bautãwa fãce Shi. Yanã da sunãye mafiya kyau."
+    },
+    { "resource_id": 115, "text": "Kuma shin, lãbarin Mũsã yãje maka?" },
+    {
+      "resource_id": 115,
+      "text": "A lõkacin da ya ga wata wuta, sai ya ce wa iyãlinsa, \"Ku dãkata. Lalle ne nĩ, na tsinkãyi wata wuta tsammãnĩna in zo mukuda makãmashi daga gare ta, kõ kuwa in sãmi wata shiriya a kan wutar.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sa'an nan a lõkacin da ya je mata, aka kira shi, \"Ya Mũsã!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle ne, Nĩ ne Ubangijnka, sai ka ɗẽbe takalmanka<sup foot_note=132299>1</sup> Lalle ne kanã a rãfin nan abin tsarkakẽwa, ¦uwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma Nĩ nã zãɓe ka. Sai ka saurãra ga abin da ake yin wahayi.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle, Nĩ Ni ne Allah. Bãbu abin bautawa fãce Ni. Sai ka bauta Mini, kuma ka tsayar da salla dõmin tuna Ni.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle ne Sa'a mai zuwa ce, lnã kusa da In ɓõye ta dõmin a sãka wa dukan rai da abin da yake aikatãwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Sabõda haka, kada wanda bã ya yin ĩmãni da ita kumaya bi son zuciyarsa, ya taushe ka daga gare ta har ka halaka.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma wãce ce waccan ga dãmanka yã Mũsa!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ita sandãta ce, inã dõgara a kanta, kuma inã kakkaɓar ganye da ita a kan ƙananan bisãshẽna kuma inã da waɗansu bukãtõci<sup foot_note=132300>1</sup> na dabam a gare ta.\""
+    },
+    { "resource_id": 115, "text": "Ya ce: \"Ka yi jĩfa da ĩta, yã Mũsã!\"" },
+    {
+      "resource_id": 115,
+      "text": "Sai ya jẽfa ta. Sai gã ta dabbar macĩjiya, tanã tafiya da gaggãwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ka kãma ta kuma kada ka ji tsõro. Za Mu mayar da ita ga hãlinta na farko.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma ka haɗa hannunka zuwa ga damtsenka, ya fita yanã fari, bãbu sõfane, wata ãyã ta dabam.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Dõmin Mu nũna maka daga ãyõyin Mu manya.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Ka tafi zuwa ga Fĩr'auna. Lalle shĩ ya ƙẽtare haddi (da girman kai).\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ya Ubangiji! Ka buɗa<sup foot_note=132301>1</sup> mini, ƙirjĩna."
+    },
+    { "resource_id": 115, "text": "kuma ka sawwake mun Al'amari na" },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma Ka warware mini wani ƙulli daga harshẽna.\""
+    },
+    { "resource_id": 115, "text": "\"Su fahimci maganãta.\"" },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma Ka sanya mini wani mataimaki daga mutãnena.\""
+    },
+    { "resource_id": 115, "text": "\"Hãrũna ɗan uwana.\"" },
+    { "resource_id": 115, "text": "\"Ka ƙarfafa halittata da shi.\"" },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma Ka shigar da shi a cikin al'amarina.\""
+    },
+    { "resource_id": 115, "text": "\"Dõmin mu tsarkake Ka da yawa.\"" },
+    { "resource_id": 115, "text": "\"Kuma mu tuna Ka da yawa.\"" },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle Kai, Ka kasance Mai gani gare mu.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Lalle ne, an bã ka rõƙonka, yã Mũsã!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma lalle ne haƙĩƙa, Mun yi wata baiwa gare ka a wani lõkacin na dabam.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"A lõkacin da Muka yi wahayin abin da aka yi wahayi zuwa ga uwarka.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Cẽwa, Ki jẽfa shi a cikin akwatin nan, sa'an nan ki jẽfa shi a cikin kõgi, sa'an nan kogin ya jefa shi a gãɓa, wani maƙiyi Nãwa kuma maƙiyi nãsa ya ɗauke shi.' Kuma Na jẽfa wani so daga gare Ni a kanka. Kuma dõmin a riƙe ka da kyau a kan gan iNa."
+    },
+    {
+      "resource_id": 115,
+      "text": "\"A sa'ad da 'yar'uwrka ke tafiya har ta ce, shin, in shiryar da ku ga wanda ke rẽnonsa?' Sai Muka mayar da kai zuwa ga uwarka dõmin idonta ya yi sanyi<sup foot_note=132302>1</sup> kuma bã zã ta yi baƙin ciki ba. Kuma kã kashe wani rai, sa'an nan Muka tsẽrar da kai daga baƙin ciki, kuma Muka fitine ka da waɗansu fitinõni. Sa'an nan ka zauna shẽkaru a cikin mutãnen Madyana. Sa'an nan kuma ka zo a kan wata ƙaddara, yã Mũsã!"
+    },
+    { "resource_id": 115, "text": "\"Kuma Na zãɓe ka dõmin Kaina.\"" },
+    {
+      "resource_id": 115,
+      "text": "\"Ka tafi kai da ɗan uwanka game da ãyõyi Na, kuma kada ku yi rauni ga ambatõ Na.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Ku tafi kũ biyu zuwa ga Fir'auna. Lalle shĩ ya ƙẽtare haddi (ga girman kai).\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Sai ku gaya masa magana mai laushi,<sup foot_note=132303>1</sup> tsammãninsa yanã tunãwa kõ kuwa ya ji tsõro.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Su biyu suka ce: \"Ya Ubangijinmu! Lalle ne munã tsõron ya yi gaggawa a kanmu, kõ ya ƙẽtare haddi.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Kada ku ji tsõro. Lalle Nĩ, Inã tãre da ku, Inaji, kuma Inã gani.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Sai ku jẽ masa sa'an nan ku ce, Lalle mũ, Manzanni biyune na Ubangijinka, sai ka saki Banĩ Isrã'ĩla tãre da mu. Kuma kada ka yi musu azãba. Haƙĩƙa mun zomaka da wata ãyã daga, Ubangijinka. Kuma aminci ya tabbata ga wanda ya bi shiriya.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle mũ, haƙĩƙa, an yi wahayi zuwa gare mu, cẽwa azãba tanã a kan wanda ya ƙaryata, kuma ya jũya bãya.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"To, wãne ne Ubangijinku? Ya Mũsã!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ubangijin mu Shi ne wanda Ya bai wa dukan kõme halittarsa, sa'an nan Ya shiryar.\""
+    },
+    { "resource_id": 115, "text": "Ya ce: \"To, mẽne hãlin ƙarnõnin farko?\"" },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Saninsu yanã a wurin Ubangijĩna, Ubangijĩna bã Ya ɓacẽwa kuma bã Ya mantuwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Wanda Ya sanya muku ƙasa shimfiɗa, kuma Ya shigar muku da hanyõyi a cikinta, kuma Ya saukar da ruwa daga sama.\" Sa'an nan game da shi<sup foot_note=132304>1</sup> Muka fitar da nau'i-nau'i daga tsirũruwa dabam-dabam."
+    },
+    {
+      "resource_id": 115,
+      "text": "Ku ci kuma ku yi kiwon dabbõbin ni'imarku. Lalle ne, a cikin wannan akwai ãyõyi ga masu hankali."
+    },
+    {
+      "resource_id": 115,
+      "text": "Daga gare ta<sup foot_note=132305>1</sup> Muka halitta ku, kuma a cikinta Muke mayar da ku, kuma daga gare ta Muke fitar da ku a wani lõkaci na dabam."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma lalle, haƙĩƙa, Mun nũna masa ãyõyin Mu dukansu sai ya ƙaryata, kuma ya ƙiya!"
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Shin kã zo mana ne dõmin ka fitar da mu daga ƙasarmu game da sihirinka, yã Mũsã?\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"To, lalle ne munã zo maka da wani sihiri irinsa. Sai ka sanya wani wa'adi a tsakãninmu da tsakãninka bã mu sãɓa masa mũ kai kuma, bã ka sãɓãwa, a wani wuri mai dãcẽwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Wa'adinku shi ne rãnar ƙawa kuma a tãra mutãne da hantsi.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai Fir'auna ya jũya, sa'an nan ya tãra mugunyar dabãrarsa, sa'an nan kuma ya zo."
+    },
+    {
+      "resource_id": 115,
+      "text": "Mũsã ya ce musu, \"Kaitõnku! Kada ku ƙirƙira ƙarya ga Allah har Ya tumɓuke ku da wata azãba. Kuma wanda ya ƙirƙira ƙarya, yã tãɓe.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai suka yi jãyayya ga al'amarinsu a tsakãnin su kuma suka asirta gãnawa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Suka ce: \"Lalle ne waɗannan biyun, haƙĩƙa masihirta ne sunã nufin su fitar da ku daga ƙasarku<sup foot_note=132306>1</sup> game da sihirinsu kuma su tafi da tabĩ'arku mafĩficiya.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Sai ku haɗa dabãrarku sa'an nan kuma ku tafi a sahu guda, kuma haƙĩƙa, wanda ya rinjãya, a yau, ya rabbanta.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Suka ce: \"Ya Mũsã! Imma ka jefa, ko kuma mu kasance farkon mai jẽfawa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ã'a, ku jẽfa.\" Sai gã igiyoyinsu da sandunansu anã sũranta su a gare shi, daga sihirinsu, lalle sunã tafiya da sauri."
+    },
+    { "resource_id": 115, "text": "Sai Mũsã ya ji tsõro a cikin ransa." },
+    {
+      "resource_id": 115,
+      "text": "Muka ce: \"Kada ka ji tsõro. lalle kai ne mafi ɗaukaka.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma ka jẽfa abin da ke a cikin hannun dãmanka, ta cafe abin da suka aikata. Lalle ne abin da suka aikata mãkircin masihirci ne kuma masihirci bã ya cin nasara a duk inda ya je.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai aka jẽfar da masihirtan sunã mãsu sujada, suka ce: \"Mun yi ĩmãni da Ubangijin Hãrũna da Mũsã.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Kun yi ĩmãni sabõda shi a gabãnin in yi muku izni? Lalle shĩ, haƙĩƙa, babbanku ne wanda ya sanar da ku sihirin! To, lalle ne zan kakkãtse hannayenku da ƙafãfunku a tarnaƙi kuma lalle zan tsĩre ku a cikin kututturan itãcen dabĩno, kuma lalle zã ku sani wanenmu ne mafi tsananin azãba kuma wãne ne mafi wanzuwar (azãba).\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Suka ce: \"Bã zã mu fĩfĩta ka ba faufau a kan abin da ya zo mana na hujjõji. Munã rantsuwa da wanda Ya ƙãga halittarmu sai ka hukunta abin da kake mai hukuntãwa, ai kanã ƙãre wannan rãyuwar dũniya kawai ne.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle mũ, mun yi ĩmãni da Ubangijinmu dõmin Ya gãfarta mana laifuffukanmu da abin da ka tĩlasta mu a kansa na sihiri. Kuma Allah ne Mafi alhẽri, kuma Mafi wanzuwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle<sup foot_note=132307>1</sup> shĩ wanda ya je wa Ubangijinsa yanã mai laifi, to lalle ne yanã da Jahannama, bã ya mutuwa a cikinta kuma bã ya rãyuwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma wanda ya je Masa yanã mai ĩmãni, alhãli kuwaya aikata aikin ƙwarai to waɗannan sunã da darajõji maɗaukaka."
+    },
+    {
+      "resource_id": 115,
+      "text": "Gidãjen Aljannar zama kõguna na gudãna daga ƙarƙashinsu, sunã madawwama a cikinsu. Kuma wannan ne sakamakon wanda ya tsarkaku."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma lalle ne haƙĩƙa Mun yi wahayi zuwa ga Mũsã cẽwa, \"Ka yi tafiyar dare da bãyiNa. Sa'an nan ka dõka musu hanya a cikin tẽku tana ƙẽƙasasshiya, bã ka tsõron riska, kuma bã ka fargabar nutsẽwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai Fir'auna ya bi su game da rundunarsa. Sai abin da ya rufe su daga tẽku ya rufe su."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma Fir'auna ya ɓatar da mutãnensa, kuma bai shiryar (dasu) ba."
+    },
+    {
+      "resource_id": 115,
+      "text": "Yã Banĩ Isrã'ĩla! Lalle Mun tsẽrar da ku daga maƙiyinku, kuma mun yi muku wa'adi a gẽfen Dũtsen nan na dãma, kuma Mun sassaukar da darɓa da tattabaru dõminku."
+    },
+    {
+      "resource_id": 115,
+      "text": "Ku ci daga mãsu dãɗin abin da Muka azurtã ku kuma kada ku ƙẽtare haddi a cikinsa har fushĩ Na ya sauka a kanku. Kuma wanda fushĩ Na ya sauka a kansa, to, lalle ne, ya fãɗi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma lalle Nĩ haƙĩƙa Mai gãfara ne ga wanda ya tũba kuma ya yi ĩmãni, kuma ya aikata aikin ƙwarai, sa'an nan kuma ya nẽmi shiryuwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma mẽne ne ya gaggautar<sup foot_note=132308>1</sup> da kai ga barin mutãnenka? Yã Mũsã!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Su ne waɗannan a kan sãwũna, kuma na yi gaggãwa zuwa gare Ka, yã Ubangiji! Dõmin Ka yarda.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"To, lalle ne, haƙĩƙa, Mun fitini, mutãnenka daga bayãnka, kuma sãmiri ya ɓatar da su.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai Mũsã ya kõma zuwa ga mutãnensa yanã mai hushi, mai baƙin ciki, ya ce: \"Yã mutãnẽna! shin, Ubangijinku bai yi muku wa'adi ba, wa'adi mai kyau? Shin, lõkacin ya yi tsãwo a kanku ne, kõ kun yi nufi ne wani hushi ya sauka a kanku daga Ubangijinku, sabõda haka kuka sãɓã wa alkawarĩna?\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Suka ce: \"Ba mu sãɓa wa alkawarinka<sup foot_note=132309>1</sup> ba da ĩkonmu kuma amma an ɗõra mana waɗansu kãya masu nauyi daga abin ƙawar mutãnen ne, sai muka jẽfar da su. Sa'an nan kamar haka ne sãmiri ya jẽfa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Sai ya fitar musu da wani maraƙi, jikin mutãne, yanã rũri, sa'an nan suka ce: wannan ne gunkinku kuma gunkin Mũsã, sai ya manta.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Shin, to, bã su ganin cẽwabã ya mayar musu da magana, kuma bã ya mallakar wata cũta a gare su, kuma bã ya mallakar amfãni?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma, haƙĩƙa, Hãrũna yã ce musu daga gabãni, \"Yã mutãnẽna! Lalle an fitinẽ ku da shi ne kawai. Kuma lalle Ubangijinku Mai rahama ne, sai ku bi ni, kuma ku yi ɗã'ã ga umarnĩna.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Suka ce ba zamu gushe ba muna bauta a gareshi ba har sai Musa dawo <sup foot_note=132310>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "(Mũsã) ya ce: \"Yã Hãrũna! Mẽ ya hane ka, sa'ad da kagan su sun ɓace.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Ba ka bĩ ni ba! Shin, to, ka sãɓã wa umarnina ne?\""
+    },
+    {
+      "resource_id": 115,
+      "text": "(Hãrũna) ya ce: \"Yã ɗãn'uwãna! Kada ka yi kãmu ga gẽmũna kõ ga kaina. Lalle nĩ, nã ji tsõron ka ce: Ka rarraba a tsakãnin Banĩ Isrã'ĩla kuma ba ka tsare maganata ba.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "(Mũsã) ya ce: \"Mẽne ne babban al'amarinka? Kai Sãmiri!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "(Sãmiri) ya ce: \"Nã ga abin da ba su gan shi ba shi, sai na yi damƙa, damƙa guda daga kufan sãwun Manzon, sa'an nan na jẽfa ta. Kuma haka dai raina ya ƙawãta mini.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "(Mũsã) ya ce: \"To, ka tafi, sabõda haka lalle ne kanã da a cikin rãyuwarka, ka ce 'Bãbu shãfa' kuma kanã da wani ma'alkawarta, bã zã a sãɓa maka gare ta ba. Kuma ka dũba zuwa ga gunkinka wanda ka yini a kansa kanã mai lazimta. Lalle ne muna ƙõne shi,<sup foot_note=132311>1</sup> sa'an nan kuma munã shẽƙe shi, a cikin tẽku, shẽƙẽwa.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Abin sani kawai abin bautãwarku Allah kawai ne wanda bãbu wani abin bautãwa, fãce Shi kuma Yã yalwaci<sup foot_note=132312>1</sup> dukkan kõme da ilmi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kamar wancan ne Muke lãbartãwa<sup foot_note=132313>1</sup> a gare ka, daga lãbãran abin da ya gabãta, alhãli kuwa haƙĩƙa, Mun bã ka zikiri (Alƙur'ãni) daga gun Mu."
+    },
+    {
+      "resource_id": 115,
+      "text": "Wanda ya kau da kai daga gare shi, to, lalle shĩ, yanã ɗaukar wani nauyi a Rãnar ¡iyãma."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sunã madawwama a cikinsa, kuma yã mũnana ya zama abin ɗauka, a Rãnar ¡iyãma."
+    },
+    {
+      "resource_id": 115,
+      "text": "A Rãnar da ake hũrãwa a cikin ƙãho kuma Munã tãra mãsu laifi, a rãnar nan, sunã mãsu shũɗãyen idãnu."
+    },
+    {
+      "resource_id": 115,
+      "text": "Suna ɓõye magana a tsakãninsu, (Sunã ce wa jũna) \"Ba ku zauna ba (a cikin dũniya) fãce kwãna gõma.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Mu ne mafi sani ga abin da suke faɗa a sa'ad da mafĩficinsu ga hanya ke cẽwa, \"Ba ku zauna ba fãce a yini guda.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma sunã tambayar ka daga duwãtsu<sup foot_note=132314>1</sup> sai ka ce: \"Ubangijina Yana shẽƙe su shẽƙẽwa,"
+    },
+    {
+      "resource_id": 115,
+      "text": "Sa'an nan Yanã barin (wurinsu) faƙo mai santsi."
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Bã ka ganin karkata a cikinsa, kuma bã ka ganin wani tudu.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "A rãnar nan sunã biyar mai kira, bãbu karkata a gare shi, kuma sautuka suka yi kawaici ga Mai rahama, bã ka sauraren kõme fãce sautin tafiya."
+    },
+    {
+      "resource_id": 115,
+      "text": "A yinin nan cẽto bã ya yin amfãni fãce wanda Mai rahama Ya yi masa izni kuma Ya yarda da shi, da ya yi magana<sup foot_note=132315>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "Yanã sanin<sup foot_note=132316>1</sup> abin da ke a gaba gare su da abin da ke bãyansu, kuma bã su kẽwayẽwa da shi ga sani."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma fuskõki suka ƙanƙan da kai ga Rãyayye, Tsayayye, alhãli kuwa wanda ya ɗauko wani zãlunci ya tãɓe."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma wanda ya aikata wani abu daga ayyukan ƙwarai alhãli kuwa yanã mai ĩmãni, to, bã ya tsõron wani zãlunci ko wata naƙasa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma haka Muka saukar da shi, Alƙur'ãni, yanã abin karantãwa, da Larabci kuma Muka jujjuya misãlai, a cikinsa, na tsõratarwa, tsammãninsu, sunã yin taƙawa ko ya sabbaba musu wata wa'aztuwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sa'an nan Allah Mamallaki, Tabbatacce Yã ɗaukaka. Kuma kada ka yi gaggãwa<sup foot_note=132317>1</sup> da Alƙur'ãni a gabãnin a ƙãre wahayinsa zuwa gare ka. Kuma ka ce: \"Yã Ubangiji! Ka ƙãra mini ilmi.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma lalle, haƙĩƙa, Mun yi alkawari zuwa ga Ãdamu a gabãnin wannan, sai ya manta, kuma ba Mu sãmi ƙarfin zũciya a gare shi ba."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma sa'ad da Muka ce wa malã'iku, \"Ku yi sujada ga Ãdamu.\" Sai suka yi sujada, fãce Iblĩsa, yã ƙiya."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai Muka ce: \"Ya Ãdamu! Lalle ne wannan maƙiyi<sup foot_note=132318>1</sup> ne gare ka da kuma ga mãtarka, sabõda haka kada ya fitar da ku daga Aljanna har ku wahala.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Lalle ne kã sãmu bã zã ka ji yunwa ba a cikinta, kuma bã zã ka yi tsiraici ba."
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Lalle kai, bã zã ka ji ƙishirwa ba, kuma bã zã ka shiga hantsi ba.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai shaiɗan ya sanya waswãsi zuwa gare shi, ya ce: \"Yã Ãdamu! Shin, in shiryar da kai ga itãciyar dawwama da mulki wanda bã ya ƙãrẽwa?\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai suka ci daga gare ta, sabõda haka al'aurunsu suka bayyana, kuma suka shiga sunã lulluɓãwa a kansu daga ganyen Aljanna. Kuma Ãdamu ya sãɓã wa Ubangijinsa, sabõda haka ya ɓace."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sa'an nan kuma Ubangjinsa Ya zãɓẽ shi, Ya karɓi tũba gare shi, kuma Ya shiryar (da shi)."
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ku sauka kũ biyu daga gare ta gabã ɗaya, sãshenku yanã maƙiyi ga sãshe. To, imma dai wata shitiya ta jẽ muku daga gare Ni, to, wanda ya bi shiryarwãta, to, bã ya ɓacẽwa, kuma bã ya wahala.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma wanda ya bijire<sup foot_note=132319>1</sup> daga ambatõNa (Alƙur'ãni) to, lalle ne rãyuwa mai ƙunci ta tabbata a gare shi, kuma Munã tãyar da shi a Rãnar ¡iyãma yanã makãho.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Ya Ubangiji! Don me Ka tãyar da ni makãho alhãli kuwa nã kasance mai gani?\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ya ce: \"Kamar wancan ne ãyõyin Mu suka jẽ maka sai ka mance su, kuma kamar hakar a yau ake mance ka.\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma kamar haka Muke sãka wa wanda ya yawaita,<sup foot_note=132320>1</sup> kuma bai yi ĩmãni da ãyõyin Ubangijinsa ba. Kuma lalle ne azãbar Lãhira ce mafi tsanani, kuma mafi wanzuwa"
+    },
+    {
+      "resource_id": 115,
+      "text": "Shin, to, bai shiryar da su ba cẽwa da yawa Muka halakarda (kãfirai) daga ƙarnuka, a gabãninsu, sunã tafiya a cikin masaukansu? Lalle ne, a cikin wancan akwai ãyõyi ga mãsu hankula."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma bã dõmin wata kalma ba wadda ta gabãta daga Ubangijinka, da kuma ajali ambatacce haƙĩƙa, dã azãbarta kasance mai lazimta."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sai ka yi haƙuri<sup foot_note=132321>1</sup> a kan abin da suke cẽwa, kuma ka yi tasbĩhi da gõdẽ wa Ubangijinka a gabãnin fitõwar rãnã da gabãnin ɓacẽwarta, kuma daga sã'õ'in dare sai ka yi tasbĩhi da sãsannin yini, tsammãninka zã ka sãmi yarda."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma kada ka mĩƙar da idãnunka zuwa ga abin da Muka jiyar da su dãɗi da shi, nau'i-nau'i daga gare su, kamar huren rãyuwar dũniya yake, dõmin Mu fitine su a cikin sa, alhãli kuwa arzikin Ubangijinka, ne mafi alhẽri kuma mafi wanzuwa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma ka umurci iyãlanka da salla, kuma ka yi haƙuri a kanta. Bã Mu tambayar ka wani Arziki Mu ne Muke azurta ka. Kuma ãƙiba mai kyau tanã ga taƙawa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma suka ce: \"Don me bã ya zo mana da wata ãyã daga Ubangijinsa?\" Shin, kuwa hujjar abin da ke a cikin littattafan farko, ba ta jẽ musu ba?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma dã dai Mun halaka sũ da wata azãba daga gabãninsa, lalle ne dã sun ce: \"Yã Ubangijinmu! Dã Kã aiko da wani Manzo zuwa gare mu har mu bibiyi ãyõyinKa daga gabãnin mu ƙasƙanta, kuma mu wulãkantu!\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Ka ce: \"Kõwa mai tsumãye ne. Sai ku yi tsumãye. Sa'an nan zã ku san su wa ne ma'abũta tafarki madaidaici, kuma wane ne ya nẽmi shiryuwa.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "20" }
+  }
+}

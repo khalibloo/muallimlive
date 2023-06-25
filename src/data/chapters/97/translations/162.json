@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "নিশ্চয়ই আমি এটি নাযিল করেছি ‘লাইলাতুল ক্বাদরে।’"
+    },
+    { "resource_id": 162, "text": "তোমাকে কিসে জানাবে ‘লাইলাতুল ক্বাদর’ কী?" },
+    { "resource_id": 162, "text": "‘লাইলাতুল কদর’ হাজার মাস অপেক্ষা উত্তম।" },
+    {
+      "resource_id": 162,
+      "text": "সে রাতে ফেরেশতারা ও রূহ (জিবরাইল) তাদের রবের অনুমতিক্রমে সকল সিদ্ধান্ত নিয়ে অবতরণ করে।"
+    },
+    { "resource_id": 162, "text": "শান্তিময় সেই রাত, ফজরের সূচনা পর্যন্ত।" }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "97" }
+  }
+}

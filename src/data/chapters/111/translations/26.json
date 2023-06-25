@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 26,
+      "text": "Zhyňte obě ruce Abú Lahaba,a zhynul již i on!"
+    },
+    {
+      "resource_id": 26,
+      "text": "A nebylo mu k ničemu jmění jeho ani to, co si vysloužil,"
+    },
+    { "resource_id": 26, "text": "však hořet bude v ohni plném plamenů on" },
+    { "resource_id": 26, "text": "i žena jeho, jež dříví palivové nosí" },
+    {
+      "resource_id": 26,
+      "text": "a jíž kol hrdla provaz z vláken palmových visí."
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "111" }
+  }
+}

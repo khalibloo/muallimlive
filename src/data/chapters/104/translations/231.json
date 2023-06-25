@@ -1,0 +1,39 @@
+{
+  "translations": [
+    {
+      "resource_id": 231,
+      "text": "Shari na maangamivu yatampata kila mwenye kusengenya watu na kuwatukana."
+    },
+    {
+      "resource_id": 231,
+      "text": "Ambaye hamu yake ni kukusanya mali na kuyahesabu."
+    },
+    {
+      "resource_id": 231,
+      "text": "Akidhani kuwa mali yake ambayo ameyakusanya yatampa dhamana ya kuishi milele duniani na kuhepa kuhesabiwa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Anavyodhania sivyo. Atatiwa ndani ya Moto ambao huvunjavunja kila kinachotiwa."
+    },
+    {
+      "resource_id": 231,
+      "text": "Lipi lililokujulisha, ewe Mtume, ni upi huo Moto unaovunjavunja?"
+    },
+    { "resource_id": 231, "text": "Huo ni Moto wa Mwenyezi Mungu uliowashwa." },
+    {
+      "resource_id": 231,
+      "text": "Ambao kwa ukali wake hupenyeza miilini ukafikia kwenye nyoyo."
+    },
+    {
+      "resource_id": 231,
+      "text": "Moto huo umefungiwa juu yao wakiwa wametiwa minyororo"
+    },
+    { "resource_id": 231, "text": "na pingu ndefu ili wasitoke." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "author_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "filters": { "resource_id": 231, "chapter_number": "104" }
+  }
+}

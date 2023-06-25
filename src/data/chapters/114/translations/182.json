@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 182, "text": "使者啊！你说：“我依托、求助于世人的主宰，" },
+    {
+      "resource_id": 182,
+      "text": "祂是世人的君王，祂依照自己所欲安排世人，除祂外再无君王，"
+    },
+    {
+      "resource_id": 182,
+      "text": "祂是世人依真理所崇拜的主，除祂外再无应受世人崇拜的，"
+    },
+    {
+      "resource_id": 182,
+      "text": "求祂使我免遭教唆人类忽视或故意拖延纪念真主的恶魔的毒害，"
+    },
+    { "resource_id": 182, "text": "恶魔将教唆投入世人的心中，" },
+    { "resource_id": 182, "text": "他有来自人类的，也有来自精灵的。”" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "114" }
+  }
+}

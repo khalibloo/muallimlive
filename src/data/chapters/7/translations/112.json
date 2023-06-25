@@ -1,0 +1,815 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Elif Lâm Mîm Sâd." },
+    {
+      "resource_id": 112,
+      "text": "İman edenlere öğüt olarak ve onunla uyarasın diye sana indirilen kitaptan dolayı sakın kalbinde bir sıkıntı olmasın."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbinizden size indirilene uyun; ondan başka velilere uymayın. Ne kadar az öğüt dinliyorsunuz!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Nice memleketler helak ettik. Kahredici azabımız, onlara gece ya da öğle vakti uyurlarken gelip çattı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Azabımız onlara geldiği vakit, sözleri: “Biz, gerçekten zalimler idik!” demekten başka bir şey olmadı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kendilerine (peygamber) gönderilenlere mutlaka soracağız; gönderilen peygamberlere de elbette soracağız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sonra da onlara, (yaptıklarını) ilim ile açıklayacağız. Biz onlardan gaib/uzak değildik."
+    },
+    {
+      "resource_id": 112,
+      "text": "İşte o gün tartı haktır. Tartıları ağır gelenler, işte onlar, kurtulmuş olanlardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Tartıları hafif gelenler ise, işte onlar da ayetlerimizi inkar etmekle kendilerini ziyana uğratmış olanların ta kendileridir"
+    },
+    {
+      "resource_id": 112,
+      "text": "Sizi yeryüzünde yerleştirdik. Orada sizin için geçimlikler sağladık. Buna rağmen ne kadar az şükrediyorsunuz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sizi yaratmış sonra da şekil vermiştik. Sonra, meleklere: “Adem'e secde edin.” dedik. İblis dışında hemen secde ettiler. O, secde edenlerden olmadı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah: Sana emrettiğimde, secde etmene ne engel oldu? dedi. İblis: Ben, ondan hayırlıyım. Beni ateşten yarattın, onu ise çamurdan yarattın, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah: Hemen in oradan; orada senin büyüklük taslaman haddin değildir. Hemen çık (git). Sen, alçaklardansın, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "İblis: Onların yeniden diriltilecekleri güne kadar bana mühlet ver, dedi."
+    },
+    { "resource_id": 112, "text": "Allah: Mühlet verilenlerdensin! dedi." },
+    {
+      "resource_id": 112,
+      "text": "İblis: Beni dalalete düşürmenden dolayı, Ben de onlar için senin dosdoğru yolunun üzerinde oturacağım."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sonra onlara, önlerinden, arkalarından, sağlarından ve sollarından yaklaşacağım. Sen de onların çoğunu şükreder bulamayacaksın, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah da: Çık oradan, yerilmiş ve kovulmuş olarak! Onlardan kim sana tabi olursa, sizin hepinizi cehenneme dolduracağım, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey Adem! Sen ve eşin cennete yerleşin. Dilediğiniz yerden yiyin, fakat, şu ağaca yaklaşmayın. Yoksa zalimlerden olursunuz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şeytan, örtülü olan avret yerlerini onlara açmak için, ikisine de vesvese vererek şöyle dedi: Rabbiniz, bu ağacı yalnızca ikinizin de melek olmamanız veya ölümsüz olmamanız için yasakladı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ben sizin, iyiliğinizi isteyen, size öğüt verenlerdenim, diye onlara yemin etti."
+    },
+    {
+      "resource_id": 112,
+      "text": "Böylece onları aldatarak düşürttü. Ağacın meyvesinden tattıklarında, avret yerleri kendilerine göründü ve oraları Cennet yapraklarıyla örtmeye başladılar. Rableri, o ikisine: Size bu ağacı yasaklamadım mı, şeytan sizin apaçık düşmanınızdır demedim mi? diye seslendi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbimiz, kendimize zulmettik, bizi bağışlamaz ve bize merhamet etmezsen elbette hüsrana uğrayanlardan oluruz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah buyurdu ki: Birbirinize düşman olarak inin! Size yeryüzünde belirli bir süreye kadar yerleşip, geçinmek vardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Orada yaşayacak, orada ölecek ve tekrar oradan çıkarılacaksınız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey Ademoğulları, size avret yerlerinizi örtecek bir elbise ve bir de süs elbisesi indirdik. Takva elbisesi ise daha hayırlıdır. İşte bu, Allah’ın ayetlerindendir. Ola ki düşünüp, öğüt alırlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey Ademoğulları, şeytan ana ve babanızı, ayıp yerlerini kendilerine göstermek için, elbiselerini soyarak cennetten çıkardığı gibi, sakın sizi de fitneye düşürmesin. O ve ordusu, sizin onları göremediğiniz yerden sizi görürler. Biz, şeytanları iman etmeyenlerin velileri kıldık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlar kötü bir iş yaptıkları zaman: Atalarımızı böyle yaparken bulduk, Allah da bunu bize emretti, derler. De ki: Allah, kötülüğü emretmez. Bilmediğiniz şeyi Allah’a karşı mı söylüyorsunuz?"
+    },
+    {
+      "resource_id": 112,
+      "text": "De ki: Rabbim adaleti emretti. Her mescidde yönünüzü O’na doğrultun. Dini ona halis kılarak (şirk koşmadan) O’na dua edin. İlk defa sizi yarattığı gibi, yine O’na döneceksiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "O, (insanların) bir bölümünü hidayete ulaştırdı, bir bölümüne ise sapıklık hak oldu; çünkü onlar, Allah’ı bırakıp, şeytanları veliler olarak benimsediler. Kendilerini de hidayet üzere sanırlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey Ademoğulları, her mescide (namaza) gidişinizde güzel (elbisenizi) giyin; yiyin, için fakat israf etmeyin. Çünkü Allah, israf edenleri sevmez."
+    },
+    {
+      "resource_id": 112,
+      "text": "De ki: Allah’ın, kulları için çıkarttığı ziyneti ve temiz rızıkları kim haram kıldı? De ki: Onlar, bu dünya hayatında iman edenler içindir. Kıyamet gününde de yalnız onlara mahsustur. Bilen bir toplum için ayetleri işte böyle açıklıyoruz."
+    },
+    {
+      "resource_id": 112,
+      "text": "De ki: Rabbim, ancak fuhşiyatın açığını da gizlisini de günahı, haksız yere (insanlara) zulmü, hakkında hiçbir delil indirmemiş olduğu halde Allah’a şirk koşmanızı ve Allah hakkında bilmediğiniz şeyleri söylemenizi haram kılmıştır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Her ümmetin bir eceli vardır. Ecelleri geldiğinde; ne bir süre ertelenebilir, ne de öne alınabilir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey Ademoğulları, içinizden size ayetlerimizi okuyan resuller geldiği zaman, kim sakınıp, takvalı olur ve (amellerini) düzeltirse; artık onlara bir korku yoktur. Onlar, üzülmeyeceklerdir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ayetlerimizi yalanlayanlar ve onlara karşı büyüklük taslayanlar ise, ateş ehlidir. Onlar, orada ebedidirler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Öyleyse Allah hakkında yalan uydurandan veya O’nun ayetlerini yalanlayandan daha zalim kim olabilir? Bunlara kitapta yazılı nasipleri ulaşacaktır. Nihayet; elçilerimiz onların canlarını almaya gelince: Hani, nerede, Allah’ın dışında dua ettikleriniz? diyecekler. Onlar da: Bizden uzaklaşıp gittiler, diyerek kâfir oldukları hakkında kendi aleyhlerine şahitlik edeceklerdir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah: Sizden önce geçen cin ve insan toplumları içinde siz de haydi ateşe girin! der. Her toplum (oraya) girdikçe kardeşini lanetler. Sonunda hepsi orada bir araya gelince, sonra gelenler, öncekiler için: Rabbimiz, işte bizi bunlar saptırdılar. Onlara ateşten azabı kat kat ver! derler. Allah: Herkese kat kat azap vardır, fakat bilmiyorsunuz, der."
+    },
+    {
+      "resource_id": 112,
+      "text": "Öncekiler ise, kendilerinden sonra gelenlere: Sizin, bizden bir üstünlüğünüz yoktur, siz de kazanmış olduklarınıza karşılık azabı tadın!” derler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ayetlerimizi yalanlayıp, onlara karşı büyüklük taslayanlara, (öldükten sonra ruhları için) gök kapıları açılmayacak, deve iğne deliğinden geçmedikçe, onlar cennete giremeyeceklerdir. İşte biz, suçluları böyle cezalandırırız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlar için cehennemden yatak ve üstlerine de ondan örtüler vardır. İşte, zalimleri böyle cezalandırırız."
+    },
+    {
+      "resource_id": 112,
+      "text": "İman eden ve salih amel işleyenlere gelince -ki biz kimseye gücünün üstünde bir yük yüklemeyiz- işte bunlar da cennetliklerdir. Onlar, orada ebedidirler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Göğüslerinde, kinden ne varsa söküp atarız. Altlarından ırmaklar akarken onlar şöyle der: Bizi bunu hidayet eden Allah’a hamdolsun; Allah bizi hidayete iletmeseydi biz, doğru yolu bulamazdık. Rabbimizin rasûlleri hakkı getirmişler! İşte size yaptıklarınızın karşılığı olarak şu cennete varis kılındınız! diye onlara seslenilir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Cennet ehli, cehennem ehline (şöyle) seslenir: Biz, Rabbimizin bize vaad ettiğinin gerçek olduğunu gördük. Siz de Rabbinizin vaadini gerçek buldunuz mu? Onlar da: Evet! derler. Aralarında bir münâdi: Allah’ın laneti; zalimlerin üzerinedir! diye seslenir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlar, Allah yolundan yüz çevirir, alı koyarlar ve yolun eğri olmasını isterler. Onlar ahiretin de kâfiridir."
+    },
+    {
+      "resource_id": 112,
+      "text": "İkisi arasında bir perde/engel, (A’raf’ın) üzerinde herkesi simalarından tanıyan kimseler vardır. Cennetliklere: Selam size diye nîda ederler. Henüz oraya girmemişler, fakat çok arzulamaktadırlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Gözleri cehennemlikler tarafına çevrilince: Rabbimiz, bizi zalim toplumla birlikte bulundurma! derler."
+    },
+    {
+      "resource_id": 112,
+      "text": "A’raftakiler simalarından tanıdıkları bazı adamlara seslenirler: Topladıklarınız ve büyüklük taslıyor olmanız size fayda vermedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bunlar mıydı o sizin, “Allah bunları rahmetine erdirmeyecektir” diye yemin ettikleriniz? derler. Girin cennete size korku yoktur ve siz, mahzun da olmayacaksınız!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Cehennem halkı, cennet halkına: Bize de, biraz su ya da Allah’ın size verdiği rızıklardan akıtın diye seslenirler. Cennet halkı da onlara: Allah, kâfirlere ikisini de haram kılmıştır! derler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlar, dinlerini oyun ve eğlence edinmişler ve dünya hayatı da onları aldatmıştır. Bugün, bu karşılaşma günlerini unuttukları ve bile bile ayetlerimizi inkar ettikleri gibi biz de onları unutacağız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Biz onlara, ilim ile apaçık açıkladığımız, iman eden bir toplum için de hidayet ve rahmet olan bir kitap getirmiştik.."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlar yalnızca (haber verilenlerin) ortaya çıkmasını mı bekliyorlar? Ortaya çıktığı gün, önceleri onu unutmuş olanlar: Rabbimizin elçileri gerçeği getirmişler. Şimdi, bize şefaat edecek bir şefaatçi var mı? Veya yaptıklarımızdan başka şeyler yapmamız için (Dünya'ya) bir dönüşümüz var mı? derler. Onlar, kendilerini hüsrana uğratmışlar ve uydurdukları şeyler de kaybolup, onlardan ayrılmıştır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz Rabbiniz, gökleri ve yeri altı günde yaratmış, sonra arşın üstüne istiva etmiş/yükselmiş, geceyi (karanlığı ile), gündüz (aydınlığını) bürüyüp, örter ve (birbirlerini) durmadan takip eder kılmıştır; Güneş, ay ve yıldızlar da emrine boyun eğmiştir. Dikkat edin, yaratma ve emir yalnızca O’nundur. Alemlerin Rabbi olan Allah ne yücedir!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbinize yalvara yakara gizlice dua edin. O, sınırı aşanları sevmez."
+    },
+    {
+      "resource_id": 112,
+      "text": "Yeryüzünde, ıslah edildikten sonra bozgunculuk yapmayın. Allah’a korku ve ümit ile dua edin. Allah’ın rahmeti iyi kimselere yakındır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rahmetinin önünde müjdeci olarak rüzgarları gönderen O’dur. Rüzgarlar, ağır ağır yağmur yüklü bulutları yüklendiği zaman; biz, onu ölü bir bölgeye gönderir ve su indiririz. Onunla her türlü ürün çıkarırız. Ölüleri de böyle çıkaracağız. Belki düşünüp, ibret alırsınız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Verimli bölgenin bitkisi Rabbinin izniyle bol çıkar. Verimsiz olandan ise kavruk bitkiden başkası çıkmaz. Şükreden bir toplum için işte ayetleri böyle çeşitli şekillerde açıklıyoruz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Nuh’u kavmine peygamber olarak gönderdik. O da kavmine dedi ki: Ey kavmim, (yalnızca) Allah’a ibadet edin. Sizin O’ndan başka bir ilahınız yoktur. Ben, doğrusu sizin için büyük günün azabından korkuyorum\" dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kavminin ileri gelenleri: Biz, seni açıkça bir dalalet içinde görüyoruz.” dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Nuh: Ey kavmim, bende hiçbir sapıklık yoktur. Ben, ancak Alemlerin Rabbi tarafından (gönderilen) bir rasûlüm."
+    },
+    {
+      "resource_id": 112,
+      "text": "Size, Rabbimin gönderdiklerini bildiriyor ve nasihat ediyorum. Ben, sizin bilmediğiniz şeyleri biliyorum."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sizi uyarması, sizinde sakınıp, takvalı olarak merhamet olunmanız için aranızdan bir adam ile Rabbinizden size bir öğüt gelmesine şaştınız mı?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Fakat, onu yalanladılar. Biz de onu ve gemide onunla beraber olanları kurtardık. Ayetlerimizi yalanlayanları da suda boğduk. Onlar, kör bir toplumdu."
+    },
+    {
+      "resource_id": 112,
+      "text": "Âd kavmine de, kardeşleri Hud’u gönderdik. Hud, onlara: Ey kavmim, (yalnızca) Allah’a ibadet edin, sizin O’ndan başka bir ilahınız yoktur. (Azaptan) sakınmıyor musunuz? dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kavminden kâfir olan ileri gelenleri: Biz, senin sefehat/cehalet içinde olduğunu görüyoruz. Ve senin yalancılardan olduğuna inanıyoruz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey kavmim! dedi. Bende sefihlik diye bir şey yoktur. Ben, Alemlerin Rabbinden bir rasûlüm."
+    },
+    {
+      "resource_id": 112,
+      "text": "Size Rabbimin vahyettiklerini bildiriyorum. Ben, sizin için güvenilir bir nasihatçıyım."
+    },
+    {
+      "resource_id": 112,
+      "text": "Aranızdan bir adam ile sizi uyarmak için Rabbinizden size bir öğüt gelmesine şaştınız mı? O’nun, sizi Nuh kavminden sonra halifeler kıldığını ve yaratılışta sizi onlardan daha güçlü/iri yaptığını hatırlayın. Allah'ın nimetlerini anın ki, kurtuluşa erebilesiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "(Yalnızca) Bir tek ilaha ibadet etmemiz ve atalarımızın ibadet edegeldiklerini, bırakmamız için mi bize geldin? Bizi tehdit ettiğin azabı haydi başımıza getir. Doğru söyleyenlerden isen! dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Hûd: Rabbinizden üzerinize bir azap, bir gazap hak olmuştur. Allah'ın hakkında hiçbir delil indirmediği, isimlerini de siz ve atalarınızın koyduğu (putlar) hakkında mı benimle tartışıyorsunuz? Öyleyse bekleyin, ben de sizinle beraber bekleyenlerdenim! dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "O’nu ve beraberindekileri katımızdan bir rahmet ile kurtardık. Ayetlerimizi yalanlayan ve mümin olmayan kavmin de arkasını/kökünü kestik."
+    },
+    {
+      "resource_id": 112,
+      "text": "Semûd kavmine de kardeşleri Salih'i gönderdik. (Salih, onlara) dedi ki: Ey kavmim, (yalnızca) Allah’a ibadet edin. Sizin O’ndan başka bir ilahınız yoktur. Rabbinizden size apaçık bir bir delil/mucize ulaştı. Bu, Allah’ın dişi devesi, sizin için bir mucizedir. Onu bırakın, Allah’ın toprağında otlasın, ona bir kötülük etmeyin. Sonra sizi acı bir azap yakalar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Âd kavminden sonra sizi halifeler yaptığını, ovalarında köşkler kurup, dağlarında evler inşa ettiğiniz bu topraklara yerleştirdiğini bir hatırlayın. Allah’ın nimetlerini düşünün de yeryüzünde bozgunculuk yaparak taşkınlık etmeyin!"
+    },
+    {
+      "resource_id": 112,
+      "text": "O’nun kavminden büyüklük taslayan ileri gelenleri de, hor gördükleri halktan iman edenlere sordular: Salih’in gerçekten Rabbi tarafından gönderilmiş bir peygamber olduğunu biliyor musunuz? Onlar da şöyle dediler: Biz, O'nunla gönderilenlere iman eden kimseleriz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Büyüklük taslayanlar ise: Biz de sizin iman ettiklerinize küfredenleriz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "O dişi deveyi boğazladılar. Rab’lerinin emrine baş kaldırdılar ve: Ey Salih, eğer peygamberlerden isen bize korkutup durduğun azabı getir! dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bunun üzerine onları şiddetli bir sarsıntı tutuverdi ve yurtlarında diz üstü çöke kaldılar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Salih ise, onlardan yüz çevirip: Ey kavmim, andolsun ki ben size Rabbimin gönderdiklerini tebliğ ettim. Size nasihat ettim. Fakat siz nasihat edenleri sevmiyorsunuz, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Lût’u da gönderdik. Kavmine: Sizden önce tüm alemlerde hiç kimsenin yapmadığı ahlaksızlığı mı yapıyorsunuz?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Siz, kadınları bırakıp da şehvetle erkeklere yanaşıyorsunuz. Meğer siz, (koyulan sınırları) aşan bir toplummuşsunuz!” dediği vakit;"
+    },
+    {
+      "resource_id": 112,
+      "text": "Kavminin cevabı: Çıkarın onları memleketinizden, ! demekten başka bir şey olmadı. Zira onlar (bu günahtan) temiz olan insanlardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Biz de Lût’u ve âilesini kurtardık; yalnız karısı geride kalanlardan oldu."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara azap yağmuru yağdırdık. İşte bak, günahkârların sonu nasıl oldu!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Medyen halkına da kardeşleri Şuayb’i gönderdik. (Kavmine şöyle) dedi: Ey kavmim, (yalnızca) Allah’a ibadet edin. O’ndan başka bir ilahınız yoktur. Rabbinizden size apaçık bir delil ulaştı. Ölçü ve tartıyı tam yapın, insanların eşyasından bir şeyler eksik vermeyin. Islah edildikten sonra yeryüzünde bozgunculuk etmeyin. Eğer mü'minler iseniz bu sizin için en hayırlı olandır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Tehdit edip, Allah'a iman edenleri O'nun yolundan alıkoyarak ve o yolun eğri olmasını isteyerek, her yolun başında oturmayın. Azınlık iken Allah’ın sizi çoğalttığını hatırlayın. Bozguncuların sonunun ne olduğuna da bir bakın!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Eğer benimle gönderilene içinizden bir grup iman edip, bir grup da iman etmemiş ise, Allah aranızda hükmünü verinceye kadar sabredin. Hüküm verenlerin en hayırlısı O’dur."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şuayb’ın kavminden büyüklük taslayan ileri gelenler dediler ki:Ey Şuayb! Elbette seni ve seninle birlikte iman edenleri ülkemizden çıkaracağız. (Dininize) İstemesek de mi? (uyalım) dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah bizi, ondan kurtardıktan sonra sizin dininize dönersek, Allah’a karşı yalan uydurmuş oluruz. Bizim için, Rabbimiz Allah dilemedikçe tekrar ona dönmemiz imkansızdır. Rabbimiz ilmiyle her şeyi kuşatmıştır. Biz, Allah’a tevekkül ettik. Rabbimiz, bizim ile kavmimiz arasında hak ile hükmet. Sen hüküm verenlerin en hayırlısısın!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Toplumun önde gelen kâfirleri dediler ki: Şuayb’e uyarsanız o zaman mahvolursunuz!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Onları dehşetli bir sarsıntı tuttu ve oldukları yerde diz üstü çöküp kaldılar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şuayb’ı yalanlayanlar sanki orda hiç yaşamamış gibi oldular. Şuayb’ı yalanlayanların asıl kendileri mahvoldu."
+    },
+    {
+      "resource_id": 112,
+      "text": "(Şu’ayb) onlardan yüz çevirdi ve dedi ki:Ey kavmim, size Rabbimin gönderdiklerini açıklamış ve size nasihat etmiştim. Şimdi kâfir bir kavme karşı nasıl üzülebilirim."
+    },
+    {
+      "resource_id": 112,
+      "text": "Biz, hangi ülkeye bir nebi göndermişsek, halkını yalvarıp yakarmaları için yoksulluk ve hastalıklarla cezalandırdık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sonra (başlarına gelen) kötülüğü (darlığı) değiştirip yerine iyilik (bolluk) getirdik. Nihayet çoğaldılar ve: \"Atalarımız da böyle sıkıntı ve sevinç yaşamışlardı\" dediler. Biz de onları, kendileri farkına varmadan ansızın yakaladık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Eğer (yalanlayan) memleketlerin halkı iman edip, takvalı olsalardı, biz de onlara gökten ve yerden bereketler açardık. Fakat yalanladılar. Bu sebeple onları yapmakta olduklarıyla yakaladık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ülkelerin halkı, azabımızın geceleyin, onlar uykuda iken başlarına gelivermesinden emin mi oldular?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Ya da ülkelerin halkı azabımızın güpegündüz onlar eğlencede iken başlarına gelivermesinden emin mi oldular?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah’ın tuzağından emin mi oldular? Allah’ın tuzağından hüsrana uğramış toplumdan başkası asla emin olmaz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Oranın önceki halkından sonra yeryüzüne varis olanlara belli olmadı mı? Ki eğer dilersek onları günahlarıyla birlikte yakalarız, yok ederiz, kalplerini de damgalarız da işitmezler."
+    },
+    {
+      "resource_id": 112,
+      "text": "İşte bu sana haberlerini anlattığımız memleketlerdir. Onlara elçilerimiz apaçık delillerle gelmişlerdi de daha önce yalanladıklarına iman etmeye yanaşmadılar. İşte Allah, kâfirlerin kalplerini bu şekilde damgalar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onların çoğunu sözünde durur bulmadık. Aksine onların çoğunu hak yoldan çıkmış fasıklar olarak bulduk."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlardan sonra ayetlerimizle Musa’yı, Firavun’a ve kavmine gönderdik. Ancak onlar zulmettiler. Fesat çıkaranların sonunun nasıl olduğuna bak!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa şöyle dedi: Ey Firavun, ben alemlerin Rabbinden bir rasûlüm!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Bana ancak, Allah hakkında yalnız gerçek olanı söylemem yaraşır. Size Rabbinizden apaçık delillerle geldim. İsrailoğulları'nı benimle beraber gönder."
+    },
+    {
+      "resource_id": 112,
+      "text": "Eğer bir ayet/mucize ile geldiysen, haydi doğru söyleyen biriysen onu ortaya koy, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bunu üzerine Musa asâsını attı. Birden o apaçık bir ejderha oluverdi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Elini koynundan çıkardı. Birden o bakanların (gözünü kamaştıran) bembeyaz (bir el) oluverdi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Firavun kavminden ileri gelenler: Bu, bilgin bir sihirbaz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sizi yurdunuzdan çıkarmak istiyor. Ne buyurursunuz?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Onu ve kardeşini beklet, şehirlere toplayıcılar gönder."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sana tüm sihirbazları getirsinler, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sihirbazlar Firavun’a gelerek dediler ki: Eğer biz galip gelirsek bir mükâfat var, değil mi?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Evet, elbette siz bana yakın kimselerden olacaksınız, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sihirbazlar: Ey Musa, (asanı) önce ya sen at ya da önce atanlar biz olalım, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "O da: Siz atın! dedi. Onlar atınca, insanların gözlerini büyülediler, onları korkuttular ve büyük bir sihir gösterdiler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Biz de Musa’ya asanı at diye vahyettik. Birdenbire asâ onların uydurduklarını yuttu."
+    },
+    {
+      "resource_id": 112,
+      "text": "Böylece her şey ortaya çıktı. Onların yaptıkları boşa çıktı."
+    },
+    { "resource_id": 112, "text": "Orada mağlup oldular ve küçük düştüler." },
+    { "resource_id": 112, "text": "Sihirbazlar: Secdeye kapandılar." },
+    { "resource_id": 112, "text": "Alemlerin Rabbine, iman ettik." },
+    { "resource_id": 112, "text": "Musa ve Harun’un Rab'bine…" },
+    {
+      "resource_id": 112,
+      "text": "Firavun, onlara şöyle dedi: Ben size izin vermeden önce, ona iman mı ettiniz? Bu kesin bir tuzaktır. Halkı şehirden çıkarmak için, bu tuzağı kurdunuz. Artık yakında bileceksiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sizin ellerinizi ve ayaklarınızı çaprazlama keseceğim. Sonra hepinizi asacağım."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz biz, Rabbimize döneceğiz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sen, Rabbimizin ayetleri bize geldiği zaman ona iman ettiğimiz için, yalnızca bunun için bizden intikam alıyorsun. Rabbimiz! Üzerimize sabır yağdır ve müslüman olarak canımızı al! dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Firavun kavminden ileri gelen kesim: Musa’yı ve kavmini yeryüzünde bozgunculuk etsinler seni ve senin ilahlarını terk etsinler diye mi bırakacaksın? dediler. Firavun: Onların erkek çocuklarını öldürürüz. Kadınlarını da sağ bırakırız. Biz, onlar üzerinde tam bir hakimiyet sahibiyiz, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa kavmine şöyle dedi: Allah’tan yardım dileyin ve sabredin. Şüphesiz yeryüzü Allah’ındır. Ve O, kullarından dilediğini ona varis kılar. Güzel son, Allah’tan sakınanlarındır/takvalı olanlarındır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kavmi ise: Sen bize gelmeden önce de geldikten sonra da bize işkence edildi, dediler. Musa da: Rabbinizin düşmanlarınızı helak etmesi ve sizi yeryüzünde nasıl davranacağınıza bakmak için, iktidara getirmesi umulur, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Firavun hanedanını belki düşünürler diye kuraklık ve yıllarca ürünlerini eksiltmekle cezalandırdık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara bir iyilik geldiği zaman; “Bu bizim hakkımızdır” derler. Onlara bir kötülük dokunduğu zaman onu Musa ve onun yanındakilerin uğursuzluğuna verirlerdi. Dikkat edin, onların başına gelen uğursuzlukları sadece Allah katındandır. Fakat onların çoğu bilmiyorlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bizi, kendisiyle büyülemek için her ne zaman bize bir ayet/mucize getirirsen, biz sana iman edecek değiliz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bu yüzden onlara, tufanı, çekirgeyi, haşere, kurbağaları ve kanı apaçık ayetler olarak gönderdik. Buna rağmen büyüklendiler. Onlar günahkâr bir toplum idi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Üzerlerine azab çökünce, Ey Musa, Rabbinin sana (eğer iman edersek azabı kaldıracak olması) vahyinden dolayı bizim için Rabbine dua et. Eğer bizden bu azabı kaldırırsan muhakkak sana iman edeceğiz ve İsrailoğulları'nı seninle beraber salıvereceğiz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlardan azabı, onlara ulaşacak belirli bir süreye kadar kaldırdığımız zaman; onlar verdikleri sözden dönüyorlardı.."
+    },
+    {
+      "resource_id": 112,
+      "text": "Biz de onlardan cezasının intikamını aldık. Ayetlerimizi yalanladıkları ve onlardan gafil oldukları için onları denizde boğduk."
+    },
+    {
+      "resource_id": 112,
+      "text": "Hor görülüp ezilmekte olan kavmi (İsrailoğullarını), toprağına bolluk ve bereket verdiğimiz yerin (Şam Bölgesinin) doğu ve batı taraflarına mirasçı kıldık. İsrailoğulları’nın sabretmelerine karşılık olarak Rabbinin güzel sözü/vaadi gerçekleşti. Firavun ve kavminin yaptıklarını ve kurup yükselttikleri şeyleri yerle bir ettik."
+    },
+    {
+      "resource_id": 112,
+      "text": "İsrailoğulları'nı denizden geçirmiştik. Kendilerine ait bir takım putlarına ibadet eden bir topluma uğradılar. Ey Musa, bunların ilahları gibi bize de bir ilah yapsana! dediler. Musa da onlara: Şüphesiz, cahillik eden bir toplumsunuz! dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz bunların içinde bulundukları (şirk) helâke mahkûmdur ve yapmakta oldukları batıldır."
+    },
+    {
+      "resource_id": 112,
+      "text": "O, sizi alemlere üstün kılmış iken size Allah’tan başka bir ilah mı arayayım? dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Size kötü bir ceza ile eziyet eden, Çocuklarınızı öldürüp, kadınlarınızı sağ bırakan Firavun hanedanından kurtarmıştık. Bu sizin için yüce Rab'biniz tarafından bir imtihan.."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa ile otuz geceye sözleşmiştik ve on gece ile onu tamamladık da Rabbinin belirlediği süre tam kırk gece oldu. Musa kardeşi Harun’a: Kavmimde benim yerime geç, ıslah et, fesat çıkaranların yoluna uyma! dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa belirlediğimiz vakitte gelince Rabbi onunla konuştu. Musa dedi ki: Rabbim, bana (kendini) göster de sana bakayım! Rabbi: Beni göremeyeceksin fakat dağa bak; dağ yerinde durursa sen de beni göreceksin, dedi. Rabbi dağa tecelli edince onu yerle bir etti. Musa bayılarak yere kapandı. Ayıldığında: Sen tüm noksanlıklardan münezzehsin, sana tevbe ettim. (Kavmim içinde) Sana iman edenlerin ilkiyim, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey Musa! Risaletlerimle ve seninle konuşmamla seni (zamanının) insanları üzerine seçtim; sana verdiğimi al ve şükredenlerden ol! dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "(Tevrat) levhalarında her şeye dair bir öğüt ve her şeyin bir açıklamasını yazdık ve ona şöyle dedik: Şimdi onları kuvvetle tut ve kavmine de ona iyice sarılmalarını emret. Size fasıkların yurdunu göstereceğim."
+    },
+    {
+      "resource_id": 112,
+      "text": "Haksız yere yeryüzünde büyüklenen kimseleri ayetlerimizi (anlayıp, ibret almaktan) uzak tutacağım. Onlar bütün ayetleri görseler de iman etmezler. Doğru yolu görseler onu yol edinmezler. Sapıklık yolunu gördüklerinde onu yol edinirler. İşte bu, onların ayetlerimizi yalanlamaları ve onlardan gafil olmalarından dolayıdır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ayetlerimizi ve ahiret buluşmasını yalanlayanların amelleri boşa gitmiştir. Onlar ancak (dünyada) yaptıklarının karşılığını görürler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa’nın kavmi, onun ardından süs eşyalarından (yapılmış) böğüren bir buzağı heykelini ilah edindiler. Onun kendileriyle konuşmadığını ve onların bir yol göstermediğini görmüyorlar mı? Ona (ilah) edindiler ve böylece zalimlerden oldular."
+    },
+    {
+      "resource_id": 112,
+      "text": "Pişman olup da kendilerinin gerçekten sapmış olduklarını görünce: Eğer Rabbimiz, bize merhamet etmez ise ve bizi bağışlamazsa hüsrana uğrayanlardan oluruz, dediler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa kavmine kızgın ve üzgün olarak dönünce: Benim ardımdan ne kötü işler yaptınız. Rabbinizin emrini beklemeyip acele mi ettiniz? dedi. Levhaları (öfkesinden) attı ve kardeşinin başını tutarak kendisine çekti. (Kardeşi) Ey anamın oğlu, toplum beni güçsüz gördü/küçümsedi, neredeyse beni öldürüyorlardı. Bana düşmanları sevindirecek şekilde davranma, zalim toplumla bir tutma! dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbim, beni ve kardeşimi bağışla, bizi rahmetine girdir. Sen merhametlilerin en merhametlisisin!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Buzağıyı (ilah) edinenlere Rablerinden bir gazap ve dünya hayatında aşağılanmaya uğrayacaklar. İftiracıları işte böyle cezalandırırız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kötülük işleyenleri, sonra ardından tevbe edip iman edenleri, şüphesiz Rabbin ondan (tevbeden) sonra da bağışlayan ve merhamet edendir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa’nın kızgınlığı yatışınca levhaları aldı. Onlardaki yazıda Rabbinden korkanlar için hidayet ve rahmet vardı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Musa belirlediğimiz vakit için kavminden yetmiş adam seçti. Onları kuvvetli bir sarsıntı alınca Musa: Rabbim, eğer dileseydin onları ve beni daha önce helak ederdin. İçimizdeki sefih/akılsızların yaptıkları yüzünden bizi helak mı edeceksin? Bu senin imtihanından başka bir şey değildir. Sen, onunla dilediğini sapıttırır ve dilediğine de hidayet edersin. Sen bizim velimizsin. Bizi affet, bize merhamet et! Sen bağışlayanların en hayırlısısın!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Bize bu dünyada ve ahirette iyilik yaz; biz sana (tevbe ile) yöneldik. Allah: Azabıma dilediğimi uğratırım. Rahmetim ise her şeyi kuşatmıştır. Rahmetimi sakınanlara/takvalı olanlara ve zekat verenlere ve ayetlerimize iman etmiş olanlara yazacağım, dedi."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlar ki, yanlarında bulunan Tevrat ve İncil'de yazılı buldukları ümmi Peygambere, Rasûle tâbi olurlar. (O peygamber) Onlara iyiliği emreder ve kötülüklerden nehyeder, iyi/temiz şeyleri helal, kötü ve pis şeyleri haram kılar. Üzerlerindeki ağır yükleri ve zorlukları kaldırır. Ona iman edenler, onu destekleyip, yardım eden ve onunla indirilen nura uyanlar, işte onlar, kurtuluşa erenlerdir."
+    },
+    {
+      "resource_id": 112,
+      "text": "De ki: Ey insanlar! Ben sizin hepinize, Allah’ın gönderdiği rasûlüm. Göklerin ve yerin mülkü O'nundur. Kendisinden başka (hak) ilah olmayan, dirilten ve öldüren Allah’ın Allah’a ve O’nun rasûlü olan ümmi Peygamber’e iman edin. Zira O da Allah’a ve O’nun kelimelerine/Kur'an'a iman etmiştir. Ona tabi olun ki, hidayete eresiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Mûsâ’nın kavminden (insanları) hak ile doğru yola ileten ve onunla adaletli davranan bir topluluk da vardı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onları on iki kabileye ayırmıştık. Kavmi Mûsâ’dan su istediğinde biz ona, “Asânı taşa vur” diye vahyettik. Oradan on iki kaynak fışkırdı. Her kabile su içeceği yeri öğrendi. Onları bulut ile gölgelendirdik. Onlara kudret helvası ve bıldırcın yedirdik. Size rızık olarak verdiğimiz şeylerin temiz olanlarından yiyin. Biz onlara zulmetmedik, fakat onlar kendilerine zulmettiler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Hani:Şu kasabaya girip, dilediğiniz yerden istediğinizi yiyin. Kapısından secde ederek/ boynu bükük, zelil olarak girin ve “bağışla” deyin de sizi bağışlayalım, iyiler için daha fazlasını vereceğiz, denilmişti."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onların zulmedenleri, sözü kendilerine söylenenden başkası ile değiştirdiler. İşledikleri zulüm dolayısıyla onlara gökten bir azap gönderdik."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara deniz kenarındaki cumartesi yasağını çiğneyen kasabayı sor! Onlara avları cumartesi günlerinde (suyun üstünde) akın akın geliyor, başka günlerde gelmiyorlardı. İşte onları fasıklık ettikleri için böyle imtihan ediyorduk."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlardan bir topluluk şöyle diyordu: Allah’ın helak edeceği ve şiddetli bir ceza ile cezalandıracağı topluma niye öğüt veriyorsunuz? Rabbinize karşı bir mazeret beyan edelim diye bir de belki sakınırlar/takvalı olurlar! diye cevap verdiler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kendilerine hatırlatılanı unuttuklarında, kötülükten men edenleri kurtarıp, zalimleri fasıklık yapmaları sebebiyle çok çetin bir ceza ile yakaladık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Yasaklandıkları şeye başkaldırdıkları zaman, onlara: Alçak maymunlar olun! dedik."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbin, onların üzerine kıyamet gününe dek kendilerini en kötü cezalandıracak kimseleri göndereceğini bildirmişti. Rabbinin ceza vermesi çok hızlıdır. Şüphesiz O, çokça bağışlayan, çokça merhamet edendir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onları yeryüzünde (parça parça) topluluklara böldük. Salih olanları da vardır; olmayanları da! Onları belki dönerler diye iyilik ve kötülükle imtihan ederiz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onların ardından, kitaba varis olan bir nesil geldi. Biz nasıl olsa bağışlanacağız, diyerek, bu dünyanın geçici menfaatini alıyorlar. Yine Onlara, ona benzer bir menfaat daha gelse onu da alırlar. Allah hakkında, gerçek dışında bir şey söylemeyeceklerine dair onlardan Kitap’ta söz alınmamış mıydı? Ve onlar Kitap'takini okuyup, öğrenmemişler miydi? Takva sahipleri için ahiret yurdu çok hayırlıdır. Akletmiyor musunuz?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Kitaba bağlı olanlar ve namaz kılanlara gelince biz, (kendileri ve başkaları için) ıslah edenlerin mükâfatını zayi etmeyiz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Dağı onların üzerine kaldırmıştık. Sanki o gölgelik gibiydi. Öyle ki başlarına düşeceğini anladılar. Size verdiğimize kuvvetle sarılın ve içinde olanı hatırlayıp, anın ki sakınanlardan/takva sahiplerinden olasınız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbi, Ademoğullarının sırtlarından soylarını çıkardı ve onları kendilerine şahit tuttu. Ben, sizin Rabbiniz değil miyim? dedi. \"Evet şahidiz\" demişlerdi. Böylece kıyamet günü bizim bundan haberimiz yoktu demeyesiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ya da bizim atalarımız önceden şirk koşmuşlar. Biz de onlardan sonra gelen bir nesiliz. Batıla düşenlerin yaptıklarından dolayı bizi helak mi edeceksin? demeyesiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Belki dönerler diye ayetleri işte böyle açıklıyoruz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara, kendisine ayetlerimizi verdiğimiz, fakat onlardan sıyrılıp uzaklaşan, şeytanın kendisine uydurduğu yolunu kaybetmiş azgınlardan olan kimsenin haberini oku!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Dileseydik onu ayetlerimizle yükseltirdik. Fakat o dünyaya saplanıp, kaldı, hevesine uydu. Onun misali, üzerine yürüsen de kendi haline bıraksan da dilini çıkartıp soluyan köpeğe benzer. Ayetlerimizi yalanlayan kavmin misali budur. Kıssayı anlat; belki düşünürler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ayetlerimizi yalanlayan ve kendi nefislerine zulmetmiş olan kavmin durumu ne kötüdür!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah kimi doğru yola yöneltmişse/hidayet etmişse, o hidayet bulmuştur. Kimi de saptırmışsa, onlar hüsrana uğrayanların ta kendisidir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Andolsun, biz cinler ve insanlardan birçoğunu cehennem için yaratmışızdır. Çünkü onların kalpleri vardır ama kavrayıp, anlamazlar. Gözleri vardır, onunla görmezler, kulakları vardır, onunla işitmezler. Onlar hayvanlar gibidir, hatta onlardan daha şaşkındırlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "İşte onlar gafillerdir. En güzel isimler Allah’ındır. O’na o isimleri ile dua edin. O’nun isimleri konusunda sapanları terk edin. Onlar yaptıklarının karşılığını göreceklerdir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Yarattıklarımızdan hakka yönelen ve yönelten, onunla adaleti sağlayan bir toplum vardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ayetlerimizi yalanlayanları ise yavaş yavaş bilmedikleri bir yerden (azaba) yaklaştıracağız."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara mühlet/süre veriyorum. Fakat benim tuzağım çetindir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Hiç düşünmüyorlar mı? Arkadaşları (Muhammed) deli değildir. O ancak açıkça bir uyarıcıdır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Göklerin ve yerin melekutüne/hükümranlığına ve orada Allah’ın yarattığı şeylere ve ecellerinizin yaklaşmış olabileceğine hiç bakmıyorlar mı? Bundan sonra hangi söze inanacaksınız?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah kimi saptırırsa, ona hidayet edecek yoktur. Onları azgınlıkları içerisinde şaşkın bir halde bırakır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sana (kıyamet) saatinin ne zaman kopacağını soruyorlar. De ki: Onun bilgisi Rabbimin katındadır. Onun vaktini O’ndan başkası açığa çıkaramaz. Göklere ve yere o saat ağır gelir. Kıyamet ansızın gelir. Sanki sen onu biliyormuşsun gibi sana soruyorlar. De ki: Onun ilmi sadece Allah katındadır. Ama insanların çoğu (bunu) bilmezler."
+    },
+    {
+      "resource_id": 112,
+      "text": "De ki: \"Allah dilemedikçe ben kendime ne bir yarar veya ne bir zarar verecek güce sahip değilim. Eğer ben, gaybı bilseydim, hayır yapmayı artırırdım ve bana bir kötülük de dokunmazdı. Ben sadece iman eden bir toplum için sadece uyarıcı ve müjdeciyim."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sizi tek bir nefisten yaratan ve ondan da sükûnet/huzur bulacağı eşini yaratan O’dur. O, eşiyle birleştiği zaman eşi hafif bir yük yüklendi. Onunla (bu halde) gidip, geldi. Yükü ağırlaşınca Rab’leri olan Allah’a dua ederek: Eğer bize sağlam/düzgün bir çocuk verirsen sana şükredenlerden oluruz, derler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara (insanoğluna) sağlam/düzgün bir çocuk verince, kendilerine verdiği şey hakkında Allah’a ortaklar koşarlar. Allah, onların ortak koştuklarından yücedir!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Kendileri yaratılmış olup; hiçbir şey yaratamayan şeyleri mi şirk koşuyorlar?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Kendilerine bile yardım edemeyenler, onlara hiç yardım edemezler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onları doğru yola çağırsanız, size uymazlar. Onları çağırsanız da sussanız da sizin için birdir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah’ı bırakıp da dua ettikleriniz sizin gibi kullardır. Eğer doğru söyleyenlerseniz onlara dua edin de size cevap versinler!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Onların yürüyebilecek ayakları mı var, yoksa kendisiyle tutacakları elleri mi, yoksa görebilecek gözleri mi, yoksa işitebilecek kulakları mı var? De ki: Ortak koştuklarınızı çağırın, sonra bana, tuzak kurun ve bana göz açtırmayın bakalım!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Benim velim/yardımcım, kitabı indiren Allah’tır. O, salih kimselerin de velisidir."
+    },
+    {
+      "resource_id": 112,
+      "text": "O’ndan başka dua ettiklerinizin size yardım etmeye güçleri yetmez. Onlar kendilerine bile yardım edemezler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onları doğru yola çağırsanız sizi işitmezler. Onları sana bakar görürsün fakat onlar görmezler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Af yolunu tut, iyiliği emret, cahillerden uzak dur!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Şeytandan sana bir vesvese olursa, hemen Allah’a sığın. Allah her şeyi işitendir. Her şeyi bilendir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Takvalı olanlar kendilerine şeytanın bir vesvesesi dokunduğunda, hemen düşünüp/hatırlayıp (hakkı) görürler."
+    },
+    {
+      "resource_id": 112,
+      "text": "(Şeytanlar) kardeşlerini sapıklıkta sürekli desteklerler ve bundan hiç geri durmazlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onlara bir ayet getirmediğin zaman: \"Kendin bir ayet yapsaydın!\" derler. De ki: Ben, ancak Rabbimden bana vahyolunana uyarım. Bu, Rabbinizden gelen açık delillerdir. İman eden bir toplum için hidayet ve rahmettir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kur’an okunduğu zaman ona kulak verip dinleyin ve susun ki, merhamet edilesiniz."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbini içinden yalvararak ve sesini yükseltmeden, korkarak sabah akşam zikret, gafillerden olma!"
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbinin yanındakiler de O’na kulluk etmekten büyüklenmezler. O’nu tesbih ederler. O’na secde ederler."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "7" }
+  }
+}

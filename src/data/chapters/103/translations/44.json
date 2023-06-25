@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Pe amiază!" },
+    { "resource_id": 44, "text": "Omul este sortit pierzaniei!" },
+    {
+      "resource_id": 44,
+      "text": "Nu şi cei care cred însă, cei care săvârşesc fapte bune, cei care se îndeamnă întru adevăr, cei care se îndeamnă întru răbdare!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "103" }
+  }
+}

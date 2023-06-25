@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 42,
+      "text": "Kiedy ziemia zatrzęsie się swoim trzęsieniem"
+    },
+    { "resource_id": 42, "text": "I kiedy ziemia wyrzuci swoje ciężary," },
+    {
+      "resource_id": 42,
+      "text": "I kiedy człowiek powie: \"Co jest z nią?\","
+    },
+    { "resource_id": 42, "text": "Tego Dnia ona opowie swoją historię," },
+    { "resource_id": 42, "text": "Odpowiednio do tego, co objawił jej Pan." },
+    {
+      "resource_id": 42,
+      "text": "Tego Dnia ludzie będą wychodzili grupami, aby im zostały ukazane ich czyny."
+    },
+    {
+      "resource_id": 42,
+      "text": "I ten, kto uczynił dobra na ciężar pyłku, zobaczy je;"
+    },
+    {
+      "resource_id": 42,
+      "text": "I ten, kto uczynił zła na ciężar pyłku, zobaczy je."
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "99" }
+  }
+}

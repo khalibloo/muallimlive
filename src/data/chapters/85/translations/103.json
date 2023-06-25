@@ -1,0 +1,58 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Pelo céu das constelações!" },
+    { "resource_id": 103, "text": "E pelo dia prometido!" },
+    { "resource_id": 103, "text": "E por uma testemunha e um testemunhado!" },
+    { "resource_id": 103, "text": "Que morram os companheiros do fosso," },
+    { "resource_id": 103, "text": "Do fogo, cheio de combustível." },
+    { "resource_id": 103, "text": "Quando estavam sentados a seu redor," },
+    {
+      "resource_id": 103,
+      "text": "E eram testemunhas do que faziam com os crentes,"
+    },
+    {
+      "resource_id": 103,
+      "text": "E não os censuravam senão por crerem em Allah, O Todo-Poderoso, O Louvável,"
+    },
+    {
+      "resource_id": 103,
+      "text": "De Quem é a soberania dos céus e da terra. E Allah, sobre todas as cousas, é Testemunha."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, os que provaram os crentes e as crentes, em seguida, não se voltaram arrependidos, terão o castigo da Geena, e terão o castigo da Queima."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, os que crêem e fazem as boas obras terão Jardins, abaixo dos quais correm os rios. Esse é o grande triunfo."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, o desferir golpes de teu Senhor é veemente."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, Ele inicia a criação e a repete."
+    },
+    { "resource_id": 103, "text": "E Ele é O Perdoador, O Afetuoso," },
+    { "resource_id": 103, "text": "O Possuidor do Trono, O Glorioso," },
+    { "resource_id": 103, "text": "Fazedor do que Ele quer." },
+    { "resource_id": 103, "text": "Chegou-te o relato dos exércitos?" },
+    { "resource_id": 103, "text": "De Faraó e do povo de Thamud?" },
+    {
+      "resource_id": 103,
+      "text": "Mas os que renegam a Fé estão mergulhados no desmentir."
+    },
+    {
+      "resource_id": 103,
+      "text": "E Allah os está abarcando, por todos os lados."
+    },
+    { "resource_id": 103, "text": "Mas este é um Alcorão glorioso," },
+    { "resource_id": 103, "text": "Registado em tábua custódia." }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "85" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 84,
+      "text": "Perish the two hands of Abū Lahab, and perish he!"
+    },
+    {
+      "resource_id": 84,
+      "text": "Neither his wealth benefited him, nor what he earned."
+    },
+    { "resource_id": 84, "text": "He will soon enter a Fire, full of flames," },
+    {
+      "resource_id": 84,
+      "text": "and his wife as well,-the wicked carrier of firewood."
+    },
+    {
+      "resource_id": 84,
+      "text": "Around her neck, there is (a collar of iron, like) a well-twisted rope."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mufti Taqi Usmani",
+    "author_name": "Mufti Taqi Usmani",
+    "filters": { "resource_id": 84, "chapter_number": "111" }
+  }
+}

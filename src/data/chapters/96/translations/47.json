@@ -1,0 +1,40 @@
+{
+  "translations": [
+    { "resource_id": 47, "text": "Lexo me emrin e Zotit tënd, i cili krijoi." },
+    { "resource_id": 47, "text": "Krijoi njeriun prej gjakut të ngjizur." },
+    { "resource_id": 47, "text": "Lexo për Zotin tënd Bujar!" },
+    { "resource_id": 47, "text": "Është Ai që ua mësoi pendën." },
+    { "resource_id": 47, "text": "Ia mësoi njeriut atë që nuk e dinte." },
+    { "resource_id": 47, "text": "Jo, është e vërtetë se ai i kalon kufintë," },
+    { "resource_id": 47, "text": "Për shkak se e ndien veten të pavarur." },
+    { "resource_id": 47, "text": "Po kthimi është vetëm te Zoti yt." },
+    { "resource_id": 47, "text": "A më tregon atë që pengon," },
+    { "resource_id": 47, "text": "një rob kur ai falet?" },
+    {
+      "resource_id": 47,
+      "text": "ç’mendon kur ai (robi) është në rrugë të drejtë?"
+    },
+    { "resource_id": 47, "text": "Ose ai (rob) urdhëroi për sinqeritet." },
+    {
+      "resource_id": 47,
+      "text": "A më trego nëse ai përgënjeshtron dhe zmbrapset (nga besimi)?"
+    },
+    { "resource_id": 47, "text": "A nuk e di ai se All-llahu e sheh?" },
+    {
+      "resource_id": 47,
+      "text": "Jo, Jo! Nëse nuk tërhiqet, vërtet do ta kapim për flokësh mbi ballin."
+    },
+    { "resource_id": 47, "text": "Floku rrenacak, mëkatar." },
+    { "resource_id": 47, "text": "E ai le t’i thërret ata të vetët." },
+    { "resource_id": 47, "text": "Ne do t’i thërrasim zebanitë." },
+    {
+      "resource_id": 47,
+      "text": "Jo, Jo! Ti mos iu bind atij, vazhdo me sexhde dhe afroju Zotit me të."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "96" }
+  }
+}

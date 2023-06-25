@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Asra yemin olsun." },
+    { "resource_id": 210, "text": "Şüphesiz insanlık hüsran içindedir." },
+    {
+      "resource_id": 210,
+      "text": "Ancak iman edenler ve salih amel yapanlar, birbirlerine hakkı ve sabrı tavsiye edenler müstesna."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "103" }
+  }
+}

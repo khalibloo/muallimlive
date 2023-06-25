@@ -1,0 +1,78 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Han rynket pannen og vendte seg bort" },
+    { "resource_id": 41, "text": "fordi den blinde kom til ham." },
+    { "resource_id": 41, "text": "Men hva vet du, kanskje vil han rense seg," },
+    {
+      "resource_id": 41,
+      "text": "eller komme til ettertanke, så formaningen kan være til gagn for ham?"
+    },
+    { "resource_id": 41, "text": "Men den som er seg selv nok," },
+    { "resource_id": 41, "text": "ham tar du vel imot," },
+    {
+      "resource_id": 41,
+      "text": "skjønt det er ikke ditt ansvar om han ikke renser seg."
+    },
+    { "resource_id": 41, "text": "Men den som kommer til deg full av iver" },
+    { "resource_id": 41, "text": "og frykt," },
+    { "resource_id": 41, "text": "ham overser du." },
+    { "resource_id": 41, "text": "Nei sannelig, dette er en påminnelse," },
+    { "resource_id": 41, "text": "og den som vil, legger seg den på minne," },
+    { "resource_id": 41, "text": "på ærverdige blad," },
+    { "resource_id": 41, "text": "opphøyde og rene," },
+    { "resource_id": 41, "text": "ved skriveres hender," },
+    { "resource_id": 41, "text": "edle og fromme." },
+    {
+      "resource_id": 41,
+      "text": "Død over mennesket! Hvor utakknemlig han er!"
+    },
+    { "resource_id": 41, "text": "Av hva har Han vel skapt ham?" },
+    {
+      "resource_id": 41,
+      "text": "Av en sæddråpe har Han skapt ham, og så fastsatt rammen for ham."
+    },
+    { "resource_id": 41, "text": "Derpå har Han lagt til rette hans vei." },
+    { "resource_id": 41, "text": "Så lar Han ham dø og bringer ham i graven." },
+    { "resource_id": 41, "text": "Derpå, når Han vil, gjenoppvekker Han ham." },
+    {
+      "resource_id": 41,
+      "text": "Nei, sannelig, han har ikke utført det Han påla ham!"
+    },
+    { "resource_id": 41, "text": "Så la da mennesket betrakte sin føde!" },
+    { "resource_id": 41, "text": "Vi har latt vannet strømme rikelig," },
+    { "resource_id": 41, "text": "og så laget Vi små sprekker i jorden." },
+    { "resource_id": 41, "text": "Og i dem har Vi latt korn vokse," },
+    { "resource_id": 41, "text": "og vinstokker og grønnsaker," },
+    { "resource_id": 41, "text": "oliven og palmer" },
+    { "resource_id": 41, "text": "og trefylte haver" },
+    { "resource_id": 41, "text": "og frukt, og fôr," },
+    { "resource_id": 41, "text": "til glede for dere og deres fe." },
+    { "resource_id": 41, "text": "Men når drønnet kommer!" },
+    {
+      "resource_id": 41,
+      "text": "På denne dag flyr mannen bort fra sin bror,"
+    },
+    { "resource_id": 41, "text": "sin mor og sin far," },
+    { "resource_id": 41, "text": "sin hustru og sine barn." },
+    {
+      "resource_id": 41,
+      "text": "På denne dag har enhver en sak som opptar ham fullt."
+    },
+    {
+      "resource_id": 41,
+      "text": "På denne dag vil det være ansikter som stråler,"
+    },
+    { "resource_id": 41, "text": "og ler og er fulle av fryd." },
+    {
+      "resource_id": 41,
+      "text": "På denne dag vil det være ansikter fylt av støv"
+    },
+    { "resource_id": 41, "text": "og dekket av mørke:" },
+    { "resource_id": 41, "text": "Disse er de vantro, de syndefulle." }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "80" }
+  }
+}

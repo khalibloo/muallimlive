@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 26,
+      "text": "Až vítězná pomoc Boží přijde, až spěch se dostaví"
+    },
+    {
+      "resource_id": 26,
+      "text": "a uvidíš lidi vstupovat houfně v náboženství Boží,"
+    },
+    {
+      "resource_id": 26,
+      "text": "pak oslavuj chválou Pána svého a pros jej o odpuštění,vždyť On věru ke kajícníku je milostivý!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "110" }
+  }
+}

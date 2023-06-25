@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Al-Qori'a." },
+    { "resource_id": 55, "text": "Al-Qori'a nima?" },
+    {
+      "resource_id": 55,
+      "text": "Al-Qori'a qandoq narsa ekanligini senga nima bildirdi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "U kunda odamlar to`zib ketgan kapalakka o`xshab qolarlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va tog`lar titilgan junga o`xshab qolarlar."
+    },
+    { "resource_id": 55, "text": "Kimning tarozusi og`ir kelsa..." },
+    { "resource_id": 55, "text": "Bas, u rozilik hayotidadir." },
+    { "resource_id": 55, "text": "Va ammo kimning tarozusi yengil kelsa..." },
+    {
+      "resource_id": 55,
+      "text": "Bas, uning onasi haaviya (do`zax)dir.<sup foot_note=\"169920\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "U (Haaviya) qandoq narsa ekanligini senga nima bildirdi?"
+    },
+    { "resource_id": 55, "text": "U qattiq qizigan o`tdir." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "101" }
+  }
+}

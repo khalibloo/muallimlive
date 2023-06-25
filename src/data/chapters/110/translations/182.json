@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 182,
+      "text": "使者啊！当真主对你的宗教援助到来之时，就是麦加获得解放的时候，"
+    },
+    { "resource_id": 182, "text": "你将看到人们成群结队地皈依伊斯兰教。" },
+    {
+      "resource_id": 182,
+      "text": "你当知道，那是你被派遣的任务接近尾声的标识，你当赞颂你的主，感谢他赐予的胜利和解放，向祂求饶恕。祂确是接受仆人忏悔、饶恕他们的至宥的主，"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "110" }
+  }
+}

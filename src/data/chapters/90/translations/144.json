@@ -1,0 +1,59 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "Ik zweer bij deze stad (Mekka)." },
+    {
+      "resource_id": 144,
+      "text": "En jij (Mohammed) bent een bewoner van deze stad."
+    },
+    {
+      "resource_id": 144,
+      "text": "En bij de vader (Adam) en wat hij verwekte."
+    },
+    {
+      "resource_id": 144,
+      "text": "Voorzeker, Wij hebben de mens tot gezwoeg geschapen."
+    },
+    {
+      "resource_id": 144,
+      "text": "Denk hij dat niemand macht over hem heeft?"
+    },
+    { "resource_id": 144, "text": "Hij zegt: \"Ik heb veel bezit verkwist.\"" },
+    { "resource_id": 144, "text": "Denkt hij dat niemand hem ziet?" },
+    {
+      "resource_id": 144,
+      "text": "Hebben Wij niet voor hem een paar ogen gemaakt?"
+    },
+    { "resource_id": 144, "text": "En een tong en een paar lippen?" },
+    {
+      "resource_id": 144,
+      "text": "En hebben Wij hem niet de twee wegen (van Leiding en dwaling) gewezen?"
+    },
+    { "resource_id": 144, "text": "Was hij maar over de drempel gestapt!" },
+    { "resource_id": 144, "text": "En wat doet jou weten wat de drempel is?" },
+    { "resource_id": 144, "text": "Het vrijlaten van een slaaf." },
+    {
+      "resource_id": 144,
+      "text": "Of het geven van voedsel op een dag van hongersnood."
+    },
+    { "resource_id": 144, "text": "Aan een verwante wees." },
+    { "resource_id": 144, "text": "Of aan een arme behoeftige." },
+    {
+      "resource_id": 144,
+      "text": "En dat hij behoort tot degenen die geloven en elkaar aansporen tot geduld en elkaar aansporen tot barmhartigheid."
+    },
+    {
+      "resource_id": 144,
+      "text": "Zij zijn degenen die de mensen van de rechterzijde zijn (zij zijn de bewoners van het Paradijs)."
+    },
+    {
+      "resource_id": 144,
+      "text": "En degenen die niet in Onze verzen geloven; zij zijn degenen die de mensen van de linkerzijde zijn."
+    },
+    { "resource_id": 144, "text": "Over hen is een omhullend vuur (de Hel)." }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "90" }
+  }
+}

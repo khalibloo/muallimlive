@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 135,
+      "text": "[ای پیامبر،] هنگامی ‌که یاری الله و پیروزی فرا رسد [و فتح مکه رخ دهد]،"
+    },
+    {
+      "resource_id": 135,
+      "text": "و مردم را ببینی که گروه‌گروه در دین الله داخل می‌شوند."
+    },
+    {
+      "resource_id": 135,
+      "text": "پس به ستایش پروردگارت تسبیح گوی و از او آمرزش بخواه؛ همانا او بسیار توبه‌پذیر است."
+    }
+  ],
+  "meta": {
+    "translation_name": "IslamHouse.com",
+    "author_name": "IslamHouse.com",
+    "filters": { "resource_id": 135, "chapter_number": "110" }
+  }
+}

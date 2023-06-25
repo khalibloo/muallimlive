@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Allāhu fi èso tīn àti èso zaetūn búra." },
+    { "resource_id": 125, "text": "Ó tún fi àpáta Sīnīn búra." },
+    { "resource_id": 125, "text": "Ó tún fi ìlú ìfàyàbalẹ̀ yìí búra." },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú A ṣẹ̀dá ènìyàn pẹ̀lú ìrísí tó dára jùlọ."
+    },
+    {
+      "resource_id": 125,
+      "text": "Lẹ́yìn náà, A máa dá a padà sí ìsàlẹ̀ pátápátá (nínú Iná)."
+    },
+    {
+      "resource_id": 125,
+      "text": "Àyàfi àwọn tó gbàgbọ́ ní òdodo, tí wọ́n sì ṣe àwọn iṣẹ́ rere. Nítorí náà, ẹ̀san tí kò níí pin (tí kò níí pẹ̀dín) ń bẹ fún wọn."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ta l’ó tún ń pè ọ́ ní òpùrọ́ nípa Ọjọ́ ẹ̀san lẹ́yìn (ọ̀rọ̀ yìí)?"
+    },
+    {
+      "resource_id": 125,
+      "text": "Ṣé Allāhu kọ́ ni Ẹni t’Ó mọ ẹ̀jọ́ dá jùlọ nínú àwọn adájọ́ ni?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "95" }
+  }
+}

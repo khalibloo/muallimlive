@@ -1,0 +1,71 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Walmursalati AAurfa" },
+    { "resource_id": 57, "text": "FalAAasifati AAasfa" },
+    { "resource_id": 57, "text": "Wannashirati nashra" },
+    { "resource_id": 57, "text": "Falfariqati farqa" },
+    { "resource_id": 57, "text": "Falmulqiyati thikra" },
+    { "resource_id": 57, "text": "AAuthran aw nuthra" },
+    { "resource_id": 57, "text": "Innama tooAAadoona lawaqiAA" },
+    { "resource_id": 57, "text": "Fa-itha annujoomu tumisat" },
+    { "resource_id": 57, "text": "Wa-itha assamao furijat" },
+    { "resource_id": 57, "text": "Wa-itha aljibalu nusifat" },
+    { "resource_id": 57, "text": "Wa-itha arrusulu oqqitat" },
+    { "resource_id": 57, "text": "Li-ayyi yawmin ojjilat" },
+    { "resource_id": 57, "text": "Liyawmi alfasl" },
+    { "resource_id": 57, "text": "Wama adraka ma yawmualfasl" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Alam nuhliki al-awwaleen" },
+    { "resource_id": 57, "text": "Thumma nutbiAAuhumu al-akhireen" },
+    { "resource_id": 57, "text": "Kathalika nafAAalu bilmujrimeen" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Alam nakhluqkum min ma-in maheen" },
+    { "resource_id": 57, "text": "FajaAAalnahu fee qararinmakeen" },
+    { "resource_id": 57, "text": "Ila qadarin maAAloom" },
+    { "resource_id": 57, "text": "Faqadarna faniAAma alqadiroon" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Alam najAAali al-arda kifata" },
+    { "resource_id": 57, "text": "Ahyaan waamwata" },
+    {
+      "resource_id": 57,
+      "text": "WajaAAalna feeha rawasiyashamikhatin waasqaynakum maan furata"
+    },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Intaliqoo ila ma kuntumbihi tukaththiboon" },
+    { "resource_id": 57, "text": "Intaliqoo ila thillinthee thalathi shuAAab" },
+    { "resource_id": 57, "text": "La thaleelin walayughnee mina allahab" },
+    { "resource_id": 57, "text": "Innaha tarmee bishararin kalqasr" },
+    { "resource_id": 57, "text": "Kaannahu jimalatun sufr" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Hatha yawmu la yantiqoon" },
+    { "resource_id": 57, "text": "Wala yu/thanu lahum fayaAAtathiroon" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    {
+      "resource_id": 57,
+      "text": "Hatha yawmu alfasli jamaAAnakumwal-awwaleen"
+    },
+    { "resource_id": 57, "text": "Fa-in kana lakum kaydun fakeedoon" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Inna almuttaqeena fee thilalinwaAAuyoon" },
+    { "resource_id": 57, "text": "Wafawakiha mimma yashtahoon" },
+    {
+      "resource_id": 57,
+      "text": "Kuloo washraboo hanee-an bimakuntum taAAmaloon"
+    },
+    { "resource_id": 57, "text": "Inna kathalika najzee almuhsineen" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    {
+      "resource_id": 57,
+      "text": "Kuloo watamattaAAoo qaleelan innakummujrimoon"
+    },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Wa-itha qeela lahumu irkaAAoo layarkaAAoon" },
+    { "resource_id": 57, "text": "Waylun yawma-ithin lilmukaththibeen" },
+    { "resource_id": 57, "text": "Fabi-ayyi hadeethin baAAdahuyu/minoon" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "77" }
+  }
+}

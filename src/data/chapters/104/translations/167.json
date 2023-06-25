@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 167, "text": "Woe to every backbiter, derider" },
+    { "resource_id": 167, "text": "who accumulates wealth and counts it." },
+    {
+      "resource_id": 167,
+      "text": "He thinks that his wealth has made him eternal."
+    },
+    {
+      "resource_id": 167,
+      "text": "Never! He will certainly be thrown into the Crusher."
+    },
+    {
+      "resource_id": 167,
+      "text": "And what may let you know what the Crusher is?"
+    },
+    { "resource_id": 167, "text": "It is Allah's kindled fire," },
+    { "resource_id": 167, "text": "that will peep into the hearts." },
+    { "resource_id": 167, "text": "It will be closed on them," },
+    { "resource_id": 167, "text": "in outstretched columns." }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "104" }
+  }
+}

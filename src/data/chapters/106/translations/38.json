@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 38, "text": "Makapantag ko kiyasinanad o manga Qoraysh," },
+    {
+      "resource_id": 38,
+      "text": "So kiyasinanad iran ko kathotogalin ko kapann´nggaw niyan ago so kakhakayaw niyan,"
+    },
+    {
+      "resource_id": 38,
+      "text": "Na zoasoata iran so Kadnan angkai a Baytollah,"
+    },
+    {
+      "resource_id": 38,
+      "text": "So migay kiran sa pangn´ngkn phoon ko kaor, go miyakasarig kiran phoon ko kalk."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "106" }
+  }
+}

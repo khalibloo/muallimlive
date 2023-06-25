@@ -1,0 +1,40 @@
+{
+  "audio_files": [
+    { "verse_key": "76:1", "url": "AbdulBaset/Murattal/mp3/076001.mp3" },
+    { "verse_key": "76:2", "url": "AbdulBaset/Murattal/mp3/076002.mp3" },
+    { "verse_key": "76:3", "url": "AbdulBaset/Murattal/mp3/076003.mp3" },
+    { "verse_key": "76:4", "url": "AbdulBaset/Murattal/mp3/076004.mp3" },
+    { "verse_key": "76:5", "url": "AbdulBaset/Murattal/mp3/076005.mp3" },
+    { "verse_key": "76:6", "url": "AbdulBaset/Murattal/mp3/076006.mp3" },
+    { "verse_key": "76:7", "url": "AbdulBaset/Murattal/mp3/076007.mp3" },
+    { "verse_key": "76:8", "url": "AbdulBaset/Murattal/mp3/076008.mp3" },
+    { "verse_key": "76:9", "url": "AbdulBaset/Murattal/mp3/076009.mp3" },
+    { "verse_key": "76:10", "url": "AbdulBaset/Murattal/mp3/076010.mp3" },
+    { "verse_key": "76:11", "url": "AbdulBaset/Murattal/mp3/076011.mp3" },
+    { "verse_key": "76:12", "url": "AbdulBaset/Murattal/mp3/076012.mp3" },
+    { "verse_key": "76:13", "url": "AbdulBaset/Murattal/mp3/076013.mp3" },
+    { "verse_key": "76:14", "url": "AbdulBaset/Murattal/mp3/076014.mp3" },
+    { "verse_key": "76:15", "url": "AbdulBaset/Murattal/mp3/076015.mp3" },
+    { "verse_key": "76:16", "url": "AbdulBaset/Murattal/mp3/076016.mp3" },
+    { "verse_key": "76:17", "url": "AbdulBaset/Murattal/mp3/076017.mp3" },
+    { "verse_key": "76:18", "url": "AbdulBaset/Murattal/mp3/076018.mp3" },
+    { "verse_key": "76:19", "url": "AbdulBaset/Murattal/mp3/076019.mp3" },
+    { "verse_key": "76:20", "url": "AbdulBaset/Murattal/mp3/076020.mp3" },
+    { "verse_key": "76:21", "url": "AbdulBaset/Murattal/mp3/076021.mp3" },
+    { "verse_key": "76:22", "url": "AbdulBaset/Murattal/mp3/076022.mp3" },
+    { "verse_key": "76:23", "url": "AbdulBaset/Murattal/mp3/076023.mp3" },
+    { "verse_key": "76:24", "url": "AbdulBaset/Murattal/mp3/076024.mp3" },
+    { "verse_key": "76:25", "url": "AbdulBaset/Murattal/mp3/076025.mp3" },
+    { "verse_key": "76:26", "url": "AbdulBaset/Murattal/mp3/076026.mp3" },
+    { "verse_key": "76:27", "url": "AbdulBaset/Murattal/mp3/076027.mp3" },
+    { "verse_key": "76:28", "url": "AbdulBaset/Murattal/mp3/076028.mp3" },
+    { "verse_key": "76:29", "url": "AbdulBaset/Murattal/mp3/076029.mp3" },
+    { "verse_key": "76:30", "url": "AbdulBaset/Murattal/mp3/076030.mp3" },
+    { "verse_key": "76:31", "url": "AbdulBaset/Murattal/mp3/076031.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "AbdulBaset AbdulSamad",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "76" }
+  }
+}

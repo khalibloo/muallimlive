@@ -1,0 +1,41 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "When the earth will be shaken with a mighty shaking,<sup foot_note=\"182808\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and the earth will throw up all her burdens,<sup foot_note=\"182809\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and man will cry out: “What is the matter with her?”<sup foot_note=\"182810\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "On that Day it will relate all her news,<sup foot_note=\"182811\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "for your Lord will have commanded her (to do so)."
+    },
+    {
+      "resource_id": 95,
+      "text": "On that Day people will go forth in varying states<sup foot_note=\"182812\">1</sup> so that they be shown their deeds.<sup foot_note=\"182813\">2</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "So, whoever does an atom's weight of good shall see it;"
+    },
+    {
+      "resource_id": 95,
+      "text": "and whoever does an atom's weight of evil shall see it.<sup foot_note=\"182814\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "99" }
+  }
+}

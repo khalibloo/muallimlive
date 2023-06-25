@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 238, "text": "(اي پيغمبر) چؤ ته الله اڪيلو آھي." },
+    { "resource_id": 238, "text": "الله بي احتياج آھي." },
+    { "resource_id": 238, "text": "نڪي ڄڻيائين، ۽ نڪي ڄڻيو ويو." },
+    { "resource_id": 238, "text": "۽ سندس برابر ڪوبه ڪونھي." }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "112" }
+  }
+}

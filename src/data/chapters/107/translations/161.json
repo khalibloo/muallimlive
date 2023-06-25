@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 161,
+      "text": "তুমি কি তাকে দেখেছ, যে কর্মফল (দিবসকে) অস্বীকার করে?"
+    },
+    {
+      "resource_id": 161,
+      "text": "সে তো সেই (লোক) যে ইয়াতীমকে ধাক্কা দিয়ে সরিয়ে দেয়,"
+    },
+    { "resource_id": 161, "text": "এবং মিসকীনকে অন্ন দিতে উৎসাহ দেয় না" },
+    { "resource_id": 161, "text": "অতএব দুর্ভোগ সে সব নামায আদায়কারীর" },
+    { "resource_id": 161, "text": "যারা নিজেদের নামাযের ব্যাপারে উদাসীন," },
+    { "resource_id": 161, "text": "যারা লোক দেখানোর জন্য তা করে," },
+    {
+      "resource_id": 161,
+      "text": "এবং প্রয়োজনীয় গৃহসামগ্রী দানের ছোট খাট সাহায্য করা থেকেও বিরত থাকে।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Taisirul Quran",
+    "author_name": "Tawheed Publication",
+    "filters": { "resource_id": 161, "chapter_number": "107" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 175,
+      "text": "Mi smo ti, o Poslaniče, dali mnogo dobro, a u njega se ubraja i rijeka Kevser u Džennetu."
+    },
+    {
+      "resource_id": 175,
+      "text": "Budi zahvalan na tim blagodatima, klanjajući samo Njemu i prinoseći žrtvu, za razliku od mušrika koji su žrtve prinosili svojim kipovima."
+    },
+    {
+      "resource_id": 175,
+      "text": "Onaj ko tebe mrzi uskraćen je svakog dobra, bće bez spomena, a i ako se spomene, to će biti po zlu."
+    }
+  ],
+  "meta": {
+    "translation_name": "Bosnian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 175, "chapter_number": "108" }
+  }
+}

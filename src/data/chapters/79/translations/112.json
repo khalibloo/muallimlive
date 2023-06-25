@@ -1,0 +1,109 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Yemin olsun şiddetle söküp alanlara…" },
+    { "resource_id": 112, "text": "Kolayca çekip çıkaranlara…" },
+    { "resource_id": 112, "text": "(Gökyüzünde) Yüzdükçe yüzenlere…" },
+    { "resource_id": 112, "text": "Yarıştıkça yarışanlara…" },
+    { "resource_id": 112, "text": "Ve işleri düzene sokanlara..." },
+    {
+      "resource_id": 112,
+      "text": "O gün (birinci üflemeyle) sarsılacak olan sarsılır."
+    },
+    { "resource_id": 112, "text": "Bir diğeri onu izler." },
+    { "resource_id": 112, "text": "O gün kalpler korkudan çarpar." },
+    { "resource_id": 112, "text": "Gözleri korku ile yere eğilmiştir." },
+    {
+      "resource_id": 112,
+      "text": "Derler ki: \"Biz eski halimize mi döndürüleceğiz?\" derler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Çürüyüp ufalanmış kemikler haline geldiğimiz zaman mı?"
+    },
+    { "resource_id": 112, "text": "Öyleyse bu dönüş hüsrandır, derler." },
+    { "resource_id": 112, "text": "O, ancak tek bir çığlıktır." },
+    {
+      "resource_id": 112,
+      "text": "İşte o zaman onlar, hemen (kendilerini mahşerde) buluverirler."
+    },
+    { "resource_id": 112, "text": "Musa’nın haberi sana geldi mi?" },
+    {
+      "resource_id": 112,
+      "text": "Hani, Rabbi ona, mukaddes Tuva’da seslenmişti."
+    },
+    { "resource_id": 112, "text": "Firavun’a git, çünkü o azdı." },
+    { "resource_id": 112, "text": "Ve de ki: Arınmaya istekli misin?" },
+    {
+      "resource_id": 112,
+      "text": "Seni Rabbine ileteyim de O’na karşı derinden korkasın!"
+    },
+    { "resource_id": 112, "text": "Ona en büyük ayeti gösterdi." },
+    { "resource_id": 112, "text": "Fakat o yalanladı ve isyan etti." },
+    { "resource_id": 112, "text": "Sonra arkasını dönüp, koşmaya başladı." },
+    { "resource_id": 112, "text": "Toplayıp şöyle seslendi:" },
+    { "resource_id": 112, "text": "Sizin en yüce rabbiniz benim, dedi." },
+    {
+      "resource_id": 112,
+      "text": "Allah da onu dünya ve ahiret azabıyla yakaladı."
+    },
+    {
+      "resource_id": 112,
+      "text": "İşte bunda gerçekten korkan kimse için bir ibret vardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "(Ölümden sonra) Sizi mi (yeniden) yaratmak daha güçtür, yoksa göğü mü? Onu bina etti."
+    },
+    { "resource_id": 112, "text": "Onun tavanını yükseltti ve düzenledi." },
+    {
+      "resource_id": 112,
+      "text": "Gecesini karanlık yaptı, gündüzünü aydınlığa çıkardı."
+    },
+    { "resource_id": 112, "text": "Ve yeri bundan sonra yaydı." },
+    { "resource_id": 112, "text": "Ondan suyunu ve otlağını çıkardı." },
+    { "resource_id": 112, "text": "Dağları da yerleştirdi." },
+    {
+      "resource_id": 112,
+      "text": "Sizin ve hayvanlarınızın yararlanması için…"
+    },
+    {
+      "resource_id": 112,
+      "text": "En büyük kıyamet (ikinci üfleniş) geldiği zaman,"
+    },
+    {
+      "resource_id": 112,
+      "text": "İnsanın yapıp ettiklerini hatırlayacağı gün,"
+    },
+    {
+      "resource_id": 112,
+      "text": "Cehennem, görenler için apaçık bir şekilde gösterilir."
+    },
+    { "resource_id": 112, "text": "Kim azdıysa," },
+    { "resource_id": 112, "text": "Dünya hayatını tercih ettiyse," },
+    { "resource_id": 112, "text": "Cehennem onun varacağı barınaktır." },
+    {
+      "resource_id": 112,
+      "text": "Ama, kim de Rabbinin makamından korkup, kendisini heveslerine uymaktan alıkoymuşsa,"
+    },
+    { "resource_id": 112, "text": "Cennet de onun barınağıdır." },
+    {
+      "resource_id": 112,
+      "text": "Sana kıyametin ne zaman gelip, çatacağını soruyorlar."
+    },
+    { "resource_id": 112, "text": "Sen onu nereden bileceksin." },
+    { "resource_id": 112, "text": "Rabbine aittir, onun sonucu.." },
+    {
+      "resource_id": 112,
+      "text": "Sen ancak ondan korkan kimseye bir uyarıcısın."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onu gördükleri gün, onlar sanki, sadece bir akşam veya bir kuşluk vakti süresince (dünyada) kalmış olurlar."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "79" }
+  }
+}

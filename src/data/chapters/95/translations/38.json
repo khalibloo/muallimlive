@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 38, "text": "Ibt ko Tin ago so Zayton," },
+    { "resource_id": 38, "text": "Go so palaw a Torisina," },
+    {
+      "resource_id": 38,
+      "text": "Go giya ungkai a ingd a (Makkah a) panarigan,"
+    },
+    {
+      "resource_id": 38,
+      "text": "Ka sabnsabnar a inadn Ami so manosiya sii ko lbi a mapiya a bontal,"
+    },
+    {
+      "resource_id": 38,
+      "text": "Oriyan iyan na pakakasowin Ami skaniyan ko lbi a mababa ko manga bababa,"
+    },
+    {
+      "resource_id": 38,
+      "text": "Inonta so miyamaratiyaya, go pinggalbk iran so manga pipiya: Ka adn a bagian iran a balas a di pthaman."
+    },
+    {
+      "resource_id": 38,
+      "text": "Na antawaa i maphakiongkir iyan rka ko oriyan aya, so kokoman?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Ba di so Allah i lbi a Maontol i kokoman ko manga kokoman?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "95" }
+  }
+}

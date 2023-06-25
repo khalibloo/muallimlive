@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Ibihano bikomeye bizaba kuri buri wese unegura abandi, usebanya,"
+    },
+    { "resource_id": 774, "text": "Urundanya imitungo agahora ayibara." },
+    {
+      "resource_id": 774,
+      "text": "Yibwira ko umutungo we uzatuma abaho ubuziraherezo!"
+    },
+    {
+      "resource_id": 774,
+      "text": "Oya! Mu by’ukuri azajugunywa mu muriro witwa Hutwama (ushwanyaguza)."
+    },
+    { "resource_id": 774, "text": "Ni iki kizakumenyesha Hutwama?" },
+    { "resource_id": 774, "text": "Ni umuriro wa Allah wenyegejwe," },
+    {
+      "resource_id": 774,
+      "text": "(Uwo muriro) uzajya uzamuka ugere ku mitima (y’abazaba bawurimo),"
+    },
+    { "resource_id": 774, "text": "Mu by’ukuri bazaba bawufungiwemo," },
+    {
+      "resource_id": 774,
+      "text": "(Baziritse) ku nkingi ndende (kugira ngo batawusohokamo)."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "104" }
+  }
+}

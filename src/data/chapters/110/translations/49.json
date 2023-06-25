@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 49,
+      "text": "Itakapo kuja nusura ya Mwenyezi Mungu na ushindi,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na ukaona watu wanaingia katika Dini ya Mwenyezi Mungu kwa makundi,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Zitakase sifa za Mola wako Mlezi, na umwombe msamaha; hakika Yeye ndiye anaye pokea toba."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "110" }
+  }
+}

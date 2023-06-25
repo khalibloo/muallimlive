@@ -1,0 +1,119 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Yemin olsun, ardı ardına gönderilenlere." },
+    { "resource_id": 210, "text": "Şiddetle esip savuranlara." },
+    { "resource_id": 210, "text": "Yaydıkça yayanlara." },
+    { "resource_id": 210, "text": "Ayırdıkça ayıranlara." },
+    { "resource_id": 210, "text": "Zikri getirip, bırakanlara." },
+    { "resource_id": 210, "text": "Gerek özür için olsun, gerek uyarı için." },
+    {
+      "resource_id": 210,
+      "text": "Şüphe yok ki, size vaadedilen mutlaka gerçekleşecektir."
+    },
+    { "resource_id": 210, "text": "Yıldızların ışığı söndüğü zaman." },
+    { "resource_id": 210, "text": "Gök yarıldığında." },
+    { "resource_id": 210, "text": "Dağlar parçamparça olup savrulduğunda." },
+    {
+      "resource_id": 210,
+      "text": "Peygamberlere ümmetleri hakkında şahitlik vakitleri bildirildiği zaman."
+    },
+    { "resource_id": 210, "text": "Bu, hangi güne ertelenmiş?" },
+    { "resource_id": 210, "text": "Ayrım (hüküm) gününe (ertelenmiştir)." },
+    {
+      "resource_id": 210,
+      "text": "Hüküm gününün ne olduğunu sen ne bileceksin?"
+    },
+    { "resource_id": 210, "text": "O gün vay yalanlayanların haline!" },
+    { "resource_id": 210, "text": "Biz, öncekileri helak etmedik mi?" },
+    {
+      "resource_id": 210,
+      "text": "Sonra arkadan gelenleri de onların arkasına takacağız."
+    },
+    { "resource_id": 210, "text": "Biz, günahkârlara işte böyle yaparız." },
+    { "resource_id": 210, "text": "O gün vay yalanlayanların haline!" },
+    { "resource_id": 210, "text": "Sizi basit bir sudan yaratmadık mı?" },
+    { "resource_id": 210, "text": "Ve onu sağlam bir yere yerleştirmedik mi?" },
+    { "resource_id": 210, "text": "Belli bir süreye kadar." },
+    {
+      "resource_id": 210,
+      "text": "Buna gücümüz yeter. Ne güzel güç yetirenleriz."
+    },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Biz, yeryüzünü bir toplanma yeri kılmadık mı?"
+    },
+    { "resource_id": 210, "text": "Diri olanları da, ölü olanları da." },
+    {
+      "resource_id": 210,
+      "text": "Orada yüksek dağlar yaratıp size tatlı su içirmedik mi?"
+    },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Yalanlamış olduğunuza (azaba) doğru yürüyün bakalım!"
+    },
+    {
+      "resource_id": 210,
+      "text": "Üç kollu (ateşin) gölgesine doğru yürüyün!"
+    },
+    { "resource_id": 210, "text": "Ne gölgelendirir, ne alevden korur." },
+    {
+      "resource_id": 210,
+      "text": "O, her biri saraylar gibi olan kıvılcımlar saçar."
+    },
+    { "resource_id": 210, "text": "Her biri sarı develer gibidir." },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    { "resource_id": 210, "text": "Bu, onların konuşamayacakları bir gündür." },
+    {
+      "resource_id": 210,
+      "text": "Onların özür dilemelerine dahi izin verilmez."
+    },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Bu, ayırma (hüküm) günüdür. Sizi ve evvelkileri bir araya toplarız."
+    },
+    {
+      "resource_id": 210,
+      "text": "Eğer bir tuzağınız varsa, haydi bana karşı tuzak kurun!"
+    },
+    { "resource_id": 210, "text": "O gün, yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz ki takva sahipleri, gölgelerde pınar başlarındadır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ve canlarının çekip-arzu ettiği meyveler (arasındadırlar)."
+    },
+    {
+      "resource_id": 210,
+      "text": "Yaptığınız ameller sebebi ile afiyetle yiyin, için."
+    },
+    {
+      "resource_id": 210,
+      "text": "Biz, iyilik yapanları işte böyle ödüllendiririz."
+    },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Yiyin ve biraz yararlanın; muhakkak ki siz günahkârlarsınız."
+    },
+    { "resource_id": 210, "text": "O gün, yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Onlara; “Rükû edin!” denildiği zaman rükû etmezlerdi."
+    },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Onlar bundan (Kur'an'dan) sonra artık hangi söze iman edecekler?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "77" }
+  }
+}

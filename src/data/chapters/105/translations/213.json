@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 213,
+      "text": "আপনি কি দেখেন নি [১] আপনার রব হাতির অধিপতিদের প্রতি কী করেছিলেন?"
+    },
+    {
+      "resource_id": 213,
+      "text": "তিনি কি তাদের কৌশল ব্যর্থতায় পর্যবসিত করে দেননি?"
+    },
+    {
+      "resource_id": 213,
+      "text": "আর [১] তাদের বিরুদ্ধে তিনি ঝাঁকে ঝাঁকে পাখি পাঠান [২]"
+    },
+    {
+      "resource_id": 213,
+      "text": "যারা তাদের উপর শক্ত পোড়ামাটির কঙ্কর নিক্ষেপ করে [১]।"
+    },
+    {
+      "resource_id": 213,
+      "text": "অতঃপর তিনি তাদেরকে ভক্ষিত তৃণ-সদৃশ করেন [১]।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abu Bakr Muhammad Zakaria",
+    "author_name": "Dr. Abu Bakr Muhammad Zakaria",
+    "filters": { "resource_id": 213, "chapter_number": "105" }
+  }
+}

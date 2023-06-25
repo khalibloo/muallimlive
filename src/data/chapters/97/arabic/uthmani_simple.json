@@ -1,0 +1,30 @@
+{
+  "verses": [
+    {
+      "id": 6126,
+      "verse_key": "97:1",
+      "text_uthmani_simple": "انا انزلنه فى ليلة القدر"
+    },
+    {
+      "id": 6127,
+      "verse_key": "97:2",
+      "text_uthmani_simple": "وما ادرىك ما ليلة القدر"
+    },
+    {
+      "id": 6128,
+      "verse_key": "97:3",
+      "text_uthmani_simple": "ليلة القدر خير من الف شهر"
+    },
+    {
+      "id": 6129,
+      "verse_key": "97:4",
+      "text_uthmani_simple": "تنزل الملئكة والروح فيها باذن ربهم من كل امر"
+    },
+    {
+      "id": 6130,
+      "verse_key": "97:5",
+      "text_uthmani_simple": "سلم هى حتى مطلع الفجر"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "97" } }
+}

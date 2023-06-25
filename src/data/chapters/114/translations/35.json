@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "言え，「ご加護を乞い願う，人間の主，" },
+    { "resource_id": 35, "text": "人間の王，" },
+    { "resource_id": 35, "text": "人間の神に。" },
+    { "resource_id": 35, "text": "こっそりと忍び込み，囁く者の悪から。" },
+    { "resource_id": 35, "text": "それが人間の胸に囁きかける，" },
+    { "resource_id": 35, "text": "ジン（幽精）であろうと，人間であろうと。」" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "114" }
+  }
+}

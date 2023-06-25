@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "Ashe, ba ka ga yadda Ubangijin ka Ya aikata ga mutanen giwa<sup foot_note=132769>1</sup> ba?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Ashe, bai sanya kaidin su a cikin ɓata ba?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma Ya sako, a kansu, wasu tsuntsãye, jama'a-jama'a."
+    },
+    {
+      "resource_id": 115,
+      "text": "Suna jifar su da wasu duwatsu na yumɓun wuta."
+    },
+    {
+      "resource_id": 115,
+      "text": "Sa'an nan Ya sanya su kamar karmami wanda aka cinye?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "105" }
+  }
+}

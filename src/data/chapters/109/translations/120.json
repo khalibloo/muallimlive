@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 120, "text": "কোৱা, ‘হে কাফিৰসকল !" },
+    {
+      "resource_id": 120,
+      "text": "তোমালোকে যাৰ ইবাদত কৰা, মই তাৰ ইবাদত নকৰোঁ,"
+    },
+    {
+      "resource_id": 120,
+      "text": "আৰু মই যাৰ ইবাদত কৰোঁ, তোমালোকে তেওঁৰ ইবাদতকাৰী নহয়,"
+    },
+    {
+      "resource_id": 120,
+      "text": "আৰু মই তাৰ ইবাদতকাৰী নহয় যাৰ ইবাদত তোমালোকে কৰা।"
+    },
+    {
+      "resource_id": 120,
+      "text": "আৰু মই যাৰ ইবাদত কৰোঁ, তোমালোকে তেওঁৰ ইবাদতকাৰী নহয়,"
+    },
+    {
+      "resource_id": 120,
+      "text": "তোমালোকৰ দ্বীন তোমালোকৰ বাবে, আৰু মোৰ দ্বীন মোৰ বাবে।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "author_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "filters": { "resource_id": 120, "chapter_number": "109" }
+  }
+}

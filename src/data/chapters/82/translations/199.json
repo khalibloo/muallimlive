@@ -1,0 +1,64 @@
+{
+  "translations": [
+    { "resource_id": 199, "text": "Cuando el cielo se resquebraje;" },
+    {
+      "resource_id": 199,
+      "text": "cuando los astros se dispersen (abandonando sus órbitas);"
+    },
+    { "resource_id": 199, "text": "cuando los mares se entremezclen;" },
+    { "resource_id": 199, "text": "cuando las tumbas expulsen a los muertos;" },
+    {
+      "resource_id": 199,
+      "text": "entonces, todos sabrán las buenas y las malas acciones que realizaron."
+    },
+    {
+      "resource_id": 199,
+      "text": "¡Oh, hombre (que niegas la verdad)!, ¿qué te sedujo y te apartó de tu Generoso Señor,"
+    },
+    {
+      "resource_id": 199,
+      "text": "Aquel que te creó, te modeló con perfección y armonía"
+    },
+    { "resource_id": 199, "text": "y te concedió la apariencia que quiso?" },
+    {
+      "resource_id": 199,
+      "text": "Y, sin embargo, niegan el Día del Juico Final."
+    },
+    { "resource_id": 199, "text": "Y, en verdad, tienen (ángeles) guardianes" },
+    {
+      "resource_id": 199,
+      "text": "que son honorables, registran (todas sus acciones)"
+    },
+    { "resource_id": 199, "text": "y saben lo que hacen." },
+    {
+      "resource_id": 199,
+      "text": "Ciertamente, los creyentes piadosos gozarán de las delicias (del Paraíso);"
+    },
+    {
+      "resource_id": 199,
+      "text": "mientras que los pecadores incrédulos estarán en el fuego (del Infierno),"
+    },
+    {
+      "resource_id": 199,
+      "text": "en el que entrarán el Día del Juicio Final"
+    },
+    { "resource_id": 199, "text": "y del que no podrán salir (jamás)." },
+    {
+      "resource_id": 199,
+      "text": "¿Y sabes lo que es el Día del Juicio Final?"
+    },
+    {
+      "resource_id": 199,
+      "text": "¿Sabes lo que realmente es el Día del Juicio Final?"
+    },
+    {
+      "resource_id": 199,
+      "text": "Es un día en que nadie podrá hacer nada por ayudar a otro y Al-lah decidirá sobre todos los asuntos."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "82" }
+  }
+}

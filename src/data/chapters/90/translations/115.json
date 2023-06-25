@@ -1,0 +1,62 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "Bã sai Na yi rantsuwa da wannan gari<sup foot_note=132752>1</sup> ba."
+    },
+    {
+      "resource_id": 115,
+      "text": "Alhãli kai kanã mai sauka a cikin wannan gari."
+    },
+    { "resource_id": 115, "text": "Da mahaifi da abin da ya haifa." },
+    { "resource_id": 115, "text": "Lalle ne, Mun halitta mutum cikin wahala." },
+    {
+      "resource_id": 115,
+      "text": "Kõ yanã zaton bãbu wani mai iya sãmun iko, a kansa?"
+    },
+    {
+      "resource_id": 115,
+      "text": "Yana cẽwa \"Na<sup foot_note=132753>1</sup> halakarda dũkiya mai yawa,\""
+    },
+    {
+      "resource_id": 115,
+      "text": "Shin, yana zaton cewa wani bai gan shi ba?"
+    },
+    { "resource_id": 115, "text": "Shin, ba Mu sanya masa idãnu biyu ba?" },
+    { "resource_id": 115, "text": "Da harshe, da leɓɓa biyu." },
+    {
+      "resource_id": 115,
+      "text": "Kuma ba Mu shiryar da shi ga hanyõyi<sup foot_note=132754>1</sup> biyu ba?"
+    },
+    { "resource_id": 115, "text": "To, don mene ne bai shiga Aƙabã ba?" },
+    {
+      "resource_id": 115,
+      "text": "Kuma mene ne ya sanar da kai abin da ake cẽ wa Aƙabã?"
+    },
+    { "resource_id": 115, "text": "Ita ce fansar wuyan bãwa." },
+    {
+      "resource_id": 115,
+      "text": "Ko kuwa ciyarwa, a cikin yini ma'abũcin yunwa."
+    },
+    { "resource_id": 115, "text": "Ga marãya ma'abũcin zumunta." },
+    { "resource_id": 115, "text": "Ko kuwa wani matalauci ma'abũcin turɓãya." },
+    {
+      "resource_id": 115,
+      "text": "Sa'an nan kuma ya kasance daga waɗanda suka yi ĩmãni, kuma suka yi wa jũna wasiyya da yin haƙuri, kuma suka yi wa jũna wasiyya da tausayi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Waɗannan ne ma'abũta albarka<sup foot_note=132755>1</sup>"
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma waɗanda suka kãfirta da ãyõyin Mu, sũ ne ma'abũta shu'umci<sup foot_note=132756>1</sup>"
+    },
+    { "resource_id": 115, "text": "A kansu akwai wata wuta abar kullewa." }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "90" }
+  }
+}

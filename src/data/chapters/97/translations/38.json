@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Mataan! a Skami na initoron Ami (a Qor´an aya) sii ko gagawii a sslaan."
+    },
+    {
+      "resource_id": 38,
+      "text": "Na antawaa i miyakandao rka o antonaa so gagawii a sslaan?"
+    },
+    {
+      "resource_id": 38,
+      "text": "So gagawii a sslaan na thomo a di so sanggibo a olanolan."
+    },
+    {
+      "resource_id": 38,
+      "text": "Pthoron roo so manga malaikat, ago so Roh, sabap sa idin o Kadnan iran, makapantag ko oman i sogoan:"
+    },
+    {
+      "resource_id": 38,
+      "text": "Kalilintad skaniyan taman ko kasbang o Fajr!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "97" }
+  }
+}

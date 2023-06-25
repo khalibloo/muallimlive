@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "VAD ANSER du om den [människa] som förnekar Domen?"
+    },
+    {
+      "resource_id": 48,
+      "text": "Det är samme man som motar undan den faderlöse"
+    },
+    {
+      "resource_id": 48,
+      "text": "och som inte uppmanar [någon] att ge dem som lider nöd att äta."
+    },
+    { "resource_id": 48, "text": "Det skall gå dem illa som ber" },
+    { "resource_id": 48, "text": "utan att deras hjärtan deltar i bönen," },
+    { "resource_id": 48, "text": "de som vill ses [och berömmas]" },
+    {
+      "resource_id": 48,
+      "text": "men som vägrar [sin medmänniska] även den minsta hjälp!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "107" }
+  }
+}

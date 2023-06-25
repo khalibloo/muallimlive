@@ -1,0 +1,59 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Mana shu shahar bilan qasam." },
+    { "resource_id": 55, "text": "Sen muqim turgan bu shahar-la." },
+    {
+      "resource_id": 55,
+      "text": "Va Volid va undan tarqagan valadlar bilan qasam."
+    },
+    {
+      "resource_id": 55,
+      "text": "Batahqiq, Biz insonni mashaqqatda yaratdik."
+    },
+    {
+      "resource_id": 55,
+      "text": "U inson unga hech kimning kuchi yetmas, deb hisoblarmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "U: «Ko`plab mol-dunyo nafaqa qildim», deydir.<sup foot_note=\"169918\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "U o`zini birov ko`rmadi, deb hisoblaydirmi?"
+    },
+    { "resource_id": 55, "text": "Biz unga ikki ko`zni." },
+    { "resource_id": 55, "text": "Va tilni va ikki labni bermadikmi?" },
+    {
+      "resource_id": 55,
+      "text": "Va Biz uni ikki yo`lga yo`llab qo`ymadikmi?"
+    },
+    { "resource_id": 55, "text": "Bas, u dovon oshib o`tmadi." },
+    {
+      "resource_id": 55,
+      "text": "Dovon qandoq narsa ekanini senga nima bildirdi?"
+    },
+    { "resource_id": 55, "text": "U qul ozod qilishdir." },
+    { "resource_id": 55, "text": "Yoki ocharchilik kunida taom berishdir." },
+    { "resource_id": 55, "text": "Qarindosh yetimga." },
+    { "resource_id": 55, "text": "Yoki tuproqqa qorilgan miskinga." },
+    {
+      "resource_id": 55,
+      "text": "So`ngra, iymon keltirganlar va bir-birini sabrga, mehr-shafqatga chaqirganlar bo`lsa..."
+    },
+    { "resource_id": 55, "text": "Ana o`shalar o`ng tomon egalaridir." },
+    {
+      "resource_id": 55,
+      "text": "Oyatlarimizga kufr keltirganlar chap tomon egalaridir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ularni chiqib bo`lmaydigan o`t-olov o`rab olgandir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "90" }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Při úsvitu" },
+    { "resource_id": 26, "text": "a při nocích deseti" },
+    { "resource_id": 26, "text": "a při spárovaném a jedinečném" },
+    { "resource_id": 26, "text": "a při noci, když ubíhá!" },
+    {
+      "resource_id": 26,
+      "text": "Což není v tom pro člověka rozvážného přísaha?"
+    },
+    { "resource_id": 26, "text": "Neviděls, co učinil Pán tvůj ´Ádovcům" },
+    { "resource_id": 26, "text": "Iramu,jenž proslul sloupy svými," },
+    {
+      "resource_id": 26,
+      "text": "jimž nic podobného nebylo stvořeno v žádné zemi,"
+    },
+    {
+      "resource_id": 26,
+      "text": "a kmeni Thamúd,jenž skály v údolí prorážel,"
+    },
+    { "resource_id": 26, "text": "a Faraónovi, který na kůly narážel," },
+    { "resource_id": 26, "text": "a těm, kdož v zemích vzpurní byli" },
+    { "resource_id": 26, "text": "a pohoršení v nich pak šířili?" },
+    {
+      "resource_id": 26,
+      "text": "Však Pán tvůj proti nim důtky trestající rozpoutal,"
+    },
+    { "resource_id": 26, "text": "neb Pán tvůj neustále na číhané stál." },
+    {
+      "resource_id": 26,
+      "text": "Co člověka se týče,když Pán jeho jej zkoušce podrobuje a štědrosti a dobrodiním jeho zahrnuje, pak on hovoří: \"Pán můj mi poctu prokazuje."
+    },
+    {
+      "resource_id": 26,
+      "text": "Když naopak jej zkouší tím, že příděl obživy mu odměřuje, pak on hovoří: \"Pán můj mě ponižuje.\""
+    },
+    { "resource_id": 26, "text": "Však pozor! Vždyť vy sirotky nectíte," },
+    {
+      "resource_id": 26,
+      "text": "ani k nakrmení nuzných se navzájem nevybízíte"
+    },
+    { "resource_id": 26, "text": "však dědictví slabých nenasytně pohlcujete" },
+    { "resource_id": 26, "text": "a jen bohatství v lásce vášnivé máte." },
+    {
+      "resource_id": 26,
+      "text": "Však pozor! Až země bude rozdrcena ranou za ranou"
+    },
+    { "resource_id": 26, "text": "a přijde Pán tvůj i andělé, řada za řadou," },
+    {
+      "resource_id": 26,
+      "text": "a až v ten den bude peklo předvedeno,tehdy si člověk připomene - však co bude mu připomínání platno?"
+    },
+    {
+      "resource_id": 26,
+      "text": "I zvolá: \"Kéž bych měl na život budoucí něco předem připraveno!\""
+    },
+    {
+      "resource_id": 26,
+      "text": "V ten den takovým trestem nebude nikdo potrestán"
+    },
+    { "resource_id": 26, "text": "a nikdo takovými okovy spoután!" },
+    { "resource_id": 26, "text": "A ty, duše usmířená," },
+    {
+      "resource_id": 26,
+      "text": "vrať se k Pánu svému v zalíbení a spokojená!"
+    },
+    { "resource_id": 26, "text": "Vstup mezi služebníky mé" },
+    { "resource_id": 26, "text": "a vejdi do zahrady mé!" }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "89" }
+  }
+}

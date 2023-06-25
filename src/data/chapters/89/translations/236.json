@@ -1,0 +1,60 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "S tafrara!" },
+    { "resource_id": 236, "text": "S mraw wavan!" },
+    { "resource_id": 236, "text": "S wayugan akked waryugan!" },
+    { "resource_id": 236, "text": "S yiv, ma ilêa!" },
+    { "resource_id": 236, "text": "Day maççi dagi d tagallit i lfahem?" },
+    {
+      "resource_id": 236,
+      "text": "Day ur twalav ara amek Ixdem Mass ik, i Âad?"
+    },
+    { "resource_id": 236, "text": "Iôam m tgejda;" },
+    { "resource_id": 236, "text": "ur tepwaxleq temtilt is, di tmura." },
+    { "resource_id": 236, "text": "U Tamud, di te$zut, i i$zan tiéôa." },
+    { "resource_id": 236, "text": "Ferâun, bu ibudiden." },
+    { "resource_id": 236, "text": "Wid ijuôen di tmurt." },
+    { "resource_id": 236, "text": "Degs ssugten lefsad" },
+    { "resource_id": 236, "text": "Iwwet iten Mass ik, s ujekwav uâaqeb." },
+    { "resource_id": 236, "text": "Ih, Mass ik d Amâassi." },
+    {
+      "resource_id": 236,
+      "text": "Amdan ma Ijeôôeb it Mass is, I$at it, Iga yas ccan, ad yini: \"d Mass iw iyi Iâuzzen\"."
+    },
+    {
+      "resource_id": 236,
+      "text": "Wanag, ma Ijeôôeb it, I$at it kan s lmizan, ad yini: \"d Mass iw iyi Igelzen\"."
+    },
+    { "resource_id": 236, "text": "Xaîi! Agujil, ur t tepâuzzum!" },
+    {
+      "resource_id": 236,
+      "text": "Ur teppemtebbatem ar ume$bun, a t tecceççem!"
+    },
+    { "resource_id": 236, "text": "Teppeppem lweôt, têellqem!" },
+    { "resource_id": 236, "text": "Têemlem ayla, tayri war tilas." },
+    { "resource_id": 236, "text": "Xaîi! Ma temsawi tmurt, yal amsawi," },
+    {
+      "resource_id": 236,
+      "text": "u Iusa d Mass ik, akked lmalayek, d idurra,"
+    },
+    {
+      "resource_id": 236,
+      "text": "assen, a d ters Loahennama. Assen, a d ismekti umdan. Acu ar as d iawi usmekti?"
+    },
+    {
+      "resource_id": 236,
+      "text": "Ad yini: \"a ssexv iw! A lemmer hegga$ i tmeddurt iw\"!"
+    },
+    { "resource_id": 236, "text": "Aâaqeb is, assen, ur t isâadda yiwen." },
+    { "resource_id": 236, "text": "Yiwen ur ipwaqqen akken ipwaqqen." },
+    { "resource_id": 236, "text": "A yiman illan di laman," },
+    { "resource_id": 236, "text": "u$al ar Mass ik, d amôavi ôuvan!" },
+    { "resource_id": 236, "text": "Ekcem ger imdanen iW!" },
+    { "resource_id": 236, "text": "Ekcem di Loennet iW!" }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "89" }
+  }
+}

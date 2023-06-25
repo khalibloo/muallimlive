@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "朝（の輝き）において，" },
+    { "resource_id": 35, "text": "静寂な夜において（誓う）。" },
+    {
+      "resource_id": 35,
+      "text": "主は，あなたを見捨てられず，憎まれた訳でもない。"
+    },
+    {
+      "resource_id": 35,
+      "text": "本当に来世（将来）は，あなたにとって現世（現在）より，もっと良いのである。"
+    },
+    {
+      "resource_id": 35,
+      "text": "やがて主はあなたの満足するものを御授けになる。"
+    },
+    {
+      "resource_id": 35,
+      "text": "かれは孤児のあなたを見付けられ，庇護なされたではないか。"
+    },
+    {
+      "resource_id": 35,
+      "text": "かれはさ迷っていたあなたを見付けて，導きを与え。"
+    },
+    {
+      "resource_id": 35,
+      "text": "また貧しいあなたを見付けて，裕福になされたではないか。"
+    },
+    { "resource_id": 35, "text": "だから孤児を虐げてはならない。" },
+    { "resource_id": 35, "text": "請う者を揆ね付けてはならない。" },
+    { "resource_id": 35, "text": "あなたの主の恩恵を宣べ伝えるがいい。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "93" }
+  }
+}

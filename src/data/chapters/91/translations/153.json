@@ -1,0 +1,48 @@
+{
+  "translations": [
+    { "resource_id": 153, "text": "Per il sole e il suo fulgore," },
+    { "resource_id": 153, "text": "per la luna quando lo segue," },
+    {
+      "resource_id": 153,
+      "text": "per il giorno quando rischiara [la terra],"
+    },
+    { "resource_id": 153, "text": "per la notte quando la copre," },
+    { "resource_id": 153, "text": "per il cielo e Ciò Che lo ha edificato," },
+    { "resource_id": 153, "text": "per la terra e Ciò Che l’ha distesa," },
+    {
+      "resource_id": 153,
+      "text": "per l’anima e Ciò Che l’ha formata armoniosamente"
+    },
+    {
+      "resource_id": 153,
+      "text": "ispirandole empietà e devozione <a class=f><sup foot_note=160638>1</sup></a> ."
+    },
+    { "resource_id": 153, "text": "Ha successo invero chi la purifica," },
+    { "resource_id": 153, "text": "è perduto chi la corrompe." },
+    {
+      "resource_id": 153,
+      "text": "I Thamùd, per arroganza, tacciarono di menzogna,"
+    },
+    {
+      "resource_id": 153,
+      "text": "quando si alzò il più miserabile <a class=f><sup foot_note=160639>1</sup></a> di loro."
+    },
+    {
+      "resource_id": 153,
+      "text": "Il Messaggero di Allah aveva detto loro: «[Questa] è la cammella di Allah, [abbia] il suo turno per bere» <a class=f><sup foot_note=160640>1</sup></a> ."
+    },
+    {
+      "resource_id": 153,
+      "text": "Lo tacciarono di impostura e le tagliarono i garretti: li annientò il loro Signore per il loro peccato,"
+    },
+    {
+      "resource_id": 153,
+      "text": "senza temere [di ciò] alcuna conseguenza. <a class=f><sup foot_note=160641>1</sup></a> Mostrandole il modo di distinguere la via del bene da quella del male. <a class=f><sup foot_note=160642>2</sup></a> Il loro capo, che secondo la tradizione si chiamava Qudàr ibn Salif, si offrì di uccidere la cammella (Tabarì xxx, 214). <a class=f><sup foot_note=160643>3</sup></a> Il profeta Şâlih aveva stabilito che la cammella che Allah (gloria a Lui l’Altissimo) aveva miracolosamente tratto da una roccia avesse diritto di bere un giorno su due all’unica fonte di cui disponevano i Thamùd. In seguito, però, quelli rinnegarono il patto e uccisero la cammella, suscitando la collera e il castigo di Allah. Vedi anche XI, e la nota."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "91" }
+  }
+}

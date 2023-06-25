@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Zar grudi tvoje nismo prostranim učinili," },
+    { "resource_id": 126, "text": "i breme tvoje s tebe skinuli," },
+    { "resource_id": 126, "text": "koje je pleća tvoja tištilo," },
+    { "resource_id": 126, "text": "i spomen na tebe visoko uzdigli!" },
+    { "resource_id": 126, "text": "Ta, zaista, s mukom je i last," },
+    { "resource_id": 126, "text": "zaista, s mukom je i last!" },
+    { "resource_id": 126, "text": "A kad završiš, molitvi se predaj" },
+    { "resource_id": 126, "text": "i samo se Gospodaru svome obraćaj!" }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "94" }
+  }
+}

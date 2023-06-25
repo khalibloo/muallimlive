@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 785,
+      "text": "آیا دیدی آن شخصی را که جزای اعمال را تکذیب می‌کند."
+    },
+    {
+      "resource_id": 785,
+      "text": "پس آن شخص همان است که یتیم را (اهانت کرده) از خود میراند."
+    },
+    {
+      "resource_id": 785,
+      "text": "(و مردم را) بر طعام‌دادن مسکین ترغیب نمی‌کند."
+    },
+    { "resource_id": 785, "text": "پس وای بر آن نمازگزارانی که،" },
+    { "resource_id": 785, "text": "از نماز خود غافل‌اند." },
+    { "resource_id": 785, "text": "آنانی که خودنمایی می‌کنند." },
+    {
+      "resource_id": 785,
+      "text": "و از دادن وسایل (یا حاجت به همسایه) خودداری می‌کنند."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "107" }
+  }
+}

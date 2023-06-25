@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 83, "text": "Juro por la higuera y el olivo," },
+    { "resource_id": 83, "text": "por el monte Sinaí," },
+    { "resource_id": 83, "text": "y por esta ciudad segura [La Meca]." },
+    {
+      "resource_id": 83,
+      "text": "Que he creado al ser humano con la mejor conformación."
+    },
+    {
+      "resource_id": 83,
+      "text": "Sin embargo, [a quien rechace el Mensaje] lo degradaré al rango más bajo."
+    },
+    {
+      "resource_id": 83,
+      "text": "En cambio, a los creyentes que obran rectamente les tengo reservada una recompensa inagotable."
+    },
+    { "resource_id": 83, "text": "¿Cómo puedes desmentir el Día del Juicio?" },
+    {
+      "resource_id": 83,
+      "text": "¿Acaso no es Dios el más Justo de los jueces?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "95" }
+  }
+}

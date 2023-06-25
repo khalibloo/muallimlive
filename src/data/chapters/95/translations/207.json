@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "By the Figtree and the Olive," },
+    { "resource_id": 207, "text": "Mount Sinai" },
+    { "resource_id": 207, "text": "and this safe countryside (Mecca)," },
+    {
+      "resource_id": 207,
+      "text": "We have created man with the finest stature;"
+    },
+    {
+      "resource_id": 207,
+      "text": "then reduced him to the dregs on the bottom,"
+    },
+    {
+      "resource_id": 207,
+      "text": "except for those who believe and perform honorable deeds-their earnings shall never be withheld from them."
+    },
+    {
+      "resource_id": 207,
+      "text": "What would make you reject religion later on?"
+    },
+    {
+      "resource_id": 207,
+      "text": "Is Allah (God) not the Wisest of those who judge?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "95" }
+  }
+}

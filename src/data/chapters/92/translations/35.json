@@ -1,0 +1,54 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "覆われる夜において，" },
+    { "resource_id": 35, "text": "輝く昼において，" },
+    { "resource_id": 35, "text": "男女を創造された御方において（誓う）。" },
+    {
+      "resource_id": 35,
+      "text": "あなたがたの努力は，本当に多様（な結末）である。"
+    },
+    { "resource_id": 35, "text": "それで施しをなし，主を畏れる者，" },
+    { "resource_id": 35, "text": "また至善を実証する者には，" },
+    { "resource_id": 35, "text": "われは（至福への道を）容易にしよう。" },
+    { "resource_id": 35, "text": "だが強欲で，自惚れている者，" },
+    { "resource_id": 35, "text": "至善を拒否する者には，" },
+    { "resource_id": 35, "text": "われは（苦難への道を）容易にするであろう。" },
+    {
+      "resource_id": 35,
+      "text": "かれが滅び去ろうとする時，その富はかれに役立たないであろう。"
+    },
+    { "resource_id": 35, "text": "本当に導きはわれにあり，" },
+    { "resource_id": 35, "text": "来世も現世もわれに属する。" },
+    {
+      "resource_id": 35,
+      "text": "それでわれは燃え盛る業火に就いてあなたがたに警告した。"
+    },
+    {
+      "resource_id": 35,
+      "text": "最も不幸な者でない限り，誰もそれで焼かれない。"
+    },
+    {
+      "resource_id": 35,
+      "text": "それは（真理を）嘘であると言い背き去った者。"
+    },
+    {
+      "resource_id": 35,
+      "text": "だが（主のために）忠誠の限りを尽した者は，それから救われ，"
+    },
+    { "resource_id": 35, "text": "その富を施し，自分を清める。" },
+    { "resource_id": 35, "text": "また誰からも，慈悲の報酬を求めない。" },
+    {
+      "resource_id": 35,
+      "text": "一生懸命に至高者，主の御顔を請うだけである。"
+    },
+    {
+      "resource_id": 35,
+      "text": "やがて，かれは（十分に）満足出来るであろう。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "92" }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "translations": [
+    { "resource_id": 83, "text": "Juro por el Sol cuando resplandece," },
+    { "resource_id": 83, "text": "por la Luna cuando lo refleja," },
+    { "resource_id": 83, "text": "por el día cuando fulgura," },
+    {
+      "resource_id": 83,
+      "text": "por la noche cuando cubre con su oscuridad,"
+    },
+    {
+      "resource_id": 83,
+      "text": "por el cosmos y la creación maravillosa que hay en él,"
+    },
+    { "resource_id": 83, "text": "por la Tierra y su vasta extensión," },
+    { "resource_id": 83, "text": "por el alma y su armonía," },
+    {
+      "resource_id": 83,
+      "text": "[Dios] le enseñó [al ser humano] a distinguir entre el pecado y la conciencia de Dios."
+    },
+    {
+      "resource_id": 83,
+      "text": "¡Será bienaventurado quien purifique su alma [apartándola de los pecados],"
+    },
+    {
+      "resource_id": 83,
+      "text": "pero será un desventurado quien la abandone a sus pasiones!"
+    },
+    {
+      "resource_id": 83,
+      "text": "El pueblo de Zamud rechazó el Mensaje por soberbia."
+    },
+    {
+      "resource_id": 83,
+      "text": "Cuando el más opresor de ellos se prestó para matar a la camella."
+    },
+    {
+      "resource_id": 83,
+      "text": "El Mensajero de Dios [Sálih] los previno: “No maten a la camella de Dios [enviada como milagro] y déjenla abrevar libremente”."
+    },
+    {
+      "resource_id": 83,
+      "text": "Pero desmintieron al Mensajero y mataron a la camella. Entonces, su Señor los destruyó a todos, por lo que cometieron, con un castigo arrasador,"
+    },
+    { "resource_id": 83, "text": "sin temor por la magnitud de Su castigo." }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "91" }
+  }
+}

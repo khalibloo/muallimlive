@@ -1,0 +1,65 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "61:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061001.mp3"
+    },
+    {
+      "verse_key": "61:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061002.mp3"
+    },
+    {
+      "verse_key": "61:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061003.mp3"
+    },
+    {
+      "verse_key": "61:4",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061004.mp3"
+    },
+    {
+      "verse_key": "61:5",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061005.mp3"
+    },
+    {
+      "verse_key": "61:6",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061006.mp3"
+    },
+    {
+      "verse_key": "61:7",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061007.mp3"
+    },
+    {
+      "verse_key": "61:8",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061008.mp3"
+    },
+    {
+      "verse_key": "61:9",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061009.mp3"
+    },
+    {
+      "verse_key": "61:10",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061010.mp3"
+    },
+    {
+      "verse_key": "61:11",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061011.mp3"
+    },
+    {
+      "verse_key": "61:12",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061012.mp3"
+    },
+    {
+      "verse_key": "61:13",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061013.mp3"
+    },
+    {
+      "verse_key": "61:14",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/061014.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mahmoud Khalil Al-Husary",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "61" }
+  }
+}

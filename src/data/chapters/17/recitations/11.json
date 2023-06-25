@@ -1,0 +1,453 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "17:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017001.mp3"
+    },
+    {
+      "verse_key": "17:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017002.mp3"
+    },
+    {
+      "verse_key": "17:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017003.mp3"
+    },
+    {
+      "verse_key": "17:4",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017004.mp3"
+    },
+    {
+      "verse_key": "17:5",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017005.mp3"
+    },
+    {
+      "verse_key": "17:6",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017006.mp3"
+    },
+    {
+      "verse_key": "17:7",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017007.mp3"
+    },
+    {
+      "verse_key": "17:8",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017008.mp3"
+    },
+    {
+      "verse_key": "17:9",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017009.mp3"
+    },
+    {
+      "verse_key": "17:10",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017010.mp3"
+    },
+    {
+      "verse_key": "17:11",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017011.mp3"
+    },
+    {
+      "verse_key": "17:12",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017012.mp3"
+    },
+    {
+      "verse_key": "17:13",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017013.mp3"
+    },
+    {
+      "verse_key": "17:14",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017014.mp3"
+    },
+    {
+      "verse_key": "17:15",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017015.mp3"
+    },
+    {
+      "verse_key": "17:16",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017016.mp3"
+    },
+    {
+      "verse_key": "17:17",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017017.mp3"
+    },
+    {
+      "verse_key": "17:18",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017018.mp3"
+    },
+    {
+      "verse_key": "17:19",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017019.mp3"
+    },
+    {
+      "verse_key": "17:20",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017020.mp3"
+    },
+    {
+      "verse_key": "17:21",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017021.mp3"
+    },
+    {
+      "verse_key": "17:22",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017022.mp3"
+    },
+    {
+      "verse_key": "17:23",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017023.mp3"
+    },
+    {
+      "verse_key": "17:24",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017024.mp3"
+    },
+    {
+      "verse_key": "17:25",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017025.mp3"
+    },
+    {
+      "verse_key": "17:26",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017026.mp3"
+    },
+    {
+      "verse_key": "17:27",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017027.mp3"
+    },
+    {
+      "verse_key": "17:28",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017028.mp3"
+    },
+    {
+      "verse_key": "17:29",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017029.mp3"
+    },
+    {
+      "verse_key": "17:30",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017030.mp3"
+    },
+    {
+      "verse_key": "17:31",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017031.mp3"
+    },
+    {
+      "verse_key": "17:32",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017032.mp3"
+    },
+    {
+      "verse_key": "17:33",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017033.mp3"
+    },
+    {
+      "verse_key": "17:34",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017034.mp3"
+    },
+    {
+      "verse_key": "17:35",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017035.mp3"
+    },
+    {
+      "verse_key": "17:36",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017036.mp3"
+    },
+    {
+      "verse_key": "17:37",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017037.mp3"
+    },
+    {
+      "verse_key": "17:38",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017038.mp3"
+    },
+    {
+      "verse_key": "17:39",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017039.mp3"
+    },
+    {
+      "verse_key": "17:40",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017040.mp3"
+    },
+    {
+      "verse_key": "17:41",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017041.mp3"
+    },
+    {
+      "verse_key": "17:42",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017042.mp3"
+    },
+    {
+      "verse_key": "17:43",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017043.mp3"
+    },
+    {
+      "verse_key": "17:44",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017044.mp3"
+    },
+    {
+      "verse_key": "17:45",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017045.mp3"
+    },
+    {
+      "verse_key": "17:46",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017046.mp3"
+    },
+    {
+      "verse_key": "17:47",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017047.mp3"
+    },
+    {
+      "verse_key": "17:48",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017048.mp3"
+    },
+    {
+      "verse_key": "17:49",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017049.mp3"
+    },
+    {
+      "verse_key": "17:50",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017050.mp3"
+    },
+    {
+      "verse_key": "17:51",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017051.mp3"
+    },
+    {
+      "verse_key": "17:52",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017052.mp3"
+    },
+    {
+      "verse_key": "17:53",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017053.mp3"
+    },
+    {
+      "verse_key": "17:54",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017054.mp3"
+    },
+    {
+      "verse_key": "17:55",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017055.mp3"
+    },
+    {
+      "verse_key": "17:56",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017056.mp3"
+    },
+    {
+      "verse_key": "17:57",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017057.mp3"
+    },
+    {
+      "verse_key": "17:58",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017058.mp3"
+    },
+    {
+      "verse_key": "17:59",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017059.mp3"
+    },
+    {
+      "verse_key": "17:60",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017060.mp3"
+    },
+    {
+      "verse_key": "17:61",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017061.mp3"
+    },
+    {
+      "verse_key": "17:62",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017062.mp3"
+    },
+    {
+      "verse_key": "17:63",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017063.mp3"
+    },
+    {
+      "verse_key": "17:64",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017064.mp3"
+    },
+    {
+      "verse_key": "17:65",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017065.mp3"
+    },
+    {
+      "verse_key": "17:66",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017066.mp3"
+    },
+    {
+      "verse_key": "17:67",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017067.mp3"
+    },
+    {
+      "verse_key": "17:68",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017068.mp3"
+    },
+    {
+      "verse_key": "17:69",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017069.mp3"
+    },
+    {
+      "verse_key": "17:70",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017070.mp3"
+    },
+    {
+      "verse_key": "17:71",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017071.mp3"
+    },
+    {
+      "verse_key": "17:72",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017072.mp3"
+    },
+    {
+      "verse_key": "17:73",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017073.mp3"
+    },
+    {
+      "verse_key": "17:74",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017074.mp3"
+    },
+    {
+      "verse_key": "17:75",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017075.mp3"
+    },
+    {
+      "verse_key": "17:76",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017076.mp3"
+    },
+    {
+      "verse_key": "17:77",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017077.mp3"
+    },
+    {
+      "verse_key": "17:78",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017078.mp3"
+    },
+    {
+      "verse_key": "17:79",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017079.mp3"
+    },
+    {
+      "verse_key": "17:80",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017080.mp3"
+    },
+    {
+      "verse_key": "17:81",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017081.mp3"
+    },
+    {
+      "verse_key": "17:82",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017082.mp3"
+    },
+    {
+      "verse_key": "17:83",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017083.mp3"
+    },
+    {
+      "verse_key": "17:84",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017084.mp3"
+    },
+    {
+      "verse_key": "17:85",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017085.mp3"
+    },
+    {
+      "verse_key": "17:86",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017086.mp3"
+    },
+    {
+      "verse_key": "17:87",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017087.mp3"
+    },
+    {
+      "verse_key": "17:88",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017088.mp3"
+    },
+    {
+      "verse_key": "17:89",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017089.mp3"
+    },
+    {
+      "verse_key": "17:90",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017090.mp3"
+    },
+    {
+      "verse_key": "17:91",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017091.mp3"
+    },
+    {
+      "verse_key": "17:92",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017092.mp3"
+    },
+    {
+      "verse_key": "17:93",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017093.mp3"
+    },
+    {
+      "verse_key": "17:94",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017094.mp3"
+    },
+    {
+      "verse_key": "17:95",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017095.mp3"
+    },
+    {
+      "verse_key": "17:96",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017096.mp3"
+    },
+    {
+      "verse_key": "17:97",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017097.mp3"
+    },
+    {
+      "verse_key": "17:98",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017098.mp3"
+    },
+    {
+      "verse_key": "17:99",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017099.mp3"
+    },
+    {
+      "verse_key": "17:100",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017100.mp3"
+    },
+    {
+      "verse_key": "17:101",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017101.mp3"
+    },
+    {
+      "verse_key": "17:102",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017102.mp3"
+    },
+    {
+      "verse_key": "17:103",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017103.mp3"
+    },
+    {
+      "verse_key": "17:104",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017104.mp3"
+    },
+    {
+      "verse_key": "17:105",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017105.mp3"
+    },
+    {
+      "verse_key": "17:106",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017106.mp3"
+    },
+    {
+      "verse_key": "17:107",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017107.mp3"
+    },
+    {
+      "verse_key": "17:108",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017108.mp3"
+    },
+    {
+      "verse_key": "17:109",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017109.mp3"
+    },
+    {
+      "verse_key": "17:110",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017110.mp3"
+    },
+    {
+      "verse_key": "17:111",
+      "url": "//mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/017111.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed al-Tablawi",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "17" }
+  }
+}

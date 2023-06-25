@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 141, "text": "Karena kebiasaan orang-orang Quraisy," },
+    {
+      "resource_id": 141,
+      "text": "(Yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas.<sup foot_note=155993>1</sup>"
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka`bah),"
+    },
+    {
+      "resource_id": 141,
+      "text": "Yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari rasa ketakutan."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "106" }
+  }
+}

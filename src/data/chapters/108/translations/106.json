@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "Баккъалла а, Оха делира хьуна /хIай Мухьаммад/ дуккха диканаш<sup foot_note=114487>1</sup>."
+    },
+    {
+      "resource_id": 106,
+      "text": "Ахь ламаз де хьуо Кхиош-кхобуш волчунна‚ /гIурбанна/ бежна<sup foot_note=114488>1</sup>урс а хьакха."
+    },
+    {
+      "resource_id": 106,
+      "text": "Баккъалла а, хьуна халахетийтинарг− иза ву хьуна цIога<sup foot_note=114489>1</sup>доцург."
+    }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "108" }
+  }
+}

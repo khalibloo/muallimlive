@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 84, "text": "Say, “The truth is that Allah is One." },
+    { "resource_id": 84, "text": "Allah is Besought of all, needing none." },
+    {
+      "resource_id": 84,
+      "text": "He neither begot anyone, nor was he begotten."
+    },
+    { "resource_id": 84, "text": "And equal to Him has never been any one.”" }
+  ],
+  "meta": {
+    "translation_name": "Mufti Taqi Usmani",
+    "author_name": "Mufti Taqi Usmani",
+    "filters": { "resource_id": 84, "chapter_number": "112" }
+  }
+}

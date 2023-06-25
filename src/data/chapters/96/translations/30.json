@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Lue julki Herrasi nimeen, joka on luonut," },
+    { "resource_id": 30, "text": "luonut ihmisen hyytyneestä verestä." },
+    { "resource_id": 30, "text": "Lue! Sillä Herrasi on ylevin;" },
+    { "resource_id": 30, "text": "Hän, joka on opettanut käyttämään kynää," },
+    {
+      "resource_id": 30,
+      "text": "opettanut ihmiselle sen, mistä tämä ei ennen tiennyt."
+    },
+    { "resource_id": 30, "text": "Totisesti ihminen tekee syntiä," },
+    {
+      "resource_id": 30,
+      "text": "koska hän kuvittelee elävänsä omista ansioistaan,"
+    },
+    {
+      "resource_id": 30,
+      "text": "mutta totisesti, tie johtaa hänet jälleen Herransa luo."
+    },
+    { "resource_id": 30, "text": "Oletko nähnyt sitä, joka kieltää" },
+    { "resource_id": 30, "text": "(Jumalan) palvelijaa rukoilemasta?" },
+    {
+      "resource_id": 30,
+      "text": "Oletko nähnyt, seuraako hän itse johdatusta?"
+    },
+    { "resource_id": 30, "text": "Tai kehoittaako hän jumalanpelkoon?" },
+    {
+      "resource_id": 30,
+      "text": "Oletko huomannut hänen väittävän totuutta valheeksi ja kääntävän sille selkänsä?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Eikö hän tiedä, että Jumala totisesti kaikki näkee?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Ellei hän herkeä sellaisesta, iskemme häntä otsaan,"
+    },
+    { "resource_id": 30, "text": "valheelliseen, syntiseen otsaan." },
+    { "resource_id": 30, "text": "Kutsukoon hän sitten apureitansa!" },
+    { "resource_id": 30, "text": "Me kutsumme myös soturimme." },
+    {
+      "resource_id": 30,
+      "text": "Ei! Älä tottele häntä, vaan nöyrry ja lähesty Jumalaa!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "96" }
+  }
+}

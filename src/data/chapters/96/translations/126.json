@@ -1,0 +1,43 @@
+{
+  "translations": [
+    {
+      "resource_id": 126,
+      "text": "Čitaj, u ime Gospodara tvoga, koji stvara,"
+    },
+    { "resource_id": 126, "text": "stvara čovjeka od ugruška!" },
+    { "resource_id": 126, "text": "Čitaj, plemenit je Gospodar tvoj," },
+    { "resource_id": 126, "text": "koji poučava peru," },
+    { "resource_id": 126, "text": "koji čovjeka poučava onome što ne zna." },
+    { "resource_id": 126, "text": "Uistinu, čovjek se uzobijesti" },
+    { "resource_id": 126, "text": "čim se neovisnim osjeti," },
+    {
+      "resource_id": 126,
+      "text": "a Gospodaru tvome će se, doista, svi vratiti!"
+    },
+    { "resource_id": 126, "text": "Vidje li ti onoga koji brani" },
+    { "resource_id": 126, "text": "robu da molitvu obavi?" },
+    {
+      "resource_id": 126,
+      "text": "Reci mi ako on misli da je na Pravome putu,"
+    },
+    { "resource_id": 126, "text": "ili ako bogobojaznost naređuje?!" },
+    { "resource_id": 126, "text": "reci mi, ako on poriče i glavu okreće –" },
+    { "resource_id": 126, "text": "zar on ne zna da Allah sve vidi?" },
+    {
+      "resource_id": 126,
+      "text": "Ne valja to! Ako se ne okani, dohvatićemo ga za kiku,"
+    },
+    { "resource_id": 126, "text": "kiku lažnu i grješnu," },
+    { "resource_id": 126, "text": "pa neka on pozove društvo svoje –" },
+    { "resource_id": 126, "text": "Mi ćemo pozvati zebanije." },
+    {
+      "resource_id": 126,
+      "text": "Ne valja to! Ti njega ne slušaj, već molitvu obavljaj i nastoj da se Gospodaru svome približiš!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "96" }
+  }
+}

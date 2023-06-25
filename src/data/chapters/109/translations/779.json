@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Dis : « Vous mécréants qui avez rejeté la foi !"
+    },
+    { "resource_id": 779, "text": "Je n’adore pas les dieux que vous adorez," },
+    { "resource_id": 779, "text": "et vous n’adorez pas le Dieu que j’adore." },
+    {
+      "resource_id": 779,
+      "text": "Je ne vénérerai jamais vos fausses divinités,"
+    },
+    { "resource_id": 779, "text": "et vous ne vénérerez jamais mon Seigneur." },
+    { "resource_id": 779, "text": "Vous suivez votre culte et moi le mien. »" }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "109" }
+  }
+}

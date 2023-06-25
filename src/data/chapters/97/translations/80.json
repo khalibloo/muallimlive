@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 80,
+      "text": "തീര്‍ച്ചയായും നാം ഈ ഖുര്‍ആനിനെ വിധി നിര്‍ണായക രാവില്‍ അവതരിപ്പിച്ചു."
+    },
+    {
+      "resource_id": 80,
+      "text": "വിധി നിര്‍ണായക രാവ് എന്തെന്ന് നിനക്കെന്തറിയാം?"
+    },
+    {
+      "resource_id": 80,
+      "text": "വിധി നിര്‍ണായക രാവ് ആയിരം മാസത്തെക്കാള്‍ മഹത്തരമാണ്."
+    },
+    {
+      "resource_id": 80,
+      "text": "ആ രാവില്‍ മലക്കുകളും ജിബ്രീലും ഇറങ്ങി വരുന്നു. സമസ്ത കാര്യങ്ങളെയും സംബന്ധിച്ച തങ്ങളുടെ നാഥന്റെ ഉത്തരവുമായി."
+    },
+    {
+      "resource_id": 80,
+      "text": "പുലരൊളി വിരിയും വരെ അത് പ്രശാന്തമായിരിക്കും."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Karakunnu and Vanidas Elayavoor",
+    "author_name": "Muhammad Karakunnu and Vanidas Elayavoor",
+    "filters": { "resource_id": 80, "chapter_number": "97" }
+  }
+}

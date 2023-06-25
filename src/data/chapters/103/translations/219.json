@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 219, "text": "시간을 두고 맹세코" },
+    { "resource_id": 219, "text": "진실로 인간은 손실 속에 있노라." },
+    {
+      "resource_id": 219,
+      "text": "그러나 (하나님과 사도를) 믿고 선행을 실천하며 서로에게 진리를 권유하고 서로에게 인내를 권하는 자들은 예외라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "103" }
+  }
+}

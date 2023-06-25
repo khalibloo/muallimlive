@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Indeed, We have granted you ˹O Prophet˺ abundant goodness.<sup foot_note=77642>1</sup>"
+    },
+    {
+      "resource_id": 131,
+      "text": "So pray and sacrifice to your Lord ˹alone˺."
+    },
+    {
+      "resource_id": 131,
+      "text": "Only the one who hates you is truly cut off ˹from any goodness˺."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "108" }
+  }
+}

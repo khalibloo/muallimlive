@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " De: “Sığınıram insanların Rəb­binə," },
+    { "resource_id": 75, "text": " insanların Hökmdarına," },
+    { "resource_id": 75, "text": " insanların məbuduna!" },
+    {
+      "resource_id": 75,
+      "text": " Vəsvəsə verənin, Allahın adı çəki­ləndə isə hövlündən geri çəki­lən şeyta­nın şərindən."
+    },
+    {
+      "resource_id": 75,
+      "text": " O şeytan ki, insanların ürək­lərinə vəsvəsə salır,"
+    },
+    { "resource_id": 75, "text": " cinlərdən də olur, insan­lar­dan da!”" }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "114" }
+  }
+}

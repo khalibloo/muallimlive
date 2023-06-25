@@ -1,0 +1,68 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Ya ayyuha almuzzammil" },
+    { "resource_id": 57, "text": "Qumi allayla illa qaleela" },
+    { "resource_id": 57, "text": "Nisfahu awi onqus minhu qaleela" },
+    {
+      "resource_id": 57,
+      "text": "Aw zid AAalayhi warattili alqur-anatarteela"
+    },
+    { "resource_id": 57, "text": "Inna sanulqee AAalayka qawlan thaqeela" },
+    {
+      "resource_id": 57,
+      "text": "Inna nashi-ata allayli hiya ashaddu wat-anwaaqwamu qeela"
+    },
+    { "resource_id": 57, "text": "Inna laka fee annahari sabhantaweela" },
+    {
+      "resource_id": 57,
+      "text": "Wathkuri isma rabbikawatabattal ilayhi tabteela"
+    },
+    {
+      "resource_id": 57,
+      "text": "Rabbu almashriqi walmaghribi lailaha illa huwa fattakhithhu wakeela"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wasbir AAala mayaqooloona wahjurhum hajran jameela"
+    },
+    {
+      "resource_id": 57,
+      "text": "Watharnee walmukaththibeenaolee annaAAmati wamahhilhum qaleela"
+    },
+    { "resource_id": 57, "text": "Inna ladayna ankalan wajaheema" },
+    { "resource_id": 57, "text": "WataAAaman tha ghussatinwaAAathaban aleema" },
+    {
+      "resource_id": 57,
+      "text": "Yawma tarjufu al-ardu waljibaluwakanati aljibalu katheeban maheela"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna arsalna ilaykum rasoolanshahidan AAalaykum kama arsalna ilafirAAawna rasoola"
+    },
+    {
+      "resource_id": 57,
+      "text": "FaAAasa firAAawnu arrasoolafaakhathnahu akhthan wabeela"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fakayfa tattaqoona in kafartum yawmanyajAAalu alwildana sheeba"
+    },
+    {
+      "resource_id": 57,
+      "text": "Assamao munfatirunbihi kana waAAduhu mafAAoola"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna hathihi tathkiratun famanshaa ittakhatha ila rabbihi sabeela"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna rabbaka yaAAlamu annaka taqoomu adnamin thuluthayi allayli wanisfahu wathuluthahu wata-ifatunmina allatheena maAAaka wallahu yuqaddiruallayla wannahara AAalima an lan tuhsoohufataba AAalaykum faqraoo ma tayassara minaalqur-ani AAalima an sayakoonu minkum marda waakharoonayadriboona fee al-ardi yabtaghoona min fadliAllahi waakharoona yuqatiloona fee sabeeliAllahi faqraoo ma tayassara minhu waaqeemooassalata waatoo azzakatawaaqridoo Allaha qardan hasanan wamatuqaddimoo li-anfusikum min khayrin tajidoohu AAinda Allahihuwa khayran waaAAthama ajran wastaghfirooAllaha inna Allaha ghafoorun raheem"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "73" }
+  }
+}

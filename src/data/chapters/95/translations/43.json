@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Pelo figo e pela oliva," },
+    { "resource_id": 43, "text": "Pelo monte Sinai," },
+    { "resource_id": 43, "text": "E por esta metrópole segura (Makka)," },
+    {
+      "resource_id": 43,
+      "text": "Que criamos o homem na mais perfeita proporção."
+    },
+    {
+      "resource_id": 43,
+      "text": "Então, o reduzimos à mais baixa das escalas,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Salvo os fiéis, que praticam o bem; estes terão uma recompensa infalível."
+    },
+    {
+      "resource_id": 43,
+      "text": "Quem, então, depois disso, te contradirá, quanto ao Dia do Juízo?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Acaso, não é Deus o mais prudente dos juízes?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "95" }
+  }
+}

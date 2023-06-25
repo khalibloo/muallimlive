@@ -1,0 +1,64 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Lies im Namen deines Herrn, Der erschaffen hat,"
+    },
+    {
+      "resource_id": 27,
+      "text": "den Menschen erschaffen hat aus einem Anhängsel."
+    },
+    { "resource_id": 27, "text": "Lies, und dein Herr ist der Edelste," },
+    {
+      "resource_id": 27,
+      "text": "Der (das Schreiben) mit dem Schreibrohr gelehrt hat,"
+    },
+    {
+      "resource_id": 27,
+      "text": "den Menschen gelehrt hat, was er nicht wußte."
+    },
+    {
+      "resource_id": 27,
+      "text": "Keineswegs! Der Mensch lehnt sich wahrlich auf,"
+    },
+    {
+      "resource_id": 27,
+      "text": "daß er von sich meint, unbedürftig zu sein."
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, zu deinem Herrn wird die Rückkehr sein."
+    },
+    { "resource_id": 27, "text": "Siehst du denjenigen, der abhält" },
+    { "resource_id": 27, "text": "einen Diener, wenn er betet?" },
+    {
+      "resource_id": 27,
+      "text": "Siehst du! Obwohl er nach der Rechtleitung verfährt,"
+    },
+    { "resource_id": 27, "text": "oder die Gottesfurcht gebietet?" },
+    {
+      "resource_id": 27,
+      "text": "Siehst du! Wie (wäre es) wenn er (die Botschaft) für Lüge erklärt und sich abkehrt?"
+    },
+    { "resource_id": 27, "text": "Weiß er denn nicht, daß Allah sieht?" },
+    {
+      "resource_id": 27,
+      "text": "Keineswegs! Wenn er nicht aufhört, werden Wir ihn ganz gewiß an der Stirnlocke packen und ziehen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "einer Stirnlocke, einer lügnerischen, einer verfehlt handelnden."
+    },
+    { "resource_id": 27, "text": "So soll er doch seine Genossen rufen." },
+    { "resource_id": 27, "text": "Wir werden die (Höllen)wache rufen." },
+    {
+      "resource_id": 27,
+      "text": "Keineswegs! Gehorche ihm nicht, sondern wirf dich nieder und sei (Allah) nah!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "96" }
+  }
+}

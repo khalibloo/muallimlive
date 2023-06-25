@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 234, "text": "ابولہب کے ہاتھ ٹوٹیں اور وہ ہلاک ہو" },
+    {
+      "resource_id": 234,
+      "text": "نہ تو اس کا مال ہی اس کے کچھ کام آیا اور نہ وہ جو اس نے کمایا"
+    },
+    { "resource_id": 234, "text": "وہ جلد بھڑکتی ہوئی آگ میں داخل ہو گا" },
+    {
+      "resource_id": 234,
+      "text": "اور اس کی جورو بھی جو ایندھن سر پر اٹھائے پھرتی ہے"
+    },
+    { "resource_id": 234, "text": "اس کے گلے میں مونج کی رسّی ہو گی" }
+  ],
+  "meta": {
+    "translation_name": "Fatah Muhammad Jalandhari",
+    "author_name": "Fatah Muhammad Jalandhari",
+    "filters": { "resource_id": 234, "chapter_number": "111" }
+  }
+}

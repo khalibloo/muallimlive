@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 237, "text": "Кажи [о, Мухаммад]: “О, неверници," },
+    {
+      "resource_id": 237,
+      "text": "аз не служа на това, на което вие служите,"
+    },
+    {
+      "resource_id": 237,
+      "text": "и вие не служите на това, на което аз служа."
+    },
+    {
+      "resource_id": 237,
+      "text": "И аз не служа на това, на което вие служите,"
+    },
+    {
+      "resource_id": 237,
+      "text": "и вие не служите на това, на което аз служа."
+    },
+    {
+      "resource_id": 237,
+      "text": "Вие си имате вашата религия и аз имам своята религия.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "verses": [
+    {
+      "id": 5830,
+      "verse_key": "82:1",
+      "text_uthmani_simple": "اذا السماء انفطرت"
+    },
+    {
+      "id": 5831,
+      "verse_key": "82:2",
+      "text_uthmani_simple": "واذا الكواكب انتثرت"
+    },
+    {
+      "id": 5832,
+      "verse_key": "82:3",
+      "text_uthmani_simple": "واذا البحار فجرت"
+    },
+    {
+      "id": 5833,
+      "verse_key": "82:4",
+      "text_uthmani_simple": "واذا القبور بعثرت"
+    },
+    {
+      "id": 5834,
+      "verse_key": "82:5",
+      "text_uthmani_simple": "علمت نفس ما قدمت واخرت"
+    },
+    {
+      "id": 5835,
+      "verse_key": "82:6",
+      "text_uthmani_simple": "يايها الانسن ما غرك بربك الكريم"
+    },
+    {
+      "id": 5836,
+      "verse_key": "82:7",
+      "text_uthmani_simple": "الذى خلقك فسوىك فعدلك"
+    },
+    {
+      "id": 5837,
+      "verse_key": "82:8",
+      "text_uthmani_simple": "فى اى صورة ما شاء ركبك"
+    },
+    {
+      "id": 5838,
+      "verse_key": "82:9",
+      "text_uthmani_simple": "كلا بل تكذبون بالدين"
+    },
+    {
+      "id": 5839,
+      "verse_key": "82:10",
+      "text_uthmani_simple": "وان عليكم لحفظين"
+    },
+    { "id": 5840, "verse_key": "82:11", "text_uthmani_simple": "كراما كتبين" },
+    {
+      "id": 5841,
+      "verse_key": "82:12",
+      "text_uthmani_simple": "يعلمون ما تفعلون"
+    },
+    {
+      "id": 5842,
+      "verse_key": "82:13",
+      "text_uthmani_simple": "ان الابرار لفى نعيم"
+    },
+    {
+      "id": 5843,
+      "verse_key": "82:14",
+      "text_uthmani_simple": "وان الفجار لفى جحيم"
+    },
+    {
+      "id": 5844,
+      "verse_key": "82:15",
+      "text_uthmani_simple": "يصلونها يوم الدين"
+    },
+    {
+      "id": 5845,
+      "verse_key": "82:16",
+      "text_uthmani_simple": "وما هم عنها بغائبين"
+    },
+    {
+      "id": 5846,
+      "verse_key": "82:17",
+      "text_uthmani_simple": "وما ادرىك ما يوم الدين"
+    },
+    {
+      "id": 5847,
+      "verse_key": "82:18",
+      "text_uthmani_simple": "ثم ما ادرىك ما يوم الدين"
+    },
+    {
+      "id": 5848,
+      "verse_key": "82:19",
+      "text_uthmani_simple": "يوم لا تملك نفس لنفس شيـا والامر يومئذ لله"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "82" } }
+}

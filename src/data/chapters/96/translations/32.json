@@ -1,0 +1,55 @@
+{
+  "translations": [
+    {
+      "resource_id": 32,
+      "text": "Ka yi karatu da sunan Ubangijinka, wanda Ya yi halitta."
+    },
+    { "resource_id": 32, "text": "Ya hahitta mutum daga gudan jini." },
+    {
+      "resource_id": 32,
+      "text": "Ka yi karatu, kuma UbangiJinka shi ne Mafi karimci."
+    },
+    {
+      "resource_id": 32,
+      "text": "Wanda Ya sanar (da mutum) game da alƙalami."
+    },
+    { "resource_id": 32, "text": "Ya sanar da mutum abin da bai sani ba." },
+    {
+      "resource_id": 32,
+      "text": "A'aha! Lalle, ne mutum haƙĩƙa, yana girman kai (ya ƙi karatu)."
+    },
+    { "resource_id": 32, "text": "Dõmin yã ga kansa, yã wadãta." },
+    { "resource_id": 32, "text": "Lalle ne zuwa ga Ubangijinka makoma take." },
+    { "resource_id": 32, "text": "Shin, kã ga wanda ke hana." },
+    { "resource_id": 32, "text": "Bãwã idan yã yi salla?" },
+    {
+      "resource_id": 32,
+      "text": "Ashe, kã gani, idan (shi bãwan) ya kasance a kan shiriya?"
+    },
+    { "resource_id": 32, "text": "Ko ya yi umurni da taƙawa?" },
+    {
+      "resource_id": 32,
+      "text": "Ashe, kã gani, idan (shi mai hanin) ya ƙaryata, kuma ya jũya bãya?"
+    },
+    { "resource_id": 32, "text": "Ashe, bai sani ba cewa Allah Yanã gani?" },
+    {
+      "resource_id": 32,
+      "text": "A'aha! Lalle ne, idan bai hanu ba, lalle ne zã Mu ja gãshin makwarkwaɗa."
+    },
+    { "resource_id": 32, "text": "Makwarkwaɗa maƙaryaciya, mai laifi." },
+    { "resource_id": 32, "text": "Sai ya kirayi ƙungiyarsa." },
+    {
+      "resource_id": 32,
+      "text": "Zã Mu kirayi zabaniyãwa (mala'iku mãsu girma)."
+    },
+    {
+      "resource_id": 32,
+      "text": "A'aha kada ka bĩ shi. Kuma ka yi tawali'u, kuma ka nemi kusanta (zuwa ga Ubangijinka)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "96" }
+  }
+}

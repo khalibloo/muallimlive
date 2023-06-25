@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 174,
+      "text": "Hari yang menggetarkan hati manusia karena kedahsyatan huru-haranya."
+    },
+    {
+      "resource_id": 174,
+      "text": "Apakah Hari yang menggetarkan hati manusia karena kedahsyatan huru-haranya itu?"
+    },
+    {
+      "resource_id": 174,
+      "text": "Tahukah kamu -wahai Rasul- kepada hari yang menggetarkan hati manusia karena kedahsyatan huru-haranya? Itulah hari Kiamat."
+    },
+    {
+      "resource_id": 174,
+      "text": "Pada hari itu hati manusia bergetar, mereka menjadi seperti anai-anai yang beterbangan dan berserakan ke sana sini."
+    },
+    {
+      "resource_id": 174,
+      "text": "Gunung-gunung menjadi seperti bulu yang diterbangkan angin karena ringannya jalannya dan gerakannya."
+    },
+    {
+      "resource_id": 174,
+      "text": "Adapun orang yang amal salehnya lebih berat daripada amal buruknya."
+    },
+    {
+      "resource_id": 174,
+      "text": "Maka dia berada dalam kehidupan yang memuaskan yang mereka dapati di dalam Surga."
+    },
+    {
+      "resource_id": 174,
+      "text": "Adapun orang yang amal buruknya lebih berat daripada amal salehnya."
+    },
+    {
+      "resource_id": 174,
+      "text": "Maka rumah dan tempat tinggalnya pada hari Kiamat adalah Jahanam."
+    },
+    { "resource_id": 174, "text": "Tahukah kamu -wahai Rasul- apakah dia?" },
+    { "resource_id": 174, "text": "Itulah Neraka yang sangat panas." }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 174, "chapter_number": "101" }
+  }
+}

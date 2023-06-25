@@ -1,0 +1,81 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Fecre/tan yerinin ağarmasına andolsun." },
+    { "resource_id": 210, "text": "Ve on geceye andolsun." },
+    { "resource_id": 210, "text": "Çifte ve teke andolsun." },
+    { "resource_id": 210, "text": "Yürüyüp gittiği zaman geceye andolsun." },
+    {
+      "resource_id": 210,
+      "text": "Bunda akıl sahibi için bir yemin var (değil) mi?"
+    },
+    {
+      "resource_id": 210,
+      "text": "Rabbinin Ad (kavmin)'e ne yaptığını görmedin mi?"
+    },
+    { "resource_id": 210, "text": "Yüksek sütun sahibi İrem şehrine." },
+    {
+      "resource_id": 210,
+      "text": "O (İrem Şehri) ki, beldeler (ülkeler) içinde onun bir eşi yaratılmadı."
+    },
+    { "resource_id": 210, "text": "Ve vadideki kayaları oyan Semûd kavmine." },
+    { "resource_id": 210, "text": "Ve kazıklar sahibi Firavun’." },
+    {
+      "resource_id": 210,
+      "text": "Onlar ki memleketlerde azgınlık etmişlerdi."
+    },
+    { "resource_id": 210, "text": "Oralarda kötülüğü çoğalttılar." },
+    {
+      "resource_id": 210,
+      "text": "Bu yüzden Rabbin onların üzerine azap kamçısı yağdırdı."
+    },
+    { "resource_id": 210, "text": "Muhakkak Rabbin gözetlemededir." },
+    {
+      "resource_id": 210,
+      "text": "Ancak insana; Rabbi ne zaman onu imtihan edip kendisine ikramda bulunsa ve nimet verse: \"Rabbim bana ikramda bulundu\" der."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ama ne zaman onu imtihan ederek rızkını daraltsa: \"Rabbim beni hor kıldı\" der."
+    },
+    { "resource_id": 210, "text": "Hayır, hayır! Yetime ikram etmiyorsunuz." },
+    {
+      "resource_id": 210,
+      "text": "Yoksula yemek vermeye teşvik etmiyorsunuz."
+    },
+    {
+      "resource_id": 210,
+      "text": "Haram helâl demeden mirası alabildiğine yiyorsunuz."
+    },
+    { "resource_id": 210, "text": "Malı da pek çok seviyorsunuz." },
+    {
+      "resource_id": 210,
+      "text": "Hayır! Yeryüzü (kıyamet sarsıntısıyla) parça parça olup dağıldığı zaman."
+    },
+    { "resource_id": 210, "text": "Rabbin ve saf saf melekler geldiği zaman." },
+    {
+      "resource_id": 210,
+      "text": "O gün cehennem de getirilmiştir. İşte o gün insan düşünüp hatırlar. Ama hatırlamaktan ona ne (fayda) var!"
+    },
+    {
+      "resource_id": 210,
+      "text": "Der ki: \"Ah keşke! (Bu) hayatım için önceden bir şeyler göndermiş olsaydım!\""
+    },
+    {
+      "resource_id": 210,
+      "text": "Artık o gün de O'nun azabı gibi hiçbir kimse azap yapamaz."
+    },
+    { "resource_id": 210, "text": "Ve O'nun vuracağı bağı hiç kimse vuramaz." },
+    { "resource_id": 210, "text": "Ey huzura ermiş nefis!" },
+    {
+      "resource_id": 210,
+      "text": "“Sen O’ndan razı, O da senden razı olarak Rabbine dön!”"
+    },
+    { "resource_id": 210, "text": "Kullarımın arasına katıl!" },
+    { "resource_id": 210, "text": "Ve gir Cennet'ime!" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "89" }
+  }
+}

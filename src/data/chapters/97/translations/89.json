@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 89,
+      "text": "Ne e zbritëm atë (Kur’anin) në natën e Kadrit."
+    },
+    {
+      "resource_id": 89,
+      "text": "E ç’të bëri ty të dijsh se ç’është nata e Kadrit?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Nata e Kadrit është më e rëndësishme se një mijë muaj!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Me lejen e Zotit të tyre në (atë natë) të zbresin engjëj dhe shpirti (Xhibrili) për secilën çështje."
+    },
+    {
+      "resource_id": 89,
+      "text": "Ajo (që përcakton Zoti) është paqe deri në agim të mëngjesit."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "97" }
+  }
+}

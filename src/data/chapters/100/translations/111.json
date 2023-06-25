@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "(Faradoo jihaadaa) harganaa guluftuunin (kakadha),"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Isaan yeroo gulufan kottee isaaniitiin) ibidda qabsiisaniin,"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Isaan) bariidhaan (diina irratti) weerara adeemsisanitti;"
+    },
+    { "resource_id": 111, "text": "Isaan dhukkee ol kaasanitti;" },
+    {
+      "resource_id": 111,
+      "text": "Isaan (weeraraan) gamtaa diinaa walakkeessaniin [kakadha]."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, namni (hedduun) Gooftaa isaa mormaadha."
+    },
+    { "resource_id": 111, "text": "Inni kana irratti ragaadha" },
+    {
+      "resource_id": 111,
+      "text": "Inni (namni) qabeenya jaalachuutti cimaadha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila inni yeroo wanti qabroota keessa jiran hundi baafaman sana hin beekuu?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Yeroo wanti qoma keessa jiran (hundi) ifa baafaman (hin beekuu?)"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, Gooftan isaanii guyyaa san isaan beekaadha."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "100" }
+  }
+}

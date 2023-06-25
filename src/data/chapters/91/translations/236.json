@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "S tafugt akked tafat is!" },
+    { "resource_id": 236, "text": "S waggur, mara p ivfeô!" },
+    { "resource_id": 236, "text": "S wass, mi p ifet!" },
+    { "resource_id": 236, "text": "S yiv, mi s isburr!" },
+    { "resource_id": 236, "text": "S igenni, akked Win i t ibnan!" },
+    { "resource_id": 236, "text": "S tmurt, akked Win ip issewsâan!" },
+    { "resource_id": 236, "text": "S teôwiêt, akked Win ip imeslen!" },
+    { "resource_id": 236, "text": "Iwehheb as laâwayeô is, aêezzeb is." },
+    { "resource_id": 236, "text": "Ni$ irbeê win ip izzazdgen." },
+    { "resource_id": 236, "text": "Ni$ ixseô win ip itelfen." },
+    { "resource_id": 236, "text": "Tamud nekkôen, di lbe$wv nnsen." },
+    { "resource_id": 236, "text": "Mi d ikker umcum mavi nnsen." },
+    {
+      "resource_id": 236,
+      "text": "Amazan n Öebbi inna yasen: \"tal$wemt n Öebbi, ssewwet ep\"!"
+    },
+    {
+      "resource_id": 236,
+      "text": "Skaddben t; i tel$wemt, gezmen ivaôen. Izâaf fellasen Mass nnsen, ilmend ubekkav nnsen; d$a Isemsawi p."
+    },
+    { "resource_id": 236, "text": "Ur T icqi w ara iûaôen." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "91" }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Quando o sol for enrolado," },
+    { "resource_id": 103, "text": "E quando as estrelas se tombarem," },
+    { "resource_id": 103, "text": "E quando as montanhas forem movidas," },
+    {
+      "resource_id": 103,
+      "text": "E quando os camelos fêmeas, prestes a dar à luz, forem descurados,"
+    },
+    { "resource_id": 103, "text": "E quando as feras forem reunidas," },
+    { "resource_id": 103, "text": "E quando os mares forem abrasados," },
+    { "resource_id": 103, "text": "E quando as almas forem parelhadas." },
+    {
+      "resource_id": 103,
+      "text": "E quando a filha, enterrada viva, for interrogada,"
+    },
+    { "resource_id": 103, "text": "Por que delito fora morta." },
+    { "resource_id": 103, "text": "E quando as páginas forem desenroladas," },
+    { "resource_id": 103, "text": "E quando o céu for esfolado," },
+    { "resource_id": 103, "text": "E quando o Inferno for atiçado," },
+    { "resource_id": 103, "text": "E quando o Paraíso for aproximado," },
+    { "resource_id": 103, "text": "Toda alma saberá o que realizou." },
+    { "resource_id": 103, "text": "Então, juro pelos planetas absconsos," },
+    { "resource_id": 103, "text": "Que correm e se escondem!" },
+    { "resource_id": 103, "text": "E pela noite, quando se vai!" },
+    { "resource_id": 103, "text": "E pela manhã, quando respira!" },
+    {
+      "resource_id": 103,
+      "text": "Por certo, ele é o dito de um nobre Mensageiro,"
+    },
+    {
+      "resource_id": 103,
+      "text": "De grande força, prestigiado junto do Possuidor do Trono,"
+    },
+    { "resource_id": 103, "text": "A quem se obedece, lá; leal." },
+    { "resource_id": 103, "text": "E vosso companheiro não é louco;" },
+    {
+      "resource_id": 103,
+      "text": "E, com efeito, ele o viu, no evidente horizonte."
+    },
+    { "resource_id": 103, "text": "E ele não é avaro quanto ao Invisível." },
+    { "resource_id": 103, "text": "E ele não é um dito de demônio maldito." },
+    { "resource_id": 103, "text": "Então, aonde ides?" },
+    { "resource_id": 103, "text": "Ele não é senão lembrança para os mundos," },
+    { "resource_id": 103, "text": "Para quem, dentre vós, queira ser reto" },
+    {
+      "resource_id": 103,
+      "text": "Mas não o querereis, a não ser que Allah, O Senhor dos mundos, o queira."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "81" }
+  }
+}

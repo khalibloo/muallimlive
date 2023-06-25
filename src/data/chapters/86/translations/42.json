@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na niebo i na gwiazdę nocną!" },
+    {
+      "resource_id": 42,
+      "text": "A co ciebie pouczy, co to jest gwiazda nocna?"
+    },
+    { "resource_id": 42, "text": "To jest gwiazda przenikająca." },
+    { "resource_id": 42, "text": "Każda dusza ma nad sobą stróża!" },
+    {
+      "resource_id": 42,
+      "text": "Niech więc rozważy człowiek, z czego on został stworzony!"
+    },
+    { "resource_id": 42, "text": "Został stworzony z cieczy wytryskającej," },
+    { "resource_id": 42, "text": "Która wychodzi spomiędzy lędźwi i żeber." },
+    { "resource_id": 42, "text": "Zaprawdę, On jest władny sprowadzić go" },
+    { "resource_id": 42, "text": "W Dniu, kiedy będą badane skryte myśli." },
+    {
+      "resource_id": 42,
+      "text": "Nie będzie on miał wówczas ani siły, ani pomocnika!"
+    },
+    { "resource_id": 42, "text": "Na niebo, które włada powrotem!" },
+    { "resource_id": 42, "text": "Na ziemię posiadającą rozpadliny!" },
+    { "resource_id": 42, "text": "Zaprawdę, to jest słowo rozstrzygające," },
+    { "resource_id": 42, "text": "Nie żadna zabawa!" },
+    { "resource_id": 42, "text": "Zaprawdę, oni zamyślają podstęp!" },
+    { "resource_id": 42, "text": "I Ja zamyślam podstęp!" },
+    {
+      "resource_id": 42,
+      "text": "Daj więc nieco wytchnienia niewiernym; daj im jeszcze chwilę zwłoki!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "86" }
+  }
+}

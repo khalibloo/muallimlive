@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 144,
+      "text": "Vernietigd zijn de handen van Aboe Lahab en vernietigd is hij."
+    },
+    {
+      "resource_id": 144,
+      "text": "Zijn bezit en wat hij voortbracht, baat hem niet."
+    },
+    {
+      "resource_id": 144,
+      "text": "Hij zal een vuur van vlammen (de Hel) binnengaan."
+    },
+    {
+      "resource_id": 144,
+      "text": "En ook zijn vrouw, aandraagster van brandhout."
+    },
+    { "resource_id": 144, "text": "Om haar nek een touw van vezels." }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "111" }
+  }
+}

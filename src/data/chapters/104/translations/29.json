@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 29, "text": "وای بر هر عیب‌جوی غیبت‌کننده‌ای." },
+    {
+      "resource_id": 29,
+      "text": "(همان) کسی‌که مال فراوانی گرد آورد و شمارش کرد."
+    },
+    { "resource_id": 29, "text": "گمان می‌کند که مالش او را جاودانه می‌سازد." },
+    {
+      "resource_id": 29,
+      "text": "هرگز چنین نیست (که او گمان می‌کند) مسلماً در «حطمه» انداخته خواهد شد."
+    },
+    { "resource_id": 29, "text": "و تو چه دانی «حطمه» چیست؟!" },
+    { "resource_id": 29, "text": "آتش برافروخته الهی است." },
+    { "resource_id": 29, "text": "(آتشی) که بر دل‌ها چیره گردد (و بسوزاند)." },
+    {
+      "resource_id": 29,
+      "text": "بی‌گمان آن (آتش) بر آن‌ها فرو بسته (و ازهر سو آن‌ها را محاصره کرده است)."
+    },
+    { "resource_id": 29, "text": "در ستون‌های بلند ( کشیده شده) است." }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "104" }
+  }
+}

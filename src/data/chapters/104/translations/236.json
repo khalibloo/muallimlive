@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "A ssxev n yal aqeôôav alemmam!" },
+    { "resource_id": 236, "text": "I ijemmlen ayla, iêeppeb it." },
+    { "resource_id": 236, "text": "Inwa, s wayla, ad iwekkeô." },
+    { "resource_id": 236, "text": "Xaîi! Ad ippuveggeô ar Tuêvimt." },
+    { "resource_id": 236, "text": "Anwa ara k yinin d acu p Tuêvimt?" },
+    { "resource_id": 236, "text": "D times n Öebbi i smendagen," },
+    { "resource_id": 236, "text": "i ippalin $ef ulawen." },
+    { "resource_id": 236, "text": "Neppat, ih, t$umm iten" },
+    { "resource_id": 236, "text": "s tgwejda $wezzifen." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "104" }
+  }
+}

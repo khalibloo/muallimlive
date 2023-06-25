@@ -1,0 +1,70 @@
+{
+  "translations": [
+    { "resource_id": 232, "text": "E ggulu bwe ririba lyeyasizzaamu." },
+    {
+      "resource_id": 232,
+      "text": "N'emunyenye bwe ziriba nga zivudde waggulu ne zisaasaana."
+    },
+    { "resource_id": 232, "text": "N'ennyanja bwe ziriba nga ziwaguludde." },
+    {
+      "resource_id": 232,
+      "text": "Ne Kabbuli bwe ziriba nga zifuukuddwa (abafu bonna ne bavaayo)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Omuntu alimanya ebyo bye yakulembeza okukola ne bye yasembyayo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Owange ggwe omuntu kale kiki      ekyakugayaaza okukuggya ku muleziwo (Katonda) Omugabi."
+    },
+    {
+      "resource_id": 232,
+      "text": "Oyo eyakutonda n’akutereeza era n’akwenkanyankanya."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mu kifaananyi kyonna kye yayagala mwe yakutondera."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda, wabula mulimbisa olunaku olw’okusasulwa (olw’enkomerero)."
+    },
+    { "resource_id": 232, "text": "Mazima muliko abakuumi (Ba Malayika)." },
+    {
+      "resource_id": 232,
+      "text": "Abeekitiibwa abawandiisi (abawandiika ebyo byonna ebikolebwa)"
+    },
+    { "resource_id": 232, "text": "Bamanyi ebyo byonna byemukola." },
+    {
+      "resource_id": 232,
+      "text": "Mazima abakozi b’obulungi balibeera mu byengera."
+    },
+    {
+      "resource_id": 232,
+      "text": "Era mazima abakozi b’ebibi bagenda kubeera mu muliro oguyitibwa Jahiimu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Bagenda kuguyingira ku lunaku olw’okusasulwa (olw'enkomerero)."
+    },
+    { "resource_id": 232, "text": "Tebagenda ku gwebulankanyako." },
+    {
+      "resource_id": 232,
+      "text": "On'omanyira ku ki olunaku olw'okusasulwa (olw’enkomerero)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Naye ddala on'omanyira ku ki olunaku olwokusasulwa (Katonda yakiddamu olwokuggumiza obukulu bw’olunaku olwo)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Olunaku omwoyo lwe gutaliba na buyinza bugasa mwoyo mulala na kintu kyonna. N’ebiragiro ku lunaku olwo biriba bya Katonda yekka."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "82" }
+  }
+}

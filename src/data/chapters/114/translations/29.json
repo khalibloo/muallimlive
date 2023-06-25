@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 29,
+      "text": "(ای پیامبر) بگو: «به پروردگار مردم پناه می‌برم،"
+    },
+    { "resource_id": 29, "text": "فرمانروای مردم،" },
+    { "resource_id": 29, "text": "(إله و) معبود مردم،" },
+    {
+      "resource_id": 29,
+      "text": "از شر (شیطان) وسوسه‌گر باز پس رونده (به هنگام ذکر الله)."
+    },
+    { "resource_id": 29, "text": "همان که در دل‌های مردم وسوسه می‌کند." },
+    { "resource_id": 29, "text": "از جنیان (باشد) و (یا از) آدمیان»." }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "114" }
+  }
+}

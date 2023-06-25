@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 48, "text": "VID DEN flyende tiden!" },
+    {
+      "resource_id": 48,
+      "text": "Människan förbereder helt visst sin egen undergång,"
+    },
+    {
+      "resource_id": 48,
+      "text": "utom de som tror och lever ett rättskaffens liv och råder varandra [att hålla fast vid] sanningen och råder varandra [att bära motgång med] tålamod."
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "103" }
+  }
+}

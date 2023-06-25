@@ -1,0 +1,43 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "至高の御方，あなたの主の御名を讃えなさい。" },
+    { "resource_id": 35, "text": "かれは創造し，整え調和させる御方，" },
+    { "resource_id": 35, "text": "またかれは，法を定めて導き，" },
+    { "resource_id": 35, "text": "牧野を現わされる御方。" },
+    { "resource_id": 35, "text": "それから，浅黒く枯れた刈株になされる。" },
+    {
+      "resource_id": 35,
+      "text": "われは，あなたに読誦させるようにした。それであなたは忘れないであろう。"
+    },
+    {
+      "resource_id": 35,
+      "text": "アッラーの御望みがない限りは。本当にかれは，表われたものと隠れたものを知っておられる。"
+    },
+    {
+      "resource_id": 35,
+      "text": "われはあなたに（道を）平坦で，安易にするであろう。"
+    },
+    {
+      "resource_id": 35,
+      "text": "だから訓戒しなさい。訓戒は（聞く者に）役立つ。"
+    },
+    { "resource_id": 35, "text": "訓戒は，主を畏れる者に受け入れられよう。" },
+    { "resource_id": 35, "text": "だが最も不幸な者は，それを避けるであろう。" },
+    { "resource_id": 35, "text": "かれは巨大な炎で焼かれよう。" },
+    { "resource_id": 35, "text": "その中で，死にも，生きもしない。" },
+    { "resource_id": 35, "text": "だが自ら清めた者は必ず栄え，" },
+    { "resource_id": 35, "text": "かれの主の御名を唱念し，礼拝を守る。" },
+    { "resource_id": 35, "text": "いや，あなたがたは現世の生活の方を好む。" },
+    {
+      "resource_id": 35,
+      "text": "来世がもっと優れ，またもっと永遠なものであるのに。"
+    },
+    { "resource_id": 35, "text": "これは本当に，昔の啓典にあり，" },
+    { "resource_id": 35, "text": "イブラーヒームやムーサーの啓典にもある。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "87" }
+  }
+}

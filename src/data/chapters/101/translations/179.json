@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "resource_id": 179,
+      "text": "Ang oras na kakalampag sa mga puso ng mga tao dahil sa kasukdulan ng hilakbot dito."
+    },
+    {
+      "resource_id": 179,
+      "text": "Ano ang oras na ito na kakalampag sa mga puso ng tao dahil sa kasukdulan ng hilakbot dito?"
+    },
+    {
+      "resource_id": 179,
+      "text": "Ano ang nagpaalam sa iyo, O Sugo, kung ano ang oras na ito na kakalampag sa mga puso ng mga tao dahil sa kasukdulan ng hilakbot dito? Tunay na ito ay ang Araw ng Pagbangon."
+    },
+    {
+      "resource_id": 179,
+      "text": "Sa Araw na kakalampagin ang mga puso ng mga tao, sila ay magiging para bang mga gamugamong kumakalat na naglilipana dito at doon,"
+    },
+    {
+      "resource_id": 179,
+      "text": "at ang mga bundok ay magiging para bang mga lanang hinimaymay sa kagaanan ng pag-usad ng mga ito at paggalaw ng mga ito."
+    },
+    {
+      "resource_id": 179,
+      "text": "Kaya tungkol naman sa sinumang tumimbang ang mga gawa niyang maayos higit sa mga gawa niyang masagwa,"
+    },
+    {
+      "resource_id": 179,
+      "text": "siya ay nasa isang pamumuhay na kinalulugdan, na matatamo niya ito sa Paraiso."
+    },
+    {
+      "resource_id": 179,
+      "text": "Tungkol naman sa sinumang tumimbang ang mga gawa niyang masagwa higit sa mga gawa niyang maayos,"
+    },
+    {
+      "resource_id": 179,
+      "text": "ang tirahan niya at pagtitigilan niya sa Araw ng Pagbangon ay Impiyerno."
+    },
+    {
+      "resource_id": 179,
+      "text": "Ano ang nagpaalam sa iyo, O Sugo, kung ano iyon?"
+    },
+    { "resource_id": 179, "text": "Iyon ay isang Apoy na matindi ang init." }
+  ],
+  "meta": {
+    "translation_name": "Tagalog Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 179, "chapter_number": "101" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Hakika tumekupa kheri nyingi." },
+    {
+      "resource_id": 49,
+      "text": "Basi sali na uchinje kwa ajili ya Mola wako Mlezi."
+    },
+    { "resource_id": 49, "text": "Hakika anaye kuchukia ndiye aliye mpungufu." }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "108" }
+  }
+}

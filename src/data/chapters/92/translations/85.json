@@ -1,0 +1,48 @@
+{
+  "translations": [
+    { "resource_id": 85, "text": "By the enshrouding night," },
+    { "resource_id": 85, "text": "by the radiant day," },
+    { "resource_id": 85, "text": "by His creation of male and female!" },
+    { "resource_id": 85, "text": "The ways you take differ greatly." },
+    {
+      "resource_id": 85,
+      "text": "There is the one who gives, who is mindful of God,"
+    },
+    { "resource_id": 85, "text": "who testifies to goodness––" },
+    { "resource_id": 85, "text": "We shall smooth his way towards ease." },
+    {
+      "resource_id": 85,
+      "text": "There is the one who is miserly, who is self-satisfied,"
+    },
+    { "resource_id": 85, "text": "who denies goodness––" },
+    { "resource_id": 85, "text": "We shall smooth his way towards hardship" },
+    {
+      "resource_id": 85,
+      "text": "and his wealth will not help him as he falls."
+    },
+    { "resource_id": 85, "text": "Our part is to provide guidance––" },
+    { "resource_id": 85, "text": "this world and the next belong to Us––" },
+    { "resource_id": 85, "text": "so I warn you about the raging Fire," },
+    {
+      "resource_id": 85,
+      "text": "in which none but the most wicked one will burn,"
+    },
+    { "resource_id": 85, "text": "who denied [the truth], and turned away." },
+    { "resource_id": 85, "text": "The most pious one will be spared this––" },
+    {
+      "resource_id": 85,
+      "text": "who gives his wealth away as self-purification,"
+    },
+    { "resource_id": 85, "text": "not to return a favour to anyone" },
+    {
+      "resource_id": 85,
+      "text": "but for the sake of his Lord the Most High––"
+    },
+    { "resource_id": 85, "text": "and he will be well pleased." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "92" }
+  }
+}

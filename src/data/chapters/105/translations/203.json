@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Have you (O Muhammad صلى الله عليه وسلم) not seen how your Lord dealt with the owners of the Elephant? [The Elephant army which came from Yemen under the command of Abrahah Al-Ashram intending to destroy the Ka‘bah at Makkah]."
+    },
+    { "resource_id": 203, "text": "  Did He not make their plot go astray?" },
+    {
+      "resource_id": 203,
+      "text": "  And He sent against them birds, in flocks,"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Striking them with stones of Sijjîl (baked clay)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And He made them like (an empty field of) stalks (of which the corn has been eaten up by cattle).<sup foot_note=155065>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "105" }
+  }
+}

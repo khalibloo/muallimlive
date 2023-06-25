@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz biz, (Kur’an’ı) Kadir Gecesi'nde indirdik."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kadir Gecesi'nin ne olduğunu sana bildiren nedir?"
+    },
+    { "resource_id": 112, "text": "Kadir Gecesi bin aydan hayırlıdır." },
+    {
+      "resource_id": 112,
+      "text": "Melekler ve Ruh, Rabbinin izni ile her iş için o gece iner."
+    },
+    { "resource_id": 112, "text": "Fecrin doğana kadar bir selamet olsun." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "97" }
+  }
+}

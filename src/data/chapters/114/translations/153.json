@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 153,
+      "text": "Di’: «Mi rifugio nel Signore degli uomini,"
+    },
+    { "resource_id": 153, "text": "Re degli uomini," },
+    { "resource_id": 153, "text": "Dio degli uomini," },
+    { "resource_id": 153, "text": "contro il male del sussurratore furtivo," },
+    {
+      "resource_id": 153,
+      "text": "che soffia il male nei cuori degli uomini,"
+    },
+    { "resource_id": 153, "text": "che [venga] dai dèmoni o dagli uomini»." }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "114" }
+  }
+}

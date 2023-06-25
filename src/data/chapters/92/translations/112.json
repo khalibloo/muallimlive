@@ -1,0 +1,51 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Bürüdüğü zaman geceye olsun," },
+    { "resource_id": 112, "text": "Ortaya çıktığı zaman gündüze," },
+    {
+      "resource_id": 112,
+      "text": "Erkeği ve dişiyi yaratana yemin ederim ki,"
+    },
+    {
+      "resource_id": 112,
+      "text": "Doğrusu sizin çalışmalarınız çeşit çeşittir."
+    },
+    { "resource_id": 112, "text": "Kim (malından) verir ve sakınırsa," },
+    { "resource_id": 112, "text": "En güzeli tasdik ederse," },
+    { "resource_id": 112, "text": "Biz de ona kolay olanı kolaylaştırırız." },
+    {
+      "resource_id": 112,
+      "text": "Kim de cimrilik eder ve kendini ihtiyaçsız görürse,"
+    },
+    { "resource_id": 112, "text": "En güzeli yalanlarsa," },
+    { "resource_id": 112, "text": "Biz de ona zor olanı kolaylaştırırız." },
+    {
+      "resource_id": 112,
+      "text": "(Ateşe) düştüğü zaman malı ona bir yarar sağlamaz."
+    },
+    { "resource_id": 112, "text": "Şüphesiz bize ait olan, yol göstermektir." },
+    { "resource_id": 112, "text": "Şüphesiz ahiret de dünya da bizimdir." },
+    {
+      "resource_id": 112,
+      "text": "Sizi, alev alev yanan ateşe karşı uyardım."
+    },
+    { "resource_id": 112, "text": "Ona ancak en azgın olan girecektir." },
+    { "resource_id": 112, "text": "Yalanlayan, yüz çeviren," },
+    { "resource_id": 112, "text": "Takva sahibi ondan uzak tutulacaktır." },
+    { "resource_id": 112, "text": "Malını veren ve arınan…" },
+    {
+      "resource_id": 112,
+      "text": "Hiç kimseden bir karşılık, nimet beklemez."
+    },
+    {
+      "resource_id": 112,
+      "text": "Sadece yüce Rabbinin yüzünü/rızasını arzular."
+    },
+    { "resource_id": 112, "text": "Elbette o da hoşnut olacaktır." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "92" }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Andolsun o göğe ve Târık'a," },
+    { "resource_id": 52, "text": "Târık nedir, bildin mi?" },
+    { "resource_id": 52, "text": "O, karanlığı delen yıldızdır." },
+    {
+      "resource_id": 52,
+      "text": "Hiçbir nefis yoktur ki başında bir denetleyici bulunmasın."
+    },
+    {
+      "resource_id": 52,
+      "text": "Onun için insan neden yaratıldığına bir baksın."
+    },
+    { "resource_id": 52, "text": "Atılan bir sudan yaratıldı." },
+    {
+      "resource_id": 52,
+      "text": "O su, erkeğin sulbü ile kadının göğüs kemikleri arasından çıkar."
+    },
+    {
+      "resource_id": 52,
+      "text": "Elbette Allah'ın onu döndürmeye gücü yeter."
+    },
+    {
+      "resource_id": 52,
+      "text": "O gün bütün sırlar yoklanıp, meydana çıkarılır."
+    },
+    {
+      "resource_id": 52,
+      "text": "İnsanın o gün ne bir gücü vardır, ne de bir yardımcısı."
+    },
+    { "resource_id": 52, "text": "Andolsun o dönüşlü göğe," },
+    { "resource_id": 52, "text": "O yarılıp çatlayan yere," },
+    { "resource_id": 52, "text": "Kuşkusuz Kur'ân, ayırıcı bir sözdür." },
+    { "resource_id": 52, "text": "O asla bir şaka değildir." },
+    {
+      "resource_id": 52,
+      "text": "Haberin olsun ki, kâfirler hep hile kuruyorlar."
+    },
+    { "resource_id": 52, "text": "Ben de hilelerine karşılık veririm." },
+    {
+      "resource_id": 52,
+      "text": "Onun için sen kâfirlere mühlet ver, onlara az bir zaman tanı."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "86" }
+  }
+}

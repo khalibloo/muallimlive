@@ -1,0 +1,77 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "¿Has oído la noticia del Día Abrumador (de la Resurrección que cubrirá a todos los hombres con su horror, ¡oh, Muhammad!)?"
+    },
+    { "resource_id": 140, "text": "Ese día habrá rostros humillados," },
+    {
+      "resource_id": 140,
+      "text": "fatigados por el esfuerzo realizado<sup foot_note=150104>1</sup> (en la vida mundanal),"
+    },
+    { "resource_id": 140, "text": "que entrarán en el fuego abrasador" },
+    {
+      "resource_id": 140,
+      "text": "y a los que se les dará de beber de un manantial de agua hirviendo."
+    },
+    {
+      "resource_id": 140,
+      "text": "Su único alimento será de lo más repulsivo"
+    },
+    {
+      "resource_id": 140,
+      "text": "y ni los alimentará ni les saciará el hambre."
+    },
+    { "resource_id": 140, "text": "Ese día habrá (también) rostros alegres," },
+    {
+      "resource_id": 140,
+      "text": "complacidos con su esfuerzo realizado (al ver la recompensa que han obtenido),"
+    },
+    { "resource_id": 140, "text": "que gozarán de un excelso jardín." },
+    { "resource_id": 140, "text": "No escucharán en él banalidades." },
+    {
+      "resource_id": 140,
+      "text": "En él habrá manantiales cuyas aguas fluirán (continuamente)."
+    },
+    { "resource_id": 140, "text": "Dispondrán allí de lechos elevados," },
+    { "resource_id": 140, "text": "de copas servidas a su disposición," },
+    { "resource_id": 140, "text": "de cojines alineados" },
+    { "resource_id": 140, "text": "y de alfombras extendidas." },
+    {
+      "resource_id": 140,
+      "text": "¿Acaso no reparan en cómo fue creado el camello<sup foot_note=150105>1</sup>?,"
+    },
+    { "resource_id": 140, "text": "¿en cómo fue elevado el cielo?," },
+    { "resource_id": 140, "text": "¿en cómo fueron fijadas las montañas?," },
+    { "resource_id": 140, "text": "¿y en cómo fue extendida la tierra?" },
+    {
+      "resource_id": 140,
+      "text": "¡Exhórtalos (oh, Muhammad)! Tú no eres sino un amonestador."
+    },
+    {
+      "resource_id": 140,
+      "text": "No tienes autoridad sobre ellos (para obligarlos a creer)."
+    },
+    {
+      "resource_id": 140,
+      "text": "Mas a quien le dé la espalda a la verdad y la niegue,"
+    },
+    {
+      "resource_id": 140,
+      "text": "Al-lah le infligirá el mayor de los castigos."
+    },
+    {
+      "resource_id": 140,
+      "text": "En verdad, a Nos habrán de retornar (los hombres)."
+    },
+    {
+      "resource_id": 140,
+      "text": "Y, después, a Nos Nos corresponderá juzgarlos."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "88" }
+  }
+}

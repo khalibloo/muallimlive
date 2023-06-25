@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 230,
+      "text": "[1] เจ้าไม่เห็นดอกหรือว่า พระเจ้าของเจ้าได้กระทำกับพวกเจ้าของช้างอย่างไร"
+    },
+    {
+      "resource_id": 230,
+      "text": "[2] พระองค์มิได้ทรงทำให้แผนการณ์ของพวกเขาสูญสิ้นดอกหรือ"
+    },
+    { "resource_id": 230, "text": "[3] และได้ทรงส่งนกเป็นฝูงๆ ลงมาบนพวกเขา" },
+    {
+      "resource_id": 230,
+      "text": "[4] มันได้ขว้างพวกเขาด้วยหินที่ทำด้วยดินแข็ง"
+    },
+    {
+      "resource_id": 230,
+      "text": "[5] แล้วพระองค์ทรงทำให้พวกเขาเป็นเช่นใบไม้ที่ถูก (สัตว์) กิน"
+    }
+  ],
+  "meta": {
+    "translation_name": "Society of Institutes and Universities",
+    "author_name": "Society of Institutes and Universities",
+    "filters": { "resource_id": 230, "chapter_number": "105" }
+  }
+}

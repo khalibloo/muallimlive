@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 77,
+      "text": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz."
+    },
+    {
+      "resource_id": 77,
+      "text": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz."
+    },
+    { "resource_id": 77, "text": "Hayır; öyle olmayın; yakında bileceksiniz." },
+    {
+      "resource_id": 77,
+      "text": "Hayır; gözünüzü açın; yakında bileceksiniz."
+    },
+    {
+      "resource_id": 77,
+      "text": "Dikkat edin, şayet yaptığınızın sonucunu kesin olarak bir bilseniz!"
+    },
+    { "resource_id": 77, "text": "And olsun ki, cehennemi göreceksiniz." },
+    {
+      "resource_id": 77,
+      "text": "And olsun ki, onu gözünüzle kesin olarak göreceksiniz."
+    },
+    {
+      "resource_id": 77,
+      "text": "Sonra o gün, size verilmiş olan her nimetten sorguya çekileceksiniz."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "102" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Per l'usanza di Ǭura'ish –" },
+    {
+      "resource_id": 209,
+      "text": "la loro usanza di compiere il viaggio dell'inverno e dell'estate –"
+    },
+    {
+      "resource_id": 209,
+      "text": "Che adorino il Dio di questa Casa*,(* رَبَّ هَذَا الْبَيْتِ)"
+    },
+    {
+      "resource_id": 209,
+      "text": "Colui che li ha sfamati in tempo di magra e li ha protetti dalla paura."
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "106" }
+  }
+}

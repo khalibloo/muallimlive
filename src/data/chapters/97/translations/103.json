@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 103,
+      "text": "Por certo, fizemo-lo descer, na noite de al-Qadr."
+    },
+    {
+      "resource_id": 103,
+      "text": "E o que te faz inteirar-te do que é a noite de al-Qadr? -"
+    },
+    {
+      "resource_id": 103,
+      "text": "A noite de al-Qadr é melhor que mil meses."
+    },
+    {
+      "resource_id": 103,
+      "text": "Nela, descem os anjos e o Espírito, com a permissão de seu Senhor, encarregados de toda ordem."
+    },
+    { "resource_id": 103, "text": "Paz é ela, até o nascer da aurora." }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "97" }
+  }
+}

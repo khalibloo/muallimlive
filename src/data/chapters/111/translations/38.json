@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Miyailang so dowa a tangan o Abilahab, go miyailang (skaniyan)!"
+    },
+    {
+      "resource_id": 38,
+      "text": "Dawn makanggay a gona so tamok iyan, ago so miyasokat iyan!"
+    },
+    { "resource_id": 38, "text": "Phakasold dn ko apoy a pzokhayaw!" },
+    { "resource_id": 38, "text": "Go so karoma niyan a maawid sa itagon," },
+    { "resource_id": 38, "text": "Kiyatagoan so lig iyan sa tali a phamkl!" }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "111" }
+  }
+}

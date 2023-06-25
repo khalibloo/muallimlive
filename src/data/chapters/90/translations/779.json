@@ -1,0 +1,71 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Je jure par cette cité<sup foot_note=205482>1</sup>"
+    },
+    { "resource_id": 779, "text": "où tu pourras agir en toute liberté !" },
+    {
+      "resource_id": 779,
+      "text": "Par le père<sup foot_note=205483>1</sup> et sa postérité !"
+    },
+    {
+      "resource_id": 779,
+      "text": "Nous avons créé l’homme pour une vie d’adversité."
+    },
+    {
+      "resource_id": 779,
+      "text": "Pense-t-il que nul ne pourra le soumettre à son autorité<sup foot_note=205484>1</sup> ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "Il se vante d’avoir dépensé sans compter. "
+    },
+    {
+      "resource_id": 779,
+      "text": "Pense-t-il vraiment que nul ne l’a remarqué ?"
+    },
+    { "resource_id": 779, "text": "Ne l’avons-Nous pas doté de deux yeux," },
+    {
+      "resource_id": 779,
+      "text": "mais aussi d’une langue et de deux lèvres ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "Ne lui avons-Nous pas indiqué les deux voies<sup foot_note=205485>1</sup> ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "Si seulement il s’engageait dans la voie, si difficile, de son salut !"
+    },
+    {
+      "resource_id": 779,
+      "text": "Mais qui pourrait t’indiquer en quoi consiste cette voie si ardue ?"
+    },
+    { "resource_id": 779, "text": "A affranchir un esclave," },
+    { "resource_id": 779, "text": "ou à nourrir, malgré la faim," },
+    { "resource_id": 779, "text": "un proche parent orphelin" },
+    { "resource_id": 779, "text": "ou un pauvre dans le besoin," },
+    {
+      "resource_id": 779,
+      "text": "tout en étant du nombre des croyants qui se recommandent la constance et la compassion."
+    },
+    {
+      "resource_id": 779,
+      "text": "Ce sont ceux qui agissent ainsi qui sont promis au Paradis,"
+    },
+    {
+      "resource_id": 779,
+      "text": "tandis que ceux qui renient Nos signes sont voués à l’Enfer."
+    },
+    {
+      "resource_id": 779,
+      "text": "C’est sur ces derniers que le Feu se refermera."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "90" }
+  }
+}

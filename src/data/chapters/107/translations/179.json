@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 179,
+      "text": "Nakakilala ka ba sa nagpapasinungaling sa pagganti sa Araw ng Pagbangon?"
+    },
+    {
+      "resource_id": 179,
+      "text": "Sapagkat siya ay yaong tumutulak sa ulila nang may kagaspangan palayo sa pangangailangan nito,"
+    },
+    {
+      "resource_id": 179,
+      "text": "at hindi nag-uudyok sa sarili niya at hindi nag-uudyok sa iba sa kanya sa pagpapakain sa maralita."
+    },
+    {
+      "resource_id": 179,
+      "text": "Kaya kapahamakan at pagdurusa ay ukol sa mga tagapagdasal,"
+    },
+    {
+      "resource_id": 179,
+      "text": "na sila sa pagdarasal nila ay mga naglilibang, hindi pumapansin dito hanggang sa matapos ang oras nito,"
+    },
+    {
+      "resource_id": 179,
+      "text": "na sila ay nagpapakitang-tao sa pagdarasal nila at mga gawa nila: hindi nagpapakawagas ng gawain nila para kay Allāh,"
+    },
+    {
+      "resource_id": 179,
+      "text": "at nagkakait ng pagtulong sa iba pa sa kanila ng bagay na walang kapinsalaan sa pagtulong sa pamamagitan nito."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tagalog Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 179, "chapter_number": "107" }
+  }
+}

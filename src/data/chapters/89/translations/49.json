@@ -1,0 +1,81 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Naapa kwa alfajiri," },
+    { "resource_id": 49, "text": "Na kwa masiku kumi," },
+    { "resource_id": 49, "text": "Na kwa viwili viwili na kimoja kimoja," },
+    { "resource_id": 49, "text": "Na kwa usiku unapo pita," },
+    {
+      "resource_id": 49,
+      "text": "Je! Hapana katika haya kiapo kwa mwenye akili?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Kwani hukuona jinsi Mola wako Mlezi alivyo wafanya kina A'di?"
+    },
+    { "resource_id": 49, "text": "Wa Iram, wenye majumba marefu?" },
+    { "resource_id": 49, "text": "Ambao haukuumbwa mfano wake katika nchi?" },
+    {
+      "resource_id": 49,
+      "text": "Na Thamudi walio chonga majabali huko bondeni?"
+    },
+    { "resource_id": 49, "text": "Na Firauni mwenye vigingi?" },
+    { "resource_id": 49, "text": "Ambao walifanya jeuri katika nchi?" },
+    { "resource_id": 49, "text": "Wakakithirisha humo ufisadi?" },
+    {
+      "resource_id": 49,
+      "text": "Basi Mola wako Mlezi aliwapiga mjeledi wa adhabu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika Mola wako Mlezi yupo kwenye mavizio anawavizia."
+    },
+    {
+      "resource_id": 49,
+      "text": "Ama mtu anapo jaribiwa na Mola wake Mlezi, akamkirimu na akamneemesha, husema: Mola wangu Mlezi amenikirimu!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na ama anapo mjaribu akampunguzia riziki yake, husema: Mola wangu Mlezi amenitia unyonge!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Sivyo hivyo! Bali nyinyi hamuwakirimu mayatima,"
+    },
+    { "resource_id": 49, "text": "Wala hamhimizani kulisha masikini;" },
+    { "resource_id": 49, "text": "Na mnakula urithi kwa ulaji wa pupa," },
+    { "resource_id": 49, "text": "Na mnapenda mali pendo la kupita kiasi." },
+    {
+      "resource_id": 49,
+      "text": "Sivyo hivyo! Itakapo vunjwa ardhi vipande vipande,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na akaja Mola wako Mlezi na Malaika safu safu,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na ikaletwa Jahannamu siku hiyo, siku hiyo mtu atakumbuka! Lakini kukumbuka huko kutamfaa nini?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Atasema: Laiti ningeli jitangulizia kwa uhai wangu!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi siku hiyo hataadhibu yeyote namna ya kuadhibu kwake."
+    },
+    { "resource_id": 49, "text": "Wala hatafunga yeyote kama kufunga kwake." },
+    { "resource_id": 49, "text": "Ewe nafsi iliyo tua!" },
+    {
+      "resource_id": 49,
+      "text": "Rejea kwa Mola wako Mlezi umeridhika, na umemridhisha."
+    },
+    { "resource_id": 49, "text": "Basi ingia miongoni mwa waja wangu," },
+    { "resource_id": 49, "text": "Na ingia katika Pepo yangu." }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "89" }
+  }
+}

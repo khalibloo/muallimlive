@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 84, "text": "Woe to every backbiter, derider" },
+    { "resource_id": 84, "text": "who accumulates wealth and counts it." },
+    {
+      "resource_id": 84,
+      "text": "He thinks that his wealth has made him eternal."
+    },
+    {
+      "resource_id": 84,
+      "text": "Never! He will certainly be thrown into the Crushing Fire."
+    },
+    {
+      "resource_id": 84,
+      "text": "And what may let you know what the Crushing Fire is?"
+    },
+    { "resource_id": 84, "text": "It is Allah’s kindled fire" },
+    { "resource_id": 84, "text": "that will peep into the hearts." },
+    { "resource_id": 84, "text": "It will be closed on them," },
+    { "resource_id": 84, "text": "in outstretched columns." }
+  ],
+  "meta": {
+    "translation_name": "Mufti Taqi Usmani",
+    "author_name": "Mufti Taqi Usmani",
+    "filters": { "resource_id": 84, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 785, "text": "بگو: ای کافران." },
+    { "resource_id": 785, "text": "من نمی‌پرستم چیزی را که شما می‌پرستید." },
+    {
+      "resource_id": 785,
+      "text": "و نه شما می‌پرستید آنچه را که من می‌پرستم."
+    },
+    {
+      "resource_id": 785,
+      "text": "و نه من می‌پرستم آنچه را که شما پرستش کرده‌اید."
+    },
+    {
+      "resource_id": 785,
+      "text": "و نه شما (در آینده) آنچه را که من می‌پرستم، می‌پرستید."
+    },
+    {
+      "resource_id": 785,
+      "text": "(لذا) دین شما برای خودتان و دین من برای خودم است."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 218,
+      "text": "慈悲あまねく*慈愛深き*アッラー*の御名において。"
+    },
+    { "resource_id": 218, "text": "全創造物の主*、アッラー*に称賛*あれ、" },
+    { "resource_id": 218, "text": "慈悲あまねく慈愛深きお方、" },
+    { "resource_id": 218, "text": "報いの日*の支配者（に）。" },
+    {
+      "resource_id": 218,
+      "text": "私たちはあなただけを崇拝*し，あなただけにお力添えを乞います¹。"
+    },
+    {
+      "resource_id": 218,
+      "text": "私たちを、まっすぐな道¹へとお導きください。"
+    },
+    {
+      "resource_id": 218,
+      "text": "あなたが恩恵をお授けになった者たち¹、つまり、（あなたの）お怒りを受けるでもなく、迷うでもない者たち²の道へ。³"
+    }
+  ],
+  "meta": {
+    "translation_name": "Saeed Sato",
+    "author_name": "Saeed Sato",
+    "filters": { "resource_id": 218, "chapter_number": "1" }
+  }
+}

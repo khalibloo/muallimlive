@@ -1,0 +1,306 @@
+{
+  "translations": [
+    { "resource_id": 774, "text": "Ubwo imperuka izaba igeze," },
+    { "resource_id": 774, "text": "Nta we uzashobora guhinyura ukuza kwayo." },
+    {
+      "resource_id": 774,
+      "text": "Izacisha bugufi (abazajya mu muriro), inashyire hejuru (abazajya mu ijuru)."
+    },
+    { "resource_id": 774, "text": "Ubwo isi izatigiswa n’umutingito ukomeye." },
+    { "resource_id": 774, "text": "N’imisozi igahindurwa ubuvungukira." },
+    { "resource_id": 774, "text": "Maze ikaba umukungugu utumuka." },
+    {
+      "resource_id": 774,
+      "text": "(Icyo gihe) muzaba muri mu byiciro bitatu:"
+    },
+    {
+      "resource_id": 774,
+      "text": "Hari ab’iburyo<sup foot_note=211602>1</sup>; abo bantu b’iburyo ni bantu ki?"
+    },
+    {
+      "resource_id": 774,
+      "text": "N’ab’ibumoso; abo bantu b’ibumoso ni bantu ki?"
+    },
+    {
+      "resource_id": 774,
+      "text": "N’aba mbere (ni ababimburiye abandi mu gukurikiza amategeko ya Allah bakiri ku isi), abo bazaba ari bo ba mbere (mu kwinjira mu Ijuru)."
+    },
+    { "resource_id": 774, "text": "Abo ni bo bazaba bari hafi (ya Allah)." },
+    { "resource_id": 774, "text": "Mu ijuru ryuje ingabire." },
+    {
+      "resource_id": 774,
+      "text": "Abenshi (muri bo) bazaba ari itsinda rinini ryo mu bantu bo hambere (mbere y’Intumwa Muhamadi)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Na bake mu bantu bo hanyuma (bakurikiye intumwa Muhamadi)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Bazaba bari ku bitanda bitatswe na zahabu,"
+    },
+    { "resource_id": 774, "text": "Babyegamyeho, berekeranye." },
+    {
+      "resource_id": 774,
+      "text": "Bazaba bazengurukwamo n’abana b’abahungu bahoraho (badasaza cyangwa ngo bapfe),"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Bazaba babazengurutsamo) ibikombe, amabirika n’ibirahuri birimo ibinyobwa (byiza) byo mu masoko yo mu ijuru),"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ntibizabatera kurwara umutwe ndetse nta n’ubwo bizabasindisha."
+    },
+    {
+      "resource_id": 774,
+      "text": "(Bazaba banazengurutswamo) imbuto bazihitiramo,"
+    },
+    { "resource_id": 774, "text": "Ndetse n’inyama z’inyoni bazifuza." },
+    {
+      "resource_id": 774,
+      "text": "Kandi (hazaba hari) ba Huur ul-a’in (abagore bo mu Ijuru b’igikundiro n’amaso manini)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Bameze nk’inigi zishashagirana (Lu’ulu’u) zikiri mu bubiko bwazo."
+    },
+    { "resource_id": 774, "text": "Bizaba ari ibihembo by’ibyo bakoraga." },
+    {
+      "resource_id": 774,
+      "text": "Muri ryo (Ijuru) nta magambo adafite akamaro cyangwa se ayatuma bakora ibyaha bazumvamo,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Uretse (imvugo yo kuramukanya, igira iti) “Salamu, Salamu (amahoro, amahoro)!”"
+    },
+    {
+      "resource_id": 774,
+      "text": "Naho ab’iburyo; ni bantu ki (mbega ibihembo by’abantu b’iburyo)?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Bazaba mu (ijuru ririmo) ibiti bya Sidiri bidafite amahwa,"
+    },
+    {
+      "resource_id": 774,
+      "text": "N’insina zifite ibitoki by’amaseri agerekeranye,"
+    },
+    { "resource_id": 774, "text": "No mu gicucu cyagutse (kandi gihoraho)," },
+    { "resource_id": 774, "text": "N’amazi ahora atemba," },
+    { "resource_id": 774, "text": "Ndetse n’imbuto nyinshi," },
+    {
+      "resource_id": 774,
+      "text": "Ntizizahundura (bitewe n’ihinduka ry’ibihe cyangwa ngo zigire igihe cyo kwera), kandi ntizizaba zibujijwe (kuri bo)."
+    },
+    { "resource_id": 774, "text": "Bazaba banafite ibitanda biri hejuru." },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri (abagore bo ku isi bazajya mu ijuru) tuzabarema bundi bushya."
+    },
+    { "resource_id": 774, "text": "Maze tubagire amasugi." },
+    {
+      "resource_id": 774,
+      "text": "Bakunda (abagabo babo gusa), kandi ari urungano."
+    },
+    {
+      "resource_id": 774,
+      "text": "(Ibi byose) byateganyirijwe abantu b’iburyo."
+    },
+    {
+      "resource_id": 774,
+      "text": "Abenshi (muri bo) bazaba ari itsinda rinini ryo mu bantu bo hambere (mbere y’Intumwa Muhamadi)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Na benshi mu bantu bo hanyuma (bakurikiye Intumwa Muhamadi)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Naho abantu b’ibumoso; ni bantu ki (mbega ibihano by’abantu b’ibumoso)?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Bazaba bari mu muyaga utwika ndetse n’amazi yatuye."
+    },
+    { "resource_id": 774, "text": "No mu gicucu cy’umwotsi w’umukara." },
+    {
+      "resource_id": 774,
+      "text": "(Icyo gicucu) nta mafu kizatanga ndetse nta n’icyiza kizagiturukaho."
+    },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri mbere bari babayeho mu buzima bwo kwinezeza (bigomeka kuri Allah)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi bajyaga batsimbarara ku cyaha gihambaye (cyo kubangikanya Imana, ntibagire umugambi wo kubyicuza)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi bajyaga bavuga bati “ Ese nidupfa tugahinduka igitaka n’amagufa (akabora), tuzazurwa koko?”"
+    },
+    { "resource_id": 774, "text": "“N’abakurambere bacu (bazazurwa) se?”" },
+    {
+      "resource_id": 774,
+      "text": "Vuga (yewe Muhamadi) uti “(Yego) rwose, abo hambere n’abo hanyuma,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Bazakoranywa ku munsi uzwi, wagenwe (umunsi w’imperuka).”"
+    },
+    { "resource_id": 774, "text": "Nuko mwe abayobye mukanahinyura ukuri," },
+    { "resource_id": 774, "text": "Rwose muzarya ku giti cya Zaqumu," },
+    { "resource_id": 774, "text": "Maze mucyuzuze inda," },
+    { "resource_id": 774, "text": "Mukirenzeho amazi yatuye," },
+    {
+      "resource_id": 774,
+      "text": "Muzayanywa nk’ingamiya zinywa zidashira inyota."
+    },
+    {
+      "resource_id": 774,
+      "text": "Iryo ni ryo zimano ryabo ku munsi w’ibihembo."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ni twe twabaremye. None se kuki mutemera (izuka)?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ese mutekereza iki ku byo musohora (amasohoro)?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ese ni mwe muyarema cyangwa ni twe Muremyi?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ni twe twabageneye urupfu kandi ntitwananirwa,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Kubasimbuza abameze nkamwe, maze tukabaremamo (amashusho y’) ibindi mutazi."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi mu by’ukuri mwamenye ukuremwa (kwanyu) kwa mbere. None se kuki mutibuka?"
+    },
+    { "resource_id": 774, "text": "Ese ntimubona ibyo muhinga?" },
+    {
+      "resource_id": 774,
+      "text": "Ese ni mwe mubiha kumera no gukura, cyangwa ni twe tubikora?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Tubishatse twabigira ubushingwe, maze mugakomeza kumirwa."
+    },
+    {
+      "resource_id": 774,
+      "text": "(Muvuga muti) “Rwose (twaruhiye ubusa none) dusigaye mu madeni”;"
+    },
+    {
+      "resource_id": 774,
+      "text": "Cyangwa ahubwo turaburaniwe (tubuze byose)."
+    },
+    { "resource_id": 774, "text": "Ese ntimubona amazi munywa?" },
+    {
+      "resource_id": 774,
+      "text": "Ese ni mwe muyamanura mu bicu cyangwa ni twe tuyamanura?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Iyo tuza kubishaka, twari kuyagira urwunyunyu (ntanyobwe). None se kuki mudashimira (Allah)."
+    },
+    { "resource_id": 774, "text": "Ese ntimubona umuriro mucana?" },
+    {
+      "resource_id": 774,
+      "text": "Ese ni mwe mwaremye igiti cyawo (muwukomoramo) cyangwa ni twe Muremyi?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ni twe twawugize urwibutso (rw’umuriro wa Jahanamu), ndetse n’ingirakamaro ku bagenzi (n’abandi bose bawukeneye)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ngaho singiza izina rya Nyagasani wawe, Uhambaye."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ndahiye ibyimbo by’inyenyeri (mu isanzure)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi rwose iyo ni indahiro ihambaye iyo muza kumenya,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ko mu by’ukuri (iyi) ari Qur’an Ntagatifu,"
+    },
+    { "resource_id": 774, "text": "Iri mu gitabo kirinzwe neza (mu Ijuru)," },
+    {
+      "resource_id": 774,
+      "text": "Kitajya kigira ugikoraho uretse abejejwe (bafite isuku)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ni uguhishurwa kwaturutse kwa Nyagasani w’ibiremwa."
+    },
+    { "resource_id": 774, "text": "Ese iyi nkuru (Qur’an) ni yo muhinyura?" },
+    {
+      "resource_id": 774,
+      "text": "Aho (gushimira Allah) ku ngabire abaha, (mumwitura) kumuhakana?"
+    },
+    {
+      "resource_id": 774,
+      "text": "None se (kuki nta cyo mukora) igihe roho (y’umuntu ugiye gupfa) igeze mu muhogo?"
+    },
+    { "resource_id": 774, "text": "Icyo gihe muba murebera," },
+    {
+      "resource_id": 774,
+      "text": "Kandi tuba turi hafi ye kubarusha, ariko mwe ntimubibona."
+    },
+    {
+      "resource_id": 774,
+      "text": "None se kuki, niba mwibwira ko nta cyo muzabazwa (mukaba mwibwira ko muri abanyembaraga),"
+    },
+    {
+      "resource_id": 774,
+      "text": "Mutayigarura (iyo roho mu mubiri wayo), niba koko muri abanyakuri?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Niba (uwo muntu ugiye gupfa) ari mu ba hafi (ya Allah),"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Ateganyirijwe) umunezero n’impumuro y’ibyishimo, ndetse n’ubusitani bwuje ingabire (Ijuru)."
+    },
+    {
+      "resource_id": 774,
+      "text": "(Uwo muntu ugiye gupfa) naba ari mu bantu b’iburyo,"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Azabwirwa ati) “Amahoro nabe kuri wowe kuko uri mu bantu b’iburyo.”"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ariko (uwo muntu ugiye gupfa) naba ari mu bahinyura (izuka), bayobye,"
+    },
+    { "resource_id": 774, "text": "Izimano rye rizaba ari amazi yatuye," },
+    { "resource_id": 774, "text": "No kuzatwikirwa mu muriro." },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri uku ni ko kuri kudashidikanywaho."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ngaho tagatifuza izina rya Nyagasani wawe, Uhambaye."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "56" }
+  }
+}

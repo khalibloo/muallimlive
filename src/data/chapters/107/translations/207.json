@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 207,
+      "text": "Have you seen someone who rejects religion?"
+    },
+    {
+      "resource_id": 207,
+      "text": "That is the person who pushes the orphan aside"
+    },
+    { "resource_id": 207, "text": "and does not promote feeding the needy." },
+    { "resource_id": 207, "text": "It will be too bad for the prayerful" },
+    { "resource_id": 207, "text": "who are absent-minded as they pray," },
+    { "resource_id": 207, "text": "who [do good deds only] to be noticed" },
+    { "resource_id": 207, "text": "while they hold back common kindnesses." }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "107" }
+  }
+}

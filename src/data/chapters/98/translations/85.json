@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "Those who disbelieve among the People of the Book and the idolaters were not about to change their ways until they were sent clear evidence,"
+    },
+    {
+      "resource_id": 85,
+      "text": "a messenger from God, reading out pages [blessed with] purity,"
+    },
+    { "resource_id": 85, "text": "containing true scriptures." },
+    {
+      "resource_id": 85,
+      "text": "[Yet] those who were given the Scripture became divided only after they were sent [such] clear evi-dence"
+    },
+    {
+      "resource_id": 85,
+      "text": "though all they are ordered to do is worship God alone, sincerely devoting their religion to Him as people of true faith, keep up the prayer, and pay the prescribed alms, for that is the true religion."
+    },
+    {
+      "resource_id": 85,
+      "text": "Those who disbelieve among the People of the Book and the idolaters will have the Fire of Hell, there to remain. They are the worst of creation."
+    },
+    {
+      "resource_id": 85,
+      "text": "Those who believe and do good deeds are the best of creation."
+    },
+    {
+      "resource_id": 85,
+      "text": "Their reward with their Lord is everlasting Gardens graced with flowing streams, where they will stay forever. God is well pleased with them and they with Him. All this is for those who stand in awe of their Lord."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "98" }
+  }
+}

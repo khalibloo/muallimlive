@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) De: “Pənah aparıram insanların Rəbbinə;"
+    },
+    { "resource_id": 23, "text": "İnsanların ixtiyar sahibinə;" },
+    { "resource_id": 23, "text": "İnsanların tanrısına;" },
+    {
+      "resource_id": 23,
+      "text": "Vəsvəsə verən, (Allahın adı çəkiləndə isə qorxusundan) qaçıb gizlənən Şeytanın şərindən-"
+    },
+    {
+      "resource_id": 23,
+      "text": "O Şeytan ki, insanların ürəklərinə vəsvəsə salır,"
+    },
+    {
+      "resource_id": 23,
+      "text": "(O Şeytan ki) cinlərdən də olur, insanlardan da! (Və ya: (o Şeytan) istər cinlərdən olsun, istər insanlardan!)”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "114" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "(Empiezo)<sup foot_note=149054>1</sup> con el nombre de Al-lah<sup foot_note=149055>2</sup>, el Clemente, el Misericordioso<sup foot_note=149056>3</sup>."
+    },
+    {
+      "resource_id": 140,
+      "text": "¡Alabado sea Al-lah, Señor de toda la creación!,"
+    },
+    { "resource_id": 140, "text": "el Clemente, el Misericordioso," },
+    {
+      "resource_id": 140,
+      "text": "Soberano del Día del Juicio Final<sup foot_note=149057>1</sup>."
+    },
+    {
+      "resource_id": 140,
+      "text": "Solo a Ti adoramos y solo a Ti pedimos ayuda."
+    },
+    { "resource_id": 140, "text": "Guíanos por el camino recto," },
+    {
+      "resource_id": 140,
+      "text": "el camino de quienes has agraciado, no el de quienes han incurrido en Tu ira ni el de quienes se han extraviado (a pesar de conocer la verdad)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "1" }
+  }
+}

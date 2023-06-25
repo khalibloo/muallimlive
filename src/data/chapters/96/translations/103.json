@@ -1,0 +1,46 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Lê, em nome de teu Senhor, que criou," },
+    { "resource_id": 103, "text": "Que criou o ser humano de uma aderência." },
+    { "resource_id": 103, "text": "Lê, e teu Senhor é O mais Generoso," },
+    { "resource_id": 103, "text": "Que ensinou a escrever com o cálamo," },
+    {
+      "resource_id": 103,
+      "text": "Ensinou ao ser humano o que ele não sabia."
+    },
+    {
+      "resource_id": 103,
+      "text": "Ora, por certo, o ser humano a tudo transgride,"
+    },
+    {
+      "resource_id": 103,
+      "text": "Desde que ele se vê prescindindo de ajuda."
+    },
+    { "resource_id": 103, "text": "Por certo, a teu Senhor será o retorno." },
+    { "resource_id": 103, "text": "Viste aquele que coíbe" },
+    { "resource_id": 103, "text": "Um servo de orar, quando este ora?" },
+    { "resource_id": 103, "text": "Viste se ele está na Orientação," },
+    { "resource_id": 103, "text": "Ou se ordena a piedade?" },
+    {
+      "resource_id": 103,
+      "text": "Viste se te desmente e te volta as costas?"
+    },
+    { "resource_id": 103, "text": "Não sabe ele que Allah a tudo vê?" },
+    {
+      "resource_id": 103,
+      "text": "Em absoluto, não o sabe! Em verdade, se ele não se detiver, arrastá-lo-emos pelo topete,"
+    },
+    { "resource_id": 103, "text": "Topete mentiroso, errado." },
+    { "resource_id": 103, "text": "Então, que convoque seus partidários." },
+    { "resource_id": 103, "text": "Convocaremos os verdugos." },
+    {
+      "resource_id": 103,
+      "text": "Em absoluto, não lhe obedeças; e prosterna-te e aproxima-te de Allah."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "96" }
+  }
+}

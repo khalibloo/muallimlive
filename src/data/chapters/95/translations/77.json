@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "İncir ve zeytine and olsun," },
+    { "resource_id": 77, "text": "And olsun Sina dağına," },
+    { "resource_id": 77, "text": "And olsun bu güvenli Mekke şehrine ki:" },
+    { "resource_id": 77, "text": "Biz insanı en güzel şekilde yarattık," },
+    { "resource_id": 77, "text": "Sonra onu aşağıların en aşağısı kıldık." },
+    {
+      "resource_id": 77,
+      "text": "Yalnız, inanıp yararlı iş işleyenler bunun dışındadır. Onlara kesintisiz ecir vardır."
+    },
+    { "resource_id": 77, "text": "Öyleyken, sana dini yalan saydırtan nedir?" },
+    {
+      "resource_id": 77,
+      "text": "Allah, hükmedenlerin en iyi hükmedeni değil midir?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "95" }
+  }
+}

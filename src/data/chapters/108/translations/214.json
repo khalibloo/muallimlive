@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Mi smo ti, uistinu, Kevser dali," },
+    {
+      "resource_id": 214,
+      "text": "pa klanjaj Gospodaru svome i kurban kolji,"
+    },
+    {
+      "resource_id": 214,
+      "text": "onaj koji tebe mrzi – sigurno će on bez spomena ostati."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "108" }
+  }
+}

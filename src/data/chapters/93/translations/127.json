@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 127, "text": "Чоштгоҳ билан қасам." },
+    { "resource_id": 127, "text": "Сукунатга чўмган тун билан қасам." },
+    {
+      "resource_id": 127,
+      "text": "Роббинг сени тарк қилгани йўқ, сенга ғазаб ҳам қилгани йўқ.<sup foot_note=48885>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва албатта, охират сен учун бу дунёдан яхшидир."
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва тезда Роббинг сенга ато қилур ва сен рози бўлурсан."
+    },
+    { "resource_id": 127, "text": "У сени етим топиб, жойлаб қўймадими?" },
+    {
+      "resource_id": 127,
+      "text": "Ва У сени ҳайрон ҳолда топиб, ҳидоятга бошламадими?"
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва У сени камбағал ҳолда топиб, бой қилмадими?"
+    },
+    { "resource_id": 127, "text": "Аммо етимга қаҳр қилмагин." },
+    {
+      "resource_id": 127,
+      "text": "Ва аммо, «соил»га зажр қилма.<sup foot_note=48886>1</sup>"
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва аммо Роббингнинг берган неъмати ҳақида сўзла."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "93" }
+  }
+}

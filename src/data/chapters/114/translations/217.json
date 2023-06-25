@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Скажи: «Шукаю захисту в Господа людей" },
+    { "resource_id": 217, "text": "Володаря людей" },
+    { "resource_id": 217, "text": "Бога людей" },
+    { "resource_id": 217, "text": "від зла спокусника зникаючого" },
+    { "resource_id": 217, "text": "який зваблює серця людей" },
+    { "resource_id": 217, "text": "від зла джинів і людей»." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "114" }
+  }
+}

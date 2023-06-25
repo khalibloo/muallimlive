@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 122, "text": "क़ुरैश के स्वभाव बनाने के कारण।" },
+    {
+      "resource_id": 122,
+      "text": "उनके जाड़े तथा गर्मी की यात्रा का स्वभाव बनाने के कारण।[ <sup foot_note=134932>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "उन्हें चाहिये कि इस घर (काबा) के प्रभु की पूजा करें।[ <sup foot_note=134933>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "जिसने उन्हें भूख में खिलाया तथा डर से निडर कर दिया।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Gökyüzü yarıldığı zaman," },
+    { "resource_id": 124, "text": "yıldızlar döküldüğü zaman," },
+    { "resource_id": 124, "text": "denizler birbirine katıldığı zaman," },
+    {
+      "resource_id": 124,
+      "text": "kabirlerin içindekiler dışarı çıkarıldığı zaman,"
+    },
+    {
+      "resource_id": 124,
+      "text": "insanoğlu (yapıp) gönderdiklerini ve (yapamayıp) geride bıraktıklarını bir bir anlar."
+    },
+    {
+      "resource_id": 124,
+      "text": "Ey insan! İhsanı bol Rabbine karşı seni aldatan nedir?"
+    },
+    {
+      "resource_id": 124,
+      "text": "Seni yaratıp seni düzgün ve dengeli kılan,"
+    },
+    { "resource_id": 124, "text": "seni istediği bir şekilde birleştiren," },
+    {
+      "resource_id": 124,
+      "text": "Hayır! Bütün bunlara rağmen siz yine de dini yalanlıyorsunuz."
+    },
+    { "resource_id": 124, "text": "Şunu iyi bilin ki üzerinizde bekçiler," },
+    { "resource_id": 124, "text": "değerli yazıcılar vardır," },
+    { "resource_id": 124, "text": "onlar, yapmakta olduklarınızı bilirler." },
+    { "resource_id": 124, "text": "İyiler muhakkak cennette," },
+    { "resource_id": 124, "text": "kötüler de cehennemdedirler." },
+    { "resource_id": 124, "text": "Ceza gününde oraya girerler." },
+    {
+      "resource_id": 124,
+      "text": "Onlar (kâfirler) oradan bir daha da ayrılmazlar."
+    },
+    { "resource_id": 124, "text": "Ceza günü nedir bilir misin?" },
+    { "resource_id": 124, "text": "Nedir acaba o ceza günü?" },
+    {
+      "resource_id": 124,
+      "text": "O gün hiçbir kimse başkası için bir şey yapamaz. O gün iş Allah'a kalmıştır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "82" }
+  }
+}

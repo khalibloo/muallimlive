@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Quando o céu se fender," },
+    { "resource_id": 43, "text": "Quando os planetas se dispersarem," },
+    { "resource_id": 43, "text": "Quando os oceanos forem despejados," },
+    { "resource_id": 43, "text": "E quando os sepulcros forem revirados," },
+    {
+      "resource_id": 43,
+      "text": "Saberá cada alma o que fez e o que deixou de fazer."
+    },
+    {
+      "resource_id": 43,
+      "text": "Ó humano, o que te fez negligente em relação ao teu Senhor, o Munificentíssimo,"
+    },
+    { "resource_id": 43, "text": "Que te criou, te formou, te aperfeiçoou," },
+    { "resource_id": 43, "text": "E te modelou, na forma que Lhe aprouve?" },
+    {
+      "resource_id": 43,
+      "text": "Qual! Apesar disso, desmentis o (Dia do) Juízo!"
+    },
+    {
+      "resource_id": 43,
+      "text": "Porém, certamente, sobre vós há anjos da guarda,"
+    },
+    { "resource_id": 43, "text": "Generosos e anotadores," },
+    { "resource_id": 43, "text": "Que sabem (tudo) o que fazeis." },
+    { "resource_id": 43, "text": "Sabei que os piedosos estarão em deleite;" },
+    {
+      "resource_id": 43,
+      "text": "Por outra, os ignóbeis, irão para a fogueira,"
+    },
+    { "resource_id": 43, "text": "Em que entrarão, no Dia do Juízo," },
+    { "resource_id": 43, "text": "Da qual jamais poderão esquivar-se." },
+    {
+      "resource_id": 43,
+      "text": "E, o que te fará entender o que é o Dia do Juízo?"
+    },
+    {
+      "resource_id": 43,
+      "text": "Novamente: o que te fará entender o que é o Dia do Juízo?"
+    },
+    {
+      "resource_id": 43,
+      "text": "É o dia em que nenhuma alma poderá advogar por outra, porque o mando, nesse dia, só será de Deus."
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "82" }
+  }
+}

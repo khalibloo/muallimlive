@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Kuşluk vaktine yemin ederim ki" },
+    {
+      "resource_id": 124,
+      "text": "ve sükuna erdiğinde geceye yemin ederim ki"
+    },
+    { "resource_id": 124, "text": "Rabbin seni bırakmadı ve sana darılmadı." },
+    {
+      "resource_id": 124,
+      "text": "Gerçekten senin için ahiret dünyadan daha hayırlıdır."
+    },
+    {
+      "resource_id": 124,
+      "text": "Pek yakında Rabbin sana verecek de hoşnut olacaksın ."
+    },
+    { "resource_id": 124, "text": "O, seni yetim bulup barındırmadı mı?" },
+    { "resource_id": 124, "text": "Şaşırmış bulup da yol göstermedi mi?" },
+    { "resource_id": 124, "text": "Seni fakir bulup zengin etmedi mi?" },
+    { "resource_id": 124, "text": "Öyleyse yetimi sakın ezme." },
+    { "resource_id": 124, "text": "El açıp isteyeni de sakın azarlama." },
+    {
+      "resource_id": 124,
+      "text": "Ve Rabbinin nimetini minnet ve şükranla an."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "93" }
+  }
+}

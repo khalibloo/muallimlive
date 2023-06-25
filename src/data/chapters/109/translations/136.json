@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Dis : « Ô vous les mécréants !" },
+    { "resource_id": 136, "text": "Je n’adore point ce que vous adorez." },
+    {
+      "resource_id": 136,
+      "text": "Pas plus que vous n’allez adorer ce que<sup foot_note=195249>1</sup> j’adore."
+    },
+    {
+      "resource_id": 136,
+      "text": "Ni moi je ne vais adorer ce que vous avez adoré."
+    },
+    {
+      "resource_id": 136,
+      "text": "Pas plus que vous n’allez adorer ce que j’adore."
+    },
+    {
+      "resource_id": 136,
+      "text": "Vous, vous avez votre religion et moi, j’ai la mienne. »"
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "109" }
+  }
+}

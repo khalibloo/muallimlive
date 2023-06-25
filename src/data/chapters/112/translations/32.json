@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 32, "text": "Ka ce: &quot;Shi ne Allah Makaɗaĩci.&quot;" },
+    {
+      "resource_id": 32,
+      "text": "&quot;Allah wanda ake nufin Sa da buƙata.&quot;"
+    },
+    {
+      "resource_id": 32,
+      "text": "&quot;Bai haifa ba, kuma ba a haife Shi ba.&quot;"
+    },
+    {
+      "resource_id": 32,
+      "text": "&quot;Kuma babu ɗaya da ya kasance tamka a gare Shi.&quot;"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "112" }
+  }
+}

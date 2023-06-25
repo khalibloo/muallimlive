@@ -1,0 +1,74 @@
+{
+  "translations": [
+    { "resource_id": 17, "text": "No! I swear by this country, - (Or: city)" },
+    {
+      "resource_id": 17,
+      "text": "And you (i.e., the Prophet) are an inhabitant of this country."
+    },
+    {
+      "resource_id": 17,
+      "text": "And (I swear) (by) the begetter and what he begot."
+    },
+    {
+      "resource_id": 17,
+      "text": "Indeed We already created man in suffering."
+    },
+    {
+      "resource_id": 17,
+      "text": "Does he reckon that no one can ever determine over him?"
+    },
+    {
+      "resource_id": 17,
+      "text": "He says, \"I have consumed stacked wealth.\""
+    },
+    { "resource_id": 17, "text": "Does he reckon that none has seen him?" },
+    { "resource_id": 17, "text": "Have We not made for him two eyes," },
+    { "resource_id": 17, "text": "And a tongue, and two lips," },
+    {
+      "resource_id": 17,
+      "text": "And guided him on the two highways (of good and evil)?"
+    },
+    {
+      "resource_id": 17,
+      "text": "Yet he has not rushed along the uneven (Or: steep) track."
+    },
+    {
+      "resource_id": 17,
+      "text": "And what makes you realize what the uneven track is?"
+    },
+    {
+      "resource_id": 17,
+      "text": "It is the freeing of a slave, (Literally: the untying of a neck)"
+    },
+    { "resource_id": 17, "text": "Or feeding upon a day of famine." },
+    {
+      "resource_id": 17,
+      "text": "An orphan of (Literally: owning) near relationship,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Or an indigent man in starvation; (Literally: in dusty circumstances)"
+    },
+    {
+      "resource_id": 17,
+      "text": "Thereafter he is one of the ones who believed, and enjoined one another to have patience, and enjoined one another to do merciful deeds."
+    },
+    {
+      "resource_id": 17,
+      "text": "Those are the companions of the position of Rightness."
+    },
+    {
+      "resource_id": 17,
+      "text": "And the ones who disbelieve in Our signs, they are the companions of the position of sinister (befalling); (Or: the Hand)"
+    },
+    {
+      "resource_id": 17,
+      "text": "Over them is a Fire without any outlet (Literally: vaulted/over)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "90" }
+  }
+}

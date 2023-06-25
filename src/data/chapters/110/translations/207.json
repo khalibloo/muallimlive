@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 207,
+      "text": "When Allah (God)'s support comes as well as victory,"
+    },
+    {
+      "resource_id": 207,
+      "text": "and you see mankind entering Allah (God)'s religion in droves;"
+    },
+    {
+      "resource_id": 207,
+      "text": "then hymn your Lord's praise and beg Him for forgiveness, since He is so Relenting!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "110" }
+  }
+}

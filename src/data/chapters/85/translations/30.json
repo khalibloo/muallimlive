@@ -1,0 +1,52 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Nimessä taivaan, joka on täynnä tähtisikermiä,"
+    },
+    { "resource_id": 30, "text": "nimessä ennustetun päivän," },
+    { "resource_id": 30, "text": "nimessä todistajan ja todistetun," },
+    { "resource_id": 30, "text": "kirotut olkoot tulikuopan miehet" },
+    { "resource_id": 30, "text": "polttavan tulen äärellä," },
+    { "resource_id": 30, "text": "kun he istuivat siinä" },
+    { "resource_id": 30, "text": "ja katselivat, mikä on uskovien osa." },
+    {
+      "resource_id": 30,
+      "text": "He kantoivat kaunaa näitä vastaan vain sentähden, että nämä uskoivat Jumalaan, kaikkivoipaan, ylistettyyn,"
+    },
+    {
+      "resource_id": 30,
+      "text": "Häneen, jonka on valta taivaassa ja maan päällä; niin, Jumala on kaiken silminnäkijä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti niitä, jotka vainoavat uskovia, miehiä ja naisia, eivätkä tee parannusta, odottaa helvetin kuritus; niin, heitä odottaa tulen tuska."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta niitä, jotka uskovat ja tekevät hyviä töitä, totisesti odottavat puutarhat vuolaine virtoineen. Tämä on suuri autuus."
+    },
+    { "resource_id": 30, "text": "Totisesti Herrasi voima on väkevä:" },
+    {
+      "resource_id": 30,
+      "text": "Hänen vallassaan on luominen, Hän herättää jälleen elämään."
+    },
+    { "resource_id": 30, "text": "Niin, Hän on anteeksiantava, rakastava." },
+    { "resource_id": 30, "text": "Hallitsevan voiman Herra, ylevä," },
+    { "resource_id": 30, "text": "mahtava tahtonsa toteuttaja." },
+    { "resource_id": 30, "text": "Etkö ole kuullut kertomusta sotajoukoista," },
+    { "resource_id": 30, "text": "jotka faraolla ja Tamuudilla oli?" },
+    { "resource_id": 30, "text": "Niin, epäuskoiset paatuvat hylkimisessään," },
+    { "resource_id": 30, "text": "mutta Jumala saartaa heidät joka puolelta." },
+    { "resource_id": 30, "text": "Totisesti tämä on ylevä Koraani," },
+    {
+      "resource_id": 30,
+      "text": "joka tauluille kirjoitettuna on hyvin säilynyt."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "85" }
+  }
+}

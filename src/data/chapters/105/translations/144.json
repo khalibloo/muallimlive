@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 144,
+      "text": "Heb jij niet vernomen hoe jouw Heer met de mensen van de olifant heeft gehandeld?"
+    },
+    { "resource_id": 144, "text": "Heeft Hij hun plan niet verijdeld?" },
+    {
+      "resource_id": 144,
+      "text": "En Hij heeft over hen zwermen vogels gezonden."
+    },
+    { "resource_id": 144, "text": "Die stenen van klei op hen wierpen." },
+    {
+      "resource_id": 144,
+      "text": "Zo maakte Hij hen als (door wormen) aangevreten bladeren."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "105" }
+  }
+}

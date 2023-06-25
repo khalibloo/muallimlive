@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Sag: Ich nehme Zuflucht beim Herrn des Tagesanbruchs"
+    },
+    {
+      "resource_id": 27,
+      "text": "vor dem Übel dessen, was Er erschaffen hat,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und vor dem Übel der Dunkelheit, wenn sie zunimmt,"
+    },
+    { "resource_id": 27, "text": "und vor dem Übel der Knotenanbläserinnen" },
+    {
+      "resource_id": 27,
+      "text": "und vor dem Übel eines (jeden) Neidenden, wenn er neidet."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "113" }
+  }
+}

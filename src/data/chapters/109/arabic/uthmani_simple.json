@@ -1,0 +1,35 @@
+{
+  "verses": [
+    {
+      "id": 6208,
+      "verse_key": "109:1",
+      "text_uthmani_simple": "قل يايها الكفرون"
+    },
+    {
+      "id": 6209,
+      "verse_key": "109:2",
+      "text_uthmani_simple": "لا اعبد ما تعبدون"
+    },
+    {
+      "id": 6210,
+      "verse_key": "109:3",
+      "text_uthmani_simple": "ولا انتم عبدون ما اعبد"
+    },
+    {
+      "id": 6211,
+      "verse_key": "109:4",
+      "text_uthmani_simple": "ولا انا۠ عابد ما عبدتم"
+    },
+    {
+      "id": 6212,
+      "verse_key": "109:5",
+      "text_uthmani_simple": "ولا انتم عبدون ما اعبد"
+    },
+    {
+      "id": 6213,
+      "verse_key": "109:6",
+      "text_uthmani_simple": "لكم دينكم ولى دين"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "109" } }
+}

@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 171,
+      "text": "Say, O Messenger: He is Allah who is alone in being a deity. There is no deity except Him."
+    },
+    {
+      "resource_id": 171,
+      "text": "He is the master to whom belongs all sovereignty and perfect, beautiful qualities. The one to whom all creation turn to."
+    },
+    {
+      "resource_id": 171,
+      "text": "The one who did not give birth to anyone, nor did anyone give birth to Him. So He has no offspring - may He be glorified - nor any parent."
+    },
+    {
+      "resource_id": 171,
+      "text": "Nor does He have any equal from His creation."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abridged Explanation of the Quran",
+    "author_name": "Tafsir Center of Quranic Studies",
+    "filters": { "resource_id": 171, "chapter_number": "112" }
+  }
+}

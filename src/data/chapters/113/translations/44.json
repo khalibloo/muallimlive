@@ -1,0 +1,14 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Spune: “Izbăvire caut la Domnul zorilor" },
+    { "resource_id": 44, "text": "de răul a ceea ce a creat," },
+    { "resource_id": 44, "text": "de răul beznei când se lasă," },
+    { "resource_id": 44, "text": "de răul celor care suflă peste noduri," },
+    { "resource_id": 44, "text": "de răul pizmaşului când pizmuieşte!”" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "113" }
+  }
+}

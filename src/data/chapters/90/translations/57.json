@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "La oqsimu bihatha albalad" },
+    { "resource_id": 57, "text": "Waanta hillun bihatha albalad" },
+    { "resource_id": 57, "text": "Wawalidin wama walad" },
+    { "resource_id": 57, "text": "Laqad khalaqna al-insana feekabad" },
+    { "resource_id": 57, "text": "Ayahsabu an lan yaqdira AAalayhi ahad" },
+    { "resource_id": 57, "text": "Yaqoolu ahlaktu malan lubada" },
+    { "resource_id": 57, "text": "Ayahsabu an lam yarahu ahad" },
+    { "resource_id": 57, "text": "Alam najAAal lahu AAaynayn" },
+    { "resource_id": 57, "text": "Walisanan washafatayn" },
+    { "resource_id": 57, "text": "Wahadaynahu annajdayn" },
+    { "resource_id": 57, "text": "Fala iqtahama alAAaqaba" },
+    { "resource_id": 57, "text": "Wama adraka maalAAaqaba" },
+    { "resource_id": 57, "text": "Fakku raqaba" },
+    { "resource_id": 57, "text": "Aw itAAamun fee yawmin theemasghaba" },
+    { "resource_id": 57, "text": "Yateeman tha maqraba" },
+    { "resource_id": 57, "text": "Aw miskeenan tha matraba" },
+    {
+      "resource_id": 57,
+      "text": "Thumma kana mina allatheena amanoowatawasaw bissabri watawasaw bilmarhama"
+    },
+    { "resource_id": 57, "text": "Ola-ika as-habualmaymana" },
+    {
+      "resource_id": 57,
+      "text": "Wallatheena kafaroo bi-ayatinahum as-habu almash-ama"
+    },
+    { "resource_id": 57, "text": "AAalayhim narun mu/sada" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "90" }
+  }
+}

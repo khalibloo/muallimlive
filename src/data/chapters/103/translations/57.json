@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "WalAAasr" },
+    { "resource_id": 57, "text": "Inna al-insana lafee khusr" },
+    {
+      "resource_id": 57,
+      "text": "Illa allatheena amanoowaAAamiloo assalihati watawasaw bilhaqqiwatawasaw bissabr"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "103" }
+  }
+}

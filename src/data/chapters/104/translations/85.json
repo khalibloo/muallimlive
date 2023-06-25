@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 85, "text": "Woe to every fault-finding backbiter" },
+    { "resource_id": 85, "text": "who amasses riches, counting them over," },
+    { "resource_id": 85, "text": "thinking they will make him live for ever." },
+    {
+      "resource_id": 85,
+      "text": "No indeed! He will be thrust into the Crusher!"
+    },
+    {
+      "resource_id": 85,
+      "text": "What will explain to you what the Crusher is?"
+    },
+    { "resource_id": 85, "text": "It is God’s Fire, made to blaze," },
+    { "resource_id": 85, "text": "which rises over people’s hearts." },
+    { "resource_id": 85, "text": "It closes in on them" },
+    { "resource_id": 85, "text": "in towering columns." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "104" }
+  }
+}

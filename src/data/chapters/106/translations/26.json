@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Pro soudržnost Kurajšovců," },
+    {
+      "resource_id": 26,
+      "text": "pro soudržnost jejich, když připravuji zimní a letní karavanu,"
+    },
+    { "resource_id": 26, "text": "nechť slouží chrámu tohoto Pánu," },
+    { "resource_id": 26, "text": "jenž nasytil je a ochránil před hladem" }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "106" }
+  }
+}

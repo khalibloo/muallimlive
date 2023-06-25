@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Udar zastrašujući!" },
+    { "resource_id": 25, "text": "Šta je Udar zastrašujući?" },
+    { "resource_id": 25, "text": "I šta ti znaš šta je Udar zastrašujući?" },
+    {
+      "resource_id": 25,
+      "text": "Dan taj ljudi će biti kao leptiri raštrkani,"
+    },
+    { "resource_id": 25, "text": "a planine kao šarena vuna iščupana." },
+    { "resource_id": 25, "text": "Onaj čija dobra djela budu teška," },
+    { "resource_id": 25, "text": "u ugodnom životu će živjeti," },
+    { "resource_id": 25, "text": "a onaj čija dobra djela budu lahka," },
+    { "resource_id": 25, "text": "majka - utočište će mu bezdan biti." },
+    { "resource_id": 25, "text": "A znaš li ti šta će to biti?" },
+    { "resource_id": 25, "text": "Vatra užarena!" }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "101" }
+  }
+}

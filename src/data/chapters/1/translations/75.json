@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " Mərhəmətli və Rəhmli Alla­­­­hın adı ilə!" },
+    { "resource_id": 75, "text": " Həmd, aləmlərin Rəb­bi Allaha məxsudur –" },
+    { "resource_id": 75, "text": " Mərhəmətli və Rəhmliyə," },
+    { "resource_id": 75, "text": " Din gününün Hökm­da­rına!" },
+    {
+      "resource_id": 75,
+      "text": " Biz yalnız Sənə ibadət edir və yalnız Səndən kömək dilə­yi­rik."
+    },
+    { "resource_id": 75, "text": " Bizi doğru yola yönəlt –" },
+    {
+      "resource_id": 75,
+      "text": " nemət bəxş etdiyin şəxs­lə­rin yolu­na, qəzəbə uğramış­la­rın və az­mışların yoluna yox!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "1" }
+  }
+}

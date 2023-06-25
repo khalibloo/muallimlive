@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "MÅTTE Abu Lahab förgås! Ja, måtte han [hel och hållen] förgås!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Vad hjälper honom [nu] hans rikedomar och allt vad han har förvärvat"
+    },
+    {
+      "resource_id": 48,
+      "text": "Han skall brinna i en Eld som blossar högt,"
+    },
+    {
+      "resource_id": 48,
+      "text": "och hans hustru, alltid på språng med illvilligt skvaller och förtal,"
+    },
+    { "resource_id": 48, "text": "skall bära ett tvinnat rep om sin hals." }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "111" }
+  }
+}

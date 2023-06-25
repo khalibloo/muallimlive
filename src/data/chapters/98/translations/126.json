@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 126,
+      "text": "Nisu se nevjernici između sljedbenika Knjige i mnogobošci odvojili, sve dok im nije došao dokaz jasni;"
+    },
+    {
+      "resource_id": 126,
+      "text": "od Allaha Poslanik, koji čita listove čiste,"
+    },
+    { "resource_id": 126, "text": "u kojima su propisi ispravni." },
+    {
+      "resource_id": 126,
+      "text": "A podvojili su se oni kojima je data Knjiga baš onda kada im je došao dokaz jasni,"
+    },
+    {
+      "resource_id": 126,
+      "text": "a naređeno im je da se samo Allahu klanjaju, da Mu iskreno, kao pravovjerni, vjeru ispovijedaju, i da molitvu obavljaju, i da milostinju udjeljuju; a to je – ispravna vjera."
+    },
+    {
+      "resource_id": 126,
+      "text": "Oni koji ne vjeruju između sljedbenika Knjige i mnogobošci biće, sigurno, u vatri džehennemskoj, u njoj će vječno ostati; oni su najgora stvorenja."
+    },
+    {
+      "resource_id": 126,
+      "text": "A oni koji vjeruju i čine dobra djela – oni su, zbilja, najbolja stvorenja,"
+    },
+    {
+      "resource_id": 126,
+      "text": "njih nagrada u Gospodara njihova čeka; edenski vrtovi kroz koje rijeke teku, u kojima će vječno i zauvijek boraviti; Allah će biti njima zadovoljan, a i oni će biti Njime zadovoljni. To će biti za onoga koji se bude bojao Gospodara svoga."
+    }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "98" }
+  }
+}

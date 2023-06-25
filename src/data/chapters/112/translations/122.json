@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 122,
+      "text": "(हे ईश दूत!) कह दोः अल्लाह अकेला है।[ <sup foot_note=134946>1</sup>"
+    },
+    { "resource_id": 122, "text": "अल्लाह निःछिद्र है।" },
+    {
+      "resource_id": 122,
+      "text": "न उसकी कोई संतान है और न वह किसी की संतान है।"
+    },
+    {
+      "resource_id": 122,
+      "text": "और न उसके बराबर कोई है।[ <sup foot_note=134947>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "112" }
+  }
+}

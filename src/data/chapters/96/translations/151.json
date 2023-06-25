@@ -1,0 +1,70 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "پڑھ اپنے رب کے نام سے <sup foot_note=88862>1</sup> جو سب کا بنانے والا ہے <sup foot_note=88863>2</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "بنایا آدمی کو جمے ہوئے لہو سے <sup foot_note=88864>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "پڑھ اور تیرا رب بڑا کریم ہے <sup foot_note=88865>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "جس نے علم سکھایا قلم سے <sup foot_note=88866>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "سکھلایا آدمی کو جو وہ نہ جانتا تھا <sup foot_note=88867>1</sup>"
+    },
+    { "resource_id": 151, "text": "کوئی نہیں آدمی سر چڑھتا ہے اس سے" },
+    {
+      "resource_id": 151,
+      "text": "کہ دیکھے اپنے آپکو بے پروا <sup foot_note=88868>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "بیشک تیرے رب کی طرف پھر جانا ہے <sup foot_note=88869>1</sup>"
+    },
+    { "resource_id": 151, "text": "تو نے دیکھا اُسکو جو منع کرتا ہے" },
+    {
+      "resource_id": 151,
+      "text": "ایک بندہ کو جب وہ نماز پڑھے <sup foot_note=88870>1</sup>"
+    },
+    { "resource_id": 151, "text": "بھلا دیکھ تو اگر ہوتا نیک راہ پر" },
+    { "resource_id": 151, "text": "یا سکھلاتا ڈر کے کام" },
+    {
+      "resource_id": 151,
+      "text": "بھلا دیکھ تو اگر جھٹلایا اور منہ موڑا <sup foot_note=88871>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "یہ نہ جانا کہ اللہ دیکھتا ہے <sup foot_note=88872>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کوئی نہیں اگر باز نہ آئے گا ہم گھسیٹیں گے چوٹی پکڑ کر <sup foot_note=88873>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کیسی چوٹی جھوٹی گنہگار <sup foot_note=88874>1</sup>"
+    },
+    { "resource_id": 151, "text": "اب بلا لیوے اپنے مجلس والوں کو" },
+    {
+      "resource_id": 151,
+      "text": "ہم بھی بلاتے ہیں پیادے سیاست کرنے کو <sup foot_note=88875>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کوئی نہیں مت مان اُسکا کہا اور سجدہ کر اور نزدیک ہو <sup foot_note=88876>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "96" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 228, "text": "අපි නුඹගේ හදවත නුඹට පුළුල් නොකළෙමු ද?" },
+    { "resource_id": 228, "text": "නුඹගේ බර අපි නුඹගෙන් ඉවත් කළෙමු." },
+    { "resource_id": 228, "text": "(එය) නුඹේ පිට තළමින් තිබූණි." },
+    { "resource_id": 228, "text": "තවද නුඹගේ කීර්තිය අපි නුඹට උසස් කළෙමු." },
+    {
+      "resource_id": 228,
+      "text": "එබැවින් නියත වශයෙන්ම දුෂ්කරතාව සමඟ පහසු ව ඇත."
+    },
+    { "resource_id": 228, "text": "සැබැවින්ම දුෂ්කාරතාව සමඟ පහසු ව ඇත." },
+    {
+      "resource_id": 228,
+      "text": "එබැවින්, නුඹ (නුඹගේ ලෞකික කටයුතු) අවසන් කළ විට (මතුලොව කටයුතු සඳහා) නැගී සිටිනු."
+    },
+    { "resource_id": 228, "text": "තවද නුඹගේ පරමාධිපති වෙත යොමු වනු." }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Translation Pioneers Center",
+    "filters": { "resource_id": 228, "chapter_number": "94" }
+  }
+}

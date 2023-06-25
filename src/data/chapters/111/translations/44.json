@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 44,
+      "text": "Să-i piară mâinile lui Abu-Lahab şi el însuşi să piară!"
+    },
+    {
+      "resource_id": 44,
+      "text": "Să nu-i priască averea-i şi ceea ce a agonisit!"
+    },
+    { "resource_id": 44, "text": "Într-un foc cu vâlvătaie fi-va aruncat" },
+    {
+      "resource_id": 44,
+      "text": "dimpreună cu femeia sa, cărătoarea de vreascuri,"
+    },
+    {
+      "resource_id": 44,
+      "text": "cu o frânghie din sfoară de curmal legată de gât."
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "111" }
+  }
+}

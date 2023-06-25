@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "Did you see him<sup foot_note=\"182856\">1</sup> who gives the lie to the Reward and Punishment<sup foot_note=\"182857\">2</sup> of the Hereafter?<sup foot_note=\"182858\">3</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Such is<sup foot_note=\"182859\">1</sup> the one who repulses the orphans away,<sup foot_note=\"182860\">2</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and urges<sup foot_note=\"182861\">1</sup> not the feeding of the needy.<sup foot_note=\"182862\">2</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "Woe, then, to those who pray,<sup foot_note=\"182863\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "but are heedless in their Prayers,<sup foot_note=\"182864\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "those who do good (in order) to be seen,<sup foot_note=\"182865\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and deny people the articles of common necessity.<sup foot_note=\"182866\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "107" }
+  }
+}

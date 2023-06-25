@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- Muhakkak biz sana birçok hayırlar verdik. Onlardan biri de Cennet'teki Kevser Irmağı'dır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Öyleyse sen de, putlarına bir yakınlık vesilesi olarak kurban kesen müşriklerin yaptıklarının aksine, bu nimetlerine karşılık bir tek O'nun için namaz kılarak ve bir tek O'nun için kurban keserek Allah Teâlâ'ya şükrünü eda et."
+    },
+    {
+      "resource_id": 172,
+      "text": "Şüphesiz asıl sana buğzeden, bütün hayırlardan kesik, adı geçtiğinde kendisinden kötü bir kimse olarak bahsedilen, unutulmuş bir kimsedir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "108" }
+  }
+}

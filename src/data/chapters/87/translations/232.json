@@ -1,0 +1,64 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Tendereza erinnya ly’omulabiriziwo owa waggulu."
+    },
+    { "resource_id": 232, "text": "Oyo eyatonda n'atereeza." },
+    {
+      "resource_id": 232,
+      "text": "Era eyateekateeka buli kintu n'akyenkanyankanya."
+    },
+    { "resource_id": 232, "text": "Era oyo ameza omuddo oguliibwa e bisolo." },
+    { "resource_id": 232, "text": "Oluvanyuma agufuula omukalu." },
+    {
+      "resource_id": 232,
+      "text": "Tujja kukusomesa (Kur'ani) obeere nga teweerabira."
+    },
+    {
+      "resource_id": 232,
+      "text": "Okugyako ebyo Katonda by’anaaba ayagadde okukwerabiza. Katonda y’amanyi ebyogerwa mu lwatu ne mu kyama."
+    },
+    {
+      "resource_id": 232,
+      "text": "Tujja kukwanguyiza amateeka gabeere mangu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Kale buulirira, okubuulirira bwe kuba nga kunaagasa."
+    },
+    { "resource_id": 232, "text": "Anaaganyulwa oyo atya Katonda." },
+    {
+      "resource_id": 232,
+      "text": "Omwonoonyi ajja ku kwesamba (okubuulirira okwo)."
+    },
+    { "resource_id": 232, "text": "Oyo alyesogga omuliro ogwamaanyi." },
+    {
+      "resource_id": 232,
+      "text": "Ng’amaze (okusonsekebwa mu muliro ogwo), tagenda kufa wadde okufuna obulamu (obwesiimisa)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima yeesiimye omuntu          e yeetukuza."
+    },
+    {
+      "resource_id": 232,
+      "text": "N’ayogera ku linnya ly’omuleziwe olwo nno n’asaala."
+    },
+    {
+      "resource_id": 232,
+      "text": "Wabula mmwe musukkulumya obulamu obw’ensi."
+    },
+    {
+      "resource_id": 232,
+      "text": "So nga obulamu obw'enkomerero bwe businga obulungi era bwe bwo kusigalawo."
+    },
+    { "resource_id": 232, "text": "Mazima bino biri mu biwandiiko ebyasooka." },
+    { "resource_id": 232, "text": "Ebiwandiiko bya Ibrahim ne Musa." }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "87" }
+  }
+}

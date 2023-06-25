@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "Kuşluk vaktine and olsun;" },
+    { "resource_id": 77, "text": "Sükun erdiği zaman geceye and olsun ki," },
+    {
+      "resource_id": 77,
+      "text": "Rabbin seni ne bıraktı ve ne de sana darıldı."
+    },
+    {
+      "resource_id": 77,
+      "text": "Doğrusu ahiret senin için dünyadan daha hayırlıdır."
+    },
+    {
+      "resource_id": 77,
+      "text": "Rabbin şüphesiz sana verecek ve sen de hoşnut olacaksın."
+    },
+    { "resource_id": 77, "text": "Seni öksüz bulup da barındırmadı mı?" },
+    {
+      "resource_id": 77,
+      "text": "Seni şaşırmış bulup, doğru yola eriştirmedi mi?"
+    },
+    { "resource_id": 77, "text": "Seni fakir bulup zenginleştirmedi mi?" },
+    { "resource_id": 77, "text": "Öyleyse sakın öksüze kötü muamele etme;" },
+    { "resource_id": 77, "text": "Ve sakın bir şey isteyeni azarlama;" },
+    { "resource_id": 77, "text": "Yalnızca Rabbinin nimetini anlat." }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "93" }
+  }
+}

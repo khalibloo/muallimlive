@@ -1,0 +1,146 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Ket-ket yuborilganlar bilan qasam." },
+    { "resource_id": 55, "text": "Qattiq esgan shamollar bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Va (shariatni) nashr qiluvchilar bilan qasam."
+    },
+    { "resource_id": 55, "text": "Farqlovchilar bilan qasam." },
+    { "resource_id": 55, "text": "Vahiyni tashuvchilar bilan qasam." },
+    { "resource_id": 55, "text": "Uzrlarni yoki ogohlantirishlarni ham." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, sizga va'da qilinayotgan narsa voqe' bo`lguvchidir."
+    },
+    { "resource_id": 55, "text": "Bas, vaqtiki yulduzlar o`chirilsa." },
+    { "resource_id": 55, "text": "Va vaqtiki, osmon yorilsa." },
+    { "resource_id": 55, "text": "Va vaqtiki, tog`lar ko`chirilsa." },
+    {
+      "resource_id": 55,
+      "text": "Va vaqtiki, Payg`ambarlarga vaqt belgilansa."
+    },
+    { "resource_id": 55, "text": "Qandoq kunga surilgan-a?" },
+    { "resource_id": 55, "text": "Ajratish kuniga." },
+    { "resource_id": 55, "text": "Ajratish kunini senga nima bildirdi?" },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    { "resource_id": 55, "text": "Avvalgilarni halok qilmadikmi?" },
+    {
+      "resource_id": 55,
+      "text": "So`ngra keyingilarini ularga ergashtirmadikmi?"
+    },
+    { "resource_id": 55, "text": "Gunohkorlarni shundoq qilamiz." },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    { "resource_id": 55, "text": "Sizlarni haqir suvdan yaratmadikmi?" },
+    {
+      "resource_id": 55,
+      "text": "Bas, uni mustahkam qarorgohga joylamadikmi?!"
+    },
+    { "resource_id": 55, "text": "Ma'lum vaqtgacha." },
+    {
+      "resource_id": 55,
+      "text": "Bas, Biz qodir bo`ldik va qandoq ham yaxshi qodir bo`luvchimiz.<sup foot_note=\"169902\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    { "resource_id": 55, "text": "Yerni o`ziga tortuvchi qilib qo`ymadikmi?!" },
+    { "resource_id": 55, "text": "Tiriklarni va o`liklarni." },
+    {
+      "resource_id": 55,
+      "text": "Va Biz unda yuksak tog`lar qildik va sizlarni zilol suv bilan sug`ordik."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Yuringiz! O`zingiz yolg`onga chiqargan narsaga qarab."
+    },
+    {
+      "resource_id": 55,
+      "text": "Yuringiz! Uch sho`'basi bor «soya»ga qarab."
+    },
+    {
+      "resource_id": 55,
+      "text": "U, salqin qiluvchimas va olovni ham qaytarmas."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, u (jahannam) qasrdek uchqunlarni otadir."
+    },
+    {
+      "resource_id": 55,
+      "text": "U (uchqun) xuddi qoramtir-sarg`ish tuyalarga o`xshaydir."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    { "resource_id": 55, "text": "Bu, ular gapira olmaydigan kundir." },
+    { "resource_id": 55, "text": "Va ularga uzr aytishga izn berilmaydir." },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Bu ajratish kuni sizlarni va avvalgilarni jamladik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, sizlarning hiylangiz bo`lsa, Menga ishlatib ko`ring-chi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, taqvodorlar soyalar va buloqlardadir."
+    },
+    { "resource_id": 55, "text": "Va o`zlari xohlagan mevalardadir." },
+    {
+      "resource_id": 55,
+      "text": "Yenglar va ichinglar, osh bo`lsin. Qilgan amallaringiz sababidandir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, Biz muhsinlarni shunday mukofotlarmiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Yenglar va mazza qilinglar, ozginagina. Albatta, sizlar gunohkorsizlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va agar ularga ruku' qilinglar deyilsa, ruku' qilmaslar."
+    },
+    {
+      "resource_id": 55,
+      "text": "O`shal kunda yolg`onga chiqaruvchilarga vayl bo`lsin!"
+    },
+    { "resource_id": 55, "text": "Bas, undan keyin qaysi so`zga ishonadilar?!" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "77" }
+  }
+}

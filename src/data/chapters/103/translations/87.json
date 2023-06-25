@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "በጊዜያቱ እምላለሁ፡፡" },
+    { "resource_id": 87, "text": "ሰው ሁሉ በእርግጥ በከሳራ ውስጥ ነው፡፡" },
+    {
+      "resource_id": 87,
+      "text": "እነዚያ ያመኑትና መልካሞችን የሠሩት፣ በእውነትም አደራ የተባባሉት፣ በመታገስም አደራ የተባባሉት ብቻ ሲቀሩ፡፡"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "103" }
+  }
+}

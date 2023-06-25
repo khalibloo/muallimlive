@@ -1,0 +1,50 @@
+{
+  "translations": [
+    { "resource_id": 219, "text": "하늘과 저녁 별을 두고 맹세코" },
+    {
+      "resource_id": 219,
+      "text": "무엇이 그대에게 저녁 별이 무엇인지를 알려 줄 것인가?"
+    },
+    { "resource_id": 219, "text": "어둠을 뚫는 별이라." },
+    {
+      "resource_id": 219,
+      "text": "모든 이에게는 예외 없이 그를 감시하는 자가 있노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그러니 인간은 자신이 무엇으로부터 창조되었는지 보도록 하라."
+    },
+    { "resource_id": 219, "text": "그는 방출하는 물로부터 창조되었으며" },
+    {
+      "resource_id": 219,
+      "text": "그것은 등뼈와 갈비뼈 사이에서 나오는 것이라."
+    },
+    {
+      "resource_id": 219,
+      "text": "진실로 그분께서는 그를 되돌릴 능력을 가지신 분이라."
+    },
+    { "resource_id": 219, "text": "비밀들이 탄로되는 그날" },
+    {
+      "resource_id": 219,
+      "text": "그에게는 그 어떤 힘도 그 어떤 조력자도 없을 것이라."
+    },
+    {
+      "resource_id": 219,
+      "text": "거듭하여 내리는 비를 머금은 하늘을 두고 맹세코"
+    },
+    { "resource_id": 219, "text": "움틈의 대지를 두고 맹세코" },
+    { "resource_id": 219, "text": "진실로 그것(꾸란)은 판별의 말씀으로" },
+    { "resource_id": 219, "text": "실없는 말이 아니라." },
+    { "resource_id": 219, "text": "실로 그들은 계략을 꾸미나" },
+    { "resource_id": 219, "text": "나도 계략을 꾸미노라." },
+    {
+      "resource_id": 219,
+      "text": "그러니 그대(무함마드)는 불신자들을 늦추어 주라, 그들을 잠시만 늦추어 주라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "86" }
+  }
+}

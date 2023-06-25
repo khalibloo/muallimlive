@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Vernietigd zijn de twee handen van Aboe Lahab en vernietigd is hij!"
+    },
+    {
+      "resource_id": 235,
+      "text": "Zijn bezit en wat hij voortbracht zal hem niet baten."
+    },
+    {
+      "resource_id": 235,
+      "text": "Hij zal een vuur van vlammen (de Hel) binnengaan."
+    },
+    {
+      "resource_id": 235,
+      "text": "En ook zijn vrouw, die het hout aandraagt."
+    },
+    {
+      "resource_id": 235,
+      "text": "Om haar nek is een touw van palmvezels gebonden."
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "111" }
+  }
+}

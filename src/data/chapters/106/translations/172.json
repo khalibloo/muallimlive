@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 172, "text": "Kureyş'in güvenlik ve esenliği için." },
+    {
+      "resource_id": 172,
+      "text": "Kışın Yemen’e ve yazın da Şam'a olan güvenli yolculukları için."
+    },
+    {
+      "resource_id": 172,
+      "text": "Onlara bu yolculuğu kolaylaştıran, Beytü'l-harâm'ın (Kâbe) Rabbi olan bir tek Allah'a ibadet etsinler, O'na hiç kimseyi ortak koşmasınlar."
+    },
+    {
+      "resource_id": 172,
+      "text": "Onları açken besleyen ve Araplar'ın kalbine yerleştirdiği Harem’i (Kâbe'yi) ve ahalisini tazim etme hissiyle korkudan emin kılan."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "106" }
+  }
+}

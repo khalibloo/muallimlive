@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 84, "text": "Have you seen him who denies the Requital?" },
+    {
+      "resource_id": 84,
+      "text": "So, he is the one who pushes away the orphan,"
+    },
+    {
+      "resource_id": 84,
+      "text": "and does not persuade (others) to feed the needy."
+    },
+    { "resource_id": 84, "text": "So, Woe to those performers of Salāh," },
+    { "resource_id": 84, "text": "who are neglectful of their Salāh," },
+    { "resource_id": 84, "text": "who (do good only to) show off," },
+    { "resource_id": 84, "text": "and refuse (to give even) small gifts." }
+  ],
+  "meta": {
+    "translation_name": "Mufti Taqi Usmani",
+    "author_name": "Mufti Taqi Usmani",
+    "filters": { "resource_id": 84, "chapter_number": "107" }
+  }
+}

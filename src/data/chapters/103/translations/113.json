@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 113, "text": "Асрмен ант етемін." },
+    { "resource_id": 113, "text": "Анығында, адам баласы сөзсіз, зиянда," },
+    {
+      "resource_id": 113,
+      "text": "тек иманға келген әрі ізгі амал жасаған және бір-біріне ақиқатты насихат етіп, өсиеттеген әрі бір-біріне сабырды насихат етіп, өсиеттегендерден басқалары."
+    }
+  ],
+  "meta": {
+    "translation_name": "Khalifah Altai",
+    "author_name": "Khalifah Altai",
+    "filters": { "resource_id": 113, "chapter_number": "103" }
+  }
+}

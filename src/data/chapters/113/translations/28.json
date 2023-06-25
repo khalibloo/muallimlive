@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "Di: «Me refugio en el Señor del alba" },
+    { "resource_id": 28, "text": "del mal que hacen sus criaturas," },
+    {
+      "resource_id": 28,
+      "text": "del mal de la oscuridad cuando se extiende,"
+    },
+    { "resource_id": 28, "text": "del mal de las que soplan en los nudos," },
+    { "resource_id": 28, "text": "del mal envidioso cuando envidia»." }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "113" }
+  }
+}

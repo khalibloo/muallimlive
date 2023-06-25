@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Mu Hadith eri mu kitabo kya Bukhari Nabbi yagenda ku Batwhahu naakuba wuuli abantu bangi bajja nga balowooza nti waliyo ebya maguzi, Nabbi bweyatandika okubabuulira ebikwata ku Katonda, Abu Lahbi naakasuka e mikono nga bwagamba nti kino kyotukunganyirizza era kyotuyitidde? Zikirira. Katonda kwe kumwanukula mu ssura eno naagamba nti: (Gizikirire e mikono gya Abu Lahbi (gyawuuba), era  ddala yenna yazikirira."
+    },
+    {
+      "resource_id": 232,
+      "text": "Eby'obugaggabwe tebimugasizza, wadde n’ebirala bye yafuna, (nga      e kitiibwa)."
+    },
+    { "resource_id": 232, "text": "Ajja kwesonseka mu muliro ogubumbujja." },
+    {
+      "resource_id": 232,
+      "text": "Ne mukyalawe omwetissi w’enku (naye bwatyo)."
+    },
+    { "resource_id": 232, "text": "Nga mu nsingoye mulimu omuguwa omulange." }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "111" }
+  }
+}

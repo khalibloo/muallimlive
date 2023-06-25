@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 237,
+      "text": "Не видя ли [о, Мухаммад] как постъпи твоят Господ с владетелите на слона?"
+    },
+    {
+      "resource_id": 237,
+      "text": "Не превърна ли Той коварството им в заблуда?"
+    },
+    { "resource_id": 237, "text": "И изпрати срещу тях ята от птици," },
+    {
+      "resource_id": 237,
+      "text": "които ги замеряха с камъни от печена глина."
+    },
+    { "resource_id": 237, "text": "И ги стори да приличат на проядени листа." }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "105" }
+  }
+}

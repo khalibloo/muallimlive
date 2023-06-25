@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 798,
+      "text": "Ana nganinyyiona yaŵatite Ambuje ŵenu (Allah) pakwajonanga achinsyene ndembo (ŵaŵayikaga kugumula Likaaba)?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Ana nganagatenda malindi gao kuŵa gakusokonechela?"
+    },
+    {
+      "resource_id": 798,
+      "text": "Ni ŵatumichisye ŵanganyao ijuni mikutula-mikutula."
+    },
+    {
+      "resource_id": 798,
+      "text": "Yaliji nkwaasoma ni maganga gelongo lyejoche (ni moto wa ku Jahannama)."
+    },
+    {
+      "resource_id": 798,
+      "text": "Niŵatesile kuŵa mpela masapi gagalilidwe (ni inyama ni kulukulidwa).<sup foot_note=195479>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Hamid Silika",
+    "author_name": "Abdul Hamid Silika",
+    "filters": { "resource_id": 798, "chapter_number": "105" }
+  }
+}

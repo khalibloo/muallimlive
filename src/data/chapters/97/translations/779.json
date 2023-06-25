@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Nous l’avons révélé<sup foot_note=205495>1</sup> au cours de la Nuit des décrets divins<sup foot_note=205496>2</sup>."
+    },
+    {
+      "resource_id": 779,
+      "text": "Mais qui pourrait t’indiquer ce qu’est la Nuit des décrets divins ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "La Nuit des décrets divins est plus bénie que mille mois réunis<sup foot_note=205497>1</sup>."
+    },
+    {
+      "resource_id": 779,
+      "text": "Porteurs de tous les arrêts divins<sup foot_note=205498>1</sup>, les anges et l’Esprit<sup foot_note=205499>2</sup> descendent sur ordre de leur Seigneur au cours de cette nuit."
+    },
+    {
+      "resource_id": 779,
+      "text": "C’est une nuit remplie de paix et de bénédiction jusqu’à l’apparition de l’aube."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "97" }
+  }
+}

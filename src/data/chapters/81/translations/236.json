@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Ma iu$al itij d akennur." },
+    { "resource_id": 236, "text": "Ma $lin itran." },
+    { "resource_id": 236, "text": "Ma pwanehôen idurar." },
+    { "resource_id": 236, "text": "Ma pwasebblent tle$wmatin, s tdisin." },
+    { "resource_id": 236, "text": "Ma pwafessren lêayawan." },
+    { "resource_id": 236, "text": "Ma îwakenfen ilellen." },
+    { "resource_id": 236, "text": "Ma rran imanen d tiyugiwin." },
+    { "resource_id": 236, "text": "Ma tepwavleb teqcict ipwaneîlen," },
+    { "resource_id": 236, "text": "anwa abekkav i$ef te$wan$a." },
+    { "resource_id": 236, "text": "Ma pwafessrent tewôeqtin." },
+    { "resource_id": 236, "text": "Igenni ma cerrgen t." },
+    { "resource_id": 236, "text": "Times, ma smendgen p." },
+    { "resource_id": 236, "text": "Loennet, ma tuéa d." },
+    { "resource_id": 236, "text": "Ad yissin, yiman, ayen d ihegga." },
+    { "resource_id": 236, "text": "Ihi, Gulle$ s yitran iteffren," },
+    { "resource_id": 236, "text": "ippazalen, ppâidayen!" },
+    { "resource_id": 236, "text": "S yiv, ma iôuê!" },
+    { "resource_id": 236, "text": "S tûebêit, ma tecôuôeq!" },
+    { "resource_id": 236, "text": "Wigi ard awalen Umazan ukyis." },
+    { "resource_id": 236, "text": "Bu tezmert s$uô Bab n usgeld iôesmen." },
+    { "resource_id": 236, "text": "Bab n wannuz, u Muman." },
+    { "resource_id": 236, "text": "Ur illi d aôehbani, umeddakwel nnwen." },
+    { "resource_id": 236, "text": "Ih, iwala t, di lejba ibanen." },
+    { "resource_id": 236, "text": "Di tbavnit ur ipmunnu." },
+    { "resource_id": 236, "text": "Ur neppa d awal n Cciîan imenfi." },
+    { "resource_id": 236, "text": "Ihi, aniwer teppeddum?" },
+    { "resource_id": 236, "text": "Neppa, d asmekti kan i imavalen." },
+    { "resource_id": 236, "text": "I win, segwen, ib$an ad issewqem." },
+    {
+      "resource_id": 236,
+      "text": "Ur tbeqqum, siwa ma Ib$a Öebbi, Mass imavalen."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "81" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "When the victory of Allāh has come and the conquest,<sup foot_note=197825>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "And you see the people entering into the religion of Allāh in multitudes,"
+    },
+    {
+      "resource_id": 20,
+      "text": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of Repentance.<sup foot_note=197826>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "110" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "Cuando el sol sea obscurecido," },
+    { "resource_id": 28, "text": "cuando las estrellas pierdan su brillo," },
+    {
+      "resource_id": 28,
+      "text": "cuando las montañas sean puestas en marcha,"
+    },
+    {
+      "resource_id": 28,
+      "text": "cuando las camellas preñadas de diez meses sean descuidadas,"
+    },
+    {
+      "resource_id": 28,
+      "text": "cuando las bestias salvajes sean agrupadas,"
+    },
+    { "resource_id": 28, "text": "cuando los mares sean hinchados," },
+    { "resource_id": 28, "text": "cuando las almas sean apareadas," },
+    {
+      "resource_id": 28,
+      "text": "cuando se pregunte a la niña enterrada viva"
+    },
+    { "resource_id": 28, "text": "qué crimen cometió para que la mataran," },
+    { "resource_id": 28, "text": "cuando las hojas sean desplegadas," },
+    { "resource_id": 28, "text": "cuando el cielo sea desollado," },
+    { "resource_id": 28, "text": "cuando el fuego de la gehena sea avivado," },
+    { "resource_id": 28, "text": "cuando el Jardín sea acercado," },
+    { "resource_id": 28, "text": "cada cual sabrá lo que presenta." },
+    { "resource_id": 28, "text": "¡Pues no! ¡Juro por los planetas," },
+    { "resource_id": 28, "text": "que pasan y desaparecen!" },
+    { "resource_id": 28, "text": "¡Por la noche cuando se extiende!" },
+    { "resource_id": 28, "text": "¡Por la mañana cuando respira!" },
+    { "resource_id": 28, "text": "Sí, es la palabra de un Enviado noble," },
+    {
+      "resource_id": 28,
+      "text": "que dispone de poder junto al Señor del Trono, firme,"
+    },
+    { "resource_id": 28, "text": "obedecido allís de confianza." },
+    { "resource_id": 28, "text": "¡Vuestro paisano no es un poseso!" },
+    { "resource_id": 28, "text": "Le ha visto en el claro horizonte," },
+    { "resource_id": 28, "text": "no es avaro de lo oculto." },
+    { "resource_id": 28, "text": "No es la palabra de un demonio maldito." },
+    { "resource_id": 28, "text": "¿Adónde iréis, pues?" },
+    {
+      "resource_id": 28,
+      "text": "No es sino una amonestación dirigida a todo el mundo,"
+    },
+    {
+      "resource_id": 28,
+      "text": "para aquéllos de vosotros que quieran seguir la vía recta."
+    },
+    {
+      "resource_id": 28,
+      "text": "Pero vosotros no lo querréis, a menos que quiera Alá, Señor del universo."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "81" }
+  }
+}

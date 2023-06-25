@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Choshtgoh bilan qasam." },
+    { "resource_id": 55, "text": "Sukunatga cho`mgan tun bilan qasam." },
+    {
+      "resource_id": 55,
+      "text": "Robbing seni tark qilgani yo`q, senga g`azab ham qilgani yo`q.<sup foot_note=\"170142\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va albatta, oxirat sen uchun bu dunyodan yaxshidir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va tezda Robbing senga ato qilur va sen rozi bo`lursan."
+    },
+    { "resource_id": 55, "text": "U seni yetim topib, joylab qo`ymadimi?" },
+    {
+      "resource_id": 55,
+      "text": "Va U seni hayron holda topib, hidoyatga boshlamadimi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va U seni kambag`al holda topib, boy qilmadimi?"
+    },
+    { "resource_id": 55, "text": "Ammo yetimga qahr qilmagin." },
+    {
+      "resource_id": 55,
+      "text": "Va ammo, «soil»ga zajr qilma.<sup foot_note=\"169898\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va ammo Robbingning bergan ne'mati haqida so`zla."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "93" }
+  }
+}

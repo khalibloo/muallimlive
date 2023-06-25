@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 28,
+      "text": "Cuando sea sacudida la tierra por su terremoto,"
+    },
+    { "resource_id": 28, "text": "expulse la tierra su carga" },
+    {
+      "resource_id": 28,
+      "text": "y el hombre se pregunte: «¿Qué es lo que le pasa?»,"
+    },
+    { "resource_id": 28, "text": "ese día contará sus noticias," },
+    { "resource_id": 28, "text": "según lo que tu Señor le inspire." },
+    {
+      "resource_id": 28,
+      "text": "Ese día los hombres surgirán en grupos, para que se les muestren sus obras."
+    },
+    {
+      "resource_id": 28,
+      "text": "Quien haya hecho el peso de un átomo de bien, lo verá."
+    },
+    {
+      "resource_id": 28,
+      "text": "Y quien haya hecho el peso de un átomo de mal, lo verá."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "99" }
+  }
+}

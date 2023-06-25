@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Kunem se gradom ovim," },
+    {
+      "resource_id": 214,
+      "text": "a ti si u ovom gradu oslobođen ograničenja,"
+    },
+    { "resource_id": 214, "text": "i roditeljem i onim koga je rodio," },
+    { "resource_id": 214, "text": "Čovjeka smo stvorili da je u naporu." },
+    { "resource_id": 214, "text": "Misli li on da mu niko ništa ne može?" },
+    { "resource_id": 214, "text": "“Utrošio sam imetak nagomilani!”, govori." },
+    { "resource_id": 214, "text": "Zar misli da ga niko vidio nije?" },
+    { "resource_id": 214, "text": "Zar mu nismo dali oka dva," },
+    { "resource_id": 214, "text": "i jezik i usne dvije," },
+    { "resource_id": 214, "text": "i dobro i zlo mu objasnili?" },
+    { "resource_id": 214, "text": "Pa zašto nije savladao uspon?" },
+    { "resource_id": 214, "text": "A šta ti misliš: šta je to uspon?" },
+    { "resource_id": 214, "text": "Roba ropstva osloboditi," },
+    { "resource_id": 214, "text": "ili, u vrijeme gladi, nahraniti" },
+    { "resource_id": 214, "text": "siroče bliska roda," },
+    { "resource_id": 214, "text": "ili ubogoga nevoljnika," },
+    {
+      "resource_id": 214,
+      "text": "A potom da je bio od onih koji vjeruju, koji jedni drugima strpljivost\npreporučuju i koji jedni drugima milosrđe preporučuju;"
+    },
+    { "resource_id": 214, "text": "oni će biti – oni s desne strane!" },
+    {
+      "resource_id": 214,
+      "text": "A oni koji ne vjeruju u ajete i dokaze Naše, oni će biti – oni s lijeve\nstrane,"
+    },
+    { "resource_id": 214, "text": "iznad njih će vatra zatvorena biti." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "90" }
+  }
+}

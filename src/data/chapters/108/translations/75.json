@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " Həqiqətən, Biz Kovsəri sə­nə ba­ğışladıq." },
+    {
+      "resource_id": 75,
+      "text": " Sən də Rəbbin üçün na­maz qıl və qurban kəs!"
+    },
+    {
+      "resource_id": 75,
+      "text": " Doğrusu, sənə ədavət bəs­ləyənin özü sonsuzdur."
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "108" }
+  }
+}

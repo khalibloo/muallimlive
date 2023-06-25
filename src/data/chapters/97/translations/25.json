@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Mi smo ga objavili u Noći odredbe," },
+    { "resource_id": 25, "text": "a šta ti misliš šta je Noć odredbe?" },
+    { "resource_id": 25, "text": "Noć odredbe bolja je od hiljadu mjeseci;" },
+    {
+      "resource_id": 25,
+      "text": "meleci i Duh, s dozvolom Gospodara svoga, spuštaju se u njoj zbog odluke svake,"
+    },
+    { "resource_id": 25, "text": "spas je u njoj sve dok zora ne svane." }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "97" }
+  }
+}

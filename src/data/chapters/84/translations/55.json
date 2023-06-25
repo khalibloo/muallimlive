@@ -1,0 +1,76 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Vaqtiki, osmon yorilsa." },
+    {
+      "resource_id": 55,
+      "text": "U(osmon) o`z Robbisiga quloq osdi, bo`ysundi va shundoq bo`lishi kerak edi."
+    },
+    { "resource_id": 55, "text": "Va vaqtiki, yer cho`zilsa." },
+    {
+      "resource_id": 55,
+      "text": "Va o`z ichidagi narsalarni otib chiqarib, xoli qolsa."
+    },
+    {
+      "resource_id": 55,
+      "text": "U(er) o`z Robbisiga quloq osdi, bo`ysundi va shundoq bo`lishi kerak edi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ey inson! Albatta, sen Robbingga yo`liqquningcha, harakatu urinishda bo`lasan va oxiri unga yo`liqasan ham."
+    },
+    { "resource_id": 55, "text": "Ammo kimning kitobi o`ng tarafdan berilsa." },
+    { "resource_id": 55, "text": "Tezda, osongina hisob qilinur." },
+    {
+      "resource_id": 55,
+      "text": "Va ahli huzuriga xursand holda qaytib borur."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va ammo kimning kitobi orqa tarafdan berilsa..."
+    },
+    { "resource_id": 55, "text": "U tezda o`ziga halokatni chaqirur." },
+    { "resource_id": 55, "text": "Va qizib turgan do`zaxga kirur." },
+    {
+      "resource_id": 55,
+      "text": "Chunki, u (bu dunyoda) o`z ahli bilan xursand bo`lib o`tgan edi.<sup foot_note=\"169907\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Chunki, u hech qachon orqaga qaytmaslikni o`ylagan edi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ha! Albatta, Robbi uni doim ko`rib turuvchi edi."
+    },
+    { "resource_id": 55, "text": "Shafaq bilan qasamki." },
+    {
+      "resource_id": 55,
+      "text": "Kechasi va u o`rab olgan narsalar bilan qasamki."
+    },
+    { "resource_id": 55, "text": "Va to`lin oy bilan qasamki." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, sizlar tabaqama-tabaqa minasizlar."
+    },
+    { "resource_id": 55, "text": "Nima bo`lgan ularga, iymon keltirmaslar?!" },
+    {
+      "resource_id": 55,
+      "text": "Va agar ularga Qur'on o`qilsa, sajda qilmaslar.<sup foot_note=\"169908\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Balki kofirlar yolg`onga chiqarurlar." },
+    {
+      "resource_id": 55,
+      "text": "Ular (qalblarida) nimani saqlayotganlarini Allohning O`zi biladir."
+    },
+    { "resource_id": 55, "text": "Ularga alamli azobning «bashoratini» ber." },
+    {
+      "resource_id": 55,
+      "text": "Illo, iymon keltirganlarga va yaxshi amallar qilganlarga minnatsiz, uzluksiz ajrlar bor."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "84" }
+  }
+}

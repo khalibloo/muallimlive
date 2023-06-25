@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "قسم ہے عصر کی <sup foot_note=88920>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "مقرر انسان ٹوٹے میں ہے <sup foot_note=88921>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "مگر جو لوگ کہ یقین لائے اور کئے بھلے کام اور آپس میں تاکید کرتے رہے سچے دین کی اور آپس میں تاکید کرتے رہے تحمل کی <sup foot_note=88922>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "103" }
+  }
+}

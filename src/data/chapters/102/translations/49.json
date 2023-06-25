@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Kumekushughulisheni kutafuta wingi," },
+    { "resource_id": 49, "text": "Mpaka mje makaburini!" },
+    { "resource_id": 49, "text": "Sivyo hivyo! Mtakuja jua!" },
+    { "resource_id": 49, "text": "Tena sivyo hivyo! Mtakuja jua!" },
+    {
+      "resource_id": 49,
+      "text": "Sivyo hivyo! Lau mngeli jua kwa ujuzi wa yakini,"
+    },
+    { "resource_id": 49, "text": "Basi bila ya shaka mtaiona Jahannamu!" },
+    {
+      "resource_id": 49,
+      "text": "Tena, bila ya shaka, mtaiona kwa jicho la yakini."
+    },
+    {
+      "resource_id": 49,
+      "text": "Tena bila ya shaka mtaulizwa siku hiyo juu ya neema."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "102" }
+  }
+}

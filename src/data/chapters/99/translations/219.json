@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 219, "text": "땅이 미친 듯이 동요하고" },
+    { "resource_id": 219, "text": "땅이 저의 무거운 짐들을 뱉어 내며" },
+    {
+      "resource_id": 219,
+      "text": "인간이 '저것(땅)이 어찌 된 일인가?' 라고 말할 때"
+    },
+    {
+      "resource_id": 219,
+      "text": "이날 저것(땅)은 제가 가진 소식을 이야기할 것이니"
+    },
+    {
+      "resource_id": 219,
+      "text": "그(땅)의 주님께서 저에게 계시를 주셨기 때문이라."
+    },
+    {
+      "resource_id": 219,
+      "text": "이날 인간들은 제각각 앞으로 나아가 자신들의 행위를 볼 것이니"
+    },
+    {
+      "resource_id": 219,
+      "text": "티끌만큼의 무게라도 선행을 실천한 자는 그것을 보게 될 것이며"
+    },
+    {
+      "resource_id": 219,
+      "text": "티끌만큼의 무게라도 악행을 저지른 자는 그것을 보게 될 것이라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "99" }
+  }
+}

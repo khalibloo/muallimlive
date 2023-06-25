@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 819,
+      "text": "قسم ہے ان گھوڑوں کی جو ہانپتے ہوئے دوڑتے ہیں"
+    },
+    { "resource_id": 819, "text": "پھر ٹاپ مارکر چنگاری نکالنے والے" },
+    { "resource_id": 819, "text": "پھر صبح کے وقت چھاپہ مارنے والے" },
+    { "resource_id": 819, "text": "پھر اس میں غبار اُڑانے والے" },
+    { "resource_id": 819, "text": "پھر اس وقت فوج میں گھس جانے والے" },
+    { "resource_id": 819, "text": "بے شک انسان اپنے رب کا ناشکر ہے" },
+    { "resource_id": 819, "text": "اور وہ خود اس پر گواہ ہے" },
+    { "resource_id": 819, "text": "اور وہ مال کی محبت میں بہت شدید ہے" },
+    {
+      "resource_id": 819,
+      "text": "کیا وہ اس وقت کو نہیں جانتا جب وہ قبروں سے نکالا جائے گا"
+    },
+    { "resource_id": 819, "text": "اور نکالا جائے گا جو کچھ دلوں میں ہے" },
+    { "resource_id": 819, "text": "بے شک اس دن ان کا رب ان سے خوب باخبر ہوگا" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "When the earth is quaked with its (final) earthquake,"
+    },
+    {
+      "resource_id": 17,
+      "text": "And the earth brings out its heavy (burdens),"
+    },
+    { "resource_id": 17, "text": "And man says, \"What is it with it?\"" },
+    {
+      "resource_id": 17,
+      "text": "Upon that Day it will discourse (i.e., proclaim) about its tidings."
+    },
+    { "resource_id": 17, "text": "That your Lord has revealed to it." },
+    {
+      "resource_id": 17,
+      "text": "Upon that Day mankind will go forward in diverse (groups) to be shown their deeds."
+    },
+    {
+      "resource_id": 17,
+      "text": "So whoever does an atom's weight of charity will see it,"
+    },
+    {
+      "resource_id": 17,
+      "text": "And whoever does an atom's weight of evil will see it."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "99" }
+  }
+}

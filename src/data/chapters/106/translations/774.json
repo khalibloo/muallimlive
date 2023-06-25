@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Kubera akamenyero k’Abakurayishi (mu mujyi wabo),"
+    },
+    {
+      "resource_id": 774,
+      "text": "No kubera amasezerano yabo arebana n’ingendo (z’ubucuruzi) zo mu gihe cy’ubukonje no mu cy’impeshyi (batekanye),"
+    },
+    {
+      "resource_id": 774,
+      "text": "Ngaho nibagaragire (Allah) Nyagasani nyir’iyi ngoro (Al Ka’abat),"
+    },
+    {
+      "resource_id": 774,
+      "text": "(We) wabagaburiye mu gihe cy’amapfa, ndetse akanabaha umutekano mu gihe cy’ubwoba."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "106" }
+  }
+}

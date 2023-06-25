@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Sag: O ihr Ungläubigen," },
+    { "resource_id": 27, "text": "ich diene nicht dem, dem ihr dient," },
+    { "resource_id": 27, "text": "und ihr dient nicht Dem, Dem ich diene." },
+    {
+      "resource_id": 27,
+      "text": "Und ich werde (auch) nicht dem dienen, dem ihr gedient habt,"
+    },
+    {
+      "resource_id": 27,
+      "text": "Und ihr werdet nicht Dem dienen, Dem ich diene."
+    },
+    { "resource_id": 27, "text": "Euch eure Religion und mir meine Religion." }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "109" }
+  }
+}

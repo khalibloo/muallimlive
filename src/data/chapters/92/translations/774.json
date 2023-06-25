@@ -1,0 +1,60 @@
+{
+  "translations": [
+    { "resource_id": 774, "text": "Ndahiye ijoro igihe riguye," },
+    { "resource_id": 774, "text": "N’amanywa igihe atangaje," },
+    { "resource_id": 774, "text": "N’uwaremye ikigabo n’ikigore," },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri ibikorwa byanyu biratandukanye,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Wa wundi utanga (amaturo) akanagandukira (Allah),"
+    },
+    { "resource_id": 774, "text": "Kandi akizera icyiza (Ijuru)," },
+    { "resource_id": 774, "text": "Tuzamworohereza inzira y’ibyiza." },
+    {
+      "resource_id": 774,
+      "text": "Ariko uzaba umunyabugugu, akirata yumva ko yishoboye,"
+    },
+    { "resource_id": 774, "text": "Akanahinyura icyiza," },
+    { "resource_id": 774, "text": "Tuzamworohereza inzira y’ibibi," },
+    {
+      "resource_id": 774,
+      "text": "Kandi ubwo azaba arimbuka (ajyanywe mu muriro), umutungo we nta cyo uzamumarira."
+    },
+    { "resource_id": 774, "text": "Mu by’ukuri ukuyobora ni ukwacu." },
+    {
+      "resource_id": 774,
+      "text": "Kandi mu by’ukuri ni natwe tugenga iby’imperuka n’ibibanza (iby’isi)."
+    },
+    { "resource_id": 774, "text": "Bityo, mbaburiye umuriro ugurumana." },
+    { "resource_id": 774, "text": "Nta we uzawinjiramo utari inkozi y’ibibi," },
+    {
+      "resource_id": 774,
+      "text": "Wa wundi wahinyuye (ukuri) akanagutera umugongo."
+    },
+    { "resource_id": 774, "text": "Ariko ukora ibikorwa byiza, azawurindwa," },
+    {
+      "resource_id": 774,
+      "text": "Wa wundi utanga umutungo we kugira ngo yiyeze,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi ntashishikazwe no kwiturwa n’uwo yagiriye neza."
+    },
+    {
+      "resource_id": 774,
+      "text": "Ahubwo (akabikora agamije) gushaka kwishimirwa na Nyagasani we, Uwikirenga."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi rwose azishima (ubwo azinjira mu Ijuru)."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "92" }
+  }
+}

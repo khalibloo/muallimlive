@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 823, "text": "I swear by the passage of time," },
+    { "resource_id": 823, "text": "that man is surely in a state of loss," },
+    {
+      "resource_id": 823,
+      "text": "except for those who believe and do good deeds and exhort one another to hold fast to the Truth, and who exhort one another to stead-fastness.<sup foot_note=213003>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "103" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 161, "text": "বল, তিনি আল্লাহ, এক অদ্বিতীয়," },
+    {
+      "resource_id": 161,
+      "text": "আল্লাহ কোন কিছুর মুখাপেক্ষী নন, সবই তাঁর মুখাপেক্ষী,"
+    },
+    {
+      "resource_id": 161,
+      "text": "তিনি কাউকে জন্ম দেন না, আর তাঁকেও জন্ম দেয়া হয়নি।"
+    },
+    { "resource_id": 161, "text": "তাঁর সমকক্ষ কেউ নয়।" }
+  ],
+  "meta": {
+    "translation_name": "Taisirul Quran",
+    "author_name": "Tawheed Publication",
+    "filters": { "resource_id": 161, "chapter_number": "112" }
+  }
+}

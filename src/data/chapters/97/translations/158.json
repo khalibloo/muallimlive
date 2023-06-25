@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 158,
+      "text": "یقینا ہم نے اتارا ہے اس (قرآن) کو لیلۃ القدر میں۔"
+    },
+    {
+      "resource_id": 158,
+      "text": "اور تم کیا جانتے ہو کہ لیلۃ القدر کیا ہے !"
+    },
+    { "resource_id": 158, "text": "لیلۃ القدر ہزار مہینوں سے بہتر ہے۔" },
+    {
+      "resource_id": 158,
+      "text": "(اس رات میں) اُترتے ہیں فرشتے اور روح اپنے رب کے حکم سے ہر کام کے لیے۔"
+    },
+    {
+      "resource_id": 158,
+      "text": "سراسر سلامتی ہے۔  یہ (رات) رہتی ہے طلوع فجر تک۔"
+    }
+  ],
+  "meta": {
+    "translation_name": "Bayan-ul-Quran",
+    "author_name": "Dr. Israr Ahmad",
+    "filters": { "resource_id": 158, "chapter_number": "97" }
+  }
+}

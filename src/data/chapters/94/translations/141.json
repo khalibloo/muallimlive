@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 141,
+      "text": "Bukankah Kami telah melapangkan dadamu (Muhammad)?"
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan Kami pun telah menurunkan beban darimu,<sup foot_note=155980>1</sup>"
+    },
+    { "resource_id": 141, "text": "yang memberatkan punggungmu," },
+    {
+      "resource_id": 141,
+      "text": "dan Kami tinggikan sebutan (nama)mu<sup foot_note=155981>1</sup> bagimu."
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka sesungguhnya bersama kesulitan ada kemudahan,"
+    },
+    {
+      "resource_id": 141,
+      "text": "sesungguhnya bersama kesulitan ada kemudahan."
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka apabila engkau telah selesai (dari suatu urusan), tetaplah bekerja keras (untuk urusan yang lain),<sup foot_note=155982>1</sup>"
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan hanya kepada Tuhanmulah engkau berharap."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "94" }
+  }
+}

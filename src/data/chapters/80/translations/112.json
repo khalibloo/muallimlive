@@ -1,0 +1,75 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "(Peygamber) Yüzünü ekşitti ve döndü." },
+    { "resource_id": 112, "text": "Ona gözleri görmeyen kimse geldi diye…" },
+    { "resource_id": 112, "text": "Ne bilirsin belki o, arınacaktır." },
+    {
+      "resource_id": 112,
+      "text": "Veya öğüt alacak da öğüt ona fayda verecektir."
+    },
+    { "resource_id": 112, "text": "Ama, kendisini ihtiyaçsız görene." },
+    { "resource_id": 112, "text": "Sen, yöneliyorsun ona." },
+    { "resource_id": 112, "text": "Arınmamasından sen sorumlu değilsin!" },
+    { "resource_id": 112, "text": "Ama, sana koşarak gelen," },
+    { "resource_id": 112, "text": "Ve korkarak." },
+    { "resource_id": 112, "text": "Sen ise ilgilenmiyorsun." },
+    {
+      "resource_id": 112,
+      "text": "Hayır! (Şunu iyi bil ki) şüphesiz bu bir öğüttür."
+    },
+    { "resource_id": 112, "text": "Dileyen kimse düşünüp, öğüt alır." },
+    { "resource_id": 112, "text": "Şerefli sahifelerde." },
+    { "resource_id": 112, "text": "Yükseltilmiş ve tertemiz." },
+    { "resource_id": 112, "text": "Elçilerin ellerinde." },
+    { "resource_id": 112, "text": "Şerefli ve tertemiz/itaatkar." },
+    {
+      "resource_id": 112,
+      "text": "Kahrolası (kâfir) insan ne de çok kâfirdir!"
+    },
+    { "resource_id": 112, "text": "Allah, onu hangi şeyden yarattı?" },
+    {
+      "resource_id": 112,
+      "text": "Bir sperm damlasından onu yaratıp, (aşamalardan geçirerek) biçime koydu."
+    },
+    { "resource_id": 112, "text": "Sonra da ona yolu kolaylaştırdı." },
+    { "resource_id": 112, "text": "Sonra onu öldürüp kabre koydu." },
+    {
+      "resource_id": 112,
+      "text": "Sonra, onu dilediği zaman yeniden diriltecek."
+    },
+    {
+      "resource_id": 112,
+      "text": "Hayır! Buna rağmen henüz onun emrini yerine getirmedi."
+    },
+    { "resource_id": 112, "text": "İnsan yemeğine bir baksın." },
+    { "resource_id": 112, "text": "Ki, biz suyu döktükçe döktük." },
+    { "resource_id": 112, "text": "Sonra yeri yardıkça yardık." },
+    { "resource_id": 112, "text": "Ve orada taneler bitirdik." },
+    { "resource_id": 112, "text": "Üzümler, yoncalar." },
+    { "resource_id": 112, "text": "Zeytinler, hurmalar." },
+    { "resource_id": 112, "text": "İri ağaçlı bahçeler." },
+    { "resource_id": 112, "text": "Meyveler ve otlaklar." },
+    {
+      "resource_id": 112,
+      "text": "Sizin ve hayvanlarınız için bir meta olarak."
+    },
+    { "resource_id": 112, "text": "O büyük gürültü geldiği zaman," },
+    { "resource_id": 112, "text": "O gün kişi kardeşinden kaçar." },
+    { "resource_id": 112, "text": "Anasından, babasından." },
+    { "resource_id": 112, "text": "Eşinden ve evladından." },
+    {
+      "resource_id": 112,
+      "text": "O gün herkes için kendine yetecek bir işi vardır."
+    },
+    { "resource_id": 112, "text": "Yüzler vardır o gün apaydınlık." },
+    { "resource_id": 112, "text": "Güleç ve neşeli." },
+    { "resource_id": 112, "text": "Yüzler vardır o gün, üzeri tozlu." },
+    { "resource_id": 112, "text": "Karartı bürümüş." },
+    { "resource_id": 112, "text": "İşte onlar, kâfirler ve facirler onlardır." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "80" }
+  }
+}

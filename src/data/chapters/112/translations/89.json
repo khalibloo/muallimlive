@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Thuaj: Ai, All-llahu është Një!" },
+    {
+      "resource_id": 89,
+      "text": "All-llahu është mbështetja (Atij i mbështetet çdo krijesë)."
+    },
+    { "resource_id": 89, "text": "As s’ka lindur kë, as nuk është i lindur." },
+    { "resource_id": 89, "text": "Dhe Atij askush nuk i është i barabartë." }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "112" }
+  }
+}

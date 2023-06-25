@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 17, "text": "(Gross) multiplying diverts you." },
+    { "resource_id": 17, "text": "Till you visit the cemeteries." },
+    {
+      "resource_id": 17,
+      "text": "Not at all! (But) eventually you will know."
+    },
+    {
+      "resource_id": 17,
+      "text": "Again (Literally: Thereafter) not at all! (But) eventually you will know."
+    },
+    {
+      "resource_id": 17,
+      "text": "Not at all! (But) if you know with the knowledge of certitude,"
+    },
+    { "resource_id": 17, "text": "Indeed you will definitely see Hell-Fire." },
+    {
+      "resource_id": 17,
+      "text": "(Again), (Literally: Thereafter) indeed you will definitely see it with the eye of certitude,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Thereafter indeed you will definitely be questioned upon that Day concerning (the worldly) bliss."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "102" }
+  }
+}

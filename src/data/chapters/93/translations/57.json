@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Wadduha" },
+    { "resource_id": 57, "text": "Wallayli itha saja" },
+    { "resource_id": 57, "text": "Ma waddaAAaka rabbuka wama qala" },
+    { "resource_id": 57, "text": "Walal-akhiratu khayrun laka minaal-oola" },
+    { "resource_id": 57, "text": "Walasawfa yuAAteeka rabbuka fatarda" },
+    { "resource_id": 57, "text": "Alam yajidka yateeman faawa" },
+    { "resource_id": 57, "text": "Wawajadaka dallan fahada" },
+    { "resource_id": 57, "text": "Wawajadaka AAa-ilan faaghna" },
+    { "resource_id": 57, "text": "Faamma alyateema fala taqhar" },
+    { "resource_id": 57, "text": "Waamma assa-ila falatanhar" },
+    { "resource_id": 57, "text": "Waamma biniAAmati rabbika fahaddith" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "93" }
+  }
+}

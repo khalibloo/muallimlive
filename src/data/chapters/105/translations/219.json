@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 219,
+      "text": "그대는 그대의 주님께서 코끼리의 소유자들을 어떻게 하셨는지 알지 못하는가?"
+    },
+    {
+      "resource_id": 219,
+      "text": "그분께서 그들의 계략을 방황 속에 두지 않으셨던가?"
+    },
+    {
+      "resource_id": 219,
+      "text": "그분께서는 그들 위로 떼지어 몰려드는 날짐승들을 보내셨으니"
+    },
+    {
+      "resource_id": 219,
+      "text": "그것들이 그들에게 찰흙으로 이겨진 돌멩이를 투척하였노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그리하여 그분께서는 그들을 갉아 먹힌 이파리와 같은 것으로 만드셨노라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "105" }
+  }
+}

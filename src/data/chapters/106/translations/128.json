@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 128, "text": "ជាទម្លាប់នៃកុលសម្ព័ន្ធគូរ៉ស្ហ។" },
+    {
+      "resource_id": 128,
+      "text": "ទម្លាប់របស់ពួកគេគឺការធ្វើដំណើរនៅរដូវរងារ(ដើម្បីធ្វើ ជំនួញនៅប្រទេសយ៉េមែន) និង(នៅប្រទេសស្ហាម)នៅរដូវក្ដៅ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "ដូចេ្នះ ចូរឱ្យពួកគេគោរពសក្ការៈចំពោះម្ចាស់គ្រប់គ្រង កាក់ហ្ពះនេះចុះ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "គឺទ្រង់ជាអ្នកដែលបានផ្ដល់ចំណីអាហារដល់ពួកគេ ដើម្បី បំបាត់នូវការសេ្រកឃ្លាន និងផ្ដល់សន្ដិភាពដល់ពួកគេឱ្យចៀសផុត ពីការភ័យខ្លាច។"
+    }
+  ],
+  "meta": {
+    "translation_name": "Cambodian Muslim Community Development",
+    "author_name": "Cambodian Muslim Community Development",
+    "filters": { "resource_id": 128, "chapter_number": "106" }
+  }
+}

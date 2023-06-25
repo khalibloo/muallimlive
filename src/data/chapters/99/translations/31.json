@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "Quand la terre tremblera d’un violent tremblement,"
+    },
+    {
+      "resource_id": 31,
+      "text": "et que la terre fera sortir ses fardeaux <sup foot_note=212597>1</sup>,"
+    },
+    { "resource_id": 31, "text": "et que l’homme dira : \"Qu’a-t-elle ?\"" },
+    { "resource_id": 31, "text": "Ce jour-là, elle contera son histoire," },
+    {
+      "resource_id": 31,
+      "text": "selon ce que ton Seigneur lui aura révélé [ordonné]."
+    },
+    {
+      "resource_id": 31,
+      "text": "Ce jour-là, les gens sortiront séparément pour que leur soient montrées leurs œuvres."
+    },
+    {
+      "resource_id": 31,
+      "text": "Quiconque fait un bien fût-ce du poids d’un atome, le verra,"
+    },
+    {
+      "resource_id": 31,
+      "text": "et quiconque fait un mal fût-ce du poids d’un atome, le verra"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "99" }
+  }
+}

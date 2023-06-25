@@ -1,0 +1,72 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Ved morgengryet!" },
+    { "resource_id": 41, "text": "Ved ti netter!" },
+    { "resource_id": 41, "text": "Ved det like og det ulike!" },
+    { "resource_id": 41, "text": "Ved natten når den svinner hen!" },
+    {
+      "resource_id": 41,
+      "text": "Er det ikke i dette en ed for den som har innsikt?"
+    },
+    {
+      "resource_id": 41,
+      "text": "Du har vel sett hva Herren gjorde med folket Ad?"
+    },
+    { "resource_id": 41, "text": "Med det søylerike Iram," },
+    { "resource_id": 41, "text": "hvis like ikke er skapt i verden?" },
+    {
+      "resource_id": 41,
+      "text": "Og med folket Thamod, som hugget seg inn i fjellsiden i dalen?"
+    },
+    { "resource_id": 41, "text": "Og Farao, han med pyramidene?" },
+    { "resource_id": 41, "text": "De som vandret i overmot på jorden," },
+    { "resource_id": 41, "text": "og spredte ufred og fordervelse?" },
+    { "resource_id": 41, "text": "Men Herren lot tuktens svepe ramme dem!" },
+    { "resource_id": 41, "text": "Herren er på vakt!" },
+    {
+      "resource_id": 41,
+      "text": "Når Herren setter mennesket på prøve ved ære og velstand, sier det: «Herren har hedret meg!»"
+    },
+    {
+      "resource_id": 41,
+      "text": "Men hvis Han setter det på prøve ved å utmåle knapt hans levemåte, så sier det: «Herren ringeakter meg!»"
+    },
+    {
+      "resource_id": 41,
+      "text": "Nei, sannelig, men dere hedrer ikke den faderløse"
+    },
+    { "resource_id": 41, "text": "og ansporer ikke til å gi den fattige mat," },
+    { "resource_id": 41, "text": "dere sluker grådig hans lille arv." },
+    { "resource_id": 41, "text": "Dere elsker rikdom over all måte." },
+    { "resource_id": 41, "text": "Nei, sannelig! Når jorden jevnes til støv," },
+    {
+      "resource_id": 41,
+      "text": "når Herren kommer, og englene, rekke etter rekke,"
+    },
+    {
+      "resource_id": 41,
+      "text": "når helvete bringes frem, på denne dag vil mennesket saktens erindre. Men hva tjener det da til med ettertanke?"
+    },
+    {
+      "resource_id": 41,
+      "text": "Og det vil si: «Om jeg bare hadde sendt i forveien noe godt for mitt liv!»"
+    },
+    {
+      "resource_id": 41,
+      "text": "Ingen kan straffe som Han gjør på denne dag."
+    },
+    { "resource_id": 41, "text": "Ingen lenker slik som Han." },
+    { "resource_id": 41, "text": "Du sjel, som har ro og harmoni," },
+    {
+      "resource_id": 41,
+      "text": "vend tilbake til din Herre tilfreds og godtatt:"
+    },
+    { "resource_id": 41, "text": "Gå inn blant Mine tjenere!" },
+    { "resource_id": 41, "text": "Gå inn i Mitt paradis!" }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "89" }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "translations": [
+    {
+      "resource_id": 136,
+      "text": "Quand le soleil sera une sphère obscurcie,"
+    },
+    { "resource_id": 136, "text": "que les étoiles tomberont, éteintes," },
+    {
+      "resource_id": 136,
+      "text": "que les montagnes seront mises en mouvement,"
+    },
+    {
+      "resource_id": 136,
+      "text": "que les chamelles en gésine seront délaissées,"
+    },
+    {
+      "resource_id": 136,
+      "text": "que les bêtes sauvages seront rassemblées,"
+    },
+    { "resource_id": 136, "text": "que les mers seront enflammées," },
+    {
+      "resource_id": 136,
+      "text": "que les âmes seront réunies en couples (semblables),"
+    },
+    {
+      "resource_id": 136,
+      "text": "et qu’il sera demandé à la fillette enterrée vivante"
+    },
+    { "resource_id": 136, "text": "pour quel péché elle a été tuée," },
+    {
+      "resource_id": 136,
+      "text": "quand les feuilles (du Livre des comptes) seront déployées,"
+    },
+    { "resource_id": 136, "text": "quand le ciel sera dépouillé," },
+    { "resource_id": 136, "text": "que l’Enfer sera attisé," },
+    { "resource_id": 136, "text": "et le Paradis rapproché," },
+    {
+      "resource_id": 136,
+      "text": "chaque âme saura alors ce qu’elle aura accompli."
+    },
+    { "resource_id": 136, "text": "J’en jure par les étoiles qui se meuvent," },
+    { "resource_id": 136, "text": "qui surgissent et s’éclipsent," },
+    {
+      "resource_id": 136,
+      "text": "par la nuit quand elle rampe et se répand,"
+    },
+    { "resource_id": 136, "text": "par l’aurore quand elle respire," },
+    {
+      "resource_id": 136,
+      "text": "que c’est la parole<sup foot_note=195222>1</sup> d’un noble émissaire,<sup foot_note=195223>2</sup>"
+    },
+    { "resource_id": 136, "text": "fort de l’estime du Détenteur du Trône," },
+    {
+      "resource_id": 136,
+      "text": "écouté<sup foot_note=195224>1</sup> et loyal."
+    },
+    { "resource_id": 136, "text": "Votre compagnon n’est certes pas fou." },
+    {
+      "resource_id": 136,
+      "text": "Il l’a bien vu à l’horizon où tout est clair."
+    },
+    {
+      "resource_id": 136,
+      "text": "Et ce n’est pas lui qui sera avare du mystère révélé."
+    },
+    {
+      "resource_id": 136,
+      "text": "Ce n’est nullement la parole d’un démon lapidé."
+    },
+    { "resource_id": 136, "text": "Qu’allez-vous donc chercher ?" },
+    { "resource_id": 136, "text": "Ce n’est là qu’un Rappel pour l’Univers," },
+    {
+      "resource_id": 136,
+      "text": "pour ceux d’entre vous, qui voudraient prendre le droit chemin."
+    },
+    {
+      "resource_id": 136,
+      "text": "Or, vous ne voudrez rien qu’Allah ne veuille, Lui, le Seigneur de l’Univers."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "81" }
+  }
+}

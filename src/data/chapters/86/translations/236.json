@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "S igenni, akked yitri n yiv!" },
+    { "resource_id": 236, "text": "W ara k imlen d acu t itri n yiv?" },
+    { "resource_id": 236, "text": "Ipôeôiq itri n yiv." },
+    { "resource_id": 236, "text": "Yal iman fellas amêareb." },
+    { "resource_id": 236, "text": "Ad iwali umdan seg wacu ipwaxleq." },
+    { "resource_id": 236, "text": "Ipwaxleq s waman id ifin." },
+    { "resource_id": 236, "text": "Ff$en ed ger tgeééal akked tgwejda." },
+    { "resource_id": 236, "text": "Ih, Izmer a t id Issker, Neppa." },
+    { "resource_id": 236, "text": "Ass ideg lesrar ur drigen ara." },
+    { "resource_id": 236, "text": "Ur isâi kra n tezmert ne$ n tallalt." },
+    { "resource_id": 236, "text": "S igenni bab n tririt!" },
+    { "resource_id": 236, "text": "S tmurt ipceqqiqen!" },
+    { "resource_id": 236, "text": "Ar neppa d awal ifeûûlen." },
+    { "resource_id": 236, "text": "Ur illi d urar waya." },
+    { "resource_id": 236, "text": "Atnan, ih, ppandin ticeôkep." },
+    { "resource_id": 236, "text": "Ad Andi$ ticeôkep." },
+    {
+      "resource_id": 236,
+      "text": "I ijehliyen eoo lmudda, eoo asen cwiî lmudda."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "86" }
+  }
+}

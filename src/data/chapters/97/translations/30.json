@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Totisesti olemme ilmaissut sen siunattuna yönä."
+    },
+    { "resource_id": 30, "text": "Mistäpä tietäisit, mikä Voiman yö on !" },
+    {
+      "resource_id": 30,
+      "text": "Siunattu yö on arvokkaampi kuin tuhat kuukautta."
+    },
+    {
+      "resource_id": 30,
+      "text": "Silloin laskeutuvat enkelit ja suuri henki Herransa käskyn mukaan kaikenlaisiin tehtäviin."
+    },
+    {
+      "resource_id": 30,
+      "text": "Silloin vallitsee rauha ja kestää aamunkoittoon saakka."
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "97" }
+  }
+}

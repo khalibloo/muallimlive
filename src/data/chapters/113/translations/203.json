@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Say: \"I seek refuge with (Allâh), the Lord of the daybreak,"
+    },
+    { "resource_id": 203, "text": "  \"From the evil of what He has created," },
+    {
+      "resource_id": 203,
+      "text": "  \"And from the evil of the darkening (night) as it comes with its darkness; (or the moon as it sets or goes away),"
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"And from the evil of those who practise witchcraft when they blow in the knots,"
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"And from the evil of the envier when he envies.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "113" }
+  }
+}

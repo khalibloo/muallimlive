@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "Ina rantsuwa da zãmani.<sup foot_note=132768>1</sup>"
+    },
+    { "resource_id": 115, "text": "Lalle ne mutum yana a cikin hasara." },
+    {
+      "resource_id": 115,
+      "text": "Fãce waɗanda suka yi ĩmani, kuma suka aikata ayyukan ƙwarai, kuma suka yi wa juna wasiyya da bin gaskiya, kuma suka yi wa juna wasiyya da yin haƙuri (su kam, basu cikin hasara)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "103" }
+  }
+}

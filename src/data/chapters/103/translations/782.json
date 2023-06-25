@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 782, "text": "Jur pe timp!" },
+    {
+      "resource_id": 782,
+      "text": "Că omul va fi în pierdere<sup foot_note=203892>1</sup>,"
+    },
+    {
+      "resource_id": 782,
+      "text": "Afară de aceia care cred şi împlinesc fapte bune şi se îndeamnă unul pe altul către Adevăr şi se îndeamnă unul pe altul la răbdare."
+    }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "103" }
+  }
+}

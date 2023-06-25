@@ -1,0 +1,115 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Birbirlerine neyi soruyorlar?" },
+    { "resource_id": 124, "text": "(İnanıp inanmamakta) büyük haberi mi?" },
+    { "resource_id": 124, "text": "Ayrılığa düştükleri." },
+    { "resource_id": 124, "text": "Hayır! Anlayacaklar!" },
+    { "resource_id": 124, "text": "Yine hayır! Onlar anlayacaklar!" },
+    { "resource_id": 124, "text": "Biz, yeryüzünü bir döşek yapmadık mı?" },
+    { "resource_id": 124, "text": "Dağları da birer kazık." },
+    { "resource_id": 124, "text": "Sizi çifter çifter yarattık." },
+    { "resource_id": 124, "text": "Uykunuzu bir dinlenme kıldık." },
+    { "resource_id": 124, "text": "Geceyi bir örtü yaptık." },
+    { "resource_id": 124, "text": "Gündüzü de çalışıp kazanma zamanı yaptık." },
+    {
+      "resource_id": 124,
+      "text": "Üstünüzde yedi kat sağlam göğü bina ettik."
+    },
+    {
+      "resource_id": 124,
+      "text": "(Orada) alev alev yanan bir kandil yarattık."
+    },
+    {
+      "resource_id": 124,
+      "text": "Üst üste yığılıp sıkışan bulutlardan şarıl şarıl akan sular indirdik."
+    },
+    {
+      "resource_id": 124,
+      "text": "Size tohumlar, bitkiler; (ağaçları) yetiştirmek için,"
+    },
+    {
+      "resource_id": 124,
+      "text": "sarmaş dolaş olmuş bağlar ve bahçeler yetiştirmek için."
+    },
+    {
+      "resource_id": 124,
+      "text": "Şüphesiz hüküm günü vakit olarak belirlenmiştir."
+    },
+    {
+      "resource_id": 124,
+      "text": "Sûr'a üflendiği gün, bölük bölük Allah’a gelirsiniz;"
+    },
+    {
+      "resource_id": 124,
+      "text": "gökyüzü açılır ve orada pek çok kapılar oluşur,"
+    },
+    { "resource_id": 124, "text": "dağlar yürütülür, serap haline gelir." },
+    { "resource_id": 124, "text": "Şüphesiz, cehennem pusuda beklemektedir." },
+    { "resource_id": 124, "text": "Azgınların barınağı olacak," },
+    { "resource_id": 124, "text": "(Azgınlar) orada çağlar boyu kalırlar," },
+    {
+      "resource_id": 124,
+      "text": "orada bir serinlik ya da (susuzluk gideren) bir içecek tatmazlar,"
+    },
+    { "resource_id": 124, "text": "kaynar su ve irin tadarlar." },
+    {
+      "resource_id": 124,
+      "text": "Ancak (dünyada yaptıklarına) uygun karşılık olarak."
+    },
+    {
+      "resource_id": 124,
+      "text": "Çünkü onlar hesap gününü (geleceğini) ummazlardı."
+    },
+    {
+      "resource_id": 124,
+      "text": "Bizim âyetlerimizi yalanladıkça yalanlamışlardı."
+    },
+    {
+      "resource_id": 124,
+      "text": "Biz ise her şeyi bir kitapta sayıp yazmışızdır."
+    },
+    {
+      "resource_id": 124,
+      "text": "Tadın! Bundan sonra yalnızca azabınızı arttıracağız."
+    },
+    {
+      "resource_id": 124,
+      "text": "Şüphesiz takvâ sahipleri için umulanı buldukları yer,"
+    },
+    { "resource_id": 124, "text": "bahçeler, üzüm bağları," },
+    {
+      "resource_id": 124,
+      "text": "göğüsleri tomurcuk gibi kabarmış yaşıt kızlar,"
+    },
+    { "resource_id": 124, "text": "içki dolu kâseler vardır." },
+    {
+      "resource_id": 124,
+      "text": "Onlar orada ne boş bir lâkırdı ne de yalan işitirler."
+    },
+    {
+      "resource_id": 124,
+      "text": "Bunlar Rabbinin yeterli bir bağışı, mükâfatıdır."
+    },
+    {
+      "resource_id": 124,
+      "text": "O, göklerin, yerin ve ikisi arasında bulunanların Rabbidir. O, rahmândır. O gün insanlar O'na karşı konuşmaya yetkili değillerdir."
+    },
+    {
+      "resource_id": 124,
+      "text": "Ruh (Cebrail) ve melekler saf saf olup durduğu gün, Rahmân’ın izin verdiklerinden başkaları konuşmazlar; konuşan da doğruyu söyler."
+    },
+    {
+      "resource_id": 124,
+      "text": "İşte o, kesin olarak gelecek gündür. O halde dileyen Rabbine varan bir yol tutsun."
+    },
+    {
+      "resource_id": 124,
+      "text": "Biz, yakın bir azap ile sizi uyardık. O gün kişi önceden yaptıklarına bakacak ve inkârcı kişi: «Keşke toprak olsaydım!» diyecektir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "78" }
+  }
+}

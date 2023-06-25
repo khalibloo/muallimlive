@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Waxaad dhahdaa, Gaalooy." },
+    { "resource_id": 46, "text": "Ma caabudayo waxaad caabudaysaan." },
+    { "resource_id": 46, "text": "Idinna ma caabudaysaan Eebahaan caabudi." },
+    { "resource_id": 46, "text": "Mana caabudin waxaad caabuddeen," },
+    {
+      "resource_id": 46,
+      "text": "Idinkuna (hadda) ma caabudaysaan Eebahaan caabudi."
+    },
+    {
+      "resource_id": 46,
+      "text": "Idinkana Diintiina yaad leedihiin, Anna Diintaydaan leeyahay."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "109" }
+  }
+}

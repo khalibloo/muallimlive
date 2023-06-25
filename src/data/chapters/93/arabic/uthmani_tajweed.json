@@ -1,0 +1,60 @@
+{
+  "verses": [
+    {
+      "id": 6080,
+      "verse_key": "93:1",
+      "text_uthmani_tajweed": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ضُّحَىٰ <span class=end>١</span>"
+    },
+    {
+      "id": 6081,
+      "verse_key": "93:2",
+      "text_uthmani_tajweed": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ إِذَا سَجَىٰ <span class=end>٢</span>"
+    },
+    {
+      "id": 6082,
+      "verse_key": "93:3",
+      "text_uthmani_tajweed": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ <span class=end>٣</span>"
+    },
+    {
+      "id": 6083,
+      "verse_key": "93:4",
+      "text_uthmani_tajweed": "وَلَلْأَخِرَةُ خَيْ<tajweed class=idgham_wo_ghunnah>رٌ ل</tajweed>َّكَ مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لْأُولَىٰ <span class=end>٤</span>"
+    },
+    {
+      "id": 6084,
+      "verse_key": "93:5",
+      "text_uthmani_tajweed": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ <span class=end>٥</span>"
+    },
+    {
+      "id": 6085,
+      "verse_key": "93:6",
+      "text_uthmani_tajweed": "أَلَمْ يَجِ<tajweed class=qalaqah>دْ</tajweed>كَ يَتِي<tajweed class=ikhafa>مًا ف</tajweed>َـَٔـاوَىٰ <span class=end>٦</span>"
+    },
+    {
+      "id": 6086,
+      "verse_key": "93:7",
+      "text_uthmani_tajweed": "وَوَجَدَكَ ضَآل<tajweed class=ikhafa>اًّ ف</tajweed>َهَدَىٰ <span class=end>٧</span>"
+    },
+    {
+      "id": 6087,
+      "verse_key": "93:8",
+      "text_uthmani_tajweed": "وَوَجَدَكَ ع<tajweed class=madda_obligatory>َا</tajweed>ٓئِل<tajweed class=ikhafa>اً ف</tajweed>َأَغْنَىٰ <span class=end>٨</span>"
+    },
+    {
+      "id": 6088,
+      "verse_key": "93:9",
+      "text_uthmani_tajweed": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا <tajweed class=ham_wasl>ٱ</tajweed>لْيَتِيمَ فَلَا تَ<tajweed class=qalaqah>قْ</tajweed>هَرْ <span class=end>٩</span>"
+    },
+    {
+      "id": 6089,
+      "verse_key": "93:10",
+      "text_uthmani_tajweed": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سّ<tajweed class=madda_obligatory>َا</tajweed>ٓئِلَ فَلَا تَنْهَرْ <span class=end>١٠</span>"
+    },
+    {
+      "id": 6090,
+      "verse_key": "93:11",
+      "text_uthmani_tajweed": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ <span class=end>١١</span>"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "93" } }
+}

@@ -1,0 +1,55 @@
+{
+  "translations": [
+    {
+      "resource_id": 206,
+      "text": "Glorify the name of your Lord, the Most High,"
+    },
+    {
+      "resource_id": 206,
+      "text": "Who created and fashioned in due proportion,"
+    },
+    {
+      "resource_id": 206,
+      "text": "and Who determined [the creation] then guided them,"
+    },
+    { "resource_id": 206, "text": "and Who brings forth the pasture," },
+    { "resource_id": 206, "text": "then makes it into withered chaff." },
+    {
+      "resource_id": 206,
+      "text": "We will teach you [the Qur’an], so you will not forget,"
+    },
+    {
+      "resource_id": 206,
+      "text": "except what Allah wills, for indeed He knows what is manifest and what is hidden."
+    },
+    { "resource_id": 206, "text": "We will guide you to the easy way." },
+    {
+      "resource_id": 206,
+      "text": "So remind, if the reminder should benefit."
+    },
+    { "resource_id": 206, "text": "He who fears Allah will take heed," },
+    { "resource_id": 206, "text": "but the wretched will avoid it," },
+    { "resource_id": 206, "text": "who will enter the Great Fire," },
+    { "resource_id": 206, "text": "wherein he will neither die nor live." },
+    {
+      "resource_id": 206,
+      "text": "Indeed, he who purifies himself will attain success,"
+    },
+    { "resource_id": 206, "text": "and remembers his Lord’s Name and prays." },
+    { "resource_id": 206, "text": "But you prefer the life of this world," },
+    {
+      "resource_id": 206,
+      "text": "even though the Hereafter is better and more lasting."
+    },
+    {
+      "resource_id": 206,
+      "text": "Indeed, this was in the earlier Scriptures,"
+    },
+    { "resource_id": 206, "text": "the Scriptures of Abraham and Moses." }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "87" }
+  }
+}

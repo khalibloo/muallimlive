@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 136,
+      "text": "Lorsque la terre aura tremblé de son (plus violent) tremblement,"
+    },
+    { "resource_id": 136, "text": "et qu’elle aura rejeté tous ses fardeaux," },
+    {
+      "resource_id": 136,
+      "text": "et que l’homme aura demandé : « Qu’est-ce qu’elle a ? »"
+    },
+    { "resource_id": 136, "text": "Ce jour-là, elle dira son histoire," },
+    {
+      "resource_id": 136,
+      "text": "d’après ce que ton Seigneur lui aura ordonné."
+    },
+    {
+      "resource_id": 136,
+      "text": "Ce jour-là, les hommes sortiront par groupes épars pour répondre de leurs œuvres.<sup foot_note=195244>1</sup>"
+    },
+    {
+      "resource_id": 136,
+      "text": "Celui qui aura fait ne fût-ce que le poids d’un atome en bien, le verra ;"
+    },
+    {
+      "resource_id": 136,
+      "text": "et celui qui aura fait ne fût-ce que le poids d’un atome en mal, le verra."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "99" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Ayt: «Ey, kofirlar..." },
+    {
+      "resource_id": 55,
+      "text": "Men siz ibodat qilgan narsalarga ibodat qilmasman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va sizlar ham men ibodat qiladigan narsaga ibodat qiluvchimassiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va men siz ibodat qilgan narsaga ibodat qiluvchimasman."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va siz ham men ibodat qiladigan narsaga ibodat qiluvchimassiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sizga o`z diningiz, Menga o`z dinim.<sup foot_note=\"169986\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 819, "text": "کھڑکھڑانے والی" },
+    { "resource_id": 819, "text": "کیا ہے کھڑکھڑا نے والی" },
+    {
+      "resource_id": 819,
+      "text": "اور تم کیا جانو کہ کیا ہے وہ کھڑ کھڑانے والی"
+    },
+    { "resource_id": 819, "text": "جس دن لوگ پتنگوں کی طرح بکھرے ہوئے ہوں گے" },
+    {
+      "resource_id": 819,
+      "text": "اور پہاڑ دھنکے ہوئے رنگین اون کی طرح ہوجائیں گے"
+    },
+    { "resource_id": 819, "text": "پھر جس شخص کا پلہ بھاری ہوگا" },
+    { "resource_id": 819, "text": "وہ دل پسند آرام میں ہوگا" },
+    { "resource_id": 819, "text": "اور جس شخص کا پلہ ہلکا ہوگا" },
+    { "resource_id": 819, "text": "تو اس کا ٹھکانا گڑھا ہے" },
+    { "resource_id": 819, "text": "اور تم کیا جانو کہ وہ کیا ہے" },
+    { "resource_id": 819, "text": "بھڑکتی ہوئی آگ" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "101" }
+  }
+}

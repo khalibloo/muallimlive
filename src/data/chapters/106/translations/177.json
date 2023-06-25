@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Để cải thiện cuộc sống của bộ tộc Quraish."
+    },
+    {
+      "resource_id": 177,
+      "text": "TA đã tạo điều kiện thuận lợi cho họ di chuyển đến Yemen vào mùa đông và đến Sham (nay được chia thành bốn quốc gia: Jordan, Sirya, Palestine và Li-Băng) vào mùa hè."
+    },
+    {
+      "resource_id": 177,
+      "text": "Do đó, họ nên tạ ơn mà thờ phượng Allah, Chủ Nhân của Ngôi Đền thiêng này – đó là Ka’bah – Đấng đã tạo mọi dễ dàng cho họ, ngoài Ngài chúng không được tạ ơn bất cứ ai khác."
+    },
+    {
+      "resource_id": 177,
+      "text": "Đấng đã cung cấp thức ăn cho họ khi họ đói và làm cho họ an toàn khỏi những tai ách. Ngài đã khiến con tim người Ả-rập tôn trọng vùng đất thiêng và dân cư nơi đó."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "106" }
+  }
+}

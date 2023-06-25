@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Allāhu fi ìyálẹ̀ta búra." },
+    { "resource_id": 125, "text": "Ó tún fi alẹ́ nígbà tí (ilẹ̀) bá ṣú búra." },
+    { "resource_id": 125, "text": "Olúwa rẹ kò pa ọ́ tì, kò sì bínú sí ọ." },
+    { "resource_id": 125, "text": "Dájúdájú ọ̀run lóore fún ọ ju ayé." },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú láìpẹ́ Olúwa rẹ máa fún ọ ní (oore púpọ̀ ní ọ̀run). Nítorí náà, o sì máa yọ́nú sí i."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ṣé (Allāhu) kò rí ọ ní ọmọ-òrukàn ni? Ó sì fún ọ ní ibùgbé."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó sì rí ọ ní aláìmọ̀nà (ìyẹn ṣíwájú ìsọ̀kalẹ̀ ìmísí). Ó sì fi ọ̀nà mọ̀ ọ́.1 <sup foot_note=148072>1</sup>"
+    },
+    { "resource_id": 125, "text": "Ó tún rí ọ ní aláìní, Ó sì rọ̀ ọ́ lọ́rọ̀." },
+    {
+      "resource_id": 125,
+      "text": "Nítorí náà, ní ti ọmọ-òrukàn, má ṣe jẹ gàba (lé e lórí)."
+    },
+    { "resource_id": 125, "text": "Ní ti alágbe, má sì ṣe jágbe (mọ́ ọn)." },
+    { "resource_id": 125, "text": "Ní ti ìdẹ̀ra Olúwa rẹ, sọ ọ́ jáde." }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "93" }
+  }
+}

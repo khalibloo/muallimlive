@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Bismi Allahi arrahmani arraheem" },
+    { "resource_id": 57, "text": "Alhamdu lillahi rabbi alAAalameen" },
+    { "resource_id": 57, "text": "Arrahmani arraheem" },
+    { "resource_id": 57, "text": "Maliki yawmi addeen" },
+    { "resource_id": 57, "text": "Iyyaka naAAbudu wa-iyyaka nastaAAeen" },
+    { "resource_id": 57, "text": "Ihdina assirata almustaqeem" },
+    {
+      "resource_id": 57,
+      "text": "Sirata allatheena anAAamta AAalayhim ghayri almaghdoobi AAalayhim wala addalleen"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "1" }
+  }
+}

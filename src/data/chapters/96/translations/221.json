@@ -1,0 +1,67 @@
+{
+  "translations": [
+    {
+      "resource_id": 221,
+      "text": "Hãy đọc! Nhân danh Thượng Đế của Ngươi, Đấng đã tạo,"
+    },
+    { "resource_id": 221, "text": "Đã tạo con người từ một hòn máu đặc." },
+    {
+      "resource_id": 221,
+      "text": "Hãy đọc! Và Thượng Đế của Ngươi Rất Mực Quảng Đại,"
+    },
+    { "resource_id": 221, "text": "Đấng đã dạy (kiến thức) bằng cây viết;" },
+    { "resource_id": 221, "text": "Đã dạy con người điều mà y không biết;" },
+    {
+      "resource_id": 221,
+      "text": "Nhưng không! Quả thật, con người thái quá,"
+    },
+    { "resource_id": 221, "text": "Bởi vì y tự thấy mình đầy đủ." },
+    {
+      "resource_id": 221,
+      "text": "Quả thật, y sẽ trở lại gặp Thượng Đế của Ngươi (ở đời sau)."
+    },
+    {
+      "resource_id": 221,
+      "text": "Há Ngươi có thấy một kẻ (Abu Jahl) đã ngăn cản"
+    },
+    {
+      "resource_id": 221,
+      "text": "Một người bề tôi (Muhammad) khi Y dâng lễ nguyện Salah?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Há Ngươi xét thấy y được hướng dẫn hay chăng?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Hoặc truyền bảo (người khác) nên sợ Allah hay chăng?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Há Ngươi xét thấy y phủ nhận sự thật và quay bỏ đi?"
+    },
+    {
+      "resource_id": 221,
+      "text": "Há y không biết rằng Allah Hằng thấy (tất cả)."
+    },
+    {
+      "resource_id": 221,
+      "text": "Nhưng không! Nếu y không chịu ngưng (phá rối) thì chắc chắn TA sẽ nắm chùm tóc trán (của y),"
+    },
+    { "resource_id": 221, "text": "Một chùm tóc láo khoét, tội lỗi." },
+    { "resource_id": 221, "text": "Hãy để y gọi bè nhóm của y (đến giúp);" },
+    {
+      "resource_id": 221,
+      "text": "TA sẽ gọi các cảnh vệ của hỏa ngục (đến trừng trị)!"
+    },
+    {
+      "resource_id": 221,
+      "text": "Nhưng không! Chớ nghe theo y. Và hãy phủ phục và đến gần (Ngài)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Abdul-Karim",
+    "author_name": "Hasan Abdul-Karim",
+    "filters": { "resource_id": 221, "chapter_number": "96" }
+  }
+}

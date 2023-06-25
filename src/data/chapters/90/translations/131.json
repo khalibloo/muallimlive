@@ -1,0 +1,56 @@
+{
+  "translations": [
+    { "resource_id": 131, "text": "I do swear by this city ˹of Mecca˺—" },
+    {
+      "resource_id": 131,
+      "text": "even though you ˹O Prophet˺ are subject to abuse in this city—"
+    },
+    { "resource_id": 131, "text": "and by every parent and ˹their˺ child!" },
+    {
+      "resource_id": 131,
+      "text": "Indeed, We have created humankind in ˹constant˺ struggle."
+    },
+    {
+      "resource_id": 131,
+      "text": "Do they think that no one has power over them,"
+    },
+    {
+      "resource_id": 131,
+      "text": "boasting, “I have wasted enormous wealth!”?"
+    },
+    { "resource_id": 131, "text": "Do they think that no one sees them?" },
+    { "resource_id": 131, "text": "Have We not given them two eyes," },
+    { "resource_id": 131, "text": "a tongue, and two lips;" },
+    {
+      "resource_id": 131,
+      "text": "and shown them the two ways ˹of right and wrong˺?"
+    },
+    {
+      "resource_id": 131,
+      "text": "If only they had attempted the challenging path ˹of goodness instead˺!"
+    },
+    {
+      "resource_id": 131,
+      "text": "And what will make you realize what ˹attempting˺ the challenging path is?"
+    },
+    { "resource_id": 131, "text": "It is to free a slave," },
+    { "resource_id": 131, "text": "or to give food in times of famine" },
+    { "resource_id": 131, "text": "to an orphaned relative" },
+    { "resource_id": 131, "text": "or to a poor person in distress," },
+    {
+      "resource_id": 131,
+      "text": "and—above all—to be one of those who have faith and urge each other to perseverance and urge each other to compassion."
+    },
+    { "resource_id": 131, "text": "These are the people of the right." },
+    {
+      "resource_id": 131,
+      "text": "As for those who deny Our signs, they are the people of the left.<sup foot_note=77622>1</sup>"
+    },
+    { "resource_id": 131, "text": "The Fire will be sealed over them." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "90" }
+  }
+}

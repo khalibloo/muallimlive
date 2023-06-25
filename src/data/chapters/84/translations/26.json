@@ -1,0 +1,58 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Až se nebe rozštěpí" },
+    {
+      "resource_id": 26,
+      "text": "a uposlechne Pána svého a své povinnosti zadost učiní,"
+    },
+    { "resource_id": 26, "text": "až se země zarovná" },
+    { "resource_id": 26, "text": "a vyvrhne, co v ní je, a bude prázdná" },
+    {
+      "resource_id": 26,
+      "text": "a uposlechne Pána svého a své povinnosti zadost učiní"
+    },
+    {
+      "resource_id": 26,
+      "text": "Člověče, věru se usilovně snažíš o Pána svého a vskutku s Ním dojde k setkání"
+    },
+    { "resource_id": 26, "text": "Komu bude kniha jeho dána do pravice," },
+    { "resource_id": 26, "text": "tomu zúčtováno bude počtem snadným" },
+    { "resource_id": 26, "text": "a on radostně se navrátí k lidem svým." },
+    { "resource_id": 26, "text": "A ten, jemuž za záda bude kniha jeho dána," },
+    { "resource_id": 26, "text": "ten volat bude po zničení" },
+    { "resource_id": 26, "text": "a plát bude ve šlehajícím plameni." },
+    { "resource_id": 26, "text": "Žil věru s rodinou svou v radosti na zemi," },
+    { "resource_id": 26, "text": "a že k Bohu se nenavrátí, se domníval." },
+    { "resource_id": 26, "text": "Ba nikoliv! Vždyť Pán jeho jej pozoroval!" },
+    { "resource_id": 26, "text": "Hle,přísahám při soumraku," },
+    { "resource_id": 26, "text": "při noci a při tom, co zahaluje," },
+    { "resource_id": 26, "text": "a při měsíci, když vchází do úplňku," },
+    {
+      "resource_id": 26,
+      "text": "že vskutku stoupat budete stupeň po stupínku!"
+    },
+    { "resource_id": 26, "text": "Co je jim tedy, že nevěří" },
+    {
+      "resource_id": 26,
+      "text": "a k zemi se nevrhají, když Korán jim přednášejí?"
+    },
+    {
+      "resource_id": 26,
+      "text": "Ba co víc, ti, kdož nevěří, za lživý jej prohlašují."
+    },
+    { "resource_id": 26, "text": "Však Bůh nejlépe ví, co skrývají!" },
+    {
+      "resource_id": 26,
+      "text": "Ohlas jim zvěst radostnou o trestu bolestném, jenž stihne je -"
+    },
+    {
+      "resource_id": 26,
+      "text": "kromě těch, kdož uvěřili a zbožné skutky konali, a těm náleží odměna, jež se neupomíná."
+    }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "84" }
+  }
+}

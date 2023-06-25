@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "Say: He is Allah, the One!" },
+    { "resource_id": 19, "text": "Allah, the eternally Besought of all!" },
+    { "resource_id": 19, "text": "He begetteth not nor was begotten." },
+    { "resource_id": 19, "text": "And there is none comparable unto Him." }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "112" }
+  }
+}

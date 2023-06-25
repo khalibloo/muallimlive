@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "Would the hands of ÉAbu Lahab be cut up, (i.e., perish) and would he be cut up (too)!"
+    },
+    {
+      "resource_id": 17,
+      "text": "In no way did his wealth avail him, neither whatever he earned;"
+    },
+    {
+      "resource_id": 17,
+      "text": "He will roast at a flaming Fire, (Literally: fire comprising flame)."
+    },
+    {
+      "resource_id": 17,
+      "text": "And his wife, the constant bearer of firewood,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Upon her (long) neck she will have a rope of palm-fibers."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "111" }
+  }
+}

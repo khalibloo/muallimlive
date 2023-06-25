@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 183,
+      "text": "使徒よ、確かにわれらはあなたに、豊潤に授けた。楽園のカウサル川もその一つ。"
+    },
+    {
+      "resource_id": 183,
+      "text": "だからその恩寵に感謝せよ。あなたの主のみに礼拝し、犠牲を捧げなさい。それは多神教徒たちが、かれらの偶像に捧げる供物とは違う。"
+    },
+    {
+      "resource_id": 183,
+      "text": "あなたを憎む者は、あらゆる善行とは縁がなく、忘れ去られる。もし覚えられるとしても、否定的に覚えられるのだ。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Japanese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 183, "chapter_number": "108" }
+  }
+}

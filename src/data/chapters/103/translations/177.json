@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Đấng Hiển Vinh thề bởi thời gian của buổi chiều."
+    },
+    {
+      "resource_id": 177,
+      "text": "Rằng con người chắc chắn sẽ bị thất bại và hủy diệt."
+    },
+    {
+      "resource_id": 177,
+      "text": "Ngoại trừ những người có đức tin nơi Allah và Thiên Sứ của Ngài rồi làm việc thiện tốt và khuyên bảo nhau giữ gìn và duy trì Chân Lý cũng như khuyên bảo nhau kiên nhẫn trong việc tuân lệnh Ngài. Những người với các mô tả nay là những người thành công ở trần gian và Đời Sau."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "103" }
+  }
+}

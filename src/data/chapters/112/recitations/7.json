@@ -1,0 +1,13 @@
+{
+  "audio_files": [
+    { "verse_key": "112:1", "url": "Alafasy/mp3/112001.mp3" },
+    { "verse_key": "112:2", "url": "Alafasy/mp3/112002.mp3" },
+    { "verse_key": "112:3", "url": "Alafasy/mp3/112003.mp3" },
+    { "verse_key": "112:4", "url": "Alafasy/mp3/112004.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mishari Rashid al-`Afasy",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "112" }
+  }
+}

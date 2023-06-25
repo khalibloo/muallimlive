@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Ne, vërtet, të dhamë ty shumë mira." },
+    {
+      "resource_id": 89,
+      "text": "Andaj, ti falu dhe prej kurban për hurë të Zotit tënd!"
+    },
+    {
+      "resource_id": 89,
+      "text": "E s’ka dyshim se urrejtësi yt është farësosur."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "108" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Zugrunde gehen sollen die Hände Abu Lahabs, und zugrunde gehen soll er (selbst)!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Was nützt ihm sein Besitz und das, was er erworben hat?"
+    },
+    {
+      "resource_id": 27,
+      "text": "Er wird einem Feuer voller Flammen ausgesetzt sein"
+    },
+    {
+      "resource_id": 27,
+      "text": "und (auch) seine Frau, die Brennholzträgerin."
+    },
+    {
+      "resource_id": 27,
+      "text": "Um ihrem Hals ist ein Strick aus Palmfasern."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "111" }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por el alba!" },
+    { "resource_id": 28, "text": "¡Por diez noches!" },
+    { "resource_id": 28, "text": "¡Por el par y el impar!" },
+    { "resource_id": 28, "text": "¡Por la noche cuando transcurre..." },
+    {
+      "resource_id": 28,
+      "text": "¿No es esto un juramento para el dotado de intelecto?"
+    },
+    {
+      "resource_id": 28,
+      "text": "¿No has visto cómo ha obrado tu Señor con los aditas,"
+    },
+    { "resource_id": 28, "text": "con Iram, la de las columnas," },
+    { "resource_id": 28, "text": "sin par en el país," },
+    {
+      "resource_id": 28,
+      "text": "con los tamudeos, que excavaron la roca en el valle,"
+    },
+    { "resource_id": 28, "text": "con Faraón el de las estacas," },
+    { "resource_id": 28, "text": "que se habían excedido en el país" },
+    { "resource_id": 28, "text": "y que habían corrompido tanto en él?" },
+    {
+      "resource_id": 28,
+      "text": "Tu Señor descargó sobre ellos el azote de un castigo."
+    },
+    { "resource_id": 28, "text": "Tu Señor está, sí, al acecho." },
+    {
+      "resource_id": 28,
+      "text": "El hombre, cuando su Señor le prueba honrándolo y concediéndole gracias, dice: «¡Mi Señor me ha honrado!»"
+    },
+    {
+      "resource_id": 28,
+      "text": "En cambio. cuando le prueba restringiéndole su sustento, dice: «¡Mi Señor me ha despreciado!»"
+    },
+    {
+      "resource_id": 28,
+      "text": "¡No! Sois vosotros, más bien, los que no honráis al huérfano,"
+    },
+    {
+      "resource_id": 28,
+      "text": "ni os animáis unos a otros a alimentar al pobre,"
+    },
+    { "resource_id": 28, "text": "sino que devoráis vorazmente la herencia y" },
+    { "resource_id": 28, "text": "amáis la hacienda con desordenado amor." },
+    {
+      "resource_id": 28,
+      "text": "¡No! Cuando la Tierra sea reducida a polvo fino"
+    },
+    { "resource_id": 28, "text": "y venga tu Señor con los ángeles en filas," },
+    {
+      "resource_id": 28,
+      "text": "ese día se traerá la gehena, ese día el hombre se dejará amonestar -y ¿de qué le servirá entonces la amonestación?-"
+    },
+    {
+      "resource_id": 28,
+      "text": "y dirá: «¡Ojalá hubiera enviado por delante para mi vida!»"
+    },
+    { "resource_id": 28, "text": "Ese día nadie castigará como Él," },
+    { "resource_id": 28, "text": "nadie atará como Él." },
+    { "resource_id": 28, "text": "«¡Alma sosegada!" },
+    { "resource_id": 28, "text": "¡Vuelve a tu Señor, satisfecha, acepta!" },
+    { "resource_id": 28, "text": "¡Y entra con Mis siervos," },
+    { "resource_id": 28, "text": "Entra en Mi Jardín!»" }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "89" }
+  }
+}

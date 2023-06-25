@@ -1,0 +1,52 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "Yüce Rabbinin adını tesbih et." },
+    { "resource_id": 77, "text": "O, yaratıp şekil vermiştir." },
+    {
+      "resource_id": 77,
+      "text": "O, her şeyi ölçüyle yapıp doğru yolu göstermiştir."
+    },
+    { "resource_id": 77, "text": "O, yeşillikler bitirmiştir." },
+    { "resource_id": 77, "text": "Sonra da onları siyah çerçöpe çevirmiştir." },
+    {
+      "resource_id": 77,
+      "text": "Sana Kuran'ı Biz okutacağız ve asla unutmayacaksın;"
+    },
+    {
+      "resource_id": 77,
+      "text": "Allah'ın dilediği bundan müstesnadır. Doğrusu açığı da, gizliyi de bilen O'dur."
+    },
+    { "resource_id": 77, "text": "Kolay olanı yapmayı sana kolaylaştırırız." },
+    { "resource_id": 77, "text": "Faydalı olacaksa insanlara öğüt ver." },
+    { "resource_id": 77, "text": "Allah'tan korkan öğüt alacaktır." },
+    { "resource_id": 77, "text": "Bedbaht olan ondan kaçınacaktır." },
+    { "resource_id": 77, "text": "O, en büyük ateşe yaslanacaktır." },
+    { "resource_id": 77, "text": "O, orada ne ölecektir ne de dirilecektir." },
+    {
+      "resource_id": 77,
+      "text": "Arınmış olan, Rabbinin adını anıp namaz kılan, saadete erişecektir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Arınmış olan, Rabbinin adını anıp namaz kılan, saadete erişecektir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama sizler dünya hayatını tercih ediyorsunuz."
+    },
+    { "resource_id": 77, "text": "Oysa ahiret daha iyi ve daha bakidir." },
+    {
+      "resource_id": 77,
+      "text": "Doğrusu bu hükümler ilk sahifelerde, İbrahim ve Musa'nın sahifelerinde de vardır."
+    },
+    {
+      "resource_id": 77,
+      "text": "Doğrusu bu hükümler ilk sahifelerde, İbrahim ve Musa'nın sahifelerinde de vardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "87" }
+  }
+}

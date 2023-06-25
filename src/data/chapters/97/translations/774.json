@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri (iyi Qur’an) ni Twe twayikumanuriye mu ijoro ry’igeno,"
+    },
+    { "resource_id": 774, "text": "Ni iki cyakumenyesha ijoro ry’igeno?" },
+    {
+      "resource_id": 774,
+      "text": "Ijoro ry’igeno riruta amezi igihumbi (ibyiza bikozwe muri iryo joro birusha ibihembo ibikozwe mu gihe kingana n’amezi igihumbi)!"
+    },
+    {
+      "resource_id": 774,
+      "text": "Abamalayika na Roho (Malayika Jibril) barimanukanamo babiherewe uburenganzira na Nyagasani wabo, kubera igeno (bazanye amategeko agenga) buri kintu cyose,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Iryo (joro ryose) riba ryuje amahoro (n’impuhwe za Allah ku bagaragu be) kugeza umuseke utambitse."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "97" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Rci: \"On Bůh je jedinečný," },
+    { "resource_id": 26, "text": "Bůh sám o sobě věčný." },
+    { "resource_id": 26, "text": "Neplodil a nebyl zplozen" },
+    { "resource_id": 26, "text": "a není nikoho, kdo je mu roven.\"" }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "112" }
+  }
+}

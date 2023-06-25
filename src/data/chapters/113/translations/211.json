@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Sabihin mo: \"Nagpapakupkop ako sa Panginoon ng bukang-liwayway"
+    },
+    { "resource_id": 211, "text": "laban sa kasamaan ng anumang nilikha Niya" },
+    {
+      "resource_id": 211,
+      "text": "at laban sa kasamaan ng pusikit kapag lumaganap ito,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at laban sa kasamaan ng mga babaing [manggagaway na] palaihip sa mga buhol,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at laban sa kasamaan ng isang naiinggit kapag naiinggit ito.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "113" }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "translations": [
+    { "resource_id": 32, "text": "Ina rantsuwa da rãnã da hantsinta." },
+    { "resource_id": 32, "text": "Kuma da wata idan ya bi ta." },
+    { "resource_id": 32, "text": "Da yini a lõkacin da ya bayyana ta." },
+    { "resource_id": 32, "text": "Da dare a lõkacin da ya ke rufe ta." },
+    { "resource_id": 32, "text": "Da sama da abin da ya gina ta." },
+    { "resource_id": 32, "text": "Da ƙasã da abin da ya shimfiɗa ta." },
+    { "resource_id": 32, "text": "Da rai da abin da ya daidaita shi." },
+    {
+      "resource_id": 32,
+      "text": "Sa'an nan ya sanar da shi fãjircinsa da shiryuwarsa."
+    },
+    {
+      "resource_id": 32,
+      "text": "Lalle ne wanda ya tsarkake shi (rai) ya sãmi babban rabo."
+    },
+    {
+      "resource_id": 32,
+      "text": "Kuma lalle ne wanda ya turbuɗe shi (da laifi) ya tãɓe."
+    },
+    {
+      "resource_id": 32,
+      "text": "Samũdãwa sun ƙaryata (Annabinsu), dõmin girman kansu."
+    },
+    {
+      "resource_id": 32,
+      "text": "A lõkacin da mafi shaƙãwarsu ya tafi (wurin sõke rãkumar sãlihu)."
+    },
+    {
+      "resource_id": 32,
+      "text": "Sai Manzon Allah ya gaya musu cewa: &quot;Ina tsõratar da ku ga rãƙumar Allah da ruwan shanta!&quot;"
+    },
+    {
+      "resource_id": 32,
+      "text": "Sai suka ƙaryata shi, sa'an nan suka sõke ta. Sabõda haka Ubangijinsu Ya darkãke su, sabõda zunubinsu. Sa'an nan Ya daidaita ta (azãbar ga mai laifi da maras laifi)."
+    },
+    { "resource_id": 32, "text": "Kuma bã ya tsõron ãƙibarta (ita halakãwar)." }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "91" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na drzewo figowe i oliwkowe!" },
+    { "resource_id": 42, "text": "Na górę Synaj!" },
+    { "resource_id": 42, "text": "Na to miasto bezpieczne!" },
+    {
+      "resource_id": 42,
+      "text": "Stworzyliśmy człowieka w najpiękniejszej postaci."
+    },
+    {
+      "resource_id": 42,
+      "text": "Potem uczyniliśmy go znowu najniższym spośród tych, którzy są na dole;"
+    },
+    {
+      "resource_id": 42,
+      "text": "Z wyjątkiem tych, którzy uwierzyli i czynili dobre dzieła - dla nich będzie nagroda nieustanna."
+    },
+    {
+      "resource_id": 42,
+      "text": "Cóż więc po tym skłania cię jeszcze, by za kłamstwo uważać Sąd?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czyż Bóg nie jest najsprawiedliwszy z sędziów?!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "95" }
+  }
+}

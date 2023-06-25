@@ -1,0 +1,74 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "A ke dëgjuar për Ngjarjen Gjithëpërfshirëse (Kiametin)?"
+    },
+    {
+      "resource_id": 88,
+      "text": "Atë Ditë do të poshtërohen fytyra njerëzish,"
+    },
+    {
+      "resource_id": 88,
+      "text": "që kanë punuar e janë rraskapitur (duke bërë të këqija në këtë botë)."
+    },
+    { "resource_id": 88, "text": "Ata do të digjen në zjarr të nxehtë" },
+    { "resource_id": 88, "text": "e do të pinë nga burime të valuara." },
+    {
+      "resource_id": 88,
+      "text": "Për ata nuk do të ketë tjetër ushqim, përveç ferrave helmuese,"
+    },
+    {
+      "resource_id": 88,
+      "text": "të cilat as nuk do t’i mbajnë, as nuk do t’ua shuajnë urinë."
+    },
+    {
+      "resource_id": 88,
+      "text": "Atë Ditë, fytyrat e disave do të jenë të gëzuara,"
+    },
+    { "resource_id": 88, "text": "të kënaqura për punët e bëra." },
+    { "resource_id": 88, "text": "Ata do të jenë në kopshtin e lartë," },
+    {
+      "resource_id": 88,
+      "text": "në të cilin nuk do të dëgjojnë fjalë boshe."
+    },
+    { "resource_id": 88, "text": "Atje ka një burim rrjedhës uji" },
+    { "resource_id": 88, "text": "dhe divane të ngritura," },
+    { "resource_id": 88, "text": "ka kupa të vëna (për t’u mbajtur në dorë)" },
+    { "resource_id": 88, "text": "dhe jastëkë të renditur," },
+    { "resource_id": 88, "text": "si dhe shumë qilima të shtruar." },
+    {
+      "resource_id": 88,
+      "text": "Vallë, a nuk i shohin devetë, se si janë krijuar?!"
+    },
+    { "resource_id": 88, "text": "Po qiellin, se si është ngritur?!" },
+    { "resource_id": 88, "text": "Po malet, se si janë vënë të patundur?!" },
+    { "resource_id": 88, "text": "Po Tokën, se si është shtrirë?!" },
+    {
+      "resource_id": 88,
+      "text": "Prandaj këshilloji (njerëzit o Muhamed), se ti je vetëm këshillues"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe nuk je ngarkuar t’i detyrosh ata me forcë!"
+    },
+    { "resource_id": 88, "text": "Sa për ata që shmangen dhe nuk besojnë," },
+    {
+      "resource_id": 88,
+      "text": "Allahu do t’i ndëshkojë me dënimin më të madh."
+    },
+    {
+      "resource_id": 88,
+      "text": "Pa dyshim, ata do të kthehen të gjithë tek Ne"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe patjetër që do të japin llogari para Nesh!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "88" }
+  }
+}

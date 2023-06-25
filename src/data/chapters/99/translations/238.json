@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 238, "text": "جڏھن زمين پنھنجي سخت ڌوڏجڻ سان ڌوڏبي." },
+    { "resource_id": 238, "text": "۽ زمين پنھنجا بار ٻاھر ڪڍندي." },
+    { "resource_id": 238, "text": "۽ ماڻھو چوندو ته زمين کي ڇا ٿيو آھي." },
+    {
+      "resource_id": 238,
+      "text": "اُن ڏينھن (اُھا) پنھنجيون سڀ خبرون بيان ڪندي."
+    },
+    { "resource_id": 238, "text": "ھن ڪري جو تنھنجي پالڻھار ڏانھس حُڪم ڪيو." },
+    {
+      "resource_id": 238,
+      "text": "اُن ڏينھن ماڻھو ڌار ڌار ٿي ورندا، ته سندس ڪم کين ڏيکارجن."
+    },
+    {
+      "resource_id": 238,
+      "text": "پوءِ جنھن ذري جيترو چڱو ڪم ڪيو ھوندو سو اُن کي ڏسندو."
+    },
+    {
+      "resource_id": 238,
+      "text": "۽ جنھن ذري جيترو بد ڪم ڪيو ھوندو سو اُن کي ڏسندو."
+    }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "99" }
+  }
+}

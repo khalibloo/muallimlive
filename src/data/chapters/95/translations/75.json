@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " And olsun əncirə və zey­tuna!" },
+    { "resource_id": 75, "text": "And olsun Sina dağına!" },
+    {
+      "resource_id": 75,
+      "text": " And olsun bu təhlükəsiz şə­hərə (Məkkəyə)!"
+    },
+    { "resource_id": 75, "text": " Biz insanı ən gözəl su­rət­də ya­rat­dıq!" },
+    {
+      "resource_id": 75,
+      "text": " Sonra isə onu aşağı qatla­rın ən aşa­ğısına salacağıq."
+    },
+    {
+      "resource_id": 75,
+      "text": " Yalnız iman gətirib yaxşı iş­lər görənlər istisnadır! Onlar üçün tükənməz müka­fat­ ha­zır­lanmışdır."
+    },
+    {
+      "resource_id": 75,
+      "text": " Bundan sonra dini yalan­ saymağa səni nə məcbur edir?"
+    },
+    { "resource_id": 75, "text": " Məgər Allah hakimlərin ən üstünü de­yilmi?" }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "95" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "Nous l’avons certes, fait descendre (le Coran) pendant la nuit d’Al-Qadr (du Destin)."
+    },
+    {
+      "resource_id": 31,
+      "text": "Et qui te dira ce qu’est la nuit d’Al-Qadr ?"
+    },
+    {
+      "resource_id": 31,
+      "text": "La nuit d’Al-Qadr est meilleure que mille mois."
+    },
+    {
+      "resource_id": 31,
+      "text": "Durant celle-ci descendent les Anges ainsi que l’Esprit <sup foot_note=212596>1</sup>, par permission de leur Seigneur pour tout ordre."
+    },
+    {
+      "resource_id": 31,
+      "text": "Elle est paix et salut jusqu’à l’apparition de l’aube."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "97" }
+  }
+}

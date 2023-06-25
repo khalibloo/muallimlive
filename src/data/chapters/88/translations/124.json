@@ -1,0 +1,68 @@
+{
+  "translations": [
+    {
+      "resource_id": 124,
+      "text": "(Rasûlüm!) Dehşeti her şeyi kaplayan kıyametin haberi sana geldi mi?"
+    },
+    { "resource_id": 124, "text": "O gün birtakım yüzler zelildir," },
+    { "resource_id": 124, "text": "durmadan çalışır, (fakat boşuna) yorulur," },
+    { "resource_id": 124, "text": "kızgın ateşe girer." },
+    { "resource_id": 124, "text": "Onlara kaynar su pınarından içirilir." },
+    {
+      "resource_id": 124,
+      "text": "Onlar için kuru dikenden başka yemek yoktur,"
+    },
+    { "resource_id": 124, "text": "o ise ne besler ne de açlığı giderir." },
+    {
+      "resource_id": 124,
+      "text": "O gün bir takım yüzler de vardır ki, mutludurlar,"
+    },
+    {
+      "resource_id": 124,
+      "text": "(dünyadaki) çabalarından hoşnut olmuşlardır,"
+    },
+    { "resource_id": 124, "text": "yüce bir cennettedirler." },
+    { "resource_id": 124, "text": "Orada boş bir söz işitmezler." },
+    { "resource_id": 124, "text": "Orada (cennette) devamlı akan bir pınar," },
+    { "resource_id": 124, "text": "orada yükseltilmiş tahtlar," },
+    { "resource_id": 124, "text": "konulmuş kadehler," },
+    { "resource_id": 124, "text": "sıra sıra dizilmiş yastıklar," },
+    { "resource_id": 124, "text": "serilmiş halılar vardır." },
+    {
+      "resource_id": 124,
+      "text": "(İnsanlar) devenin nasıl yaratıldığına, bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 124,
+      "text": "Göğün nasıl yükseltildiğine, bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 124,
+      "text": "Dağların nasıl dikildiğine, bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 124,
+      "text": "Yeryüzünün nasıl yayıldığına bir bakmazlar mı?"
+    },
+    {
+      "resource_id": 124,
+      "text": "O halde (Rasûlüm!) öğüt ver. Sen ancak öğüt vericisin."
+    },
+    { "resource_id": 124, "text": "Onların üzerinde bir zorba değilsin." },
+    { "resource_id": 124, "text": "Ancak yüz çevirip inkâr edene gelince," },
+    {
+      "resource_id": 124,
+      "text": "işte öylesini Allah en büyük azap ile cezalandırır."
+    },
+    { "resource_id": 124, "text": "Şüphesiz onların dönüşü sadece bizedir." },
+    {
+      "resource_id": 124,
+      "text": "Sonra onların sorguya çekilmesi de sadece bize aittir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "88" }
+  }
+}

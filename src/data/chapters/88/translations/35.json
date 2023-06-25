@@ -1,0 +1,53 @@
+{
+  "translations": [
+    { "resource_id": 35, "text": "圧倒的（事態の）消息が，あなたに達したか。" },
+    { "resource_id": 35, "text": "（或る者の）顔はその日項垂れ，" },
+    { "resource_id": 35, "text": "骨折り疲れ切って，" },
+    { "resource_id": 35, "text": "燃えさかる獄火で焼かれ，" },
+    { "resource_id": 35, "text": "煮えたぎる泉水を飲まされる。" },
+    { "resource_id": 35, "text": "かれらには苦い茨の外に，食物はなく，" },
+    { "resource_id": 35, "text": "それは栄養にもならず，飢えも癒せない。" },
+    { "resource_id": 35, "text": "（外の或る者たちの）顔は，その日歓喜し，" },
+    { "resource_id": 35, "text": "かれらは努力して心充ち足り，" },
+    { "resource_id": 35, "text": "高い楽園の中に置り，" },
+    { "resource_id": 35, "text": "そこで，虚しい（言葉）を聞かない。" },
+    { "resource_id": 35, "text": "そこには，流れる泉があり，" },
+    { "resource_id": 35, "text": "高く上げられた（位階の）寝床があり，" },
+    { "resource_id": 35, "text": "大杯が備えられ，" },
+    { "resource_id": 35, "text": "褥は数列に並べられ，" },
+    { "resource_id": 35, "text": "敷物が敷きつめられている。" },
+    {
+      "resource_id": 35,
+      "text": "かれらは骼駝に就いて，如何に創られたかを考えてみないのか。"
+    },
+    { "resource_id": 35, "text": "また天に就いて，如何に高く掲げられたか，" },
+    {
+      "resource_id": 35,
+      "text": "また山々に就いて，如何に据え付けられているか，"
+    },
+    {
+      "resource_id": 35,
+      "text": "また大地に就いて，如何に広げられているかを。"
+    },
+    {
+      "resource_id": 35,
+      "text": "だからあなたは訓戒しなさい。本当にあなたは一人の訓戒者に外ならない。"
+    },
+    { "resource_id": 35, "text": "かれらのための，支配者ではない。" },
+    {
+      "resource_id": 35,
+      "text": "だが誰でも，背き去って信仰を拒否するならば，"
+    },
+    { "resource_id": 35, "text": "アッラーは最大の懲罰でかれらを罰される。" },
+    {
+      "resource_id": 35,
+      "text": "本当にわれの許に，かれらは帰り来るのである。"
+    },
+    { "resource_id": 35, "text": "かれらの清算は，本当にわれの任である。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "88" }
+  }
+}

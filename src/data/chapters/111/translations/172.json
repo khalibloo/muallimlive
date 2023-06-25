@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "Yaptıklarının verdiği zararlardan ötürü Peygamber -sallallahu aleyhi ve sellem-'in amcası Abdulmuttalib oğlu Ebu Leheb'in elleri kurusun! Çünkü o, Peygamber -sallallahu aleyhi ve sellem-'e eziyet ediyordu. Ve çabası da boşa çıktı."
+    },
+    {
+      "resource_id": 172,
+      "text": "Sahip olduğu malı ve çocukları ona ne fayda verecekler ki? Onun herhangi bir azabını engelleyemedikleri gibi ona bir iyilik de kazandıramadılar."
+    },
+    {
+      "resource_id": 172,
+      "text": "Kıyamet günü alevli bir ateşe girerek, onun sıcaklığına katlanmak zorunda kalacak."
+    },
+    {
+      "resource_id": 172,
+      "text": "Yürüdüğü yola dikenler atarak, Peygamber -sallallahu aleyhi ve sellem-'e eziyet eden karısı Ümmü Cemil de Cehennem'e girecektir."
+    },
+    {
+      "resource_id": 172,
+      "text": "Boynunda sapasağlam örülmüş, onu ateşe sürükleyen bir halat olduğu halde."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "111" }
+  }
+}

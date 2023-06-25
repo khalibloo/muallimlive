@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Okubonaabona okwamaanyi kugenda kubeera ku buli muntu atambuza engambo, ageya banne n'abaggya obumogo."
+    },
+    { "resource_id": 232, "text": "Oyo akungaanya ebyo bugagga n’abituuma." },
+    {
+      "resource_id": 232,
+      "text": "Alowooza nti eby'obugaggabye      byakumukuumira ku nsi obugenderevu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda, ajja kukanyugwa mu muliro oguyitibwa “Hutwama”."
+    },
+    { "resource_id": 232, "text": "Ye omanyi “Hutwama” kye ki?" },
+    {
+      "resource_id": 232,
+      "text": "(Hutwama) muliro gwa Katonda       omukume, ogubumbujja."
+    },
+    { "resource_id": 232, "text": "Ogwo ogwokya negutuukira ddala ku mitima." },
+    {
+      "resource_id": 232,
+      "text": "Mazima ddala omuliro ogwo (Hutwama) ku bantu abo (abogeddwaako) gugenda      kubabuutikira."
+    },
+    { "resource_id": 232, "text": "Mu midumu emiwanvu." }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "104" }
+  }
+}

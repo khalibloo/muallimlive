@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Itha jaa nasru Allahiwalfath" },
+    {
+      "resource_id": 57,
+      "text": "Waraayta annasa yadkhuloonafee deeni Allahi afwaja"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fasabbih bihamdi rabbika wastaghfirhuinnahu kana tawwaba"
+    }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "110" }
+  }
+}

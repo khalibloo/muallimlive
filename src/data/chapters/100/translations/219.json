@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 219,
+      "text": "거친 숨을 내쉬며 질주하는 말을 두고 맹세코"
+    },
+    { "resource_id": 219, "text": "부싯불을 튀겨내는 말을 두고 맹세코" },
+    { "resource_id": 219, "text": "새벽에 돌진하는 말을 두고 맹세코" },
+    { "resource_id": 219, "text": "- 그때 그것(말)은 풍진을 일으키고" },
+    {
+      "resource_id": 219,
+      "text": "그때 그것(말)은 무리의 정중앙으로 돌파하더라 -"
+    },
+    {
+      "resource_id": 219,
+      "text": "진실로 인간은 자신의 주님께 감사해 하지 않노라."
+    },
+    { "resource_id": 219, "text": "진실로 그는 그에 관해 증언하는 자라." },
+    {
+      "resource_id": 219,
+      "text": "또한 진실로 그는 재산에 관해 애착이 지독하노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그는 알지 못한단 말인가. 무덤에 있던 것들이 뒤집히고"
+    },
+    { "resource_id": 219, "text": "마음 속에 있던 것들이 수렴될 때" },
+    {
+      "resource_id": 219,
+      "text": "진실로 그들의 주님께서는 이날 그들에게 밝으신 분이라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "100" }
+  }
+}

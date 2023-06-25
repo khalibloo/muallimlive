@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Коли струснеться земля, здригаючись" },
+    { "resource_id": 217, "text": "і виштовхне з себе те, що в ній є" },
+    { "resource_id": 217, "text": "то спитає людина: «Що сталося з нею?" },
+    {
+      "resource_id": 217,
+      "text": "У той День земля розповість усе, що відомо їй"
+    },
+    { "resource_id": 217, "text": "бо ж Господь твій відкрив їй те" },
+    {
+      "resource_id": 217,
+      "text": "У той День люди вийдуть з могил юрбами, щоб побачити свої вчинки"
+    },
+    {
+      "resource_id": 217,
+      "text": "Хто зробив добра на вагу порошинки — побачить його"
+    },
+    {
+      "resource_id": 217,
+      "text": "Хто зробив зла на вагу порошинки — побачить його"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "99" }
+  }
+}

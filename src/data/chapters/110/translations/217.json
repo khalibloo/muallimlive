@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Коли прийде допомога Аллага та перемога" },
+    {
+      "resource_id": 217,
+      "text": "і ти побачиш, що люди приймають релігію Аллага натовпами"
+    },
+    {
+      "resource_id": 217,
+      "text": "то прослав хвалою Господа свого та благай у Нього прощення; воістину, Він — Приймаючий каяття"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "110" }
+  }
+}

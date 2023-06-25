@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Ved tidens makt!" },
+    { "resource_id": 41, "text": "Mennesket kommer visselig til kort!" },
+    {
+      "resource_id": 41,
+      "text": "Unntatt er de som tror og lever rettskaffent, som legger hverandre sannheten på hjertet, og standhaftighet."
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "103" }
+  }
+}

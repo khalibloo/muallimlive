@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 122, "text": "इंजीर तथा ज़ैतून की शपथ!" },
+    { "resource_id": 122, "text": "एवं \"तूरे सीनीन\" की शपथ!" },
+    { "resource_id": 122, "text": "और इस शान्ति के नगर की शपथ!" },
+    { "resource_id": 122, "text": "हमने इनसान को मनोहर रूप में पैदा किया है।" },
+    { "resource_id": 122, "text": "फिर उसे सबसे नीचे गिरा दिया।" },
+    {
+      "resource_id": 122,
+      "text": "परन्तु, जो ईमान लाये तथा सदाचार किये, उनके लिए ऐसा बदला है, जो कभी समाप्त नहीं होगा।"
+    },
+    {
+      "resource_id": 122,
+      "text": "फिर (तुम मानव जाति) प्रतिफल (बदले) के दिन को क्यों झुठलाते हो?"
+    },
+    {
+      "resource_id": 122,
+      "text": "क्या अल्लाह सब अधिकारियों से बढ़ कर अधिकारी नहीं है?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "95" }
+  }
+}

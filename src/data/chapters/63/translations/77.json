@@ -1,0 +1,53 @@
+{
+  "translations": [
+    {
+      "resource_id": 77,
+      "text": "İkiyüzlüler sana gelince: &quot;Senin şüphesiz Allah'ın Peygamberi olduğuna şehadet ederiz&quot; derler. Allah, senin kendisinin peygamberi olduğunu bilir; bunun yanında Allah, ikiyüzlülerin yalancı olduklarını da bilir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Onlar, yeminlerini kalkan edinerek Allah'ın yolundan alıkoyarlar. İşledikleri işler gerçekten ne kötüdür!"
+    },
+    {
+      "resource_id": 77,
+      "text": "Bu, önce inanıp sonra inkar etmiş olmalarındandır. Bu yüzden kalbleri mühürlenmiştir; artık anlamazlar."
+    },
+    {
+      "resource_id": 77,
+      "text": "Onlara baktığın zaman cüsseleri hoşuna gider; konuşurlarsa sözlerini dinlersin; tıpkı, sıralanmış kof kütük gibidirler; her çığlığı kendi aleyhlerine sayarlar; onlar düşmandır, onlardan çekin; Allah canlarını alsın, nasıl da aldatılıp döndürülüyorlar."
+    },
+    {
+      "resource_id": 77,
+      "text": "Onlara: &quot;Gelin de Allah'ın Peygamberi sizin için mağfiret dilesin&quot; dendiği zaman, başlarını çevirirler; büyüklük taslayarak yüz çevirdiklerini görürsün."
+    },
+    {
+      "resource_id": 77,
+      "text": "Onlar için, bağışlanma dilesen de dilemesen de birdir; Allah onları bağışlamayacaktır. Doğrusu Allah, yoldan çıkmış milleti doğru yola eriştirmez."
+    },
+    {
+      "resource_id": 77,
+      "text": "Bunlar: &quot;Allah'ın Peygamberinin yanında bulunanlara bir şey vermeyin de dağılıp gitsinler&quot; diyen kimselerdir. Oysa göklerin ve yerin hazineleri Allah'ındır, ama ikiyüzlüler bu gerçeği anlamazlar."
+    },
+    {
+      "resource_id": 77,
+      "text": "&quot;Eğer bu savaşdan Medine'ye dönersek, şerefli kimseler alçakları and olsun ki, oradan çıkaracaktır&quot; diyorlardı. Oysa, şeref Allah'ın, Peygamberinin ve inananlarındır, ama ikiyüzlüler bu gerçeği bilmezler."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ey inananlar! Sizi, mallarınız ve çocuklarınız Allah'ı anmaktan alıkoymasın; böyle olanlar hüsrana uğrayanlardır."
+    },
+    {
+      "resource_id": 77,
+      "text": "Birine ölüm gelip de: &quot;Rabbim! Beni yakın bir süreye kadar ertelesen de, sadaka versem, iyilerden olsam&quot; diyeceği zaman gelmezden önce, size verdiğimiz rızıklardan sarfedin."
+    },
+    {
+      "resource_id": 77,
+      "text": "Bir canın eceli gelip çatınca, Allah onu asla geri bırakmaz; Allah, işlediklerinizden haberdardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "63" }
+  }
+}

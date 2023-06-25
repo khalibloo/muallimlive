@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 51, "text": "แท้จริงเราได้ประทานอัลเกาซัรแก่เจ้าแล้ว" },
+    {
+      "resource_id": 51,
+      "text": "ดังนั้นเจ้าจงละหมาดเพื่อพระเจ้าของเจ้าและจงเชือดสัตว์พลี"
+    },
+    { "resource_id": 51, "text": "แท้จริงศัตรูของเจ้านั้นเขาเป็นผู้ถูกตัดขาด" }
+  ],
+  "meta": {
+    "translation_name": "Thai Translatio (King Fahad Quran Complex)",
+    "author_name": "King Fahad Quran Complex",
+    "filters": { "resource_id": 51, "chapter_number": "108" }
+  }
+}

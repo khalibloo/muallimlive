@@ -1,0 +1,15 @@
+{
+  "translations": [
+    {
+      "resource_id": 29,
+      "text": "(ای پیامبر) به راستی که ما به تو کوثر عطا کردیم."
+    },
+    { "resource_id": 29, "text": "پس برای پروردگارت نماز بخوان و قربانی کن." },
+    { "resource_id": 29, "text": "بدون شک دشمن تو، بریده نسل و بی‌عقب است." }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "108" }
+  }
+}

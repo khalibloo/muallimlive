@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Gök yarıldığı," },
+    {
+      "resource_id": 112,
+      "text": "Rabbine boyun eğdiği zaman, ki ona yaraşan da budur."
+    },
+    { "resource_id": 112, "text": "Yeryüzü dümdüz edildiği," },
+    { "resource_id": 112, "text": "İçindekiler boşalıp, atıldığı zaman," },
+    {
+      "resource_id": 112,
+      "text": "Ve kendisine yaraştığı gibi Rabbine boyun eğdiği zaman."
+    },
+    {
+      "resource_id": 112,
+      "text": "Ey insan! Sen Rabbine kavuşuncaya kadar çalışıp çabalayacak, sonunda O'na kavuşacaksın."
+    },
+    { "resource_id": 112, "text": "Kimin kitabı sağından verilmişse," },
+    { "resource_id": 112, "text": "O, kolay bir hesapla hesap verecektir." },
+    {
+      "resource_id": 112,
+      "text": "Ailesinin yanına sevinç içinde dönecektir."
+    },
+    { "resource_id": 112, "text": "Kimin de kitabı arkasından verilmişse," },
+    { "resource_id": 112, "text": "Ölüp, yok olmayı çağıracak." },
+    { "resource_id": 112, "text": "Ve alevli ateşe girecektir." },
+    { "resource_id": 112, "text": "Nitekim o, ailesinin yanında neşeli idi." },
+    { "resource_id": 112, "text": "O, asla dönmeyeceğini sanıyordu." },
+    {
+      "resource_id": 112,
+      "text": "Elbette dönecekti! Senin Rabbin onu görendir."
+    },
+    { "resource_id": 112, "text": "Andolsun şafağa." },
+    { "resource_id": 112, "text": "Geceye ve topladıklarına." },
+    { "resource_id": 112, "text": "Dolunay halindeki Ay’a." },
+    { "resource_id": 112, "text": "Şüphesiz siz hâlden hâle geçeceksiniz." },
+    { "resource_id": 112, "text": "Onlara ne oluyor da iman etmiyorlar." },
+    {
+      "resource_id": 112,
+      "text": "Onlara Kur’an okunduğu zaman secde etmiyorlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Aksine, o kâfirler (hakkı) yalan sayıyorlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah, onların (içlerinde) sakladıklarını en iyi bilendir."
+    },
+    { "resource_id": 112, "text": "Onlara acı bir azabı müjdele." },
+    {
+      "resource_id": 112,
+      "text": "Ancak, iman edip salih amel yapanlar hariç. Onlar için kesintisiz bir ödül vardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "84" }
+  }
+}

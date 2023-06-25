@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "כאשר מגיע הניצחון מאללה והשחרור," },
+    {
+      "resource_id": 233,
+      "text": "ותראה את האנשים נכנסים בהמוניהם אל דתו של אללה"
+    },
+    {
+      "resource_id": 233,
+      "text": "אז הלל בשבח את ריבונך והתחנן אל סליחתו, כי הוא תמיד סלחן."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "110" }
+  }
+}

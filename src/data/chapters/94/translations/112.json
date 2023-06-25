@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 112,
+      "text": "Senin göğsünü ferahlatıp, genişletmedik mi?"
+    },
+    { "resource_id": 112, "text": "Yükünü üzerinden indirmedik mi?" },
+    { "resource_id": 112, "text": "Ki o belini bükmüştü." },
+    { "resource_id": 112, "text": "Şanını yükseltmedik mi?" },
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz her zorlukla, bir kolaylık vardır."
+    },
+    { "resource_id": 112, "text": "Her zorlukla bir kolaylık vardır." },
+    {
+      "resource_id": 112,
+      "text": "Öyleyse boş kaldın mı hemen (ibadetle) yorul."
+    },
+    { "resource_id": 112, "text": "Yalnız Rabbine rağbet et." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "94" }
+  }
+}

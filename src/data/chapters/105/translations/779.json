@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Ne connais-tu pas le sort réservé par ton Seigneur à l’armée des éléphants<sup foot_note=205507>1</sup> ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "N’a-t-Il pas déjoué leur plan malveillant,"
+    },
+    { "resource_id": 779, "text": "suscitant contre eux des nuées d’oiseaux," },
+    {
+      "resource_id": 779,
+      "text": "qui lancèrent sur eux des pierres d’argile,"
+    },
+    {
+      "resource_id": 779,
+      "text": "les réduisant à l’état de paille déchiquetée ?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "105" }
+  }
+}

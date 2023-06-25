@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "In dealing with the Quraysh’ protection," },
+    {
+      "resource_id": 207,
+      "text": "for their preparations to travel in winter and in summer [safely];"
+    },
+    {
+      "resource_id": 207,
+      "text": "let them worship the Lord of this House (Kaaba]"
+    },
+    {
+      "resource_id": 207,
+      "text": "Who feeds them against famine and secures them from fear."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Waarlijk, Wij hebben jou de overvloed geschonken."
+    },
+    {
+      "resource_id": 235,
+      "text": "Bidt daarom tot jouw Heer en offer (voor Hem alleen)."
+    },
+    {
+      "resource_id": 235,
+      "text": "Voorwaar, jouw hater, hij is het die afgesneden is."
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "108" }
+  }
+}

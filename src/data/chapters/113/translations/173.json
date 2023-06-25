@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Ô Messager, dis: Je me prémunis par le Seigneur de l’aube et je cherche refuge auprès de Lui"
+    },
+    { "resource_id": 173, "text": "contre le mal des créatures malfaisantes," },
+    {
+      "resource_id": 173,
+      "text": "contre les maux de la nuit provenant des animaux et des voleurs,"
+    },
+    {
+      "resource_id": 173,
+      "text": "contre le mal des sorcières qui soufflent dans les nœuds,"
+    },
+    {
+      "resource_id": 173,
+      "text": "et contre le mal de l’envieux lorsque son envie le pousse à l’action."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "113" }
+  }
+}

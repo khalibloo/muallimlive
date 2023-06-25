@@ -1,0 +1,39 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Những kẻ vu khống và nói xấu người khác sẽ bị nguyền rủa và sẽ bị trừng phạt."
+    },
+    {
+      "resource_id": 177,
+      "text": "Kẻ chỉ biết lo toan cho việc thu nhặt tiền tài và chỉ biết đếm tiền để xem được bao nhiêu rồi."
+    },
+    {
+      "resource_id": 177,
+      "text": "Y tưởng rằng bản thân y sẽ được tiền tài đảm bảo được sống mãi ở nơi trần gian, không phải bị chết."
+    },
+    {
+      "resource_id": 177,
+      "text": "Chắc chắn sẽ không như y đã tưởng. Chắc chắn y sẽ bị đày trong Hỏa Ngục, nó sẽ đập nát và bẻ gãy hết mọi thứ bị quẳng vào nó vì sự hung tợn của nó."
+    },
+    {
+      "resource_id": 177,
+      "text": "Điều gì cho Ngươi biết - hỡi Thiên Sứ - sự thật về Hutamah?"
+    },
+    {
+      "resource_id": 177,
+      "text": "Đó là ngọn lửa của Allah được đốt cháy lên rất dữ dội."
+    },
+    { "resource_id": 177, "text": "Để thiêu đốt thân thể đến tận trái tim." },
+    { "resource_id": 177, "text": "Lửa sẽ bao vây xung quanh chúng." },
+    {
+      "resource_id": 177,
+      "text": "Và chúng sẽ bị nhốt bên trong các cột lửa không thể thoát ra được."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "104" }
+  }
+}

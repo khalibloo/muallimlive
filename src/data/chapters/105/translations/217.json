@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 217,
+      "text": "Чи бачив ти, як вчинив Господь твій з власниками слона?"
+    },
+    { "resource_id": 217, "text": "Чи Він не зробив їхні хитрощі невдалими" },
+    { "resource_id": 217, "text": "І наслав на них птахів зграями" },
+    {
+      "resource_id": 217,
+      "text": "Кидали вони в них каміння з обпаленої глини"
+    },
+    { "resource_id": 217, "text": "І зробив Він їх подібними до ниви сточеної" }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "105" }
+  }
+}

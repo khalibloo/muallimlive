@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 118, "text": " د قریشو له یو بل سره د الفت له وجې نه" },
+    {
+      "resource_id": 118,
+      "text": " د ژمي او اوړي په سفر كې د دوى د الفت په وجه"
+    },
+    {
+      "resource_id": 118,
+      "text": " نو لازم دي چې دوى د دې كور د رب عبادت وكړي"
+    },
+    {
+      "resource_id": 118,
+      "text": " هغه (رب) چې دوى ته يې له لوږې نه (د بچ كولو لپاره) طعام وركړى دى او دوى ته يې له وېرې نه (د ساتلو لپاره) امن (او بې خوفي) وركړې ده"
+    }
+  ],
+  "meta": {
+    "translation_name": "Zakaria Abulsalam",
+    "author_name": "Zakaria Abulsalam",
+    "filters": { "resource_id": 118, "chapter_number": "106" }
+  }
+}

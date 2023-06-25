@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Ai de todo difamador, caluniador." },
+    {
+      "resource_id": 103,
+      "text": "Que junta riquezas e, com deleite, as conta,"
+    },
+    {
+      "resource_id": 103,
+      "text": "Supõe que suas riquezas o tornarão eterno."
+    },
+    {
+      "resource_id": 103,
+      "text": "Em absoluto, não o tornarão! Em verdade, ele será deitado fora, em al-Hutama."
+    },
+    {
+      "resource_id": 103,
+      "text": "E o que te faz inteirar-te do que é al-Hutamah?"
+    },
+    { "resource_id": 103, "text": "É o fogo aceso, de Allah," },
+    { "resource_id": 103, "text": "O qual sobe até os corações." },
+    { "resource_id": 103, "text": "Por certo, será cerrado sobre eles," },
+    { "resource_id": 103, "text": "Em colunas extensas." }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "104" }
+  }
+}

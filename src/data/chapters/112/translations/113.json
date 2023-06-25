@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 113,
+      "text": "/ Ей, Мұхаммед! /  Айт: «Ол, Аллаһ - Ахад  / Жалғыз / ."
+    },
+    {
+      "resource_id": 113,
+      "text": "Аллаһ - ас-Самад  / Мұқтажсыз, ал барлық жаратылыс Оған мұқтаж / ."
+    },
+    { "resource_id": 113, "text": "Ол тумаған және туылмаған," },
+    { "resource_id": 113, "text": "әрі Оған ешкім тең емес." }
+  ],
+  "meta": {
+    "translation_name": "Khalifah Altai",
+    "author_name": "Khalifah Altai",
+    "filters": { "resource_id": 113, "chapter_number": "112" }
+  }
+}

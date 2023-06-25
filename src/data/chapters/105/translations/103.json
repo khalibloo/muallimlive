@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 103,
+      "text": "Não viste como teu Senhor agiu com os donos do elefante?"
+    },
+    {
+      "resource_id": 103,
+      "text": "Não fez Ele sua insídia ficar em descaminho?"
+    },
+    { "resource_id": 103, "text": "E contra eles enviou pássaros, em bandos," },
+    { "resource_id": 103, "text": "Que lhes atiravam pedras de sijjil?" },
+    { "resource_id": 103, "text": "Então, tornou-os como folhas devoradas." }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "105" }
+  }
+}

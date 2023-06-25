@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Vuga (yewe Muhamadi) uti “Yemwe bahakanyi!"
+    },
+    { "resource_id": 774, "text": "Singaragira ibyo mugaragira," },
+    { "resource_id": 774, "text": "Kandi namwe ntimugaragira uwo ngaragira." },
+    {
+      "resource_id": 774,
+      "text": "Ndetse nanjye sinzigera ngaragira ibyo mugaragira,"
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi namwe ntimuzigera mugaragira uwo ngaragira."
+    },
+    {
+      "resource_id": 774,
+      "text": "Mufite idini ryanyu, nanjye nkagira idini ryanjye.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "109" }
+  }
+}

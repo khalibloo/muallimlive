@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 106, "text": "Тухуш дерг<sup foot_note=114469>1</sup>." },
+    { "resource_id": 106, "text": "Иза хIун ду тухуш дерг?" },
+    {
+      "resource_id": 106,
+      "text": "Хьоьга стено хаийтина /хIай Мухьаммад/‚ и тухуш дерг хIун ду?"
+    },
+    {
+      "resource_id": 106,
+      "text": "Оцу дийнахь адамаш хир ду даьржина цIоз санна‚"
+    },
+    {
+      "resource_id": 106,
+      "text": "Лаьмнаш хир ду къовзина тIаргIа<sup foot_note=114470>1</sup>санна."
+    },
+    {
+      "resource_id": 106,
+      "text": "Амма шен терза язъелларг (дика Iамалш совъялла) −"
+    },
+    {
+      "resource_id": 106,
+      "text": "Иза хир ву /ша/ реза волчу дахарехь /ялсамани чохь/."
+    },
+    {
+      "resource_id": 106,
+      "text": "Амма шен терза яйелларг (дика 1амалш к1еззиг хилла) −"
+    },
+    {
+      "resource_id": 106,
+      "text": "Цуьнан нана \"хIавия\"<sup foot_note=114471>1</sup>хир ю."
+    },
+    {
+      "resource_id": 106,
+      "text": "Хьоьга стено хаийтина /хIай Мухьаммад/‚ иза хIун ю?"
+    },
+    { "resource_id": 106, "text": "Алу туьйсу цIе /ю иза/!" }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "101" }
+  }
+}

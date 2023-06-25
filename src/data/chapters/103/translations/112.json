@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Andolsun asra!" },
+    { "resource_id": 112, "text": "İnsanlık hüsrandadır." },
+    {
+      "resource_id": 112,
+      "text": "Ancak iman edenler ve salih amel yapanlar, birbirlerine hakkı ve sabrı tavsiye edenler müstesna."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "103" }
+  }
+}

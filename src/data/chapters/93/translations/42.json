@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Na jasność poranka!" },
+    { "resource_id": 42, "text": "Na noc, kiedy spokojnie zapada!" },
+    {
+      "resource_id": 42,
+      "text": "Nie opuścił cię twój Pan ani cię nie znienawidził."
+    },
+    {
+      "resource_id": 42,
+      "text": "I z pewnością ostateczne będzie lepsze dla ciebie aniżeli pierwsze!"
+    },
+    {
+      "resource_id": 42,
+      "text": "I z pewnością niebawem obdarzy cię twój Pan i będziesz zadowolony!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czyż nie znalazł cię sierotą i czy nie dał ci schronienia?"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czy nie znalazł cię błądzącym i czy nie poprowadził cię drogą prostą?"
+    },
+    {
+      "resource_id": 42,
+      "text": "I czy nie znalazł cię biednym, i nie wzbogacił cię?"
+    },
+    { "resource_id": 42, "text": "Przeto sieroty - nie uciskaj!" },
+    { "resource_id": 42, "text": "A żebraka - nie odpychaj!" },
+    { "resource_id": 42, "text": "A o dobrodziejstwie twego Pana - opowiadaj!" }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "93" }
+  }
+}

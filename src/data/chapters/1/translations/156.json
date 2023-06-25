@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 156,
+      "text": "اللہ کے نام سے جو بےانتہا مہربان اور رحم فرمانے والا ہے ۔"
+    },
+    {
+      "resource_id": 156,
+      "text": "تعریف اللہ ہی کے لئے ہے جو تمام کائنات کا رب ہے"
+    },
+    { "resource_id": 156, "text": "نہایت مہربان اور رحم فرمانے والا" },
+    { "resource_id": 156, "text": "روز جزاء کا مالک ہے ۔" },
+    {
+      "resource_id": 156,
+      "text": "ہم تیری ہی عبادت کرتے ہیں اور تجھی سے مدد مانگتے ہیں ۔"
+    },
+    { "resource_id": 156, "text": "ہمیں سیدھا راستہ دکھا" },
+    {
+      "resource_id": 156,
+      "text": "ان لوگوں کا راستہ جن پر تونے انعام فرمایا ‘ جو معتوب نہیں ہوئے ‘ جو بھٹکے ہوئے نہیں ہیں ۔"
+    }
+  ],
+  "meta": {
+    "translation_name": "Fe Zilal al-Qur'an",
+    "author_name": "Sayyid Ibrahim Qutb",
+    "filters": { "resource_id": 156, "chapter_number": "1" }
+  }
+}

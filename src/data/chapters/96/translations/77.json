@@ -1,0 +1,73 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "Yaratan Rabbinin adıyla oku!" },
+    {
+      "resource_id": 77,
+      "text": "O, insanı pıhtılaşmış kandan (alak'tan) yarattı."
+    },
+    {
+      "resource_id": 77,
+      "text": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama, insanoğlu kendini müstağni sayarak azgınlık eder."
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama, insanoğlu kendini müstağni sayarak azgınlık eder."
+    },
+    { "resource_id": 77, "text": "Dönüş şüphesiz Rabbinedir." },
+    {
+      "resource_id": 77,
+      "text": "Sen, namaz kılan kulu bundan menedeni gördün mü?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Sen, namaz kılan kulu bundan menedeni gördün mü?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Söyle bakalım, o kul doğru yolda giden veya Allah'a karşı gelmekten sakınmayı buyuran bir kimse olsun; veya söyle, yalanlayıp yüz çeviren birisi olsun"
+    },
+    {
+      "resource_id": 77,
+      "text": "Söyle bakalım, o kul doğru yolda giden veya Allah'a karşı gelmekten sakınmayı buyuran bir kimse olsun; veya söyle, yalanlayıp yüz çeviren birisi olsun"
+    },
+    {
+      "resource_id": 77,
+      "text": "Söyle bakalım, o kul doğru yolda giden veya Allah'a karşı gelmekten sakınmayı buyuran bir kimse olsun; veya söyle, yalanlayıp yüz çeviren birisi olsun"
+    },
+    {
+      "resource_id": 77,
+      "text": "Allah'ın her şeyi görmekte olduğunu bilmez mi?"
+    },
+    {
+      "resource_id": 77,
+      "text": "Ama bundan vazgeçmezse, and olsun ki, onu perçeminden,"
+    },
+    {
+      "resource_id": 77,
+      "text": "Yalancı ve günahkar perçeminden cehenneme sürükleriz."
+    },
+    { "resource_id": 77, "text": "O zaman, kafadarlarını çağırsın," },
+    { "resource_id": 77, "text": "Biz de zebanileri çağıracağız." },
+    {
+      "resource_id": 77,
+      "text": "Sakın ona uyma; sen secde et, Rabbine yaklaş."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "96" }
+  }
+}

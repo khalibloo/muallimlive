@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Jacht naar vermeerdering van rijkdom (en kinderen) maakt u onachtzaam,"
+    },
+    { "resource_id": 235, "text": "Tot jullie de graven bezoeken." },
+    { "resource_id": 235, "text": "Nee! Jullie zullen het weten." },
+    { "resource_id": 235, "text": "Nogmaals nee! Jullie zullen het weten." },
+    {
+      "resource_id": 235,
+      "text": "Nee, als jullie het maar met zekere kennis zouden weten."
+    },
+    {
+      "resource_id": 235,
+      "text": "Waarlijk, jullie zullen zeker de Hel zien!"
+    },
+    {
+      "resource_id": 235,
+      "text": "Nogmaals, jullie zullen haar met een zeker oog zien"
+    },
+    {
+      "resource_id": 235,
+      "text": "Dan zullen jullie op die Dag over de geneugten ondervraagd worden."
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "102" }
+  }
+}

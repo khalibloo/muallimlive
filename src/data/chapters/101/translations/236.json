@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Taheûûakt." },
+    { "resource_id": 236, "text": "D acu p theûûakt?" },
+    { "resource_id": 236, "text": "Anwa ara k imlen d acu p theûûakt?" },
+    {
+      "resource_id": 236,
+      "text": "Ass ideg ara ilin imdanen am iferîeîîa ibruzzâen,"
+    },
+    { "resource_id": 236, "text": "u ara ilin idurar, am taduî iqerdcen," },
+    { "resource_id": 236, "text": "d$a, wanag bu lwezn ééayen," },
+    { "resource_id": 236, "text": "ad yili di tmeddurt igerzen." },
+    { "resource_id": 236, "text": "Wanag bu lwezn fessusen," },
+    { "resource_id": 236, "text": "di maylellif ara d igwri." },
+    { "resource_id": 236, "text": "Anwa ara k imlen d acu t?" },
+    { "resource_id": 236, "text": "D times ipzehhiren." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "101" }
+  }
+}

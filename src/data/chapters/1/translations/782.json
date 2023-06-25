@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 782,
+      "text": " În numele lui Allah Cel Milostiv, Îndurător [ Ar‑Rahman, Ar‑Rahim]<sup foot_note=197834>1</sup>,"
+    },
+    { "resource_id": 782, "text": " Laudă lui Allah, al lumilor Stăpânitor," },
+    { "resource_id": 782, "text": " Cel Milostiv, Îndurător," },
+    { "resource_id": 782, "text": " În Ziua de Apoi Stăpânul Cârmuitor," },
+    {
+      "resource_id": 782,
+      "text": " Numai pe Tine Te adorăm, numai la Tine cerem ajutor,"
+    },
+    { "resource_id": 782, "text": "Pe drumul drept Tu fii‑ne Călăuzitor," },
+    {
+      "resource_id": 782,
+      "text": " Drumul celor cu care fost‑ai Tu dăruitor, nu al celor pe care Tu Te‑ai mâniat, nici al rătăciţilor."
+    }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "1" }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "translations": [
+    {
+      "resource_id": 42,
+      "text": "Czy doszło do ciebie opowiadanie o oszałamiającym wydarzeniu?"
+    },
+    { "resource_id": 42, "text": "Twarze, tego Dnia, pokornie spuszczone," },
+    { "resource_id": 42, "text": "Utrudzone, udręczone" },
+    { "resource_id": 42, "text": "Będą narażone na ogień palący," },
+    { "resource_id": 42, "text": "Będą pojone ze źródła wrzącego." },
+    { "resource_id": 42, "text": "Pożywieniem ich będą tylko suche ciernie," },
+    {
+      "resource_id": 42,
+      "text": "Które nikogo nie utuczą i nie zaspokajają głodu."
+    },
+    { "resource_id": 42, "text": "Tego Dnia twarze uszczęśliwione" },
+    { "resource_id": 42, "text": "I z własnych gorliwości zadowolone" },
+    { "resource_id": 42, "text": "Będą w Ogrodzie wyniosłym," },
+    { "resource_id": 42, "text": "Gdzie nie usłyszą pustej gadaniny." },
+    { "resource_id": 42, "text": "Tam będzie źródło płynące," },
+    { "resource_id": 42, "text": "Tam będą łoża podniesione," },
+    { "resource_id": 42, "text": "Puchary postawione," },
+    { "resource_id": 42, "text": "Poduszki w rząd ułożone" },
+    { "resource_id": 42, "text": "I kobierce rozesłane." },
+    {
+      "resource_id": 42,
+      "text": "Czyż oni nie popatrzą na wielbłądy, jak one zostały stworzone?"
+    },
+    { "resource_id": 42, "text": "I na niebo, jak ono zostało wzniesione?" },
+    { "resource_id": 42, "text": "I na góry, jak one zostały utwierdzone?" },
+    { "resource_id": 42, "text": "I na ziemię, jak ona została rozpostarta?" },
+    {
+      "resource_id": 42,
+      "text": "Przypominaj więc, bo ty jesteś tylko napominającym,"
+    },
+    { "resource_id": 42, "text": "A nie jesteś żadnym ich władcą." },
+    {
+      "resource_id": 42,
+      "text": "Tylko tego, kto się odwróci i pozostaje niewiernym,"
+    },
+    { "resource_id": 42, "text": "Ukarze Bóg karą największą!" },
+    { "resource_id": 42, "text": "Zaprawdę, do Nas oni powrócą!" },
+    {
+      "resource_id": 42,
+      "text": "Potem, zaprawdę, Nam wypadnie zażądać od nich rachunku!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "88" }
+  }
+}

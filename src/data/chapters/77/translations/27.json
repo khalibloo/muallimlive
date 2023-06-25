@@ -1,0 +1,134 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Bei den Entsandten, die wie eine Mähne aufeinanderfolgen,"
+    },
+    { "resource_id": 27, "text": "den einen Sturm Entfesselnden" },
+    { "resource_id": 27, "text": "und den alles Ausbreitenden," },
+    { "resource_id": 27, "text": "den klar Trennenden," },
+    { "resource_id": 27, "text": "den Ermahnung Überbringenden" },
+    { "resource_id": 27, "text": "zur Pflichterfüllung oder zur Warnung!" },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, was euch versprochen wird, wird sicher hereinbrechen."
+    },
+    { "resource_id": 27, "text": "Wenn dann die Sterne ausgelöscht werden" },
+    { "resource_id": 27, "text": "und wenn der Himmel gespalten wird" },
+    { "resource_id": 27, "text": "und wenn die Berge zersprengt werden" },
+    {
+      "resource_id": 27,
+      "text": "und wenn für die Gesandten ihre Zeit gesetzt wird."
+    },
+    {
+      "resource_id": 27,
+      "text": "Auf weichen Tag ist ihre Frist festgelegt worden?"
+    },
+    { "resource_id": 27, "text": "Auf den Tag der Entscheidung." },
+    {
+      "resource_id": 27,
+      "text": "Und was läßt dich wissen, was der Tag der Entscheidung ist?"
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    { "resource_id": 27, "text": "Haben Wir nicht die Früheren vernichtet?" },
+    {
+      "resource_id": 27,
+      "text": "Hierauf lassen Wir ihnen die Späteren folgen."
+    },
+    { "resource_id": 27, "text": "So verfahren Wir mit den Übeltätern." },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "Haben Wir euch nicht aus verächtlichem Wasser erschaffen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "das Wir dann in einem festen Aufenthaltsort haben sein lassen,"
+    },
+    { "resource_id": 27, "text": "bis zu einem bekannten Zeitpunkt?" },
+    {
+      "resource_id": 27,
+      "text": "So haben Wir bemessen. Welch trefflicher Bemesser sind Wir!"
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "Haben Wir nicht die Erde zu einem Ort der Aufbewahrung gemacht"
+    },
+    { "resource_id": 27, "text": "- für die Lebenden und die Toten -" },
+    {
+      "resource_id": 27,
+      "text": "und auf ihr festgegründete, hoch aufragende Berge gemacht und euch frisches Wasser zu trinken gegeben?"
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "- Zieht los zu dem, was ihr stets für Lüge erklärt habt,"
+    },
+    {
+      "resource_id": 27,
+      "text": "zieht los zu einem Schatten mit drei Verzweigungen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "der kein (wirklicher) Schattenspender ist und nicht (als Schutz) gegen die Flammen nützt."
+    },
+    { "resource_id": 27, "text": "Sie wirft mit Funken wie Schlösser," },
+    { "resource_id": 27, "text": "als wären sie gelbe Kamele." },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "Das ist der Tag, an dem sie nicht reden werden"
+    },
+    {
+      "resource_id": 27,
+      "text": "und (es) ihnen nicht erlaubt wird, daß sie sich entschuldigen."
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "- Das ist der Tag der Entscheidung; Wir haben euch mit den Früheren versammelt."
+    },
+    {
+      "resource_id": 27,
+      "text": "Wenn ihr also eine List habt, so führt sie gegen Mich aus."
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, die Gottesfürchtigen werden sich in Schatten und an Quellen befinden"
+    },
+    {
+      "resource_id": 27,
+      "text": "und bei Früchten von dem, was sie begehren."
+    },
+    {
+      "resource_id": 27,
+      "text": "Eßt und trinkt als wohlbekömmlich für das, was ihr zu tun pflegtet."
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, so vergelten Wir den Rechtschaffenen."
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "Eßt und genießt ein wenig, ihr seid ja Übeltäter."
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "Und wenn zu ihnen gesagt wird: Verbeugt euch!, verbeugen sie sich nicht."
+    },
+    { "resource_id": 27, "text": "Wehe an jenem Tag den Leugnern!" },
+    {
+      "resource_id": 27,
+      "text": "An welche Aussage nach dieser wollen sie denn glauben?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "77" }
+  }
+}

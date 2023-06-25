@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " And olsun tövşüyə-töv­şü­yə ça­pan­lara!" },
+    {
+      "resource_id": 75,
+      "text": " And olsun dırnaqları ilə qı­ğılcım çı­xaranlara!"
+    },
+    { "resource_id": 75, "text": " And olsun sübh çağı həm­lə edən­lərə ki," },
+    { "resource_id": 75, "text": " hücuma keçib tozanaq qal­dıraraq" },
+    { "resource_id": 75, "text": " qoş­unun içərisinə soxu­lur­lar." },
+    {
+      "resource_id": 75,
+      "text": " Həqiqətən, insan Rəbbinə qarşı ya­man nankordur."
+    },
+    { "resource_id": 75, "text": " Özü də bunun şahididir." },
+    { "resource_id": 75, "text": " Həqiqətən, o, var-dövlətə çox hə­risdir." },
+    {
+      "resource_id": 75,
+      "text": " Məgər o bilmir ki, qə­bir­lərdə olan­lar çıxardılacağı"
+    },
+    {
+      "resource_id": 75,
+      "text": " və kökslərdə olanlar aş­kar edilə­cəyi zaman –"
+    },
+    {
+      "resource_id": 75,
+      "text": " məhz o gün Rəbbi on­lar­dan xə­bərdar ola­caq?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "100" }
+  }
+}

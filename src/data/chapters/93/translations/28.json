@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por la mañana!" },
+    { "resource_id": 28, "text": "¡Por la noche cuando reina la calma!" },
+    {
+      "resource_id": 28,
+      "text": "Tu Señor no te ha abonadonado ni aborrecido"
+    },
+    {
+      "resource_id": 28,
+      "text": "Sí, la otra vida será mejor para ti que ésta."
+    },
+    { "resource_id": 28, "text": "Tu Señor te dará y quedarás satisfecho." },
+    { "resource_id": 28, "text": "¿No te encontró huérfano y te recogió?" },
+    { "resource_id": 28, "text": "¿No te encontró extraviado y te dirigió?" },
+    { "resource_id": 28, "text": "¿No te encontró pobre y te enriqueció?" },
+    { "resource_id": 28, "text": "En cuanto al huérfano, ¡no le oprimas!" },
+    { "resource_id": 28, "text": "Y en cuanto al mendigo, ¡no le rechaces!" },
+    {
+      "resource_id": 28,
+      "text": "Y en cuanto a la gracia de tu Señor, ¡publícala!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "93" }
+  }
+}

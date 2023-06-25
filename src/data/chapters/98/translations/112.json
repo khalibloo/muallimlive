@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 112,
+      "text": "Kitap ehlinden ve müşriklerden kâfirler, kendilerine apaçık delil gelinceye kadar (küfürlerinden) ayrılacak değiller."
+    },
+    {
+      "resource_id": 112,
+      "text": "(İşte o apaçık delil) Allah tarafından gönderilen ve tertemiz sahifeleri okuyan bir elçidir."
+    },
+    { "resource_id": 112, "text": "(Bu sahifelerde) yazılı hükümler vardır." },
+    {
+      "resource_id": 112,
+      "text": "Kendilerine kitap verilenler, ancak kendilerine apaçık delil geldikten sonra ayrılığa düştüler."
+    },
+    {
+      "resource_id": 112,
+      "text": "Halbuki onlara ancak, dini yalnız O'na has kılarak ve hanifler olarak Allah'a ibadet etmeleri, namaz kılmaları ve zekât vermeleri emrolunmuştu. İşte dosdoğru din budur."
+    },
+    {
+      "resource_id": 112,
+      "text": "Kitap ehlinden ve müşriklerden olan kâfirler, içinde ebedi kalacakları Cehennem ateşindedirler. İşte onlar, yaratılmışların en şerlileridir."
+    },
+    {
+      "resource_id": 112,
+      "text": "İman edip, salih amel yapanlar ise, işte onlar, yaratılmışların en hayırlıları onlardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onların mükâfatı Rableri katında, altından ırmaklar akan ve içinde ebedi kalacakları Adn cennetleridir. Allah, onlardan razı olmuştur Onlar da Allah’tan razı olmuşlardır. İşte bu mükâfat, Rabbinden korkanındır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "98" }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Gjëmimi i tmerrshëm!<sup foot_note=195909>1</sup>"
+    },
+    { "resource_id": 88, "text": "Ç’është Gjëmimi i tmerrshëm?" },
+    {
+      "resource_id": 88,
+      "text": "Kush mund të ta shpjegojë ty se çfarë është Gjëmimi i tmerrshëm?"
+    },
+    {
+      "resource_id": 88,
+      "text": "Atë Ditë njerëzit do të jenë si fluturat e shpërndara,"
+    },
+    { "resource_id": 88, "text": "kurse malet si leshi i shprishur." },
+    {
+      "resource_id": 88,
+      "text": "Sa i përket atij, veprat e (mira të) të cilit do të rëndojnë në peshore,"
+    },
+    {
+      "resource_id": 88,
+      "text": "ai do të ketë një jetë të kënaqur (në Xhenet)."
+    },
+    {
+      "resource_id": 88,
+      "text": "E sa i përket atij, veprat e (mira të) të cilit nuk do të rëndojnë në peshore,"
+    },
+    {
+      "resource_id": 88,
+      "text": "Ai do të ketë si strehim Humnerën (e Xhehenemit).<sup foot_note=195910>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "Kush mund të ta shpjegojë ty se ç’është Humnera (e Xhehenemit)?"
+    },
+    { "resource_id": 88, "text": "Ajo është një Zjarr i vrullshëm." }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "101" }
+  }
+}

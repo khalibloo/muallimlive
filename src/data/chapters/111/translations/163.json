@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 163,
+      "text": "ধ্বংস হোক আবু লাহাবের হস্তদ্বয় এবং ধ্বংস হোক সে নিজেও।"
+    },
+    {
+      "resource_id": 163,
+      "text": "ওর ধন সম্পদ ও ওর উপার্জন ওর কোন উপকারে আসেনি।"
+    },
+    {
+      "resource_id": 163,
+      "text": "অচিরেই সে শিখা বিশিষ্ট জাহান্নামের আগুনে প্রবেশ করবে,"
+    },
+    { "resource_id": 163, "text": "এবং তার স্ত্রীও-যে ইন্ধন বহন করে।" },
+    { "resource_id": 163, "text": "তার গলদেশে খেজুর বাকলের রজ্জু রয়েছে।" }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "111" }
+  }
+}

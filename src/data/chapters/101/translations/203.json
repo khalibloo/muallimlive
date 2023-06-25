@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": " Al-Qâri‘ah (the striking Hour i.e. the Day of Resurrection)."
+    },
+    { "resource_id": 203, "text": "  What is the striking (Hour)?" },
+    {
+      "resource_id": 203,
+      "text": "  And what will make you know what the striking (Hour) is?"
+    },
+    {
+      "resource_id": 203,
+      "text": "  It is a Day whereon mankind will be like moths scattered about."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And the mountains will be like carded wool."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Then as for him whose balance (of good deeds) will be heavy,<sup foot_note=155062>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  He will live a pleasant life (in Paradise)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  But as for him whose balance (of good deeds) will be light,"
+    },
+    {
+      "resource_id": 203,
+      "text": "  He will have his home in Hâwiyah (pit, i.e. Hell)."
+    },
+    { "resource_id": 203, "text": "  And what will make you know what it is?" },
+    { "resource_id": 203, "text": "  (It is) a fiercely blazing Fire!" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "101" }
+  }
+}

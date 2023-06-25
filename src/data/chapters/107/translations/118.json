@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 118,
+      "text": " ایا تا هغه كس لیدلى چې د بدلي ورځ (قیامت) دروغ ګڼي"
+    },
+    { "resource_id": 118, "text": " نو همدغه هغه كس دى چې یتیم ته دیكې وركوي" },
+    {
+      "resource_id": 118,
+      "text": " او مسكین ته په طعام وركولو ترغیب نه وركوي"
+    },
+    { "resource_id": 118, "text": " نو هلاكت دى لمونځ كوونكو لره" },
+    {
+      "resource_id": 118,
+      "text": " هغه كسان چې دوى له خپلو لمونځونو نه غافله (او اعراض كوونكي) وي"
+    },
+    { "resource_id": 118, "text": " هغه كسان چې دوى ریاكاري كوي" },
+    {
+      "resource_id": 118,
+      "text": " او دوى ماعون (د استعمال عام څیزونه هم له یو بل نه) منع كوي"
+    }
+  ],
+  "meta": {
+    "translation_name": "Zakaria Abulsalam",
+    "author_name": "Zakaria Abulsalam",
+    "filters": { "resource_id": 118, "chapter_number": "107" }
+  }
+}

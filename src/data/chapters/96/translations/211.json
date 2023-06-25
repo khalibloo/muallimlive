@@ -1,0 +1,64 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Bumasa ka sa ngalan ng Panginoon mo na lumikha,"
+    },
+    { "resource_id": 211, "text": "lumikha sa tao mula sa isang malalinta." },
+    {
+      "resource_id": 211,
+      "text": "Bumasa ka samantalang ang Panginoon mo ay ang Napakamapagbigay,"
+    },
+    { "resource_id": 211, "text": "na nagturo sa pamamagitan ng panulat," },
+    { "resource_id": 211, "text": "nagturo sa tao ng hindi nito nalaman." },
+    {
+      "resource_id": 211,
+      "text": "Aba’y hindi! Tunay na ang tao ay talagang nagmamalabis"
+    },
+    {
+      "resource_id": 211,
+      "text": "dahil nakakita siya sa sarili niya na nakasapat."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na tungo sa Panginoon mo ang pagbabalikan."
+    },
+    { "resource_id": 211, "text": "Nakakita ka ba sa sumasaway" },
+    { "resource_id": 211, "text": "sa isang lingkod kapag nagdasal ito?" },
+    {
+      "resource_id": 211,
+      "text": "Nakakita ka ba kung siya ay nasa patnubay,"
+    },
+    { "resource_id": 211, "text": "o nag-utos ng pangingilag magkasala?" },
+    {
+      "resource_id": 211,
+      "text": "Nakakita ka ba kung nagpasinungaling siya o tumalikod siya?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi ba siya nakaalam na si Allāh ay nakakikita?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Aba’y hindi! Talagang kung hindi siya tumigil ay talagang hahablot nga Kami sa bumbunan:"
+    },
+    {
+      "resource_id": 211,
+      "text": "isang bumbunan na nagsisinungaling, nagkakamali."
+    },
+    { "resource_id": 211, "text": "Kaya tumawag siya sa kapulungan niya." },
+    {
+      "resource_id": 211,
+      "text": "Tatawag Kami sa mga bantay [ng Impiyerno]."
+    },
+    {
+      "resource_id": 211,
+      "text": "Aba’y hindi! Huwag kang tumalima sa kanya, magpatirapa ka, at lumapit ka [kay Allāh]."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "96" }
+  }
+}

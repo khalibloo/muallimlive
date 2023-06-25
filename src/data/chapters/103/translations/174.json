@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 174,
+      "text": "Allah Yang Mahasuci bersumpah dengan waktu asar."
+    },
+    {
+      "resource_id": 174,
+      "text": "Sesungguhnya manusia itu berada dalam kerugian dan kehancuran."
+    },
+    {
+      "resource_id": 174,
+      "text": "Kecuali orang yang beriman kepada Allah dan para Rasul-Nya, mengerjakan amal saleh, saling berwasiat di antara mereka dengan kebenaran dan kesabaran dalam menjalani kebenaran. Orang-orang yang mempunyai sifat-sifat ini pasti selamat dalam kehidupan dunia dan akhirat."
+    }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 174, "chapter_number": "103" }
+  }
+}

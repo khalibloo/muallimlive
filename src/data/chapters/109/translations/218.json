@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 218,
+      "text": "（使徒*よ、アッラー*とその使徒*を否定する者たちに、）言ってやれ。「不信仰者*たちよ、"
+    },
+    {
+      "resource_id": 218,
+      "text": "私は、あなた方の崇拝*するもの¹を崇拝*せず、"
+    },
+    {
+      "resource_id": 218,
+      "text": "あなた方は、私の崇拝*するもの（アッラー*）の崇拝*者ではない。"
+    },
+    {
+      "resource_id": 218,
+      "text": "また、私はあなた方が崇拝*したものの崇拝*者ではなく、"
+    },
+    {
+      "resource_id": 218,
+      "text": "あなた方は、私の崇拝*するものの崇拝*者ではない。¹"
+    },
+    {
+      "resource_id": 218,
+      "text": "あなた方にはあなた方の宗教¹があり、私には我が宗教がある」。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Saeed Sato",
+    "author_name": "Saeed Sato",
+    "filters": { "resource_id": 218, "chapter_number": "109" }
+  }
+}

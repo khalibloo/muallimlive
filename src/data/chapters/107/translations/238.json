@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 238,
+      "text": "(اي پيغمبر) انھي کي ڏٺيءِ ڇا جيڪو عملن جي بدلي ملڻ کي ڪوڙ ڀانئيندو آھي."
+    },
+    { "resource_id": 238, "text": "پوءِ اُھو آھي جو ڇوري ٻار کي ڌِڪيندو آھي." },
+    {
+      "resource_id": 238,
+      "text": "۽ (ڪنھن کي) مسڪين جي کارائڻ تي رغبت نه ڏياريندو آھي."
+    },
+    { "resource_id": 238, "text": "پوءِ انھن نمازين لاءِ وَيل آھي." },
+    { "resource_id": 238, "text": "جي پنھنجين نمازن کان ويسلا رھندا آھن." },
+    { "resource_id": 238, "text": "اُھي جيڪي رياءُ ڪندا آھن." },
+    { "resource_id": 238, "text": "۽ اُڌاريون شيون جھليندا آھن." }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "107" }
+  }
+}

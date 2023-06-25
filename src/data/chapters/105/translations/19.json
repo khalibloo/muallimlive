@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "Hast thou not seen how thy Lord dealt with the owners of the Elephant?"
+    },
+    {
+      "resource_id": 19,
+      "text": "Did He not bring their stratagem to naught,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And send against them swarms of flying creatures,"
+    },
+    {
+      "resource_id": 19,
+      "text": "Which pelted them with stones of baked clay,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And made them like green crops devoured (by cattle)?"
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "105" }
+  }
+}

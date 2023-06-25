@@ -1,0 +1,51 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Walfajr" },
+    { "resource_id": 57, "text": "Walayalin AAashr" },
+    { "resource_id": 57, "text": "WashshafAAi walwatr" },
+    { "resource_id": 57, "text": "Wallayli itha yasr" },
+    { "resource_id": 57, "text": "Hal fee thalika qasamun lithee hijr" },
+    { "resource_id": 57, "text": "Alam tara kayfa faAAala rabbuka biAAad" },
+    { "resource_id": 57, "text": "Irama thati alAAimad" },
+    { "resource_id": 57, "text": "Allatee lam yukhlaq mithluha fee albilad" },
+    { "resource_id": 57, "text": "Wathamooda allatheena jaboo assakhrabilwad" },
+    { "resource_id": 57, "text": "WafirAAawna thee al-awtad" },
+    { "resource_id": 57, "text": "Allatheena taghaw fee albilad" },
+    { "resource_id": 57, "text": "Faaktharoo feeha alfasad" },
+    { "resource_id": 57, "text": "Fasabba AAalayhim rabbuka sawtaAAathab" },
+    { "resource_id": 57, "text": "Inna rabbaka labilmirsad" },
+    {
+      "resource_id": 57,
+      "text": "Faamma al-insanu itha maibtalahu rabbuhu faakramahu wanaAAAAamahu fayaqoolu rabbeeakraman"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waamma itha ma ibtalahufaqadara AAalayhi rizqahu fayaqoolu rabbee ahanan"
+    },
+    { "resource_id": 57, "text": "Kalla bal la tukrimoonaalyateem" },
+    { "resource_id": 57, "text": "Wala tahaddoona AAala taAAamialmiskeen" },
+    { "resource_id": 57, "text": "Wata/kuloona atturatha aklanlamma" },
+    { "resource_id": 57, "text": "Watuhibboona almala hubbanjamma" },
+    { "resource_id": 57, "text": "Kalla itha dukkati al-ardudakkan dakka" },
+    { "resource_id": 57, "text": "Wajaa rabbuka walmalaku saffansaffa" },
+    {
+      "resource_id": 57,
+      "text": "Wajee-a yawma-ithin bijahannamayawma-ithin yatathakkaru al-insanu waannalahu aththikra"
+    },
+    { "resource_id": 57, "text": "Yaqoolu ya laytanee qaddamtu lihayatee" },
+    {
+      "resource_id": 57,
+      "text": "Fayawma-ithin la yuAAaththibuAAathabahu ahad"
+    },
+    { "resource_id": 57, "text": "Wala yoothiqu wathaqahu ahad" },
+    { "resource_id": 57, "text": "Ya ayyatuha annafsualmutma-inna" },
+    { "resource_id": 57, "text": "IrjiAAee ila rabbiki radiyatanmardiyya" },
+    { "resource_id": 57, "text": "Fadkhulee fee AAibadee" },
+    { "resource_id": 57, "text": "Wadkhulee jannatee" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "89" }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "104:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104001.mp3"
+    },
+    {
+      "verse_key": "104:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104002.mp3"
+    },
+    {
+      "verse_key": "104:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104003.mp3"
+    },
+    {
+      "verse_key": "104:4",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104004.mp3"
+    },
+    {
+      "verse_key": "104:5",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104005.mp3"
+    },
+    {
+      "verse_key": "104:6",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104006.mp3"
+    },
+    {
+      "verse_key": "104:7",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104007.mp3"
+    },
+    {
+      "verse_key": "104:8",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104008.mp3"
+    },
+    {
+      "verse_key": "104:9",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/104009.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mahmoud Khalil Al-Husary",
+    "recitation_style": "Muallim",
+    "filters": { "chapter_number": "104" }
+  }
+}

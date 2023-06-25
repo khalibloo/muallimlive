@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Eebe wuxuu ku dhartay Waqtiga Casarka ah." },
+    { "resource_id": 46, "text": "In Dadku khasaaro ku sugunyahay." },
+    {
+      "resource_id": 46,
+      "text": "Marka laga reebo kuwa rumeeyay xaqa ee Camal fiican fala, isuna dardaarma xaqa, isuna dardaarma Samirka."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "103" }
+  }
+}

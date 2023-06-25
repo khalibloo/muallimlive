@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "تو کہہ وہ اللہ ایک ہے <sup foot_note=88956>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "اللہ بے نیاز ہے <sup foot_note=88957>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "نہ کسی کو جنا نہ کسی سے جنا <sup foot_note=88958>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "اور نہیں اُس کے جوڑ کا کوئی <sup foot_note=88959>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "当穷苍破裂的时候，" },
+    { "resource_id": 56, "text": "当众星飘堕的时候，" },
+    { "resource_id": 56, "text": "当海洋混合的时候，" },
+    { "resource_id": 56, "text": "当坟墓被揭开的时候，" },
+    { "resource_id": 56, "text": "每个人都知道自己前前后后所做的一切事情。" },
+    { "resource_id": 56, "text": "人啊！什么东西引诱你背离了你的仁慈的主呢？" },
+    {
+      "resource_id": 56,
+      "text": "他曾创造了你，然后，使你健全，然后，使你均称。"
+    },
+    { "resource_id": 56, "text": "他意欲什么型式，就依什么型式而构造你。" },
+    { "resource_id": 56, "text": "绝不然，但你们否认报应！" },
+    { "resource_id": 56, "text": "你们的上面，确有许多监视者，" },
+    { "resource_id": 56, "text": "他们是尊贵的，是记录的，" },
+    { "resource_id": 56, "text": "他们知道你们的一切行为。" },
+    { "resource_id": 56, "text": "善人们，必在恩泽中；" },
+    { "resource_id": 56, "text": "恶人们，必在烈火中。" },
+    { "resource_id": 56, "text": "他们将在报应日堕入烈火，" },
+    { "resource_id": 56, "text": "他们绝不得离开它。" },
+    { "resource_id": 56, "text": "你怎能知道报应日是什么？" },
+    { "resource_id": 56, "text": "你怎能知道报应日是什么？" },
+    {
+      "resource_id": 56,
+      "text": "在那日，任何人对任何人不能有什么裨益；命令全归真主。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "82" }
+  }
+}

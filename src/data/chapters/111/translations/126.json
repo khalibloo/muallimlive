@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Neka propadne Ebu Leheb, i propao je!" },
+    {
+      "resource_id": 126,
+      "text": "Neće mu biti od koristi blago njegovo, a ni ono što je stekao,"
+    },
+    { "resource_id": 126, "text": "ući će on, sigurno, u vatru rasplamsalu," },
+    { "resource_id": 126, "text": "i žena njegova, koja spletkari;" },
+    { "resource_id": 126, "text": "o vratu njenu biće uže od ličine usukane!" }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "111" }
+  }
+}

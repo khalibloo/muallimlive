@@ -1,0 +1,87 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Tornou-se austero e voltou as costas," },
+    { "resource_id": 43, "text": "Quando o cego foi ter com ele." },
+    {
+      "resource_id": 43,
+      "text": "E quem te assegura que não poderia vir a ser agraciado,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Ou receba (admoestação) e, a lição lhe será proveitosa?"
+    },
+    { "resource_id": 43, "text": "Quanto ao opulento," },
+    { "resource_id": 43, "text": "Tu o atendes," },
+    {
+      "resource_id": 43,
+      "text": "Não tens culpa se ele não crescer (em conhecimentos espirituais)."
+    },
+    { "resource_id": 43, "text": "Porém, quem a corre a ti," },
+    { "resource_id": 43, "text": "E é temente," },
+    { "resource_id": 43, "text": "Tu o negligenciais!" },
+    {
+      "resource_id": 43,
+      "text": "Qual! Em verdade, (o Alcorão) é uma mensagem de advertência."
+    },
+    { "resource_id": 43, "text": "Quem quiser, pois, que preste atenção." },
+    { "resource_id": 43, "text": "(Está registrado) em páginas honoráveis," },
+    { "resource_id": 43, "text": "Exaltadas, purificadas," },
+    { "resource_id": 43, "text": "Por mãos de escribas," },
+    { "resource_id": 43, "text": "Nobres e retos." },
+    { "resource_id": 43, "text": "Ai do homem; quão ingrato é!" },
+    { "resource_id": 43, "text": "De que Ele o criou?" },
+    {
+      "resource_id": 43,
+      "text": "De uma gota de esperma; Ele o criou e o modelou (em seguida)."
+    },
+    { "resource_id": 43, "text": "Então, suavizou-lhe o caminho," },
+    { "resource_id": 43, "text": "Depois o fez morrer e o sepultou;" },
+    {
+      "resource_id": 43,
+      "text": "E, por fim, quando Lhe aprouver, ressuscitá-lo-á."
+    },
+    {
+      "resource_id": 43,
+      "text": "Qual! O homem ainda não cumpriu o que Ele lhe ordenou."
+    },
+    { "resource_id": 43, "text": "Que o homem repare, pois, em seu alimento." },
+    {
+      "resource_id": 43,
+      "text": "Em verdade, derramamos a água em abundância,"
+    },
+    { "resource_id": 43, "text": "Depois, abrimos a terra em fendas," },
+    { "resource_id": 43, "text": "E fazemos nascer o grão," },
+    { "resource_id": 43, "text": "A videira e as plantas (nutritivas)," },
+    { "resource_id": 43, "text": "A oliveira e a tamareira," },
+    { "resource_id": 43, "text": "E jardins frondosos," },
+    { "resource_id": 43, "text": "E o fruto e a forragem," },
+    { "resource_id": 43, "text": "Para o vosso uso e do vosso gado." },
+    {
+      "resource_id": 43,
+      "text": "Porém, quando retumbar o toque ensurdecedor,"
+    },
+    { "resource_id": 43, "text": "Nesse dia, o homem fugirá do seu irmão," },
+    { "resource_id": 43, "text": "Da sua mãe e do seu pai," },
+    { "resource_id": 43, "text": "Da sua esposa e dos seus filhos." },
+    {
+      "resource_id": 43,
+      "text": "Nesse dia, a cada qual bastará a preocupação consigo mesmo."
+    },
+    { "resource_id": 43, "text": "Nesse dia, haverá rostos resplandecentes," },
+    { "resource_id": 43, "text": "Risonhos, regozijadores." },
+    {
+      "resource_id": 43,
+      "text": "E também haverá, nesse dia, rostos cobertos de pó,"
+    },
+    { "resource_id": 43, "text": "Cobertos de lugubridade." },
+    {
+      "resource_id": 43,
+      "text": "Estes serão os rostos dos incrédulos, dos depravados."
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "80" }
+  }
+}

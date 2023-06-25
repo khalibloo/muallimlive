@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 113, "text": "Құрайштың қауіпсіздігі  / таңданарлықіс/!" },
+    {
+      "resource_id": 113,
+      "text": "Олардың қысқы және жазғы сапар- ларындағы қауіпсіздігі!"
+    },
+    {
+      "resource_id": 113,
+      "text": "Ендеше олар осы Үйдің  / Қағбаның /  Раббысына Құлшылық етсін,"
+    },
+    {
+      "resource_id": 113,
+      "text": "оларды аштықтан  / кейін /  тамақтандырған және қауіп-қатерден аман еткен."
+    }
+  ],
+  "meta": {
+    "translation_name": "Khalifah Altai",
+    "author_name": "Khalifah Altai",
+    "filters": { "resource_id": 113, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Waxaad dhahdaa (Nabiyow) waxaan ka magangalay Eebeha Subaxa (abuuray)."
+    },
+    { "resource_id": 46, "text": "Wixii shar leh sharkiisa." },
+    { "resource_id": 46, "text": "Iyo Habeenka sharkiisa markuu madoobaado." },
+    {
+      "resource_id": 46,
+      "text": "Iyo sharka Sixirrowga wax ku tufa guntimaha."
+    },
+    { "resource_id": 46, "text": "Iyo sharka Xaasidka wax Xasda." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "113" }
+  }
+}

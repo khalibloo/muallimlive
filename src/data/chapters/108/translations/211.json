@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Tunay na Kami ay nagbigay sa iyo ng Kawthar."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya magdasal ka sa Panginoon mo at mag-alay ka."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ang nasusuklam sa iyo ay siya ang lagot."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "108" }
+  }
+}

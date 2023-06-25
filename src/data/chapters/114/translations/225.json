@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 225,
+      "text": "૧)   તમે કહી દો ! કે હું લોકોના પાલનહારની શરણમાં આવું છું."
+    },
+    { "resource_id": 225, "text": "૨)   લોકોના માલિકના (અને)" },
+    { "resource_id": 225, "text": "૩)   લોકોના મઅબૂદના (શરણમાં)" },
+    {
+      "resource_id": 225,
+      "text": "૪)   શંકાઓ નાખનાર, પાછા હટી જનારની બુરાઇથી"
+    },
+    { "resource_id": 225, "text": "૫)   જે લોકોના હૃદયોમાં શંકાઓ નાખે છે." },
+    {
+      "resource_id": 225,
+      "text": "૬)   (પછી) તે જિન્નાતોમાં થી હોય અથવા તો મનુષ્યોમાં થી."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rabila Al-Umry",
+    "author_name": "Rabila Al-Umry",
+    "filters": { "resource_id": 225, "chapter_number": "114" }
+  }
+}

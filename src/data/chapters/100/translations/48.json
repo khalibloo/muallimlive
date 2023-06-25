@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 48, "text": "SE de frustande stridshästarna!" },
+    { "resource_id": 48, "text": "Se hur deras [hovar] slår upp gnistor" },
+    {
+      "resource_id": 48,
+      "text": "när de galopperar till anfall i den tidiga morgonen"
+    },
+    { "resource_id": 48, "text": "[och] hur de river upp moln av damm" },
+    { "resource_id": 48, "text": "när de stormar fram i stridsvimlet!" },
+    {
+      "resource_id": 48,
+      "text": "MÄNNISKAN är sannerligen djupt otacksam mot sin Herre -"
+    },
+    { "resource_id": 48, "text": "om detta vittnar hon själv -" },
+    {
+      "resource_id": 48,
+      "text": "och visar sin kärlek till rikedom i ivern [att samla mer]."
+    },
+    {
+      "resource_id": 48,
+      "text": "Vet hon inte [att] då det som göms i gravarna strös omkring"
+    },
+    {
+      "resource_id": 48,
+      "text": "och det som människorna har dolt i sina hjärtan uppenbaras;"
+    },
+    {
+      "resource_id": 48,
+      "text": "den Dagen [skall det bli uppenbart att] deras Herre var väl underrättad om dem."
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "100" }
+  }
+}

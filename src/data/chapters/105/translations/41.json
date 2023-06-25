@@ -1,0 +1,17 @@
+{
+  "translations": [
+    {
+      "resource_id": 41,
+      "text": "Du har vel sett hva Herren gjorde med elefantfolkene?"
+    },
+    { "resource_id": 41, "text": "Lot Han ikke deres list slå feil?" },
+    { "resource_id": 41, "text": "Han sendte over dem fugleflokker," },
+    { "resource_id": 41, "text": "som kastet på dem steiner av brent leire," },
+    { "resource_id": 41, "text": "og lot dem bli som avspist vegetasjon." }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "105" }
+  }
+}

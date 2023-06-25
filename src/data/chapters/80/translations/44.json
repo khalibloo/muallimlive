@@ -1,0 +1,72 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "El s-a încruntat şi a întors spatele," },
+    { "resource_id": 44, "text": "când orbul a venit la el." },
+    { "resource_id": 44, "text": "Ce ştii tu? Poate s-ar fi mântuit" },
+    {
+      "resource_id": 44,
+      "text": "ori şi-ar fi amintit, iar amintirea i-ar fi folosit."
+    },
+    { "resource_id": 44, "text": "În schimb pe cel bogat," },
+    { "resource_id": 44, "text": "tu îl primeşti cu cinste" },
+    { "resource_id": 44, "text": "fără să-ţi pese dacă se va mântui," },
+    {
+      "resource_id": 44,
+      "text": "iar pe cel care vine la tine, plin de râvnă,"
+    },
+    { "resource_id": 44, "text": "plin de teamă," },
+    { "resource_id": 44, "text": "tu, cu nepăsare, îl primeşti!" },
+    { "resource_id": 44, "text": "Nu! Aceasta este o amintire" },
+    { "resource_id": 44, "text": "oricui vrea să-şi amintească!" },
+    { "resource_id": 44, "text": "Ea este de pe sulurile prea cinstite," },
+    { "resource_id": 44, "text": "înălţate, curăţate," },
+    { "resource_id": 44, "text": "de mâinile scribilor" },
+    { "resource_id": 44, "text": "cinstiţi şi nevinovaţi!" },
+    { "resource_id": 44, "text": "Să fie ucis omul! Cât este de tăgăduitor!" },
+    { "resource_id": 44, "text": "Din ce l-a creat?" },
+    {
+      "resource_id": 44,
+      "text": "Dintr-un strop de sămânţă! L-a creat şi i-a dat o soartă;"
+    },
+    { "resource_id": 44, "text": "i-a făcut calea uşoară;" },
+    {
+      "resource_id": 44,
+      "text": "apoi l-a lăsat să moară şi a pus să fie înmormântat;"
+    },
+    { "resource_id": 44, "text": "iar când va voi, îl va scula!" },
+    {
+      "resource_id": 44,
+      "text": "Nu! Omul nu împlineşte ceea ce El îi porunceşte."
+    },
+    { "resource_id": 44, "text": "Omul, să se uite la hrana sa!" },
+    { "resource_id": 44, "text": "Noi am vărsat apă, şi ce vărsare!" },
+    { "resource_id": 44, "text": "Noi am crăpat pământul, şi ce crăpare!" },
+    { "resource_id": 44, "text": "Noi am făcut să răsară grâne," },
+    { "resource_id": 44, "text": "vii şi legume," },
+    { "resource_id": 44, "text": "măslini şi curmali," },
+    { "resource_id": 44, "text": "şi grădini dese," },
+    { "resource_id": 44, "text": "fructe şi păşuni," },
+    { "resource_id": 44, "text": "zestre vouă şi turmelor voastre." },
+    { "resource_id": 44, "text": "Când va veni însă Vuietul," },
+    { "resource_id": 44, "text": "în ziua când omul va fugi de fratele său," },
+    { "resource_id": 44, "text": "de mama sa, de tatăl său," },
+    { "resource_id": 44, "text": "de soţia sa, de fiii săi," },
+    {
+      "resource_id": 44,
+      "text": "în Ziua aceea fiece om îşi va primi răsplata."
+    },
+    { "resource_id": 44, "text": "În Ziua aceea" },
+    {
+      "resource_id": 44,
+      "text": "vor fi chipuri strălucitoare, surâzătoare şi bucuroase,"
+    },
+    { "resource_id": 44, "text": "însă în Ziua aceea," },
+    { "resource_id": 44, "text": "vor fi şi chipuri colbuite." },
+    { "resource_id": 44, "text": "Aceştia vor fi tăgăduitorii, desfrânaţii!" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "80" }
+  }
+}

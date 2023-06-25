@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "De ki: Ey kâfirler!" },
+    {
+      "resource_id": 210,
+      "text": "Ben sizin ibadet ettiklerinize ibadet etmem."
+    },
+    {
+      "resource_id": 210,
+      "text": "Siz de benim ibadet ettiğime ibadet etmezsiniz."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ben, sizin ibadet ettiklerinize ibadet edecek de değilim."
+    },
+    {
+      "resource_id": 210,
+      "text": "Siz de benim ibadet ettiğime ibadet edecek değilsiniz."
+    },
+    {
+      "resource_id": 210,
+      "text": "Sizin dininiz size, benim dinim ise banadır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "109" }
+  }
+}

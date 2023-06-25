@@ -1,0 +1,53 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "Yüce Allah, gündüzün ilk vaktine yemin etmiştir."
+    },
+    {
+      "resource_id": 172,
+      "text": "Ve karanlığı bürüyüp, insanların hareketleri kesildiğinde geceye yemin etmiştir."
+    },
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- Vahiy bir süre kesildiğinde müşriklerin dediği gibi, Rabbin seni ne terk etti ve ne de senden nefret etti."
+    },
+    {
+      "resource_id": 172,
+      "text": "Ahiret yurdu, içinde bulunan kesintisiz kalıcı nimetlerden ötürü senin için dünya hayatından daha hayırlıdır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Yüce Allah sana ve ümmetine verdiklerinden razı olana kadar sana ve ümmetine büyük mükâfatlardan verecek."
+    },
+    {
+      "resource_id": 172,
+      "text": "Seni, küçükken baban ölmüş bir halde buldu ve önce sana merhamet eden deden Abdülmuttalib’i, ardından amcan Ebu Talib’i sana sığınak kıldı."
+    },
+    {
+      "resource_id": 172,
+      "text": "Seni, kitabın ve imanın ne olduğunu bilmez bir halde buldu da, sana bunlardan bilmediklerini öğretti."
+    },
+    {
+      "resource_id": 172,
+      "text": "Seni fakir bir halde buldu ve seni zengin kıldı."
+    },
+    {
+      "resource_id": 172,
+      "text": "Küçük yaşta babasını kaybetmiş kimselere kötü muamele etme ve onları küçümseme."
+    },
+    {
+      "resource_id": 172,
+      "text": "İhtiyaç sahibi olan dilenciyi de azarlama."
+    },
+    {
+      "resource_id": 172,
+      "text": "Allah’ın senin üzerine olan nimetlerine şükret ve bunlardan bahset."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "93" }
+  }
+}

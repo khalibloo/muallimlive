@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 139,
+      "text": "       Барои унсу улфату амни Қурайш; таъаҷҷуб кунед, ки"
+    },
+    {
+      "resource_id": 139,
+      "text": "       улфату амнашон дар сафари зимистон ба сӯи Яман ва дар тобистон ба сӯи Шом буд."
+    },
+    {
+      "resource_id": 139,
+      "text": "       Пас, бояд шукри Парвардигори ин хонаро (Каъбаро) баҷо оранд ва Ӯро ба ихлос бипарастанд,"
+    },
+    {
+      "resource_id": 139,
+      "text": "       он Зоте, ки ононро дар гуруснагӣ хӯрок дод ва дар бимнокӣ амн ва амон бахшид."
+    }
+  ],
+  "meta": {
+    "translation_name": "Khawaja Mirof & Khawaja Mir",
+    "author_name": "Khawaja Mirof & Khawaja Mir",
+    "filters": { "resource_id": 139, "chapter_number": "106" }
+  }
+}

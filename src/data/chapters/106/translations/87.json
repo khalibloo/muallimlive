@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "ቁረይሽን ለማላመድ (ባለዝሆኖቹን አጠፋ)፡፡" },
+    { "resource_id": 87, "text": "የብርድና የበጋን ወራት ጉዞ ሊያላምዳቸው ይህንን ሠራ፡፡" },
+    { "resource_id": 87, "text": "ስለዚህ የዚህን ቤት (የከዕባን) ጌታ ይግገዙ፡፡" },
+    { "resource_id": 87, "text": "ያንን ከረኃብ ያበላቸውን ከፍርሃትም ያረካቸውን (ጌታ ያምልኩ)፡፡" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "translations": [
+    {
+      "resource_id": 124,
+      "text": "Güneşe ve kuşluk vaktindeki aydınlığına, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "güneşi takip ettiğinde aya, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "onu açığa çıkarttığında gündüze, yemin ederim ki,"
+    },
+    { "resource_id": 124, "text": "onu örttüğünde geceye, yemin ederim ki," },
+    {
+      "resource_id": 124,
+      "text": "gökyüzüne ve onu bina edene,  yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "yere ve onu yapıp döşeyene, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "nefse ve ona birtakım kabiliyetler verip de yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "iyilik ve kötülüklerini ilham edene yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "nefsini kötülüklerden arındıran kurtuluşa ermiş,"
+    },
+    { "resource_id": 124, "text": "onu kötülüklere gömen de ziyan etmiştir." },
+    {
+      "resource_id": 124,
+      "text": "Semûd kavmi azgınlığı yüzünden (Allah'ın elçisini) yalanladı."
+    },
+    {
+      "resource_id": 124,
+      "text": "Onların en bedbahtı (deveyi kesmek için) atıldığında,"
+    },
+    {
+      "resource_id": 124,
+      "text": "Allah’ın Rasûlü onlara: «Allah’ın devesine ve onun su hakkına dokunmayın!» dedi."
+    },
+    {
+      "resource_id": 124,
+      "text": "Ama onlar, onu yalanladılar ve deveyi kestiler. Bunun üzerine Rableri günahları sebebiyle onlara büyük bir felâket gönderdi de hepsini helâk etti."
+    },
+    {
+      "resource_id": 124,
+      "text": "(Allah, bu şekilde azap etmenin) âkıbetinden korkacak değil ya!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "91" }
+  }
+}

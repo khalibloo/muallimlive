@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 224, "text": "(നബിയേ,) പറയുക: അവിശ്വാസികളേ, " },
+    {
+      "resource_id": 224,
+      "text": "നിങ്ങള്‍ ആരാധിച്ചുവരുന്നതിനെ ഞാന്‍ ആരാധിക്കുന്നില്ല."
+    },
+    {
+      "resource_id": 224,
+      "text": "ഞാന്‍ ആരാധിച്ചുവരുന്നതിനെ നിങ്ങളും ആരാധിക്കുന്നവരല്ല. "
+    },
+    {
+      "resource_id": 224,
+      "text": "നിങ്ങള്‍ ആരാധിച്ചുവന്നതിനെ ഞാന്‍ ആരാധിക്കാന്‍ പോകുന്നവനുമല്ല. "
+    },
+    {
+      "resource_id": 224,
+      "text": "ഞാന്‍ ആരാധിച്ചു വരുന്നതിനെ നിങ്ങളും ആരാധിക്കാന്‍ പോകുന്നവരല്ല."
+    },
+    {
+      "resource_id": 224,
+      "text": "നിങ്ങള്‍ക്ക് നിങ്ങളുടെ മതം. എനിക്ക് എന്‍റെ മതവും.( "
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul-Hamid Haidar & Kanhi Muhammad",
+    "author_name": "Abdul-Hamid Haidar & Kanhi Muhammad",
+    "filters": { "resource_id": 224, "chapter_number": "109" }
+  }
+}

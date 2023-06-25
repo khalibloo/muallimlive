@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 131,
+      "text": "Have We not uplifted your heart for you ˹O Prophet˺,"
+    },
+    { "resource_id": 131, "text": "relieved you of the burden" },
+    { "resource_id": 131, "text": "which weighed so heavily on your back," },
+    {
+      "resource_id": 131,
+      "text": "and elevated your renown for you?<sup foot_note=77626>1</sup>"
+    },
+    { "resource_id": 131, "text": "So, surely with hardship comes ease." },
+    {
+      "resource_id": 131,
+      "text": "Surely with ˹that˺ hardship comes ˹more˺ ease.<sup foot_note=77627>1</sup>"
+    },
+    {
+      "resource_id": 131,
+      "text": "So once you have fulfilled ˹your duty˺, strive ˹in devotion˺,"
+    },
+    { "resource_id": 131, "text": "turning to your Lord ˹alone˺ with hope." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "94" }
+  }
+}

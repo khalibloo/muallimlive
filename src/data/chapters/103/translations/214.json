@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Tako mi vremena," },
+    { "resource_id": 214, "text": "doista je čovjek na gubitku," },
+    {
+      "resource_id": 214,
+      "text": "samo nisu oni koji vjeruju i dobra djela čine, i koji jedni drugima Istinu\npreporučuju i koji jedni drugima preporučuju strpljenje."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "103" }
+  }
+}

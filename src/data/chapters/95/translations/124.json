@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "İncire, zeytine, yemin ederim ki," },
+    { "resource_id": 124, "text": "Sina dağına yemin ederim ki" },
+    { "resource_id": 124, "text": "ve şu emîn beldeye yemin ederim ki," },
+    { "resource_id": 124, "text": "biz insanı en güzel biçimde yarattık." },
+    { "resource_id": 124, "text": "Sonra onu aşağıların aşağısına indirdik." },
+    {
+      "resource_id": 124,
+      "text": "Fakat iman edip sâlih amel işleyenler için eksilmeyen devamlı bir ecir vardır."
+    },
+    {
+      "resource_id": 124,
+      "text": "Artık bundan sonra, ceza günü konusunda seni kim yalanlayabilir?"
+    },
+    {
+      "resource_id": 124,
+      "text": "Allah, hüküm verenlerin en üstünü değil midir?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "95" }
+  }
+}

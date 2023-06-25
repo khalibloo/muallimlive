@@ -1,0 +1,917 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "26:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026001.mp3"
+    },
+    {
+      "verse_key": "26:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026002.mp3"
+    },
+    {
+      "verse_key": "26:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026003.mp3"
+    },
+    {
+      "verse_key": "26:4",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026004.mp3"
+    },
+    {
+      "verse_key": "26:5",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026005.mp3"
+    },
+    {
+      "verse_key": "26:6",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026006.mp3"
+    },
+    {
+      "verse_key": "26:7",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026007.mp3"
+    },
+    {
+      "verse_key": "26:8",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026008.mp3"
+    },
+    {
+      "verse_key": "26:9",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026009.mp3"
+    },
+    {
+      "verse_key": "26:10",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026010.mp3"
+    },
+    {
+      "verse_key": "26:11",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026011.mp3"
+    },
+    {
+      "verse_key": "26:12",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026012.mp3"
+    },
+    {
+      "verse_key": "26:13",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026013.mp3"
+    },
+    {
+      "verse_key": "26:14",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026014.mp3"
+    },
+    {
+      "verse_key": "26:15",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026015.mp3"
+    },
+    {
+      "verse_key": "26:16",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026016.mp3"
+    },
+    {
+      "verse_key": "26:17",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026017.mp3"
+    },
+    {
+      "verse_key": "26:18",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026018.mp3"
+    },
+    {
+      "verse_key": "26:19",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026019.mp3"
+    },
+    {
+      "verse_key": "26:20",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026020.mp3"
+    },
+    {
+      "verse_key": "26:21",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026021.mp3"
+    },
+    {
+      "verse_key": "26:22",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026022.mp3"
+    },
+    {
+      "verse_key": "26:23",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026023.mp3"
+    },
+    {
+      "verse_key": "26:24",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026024.mp3"
+    },
+    {
+      "verse_key": "26:25",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026025.mp3"
+    },
+    {
+      "verse_key": "26:26",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026026.mp3"
+    },
+    {
+      "verse_key": "26:27",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026027.mp3"
+    },
+    {
+      "verse_key": "26:28",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026028.mp3"
+    },
+    {
+      "verse_key": "26:29",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026029.mp3"
+    },
+    {
+      "verse_key": "26:30",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026030.mp3"
+    },
+    {
+      "verse_key": "26:31",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026031.mp3"
+    },
+    {
+      "verse_key": "26:32",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026032.mp3"
+    },
+    {
+      "verse_key": "26:33",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026033.mp3"
+    },
+    {
+      "verse_key": "26:34",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026034.mp3"
+    },
+    {
+      "verse_key": "26:35",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026035.mp3"
+    },
+    {
+      "verse_key": "26:36",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026036.mp3"
+    },
+    {
+      "verse_key": "26:37",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026037.mp3"
+    },
+    {
+      "verse_key": "26:38",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026038.mp3"
+    },
+    {
+      "verse_key": "26:39",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026039.mp3"
+    },
+    {
+      "verse_key": "26:40",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026040.mp3"
+    },
+    {
+      "verse_key": "26:41",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026041.mp3"
+    },
+    {
+      "verse_key": "26:42",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026042.mp3"
+    },
+    {
+      "verse_key": "26:43",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026043.mp3"
+    },
+    {
+      "verse_key": "26:44",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026044.mp3"
+    },
+    {
+      "verse_key": "26:45",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026045.mp3"
+    },
+    {
+      "verse_key": "26:46",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026046.mp3"
+    },
+    {
+      "verse_key": "26:47",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026047.mp3"
+    },
+    {
+      "verse_key": "26:48",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026048.mp3"
+    },
+    {
+      "verse_key": "26:49",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026049.mp3"
+    },
+    {
+      "verse_key": "26:50",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026050.mp3"
+    },
+    {
+      "verse_key": "26:51",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026051.mp3"
+    },
+    {
+      "verse_key": "26:52",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026052.mp3"
+    },
+    {
+      "verse_key": "26:53",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026053.mp3"
+    },
+    {
+      "verse_key": "26:54",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026054.mp3"
+    },
+    {
+      "verse_key": "26:55",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026055.mp3"
+    },
+    {
+      "verse_key": "26:56",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026056.mp3"
+    },
+    {
+      "verse_key": "26:57",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026057.mp3"
+    },
+    {
+      "verse_key": "26:58",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026058.mp3"
+    },
+    {
+      "verse_key": "26:59",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026059.mp3"
+    },
+    {
+      "verse_key": "26:60",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026060.mp3"
+    },
+    {
+      "verse_key": "26:61",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026061.mp3"
+    },
+    {
+      "verse_key": "26:62",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026062.mp3"
+    },
+    {
+      "verse_key": "26:63",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026063.mp3"
+    },
+    {
+      "verse_key": "26:64",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026064.mp3"
+    },
+    {
+      "verse_key": "26:65",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026065.mp3"
+    },
+    {
+      "verse_key": "26:66",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026066.mp3"
+    },
+    {
+      "verse_key": "26:67",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026067.mp3"
+    },
+    {
+      "verse_key": "26:68",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026068.mp3"
+    },
+    {
+      "verse_key": "26:69",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026069.mp3"
+    },
+    {
+      "verse_key": "26:70",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026070.mp3"
+    },
+    {
+      "verse_key": "26:71",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026071.mp3"
+    },
+    {
+      "verse_key": "26:72",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026072.mp3"
+    },
+    {
+      "verse_key": "26:73",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026073.mp3"
+    },
+    {
+      "verse_key": "26:74",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026074.mp3"
+    },
+    {
+      "verse_key": "26:75",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026075.mp3"
+    },
+    {
+      "verse_key": "26:76",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026076.mp3"
+    },
+    {
+      "verse_key": "26:77",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026077.mp3"
+    },
+    {
+      "verse_key": "26:78",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026078.mp3"
+    },
+    {
+      "verse_key": "26:79",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026079.mp3"
+    },
+    {
+      "verse_key": "26:80",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026080.mp3"
+    },
+    {
+      "verse_key": "26:81",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026081.mp3"
+    },
+    {
+      "verse_key": "26:82",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026082.mp3"
+    },
+    {
+      "verse_key": "26:83",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026083.mp3"
+    },
+    {
+      "verse_key": "26:84",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026084.mp3"
+    },
+    {
+      "verse_key": "26:85",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026085.mp3"
+    },
+    {
+      "verse_key": "26:86",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026086.mp3"
+    },
+    {
+      "verse_key": "26:87",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026087.mp3"
+    },
+    {
+      "verse_key": "26:88",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026088.mp3"
+    },
+    {
+      "verse_key": "26:89",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026089.mp3"
+    },
+    {
+      "verse_key": "26:90",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026090.mp3"
+    },
+    {
+      "verse_key": "26:91",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026091.mp3"
+    },
+    {
+      "verse_key": "26:92",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026092.mp3"
+    },
+    {
+      "verse_key": "26:93",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026093.mp3"
+    },
+    {
+      "verse_key": "26:94",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026094.mp3"
+    },
+    {
+      "verse_key": "26:95",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026095.mp3"
+    },
+    {
+      "verse_key": "26:96",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026096.mp3"
+    },
+    {
+      "verse_key": "26:97",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026097.mp3"
+    },
+    {
+      "verse_key": "26:98",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026098.mp3"
+    },
+    {
+      "verse_key": "26:99",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026099.mp3"
+    },
+    {
+      "verse_key": "26:100",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026100.mp3"
+    },
+    {
+      "verse_key": "26:101",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026101.mp3"
+    },
+    {
+      "verse_key": "26:102",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026102.mp3"
+    },
+    {
+      "verse_key": "26:103",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026103.mp3"
+    },
+    {
+      "verse_key": "26:104",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026104.mp3"
+    },
+    {
+      "verse_key": "26:105",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026105.mp3"
+    },
+    {
+      "verse_key": "26:106",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026106.mp3"
+    },
+    {
+      "verse_key": "26:107",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026107.mp3"
+    },
+    {
+      "verse_key": "26:108",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026108.mp3"
+    },
+    {
+      "verse_key": "26:109",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026109.mp3"
+    },
+    {
+      "verse_key": "26:110",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026110.mp3"
+    },
+    {
+      "verse_key": "26:111",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026111.mp3"
+    },
+    {
+      "verse_key": "26:112",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026112.mp3"
+    },
+    {
+      "verse_key": "26:113",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026113.mp3"
+    },
+    {
+      "verse_key": "26:114",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026114.mp3"
+    },
+    {
+      "verse_key": "26:115",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026115.mp3"
+    },
+    {
+      "verse_key": "26:116",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026116.mp3"
+    },
+    {
+      "verse_key": "26:117",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026117.mp3"
+    },
+    {
+      "verse_key": "26:118",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026118.mp3"
+    },
+    {
+      "verse_key": "26:119",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026119.mp3"
+    },
+    {
+      "verse_key": "26:120",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026120.mp3"
+    },
+    {
+      "verse_key": "26:121",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026121.mp3"
+    },
+    {
+      "verse_key": "26:122",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026122.mp3"
+    },
+    {
+      "verse_key": "26:123",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026123.mp3"
+    },
+    {
+      "verse_key": "26:124",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026124.mp3"
+    },
+    {
+      "verse_key": "26:125",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026125.mp3"
+    },
+    {
+      "verse_key": "26:126",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026126.mp3"
+    },
+    {
+      "verse_key": "26:127",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026127.mp3"
+    },
+    {
+      "verse_key": "26:128",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026128.mp3"
+    },
+    {
+      "verse_key": "26:129",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026129.mp3"
+    },
+    {
+      "verse_key": "26:130",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026130.mp3"
+    },
+    {
+      "verse_key": "26:131",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026131.mp3"
+    },
+    {
+      "verse_key": "26:132",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026132.mp3"
+    },
+    {
+      "verse_key": "26:133",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026133.mp3"
+    },
+    {
+      "verse_key": "26:134",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026134.mp3"
+    },
+    {
+      "verse_key": "26:135",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026135.mp3"
+    },
+    {
+      "verse_key": "26:136",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026136.mp3"
+    },
+    {
+      "verse_key": "26:137",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026137.mp3"
+    },
+    {
+      "verse_key": "26:138",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026138.mp3"
+    },
+    {
+      "verse_key": "26:139",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026139.mp3"
+    },
+    {
+      "verse_key": "26:140",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026140.mp3"
+    },
+    {
+      "verse_key": "26:141",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026141.mp3"
+    },
+    {
+      "verse_key": "26:142",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026142.mp3"
+    },
+    {
+      "verse_key": "26:143",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026143.mp3"
+    },
+    {
+      "verse_key": "26:144",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026144.mp3"
+    },
+    {
+      "verse_key": "26:145",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026145.mp3"
+    },
+    {
+      "verse_key": "26:146",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026146.mp3"
+    },
+    {
+      "verse_key": "26:147",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026147.mp3"
+    },
+    {
+      "verse_key": "26:148",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026148.mp3"
+    },
+    {
+      "verse_key": "26:149",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026149.mp3"
+    },
+    {
+      "verse_key": "26:150",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026150.mp3"
+    },
+    {
+      "verse_key": "26:151",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026151.mp3"
+    },
+    {
+      "verse_key": "26:152",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026152.mp3"
+    },
+    {
+      "verse_key": "26:153",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026153.mp3"
+    },
+    {
+      "verse_key": "26:154",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026154.mp3"
+    },
+    {
+      "verse_key": "26:155",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026155.mp3"
+    },
+    {
+      "verse_key": "26:156",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026156.mp3"
+    },
+    {
+      "verse_key": "26:157",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026157.mp3"
+    },
+    {
+      "verse_key": "26:158",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026158.mp3"
+    },
+    {
+      "verse_key": "26:159",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026159.mp3"
+    },
+    {
+      "verse_key": "26:160",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026160.mp3"
+    },
+    {
+      "verse_key": "26:161",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026161.mp3"
+    },
+    {
+      "verse_key": "26:162",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026162.mp3"
+    },
+    {
+      "verse_key": "26:163",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026163.mp3"
+    },
+    {
+      "verse_key": "26:164",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026164.mp3"
+    },
+    {
+      "verse_key": "26:165",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026165.mp3"
+    },
+    {
+      "verse_key": "26:166",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026166.mp3"
+    },
+    {
+      "verse_key": "26:167",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026167.mp3"
+    },
+    {
+      "verse_key": "26:168",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026168.mp3"
+    },
+    {
+      "verse_key": "26:169",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026169.mp3"
+    },
+    {
+      "verse_key": "26:170",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026170.mp3"
+    },
+    {
+      "verse_key": "26:171",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026171.mp3"
+    },
+    {
+      "verse_key": "26:172",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026172.mp3"
+    },
+    {
+      "verse_key": "26:173",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026173.mp3"
+    },
+    {
+      "verse_key": "26:174",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026174.mp3"
+    },
+    {
+      "verse_key": "26:175",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026175.mp3"
+    },
+    {
+      "verse_key": "26:176",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026176.mp3"
+    },
+    {
+      "verse_key": "26:177",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026177.mp3"
+    },
+    {
+      "verse_key": "26:178",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026178.mp3"
+    },
+    {
+      "verse_key": "26:179",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026179.mp3"
+    },
+    {
+      "verse_key": "26:180",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026180.mp3"
+    },
+    {
+      "verse_key": "26:181",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026181.mp3"
+    },
+    {
+      "verse_key": "26:182",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026182.mp3"
+    },
+    {
+      "verse_key": "26:183",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026183.mp3"
+    },
+    {
+      "verse_key": "26:184",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026184.mp3"
+    },
+    {
+      "verse_key": "26:185",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026185.mp3"
+    },
+    {
+      "verse_key": "26:186",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026186.mp3"
+    },
+    {
+      "verse_key": "26:187",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026187.mp3"
+    },
+    {
+      "verse_key": "26:188",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026188.mp3"
+    },
+    {
+      "verse_key": "26:189",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026189.mp3"
+    },
+    {
+      "verse_key": "26:190",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026190.mp3"
+    },
+    {
+      "verse_key": "26:191",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026191.mp3"
+    },
+    {
+      "verse_key": "26:192",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026192.mp3"
+    },
+    {
+      "verse_key": "26:193",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026193.mp3"
+    },
+    {
+      "verse_key": "26:194",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026194.mp3"
+    },
+    {
+      "verse_key": "26:195",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026195.mp3"
+    },
+    {
+      "verse_key": "26:196",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026196.mp3"
+    },
+    {
+      "verse_key": "26:197",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026197.mp3"
+    },
+    {
+      "verse_key": "26:198",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026198.mp3"
+    },
+    {
+      "verse_key": "26:199",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026199.mp3"
+    },
+    {
+      "verse_key": "26:200",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026200.mp3"
+    },
+    {
+      "verse_key": "26:201",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026201.mp3"
+    },
+    {
+      "verse_key": "26:202",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026202.mp3"
+    },
+    {
+      "verse_key": "26:203",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026203.mp3"
+    },
+    {
+      "verse_key": "26:204",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026204.mp3"
+    },
+    {
+      "verse_key": "26:205",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026205.mp3"
+    },
+    {
+      "verse_key": "26:206",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026206.mp3"
+    },
+    {
+      "verse_key": "26:207",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026207.mp3"
+    },
+    {
+      "verse_key": "26:208",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026208.mp3"
+    },
+    {
+      "verse_key": "26:209",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026209.mp3"
+    },
+    {
+      "verse_key": "26:210",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026210.mp3"
+    },
+    {
+      "verse_key": "26:211",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026211.mp3"
+    },
+    {
+      "verse_key": "26:212",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026212.mp3"
+    },
+    {
+      "verse_key": "26:213",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026213.mp3"
+    },
+    {
+      "verse_key": "26:214",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026214.mp3"
+    },
+    {
+      "verse_key": "26:215",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026215.mp3"
+    },
+    {
+      "verse_key": "26:216",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026216.mp3"
+    },
+    {
+      "verse_key": "26:217",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026217.mp3"
+    },
+    {
+      "verse_key": "26:218",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026218.mp3"
+    },
+    {
+      "verse_key": "26:219",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026219.mp3"
+    },
+    {
+      "verse_key": "26:220",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026220.mp3"
+    },
+    {
+      "verse_key": "26:221",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026221.mp3"
+    },
+    {
+      "verse_key": "26:222",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026222.mp3"
+    },
+    {
+      "verse_key": "26:223",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026223.mp3"
+    },
+    {
+      "verse_key": "26:224",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026224.mp3"
+    },
+    {
+      "verse_key": "26:225",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026225.mp3"
+    },
+    {
+      "verse_key": "26:226",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026226.mp3"
+    },
+    {
+      "verse_key": "26:227",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/026227.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mahmoud Khalil Al-Husary",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "26" }
+  }
+}

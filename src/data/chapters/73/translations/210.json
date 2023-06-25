@@ -1,0 +1,80 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Ey örtüsüne bürünmüş olan!" },
+    { "resource_id": 210, "text": "Gece kalk, ancak birazı dışında." },
+    { "resource_id": 210, "text": "Yarısı kadar yahut ondan biraz eksilt." },
+    {
+      "resource_id": 210,
+      "text": "Yahut buna biraz ekle. Kur’an’ı ağır ağır, tane tane oku."
+    },
+    {
+      "resource_id": 210,
+      "text": "Doğrusu Biz, sana, taşıması ağır bir söz vahyedeceğiz."
+    },
+    {
+      "resource_id": 210,
+      "text": "Gerçekten, gece kalkışı etki bakımından daha kuvvetli ve okuma bakımından da daha sağlamdır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Gündüz ise senin için uzun bir uğraş vardır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Rabbinin ismini zikret ve her şeyden kendini çekerek yalnızca O'na yönel."
+    },
+    {
+      "resource_id": 210,
+      "text": "O, doğunun da batının da Rabbidir. O’ndan başka (hak) bir ilah da yoktur. Öyleyse O'nu vekil edin."
+    },
+    {
+      "resource_id": 210,
+      "text": "Onların söylediklerine katlan ve onlardan güzel bir şekilde ayrıl."
+    },
+    {
+      "resource_id": 210,
+      "text": "Yalanlayan o nimet sahipleri ile beni başbaşa bırak ve onlara azıcık mühlet ver."
+    },
+    {
+      "resource_id": 210,
+      "text": "Çünkü bizim yanımızda ağır bukağılar ve yakıcı bir ateş var."
+    },
+    {
+      "resource_id": 210,
+      "text": "Boğazı tıkayan bir yiyecek ve acı veren bir azap vardır!"
+    },
+    {
+      "resource_id": 210,
+      "text": "O günde yer ve dağlar sarsılır, dağlar da yığılarak akıp dağılan kum gibi olur."
+    },
+    {
+      "resource_id": 210,
+      "text": "Biz, Firavun’a bir rasûl gönderdiğimiz gibi size de üzerinize şahit olacak bir rasûl gönderdik."
+    },
+    {
+      "resource_id": 210,
+      "text": "Firavun, rasûle karşı çıktı. Biz de onu müthiş bir şekilde yakaladık."
+    },
+    {
+      "resource_id": 210,
+      "text": "Eğer küfredecek olursanız, çocukların saçlarını ağartan bir günde, siz kendinizi nasıl koruyacaksınız?"
+    },
+    {
+      "resource_id": 210,
+      "text": "O günün dehşetiyle gökyüzü yarılacak, O'nun vaadi mutlaka yerine gelecektir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz bunlar bir öğüttür. Kim dilerse Rabbine ulaştıran bir yol tutar."
+    },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz Rabbin biliyor ki, gerçekten sen gecenin üçte ikisinden daha azı ve (bazen) yarısı ve (bazen de) üçte biri kadar (namaz için) kalkıyorsun. Beraberinde bulunanlardan (ashâbından) bir topluluk da (böyle yapıyor). Geceyi ve gündüzü Allah takdir eder. O sizin, bunu sayamayacağınızı (buna güç yetiremeyeceğinizi) bildiği için sizi bağışladı. Öyleyse Kur’an’dan (bildiğiniz) kolayınıza geleni okuyun. İçinizden hasta olacakları, bir kısmınızın yeryüzünde dolaşıp Allah’ın rızkını arayacağını, diğerlerinin Allah yolunda savaşacağını da bilmektedir. Öyleyse ondan kolayınıza geleni okuyun, namazı ikame edin, zekâtı verin ve Allah’a güzel bir borç (ile borç) verin. Kendiniz için hayır olarak (dünyada) ne sunarsanız; onu Allah katında daha iyi, daha büyük bir mükâfat ile (karşılık verilmiş) bulursunuz. Allah’tan bağışlanma dileyin. Şüphesiz Allah; çok bağışlayıcıdır, çok merhametlidir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "73" }
+  }
+}

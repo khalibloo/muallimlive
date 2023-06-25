@@ -1,0 +1,49 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Głoś! w imię twego Pana, który stworzył!" },
+    {
+      "resource_id": 42,
+      "text": "Stworzył człowieka z grudki krwi zakrzepłej!"
+    },
+    { "resource_id": 42, "text": "Głoś! Twój Pan jest najszlachetniejszy!" },
+    { "resource_id": 42, "text": "Ten, który nauczył człowieka przez pióro;" },
+    {
+      "resource_id": 42,
+      "text": "Nauczył człowieka tego, czego on nie wiedział."
+    },
+    {
+      "resource_id": 42,
+      "text": "Niestety, nie! Zaprawdę, człowiek się buntuje,"
+    },
+    { "resource_id": 42, "text": "Ponieważ czuje się niezależnym!" },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, powrócisz przecież do twojego Pana!"
+    },
+    { "resource_id": 42, "text": "Czy widziałeś tego, który zabrania" },
+    { "resource_id": 42, "text": "Słudze modlić się?" },
+    { "resource_id": 42, "text": "Czy sądzisz, iż on jest na drodze prostej" },
+    { "resource_id": 42, "text": "Albo że zaleca bogobojność?" },
+    {
+      "resource_id": 42,
+      "text": "Czy też sądzisz, iż on za kłamstwo uznaje prawdę i odwraca się?"
+    },
+    { "resource_id": 42, "text": "Czyż on nie wie, że Bóg widzi?" },
+    {
+      "resource_id": 42,
+      "text": "Niech się ma na baczności! Jeśli nie zaprzestanie, to, zaprawdę, pociągniemy go za kosmyk;"
+    },
+    { "resource_id": 42, "text": "Za kosmyk kłamliwy i grzeszny!" },
+    { "resource_id": 42, "text": "Niech on wezwie swoich popleczników!" },
+    { "resource_id": 42, "text": "My wezwiemy strażników!" },
+    {
+      "resource_id": 42,
+      "text": "Ależ nie! Nie słuchaj go! Wybijaj pokłony i zbliż się!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "96" }
+  }
+}

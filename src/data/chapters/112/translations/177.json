@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 177,
+      "text": "Ngươi hãy nói - hỡi Thiên Sứ -: Allah là Đấng duy nhất được tôn thờ, không có bất cứ thượng đế nào xứng đáng ngoài Ngài được thờ phượng."
+    },
+    {
+      "resource_id": 177,
+      "text": "Allah là Đấng không cần bất cứ thứ gì cũng chẳng lệ thuộc bất cứ điều gì, Ngài là Đấng mà vạn vật luôn cần đến Ngài."
+    },
+    {
+      "resource_id": 177,
+      "text": "Ngài không có con cũng chẳng có đấng sinh thành nào."
+    },
+    {
+      "resource_id": 177,
+      "text": "Thuộc tính của Ngài, tên của Ngài và các hành động của Ngài đều là siêu việt, không có một ai (cái gì) có thể so sánh với Ngài."
+    }
+  ],
+  "meta": {
+    "translation_name": "Vietnamese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 177, "chapter_number": "112" }
+  }
+}

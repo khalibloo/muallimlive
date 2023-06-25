@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 167,
+      "text": "I swear by those (horses) that run snorting,"
+    },
+    {
+      "resource_id": 167,
+      "text": "then those that create sparks by striking (their hoofs) on the stones,"
+    },
+    { "resource_id": 167, "text": "then those that invade at morning," },
+    { "resource_id": 167, "text": "and raise a trail of dust therein," },
+    {
+      "resource_id": 167,
+      "text": "then enter, at the same time, into the centre of the (opposing) host,"
+    },
+    {
+      "resource_id": 167,
+      "text": "man is, indeed, very ungrateful to his Lord,"
+    },
+    { "resource_id": 167, "text": "and he himself is a witness to that fact." },
+    {
+      "resource_id": 167,
+      "text": "And in his love for wealth, he is very intense."
+    },
+    {
+      "resource_id": 167,
+      "text": "Does he not then know (what will happen) when all that is contained in the graves will be overturned,"
+    },
+    {
+      "resource_id": 167,
+      "text": "and all that is contained in the hearts will be exposed."
+    },
+    {
+      "resource_id": 167,
+      "text": "Surely your Lord, that day, will be fully aware of them."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "100" }
+  }
+}

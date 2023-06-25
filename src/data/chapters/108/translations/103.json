@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Por certo, Nós te demos Al-Kawthar." },
+    {
+      "resource_id": 103,
+      "text": "Então, ora a teu Senhor e imola as oferendas."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, quem te odeia será ele o sem posteridade."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "108" }
+  }
+}

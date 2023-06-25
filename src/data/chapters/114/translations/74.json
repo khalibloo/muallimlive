@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 74,
+      "text": "Бигӯ: «Ба Парвардигори мардум паноҳ мебарам,"
+    },
+    { "resource_id": 74, "text": "фармонравои мардум," },
+    { "resource_id": 74, "text": "Худои мардум," },
+    { "resource_id": 74, "text": "аз шарру васвасагари пинҳоншаванда," },
+    { "resource_id": 74, "text": "он кӣ дар дилҳои мардум васваса мекунад," },
+    { "resource_id": 74, "text": "хоҳ аз ҷинниён бошад ё аз одамиён!" }
+  ],
+  "meta": {
+    "translation_name": "Tajik",
+    "author_name": "AbdolMohammad Ayati",
+    "filters": { "resource_id": 74, "chapter_number": "114" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Dahil sa pagkahirati sa Quraysh –" },
+    {
+      "resource_id": 211,
+      "text": "sa pagkahirati nila sa paglalakbay sa taglamig at tag-init –"
+    },
+    {
+      "resource_id": 211,
+      "text": "ay sumamba sila sa Panginoon ng Bahay na ito,"
+    },
+    {
+      "resource_id": 211,
+      "text": "na nagpakain sa kanila mula sa isang pagkagutom at nagpatiwasay sa kanila mula sa isang pangamba."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "106" }
+  }
+}

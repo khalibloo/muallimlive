@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Tako mi vremena," },
+    { "resource_id": 25, "text": "doista je čovjek na gubitku," },
+    {
+      "resource_id": 25,
+      "text": "samo nisu oni koji vjeruju i dobra djela čine, i koji jedni drugima Istinu preporučuju i koji jedni drugima preporučuju strpljenje."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "103" }
+  }
+}

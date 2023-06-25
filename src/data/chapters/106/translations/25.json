@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Zbog udruživanja: Kurejšija," },
+    {
+      "resource_id": 25,
+      "text": "udruživanja njihova da zimi i ljeti putuju,"
+    },
+    { "resource_id": 25, "text": "neka oni Gospodaru ove Kuće ibadet čine," },
+    { "resource_id": 25, "text": "Koji ih gladne hrani i od straha brani." }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "106" }
+  }
+}

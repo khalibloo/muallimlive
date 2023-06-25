@@ -1,0 +1,73 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Ndayira e ggulu eririmu ebifo omutambulira e munyeenye (nga mwe muli e njuba n’omwezi)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Era ndayira olunaku olwalagaanyisibwa (olunaku lw’enkomerero)"
+    },
+    {
+      "resource_id": 232,
+      "text": "Era ndayira oyo aliwa obujulizi n’oyo gwe balibuwaako (ku lunaku lw’enkomerero)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Katonda yagoba mu kusaasirakwe abo abaasima agannya."
+    },
+    { "resource_id": 232, "text": "Gebaakumamu omuliro ogubumbujja." },
+    { "resource_id": 232, "text": "Bwe baatuula awo ku mabbali waagwo." },
+    {
+      "resource_id": 232,
+      "text": "Nga bo (bennyini) balaba buli kyonna kyebakola ku bakkiriza."
+    },
+    {
+      "resource_id": 232,
+      "text": "Tebaalina kye baali babavunaana       okugyako okukkiriza Katonda oweekitiibwa atenderezebwa."
+    },
+    {
+      "resource_id": 232,
+      "text": "Oyo, obufuzi bwe ggulu omusanvu n'ensi bwonna bubwe. Era Katonda alaba buli kintu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima abo abaawalagganya abakkiriza abasajja n’abakkiriza abakazi ate ne bateenenya, bakutuukibwako e bibonerezo       by’omuliro Jahannama era balina      e bibonerezo by’omuliro ogwokya ennyo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima abo abakkiriza ne bakola e mirimu e mirungi bajja kufuna e jjana nga mukulukutira muyo emigga. Okwo nno kwe kwesiima okwannamaddala."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima okukwata kwa Mukamaawo kwamaanyi nnyo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Kubanga yye ye mutandisi wa buli kintu era yewookubizzaawo."
+    },
+    { "resource_id": 232, "text": "Era musonyiyi nnyo, era abaagala nnyo." },
+    { "resource_id": 232, "text": "Yye ye nannyini Arishi, Oweekitiibwa." },
+    { "resource_id": 232, "text": "Akola buli ky’aba ayagadde." },
+    { "resource_id": 232, "text": "Wali owulidde ku byafaayo by’amagye." },
+    { "resource_id": 232, "text": "Aga Firawo n’abantu ba Thamuud?" },
+    {
+      "resource_id": 232,
+      "text": "Wabula abo abatakkiriza bali mu        kulimbisa."
+    },
+    { "resource_id": 232, "text": "So nga Katonda abeetoolodde." },
+    {
+      "resource_id": 232,
+      "text": "Wabula yo Kur'ani (eyassibwa ku Nabbi Muhammad) ya kitiibwa."
+    },
+    {
+      "resource_id": 232,
+      "text": "Eri mu ggwandiikiro erikuumwa          obutiribiri."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "85" }
+  }
+}

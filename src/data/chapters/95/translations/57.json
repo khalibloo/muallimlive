@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Watteeni wazzaytoon" },
+    { "resource_id": 57, "text": "Watoori seeneen" },
+    { "resource_id": 57, "text": "Wahatha albaladi al-ameen" },
+    { "resource_id": 57, "text": "Laqad khalaqna al-insana fee ahsanitaqweem" },
+    { "resource_id": 57, "text": "Thumma radadnahu asfala safileen" },
+    {
+      "resource_id": 57,
+      "text": "Illa allatheena amanoowaAAamiloo assalihati falahum ajrun ghayrumamnoon"
+    },
+    { "resource_id": 57, "text": "Fama yukaththibuka baAAdu biddeen" },
+    { "resource_id": 57, "text": "Alaysa Allahu bi-ahkami alhakimeen" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "95" }
+  }
+}

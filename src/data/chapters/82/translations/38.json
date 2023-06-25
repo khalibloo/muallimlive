@@ -1,0 +1,64 @@
+{
+  "translations": [
+    { "resource_id": 38, "text": "Amay ka so langit na mangabbngkag," },
+    { "resource_id": 38, "text": "Go amay ka so manga bitoon na mikayambr," },
+    {
+      "resource_id": 38,
+      "text": "Go amay ka so manga kalodan na pakandadanonaan,"
+    },
+    { "resource_id": 38, "text": "Go amay ka so manga kobor na pamaklidn," },
+    {
+      "resource_id": 38,
+      "text": "Na katokawan o ginawa so piyakaona niyan ago so piyakaori niyan."
+    },
+    {
+      "resource_id": 38,
+      "text": "Hay manosiya! antonaa i miyakalimpang rka ko Kadnan ka, a Maginawa,"
+    },
+    {
+      "resource_id": 38,
+      "text": "So miyadn rka, go mithaong rka phiyapiya, go mizokod rka?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Apiya antonaa bontal i kabaya Iyan na piyakimbontal Iyan rka."
+    },
+    { "resource_id": 38, "text": "Sabnar, a kna ka oongkirn iyo so kokoman!" },
+    {
+      "resource_id": 38,
+      "text": "A mataan! a titho a adn a khisisiyap rkano (a manga malaikat),"
+    },
+    { "resource_id": 38, "text": "A khisslaan, - a manga panonorat:" },
+    { "resource_id": 38, "text": "A katawan iran so gii niyo nggolawlaan." },
+    {
+      "resource_id": 38,
+      "text": "Mataan! a so miyamaratiyaya, na khatago dn ko pakadarandang."
+    },
+    {
+      "resource_id": 38,
+      "text": "Na mataan! a so manga baradosa na khatago dn ko naraka Jahim;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Phamakasold siran on ko alongan a kapamalas,"
+    },
+    { "resource_id": 38, "text": "Na di siran on mamakaawa." },
+    {
+      "resource_id": 38,
+      "text": "Na antawaa i miyakandao rka o antonaa i alongan a kapamalas?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Oriyan iyan, na antawaa i miyakandao rka o antonaa i alongan a kapamalas?"
+    },
+    {
+      "resource_id": 38,
+      "text": "So alongan a da a mapkhapaar o isa a ginawa ko isa a ginawa a mayto bo: Ka so kokoman sa alongan oto, na rk o Allah."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "82" }
+  }
+}

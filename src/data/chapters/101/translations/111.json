@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Qalbii rukuttuun (Qiyaamaan)." },
+    { "resource_id": 111, "text": "Qalbii rukuttuun maali?" },
+    {
+      "resource_id": 111,
+      "text": "Qalbii rukuttuun maal akka taate maaltu si beeksise?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Guyyaa namni akka billaacha faffacaafamee ta’u."
+    },
+    {
+      "resource_id": 111,
+      "text": "(Guyyaa) gaarreen akka jirbii iddamee (qaasasame) ta'u."
+    },
+    { "resource_id": 111, "text": "Namni madaalli (hojii) isaa ulfaatte," },
+    { "resource_id": 111, "text": "Inni jireenya jaalatamtuu keessa ta'a." },
+    {
+      "resource_id": 111,
+      "text": "Namni madaalli (hojii) isaa salphatte immoo,"
+    },
+    { "resource_id": 111, "text": "Haati isaa “Haawiyaa[]”dha." },
+    {
+      "resource_id": 111,
+      "text": "Isheen (Haawiyaan) maal akka taate maaltu si beeksise?"
+    },
+    { "resource_id": 111, "text": "(Isheen) ibidda gubduudha." }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "101" }
+  }
+}

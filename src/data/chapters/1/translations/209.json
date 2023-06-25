@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "Nel Nome di Allāh, il Compassionevole, il Misericordioso"
+    },
+    { "resource_id": 209, "text": "La lode sia ad Allāh, Dio dei Mondi" },
+    { "resource_id": 209, "text": "il Compassionevole, il Misericordioso" },
+    { "resource_id": 209, "text": "Sovrano del Giorno del Giudizio" },
+    { "resource_id": 209, "text": "\"Te adoriamo e a Te imploriamo aiuto!" },
+    { "resource_id": 209, "text": "Guidaci alla retta via" },
+    {
+      "resource_id": 209,
+      "text": "la via di quelli a cui hai concesso la Tua grazia, non di quelli che sono nella tua ira, né di quelli che sono in perdizione."
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "1" }
+  }
+}

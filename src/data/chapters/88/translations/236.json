@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Ma tebbweb ik id teqsiî n te$wlalt?" },
+    { "resource_id": 236, "text": "Ad anzen wudmawen, assen." },
+    { "resource_id": 236, "text": "Ad xedmen, ad merten." },
+    { "resource_id": 236, "text": "Ad ô$en di tmes izehren." },
+    { "resource_id": 236, "text": "Ad asen sswen aman ippayzagen." },
+    { "resource_id": 236, "text": "Ur asen illi wuççi, siwa timeôéuga." },
+    { "resource_id": 236, "text": "Ur ssufayent, ur sseôwayent." },
+    { "resource_id": 236, "text": "Udmawen, assen nnecôaêen. öÔ" },
+    { "resource_id": 236, "text": "Öuvan laâtab nnsen," },
+    { "resource_id": 236, "text": "di Loennet aâlayen." },
+    { "resource_id": 236, "text": "Yir awal, ur din sellen." },
+    { "resource_id": 236, "text": "Degs, tala ippazalen." },
+    { "resource_id": 236, "text": "Degs, imîeôêen aâlayen." },
+    { "resource_id": 236, "text": "Iqbucen wejden." },
+    { "resource_id": 236, "text": "Tisumtiwin iderrsen." },
+    { "resource_id": 236, "text": "Tiôakniwin issan." },
+    {
+      "resource_id": 236,
+      "text": "Acimi ur pmuqulen ara al$wem, amek ipwaxleq,"
+    },
+    { "resource_id": 236, "text": "u igenni, amek iuli," },
+    { "resource_id": 236, "text": "u idurar, amek âaoôen," },
+    { "resource_id": 236, "text": "u tamurt, amek temsuwa?" },
+    { "resource_id": 236, "text": "Ihi, mmekti! Keçç d win kan ismektayen." },
+    { "resource_id": 236, "text": "Ur telliv d amôay nnsen." },
+    { "resource_id": 236, "text": "Kkes ed win iwexxôen, ijehlen." },
+    { "resource_id": 236, "text": "Ad as Iheggi Öebbi aâaqeb abarar mavi." },
+    { "resource_id": 236, "text": "Ni$ $uône£ tu$alin nnsen!" },
+    { "resource_id": 236, "text": "Sinna, s tidep, fella£ aqeîîi nnsen." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "88" }
+  }
+}

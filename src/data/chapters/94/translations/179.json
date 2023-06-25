@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 179,
+      "text": "Talaga ngang nagpaluwag si Allāh para sa iyo ng dibdib mo saka nagpaibig Siya sa iyo ng pagtanggap ng kasi."
+    },
+    { "resource_id": 179, "text": "Nagtanggal Kami sa iyo ng kasalanan," },
+    {
+      "resource_id": 179,
+      "text": "na pumagod sa iyo hanggang sa halos mabali ang likod mo."
+    },
+    {
+      "resource_id": 179,
+      "text": "Nagpataas Kami para sa iyo ng pagbanggit sa iyo sapagkat ikaw ay naging binabanggit sa adhān at iqāmah at sa iba pa sa dalawang ito."
+    },
+    {
+      "resource_id": 179,
+      "text": "Kaya tunay na kasama sa katindihan at kagipitan ay kagaanan at kaluwagan."
+    },
+    {
+      "resource_id": 179,
+      "text": "Tunay na kasama sa katindihan at kagipitan ay kagaanan at kaluwagan. Kapag nalaman mo iyon ay huwag ngang magpahilakbot sa iyo ang pananakit ng mga kababayan mo at huwag ngang bumalakid sa iyo ito sa pag-aanyaya tungo kay Allāh."
+    },
+    {
+      "resource_id": 179,
+      "text": "Kaya kapag nakatapos ka sa mga gawain mo at nagbigay-wakas sa mga ito ay magsipag ka sa pagsamba sa Panginoon mo,"
+    },
+    {
+      "resource_id": 179,
+      "text": "at maglagay ka ng pagmimithi mo at paglalayon mo kay Allāh lamang."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tagalog Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 179, "chapter_number": "94" }
+  }
+}

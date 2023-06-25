@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 199,
+      "text": "Se distraen (de obedecer a Al-lah) por competir en la acumulación de bienes y poder"
+    },
+    { "resource_id": 199, "text": "hasta que les llegue la muerte." },
+    {
+      "resource_id": 199,
+      "text": "¡No deberían hacerlo!, pues ya sabrán (lo que les espera)."
+    },
+    { "resource_id": 199, "text": "¡Sí!, ya sabrán (lo que les espera)." },
+    {
+      "resource_id": 199,
+      "text": "Si realmente tuvieran certeza (de la verdad, dejarían de acumular bienes y poder y obedecerían a Al-lah)."
+    },
+    {
+      "resource_id": 199,
+      "text": "(Mas) ciertamente, verán el fuego del Infierno."
+    },
+    { "resource_id": 199, "text": "¡Sí!, lo verán con sus propios ojos." },
+    {
+      "resource_id": 199,
+      "text": "Y después serán cuestionados (y juzgados) el Día de la Resurrección sobre (el uso que hicieron de) las gracias (que Al-lah les concedió)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "102" }
+  }
+}

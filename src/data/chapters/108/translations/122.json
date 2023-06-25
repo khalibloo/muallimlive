@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 122,
+      "text": "(हे नबी!) हमने तुम्हें कौसर प्रदान किया है।[ <sup foot_note=134937>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "तो तुम अपने पालनहार के लिए नमाज़ पढ़ो तथा बलि दो।[ <sup foot_note=134938>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "निःसंदेह तुम्हारा शत्रु ही बे नाम निशान है।[ <sup foot_note=134939>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "108" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "A cobiça vos entreterá," },
+    { "resource_id": 43, "text": "Até que desçais aos sepulcros." },
+    { "resource_id": 43, "text": "Qual! Logo o sabereis!" },
+    { "resource_id": 43, "text": "Novamente, qual! Logo o sabereis!" },
+    { "resource_id": 43, "text": "Qual! Se soubésseis da ciência certa!" },
+    {
+      "resource_id": 43,
+      "text": "Verdadeiramente, então, havíeis de ver a fogueira do inferno!"
+    },
+    { "resource_id": 43, "text": "Logo a vereis claramente." },
+    {
+      "resource_id": 43,
+      "text": "Então, sereis interrogados, nesse dia, a respeito dos prazeres (mundanos)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "102" }
+  }
+}

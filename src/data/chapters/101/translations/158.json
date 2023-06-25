@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 158, "text": "وہ کھٹکھٹانے والی۔" },
+    { "resource_id": 158, "text": "کیا ہے وہ کھٹکھٹانے والی !" },
+    {
+      "resource_id": 158,
+      "text": "اور تم کیا سمجھے کہ کیا ہے وہ کھٹکھٹانے والی !"
+    },
+    {
+      "resource_id": 158,
+      "text": "جس دن لوگ بکھرے ہوئے پتنگوں کی مانند ہوں گے۔"
+    },
+    {
+      "resource_id": 158,
+      "text": "اور پہاڑ دھنی ہوئی اون کی مانند ہوجائیں گے۔"
+    },
+    {
+      "resource_id": 158,
+      "text": "تو جن لوگوں کے (نیکیوں کے) پلڑے بھاری ہوں گے۔"
+    },
+    { "resource_id": 158, "text": "تو وہ ہوگا عیش و عشرت کی زندگی میں۔" },
+    { "resource_id": 158, "text": "اور جس (کی نیکیوں) کے پلڑے ہلکے ہوئے۔" },
+    { "resource_id": 158, "text": "تو اس کا ٹھکانہ ایک گڑھا ہوگا۔" },
+    { "resource_id": 158, "text": "اور تم کیا جانتے ہو کہ وہ کیا ہے ؟" },
+    { "resource_id": 158, "text": "آگ ہے دہکتی ہوئی !" }
+  ],
+  "meta": {
+    "translation_name": "Bayan-ul-Quran",
+    "author_name": "Dr. Israr Ahmad",
+    "filters": { "resource_id": 158, "chapter_number": "101" }
+  }
+}

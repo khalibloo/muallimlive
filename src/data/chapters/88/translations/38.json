@@ -1,0 +1,56 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Ino a miyakatalingoma rka so totholan ko khikolob?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Adn a manga paras, sa alongan oto, a khipakatitipadng,"
+    },
+    { "resource_id": 38, "text": "A gomagalbk, a khidodokawan," },
+    { "resource_id": 38, "text": "A phamakasold ko apoy a tanto a mayaw," },
+    { "resource_id": 38, "text": "A phphamakainomn ko bowalan a plikabo." },
+    { "resource_id": 38, "text": "Daa pangn´ngkn iran a rowar ko sorokn," },
+    { "resource_id": 38, "text": "Di ipkhawlit, go di phakarn sa kaor." },
+    {
+      "resource_id": 38,
+      "text": "Adn a manga paras, sa alongan oto, a madadarandang,"
+    },
+    { "resource_id": 38, "text": "Sabap ko galbk iran na masosoat siran;" },
+    { "resource_id": 38, "text": "Sii ko sorga a maporo," },
+    { "resource_id": 38, "text": "Daa khan´g iran on a ilang:" },
+    { "resource_id": 38, "text": "Katatagoan sa manga bowalan a pphamanoga;" },
+    { "resource_id": 38, "text": "Katatagoan sa manga kantir a manga poporo," },
+    { "resource_id": 38, "text": "Go manga baso a khiaadirn," },
+    { "resource_id": 38, "text": "Go manga olona a khiaantibn," },
+    { "resource_id": 38, "text": "Go manga paramadali a khikakayatn." },
+    {
+      "resource_id": 38,
+      "text": "Ba iran di pnggdagdaa so manga onta o andamanaya i kiyaadna on?"
+    },
+    { "resource_id": 38, "text": "Go so langit o andamanaya i kiniporoon on?" },
+    {
+      "resource_id": 38,
+      "text": "Go so manga palaw o andamanaya i kiyapamakatindga on?"
+    },
+    { "resource_id": 38, "text": "Go so lopa o andamanaya i kiyakayata on?" },
+    {
+      "resource_id": 38,
+      "text": "Na pamakain´ngka ka, a ska na matag pphamakain´ngka."
+    },
+    { "resource_id": 38, "text": "Kna a ba siran rka pakiphan´gln," },
+    { "resource_id": 38, "text": "Ogaid na sadn sa tomalikhod go mongkir," },
+    { "resource_id": 38, "text": "Na isiksa on o Allah so siksa a mala." },
+    { "resource_id": 38, "text": "Mataan! a sii Rkami so khandodan iran;" },
+    {
+      "resource_id": 38,
+      "text": "Oriyan iyan na mataan! a sii Rkami so itongan kiran."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "88" }
+  }
+}

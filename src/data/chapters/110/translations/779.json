@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "Lorsque, t’apportant Son secours, Allah te fera triompher<sup foot_note=205513>1</sup>"
+    },
+    {
+      "resource_id": 779,
+      "text": "et que tu verras les hommes embrasser la religion d’Allah par groupes entiers,"
+    },
+    {
+      "resource_id": 779,
+      "text": "célèbre, par les louanges, la gloire de ton Seigneur et implore Son pardon. Il accepte toujours le repentir de Ses serviteurs dévoués."
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "110" }
+  }
+}

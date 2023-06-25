@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 222, "text": "Зор уақиға," },
+    { "resource_id": 222, "text": "Ол зор уақиға не нәрсе?" },
+    { "resource_id": 222, "text": "Ол зор уақиғаның не екенін білесің бе?" },
+    {
+      "resource_id": 222,
+      "text": "Ол күні адам баласы таралған паруандай болады.(С.7-А)"
+    },
+    { "resource_id": 222, "text": "Таулар түтілген жүндей болады." },
+    { "resource_id": 222, "text": "Міне сонда біреудің таразысы ауыр тартса," },
+    {
+      "resource_id": 222,
+      "text": "Онда ол,разы болатын бір тіршілікте болады."
+    },
+    { "resource_id": 222, "text": "Ал енді біреудің таразысы жеңіл тартса," },
+    { "resource_id": 222, "text": "Онда оның орны «һауя» болады." },
+    { "resource_id": 222, "text": "Ол һауяның не екенін білесің бе?" },
+    { "resource_id": 222, "text": "Ол,жалындаған от." }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "101" }
+  }
+}

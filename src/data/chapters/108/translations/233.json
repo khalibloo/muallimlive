@@ -1,0 +1,12 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "אכן, נתנו לך את נהר אל-כאות'ר," },
+    { "resource_id": 233, "text": "לכן, התפלל לריבונך וזבח לו זבח" },
+    { "resource_id": 233, "text": "אכן, שונאך הוא הנכרת!" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "108" }
+  }
+}

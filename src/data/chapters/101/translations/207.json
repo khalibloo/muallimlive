@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "The stunning [blow]!" },
+    { "resource_id": 207, "text": "What is The stunning [blow]?" },
+    {
+      "resource_id": 207,
+      "text": "What will make you realize what is The stunning [blow]?"
+    },
+    {
+      "resource_id": 207,
+      "text": "Some day mankind will act like scattered moths"
+    },
+    {
+      "resource_id": 207,
+      "text": "and the mountains seem like tufts of yarn!"
+    },
+    { "resource_id": 207, "text": "So anyone whose scales are weighted down" },
+    { "resource_id": 207, "text": "[will land] in pleasant living;" },
+    { "resource_id": 207, "text": "while whoever's scales are light" },
+    { "resource_id": 207, "text": "will have a Pit to house him." },
+    {
+      "resource_id": 207,
+      "text": "What will make you realize what this will be like?"
+    },
+    { "resource_id": 207, "text": "Scorching fire!" }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "101" }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 122,
+      "text": "अल्लाह के नाम से, जो अत्यन्त कृपाशील तथा दयावान् है।"
+    },
+    {
+      "resource_id": 122,
+      "text": "सब प्रशंसायें अल्लाह[ के लिए हैं,  जो सारे संसारों का पालनहार<sup foot_note=132773>1</sup> है।"
+    },
+    {
+      "resource_id": 122,
+      "text": "जो अत्यंत कृपाशील और दयावान्[ है। <sup foot_note=132774>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "जो प्रतिकार[ (बदले) के दिन का मालिक है। <sup foot_note=132775>1</sup>"
+    },
+    {
+      "resource_id": 122,
+      "text": "(हे अल्लाह!) हम केवल तुझी को पूजते हैं और केवल तुझी से सहायता मांगते[ हैं। <sup foot_note=132776>1</sup>"
+    },
+    { "resource_id": 122, "text": "हमें सुपथ (सीधा मार्ग) दिखा।" },
+    {
+      "resource_id": 122,
+      "text": "उनका मार्ग, जिनपर तूने पुरस्कार किया।[ उनका नहीं, जिनपर तेरा प्रकोप<sup foot_note=132777>1</sup> हुआ और न ही उनका, जो कुपथ (गुमराह) हो गये।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "1" }
+  }
+}

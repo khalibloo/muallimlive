@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 43,
+      "text": "Quando te chegar o socorro de Deus e o triunfo,"
+    },
+    {
+      "resource_id": 43,
+      "text": "E vires entrar a gente, em massa, na religião de Deus,"
+    },
+    {
+      "resource_id": 43,
+      "text": "Celebra, então, os louvores do teu Senhor, e implora o Seu perdão, porque Ele é Remissório."
+    }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "110" }
+  }
+}

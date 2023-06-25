@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 823,
+      "text": "May the hands of Abu Lahab perish, may he be ruined."
+    },
+    {
+      "resource_id": 823,
+      "text": "Neither his wealth nor his gains will avail him."
+    },
+    { "resource_id": 823, "text": "He shall soon enter a Blazing Fire," },
+    { "resource_id": 823, "text": "and also his wife who carries the fuel," },
+    {
+      "resource_id": 823,
+      "text": "with a rope of twisted fibre round her neck.<sup foot_note=213012>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "111" }
+  }
+}

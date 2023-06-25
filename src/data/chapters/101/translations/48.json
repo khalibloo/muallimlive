@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "[EN DAG skall ni höra] det dundrande slaget!"
+    },
+    { "resource_id": 48, "text": "Vad betyder det dundrande slaget" },
+    {
+      "resource_id": 48,
+      "text": "Vad kan låta dig förstå vad detta dundrande slag betyder"
+    },
+    {
+      "resource_id": 48,
+      "text": "[Det skall dåna] en Dag då människorna myllrar och svärmar som mott och mal,"
+    },
+    {
+      "resource_id": 48,
+      "text": "och då bergen [förvandlas] till högar av kardad ull."
+    },
+    {
+      "resource_id": 48,
+      "text": "Då skall den vars vågskål [med goda handlingar] väger tungt"
+    },
+    { "resource_id": 48, "text": "gå till ett liv i lycksalighet," },
+    { "resource_id": 48, "text": "men den vars vågskål väger lätt" },
+    { "resource_id": 48, "text": "skall se sig innesluten i en avgrund." },
+    {
+      "resource_id": 48,
+      "text": "Och vad kan låta dig förstå vad denna [avgrund] betyder"
+    },
+    { "resource_id": 48, "text": "En [famn av] het eld!" }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "101" }
+  }
+}

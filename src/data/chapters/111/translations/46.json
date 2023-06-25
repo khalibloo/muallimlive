@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Waxaa khasaaray Gacmihii Abuulahab, halaagmayna."
+    },
+    {
+      "resource_id": 46,
+      "text": "Waxna uma tarin Xoolihiisii iyo wuxuu kasbadayna."
+    },
+    { "resource_id": 46, "text": "Wuxuuna gali Naar Olal leh." },
+    {
+      "resource_id": 46,
+      "text": "Haweenaydiisii Qoryaha xambaari jirtayna (waxay gali Naar)."
+    },
+    { "resource_id": 46, "text": "Luqunteedana waxaa la yeeli Xadhig Liif ah." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "111" }
+  }
+}

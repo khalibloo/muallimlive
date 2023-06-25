@@ -1,0 +1,43 @@
+{
+  "translations": [
+    {
+      "resource_id": 44,
+      "text": "Slăveşte numele Domnului tău, Prea-Înaltul,"
+    },
+    { "resource_id": 44, "text": "Cel ce plăsmuieşte şi şlefuieşte," },
+    { "resource_id": 44, "text": "Cel ce sorteşte şi călăuzeşte," },
+    { "resource_id": 44, "text": "Cel ce păşunea o face ivită" },
+    { "resource_id": 44, "text": "şi o preface apoi în fâneaţă înnegrită." },
+    { "resource_id": 44, "text": "Noi te vom pune să citeşti şi nu vei uita," },
+    {
+      "resource_id": 44,
+      "text": "decât ceea ce Dumnezeu voieşte, căci El cunoaşte cele dezvăluite şi cele tăinuite."
+    },
+    { "resource_id": 44, "text": "Pe tine te vom înlesni întru înlesnire." },
+    {
+      "resource_id": 44,
+      "text": "Adu-le aminte, căci aducerea aminte este de folos."
+    },
+    { "resource_id": 44, "text": "Cel care se teme îşi va aduce aminte," },
+    { "resource_id": 44, "text": "însă cel preanemernic se va da la o parte." },
+    { "resource_id": 44, "text": "Acela va fi aruncat în Focul cel Mare," },
+    { "resource_id": 44, "text": "unde nici nu va muri şi nici nu va trăi." },
+    { "resource_id": 44, "text": "Fericit va fi cel care se mântuie," },
+    {
+      "resource_id": 44,
+      "text": "cel care aminteşte numele Domnului său şi se roagă."
+    },
+    { "resource_id": 44, "text": "Voi sunteţi legaţi de Viaţa de Acum," },
+    {
+      "resource_id": 44,
+      "text": "însă Viaţa de Apoi este mai bună şi mai trainică.."
+    },
+    { "resource_id": 44, "text": "Aşa este şi în sulurile cele dintâi," },
+    { "resource_id": 44, "text": "sulurile lui Abraham şi ale lui Moise" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "87" }
+  }
+}

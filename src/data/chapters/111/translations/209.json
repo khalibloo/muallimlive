@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "Siano rovinate le mani di Abū Lahab, sia rovinato!"
+    },
+    {
+      "resource_id": 209,
+      "text": "Non gli è stata utile la sua ricchezza e ciò che ha accumulato!"
+    },
+    { "resource_id": 209, "text": "Si brucerà nel Fuoco divampante;" },
+    { "resource_id": 209, "text": "e sua moglie, la portatrice della legna," },
+    {
+      "resource_id": 209,
+      "text": "sul suo collo, una corda di fibra ﴾mased – مَسَد ﴿-"
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "111" }
+  }
+}

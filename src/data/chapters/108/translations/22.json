@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 22,
+      "text": "To thee have We granted the Fount (of Abundance)."
+    },
+    {
+      "resource_id": 22,
+      "text": "Therefore to thy Lord turn in Prayer and Sacrifice."
+    },
+    {
+      "resource_id": 22,
+      "text": "For he who hateth thee, he will be cut off (from Future Hope)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "108" }
+  }
+}

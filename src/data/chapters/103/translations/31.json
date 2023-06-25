@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 31, "text": "Par le Temps !" },
+    { "resource_id": 31, "text": "L’homme est certes, en perdition," },
+    {
+      "resource_id": 31,
+      "text": "sauf ceux qui croient et accomplissent les bonnes œuvres, s’enjoignent mutuellement la vérité et s’enjoignent mutuellement l’endurance."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "103" }
+  }
+}

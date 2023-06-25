@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 55,
+      "text": "Ahli kitob va mushriklardan bo`lgan kufr keltirganlar «bayyina» kelmaguncha ajralmasdilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "U (bayyina), Alloh tarafidan yuborilgan Rasul bo`lib, poklangan sahifalarni tilovat qiladur."
+    },
+    { "resource_id": 55, "text": "Ularda ajoyib bitiklar bor." },
+    {
+      "resource_id": 55,
+      "text": "Kitob berilganlar ularga «bayyina» kelganidan so`nggina bo`linib ketishdi."
+    },
+    {
+      "resource_id": 55,
+      "text": "Holbuki, ular faqat Allohgagina ibodat qilishga, Uning dinigagina ixlos qilishga, boshqa dinlarga moyil bo`lmaslikka, namozni to`liq o`qishga, zakot berishga buyurilgan edilar. Ana shu, to`g`ri(millat)ning dinidir.<sup foot_note=\"170547\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, ahli kitob va mushriklardan bo`lgan kufr keltirganlar jahannam o`tidadurlar, u yerda abadiy qolurlar. Undaylar xaloyiqning eng yomonidirlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, iymon keltirganlar va solih amallarni qilganlar, ana o`shalar, xaloyiqning eng yaxshisidir."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ularning mukofotlari Robbilari huzuridagi (daraxtlari) ostidan anhorlar oqib turgan «adn» jannatlaridir. U yerda abadul-abad qolurlar. Alloh ulardan rozi bo`ldi, ular ham Undan rozi bo`ldilar. Bu, Robbidan qo`rqqanlar uchundir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "98" }
+  }
+}

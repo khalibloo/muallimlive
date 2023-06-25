@@ -1,0 +1,57 @@
+{
+  "translations": [
+    {
+      "resource_id": 124,
+      "text": "(Karanlığı ile etrafı) bürüyüp örttüğü zaman geceye, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "açılıp ağardığı vakit gündüze, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "erkeği ve dişiyi yaratana yemin ederim ki,"
+    },
+    { "resource_id": 124, "text": "işleriniz başka başkadır." },
+    { "resource_id": 124, "text": "Artık kim verir ve sakınırsa," },
+    { "resource_id": 124, "text": "en güzeli de tasdik ederse," },
+    {
+      "resource_id": 124,
+      "text": "biz de onu en kolaya hazırlarız (onda başarılı kılarız)."
+    },
+    {
+      "resource_id": 124,
+      "text": "Kim cimrilik eder, kendini müstağni sayar,"
+    },
+    { "resource_id": 124, "text": "en güzeli de yalanlarsa," },
+    { "resource_id": 124, "text": "biz de onu en zora hazırlarız." },
+    {
+      "resource_id": 124,
+      "text": "Düştüğü zaman da malı kendisine hiç fayda vermez."
+    },
+    { "resource_id": 124, "text": "Doğru yolu göstermek bize aittir." },
+    { "resource_id": 124, "text": "Şüphesiz ahiret de dünya da bizimdir." },
+    {
+      "resource_id": 124,
+      "text": "(Ey insanlar!) Alev alev yanan bir ateşle sizi uyardım."
+    },
+    { "resource_id": 124, "text": "O ateşe, kötüler girer." },
+    { "resource_id": 124, "text": "Ancak yalanlayıp yüz çeviren." },
+    { "resource_id": 124, "text": "İyiler ondan (ateşten) uzak tutulur." },
+    { "resource_id": 124, "text": "Temizlenmek üzere malını hayra veren" },
+    {
+      "resource_id": 124,
+      "text": "onun nezdinde hiç bir kimseye ait şükranla karşılanacak,"
+    },
+    {
+      "resource_id": 124,
+      "text": "Yüce Rabbinin rızasını istemekten başka bir nimet yoktur."
+    },
+    { "resource_id": 124, "text": "Ve o (buna kavuşarak) hoşnut olacaktır." }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "92" }
+  }
+}

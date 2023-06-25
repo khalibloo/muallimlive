@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Markuu yimaaddo gargaarkii Eebe iyo Fatxiga (Furashada maka)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ood aragtid Dadkoo Diinta Eebe u soo gali Kooxo."
+    },
+    {
+      "resource_id": 46,
+      "text": "U tasbiixso Eebe adoo ku mahadin Dambidhaafna waydiiso illen waa dambidhaaf badanee."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "110" }
+  }
+}

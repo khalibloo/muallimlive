@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 55,
+      "text": "Har bir obro` to`kuvchi va ayblovchiga «vayl» bo`lsin."
+    },
+    { "resource_id": 55, "text": "U mol jamladi va uni sanab turur." },
+    {
+      "resource_id": 55,
+      "text": "U, albatta, moli uni abadiy qoldirur deb hisob qilur."
+    },
+    {
+      "resource_id": 55,
+      "text": "Yo`q! Albatta, u «hutoma»ga xor-zor etib tashlanur."
+    },
+    {
+      "resource_id": 55,
+      "text": "«Hutoma» qandoq narsa ekanini senga nima bildirur?"
+    },
+    { "resource_id": 55, "text": "U, Allohning shiddatli, o`chmas olovidir." },
+    { "resource_id": 55, "text": "Qalblargacha yetib boradigandur." },
+    { "resource_id": 55, "text": "Albatta, u ularning ustidan qoplangandir." },
+    { "resource_id": 55, "text": "Uzun-uzun ustunlarga bog`langandir." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "104" }
+  }
+}

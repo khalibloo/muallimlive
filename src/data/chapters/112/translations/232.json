@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "(Gwe Nabbi Muhammad) bagambe nti Katonda ali omu mu bwa Katondabwe (era nga yye yekka ateekeddwa okusinzibwa)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Katonda y'akola ku byetaago by'ebitonde byonna."
+    },
+    { "resource_id": 232, "text": "Tazaala, era teyazaalibwa." },
+    { "resource_id": 232, "text": "Era teri kintu kyonna kimwenkana." }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "112" }
+  }
+}

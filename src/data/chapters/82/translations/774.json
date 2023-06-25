@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 774, "text": "Igihe ikirere kizasatagurika," },
+    { "resource_id": 774, "text": "N’igihe inyenyeri zizanyanyagira," },
+    {
+      "resource_id": 774,
+      "text": "N’igihe inyanja zizuzura (amazi yazo akarenga inkombe),"
+    },
+    {
+      "resource_id": 774,
+      "text": "N’igihe imva zizabirindurwa (zigakurwamo ibizirimo),"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Icyo gihe) umuntu azamenya ibyo yakoze mbere n’ibyo yigijeyo ngo azabe abikora (byaba ibyiza cyangwa ibibi)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Yewe muntu! N’iki cyaguteye kwirengagiza Nyagasani wawe, Nyirubutagatifu?"
+    },
+    {
+      "resource_id": 774,
+      "text": "We wakuremye akagutunganya ndetse akanaguha imiterere igukwiye?"
+    },
+    { "resource_id": 774, "text": "Yaragutunganyije aguha ishusho ashaka." },
+    { "resource_id": 774, "text": "Oya! Nyamara muhakana umunsi w’ibihembo." },
+    {
+      "resource_id": 774,
+      "text": "Ariko mu by’ukuri mufite ababagenzura (abamalayika babashinzwe),"
+    },
+    {
+      "resource_id": 774,
+      "text": "Bubashywe kandi bandika (ibikorwa byanyu byiza n’ibibi),"
+    },
+    { "resource_id": 774, "text": "Bazi ibyo mukora byose." },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri abakora ibyiza bazaba mu munezero uhambaye (Ijuru);"
+    },
+    { "resource_id": 774, "text": "Naho abangizi bazaba mu muriro ugurumana," },
+    { "resource_id": 774, "text": "Bazawuhiramo ku munsi w’ibihembo," },
+    { "resource_id": 774, "text": "Kandi ntibazigera bawuvamo." },
+    {
+      "resource_id": 774,
+      "text": "None se ni iki kizakumenyesha umunsi w’ibihembo?"
+    },
+    {
+      "resource_id": 774,
+      "text": "Nanone, ni iki kizakumenyesha umunsi w’ibihembo?"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Uzaba) ari umunsi umuntu atazagira icyo amarira undi, kandi kuri uwo munsi itegeko ryose rizaba ari irya Allah."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "82" }
+  }
+}

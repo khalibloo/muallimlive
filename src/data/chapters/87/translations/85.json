@@ -1,0 +1,55 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "[Prophet], glorify the name of your Lord the Most High,"
+    },
+    {
+      "resource_id": 85,
+      "text": "who created [all things] in due proportion;"
+    },
+    {
+      "resource_id": 85,
+      "text": "who determined their destinies and guided them;"
+    },
+    { "resource_id": 85, "text": "who brought out the green pasture" },
+    { "resource_id": 85, "text": "then made it dark debris." },
+    {
+      "resource_id": 85,
+      "text": "[Prophet], We shall teach you [the Quran] and you will not forget––"
+    },
+    {
+      "resource_id": 85,
+      "text": "unless God wishes; He knows both what is open and what is hidden––"
+    },
+    { "resource_id": 85, "text": "We shall show you the easy way." },
+    { "resource_id": 85, "text": "So remind, if reminding will help." },
+    {
+      "resource_id": 85,
+      "text": "Those who stand in awe of God will heed the reminder,"
+    },
+    { "resource_id": 85, "text": "but it will be ignored by the most wicked," },
+    { "resource_id": 85, "text": "who will enter the Great Fire," },
+    { "resource_id": 85, "text": "where they will neither die nor live." },
+    {
+      "resource_id": 85,
+      "text": "Prosperous are those who purify themselves,"
+    },
+    { "resource_id": 85, "text": "remember the name of their Lord, and pray." },
+    {
+      "resource_id": 85,
+      "text": "Yet you [people] prefer the life of this world,"
+    },
+    {
+      "resource_id": 85,
+      "text": "even though the Hereafter is better and more lasting."
+    },
+    { "resource_id": 85, "text": "All this is in the earlier scriptures," },
+    { "resource_id": 85, "text": "the scriptures of Abraham and Moses." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "87" }
+  }
+}

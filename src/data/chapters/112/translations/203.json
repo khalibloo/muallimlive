@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": " Say (O Muhammad صلى الله عليه وسلم): \"He is Allâh, (the) One.<sup foot_note=155073>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"Allâh-us-Samad (السيد الذي يصمد إليه في الحاجات) [Allâh the Self-Sufficient Master, Whom all creatures need, (He neither eats nor drinks)]."
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"He begets not, nor was He begotten.<sup foot_note=155074>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"And there is none co-equal or comparable unto Him.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "112" }
+  }
+}

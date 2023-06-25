@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 85, "text": "By the charging steeds that pant" },
+    { "resource_id": 85, "text": "and strike sparks with their hooves," },
+    { "resource_id": 85, "text": "who make dawn raids," },
+    { "resource_id": 85, "text": "raising a cloud of dust," },
+    { "resource_id": 85, "text": "and plunging into the midst of the enemy," },
+    { "resource_id": 85, "text": "man is ungrateful to his Lord––" },
+    { "resource_id": 85, "text": "and He is witness to this––" },
+    {
+      "resource_id": 85,
+      "text": "he is truly excessive in his love of wealth."
+    },
+    {
+      "resource_id": 85,
+      "text": "Does he not know that when the contents of graves burst forth,"
+    },
+    {
+      "resource_id": 85,
+      "text": "when the secrets of hearts are uncovered, on that Day,"
+    },
+    { "resource_id": 85, "text": "their Lord will be fully aware of them all?" }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "100" }
+  }
+}

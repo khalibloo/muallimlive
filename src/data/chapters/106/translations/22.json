@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 22,
+      "text": "For the covenants (of security and safeguard enjoyed) by the Quraish,"
+    },
+    {
+      "resource_id": 22,
+      "text": "Their covenants (covering) journeys by winter and summer,-"
+    },
+    { "resource_id": 22, "text": "Let them adore the Lord of this House," },
+    {
+      "resource_id": 22,
+      "text": "Who provides them with food against hunger, and with security against fear (of danger)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "106" }
+  }
+}

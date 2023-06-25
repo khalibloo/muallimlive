@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 776,
+      "text": "La perdición y el fracaso alcanzarán al tío del Profeta, Abu Lahab hijo de 'Abdul Muttalib, debido a sus malas obras, pues solía dañar al Profeta r. Sus esfuerzos fueron en vano."
+    },
+    {
+      "resource_id": 776,
+      "text": "¿Cuánto pueden beneficiarle su riqueza y sus hijos? No pueden defenderlo contra el castigo, ni le pueden brindar misericordia."
+    },
+    {
+      "resource_id": 776,
+      "text": "En el Día del Juicio, pronto ingresará al fuego infernal y sufrirá su calor."
+    },
+    {
+      "resource_id": 776,
+      "text": "Y su esposa Umm Yamil, que también dañaba al Profeta r arrojando espinas en su camino, también entrará en él."
+    },
+    {
+      "resource_id": 776,
+      "text": "Alrededor de su cuello estará firmemente atada una cuerda con la que será arrastrada al infierno."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Mokhtasar",
+    "author_name": "Spanish Mokhtasar",
+    "filters": { "resource_id": 776, "chapter_number": "111" }
+  }
+}

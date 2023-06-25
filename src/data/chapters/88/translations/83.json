@@ -1,0 +1,53 @@
+{
+  "translations": [
+    {
+      "resource_id": 83,
+      "text": "¿Te ha llegado la historia sobre el día que todo lo alcanza?"
+    },
+    {
+      "resource_id": 83,
+      "text": "Ese día los rostros [de los condenados al Fuego] se verán humillados,"
+    },
+    { "resource_id": 83, "text": "abatidos y asfixiados." },
+    { "resource_id": 83, "text": "Serán llevados a un fuego intenso" },
+    {
+      "resource_id": 83,
+      "text": "donde les será dado a beber de una fuente de agua hirviente."
+    },
+    { "resource_id": 83, "text": "No tendrán otra comida más que espinas" },
+    { "resource_id": 83, "text": "que no alimentan ni sacian." },
+    {
+      "resource_id": 83,
+      "text": "Pero ese día los rostros [de los bienaventurados] estarán radiantes de felicidad."
+    },
+    { "resource_id": 83, "text": "Estarán complacidos de sus obras." },
+    { "resource_id": 83, "text": "Morarán en un jardín sublime," },
+    { "resource_id": 83, "text": "en el que no oirán palabras vanas." },
+    { "resource_id": 83, "text": "En él habrá manantiales," },
+    { "resource_id": 83, "text": "lechos elevados," },
+    { "resource_id": 83, "text": "copas al alcance de su mano," },
+    { "resource_id": 83, "text": "cojines alineados" },
+    { "resource_id": 83, "text": "y alfombras extendidas." },
+    {
+      "resource_id": 83,
+      "text": "¿Acaso no reflexionan [los que niegan la verdad] en la maravillosa creación del camello?"
+    },
+    { "resource_id": 83, "text": "En el cielo, cómo ha sido elevado." },
+    { "resource_id": 83, "text": "En las montañas, cómo han sido afirmadas." },
+    { "resource_id": 83, "text": "Y en la Tierra, cómo ha sido extendida." },
+    {
+      "resource_id": 83,
+      "text": "Exhorta a la gente porque esa es tu misión."
+    },
+    { "resource_id": 83, "text": "No puedes obligarlos a creer." },
+    { "resource_id": 83, "text": "A quien dé la espalda y rechace la verdad" },
+    { "resource_id": 83, "text": "Dios lo someterá al peor de los castigos." },
+    { "resource_id": 83, "text": "Porque todos comparecerán ante Mí," },
+    { "resource_id": 83, "text": "y seré Yo Quien los juzgue." }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "88" }
+  }
+}

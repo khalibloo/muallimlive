@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Горе кожному насмішнику, наклепнику" },
+    { "resource_id": 217, "text": "Який зібрав багатство та підрахував його" },
+    {
+      "resource_id": 217,
+      "text": "Думає він, що багатство зробить його безсмертним"
+    },
+    {
+      "resource_id": 217,
+      "text": "Але ж ні! Істинно, буде він вкинутий у розтрощуюче"
+    },
+    { "resource_id": 217, "text": "А звідки тобі знати, що це — розтрощуюче" },
+    { "resource_id": 217, "text": "Це — вогонь Аллага розпалений" },
+    { "resource_id": 217, "text": "який здіймається над серцями" },
+    { "resource_id": 217, "text": "Воістину, він зімкнеться над ним" },
+    { "resource_id": 217, "text": "на ланцюгах простягнутих" }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "104" }
+  }
+}

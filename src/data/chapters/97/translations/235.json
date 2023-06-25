@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 235,
+      "text": "Waarlijk! Wij hebben hem (de Koran) neergezonden in de Waardevolle Nacht."
+    },
+    {
+      "resource_id": 235,
+      "text": "En wat doet jou weten wat de Waardevolle Nacht is?"
+    },
+    {
+      "resource_id": 235,
+      "text": "De Waardevolle Nacht is beter dan duizend maanden."
+    },
+    {
+      "resource_id": 235,
+      "text": "De Engelen en de Geest (Djibril) daalden in haar neer met Allah’s toestemming, voor elke beschikking."
+    },
+    {
+      "resource_id": 235,
+      "text": "Vrede heerst in deze nacht, tot aan de ochtendschemering."
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "97" }
+  }
+}

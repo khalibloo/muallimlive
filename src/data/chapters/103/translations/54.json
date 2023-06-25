@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 54, "text": "زمانے کی قسم.<sup foot_note=168319>1</sup>" },
+    {
+      "resource_id": 54,
+      "text": "بیشک (بالیقین) انسان سرتا سر نقصان میں ہے.<sup foot_note=168320>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "سوائے ان لوگوں کے جو ایمان ﻻئے اور نیک عمل<sup foot_note=168321>1</sup> کیے اور (جنہوں نے) آپس میں حق کی وصیت کی<sup foot_note=168322>2</sup> اور ایک دوسرے کو صبر کی نصیحت کی.<sup foot_note=168323>3</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "103" }
+  }
+}

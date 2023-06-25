@@ -1,0 +1,109 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Eebe wuxuu ku dhaartay Malaa'igta Nafta si daran uga siibta (gaalada)."
+    },
+    { "resource_id": 46, "text": "Iyo tan si fudud uga qaadda (mu'miniinta)." },
+    {
+      "resource_id": 46,
+      "text": "Iyo Malaa'igta Hawada Dabbaalata (si amar fulin)."
+    },
+    { "resource_id": 46, "text": "Iyo tan u orotanta wanaagga." },
+    { "resource_id": 46, "text": "Iyo kuwa Maamula amarka (Eebe)." },
+    { "resource_id": 46, "text": "Maalinta ay gilgilan afuufka (hore)." },
+    { "resource_id": 46, "text": "Oyna raaci tii dambe (waa sugantahay)." },
+    { "resource_id": 46, "text": "Qalbiyaduna Maalintaa way cabsan." },
+    { "resource_id": 46, "text": "Araggeeduna wuu dullaysnaan." },
+    {
+      "resource_id": 46,
+      "text": "Waxayna dhihi (Gaaladu) Ma raadkiibaa naloo celin (Adduunkii)."
+    },
+    { "resource_id": 46, "text": "Markaan noqonno Lafo duugoobay." },
+    {
+      "resource_id": 46,
+      "text": "Waxay dheheen taasi waa noqosho khasaara ah."
+    },
+    { "resource_id": 46, "text": "Waa uun Hal Qaylo kaliya." },
+    { "resource_id": 46, "text": "Dadkuna markaas ay Dhulka kor iman." },
+    { "resource_id": 46, "text": "Ma ku soo gaadhay warkii (Nabi) Muuse." },
+    {
+      "resource_id": 46,
+      "text": "Markii Eebe uga yeedhay Toggii barakaysnaa ee Dhuwa."
+    },
+    { "resource_id": 46, "text": "Kuna yidhi u tag Fircoon wuu xadgudbaye." },
+    { "resource_id": 46, "text": "Oo ku dheh ma rabtaa inaad daahir noqotid." },
+    {
+      "resource_id": 46,
+      "text": "Oon Eebe Jidkiisa kugu hanuuniyo kana yaabtid."
+    },
+    { "resource_id": 46, "text": "Wuxuuna tusiyay (Nabi-Muuse) Aayad wayn." },
+    { "resource_id": 46, "text": "Wuuse beeniyay oo caasiyay (Fircoon)." },
+    { "resource_id": 46, "text": "Wuuna jeedsaday isagoo xumaan la socda." },
+    { "resource_id": 46, "text": "Wuxuuna kulmiyay (Askartii) una Qaylyay." },
+    { "resource_id": 46, "text": "Isagoo dhihi waxaan ahay Eebihiinna sare." },
+    {
+      "resource_id": 46,
+      "text": "Markaasaa Eebe Ciqaabay Aakhiro iyo Adduunba."
+    },
+    {
+      "resource_id": 46,
+      "text": "Arrintaasna waano yaa ugu sugan Ruuxii Eebe ka yaabi."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ma idinkaa daran abuuridda masc Samada Eebaa dhisay."
+    },
+    { "resource_id": 46, "text": "Korna yeelay jurmigeeda ekeeyayna." },
+    {
+      "resource_id": 46,
+      "text": "Habeenkeedana madoobeeyay Maalinteedana soo bixiyay (Ifiyay)."
+    },
+    { "resource_id": 46, "text": "Dhulkana markaas ka dib fidiyay." },
+    { "resource_id": 46, "text": "Biyahiisa iyo Daaqiisana soo bixiyay." },
+    { "resource_id": 46, "text": "Buurahana sugay." },
+    {
+      "resource_id": 46,
+      "text": "Si aad idinka iyo Xoolihiinnu ugu nacfidaan."
+    },
+    {
+      "resource_id": 46,
+      "text": "Markay timaaddo Musiibadii waynayd (qiyaamadu)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Maalintaas Dadku way xusuusan waxay faleen."
+    },
+    {
+      "resource_id": 46,
+      "text": "Naarta Jaxiimana waxaa loo muujin Ruuxii Arki."
+    },
+    { "resource_id": 46, "text": "Ruuxiise xadgudba." },
+    { "resource_id": 46, "text": "Nolosha Adduunyana doorta." },
+    { "resource_id": 46, "text": "Wuxuu ku dheelman Naarta Jaxiimo." },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise ka yaaba la kulanka Eebe Naftana ka reeba Hawada (xun)."
+    },
+    { "resource_id": 46, "text": "Wuxuu u dheelman Janno." },
+    {
+      "resource_id": 46,
+      "text": "Waxay ku waydiin Saacadda (Qiyaamaha) markay sugnaan."
+    },
+    { "resource_id": 46, "text": "Maxaa ku ogaysiiyay waqtigeeda." },
+    { "resource_id": 46, "text": "Eebe umbuu ku dhammaan ogaansheheedu." },
+    {
+      "resource_id": 46,
+      "text": "Adugu waxaad tahay uun u digaha Ruuxii ka yaabi."
+    },
+    {
+      "resource_id": 46,
+      "text": "Waxay la mid noqon Malintay arkaan (Qiyaamada) iyagon nagaanin Galab iyo Barqin mooyeen (Addunka)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "79" }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 22,
+      "text": "In the name of Allah, Most Gracious, Most Merciful."
+    },
+    {
+      "resource_id": 22,
+      "text": "Praise be to Allah, the Cherisher and Sustainer of the worlds;"
+    },
+    { "resource_id": 22, "text": "Most Gracious, Most Merciful;" },
+    { "resource_id": 22, "text": "Master of the Day of Judgment." },
+    { "resource_id": 22, "text": "Thee do we worship, and Thine aid we seek." },
+    { "resource_id": 22, "text": "Show us the straight way," },
+    {
+      "resource_id": 22,
+      "text": "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "1" }
+  }
+}

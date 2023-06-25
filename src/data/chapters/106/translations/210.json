@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Kureyş’in güvenliği ve esenliği için." },
+    {
+      "resource_id": 210,
+      "text": "Onların kış ve yaz yolculuklarının güvenliği için."
+    },
+    { "resource_id": 210, "text": "Bu evin (Kâbe) Rabbine ibadet etsinler." },
+    {
+      "resource_id": 210,
+      "text": "Onları açlıktan doyuran ve korkularından emin kılana."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "translations": [
+    {
+      "resource_id": 49,
+      "text": "Kwani hukuona jinsi Mola wako Mlezi alivyo watenda wale wenye tembo?"
+    },
+    { "resource_id": 49, "text": "Kwani hakujaalia vitimbi vyao kuharibika?" },
+    { "resource_id": 49, "text": "Na akawapelekea ndege makundi kwa makundi," },
+    { "resource_id": 49, "text": "Wakiwatupia mawe ya udongo wa Motoni," },
+    { "resource_id": 49, "text": "Akawafanya kama majani yaliyo liwa!" }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "105" }
+  }
+}

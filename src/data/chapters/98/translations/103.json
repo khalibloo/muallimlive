@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 103,
+      "text": "Os que renegam a Fé, dentre os seguidores do Livro, e os idólatras não estavam propensos a renunciar a seus cultos, até que lhes chegasse a evidente prova:"
+    },
+    {
+      "resource_id": 103,
+      "text": "Um mensageiro de Allah, que recitasse páginas purificadas,"
+    },
+    { "resource_id": 103, "text": "Em que houvesse escritos retos." },
+    {
+      "resource_id": 103,
+      "text": "E aqueles, os quais fora concedido o Livro, não se separaram senão após haver-lhes chegado a evidente prova."
+    },
+    {
+      "resource_id": 103,
+      "text": "E não lhes fora ordenado senão adorar a Allah, sendo sinceros com Ele na devoção, sendo monoteístas, e cumprir a oração e conceder az-zakah (a ajuda caridosa). E essa é a religião reta."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, os que renegam a Fé, dentre os seguidores do Livro, e os idólatras estarão no Fogo da Geena: nela serão eternos. Esses são os piores de toda a criação."
+    },
+    {
+      "resource_id": 103,
+      "text": "Por certo, os que crêem e fazem as boas obras, esses são os melhores de toda criação."
+    },
+    {
+      "resource_id": 103,
+      "text": "Sua recompensa, junto de seu Senhor, são os Jardins do Éden, abaixo dos quais correm os rios; nesses, serão eternos para todo o sempre. Allah se agradará deles, e eles se agradarão dEle. Isso para quem receia a seu Senhor."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "98" }
+  }
+}

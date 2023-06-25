@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "SÄG: \"Jag söker skydd hos människornas Herre,"
+    },
+    { "resource_id": 48, "text": "människornas Konung," },
+    { "resource_id": 48, "text": "människornas Gud," },
+    { "resource_id": 48, "text": "mot det onda som den förrädiske frestaren" },
+    { "resource_id": 48, "text": "viskar i människornas hjärtan," },
+    {
+      "resource_id": 48,
+      "text": "[viskar] genom [onda] osynliga väsen och [deras likar bland] människorna.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "114" }
+  }
+}

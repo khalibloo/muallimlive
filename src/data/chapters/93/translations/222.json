@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 222, "text": "Сәске уақтына," },
+    { "resource_id": 222, "text": "Тым-тырыс түнге ант." },
+    { "resource_id": 222, "text": "Раббың сені тастамады да кейімеді." },
+    { "resource_id": 222, "text": "Әрине сен үшін ахирет,дүниеден жақсы." },
+    {
+      "resource_id": 222,
+      "text": "Әлбетте Раббың саған береді де разы боласың."
+    },
+    { "resource_id": 222, "text": "Сені жетім түрде тауып орналастырмады ма?" },
+    { "resource_id": 222, "text": "Сені абыржуда көріп, жолға салмады ма ?" },
+    { "resource_id": 222, "text": "Сені кедей көріп,байытпады ма?" },
+    { "resource_id": 222, "text": "Ендеше жетімді қорлама," },
+    { "resource_id": 222, "text": "Сұраушыны зекіме." },
+    { "resource_id": 222, "text": "Раббыңның нығметін білдір." }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "93" }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 153, "text": "Per il fico e per l’olivo," },
+    { "resource_id": 153, "text": "per il Monte Sinai" },
+    {
+      "resource_id": 153,
+      "text": "e per questa contrada <a class=f><sup foot_note=160680>1</sup></a> sicura!"
+    },
+    {
+      "resource_id": 153,
+      "text": "Invero creammo l’uomo nella forma migliore,"
+    },
+    {
+      "resource_id": 153,
+      "text": "quindi lo riducemmo all’infimo dell’abiezione <a class=f><sup foot_note=160681>1</sup></a> ,"
+    },
+    {
+      "resource_id": 153,
+      "text": "eccezion fatta per coloro che credono e fanno il bene: avranno ricompensa inesauribile."
+    },
+    {
+      "resource_id": 153,
+      "text": "Dopo di ciò cosa mai ti farà tacciare di menzogna il Giudizio?"
+    },
+    {
+      "resource_id": 153,
+      "text": "Non è forse Allah il più Saggio dei giudici? <a class=f><sup foot_note=160682>1</sup></a> La città e il territorio della Mecca. <a class=f><sup foot_note=160683>2</sup></a> Dopo la cacciata dal Giardino, l’uomo regredì ad uno stato molto lontano da quello in cui Allah (gloria a Lui l’Altissimo) lo aveva creato. Questa regressione potrebbe aver determinato persino delle modificazioni morfologiche. Certamente l’uomo non «discende dalle scimmie» ma può essere sceso al loro livello. La correlazione del versetto con quello successivo indica che questa regressione può avvenire anche per ragioni spirituali ed etiche e che fede e buon comportamento sono le sole maniere di evitarla."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "95" }
+  }
+}

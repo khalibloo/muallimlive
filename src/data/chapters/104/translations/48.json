@@ -1,0 +1,36 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "ILLA SKALL det gå den som försöker finna fel hos [andra] och baktalar dem!"
+    },
+    {
+      "resource_id": 48,
+      "text": "[Och] som samlar pengar på hög och [i stället för att göra gott] ägnar sig åt att räkna dem"
+    },
+    {
+      "resource_id": 48,
+      "text": "i förhoppningen att hans rikedom skall ge honom evigt liv!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Nej [han misstar sig]! Han kommer att kastas i Hutamah!"
+    },
+    {
+      "resource_id": 48,
+      "text": "Och vad kan låta dig förstå vad Hutamah betyder"
+    },
+    { "resource_id": 48, "text": "[Det är] Guds eld," },
+    {
+      "resource_id": 48,
+      "text": "som skall blossa upp och tränga in i [syndarnas] hjärtan;"
+    },
+    { "resource_id": 48, "text": "och sluta sig omkring dem" },
+    { "resource_id": 48, "text": "i ändlösa kolonnader av eld!" }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 235, "text": "Zeg (O Mohammed): “O, ongelovigen!" },
+    { "resource_id": 235, "text": "Ik aanbid niet wat jullie aanbidden." },
+    {
+      "resource_id": 235,
+      "text": "En jullie zijn geen aanbidders van wat ik aanbid."
+    },
+    {
+      "resource_id": 235,
+      "text": "En ik zal nooit een aanbidder worden van wat jullie aanbidden."
+    },
+    {
+      "resource_id": 235,
+      "text": "En jullie zullen nooit aanbidders worden van wat ik aanbid."
+    },
+    {
+      "resource_id": 235,
+      "text": "Daarom, voor jullie jullie godsdienst en voor mij mijn godsdienst.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "109" }
+  }
+}

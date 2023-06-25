@@ -1,0 +1,127 @@
+{
+  "translations": [
+    { "resource_id": 89, "text": "Betohem në ditën e kijametit;" },
+    {
+      "resource_id": 89,
+      "text": "Betohem në shpirtin që është shumë qortues!"
+    },
+    {
+      "resource_id": 89,
+      "text": "A mendon njeriu se nuk do t’i tubojmë eshtrat e tij?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Po, do t’ia tubojmë! Duke qenë se Ne jemi të zotët t’ia rikrijojmë si kanë qenë edhe majat e gishtave të tij!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Por, njeriu dëshiron të vazhdojë edhe mëtej në mëkate."
+    },
+    {
+      "resource_id": 89,
+      "text": "Andaj edhe pyet: “Kur është dita e kijametit?”"
+    },
+    { "resource_id": 89, "text": "E, kur të merren sytë (të parët)?" },
+    { "resource_id": 89, "text": "E të zëhet hëna (errësohet)," },
+    { "resource_id": 89, "text": "Dhe të bashkohet dielli e hëna." },
+    {
+      "resource_id": 89,
+      "text": "Atë ditë njeriu do të thotë: “Nga të iket!”"
+    },
+    { "resource_id": 89, "text": "Jo, nuk ka strehim!" },
+    { "resource_id": 89, "text": "Atë ditë vetëm te Zoti yt është caku!" },
+    {
+      "resource_id": 89,
+      "text": "Atë ditë njeriu do të njihet me atë që çoi para dhe me atë që la prapa."
+    },
+    { "resource_id": 89, "text": "Po njeriu është dëshmitar i vetvetes." },
+    { "resource_id": 89, "text": "Edhe nëse i paraqet arsyetimet e veta." },
+    {
+      "resource_id": 89,
+      "text": "Ti (Muhammed) mos shqipto atë (Kur’anin) me gjuhën tënde për ta nxënë atë me të shpejtë!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Sepse Ne e kemi për detyrë tubimin dhe leximin e tij!"
+    },
+    {
+      "resource_id": 89,
+      "text": "E kur ta lexojnë atë ty, ti përcille me të dëgjuar leximin e tij."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe pastaj është obligim i yni që ta shkoqisim atë."
+    },
+    {
+      "resource_id": 89,
+      "text": "Jo, nuk është ashtu! Por ju jeni që e doni të ngutshmen (dynjanë)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe e lini pas shpine atë të ardhmen (ahiretin)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Atë ditë do të ketë fytyra të shkëlqyera (të gëzuara)."
+    },
+    { "resource_id": 89, "text": "Që Zotin e tyre e shikojnë." },
+    { "resource_id": 89, "text": "Atë ditë ka fytyra edhe të vrazhda." },
+    {
+      "resource_id": 89,
+      "text": "Që presin t’u thyhet kurrizi (të shkatërrohen)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Jo dhe Jo! Po kur të arrijë (shpirti) në gropë të fytit (të gjoksit),"
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe thuhet (nga familja e të afërmit): “Kush do ta shërojë?”"
+    },
+    { "resource_id": 89, "text": "Dhe ai bindet se ai po ndahet." },
+    {
+      "resource_id": 89,
+      "text": "E t’i puqet kofsha për kofshe (t’i vështirësohet gjendja)."
+    },
+    { "resource_id": 89, "text": "Atë ditë vetëm te Zoti yt shkohet." },
+    {
+      "resource_id": 89,
+      "text": "E ai as nuk vërtetoi atë që duhej, as nuk u falë."
+    },
+    { "resource_id": 89, "text": "Por përgënjeshtroi dhe ktheu shpinën." },
+    { "resource_id": 89, "text": "Dhe shkonte te familja e tij me fodullëk." },
+    {
+      "resource_id": 89,
+      "text": "Të është afruar ty e keqja e t’u afroftë! (ose i mjeri ti i mjeri)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Edhe nje herë t’u afrua ty e keqja; t’u afroftë!"
+    },
+    {
+      "resource_id": 89,
+      "text": "A mos mendon njeriu se do të lihet duke mos zënë asgjë (pa kurrfarë përgjegjësie)."
+    },
+    {
+      "resource_id": 89,
+      "text": "A nuk ka qenë ai në një pikë ujë që derdhet."
+    },
+    {
+      "resource_id": 89,
+      "text": "E pastaj u bë gjak i trashë, e Ai e krijoi dhe e përsosi?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Dhe prej tij Ai i bëri dy lloje: mashkullin dhe femrën."
+    },
+    {
+      "resource_id": 89,
+      "text": "A nuk është Ai (Zot) i fuqishëm që i ngjall të vdekurit?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "75" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "ቆርቋሪይቱ (ጩኸት)፤" },
+    { "resource_id": 87, "text": "ምን አስደናቂ ቆርቋሪ ናት!" },
+    { "resource_id": 87, "text": "ቆርቋሪይቱም ምን እንደኾነች ምን አሳወቀህ?" },
+    { "resource_id": 87, "text": "ሰዎች እንደ ተበታተነ ቢራቢሮ (ወይም ኩብኩባ) በሚኾኑበት ቀን፤" },
+    {
+      "resource_id": 87,
+      "text": "ጋራዎችም እንደ ተነደፈ ሱፍ በሚኾኑበት (ቀን ልቦችን በድንጋጤ ትቆረቁራለች፡፡)"
+    },
+    { "resource_id": 87, "text": "ሚዛኖቹ የከበዱለት ሰውማ፤" },
+    { "resource_id": 87, "text": "እርሱ በምትወደድ ኑሮ ውስጥ ይኾናል፡፡" },
+    { "resource_id": 87, "text": "ሚዛኖቹም የቀለሉበት ሰውማ፤" },
+    { "resource_id": 87, "text": "መኖሪያው ሃዊያህ ናት" },
+    { "resource_id": 87, "text": "እርሷም ምን እንደ ኾነች ምን አሳወቀህ?" },
+    { "resource_id": 87, "text": "(እርሷ) በጣም ተኳሳ እሳት ናት፡፡" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "101" }
+  }
+}

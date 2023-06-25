@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 208,
+      "text": "Sprich: \"ich nehme meine Zuflucht beim Herrn des Frühlichts"
+    },
+    {
+      "resource_id": 208,
+      "text": "vor dem Übel dessen, was Er erschaffen hat"
+    },
+    {
+      "resource_id": 208,
+      "text": "und vor dem Übel der Dunkelheit, wenn sie hereinbricht"
+    },
+    { "resource_id": 208, "text": "und vor dem Übel der Knotenanbläserinnen" },
+    {
+      "resource_id": 208,
+      "text": "und vor dem Übel eines (jeden) Neiders, wenn er neidet.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "113" }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "Read: In the name of thy Lord Who createth,"
+    },
+    { "resource_id": 19, "text": "Createth man from a clot." },
+    { "resource_id": 19, "text": "Read: And thy Lord is the Most Bounteous," },
+    { "resource_id": 19, "text": "Who teacheth by the pen," },
+    { "resource_id": 19, "text": "Teacheth man that which he knew not." },
+    { "resource_id": 19, "text": "Nay, but verily man is rebellious" },
+    { "resource_id": 19, "text": "That he thinketh himself independent!" },
+    { "resource_id": 19, "text": "Lo! unto thy Lord is the return." },
+    { "resource_id": 19, "text": "Hast thou seen him who dissuadeth" },
+    { "resource_id": 19, "text": "A slave when he prayeth?" },
+    {
+      "resource_id": 19,
+      "text": "Hast thou seen if he relieth on the guidance (of Allah)"
+    },
+    { "resource_id": 19, "text": "Or enjoineth piety?" },
+    {
+      "resource_id": 19,
+      "text": "Hast thou seen if he denieth (Allah's guidance) and is froward?"
+    },
+    { "resource_id": 19, "text": "Is he then unaware that Allah seeth?" },
+    {
+      "resource_id": 19,
+      "text": "Nay, but if he cease not We will seize him by the forelock -"
+    },
+    { "resource_id": 19, "text": "The lying, sinful forelock -" },
+    { "resource_id": 19, "text": "Then let him call upon his henchmen!" },
+    { "resource_id": 19, "text": "We will call the guards of hell." },
+    {
+      "resource_id": 19,
+      "text": "Nay, Obey not thou him. But prostrate thyself, and draw near (unto Allah)."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "96" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Hatukukunjulia kifua chako?" },
+    { "resource_id": 49, "text": "Na tukakuondolea mzigo wako," },
+    { "resource_id": 49, "text": "Ulio vunja mgongo wako?" },
+    { "resource_id": 49, "text": "Na tukakunyanyulia utajo wako?" },
+    {
+      "resource_id": 49,
+      "text": "Basi kwa hakika pamoja na uzito upo wepesi,"
+    },
+    { "resource_id": 49, "text": "Hakika pamoja na uzito upo wepesi." },
+    { "resource_id": 49, "text": "Na ukipata faragha, fanya juhudi." },
+    { "resource_id": 49, "text": "Na Mola wako Mlezi ndio mshughulikie." }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "94" }
+  }
+}

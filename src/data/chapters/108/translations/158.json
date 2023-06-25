@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 158,
+      "text": "(اے نبی ﷺ !) ہم نے آپ کو خیر کثیر عطا کیا۔"
+    },
+    {
+      "resource_id": 158,
+      "text": "پس آپ ﷺ اپنے رب کے لیے نماز پڑھا کیجیے اور قربانی کیا کیجیے۔"
+    },
+    { "resource_id": 158, "text": "یقینا آپ ﷺ کا دشمن ہی جڑ کٹا ہوگا۔" }
+  ],
+  "meta": {
+    "translation_name": "Bayan-ul-Quran",
+    "author_name": "Dr. Israr Ahmad",
+    "filters": { "resource_id": 158, "chapter_number": "108" }
+  }
+}

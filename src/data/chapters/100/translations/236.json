@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "S tid id ippazalen neffôent!" },
+    { "resource_id": 236, "text": "Ifeîîiwjen, ssafagent." },
+    { "resource_id": 236, "text": "Di tûebêit ara d dehment." },
+    { "resource_id": 236, "text": "A$ebbaô, sskarent." },
+    { "resource_id": 236, "text": "Ar tlemmast n ugraw, kecment." },
+    { "resource_id": 236, "text": "Ih, amdan, i Mass is, d lkaraâ." },
+    { "resource_id": 236, "text": "U neppa, ard anagi n waya." },
+    { "resource_id": 236, "text": "Neppa, s tidep, aîas i iêemmel sâaya!" },
+    {
+      "resource_id": 236,
+      "text": "Day ur iéôi ara ar mara d iffe$ i illan deg iéekwan,"
+    },
+    { "resource_id": 236, "text": "i illan deg idmaren, a d ivheô meôôa." },
+    {
+      "resource_id": 236,
+      "text": "S tidep, assen, Mass nnsen, ippuxebbeô fellasen."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "100" }
+  }
+}

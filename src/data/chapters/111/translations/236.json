@@ -1,0 +1,14 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "A nnger ifassen n Abulahab, u a nnegr is!" },
+    { "resource_id": 236, "text": "Iwumi yas wayla s, akked wayen ikseb?" },
+    { "resource_id": 236, "text": "Ad iôe$ di tmessi m ujajiê," },
+    { "resource_id": 236, "text": "akked tmeîîut is, i ipbibbin as$aô," },
+    { "resource_id": 236, "text": "tamrart inzizen, $ef umgaôv is." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "111" }
+  }
+}

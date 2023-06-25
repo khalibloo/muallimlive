@@ -1,0 +1,16 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "Jedhi: \"Inni Allaah (gabbaramaa dhugaa) tokkicha."
+    },
+    { "resource_id": 111, "text": "Allaahn hirkoo waa hundaati." },
+    { "resource_id": 111, "text": "Hin dhalle hin dhalannes." },
+    { "resource_id": 111, "text": "Hiriyaan tokkoos isaaf hin taane.”" }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "112" }
+  }
+}

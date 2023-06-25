@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Hesap gününü yalanlayanı gördün mü?" },
+    { "resource_id": 112, "text": "Yetimi itip kakan işte odur." },
+    { "resource_id": 112, "text": "Düşkünü doyurmaya teşvik etmez." },
+    { "resource_id": 112, "text": "Öyleyse yazıklar olsun o namaz kılanlara!" },
+    { "resource_id": 112, "text": "Kıldıkları namazdan gafil olanlara," },
+    { "resource_id": 112, "text": "Gösteriş yapanlara," },
+    {
+      "resource_id": 112,
+      "text": "Ufak tefek (ödünç vermeye) bile engel olanlara…"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "107" }
+  }
+}

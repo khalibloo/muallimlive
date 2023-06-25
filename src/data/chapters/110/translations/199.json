@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 199,
+      "text": "Cuando llegue el auxilio de Al-lah (a Su Profeta) y la liberación (de La Meca de la idolatría)"
+    },
+    {
+      "resource_id": 199,
+      "text": "y veas a la gente entrar en la religión de Al-lah en multitudes,"
+    },
+    {
+      "resource_id": 199,
+      "text": "glorifica a tu Señor con alabanzas y pídele Su perdón, (pues) Él acepta siempre el arrepentimiento."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "110" }
+  }
+}

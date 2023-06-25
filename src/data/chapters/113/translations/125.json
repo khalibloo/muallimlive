@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Sọ pé: “Mo sá di Olúwa òwúrọ̀ kùtùkùtù" },
+    {
+      "resource_id": 125,
+      "text": "níbi aburú ohun tí Ó dá,1 <sup foot_note=148081>1</sup>"
+    },
+    { "resource_id": 125, "text": "àti níbi aburú òru nígbà tí ó bá ṣóòkùn," },
+    {
+      "resource_id": 125,
+      "text": "àti níbi aburú àwọn (òpìdán) tó ń fẹnu fátẹ́gùn túẹ́túẹ́ sínú àwọn ońdè,"
+    },
+    {
+      "resource_id": 125,
+      "text": "àti níbi aburú onílara nígbà tí ó bá ṣe ìlara.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "113" }
+  }
+}

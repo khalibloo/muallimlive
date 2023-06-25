@@ -1,0 +1,25 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "S imenom Allaha, Svemilosnog, Milostivog!" },
+    {
+      "resource_id": 25,
+      "text": "Svaka hvala neka je Allahu, Gospodaru svjetova."
+    },
+    { "resource_id": 25, "text": "Svemilosnom, Milostivom." },
+    { "resource_id": 25, "text": "Vladaru Dana sudnjeg." },
+    {
+      "resource_id": 25,
+      "text": "Samo Tebi ibadet činimo i samo od Tebe pomoć molimo."
+    },
+    { "resource_id": 25, "text": "Uputi nas na Pravi put." },
+    {
+      "resource_id": 25,
+      "text": "Na put onih kojima si blagodati podario. A ne na put onih na koje se srdžba izlila, niti na put onih koji su zalutali."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "1" }
+  }
+}

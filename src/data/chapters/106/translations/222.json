@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 222, "text": "Құрайштың бейбітшілігі үшін," },
+    { "resource_id": 222, "text": "Олардың қысы жазы көшу бейбітшілігі," },
+    {
+      "resource_id": 222,
+      "text": "Сондықтан олар осы үйдің (Кағбаның) Раббына құлшылық қылсын."
+    },
+    {
+      "resource_id": 222,
+      "text": "Ол,Оларды аштықтан тамақтандырып, хауіп қатерден аман қылған."
+    }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "106" }
+  }
+}

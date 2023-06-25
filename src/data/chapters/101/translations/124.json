@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Kapı çalan!" },
+    { "resource_id": 124, "text": "Nedir o kapı çalan?" },
+    { "resource_id": 124, "text": "O kapı çalanın ne olduğunu bilir misin?" },
+    {
+      "resource_id": 124,
+      "text": "İnsanların, ateşin etrafını sarmış pervaneler gibi olduğu,"
+    },
+    {
+      "resource_id": 124,
+      "text": "dağların da atılmış renkli yüne dönüştüğü gündür (o Kâria!)"
+    },
+    { "resource_id": 124, "text": "O gün kimin tartıları ameli ağır gelirse" },
+    {
+      "resource_id": 124,
+      "text": "işte o, hoşnut edici bir yaşayış içinde olur."
+    },
+    { "resource_id": 124, "text": "Kimin tartısı da hafif gelirse ," },
+    {
+      "resource_id": 124,
+      "text": "işte onun anası (yeri, yurdu) Hâviye' dir."
+    },
+    { "resource_id": 124, "text": "Nedir o (Hâviye) bilir misin?" },
+    { "resource_id": 124, "text": "Kızgın ateş!" }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "101" }
+  }
+}

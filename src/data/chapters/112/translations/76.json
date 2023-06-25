@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 76,
+      "text": "(ئى مۇھەممەد!) ئېيتقىنكى، ئۇ ـ ئاللاھ بىردۇر."
+    },
+    { "resource_id": 76, "text": "ھەممە ئاللاھقا موھتاجدۇر." },
+    {
+      "resource_id": 76,
+      "text": "ئاللاھ بالا تاپقانمۇ ئەمەس، تۇغۇلغانمۇ ئەمەس."
+    },
+    { "resource_id": 76, "text": "ھېچ كىشى ئۇنىڭغا تەڭداش بولالمايدۇ." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Saleh",
+    "author_name": "Muhammad Saleh",
+    "filters": { "resource_id": 76, "chapter_number": "112" }
+  }
+}

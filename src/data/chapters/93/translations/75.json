@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 75, "text": " And olsun səhərə!" },
+    { "resource_id": 75, "text": " And olsun sakitləşən ge­cəyə!" },
+    {
+      "resource_id": 75,
+      "text": " Rəbbin nə səni tərk et­di, nə də sənə acığı tut­du."
+    },
+    {
+      "resource_id": 75,
+      "text": " Həqiqətən, Axirət sənə dünya hə­yatından da­ha xeyir­lidir."
+    },
+    {
+      "resource_id": 75,
+      "text": " Şübhəsiz ki, Rəbbin sənə nemət bəxş edəcək, sən də razı qa­la­caq­san."
+    },
+    {
+      "resource_id": 75,
+      "text": " Məgər O, səni yetim ça­ğın­da qo­ruyub sığınacaq ver­mə­dimi?"
+    },
+    {
+      "resource_id": 75,
+      "text": " Səni çaşqın olduğun hal­da doğru yola yönəltmədimi?"
+    },
+    {
+      "resource_id": 75,
+      "text": " Kasıb olduğun zaman sə­ni varlan­dırmadımı?"
+    },
+    { "resource_id": 75, "text": " Elə isə yetimə xor baxma!" },
+    { "resource_id": 75, "text": " Səndən kömək diləyəni qovma!" },
+    { "resource_id": 75, "text": " Və Rəbbinin nemətin­dən danış." }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "93" }
+  }
+}

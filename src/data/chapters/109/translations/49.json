@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "Sema: Enyi makafiri!" },
+    { "resource_id": 49, "text": "Siabudu mnacho kiabudu;" },
+    { "resource_id": 49, "text": "Wala nyinyi hamuabudu ninaye muabudu." },
+    { "resource_id": 49, "text": "Wala sitaabudu mnacho abudu." },
+    { "resource_id": 49, "text": "Wala nyinyi hamuabudu ninaye muabudu." },
+    { "resource_id": 49, "text": "Nyinyi mna dini yenu, nami nina Dini yangu." }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "109" }
+  }
+}

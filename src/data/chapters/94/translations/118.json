@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 118, "text": " ایا مونږ تا لره ستا سینه نه ده فراخه كړې" },
+    { "resource_id": 118, "text": " او له تا نه مو ستا دروند بار كوز كړى" },
+    {
+      "resource_id": 118,
+      "text": " هغه (بار) چې ستا شا يې كږه (او) درنه كړې وه"
+    },
+    { "resource_id": 118, "text": " او تا لپاره مو ستا ذكر اوچت كړ" },
+    { "resource_id": 118, "text": " نو بېشكه له سختۍ سره اساني شته" },
+    { "resource_id": 118, "text": " بېشكه له سختۍ سره اساني شته" },
+    {
+      "resource_id": 118,
+      "text": " نو كله چې ته فارغ شې، نو (په عبادت كې،) ځان ستړى كوه"
+    },
+    { "resource_id": 118, "text": " او خاص خپل رب ته رغبت (او زاري) كوه" }
+  ],
+  "meta": {
+    "translation_name": "Zakaria Abulsalam",
+    "author_name": "Zakaria Abulsalam",
+    "filters": { "resource_id": 118, "chapter_number": "94" }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "translations": [
+    { "resource_id": 54, "text": "کھڑکھڑا دینے والی.*" },
+    {
+      "resource_id": 54,
+      "text": "کیا<sup foot_note=168302>1</sup> ہے وه کھڑکھڑا دینے والی."
+    },
+    {
+      "resource_id": 54,
+      "text": "تجھے کیا معلوم کہ وه کھڑ کھڑا دینے والی کیا ہے."
+    },
+    {
+      "resource_id": 54,
+      "text": "جس دن انسان بکھرے ہوئے پروانوں کی طرح ہو جائیں گے.<sup foot_note=168303>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "اور پہاڑ دھنے ہوئے رنگین اون کی طرح ہو جائیں گے.<sup foot_note=168304>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "پھر جس کے پلڑے بھاری ہوں گے.<sup foot_note=168305>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "وه تو دل پسند آرام کی زندگی میں ہوگا.<sup foot_note=168306>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "اور جس کے پلڑے ہلکے ہوں گے.<sup foot_note=168307>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "اس کا ٹھکانا ہاویہ ہے.<sup foot_note=168308>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "تجھے کیا معلوم کہ وه کیا ہے.<sup foot_note=168309>1</sup>"
+    },
+    {
+      "resource_id": 54,
+      "text": "وه تند وتیز آگ (ہے).<sup foot_note=168310>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Muhammad Junagarhi",
+    "author_name": "Maulana Muhammad Junagarhi",
+    "filters": { "resource_id": 54, "chapter_number": "101" }
+  }
+}

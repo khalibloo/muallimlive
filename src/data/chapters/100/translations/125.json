@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 125,
+      "text": "Allāhu fi àwọn ẹṣin tó ń sáré tó ń mí hẹlẹhẹlẹ ní ojú-ogun búra."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó tún fi àwọn ẹṣin tí pátákò ẹsẹ̀ wọn ń ṣáná (níbi eré sísá) búra."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó tún fi àwọn ẹṣin tó ń kọlu ọ̀tá ẹ̀sìn ní òwúrọ̀ kùtùkùtù búra."
+    },
+    {
+      "resource_id": 125,
+      "text": "Wọ́n sì fi (pátákò ẹsẹ̀ wọn) tu eruku (ilẹ̀ ọ̀tá) sókè."
+    },
+    {
+      "resource_id": 125,
+      "text": "Wọ́n tún bẹ́ gìjà pẹ̀lú eruku ẹsẹ̀ wọn sáààrin àkójọ ọ̀tá."
+    },
+    { "resource_id": 125, "text": "Dájúdájú ènìyàn ni aláìmoore sí Olúwa rẹ̀." },
+    { "resource_id": 125, "text": "Dájúdájú Allāhu sì ń jẹ́ Ẹlẹ́rìí lórí ìyẹn." },
+    {
+      "resource_id": 125,
+      "text": "Àti pé dájúdájú ènìyàn le gan-an níbi ìfẹ́ oore ayé."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ṣé kò mọ̀ pé nígbà tí wọ́n bá tú ohun tó wà nínú sàréè jáde (fún àjíǹde),"
+    },
+    {
+      "resource_id": 125,
+      "text": "tí wọ́n sì tú ohun tó wà nínú igbá-àyà ẹ̀dá síta pátápátá,"
+    },
+    {
+      "resource_id": 125,
+      "text": "dájúdájú Olúwa wọn ni Alámọ̀tán nípa wọn ní Ọjọ́ yẹn?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "100" }
+  }
+}

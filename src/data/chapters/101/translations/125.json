@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Àkókò ìjáyà." },
+    { "resource_id": 125, "text": "Kí ni Àkókò ìjáyà?" },
+    {
+      "resource_id": 125,
+      "text": "Kí sì l’ó mú ọ mọ ohun tó ń jẹ́ Àkókò ìjáyà?"
+    },
+    {
+      "resource_id": 125,
+      "text": "(Òhun ni) ọjọ́ tí ènìyàn yó dà bí àfòpiná tí wọ́n fọ́nká síta,"
+    },
+    {
+      "resource_id": 125,
+      "text": "àwọn àpáta yó sì dà bí ẹ̀gbọ̀n òwú tí wọ́n gbọ̀n dànù."
+    },
+    {
+      "resource_id": 125,
+      "text": "Nítorí náà, ní ti ẹni tí òṣùwọ̀n (iṣẹ́ rere) rẹ̀ bá tẹ̀wọ̀n,"
+    },
+    { "resource_id": 125, "text": "ó sì máa wà nínú ìṣẹ̀mí tó máa yọ́nú sí." },
+    {
+      "resource_id": 125,
+      "text": "Ní ti ẹni tí òṣùwọ̀n (iṣẹ́ rere) rẹ̀ bá sì fúyẹ́,"
+    },
+    { "resource_id": 125, "text": "Hāwiyah sì ni ibùgbé rẹ̀." },
+    { "resource_id": 125, "text": "Kí sì ni ó mú ọ mọ ohun tó ń jẹ́ bẹ́ẹ̀?" },
+    { "resource_id": 125, "text": "(Òhun ni) Iná gbígbóná tó ń jó gan-an." }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "101" }
+  }
+}

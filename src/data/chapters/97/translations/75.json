@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 75,
+      "text": " Həqiqətən, Biz Qu­ranı Qədr gecə­sində nazil et­dik!"
+    },
+    {
+      "resource_id": 75,
+      "text": " Sən haradan biləsən ki, Qədr gecəsi nədir?"
+    },
+    { "resource_id": 75, "text": " Qədr gecəsi min aydan xeyirlidir." },
+    {
+      "resource_id": 75,
+      "text": " O gecə Rəbbinin izni ilə mələklər və Ruh Cəbrail hər işə görə ye­rə enirlər."
+    },
+    { "resource_id": 75, "text": " O gecə sübh açılanadək əmin-aman­lıq olur." }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "97" }
+  }
+}

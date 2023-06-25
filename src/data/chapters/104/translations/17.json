@@ -1,0 +1,36 @@
+{
+  "translations": [
+    {
+      "resource_id": 17,
+      "text": "Woe to every persistent slanderer, persistent defamer,"
+    },
+    {
+      "resource_id": 17,
+      "text": "Who has gathered wealth and counted it over."
+    },
+    {
+      "resource_id": 17,
+      "text": "He reckons that his wealth has made him eternal!"
+    },
+    {
+      "resource_id": 17,
+      "text": "Not at all! Indeed he will definitely be flung off into the Crusher."
+    },
+    {
+      "resource_id": 17,
+      "text": "And what makes you realize what the Crusher is?"
+    },
+    { "resource_id": 17, "text": "(It is) the Fire of Allah kindled," },
+    { "resource_id": 17, "text": "Which views the heart-sights." },
+    {
+      "resource_id": 17,
+      "text": "Surely it is vaulted over (i.e., with no outlet) upon them,"
+    },
+    { "resource_id": 17, "text": "In pillars widely extended." }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "104" }
+  }
+}

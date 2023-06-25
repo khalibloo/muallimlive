@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 163, "text": "বলঃ তিনিই আল্লাহ, একক/অদ্বিতীয়।" },
+    { "resource_id": 163, "text": "আল্লাহ কারও মুখাপেক্ষী নন।" },
+    {
+      "resource_id": 163,
+      "text": "তাঁর কোন সন্তান নেই এবং তিনিও কারও সন্তান নন,"
+    },
+    { "resource_id": 163, "text": "এবং তাঁর সমতুল্য কেহই নেই।" }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Mujibur Rahman",
+    "author_name": "Darussalaam Publication",
+    "filters": { "resource_id": 163, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translations": [
+    { "resource_id": 131, "text": "Woe to every backbiter, slanderer," },
+    {
+      "resource_id": 131,
+      "text": "who amasses wealth ˹greedily˺ and counts it ˹repeatedly˺,"
+    },
+    {
+      "resource_id": 131,
+      "text": "thinking that their wealth will make them immortal!"
+    },
+    {
+      "resource_id": 131,
+      "text": "Not at all! Such a person will certainly be tossed into the Crusher."
+    },
+    {
+      "resource_id": 131,
+      "text": "And what will make you realize what the Crusher is?"
+    },
+    { "resource_id": 131, "text": "˹It is˺ Allah’s kindled Fire," },
+    { "resource_id": 131, "text": "which rages over the hearts." },
+    { "resource_id": 131, "text": "It will be sealed over them," },
+    {
+      "resource_id": 131,
+      "text": "˹tightly secured˺ with long braces.<sup foot_note=77638>1</sup> "
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "104" }
+  }
+}

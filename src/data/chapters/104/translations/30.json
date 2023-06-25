@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Voi jokaista parjaajaa, panettelijaa," },
+    {
+      "resource_id": 30,
+      "text": "joka kerää aarteita ja pitää niitä turvanaan,"
+    },
+    {
+      "resource_id": 30,
+      "text": "luullen, että hänen rikkautensa on pysyväistä!"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hänet totisesti singotaan murskaavan surman suuhun."
+    },
+    { "resource_id": 30, "text": "Käsitätkö, mikä tuo surma on?" },
+    { "resource_id": 30, "text": "Tuli, jonka Jumala on sytyttänyt," },
+    { "resource_id": 30, "text": "joka leimahtaa syntisiä vastaan." },
+    {
+      "resource_id": 30,
+      "text": "Se on totisesti piirittävä heidät ylt'ympäri"
+    },
+    { "resource_id": 30, "text": "kuin korkeat pilarit." }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "104" }
+  }
+}

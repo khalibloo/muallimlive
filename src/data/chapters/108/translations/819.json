@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 819, "text": "ہم نے تم کو کوثردے دیا" },
+    {
+      "resource_id": 819,
+      "text": "پس اپنے رب کے لیے نماز پڑھو اور قربانی کرو"
+    },
+    { "resource_id": 819, "text": "بے شک تمھارا دشمن ہی بے نام ونشان ہے" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "108" }
+  }
+}

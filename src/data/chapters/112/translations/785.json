@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 785, "text": "(ای پیغمبر)! بگو: او الله یگانه است." },
+    {
+      "resource_id": 785,
+      "text": "(و) الله از هرچیز بی‌نیاز (و برطرف کنندۀ نیازها) است."
+    },
+    { "resource_id": 785, "text": "نه کسی را زاده و نه او زاده شده است." },
+    { "resource_id": 785, "text": "و هیچکس مانند و همتای او نیست." }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "112" }
+  }
+}

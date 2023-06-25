@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 211,
+      "text": "Nasawi ang dalawang kamay ni Abū Lahab at nasawi siya!"
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi nakapagdulot para sa kanya ang yaman niya at ang anumang nakamit niya."
+    },
+    {
+      "resource_id": 211,
+      "text": "Masusunog siya sa isang Apoy na may lagablab"
+    },
+    {
+      "resource_id": 211,
+      "text": "at ang maybahay niya [rin], na tagapasan ng kahoy na panggatong,"
+    },
+    {
+      "resource_id": 211,
+      "text": "habang sa leeg nito ay may tali mula sa linubid na himaymay."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "111" }
+  }
+}

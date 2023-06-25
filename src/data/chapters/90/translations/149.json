@@ -1,0 +1,62 @@
+{
+  "translations": [
+    { "resource_id": 149, "text": "No! I swear by this city," },
+    {
+      "resource_id": 149,
+      "text": "and you<a class=\"sup\"><sup>sg </sup></a>are free of restriction in this city."
+    },
+    { "resource_id": 149, "text": "By the begetter and what he has begotten—" },
+    {
+      "resource_id": 149,
+      "text": "We have certainly created man in distress."
+    },
+    {
+      "resource_id": 149,
+      "text": "Does he think that no one will be able to restrain him?"
+    },
+    {
+      "resource_id": 149,
+      "text": "He says, “I have consumed <span class=\"h\">stacks of<sup foot_note=\"81473\">1</sup> </span>wealth.”"
+    },
+    { "resource_id": 149, "text": "Does he think that no one has seen him?" },
+    { "resource_id": 149, "text": "Have We not made for him two eyes" },
+    { "resource_id": 149, "text": "and a tongue and two lips," },
+    {
+      "resource_id": 149,
+      "text": "and showed him the two courses<sup foot_note=\"81474\">1</sup>?"
+    },
+    { "resource_id": 149, "text": "But he did not brave the difficult route." },
+    {
+      "resource_id": 149,
+      "text": "And what can make you realize what the difficult route is?"
+    },
+    {
+      "resource_id": 149,
+      "text": "<i class=\"s\">(It is) </i><span class=\"h\">the freeing<sup foot_note=\"81475\">1</sup> </span><span class=\"h\">of</span><span class=\"h\">a neck</span><i class=\"s\">(from the yokes of slavery) </i><span class=\"h\">,</span>"
+    },
+    {
+      "resource_id": 149,
+      "text": "<span class=\"h\">or the feeding—on a day of starvation—of</span>"
+    },
+    { "resource_id": 149, "text": "an orphaned relative" },
+    {
+      "resource_id": 149,
+      "text": "or a destitute person in the dust<sup foot_note=\"81476\">1</sup>,"
+    },
+    {
+      "resource_id": 149,
+      "text": "then becoming of those who attained faith and enjoined upon one another patience and enjoined upon one another compassion—"
+    },
+    { "resource_id": 149, "text": "those are the fellows of the rightness." },
+    {
+      "resource_id": 149,
+      "text": "But those who denied Our revelations—those are the fellows of the ill-omened;"
+    },
+    { "resource_id": 149, "text": "over them is a fire with no exit." }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "90" }
+  }
+}

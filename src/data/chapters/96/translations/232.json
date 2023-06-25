@@ -1,0 +1,79 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "Soma ng'otandika ne linnya lya      mukamawo oyo eyatonda (buli kintu)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Yatonda omuntu nga amuggya mu kisaayisaayi."
+    },
+    {
+      "resource_id": 232,
+      "text": "Soma, kuba Omulezi wo (Katonda) ye mugabi asinga."
+    },
+    {
+      "resource_id": 232,
+      "text": "Oyo eyayigiriza omuntu okuwandiika n'ekkalaamu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Yayigiriza omuntu ebyo (omuntu) bye yali tamanyi."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda, mazima omuntu agenda       neyewaggula."
+    },
+    {
+      "resource_id": 232,
+      "text": "Olw’okweraba nti yeemalirira (olw’ebyo by’aba alina)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ng’ate Mazima ddala eri Omuleziwo (Katonda) y’eri obuddo."
+    },
+    { "resource_id": 232, "text": "Olabye omuntu agaana." },
+    {
+      "resource_id": 232,
+      "text": "(Agaana) omuddu wa Katonda bw’aba ng'asaala."
+    },
+    {
+      "resource_id": 232,
+      "text": "Tolaba nti gwebagaana ky'akola kya bulungamu!"
+    },
+    { "resource_id": 232, "text": "Oba bwaba alagidde abantu okutya Katonda." },
+    {
+      "resource_id": 232,
+      "text": "Olaba oyo (agaana asaala) bw'alimbisa n'akyuka okuva ku mazima."
+    },
+    {
+      "resource_id": 232,
+      "text": "Abaffe tamanyi (oyo alimbisa) nti Mazima Katonda alaba ebyo (by’akola)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda bw’anaaba teyeekomyeko (ku bikolwa ebyo) tujja kumuwalula nga        tumukutte ku kawompo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Akawompo ako akajjudde obulimba n’obusobya."
+    },
+    {
+      "resource_id": 232,
+      "text": "Kale ayitanga abali mu kinywi kye (eky’obujeemu bamutaase)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Naffe tujja kukoowoola ba Malayika abakambwe abakuumi b’omuliro (abatuusa ebibonerezo ku bajeemu)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nedda (Owange Nabbi Muhammad) togonderanga omuntu ng’oyo. Vunnama (ng'osinza) Katonda era weeyongere okusembera gy'ali."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "96" }
+  }
+}

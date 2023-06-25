@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 143,
+      "text": "بێگومان ئێمە قورئانمان ناردە خوارەوە لەشەوی بەفەڕو بەڕێزدا"
+    },
+    { "resource_id": 143, "text": "تۆ چوزانیت کە شەوی بەفەڕو ڕێز چیە ؟" },
+    {
+      "resource_id": 143,
+      "text": "شەوی بەفەڕو ڕێز چاکترە لە (خێری) ھەزار مانگ"
+    },
+    {
+      "resource_id": 143,
+      "text": "لەو شەوەدا فریشتە وجوبرەیل لە ناویاندا دێنە خوارەوە بەفەرمانی پەروەردگاریان لەھەموو کاروبارێکدا"
+    },
+    {
+      "resource_id": 143,
+      "text": "ئەو شەوە (کاتی) ھێمنی وئاشتیی دەبێت تا ھەڵاتنی سپێدەی بەیان"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Saleh Bamoki",
+    "author_name": "Muhammad Saleh Bamoki",
+    "filters": { "resource_id": 143, "chapter_number": "97" }
+  }
+}

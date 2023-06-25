@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Qurayshota barsiisuuf," },
+    {
+      "resource_id": 111,
+      "text": "Fe’annaa gannaafi bonaa isaan barsiisuuf jecha (warra arbaa balleesse)."
+    },
+    {
+      "resource_id": 111,
+      "text": "Kanaafuu Gooftaa mana kanaa haa gabbaranu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isa beela irraa isaan nyachiseefi sodaa irraa isaan tasgabbeesse."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "106" }
+  }
+}

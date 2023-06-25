@@ -1,0 +1,21 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "110:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/110001.mp3"
+    },
+    {
+      "verse_key": "110:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/110002.mp3"
+    },
+    {
+      "verse_key": "110:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_64kbps/110003.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mahmoud Khalil Al-Husary",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "110" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 30,
+      "text": "Sano: »Minä etsin turvaa päivänkoiton Herrasta,"
+    },
+    {
+      "resource_id": 30,
+      "text": "sitä pahaa vastaan, mikä on liikkeelle pantu,"
+    },
+    {
+      "resource_id": 30,
+      "text": "ja sitä pahaa vastaan, jonka pimeä yö tuo mukanaan,"
+    },
+    {
+      "resource_id": 30,
+      "text": "niiden pahuutta vastaan, jotka viettelevät päätöksessään lujittuvia,"
+    },
+    {
+      "resource_id": 30,
+      "text": "sekä pahaa vastaan, joka leviää kateellisesta, kun hän kadehtii.»"
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "113" }
+  }
+}

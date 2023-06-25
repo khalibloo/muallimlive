@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 75,
+      "text": " Məgər Biz sənin üçün kök­sünü aç­­madıqmı?"
+    },
+    { "resource_id": 75, "text": " Yükünü səndən götürmə­dikmi?" },
+    { "resource_id": 75, "text": " Onlar belini bükürdü." },
+    { "resource_id": 75, "text": " Biz adını sənə görə ucalt­ma­dıq­mı?" },
+    {
+      "resource_id": 75,
+      "text": " Sözsüz ki, hər çətinliyin ardınca asanlıq gəlir."
+    },
+    {
+      "resource_id": 75,
+      "text": " Əlbəttə ki, hər çətinliyin ardınca asanlıq gəlir."
+    },
+    {
+      "resource_id": 75,
+      "text": " İşlərini qurtaran kimi Al­lah yolunda çalış!"
+    },
+    { "resource_id": 75, "text": " Ancaq Rəbbinə üz tut!" }
+  ],
+  "meta": {
+    "translation_name": "Alikhan Musayev",
+    "author_name": "Alikhan Musayev",
+    "filters": { "resource_id": 75, "chapter_number": "94" }
+  }
+}

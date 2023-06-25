@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Ilmend n lemwafqa n Qurayc." },
+    {
+      "resource_id": 236,
+      "text": "Lemwafqa nnsen $ef inig unebdu akked win n tegrist."
+    },
+    { "resource_id": 236, "text": "Awufan ad âabden Mass n Uxxam a," },
+    {
+      "resource_id": 236,
+      "text": "iten Iceççen, ur plaéen, iten Ivemnen, ur ppagwaden."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "106" }
+  }
+}

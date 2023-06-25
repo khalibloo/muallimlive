@@ -1,0 +1,42 @@
+{
+  "translations": [
+    { "resource_id": 20, "text": "Woe to every scorner and mocker" },
+    {
+      "resource_id": 20,
+      "text": "Who collects wealth and [continuously] counts it.<sup foot_note=197813>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "He thinks that his wealth will make him immortal."
+    },
+    {
+      "resource_id": 20,
+      "text": "No! He will surely be thrown into the Crusher.<sup foot_note=197814>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "And what can make you know what is the Crusher?"
+    },
+    {
+      "resource_id": 20,
+      "text": "It is the fire of Allāh, [eternally] fueled,"
+    },
+    {
+      "resource_id": 20,
+      "text": "Which mounts directed at the hearts.<sup foot_note=197815>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Indeed, it [i.e., Hellfire] will be closed down upon them"
+    },
+    {
+      "resource_id": 20,
+      "text": "In extended columns.<sup foot_note=197816>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "104" }
+  }
+}

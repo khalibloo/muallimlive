@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "By the morning hours" },
+    { "resource_id": 19, "text": "And by the night when it is stillest," },
+    {
+      "resource_id": 19,
+      "text": "Thy Lord hath not forsaken thee nor doth He hate thee,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And verily the latter portion will be better for thee than the former,"
+    },
+    {
+      "resource_id": 19,
+      "text": "And verily thy Lord will give unto thee so that thou wilt be content."
+    },
+    {
+      "resource_id": 19,
+      "text": "Did He not find thee an orphan and protect (thee)?"
+    },
+    {
+      "resource_id": 19,
+      "text": "Did He not find thee wandering and direct (thee)?"
+    },
+    {
+      "resource_id": 19,
+      "text": "Did He not find thee destitute and enrich (thee)?"
+    },
+    { "resource_id": 19, "text": "Therefor the orphan oppress not," },
+    { "resource_id": 19, "text": "Therefor the beggar drive not away," },
+    {
+      "resource_id": 19,
+      "text": "Therefor of the bounty of thy Lord be thy discourse."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "93" }
+  }
+}

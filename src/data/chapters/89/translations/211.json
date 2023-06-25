@@ -1,0 +1,102 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Sumpa man sa madaling-araw," },
+    { "resource_id": 211, "text": "sumpa man sa Sampung Gabi," },
+    { "resource_id": 211, "text": "sumpa man sa tukol at gansal," },
+    {
+      "resource_id": 211,
+      "text": "sumpa man sa gabi kapag naglalakbay ito; [talagang gagantihan nga kayo.]"
+    },
+    {
+      "resource_id": 211,
+      "text": "Sa gayon kaya ay may panunumpa para sa may pang-unawa?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi mo ba napag-alaman kung papaano ang ginawa ng Panginoon mo sa [liping] `Ād,"
+    },
+    { "resource_id": 211, "text": "na [lipi ni] Irām na may mga haligi," },
+    {
+      "resource_id": 211,
+      "text": "na hindi nilikha ang tulad ng mga iyon sa bayan,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at sa [liping] Thamūd na pumutol ng mga malaking bato sa lambak;"
+    },
+    { "resource_id": 211, "text": "at kay Paraon na may mga tulos?" },
+    {
+      "resource_id": 211,
+      "text": "[Silang lahat ay] ang mga nagmalabis sa bayan"
+    },
+    {
+      "resource_id": 211,
+      "text": "saka nagparami sila sa mga iyon ng katiwalian,"
+    },
+    {
+      "resource_id": 211,
+      "text": "kaya nagbuhos sa kanila ang Panginoon mo ng isang hagupit ng pagdurusa."
+    },
+    {
+      "resource_id": 211,
+      "text": "Tunay na ang Panginoon mo ay talagang nasa pantambang."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya tungkol naman sa tao, kapag sumubok dito ang Panginoon nito saka nagparangal Siya rito at nagpaginhawa Siya rito, nagsasabi ito: \"Ang Panginoon ko ay nagparangal sa akin.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Tungkol naman sa kapag sumubok Siya rito saka naghigpit Siya rito sa panustos dito, nagsasabi ito: \"Ang Panginoon ko ay humamak sa akin.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Aba’y hindi! Bagkus hindi kayo nagpaparangal sa ulila"
+    },
+    {
+      "resource_id": 211,
+      "text": "at hindi kayo naghihimukan sa pagpapakain sa dukha."
+    },
+    {
+      "resource_id": 211,
+      "text": "Kumakain kayo ng pamana nang pagkaing masidhi."
+    },
+    {
+      "resource_id": 211,
+      "text": "Umiibig kayo sa yaman nang pag-ibig na labis."
+    },
+    {
+      "resource_id": 211,
+      "text": "Aba’y hindi! Kapag dinurog ang lupa nang durog na durog,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at dumating ang Panginoon mo at ang mga anghel nang hanay-hanay,"
+    },
+    {
+      "resource_id": 211,
+      "text": "at ihahatid sa Araw na iyon ang Impiyerno. Sa Araw na iyon ay magsasaalaala ang tao, at paano ukol sa kanya ang paalaala?"
+    },
+    {
+      "resource_id": 211,
+      "text": "Magsasabi siya: \"O kung sana ako ay nagpauna [ng kabutihan] para sa buhay ko.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Kaya sa araw na iyon ay walang isang magpaparusa ng pagdurusang dulot Niya"
+    },
+    { "resource_id": 211, "text": "at walang isang gagapos ng paggapos Niya." },
+    { "resource_id": 211, "text": "\"O kaluluwang napapanatag," },
+    {
+      "resource_id": 211,
+      "text": "bumalik ka sa Panginoon mo nang nalulugod na kinalulugdan,"
+    },
+    { "resource_id": 211, "text": "saka pumasok ka sa mga lingkod Ko," },
+    { "resource_id": 211, "text": "at pumasok ka sa Paraiso Ko.\"" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "89" }
+  }
+}

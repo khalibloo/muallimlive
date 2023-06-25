@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Jedhi: \"yaa warra Rabbitti kafartan!" },
+    { "resource_id": 111, "text": "Ani waan isin gabbartan hin gabbaru." },
+    {
+      "resource_id": 111,
+      "text": "Isinis waan ani gabbaru kan gabbartan hin taane."
+    },
+    {
+      "resource_id": 111,
+      "text": "Anis waan isin gabbartan (fuula duras) kan gabbaruu miti."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isinis waan ani gabbaru (fuula duras) kan gabbartanii miti."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isiniif amantiin keessan jira; anaafis amantiin kiyya jira.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 226,
+      "text": "१.  काय तुम्ही (त्यालाही) पाहिले जो मोबदल्याच्या दिवसाला खोटे ठरवितो."
+    },
+    { "resource_id": 226, "text": "२.  हाच तो होय, जो अनाथाला धक्के मारतो." },
+    {
+      "resource_id": 226,
+      "text": "३.  आणि गरीबाला जेवु घालण्यास प्रोत्साहन देत नाही."
+    },
+    {
+      "resource_id": 226,
+      "text": "४.  त्या नमाजी लोकांकरिता ‘वैल’ (नामक जहन्नमची एक जागा) आहे."
+    },
+    { "resource_id": 226, "text": "५.  जे आपल्या नमाजांपासून गाफील आहेत." },
+    { "resource_id": 226, "text": "६.  जे केवळ देखावा दाखवितात." },
+    { "resource_id": 226, "text": "७.  आणि वापरण्याची वस्तू रोखून धरतात." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Shafi’i Ansari",
+    "author_name": "Muhammad Shafi’i Ansari",
+    "filters": { "resource_id": 226, "chapter_number": "107" }
+  }
+}

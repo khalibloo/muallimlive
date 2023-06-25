@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 122, "text": "(हे नबी!) कह दोः हे काफ़िरो!" },
+    {
+      "resource_id": 122,
+      "text": "मैं उन (मूर्तियों) को नहीं पूजता, जिन्हें तुम पूजते हो।"
+    },
+    {
+      "resource_id": 122,
+      "text": "और न तुम उसे पूजते हो, जिसे मैं पूजता हूँ।"
+    },
+    { "resource_id": 122, "text": "और न मैं उसे पूजूँगा, जिसे तुम पूजते हो।" },
+    { "resource_id": 122, "text": "और न तुम उसे पूजोगे, जिसे मैं पूजता हूँ।" },
+    {
+      "resource_id": 122,
+      "text": "तुम्हारे लिए तम्हारा धर्म तथा मेरे लिए मेरा धर्म है।[ <sup foot_note=134940>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Azizul Haque al-Umari",
+    "author_name": "Maulana Azizul Haque al-Umari",
+    "filters": { "resource_id": 122, "chapter_number": "109" }
+  }
+}

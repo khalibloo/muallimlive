@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Mów: \"On - Bóg Jeden," },
+    { "resource_id": 42, "text": "Bóg Wiekuisty!" },
+    { "resource_id": 42, "text": "Nie zrodził i nie został zrodzony!" },
+    { "resource_id": 42, "text": "Nikt Jemu nie jest równy!\"" }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 231,
+      "text": "Kwani Hatukukunjulia, ewe Mtume, kifua chako kwa sheria za Dini, kulingania watu kwa Mwenyezi Mungu na kujipamba kwa tabia nzuri,"
+    },
+    {
+      "resource_id": 231,
+      "text": "Tukakuondolea mazito yako yaliyoemea mgongo wako"
+    },
+    {
+      "resource_id": 231,
+      "text": "na Tukakuweka, kwa matukufu Tuliyokuneemesha,"
+    },
+    { "resource_id": 231, "text": "kwenye cheo cha juu?" },
+    {
+      "resource_id": 231,
+      "text": "Usirudi nyuma katika kueneza ujumbe uliotumwa nao kwa makero ya maadui zako. Kwani kwenye dhiki kuna faraji."
+    },
+    { "resource_id": 231, "text": "Hakika kwenye dhiki kuna faraji." },
+    {
+      "resource_id": 231,
+      "text": "Basi utakapomaliza mambo ya kidunia na shughuli zake jipinde kwa kufanya ibada."
+    },
+    {
+      "resource_id": 231,
+      "text": "Na kwa Mola wako Peke Yake weka matumaini yako."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "author_name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+    "filters": { "resource_id": 231, "chapter_number": "94" }
+  }
+}

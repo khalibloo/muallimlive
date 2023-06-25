@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 95,
+      "text": "Say:<sup foot_note=\"182891\">1</sup> “I seek refuge<sup foot_note=\"182892\">2</sup> with the Lord of the rising day;<sup foot_note=\"182893\">3</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "from the evil of all that He created;<sup foot_note=\"182894\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "from the evil of night's darkness when it spreads around;<sup foot_note=\"182895\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "from the evil of the women who blow on knots;<sup foot_note=\"182896\">1</sup>"
+    },
+    {
+      "resource_id": 95,
+      "text": "and from the evil of the envier when he envies.”<sup foot_note=\"182897\">1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Tafheem-ul-Quran - Abul Ala Maududi",
+    "author_name": "Sayyid Abul Ala Maududi",
+    "filters": { "resource_id": 95, "chapter_number": "113" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 31, "text": "Dis : \"Il est Allah, Unique." },
+    {
+      "resource_id": 31,
+      "text": "Allah, Le Seul à être imploré pour ce que nous désirons."
+    },
+    {
+      "resource_id": 31,
+      "text": "Il n’a jamais engendré, n’a pas été engendré non plus."
+    },
+    { "resource_id": 31, "text": "Et nul n’est égal à Lui.\"" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "112" }
+  }
+}

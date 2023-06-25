@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 210,
+      "text": "Allah’ın yardımı geldiği ve fetih gerçekleştiği zaman."
+    },
+    {
+      "resource_id": 210,
+      "text": "İnsanların akın akın Allah’ın dinine girdiğini gördüğün zaman."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hemen, hamdederek Rabbini tesbih et ve O’ndan bağışlanma dile. Şüphesiz O, çok bağışlayıcıdır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "110" }
+  }
+}

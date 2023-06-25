@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "کیا تو نے نہ دیکھا کیسا کیا تیرے رب نے ہاتھی والوں کے ساتھ <sup foot_note=88930>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کیا نہیں کر دیا اُن کا داؤ غلط <sup foot_note=88931>1</sup>"
+    },
+    { "resource_id": 151, "text": "اور بھیجے اُن پر اڑتے جانور ٹکڑیاں ٹکڑیاں" },
+    {
+      "resource_id": 151,
+      "text": "پھینکتے تھے اُن پر پتھریاں کنکر کی <sup foot_note=88932>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "پھر کر ڈالا اُنکو جیسے بھس کھایا ہوا<sup foot_note=88933>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "105" }
+  }
+}

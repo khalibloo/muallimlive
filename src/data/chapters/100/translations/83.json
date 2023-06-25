@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 83,
+      "text": "Juro por los corceles que se lanzan relinchando"
+    },
+    { "resource_id": 83, "text": "y arrancan chispas con sus cascos" },
+    { "resource_id": 83, "text": "y sorprenden al amanecer" },
+    { "resource_id": 83, "text": "levantando una nube de polvo," },
+    { "resource_id": 83, "text": "e irrumpiendo en las filas del enemigo," },
+    { "resource_id": 83, "text": "que el ser humano es ingrato con su Señor." },
+    { "resource_id": 83, "text": "Y él mismo es testigo de ello," },
+    {
+      "resource_id": 83,
+      "text": "porque tiene una codicia apasionada por los bienes materiales."
+    },
+    {
+      "resource_id": 83,
+      "text": "¿Acaso no sabe que cuando se haga surgir a quienes están en las sepulturas"
+    },
+    {
+      "resource_id": 83,
+      "text": "y se evidencie lo que hay en los corazones,"
+    },
+    {
+      "resource_id": 83,
+      "text": "ese día su Señor estará bien informado de lo que hicieron?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "By the fig and the olive<sup foot_note=197782>1</sup>"
+    },
+    { "resource_id": 20, "text": "And [by] Mount Sinai" },
+    { "resource_id": 20, "text": "And [by] this secure city [i.e., Makkah]," },
+    {
+      "resource_id": 20,
+      "text": "We have certainly created man in the best of stature;<sup foot_note=197783>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Then We return him to the lowest of the low,<sup foot_note=197784>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted."
+    },
+    {
+      "resource_id": 20,
+      "text": "So what yet causes you to deny the Recompense?<sup foot_note=197785>1</sup>"
+    },
+    { "resource_id": 20, "text": "Is not Allāh the most just of judges?" }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "95" }
+  }
+}

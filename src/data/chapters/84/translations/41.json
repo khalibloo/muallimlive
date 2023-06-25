@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Når himmelen revner," },
+    { "resource_id": 41, "text": "adlyder Herren, og er under Hans bud." },
+    { "resource_id": 41, "text": "Når jorden jevnes ut" },
+    {
+      "resource_id": 41,
+      "text": "og kaster frem det som er i den og tømmer seg,"
+    },
+    { "resource_id": 41, "text": "adlyder Herren, og er under Hans bud." },
+    {
+      "resource_id": 41,
+      "text": "Menneske, du strever med kraft henimot din Herre, og du skal møte Ham."
+    },
+    {
+      "resource_id": 41,
+      "text": "Hva den angår som får sin bok levert i høyre hånd,"
+    },
+    { "resource_id": 41, "text": "han får en lett avregning" },
+    { "resource_id": 41, "text": "og vender glad om til sine." },
+    {
+      "resource_id": 41,
+      "text": "Men hva den angår som får levert sin bok fra bak ryggen,"
+    },
+    { "resource_id": 41, "text": "han vil rope på tilintetgjørelse," },
+    { "resource_id": 41, "text": "og han havner i helvetes ild." },
+    { "resource_id": 41, "text": "Han levde glad og fornøyd blant sine" },
+    {
+      "resource_id": 41,
+      "text": "og trodde visselig at han aldri skulle vende tilbake."
+    },
+    { "resource_id": 41, "text": "Men nei, Herren hadde ham for øyet." },
+    { "resource_id": 41, "text": "Nei, jeg sverger ved aftenrøden," },
+    { "resource_id": 41, "text": "ved natten og alt den bærer i seg," },
+    { "resource_id": 41, "text": "og ved månen når den er full!" },
+    {
+      "resource_id": 41,
+      "text": "Dere skal sannelig gå fra tilstand til tilstand."
+    },
+    { "resource_id": 41, "text": "Hva er det med dem, at de ikke tror?" },
+    {
+      "resource_id": 41,
+      "text": "Og når Koranen fremleses for dem, at de ikke faller ned for Gud?"
+    },
+    {
+      "resource_id": 41,
+      "text": "Nei, de som er vantro holder sannhet for løgn,"
+    },
+    { "resource_id": 41, "text": "og Gud vet best hva de har i seg." },
+    { "resource_id": 41, "text": "Bebud for dem en smertelig straff!" },
+    {
+      "resource_id": 41,
+      "text": "Unntatt er de som tror og lever rettskaffent. De skal få en velfortjent lønn!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "84" }
+  }
+}

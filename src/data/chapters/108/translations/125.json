@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Dájúdájú Àwa fún ọ ní ọ̀pọ̀lọ́pọ̀ oore." },
+    {
+      "resource_id": 125,
+      "text": "Nítorí náà, kírun fún Olúwa rẹ, kí o sì gúnran (fún Un)."
+    },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú, ẹni tó ń bínú rẹ, òun ni kò níí lẹ́yìn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "108" }
+  }
+}

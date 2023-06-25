@@ -1,0 +1,62 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Betohem për këtë vend,<sup foot_note=195890>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "në të cilin ti je i lirë (o Muhamed),<sup foot_note=195891>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "dhe për atë që lind e për atë që është i lindur,"
+    },
+    {
+      "resource_id": 88,
+      "text": "se, në të vërtetë, Ne e kemi krijuar njeriun për të luftuar në vështirësi!<sup foot_note=195892>1</sup>"
+    },
+    {
+      "resource_id": 88,
+      "text": "A mendon ai se askush nuk ka pushtet mbi atë?"
+    },
+    {
+      "resource_id": 88,
+      "text": "Ai thotë: “Kam shpenzuar pasuri të pamasë!”"
+    },
+    {
+      "resource_id": 88,
+      "text": "Vallë, a mendon ai se nuk e ka parë askush?"
+    },
+    { "resource_id": 88, "text": "A nuk i kemi dhënë Ne atij dy sy," },
+    { "resource_id": 88, "text": "edhe gjuhë, edhe dy buzë," },
+    {
+      "resource_id": 88,
+      "text": "dhe ia kemi bërë të qarta të dyja rrugët?<sup foot_note=195893>1</sup>"
+    },
+    { "resource_id": 88, "text": "Atëherë, le të ndjekë rrugën e vështirë!" },
+    {
+      "resource_id": 88,
+      "text": "E kush mund të ta shpjegojë ty se ç’është rruga e vështirë?"
+    },
+    { "resource_id": 88, "text": "Ajo është të lirosh një skllav" },
+    { "resource_id": 88, "text": "ose të ushqesh në një ditë zie" },
+    { "resource_id": 88, "text": "jetimin e afërm" },
+    { "resource_id": 88, "text": "ose të varfrin e mjerë." },
+    {
+      "resource_id": 88,
+      "text": "Veç kësaj, (njeriu duhet) të jetë nga ata që besojnë, që e këshillojnë njëri-tjetrin për durim dhe e këshillojnë për mëshirë."
+    },
+    { "resource_id": 88, "text": "Këta janë njerëzit e krahut të djathtë." },
+    {
+      "resource_id": 88,
+      "text": "Ndërsa ata që i mohojnë shpalljet Tona, ata janë njerëzit e krahut të majtë."
+    },
+    { "resource_id": 88, "text": "Mbi ata do të jetë zjarri i mbyllur." }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "90" }
+  }
+}

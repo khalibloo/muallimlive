@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 237, "text": "Бедствието!" },
+    { "resource_id": 237, "text": "Какво е Бедствието?" },
+    { "resource_id": 237, "text": "И откъде да знаеш ти какво е Бедствието?" },
+    {
+      "resource_id": 237,
+      "text": "Деня, в който хората ще бъдат като пръснати пеперуди"
+    },
+    {
+      "resource_id": 237,
+      "text": "и планините ще бъдат като разпокъсана вълна..."
+    },
+    { "resource_id": 237, "text": "Онзи, чиито везни натежат," },
+    { "resource_id": 237, "text": "ще има живот в доволство," },
+    { "resource_id": 237, "text": "а онзи, чиито везни олекнат," },
+    { "resource_id": 237, "text": "завръщането му е бездна." },
+    { "resource_id": 237, "text": "А откъде да знаеш ти какво е тя?" },
+    { "resource_id": 237, "text": "Пламтящ огън." }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "101" }
+  }
+}

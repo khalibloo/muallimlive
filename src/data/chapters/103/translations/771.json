@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 771, "text": "ಕಾಲದ ಆಣೆ ! <sup foot_note=208132>1</sup>" },
+    { "resource_id": 771, "text": "ಮನುಷ್ಯನು ಘೋರ ನಷ್ಟದಲ್ಲಿದ್ದಾನೆ." },
+    {
+      "resource_id": 771,
+      "text": "ಸತ್ಯವಿಶ್ವಾಸವಿರಿಸಿದ, ಸತ್ಕರ್ಮವೆಸಗಿದ ಮತ್ತು ಪರಸ್ಪರ ಸತ್ಯಕ್ಕೆ ಉಪದೇಶವನ್ನೂ ಪರಸ್ಪರ ಸಹನೆಯ ಹಿತೋಪದೇಶವನ್ನೂ ಮಾಡಿಕೊಂಡವರ ಹೊರತು."
+    }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "103" }
+  }
+}

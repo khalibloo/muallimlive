@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Perish the two hands of Abû Lahab (an uncle of the Prophet) and perish he!<sup foot_note=155070>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  His wealth and his children will not benefit him!"
+    },
+    {
+      "resource_id": 203,
+      "text": "  He will be burnt in a Fire of blazing flames!"
+    },
+    {
+      "resource_id": 203,
+      "text": "  And his wife, too, who carries wood (thorns of Sa‘dân which she used to put on the way of the Prophet صلى الله عليه وسلم, or use to slander him).<sup foot_note=155071>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  In her neck is a twisted rope of Masad (palm fibre).<sup foot_note=155072>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "111" }
+  }
+}

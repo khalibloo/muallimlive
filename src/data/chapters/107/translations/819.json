@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 819,
+      "text": "کیاتم نے نہیں دیکھا اس شخص کو جوانصاف کے دن کو جھٹلاتا ہے"
+    },
+    { "resource_id": 819, "text": "وہی ہے جو یتیم کو دھکے دیتا ہے" },
+    { "resource_id": 819, "text": "اورمسکین کو کھانا دینے پر نہیں ابھارتا" },
+    { "resource_id": 819, "text": "پس تباہی ہے ان نماز پڑھنے والوں کے لیے" },
+    { "resource_id": 819, "text": "جو اپنی نماز سے غافل ہیں" },
+    { "resource_id": 819, "text": "وہ جو دکھلاوا کرتے ہیں" },
+    { "resource_id": 819, "text": "اور معمولی ضرورت کی چیزیں بھی نہیں دیتے" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "107" }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 167,
+      "text": "Those who disbelieved from among the People of the Book, and the polytheists, were not (expected) to desist (from their wrong beliefs) unless there came to them a clear proof,"
+    },
+    {
+      "resource_id": 167,
+      "text": "a messenger from Allah who recites the purified scrolls"
+    },
+    { "resource_id": 167, "text": "containing (right and) straight writings." },
+    {
+      "resource_id": 167,
+      "text": "And those who were given the Book did not disagree but after the clear proof came to them,"
+    },
+    {
+      "resource_id": 167,
+      "text": "while they were not ordered but to worship Allah, making their submission exclusive for him with integrity, and to establish salah and pay zakah. And that is the way of the straight religion."
+    },
+    {
+      "resource_id": 167,
+      "text": "Surely those who disbelieved from among the People of the Book and the polytheists will be in the fire of Jahannam, in which they will be living forever. Those are the worst of all human beings."
+    },
+    {
+      "resource_id": 167,
+      "text": "As for those who believed and did righteous deeds, they are the best of all human beings."
+    },
+    {
+      "resource_id": 167,
+      "text": "Their reward, with their Lord, is gardens of eternity beneath which rivers flow in which they will be abiding forever. Allah is pleased with them, and they are pleased with Him. That is for him who has awe of his Lord."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "98" }
+  }
+}

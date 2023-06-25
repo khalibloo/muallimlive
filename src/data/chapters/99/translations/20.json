@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "When the earth is shaken with its [final] earthquake"
+    },
+    {
+      "resource_id": 20,
+      "text": "And the earth discharges its burdens<sup foot_note=197793>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "And man says,<sup foot_note=197794>1</sup> \"What is [wrong] with it?\" -"
+    },
+    { "resource_id": 20, "text": "That Day, it will report its news" },
+    {
+      "resource_id": 20,
+      "text": "Because your Lord has inspired [i.e., commanded] it."
+    },
+    {
+      "resource_id": 20,
+      "text": "That Day, the people will depart<sup foot_note=197795>1</sup> separated [into categories] to be shown [the result of] their deeds."
+    },
+    {
+      "resource_id": 20,
+      "text": "So whoever does an atom's weight<sup foot_note=197796>1</sup> of good will see it,"
+    },
+    {
+      "resource_id": 20,
+      "text": "And whoever does an atom's weight of evil will see it."
+    }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "99" }
+  }
+}

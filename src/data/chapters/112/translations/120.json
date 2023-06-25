@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 120, "text": "কোৱা, ‘তেওঁ আল্লাহ, এক-অদ্বিতীয়," },
+    {
+      "resource_id": 120,
+      "text": "আল্লাহ হৈছে ছামাদ; (তেওঁ কাৰো মুখাপেক্ষী নহয়, সকলো তেওঁৰেই মুখাপেক্ষী)"
+    },
+    {
+      "resource_id": 120,
+      "text": "তেওঁ কাকো জন্ম দিয়া নাই আৰু তেৱোঁ জন্ম লোৱা নাই,"
+    },
+    { "resource_id": 120, "text": "আৰু তেওঁৰ সমতুল্য কোনো নাই’।" }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "author_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "filters": { "resource_id": 120, "chapter_number": "112" }
+  }
+}

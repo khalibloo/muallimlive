@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 179,
+      "text": "Sabihin mo, O Sugo: \"Siyang si Allāh, ang namumukod-tangi sa pagkadiyos, ay walang diyos na iba pa sa Kanya."
+    },
+    {
+      "resource_id": 179,
+      "text": "Siya ay ang Amo na nagwakas sa Kanya ang pagkaamo sa mga katangian ng kaganapan at karikitan, na dinudulugan ng mga nilikha."
+    },
+    {
+      "resource_id": 179,
+      "text": "Hindi Siya nagkaanak ng isa man at hindi Siya ipinanganak ng isa, kaya naman walang anak para sa Kanya – kaluwalhatian sa Kanya – at walang nag-anak."
+    },
+    {
+      "resource_id": 179,
+      "text": "Hindi nagkaroon sa Kanya ng isang nakikitulad sa paglikha Niya.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Tagalog Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 179, "chapter_number": "112" }
+  }
+}

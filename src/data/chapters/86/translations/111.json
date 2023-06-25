@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "Samiifi (urjii) halkan dhufaa ta’eenin (kakadha)."
+    },
+    {
+      "resource_id": 111,
+      "text": "(Urjii) halkan dhufaa ta’e maaltu si beeksise?"
+    },
+    {
+      "resource_id": 111,
+      "text": "(Inni) urjii ifti isaa dukkana uraa ta’eedha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Lubbuun hundi tiksaan ishee irra jiraatu malee hin hafu."
+    },
+    { "resource_id": 111, "text": "Namni maal irraa akka uumame haa ilaalu." },
+    { "resource_id": 111, "text": "Bishaan utaalaa irraa uumame." },
+    { "resource_id": 111, "text": "Jidduu dugdaatiifi qomaatii kan ba’u." },
+    { "resource_id": 111, "text": "Inni isa deebisuu irratti danda’aadha." },
+    { "resource_id": 111, "text": "Guyyaa iccitiiwwan ifa ba'an." },
+    {
+      "resource_id": 111,
+      "text": "(Gaafas) humnas ta’ee tumsaan isaaf hin jiru."
+    },
+    { "resource_id": 111, "text": "Samii abbaa deddeebiitiinin (kakadha)." },
+    { "resource_id": 111, "text": "Dachii dhodhootuunin (kakadha)." },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, inni (Qur'aanni) jecha adda baasaadha."
+    },
+    { "resource_id": 111, "text": "Inni qoosaa hin taane." },
+    { "resource_id": 111, "text": "Dhugumatti, isaan tooftaa baasu." },
+    { "resource_id": 111, "text": "Anis tooftaan baasa." },
+    {
+      "resource_id": 111,
+      "text": "Kaafirootaaf yeroo kenniAmmas xinnoo yeroo kenniif"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Rci: \"Utíkám se v ochranu Pána lidí," },
+    { "resource_id": 26, "text": "vládce lidí," },
+    { "resource_id": 26, "text": "Boha lidí," },
+    { "resource_id": 26, "text": "před zlem našeptavače pokradmého," },
+    { "resource_id": 26, "text": "jenž našeptává do hrudi lidí," },
+    { "resource_id": 26, "text": "ať již je z džinů či z lidí!\"" }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "114" }
+  }
+}

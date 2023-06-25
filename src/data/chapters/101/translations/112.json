@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Şiddetle çalan," },
+    { "resource_id": 112, "text": "Nedir şiddetle çalıp gelen?" },
+    {
+      "resource_id": 112,
+      "text": "Şiddetle çalıp gelenin ne olduğunu nereden bileceksin?"
+    },
+    {
+      "resource_id": 112,
+      "text": "O gün insanlar dağılmış çekirgeler gibi olur."
+    },
+    { "resource_id": 112, "text": "Dağlar ise saçılmış yün gibi olur." },
+    { "resource_id": 112, "text": "Kimin tartıları ağır gelirse," },
+    { "resource_id": 112, "text": "O, hoşnut olacağı bir hayat içindedir." },
+    { "resource_id": 112, "text": "Kimin de tartıları hafif gelirse," },
+    { "resource_id": 112, "text": "Onun da sığınacağı yer Haviye'dir." },
+    { "resource_id": 112, "text": "Onun ne olduğunu sana bildiren ne?" },
+    { "resource_id": 112, "text": "O, kızgın bir ateştir." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "101" }
+  }
+}

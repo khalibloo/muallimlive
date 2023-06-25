@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Sano: »Te, jotka ette usko!" },
+    { "resource_id": 30, "text": "En palvele sitä, mitä te palvelette," },
+    {
+      "resource_id": 30,
+      "text": "ettekä te palvele Häntä, jota minä palvelen."
+    },
+    {
+      "resource_id": 30,
+      "text": "Enkä koskaan aio palvella sellaista, mitä te palvelette,"
+    },
+    {
+      "resource_id": 30,
+      "text": "ettekä te koskaan Häntä, jota minä palvelen."
+    },
+    { "resource_id": 30, "text": "Teillä on tuomionne ja minulla palkkani.»" }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "109" }
+  }
+}

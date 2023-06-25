@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "בשם אללה הרחמן הרחום," },
+    { "resource_id": 233, "text": "השבח לאללה, ריבון העולמים," },
+    { "resource_id": 233, "text": "הרחמן, הרחום," },
+    { "resource_id": 233, "text": "המולך ביום הדין," },
+    {
+      "resource_id": 233,
+      "text": "(רק) אותך אנחנו עובדים, (ורק) עליך אנחנו נשענים."
+    },
+    { "resource_id": 233, "text": "הדרך אותנו לדרך הישר," },
+    {
+      "resource_id": 233,
+      "text": "דרכם של אלה אשר הנחת עליהם את חסדך, לא דרכם של אלה שנפל הזעם עליהם, ולא (דרך) התועים."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "1" }
+  }
+}

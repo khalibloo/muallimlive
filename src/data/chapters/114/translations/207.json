@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 207,
+      "text": "SAY: \"I take refuge with the Lord of Mankind,"
+    },
+    { "resource_id": 207, "text": "the King of Mankind," },
+    { "resource_id": 207, "text": "the Allah (God) of Mankind," },
+    { "resource_id": 207, "text": "from the evil of the stealthy Whisperer" },
+    { "resource_id": 207, "text": "who whispers in the breasts of Mankind," },
+    { "resource_id": 207, "text": "whether among sprites or Mankind." }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "114" }
+  }
+}

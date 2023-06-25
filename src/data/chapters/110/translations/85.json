@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "When God’s help comes and He opens up your way [Prophet],"
+    },
+    {
+      "resource_id": 85,
+      "text": "when you see people embracing God’s faith in crowds,"
+    },
+    {
+      "resource_id": 85,
+      "text": "celebrate the praise of your Lord and ask His forgiveness: He is always ready to accept repentance."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "110" }
+  }
+}

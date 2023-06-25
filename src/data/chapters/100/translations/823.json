@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 823, "text": "By the snorting, panting horses," },
+    {
+      "resource_id": 823,
+      "text": "striking sparks of fire with their hooves,"
+    },
+    { "resource_id": 823, "text": "as they gallop to make raids at dawn," },
+    { "resource_id": 823, "text": "and raising clouds of dust," },
+    {
+      "resource_id": 823,
+      "text": "forcing their way into the midst of the enemy,"
+    },
+    { "resource_id": 823, "text": "surely, man is ungrateful to his Lord." },
+    { "resource_id": 823, "text": "He himself bears witness to that." },
+    {
+      "resource_id": 823,
+      "text": "Surely, he is ardent in his love of wealth."
+    },
+    {
+      "resource_id": 823,
+      "text": "Is he not aware of the time when the contents of the graves will be brought out?"
+    },
+    {
+      "resource_id": 823,
+      "text": "And the hearts’ contents shall be brought into the open?"
+    },
+    {
+      "resource_id": 823,
+      "text": "Surely, on that Day, they will know that their Lord had full knowledge of them all.<sup foot_note=213000>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "translations": [
+    { "resource_id": 46, "text": "Marka Samadu jeexjeexanto (qiyaamada)." },
+    {
+      "resource_id": 46,
+      "text": "Oy Eebe Addeecdo waana xaq addeeciddiisunee."
+    },
+    { "resource_id": 46, "text": "Marka dhulka la fidiyo (qiyaamada)." },
+    {
+      "resource_id": 46,
+      "text": "Oo uu soo tuuro waxa ku hoos jira, kana madhnaado."
+    },
+    {
+      "resource_id": 46,
+      "text": "Oos Eeba Addeeco waana xaq adeeciddaasina. (wuxuu la kulmi Ruuxwalba Camalkiisa)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Dadow waxaad u dhibboon ood u camalfali xagga Eebe, waadna la kulmi."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise Kitaabkiisa (fiican) Midigta laga siiyo (waa mu'minkee)."
+    },
+    { "resource_id": 46, "text": "Waxaa la xisaabin xisaab fudud." },
+    {
+      "resource_id": 46,
+      "text": "Wuxuuna ku noqon Ciddiisii (Jannada joogtay) isagoo faraxsan."
+    },
+    {
+      "resource_id": 46,
+      "text": "Ruuxiise Kitaabkiisa laga siiyo gadaashiisa (waa Dadka xune)."
+    },
+    { "resource_id": 46, "text": "Wuxuu u yeedhan Halaag." },
+    { "resource_id": 46, "text": "Wuxuuna gali Naarta Saciira." },
+    {
+      "resource_id": 46,
+      "text": "Maxaa yeelay Markuu dadkiisii dhexjoogay yuu kibirsnaa (Adduunkii)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Wuxuuna malaynhayay inuusan Eebe u soo noqonaynin (qiyaame)."
+    },
+    { "resource_id": 46, "text": "Saas ma ahee Eebe waa arkaa." },
+    {
+      "resource_id": 46,
+      "text": "Waxaan ku dhaartay «buu yidhi Eebe» Midabka Qorrax dhaca."
+    },
+    { "resource_id": 46, "text": "Iyo Habeenka iyo wuxuu qariyay." },
+    { "resource_id": 46, "text": "Iyo Dayaxa markuu Nuurku buux Samo." },
+    {
+      "resource_id": 46,
+      "text": "Ee Dadkow waxaad koraysaan xaalado kala duwan .)"
+    },
+    {
+      "resource_id": 46,
+      "text": "Dadka maxaa u sugnaaday oy la rumaynwaayeen (xaqa)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Marka Quraanka lagu akhriyana ayna u sujuudaynin."
+    },
+    {
+      "resource_id": 46,
+      "text": "Saas ma ahee kuwa Gaaloobay waxay beenin (xaqa)."
+    },
+    { "resource_id": 46, "text": "Eebana waa ogyahay waxay qarsan." },
+    { "resource_id": 46, "text": "Ugu bishaaree caddibaad daran." },
+    {
+      "resource_id": 46,
+      "text": "Hase yeeshee kuwa rumeeyay xaqa camalfiicanna falay waxay mudan Ajri aan go'aynin."
+    }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "84" }
+  }
+}

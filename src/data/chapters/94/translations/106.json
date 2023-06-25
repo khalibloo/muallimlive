@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "Оха д1а ца деллира /пайхамаралла даларца/ хьан дог /хIай Мухьаммад/?"
+    },
+    {
+      "resource_id": 106,
+      "text": "ДIабаьккхира хьуна тIера мохь<sup foot_note=114450>1</sup>‚"
+    },
+    { "resource_id": 106, "text": "Хьан букъ ша гIелбина болу." },
+    {
+      "resource_id": 106,
+      "text": "Оха даз ма дира хьо хьехавар.<sup foot_note=114451>1</sup>"
+    },
+    { "resource_id": 106, "text": "Баккъалла а, халонца атталла хир ма ду." },
+    { "resource_id": 106, "text": "Баккъалла а, халонца атталла хир ма ду." },
+    {
+      "resource_id": 106,
+      "text": "Хьуо паргIат ваьлча /ламаз дина/, къахьега /доIанаш дарца‚ я дуьненан рицкъ лахарца/."
+    },
+    {
+      "resource_id": 106,
+      "text": "Хьо Кхиош-кхобуш волчуьнга хьастало (Цуьнгахь долчунна тIегIерта)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "94" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "誓以上午，" },
+    { "resource_id": 56, "text": "誓以黑夜，当其寂静的时候，" },
+    { "resource_id": 56, "text": "你的主没有弃绝你，也没有怨恨你；" },
+    { "resource_id": 56, "text": "後世於你，确比今世更好；" },
+    { "resource_id": 56, "text": "你的主将来必赏赐你，以至你喜悦。" },
+    { "resource_id": 56, "text": "难道他没有发现你伶仃孤苦，而使你有所归宿？" },
+    { "resource_id": 56, "text": "他曾发现你徘徊歧途，而把你引入正路；" },
+    { "resource_id": 56, "text": "发现你家境寒苦，而使你衣食丰足。" },
+    { "resource_id": 56, "text": "至於孤儿，你不要压迫他；" },
+    { "resource_id": 56, "text": "至於乞丐，你不要喝斥他，" },
+    { "resource_id": 56, "text": "至於你的主所赐你的恩典呢，你应当宣示它。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "93" }
+  }
+}

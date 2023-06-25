@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 106,
+      "text": "ХIаллакхили Āлун ден<sup foot_note=114492>1</sup>ший куьг и ша а хIаллакхили."
+    },
+    {
+      "resource_id": 106,
+      "text": "КIелхьар ца ваьккхи иза цуьнан хьоло а‚ цо карадинчо а<sup foot_note=114493>1</sup>."
+    },
+    { "resource_id": 106, "text": "Вегар ву иза āлу йолчу цIаргахь‚" },
+    {
+      "resource_id": 106,
+      "text": "Цуьнан зуда<sup foot_note=114494>1</sup>а /егар ю цIаргахь/ − дечиг кхоьхьург<sup foot_note=114495>2</sup>."
+    },
+    {
+      "resource_id": 106,
+      "text": "Цуьнан лага тIехь /хир/ бу хурманан диттан хьесан муш<sup foot_note=114496>1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Magomed Magomedov",
+    "author_name": "Magomed Magomedov",
+    "filters": { "resource_id": 106, "chapter_number": "111" }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "translations": [
+    {
+      "resource_id": 112,
+      "text": "Yıldızların (yörüngelerine) sahip göğe andolsun."
+    },
+    { "resource_id": 112, "text": "Ve vaad edilen güne." },
+    { "resource_id": 112, "text": "Şahid olana ve şahid olunana." },
+    { "resource_id": 112, "text": "Kahrolsun hendek sahipleri!" },
+    { "resource_id": 112, "text": "Tutuşturulmuş ateş." },
+    { "resource_id": 112, "text": "Kenarında oturmuşlar." },
+    { "resource_id": 112, "text": "Müminlere yaptıklarını seyretmekteler." },
+    {
+      "resource_id": 112,
+      "text": "Onlardan sadece, Aziz ve Hamid olan Allah’a iman ettikleri için intikam alıyorlar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Göklerin ve yerin mülkü kendisinin olan. Allah her şeye şahittir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Erkek ve kadın mü’minleri ateşe atıp, sonra da tevbe etmeyenlere, onlara Cehennem azabı vardır. Onlara yakıcı azap vardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "İman edip, salih amel yapanlara, onlara alt tarafından ırmaklar akan cennetler var. İşte bu büyük kurtuluş…"
+    },
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz Rabbinin yakalayışı ise çok şiddetlidir."
+    },
+    {
+      "resource_id": 112,
+      "text": "İlk defa yaratan ve tekrar diriltecek olan O’dur."
+    },
+    {
+      "resource_id": 112,
+      "text": "Çok bağışlayıcıdır. Çok seven, sevilen O’dur."
+    },
+    { "resource_id": 112, "text": "Yüce arşın sahibi…" },
+    { "resource_id": 112, "text": "Ne dilerse yapandır." },
+    { "resource_id": 112, "text": "Sana o orduların haberi gelmedi mi?" },
+    { "resource_id": 112, "text": "Firavun ve Semud’un..." },
+    { "resource_id": 112, "text": "Kâfir olanlar yalanlayıp duruyorlar." },
+    { "resource_id": 112, "text": "Allah ise onların arkasından kuşatandır." },
+    { "resource_id": 112, "text": "Hayır! O şerefli Kur'an'dır." },
+    { "resource_id": 112, "text": "Levh-i Mahfuz’dadır." }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "85" }
+  }
+}

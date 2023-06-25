@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 125, "text": "Allāhu fi àkókò ìrọ̀lẹ́ ayé búra." },
+    { "resource_id": 125, "text": "Dájúdájú ènìyàn wà nínú òfò." },
+    {
+      "resource_id": 125,
+      "text": "Àyàfi àwọn tó gbàgbọ́ ní òdodo, tí wọ́n ṣe àwọn iṣẹ́ rere, tí wọ́n sọ àsọtẹ́lẹ̀ òdodo láààrin ara wọn, tí wọ́n sì tún sọ àsọtẹ́lẹ̀ sùúrù láààrin ara wọn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "103" }
+  }
+}

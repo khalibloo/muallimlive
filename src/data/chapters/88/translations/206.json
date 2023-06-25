@@ -1,0 +1,62 @@
+{
+  "translations": [
+    {
+      "resource_id": 206,
+      "text": "Has there come to you the story of the Overwhelming Event?"
+    },
+    {
+      "resource_id": 206,
+      "text": "On that Day, some faces will be humiliated,"
+    },
+    { "resource_id": 206, "text": "toiling and weary," },
+    { "resource_id": 206, "text": "as they burn in a scorching Fire." },
+    {
+      "resource_id": 206,
+      "text": "They will be made to drink from a boiling spring,"
+    },
+    {
+      "resource_id": 206,
+      "text": "and they will have no food except bitter thorny plants,"
+    },
+    {
+      "resource_id": 206,
+      "text": "that neither nourishes nor satisfies hunger."
+    },
+    { "resource_id": 206, "text": "Other faces on that Day will be joyful," },
+    { "resource_id": 206, "text": "well-pleased with their past striving," },
+    { "resource_id": 206, "text": "in an elevated garden," },
+    { "resource_id": 206, "text": "wherein no idle talk will be heard." },
+    { "resource_id": 206, "text": "There will be a flowing spring;" },
+    { "resource_id": 206, "text": "and couches raised high," },
+    { "resource_id": 206, "text": "and cups placed ready," },
+    { "resource_id": 206, "text": "and cushions lined up," },
+    { "resource_id": 206, "text": "and splendid carpets spread out." },
+    {
+      "resource_id": 206,
+      "text": "Do they not reflect on the camel, how it is created;"
+    },
+    { "resource_id": 206, "text": "and the sky, how it is raised high;" },
+    {
+      "resource_id": 206,
+      "text": "and the mountains, how they are firmly set up;"
+    },
+    { "resource_id": 206, "text": "and the earth, how it is spread out?" },
+    {
+      "resource_id": 206,
+      "text": "So remind [O Prophet]; your duty is only to remind;"
+    },
+    { "resource_id": 206, "text": "you are not assigned to compel them." },
+    { "resource_id": 206, "text": "But whoever turns away and disbelieves," },
+    {
+      "resource_id": 206,
+      "text": "Allah will inflict upon him the greatest punishment."
+    },
+    { "resource_id": 206, "text": "Indeed, to Us is their return," },
+    { "resource_id": 206, "text": "then it is for Us to call them to account." }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "88" }
+  }
+}

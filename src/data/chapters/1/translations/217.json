@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 217, "text": "Ім’ям Аллага Милостивого, Милосердного" },
+    { "resource_id": 217, "text": "Хвала Аллагу, Господу світів" },
+    { "resource_id": 217, "text": "Милостивому, Милосердному" },
+    { "resource_id": 217, "text": "Царю Судного Дня" },
+    {
+      "resource_id": 217,
+      "text": "Лише Тобі ми поклоняємося і лише в Тебе просимо допомоги"
+    },
+    { "resource_id": 217, "text": "веди нас шляхом прямим" },
+    {
+      "resource_id": 217,
+      "text": "шляхом тих, кого Ти наділив благами, а не тих, хто під гнівом Твоїм, і не тих, хто заблукав!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mikhailo Yaqubovic",
+    "author_name": "Dr. Mikhailo Yaqubovic",
+    "filters": { "resource_id": 217, "chapter_number": "1" }
+  }
+}

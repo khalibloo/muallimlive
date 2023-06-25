@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 771,
+      "text": "ಇದನ್ನು (ಖುರ್‍ಆನನ್ನು) ನಾವು ಖದ್‍ರಿನ ರಾತ್ರಿಯಲ್ಲಿ ಅವತೀರ್ಣಗೊಳಿಸಿದ್ದೇವೆ<sup foot_note=208115>1</sup>."
+    },
+    { "resource_id": 771, "text": "ಖದ್‍ರಿನ ರಾತ್ರಿ ಏನೆಂದು ಗೊತ್ತೆ?" },
+    {
+      "resource_id": 771,
+      "text": "ಖದ್‍ರಿನ ರಾತ್ರಿಯು ಸಾವಿರ ಮಾಸಕ್ಕಿಂತಲೂ ಶ್ರೇಷ್ಟವಾಗಿದೆ <sup foot_note=208116>1</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ಅಂದು ಅಲ್ಲಾಹನ ಸಮ್ಮತಿ ಮೇರೆಗೆ ಎಲ್ಲ ಕಾರ್ಯಗಳಿಗಾಗಿ ದೇವಚರರು ಹಾಗೂ ‘ರೂಹ್’ ಇಳಿದು ಬರುವರು<sup foot_note=208117>1</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ಆ ರಾತ್ರಿಯು ಪ್ರಭಾತದವರೆಗೆ ಸುರಕ್ಷೆಯಾಗಿದೆ.<sup foot_note=208118>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "97" }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Alhaqqa" },
+    { "resource_id": 57, "text": "Ma alhaqqa" },
+    { "resource_id": 57, "text": "Wama adraka ma alhaqqa" },
+    { "resource_id": 57, "text": "Kaththabat thamoodu waAAadun bilqariAAa" },
+    { "resource_id": 57, "text": "Faamma thamoodu faohlikoo bittaghiya" },
+    {
+      "resource_id": 57,
+      "text": "Waamma AAadun faohlikoo bireehinsarsarin AAatiya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Sakhkharaha AAalayhim sabAAa layalinwathamaniyata ayyamin husooman fataraalqawma feeha sarAAa kaannahum aAAjazunakhlin khawiya"
+    },
+    { "resource_id": 57, "text": "Fahal tara lahum min baqiya" },
+    {
+      "resource_id": 57,
+      "text": "Wajaa firAAawnu waman qablahu walmu/tafikatubilkhati-a"
+    },
+    {
+      "resource_id": 57,
+      "text": "FaAAasaw rasoola rabbihim faakhathahumakhthatan rabiya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Inna lamma taghaalmao hamalnakum fee aljariya"
+    },
+    {
+      "resource_id": 57,
+      "text": "LinajAAalaha lakum tathkiratanwataAAiyaha othunun waAAiya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Fa-itha nufikha fee assoorinafkhatun wahida"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wahumilati al-ardu waljibalufadukkata dakkatan wahida"
+    },
+    { "resource_id": 57, "text": "Fayawma-ithin waqaAAati alwaqiAAa" },
+    {
+      "resource_id": 57,
+      "text": "Wanshaqqati assamaofahiya yawma-ithin wahiya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Walmalaku AAala arja-ihawayahmilu AAarsha rabbika fawqahum yawma-ithin thamaniya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Yawma-ithin tuAAradoona latakhfa minkum khafiya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Faamma man ootiya kitabahubiyameenihi fayaqoolu haomu iqraoo kitabiyah"
+    },
+    { "resource_id": 57, "text": "Innee thanantu annee mulaqinhisabiyah" },
+    { "resource_id": 57, "text": "Fahuwa fee AAeeshatin radiya" },
+    { "resource_id": 57, "text": "Fee jannatin AAaliya" },
+    { "resource_id": 57, "text": "Qutoofuha daniya" },
+    {
+      "resource_id": 57,
+      "text": "Kuloo washraboo hanee-an bimaaslaftum fee al-ayyami alkhaliya"
+    },
+    {
+      "resource_id": 57,
+      "text": "Waamma man ootiya kitabahubishimalihi fayaqoolu ya laytanee lam oota kitabiyah"
+    },
+    { "resource_id": 57, "text": "Walam adri ma hisabiyah" },
+    { "resource_id": 57, "text": "Ya laytaha kanati alqadiya" },
+    { "resource_id": 57, "text": "Ma aghna AAannee maliyah" },
+    { "resource_id": 57, "text": "Halaka AAannee sultaniyah" },
+    { "resource_id": 57, "text": "Khuthoohu faghullooh" },
+    { "resource_id": 57, "text": "Thumma aljaheema sallooh" },
+    {
+      "resource_id": 57,
+      "text": "Thumma fee silsilatin tharAAuhasabAAoona thiraAAan faslukooh"
+    },
+    { "resource_id": 57, "text": "Innahu kana la yu/minu billahialAAatheem" },
+    { "resource_id": 57, "text": "Wala yahuddu AAalataAAami almiskeen" },
+    { "resource_id": 57, "text": "Falaysa lahu alyawma hahuna hameem" },
+    { "resource_id": 57, "text": "Wala taAAamun illamin ghisleen" },
+    { "resource_id": 57, "text": "La ya/kuluhu illa alkhati-oon" },
+    { "resource_id": 57, "text": "Fala oqsimu bima tubsiroon" },
+    { "resource_id": 57, "text": "Wama la tubsiroon" },
+    { "resource_id": 57, "text": "Innahu laqawlu rasoolin kareem" },
+    {
+      "resource_id": 57,
+      "text": "Wama huwa biqawli shaAAirinqaleelan ma tu/minoon"
+    },
+    {
+      "resource_id": 57,
+      "text": "Wala biqawli kahinin qaleelanma tathakkaroon"
+    },
+    { "resource_id": 57, "text": "Tanzeelun min rabbi alAAalameen" },
+    { "resource_id": 57, "text": "Walaw taqawwala AAalayna baAAdaal-aqaweel" },
+    { "resource_id": 57, "text": "Laakhathna minhu bilyameen" },
+    { "resource_id": 57, "text": "Thumma laqataAAna minhualwateen" },
+    { "resource_id": 57, "text": "Fama minkum min ahadin AAanhu hajizeen" },
+    { "resource_id": 57, "text": "Wa-innahu latathkiratun lilmuttaqeen" },
+    {
+      "resource_id": 57,
+      "text": "Wa-inna lanaAAlamu anna minkum mukaththibeen"
+    },
+    { "resource_id": 57, "text": "Wa-innahu lahasratun AAala alkafireen" },
+    { "resource_id": 57, "text": "Wa-innahu lahaqqu alyaqeen" },
+    { "resource_id": 57, "text": "Fasabbih bismi rabbika alAAatheem" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "69" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 151, "text": "تو کہہ میں پناہ میں آیا لوگوں کے رب کی" },
+    { "resource_id": 151, "text": "لوگوں کے بادشاہ کی" },
+    {
+      "resource_id": 151,
+      "text": "لوگوں کے معبود کی <sup foot_note=88965>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "بدی سے اُسکی جو پھسلائے اور چھپ جائے <sup foot_note=88966>1</sup>"
+    },
+    { "resource_id": 151, "text": "وہ جو خیال ڈالتا ہے لوگوں کے دل میں" },
+    {
+      "resource_id": 151,
+      "text": "جنوں میں اور آدمیوں میں <sup foot_note=88967>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "114" }
+  }
+}

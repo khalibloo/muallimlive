@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 237,
+      "text": "Кажи [о, Мухаммад]: “Опазил ме Господът на разсъмването"
+    },
+    { "resource_id": 237, "text": "от злото на онова, което е сътворил," },
+    { "resource_id": 237, "text": "и от злото на тъмнината, когато настъпи," },
+    {
+      "resource_id": 237,
+      "text": "и от злото на духащи по възлите [магьосници],"
+    },
+    { "resource_id": 237, "text": "и от злото на завистник, когато завиди!”" }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "113" }
+  }
+}

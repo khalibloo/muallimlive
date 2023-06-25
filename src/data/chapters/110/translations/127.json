@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 127,
+      "text": "Вақтики, Аллоҳнинг нусрати ва фатҳ келса..."
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва одамларнинг Аллоҳнинг динига тўп-тўп бўлиб кираётганини кўрсанг..."
+    },
+    {
+      "resource_id": 127,
+      "text": "Бас, Роббингни поклаб ёд эт ва Унга истиғфор айт. Албатта, У тавбаларни кўплаб қабул этувчидир."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "110" }
+  }
+}

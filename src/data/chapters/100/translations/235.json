@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 235, "text": "Bij de snuivende rossen." },
+    { "resource_id": 235, "text": "Die vonken (van de hoeven) slaan." },
+    { "resource_id": 235, "text": "Die in de ochtendschemering aanvallen." },
+    { "resource_id": 235, "text": "En daarbij stof opwerpen." },
+    {
+      "resource_id": 235,
+      "text": "Die dan in het midden van de gelederen (van de vijand) doordringen."
+    },
+    {
+      "resource_id": 235,
+      "text": "Waarlijk! De mens is ondankbaar naar zijn Heer."
+    },
+    { "resource_id": 235, "text": "En daar is hij zelf getuige van." },
+    {
+      "resource_id": 235,
+      "text": "Hij heeft een intense liefde voor rijkdom."
+    },
+    {
+      "resource_id": 235,
+      "text": "Weet hij niet dat, wanneer de inhoud van de graven naar buiten wordt gebracht."
+    },
+    {
+      "resource_id": 235,
+      "text": "En bekend zal worden gemaakt wat er in de harten zit."
+    },
+    { "resource_id": 235, "text": "Dat hun Heer hen op die Dag volkomen kent?" }
+  ],
+  "meta": {
+    "translation_name": "Malak Faris Abdalsalaam",
+    "author_name": "Malak Faris Abdalsalaam",
+    "filters": { "resource_id": 235, "chapter_number": "100" }
+  }
+}

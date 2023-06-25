@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 46,
+      "text": "Eebe wuxuu ku dhaartay Samada iyo Xiddigga guura."
+    },
+    { "resource_id": 46, "text": "Ma taqaan Xiddigga guura." },
+    { "resource_id": 46, "text": "Waa Xiddig ifa." },
+    {
+      "resource_id": 46,
+      "text": "Ee Nafwalba waxaa kor jooga ilaaliye (Malag)."
+    },
+    { "resource_id": 46, "text": "Ee Dadku ha dayo waxa laga abuuray." },
+    { "resource_id": 46, "text": "Waxaa laga abuuray Biyo booda." },
+    { "resource_id": 46, "text": "Kana soobaxa Dhabar iyo laab dhexdood." },
+    {
+      "resource_id": 46,
+      "text": "Eebana waa karaa soo celinta Dadka (qiyaamada)."
+    },
+    {
+      "resource_id": 46,
+      "text": "Maalinta la imtixaani waxa (Laabta) ku qarsoon."
+    },
+    {
+      "resource_id": 46,
+      "text": "Dadkuna Xoog ma leh (Maalintaas) iyo wax u gargaaara midna."
+    },
+    {
+      "resource_id": 46,
+      "text": "Eebana wuxuu ku dhaartay Samada Roobka leh."
+    },
+    { "resource_id": 46, "text": "Iyo Dhulka jeexma (waxna ka soo baxo)." },
+    {
+      "resource_id": 46,
+      "text": "Ee Quraanku waa hadal wax kala bixiya (wanaagga iyo Xumaanta)."
+    },
+    { "resource_id": 46, "text": "Ciyaarra ma aha (ee waa dhab)." },
+    { "resource_id": 46, "text": "Gaaladu waxbay dhakri." },
+    { "resource_id": 46, "text": "Annaguna waanu kaydi (Abaalmarin)." },
+    { "resource_id": 46, "text": "Ee u sug Gaalada wax yar." }
+  ],
+  "meta": {
+    "translation_name": "Mahmud Muhammad Abduh",
+    "author_name": "Mahmud Muhammad Abduh",
+    "filters": { "resource_id": 46, "chapter_number": "86" }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "translations": [
+    { "resource_id": 55, "text": "Voqi'a voqe' bo`lganda." },
+    {
+      "resource_id": 55,
+      "text": "Uning voqe' bo`lishini yolg`onga chiqaruvchi (jon) yo`qdir."
+    },
+    { "resource_id": 55, "text": "U, ham pastlatuvchi, ham ko`taruvchidir." },
+    {
+      "resource_id": 55,
+      "text": "Qachonki, yer qattiq larzaga keltirilganda."
+    },
+    { "resource_id": 55, "text": "Va tog`lar maydalanib titilganda." },
+    { "resource_id": 55, "text": "Bas, tarqalgan chang-to`zonga aylanganda." },
+    { "resource_id": 55, "text": "Va siz uch toifa bo`lganingizda." },
+    {
+      "resource_id": 55,
+      "text": "O`ng taraf egalari. O`ng taraf egalari ne(saodatlilar)dir?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va chap taraf egalari. Chap taraf egalari ne(badbaxtlar)dir?!"
+    },
+    { "resource_id": 55, "text": "Va peshqadamlar, peshqadamlar." },
+    { "resource_id": 55, "text": "Ular (Allohga) yaqin bo`lganlar." },
+    { "resource_id": 55, "text": "Serne'mat jannatlardadirlar." },
+    { "resource_id": 55, "text": "Avvalgilardan ko`pchilik." },
+    { "resource_id": 55, "text": "Va oxirgilardan ozchilik." },
+    { "resource_id": 55, "text": "To`qima so`rilardadirlar." },
+    {
+      "resource_id": 55,
+      "text": "Bir-birlariga ro`baro` bo`lib yonboshlagan holdadirlar.<sup foot_note=\"169817\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Atroflarida mangu yosh yigitlar aylanib yururlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Oqar chashma mayi to`latilgan qadahlar, ko`zalar va kosalar bilan."
+    },
+    {
+      "resource_id": 55,
+      "text": "Undan bosh og`rig`i ham, mast ham bo`lmaslar."
+    },
+    { "resource_id": 55, "text": "Va xohlagan mevalarini olib." },
+    {
+      "resource_id": 55,
+      "text": "Ishtahalari tusagan qush go`shtini olib (aylanib yurarlar)."
+    },
+    { "resource_id": 55, "text": "Yana, ko`zi go`zal hurlar bor." },
+    { "resource_id": 55, "text": "Misoli yashirilgan dur kabi." },
+    {
+      "resource_id": 55,
+      "text": "Bular — qilib yurgan amallarning mukofotidur."
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular u(Jannat)da behuda, gunoh(so`z)larni eshitmaslar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Magar «Salom, salom» deyilganini (eshitarlar).<sup foot_note=\"170627\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`ng taraf egalari. O`ng taraf egalari nedir?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Ular tikonsiz sidrzorlardadirlar.<sup foot_note=\"169877\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Sermeva bananzorlardadirlar." },
+    { "resource_id": 55, "text": "Va yoyilgan soyalardadirlar." },
+    { "resource_id": 55, "text": "Oqar suvlardadirlar." },
+    { "resource_id": 55, "text": "Serob mevalardadirlar." },
+    { "resource_id": 55, "text": "Tugamaydigan va man qilinmaydigan." },
+    { "resource_id": 55, "text": "Ko`tarilgan ko`rpachalardadirlar." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, Biz u(hur)larni daf'atan, xos qilib, yaratdik."
+    },
+    { "resource_id": 55, "text": "Bas, ularni bokira qizlar qilib qo`ydik." },
+    { "resource_id": 55, "text": "Bir xildagi tengdosh mahbubalar." },
+    { "resource_id": 55, "text": "O`ng taraf egalari uchun." },
+    { "resource_id": 55, "text": "Ular avvalgilardan ko`pgina jamoatlardir." },
+    { "resource_id": 55, "text": "Keyingilardan ham ko`pgina jamoatlardir." },
+    {
+      "resource_id": 55,
+      "text": "Va chap taraf egalari. Chap taraf egalari ne(badbaxtlar)dir?!"
+    },
+    { "resource_id": 55, "text": "Ular o`t shamol va qaynoq suvdadirlar." },
+    { "resource_id": 55, "text": "Qop-qora tutun soyasidadirlar." },
+    { "resource_id": 55, "text": "Na salqin emas va na foydali." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, ular bundan oldin hoyi-havasga berilganlardan edilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va katta gunoh ishlarni mudom qilib kelgan edilar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va: «Biz o`lib, tuproq va suyak bo`lsak ham, qayta tiriltirilamizmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Avval o`tgan otalarimiz ham-a?!» – der edilar."
+    },
+    { "resource_id": 55, "text": "Aytgil: «Albatta, avvalgilar va oxirgilar." },
+    {
+      "resource_id": 55,
+      "text": "Ma'lum kuni, belgilangan vaqtda, albatta, to`planuvchidirlar»."
+    },
+    {
+      "resource_id": 55,
+      "text": "So`ngra, siz, ey adashganlar, yolg`onga chiqaruvchilar."
+    },
+    { "resource_id": 55, "text": "Albatta, zaqqum daraxtidan yeyuvchisizlar." },
+    { "resource_id": 55, "text": "Bas, undan qorinlarni to`ldiruvchisizlar." },
+    {
+      "resource_id": 55,
+      "text": "Bas, ustidan o`ta qaynoq suvdan ichuvchisizlar."
+    },
+    { "resource_id": 55, "text": "Bas, chanqoq tuyadek ichuvchisizlar." },
+    {
+      "resource_id": 55,
+      "text": "Ularning qiyomat kunidagi ziyofatlari mana shu!!!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Biz sizlarni yaratganmiz, ishonsalaring-chi!"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`zingiz chiqaradigan maniyni o`ylab ko`ring-a!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Uni sizlar yaratasizmi yoki Biz yaratuvchimizmi?!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Orangizdagi o`limni Biz belgilaganmiz va Biz ojiz emasmiz."
+    },
+    {
+      "resource_id": 55,
+      "text": "Sizning o`rningizga sizga o`xshashlarni almashtirishdan va sizlarni o`zingiz bilmaydigan holda yaratishdan."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va darhaqiqat, avvalgi yaratilishni bildingiz-ku, eslasalaringiz-chi!"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`zingiz ekayotgan narsani o`ylab ko`ring-a!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Uni siz undirasizmi yoki Biz undiruvchimizmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Agar xohlasak, Biz uni quruq cho`pga aylantirib qo`yamiz. Sizlar esa, nadomatda ajablanib:"
+    },
+    { "resource_id": 55, "text": "«Albatta, biz ziyon ko`rganlarmiz." },
+    { "resource_id": 55, "text": "Balki, mahrum bo`lganlarmiz, (deysizlar)." },
+    { "resource_id": 55, "text": "O`zingiz ichadigan suvni o`ylab ko`ring-a!" },
+    {
+      "resource_id": 55,
+      "text": "Uni bulutlardan siz tushirasizmi yoki Biz tushiruvchimizmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Agar xohlasak, Biz uni sho`r qilib qo`yamiz. Shukr qilsangiz-chi!"
+    },
+    {
+      "resource_id": 55,
+      "text": "O`zingiz yoqadigan olovni o`ylab ko`ring-a!"
+    },
+    {
+      "resource_id": 55,
+      "text": "Uning daraxtini siz yaratgansizmi yoki Biz yaratuvchimizmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Biz u(olov)ni eslatma va yo`lovchilar uchun manfaat qilib qo`ydik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Bas, ulug` Robbing ismini poklab yod et!<sup foot_note=\"169880\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Yulduzlarning manzillari bilan qasam ichaman.<sup foot_note=\"169881\">1</sup>"
+    },
+    {
+      "resource_id": 55,
+      "text": "Albatta, agar bilsangiz, bu ulug` qasamdir.<sup foot_note=\"169882\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Albatta, u Qur'oni Karimdir." },
+    { "resource_id": 55, "text": "U Saqlangan kitobdadir." },
+    { "resource_id": 55, "text": "Uni faqat poklanganlargina ushlaydir." },
+    { "resource_id": 55, "text": "U, olamlarning Robbisidan tushirilgandir." },
+    {
+      "resource_id": 55,
+      "text": "Bas, sizlar mana shu so`zga beparvolik qilasizlarmi?"
+    },
+    {
+      "resource_id": 55,
+      "text": "Va yolg`onga chiqarishni rizq qilib olasizlarmi?<sup foot_note=\"169883\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Joningiz halqumga kelib qolsa-chi?" },
+    {
+      "resource_id": 55,
+      "text": "Holbuki, o`sha vaqtda o`zlaringiz qarab turgan bo`lasizlar."
+    },
+    {
+      "resource_id": 55,
+      "text": "Biz esa, sizdan ko`ra unga yaqinmiz, ammo sizlar ko`rmaysizlar.<sup foot_note=\"170518\">1</sup>"
+    },
+    { "resource_id": 55, "text": "Agar siz hisob bermaydigan bo`lsangiz." },
+    {
+      "resource_id": 55,
+      "text": "U(jon)ni o`rniga qaytaring-chi, agar gaplaringiz rost bo`lsa."
+    },
+    { "resource_id": 55, "text": "Agar yaqinlashtirilganlardan bo`lsa." },
+    {
+      "resource_id": 55,
+      "text": "Rohatda, farog`atda va serne'mat jannatdadir."
+    },
+    { "resource_id": 55, "text": "Agar o`ng taraf egalaridan bo`lsa." },
+    {
+      "resource_id": 55,
+      "text": "Bas, senga o`ng taraf egalaridan Salom bo`lsin, (deyilur)."
+    },
+    {
+      "resource_id": 55,
+      "text": "Va agar yolg`onga chiqaruvchi gumrohlardan bo`lsa."
+    },
+    { "resource_id": 55, "text": "Bas, o`ta qaynoq suvdan ziyofat." },
+    { "resource_id": 55, "text": "Va do`zaxga kirishdir." },
+    {
+      "resource_id": 55,
+      "text": "Albatta, ushbu, ta'kidki, ochiq-oydin haqiqatdir."
+    },
+    { "resource_id": 55, "text": "Bas, ulug` Robbing ismini poklab yod et!" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "56" }
+  }
+}

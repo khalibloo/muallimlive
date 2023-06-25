@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "By the fig and the olive," },
+    { "resource_id": 19, "text": "By Mount Sinai," },
+    { "resource_id": 19, "text": "And by this land made safe;" },
+    { "resource_id": 19, "text": "Surely We created man of the best stature" },
+    {
+      "resource_id": 19,
+      "text": "Then we reduced him to the lowest of the low,"
+    },
+    {
+      "resource_id": 19,
+      "text": "Save those who believe and do good works, and theirs is a reward unfailing."
+    },
+    {
+      "resource_id": 19,
+      "text": "So who henceforth will give the lie to thee about the judgment?"
+    },
+    {
+      "resource_id": 19,
+      "text": "Is not Allah the most conclusive of all judges?"
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "95" }
+  }
+}

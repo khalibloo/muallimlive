@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 823,
+      "text": "Have We not lifted up your heart,<sup foot_note=212991>1</sup>"
+    },
+    { "resource_id": 823, "text": "and removed your burden" },
+    { "resource_id": 823, "text": "that weighed so heavily on your back, and" },
+    { "resource_id": 823, "text": "have We not given you high renown?" },
+    {
+      "resource_id": 823,
+      "text": "So, surely with every hardship there is ease;"
+    },
+    {
+      "resource_id": 823,
+      "text": "surely, with every hardship there is ease."
+    },
+    { "resource_id": 823, "text": "So, when you are free, strive hard," },
+    {
+      "resource_id": 823,
+      "text": "and to your Lord turn [all] your attention."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "94" }
+  }
+}

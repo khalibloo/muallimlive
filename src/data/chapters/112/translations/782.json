@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 782,
+      "text": "Spune: „El este Allah, Cel Unic!<sup foot_note=203914>1</sup>"
+    },
+    {
+      "resource_id": 782,
+      "text": "Allah‑us‑Samad!<sup foot_note=203915>1</sup>"
+    },
+    { "resource_id": 782, "text": "El nu zămisleşte şi nu este născut" },
+    { "resource_id": 782, "text": "Şi El nu are pe nimeni egal!”" }
+  ],
+  "meta": {
+    "translation_name": "Islamic and Cultural League",
+    "author_name": "Islamic and Cultural League",
+    "filters": { "resource_id": 782, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Andolsun kuşluk vaktine." },
+    { "resource_id": 52, "text": "Ve sakinleştiği zaman geceye ki," },
+    { "resource_id": 52, "text": "Rabbin seni bırakmadı ve darılmadı." },
+    { "resource_id": 52, "text": "Ahiret senin için dünyadan iyi olacaktır." },
+    {
+      "resource_id": 52,
+      "text": "Rabbın sana verecek ve sen hoşnut olacaksın."
+    },
+    { "resource_id": 52, "text": "O seni yetim bulup da barındırmadı mı?" },
+    { "resource_id": 52, "text": "Seni yol bilmez bulup yola iletmedi mi?" },
+    { "resource_id": 52, "text": "Seni yoksul bulup zengin etmedi mi?" },
+    { "resource_id": 52, "text": "Öyleyse sakın yetimi ezme." },
+    { "resource_id": 52, "text": "Dilenciyi de azarlama." },
+    { "resource_id": 52, "text": "Fakat Rabbinin nimetini anlat da anlat." }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "93" }
+  }
+}

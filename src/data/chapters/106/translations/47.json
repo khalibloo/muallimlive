@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 47,
+      "text": "Për hirë të garantimit që e gëzojnë kurejshitët!"
+    },
+    {
+      "resource_id": 47,
+      "text": "Garantimin e udhëtimit të tyre të lirë dimërit dhe verës!"
+    },
+    {
+      "resource_id": 47,
+      "text": "Pra, le ta adhurojnë Zotin e kësaj shtëpie,"
+    },
+    {
+      "resource_id": 47,
+      "text": "I cili i ushqeu pas urisë dhe i siguroi prej çdo frike!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "106" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "audio_files": [
+    { "verse_key": "104:1", "url": "Alafasy/mp3/104001.mp3" },
+    { "verse_key": "104:2", "url": "Alafasy/mp3/104002.mp3" },
+    { "verse_key": "104:3", "url": "Alafasy/mp3/104003.mp3" },
+    { "verse_key": "104:4", "url": "Alafasy/mp3/104004.mp3" },
+    { "verse_key": "104:5", "url": "Alafasy/mp3/104005.mp3" },
+    { "verse_key": "104:6", "url": "Alafasy/mp3/104006.mp3" },
+    { "verse_key": "104:7", "url": "Alafasy/mp3/104007.mp3" },
+    { "verse_key": "104:8", "url": "Alafasy/mp3/104008.mp3" },
+    { "verse_key": "104:9", "url": "Alafasy/mp3/104009.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mishari Rashid al-`Afasy",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "104" }
+  }
+}

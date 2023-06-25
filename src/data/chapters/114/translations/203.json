@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Say: \"I seek refuge with (Allâh) the Lord of mankind,<sup foot_note=155075>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"The King of mankind -<sup foot_note=155076>1</sup>"
+    },
+    { "resource_id": 203, "text": "  \"The Ilâh (God) of mankind," },
+    {
+      "resource_id": 203,
+      "text": "  \"From the evil of the whisperer (devil who whispers evil in the hearts of men) who withdraws (from his whispering in one’s heart after one remembers Allâh).<sup foot_note=155077>1</sup>"
+    },
+    {
+      "resource_id": 203,
+      "text": "  \"Who whispers in the breasts of mankind."
+    },
+    { "resource_id": 203, "text": "  \"Of jinn and men.\"" }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "114" }
+  }
+}

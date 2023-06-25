@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "Zabawia was współzawodnictwo w pomnażaniu" },
+    { "resource_id": 42, "text": "Do chwili, gdy odwiedzicie groby." },
+    { "resource_id": 42, "text": "Wcale nie! Wy wkrótce będziecie wiedzieć!" },
+    {
+      "resource_id": 42,
+      "text": "Jeszcze raz nie! Wy wkrótce będziecie wiedzieć!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Wcale nie! Gdybyście wiedzieli wiedzą pewną!"
+    },
+    { "resource_id": 42, "text": "Z pewnością zobaczycie ogień piekielny!" },
+    {
+      "resource_id": 42,
+      "text": "Potem, z pewnością, zobaczycie go okiem pewności!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Potem, z pewnością, zostaniecie zapytani tego Dnia o szczęśliwość!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "102" }
+  }
+}

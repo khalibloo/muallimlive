@@ -1,0 +1,99 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Par l’aube !" },
+    { "resource_id": 136, "text": "Par les Dix nuits !" },
+    { "resource_id": 136, "text": "Par le pair et l’impair !" },
+    { "resource_id": 136, "text": "Par la nuit quand elle passe!" },
+    {
+      "resource_id": 136,
+      "text": "N’y a-t-il pas là un serment pour un esprit sagace?"
+    },
+    {
+      "resource_id": 136,
+      "text": "Ne vois-tu pas ce que ton Seigneur a fait des ‘Ad,"
+    },
+    {
+      "resource_id": 136,
+      "text": "et de Iram, la cité aux (hautes) colonnes,"
+    },
+    {
+      "resource_id": 136,
+      "text": "à laquelle jamais cité semblable ne fut créée dans la contrée ?"
+    },
+    {
+      "resource_id": 136,
+      "text": "Et (ce qu’Il a fait) des Thamûd qui avaient taillé (leurs maisons) à même le roc dans la vallée,"
+    },
+    {
+      "resource_id": 136,
+      "text": "et de Pharaon, (qui avait inventé le supplice) des épieux,"
+    },
+    { "resource_id": 136, "text": "qui tous transgressaient dans la contrée," },
+    { "resource_id": 136, "text": "et y semaient un grand désordre ?" },
+    {
+      "resource_id": 136,
+      "text": "Ton Seigneur sévit alors contre eux par le fouet de (Son) supplice."
+    },
+    {
+      "resource_id": 136,
+      "text": "Car, certes, ton Seigneur toujours guette."
+    },
+    {
+      "resource_id": 136,
+      "text": "Quand son Seigneur, en l’éprouvant, l’honore et le comble de bienfaits, l’homme dit : « Mon Seigneur m’a honoré ! »"
+    },
+    {
+      "resource_id": 136,
+      "text": "Mais quand, en l’éprouvant, Il lui accorde parcimonieusement sa subsistance, il proteste : « Mon Seigneur m’a humilié ! »"
+    },
+    {
+      "resource_id": 136,
+      "text": "Que non ! Car c’est plutôt vous qui manquez de générosité envers l’orphelin,"
+    },
+    {
+      "resource_id": 136,
+      "text": "qui ne vous exhortez pas (les uns les autres) à nourrir le pauvre,"
+    },
+    {
+      "resource_id": 136,
+      "text": "qui vous emparez des héritages avec cupidité,"
+    },
+    {
+      "resource_id": 136,
+      "text": "et aimez les richesses d’un amour démesuré."
+    },
+    {
+      "resource_id": 136,
+      "text": "Que non ! Lorsque la terre s’effritera parcelle par parcelle,"
+    },
+    {
+      "resource_id": 136,
+      "text": "et lorsque ton Seigneur viendra, de même que les Anges, rangée par rangée,"
+    },
+    {
+      "resource_id": 136,
+      "text": "et lorsque, ce jour-là, la Géhenne sera amenée; ce jour-là alors, l’homme se souviendra. Mais à quoi pourrait bien lui servir de se souvenir ?"
+    },
+    {
+      "resource_id": 136,
+      "text": "Il dira : « Ah, Si seulement j’avais prévu (de faire le bien) pour ma vie (dans l’autre monde) ! »"
+    },
+    {
+      "resource_id": 136,
+      "text": "Ce jour-là, nul ne suppliciera comme Lui supplicie."
+    },
+    { "resource_id": 136, "text": "Nul ne ligotera comme Lui ligote." },
+    { "resource_id": 136, "text": "« Ô toi, âme sereine !" },
+    {
+      "resource_id": 136,
+      "text": "Reviens vers ton Seigneur, contente et agréée !"
+    },
+    { "resource_id": 136, "text": "Entre parmi Mes serviteurs !" },
+    { "resource_id": 136, "text": "Entre dans Mon Paradis !»" }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "89" }
+  }
+}

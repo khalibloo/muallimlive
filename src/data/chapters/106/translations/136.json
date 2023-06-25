@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Pour les bienfaits reçus par Qoraïch," },
+    {
+      "resource_id": 136,
+      "text": "Pour les bienfaits de leurs voyages d’hiver et d’été,"
+    },
+    {
+      "resource_id": 136,
+      "text": "qu’ils adorent donc le Seigneur de cette Maison,<sup foot_note=195247>1</sup>"
+    },
+    {
+      "resource_id": 136,
+      "text": "Qui les a nourris au mépris de la faim, et les a rassurés en dépit de la peur !"
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "106" }
+  }
+}

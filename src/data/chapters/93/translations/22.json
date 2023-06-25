@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 22, "text": "By the Glorious Morning Light," },
+    { "resource_id": 22, "text": "And by the Night when it is still,-" },
+    {
+      "resource_id": 22,
+      "text": "Thy Guardian-Lord hath not forsaken thee, nor is He displeased."
+    },
+    {
+      "resource_id": 22,
+      "text": "And verily the Hereafter will be better for thee than the present."
+    },
+    {
+      "resource_id": 22,
+      "text": "And soon will thy Guardian-Lord give thee (that wherewith) thou shalt be well-pleased."
+    },
+    {
+      "resource_id": 22,
+      "text": "Did He not find thee an orphan and give thee shelter (and care)?"
+    },
+    {
+      "resource_id": 22,
+      "text": "And He found thee wandering, and He gave thee guidance."
+    },
+    {
+      "resource_id": 22,
+      "text": "And He found thee in need, and made thee independent."
+    },
+    {
+      "resource_id": 22,
+      "text": "Therefore, treat not the orphan with harshness,"
+    },
+    { "resource_id": 22, "text": "Nor repulse the petitioner (unheard);" },
+    {
+      "resource_id": 22,
+      "text": "But the bounty of the Lord - rehearse and proclaim!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "93" }
+  }
+}

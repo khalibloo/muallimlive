@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- De ki: O Allah, ilahlığında tektir. O'ndan başka bir ilah yoktur."
+    },
+    {
+      "resource_id": 172,
+      "text": "O, bütün varlıkların kendisine ihtiyaç duyduğu, kemal ve güzellik sıfatlarında ululuğun en son noktasındaki hükümdardır."
+    },
+    {
+      "resource_id": 172,
+      "text": "O, hiç kimseyi doğurmamış, hiç kimse de O'nu doğurmamıştır. Allah - Subhanehu ve Teâlâ-'nın ne bir çocuğu, ne de bir babası vardır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Yarattıkları arasında O'nun bir benzeri yoktur."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Si accigliò e volse le spalle" },
+    { "resource_id": 209, "text": "quando venne da lui il cieco." },
+    { "resource_id": 209, "text": "E che ne sai? Forse era per purificarsi" },
+    {
+      "resource_id": 209,
+      "text": "o per farsi ammonire, affinché l'avvertimento gli sia utile."
+    },
+    { "resource_id": 209, "text": "Chi invece non ne ha bisogno," },
+    { "resource_id": 209, "text": "tu lo accogli." },
+    {
+      "resource_id": 209,
+      "text": "E non sarà colpa tua se non verrà purificato."
+    },
+    { "resource_id": 209, "text": "Ma chi viene a te pieno di zelo" },
+    { "resource_id": 209, "text": "ed è timorato," },
+    { "resource_id": 209, "text": "tu lo trascuri." },
+    { "resource_id": 209, "text": "No! In verità questo è un Avvertimento –" },
+    { "resource_id": 209, "text": "e chi vuole lo ricordi –" },
+    { "resource_id": 209, "text": "su pagine nobili," },
+    { "resource_id": 209, "text": "sublimi e purificate," },
+    { "resource_id": 209, "text": "in mano a messaggeri" },
+    { "resource_id": 209, "text": "eletti, fedeli." },
+    { "resource_id": 209, "text": "Muoia l'uomo! Quant'è perfido!" },
+    { "resource_id": 209, "text": "Di che lo creò?" },
+    { "resource_id": 209, "text": "Lo creò da un fiotto e lo modellò," },
+    { "resource_id": 209, "text": "poi gli spianò il sentiero;" },
+    { "resource_id": 209, "text": "l'ha fatto poi morire e seppellire." },
+    { "resource_id": 209, "text": "Poi, quando vorrà, lo farà risorgere." },
+    {
+      "resource_id": 209,
+      "text": "No! Lui non ha fatto ciò che gli fu ordinato."
+    },
+    { "resource_id": 209, "text": "L'uomo guardi al suo alimento:" },
+    {
+      "resource_id": 209,
+      "text": "in verità abbiamo versato l'acqua a fiotti,"
+    },
+    { "resource_id": 209, "text": "poi fessurato il suolo a fondo," },
+    { "resource_id": 209, "text": "facendovi crescere campi di grano" },
+    { "resource_id": 209, "text": "e viti e cibo per il bestiame" },
+    { "resource_id": 209, "text": "e ulivi e palme" },
+    { "resource_id": 209, "text": "e giardini rigogliosi" },
+    { "resource_id": 209, "text": "e frutta e pascoli," },
+    { "resource_id": 209, "text": "per voi e per il vostro bestiame." },
+    {
+      "resource_id": 209,
+      "text": "Quando arriverà il Giorno della Resurrezione –"
+    },
+    {
+      "resource_id": 209,
+      "text": "il giorno in cui l'uomo fuggirà dal fratello"
+    },
+    { "resource_id": 209, "text": "e dalla madre e dal padre" },
+    { "resource_id": 209, "text": "e dalla moglie e dai figli –" },
+    {
+      "resource_id": 209,
+      "text": "quel Giorno ognuno avrà una faccenda che lo impegnerà."
+    },
+    { "resource_id": 209, "text": "Ci saranno quel Giorno volti radiosi," },
+    { "resource_id": 209, "text": "gioiosi, allegri," },
+    { "resource_id": 209, "text": "e volti, quel Giorno, impolverati e cupi," },
+    { "resource_id": 209, "text": "avvolti dall'oscurità:" },
+    { "resource_id": 209, "text": "quelli sono i miscredenti, i licenziosi." }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "80" }
+  }
+}

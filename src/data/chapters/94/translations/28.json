@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¿No te hemos infundido ánimo," },
+    { "resource_id": 28, "text": "Liberado de la carga" },
+    { "resource_id": 28, "text": "Que agobiaba tu espalda" },
+    { "resource_id": 28, "text": "Y alzado tu reputación?" },
+    { "resource_id": 28, "text": "¡La adversidad y la felicidad van a una!" },
+    { "resource_id": 28, "text": "¡La adversidad y la felicidad van a una!" },
+    { "resource_id": 28, "text": "Cuando estés libre, ¡mantente diligente!" },
+    { "resource_id": 28, "text": "Y a tu Señor ¡deséale ardientemente!" }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "94" }
+  }
+}

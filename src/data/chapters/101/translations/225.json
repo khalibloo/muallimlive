@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 225, "text": "૧)   ખટખટાવી નાખનાર." },
+    { "resource_id": 225, "text": "૨)   શું છે તે ખટખટાવી નાખનાર." },
+    {
+      "resource_id": 225,
+      "text": "૩)   તને શું ખબર તે ખટખટાવી નાખનાર શું છે."
+    },
+    {
+      "resource_id": 225,
+      "text": "૪)   જે દિવસે માનવી વિખરાયેલા પતંગિયાની માફક થઇ જશે."
+    },
+    {
+      "resource_id": 225,
+      "text": "૫)   અને પર્વતો પિંજાયેલા રંગીન ઊન જેવા થઇ જશે."
+    },
+    { "resource_id": 225, "text": "૬)   પછી જેના પલ્લા ભારે હશે." },
+    { "resource_id": 225, "text": "૭)   તો તેઓ મનપસંદ એશઆરામ માં હશે." },
+    { "resource_id": 225, "text": "૮)   અને જેના પલ્લાઓ હલ્કા હશે." },
+    { "resource_id": 225, "text": "૯)   તેમનું ઠેકાણું હાવિયહ છે." },
+    { "resource_id": 225, "text": "૧૦) તને શું ખબર કે તે શું છે ?" },
+    { "resource_id": 225, "text": "૧૧) ભડકે બળતી આગ (છે)." }
+  ],
+  "meta": {
+    "translation_name": "Rabila Al-Umry",
+    "author_name": "Rabila Al-Umry",
+    "filters": { "resource_id": 225, "chapter_number": "101" }
+  }
+}

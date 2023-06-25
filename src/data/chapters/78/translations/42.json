@@ -1,0 +1,112 @@
+{
+  "translations": [
+    { "resource_id": 42, "text": "O co oni wzajemnie się pytają?" },
+    { "resource_id": 42, "text": "O wieść wielką," },
+    { "resource_id": 42, "text": "Co do której nie są zgodnie" },
+    { "resource_id": 42, "text": "Nie! Oni niebawem się dowiedzą!" },
+    {
+      "resource_id": 42,
+      "text": "I jeszcze raz nie! Oni niebawem się dowiedzą!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Czyż nie uczyniliśmy ziemi łożem dla wypoczynku,"
+    },
+    { "resource_id": 42, "text": "A gór jako podpory do namiotu?" },
+    { "resource_id": 42, "text": "Stworzyliśmy was parami." },
+    { "resource_id": 42, "text": "Uczyniliśmy wasz sen odpoczynkiem." },
+    { "resource_id": 42, "text": "Uczyniliśmy noc zasłoną." },
+    { "resource_id": 42, "text": "Uczyniliśmy dzień czasem życia." },
+    {
+      "resource_id": 42,
+      "text": "Zbudowaliśmy nad wami siedem sfer solidnych."
+    },
+    { "resource_id": 42, "text": "Uczyniliśmy lampę płonącą." },
+    {
+      "resource_id": 42,
+      "text": "Spuściliśmy z deszczowych chmur wodę obfitą"
+    },
+    {
+      "resource_id": 42,
+      "text": "I sprawiliśmy, iż dzięki niej wyrosły ziarna i rośliny"
+    },
+    { "resource_id": 42, "text": "Oraz bujne ogrody." },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, Dzień Rozstrzygnięcia jest wyznaczony!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Tego Dnia, kiedy zadmą w trąbę, przybędziecie grupami."
+    },
+    {
+      "resource_id": 42,
+      "text": "Niebo zostanie otwarte i stanie się bramami."
+    },
+    {
+      "resource_id": 42,
+      "text": "Góry zostaną z posad poruszone i staną się mirażem."
+    },
+    { "resource_id": 42, "text": "Zaprawdę, Gehenna jest na czatach" },
+    { "resource_id": 42, "text": "Jako miejsce powrotu dla buntowników!" },
+    { "resource_id": 42, "text": "Będą przebywać w niej przez wieki." },
+    {
+      "resource_id": 42,
+      "text": "Nie zakosztują w niej ani ochłody, ani napoju,"
+    },
+    { "resource_id": 42, "text": "A jedynie wodę wrzącą i ropę cuchnącą" },
+    { "resource_id": 42, "text": "Jako zapłatę odpowiednią." },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, oni się nie spodziewali, iż będą zdawali rachunek!"
+    },
+    { "resource_id": 42, "text": "Uważali znaki Nasze za kłamstwo" },
+    {
+      "resource_id": 42,
+      "text": "Podczas gdy My wyliczyliśmy każdą rzecz, zapisując ją."
+    },
+    {
+      "resource_id": 42,
+      "text": "Zakosztujcie więc! My nie zwiększymy dla was niczego oprócz cierpienia!"
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, dla bogobojnych - miejsce szczęśliwości:"
+    },
+    { "resource_id": 42, "text": "Sady i winnice," },
+    {
+      "resource_id": 42,
+      "text": "I dziewczęta o zaokrąglonych piersiach - jednakowej młodości,"
+    },
+    { "resource_id": 42, "text": "I puchary napełnione!" },
+    {
+      "resource_id": 42,
+      "text": "Nie będą oni, tam słyszeć ani próżnej gadaniny, ani kłamstwa."
+    },
+    {
+      "resource_id": 42,
+      "text": "Taka jest nagroda od twojego Pana - dar dobrze obliczony -,"
+    },
+    {
+      "resource_id": 42,
+      "text": "Od Pana niebios i ziemi i tego wszystkiego, co jest między nimi, Miłosiernego; nie będą oni mieli możności przemawiania do Niego."
+    },
+    {
+      "resource_id": 42,
+      "text": "Tego Dnia kiedy Duch i aniołowie staną w szeregach, nie będą mogli mówić, oprócz tego, któremu pozwoli Miłosierny, i powie on to, co słuszne."
+    },
+    {
+      "resource_id": 42,
+      "text": "Ten Dzień to prawda. Przeto ten, kto zechce, znajdzie drogę powrotu do swojego Pana."
+    },
+    {
+      "resource_id": 42,
+      "text": "Zaprawdę, daliśmy wam ostrzeżenie o karze bliskiej, w Dniu, kiedy człowiek zobaczy to, co przygotowały jego ręce, i powie niewierny: \"O, gdybym mógł być prochem!\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Józef Bielawski",
+    "author_name": "Józef Bielawski",
+    "filters": { "resource_id": 42, "chapter_number": "78" }
+  }
+}

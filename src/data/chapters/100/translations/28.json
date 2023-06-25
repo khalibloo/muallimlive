@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "¡Por los corceles jadeantes," },
+    { "resource_id": 28, "text": "que hacen saltar chispas," },
+    { "resource_id": 28, "text": "cargan el alba," },
+    { "resource_id": 28, "text": "levantando, así, una nube de polvo" },
+    { "resource_id": 28, "text": "y rompen a través de una hueste!" },
+    {
+      "resource_id": 28,
+      "text": "El hombre, en verdad, es muy desagradecido con su Señor,"
+    },
+    { "resource_id": 28, "text": "y él es, sí, testigo de ello." },
+    {
+      "resource_id": 28,
+      "text": "Y ama ardientemente, sí, los bienes terrenales."
+    },
+    {
+      "resource_id": 28,
+      "text": "¿No sabe, acaso, que cuando lo que hay en las sepulturas sea vuelto al revés"
+    },
+    {
+      "resource_id": 28,
+      "text": "y se haga público lo que hay en los pechos,"
+    },
+    {
+      "resource_id": 28,
+      "text": "ese día, su Señor estará, ciertamente, bien informado de ellos?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "100" }
+  }
+}

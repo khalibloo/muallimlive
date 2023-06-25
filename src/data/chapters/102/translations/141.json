@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 141,
+      "text": "Bermegah-megahan telah melalaikan kalian,<sup foot_note=155990>1</sup>"
+    },
+    { "resource_id": 141, "text": "sampai kamu masuk ke dalam kubur." },
+    {
+      "resource_id": 141,
+      "text": "Sekali-kali tidak! Kelak kalian akan mengetahui (akibat perbuatan kalian itu)."
+    },
+    {
+      "resource_id": 141,
+      "text": "Kemudian sekali-kali tidak! Kelak kalian akan mengetahui."
+    },
+    {
+      "resource_id": 141,
+      "text": "Sekali-kali tidak! Sekiranya kalian mengetahui dengan pasti,"
+    },
+    {
+      "resource_id": 141,
+      "text": "niscaya kalian benar-benar akan melihat neraka Jahim,"
+    },
+    {
+      "resource_id": 141,
+      "text": "Kemudian kalian benar-benar akan melihatnya dengan mata kepala sendiri,"
+    },
+    {
+      "resource_id": 141,
+      "text": "Kemudian kamu benar-benar akan ditanya pada hari itu tentang kenikmatan (yang megah di dunia itu)."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "102" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 183, "text": "アッラーは誓う。時間にかけて。" },
+    {
+      "resource_id": 183,
+      "text": "人間は、確かに大規模な損失と破滅の途次にある。"
+    },
+    {
+      "resource_id": 183,
+      "text": "ただし、アッラーと使徒を信仰し善行に努め、互いに真理を勧めあい、また忍耐を勧めあう者たちを除いては。これらの者は、現世と来世の成功者である。"
+    }
+  ],
+  "meta": {
+    "translation_name": "Japanese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 183, "chapter_number": "103" }
+  }
+}

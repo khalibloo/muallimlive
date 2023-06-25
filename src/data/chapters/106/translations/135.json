@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 135, "text": "برای [سپاسگزاری از] همبستگی و اُنس قریش،" },
+    {
+      "resource_id": 135,
+      "text": "[همان] همبستگی و اُنسِ آنان در سفر‌های زمستانی [به یَمَن] و تابستانی [به شام]؛"
+    },
+    { "resource_id": 135, "text": "باید پروردگارِ خانۀ کعبه را عبادت کنند؛" },
+    {
+      "resource_id": 135,
+      "text": "همان [پروردگاری] که آنان را از گرسنگی [رهانید، به آنان] خوراک داد و از وحشت و ترس ایمن نمود."
+    }
+  ],
+  "meta": {
+    "translation_name": "IslamHouse.com",
+    "author_name": "IslamHouse.com",
+    "filters": { "resource_id": 135, "chapter_number": "106" }
+  }
+}

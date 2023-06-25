@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Per l'Era in corso:" },
+    { "resource_id": 209, "text": "In verità l'umanità è in perdizione," },
+    {
+      "resource_id": 209,
+      "text": "tranne quelli che hanno creduto e hanno fatto il bene e si sono raccomandati l'un l'altro la verità e la pazienza."
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "103" }
+  }
+}

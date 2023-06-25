@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Znaš li ti onoga koji onaj svijet poriče?" },
+    { "resource_id": 126, "text": "Pa to je onaj koji grubo odbija siroče," },
+    {
+      "resource_id": 126,
+      "text": "i koji da se nahrani siromah – ne podstiče."
+    },
+    {
+      "resource_id": 126,
+      "text": "A teško onima koji, kada molitvu obavljaju,"
+    },
+    { "resource_id": 126, "text": "molitvu svoju kako treba ne izvršavaju," },
+    { "resource_id": 126, "text": "koji se samo pretvaraju" },
+    { "resource_id": 126, "text": "i nikome ništa ni u naruč ne daju!" }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "107" }
+  }
+}

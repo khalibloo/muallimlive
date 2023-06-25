@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 89,
+      "text": "Me emrin e All-llahut, Mëshiruesit, Mëshirëbërësit!"
+    },
+    {
+      "resource_id": 89,
+      "text": "Falënderimi i takon All-llahut, Zotit të botërave!"
+    },
+    { "resource_id": 89, "text": "Mëshiruesit, Mëshirëbërësit!" },
+    { "resource_id": 89, "text": "Sunduesit të ditës së Gjykimit!" },
+    {
+      "resource_id": 89,
+      "text": "Ty të adhurojmë dhe prej Teje ndihmë kërkojmë!"
+    },
+    { "resource_id": 89, "text": "Udhëzona në rrugën e drejtë!" },
+    {
+      "resource_id": 89,
+      "text": "Në rrugën e atyre ndaj të cilëve ke bekimin, e jo në të atyre që je i hidhëruar, dhe që kanë humbur!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "1" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 227, "text": "ఇలా అను: \"ఆయనే అల్లాహ్! ఏకైకుడు." },
+    { "resource_id": 227, "text": "అల్లాహ్! ఎవరి అక్కరా లేని వాడు." },
+    {
+      "resource_id": 227,
+      "text": "ఆయనకు సంతానం లేదు (బిడ్డలను కనడు) మరియు ఆయన కూడా ఎవరి సంతానమూ (ఎవరికీ జన్మించిన వాడునూ) కాడు."
+    },
+    {
+      "resource_id": 227,
+      "text": "మరియు (సర్వలోకాలలో) ఆయనతో పోల్చదగినది ఏదీ లేదు.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Abder-Rahim ibn Muhammad",
+    "author_name": "Maulana Abder-Rahim ibn Muhammad",
+    "filters": { "resource_id": 227, "chapter_number": "112" }
+  }
+}

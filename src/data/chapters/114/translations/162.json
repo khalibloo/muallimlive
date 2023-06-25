@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 162, "text": "বল, ‘আমি আশ্রয় চাই মানুষের রব," },
+    { "resource_id": 162, "text": "মানুষের অধিপতি," },
+    { "resource_id": 162, "text": "মানুষের ইলাহ-এর কাছে," },
+    {
+      "resource_id": 162,
+      "text": "কুমন্ত্রণাদাতার অনিষ্ট থেকে, যে দ্রুত আত্মগোপন করে।"
+    },
+    { "resource_id": 162, "text": "যে মানুষের মনে কুমন্ত্রণা দেয়।" },
+    { "resource_id": 162, "text": "জিন ও মানুষ থেকে।" }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "114" }
+  }
+}

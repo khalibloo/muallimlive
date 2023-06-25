@@ -1,0 +1,14 @@
+{
+  "translations": [
+    { "resource_id": 214, "text": "Reci: “Utječem se Gospodaru svitanja," },
+    { "resource_id": 214, "text": "od zla onoga što On stvara." },
+    { "resource_id": 214, "text": "i od zla mrkle noći kada razastre tmine," },
+    { "resource_id": 214, "text": "i od zla onih koje u čvorove pušu," },
+    { "resource_id": 214, "text": "i od zla zavidnika kad zavidi.\"" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 214, "chapter_number": "113" }
+  }
+}

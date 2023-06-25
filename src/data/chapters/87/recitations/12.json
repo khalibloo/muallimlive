@@ -1,0 +1,85 @@
+{
+  "audio_files": [
+    {
+      "verse_key": "87:1",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087001.mp3"
+    },
+    {
+      "verse_key": "87:2",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087002.mp3"
+    },
+    {
+      "verse_key": "87:3",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087003.mp3"
+    },
+    {
+      "verse_key": "87:4",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087004.mp3"
+    },
+    {
+      "verse_key": "87:5",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087005.mp3"
+    },
+    {
+      "verse_key": "87:6",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087006.mp3"
+    },
+    {
+      "verse_key": "87:7",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087007.mp3"
+    },
+    {
+      "verse_key": "87:8",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087008.mp3"
+    },
+    {
+      "verse_key": "87:9",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087009.mp3"
+    },
+    {
+      "verse_key": "87:10",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087010.mp3"
+    },
+    {
+      "verse_key": "87:11",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087011.mp3"
+    },
+    {
+      "verse_key": "87:12",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087012.mp3"
+    },
+    {
+      "verse_key": "87:13",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087013.mp3"
+    },
+    {
+      "verse_key": "87:14",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087014.mp3"
+    },
+    {
+      "verse_key": "87:15",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087015.mp3"
+    },
+    {
+      "verse_key": "87:16",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087016.mp3"
+    },
+    {
+      "verse_key": "87:17",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087017.mp3"
+    },
+    {
+      "verse_key": "87:18",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087018.mp3"
+    },
+    {
+      "verse_key": "87:19",
+      "url": "//mirrors.quranicaudio.com/everyayah/Husary_Muallim_128kbps/087019.mp3"
+    }
+  ],
+  "meta": {
+    "reciter_name": "Mahmoud Khalil Al-Husary",
+    "recitation_style": "Muallim",
+    "filters": { "chapter_number": "87" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 167,
+      "text": "(0 Prophet,) surely We have given to you Al-Kauthar (a river in Paradize)."
+    },
+    {
+      "resource_id": 167,
+      "text": "So, offer salah (prayer) to your Lord, and sacrifice."
+    },
+    {
+      "resource_id": 167,
+      "text": "Surely it is your enemy whose traces are cut off."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maarif-ul-Quran",
+    "author_name": "Mufti Muhammad Shafi",
+    "filters": { "resource_id": 167, "chapter_number": "108" }
+  }
+}

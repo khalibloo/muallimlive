@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "竞赛富庶, 已使你们疏忽," },
+    { "resource_id": 56, "text": "直到你们去游坟地。" },
+    { "resource_id": 56, "text": "真的, 你们将来就知道了。" },
+    { "resource_id": 56, "text": "真的, 你们将来就知道了。" },
+    { "resource_id": 56, "text": "真的, 假若你们有真知灼见, (你们必不疏忽)," },
+    { "resource_id": 56, "text": "你们必定看见火狱," },
+    { "resource_id": 56, "text": "然後, 你们必亲眼看见它。" },
+    { "resource_id": 56, "text": "在那日, 你们必为恩泽而被审问。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "102" }
+  }
+}

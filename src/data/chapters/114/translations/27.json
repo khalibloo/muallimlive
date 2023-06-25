@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Sag: Ich nehme Zuflucht beim Herrn der Menschen,"
+    },
+    { "resource_id": 27, "text": "dem König der Menschen," },
+    { "resource_id": 27, "text": "dem Gott der Menschen," },
+    {
+      "resource_id": 27,
+      "text": "vor dem Übel des Einflüsterers, des Davonschleichers,"
+    },
+    {
+      "resource_id": 27,
+      "text": "der in die Brüste der Menschen einflüstert,"
+    },
+    { "resource_id": 27, "text": "von den Ginn und den Menschen." }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "114" }
+  }
+}

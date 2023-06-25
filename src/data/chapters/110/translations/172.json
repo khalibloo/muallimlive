@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- Dinin için Allah’ın yardımı geldiği ve onu galip kılarak Mekke'nin fethi gerçekleştiği zaman."
+    },
+    {
+      "resource_id": 172,
+      "text": "İnsanların bölük bölük İslam dinine girdiklerini gördüğün zaman."
+    },
+    {
+      "resource_id": 172,
+      "text": "Bilmelisin ki bu haber verilen husus, yerine getirmek ile sorumlu tutulup gönderilmiş olduğun görevinin bitiş vaktinin yakınlığını gösteren bir alamettir. Öyleyse sana olan yardımına ve fetih nimetine şükretmek için hamdederek Rabbini tesbih et. O'ndan bağışlanma dile. Şüphesiz O, kendisine tevbe eden kullarının tevbesini çokça kabul eder ve onları bağışlar."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "110" }
+  }
+}

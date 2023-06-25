@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 779,
+      "text": "As-tu vu celui qui traite le Jugement dernier de mensonge ?"
+    },
+    {
+      "resource_id": 779,
+      "text": "C’est celui-là même qui repousse sans ménagement l’orphelin"
+    },
+    {
+      "resource_id": 779,
+      "text": "et n’incite pas les autres à nourrir celui qui est dans le besoin."
+    },
+    {
+      "resource_id": 779,
+      "text": "Malheur donc à ceux qui accomplissent la prière"
+    },
+    {
+      "resource_id": 779,
+      "text": "sans accorder aucune importance à cette dernière,"
+    },
+    {
+      "resource_id": 779,
+      "text": "agissant par pure ostentation, sans être sincères,"
+    },
+    {
+      "resource_id": 779,
+      "text": "et refusent le moindre soutien à leur prochain<sup foot_note=205510>1</sup> !"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rashid Maash",
+    "author_name": "Rashid Maash",
+    "filters": { "resource_id": 779, "chapter_number": "107" }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "translations": [
+    { "resource_id": 25, "text": "Kada se nebo rascijepi," },
+    { "resource_id": 25, "text": "i kada zvijezde popadaju raštrkane," },
+    {
+      "resource_id": 25,
+      "text": "i kada mora budu prokuhljala pa se preliju,"
+    },
+    { "resource_id": 25, "text": "i kada kaburovi budu prevrnuti." },
+    {
+      "resource_id": 25,
+      "text": "svako će saznati šta je pripremio, a šta propustio."
+    },
+    {
+      "resource_id": 25,
+      "text": "O čovječe, šta te je obmanulo u vezi s tvojim Gospodarom Plemenitim?"
+    },
+    {
+      "resource_id": 25,
+      "text": "Koji te je stvorio, pa učinio da si skladan i da si uspravan,"
+    },
+    { "resource_id": 25, "text": "i kakav je htio lik ti dao." },
+    { "resource_id": 25, "text": "Naprotiv! Vi još i Sud poričete," },
+    { "resource_id": 25, "text": "a nad vama bdiju čuvari," },
+    { "resource_id": 25, "text": "plemeniti pisari" },
+    { "resource_id": 25, "text": "koji znaju ono što radite." },
+    { "resource_id": 25, "text": "Čestiti će sigurno biti u užitku," },
+    { "resource_id": 25, "text": "a razvratnici sigurno u Oganj." },
+    { "resource_id": 25, "text": "Na Sudnjem danu u njemu će gorjeti" },
+    { "resource_id": 25, "text": "i više iz njega izbivati neće." },
+    { "resource_id": 25, "text": "A šta ti znaš šta je Sudnji dan?!" },
+    { "resource_id": 25, "text": "I još jednom: šta znaš šta je Sudnji dan?!" },
+    {
+      "resource_id": 25,
+      "text": "Dan kada niko nikome neće moći nimalo pomoći, Dana tog vlast će jedino Allah imati."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhamed Mehanović",
+    "author_name": "Muhamed Mehanović",
+    "filters": { "resource_id": 25, "chapter_number": "82" }
+  }
+}

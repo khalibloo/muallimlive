@@ -1,0 +1,39 @@
+{
+  "translations": [
+    { "resource_id": 85, "text": "By the sun in its morning brightness" },
+    { "resource_id": 85, "text": "and by the moon as it follows it," },
+    { "resource_id": 85, "text": "by the day as it displays the sun’s glory" },
+    { "resource_id": 85, "text": "and by the night as it conceals it," },
+    { "resource_id": 85, "text": "by the sky and how He built it" },
+    { "resource_id": 85, "text": "and by the earth and how He spread it," },
+    { "resource_id": 85, "text": "by the soul and how He formed it" },
+    {
+      "resource_id": 85,
+      "text": "and inspired it [to know] its own rebellion and piety!"
+    },
+    { "resource_id": 85, "text": "The one who purifies his soul succeeds" },
+    { "resource_id": 85, "text": "and the one who corrupts it fails." },
+    {
+      "resource_id": 85,
+      "text": "In their arrogant cruelty, the people of Thamud called [their messenger] a liar,"
+    },
+    {
+      "resource_id": 85,
+      "text": "when the most wicked man among them rose [against him]."
+    },
+    {
+      "resource_id": 85,
+      "text": "The messenger of God said to them, ‘[Leave] God’s camel to drink,’"
+    },
+    {
+      "resource_id": 85,
+      "text": "but they called him a liar and hamstrung her. Their Lord destroyed them for their crime and levelled them."
+    },
+    { "resource_id": 85, "text": "He did not hesitate to punish them." }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "91" }
+  }
+}

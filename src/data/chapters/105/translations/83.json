@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 83,
+      "text": "¿No has observado lo que hizo tu Señor con el ejército del elefante?"
+    },
+    {
+      "resource_id": 83,
+      "text": "¿No has visto cómo desbarató sus planes [de destruir la Ka‘bah]?"
+    },
+    { "resource_id": 83, "text": "Y envió sobre ellos bandadas de aves" },
+    { "resource_id": 83, "text": "que les arrojaron piedras de arcilla dura," },
+    { "resource_id": 83, "text": "y los dejó como heno carcomido." }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "105" }
+  }
+}

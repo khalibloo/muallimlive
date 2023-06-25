@@ -1,0 +1,64 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Preise den Namen deines höchsten Herrn," },
+    { "resource_id": 27, "text": "Der erschafft und dann zurechtformt" },
+    {
+      "resource_id": 27,
+      "text": "und Der das Maß festsetzt und dann rechtleitet"
+    },
+    { "resource_id": 27, "text": "und Der die Weide hervorbringt" },
+    { "resource_id": 27, "text": "und sie dann zu dunkelbrauner Spreu macht." },
+    {
+      "resource_id": 27,
+      "text": "Wir werden dich lesen lassen, und dann wirst du nichts vergessen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "außer dem, was Allah will. Er weiß ja, was laut vernehmbar geäußert wird und was verborgen bleibt."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und Wir werden dir den Weg zum Leichteren leicht machen."
+    },
+    { "resource_id": 27, "text": "So ermahne -, wenn die Ermahnung nützt." },
+    {
+      "resource_id": 27,
+      "text": "Bedenken wird jemand, der gottesfürchtig ist."
+    },
+    { "resource_id": 27, "text": "Meiden aber wird es der Unseligste," },
+    {
+      "resource_id": 27,
+      "text": "der dem größten (Höllen)feuer ausgesetzt sein wird;"
+    },
+    {
+      "resource_id": 27,
+      "text": "darin wird er hierauf weder sterben noch leben."
+    },
+    {
+      "resource_id": 27,
+      "text": "Wohl ergehen wird es ja jemandem, der sich läutert,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und des Namens seines Herrn gedenkt; so betet er."
+    },
+    {
+      "resource_id": 27,
+      "text": "Nein! Vielmehr zieht ihr das diesseitige Leben vor,"
+    },
+    {
+      "resource_id": 27,
+      "text": "während das Jenseits besser und beständiger ist."
+    },
+    {
+      "resource_id": 27,
+      "text": "Dies ist wahrlich in den früheren Blättern (enthalten),"
+    },
+    { "resource_id": 27, "text": "den Blättern Ibrahims und Musas." }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "87" }
+  }
+}

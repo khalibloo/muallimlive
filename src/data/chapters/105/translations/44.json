@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 44,
+      "text": "Nu ai văzut ce a făcut Domnul tău cu oamenii elefantului?"
+    },
+    { "resource_id": 44, "text": "Oare nu a făcut vicleşugul o rătăcire?" },
+    {
+      "resource_id": 44,
+      "text": "Oare nu a trimis asupra lor păsări în stoluri,"
+    },
+    { "resource_id": 44, "text": "ce aruncau peste ei pietre din Iad?" },
+    {
+      "resource_id": 44,
+      "text": "Şi astfel i-a făcut aidoma unor paie mâncate."
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "105" }
+  }
+}

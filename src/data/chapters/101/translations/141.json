@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 141, "text": "Hari Kiamat," },
+    { "resource_id": 141, "text": "Apakah hari Kiamat itu?" },
+    { "resource_id": 141, "text": "Dan tahukah kamu apakah hari Kiamat itu?" },
+    {
+      "resource_id": 141,
+      "text": "Pada hari itu manusia seperti laron yang beterbangan,"
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan gunung-gunung seperti bulu yang dihambur-hamburkan."
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka adapun orang yang berat timbangan (kebaikan)nya,"
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka dia berada dalam kehidupan yang memuaskan (senang)."
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan adapun orang yang ringan timbangan (kebaikan)nya,"
+    },
+    {
+      "resource_id": 141,
+      "text": "Maka tempat kembalinya adalah neraka Hawiyah."
+    },
+    {
+      "resource_id": 141,
+      "text": "Dan tahukah kamu apakah neraka Hawiyah itu?"
+    },
+    { "resource_id": 141, "text": "(Yaitu) api yang sangat panas." }
+  ],
+  "meta": {
+    "translation_name": "The Sabiq company",
+    "author_name": "The Sabiq company",
+    "filters": { "resource_id": 141, "chapter_number": "101" }
+  }
+}

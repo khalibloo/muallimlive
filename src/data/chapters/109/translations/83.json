@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 83, "text": "Di: “¡Oh, incrédulos!" },
+    { "resource_id": 83, "text": "No adoro lo que adoráis." },
+    { "resource_id": 83, "text": "Ni vosotros adoráis a Quien yo adoro." },
+    { "resource_id": 83, "text": "Y jamás adoraré lo que adoráis." },
+    { "resource_id": 83, "text": "Ni adoraréis vosotros a Quien yo adoro." },
+    {
+      "resource_id": 83,
+      "text": "Vosotros tenéis vuestra religión y yo la mía”."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "109" }
+  }
+}

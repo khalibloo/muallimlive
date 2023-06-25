@@ -1,0 +1,14 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "אמור: אני חוסה בריבון השחר המפציע," },
+    { "resource_id": 233, "text": "מפני רשעותו של אשר ברא" },
+    { "resource_id": 233, "text": "מפני רשעות החושך כשהוא מאפיל." },
+    { "resource_id": 233, "text": "ומפני רשעותן של הנושפות בקשרים," },
+    { "resource_id": 233, "text": "ומפני רשעותו של המקנא בקנאתו." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "113" }
+  }
+}

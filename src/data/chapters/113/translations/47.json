@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 47, "text": "Thuaj: I mbështetem Zotit të agimit," },
+    { "resource_id": 47, "text": "Prej dëmit të çdo krijese, që Ai e krijoi." },
+    {
+      "resource_id": 47,
+      "text": "Dhe prej errësirës së natës kur ngryset plotësisht."
+    },
+    {
+      "resource_id": 47,
+      "text": "Dhe prej dëmit të atyre që lidhin dhe fryejnë nyja."
+    },
+    {
+      "resource_id": 47,
+      "text": "Edhe prej dëmit të smirëkeqit kur sipas smirës vepron."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian",
+    "author_name": "Albanian",
+    "filters": { "resource_id": 47, "chapter_number": "113" }
+  }
+}

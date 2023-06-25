@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 77, "text": "De ki: O Allah bir tektir." },
+    {
+      "resource_id": 77,
+      "text": "Allah her şeyden müstağni ve her şey O'na muhtaçtır."
+    },
+    { "resource_id": 77, "text": "O doğurmamış ve doğmamıştır." },
+    { "resource_id": 77, "text": "Hiçbir şey O'na denk değildir." }
+  ],
+  "meta": {
+    "translation_name": "Turkish Translation(Diyanet)",
+    "author_name": "Diyanet Isleri",
+    "filters": { "resource_id": 77, "chapter_number": "112" }
+  }
+}

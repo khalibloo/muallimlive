@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 41, "text": "Ved formiddagens glød!" },
+    { "resource_id": 41, "text": "Ved nattens stillhet!" },
+    {
+      "resource_id": 41,
+      "text": "Ikke har din Herre forlatt deg, og ikke er Han misfornøyd med deg!"
+    },
+    {
+      "resource_id": 41,
+      "text": "Enden skal bli bedre for deg enn begynnelsen."
+    },
+    { "resource_id": 41, "text": "Herren skal gi deg så du blir tilfreds!" },
+    {
+      "resource_id": 41,
+      "text": "Fant Han deg ikke foreldreløs, og gav deg ly?"
+    },
+    { "resource_id": 41, "text": "Han fant deg villfarende, og veiledet deg!" },
+    {
+      "resource_id": 41,
+      "text": "Han fant deg trengende, og gjorde deg uavhengig!"
+    },
+    { "resource_id": 41, "text": "Så vær ikke hard mot den faderløse," },
+    { "resource_id": 41, "text": "og vis ikke bort den som ber." },
+    {
+      "resource_id": 41,
+      "text": "Og hva Herrens godhet angår, så gjør den kjent!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Norwegian",
+    "author_name": "Norwegian",
+    "filters": { "resource_id": 41, "chapter_number": "93" }
+  }
+}

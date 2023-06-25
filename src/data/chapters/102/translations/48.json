@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 48,
+      "text": "NI FINNER ert nöje i att överglänsa varandra i rikedom och världsliga framgångar"
+    },
+    { "resource_id": 48, "text": "ända till dess ni står vid gravens rand." },
+    {
+      "resource_id": 48,
+      "text": "Ack nej! En dag skall ni få veta [ert misstag]!"
+    },
+    { "resource_id": 48, "text": "Ja, en dag skall ni få veta [ert misstag]!" },
+    {
+      "resource_id": 48,
+      "text": "Ack, om ni visste det [nu] med full visshet...!"
+    },
+    { "resource_id": 48, "text": "Ja, ni skall få skåda helvetets eld!" },
+    {
+      "resource_id": 48,
+      "text": "Era egna ögons vittnesbörd skall då ge er visshet,"
+    },
+    {
+      "resource_id": 48,
+      "text": "och den Dagen skall ni ställas till svars för [vad ni gjorde av] det goda som skänktes er [i livet]!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Knut Bernström",
+    "author_name": "Knut Bernström",
+    "filters": { "resource_id": 48, "chapter_number": "102" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 224, "text": "ഖുറൈശ് ഗോത്രത്തെ കൂട്ടിയിണക്കിയതിനാല്‍." },
+    {
+      "resource_id": 224,
+      "text": "ശൈത്യകാലത്തെയും ഉഷ്ണകാലത്തെയും യാത്രയുമായി അവരെ കൂട്ടിയിണക്കിയതിനാല്‍,"
+    },
+    {
+      "resource_id": 224,
+      "text": " ഈ ഭവനത്തിന്‍റെ രക്ഷിതാവിനെ അവര്‍ ആരാധിച്ചുകൊള്ളട്ടെ.("
+    },
+    {
+      "resource_id": 224,
+      "text": "അതായത് അവര്‍ക്ക് വിശപ്പിന്ന് ആഹാരം നല്‍കുകയും, ഭയത്തിന് പകരം സമാധാനം നല്‍കുകയും ചെയ്തവനെ"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul-Hamid Haidar & Kanhi Muhammad",
+    "author_name": "Abdul-Hamid Haidar & Kanhi Muhammad",
+    "filters": { "resource_id": 224, "chapter_number": "106" }
+  }
+}

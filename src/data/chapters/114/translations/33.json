@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 33,
+      "text": "Katakanlah, \"Aku berlindung kepada Tuhannya manusia,"
+    },
+    { "resource_id": 33, "text": "Raja manusia," },
+    { "resource_id": 33, "text": "sembahan manusia," },
+    {
+      "resource_id": 33,
+      "text": "dari kejahatan (bisikan) setan yang bersembunyi,"
+    },
+    {
+      "resource_id": 33,
+      "text": "yang membisikkan (kejahatan) ke dalam dada manusia,"
+    },
+    { "resource_id": 33, "text": "dari (golongan) jin dan manusia.\"" }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Islamic affairs ministry",
+    "author_name": "Indonesian Islamic affairs ministry",
+    "filters": { "resource_id": 33, "chapter_number": "114" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 174,
+      "text": "Katakan wahai Rasul, “Aku berpegang teguh pada Allah Pemilik subuh dan berlindung kepada-Nya."
+    },
+    {
+      "resource_id": 174,
+      "text": "Dari kejahatan makhluk-makhluk yang mengganggu."
+    },
+    {
+      "resource_id": 174,
+      "text": "Dan aku berpegang teguh kepada Allah dari kejahatan yang muncul pada malam hari, dari hewan melata maupun pencuri."
+    },
+    {
+      "resource_id": 174,
+      "text": "Dan aku berpegang teguh kepada Allah dari kejatahan para penyihir yang meniup pada ikatan-ikatan tali."
+    },
+    {
+      "resource_id": 174,
+      "text": "Dan aku berpegang teguh kepada Allah dari kejahatan pendengki apabila ia berbuat sesuatu akibat dorongan kedengkiannya.”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 174, "chapter_number": "113" }
+  }
+}

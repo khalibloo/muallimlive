@@ -1,0 +1,26 @@
+{
+  "translations": [
+    {
+      "resource_id": 785,
+      "text": "بریده (و شکسته) باد دست‌های ابولهب، و (ابولهب) هلاک شد."
+    },
+    {
+      "resource_id": 785,
+      "text": "(که) مال و آنچه به دست آورده است (از عزت و ریاست) به او سودی نکرد."
+    },
+    {
+      "resource_id": 785,
+      "text": "به زودی در آتش شعله‌ور داخل شود (بعد از مرگ)."
+    },
+    {
+      "resource_id": 785,
+      "text": "و همسرِ او (نیز داخل شود با او) در حالی که هیزم‌کش است."
+    },
+    { "resource_id": 785, "text": "و در گردن او ریسمانی از لیف خرما است." }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "111" }
+  }
+}

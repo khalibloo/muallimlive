@@ -1,0 +1,89 @@
+{
+  "translations": [
+    { "resource_id": 83, "text": "Cuando el Sol se contraiga [y oscurezca]," },
+    { "resource_id": 83, "text": "cuando las estrellas pierdan su luz," },
+    { "resource_id": 83, "text": "cuando las montañas sean pulverizadas," },
+    {
+      "resource_id": 83,
+      "text": "cuando las camellas preñadas<sup foot_note=169494>1</sup> sean dejadas de lado,"
+    },
+    {
+      "resource_id": 83,
+      "text": "cuando las bestias salvajes sean acorraladas,"
+    },
+    { "resource_id": 83, "text": "cuando los mares hiervan y se desborden," },
+    {
+      "resource_id": 83,
+      "text": "cuando las almas vuelvan a emparejarse [con sus cuerpos],"
+    },
+    {
+      "resource_id": 83,
+      "text": "cuando se le pregunte a las niñas que fueron enterradas vivas"
+    },
+    {
+      "resource_id": 83,
+      "text": "por qué pecado las mataron<sup foot_note=169495>1</sup>,"
+    },
+    {
+      "resource_id": 83,
+      "text": "cuando los registros [de las obras] sean repartidos,"
+    },
+    { "resource_id": 83, "text": "cuando la bóveda celeste desaparezca," },
+    { "resource_id": 83, "text": "cuando el fuego del Infierno sea avivado," },
+    { "resource_id": 83, "text": "y cuando el Paraíso sea acercado." },
+    {
+      "resource_id": 83,
+      "text": "En ese momento sabrá cada alma el resultado de sus obras."
+    },
+    { "resource_id": 83, "text": "Juro por los astros" },
+    { "resource_id": 83, "text": "que recorren sus órbitas," },
+    {
+      "resource_id": 83,
+      "text": "y [juro] por la noche cuando extiende su oscuridad,"
+    },
+    {
+      "resource_id": 83,
+      "text": "y [juro] por la mañana cuando extiende su luminosidad,"
+    },
+    {
+      "resource_id": 83,
+      "text": "que [el Corán] es la palabra [de Dios transmitida] por un emisario noble<sup foot_note=169496>1</sup>,"
+    },
+    {
+      "resource_id": 83,
+      "text": "dotado de poder y distinción ante el Señor del Trono."
+    },
+    {
+      "resource_id": 83,
+      "text": "El obedecido [por otros ángeles] y el digno confidente [de la revelación]."
+    },
+    {
+      "resource_id": 83,
+      "text": "[Sabed que] su compañero [el profeta Muhámmad] no es un loco,"
+    },
+    {
+      "resource_id": 83,
+      "text": "lo vio [al ángel Gabriel] en el horizonte claro,"
+    },
+    { "resource_id": 83, "text": "no oculta nada de lo que le fue revelado." },
+    {
+      "resource_id": 83,
+      "text": "[El Corán] no es la palabra de un demonio maldito."
+    },
+    { "resource_id": 83, "text": "¿A dónde iréis [con ese argumento]?" },
+    {
+      "resource_id": 83,
+      "text": "[El Corán] es un Mensaje para toda la humanidad,"
+    },
+    { "resource_id": 83, "text": "para que se encamine quien quiera." },
+    {
+      "resource_id": 83,
+      "text": "Pero sabed que solo se encaminará quien quiera Dios, Señor del universo."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sheikh Isa Garcia",
+    "author_name": "Sheikh Isa Garcia",
+    "filters": { "resource_id": 83, "chapter_number": "81" }
+  }
+}

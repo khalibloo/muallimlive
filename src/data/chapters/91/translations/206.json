@@ -1,0 +1,45 @@
+{
+  "translations": [
+    { "resource_id": 206, "text": "By the sun and its brightness," },
+    { "resource_id": 206, "text": "and by the moon as it follows it," },
+    { "resource_id": 206, "text": "and by the day as it displays it," },
+    { "resource_id": 206, "text": "and by the night as it covers it," },
+    { "resource_id": 206, "text": "and by the sky and He Who made it," },
+    { "resource_id": 206, "text": "and by the earth and how He spread it," },
+    { "resource_id": 206, "text": "and by the soul and how He fashioned it," },
+    {
+      "resource_id": 206,
+      "text": "then inspired it [to know] its wickedness and righteousness,"
+    },
+    {
+      "resource_id": 206,
+      "text": "Indeed, he who purifies his soul will attain success,"
+    },
+    { "resource_id": 206, "text": "and he who corrupts it will be doomed." },
+    {
+      "resource_id": 206,
+      "text": "Thamūd rejected [the messenger] because of their transgression,"
+    },
+    {
+      "resource_id": 206,
+      "text": "when the most wretched among them rose [to kill the camel]."
+    },
+    {
+      "resource_id": 206,
+      "text": "Although the messenger of Allah warned them, “Hands off the she-camel of Allah and her drink!”"
+    },
+    {
+      "resource_id": 206,
+      "text": "Yet they rejected him and hamstrung her. So their Lord destroyed them for their sin and leveled them to the ground."
+    },
+    {
+      "resource_id": 206,
+      "text": "And He has no fear of the consequences thereof."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "91" }
+  }
+}

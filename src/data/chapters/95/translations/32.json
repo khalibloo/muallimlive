@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 32, "text": "Inã rantsuwa da Attinu da Azzaitũn." },
+    { "resource_id": 32, "text": "Da Dũr Sĩnĩna." },
+    { "resource_id": 32, "text": "Da wannan gari amintacce." },
+    {
+      "resource_id": 32,
+      "text": "Lalle ne, Mun halitta mutum a cikin mafi kyawon tsayuwa."
+    },
+    {
+      "resource_id": 32,
+      "text": "Sa'an nan, Muka mayar da shi mafi ƙasƙantar masu rauni"
+    },
+    {
+      "resource_id": 32,
+      "text": "Face waɗanda suka yi imani, kuma suka aikata ayyukan ƙwarai, saboda haka suna da sakamako wanda bã ya yankewa."
+    },
+    {
+      "resource_id": 32,
+      "text": "To, bãyan haka mẽ ya sanya ka ka ƙaryata sakamako (wanda za a yi a bãyan Tãshin ¡iyãma)?"
+    },
+    {
+      "resource_id": 32,
+      "text": "Ashe Allah bã Shi ne Mafi mãsu hukunci kyãwon hukunci ba?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "95" }
+  }
+}

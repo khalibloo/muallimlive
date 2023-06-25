@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 819, "text": "قسم ہے روزِ روشن کی" },
+    { "resource_id": 819, "text": "اور رات کی جب وہ چھاجائے" },
+    {
+      "resource_id": 819,
+      "text": "تمھارے رب نے تم کو نہیں چھوڑا،اور نہ وہ تم سے بیزار ہوا"
+    },
+    {
+      "resource_id": 819,
+      "text": "اور یقیناً آخرت تمھارے لیے دنیا سے بہترہے"
+    },
+    {
+      "resource_id": 819,
+      "text": "اور عنقریب اللہ تجھ کو دے گا،پھر تو راضی ہوجائے گا"
+    },
+    {
+      "resource_id": 819,
+      "text": "کیا اللہ نے تم کو یتیم نہیں پایا، پھر اُس نے تم کو ٹھکانا دیا"
+    },
+    { "resource_id": 819, "text": "اور تم کو متلاشی پایا تو تم کو راہ دکھائی" },
+    { "resource_id": 819, "text": "اور تم کو نادار پایا تو تم کو غنی کردیا" },
+    { "resource_id": 819, "text": "پس تم یتیم پر سختی نہ کرو" },
+    { "resource_id": 819, "text": "اور تم سائل کو نہ جھڑکو" },
+    { "resource_id": 819, "text": "اور تم اپنے رب کی نعمت بیان کرو" }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "93" }
+  }
+}

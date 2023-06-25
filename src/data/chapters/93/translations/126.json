@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Tako mi jutra" },
+    { "resource_id": 126, "text": "i noći kada se utiša –" },
+    {
+      "resource_id": 126,
+      "text": "Gospodar tvoj nije te ni napustio ni omrznuo!"
+    },
+    {
+      "resource_id": 126,
+      "text": "Onaj svijet je, zaista, bolji za tebe od ovoga svijeta,"
+    },
+    {
+      "resource_id": 126,
+      "text": "a Gospodar tvoj će tebi, sigurno, dati, pa ćeš zadovoljan biti!"
+    },
+    {
+      "resource_id": 126,
+      "text": "Zar nisi siroče bio, pa ti je On utočište pružio,"
+    },
+    {
+      "resource_id": 126,
+      "text": "i za pravu vjeru nisi znao, pa te je na Pravi put uputio,"
+    },
+    {
+      "resource_id": 126,
+      "text": "i siromah si bio, pa te je imućnim učinio?"
+    },
+    { "resource_id": 126, "text": "Zato siroče ne ucvili," },
+    { "resource_id": 126, "text": "a na prosjaka ne podvikni," },
+    { "resource_id": 126, "text": "i o blagodati Gospodara svoga kazuj!" }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "93" }
+  }
+}

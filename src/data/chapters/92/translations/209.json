@@ -1,0 +1,63 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Per la notte quando è fonda" },
+    { "resource_id": 209, "text": "e per il giorno quando splende" },
+    {
+      "resource_id": 209,
+      "text": "e per Colui che creò il maschio e la femmina:"
+    },
+    { "resource_id": 209, "text": "in verità diverse sono le vostre opere!" },
+    { "resource_id": 209, "text": "A chi ha donato e ha temuto." },
+    {
+      "resource_id": 209,
+      "text": "e si è attenuto alla virtù.(di Allāh nel giorno della resurrezione)"
+    },
+    { "resource_id": 209, "text": "gli faciliteremo la via del bene." },
+    {
+      "resource_id": 209,
+      "text": "E a chi è stato avaro e si è tirato indietro"
+    },
+    {
+      "resource_id": 209,
+      "text": "e ha deviato dalla virtù,(di Allāh nel giorno della resurrezione)"
+    },
+    { "resource_id": 209, "text": "faciliteremo la via alla miseria," },
+    {
+      "resource_id": 209,
+      "text": "e non gli serviranno i suoi beni quando sarà dannato."
+    },
+    { "resource_id": 209, "text": "In verità spetta a Noi guidare," },
+    {
+      "resource_id": 209,
+      "text": "E in verità a Noi appartiene l`ultima e questa vita."
+    },
+    { "resource_id": 209, "text": "Vi ho avvertito di un ardente Fuoco," },
+    {
+      "resource_id": 209,
+      "text": "Al quale sarà esposto solo il più miscredente,"
+    },
+    {
+      "resource_id": 209,
+      "text": "colui che ha negato e si è tirato indietro;"
+    },
+    { "resource_id": 209, "text": "ne sarà tenuto lontano il più devoto," },
+    {
+      "resource_id": 209,
+      "text": "colui che offre una parte dei suoi beni per purificarsi"
+    },
+    {
+      "resource_id": 209,
+      "text": "e che a nessuno fa un dono per ricavarne una ricompensa,"
+    },
+    {
+      "resource_id": 209,
+      "text": "ma solo per amore del volto del suo Dio, l'Altissimo,"
+    },
+    { "resource_id": 209, "text": "e verrà di certo soddisfatto." }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "92" }
+  }
+}

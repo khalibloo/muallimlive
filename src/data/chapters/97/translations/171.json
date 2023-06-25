@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 171,
+      "text": "Indeed, I revealed the Qur’ān at once to the heaven nearest to the world, just as I started off revealing it to Muhammad (peace be upon him), on the Night of Decree in the month of Ramadan."
+    },
+    {
+      "resource_id": 171,
+      "text": "O Prophet! Do you know what goodness and blessings lie in this night?"
+    },
+    {
+      "resource_id": 171,
+      "text": "This night is a night of great goodness; it is better than a thousand months for the one who stands in prayer during it, whilst having faith and hoping for reward."
+    },
+    {
+      "resource_id": 171,
+      "text": "The angels and Gabriel (peace be upon him) descend during it with the permission of their Lord (may He be glorified), bringing every matter Allah has decreed to happen that year, whether it be sustenance, deaths, births or anything else He has decreed."
+    },
+    {
+      "resource_id": 171,
+      "text": "This whole blessed night contains goodness, right from its beginning until its end, with the breaking of dawn."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abridged Explanation of the Quran",
+    "author_name": "Tafsir Center of Quranic Studies",
+    "filters": { "resource_id": 171, "chapter_number": "97" }
+  }
+}

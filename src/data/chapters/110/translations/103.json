@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 103,
+      "text": "Quando chegar o socorro de Allah e também a vitória,"
+    },
+    {
+      "resource_id": 103,
+      "text": "E vires os homens entrarem na religião de Allah, em turbas,"
+    },
+    {
+      "resource_id": 103,
+      "text": "Então glorifica, com louvor, a teu Senhor e implora-Lhe perdão. Por certo, Ele é O remissório."
+    }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "110" }
+  }
+}

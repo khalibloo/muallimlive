@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 74, "text": "Вой бар ҳар ғайбаткунандаи айбҷӯе," },
+    {
+      "resource_id": 74,
+      "text": "он ки моле ҷамъ кард ва ҳисоби он нигаҳ дошт."
+    },
+    { "resource_id": 74, "text": "Мепиндорад, ки дороияш ҷовидонаш гардонад." },
+    { "resource_id": 74, "text": "На чунин аст! ки Ӯро дар ҳутамаҳ андозанд." },
+    { "resource_id": 74, "text": "Ва ту чӣ донӣ, ки ҳутамаҳ чист?" },
+    { "resource_id": 74, "text": "Оташи афрӯхтаи Худост," },
+    { "resource_id": 74, "text": "ки бар дилҳо ғалаба меёбад." },
+    { "resource_id": 74, "text": "Он оташ аз ҳар сӯ дар миёнашон гирифтааст," },
+    {
+      "resource_id": 74,
+      "text": "дар сутунҳои дарози оташӣ дароварда шудааст."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tajik",
+    "author_name": "AbdolMohammad Ayati",
+    "filters": { "resource_id": 74, "chapter_number": "104" }
+  }
+}

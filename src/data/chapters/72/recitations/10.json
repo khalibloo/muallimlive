@@ -1,0 +1,37 @@
+{
+  "audio_files": [
+    { "verse_key": "72:1", "url": "Shuraym/mp3/072001.mp3" },
+    { "verse_key": "72:2", "url": "Shuraym/mp3/072002.mp3" },
+    { "verse_key": "72:3", "url": "Shuraym/mp3/072003.mp3" },
+    { "verse_key": "72:4", "url": "Shuraym/mp3/072004.mp3" },
+    { "verse_key": "72:5", "url": "Shuraym/mp3/072005.mp3" },
+    { "verse_key": "72:6", "url": "Shuraym/mp3/072006.mp3" },
+    { "verse_key": "72:7", "url": "Shuraym/mp3/072007.mp3" },
+    { "verse_key": "72:8", "url": "Shuraym/mp3/072008.mp3" },
+    { "verse_key": "72:9", "url": "Shuraym/mp3/072009.mp3" },
+    { "verse_key": "72:10", "url": "Shuraym/mp3/072010.mp3" },
+    { "verse_key": "72:11", "url": "Shuraym/mp3/072011.mp3" },
+    { "verse_key": "72:12", "url": "Shuraym/mp3/072012.mp3" },
+    { "verse_key": "72:13", "url": "Shuraym/mp3/072013.mp3" },
+    { "verse_key": "72:14", "url": "Shuraym/mp3/072014.mp3" },
+    { "verse_key": "72:15", "url": "Shuraym/mp3/072015.mp3" },
+    { "verse_key": "72:16", "url": "Shuraym/mp3/072016.mp3" },
+    { "verse_key": "72:17", "url": "Shuraym/mp3/072017.mp3" },
+    { "verse_key": "72:18", "url": "Shuraym/mp3/072018.mp3" },
+    { "verse_key": "72:19", "url": "Shuraym/mp3/072019.mp3" },
+    { "verse_key": "72:20", "url": "Shuraym/mp3/072020.mp3" },
+    { "verse_key": "72:21", "url": "Shuraym/mp3/072021.mp3" },
+    { "verse_key": "72:22", "url": "Shuraym/mp3/072022.mp3" },
+    { "verse_key": "72:23", "url": "Shuraym/mp3/072023.mp3" },
+    { "verse_key": "72:24", "url": "Shuraym/mp3/072024.mp3" },
+    { "verse_key": "72:25", "url": "Shuraym/mp3/072025.mp3" },
+    { "verse_key": "72:26", "url": "Shuraym/mp3/072026.mp3" },
+    { "verse_key": "72:27", "url": "Shuraym/mp3/072027.mp3" },
+    { "verse_key": "72:28", "url": "Shuraym/mp3/072028.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Sa`ud ash-Shuraym",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "72" }
+  }
+}

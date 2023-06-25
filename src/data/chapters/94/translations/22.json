@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 22, "text": "Have We not expanded thee thy breast?-" },
+    { "resource_id": 22, "text": "And removed from thee thy burden" },
+    { "resource_id": 22, "text": "The which did gall thy back?-" },
+    {
+      "resource_id": 22,
+      "text": "And raised high the esteem (in which) thou (art held)?"
+    },
+    {
+      "resource_id": 22,
+      "text": "So, verily, with every difficulty, there is relief:"
+    },
+    {
+      "resource_id": 22,
+      "text": "Verily, with every difficulty there is relief."
+    },
+    {
+      "resource_id": 22,
+      "text": "Therefore, when thou art free (from thine immediate task), still labour hard,"
+    },
+    { "resource_id": 22, "text": "And to thy Lord turn (all) thy attention." }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "94" }
+  }
+}

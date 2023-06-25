@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 222, "text": "Әбу Ләһаптің екі қолы құрысын!Құрыды да." },
+    {
+      "resource_id": 222,
+      "text": "Оның малы да кәсібі де өзіне пайда бермеді."
+    },
+    { "resource_id": 222, "text": "Ол,жалындаған отқа кіреді." },
+    { "resource_id": 222, "text": "Әйелі, отын көтеріп кіреді." },
+    { "resource_id": 222, "text": "Оның мойнында есілген арқан болады." }
+  ],
+  "meta": {
+    "translation_name": "Khalifa Altay",
+    "author_name": "Khalifa Altay",
+    "filters": { "resource_id": 222, "chapter_number": "111" }
+  }
+}

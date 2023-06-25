@@ -1,0 +1,20 @@
+{
+  "audio_files": [
+    { "verse_key": "63:1", "url": "Sudais/mp3/063001.mp3" },
+    { "verse_key": "63:2", "url": "Sudais/mp3/063002.mp3" },
+    { "verse_key": "63:3", "url": "Sudais/mp3/063003.mp3" },
+    { "verse_key": "63:4", "url": "Sudais/mp3/063004.mp3" },
+    { "verse_key": "63:5", "url": "Sudais/mp3/063005.mp3" },
+    { "verse_key": "63:6", "url": "Sudais/mp3/063006.mp3" },
+    { "verse_key": "63:7", "url": "Sudais/mp3/063007.mp3" },
+    { "verse_key": "63:8", "url": "Sudais/mp3/063008.mp3" },
+    { "verse_key": "63:9", "url": "Sudais/mp3/063009.mp3" },
+    { "verse_key": "63:10", "url": "Sudais/mp3/063010.mp3" },
+    { "verse_key": "63:11", "url": "Sudais/mp3/063011.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Abdur-Rahman as-Sudais",
+    "recitation_style": "Murattal",
+    "filters": { "chapter_number": "63" }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "translations": [
+    { "resource_id": 27, "text": "Bei der Sonne und ihrer Morgenhelle" },
+    { "resource_id": 27, "text": "und dem Mond, wenn er ihr folgt," },
+    { "resource_id": 27, "text": "und dem Tag, wenn er sie erscheinen läßt," },
+    { "resource_id": 27, "text": "und der Nacht, wenn sie sie überdeckt," },
+    {
+      "resource_id": 27,
+      "text": "und dem Himmel und Dem, Der ihn aufgebaut hat,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und der Erde und Dem, Der sie ausgebreitet hat,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und einer (jeden) Seele und Dem, Der sie zurechtgeformt hat"
+    },
+    {
+      "resource_id": 27,
+      "text": "und ihr dann ihre Sittenlosigkeit und ihre Gottesfurcht eingegeben hat!"
+    },
+    {
+      "resource_id": 27,
+      "text": "Wohl ergehen wird es ja jemandem, der sie läutert,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und enttäuscht sein wird ja, wer sie verkümmern läßt."
+    },
+    {
+      "resource_id": 27,
+      "text": "Die Tamud erklärten in ihrer Auflehnung (die Botschaft) für Lüge,"
+    },
+    { "resource_id": 27, "text": "als der Unseligste von ihnen sich erhob." },
+    {
+      "resource_id": 27,
+      "text": "Allahs Gesandter sagte zu ihnen: (Achtet auf) Allahs Kamelstute und ihre Trinkzeit."
+    },
+    {
+      "resource_id": 27,
+      "text": "Sie aber bezichtigten ihn der Lüge, und so schnitten sie ihr die Sehnen durch. Da schmetterte ihr Herr sie für ihre Sünde nieder, und so ebnete Er über ihnen die Erde ein."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und Er (Allah) fürchtet nicht die Folge davon."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "91" }
+  }
+}

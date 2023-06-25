@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 144,
+      "text": "In de naam van Allah, de Erbarmer, de Meest Barmhartige."
+    },
+    { "resource_id": 144, "text": "Alle lof zij Allah, de Heer der Werelden." },
+    { "resource_id": 144, "text": "De Erbarmer, de Meest Barmhartige." },
+    { "resource_id": 144, "text": "De Heerser op de Dag des Oordeels." },
+    {
+      "resource_id": 144,
+      "text": "U alleen aanbidden wij en U alleen vragen wij om hulp."
+    },
+    { "resource_id": 144, "text": "Leid ons op het rechte Pad." },
+    {
+      "resource_id": 144,
+      "text": "Het Pad van degenen aan wie U gunsten hebt geschonken, niet van degenen op wie de toorn rust en niet dat van de dwalenden."
+    }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "1" }
+  }
+}

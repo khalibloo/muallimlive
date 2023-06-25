@@ -1,0 +1,12 @@
+{
+  "audio_files": [
+    { "verse_key": "110:1", "url": "Minshawi/Mujawwad/mp3/110001.mp3" },
+    { "verse_key": "110:2", "url": "Minshawi/Mujawwad/mp3/110002.mp3" },
+    { "verse_key": "110:3", "url": "Minshawi/Mujawwad/mp3/110003.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed Siddiq al-Minshawi",
+    "recitation_style": "Mujawwad",
+    "filters": { "chapter_number": "110" }
+  }
+}

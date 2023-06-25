@@ -1,0 +1,19 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "Sabõda sãbon kuraishawa." },
+    { "resource_id": 115, "text": "Sãbon su na tafiyar hunturu da ta bazara." },
+    {
+      "resource_id": 115,
+      "text": "Sabõda haka sai su bauta wa Ubangijin wannan Gida (Ka'abah)."
+    },
+    {
+      "resource_id": 115,
+      "text": "wanda Ya ciyar da su (Ya hana su) daga yunwa, kuma Ya amintar da su daga wani tsõro."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "106" }
+  }
+}

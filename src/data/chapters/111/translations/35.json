@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 35,
+      "text": "アブー・ラハブの両手は滅び，かれも滅びてしまえ。"
+    },
+    {
+      "resource_id": 35,
+      "text": "かれの富も儲けた金も，かれのために役立ちはしない。"
+    },
+    {
+      "resource_id": 35,
+      "text": "やがてかれは，燃え盛る炎の業火の中で焼かれよう。"
+    },
+    { "resource_id": 35, "text": "かれの妻はその薪を運ぶ，" },
+    { "resource_id": 35, "text": "首に棕櫚の荒縄かけて。" }
+  ],
+  "meta": {
+    "translation_name": "Ryoichi Mita",
+    "author_name": "Ryoichi Mita",
+    "filters": { "resource_id": 35, "chapter_number": "111" }
+  }
+}

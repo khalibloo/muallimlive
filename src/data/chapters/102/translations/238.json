@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 238,
+      "text": "(اي ماڻھو) پاڻ ۾ گھڻائي (تي مرڪڻ) اوھان کي ويسلو ڪيو."
+    },
+    { "resource_id": 238, "text": "تان جو قبرن کي ڏٺوَ." },
+    { "resource_id": 238, "text": "ائين نه آھي سگھوئي ڄاڻندؤ." },
+    { "resource_id": 238, "text": "وري (چئون ٿا ته) سگھوئي ڄاڻندؤ." },
+    {
+      "resource_id": 238,
+      "text": "نه نه! جيڪڏھن پڪي ويساھ سان ڄاڻو ھا (ته ويسلو نه ويھو ھا)."
+    },
+    { "resource_id": 238, "text": "قسم آھي ته ضرور دوزخ کي ڏسندؤ." },
+    {
+      "resource_id": 238,
+      "text": "وري به ان کي يقين واريءَ اک سان ضرور ڏسندؤ."
+    },
+    {
+      "resource_id": 238,
+      "text": "وري اُن ڏينھن نعمتن بابت اوھان کان ضرور پڇبو."
+    }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "102" }
+  }
+}

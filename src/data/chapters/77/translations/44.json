@@ -1,0 +1,95 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Pe trimisele neîncetat!" },
+    { "resource_id": 44, "text": "Pe vântoasele aprige la suflat!" },
+    { "resource_id": 44, "text": "Pe solii iute răspânditori!" },
+    { "resource_id": 44, "text": "Pe despărţitorii osânditori!" },
+    { "resource_id": 44, "text": "Pe ai amintirii aducători!" },
+    { "resource_id": 44, "text": "— întru dezvinuire ori întru predicare —" },
+    { "resource_id": 44, "text": "Cu ce sunteţi ameninţaţi va veni neapărat," },
+    { "resource_id": 44, "text": "când stelele vor fi şterse," },
+    { "resource_id": 44, "text": "când cerul va fi despicat" },
+    { "resource_id": 44, "text": "când munţii vor fi în ţăndări aruncaţi," },
+    { "resource_id": 44, "text": "când trimişilor un răgaz le va fi dat!" },
+    { "resource_id": 44, "text": "Pentru ce zi au fost sorocite, oare?" },
+    { "resource_id": 44, "text": "Pentru Ziua Cumpenei." },
+    { "resource_id": 44, "text": "Cum vei şti tu oare ce este Ziua Cumpenei?" },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    { "resource_id": 44, "text": "Nu i-am nimicit pe oamenii dintâi?" },
+    { "resource_id": 44, "text": "Nu îi facem pe cei de apoi să le urmeze?" },
+    { "resource_id": 44, "text": "Aşa vom face cu toţi nelegiuiţii." },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    { "resource_id": 44, "text": "Nu v-am creat Noi din apă lepădată" },
+    { "resource_id": 44, "text": "pe care am pus-o într-un vas trainic" },
+    { "resource_id": 44, "text": "până la un soroc ştiut?" },
+    {
+      "resource_id": 44,
+      "text": "Noi am sortit aşa! Ferice de cei sortitori!"
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    { "resource_id": 44, "text": "N-am făcut Noi pământul loc de adunare" },
+    { "resource_id": 44, "text": "pentru vii şi pentru morţi?" },
+    {
+      "resource_id": 44,
+      "text": "Nu am înălţat Noi munţii semeţi? Şi v-am dat să beţi apă dulce?"
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    { "resource_id": 44, "text": "Duceţi-vă la ceea ce-aţi hulit!" },
+    {
+      "resource_id": 44,
+      "text": "Duceţi-vă către umbra în trei ramuri împărţită"
+    },
+    {
+      "resource_id": 44,
+      "text": "care nici nu umbreşte şi nici de flacără nu scuteşte!"
+    },
+    { "resource_id": 44, "text": "Ea împrăştie scântei cât palatul" },
+    { "resource_id": 44, "text": "asemenea unor galbene cămile!" },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    { "resource_id": 44, "text": "În Ziua aceea, ei nu vor putea vorbi" },
+    {
+      "resource_id": 44,
+      "text": "şi nu li se va îngădui să se dezvinovăţească."
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    {
+      "resource_id": 44,
+      "text": "Aceasta va fi Ziua Cumpenei când vă vom strânge pe voi laolaltă cu cei dintâi."
+    },
+    {
+      "resource_id": 44,
+      "text": "Dacă aveţi vreun vicleşug, vicleniţi asupra Mea!"
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    {
+      "resource_id": 44,
+      "text": "Cei temători vor sta la umbră, lângă izvoare,"
+    },
+    { "resource_id": 44, "text": "şi vor avea fructele pe care şi le doresc." },
+    {
+      "resource_id": 44,
+      "text": "“Mâncaţi şi beţi în tihnă ca răsplată a faptelor voastre!”"
+    },
+    {
+      "resource_id": 44,
+      "text": "Aşa îi răsplătim Noi pe cei ce-au făptuit binele."
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    {
+      "resource_id": 44,
+      "text": "“Mâncaţi şi bucuraţi-vă puţin, voi, cei care sunteţi nelegiuiţi!”"
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    {
+      "resource_id": 44,
+      "text": "Când li se spune: “Îngenunchiaţi!” Ei nu îngenunche."
+    },
+    { "resource_id": 44, "text": "În Ziua aceea, vai celor care hulesc!" },
+    { "resource_id": 44, "text": "După aceasta, în ce spusă vor mai crede?" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "77" }
+  }
+}

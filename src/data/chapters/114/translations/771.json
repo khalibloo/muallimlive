@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "resource_id": 771,
+      "text": "(ಪ್ರವಾದಿವರ್ಯರೇ) ಹೇಳಿರಿ, ಮನುಷ್ಯರ ಪಾಲಕ ಪ್ರಭುವಿನೊಂದಿಗೆ ನಾನು ಅಭಯ ಯಾಚಿಸುತ್ತೇನೆ."
+    },
+    { "resource_id": 771, "text": "ಮನುಷ್ಯರ ಅಧಿಪತಿಯಾದ (ಅಲ್ಲಾಹನೊಂದಿಗೆ)" },
+    { "resource_id": 771, "text": "ಮನುಷ್ಯರ ಆರಾಧ್ಯನಾದ (ಅಲ್ಲಾಹನೊಂದಿಗೆ.)" },
+    {
+      "resource_id": 771,
+      "text": "ಹೊಂಚುಗಾರನಾದ ಶೈತಾನನ ಕೇಡಿನಿಂದ.<sup foot_note=208158>1</sup>"
+    },
+    { "resource_id": 771, "text": "ಮನುಷ್ಯರ ಹೃದಯಗಳಲ್ಲಿ ಚಂಚಲ ಮೂಡಿಸುವ" },
+    {
+      "resource_id": 771,
+      "text": "ಜಿನ್ನ್ ಮತ್ತು ಮನುಷ್ಯರ ಪೈಕಿ<sup foot_note=208159>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "114" }
+  }
+}

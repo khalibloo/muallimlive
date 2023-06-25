@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "S tafat n tûebêit!" },
+    { "resource_id": 236, "text": "S yiv, ma irked!" },
+    { "resource_id": 236, "text": "Ur k Iooi Mass ik, ur k Ikrih." },
+    {
+      "resource_id": 236,
+      "text": "Tudert taneggarut ik, a ppif tamezwarut ik."
+    },
+    { "resource_id": 236, "text": "A k tôavi tikci, deqqal, n Mass ik." },
+    { "resource_id": 236, "text": "Day ur k id Iufa ara d agujil, Isduri k?" },
+    { "resource_id": 236, "text": "Iufa k id d utlif, Inha k." },
+    { "resource_id": 236, "text": "Iufa k id d igellil, I$at ik." },
+    { "resource_id": 236, "text": "Ihi, ur qehheô agujil." },
+    { "resource_id": 236, "text": "Ur ppara amappar." },
+    { "resource_id": 236, "text": "Wanag, $ef l$it n Mass ik, xas eêku." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "93" }
+  }
+}

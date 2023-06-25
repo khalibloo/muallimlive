@@ -1,0 +1,33 @@
+{
+  "translations": [
+    {
+      "resource_id": 38,
+      "text": "Tharoang ka (hay Mohammad): Hay manga kafir!"
+    },
+    {
+      "resource_id": 38,
+      "text": "Kna a ba akn dii zoasoata so gii niyo zoasoatn;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go da rkano i ba niyo dii zoasoata so gii akn zoasoatn:"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go da rakn i ba ko pzoasoata so pizoasoat iyo,"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go da rkano i ba niyo pzoasoata so gii akn zoasoatn."
+    },
+    {
+      "resource_id": 38,
+      "text": "Rk iyo so okit iyo ko kapagintaw, na rk akn so okit akn ko kapagintaw."
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Per le abitudini di Ǭura'ish e le loro ricorrenze,"
+    },
+    {
+      "resource_id": 176,
+      "text": "la ricorrenza del loro viaggio invernale in Yemen, e del loro viaggio estivo verso Al-Shām, in tutta sicurezza."
+    },
+    {
+      "resource_id": 176,
+      "text": "Che adorino Allāh solo, Dio di questa Sacra Casa, Colui che ha agevolato loro questo viaggio, e che non Gli associno nessuno,"
+    },
+    {
+      "resource_id": 176,
+      "text": "Colui che li ha sfamati e che li ha liberati dalla paura, poiché ha posto nel cuore degli Arabi il rispetto del Luogo Sacro e dei suoi abitanti."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "106" }
+  }
+}

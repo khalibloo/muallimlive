@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 143, "text": "سوێند بەکات" },
+    { "resource_id": 143, "text": "بێگومان ھەموو خەڵکی لە زیاندان" },
+    {
+      "resource_id": 143,
+      "text": "جگە لەوانەی کە بڕوایان ھێنابێت وکردەوە چاکەکانیان کردبێت وە ئامۆژگاریی یەکتریان کردبێ بە ئاینی ڕاست (ودەست پێوەگرتنی، وکارکردن بەفەرمانەکانی خوا) وە ئامۆژگاری یەکتریان کردبێت بە ئارامگرتن (لەسەر پەرستن وبەندایەتی خوا)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Saleh Bamoki",
+    "author_name": "Muhammad Saleh Bamoki",
+    "filters": { "resource_id": 143, "chapter_number": "103" }
+  }
+}

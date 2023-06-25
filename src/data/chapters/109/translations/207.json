@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "SAY: \"O disbelievers!" },
+    { "resource_id": 207, "text": "I do not serve what you serve" },
+    { "resource_id": 207, "text": "nor are you serving what I serve!" },
+    {
+      "resource_id": 207,
+      "text": "I will not worship what you have worshipped,"
+    },
+    { "resource_id": 207, "text": "neither will you worship what I worship." },
+    {
+      "resource_id": 207,
+      "text": "You have your religion while I have my religion."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "109" }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 140,
+      "text": "Os distraéis (de obedecer a Al-lah) por competir en la acumulación de bienes y poder"
+    },
+    { "resource_id": 140, "text": "hasta que os llegue la muerte." },
+    {
+      "resource_id": 140,
+      "text": "¡No deberíais hacerlo!, pues ya sabréis (lo que os espera)."
+    },
+    { "resource_id": 140, "text": "¡Sí!, ya sabréis (lo que os espera)." },
+    {
+      "resource_id": 140,
+      "text": "Si realmente tuvierais certeza (de la verdad, dejaríais de acumular bienes y poder y obedeceríais a Al-lah)."
+    },
+    {
+      "resource_id": 140,
+      "text": "(Mas) ciertamente, veréis el fuego del infierno."
+    },
+    {
+      "resource_id": 140,
+      "text": "¡Sí!, lo veréis con vuestros propios ojos."
+    },
+    {
+      "resource_id": 140,
+      "text": "Y después seréis cuestionados (y juzgados) el Día de la Resurrección sobre (el uso que hicisteis de) las gracias (que Al-lah os concedió)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 140, "chapter_number": "102" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 819,
+      "text": "کیا تم نے نہیں دیکھا کہ تمھارے رب نے ہاتھی والوں کے ساتھ کیاکیا"
+    },
+    { "resource_id": 819, "text": "کیا اس نے ان کی تدبیر کواکارت نہیں کردیا" },
+    { "resource_id": 819, "text": "اور ان پر چڑیاں بھیجیں جھنڈ کی جھنڈ" },
+    { "resource_id": 819, "text": "جو ان پر کنکر کی پتھریاں پھینکتے تھے" },
+    {
+      "resource_id": 819,
+      "text": "پھر اللہ نے اس کو کھائے ہوئے بھس کی طرح کردیا"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "105" }
+  }
+}

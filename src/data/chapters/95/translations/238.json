@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 238, "text": "انجير ۽ زيتون جو قسم آھي." },
+    { "resource_id": 238, "text": "۽ طُور سينا جو." },
+    { "resource_id": 238, "text": "۽ ھِن اَمن واري شھر (مڪي) جو." },
+    {
+      "resource_id": 238,
+      "text": "ته بيشڪ ماڻھوءَ کي تمام سھڻي نموني پيدا ڪيوسون."
+    },
+    { "resource_id": 238, "text": "وري سڀني ھيٺاھين کان ھيٺ موٽايوسونس." },
+    {
+      "resource_id": 238,
+      "text": "پر جن ايمان آندو ۽ چڱا ڪم ڪيا تن لاءِ اَڻ کُٽ اجر آھي."
+    },
+    {
+      "resource_id": 238,
+      "text": "پوءِ (اي ماڻھو) ھن (نصيحت) پڄاڻا ڪھڙي شيءِ توکي عملن جي بدلي ملڻ بابت منڪر بڻائي ٿي؟"
+    },
+    { "resource_id": 238, "text": "حاڪمن جو وڏو حاڪم الله نه آھي ڇا؟" }
+  ],
+  "meta": {
+    "translation_name": "Taj Mehmood Amroti",
+    "author_name": "Taj Mehmood Amroti",
+    "filters": { "resource_id": 238, "chapter_number": "95" }
+  }
+}

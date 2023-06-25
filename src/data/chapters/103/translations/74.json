@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 74, "text": "Савганд ба ин замон," },
+    { "resource_id": 74, "text": "ки одамӣ дар зиён аст," },
+    {
+      "resource_id": 74,
+      "text": "ғайри онҳо, ки имон оварданд ва корҳои шоиста карданд ва якдигарро ба ҳақ супориш карданд ва якдигарро ба сабр супориш карданд."
+    }
+  ],
+  "meta": {
+    "translation_name": "Tajik",
+    "author_name": "AbdolMohammad Ayati",
+    "filters": { "resource_id": 74, "chapter_number": "103" }
+  }
+}

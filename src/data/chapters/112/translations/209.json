@@ -1,0 +1,22 @@
+{
+  "translations": [
+    {
+      "resource_id": 209,
+      "text": "Dici: Lui, Allāh è l'Unico.قَلْْ هُوَ اللَّهُ أَحَدٌ"
+    },
+    { "resource_id": 209, "text": "Allāh è l`Assoluto!* اللَّهُ الصَّمَدُ" },
+    {
+      "resource_id": 209,
+      "text": "Mai generò, né fu generato لَمْ يَلِدْ وَلَمْ يُولَدْ"
+    },
+    {
+      "resource_id": 209,
+      "text": "né Gli è pari nessuno\". وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ"
+    }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "112" }
+  }
+}

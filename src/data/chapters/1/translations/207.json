@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 207,
+      "text": "In the name of Allah (God), the Mercygiving, the Merciful!"
+    },
+    {
+      "resource_id": 207,
+      "text": "Praise be to Allah (God), Lord of the Universe,"
+    },
+    { "resource_id": 207, "text": "the Mercygiving, the Merciful!" },
+    { "resource_id": 207, "text": "Ruler on the Day for Repayment!" },
+    {
+      "resource_id": 207,
+      "text": "You do we worship and You do we call on for help."
+    },
+    { "resource_id": 207, "text": "Guide us along the Straight Road," },
+    {
+      "resource_id": 207,
+      "text": "the road of those whom You have favored (prophets, loyal persons, martyrs and honorable men), with whom You are not angry (the Jews), nor who are lost! (the Christians)"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "1" }
+  }
+}

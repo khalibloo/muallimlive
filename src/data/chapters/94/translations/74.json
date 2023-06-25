@@ -1,0 +1,17 @@
+{
+  "translations": [
+    { "resource_id": 74, "text": "Оё синаатро бароят накушодем?" },
+    { "resource_id": 74, "text": "Ва бори гаронатро аз пуштат барнадоштем?" },
+    { "resource_id": 74, "text": "Боре, ки бар пушти ту сангинӣ мекард?" },
+    { "resource_id": 74, "text": "Оё туро баландовоза насохтем?" },
+    { "resource_id": 74, "text": "Пас аз паи душворӣ осонист!" },
+    { "resource_id": 74, "text": "Албатта аз паи душворӣ осонист." },
+    { "resource_id": 74, "text": "Чун аз кор фориғ шавӣ, ба ибодат кӯш" },
+    { "resource_id": 74, "text": "ва ба Парвардигорат рағбат намо!" }
+  ],
+  "meta": {
+    "translation_name": "Tajik",
+    "author_name": "AbdolMohammad Ayati",
+    "filters": { "resource_id": 74, "chapter_number": "94" }
+  }
+}

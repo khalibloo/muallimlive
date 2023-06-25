@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 206,
+      "text": "When there comes Allah’s help and the conquest,"
+    },
+    {
+      "resource_id": 206,
+      "text": "and you see people entering Allah’s religion in multitudes,"
+    },
+    {
+      "resource_id": 206,
+      "text": "then glorify the praise of your Lord, and ask His forgiveness. Indeed, He is ever Accepting of Repentance."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "110" }
+  }
+}

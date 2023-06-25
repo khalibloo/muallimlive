@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 134,
+      "text": "Tahukah kamu (orang) yang mendustakan agama?"
+    },
+    { "resource_id": 134, "text": "Itulah orang yang menghardik anak yatim," },
+    {
+      "resource_id": 134,
+      "text": "dan tidak menganjurkan memberi makan orang miskin."
+    },
+    {
+      "resource_id": 134,
+      "text": "Maka kecelakaanlah bagi orang-orang yang salat,"
+    },
+    {
+      "resource_id": 134,
+      "text": "(yaitu) orang-orang yang lalai dari salatnya,"
+    },
+    {
+      "resource_id": 134,
+      "text": "orang-orang yang berbuat ria<sup foot_note=211373>1</sup>,"
+    },
+    {
+      "resource_id": 134,
+      "text": "dan enggan (menolong dengan) barang berguna<sup foot_note=211374>1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "King Fahad Quran Complex",
+    "author_name": "King Fahad Quran Complex",
+    "filters": { "resource_id": 134, "chapter_number": "107" }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 103, "text": "Juro por esta Cidade!" },
+    { "resource_id": 103, "text": "- E tu estás residente nesta Cidade -" },
+    { "resource_id": 103, "text": "E por um genitor e por um gênito!" },
+    {
+      "resource_id": 103,
+      "text": "Com efeito, criamos o ser humano em tribulações."
+    },
+    {
+      "resource_id": 103,
+      "text": "Supõe ele que ninguém tem poder sobre ele?"
+    },
+    { "resource_id": 103, "text": "Diz: \"Aniquilei riquezas acumuladas.\"" },
+    { "resource_id": 103, "text": "Supõe ele que ninguém o viu?" },
+    { "resource_id": 103, "text": "Não Ihe fizemos dois olhos?" },
+    { "resource_id": 103, "text": "E uma língua e dois lábios?" },
+    { "resource_id": 103, "text": "E indicamo-lhe os dois rumos?" },
+    { "resource_id": 103, "text": "Então, ele não enfrenta o obstáculo!" },
+    {
+      "resource_id": 103,
+      "text": "E o que te faz inteirar-te do que é o obstáculo?"
+    },
+    { "resource_id": 103, "text": "E libertar um escravo," },
+    { "resource_id": 103, "text": "Ou alimentar, em dia de penúria," },
+    { "resource_id": 103, "text": "Um órfão aparentado," },
+    {
+      "resource_id": 103,
+      "text": "Ou um necessitado empoeirado pela miséria."
+    },
+    {
+      "resource_id": 103,
+      "text": "Em seguida, é ser dos que crêem e se recomendam, mutuamente, a paciência, e se recomendam, mutuamente, a misericórdia."
+    },
+    { "resource_id": 103, "text": "Esses são os companheiros da direita." },
+    {
+      "resource_id": 103,
+      "text": "E os que renegam a Fé e desmentem Nossos sinais, esses são os companheiros da esquerda."
+    },
+    { "resource_id": 103, "text": "Haverá, sobre eles, um Fogo cerrado." }
+  ],
+  "meta": {
+    "translation_name": "Helmi Nasr",
+    "author_name": "Helmi Nasr",
+    "filters": { "resource_id": 103, "chapter_number": "90" }
+  }
+}

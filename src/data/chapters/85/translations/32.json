@@ -1,0 +1,70 @@
+{
+  "translations": [
+    {
+      "resource_id": 32,
+      "text": "Inã rantsuwa da sama mai taurãrin lissafin shekara."
+    },
+    { "resource_id": 32, "text": "Da yinin da aka yi alkawarin zuwansa," },
+    {
+      "resource_id": 32,
+      "text": "Da yini mai shaidu, da yini da ake halarta a cikinsa"
+    },
+    { "resource_id": 32, "text": "An la'ani mutãnen rãmi." },
+    { "resource_id": 32, "text": "Wato wuta wadda aka hura." },
+    {
+      "resource_id": 32,
+      "text": "A lõkacin da suke a kan (gefen) ta a zazzaune."
+    },
+    {
+      "resource_id": 32,
+      "text": "Alhãli sũ, bisa ga abin da suke aikatãwa ga mũminai, sunã halarce."
+    },
+    {
+      "resource_id": 32,
+      "text": "Kuma ba su tuhumce su ba, fãce kawai domin sun yi ĩmãni da Allah Mabuwãyi, wanda ake gõdewa."
+    },
+    {
+      "resource_id": 32,
+      "text": "Wanda Yake shi ne da mulkin sammai da ƙasa, kuma Allah a kan kõme halarce Yake."
+    },
+    {
+      "resource_id": 32,
+      "text": "Lalle ne waɗanda suka fitini mũminai maza da mũminai mãta, sa'an nan ba su tũba ba to, sunã da azãbar Jahannama, kuma sunã da azãbar gõbara."
+    },
+    {
+      "resource_id": 32,
+      "text": "Lalle ne waɗanda suka yi ĩmãni, kuma suka aikata ayyukan ƙwarai, sunã da gidãjen Aljanna, ƙoramu na gudãna daga ƙarƙashin gidãjen. Wancan abu fa shi ne rabo babba."
+    },
+    {
+      "resource_id": 32,
+      "text": "Lalle ne damƙar Ubangijinka mai tsanani ce ƙwarai."
+    },
+    {
+      "resource_id": 32,
+      "text": "Lalle ne Shĩ, Shi ne Mai ƙãga halitta, kuma Ya mayar da ita (bãyan mutuwa)."
+    },
+    {
+      "resource_id": 32,
+      "text": "Kuma Shi ne Mai gãfara, Mai bayyana sõyayya."
+    },
+    { "resource_id": 32, "text": "Mai Al'arshi mai girma" },
+    { "resource_id": 32, "text": "Mai aikatãwa ga abin da Yake nufi." },
+    { "resource_id": 32, "text": "Ko lãbãrin rundanõni yã zo maka." },
+    { "resource_id": 32, "text": "Fir'auna da samũdãwa?" },
+    {
+      "resource_id": 32,
+      "text": "Ã'aha! waɗanda suka kãfirta sunã cikin ƙaryatãwa."
+    },
+    {
+      "resource_id": 32,
+      "text": "Alhãli, Allah daga bãyansu, Mai kẽwaye su ne (da saninSa)."
+    },
+    { "resource_id": 32, "text": "Ã'aha! Shi Alƙur'ãni ne mai girma." },
+    { "resource_id": 32, "text": "A cikin Allo tsararre." }
+  ],
+  "meta": {
+    "translation_name": "Hausa Translation(Abubakar Gumi)",
+    "author_name": "Abubakar Mahmoud Gumi",
+    "filters": { "resource_id": 32, "chapter_number": "85" }
+  }
+}

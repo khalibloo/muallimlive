@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 43, "text": "Acaso, não confortamos o teu peito," },
+    { "resource_id": 43, "text": "E aliviamos o teu fardo," },
+    { "resource_id": 43, "text": "Que feria as tuas costas," },
+    { "resource_id": 43, "text": "E enaltecemos a tua reputação?" },
+    {
+      "resource_id": 43,
+      "text": "Em verdade, com a adversidade está a facilidade!"
+    },
+    {
+      "resource_id": 43,
+      "text": "Certamente, com a adversidade está a facilidade!"
+    },
+    {
+      "resource_id": 43,
+      "text": "Assim, pois, quando estiveres livre (dos teus afazeres), continua a prédica,"
+    },
+    { "resource_id": 43, "text": "E volta para o teu Senhor (toda) a atenção." }
+  ],
+  "meta": {
+    "translation_name": "Portuguese Translation( Samir )",
+    "author_name": "Samir El-Hayek",
+    "filters": { "resource_id": 43, "chapter_number": "94" }
+  }
+}

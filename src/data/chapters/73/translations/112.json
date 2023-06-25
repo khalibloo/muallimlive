@@ -1,0 +1,77 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Ey örtüsüne bürünen!" },
+    { "resource_id": 112, "text": "Gece kalk, ancak birazı dışında." },
+    { "resource_id": 112, "text": "Gece yarısında veya biraz azalt." },
+    {
+      "resource_id": 112,
+      "text": "Veya onun üzerine artır ve Kur'an'ı güzelce tertil ile açıkça oku."
+    },
+    { "resource_id": 112, "text": "Çünkü biz sana ağır bir söz vahyedeceğiz." },
+    {
+      "resource_id": 112,
+      "text": "Gece (uykudan) kalkışı (kalp için) daha etkili ve okuyuş için daha açıktır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Gündüz ise, senin için uzun bir meşguliyet vardır."
+    },
+    {
+      "resource_id": 112,
+      "text": "Rabbinin ismini zikret ve (ibadet ederken) her şeyi bırakıp yalnız ona  yönel."
+    },
+    {
+      "resource_id": 112,
+      "text": "O, doğunun da batının da Rabbidir. O’ndan başka (hak) ilah yoktur. Öyleyse O’nu vekil edin."
+    },
+    {
+      "resource_id": 112,
+      "text": "Onların söylediklerine sabret ve yanlarından güzellikle ayrıl."
+    },
+    {
+      "resource_id": 112,
+      "text": "Varlıklı olup da yalanlayanı bana bırak Onlara biraz süre tanı."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bizim yanımızda ağır boyunduruklar ve cehennem var."
+    },
+    {
+      "resource_id": 112,
+      "text": "Boğazı tıkayan bir yiyecek ve acı veren bir azap!"
+    },
+    {
+      "resource_id": 112,
+      "text": "O gün, yeryüzü ve dağlar yerinden oynar ve dağlar akıp giden kum yığınları haline döner."
+    },
+    {
+      "resource_id": 112,
+      "text": "Biz, Firavun’a bir rasûl gönderdiğimiz gibi size de üzerinize şahit olacak bir rasûl gönderdik."
+    },
+    {
+      "resource_id": 112,
+      "text": "Firavun elçiye karşı geldi de onu çok şiddetli bir şekilde yakaladık."
+    },
+    {
+      "resource_id": 112,
+      "text": "Eğer küfrederseniz, çocukların saçlarını ağartan o günden nasıl korunabilirsiniz?"
+    },
+    {
+      "resource_id": 112,
+      "text": "Gökyüzü bile onunla (o günün şiddetinden dolayı) yarılacaktır. Onun vaadi mutlaka yerine gelir."
+    },
+    {
+      "resource_id": 112,
+      "text": "Bu bir öğüttür. Dileyen Rabbine doğru yol tutar."
+    },
+    {
+      "resource_id": 112,
+      "text": "Şüphesiz Rabbin biliyor ki gerçekten sen, gecenin üçte ikisinden daha azı ve (bazen) yarısı ve (bazen de) üçte biri kadar (namaz için) kalkıyorsun, beraberinde bulunanlardan (ashâbından) bir topluluk ta (böyle yapıyor). Geceyi ve gündüzü Allah takdir eder. O sizin, bunu sayamayacağınızı (buna güç yetiremeyeceğinizi) bildiği için sizi bağışladı. Öyleyse Kur’an’dan (bildiğiniz) kolayınıza geleni okuyun İçinizden hasta olacakları, bir kısmınızın yeryüzünde dolaşıp, Allah’ın rızkını arayacağını, diğerlerinin Allah yolunda savaşacağını da bilmektedir. Öyleyse ondan kolayınıza geleni okuyun, namazı ikame edin ve zekâtı verin ve Allah’a güzel bir borç (ile borç) verin. Kendiniz için hayır olarak (dünyada) ne sunarsanız, onu Allah katında daha iyi, daha büyük bir mükâfat ile (karşılık verilmiş) bulursunuz. Allah’tan bağışlanma dileyin. Şüphesiz Allah, çok bağışlayıcıdır, çok merhametlidir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "73" }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 206,
+      "text": "Those who disbelieve from the People of the Book and the polytheists were not going to desist [from disbelief] until there came to them clear proof,"
+    },
+    {
+      "resource_id": 206,
+      "text": "a messenger from Allah, reciting pure pages"
+    },
+    { "resource_id": 206, "text": "containing upright commandments." },
+    {
+      "resource_id": 206,
+      "text": "Yet those who were given the Scripture did not disagree except after the clear proof came to them,"
+    },
+    {
+      "resource_id": 206,
+      "text": "although they were commanded only to worship Allah with sincere devotion to Him, being inclined to true faith, and to establish prayer and give zakah; that is the true religion."
+    },
+    {
+      "resource_id": 206,
+      "text": "Those who disbelieve from the People of the Book and the polytheists will be in the fire of Hell, abiding therein forever. It is they who are the worst of creatures."
+    },
+    {
+      "resource_id": 206,
+      "text": "As for those who believe and do righteous deeds – it is they who are the best of creatures."
+    },
+    {
+      "resource_id": 206,
+      "text": "Their reward with their Lord is Gardens of Eternity under which rivers flow, abiding therein forever. Allah is pleased with them and they are pleased with Him. This is for those who fear their Lord."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "98" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Que les mains de `Abû Lahab, l’oncle paternel du Prophète, soient perdues pour ses agissements, puisqu’il persécutait le Prophète, et qu’il soit déçu."
+    },
+    {
+      "resource_id": 173,
+      "text": "En quoi sa fortune et sa progéniture lui ont-été utiles? Ils n’ont pas éloigné de lui le châtiment ni ne lui ont attiré la miséricorde."
+    },
+    {
+      "resource_id": 173,
+      "text": "Le Jour de la Résurrection, il sera introduit dans un Feu qui flambe dont il endurera la chaleur."
+    },
+    {
+      "resource_id": 173,
+      "text": "Son épouse `Umm Jamîl, qui persécutait le Prophète en jetant des épines sur son chemin, y sera également introduite."
+    },
+    {
+      "resource_id": 173,
+      "text": "Elle aura à son cou une corde solidement tressée qui servira à la traîner vers le Feu."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "111" }
+  }
+}

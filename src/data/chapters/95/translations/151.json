@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 151,
+      "text": "قسم انجیر کی اور زیتون کی <sup foot_note=88855>1</sup>"
+    },
+    { "resource_id": 151, "text": "اور طور سینین کی" },
+    {
+      "resource_id": 151,
+      "text": "اور اُس شہر امن والے کی <sup foot_note=88856>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "ہم نے بنایا آدمی خوب سے اندازے پر <sup foot_note=88857>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "پھر پھینک دیا اُسکو نیچوں سے نیچے <sup foot_note=88858>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "مگر جو یقین لائے اور عمل کئے اچھے سو اُنکے لئے ثواب ہے بے انتہا <sup foot_note=88859>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "پھر تو اُسکے پیچھے کیوں جھٹلائے بدلا ملنے کو <sup foot_note=88860>1</sup>"
+    },
+    {
+      "resource_id": 151,
+      "text": "کیا نہیں ہے اللہ سب حاکموں سے بڑا حاکم <sup foot_note=88861>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+    "author_name": "Shaykh al-Hind Mahmud al-Hasan",
+    "filters": { "resource_id": 151, "chapter_number": "95" }
+  }
+}

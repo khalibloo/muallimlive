@@ -1,0 +1,31 @@
+{
+  "translations": [
+    {
+      "resource_id": 199,
+      "text": "(Empiezo)<sup foot_note=150145>1</sup> con el nombre de Al-lah<sup foot_note=150146>2</sup>, el Clemente, el Misericordioso<sup foot_note=150147>3</sup>."
+    },
+    {
+      "resource_id": 199,
+      "text": "¡Alabado sea Al-lah, Señor de toda la creación!,"
+    },
+    { "resource_id": 199, "text": "el Clemente, el Misericordioso," },
+    {
+      "resource_id": 199,
+      "text": "Soberano del Día del Juicio Final<sup foot_note=150148>1</sup>."
+    },
+    {
+      "resource_id": 199,
+      "text": "Solo a Ti adoramos y solo a Ti pedimos ayuda."
+    },
+    { "resource_id": 199, "text": "Guíanos por el camino recto," },
+    {
+      "resource_id": 199,
+      "text": "El camino de quienes has agraciado, no el de quienes han incurrido en Tu ira ni el de quienes se han extraviado (a pesar de conocer la verdad)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Noor International Center",
+    "author_name": "Noor International Center",
+    "filters": { "resource_id": 199, "chapter_number": "1" }
+  }
+}

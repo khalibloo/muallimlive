@@ -1,0 +1,17 @@
+{
+  "translations": [
+    {
+      "resource_id": 234,
+      "text": "کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا"
+    },
+    { "resource_id": 234, "text": "کیا ان کا داؤں غلط نہیں کیا؟ (گیا)" },
+    { "resource_id": 234, "text": "اور ان پر جھلڑ کے جھلڑ جانور بھیجے" },
+    { "resource_id": 234, "text": "جو ان پر کھنگر کی پتھریاں پھینکتے تھے" },
+    { "resource_id": 234, "text": "تو ان کو ایسا کر دیا جیسے کھایا ہوا بھس" }
+  ],
+  "meta": {
+    "translation_name": "Fatah Muhammad Jalandhari",
+    "author_name": "Fatah Muhammad Jalandhari",
+    "filters": { "resource_id": 234, "chapter_number": "105" }
+  }
+}

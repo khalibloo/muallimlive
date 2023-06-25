@@ -1,0 +1,689 @@
+{
+  "translations": [
+    {
+      "resource_id": 23,
+      "text": "And olsun (Rəbbinə ibadət üçün səmada) səf-səf duranlara (mələklərə);"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Buludları) qovduqca qovanlara (yaxud şeytanların pis əməllərinə mane olanlara, insanlara günah işlər görməyi qadağan edənlərə)"
+    },
+    { "resource_id": 23, "text": "Və Qur’an oxuyanlara!" },
+    { "resource_id": 23, "text": "Həqiqətən, sizin Allahınız birdir!" },
+    {
+      "resource_id": 23,
+      "text": "O, göylərin, yerin və onların arasında olanların (bütün məxluqatın) Rəbbidir. Məşriqlərin (şərqin və qərbin – günəşin, ayın və ulduzların doğub batdığı yerlərin) də Rəbbi Odur."
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz (sizə) ən yaxın olan göy üzünü (dünya səmasını) ulduzlarla bəzədik. (Günəş, ay və ulduzlar başqa-başqa göylərdə olduqları halda, siz onların hamısını özünüzlə müqayisədə ən yaxın bir yerdə, sanki başınızın üstündə görürsünüz)."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Biz həm də göyü) itaətdən çıxmış hər bir şeytandan qoruduq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar ali bəzmə (yuxarı aləmə, mələklər aləminin söhbətlərinə) qulaq asa bilməz və hər tərəfdən (axan ulduzlar vasitəsilə) qovulub atılar."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Səmadan) kənar edilərlər. Onları daimi bir əzab göyləyir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Ancaq (şeytanlar içərisində mələklərin söhbətlərindən bir sözü, bir xəbəri) çırpışdıran (oğrun-oğrun öyrənən) olsa, onu da dərhal yandırıb-yaxan bir ulduz (hər şeyi dəlib keçən bir mə’şəl) tə’qib edər."
+    },
+    {
+      "resource_id": 23,
+      "text": "İndi (ya Peyğəmbər, bu müşriklərdən) soruş: onları yaratmaq çətindir, yoxsa Bizim (başqa) yaratdıqlarımızı? [Və ya: xilqətcə onlar güclüdürlər, yoxsa Bizim (başqa) yaratdıqlarımız?] Axı Biz onları (insanların babası Adəmi) yapışqan (kimi) bir palçıqdan yaratdıq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Bəli, sən onlara (müşriklərin Allahın qüdrət əlamətlərini gördükləri halda qiyamətə inanmamalarına) təəcüblənirsən, onlar isə (sənin bu inamına) istehza edirlər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlara (Qur’anla Allahın dəlilləri ilə) öyüd-nəsihət verildikdə düşünüb ibrət almazlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Bir mö’cüzə gördükdə isə ona istehza edərlər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Və belə deyərlər: “Bu ancaq açıq-aşkar bir sehrdir."
+    },
+    {
+      "resource_id": 23,
+      "text": "Məgər biz öldükdən, torpaq və sürsümük olduqdan sonra dirildiləcəyikmi?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Eləcə də (bizdən) əvvəlki atalarımız (dirildiləcəklərmi)?!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) De: “Bəli, özü də zəlil (xar) olaraq (dirildiləcəksiniz)."
+    },
+    {
+      "resource_id": 23,
+      "text": "O yalnız dəhşətli bir səsdən (İsrafilin suru ikinci dəfə üfürməsindən) ibarətdir. Onlar dərhal (dirilib başlarına gətirilən müsibətlərə) baxacaqlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Və deyəcəklər: “Vay halımıza! Bu, haqq-hesab (cəza) günüdür!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Mələklər isə onlara belə deyəcəklər): “Bu (dünyada) yalan hesab etdiyiniz (haqq ilə batili, mö’minlə kafiri) ayırd etmə günüdür!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Allah mələklərə belə buyuracaqdır: ) “Yığın bir yerə zülm (küfr) edənləri, onların həmtaylarını və ibadət etdiklərini -"
+    },
+    {
+      "resource_id": 23,
+      "text": "Allahdan qeyri! Onlara Cəhənnəm yolunu göstərin!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onları tutub saxlayın, çünki sorğu-sual olunacaqlar!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Mələklər istehza ilə onlara deyəcəklər: ) “Sizə nə olub ki, (bu gün dünyadakı kimi) bir-birinizə kömək edə bilmirsiniz?”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Bəli, onlar bu gün (Allahın əmrinə) təslim olmuşlar!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların bir qismi (tabe olanlar) digəri (öz başçıları) ilə çənə-boğaz olmağa başlayacaq."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Tabe olanlar öz başçılarına) deyəcəklər: “Siz bizim yanımıza (özünüzün haqlı olduğunuz barədə) and-amanla (bizim bərəkətli və uğurlu saydığımız sağ tərəfdən) gəlirdiniz. (Əslində isə bizi haqq yoldan azdırmısınız)”."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Başçıları) deyəcəklər: “Xeyr, siz (Allahın vəhdaniyyətinə) inanmırdınız."
+    },
+    {
+      "resource_id": 23,
+      "text": "Və bizim sizin üzərinizdə heç bir hökmümüz də yox idi. Xeyr, siz (özünüz) azğın (günah etməkdə həddi aşmış) bir qövm idiniz."
+    },
+    {
+      "resource_id": 23,
+      "text": "Buna görə də Rəbbimizin sözü (əzab və’dəsi) bizim barəmizdə gerçəkləşdi. Biz mütləq (əzabı) dadacağıq!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz sizi yoldan çıxartdıq, çünki biz özümüz yoldan çıxmış kimsələr idik!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "O gün hamısı əzaba (cəhənnəm oduna yanmağa) şərik olacaqlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Biz günahkarlarla belə rəftar edirik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlara: “Allahdan başqa heç bir tanrı yoxdur!” – deyildiyi zaman təkəbbür göstərirdilər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Və: Biz heç divanə bir şairdən ötrü tanrılarımızı tərk edərikmi?!” – deyirdilər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Xeyr, o, haqla (Qur’anla) gəldi və (özündən əvvəlki) peyğəmbərləri təsdiq etdi."
+    },
+    {
+      "resource_id": 23,
+      "text": "Siz (müşriklər) şiddətli əzabı mütləq dadacaqsınız!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Siz ancaq etdiyiniz əməllərin cəzasını alacaqsınız."
+    },
+    {
+      "resource_id": 23,
+      "text": "Allahın müxlis bəndələri isə müstəsnadırlar (onlara cəza verilməyəcəkdir)."
+    },
+    { "resource_id": 23, "text": "Məhz onlar üçün mə’lum bir ruzi vardır." },
+    {
+      "resource_id": 23,
+      "text": "(Onlar üçün) növbənöv meyvələr vardır. Onlar hörmətə (şərəfə) nail olacaqlar –"
+    },
+    { "resource_id": 23, "text": "Nəim cənnətlərində." },
+    {
+      "resource_id": 23,
+      "text": "Onlar taxtlar üstündə bir-biri ilə üzbəüz əyləşəcəklər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar üçün (cənnət saqiləri tərəfindən adamı kefləndirməyən, behiştdə çay kimi axan) məin (şərab) dolu piyalələr dolandırılacaqdır."
+    },
+    {
+      "resource_id": 23,
+      "text": "Ağappaq, özü də içənlərə ləzzət verən (bir məin)."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onun içində (dünyadakı şərabdan fərqli olaraq) ağlı başdan çıxaran (başağrısı, süstlük verən) heç bir şey yoxdur. Onlar ondan məst də olmazlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların yanında gözəl (irigözlü), baxışları (yalnız ərlərinə) dikilmiş zövcələr olacaqdır."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar, sanki örtülü (bağlı, heç bir əl dəyməmiş, qabığı içində təzə-təzə qalmış, ağappaq) yumurtadırlar (yaxud sədəf içində gizlənmiş incidirlər)."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar bir-biri ilə (dünyada gördükləri barədə) sorğu-suala (söz-söhbətə) başlayacaqlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlardan biri belə deyəcək: “Mənim bir yoldaşım var idi."
+    },
+    {
+      "resource_id": 23,
+      "text": "O deyirdi: “Sən, doğrudan da, inanmırsan ki,"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz öldükdən, torpaq və sür-sümük olduqdan sonra (dirildilib) sorğu-sual olunacağıq (və əməllərimizə görə cəzalandırılacağıq)?”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Sonra həmin şəxs Cənnətdəki yoldaşlarına) deyəcək: “Siz (indi onun nə halda olduğunu) bilirsinizmi?” (Onlar: “Xeyr”, - deyə cavab verəcəklər)."
+    },
+    {
+      "resource_id": 23,
+      "text": "O özü baxıb onu (yoldaşını) Cəhənnəmin ortasında görəcək"
+    },
+    {
+      "resource_id": 23,
+      "text": "Və (ona üz tutub) deyəcəkdir: “Allaha and olsun ki, sən az qala məni (yoldan çıxardıb) məhv edəcəkdin!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Əgər Rəbbimin lütfü olmasaydı, mən də (Cəhənnəmə) gətirilənlərdən olardım!"
+    },
+    { "resource_id": 23, "text": "Biz artıq ölməyəcəyik, elə deyilmi?" },
+    {
+      "resource_id": 23,
+      "text": "(Dünyadakı) ilk ölümümüz istisna olmaqla! Biz, əzad da görməyəcəyik!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, bu, böyük qurtuluşdur (uğurdur)!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Qoy (dünyada) çalışanlar bunun üçün (belə bir əbədi səadət uğrunda) çalışsınlar!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ey insanlar!) Qonaq olmağa (ziyafət üçün) bu (Cənnət) yaxşıdır, yoxsa (Cəhənnəmdəki pis qorxulu, meyvəsi zəhər kimi acı) zəqqum ağacı?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz onu zalımlar (cəhənnəm istisində heç bir ağac bitməz deyən kafirlər) üçün bir bəla (dərd) etdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "O elə bir ağacdır ki, Cəhənnəmin lap dibindən (cəhənnəm odunun içindən) çıxar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onun meyvəsi şeytanların başı kimidir (olduqca çirkin və əcaibdir)."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar (cəhənnəm əhli) ondan yeyəcək və qarınlarını onunla dolduracaqlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Sonra onlar üçün (içməyə) qaynar su ilə qatışmış irin vardır."
+    },
+    {
+      "resource_id": 23,
+      "text": "Daha sonra onların qayıdacaqları yer mütləq yenə Cəhənnəmdir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Çünki onlar atalarını (dünyada haqq yoldan) azmış gördülər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Bununla belə yüyürə-yüyürə onların ardınca düşüb getdilər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, onlardan (Məkkə müşriklərindən) əvvəlkilərin (keçmiş ümmətlərin) əksəriyyəti (haqq yoldan) azmışdı."
+    },
+    {
+      "resource_id": 23,
+      "text": "And olsun ki, Biz onlara (Allahın əzabı ilə) qorxudan peyğəmbərlər göndərmişdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Rəsulum!) Bir gör o qorxudulanların (lakin düz yola gəlməyənlərin) axırı necə oldu!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Yalnız Allahın sadiq bəndələrindən başqa! (Onlara heç bir əzab verilmədi)."
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Nuh (öz tayfasının məhv edilməsi barədə) Bizə dua etmiş, onun duası necə də gözəl qəbul olunmuşdu!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz (Nuh qövmünü suda boğub) onu və ailəsini böyük fəlakətdən qurtardıq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Məhz onun nəslini (qiyamətə qədər yer üzündə) baqi etdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Sonralar gələnlər içərisində onun üçün (yaxşı ad, gözəl xatirə) qoyduq."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Onu belə yad edirlər: ) “Bütün aləmlər (bəşər əhli) içərisində Nuha salam olsun!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Biz yaxşı əməl sahiblərini belə mükafatlandırırıq!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Şübhəsiz ki, o Bizim mö’min bəndələrimizdən idi!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Sonra başqalarını (Nuha iman gətirməyənləri) suda boğduq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, İbrahim də onun yolu ilə gedənlərdən (Nuhun firqəsindən) idi."
+    },
+    {
+      "resource_id": 23,
+      "text": "O zaman o öz Rəbbinin hüzuruna tərtəmiz bir qəlblə gəlmişdi."
+    },
+    {
+      "resource_id": 23,
+      "text": "Həmin vaxt o, atasına və tayfasına belə demişdi: “Siz nəyə ibadət edirsiniz?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Allahı qoyub yalançı tanrılarımı istəyirsiniz?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Aləmlərin Rəbbi barəsində zənniniz nədir?” (Onun ruzisini yeyib bütlərə tapınırsınız? Məgər bunun cəzasını çəkməyəcəksiniz?!)"
+    },
+    { "resource_id": 23, "text": "(İbrahim) ulduzlara bir nəzər saldı." },
+    {
+      "resource_id": 23,
+      "text": "Və (ətrafındakıları özündən uzaqlaşdıqmaq məqsədilə) dedi: “Mən xəstəyəm!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(İbrahimin yanındakılar xəstəliyin onlara yoluxmasından qorxaraq, həm də o gün qeyd edəcəkləri bayrama tələsərək) ondan üz çevirib getdilər."
+    },
+    {
+      "resource_id": 23,
+      "text": "(İbrahim) xəlvətcə onların tanrılarının yanına gedib (istehza ilə) dedi: “Məgər (yanınızda olan bu təamları) yeməyəcəksiniz?"
+    },
+    { "resource_id": 23, "text": "Sizə nə olub ki, danışmırsınız?”" },
+    {
+      "resource_id": 23,
+      "text": "Sonra bütlərin üstünə yüyürüb sağ əli ilə onlara möhkəm bir zərbə endirdi."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Bundan xəbər tutan tayfası) yüyürə-yüyürə onun yanına gəldi."
+    },
+    {
+      "resource_id": 23,
+      "text": "(İbrahim onlara) dedi: “Siz özünüz yonub düzəltdiyiniz şeylərəmi ibadət edirsiniz?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Halbuki sizə də, sizin düzəltdiklərinizi də Allah yaratmışdır!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar dedilər: “Bunun (İbrahim) üçün bir bina tikin, (içərisini odunla doldurub) özünü də oda atın!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar onun üçün belə bir hiyə qurmaq istədilər, Biz isə onları çox səfil (zəlil) bir vəziyyətə saldıq. (Hiylələri baş tutmadı, İbrahimə heç bir şey edə bilmədilər)."
+    },
+    {
+      "resource_id": 23,
+      "text": "(İbrahim oddan xilas olduqdan sonra) dedi: “Mən Rəbbimə doğru (Allahın mənə buyurduğu yerə - Şama tərəf) gedirəm. O mənə doğru yolu mütləq göstərəcəkdir!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(İbrahim müqəddəs torpağa yetişdikdən sonra dua edib) dedi: “Ey Rəbbim! Mənə salehlərdən olan (bir övlad) bəxş et!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz də ona həlim xasiyyətli bir oğlan uşağı (İsmail) ilə müjdə verdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "O, yüyürüb qaçmaq (atasına kömək edə bilmək) çağına (on üç yaşına) çatdıqda (İbrahim) dedi: “Oğlum! Yuxuda gördüm ki, səni qurban kəsirəm. Bax gör (bu barədə) nə fikirləşirsən!” O dedi: “Atacan! Sənə nə əmr olunursa, onu da et. İnşallah, mənim səbirlilərdən olduğumu görəcəksən!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların hər ikisi (Allahın əmrinə) təslim olduğu və (İbrahim İsmaili qurban kəsmək üçün) üzüstə yerə yıxdığı zaman"
+    },
+    { "resource_id": 23, "text": "Biz ona belə xitab etdik: “Ya İbrahim!" },
+    {
+      "resource_id": 23,
+      "text": "Artıq sən rö’yanın düzgünlüyünü (Allah tərəfindən olduğunu) təsdiq etdin!” (Sənə yuxuda nə əmr olunmuşdusa, onu yerinə yetirdin. Allah sənə lütf edərək oğlunun yerinə bir qoç kəsməyi buyurur). Biz yaxşı iş görənləri belə mükafatlandırırıq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Şübhəsiz ki, bu, açıq-aydın bir imtahan idi."
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz ona böyük bir qurbanlıq (Habilin qurbanlıq qoçunu) əvəz verdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Sonradan gələnlər arasında onun üçün (yaxşı ad, gözəl xatirə) qoyduq."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Onu belə yad edirlər: ) “İbrahimə salam olsun!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Biz yaxşı əməl sahiblərini belə mükafatlandırırıq!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Şübhəsiz ki, o Bizim mö’min bəndələrimizdən idi!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Ona salehlərdən olan İshaqın peyğəmbər olacağı ilə müjdə verdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz ona İshaqa (peyğəmbərliklə, övlad çoxluğu ilə) bərəkət verdik. Onların hər ikisinin nəslindən yaxşı işlər görən də var, açıq-aşkar özünə zülm edən də!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz Musa və Haruna da ne’mət (peyğəmbərlik) bəxş etdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların hər ikisini böyük fəlakətdən (Fir’onun əsarətindən, yaxud suda boğulmaqdan) qurtardıq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlara yardım etdik və onlar (düşmənə) qalib gəldilər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların hər ikisinə (hökmləri) açıq-aydın o kitabı (Tövratı) verdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onların hər ikisini doğru yola müvəffəq etdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Sonradan gələnlər içərisində onların hər ikisi üçün (yaxşı ad, gözəl xatirə) qoyduq."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Onları belə yad edirlər: ) “Musaya və Haruna salam olsun!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Biz yaxşı əməl sahiblərini belə mükafatlandırırıq!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Şübhəsiz ki, onların hər ikisi Bizim mö’min bəndələrimizdən idi."
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, İlyas da (Bizim tərəfimizdən göndərilmiş) peyğəmbərlərdəndir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Bir zaman o öz tayfasına belə demişdi: “Məgər (bütlərə ibadət etməklə) Allahdan qorxmursunuz?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Məgər siz yaradanların ən yaxşısını (Allahı) qoyub Bə’lə (Bə’l adlı bütə) ibadət edirsiniz?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həm sizin Rəbbiniz, həm də (sizdən) əvvəlki atalarınızın (babalarınızın) Rəbbi olan Allahımı (tərk edirsiniz)?”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Lakin onlar onu təkzib etdilər, buna görə də (qiyamət günü Cəhənnəmə) gətiriləcəklər."
+    },
+    { "resource_id": 23, "text": "Yalnız Allahın müxlis bəndələrindən başqa!" },
+    {
+      "resource_id": 23,
+      "text": "Sonradan gələnlər arasında onun üçün (yaxşı ad, gözəl xatirə) qoyduq."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Onu belə yad edirlər: ) “İlyasinə (İlyasa) salam olsun!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Biz yaxşı əməl sahiblərini belə mükafatlandırırıq!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Şübhəsiz ki, o Bizim mö’min bəndələrimizdən idi!"
+    },
+    { "resource_id": 23, "text": "Həqiqətən, Lut da peyğəmbərlərdəndir!" },
+    {
+      "resource_id": 23,
+      "text": "(Ya Rəsulum!) Yadına sal ki, Biz o vaxt (Lut tayfasına müsibət üz verdiyi zaman) onu və bütün ailəsini xilas etdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Yalnız əzab içində qalanlar arasında olan qoca qarıdan (Lutun övrətindən) başqa!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Sonra isə başqalarını (iman gətirməyənləri) yox etdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Siz (Şama getdiyiniz zaman) səhər vaxtı onların yurdundan keçirsiniz;"
+    },
+    {
+      "resource_id": 23,
+      "text": "Eləcə də axşam vaxtı. Məgər bir düşünüb-daşınmırsınız?"
+    },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, Yunis də (Bizim təfəfimizdən göndərilmiş) peyğəmbərlərdəndir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) Yadına sal ki, bir zaman o, (qövmünün küfrü üzündən yük və adamla) dolu bir gəmiyə qaçmışdı."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Gəmidə olanlar) püşk atmış və (püşk ona düşdüyü üçün) məğlub edilənlərdən olmuşdu. (Yunis gəmiyə mindiyi zaman gəmi yerindən tərpənməmiş, buna görə də sərnişinlər: “Yəqin ki, içərimizdə ağasından qaçmış kölə vardır”, - demişdilər. Kölənin kim olduğunu bilmək üçün püşk atılmış və o, Yunisə düşmüşdü. Yunis özünü dənizə atmağa məcbur olmuşdu)."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Yunis Allahın izni olmadan qövmünü tərk edib getdiyinə görə) özünü qınayarkən (dənizə atılarkən) balıq onu udmuşdu."
+    },
+    {
+      "resource_id": 23,
+      "text": "Əgər o, (Allahı) çox təqdis edənlərdən (namaz qılanlardan) olmasaydı,"
+    },
+    {
+      "resource_id": 23,
+      "text": "Yəqin ki, balığın qarnında qiyamət gününə qədər qalardı."
+    },
+    {
+      "resource_id": 23,
+      "text": "Nəhayət, o, xəstə olduğu halda onu boş bir yerə (sahilə) atdıq."
+    },
+    {
+      "resource_id": 23,
+      "text": "Və (başı) üstündə (ona kölgə salmaq üçün) iri yarpaqlı bir ağac (yaxud qabaq tağı) bitirdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz onu yüz min nəfərə və daha çox kimsəyə peyğəmbər göndərdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "Nəhayət, onlar ona (Yunisə) iman gətirdilər və Biz də onlara müəyyən vaxtadək (ömürlərinin axırına kimi) gün-güzəran verdik."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər! İndi o müşriklərdən) soruş: “Deməli, qızlar sənin Rəbbinin, oğlanlar isə onların özlərinindir, eləmi?”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Yoxsa Biz mələkləri dişi yaratmışıq və onlar da (buna) şahid olublar?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Xəbərin olsun ki, onlar öz yalanları üzündən mütləq belə deyəcəklər:"
+    },
+    {
+      "resource_id": 23,
+      "text": "“Allah övlad törətmişdir (mələklər Onun qızlarıdır)”. Onlar, həqiqətən, yalançıdırlar!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Məgər Allah (mələkləri özünə övlad götürməklə) qızları oğlanlardan üstünmü tutmuşdur?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Sizə nə olmuşdur, necə mühakimə yürüdürsünüz?"
+    },
+    { "resource_id": 23, "text": "Heç düşünürsünüz?!" },
+    {
+      "resource_id": 23,
+      "text": "Yoxsa sizin açıq-aşkar bir dəliliniz vardır?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Əgər doğru danışırsınızsa, kitabınızı gətirin!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Müşriklərə həm də özlərindən) Onunla (Allahla) cinlər (pərilər, yaxud mələklər) arasında bir qohumluq əlaqəsi icad etdilər. Həqiqətən, cinlər onların (bu sözü deyənlərin qiyamət günü Cəhənnəmə) gətiriləcəyini bilirlər."
+    },
+    {
+      "resource_id": 23,
+      "text": "Allah (müşriklərin) Ona aid etdikləri sifətlərdən təmamilə uzaqdır!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Allahın müslis (mö’min) bəndələri isə istisnadır."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ey Müşriklər!) Nə siz, nə də ibadət etdikləriniz"
+    },
+    {
+      "resource_id": 23,
+      "text": "Heç kəsi tovlayıb yoldan çıxara bilməzsiniz;"
+    },
+    { "resource_id": 23, "text": "Yalnız Cəhənnəmə girəcək kimsədən başqa!" },
+    {
+      "resource_id": 23,
+      "text": "(Cəbrail Peyğəmbər əleyhissəlama belə dedi: ) “Bizdən (mələklərdən) elə birisi yoxdur ki, onun (səmada Allaha ibadət üçün) müəyyən bir yeri olmasın!"
+    },
+    { "resource_id": 23, "text": "Həqiqətən, biz səf-səf dururuq." },
+    {
+      "resource_id": 23,
+      "text": "Və (Allahı) təqdis edib şə’ninə tə’riflər deyirik."
+    },
+    {
+      "resource_id": 23,
+      "text": "(Məkkə müşrikləri) tə’kidlə belə deyirdilər:"
+    },
+    {
+      "resource_id": 23,
+      "text": "“Əgər bizdə əvvəlkilərin kitablarından biri olsa idi,"
+    },
+    {
+      "resource_id": 23,
+      "text": "Biz də mütləq Allahın müxlis bəndələri olardıq!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "Amma onu (Qur’anı) inkar etdilər. Onlar (küfrlərinin aqibətini) mütləq biləcəklər."
+    },
+    {
+      "resource_id": 23,
+      "text": "And olsun ki, peyğəmbər bəndələrimiz haqqında əvvəlcədən (lövhi-məhfuzda) bu sözümüz deyilmişdi:"
+    },
+    { "resource_id": 23, "text": "“Onlar mütləq qalib gələcəklər." },
+    {
+      "resource_id": 23,
+      "text": "Bizim əsgərlərimiz (mö’minlər) labüd olaraq (kafirlərə) zəfər çalacaqlar!”"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) Sən bir müddət (Bədr vuruşuna, yaxud Məkkənin fəthinədək) onlardan üz çevir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Və (kənardan) onlara bax! Onlar mütləq (küfrlərinin aqibətini) görəcəklər!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar əzabımızın tezliklə gəlməsini istəyirlər?"
+    },
+    {
+      "resource_id": 23,
+      "text": "(O əzab) onlara yetişdikdə (evlərində ikən başlarının üstünü aldıqda) qorxudulanların (lakin yola gəlməyənlərin) sabahı necə də pis olacaq!"
+    },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) Sən onlardan bir müddət üz çevir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Və (kənardan) onlara bax! Onlar mütləq (küfrlərinin aqibətini) görəcəklər!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Sənin Rəbbin – yenilməz qüvvət sahibi (mülkündə hər şeyə qalib) olan Rəbbin (müşriklərin) Ona aid etdikləri sifətlərdən tamamilə uzaqdır!"
+    },
+    { "resource_id": 23, "text": "Peyğəmbərlərə salam olsun!" },
+    { "resource_id": 23, "text": "Aləmlərin Rəbbi olan Allaha həmd olsun!" }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "37" }
+  }
+}

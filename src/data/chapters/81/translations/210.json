@@ -1,0 +1,74 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Güneş dürüldüğü zaman." },
+    { "resource_id": 210, "text": "Yıldızlar, saçılıp dağıldığı zaman." },
+    { "resource_id": 210, "text": "Dağlar yürütüldüğü zaman." },
+    { "resource_id": 210, "text": "Gebe develer başıboş bırakıldığı zaman." },
+    {
+      "resource_id": 210,
+      "text": "Vahşi hayvanlar bir araya toplandığı zaman."
+    },
+    { "resource_id": 210, "text": "Denizler tutuşturulduğu zaman." },
+    {
+      "resource_id": 210,
+      "text": "Nefisler/kişiler (benzerleriyle) birleştirildiği zaman."
+    },
+    {
+      "resource_id": 210,
+      "text": "Diri diri (toprağa) gömülen kız çocuğuna sorulduğu zaman."
+    },
+    {
+      "resource_id": 210,
+      "text": "\"Hangi günâhtan dolayı öldürüldü?\" (diye)."
+    },
+    {
+      "resource_id": 210,
+      "text": "Sahifeler (amel defterleri) açıldığı zaman."
+    },
+    { "resource_id": 210, "text": "Gök, sıyrılıp ayrıldığı zaman." },
+    { "resource_id": 210, "text": "Cehennem alevlendirildiği zaman." },
+    { "resource_id": 210, "text": "Ve Cennet yaklaştırıldığı zaman." },
+    {
+      "resource_id": 210,
+      "text": "Her nefis önceden ne hazırladığını bilecektir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır! Yemin ederim gizlenen (yıldızlara)."
+    },
+    {
+      "resource_id": 210,
+      "text": "O akıp akıp yörüngesinde giden ve gizlenenlere."
+    },
+    { "resource_id": 210, "text": "Karardığında geceye." },
+    { "resource_id": 210, "text": "Aydınlanmaya başladığında sabaha." },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz o, çok değerli bir elçinin sözüdür."
+    },
+    {
+      "resource_id": 210,
+      "text": "Kuvvet sahibi; Arşın sahibinin katında itibarlı (bir elçinin)."
+    },
+    { "resource_id": 210, "text": "Kendine itaat edilen, üstelik güvenilir." },
+    { "resource_id": 210, "text": "Arkadaşınız bir mecnun değildir." },
+    { "resource_id": 210, "text": "Onu (Cebrail'i) ufukta apaçık görmüştür." },
+    { "resource_id": 210, "text": "O, gayp hakkında cimri değildir." },
+    { "resource_id": 210, "text": "O, kovulmuş Şeytan'ın sözü de değildir." },
+    { "resource_id": 210, "text": "Öyleyse nereye gidiyorsunuz?" },
+    {
+      "resource_id": 210,
+      "text": "O, yalnızca bütün âlemler için bir öğüttür."
+    },
+    { "resource_id": 210, "text": "Sizden dosdoğru olmak isteyenler için." },
+    {
+      "resource_id": 210,
+      "text": "Alemlerin Rabbi Allah dilemedikçe siz de dileyemezsiniz."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "81" }
+  }
+}

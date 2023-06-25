@@ -1,0 +1,95 @@
+{
+  "translations": [
+    {
+      "resource_id": 774,
+      "text": "Igihe izuba rizazingwazingwa (urumuri rwaryo rukazimira),"
+    },
+    { "resource_id": 774, "text": "N’igihe inyenyeri zizijima," },
+    { "resource_id": 774, "text": "N’igihe imisozi izakurwa mu myanya yayo," },
+    {
+      "resource_id": 774,
+      "text": "N’igihe ingamiya zihaka zizarekwa (ntizitabweho),"
+    },
+    {
+      "resource_id": 774,
+      "text": "N’igihe inyamaswa z’inkanzi zizakoranyirizwa hamwe,"
+    },
+    { "resource_id": 774, "text": "N’igihe inyanja zizaka umuriro," },
+    {
+      "resource_id": 774,
+      "text": "N’igihe roho zizasubizwa mu mibiri yazo (abeza bakajya ukwabo n’ababi bakajya ukwabo)."
+    },
+    {
+      "resource_id": 774,
+      "text": "N’igihe umwana w’umukobwa wahambwe ari muzima azabazwa <sup foot_note=211615>1</sup>,"
+    },
+    { "resource_id": 774, "text": "Icyaha yakoze cyatumye yicwa," },
+    {
+      "resource_id": 774,
+      "text": "N’igihe ibitabo (bikubiyemo ibikorwa byiza n’ibibi bya buri muntu) bizaramburwa (bigakwirakwizwa),"
+    },
+    {
+      "resource_id": 774,
+      "text": "N’igihe ikirere kizakurwaho igishishwa cyacyo (inyenyeri zavuyeho),"
+    },
+    { "resource_id": 774, "text": "N’igihe umuriro wa Jahanamu uzenyegezwa," },
+    { "resource_id": 774, "text": "N’igihe Ijuru rizigizwa hafi," },
+    {
+      "resource_id": 774,
+      "text": "Icyo gihe buri muntu azamenya ibyo yakoze."
+    },
+    {
+      "resource_id": 774,
+      "text": "Bityo, ndahiye inyenyeri zitagaragara ku manywa zikongera kugaragara nijoro,"
+    },
+    { "resource_id": 774, "text": "Zigenda zihuta kandi zikanihisha," },
+    { "resource_id": 774, "text": "Nanarahiye ijoro igihe riguye," },
+    { "resource_id": 774, "text": "N’igitondo igihe gitangaje," },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri (Qur’an) ni ijambo ryazanywe n’Intumwa yubahitse [(Malayika Jibrilu), (riturutse kwa Allah)],"
+    },
+    {
+      "resource_id": 774,
+      "text": "(Iyo ntumwa) ifite imbaraga (n’urwego rwo hejuru) yahawe na nyiri Ar’shi<sup foot_note=211616>1</sup> y’icyubahiro (Allah)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Yumvirwa (n’abamalayika mu ijuru) kandi ikaba yizewe (kwa Allah)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi (yemwe bahakanyi) mugenzi wanyu (Intumwa Muhamadi ibakomokamo) si umusazi."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi rwose yamubonye (Malayika Jibrilu) ari mu kirere gikeye."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi (Intumwa Muhamadi) ntigundira ibyo yahishuriwe (ngo ireke kubyigisha abantu)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi (Qur’an) si ijambo rya Shitani wavumwe."
+    },
+    { "resource_id": 774, "text": "None se muragana he?" },
+    {
+      "resource_id": 774,
+      "text": "Mu by’ukuri iyi (Qur’an) nta kindi iri cyo usibye kuba ari urwibutso ku biremwa (byose)."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kuri wa wundi muri mwe ushaka gukurikira inzira igororotse."
+    },
+    {
+      "resource_id": 774,
+      "text": "Kandi nta cyo mwashaka (ngo kibe) keretse Allah, Nyagasani w’ibiremwa (byose) aramutse agishatse."
+    }
+  ],
+  "meta": {
+    "translation_name": "The Rwanda Muslims Association team",
+    "author_name": "The Rwanda Muslims Association team",
+    "filters": { "resource_id": 774, "chapter_number": "81" }
+  }
+}

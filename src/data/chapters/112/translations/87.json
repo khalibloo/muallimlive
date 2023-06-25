@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "በል «እርሱ አላህ አንድ ነው፡፡" },
+    { "resource_id": 87, "text": "«አላህ (የሁሉ) መጠጊያ ነው፡፡" },
+    { "resource_id": 87, "text": "«አልወለደም፤ አልተወለደምም፡፡" },
+    { "resource_id": 87, "text": "«ለእርሱም አንድም ብጤ የለውም፡፡»" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Ini: \"a yijehliyen!" },
+    { "resource_id": 236, "text": "Ur âabde$ ayen tâabdem." },
+    { "resource_id": 236, "text": "Ayen âabde$, kunwi ur t tâabdem." },
+    { "resource_id": 236, "text": "Nek, ur d âabad n ayen tâabdem," },
+    { "resource_id": 236, "text": "Ayen âabde$, kunwi ur t tâabdem." },
+    { "resource_id": 236, "text": "Nekkini, s ddin inu, kunwi s ddin nnwen\"." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "109" }
+  }
+}

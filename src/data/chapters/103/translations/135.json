@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 135, "text": "سوگند به عصر" },
+    { "resource_id": 135, "text": "که انسان در زیان است." },
+    {
+      "resource_id": 135,
+      "text": "مگر مؤمنان نیکوکاری که یکدیگر را به حق سفارش نموده‌اند و به شکیبایی توصیه کرده‌اند."
+    }
+  ],
+  "meta": {
+    "translation_name": "IslamHouse.com",
+    "author_name": "IslamHouse.com",
+    "filters": { "resource_id": 135, "chapter_number": "103" }
+  }
+}

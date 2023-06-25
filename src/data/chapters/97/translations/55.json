@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 55,
+      "text": "Albatta, Biz U(Qur'on)ni Qadr kechasida tushirdik."
+    },
+    {
+      "resource_id": 55,
+      "text": "Laylatul Qadr qandoq narsa ekanini senga nima bildirdi?"
+    },
+    { "resource_id": 55, "text": "Laylatul Qadr ming oydin yaxshiroqdir." },
+    {
+      "resource_id": 55,
+      "text": "Unda farishtalar va Ruh Robbilari izni bilan barcha ishlar uchun tushadir."
+    },
+    { "resource_id": 55, "text": "U to tong otguncha salom bo`lib turadir." }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodiq Muhammad Yusuf (Latin) ",
+    "author_name": "Muhammad Sodiq Muhammad Yusuf",
+    "filters": { "resource_id": 55, "chapter_number": "97" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "Shin, ka ga wanda ke ƙaryatãwa game da sakamako?"
+    },
+    {
+      "resource_id": 115,
+      "text": "To, wan nan shi ne ke tunkure marãya (daga haƙƙinsa)."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma bã ya kwaaitarwa bisa bãyar da abinci ga matalauci."
+    },
+    { "resource_id": 115, "text": "To, bone yã tabbata ga masallata." },
+    {
+      "resource_id": 115,
+      "text": "Waɗan da suke masu shagala daga sallar su."
+    },
+    { "resource_id": 115, "text": "Waɗan da suke yin riya (ga ayyukansu)" },
+    { "resource_id": 115, "text": "Kuma suna hana taimako." }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "107" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 44,
+      "text": "L-ai văzut pe cel care socoate Legea minciună?"
+    },
+    { "resource_id": 44, "text": "El este cel care izgoneşte orfanul," },
+    { "resource_id": 44, "text": "şi nu lasă să fie hrănit sărmanul." },
+    { "resource_id": 44, "text": "Vai acelor rugători" },
+    { "resource_id": 44, "text": "ce în rugăciunea lor stau nepăsători!" },
+    { "resource_id": 44, "text": "Ei vor să fie cât mai la vedere," },
+    { "resource_id": 44, "text": "însă împiedică ceea ce se cere!" }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "107" }
+  }
+}

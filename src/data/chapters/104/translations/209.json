@@ -1,0 +1,24 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Guai ad ogni ignobile calunniatore," },
+    {
+      "resource_id": 209,
+      "text": "che ha accumulato ricchezze e le ha contate,"
+    },
+    {
+      "resource_id": 209,
+      "text": "e crede in verità che i suoi beni lo renderanno eterno!"
+    },
+    { "resource_id": 209, "text": "No, lui verrà spinto al Rogo." },
+    { "resource_id": 209, "text": "Che ne sai tu del Rogo?" },
+    { "resource_id": 209, "text": "È il fuoco divampante di Allāh," },
+    { "resource_id": 209, "text": "che raggiunge i cuori:" },
+    { "resource_id": 209, "text": "è in verità stretto intorno a loro" },
+    { "resource_id": 209, "text": "in lunghe colonne." }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "translations": [
+    { "resource_id": 31, "text": "Dis : \"Ô vous les infidèles !" },
+    { "resource_id": 31, "text": "Je n’adore pas ce que vous adorez." },
+    {
+      "resource_id": 31,
+      "text": "Et vous n’êtes pas adorateurs de ce que j’adore."
+    },
+    {
+      "resource_id": 31,
+      "text": "Je ne suis pas adorateur de ce que vous adorez."
+    },
+    {
+      "resource_id": 31,
+      "text": "Et vous n’êtes pas adorateurs de ce que j’adore."
+    },
+    {
+      "resource_id": 31,
+      "text": "A vous votre religion, et à moi ma religion.\""
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "109" }
+  }
+}

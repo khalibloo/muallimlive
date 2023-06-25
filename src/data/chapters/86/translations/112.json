@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 112, "text": "Göğe ve Tarık’a andolsun ki." },
+    { "resource_id": 112, "text": "Tarık’ı sana bildiren nedir?" },
+    { "resource_id": 112, "text": "(Karanlığı) Delen yıldızdır." },
+    {
+      "resource_id": 112,
+      "text": "Üzerinde gözetici bulunmayan hiç kimse yoktur."
+    },
+    {
+      "resource_id": 112,
+      "text": "Öyleyse, insan neden yaratıldığına bir baksın."
+    },
+    { "resource_id": 112, "text": "Atılan bir sudan yaratılmıştır." },
+    {
+      "resource_id": 112,
+      "text": "O, bel ile göğüs kemikleri arasından çıkan…"
+    },
+    {
+      "resource_id": 112,
+      "text": "Allah, onu yeniden yaratmaya elbette kadirdir."
+    },
+    { "resource_id": 112, "text": "Sırların açığa çıktığı gün." },
+    {
+      "resource_id": 112,
+      "text": "İnsanın bir gücü ve bir yardımcısı yoktur."
+    },
+    { "resource_id": 112, "text": "Yağmur yağdıran göğe," },
+    { "resource_id": 112, "text": "Çatlayan toprağa andolsun ki," },
+    { "resource_id": 112, "text": "Kesinlikle o ayırdedici bir sözdür." },
+    { "resource_id": 112, "text": "O, şaka değildir." },
+    { "resource_id": 112, "text": "Onlar ise tuzak kurup duruyorlar." },
+    { "resource_id": 112, "text": "Ben de bir tuzak kuruyorum." },
+    {
+      "resource_id": 112,
+      "text": "Kâfirlere mühlet ver, onlara biraz süre tanı!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaban Britch",
+    "author_name": "Shaban Britch",
+    "filters": { "resource_id": 112, "chapter_number": "86" }
+  }
+}

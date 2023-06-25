@@ -1,0 +1,48 @@
+{
+  "translations": [
+    { "resource_id": 823, "text": "By the sun and its rising brightness" },
+    { "resource_id": 823, "text": "and by the moon as it follows it," },
+    { "resource_id": 823, "text": "and by the day as it reveals its glory" },
+    {
+      "resource_id": 823,
+      "text": "and by the night when it draws a veil over it,"
+    },
+    { "resource_id": 823, "text": "by the sky and how He built it" },
+    { "resource_id": 823, "text": "and by the earth and how He spread it," },
+    { "resource_id": 823, "text": "by the soul and how He formed it," },
+    {
+      "resource_id": 823,
+      "text": "then inspired it to understand what was right and wrong for it."
+    },
+    {
+      "resource_id": 823,
+      "text": "He who purifies it will indeed be successful,"
+    },
+    {
+      "resource_id": 823,
+      "text": "and he who corrupts it is sure to fail.<sup foot_note=212986>1</sup>"
+    },
+    {
+      "resource_id": 823,
+      "text": "The Thamud tribe rejected the truth because of their arrogance,"
+    },
+    {
+      "resource_id": 823,
+      "text": "when the most wicked man among them rose up."
+    },
+    {
+      "resource_id": 823,
+      "text": "Then the messenger of God said to them, ‘This is God’s she-camel. Let her drink.’"
+    },
+    {
+      "resource_id": 823,
+      "text": "But they gave him the lie, and hamstrung the she-camel. So their Lord destroyed them for their crime and razed their city to the ground."
+    },
+    { "resource_id": 823, "text": "He did not fear the consequences." }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 823, "chapter_number": "91" }
+  }
+}

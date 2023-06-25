@@ -1,0 +1,26 @@
+{
+  "translations": [
+    { "resource_id": 234, "text": "کھڑ کھڑانے والی" },
+    { "resource_id": 234, "text": "کھڑ کھڑانے والی کیا ہے؟" },
+    { "resource_id": 234, "text": "اور تم کیا جانوں کھڑ کھڑانے والی کیا ہے؟" },
+    {
+      "resource_id": 234,
+      "text": "(وہ قیامت ہے) جس دن لوگ ایسے ہوں گے جیسے بکھرے ہوئے پتنگے"
+    },
+    {
+      "resource_id": 234,
+      "text": "اور پہاڑ ایسے ہو جائیں گے جیسے دھنکی ہوئی رنگ برنگ کی اون"
+    },
+    { "resource_id": 234, "text": "تو جس کے (اعمال کے) وزن بھاری نکلیں گے" },
+    { "resource_id": 234, "text": "وہ دل پسند عیش میں ہو گا" },
+    { "resource_id": 234, "text": "اور جس کے وزن ہلکے نکلیں گے" },
+    { "resource_id": 234, "text": "اس کا مرجع ہاویہ ہے" },
+    { "resource_id": 234, "text": "اور تم کیا سمجھے کہ ہاویہ کیا چیز ہے؟" },
+    { "resource_id": 234, "text": "دہکتی ہوئی آگ ہے" }
+  ],
+  "meta": {
+    "translation_name": "Fatah Muhammad Jalandhari",
+    "author_name": "Fatah Muhammad Jalandhari",
+    "filters": { "resource_id": 234, "chapter_number": "101" }
+  }
+}

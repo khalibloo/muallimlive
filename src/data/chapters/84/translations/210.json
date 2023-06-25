@@ -1,0 +1,76 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Gök yarıldığı zaman." },
+    {
+      "resource_id": 210,
+      "text": "Ve Rabbini dinleyip kendisine yaraşır şekilde boyun eğdiği zaman."
+    },
+    { "resource_id": 210, "text": "Yer uzatılıp düzlendiği zaman." },
+    {
+      "resource_id": 210,
+      "text": "İçinde ne varsa dışarıya bırakıp bütünüyle boşaldığı zaman."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ve Rabbini dinleyip kendisine yaraşır şekilde boyun eğdiği zaman."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ey insan gerçekten sen Rabbine doğru durmadan çalışıp çabalayacaksın, sonunda ona kavuşacaksın."
+    },
+    {
+      "resource_id": 210,
+      "text": "Kitabı sağ eline verilecek kimseye gelince."
+    },
+    { "resource_id": 210, "text": "O kolay bir hesap ile hesaba çekilecek." },
+    { "resource_id": 210, "text": "Ve o ailesine sevinçli dönecektir." },
+    {
+      "resource_id": 210,
+      "text": "Kitabı arkasından verilecek kimseye gelince."
+    },
+    { "resource_id": 210, "text": "Artık o da yok olmayı dileyecektir." },
+    { "resource_id": 210, "text": "Ve alevli ateşi boylayacaktır." },
+    {
+      "resource_id": 210,
+      "text": "Çünkü o, (dünyada iken) ailesi içinde sevinçli idi."
+    },
+    {
+      "resource_id": 210,
+      "text": "Çünkü o, hiçbir zaman (Rabbine) dönmeyeceğini sanırdı."
+    },
+    { "resource_id": 210, "text": "Hayır. Muhakkak ki, Rabbi onu görüyordu." },
+    { "resource_id": 210, "text": "Yemin olsun şafak vaktine." },
+    { "resource_id": 210, "text": "Geceye ve içinde topladıklarına." },
+    { "resource_id": 210, "text": "Dolunay haline geldiği zaman aya." },
+    {
+      "resource_id": 210,
+      "text": "Muhakkak ki siz bir halden başka bir hale geçeceksiniz."
+    },
+    {
+      "resource_id": 210,
+      "text": "O halde onlara ne oluyor da iman etmiyorlar?"
+    },
+    {
+      "resource_id": 210,
+      "text": "Onlara Kur’an okunduğu zaman secde etmiyorlar."
+    },
+    { "resource_id": 210, "text": "Aksine, kâfirler(Kur’an’ı) yalanlıyorlar." },
+    {
+      "resource_id": 210,
+      "text": "Hâlbuki Allah, içlerinde ne sakladıklarını çok iyi bilir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Öyleyse sen onlara elem dolu bir azabı müjdele!"
+    },
+    {
+      "resource_id": 210,
+      "text": "Ancak iman edip de salih ameller işleyenler başka. Onlar için bitmez tükenmez bir mükâfat vardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "84" }
+  }
+}

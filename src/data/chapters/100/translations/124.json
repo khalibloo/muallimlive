@@ -1,0 +1,44 @@
+{
+  "translations": [
+    { "resource_id": 124, "text": "Harıl harıl koşanlara, yemin ederim ki," },
+    {
+      "resource_id": 124,
+      "text": "(nallarıyla) çakarak kıvılcım saçanlara yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "(ansızın) sabah baskını yapanlara, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "orada tozu dumana katanlara, yemin ederim ki,"
+    },
+    {
+      "resource_id": 124,
+      "text": "derken orada bir topluluğun ta ortasına girenlere yemin ederim ki,"
+    },
+    { "resource_id": 124, "text": "insan, Rabbine karşı pek nankördür." },
+    { "resource_id": 124, "text": "Şüphesiz buna kendisi de şahittir" },
+    {
+      "resource_id": 124,
+      "text": "ve o, mal sevgisine de aşırı derecede düşkündür. "
+    },
+    {
+      "resource_id": 124,
+      "text": "(İnsan) düşünmez mi ki, kabirlerde bulunanlar diriltilip dışarı atıldığı zaman,"
+    },
+    {
+      "resource_id": 124,
+      "text": "Ve kalplerde gizlenenler ortaya konduğu zaman (hali ne olacak)!"
+    },
+    {
+      "resource_id": 124,
+      "text": "Şüphesiz Rableri o gün onlardan tamamıyla haberdardır."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muslim Shahin",
+    "author_name": "Muslim Shahin",
+    "filters": { "resource_id": 124, "chapter_number": "100" }
+  }
+}

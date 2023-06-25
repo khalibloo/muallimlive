@@ -1,0 +1,47 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "Nay, I swear by this city -" },
+    { "resource_id": 19, "text": "And thou art an indweller of this city -" },
+    { "resource_id": 19, "text": "And the begetter and that which he begat," },
+    {
+      "resource_id": 19,
+      "text": "We verily have created man in an atmosphere:"
+    },
+    { "resource_id": 19, "text": "Thinketh he that none hath power over him?" },
+    {
+      "resource_id": 19,
+      "text": "And he saith: I have destroyed vast wealth:"
+    },
+    { "resource_id": 19, "text": "Thinketh he that none beholdeth him?" },
+    { "resource_id": 19, "text": "Did We not assign unto him two eyes" },
+    { "resource_id": 19, "text": "And a tongue and two lips," },
+    {
+      "resource_id": 19,
+      "text": "And guide him to the parting of the mountain ways?"
+    },
+    { "resource_id": 19, "text": "But he hath not attempted the Ascent -" },
+    {
+      "resource_id": 19,
+      "text": "Ah, what will convey unto thee what the Ascent is! -"
+    },
+    { "resource_id": 19, "text": "(It is) to free a slave," },
+    { "resource_id": 19, "text": "And to feed in the day of hunger." },
+    { "resource_id": 19, "text": "An orphan near of kin," },
+    { "resource_id": 19, "text": "Or some poor wretch in misery," },
+    {
+      "resource_id": 19,
+      "text": "And to be of those who believe and exhort one another to perseverance and exhort one another to pity."
+    },
+    { "resource_id": 19, "text": "Their place will be on the right hand." },
+    {
+      "resource_id": 19,
+      "text": "But those who disbelieve Our revelations, their place will be on the left hand."
+    },
+    { "resource_id": 19, "text": "Fire will be an awning over them." }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "90" }
+  }
+}

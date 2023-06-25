@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 219,
+      "text": "실로 나는 그대(무함마드)에게 카우싸르 호수를 베풀었노라."
+    },
+    {
+      "resource_id": 219,
+      "text": "그러니 그대는 그대의 주님을 위해 예배를 드리고 희생물을 잡으라."
+    },
+    {
+      "resource_id": 219,
+      "text": "실로 그대를 미워하는 자 그야말로 단절된 자라."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "108" }
+  }
+}

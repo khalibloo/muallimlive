@@ -1,0 +1,18 @@
+{
+  "translations": [
+    {
+      "resource_id": 785,
+      "text": "(ای پیغمبر)! بگو: پناه می‌برم به پروردگار مردم."
+    },
+    { "resource_id": 785, "text": "(و به) پادشاه (حقیقی) مردم." },
+    { "resource_id": 785, "text": "(و به) معبود (حقیقی) مردم." },
+    { "resource_id": 785, "text": "از شر وسوسه‌کننده‌ای که واپس می‌رود." },
+    { "resource_id": 785, "text": "آن که در دل‌های مردم وسوسه می‌اندازد." },
+    { "resource_id": 785, "text": "از جنس جن باشد و یا از جنس انسان." }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "114" }
+  }
+}

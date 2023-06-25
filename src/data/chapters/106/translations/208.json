@@ -1,0 +1,22 @@
+{
+  "translations": [
+    { "resource_id": 208, "text": "Für die Vereinigung der Qurais" },
+    {
+      "resource_id": 208,
+      "text": "(für) ihre Vereinigung zur Reise in der Karawane des Winters und des Sommers."
+    },
+    {
+      "resource_id": 208,
+      "text": "So sollen sie denn dem Herrn dieses Hauses dienen"
+    },
+    {
+      "resource_id": 208,
+      "text": "Der sie speist nachdem sie gehungert haben, und ihnen Sicherheit gewährleistet, nachdem sie in Angst lebten!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "106" }
+  }
+}

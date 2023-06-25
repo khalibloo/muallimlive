@@ -1,0 +1,29 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Kautta viikunapuun ja oliivin," },
+    { "resource_id": 30, "text": "kautta Siinain vuoren" },
+    { "resource_id": 30, "text": "ja tämän pyhitetyn kaupungin." },
+    {
+      "resource_id": 30,
+      "text": "Totisesti Me loimme ihmisen parhaaseen muotoonsa,"
+    },
+    {
+      "resource_id": 30,
+      "text": "mutta Me kyllä alennammekin hänet alhaista alemmaksi,"
+    },
+    {
+      "resource_id": 30,
+      "text": "lukuunottomatta niitä, jotka uskovat ja hyvää tekevät; niitä odottaa ehtymätön palkka."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mikä siis saa sinut pitämään tulevaa tuomiota valheena?"
+    },
+    { "resource_id": 30, "text": "Eikö Jumala ole tuomareista parhain?" }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "95" }
+  }
+}

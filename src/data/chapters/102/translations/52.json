@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 52,
+      "text": "Çoklukla övünmek, sizi kabirlere varıncaya kadar oyaladı."
+    },
+    {
+      "resource_id": 52,
+      "text": "Çoklukla övünmek, sizi kabirlere varıncaya kadar oyaladı."
+    },
+    { "resource_id": 52, "text": "Hayır! Yakında bileceksiniz." },
+    {
+      "resource_id": 52,
+      "text": "Yine hayır! Yakında bileceksiniz (hatanızı)."
+    },
+    {
+      "resource_id": 52,
+      "text": "Hayır! Eğer kesin bilgi ile bilseniz, elbette cehennemi görürsünüz."
+    },
+    {
+      "resource_id": 52,
+      "text": "Hayır! Eğer kesin bilgi ile bilseniz, elbette cehennemi görürsünüz."
+    },
+    {
+      "resource_id": 52,
+      "text": "Sonra, yemin olsun ki, cehennemi yakin gözüyle göreceksiniz."
+    },
+    {
+      "resource_id": 52,
+      "text": "Sonra, yemin olsun ki, o gün (size verilen) her nimetten sorulacaksınız"
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "102" }
+  }
+}

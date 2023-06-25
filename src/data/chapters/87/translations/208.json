@@ -1,0 +1,58 @@
+{
+  "translations": [
+    {
+      "resource_id": 208,
+      "text": "Preise den Namen deines Allerhöchsten Herrn"
+    },
+    { "resource_id": 208, "text": "Der erschaffen und geformt hat" },
+    { "resource_id": 208, "text": "Der bestimmt und leitet" },
+    { "resource_id": 208, "text": "Der die Weide hervorbringt" },
+    { "resource_id": 208, "text": "und sie zu versengter Spreu macht." },
+    {
+      "resource_id": 208,
+      "text": "Wir werden dir (den Quran) verlesen lassen, und du sollst (ihn) nicht vergessen"
+    },
+    {
+      "resource_id": 208,
+      "text": "es sei denn, was Allah will; denn Er kennt das Offenkundige und das Verborgene."
+    },
+    {
+      "resource_id": 208,
+      "text": "Und Wir werden es dir zum Heil leicht machen."
+    },
+    { "resource_id": 208, "text": "So ermahne, wo die Ermahnung nützt!" },
+    {
+      "resource_id": 208,
+      "text": "Mahnen lassen wird sich derjenige, der gottesfürchtig ist"
+    },
+    { "resource_id": 208, "text": "Ermahnung meiden wird der Unselige" },
+    { "resource_id": 208, "text": "der im größten Feuer brennt" },
+    {
+      "resource_id": 208,
+      "text": "und in ihm wird er weder sterben noch leben."
+    },
+    {
+      "resource_id": 208,
+      "text": "Erfolgreich ist wahrlich derjenige, der sich rein hält"
+    },
+    {
+      "resource_id": 208,
+      "text": "und des Namens seines Herrn gedenkt (und) alsdann betet."
+    },
+    { "resource_id": 208, "text": "Doch ihr zieht das irdische Leben vor" },
+    {
+      "resource_id": 208,
+      "text": "wo doch das Jenseits besser und dauerhafter ist."
+    },
+    {
+      "resource_id": 208,
+      "text": "Dies stand wahrlich in den ersten Schriften"
+    },
+    { "resource_id": 208, "text": "den Schriften Abrahams und Moses'." }
+  ],
+  "meta": {
+    "translation_name": "Abu Reda Muhammad ibn Ahmad",
+    "author_name": "Abu Reda Muhammad ibn Ahmad",
+    "filters": { "resource_id": 208, "chapter_number": "87" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "Di', o Messaggero: \"Mi affido al Dio degli uomini e imploro la Sua protezione;"
+    },
+    {
+      "resource_id": 176,
+      "text": "il Sovrano degli uomini, che fa di loro ciò che vuole; non hanno altro sovrano all'infuori di Lui."
+    },
+    {
+      "resource_id": 176,
+      "text": "La loro vera divinità, non vi è altra reale divinità, all'infuori di Lui,"
+    },
+    {
+      "resource_id": 176,
+      "text": "dal male di Satana, che sussurra all'individuo quando non si cura di invocare Allāh, oppure quando tarda a invocarlo,"
+    },
+    {
+      "resource_id": 176,
+      "text": "facendo penetrare i suoi sussurri nel cuore della gente,"
+    },
+    { "resource_id": 176, "text": "sia uomini che Jinn." }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "114" }
+  }
+}

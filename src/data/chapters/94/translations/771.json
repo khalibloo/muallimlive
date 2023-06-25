@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 771,
+      "text": "ನಾವು ತಮಗಾಗಿ ತಮ್ಮ ಹೃದಯವನ್ನು ವಿಸ್ತಾರ ಗೊಳಿಸಲಿಲ್ಲವೇ?<sup foot_note=208105>1</sup>"
+    },
+    {
+      "resource_id": 771,
+      "text": "ತಮ್ಮ ಕರ್ತವ್ಯ ಭಾರವನ್ನು ನಾವು ಇಳಿಸಲಿಲ್ಲವೇ?<sup foot_note=208106>1</sup>"
+    },
+    {
+      "resource_id": 771,
+      "text": "ಆ ಕರ್ತವ್ಯ ಭಾರವು ತಮ್ಮ ಬೆನ್ನು ಮುರಿಯುವಂತಿತ್ತು ."
+    },
+    {
+      "resource_id": 771,
+      "text": "ತಮ್ಮ ಮಹಿಮೆಯನ್ನು ತಮಗೆ ನಾವು ಎತ್ತರಕ್ಕೇರಿಸಲಿಲ್ಲವೇ? <sup foot_note=208107>1</sup>"
+    },
+    { "resource_id": 771, "text": "ನಿಜವಾಗಿಯೂ ಕಷ್ಟದ ಜೊತೆ ಸುಲಭವಿದೆ." },
+    {
+      "resource_id": 771,
+      "text": "ಕಷ್ಟದ ಜೊತೆ ಖಂಡಿತ ಸುಲಭವಿದೆ<sup foot_note=208108>1</sup>."
+    },
+    {
+      "resource_id": 771,
+      "text": "ತಾವು ವಿರಮಿಸಿದರೆ ಆರಾಧನೆಯಲ್ಲಿ ತೊಡಗಿರಿ<sup foot_note=208109>1</sup>,"
+    },
+    { "resource_id": 771, "text": "ತಮ್ಮ ಪ್ರಭುವಿನ ಕಡೆಗೆ ಮೊರೆ ಹೋಗಿರಿ." }
+  ],
+  "meta": {
+    "translation_name": "Kannada Translation",
+    "author_name": "Kannada Translation",
+    "filters": { "resource_id": 771, "chapter_number": "94" }
+  }
+}

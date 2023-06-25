@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 74, "text": "Бигӯ: «Ӯст Худои якто," },
+    { "resource_id": 74, "text": "Худое, ки дар ҳоҷат ба Ӯ рӯ кунанд," },
+    { "resource_id": 74, "text": "на зоида аст ва на зоида шуда" },
+    { "resource_id": 74, "text": "ва на ҳеҷ кас ҳамтои Ӯст!»" }
+  ],
+  "meta": {
+    "translation_name": "Tajik",
+    "author_name": "AbdolMohammad Ayati",
+    "filters": { "resource_id": 74, "chapter_number": "112" }
+  }
+}

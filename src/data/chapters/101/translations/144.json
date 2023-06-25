@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 144, "text": "De Daverende (De Dag der Opstanding)." },
+    { "resource_id": 144, "text": "Wat is de Daverende?" },
+    {
+      "resource_id": 144,
+      "text": "En wat doet jou weten wat de Daverende is?"
+    },
+    {
+      "resource_id": 144,
+      "text": "Op de Dag dat de mensen als verstrooide motten zijn."
+    },
+    { "resource_id": 144, "text": "En de bergen als vespreide wolvlokken." },
+    {
+      "resource_id": 144,
+      "text": "Wat betreft degene van wie dan zijn weegschaal (met goede daden) zwaar weegt."
+    },
+    { "resource_id": 144, "text": "Hij zal een behaaglijk leven leiden." },
+    {
+      "resource_id": 144,
+      "text": "En wat betreft degene van wie zijn weegschaal licht weegt."
+    },
+    {
+      "resource_id": 144,
+      "text": "Zijn verblijfplaats is dan Hawiyah* (de Hel)."
+    },
+    { "resource_id": 144, "text": "En wat doet jou weten wat zij is?" },
+    { "resource_id": 144, "text": "Een verbandende Hel." }
+  ],
+  "meta": {
+    "translation_name": "Sofian S. Siregar",
+    "author_name": "Sofian S. Siregar",
+    "filters": { "resource_id": 144, "chapter_number": "101" }
+  }
+}

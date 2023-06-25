@@ -1,0 +1,91 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "WANAULIZANA nini?" },
+    { "resource_id": 49, "text": "Ile khabari kuu," },
+    { "resource_id": 49, "text": "Ambayo kwayo wanakhitalifiana." },
+    { "resource_id": 49, "text": "La! Karibu watakuja jua." },
+    { "resource_id": 49, "text": "Tena la! Karibu watakuja jua." },
+    { "resource_id": 49, "text": "Kwani hatukuifanya ardhi kama tandiko?" },
+    { "resource_id": 49, "text": "Na milima kama vigingi?" },
+    { "resource_id": 49, "text": "Na tukakuumbeni kwa jozi?" },
+    { "resource_id": 49, "text": "Na tukakufanya kulala kwenu ni mapumziko?" },
+    { "resource_id": 49, "text": "Na tukaufanya usiku ni nguo?" },
+    {
+      "resource_id": 49,
+      "text": "Na tukaufanya mchana ni wa kuchumia maisha?"
+    },
+    { "resource_id": 49, "text": "Na tukajenga juu yenu saba zenye nguvu?" },
+    { "resource_id": 49, "text": "Na tukaifanya taa yenye mwanga na joto;" },
+    {
+      "resource_id": 49,
+      "text": "Na tukateremsha maji yanayo anguka kwa kasi kutoka mawinguni,"
+    },
+    { "resource_id": 49, "text": "Ili tutoe kwayo nafaka na mimea," },
+    { "resource_id": 49, "text": "Na mabustani yenye miti iliyo kamatana." },
+    {
+      "resource_id": 49,
+      "text": "Hakika siku ya uamuzi imewekewa wakati wake,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Siku litapo pulizwa barugumu, nanyi mtakuja kwa makundi,"
+    },
+    { "resource_id": 49, "text": "Na mbingu zitafunguliwa, ziwe milango," },
+    {
+      "resource_id": 49,
+      "text": "Na milima itaondolewa na itakuwa kama sarabi."
+    },
+    { "resource_id": 49, "text": "Hakika Jahannamu inangojea!" },
+    { "resource_id": 49, "text": "Kwa walio asi ndio makaazi yao," },
+    { "resource_id": 49, "text": "Wakae humo karne baada ya karne," },
+    {
+      "resource_id": 49,
+      "text": "Hawataonja humo chochote kibaridi wala kinywaji,"
+    },
+    { "resource_id": 49, "text": "Ila maji yamoto sana na usaha," },
+    { "resource_id": 49, "text": "Ndio jaza muwafaka." },
+    {
+      "resource_id": 49,
+      "text": "Hakika hao hawakuwa wakitaraji kuwa kuna hisabu."
+    },
+    { "resource_id": 49, "text": "Na wakikanusha Aya zetu kwa nguvu." },
+    {
+      "resource_id": 49,
+      "text": "Na kila kitu Sisi tumekidhibiti kwa kukiandika."
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi onjeni! Nasi hatutakuzidishieni ila adhabu!"
+    },
+    { "resource_id": 49, "text": "Hakika wachamngu wanastahiki kufuzu," },
+    { "resource_id": 49, "text": "Mabustani na mizabibu," },
+    { "resource_id": 49, "text": "Na wake walio lingana nao," },
+    { "resource_id": 49, "text": "Na bilauri zilizo jaa," },
+    { "resource_id": 49, "text": "Hawatasikia humo upuuzi wala uwongo -" },
+    {
+      "resource_id": 49,
+      "text": "Malipo kutoka kwa Mola wako Mlezi, kipawa cha kutosha."
+    },
+    {
+      "resource_id": 49,
+      "text": "Mola Mlezi wa mbingu na ardhi na vilio baina yao, Arrahman, Mwingi wa rehema; hawamiliki usemi mbele yake!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Siku atakapo simama Roho na Malaika kwa safu. Hawatasema ila Mwingi wa rehema aliye mruhusu, na atasema yaliyo sawa tu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hiyo ndiyo Siku ya haki. Basi anaye taka na ashike njia arejee kwa Mola wake Mlezi."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika tumekuhadharisheni adhabu iliyo karibu kufika; Siku ambayo mtu atakapo ona yaliyo tangulizwa na mikono yake; na kafiri atasema: Laiti ningeli kuwa udongo!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "78" }
+  }
+}

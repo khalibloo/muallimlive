@@ -1,0 +1,57 @@
+{
+  "translations": [
+    { "resource_id": 211, "text": "Sumpa man sa araw at sa kaliwanagan nito," },
+    {
+      "resource_id": 211,
+      "text": "sumpa man sa buwan kapag sumunod ito roon,"
+    },
+    {
+      "resource_id": 211,
+      "text": "sumpa man sa maghapon kapag naglantad ito niyon,"
+    },
+    {
+      "resource_id": 211,
+      "text": "sumpa man sa gabi kapag bumalot ito niyon,"
+    },
+    {
+      "resource_id": 211,
+      "text": "sumpa man sa langit at sa pagpapatayo Niya nito,"
+    },
+    { "resource_id": 211, "text": "sumpa man sa lupa at sa pagkalatag nito," },
+    {
+      "resource_id": 211,
+      "text": "sumpa man sa isang kaluluwa at sa pagkahubog nito,"
+    },
+    {
+      "resource_id": 211,
+      "text": "saka nagpatalos Siya rito ng kasamaang-loob nito at pangingilag magkasala nito;"
+    },
+    {
+      "resource_id": 211,
+      "text": "nagtagumpay nga ang sinumang naglinis nito"
+    },
+    { "resource_id": 211, "text": "at nabigo nga ang sinumang nagdumi nito." },
+    {
+      "resource_id": 211,
+      "text": "Nagpasinungaling ang [liping] Thamūd dahil sa pagmamalabis nito"
+    },
+    { "resource_id": 211, "text": "nang sumugod ang pinakamalumbay nito." },
+    {
+      "resource_id": 211,
+      "text": "Kaya nagsabi sa kanila ang sugo ni Allāh: \"[Magpaubaya] sa dumalagang kamelyo ni Allāh at pag-inom nito.\""
+    },
+    {
+      "resource_id": 211,
+      "text": "Ngunit nagpasinungaling sila sa kanya saka kinatay nila ito kaya nagsaklob [ng parusa] sa kanila ang Panginoon nila dahil sa pagkakasala nila saka nagpantay-pantay Siya rito [sa parusa]."
+    },
+    {
+      "resource_id": 211,
+      "text": "Hindi Siya nangangamba sa pinakakahihinatnan nito."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 211, "chapter_number": "91" }
+  }
+}

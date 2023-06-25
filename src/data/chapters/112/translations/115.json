@@ -1,0 +1,16 @@
+{
+  "translations": [
+    { "resource_id": 115, "text": "\"Ka ce: \"Shi ne Allah Makaɗaĩci.\"" },
+    { "resource_id": 115, "text": "\"Allah wanda ake nufin Sa da buƙata.\"" },
+    { "resource_id": 115, "text": "\"Bai haifa ba, kuma ba a haife Shi ba.\"" },
+    {
+      "resource_id": 115,
+      "text": "\"Kuma babu ɗaya da ya kasance kini a gare Shi"
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "112" }
+  }
+}

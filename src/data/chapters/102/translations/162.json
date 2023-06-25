@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 162,
+      "text": "প্রাচুর্যের প্রতিযোগিতা তোমাদেরকে ভুলিয়ে রেখেছে।"
+    },
+    { "resource_id": 162, "text": "যতক্ষণ না তোমরা কবরের সাক্ষাৎ করবে।" },
+    { "resource_id": 162, "text": "কখনো নয়, শীঘ্রই তোমরা জানবে," },
+    { "resource_id": 162, "text": "তারপর কখনো নয়, তোমরা শীঘ্রই জানতে পারবে।" },
+    { "resource_id": 162, "text": "কখনো নয়, তোমরা যদি নিশ্চিত জ্ঞানে জানতে!" },
+    { "resource_id": 162, "text": "তোমরা অবশ্যই জাহান্নাম দেখবে;" },
+    { "resource_id": 162, "text": "তারপর তোমরা তা নিশ্চিত চাক্ষুষ দেখবে।" },
+    {
+      "resource_id": 162,
+      "text": "তারপর সেদিন অবশ্যই তোমরা নিআমত সম্পর্কে জিজ্ঞাসিত হবে।"
+    }
+  ],
+  "meta": {
+    "translation_name": "Rawai Al-bayan",
+    "author_name": "Bayaan Foundation",
+    "filters": { "resource_id": 162, "chapter_number": "102" }
+  }
+}

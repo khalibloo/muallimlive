@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 219,
+      "text": "그대(무함마드)는 말하라 : '저는 인류의 주님께 보호를 요청 드립니다."
+    },
+    { "resource_id": 219, "text": "인류의 제왕," },
+    {
+      "resource_id": 219,
+      "text": "인류의 신(이신 그분께 보호를 요청 드립니다.)"
+    },
+    { "resource_id": 219, "text": "숨어드는 자(사탄)의 속삭임의 해악으로부터" },
+    {
+      "resource_id": 219,
+      "text": "인간의 가슴 속에 속삭이는 (사탄의 해악으로부터)"
+    },
+    {
+      "resource_id": 219,
+      "text": "진과 인간(의 사탄)으로부터 (그분께 보호를 요청 드립니다)'"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamed Choi",
+    "author_name": "Hamed Choi",
+    "filters": { "resource_id": 219, "chapter_number": "114" }
+  }
+}

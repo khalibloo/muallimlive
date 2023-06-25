@@ -1,0 +1,25 @@
+{
+  "verses": [
+    {
+      "id": 6222,
+      "verse_key": "112:1",
+      "text_uthmani_tajweed": "قُلْ هُوَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ أَحَ<tajweed class=qalaqah>د</tajweed>ٌ <span class=end>١</span>"
+    },
+    {
+      "id": 6223,
+      "verse_key": "112:2",
+      "text_uthmani_tajweed": "ٱللَّهُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّمَ<tajweed class=qalaqah>د</tajweed>ُ <span class=end>٢</span>"
+    },
+    {
+      "id": 6224,
+      "verse_key": "112:3",
+      "text_uthmani_tajweed": "لَمْ يَلِ<tajweed class=qalaqah>دْ</tajweed> وَلَمْ يُولَ<tajweed class=qalaqah>دْ</tajweed> <span class=end>٣</span>"
+    },
+    {
+      "id": 6225,
+      "verse_key": "112:4",
+      "text_uthmani_tajweed": "وَلَمْ يَك<tajweed class=idgham_wo_ghunnah>ُن ل</tajweed>َّهُ<tajweed class=madda_normal>ۥ</tajweed> كُفُوًا أَحَ<tajweed class=qalaqah>د</tajweed>ُۢ <span class=end>٤</span>"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "112" } }
+}

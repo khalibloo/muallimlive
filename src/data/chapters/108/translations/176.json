@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 176,
+      "text": "In verità, ti abbiamo concesso molti beni, o Messaggero, tra cui il fiume Al-Kawthar nel Paradiso."
+    },
+    {
+      "resource_id": 176,
+      "text": "Sii grato al tuo Dio per queste grazie, e prega lui solo e compi sacrifici, contrariamente a ciò che fanno gli idolatri, che con il sacrificio si avvicinano ai loro idoli."
+    },
+    {
+      "resource_id": 176,
+      "text": "In verità, chi ti odia è colui che viene escluso da ogni bene, che viene dimenticato e che, qualora venisse menzionato, se ne parlerebbe male."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "108" }
+  }
+}

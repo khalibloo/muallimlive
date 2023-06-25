@@ -1,0 +1,46 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "Cuando el cielo se hienda," },
+    { "resource_id": 28, "text": "cuando las estrellas se dispersen," },
+    { "resource_id": 28, "text": "cuando los mares sean desbordados," },
+    {
+      "resource_id": 28,
+      "text": "cuando las sepulturas sean vueltas al revés,"
+    },
+    {
+      "resource_id": 28,
+      "text": "sabrá cada cual lo que hizo y lo que dejó de hacer."
+    },
+    {
+      "resource_id": 28,
+      "text": "¡Hombre! ¿Qué es lo que te ha engañado acerca de tu noble Señor,"
+    },
+    {
+      "resource_id": 28,
+      "text": "Que te ha creado, dado forma y disposición armoniosas,"
+    },
+    { "resource_id": 28, "text": "Que te ha formado del modo que ha querido?" },
+    { "resource_id": 28, "text": "¡Pero no! Desmentís el Juicio," },
+    { "resource_id": 28, "text": "pero hay quienes os guardan:" },
+    { "resource_id": 28, "text": "nobles, escribas," },
+    { "resource_id": 28, "text": "que saben lo que hacéis." },
+    { "resource_id": 28, "text": "Sí, los justos estarán en delicia," },
+    {
+      "resource_id": 28,
+      "text": "mientras que los pecadores estarán en fuego de gehena."
+    },
+    { "resource_id": 28, "text": "En él arderán el día del Juicio" },
+    { "resource_id": 28, "text": "y no se ausentarán de él." },
+    { "resource_id": 28, "text": "Y ¿cómo sabrás qué es el día del Juicio?" },
+    { "resource_id": 28, "text": "Sí, ¿cómo sabrás qué es el día del Juicio?" },
+    {
+      "resource_id": 28,
+      "text": "El día que nadie pueda hacer nada en favor de nadie. Y será Alá Quien, ese día, decida."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "82" }
+  }
+}

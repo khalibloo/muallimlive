@@ -1,0 +1,38 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Kuşluk vaktine andolsun." },
+    {
+      "resource_id": 210,
+      "text": "Karanlığı çöktüğü vakit geceye andolsun ki."
+    },
+    {
+      "resource_id": 210,
+      "text": "Rabbin ne seni terk etti, ne de sana darıldı."
+    },
+    {
+      "resource_id": 210,
+      "text": "Muhakkak ki âhiret senin için dünyadan daha hayırlıdır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Elbette Rabbin sana verecek, sen de hoşnut olacaksın."
+    },
+    {
+      "resource_id": 210,
+      "text": "Seni bir yetim olarak bulup barındırmadı mı?"
+    },
+    {
+      "resource_id": 210,
+      "text": "Ve seni (kitap ve iman nedir) bilmezken bulup hidayete eriştirmedi mi?"
+    },
+    { "resource_id": 210, "text": "Seni fakirken, zengin kılmadı mı?" },
+    { "resource_id": 210, "text": "Öyleyse sakın yetimi ezme!" },
+    { "resource_id": 210, "text": "İsteyeni de azarlama!" },
+    { "resource_id": 210, "text": "Rabbinin nimetine gelince; işte onu anlat." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "93" }
+  }
+}

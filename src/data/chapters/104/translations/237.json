@@ -1,0 +1,21 @@
+{
+  "translations": [
+    { "resource_id": 237, "text": "Горко на всеки клеветник-хулител," },
+    { "resource_id": 237, "text": "който трупа богатство и все го брои!" },
+    {
+      "resource_id": 237,
+      "text": "Смята, че неговото богатство ще го увековечи."
+    },
+    { "resource_id": 237, "text": "Ала не! Ще бъде хвърлен в Трошилото." },
+    { "resource_id": 237, "text": "А откъде да знаеш ти какво е Трошилото? -" },
+    { "resource_id": 237, "text": "Разпаленият Огън на Аллах," },
+    { "resource_id": 237, "text": "който прониква до сърцата." },
+    { "resource_id": 237, "text": "Той ще бъде затворен над тях" },
+    { "resource_id": 237, "text": "във високи стълбове." }
+  ],
+  "meta": {
+    "translation_name": "Tzvetan Theophanov",
+    "author_name": "Tzvetan Theophanov",
+    "filters": { "resource_id": 237, "chapter_number": "104" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "translations": [
+    {
+      "resource_id": 125,
+      "text": "Èmi (Allāhu) ń fi ìlú yìíbúra. <sup foot_note=148066>1</sup>"
+    },
+    {
+      "resource_id": 125,
+      "text": "Ìwọ sì ní ẹ̀tọ́ sí ìlú yìí (láti jagun nínú rẹ̀).1 <sup foot_note=148067>1</sup>"
+    },
+    {
+      "resource_id": 125,
+      "text": "Èmi (Allāhu) ń fi òbí àti ohun tó bí búra."
+    },
+    { "resource_id": 125, "text": "Dájúdájú A ṣẹ̀dá ènìyàn sínú ìṣòro." },
+    {
+      "resource_id": 125,
+      "text": "Ṣé ó ń lérò pé ẹnì kan kò ní agbára lórí òun ni?"
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó (sì) ń wí pé: “Èmi ti bàná dúkìá ọ̀pọ̀lọ́pọ̀ (láti fi tako Ànábì - kí ìkẹ́ àti ọlà Allāhu máa bá a -)”"
+    },
+    { "resource_id": 125, "text": "Ṣé ó ń lérò pé ẹnì kan kò rí òun ni?" },
+    { "resource_id": 125, "text": "Ṣé A kò ṣe ojú méjì fún un?" },
+    { "resource_id": 125, "text": "Àti ahọ́n pẹ̀lú ètè méjì (tí A ṣe fún un)?" },
+    { "resource_id": 125, "text": "A sì fi ọ̀nà méjì mọ̀ ọ́n." },
+    {
+      "resource_id": 125,
+      "text": "Kò sì lọ rin ojú-ọ̀nà orí àpáta tó ṣòroó gùn fún ìgbàlà ẹ̀mí níbi Iná!"
+    },
+    {
+      "resource_id": 125,
+      "text": "Kí sì ni ó mú ọ mọ ohun tó ń jẹ́ ojú-ọ̀nà orí àpáta tó ṣòroó gùn fún ìgbàlà ẹ̀mí?"
+    },
+    { "resource_id": 125, "text": "(Òhun ni) títú ẹrú sílẹ̀ lóko ẹrú." },
+    { "resource_id": 125, "text": "Tàbí fífún ènìyàn ní oúnjẹ ní ọjọ́ ebi." },
+    { "resource_id": 125, "text": "(Ẹ lè fún) ọmọ-òrukàn nínú ẹbí," },
+    {
+      "resource_id": 125,
+      "text": "tàbí mẹ̀kúnnù tí kò ní gá tí kò ní go (olòṣì paraku)."
+    },
+    {
+      "resource_id": 125,
+      "text": "Lẹ́yìn náà, kí ó wà nínú àwọn tó gbàgbọ́ ní òdodo, tí wọ́n ń gbara wọn níyànjú sùúrù ṣíṣe, tí wọ́n sì tún ń gbara wọn níyànjú àánú ṣíṣe."
+    },
+    { "resource_id": 125, "text": "Àwọn wọ̀nyẹn ni èrò ọwọ́ ọ̀tún." },
+    {
+      "resource_id": 125,
+      "text": "Àwọn tó sì ṣàì gbàgbọ́ nínú àwọn āyah Wa, àwọn ni èrò ọwọ́ òsì.1 <sup foot_note=148068>1</sup>"
+    },
+    {
+      "resource_id": 125,
+      "text": "Wọ́n máa ti àwọn ìlẹ̀kùn Iná pa mọ́ wọn lórí pátápátá."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "90" }
+  }
+}

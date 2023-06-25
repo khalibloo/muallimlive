@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 225,
+      "text": "૧)    અબૂ  લહબ  ના  બન્ને  હાથ  તુટી  ગયા  અને  તે  (પોતે)  બરબાદ  થઇ ગયો."
+    },
+    {
+      "resource_id": 225,
+      "text": "૨)   ન તો તેનું ધન તેના માટે કામ આવ્યું અને ન તો તેની કમાણી."
+    },
+    { "resource_id": 225, "text": "૩)   તે નજીકમાં ભડકાવેલી આગમાં જશે." },
+    {
+      "resource_id": 225,
+      "text": "૪)   અને તેની પત્નિ પણ (જશે) જે લાકડીઓ ઉઠાવનારી છે,"
+    },
+    { "resource_id": 225, "text": "૫)   તેના ગળામાં કાથીનું દોરડું હશે." }
+  ],
+  "meta": {
+    "translation_name": "Rabila Al-Umry",
+    "author_name": "Rabila Al-Umry",
+    "filters": { "resource_id": 225, "chapter_number": "111" }
+  }
+}

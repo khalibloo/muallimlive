@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 175,
+      "text": "Zar nisi čuo, o Poslaniče, šta je s Ebrehom i njegovim drugovima, vlasnicima slona, Gospodar tvoj uradio, kada je on htio Kabu da sruši?"
+    },
+    {
+      "resource_id": 175,
+      "text": "Njihove planove rušenja Kabe Allah je uništio, i oni nisu ostvarili svoj cilj da ljude od nje odvrate, niti su bilo kakav drugi plan ostvarili."
+    },
+    {
+      "resource_id": 175,
+      "text": "On je na njih poslao ptice u skupinama i jatima."
+    },
+    {
+      "resource_id": 175,
+      "text": "koje su na njih kamenje od gline pečene i tvrde bacali"
+    },
+    {
+      "resource_id": 175,
+      "text": "pa ih On kao lišće koje su životinje pojele učinio."
+    }
+  ],
+  "meta": {
+    "translation_name": "Bosnian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 175, "chapter_number": "105" }
+  }
+}

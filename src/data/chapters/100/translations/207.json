@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 207, "text": "By the snorting chargers (war horses)" },
+    { "resource_id": 207, "text": "striking sparks [with their hooves]" },
+    { "resource_id": 207, "text": "and raiding by [early] morning," },
+    { "resource_id": 207, "text": "so they leave a trail of dust" },
+    {
+      "resource_id": 207,
+      "text": "as they dash into the middle of the troops with it;"
+    },
+    { "resource_id": 207, "text": "Man is ungrateful to his Lord!" },
+    { "resource_id": 207, "text": "He himself [acts] as a witness to that;" },
+    {
+      "resource_id": 207,
+      "text": "and is quite passionate in his love of wealth."
+    },
+    {
+      "resource_id": 207,
+      "text": "Does he not realize that when whatever [lies] in graves is tumbled out,"
+    },
+    {
+      "resource_id": 207,
+      "text": "and whatever is on [people's] minds is checked up on,"
+    },
+    {
+      "resource_id": 207,
+      "text": "their Lord will be Informed about them on that day?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. T. B. Irving",
+    "author_name": "Dr. T. B. Irving",
+    "filters": { "resource_id": 207, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "translations": [
+    { "resource_id": 23, "text": "Göy parçalanacağı zaman;" },
+    { "resource_id": 23, "text": "Ulduzlar dağılıb səpələnəcəyi zaman;" },
+    {
+      "resource_id": 23,
+      "text": "Dənizlər (qaynayıb bir-birinə) qarışacağı zaman;"
+    },
+    {
+      "resource_id": 23,
+      "text": "Qəbirlər çevriləcəyi (qəbirlərin altı üstünə çevrilib ölülər oradan çıxacağı) zaman;"
+    },
+    {
+      "resource_id": 23,
+      "text": "Hər kəs (dünyada) nə etdiyini və (özündən sonra) nə qoyub getdiyini (dünyada nəyi edib, nəyi etmədiyini, bütün yaxşı və pis əməllərini, günahını, savabını) biləcəkdir!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Ey (kafir) insan! Səni kərim olan Rəbbinə qarşı aldadan (və ya: məğrur edən) nədir?"
+    },
+    {
+      "resource_id": 23,
+      "text": "O Rəbbin ki, səni (yoxdan) yaratdı, düzəldib qaydaya (insan şəklinə) saldı."
+    },
+    { "resource_id": 23, "text": "Sənə Özü istədiyi surətdə biçim verdi." },
+    {
+      "resource_id": 23,
+      "text": "Xeyr, daha doğrusu, siz haqq-hesab gününü yalan sayırsınız!"
+    },
+    { "resource_id": 23, "text": "Sizin üstünüzdə gözətçi mələklər -" },
+    {
+      "resource_id": 23,
+      "text": "(Əməllərinizi) yazan və (Allah dərgahında) çox hörmətli olan mələklər vardır."
+    },
+    { "resource_id": 23, "text": "Onlar sizin nə etdiklərinizi bilirlər." },
+    {
+      "resource_id": 23,
+      "text": "Həqiqətən, yaxşı əməl və itaət sahibləri (mö’minlər) Cənnətdə qərar tutacaqlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Pis əməl sahibləri (kafirlər) isə Cəhənnəmdə olacaqlar."
+    },
+    {
+      "resource_id": 23,
+      "text": "Onlar (kafirlər) ora haqq-hesab günü daxil olacaqlar."
+    },
+    { "resource_id": 23, "text": "Onlar əsla oradan çıxan deyillər!" },
+    {
+      "resource_id": 23,
+      "text": "(Ya Peyğəmbər!) sən nə bilirsən (haradan bilirsən) ki, haqq-hesab günü nədir?!"
+    },
+    {
+      "resource_id": 23,
+      "text": "Bəli, sən nə bilirsən ki, haqq-hesab günü nədir?! (Qiyamət gününün dəhşətini təsəvvür etmək insanın imkanı xaricindədir. Cəhənnəm əzabının şiddəti hər bir təsəvvürün fövqündədir. Ondan xilas olmaq üçün yalnız bir yol vardır – Allaha səmimi-qəlbdən ibadət və itaət!)"
+    },
+    {
+      "resource_id": 23,
+      "text": "O gün heç kəs heç kəsin karına gələ bilməz. O gün hökm ancaq Allahındır!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Azerbaijani",
+    "author_name": "Azerbaijani",
+    "filters": { "resource_id": 23, "chapter_number": "82" }
+  }
+}

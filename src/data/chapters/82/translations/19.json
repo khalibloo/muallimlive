@@ -1,0 +1,55 @@
+{
+  "translations": [
+    { "resource_id": 19, "text": "When the heaven is cleft asunder," },
+    { "resource_id": 19, "text": "When the planets are dispersed," },
+    { "resource_id": 19, "text": "When the seas are poured forth," },
+    { "resource_id": 19, "text": "And the sepulchres are overturned," },
+    {
+      "resource_id": 19,
+      "text": "A soul will know what it hath sent before (it) and what left behind."
+    },
+    {
+      "resource_id": 19,
+      "text": "O man! What hath made thee careless concerning thy Lord, the Bountiful,"
+    },
+    {
+      "resource_id": 19,
+      "text": "Who created thee, then fashioned, then proportioned thee?"
+    },
+    {
+      "resource_id": 19,
+      "text": "Into whatsoever form He will, He casteth thee."
+    },
+    { "resource_id": 19, "text": "Nay, but ye deny the Judgment." },
+    { "resource_id": 19, "text": "Lo! there are above you guardians," },
+    { "resource_id": 19, "text": "Generous and recording," },
+    { "resource_id": 19, "text": "Who know (all) that ye do." },
+    {
+      "resource_id": 19,
+      "text": "Lo! the righteous verily will be in delight."
+    },
+    { "resource_id": 19, "text": "And lo! the wicked verily will be in hell;" },
+    {
+      "resource_id": 19,
+      "text": "They will burn therein on the Day of Judgment,"
+    },
+    { "resource_id": 19, "text": "And will not be absent thence." },
+    {
+      "resource_id": 19,
+      "text": "Ah, what will convey unto thee what the Day of Judgment is!"
+    },
+    {
+      "resource_id": 19,
+      "text": "Again, what will convey unto thee what the Day of Judgment is!"
+    },
+    {
+      "resource_id": 19,
+      "text": "A day on which no soul hath power at all for any (other) soul. The (absolute) command on that day is Allah's."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "82" }
+  }
+}

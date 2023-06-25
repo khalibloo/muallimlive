@@ -1,0 +1,58 @@
+{
+  "translations": [
+    {
+      "resource_id": 125,
+      "text": "Nígbà tí sánmọ̀ bá fàya pẹ́rẹpẹ̀rẹ,1 <sup foot_note=148056>1</sup>"
+    },
+    { "resource_id": 125, "text": "àti nígbà tí àwọn ìràwọ̀ bá já bọ́ káàkiri," },
+    { "resource_id": 125, "text": "àti nígbà tí àwọn ibúdò bá ṣàn jára wọn," },
+    {
+      "resource_id": 125,
+      "text": "àti (nígbà tí A bá ta ilẹ̀ sókè), tí A sì mú àwọn òkú jáde (láàyè) láti inú àwọn sàréè,"
+    },
+    {
+      "resource_id": 125,
+      "text": "(nígbà náà ni) ẹ̀mí kọ̀ọ̀kan yóò mọ ohun tí ó tì síwájú (nínú iṣẹ́ rẹ̀) àti ohun tí ó fi sẹ́yìn (nínú orípa iṣẹ́ rẹ̀)."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ìwọ ènìyàn, kí ni ó tàn ọ́ jẹ nípa Olúwa rẹ, Alápọ̀n-ọ́nlé,"
+    },
+    {
+      "resource_id": 125,
+      "text": "Ẹni t’Ó ṣẹ̀dá rẹ? Ó ṣẹ̀dá rẹ̀ ní pípé. Ó sì mú ọ dọ́gba jalẹ̀ léèyàn."
+    },
+    {
+      "resource_id": 125,
+      "text": "Ó to ẹ̀yà ara rẹ papọ̀ sínú èyíkéyìí àwòrán tí Ó fẹ́."
+    },
+    { "resource_id": 125, "text": "Rárá! Bí kò ṣe pé ẹ̀ ń pe Ọjọ́ ẹ̀san ní irọ́." },
+    { "resource_id": 125, "text": "Dájúdájú àwọn ẹ̀ṣọ́ sì wà ní ọ̀dọ̀ yín." },
+    { "resource_id": 125, "text": "(Wọ́n jẹ́) alápọ̀n-ọ́nlé, òǹkọ̀wé-iṣẹ́ ẹ̀dá." },
+    { "resource_id": 125, "text": "Wọ́n mọ ohun tí ẹ̀ ń ṣe níṣẹ́." },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú àwọn ẹni rere yóò kúkú wà nínú ìgbádùn."
+    },
+    {
+      "resource_id": 125,
+      "text": "Dájúdájú àwọn ẹni ibi yó sì kúkú wà nínú iná Jẹhīm."
+    },
+    { "resource_id": 125, "text": "Wọn yóò wọ inú rẹ̀ ní Ọjọ́ ẹ̀san." },
+    { "resource_id": 125, "text": "Wọn kò sì níí kúrò nínú rẹ̀." },
+    { "resource_id": 125, "text": "Kí sì ni ó mú ọ mọ ohun tó ń jẹ́ Ọjọ́ ẹ̀san?" },
+    {
+      "resource_id": 125,
+      "text": "Lẹ́yìn náà, kí ni ó mú ọ mọ ohun tó ń jẹ́ Ọjọ́ ẹ̀san?"
+    },
+    {
+      "resource_id": 125,
+      "text": "(Ọjọ́ ẹ̀san ni) ọjọ́ tí ẹ̀mí kan kò níí kápá kiní kan fún ẹ̀mí kan. Gbogbo àṣẹ ọjọ́ yẹn sì ń jẹ́ ti Allāhu."
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "author_name": "Shaykh Abu Rahimah Mikael Aykyuni",
+    "filters": { "resource_id": 125, "chapter_number": "82" }
+  }
+}

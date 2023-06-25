@@ -1,0 +1,59 @@
+{
+  "translations": [
+    { "resource_id": 44, "text": "Când soarele se va chirci," },
+    { "resource_id": 44, "text": "când stelele vor cădea," },
+    { "resource_id": 44, "text": "când munţii vor fi puşi în mişcare," },
+    {
+      "resource_id": 44,
+      "text": "când cămilele în zece luni lăsate în uitare,"
+    },
+    { "resource_id": 44, "text": "când fiarele vor fi adunate," },
+    { "resource_id": 44, "text": "când mările se vor revărsa," },
+    { "resource_id": 44, "text": "când sufletele vor fi împerecheate," },
+    {
+      "resource_id": 44,
+      "text": "când copila de vie îngropată va fi întrebată"
+    },
+    { "resource_id": 44, "text": "pentru care păcat a fost omorâtă," },
+    { "resource_id": 44, "text": "când sulurile vor fi împrăştiate," },
+    { "resource_id": 44, "text": "când cerul va fi dat la o parte," },
+    { "resource_id": 44, "text": "când Iadul va fi încins," },
+    { "resource_id": 44, "text": "când Raiul va fi aproape:" },
+    { "resource_id": 44, "text": "atunci fiece suflet va şti ceea ce a adus." },
+    { "resource_id": 44, "text": "Ba nu! Jur pe planetele" },
+    { "resource_id": 44, "text": "ce alunecă şi trec!" },
+    { "resource_id": 44, "text": "Pe noapte când se întunecă!" },
+    { "resource_id": 44, "text": "Pe zori când lin adie!" },
+    {
+      "resource_id": 44,
+      "text": "Acesta este cuvântul unui prea-cinstit trimis,"
+    },
+    {
+      "resource_id": 44,
+      "text": "cu putere de la Stăpânul Tronului Nezdruncinat,"
+    },
+    { "resource_id": 44, "text": "supus şi credincios!" },
+    { "resource_id": 44, "text": "Prietenul vostru nu este îndrăcit!" },
+    { "resource_id": 44, "text": "El l-a văzut în zare desluşit;" },
+    { "resource_id": 44, "text": "şi El cu Taina nu este zgârcit." },
+    {
+      "resource_id": 44,
+      "text": "Acesta nu este cuvântul unui diavol la pietre luat!"
+    },
+    { "resource_id": 44, "text": "Unde plecaţi?" },
+    { "resource_id": 44, "text": "Aceasta este doar o amintire pentru lumi," },
+    {
+      "resource_id": 44,
+      "text": "pentru aceia dintre voi care vor să calce drept."
+    },
+    {
+      "resource_id": 44,
+      "text": "Voi nu voiţi însă decât ceea ce Dumnezeu, Stăpânul lumilor, voieşte!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Grigore",
+    "author_name": "George Grigore",
+    "filters": { "resource_id": 44, "chapter_number": "81" }
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "translations": [
+    { "resource_id": 49, "text": "HAKIKA wamefanikiwa Waumini," },
+    { "resource_id": 49, "text": "Ambao ni wanyenyekevu katika Sala zao," },
+    { "resource_id": 49, "text": "Na ambao hujiepusha na mambo ya upuuzi," },
+    { "resource_id": 49, "text": "Na ambao wanatoa Zaka," },
+    { "resource_id": 49, "text": "Na ambao wanazilinda tupu zao," },
+    {
+      "resource_id": 49,
+      "text": "Isipo kuwa kwa wake zao au kwa iliyo wamiliki mikono yao ya kulia. Kwani hao si wenye kulaumiwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Lakini anaye taka kinyume cha haya, basi hao ndio warukao mipaka."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na ambao wanazitimiza amana zao na ahadi zao,"
+    },
+    { "resource_id": 49, "text": "Na ambao Sala zao wanazihifadhi -" },
+    { "resource_id": 49, "text": "Hao ndio warithi," },
+    {
+      "resource_id": 49,
+      "text": "Ambao watairithi Pepo ya Firdausi, wadumu humo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na kwa yakini tumemuumba mtu kutokana na asli ya udongo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha tukamjaalia awe tone ya mbegu ya uzazi katika kalio madhubuti."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha tukaiumba tone kuwa damu iliyo ganda, na tukaiumba damu kuwa pande la nyama, kisha tukaliumba pande la nyama kuwa mifupa, na mifupa tukaivika nyama. Kisha tukamfanya kiumbe mwengine. Basi ametukuka Mwenyezi Mungu Mbora wa waumbaji."
+    },
+    { "resource_id": 49, "text": "Kisha hakika nyinyi baada ya hayo mtakufa." },
+    {
+      "resource_id": 49,
+      "text": "Kisha hakika nyinyi Siku ya Kiyama mtafufuliwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na kwa yakini tumeziumba juu yenu njia saba. Nasi hatukuwa wenye kughafilika na viumbe."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na tumeteremsha kutoka mbinguni maji kwa kiasi na tukayatuliza katika ardhi. Na hakika Sisi tunaweza kuyaondoa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kwa maji hayo tukakufanyieni bustani za mitende na mizabibu, mnapata humo matunda mengi, na katika hayo mnakula;"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na mti utokao katika mlima wa Sinai, unatoa mafuta na kuwa kitoweo kwa walao."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na hakika mnayo mazingatio makubwa katika nyama hoa - tunakunywesheni katika vile viliomo matumboni mwao, na nyinyi mnapata katika hao manufaa mengi, na pia mnawala."
+    },
+    { "resource_id": 49, "text": "Na juu yao na juu ya marikebu mnabebwa." },
+    {
+      "resource_id": 49,
+      "text": "Na hakika tulimtuma Nuhu kwa watu wake, akasema: Enyi watu wangu! Muabuduni Mwenyezi Mungu. Nyinyi hamna mungu asiye kuwa Yeye. Basi je! Hamwogopi?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Walisema wale wakuu walio kufuru katika watu wake: Huyu si chochote ila ni mtu tu kama nyinyi. Anataka kujipa ubora juu yenu. Na lau kuwa Mwenyezi Mungu amependa basi yakini angeli teremsha Malaika. Hatukusikia haya kwa baba zetu wa zamani."
+    },
+    {
+      "resource_id": 49,
+      "text": "Huyu si lolote ila ni mtu mwenye wazimu. Basi mngojeeni tu kwa muda."
+    },
+    {
+      "resource_id": 49,
+      "text": "Akasema (Nuhu): Mola wangu Mlezi! Ninusuru kwa kuwa wamenikanusha."
+    },
+    {
+      "resource_id": 49,
+      "text": "Tukampa wahyi: Unda jahazi mbele ya macho yetu na uwongozi wetu! Basi itapo fika amri yetu na ikafurika tanuri, hapo waingize ndani yake wa kila namna dume na jike, na ahali zako, isipo kuwa yule ambaye katika wao juu yake imekwisha tangulia kauli. Wala usinitajie hao walio dhulumu. Kwani hao bila ya shaka watazamishwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi utakapo tulia wewe na walio pamoja nawe humo marikebuni, sema: Alhamdulillahi Sifa zote njema ni za Mwenyezi Mungu, aliye tuokoa na watu madhaalimu!"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na sema: Mola wangu Mlezi! Niteremshe mteremsho wenye baraka, na Wewe ni Mbora wa wateremshaji."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika katika hayo yapo mazingatio. Na kwa yakini Sisi ni wenye kuwafanyia mtihani."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha baada yao tukaanzisha kizazi kingine."
+    },
+    {
+      "resource_id": 49,
+      "text": "Tukawapelekea Mtume miongoni mwao, kuwaambia: Muabuduni Mwenyezi Mungu! Hamna mungu asiye kuwa Yeye. Jee, hamwogopi?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na wakubwa katika watu wake walio kufuru na wakakanusha mkutano wa Akhera, na tukawadekeza kwa starehe katika maisha ya dunia, walisema: Huyu si chochote ila ni binaadamu kama nyinyi; anakula mlacho, na anakunywa mnywacho."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na nyinyi mkimt'ii mtu kama nyinyi basi hakika mtakuwa khasarani."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hivyo anakuahidini ati ya kwamba mtakapo kufa na mkawa udongo na mifupa kuwa mtatolewa?"
+    },
+    { "resource_id": 49, "text": "Hayawi! Hayawi hayo mnayo ahidiwa." },
+    {
+      "resource_id": 49,
+      "text": "Hapana ila uhai wetu wa duniani tu, tunakufa na kuishi basi. Wala sisi hatutafufuliwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Huyu si lolote ila ni mtu anaye mzulia Mwenyezi Mungu uwongo, wala sisi sio wa kumuamini."
+    },
+    {
+      "resource_id": 49,
+      "text": "Akasema: Mola wangu Mlezi! Ninusuru kwa sababu wananikanusha."
+    },
+    {
+      "resource_id": 49,
+      "text": "(Mwenyezi Mungu) akasema: Baada ya muda mchache watakuwa wenye kujuta."
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi ukawanyakua ukelele kwa haki, na tukawafanya kama takataka zinazo elea juu ya maji. Ikapotelea mbali kaumu ya madhaalimu!"
+    },
+    { "resource_id": 49, "text": "Kisha tukaleta baada yao vizazi vingine." },
+    {
+      "resource_id": 49,
+      "text": "Hapana umma uwezao kutanguliza ajali yake wala kuikawiza."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha tukawatuma Mitume wetu, mmoja baada ya mmoja. Kila umma alipo wafikia Mtume wao walimkanusha. Tukawafuatanisha hawa baada ya hawa, na tukawafanya ni hadithi za kusimuliwa. Wakapotelea mbali watu wasio amini."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kisha tukamtuma Musa na nduguye, Haaruni, pamoja na ishara zetu na hoja zilizo wazi."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kumwendea Firauni na wakuu wake. Lakini walijivuna, nao walikuwa watu majeuri."
+    },
+    {
+      "resource_id": 49,
+      "text": "Wakasema: Je, tuwaamini wanaadamu wawili hawa kama sisi, na ambao watu wao ni watumwa wetu?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi wakawakanusha, na wakawa miongoni mwa walio angamizwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na hakika tulimpa Musa Kitabu ili wapate kuongoka."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na tukamfanya mwana wa Mariamu na mama yake kuwa ni Ishara, na tukawapa makimbilio kwenda mahali palipo inuka penye utulivu na chemchem za maji."
+    },
+    {
+      "resource_id": 49,
+      "text": "Enyi Mitume! Kuleni vyakula vizuri na tendeni mema. Hakika Mimi ni Mjuzi wa mnayo yatenda."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na kwa yakini huu Umma wenu ni Umma mmoja, na Mimi ni Mola wenu Mlezi, basi nicheni Mimi."
+    },
+    {
+      "resource_id": 49,
+      "text": "Lakini walikatiana jambo lao mapande mbali mbali. Kila kundi likifurahia kwa waliyo nayo."
+    },
+    { "resource_id": 49, "text": "Basi waache katika ghafla yao kwa muda." },
+    {
+      "resource_id": 49,
+      "text": "Je! Wanadhani ya kuwa kwa vile tunavyo wapa mali na watoto"
+    },
+    {
+      "resource_id": 49,
+      "text": "Ndio tunawahimizia kheri? Lakini wenyewe hawatambui."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kwa hakika hao ambao kwa kumwogopa Mola wao Mlezi wananyenyekea,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na wale ambao Ishara za Mola wao Mlezi wanaziamini,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na wale ambao Mola wao Mlezi hawamshirikishi,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na wale ambao wanatoa walicho pewa, na hali nyoyo zao zinagopa kwa kuwa watarejea kwa Mola wao Mlezi,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi wote hao ndio wanao kimbilia katika mambo ya kheri, na ndio watakao tangulia kuyafikia."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na hatuilazimishi nafsi ila kwa kadri ya uwezo wake. Na tunacho kitabu kisemacho kweli. Nao hawatadhulumiwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Lakini nyoyo zao zimeghafilika na hayo, na wanavyo vitendo vinginevyo wanavyo vifanya."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hata tutakapo watia katika adhabu wale walio dekezwa kwa starehe kati yao, hapo ndipo watapo yayatika."
+    },
+    {
+      "resource_id": 49,
+      "text": "Msiyayatike leo! Hakika nyinyi hamtanusurika nasi."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika zilikuwa Aya zangu mkisomewa, nanyi mkirudi nyuma juu ya visigino vyenu,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Na huku mkitakabari na usiku mkiizungumza (Qur'ani) kwa dharau."
+    },
+    {
+      "resource_id": 49,
+      "text": "Je, hawakuifikiri kauli, au yamewajia yasiyo wafikia baba zao wa zamani?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Au hawakumjua Mtume wao, ndio maana wanamkataa?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Au wanasema: Ana wazimu? Bali amewajia kwa Haki, na wengi wao wanaichukia Haki."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na lau kuwa Haki ingeli fuata matamanio yao, basi zingeli haribika mbingu na ardhi na waliomo ndani. Bali tumewaletea ukumbusho wao, nao wanajitenga mbali na ukumbusho wao."
+    },
+    {
+      "resource_id": 49,
+      "text": "Au unawaomba ujira? Lakini ujira wa Mola wako Mlezi ni bora, na Yeye ndiye Mbora wa wanao ruzuku."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na kwa yakini wewe unawaita kwenye Njia Iliyo Nyooka."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na hakika wale wasio iamini Akhera wanajitenga na Njia hiyo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na lau tungeli warehemu na tukawaondolea shida waliyo nayo bila ya shaka wangeli endelea katika upotofu wao vile vile, wakitangatanga."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na hakika tuliwatia adhabu kali; lakini hawakuelekea kwa Mola wao Mlezi wala hawakunyenyekea."
+    },
+    {
+      "resource_id": 49,
+      "text": "Mpaka tulipo wafungulia mlango wa adhabu kali, hapo ndipo wakawa wenye kukata tamaa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na Yeye ndiye aliye kuumbieni kusikia na kuona na nyoyo za kufahamu. Ni kuchache mno kushukuru kwenu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na Yeye ndiye aliye kuenezeni katika ardhi, na kwake Yeye mtakusanywa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na Yeye ndiye anaye huisha na kufisha, na yake Yeye mabadiliko ya usiku na mchana. Basi je! Hamfahamu?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Bali wanasema kama walivyo sema watu wa kwanza."
+    },
+    {
+      "resource_id": 49,
+      "text": "Walisema: Je! Tukisha kufa tukawa udongo na mifupa ndio tutafufuliwa?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Tuliahidiwa haya sisi na baba zetu zamani. Hayakuwa haya ila ni visa vya uwongo vya watu wa zamani."
+    },
+    {
+      "resource_id": 49,
+      "text": "Sema: Ni ya nani ardhi na viliomo ndani yake, kama nyinyi mnajua?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Watasema: Ni vya Mwenyezi Mungu! Sema: Basi, je, hamkumbuki?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Sema: Ni nani Mola Mlezi wa mbingu saba na Mola Mlezi wa A'rshi Kuu?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Watasema: Ni vya Mwenyezi Mungu. Sema: Basi je, hamwogopi?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Sema: Ni nani mkononi mwake umo Ufalme wa kila kitu, naye ndiye anaye linda, wala hakilindwi asicho taka, kama mnajua?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Watasema: (Ufalme huo) ni wa Mwenyezi Mungu. Sema: Basi vipi mnadanganyika?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Bali tumewaletea Haki, na kwa yakini hao ni waongo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Mwenyezi Mungu hana mwana yeyote, wala hanaye mungu mwengine. Inge kuwa hivyo basi kila mungu angeli chukua alivyo umba, na baadhi yao wangeli washinda wengine. Mwenyezi Mungu ameepukana na sifa wanazo msifu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Mjuzi wa siri na dhaahiri, na ametukuka juu ya hayo wanayo mshirikisha nayo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Sema: Mola wangu Mlezi! Ukinionyesha adhabu waliyo ahidiwa,"
+    },
+    {
+      "resource_id": 49,
+      "text": "Mola wangu Mlezi! Usinijaalie katika watu madhaalimu hao."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na hakika Sisi ni waweza wa kukuonyeshsa tuliyo waahidi."
+    },
+    {
+      "resource_id": 49,
+      "text": "Kinga maovu kwa kutenda yaliyo mema zaidi. Sisi tunajua wayasemayo."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na sema: Mola wangu Mlezi! Najikinga kwako na wasiwasi wa mashet'ani."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na najikinga kwako, Mola wangu Mlezi, wasinikaribie."
+    },
+    {
+      "resource_id": 49,
+      "text": "Mpaka yanapo mfikia mmoja wao mauti, husema: Mola wangu Mlezi! Nirudishe."
+    },
+    {
+      "resource_id": 49,
+      "text": "Ili nitende mema sasa badala ya yale niliyo yaacha. Wapi! Hii ni kauli aisemayo yeye tu. Na nyuma yao kipo kizuizi mpaka siku watapo fufuliwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Basi litapo pulizwa baragumu hapo hautakuwapo ujamaa baina yao siku hiyo, wala hawataulizana."
+    },
+    {
+      "resource_id": 49,
+      "text": "Ama wale ambao mizani zao zitakuwa nzito, hao ndio wenye kufanikiwa."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na wale ambao mizani zao zitakuwa nyepesi, hao ndio walio zitia khasarani nafsi zao, na katika Jahannamu watadumu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Moto utababua nyuso zao, nao watakuwa na nyuso zilizo kunjana."
+    },
+    {
+      "resource_id": 49,
+      "text": "Je! Hazikuwa Aya zangu mkisomewa, na nyinyi mkizikanusha?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Mola wetu Mlezi! Tulizidiwa na uovu wetu na tukawa watu tulio potea."
+    },
+    {
+      "resource_id": 49,
+      "text": "Mola wetu Mlezi! Tutoe humu Motoni. Na tufanyapo tena basi kweli sisi ni wenye kudhulumu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Atasema Mwenyezi Mungu: Tokomeeni humo, wala msinisemeze."
+    },
+    {
+      "resource_id": 49,
+      "text": "Bila ya shaka lilikuwapo kundi katika waja wangu likisema: Mola wetu Mlezi! Tumeamini; basi tusamehe na uturehemu, nawe ndiwe Mbora wa wanao rehemu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Lakini nyinyi mliwakejeli hata wakakusahaulisheni kunikumbuka, na mlikuwa mkiwacheka."
+    },
+    {
+      "resource_id": 49,
+      "text": "Hakika Mimi leo nimewalipa kwa vile walivyo subiri. Bila ya shaka hao ndio wenye kufuzu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Atasema: Mlikaa muda gani katika ardhi kwa hisabu ya miaka?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Watasema: Tulikaa siku moja au sehemu ya siku. Basi waulize wanao weka hisabu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Atasema: Nyinyi hamkukaa huko duniani ila kidogo, laiti ingeli kuwa mnajua."
+    },
+    {
+      "resource_id": 49,
+      "text": "Je! Mlidhani ya kwamba tulikuumbeni bure na ya kwamba nyinyi kwetu hamtarudishwa?"
+    },
+    {
+      "resource_id": 49,
+      "text": "Ametukuka Mwenyezi Mungu, Mfalme wa Haki, hapana mungu ila Yeye, Mola Mlezi wa A'rshi Tukufu."
+    },
+    {
+      "resource_id": 49,
+      "text": "Na anaye muomba - pamoja na Mwenyezi Mungu - mungu mwenginewe hana ushahidi wa hili; basi bila ya shaka hisabu yake iko kwa Mola wake Mlezi. Kwa hakika makafiri hawafanikiwi."
+    },
+    {
+      "resource_id": 49,
+      "text": "Nawe sema: Mola wangu Mlezi! Samehe na urehemu nawe ni Mbora wa wanao rehemu."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ali Muhsin Al-Barwani",
+    "author_name": "Ali Muhsin Al-Barwani",
+    "filters": { "resource_id": 49, "chapter_number": "23" }
+  }
+}

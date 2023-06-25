@@ -1,0 +1,30 @@
+{
+  "translations": [
+    { "resource_id": 127, "text": "Айт: «Эй, кофирлар..." },
+    {
+      "resource_id": 127,
+      "text": "Мен сиз ибодат қилган нарсаларга ибодат қилмасман."
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва сизлар ҳам мен ибодат қиладиган нарсага ибодат қилувчимассиз."
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва мен сиз ибодат қилган нарсага ибодат қилувчимасман."
+    },
+    {
+      "resource_id": 127,
+      "text": "Ва сиз ҳам мен ибодат қиладиган нарсага ибодат қилувчимассиз."
+    },
+    {
+      "resource_id": 127,
+      "text": "Сизга ўз динингиз, Менга ўз диним.<sup foot_note=48898>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Sodik Muhammad Yusuf",
+    "author_name": "Muhammad Sodik Muhammad Yusuf",
+    "filters": { "resource_id": 127, "chapter_number": "109" }
+  }
+}

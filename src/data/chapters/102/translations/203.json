@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  The mutual rivalry (for piling up of worldly things) diverts you,"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Until you visit the graves (i.e. till you die)."
+    },
+    { "resource_id": 203, "text": "  Nay! You shall come to know!" },
+    { "resource_id": 203, "text": "  Again nay! You shall come to know!" },
+    {
+      "resource_id": 203,
+      "text": "  Nay! If you knew with a sure knowledge (the end result of piling up, you would not have been occupied yourselves in worldly things)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  Verily, You shall see the blazing Fire (Hell)!"
+    },
+    {
+      "resource_id": 203,
+      "text": "  And again, you shall see it with certainty of sight!"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Then on that Day you shall be asked about the delights<sup foot_note=155063>1</sup> (you indulged in, in this world)!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "102" }
+  }
+}

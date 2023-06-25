@@ -1,0 +1,54 @@
+{
+  "translations": [
+    { "resource_id": 26, "text": "Při noci, když temnem zahaluje," },
+    { "resource_id": 26, "text": "při dni, když v slávě se objevuje," },
+    {
+      "resource_id": 26,
+      "text": "při tom, jenž stvořil mužské i ženské pohlaví,"
+    },
+    { "resource_id": 26, "text": "rozdílné je věru vaše snažení!" },
+    {
+      "resource_id": 26,
+      "text": "Co týče se toho, jenž rozdával a Boha se bál"
+    },
+    {
+      "resource_id": 26,
+      "text": "a za pravdivou nejkrásnější odměnu pokládal,"
+    },
+    { "resource_id": 26, "text": "tomu usnadníme přístup ke snadnému." },
+    {
+      "resource_id": 26,
+      "text": "Však co se týče toho, kdo lakotil a za soběstačného se vydával"
+    },
+    { "resource_id": 26, "text": "a nejkrásnější odměnu za lež pokládal," },
+    { "resource_id": 26, "text": "tomu ulehčíme přístup do nesnází," },
+    {
+      "resource_id": 26,
+      "text": "a co pomůže mu jmění jeho, až dořítí se do své zkázy?"
+    },
+    { "resource_id": 26, "text": "Nám věru přísluší správné vedení," },
+    { "resource_id": 26, "text": "Vždyť Nám patří život první i poslední!" },
+    { "resource_id": 26, "text": "Já varuji vás před ohněm jasně šlehajícím," },
+    { "resource_id": 26, "text": "v němž hořet bude jen ten nejbídnější," },
+    { "resource_id": 26, "text": "jenž za lež to pokládal a zády se obracel." },
+    { "resource_id": 26, "text": "Však vzdálen bude od něho bohabojný," },
+    {
+      "resource_id": 26,
+      "text": "jenž ze jmění svého dával,aby čistým se stal,"
+    },
+    {
+      "resource_id": 26,
+      "text": "a dobrodiní neprokazoval jen proto, aby byl odměněn,"
+    },
+    {
+      "resource_id": 26,
+      "text": "leč jen z touhy po tváři Pána svého nejvyššího to konal."
+    },
+    { "resource_id": 26, "text": "A ten věru bude spokojen." }
+  ],
+  "meta": {
+    "translation_name": "Czech",
+    "author_name": "Czech",
+    "filters": { "resource_id": 26, "chapter_number": "92" }
+  }
+}

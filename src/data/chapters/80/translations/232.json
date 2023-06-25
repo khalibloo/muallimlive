@@ -1,0 +1,108 @@
+{
+  "translations": [
+    {
+      "resource_id": 232,
+      "text": "(Nabbi Muhammad) azze emitaafu, n’akubayo amabega."
+    },
+    { "resource_id": 232, "text": "Muzibe bw’amujjidde." },
+    {
+      "resource_id": 232,
+      "text": "Ki ki ekikumanyisa ob'olyawo (muzibe oyo) aneetukuza."
+    },
+    { "resource_id": 232, "text": "Oba anaabuulirirwa okubuulira nekumugasa." },
+    { "resource_id": 232, "text": "Oyo eyeegaggawaza nga yeematira." },
+    { "resource_id": 232, "text": "Ate ggwe gwe weemalira?" },
+    { "resource_id": 232, "text": "Bw’ateetukuza kiki ekinaakubaako?" },
+    { "resource_id": 232, "text": "So ng’oyo akujjidde ng’ayanguwa." },
+    { "resource_id": 232, "text": "Era ng’atya Katonda." },
+    { "resource_id": 232, "text": "Ate ggwe gw’otofaako." },
+    {
+      "resource_id": 232,
+      "text": "Nedda si bwe kyandibadde, mazima yyo (Kur'ani) kya kwe buulirira."
+    },
+    { "resource_id": 232, "text": "Aba ayagadde yeebuulirira nayo." },
+    { "resource_id": 232, "text": "Eri mu biwandiiko eby’ekitiibwa ennyo." },
+    { "resource_id": 232, "text": "Ebigulumizibwa, ebitukuvu." },
+    {
+      "resource_id": 232,
+      "text": "Ebiri mu mikono gya Ba Malayika abawandiisi."
+    },
+    { "resource_id": 232, "text": "Ab'ebitiibwa, abatukuvu." },
+    {
+      "resource_id": 232,
+      "text": "Omuntu yakolimirwa, ki ki ddala ekimuwakanyisa Katonda?"
+    },
+    {
+      "resource_id": 232,
+      "text": "(Omuntu talaba) kintu ki Katonda mwe yamutonda?"
+    },
+    {
+      "resource_id": 232,
+      "text": "Mu mazzi (e nkwaso) mwe yamutonda n'amugerera (byonna ebiri mutuukako)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Oluvanyuma n’amwanguyiza ekkubo ly’okuzaalibwa;"
+    },
+    {
+      "resource_id": 232,
+      "text": "Bw’amala n’amutta era n’aziikibwa mu kabbuli."
+    },
+    { "resource_id": 232, "text": "Oluvanyuma alimuzuukiza bwaliba ayagadde." },
+    {
+      "resource_id": 232,
+      "text": "Wabula omuntu tatuukiriza ebyo Katonda by’amulagira okukola."
+    },
+    {
+      "resource_id": 232,
+      "text": "Omuntu ateekwa atunuulire by’alya (emitendera gye biyitamu)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima ffe tufuukirira amazzi olufukirira (olusaanidde.)"
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne tulyoka twasa ettaka olwasa         (olusaanira ebimera)."
+    },
+    { "resource_id": 232, "text": "Olwo nno ne tumeza mu lyo      e mpeke." },
+    {
+      "resource_id": 232,
+      "text": "E mizabbibu n’ebimera              e bizimba omubiri."
+    },
+    { "resource_id": 232, "text": "N’emizayituni n’emitende." },
+    {
+      "resource_id": 232,
+      "text": "N’ennimiro ezisaakaatiddemu   (e miti emiwanvu)"
+    },
+    { "resource_id": 232, "text": "N’ebibala n’omuddo oguliibwako e bisolo." },
+    { "resource_id": 232, "text": "Bibagase n’ebisolo bya mmwe." },
+    { "resource_id": 232, "text": "Naye okuboggola bwe kuliba kuzze." },
+    { "resource_id": 232, "text": "Olunaku omuntu lwalidduka mugandawe," },
+    { "resource_id": 232, "text": "Ne maamawe, ne kitaawe." },
+    { "resource_id": 232, "text": "Ne mukyalawe, n’abaanabe." },
+    {
+      "resource_id": 232,
+      "text": "Buli muntu ku lunaku olwo ajja kuba ku nsonga emukwatako yekka."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ebyenyi ebimu ku lunaku olwo bigenda kuba byakaayakana."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nga biriko akamwenyumwenyu, nga bisanyufu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ate ebyenyi ebirala bigenda kuba nga bigubye."
+    },
+    { "resource_id": 232, "text": "Nga ekizikiza kibibisse." },
+    { "resource_id": 232, "text": "Abo nno be baawakanya Katonda, aboonoonyi." }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "80" }
+  }
+}

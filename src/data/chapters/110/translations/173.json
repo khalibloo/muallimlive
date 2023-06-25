@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Lorsque le secours et l’appui d’Allah à ta religion viendra et que la Mecque sera prise, ô Messager,"
+    },
+    {
+      "resource_id": 173,
+      "text": "et que tu verras les gens se convertir groupes après groupes à l’Islam,"
+    },
+    {
+      "resource_id": 173,
+      "text": "sache que ceci est le signe que la fin de ta mission est proche. Célèbre donc la gloire de ton Seigneur, en remerciement pour le bienfait de la victoire et de la conquête, et implore Son pardon. Il accueille en effet le repentir de Ses serviteurs et leur pardonne."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "110" }
+  }
+}

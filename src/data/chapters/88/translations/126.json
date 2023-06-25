@@ -1,0 +1,44 @@
+{
+  "translations": [
+    {
+      "resource_id": 126,
+      "text": "Da li je doprla do tebe vijest o teškoj nevolji? –"
+    },
+    { "resource_id": 126, "text": "kada će se neka lica potištena," },
+    { "resource_id": 126, "text": "premorena, napaćena" },
+    { "resource_id": 126, "text": "u vatri užarenoj pržiti," },
+    { "resource_id": 126, "text": "sa vrela uzavrelog piti," },
+    { "resource_id": 126, "text": "kada drugog jela osim trnja neće imati," },
+    { "resource_id": 126, "text": "koje neće ni ugojiti ni glad utoliti." },
+    { "resource_id": 126, "text": "Neka lica toga dana biće radosna," },
+    { "resource_id": 126, "text": "trudom svojim zadovoljna –" },
+    { "resource_id": 126, "text": "u Džennetu izvanrednome," },
+    { "resource_id": 126, "text": "u kome prazne besjede neće slušati." },
+    { "resource_id": 126, "text": "U njemu su izvor-vode koje teku," },
+    { "resource_id": 126, "text": "u njemu su i divani skupocjeni," },
+    { "resource_id": 126, "text": "i pehari postavljeni," },
+    { "resource_id": 126, "text": "i jastuci poredani," },
+    { "resource_id": 126, "text": "i ćilimi rašireni." },
+    {
+      "resource_id": 126,
+      "text": "Pa zašto oni ne pogledaju kamile – kako su stvorene,"
+    },
+    { "resource_id": 126, "text": "i nebo – kako je uzdignuto," },
+    { "resource_id": 126, "text": "i planine – kako su postavljene," },
+    { "resource_id": 126, "text": "i Zemlju – kako je prostrta?!" },
+    { "resource_id": 126, "text": "Ti poučavaj – tvoje je da poučavaš," },
+    { "resource_id": 126, "text": "ti vlast nad njima nemaš!" },
+    {
+      "resource_id": 126,
+      "text": "A onoga koji glavu okreće i neće da vjeruje,"
+    },
+    { "resource_id": 126, "text": "njega će Allah najvećom mukom mučiti." },
+    { "resource_id": 126, "text": "Nama će se oni, zaista, vratiti" },
+    { "resource_id": 126, "text": "i pred Nama će, doista, račun polagati!" }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "88" }
+  }
+}

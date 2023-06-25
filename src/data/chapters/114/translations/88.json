@@ -1,0 +1,27 @@
+{
+  "translations": [
+    {
+      "resource_id": 88,
+      "text": "Thuaj: “Kërkoj mbështetje te Zoti i njerëzve,<sup foot_note=195930>1</sup>"
+    },
+    { "resource_id": 88, "text": "Sundimtari i njerëzve," },
+    {
+      "resource_id": 88,
+      "text": "i Adhuruari (i vetëm me të drejtë) i njerëzve,"
+    },
+    {
+      "resource_id": 88,
+      "text": "nga sherri i djallit cytës që fshihet (pasi cyt)"
+    },
+    { "resource_id": 88, "text": "e që hedh dyshime në gjokset e njerëzve," },
+    {
+      "resource_id": 88,
+      "text": "(qoftë ai djall) prej xhindeve apo njerëzve!”"
+    }
+  ],
+  "meta": {
+    "translation_name": "Hasan Efendi Nahi",
+    "author_name": "Hasan Efendi Nahi",
+    "filters": { "resource_id": 88, "chapter_number": "114" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "verses": [
+    {
+      "id": 6099,
+      "verse_key": "95:1",
+      "text_uthmani_simple": "والتين والزيتون"
+    },
+    { "id": 6100, "verse_key": "95:2", "text_uthmani_simple": "وطور سينين" },
+    {
+      "id": 6101,
+      "verse_key": "95:3",
+      "text_uthmani_simple": "وهذا البلد الامين"
+    },
+    {
+      "id": 6102,
+      "verse_key": "95:4",
+      "text_uthmani_simple": "لقد خلقنا الانسن فى احسن تقويم"
+    },
+    {
+      "id": 6103,
+      "verse_key": "95:5",
+      "text_uthmani_simple": "ثم رددنه اسفل سفلين"
+    },
+    {
+      "id": 6104,
+      "verse_key": "95:6",
+      "text_uthmani_simple": "الا الذين ءامنوا۟ وعملوا۟ الصلحت فلهم اجر غير ممنون"
+    },
+    {
+      "id": 6105,
+      "verse_key": "95:7",
+      "text_uthmani_simple": "فما يكذبك بعد بالدين"
+    },
+    {
+      "id": 6106,
+      "verse_key": "95:8",
+      "text_uthmani_simple": "اليس الله باحكم الحكمين"
+    }
+  ],
+  "meta": { "filters": { "chapter_number": "95" } }
+}

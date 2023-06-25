@@ -1,0 +1,58 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "Highly exalt the Name of your<a class=\"sup\"><sup>sg </sup></a>Lord, the Most High,"
+    },
+    { "resource_id": 149, "text": "Who created and proportioned;" },
+    { "resource_id": 149, "text": "and Who determined and guided;" },
+    { "resource_id": 149, "text": "and Who brought out the pasture," },
+    { "resource_id": 149, "text": "then turned it into dark debris." },
+    {
+      "resource_id": 149,
+      "text": "We shall make you<a class=\"sup\"><sup>sg </sup></a>recite such that you shall not forget—"
+    },
+    {
+      "resource_id": 149,
+      "text": "except what Allah wills; indeed, He knows whatever is said aloud and whatever is hidden."
+    },
+    {
+      "resource_id": 149,
+      "text": "And We shall ease you<a class=\"sup\"><sup>sg </sup></a>towards ease."
+    },
+    {
+      "resource_id": 149,
+      "text": "So remind<a class=\"sup\"><sup>sg </sup></a>, if reminding can be of benefit."
+    },
+    { "resource_id": 149, "text": "The God-fearing will constantly remember," },
+    { "resource_id": 149, "text": "but the wretched will avoid it—" },
+    { "resource_id": 149, "text": "he who will roast in the Gigantic Fire," },
+    { "resource_id": 149, "text": "then he neither dies nor lives." },
+    {
+      "resource_id": 149,
+      "text": "Surely, successful is the one who has purified himself"
+    },
+    {
+      "resource_id": 149,
+      "text": "and remembered the name of his Lord and prayed."
+    },
+    {
+      "resource_id": 149,
+      "text": "Rather, <span class=\"h\">you</span><a class=\"sup\"><sup>pl </sup></a><span class=\"h\">prefer<sup foot_note=\"81461\">1</sup> </span>the Earlier Life,"
+    },
+    {
+      "resource_id": 149,
+      "text": "though the Hereafter is better and more lasting."
+    },
+    {
+      "resource_id": 149,
+      "text": "Most surely, this is in the former scrolls—"
+    },
+    { "resource_id": 149, "text": "the Scrolls of Abraham and Moses." }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "87" }
+  }
+}

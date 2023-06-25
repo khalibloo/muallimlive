@@ -1,0 +1,35 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "When the earth is shaken violently in its [last] quaking,"
+    },
+    { "resource_id": 85, "text": "when the earth throws out its burdens," },
+    {
+      "resource_id": 85,
+      "text": "when man cries, ‘What is happening to it?’;"
+    },
+    { "resource_id": 85, "text": "on that Day, it will tell all" },
+    {
+      "resource_id": 85,
+      "text": "because your Lord will inspire it [to do so]."
+    },
+    {
+      "resource_id": 85,
+      "text": "On that Day, people will come forward in separate groups to be shown their deeds:"
+    },
+    {
+      "resource_id": 85,
+      "text": "whoever has done an atom’s-weight of good will see it,"
+    },
+    {
+      "resource_id": 85,
+      "text": "but whoever has done an atom’s-weight of evil will see that."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "99" }
+  }
+}

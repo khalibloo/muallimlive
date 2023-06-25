@@ -1,0 +1,50 @@
+{
+  "translations": [
+    { "resource_id": 176, "text": "Allāh giurò sul principio del giorno," },
+    {
+      "resource_id": 176,
+      "text": "e giurò sulla notte quando fa buio e la gente si ritira,"
+    },
+    {
+      "resource_id": 176,
+      "text": "che il tuo Dio non ti ha abbandonato, o Messaggero, e non ti ha ripudiato, come dicono gli idolatri, per un periodo in cui la rivelazione venne interrotta."
+    },
+    {
+      "resource_id": 176,
+      "text": "L'Ultima Dimora è migliore, per te, di quella mondana, poiché contiene una beatitudine eterna e senza fine."
+    },
+    {
+      "resource_id": 176,
+      "text": "Concederà eccellenti grazie a te, al tuo popolo, finché non sarai soddisfatto di ciò che ha concesso a te e al tuo popolo."
+    },
+    {
+      "resource_id": 176,
+      "text": "Ti trovò da piccolo, quando tuo padre morì, e creò per te un rifugio presso tuo nonno Abdul Muttalib, che ti accolse, e poi presso tuo zio Abū Tālib;"
+    },
+    {
+      "resource_id": 176,
+      "text": "ti trovò quando non sapevi cosa fosse né il Libro né la fede, e ti insegnò ciò che non sapevi,"
+    },
+    {
+      "resource_id": 176,
+      "text": "e ti trovò povero e ti concesse ricchezza."
+    },
+    {
+      "resource_id": 176,
+      "text": "Non maltrattare chi ha perduto il proprio padre da piccolo e non umiliarlo,"
+    },
+    {
+      "resource_id": 176,
+      "text": "e non allontanare il mendicante bisognoso,"
+    },
+    {
+      "resource_id": 176,
+      "text": "e sii grato per le grazie di Allāh nei tuoi confronti e divulgale."
+    }
+  ],
+  "meta": {
+    "translation_name": "Italian Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 176, "chapter_number": "93" }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "translations": [
+    { "resource_id": 17, "text": "And (by) the forenoon," },
+    {
+      "resource_id": 17,
+      "text": "And (by) the night when it (comes) with its dark stillness!"
+    },
+    {
+      "resource_id": 17,
+      "text": "In no way has your Lord disregarded you, and in no way has He disfavored you."
+    },
+    {
+      "resource_id": 17,
+      "text": "And indeed the Hereafter will be more charitable (i.e., better) for you than the First (i.e., the present life)."
+    },
+    {
+      "resource_id": 17,
+      "text": "And indeed your Lord will eventually give you so that you will be satisfied."
+    },
+    {
+      "resource_id": 17,
+      "text": "Did He not find you an orphan, so He gave (you) an abode,"
+    },
+    {
+      "resource_id": 17,
+      "text": "And He found you erring, so He guided (you),"
+    },
+    {
+      "resource_id": 17,
+      "text": "And He found you in want, so He enriched (you)?"
+    },
+    {
+      "resource_id": 17,
+      "text": "Then, as for the orphan, then do not subdue (him),"
+    },
+    {
+      "resource_id": 17,
+      "text": "And as for the beggar, then do not scold (him);"
+    },
+    {
+      "resource_id": 17,
+      "text": "And as for your Lord's favor, then discourse about it! (i.e., proclaim it)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Ghali",
+    "author_name": "Dr. Ghali",
+    "filters": { "resource_id": 17, "chapter_number": "93" }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "translations": [
+    {
+      "resource_id": 85,
+      "text": "Have you heard tell [Prophet] about the Overwhelming Event?"
+    },
+    { "resource_id": 85, "text": "On that Day, there will be downcast faces," },
+    { "resource_id": 85, "text": "toiling and weary," },
+    { "resource_id": 85, "text": "as they enter the blazing Fire" },
+    {
+      "resource_id": 85,
+      "text": "and are forced to drink from a boiling spring,"
+    },
+    {
+      "resource_id": 85,
+      "text": "with no food for them except bitter dry thorns"
+    },
+    { "resource_id": 85, "text": "that neither nourish nor satisfy hunger." },
+    {
+      "resource_id": 85,
+      "text": "On that Day there will also be faces radiant with bliss,"
+    },
+    { "resource_id": 85, "text": "well pleased with their labour," },
+    { "resource_id": 85, "text": "in a lofty garden," },
+    { "resource_id": 85, "text": "where they will hear no idle talk," },
+    { "resource_id": 85, "text": "with a flowing spring," },
+    { "resource_id": 85, "text": "raised couches," },
+    { "resource_id": 85, "text": "goblets placed before them," },
+    { "resource_id": 85, "text": "cushions set in rows," },
+    { "resource_id": 85, "text": "and carpets spread." },
+    {
+      "resource_id": 85,
+      "text": "Do the disbelievers not see how rain clouds are formed <sup foot_note=77646>1</sup>"
+    },
+    { "resource_id": 85, "text": "how the heavens are lifted," },
+    { "resource_id": 85, "text": "how the mountains are raised high," },
+    { "resource_id": 85, "text": "how the earth is spread out?" },
+    {
+      "resource_id": 85,
+      "text": "So [Prophet] warn them: your only task is to give warning,"
+    },
+    { "resource_id": 85, "text": "you are not there to control them." },
+    { "resource_id": 85, "text": "As for those who turn away and disbelieve," },
+    {
+      "resource_id": 85,
+      "text": "God will inflict the greatest torment upon them."
+    },
+    { "resource_id": 85, "text": "It is to Us they will return," },
+    {
+      "resource_id": 85,
+      "text": "and then it is for Us to call them to account."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdul Haleem",
+    "author_name": "Abdul Haleem",
+    "filters": { "resource_id": 85, "chapter_number": "88" }
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "translations": [
+    { "resource_id": 30, "text": "Taa Haa." },
+    {
+      "resource_id": 30,
+      "text": "Emme ole lähettänyt sinulle Koraania tehdäksemme sinua onnettomaksi,"
+    },
+    {
+      "resource_id": 30,
+      "text": "vaan jotta se olisi kehoitus Jumalaa pelkääville,"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hänen lähettämänsä, joka on luonut taivaan korkeudet ja maan."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hänelle, Armahtajalle, joka on noussut valtaistuimelleen,"
+    },
+    {
+      "resource_id": 30,
+      "text": "kuuluu kaikki, mitä on taivaassa ja mitä on maan päällä, mitä on niiden välillä ja maan alla."
+    },
+    {
+      "resource_id": 30,
+      "text": "Siksi ei sinun tarvitse rukoilla kovalla äänellä; sillä Hän tietää yhtä hyvin salaisen ja kätketyn."
+    },
+    {
+      "resource_id": 30,
+      "text": "Ei ole muita jumalia kuin Jumala; hänelle kuuluvat ihanimmat nimitykset."
+    },
+    { "resource_id": 30, "text": "Oletko kuullut kertomusta Mooseksesta?" },
+    {
+      "resource_id": 30,
+      "text": "Kun hän näki tulen, hän lausui perheelleen: »Malttakaa! Minä totisesti näen tulen. Ehkä hankin siitä teille virikeliekin tai kenties saan sen kautta johdatuksen.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Kun hän sitten lähestyi tulta, kuului ääni: »Oi Mooses!"
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, Minä olen sinun Herrasi. Riisu kenkäsi, sillä olet pyhässä Tuwan laaksossa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Minä olen valinnut sinut, kuule siis, mitä sinulle ilmaistaan."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, Minä olen Jumala, eikä ole muuta jumalaa kuin Minä. Sentähden palvele Minua ja suorita rukouksesi pitäen Minut mielessäsi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, hetki lähestyy, Minä vedän sen esiin salasta, ja jokainen sielu saa palkan tekojensa mukaan."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sentähden älä anna sellaisen, joka ei siihen usko ja seuraa vain himojaan, kääntää pois siitä huomiotasi, muuten joudut turmion omaksi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta mitä sinulla on oikeassa kädessäsi, Mooses?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän vastasi: »Se on sauvani. Siihen minä nojaudun ja sillä pudistelen lehtiä maahan lampaitani varten ja käytän sitä muihinkin tarkoituksiin.»"
+    },
+    { "resource_id": 30, "text": "Jumala sanoi: »Heitä se maahan, Mooses!»" },
+    {
+      "resource_id": 30,
+      "text": "Niin hän heitti sen maahan, ja katso, siitä tuli mateleva käärme."
+    },
+    {
+      "resource_id": 30,
+      "text": "Jumala sanoi: »Ota se käteesi äläkä pelkää! Me muutamme sen jälleen entiseen tilaansa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Ja purista kätesi kainaloosi, niin se käy kokonaan valkeaksi, ei kuitenkaan taudin tartuttamaksi - tämä on toinen merkki."
+    },
+    {
+      "resource_id": 30,
+      "text": "Tämä siksi, että Me voisimme näyttää sinulle joitakin suurimpia merkkejämme."
+    },
+    {
+      "resource_id": 30,
+      "text": "Lähde faraon luokse. Totisesti, hän on paisunut yli mittojensa.»"
+    },
+    { "resource_id": 30, "text": "Mooses sanoi: »Herrani, vahvista mieltäni," },
+    { "resource_id": 30, "text": "järjestä tehtäväni minulle helpoksi" },
+    { "resource_id": 30, "text": "ja avaa kieleni siteet," },
+    { "resource_id": 30, "text": "jotta he ymmärtäisivät puheeni." },
+    { "resource_id": 30, "text": "Anna minulle avukseni joku perheestäni," },
+    { "resource_id": 30, "text": "Aaron veljeni;" },
+    { "resource_id": 30, "text": "ja tue minua hänen kauttansa," },
+    { "resource_id": 30, "text": "sekä tee hänet osalliseksi tehtävääni," },
+    {
+      "resource_id": 30,
+      "text": "jotta voisimme suuresti Sinun kunniaasi kirkastaa"
+    },
+    { "resource_id": 30, "text": "ja että voisimme Sinua alati muistaa." },
+    { "resource_id": 30, "text": "Totisesti, Sinä valvot meitä valppaasti.»" },
+    {
+      "resource_id": 30,
+      "text": "Jumala lausui: »Tapahtukoon sinulle, mitä pyydät, Mooses!"
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, jo kerran aikaisemmin Me olemme kohdistanut sinuun suosiomme,"
+    },
+    { "resource_id": 30, "text": "kun käskimme äitiäsi näin sanoen:" },
+    {
+      "resource_id": 30,
+      "text": "'Laske hänet vasuun ja aseta vasu veteen, niin että virta työntää hänet rannalle, jolloin eräs, joka on sekä Minun että hänen vihollisensa, nostaa hänet ylös.' Ja Minä olen osoittanut sinulle rakkauttani, jotta sinut, kasvatettaisiin silmieni edessä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Kun sisareni kulki ohi ja sanoi: 'Näytänkö teille jonkun, joka hänestä huolehtii?' niin Me toimitimme sinut äitisi huostaan, jotta hänen silmänsä kirkastuisivat ja ettei hän enää murehtisi. Sinä tapoit erään miehen, mutta Me pelastimme sinut hädästä, Me karkaisimme sinua myös kurituksella. Senjälkeen sinä viivyit muutamia vuosia Midianin asukkaitten keskuudessa. Ja nyt saavuit käskystämme tänne, oi Mooses."
+    },
+    { "resource_id": 30, "text": "Minä olen valinnut sinut Itseäni varten." },
+    {
+      "resource_id": 30,
+      "text": "Menkää, sinä ja veljesi, viemään Minun merkkejäni ja pitäkää Minut herkeämättä mielessänne."
+    },
+    {
+      "resource_id": 30,
+      "text": "Lähtekää kumpikin faraon luokse, sillä totisesti, hän on paisunut."
+    },
+    {
+      "resource_id": 30,
+      "text": "Puhukaa hänelle sitten sävyisästi, ehkä hän ottaa siitä vaarin tai kavahtaa.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "He sanoivat: »Herra, me pelkäämme, että hän kiihtyy pahasti meitä vastaan tai rikkoo Sinua vastaan.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Jumala vastasi: »Alkää pelätkö, totisesti, Minä olen kanssanne. Minä kuulen ja minä näen."
+    },
+    {
+      "resource_id": 30,
+      "text": "Menkää sentähden yhdessä hänen eteensä ja sanokaa: 'Totisesti, me olemme Herrasi lähettiläitä. Lähetä siis Israelin lapset meidän mukanamme äläkä aiheuta heille kärsimyksiä. Olemme tulleet sinun luoksesi tuomaan tunnusmerkkejä Herraltasi. Rauha olkoon sille, joka seuraa johdatusta."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, meille on ilmoitettu, että rangaistus on varmaan kohtaava sitä, joka puhuu valhetta ja kääntyy pois.'»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän sanoi: »Oi Mooses, kuka onkaan teidän kummankin Herra?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän vastasi: »Meidän Herramme on Hän, joka loi kaiken muotoihinsa ja sitten ylläpitää sitä kaitselmuksen kautta.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän sanoi:»Millainen onkaan aikaisempien sukupolvien olotila?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mooses vastasi: »Tiedot heistä ovat Herrani luona olevassa Kirjassa. Herrani ei erehdy eikä unohda."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän on luonut maan teidän kehdoksenne ja aukonut siihen polkuja teitä varten; ja Hän lähettää teille sateen pilvistä.» Niin olemme myös verhonnut maan monenlaisilla kasveilla."
+    },
+    {
+      "resource_id": 30,
+      "text": "Syökää niitä itse ja ruokkikaa niillä karjaanne. Totisesti, tässä on merkkejä sellaisille, joilla on ymmärrystä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Maasta me teidät loimme, maaksi teidät jälleen muutamme ja maasta Me vielä kerran teidät eloon herätämme."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, Me näytimme hänelle kaikki merkkimme, mutta hän selitti ne vaiheeksi ja torjui ne."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän sanoi: »Oi Mooses, oletko tullut luoksemme karkoittaaksesi meidät taikakeinoillasi pois maastamme?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Siinä tapauksessa aiomme käyttää sinua vastaan samanlaista taikakeinoa. Ehdota siis määrähetki, josta emme poikkea, et sinä emmekä me, ja jolloin kohtaamme toisemme jollakin keskeisellä paikalla.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mooses lausui: »Määrähetki olkoon teidän juhlapäivänänne, jolloin kansa kokoontukoon jo aamulla.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Senjälkeen farao vetäytyi pois, teki suunnitelmansa ja palasi takaisin."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mooses lausui heille: »Voi teitä! Älkää keksikö juonia Jumalaa vastaan, sillä Hän tuhoaa teidät rangaistuksellaan; totisesti ei ole toivomaansa menestystä sillä, joka juonia punoo.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Sitten he kiistelivät asiasta keskenänsä ja pitivät salaista neuvottelua."
+    },
+    {
+      "resource_id": 30,
+      "text": "Jotkut heistä sanoivat: »Nämä kaksi miestä ovat totisesti taikureita, jotka noituudellaan haluavat karkoittaa teidät pois maastanne ja hävittää teidän sivistyneet tapanne."
+    },
+    {
+      "resource_id": 30,
+      "text": "Senvuoksi saattakaa suunnitelmanne valmiiksi ja astukaa riveihin! Totisesti, onnellinen se, joka tänään voittaa."
+    },
+    {
+      "resource_id": 30,
+      "text": "He sanoivat: »Oi Mooses, heitätkö sinä, vai teemmekö me sen ensiksi?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän vastasi: »Ei, heittäkää te!» Kun he niin tekivät, näytti hänestä, heidän taikuutensa voimasta, aivan kuin heidän köytensä ja sauvansa todella liikkuisivat."
+    },
+    { "resource_id": 30, "text": "Silloin Mooses tunsi pelkoa sydämessään." },
+    {
+      "resource_id": 30,
+      "text": "Me sanoimme: »Älä pelkää, sinä pääset varmasti voitolle."
+    },
+    {
+      "resource_id": 30,
+      "text": "Heitä maahan, mitä sinulla on oikeassa kädessäsi, ja se on nielevä kaiken, mitä he ovat tehneet. He ovat suorittaneet pelkän taikurin tempun, mutta taikuri ei ole koskaan menestyvä, minne tahansa hän meneekin.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Ja taikurit lankesivat maahan kunnioituksesta ja sanoivat: »Me uskomme Aaronin ja Mooseksen Herraan.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Silloin lausui farao: »Uskotteko te häneen ennenkuin minä annan teille luvan? Totisesti, hän on teidän mestarinne, joka on opettanut teille noituutta. Sentähden minä olen leikkaava teiltä käden ja jalan vastakkaisilta puolilta ja naulitseva teidät palmunrunkoon. Tctisesti, silloin tiedätte, kuka meistä on kurittamisessa ankarin ja sitkein.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "He vastasivat: »Emme voi todellakaan asettaa sinua korkeammalle kuin sen, mikä meille on ilmaistu selvin tunnusmerkein, emmekä Hänen yläpuolelleen, joka meidät on luonut. Pane siis päätöksesi täytäntöön, kuten aiot. Sinun määräyksesi ulottuvat vain tämän maailman elämään."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, me uskomme Herraamme, että Hän voi antaa anteeksi syntimme ja noituuden, mihin sinä meidät pakotit. Jumala on paras ja pysyvin.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, joka saapuu Herransa eteen synnin tilassa, häntä varten on helvetti. Siellä hän ei voi kuolla eikä liioin elää."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta joka saapuu Hänen eteensä uskovaisena, hyviä töitä suoritettuaan, hän kuuluu niihin, joita varten on korkein kunnia,"
+    },
+    {
+      "resource_id": 30,
+      "text": "ikuiset puutarhat, joiden kautta joet virtaavat ja joissa he saavat alati asua. Tällaisen palkinnon saa se, joka tekee parannuksen."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, Me annoimme Moosekselle näin kuuluvan käskyn: »Lähde matkaan palvelijaini kanssa yöaikaan ja avaa heille kuiva tie meren halki. Älä pelkää, että sinut saavutetaan, vaan kulje säikkymättä eteenpäin."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta farao ajoi heitä sotajoukkoineen takaa, ja silloin meri peitti heidät alleen, hukuttaen kaikki."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sillä farao johti kansansa harhaan eikä opastanut sitä oikealle tielle."
+    },
+    {
+      "resource_id": 30,
+      "text": "»Oi Israelin lapset! Totisesti, Me pelastimme teidät vihollisistanne ja teimme kanssanne liiton vuoren oikealla puolella sekä lähetimme teille mannaa ja peltopyitä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Syökää kaikkea hyvää, mitä olemme ravinnoksenne suonut, mutta älkää menkö hillittömyyksiin, ettei vihani lankea päällenne, sillä ketä minun vihani kohtaa, hän totisesti hukkuu."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta Minä olen peräti anteeksiantavainen sitä kohtaan, joka kääntyy ja uskoo sekä tekee hyvää ja pysyy jatkuvasti oikealla tiellä."
+    },
+    {
+      "resource_id": 30,
+      "text": "»Mutta miksi olet kiirehtinyt pois kansasi luota,oi Mooses?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän vastasi: »He seuraavat jälkiäni, ja minä kiiruhdan luoksesi, oi Herra, jotta olisit minuun tyytyväinen.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Silloin Herra lausui: »Totisesti, olemme koetellut kansaasi sinun poistuttuasi, sillä Saamiri on johdattanut sen harhaan.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Silloin Mooses palasi kansansa luokse täynnä kiivautta ja murhetta. Hän sanoi: »Oi kansani, eikö Herranne antanut teille ihanan lupauksen? Näyttikö sovittu aika teistä liian pitkältä? Vai toivoitteko Herran vihan lankeavan päällenne, koska rikoitte minulle tekemänne lupauksen?"
+    },
+    {
+      "resource_id": 30,
+      "text": "He vastasivat: »Me emme rikkoneet lupausta omasta tahdostamme, vaan meidät pakotettiin kantamaan raskaat taakat kansan koristeita ja heittämään ne tuleen, ja Saamiri teki samoin.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Siten Saamiri valmisti heille (kulta)vasikan, josta lähti kumea ääni. Ja he sanoivat: »Tämä on teidän jumalanne ja Mooseksen jumala, mutta hän on sen unohtanut.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Eivätkö he huomanneet, että se ei puhunut heille ainoatakaan sanaa, ja ettei sillä ollut valtaa tehdä heille vahinkoa eikä hyvääkään?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Tosin oli Aaron jo aikaisemmin heille puhunut: »Oi kansani! Näin olette hankkineet itsellenne koettelemuksen. Mutta totisesti, Herranne on kaikkein armollisin, sentähden seuratkaa minua ja totelkaa käskyäni.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "He vastasivat: »Emme lakkaa sitä palvelemasta, ennen kuin Mooses palaa luoksemme.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mooses lausui: »Oi Aaron! Kun näit heidän joutuvan harhaannukseen,"
+    },
+    {
+      "resource_id": 30,
+      "text": "mikä esti sinua seuraamasta minua? Etkö tottele käskyäni?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän vastasi: »Oi äitini poika! Älä tartu partaani äläkä päähäni. Pelkäsin todella sinun sanovan: 'Olet aikaansaanut hajaannusta Israelin lasten keskuudessa odottamatta minun ratkaisuani.'»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mooses sanoi: »Miten on sinun laitasi, oi Saamiri?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän vastasi: »Minä näin, mitä he eivät nähneet; otin pölyä lähettilään jalanjäljistä, mutta sitten heitin sen pois. Tämä näytti parhaalta mielestäni.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Mooses lausui: »Mene matkaasi, osasi on tässä elämässä sanoa: 'Älkää minuun koskeko!' Totisesti, sinua varten on määrähetki, jota et voi välttää. Katso jumalaasi, jota niin kauan palvelit, Me poltamme sen ja sitten sirotamme tuhkan mereen.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Jumalanne on ainoa Jumala: Hänen rinnallaan ei ole muuta jumalaa. Hän sulkee tietoonsa kaikki asiat."
+    },
+    {
+      "resource_id": 30,
+      "text": "Näin olemme kertonut sinulle siitä, mitä aikaisemmin on tapahtunut, ja olemme antanut sinulle muistutuksen Itsestämme,"
+    },
+    {
+      "resource_id": 30,
+      "text": "joka kääntyy pois, saa ylösnousemuksen päivänä kantaa taakkansa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Ikuisesti he saavat sitä tehdä, ja surkea on heidän kuormansa oleva ylösnousemuksen päivänä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sinä päivänä puhalletaan pasuunoihin, ja Me kokoamme syntiset sokaistuina."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hiljaa he silloin puhuvat toisillensa ja sanovat: »Olette viipyneet vain kymmenen (päivää).»)"
+    },
+    {
+      "resource_id": 30,
+      "text": "Me tiedämme parhaiten, mitä he sanovat, kun lujauskoisin heistä lausuu: »Ette ole viipyneet kuin päivän.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Ja he tekevät sinulle kysymyksiä vuorista. Vastaa: »Herrani on hajoittava ne perustuksiaan myöten.»"
+    },
+    { "resource_id": 30, "text": "Niiden paikalle Hän jättää aution erämaan," },
+    {
+      "resource_id": 30,
+      "text": "jossa et ole näkevä kohokohtaa etkä kukkulaa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sinä päivänä he seuraavat kutsujaa, joka kulkee suoraa tietä. Silloin heidän äänensäkin vaimentuvat laupeimman Jumalan edessä, niin että voit kuulla vain hiljaista sorinaa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Sinä päivänä ei kenenkään puoltopuheesta ole hyötyä, ellei laupein Jumala häntä hyväksy tai mielisty hänen sanoihinsa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän tietää, mitä heillä on edessään ja mitä takanaan, mutta heidän tietonsa ei tätä käsitä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Ja kaikki kasvot nöyrtyvät ikuisesti elävän, ikuisesti pysyvän edessä. Ja turmioon joutuu se, joka vääryyttä harjoittaa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta ken tekee hyvää ja on uskovainen, hänen ei tarvitse pelätä vääryyttä eikä ansionsa menetystä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Tällä tavoin me olemme lähettänyt maan päälle arabiankielisen Koraanin ja selittänyt eri tavoin niitä seikkoja, joilla heitä on uhattu, jotta he hartautta harjoittaisivat tai tulisivat ymmärtäväisiksi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Ylevä korkeudessaan on Jumala, Kuningas, Totuus. Mutta, Muhammed, älä pidä kiirettä Koraanin suhteen, ennen kuin se täydellisesti on sinulle ilmoitettu. Sano: »Herra, avarra minua tiedossa!»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, jo aikaisemmin Me annoimme käskymme Aadamille, mutta hän unohti sen, emmekä havainnut hänessä lujaa kestävyyttä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Kun sanomme enkeleille: »Kumartakaa ihmistä (Aadamia)», niin he kumarsivat muut paitsi Iblis (saatana), tämä kieltäytyi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Senvuoksi sanoimme: »Oi ihminen (Aadam), totisesti, tämä on sinun ja vaimosi vihollinen. Älä anna hänen karkoittaa teitä puutarhasta (paratiisista), sillä silloin tulet onnettomaksi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Totisesti, puutarhassa sinun ei tarvitse nähdä nälkää eikä olla vaatteita vailla."
+    },
+    {
+      "resource_id": 30,
+      "text": "Eikä sinun tarvitse olla janoissasi eikä auringonpaahteessa.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Silloin saatana vietteli heidät sanoen: »Oi ihminen (Aadam), näytänkö sinulle kuolemattomuuden puun ja kuningaskunnan, joka ei häviä?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Niin kumpikin söi siitä, jolloin heidän alastomuutensa ilmeni heille ja he alkoivat peitellä itseään puutarhan lehdillä. Siten ihminen (Aadam) oli tottelematon Herralleen ja lankesi syntiin."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta senjälkeen hänen Herransa valitsi hänet jälleen, kääntyi hänen puoleensa ja antoi hänelle johdatuksensa."
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän lausui: »Lähtekää kumpikin täältä maan päälle, ja teistä tulee toistenne viholliset. Kun lähetän teille johdatukseni, niin se, joka sitä seuraa, ei joudu harhaan eikä tule onnettomaksi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Mutta joka kääntää selkänsä Minun varoitukselleni, hänen on eläminen ahdingossa, ja sokeana hän herää ylösnousemuksen päivään.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Hän on sanova: »Herra, miksi herätit minut sokeana, vaikka aikaisemmin olin näkevä?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Herra vastaa: »Niin on. Sinä sait merkkimme, mutta ylenkatsoit ne, ja juuri senvuoksi Me nyt hylkäämme sinut.»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Tällä tavoin me palkitsemme sitä, joka on hillitön eikä usko Herransa ilmoituksiin. Tulevan päivän kuritus on vielä raskaampi ja jatkuvampi."
+    },
+    {
+      "resource_id": 30,
+      "text": "Eivätkö he tiedä, että olemme tuhonnut niin monta ennen heitä elänyttä sukupolvea, joiden asuinsijoilla he kuljeskelevat? Totisesti tässä on merkkejä niille, joilla on ymmärrystä."
+    },
+    {
+      "resource_id": 30,
+      "text": "Ellei Herrasi sana olisi edellä käynyt, olisi heidän tuhonsa jo tullut, mutta heidän hetkensä on määrätty."
+    },
+    {
+      "resource_id": 30,
+      "text": "Siksi kestä kärsivällisesti mitä he puhuvat, ja ylistä Herraasi kiittämällä Häntä ennen auringonnousua ja ennen sen laskua, ja yön hetkinä ylistä Häntä samoin kuin päivän tunteina, jotta tulisit hyvälle mielelle."
+    },
+    {
+      "resource_id": 30,
+      "text": "Älä käännä silmiäsi tämän maailman elämän loistoa kohti, josta olemme antanut muutamien nauttia, voidaksemme heitä koetella. Sillä Herrasi antimet ovat paremmat ja pysyvämmät."
+    },
+    {
+      "resource_id": 30,
+      "text": "Velvoita kansaasi rukoilemaan ja ole myös itse siinä uuttera. Me emme pyydä sinulta huolenpitoa. Me pidämme huolen sinusta. Ja hurskauden loppu on hyvä."
+    },
+    {
+      "resource_id": 30,
+      "text": "He sanovat: »Miksi hän ei tuo meille merkkiä Herraltansa?» Eikö heille todella ole jo annettu selvä vahvistus aikaisempien kirjoituksien suhteen?"
+    },
+    {
+      "resource_id": 30,
+      "text": "Ja jos olisimme saattanut heidät jonkin vitsauksen alaisiksi ennen profeetan tuloa, he olisivat sanoneet: »Herra, miksi et lähettänyt luoksemme sananjulistajaa, jotta olisimme voineet seurata käskyäsi, ennenkuin meidät masennettiin ja häväistiin?»"
+    },
+    {
+      "resource_id": 30,
+      "text": "Vastaa heille: »Kaikki odottavat, sentähden odottakaa tekin, sillä pian tulette tietämään, ketkä ovat oikean tien kulkijoita ja ketkä ovat saaneet johdatuksen.»"
+    }
+  ],
+  "meta": {
+    "translation_name": "Finnish",
+    "author_name": "Finnish",
+    "filters": { "resource_id": 30, "chapter_number": "20" }
+  }
+}

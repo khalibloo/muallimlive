@@ -1,0 +1,31 @@
+{
+  "translations": [
+    { "resource_id": 87, "text": "ከሁሉ በላይ የኾነውን ጌታህን ስም አሞግሥ፡፡" },
+    { "resource_id": 87, "text": "የዚያን (ሁሉን ነገር) የፈጠረውን ያስተካከለውንም፡፡" },
+    { "resource_id": 87, "text": "የዚያንም የወሰነውን፡፡ (ለተፈጠረለት ነገር) የመራውንም፡፡" },
+    { "resource_id": 87, "text": "የዚያንም ግጦሽን (ለምለም አድርጎ) ያወጣውን፡፡" },
+    { "resource_id": 87, "text": "(ከዚያ) ደረቅ ጥቁር ያደረገውንም (አምላክ ስም አሞግስ)፡፡" },
+    { "resource_id": 87, "text": "(ቁርኣንን) በእርግጥ እናስነብብሃለን፤ አትረሳምም፡፡" },
+    {
+      "resource_id": 87,
+      "text": "አላህ ከሻው ነገር በስተቀር፡፡ እርሱ ግልጹን የሚሸሸገውንም ሁሉ ያውቃልና፡፡"
+    },
+    { "resource_id": 87, "text": "ለገሪቱም (ሕግጋት) እንገጥምሃለን፡፡" },
+    { "resource_id": 87, "text": "ግሣጼይቱ ብትጠቅም (ሰዎችን) ገሥጽም፡፡" },
+    { "resource_id": 87, "text": "(አላህን) የሚፈራ ሰው በእርግጥ ይገሠጻል፡፡" },
+    { "resource_id": 87, "text": "መናጢውም ይርቃታል፡፡" },
+    { "resource_id": 87, "text": "ያ ታላቂቱን እሳት የሚገባው፡፡" },
+    { "resource_id": 87, "text": "ከዚያም በእርሷ ውስጥ አይሞትም ሕያውም አይኾንም፡፡" },
+    { "resource_id": 87, "text": "የተጥራራ ሰው በእርግጥ ዳነ፡፡" },
+    { "resource_id": 87, "text": "የጌታውንም ስም ያወሳና የሰገደ፡፡" },
+    { "resource_id": 87, "text": "ይልቁንም ቅርቢቱን ሕይወት ትመርጣላችሁ፡፡" },
+    { "resource_id": 87, "text": "መጨረሻይቱ (ሕይወት) በላጭ ሁል ጊዜ ዘውታሪም ስትኾን፡፡" },
+    { "resource_id": 87, "text": "ይህ በፊተኞቹ መጻሕፍት ውስጥ ያልለ ነው፡፡" },
+    { "resource_id": 87, "text": "በኢብራሂምና በሙሳ ጽሑፎች ውስጥ፡፡" }
+  ],
+  "meta": {
+    "translation_name": "Sadiq and Sani",
+    "author_name": "Sadiq and Sani",
+    "filters": { "resource_id": 87, "chapter_number": "87" }
+  }
+}

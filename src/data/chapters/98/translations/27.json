@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Diejenigen von den Leuten der Schrift und den Götzendienern, die ungläubig sind, werden sich nicht (eher von ihrem Unglauben) lösen, bis (daß) der klare Beweis zu ihnen kommt,"
+    },
+    {
+      "resource_id": 27,
+      "text": "ein Gesandter von Allah, der gereinigte Blätter verliest,"
+    },
+    { "resource_id": 27, "text": "in denen rechte Schriften sind." },
+    {
+      "resource_id": 27,
+      "text": "Und diejenigen, denen die Schrift gegeben wurde, haben sich nicht eher gespalten, als bis der klare Beweis zu ihnen gekommen ist."
+    },
+    {
+      "resource_id": 27,
+      "text": "Und nichts anderes wurde ihnen befohlen, als nur Allah zu dienen und (dabei) Ihm gegenüber aufrichtig in der Religion (zu sein), als Anhänger des rechten Glaubens, und das Gebet zu verrichten und die Abgabe zu entrichten; das ist die Religion des rechten Verhaltens."
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, diejenigen unter den Leuten der Schrift und den Götzendienern, die ungläubig sind, werden im Feuer der Hölle sein, ewig darin zu bleiben. Das sind die schlechtesten Geschöpfe."
+    },
+    {
+      "resource_id": 27,
+      "text": "Gewiß, diejenigen aber, die glauben und rechtschaffene Werke tun, das sind die besten Geschöpfe."
+    },
+    {
+      "resource_id": 27,
+      "text": "Ihr Lohn bei ihrem Herrn sind die Gärten Edens, durcheilt von Bächen, ewig und auf immer darin zu bleiben. Allah hat Wohlgefallen an ihnen, und sie haben Wohlgefallen an Ihm; das ist für jemanden, der seinen Herrn fürchtet."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "98" }
+  }
+}

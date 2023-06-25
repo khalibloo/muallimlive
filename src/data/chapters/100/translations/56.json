@@ -1,0 +1,20 @@
+{
+  "translations": [
+    { "resource_id": 56, "text": "以喘息而奔驰的马队盟誓," },
+    { "resource_id": 56, "text": "以蹄发火花的马队盟誓," },
+    { "resource_id": 56, "text": "以早晨出击," },
+    { "resource_id": 56, "text": "卷起尘埃," },
+    { "resource_id": 56, "text": "攻入敌围的马队盟誓," },
+    { "resource_id": 56, "text": "人对于主, 确是孤负的。" },
+    { "resource_id": 56, "text": "他自己对那孤负确是见证的," },
+    { "resource_id": 56, "text": "他对于财产确是酷好的。" },
+    { "resource_id": 56, "text": "难道他不知道吗？当坟中的朽骨被揭发," },
+    { "resource_id": 56, "text": "胸中的秘密被显示的时侯," },
+    { "resource_id": 56, "text": "在那日, 他们的主, 确是彻知他们的。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Translation (Simplified) - Ma Jain",
+    "author_name": "Ma Jian",
+    "filters": { "resource_id": 56, "chapter_number": "100" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "(שבועה) באמצע הבוקר," },
+    { "resource_id": 233, "text": "ובלילה המאפיל." },
+    { "resource_id": 233, "text": "כי ריבונך לא זנח אותך, ולא סלד ממך," },
+    {
+      "resource_id": 233,
+      "text": "וחיי העולם הבא, אכן, עדיפים לך מחיי העולם הזה."
+    },
+    { "resource_id": 233, "text": "וישפיע לך ריבונך מחסדיו עד שתחוש סיפוק." },
+    { "resource_id": 233, "text": "הלא היית יתום ונתן לך מחסה?" },
+    { "resource_id": 233, "text": "והלא חיפשת את הצדק, והדריכך אליה?" },
+    { "resource_id": 233, "text": "והלא היית דל, והפכך עשיר?" },
+    { "resource_id": 233, "text": "לכן, אל תקפח את היתום," },
+    { "resource_id": 233, "text": "ואל תדחה מעליך את מבקש הנדבה," },
+    { "resource_id": 233, "text": "אך, אודות שפע ריבונך כלפיך הרבה לספר" }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "93" }
+  }
+}

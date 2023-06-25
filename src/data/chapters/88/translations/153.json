@@ -1,0 +1,62 @@
+{
+  "translations": [
+    {
+      "resource_id": 153,
+      "text": "Ti è giunta notizia dell’Avvolgente <a class=f><sup foot_note=160600>1</sup></a> ?"
+    },
+    { "resource_id": 153, "text": "Ci saranno in quel Giorno volti umiliati," },
+    { "resource_id": 153, "text": "di spossati e afflitti," },
+    { "resource_id": 153, "text": "che bruceranno nel Fuoco ardente," },
+    {
+      "resource_id": 153,
+      "text": "e saranno abbeverati da una fonte bollente."
+    },
+    {
+      "resource_id": 153,
+      "text": "Per essi non ci sarà altro cibo che il darì‘ <a class=f><sup foot_note=160601>1</sup></a> ,"
+    },
+    { "resource_id": 153, "text": "che non nutre e non placa la fame." },
+    { "resource_id": 153, "text": "Ci saranno in quel Giorno volti lieti," },
+    { "resource_id": 153, "text": "soddisfatti delle loro opere," },
+    { "resource_id": 153, "text": "in un Giardino elevato," },
+    { "resource_id": 153, "text": "in cui non s’odono discorsi vani." },
+    { "resource_id": 153, "text": "Colà vi è una fonte che scorre," },
+    { "resource_id": 153, "text": "colà alti divani," },
+    { "resource_id": 153, "text": "e coppe poste [a portata di mano]" },
+    { "resource_id": 153, "text": "e cuscini assestati" },
+    { "resource_id": 153, "text": "e tappeti distesi." },
+    {
+      "resource_id": 153,
+      "text": "Non riflettono <a class=f><sup foot_note=160602>1</sup></a> sui cammelli e su come sono stati creati,"
+    },
+    { "resource_id": 153, "text": "sul cielo e come è stato elevato," },
+    {
+      "resource_id": 153,
+      "text": "sulle montagne e come sono state infisse <a class=f><sup foot_note=160603>1</sup></a> ,"
+    },
+    { "resource_id": 153, "text": "sulla terra e come è stata distesa?" },
+    {
+      "resource_id": 153,
+      "text": "Ammonisci dunque, ché tu altro non sei che un ammonitore"
+    },
+    {
+      "resource_id": 153,
+      "text": "e non hai autorità alcuna su di loro <a class=f><sup foot_note=160604>1</sup></a> ."
+    },
+    { "resource_id": 153, "text": "Quanto a chi volge le spalle e non crede," },
+    {
+      "resource_id": 153,
+      "text": "Allah lo castigherà con il castigo più grande."
+    },
+    { "resource_id": 153, "text": "In verità a Noi ritorneranno," },
+    {
+      "resource_id": 153,
+      "text": "e allora spetterà a Noi chieder loro conto [delle loro azioni]. <a class=f><sup foot_note=160605>1</sup></a> «l’Avvolgente»:senza alcun dubbio è l’ora del Giudizio. Il termine «al-ghâshiya» che abbiamo tradotto con «avvolgente» significa coprire, avvolgere, attaccare il nemico da ogni lato. <a class=f><sup foot_note=160606>2</sup></a> «darì‘»: pianta spinosa e amarissima tipica dei deserti. <a class=f><sup foot_note=160607>3</sup></a> «Non considerano [quelli che non credono]…» <a class=f><sup foot_note=160608>4</sup></a> «infisse le montagne»: vedi nota a xvi,<a class=f><sup foot_note=160609>5</sup></a> «non hai autorità alcuna su di loro» nel senso di: «non hai nessun potere per costringere chi non crede a farlo». Per quanto riguarda il concetto di autorità letteralmente inteso, si consideri che la sura è meccana (pre-Egira) e che Muhammad (pace e benedizioni su di lui) a cui si rivolge il Sacro testo, non era ancora a capo di una comunità organizzata di credenti."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "88" }
+  }
+}

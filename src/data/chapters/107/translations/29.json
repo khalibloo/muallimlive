@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 29,
+      "text": "(ای پیامبر) آیا کسی‌که روز جزا را تکذیب می‌کند دیده‌ای؟!"
+    },
+    {
+      "resource_id": 29,
+      "text": "پس او (همان) کسی‌که یتیم را (با خشونت از خود) می‌راند."
+    },
+    {
+      "resource_id": 29,
+      "text": "و (دیگران را) به اطعام بی‌نوا (و مسکین) ترغیب و تشویق نمی‌کند."
+    },
+    { "resource_id": 29, "text": "پس وای بر نماز گزاران." },
+    { "resource_id": 29, "text": "همان کسانی‌که از نماز‌شان غافلند." },
+    { "resource_id": 29, "text": "کسانی‌که خودنمایی می‌کنند." },
+    {
+      "resource_id": 29,
+      "text": "و (از پرداخت زکات و) عاریت دادن وسایل ضروری زندگی دریغ می‌ورزند."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hussein Taji Kal Dari",
+    "author_name": "Hussein Taji Kal Dari",
+    "filters": { "resource_id": 29, "chapter_number": "107" }
+  }
+}

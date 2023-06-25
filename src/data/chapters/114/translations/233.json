@@ -1,0 +1,15 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "אמור: אני חוסה בריבון האנשים," },
+    { "resource_id": 233, "text": "מלך האנשים," },
+    { "resource_id": 233, "text": "אלוה האנשים," },
+    { "resource_id": 233, "text": "מפני רשעותו של הלוחש המסתתר" },
+    { "resource_id": 233, "text": "זה המלחש בלבבות של האנשים" },
+    { "resource_id": 233, "text": "מפני השדים והאנשים." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "114" }
+  }
+}

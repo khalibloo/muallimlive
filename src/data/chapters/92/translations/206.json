@@ -1,0 +1,60 @@
+{
+  "translations": [
+    { "resource_id": 206, "text": "By the night when it covers," },
+    { "resource_id": 206, "text": "and by the day when it appears," },
+    { "resource_id": 206, "text": "and by His creation of male and female," },
+    { "resource_id": 206, "text": "surely your efforts are divergent." },
+    {
+      "resource_id": 206,
+      "text": "As for the one who gives in charity and fears Allah,"
+    },
+    { "resource_id": 206, "text": "and truly believes in the best reward," },
+    {
+      "resource_id": 206,
+      "text": "We will make easy for him the way of salvation."
+    },
+    {
+      "resource_id": 206,
+      "text": "But as for the one who is miserly and deems himself self-sufficient,"
+    },
+    { "resource_id": 206, "text": "and denies the best reward," },
+    {
+      "resource_id": 206,
+      "text": "We will make easy for him the way of perdition."
+    },
+    {
+      "resource_id": 206,
+      "text": "His wealth will be of no avail to him when he tumbles [into Hell]."
+    },
+    {
+      "resource_id": 206,
+      "text": "Indeed, it is upon Us to show the right way,"
+    },
+    {
+      "resource_id": 206,
+      "text": "and surely to Us belong the Hereafter and the present life."
+    },
+    { "resource_id": 206, "text": "So I warn you of a raging Fire," },
+    {
+      "resource_id": 206,
+      "text": "none will enter it except the most wretched,"
+    },
+    { "resource_id": 206, "text": "who denied and turned away." },
+    {
+      "resource_id": 206,
+      "text": "But the most righteous will be saved from it,"
+    },
+    { "resource_id": 206, "text": "who spends his wealth to purify himself," },
+    { "resource_id": 206, "text": "not in return for someone’s favors," },
+    {
+      "resource_id": 206,
+      "text": "but to seek the pleasure of his Lord, the Most High."
+    },
+    { "resource_id": 206, "text": "He will surely be well pleased." }
+  ],
+  "meta": {
+    "translation_name": "Ruwwad Center",
+    "author_name": "Ruwwad Center",
+    "filters": { "resource_id": 206, "chapter_number": "92" }
+  }
+}

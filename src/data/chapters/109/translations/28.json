@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 28, "text": "Di: «¡Infieles!" },
+    { "resource_id": 28, "text": "Yo no sirvo lo que vosotros servís," },
+    { "resource_id": 28, "text": "Y vosotros no servís lo que yo sirvo." },
+    { "resource_id": 28, "text": "Yo no sirvo lo que vosotros habéis servido" },
+    { "resource_id": 28, "text": "Y vosotros no servís lo que yo sirvo." },
+    {
+      "resource_id": 28,
+      "text": "Vosotros tenéis vuestra religión y yo la mía»."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "109" }
+  }
+}

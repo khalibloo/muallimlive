@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {
+      "resource_id": 33,
+      "text": "Bukankah kami telah melapangkan dadamu (Muhammad)?"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan kami pun telah menurunkan beban darimu,<sup foot_note=135864>1</sup>"
+    },
+    { "resource_id": 33, "text": "yang memberatkan punggungmu," },
+    {
+      "resource_id": 33,
+      "text": "dan kami tinggikan sebutan (nama)mu<sup foot_note=135865>1</sup> bagimu."
+    },
+    {
+      "resource_id": 33,
+      "text": "Maka sesungguhnya bersama kesulitan ada kemudahan,"
+    },
+    {
+      "resource_id": 33,
+      "text": "sesungguhnya bersama kesulitan ada kemudahan."
+    },
+    {
+      "resource_id": 33,
+      "text": "Maka apabila engkau telah selesai (dari suatu urusan), tetaplah bekerja keras (untuk urusan yang lain),<sup foot_note=135866>1</sup>"
+    },
+    {
+      "resource_id": 33,
+      "text": "dan hanya kepada Tuhanmulah engkau berharap."
+    }
+  ],
+  "meta": {
+    "translation_name": "Indonesian Islamic affairs ministry",
+    "author_name": "Indonesian Islamic affairs ministry",
+    "filters": { "resource_id": 33, "chapter_number": "94" }
+  }
+}

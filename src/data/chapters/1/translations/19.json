@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    { "resource_id": 19, "text": "Praise be to Allah, Lord of the Worlds," },
+    { "resource_id": 19, "text": "The Beneficent, the Merciful." },
+    { "resource_id": 19, "text": "Master of the Day of Judgment," },
+    {
+      "resource_id": 19,
+      "text": "Thee (alone) we worship; Thee (alone) we ask for help."
+    },
+    { "resource_id": 19, "text": "Show us the straight path," },
+    {
+      "resource_id": 19,
+      "text": "The path of those whom Thou hast favoured; Not the (path) of those who earn Thine anger nor of those who go astray."
+    }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "1" }
+  }
+}

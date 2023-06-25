@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 149,
+      "text": "Have you<a class=\"sup\"><sup>sg </sup></a>seen the one who denies the Recompense<sup foot_note=\"81498\">1</sup>?"
+    },
+    { "resource_id": 149, "text": "It is the one who mistreats the orphan" },
+    {
+      "resource_id": 149,
+      "text": "and does not urge<i class=\"s\">(others to serve) </i>food to the destitute<a class=\"sup\"><sup>sg </sup></a>."
+    },
+    { "resource_id": 149, "text": "So woe to the ones who pray—" },
+    { "resource_id": 149, "text": "those who are heedless of their prayers," },
+    {
+      "resource_id": 149,
+      "text": "those who make show<i class=\"s\">(of their deeds) </i>"
+    },
+    {
+      "resource_id": 149,
+      "text": "yet withhold<i class=\"s\">(little) </i>kindnesses<sup foot_note=\"81499\">1</sup>."
+    }
+  ],
+  "meta": {
+    "translation_name": "Fadel Soliman, Bridges’ translation",
+    "author_name": "Fadel Soliman",
+    "filters": { "resource_id": 149, "chapter_number": "107" }
+  }
+}

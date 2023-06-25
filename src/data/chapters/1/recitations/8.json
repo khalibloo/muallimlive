@@ -1,0 +1,16 @@
+{
+  "audio_files": [
+    { "verse_key": "1:1", "url": "Minshawi/Mujawwad/mp3/001001.mp3" },
+    { "verse_key": "1:2", "url": "Minshawi/Mujawwad/mp3/001002.mp3" },
+    { "verse_key": "1:3", "url": "Minshawi/Mujawwad/mp3/001003.mp3" },
+    { "verse_key": "1:4", "url": "Minshawi/Mujawwad/mp3/001004.mp3" },
+    { "verse_key": "1:5", "url": "Minshawi/Mujawwad/mp3/001005.mp3" },
+    { "verse_key": "1:6", "url": "Minshawi/Mujawwad/mp3/001006.mp3" },
+    { "verse_key": "1:7", "url": "Minshawi/Mujawwad/mp3/001007.mp3" }
+  ],
+  "meta": {
+    "reciter_name": "Mohamed Siddiq al-Minshawi",
+    "recitation_style": "Mujawwad",
+    "filters": { "chapter_number": "1" }
+  }
+}

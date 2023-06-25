@@ -1,0 +1,32 @@
+{
+  "translations": [
+    { "resource_id": 120, "text": "শপত তীন আৰু যায়তুনৰ," },
+    { "resource_id": 120, "text": "শপত চিনাই পৰ্বতৰ," },
+    { "resource_id": 120, "text": "শপত এই নিৰাপদ নগৰখনৰ," },
+    {
+      "resource_id": 120,
+      "text": "নিশ্চয় আমি মানুহক সৰ্বোত্তম গঠনত সৃষ্টি কৰিছো,"
+    },
+    {
+      "resource_id": 120,
+      "text": "তাৰ পিছত আমি তাক হীনতাগ্ৰস্থসকলৰ হীনতমত পৰিণত কৰিছো,"
+    },
+    {
+      "resource_id": 120,
+      "text": "কিন্তু যিসকলে ঈমান আনিছে আৰু সত্কৰ্ম কৰিছে তেওঁলোকৰ বাবে আছে নিৰবিচ্ছিন্ন প্ৰতিদান।"
+    },
+    {
+      "resource_id": 120,
+      "text": "এতেকে (হে মানৱ!) ইয়াৰ পিছতো কিহে তোমাক কৰ্মফল দিন সম্পৰ্কে অবিশ্বাসী কৰি তুলে?"
+    },
+    {
+      "resource_id": 120,
+      "text": "আল্লাহেই বিচাৰকসকলৰ মাজত সৰ্বশ্ৰেষ্ঠ বিচাৰক নহয়নে বাৰু?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "author_name": "Shaykh Rafeequl Islam Habibur-Rahman",
+    "filters": { "resource_id": 120, "chapter_number": "95" }
+  }
+}

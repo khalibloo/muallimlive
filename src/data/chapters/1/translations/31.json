@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "resource_id": 31,
+      "text": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux. <sup foot_note=211620>1</sup>"
+    },
+    { "resource_id": 31, "text": "Louange à Allah, Seigneur de l’Univers." },
+    {
+      "resource_id": 31,
+      "text": "Le Tout Miséricordieux, le Très Miséricordieux,"
+    },
+    { "resource_id": 31, "text": "Maître du Jour de la Rétribution." },
+    {
+      "resource_id": 31,
+      "text": "C’est Toi [Seul] que nous adorons, et c’est Toi [Seul] dont nous implorons secours."
+    },
+    { "resource_id": 31, "text": "Guide-nous dans le droit chemin," },
+    {
+      "resource_id": 31,
+      "text": "Le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés. <sup foot_note=211621>1</sup>"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Hamidullah",
+    "author_name": "Muhammad Hamidullah",
+    "filters": { "resource_id": 31, "chapter_number": "1" }
+  }
+}

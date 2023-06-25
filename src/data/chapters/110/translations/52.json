@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 52, "text": "Allah'ın yardımı ve fetih geldiğinde," },
+    {
+      "resource_id": 52,
+      "text": "Ve insanların dalga dalga Allah'ın dinine girdiklerini gördüğünde,"
+    },
+    {
+      "resource_id": 52,
+      "text": "Rabbini öğerek tesbih et, O'ndan bağışlanmanı dile, çünkü O, tevbeleri çok kabul edendir."
+    }
+  ],
+  "meta": {
+    "translation_name": "Elmalili Hamdi Yazir",
+    "author_name": "Elmalili Hamdi Yazir\t",
+    "filters": { "resource_id": 52, "chapter_number": "110" }
+  }
+}

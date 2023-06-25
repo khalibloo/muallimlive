@@ -1,0 +1,12 @@
+{
+  "translations": [
+    { "resource_id": 57, "text": "Inna aAAtaynakaalkawthar" },
+    { "resource_id": 57, "text": "Fasalli lirabbika wanhar" },
+    { "resource_id": 57, "text": "Inna shani-aka huwa al-abtar" }
+  ],
+  "meta": {
+    "translation_name": "Transliteration",
+    "author_name": "Transliteration",
+    "filters": { "resource_id": 57, "chapter_number": "108" }
+  }
+}

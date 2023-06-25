@@ -1,0 +1,21 @@
+{
+  "translations": [
+    {
+      "resource_id": 171,
+      "text": "O Messenger! When the help of Allah arrives for your religion, He honours it, and Makkah is liberated."
+    },
+    {
+      "resource_id": 171,
+      "text": "And you see the people entering into Islam in delegations upon delegations."
+    },
+    {
+      "resource_id": 171,
+      "text": "Then know that is a sign of the nearing of the end of your duty you were sent to fulfil. So glorify your Lord together with praising Him, to show gratitude to Him for the favours of help and victory, and seek His forgiveness, because indeed, He is the Forgiving, who accepts the repentance of His servants and forgives them."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abridged Explanation of the Quran",
+    "author_name": "Tafsir Center of Quranic Studies",
+    "filters": { "resource_id": 171, "chapter_number": "110" }
+  }
+}

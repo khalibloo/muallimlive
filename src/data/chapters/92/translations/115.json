@@ -1,0 +1,69 @@
+{
+  "translations": [
+    {
+      "resource_id": 115,
+      "text": "Inã rantsuwa da dare a lõkacin da yake rufẽwa."
+    },
+    { "resource_id": 115, "text": "Da yini a lõkacin da yake kuranyẽwa." },
+    { "resource_id": 115, "text": "Da abin da ya halitta namiji da mace." },
+    { "resource_id": 115, "text": "Lãlle ne ayyukanku, dabam-dabam suke." },
+    {
+      "resource_id": 115,
+      "text": "To, amma wanda ya yi kyauta, kuma ya yi taƙawa."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma ya gaskata kalma<sup foot_note=132759>1</sup> mai kyãwo."
+    },
+    {
+      "resource_id": 115,
+      "text": "To, zã Mu sauƙaƙe masa har ya kai ga sauƙi."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma amma wanda ya yi rõwa, kuma ya wadãtu da kansa."
+    },
+    { "resource_id": 115, "text": "Kuma ya ƙaryatar da kalma mai kyãwo." },
+    {
+      "resource_id": 115,
+      "text": "To, zã Mu sauƙaƙke masa har ya kai ga tsanani."
+    },
+    {
+      "resource_id": 115,
+      "text": "Kuma dũkiyarsa ba ta wadãtar masa da kõme ba, a lõkacin da ya gangara (a wuta)."
+    },
+    { "resource_id": 115, "text": "Lãlle aikin Mu ne, Mu bayyana shiriya." },
+    { "resource_id": 115, "text": "Kuma lalle ne Lãhira da duniya Namu ne." },
+    {
+      "resource_id": 115,
+      "text": "Sabõda haka, Na yi maku gargaɗi da wuta mai babbaka."
+    },
+    { "resource_id": 115, "text": "Bãbu mai shigarta sai mafi Tabewa" },
+    { "resource_id": 115, "text": "Wanda ya ƙaryata, kuma ya jũya bãya." },
+    {
+      "resource_id": 115,
+      "text": "Kuma mafi taƙawa<sup foot_note=132760>1</sup> zai nisance ta."
+    },
+    {
+      "resource_id": 115,
+      "text": "Wanda yake bãyar da dũkiyarsa, alhãli yana tsarkaka."
+    },
+    {
+      "resource_id": 115,
+      "text": "Alhãli bãbu wani mai wata ni'ima wurinsa wadda ake nẽman sakamakonta."
+    },
+    {
+      "resource_id": 115,
+      "text": "Fãce dai nẽman yardar Ubangijinsa Mafi ɗaukaka."
+    },
+    {
+      "resource_id": 115,
+      "text": "To, lalle ne zai yarda (da sakamakon da zã a bã shi)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abubakar Mahmood Jummi",
+    "author_name": "Abubakar Mahmood Jummi",
+    "filters": { "resource_id": 115, "chapter_number": "92" }
+  }
+}

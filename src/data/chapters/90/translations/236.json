@@ -1,0 +1,35 @@
+{
+  "translations": [
+    { "resource_id": 236, "text": "Xaîi! Gulle$ s temdint a!" },
+    { "resource_id": 236, "text": "U keçç d ilelli, di temdint a." },
+    { "resource_id": 236, "text": "S ubabat akked wayen id iurew!" },
+    { "resource_id": 236, "text": "Ar Nxelq ed amdan d ûûam." },
+    { "resource_id": 236, "text": "Day inwa ur as izmir yiwen?" },
+    { "resource_id": 236, "text": "Iqqaô: \"sgullze$ lerbaê, werrken\"." },
+    { "resource_id": 236, "text": "Day inwa ur t iéôi yiwen?" },
+    { "resource_id": 236, "text": "Day ur as Nefka ara snat wallen," },
+    { "resource_id": 236, "text": "iles, sin icenfiren?" },
+    { "resource_id": 236, "text": "Nenha t di sin iberdan meqqwôen." },
+    { "resource_id": 236, "text": "Ur idhim deg win iulin." },
+    { "resource_id": 236, "text": "Abrid iulin, anwa ara k t imlen?" },
+    { "resource_id": 236, "text": "Aserreê i wakli," },
+    { "resource_id": 236, "text": "ne$ acceççi, di tallit n cceôô," },
+    { "resource_id": 236, "text": "ugujil aqôib," },
+    { "resource_id": 236, "text": "igellil izellîen." },
+    {
+      "resource_id": 236,
+      "text": "Akked tilin seg wid iumnen, i ppemyenhun ar ûûbeô, u ppemyenhun ar lmaênana."
+    },
+    { "resource_id": 236, "text": "Widak d at yeffus." },
+    {
+      "resource_id": 236,
+      "text": "Wid iugin issekniyen nne£, nitni d at zelmev."
+    },
+    { "resource_id": 236, "text": "Times a ppezzi fellasen." }
+  ],
+  "meta": {
+    "translation_name": "Ramdane At Mansour",
+    "author_name": "Ramdane At Mansour",
+    "filters": { "resource_id": 236, "chapter_number": "90" }
+  }
+}

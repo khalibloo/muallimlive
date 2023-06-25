@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 22, "text": "Say: O ye that reject Faith!" },
+    { "resource_id": 22, "text": "I worship not that which ye worship," },
+    { "resource_id": 22, "text": "Nor will ye worship that which I worship." },
+    {
+      "resource_id": 22,
+      "text": "And I will not worship that which ye have been wont to worship,"
+    },
+    { "resource_id": 22, "text": "Nor will ye worship that which I worship." },
+    { "resource_id": 22, "text": "To you be your Way, and to me mine." }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Yusuf Ali",
+    "author_name": "Abdullah Yusuf Ali",
+    "filters": { "resource_id": 22, "chapter_number": "109" }
+  }
+}

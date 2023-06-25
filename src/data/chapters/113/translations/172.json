@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- De ki: Sabahın Rabbine sığınırım ve O'nun himayesini isterim."
+    },
+    {
+      "resource_id": 172,
+      "text": "Mahlûkattan zarar veren şeylerin kötülüklerinden."
+    },
+    {
+      "resource_id": 172,
+      "text": "Gece ortaya çıkan canlıların ve hırsızların kötülüklerinden Allah’a sığınırım."
+    },
+    {
+      "resource_id": 172,
+      "text": "Düğümlere üfleyen büyücü kadınların kötülüklerinden O'na sığınırım."
+    },
+    {
+      "resource_id": 172,
+      "text": "Hasedinin kendisini yapmaya sürüklediği ameli işlediğinde hasetçilerin şerrinden O'na sığınırım."
+    }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "113" }
+  }
+}

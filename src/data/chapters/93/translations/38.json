@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 38, "text": "Ibt ko tnganayk," },
+    { "resource_id": 38, "text": "Go so gagawii igira a lominibotng," },
+    {
+      "resource_id": 38,
+      "text": "Ka da ka ndaraynonn o Kadnan ka (ya Mohammad) go da ka Niyan kararangiti;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go matatangkd a so khawri na tomo rka a di so paganay;"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go matatangkd a mbgang ka dn o Kadnan ka na khasoat ka."
+    },
+    {
+      "resource_id": 38,
+      "text": "Ba ka Niyan da matoon a wata a ilo na piyakisiyap ka Niyan?"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go miyatoong ka Niyan a madadadag na pinggonanao ka Niyan,"
+    },
+    {
+      "resource_id": 38,
+      "text": "Go miyatoon ka Niyan a miskin, na bigang ka Niyan sa kakawasaan."
+    },
+    { "resource_id": 38, "text": "Na so wata a ilo na ding ka phangarasii;" },
+    { "resource_id": 38, "text": "Go so pphamangni na ding ka phrarasnga;" },
+    {
+      "resource_id": 38,
+      "text": "Go so limo o Kadnan ka na pphamanotholang ka!"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maranao",
+    "author_name": "Maranao",
+    "filters": { "resource_id": 38, "chapter_number": "93" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translations": [
+    { "resource_id": 209, "text": "Per il sole e il suo apparire," },
+    { "resource_id": 209, "text": "e la luna quando lo segue," },
+    { "resource_id": 209, "text": "e il giorno quando lo fa brillare," },
+    { "resource_id": 209, "text": "e la notte quando lo oscura," },
+    { "resource_id": 209, "text": "e il cielo e Colui che l'ha eretto," },
+    { "resource_id": 209, "text": "e la terra e Colui che l'ha stesa," },
+    { "resource_id": 209, "text": "e l'anima e come l`ha modellata," },
+    { "resource_id": 209, "text": "ispirandole la trasgressione e il timore:" },
+    { "resource_id": 209, "text": "avrà trionfato chi l'ha purificata" },
+    { "resource_id": 209, "text": "e avrà perso chi l'ha nascosta!" },
+    {
+      "resource_id": 209,
+      "text": "La gente di Thamūd ﴾ثَمُودَ﴿ negò con disprezzo,"
+    },
+    { "resource_id": 209, "text": "quando il peggiore di loro trasgredì." },
+    {
+      "resource_id": 209,
+      "text": "E il Messaggero di Allāh disse loro: \"La Cammella di Allāh e il suo turno di abbeveraggio\"."
+    },
+    {
+      "resource_id": 209,
+      "text": "Ma lo trattarono da bugiardo e la sgozzarono, e il loro Dio li strinse completamente con la Sua punizione per questo peccato,"
+    },
+    { "resource_id": 209, "text": "senza preoccuparsi della loro fine." }
+  ],
+  "meta": {
+    "translation_name": "Othman al-Sharif",
+    "author_name": "Othman al-Sharif",
+    "filters": { "resource_id": 209, "chapter_number": "91" }
+  }
+}

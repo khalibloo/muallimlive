@@ -1,0 +1,124 @@
+{
+  "translations": [
+    { "resource_id": 232, "text": "Beebuuzaganya ku ki?" },
+    { "resource_id": 232, "text": "Ku kigambo e kinene." },
+    { "resource_id": 232, "text": "Ekigambo kye baawukaniramu ddala." },
+    { "resource_id": 232, "text": "Ekyo ssi bwekiri, bajja kumanya." },
+    { "resource_id": 232, "text": "Oluvanyuma nedda bajja kumanyira ddala." },
+    { "resource_id": 232, "text": "Abaffe tetwabafuula e nsi e kyaliiro." },
+    {
+      "resource_id": 232,
+      "text": "N’ensozi ne tuzifuula enkondo       (eziginyweza obutayuuga)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne tubatonda mu ngeri bbiri (omukazi n’omusajja)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne tufuula okwebaka kwa mmwe nga kiwummulo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne tufuula ekiro ekyambalo ekibabikka (olw’enzikiza yaakyo)"
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne tufuula emisana omunoonyezebwa eky’okubabeezaawo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ne tuzimba waggulu wa mmwe emyaliiro emigumu musanvu."
+    },
+    { "resource_id": 232, "text": "Ne tuteekawo ettaala (enjuba) eyaka." },
+    {
+      "resource_id": 232,
+      "text": "Ne tussa okuva mu bire by’enkuba amazzi agafukumuka."
+    },
+    {
+      "resource_id": 232,
+      "text": "Tulyoke tumeze nago empeke n’ebimera (ebirala)."
+    },
+    { "resource_id": 232, "text": "N’amalimiro amasaakaativu." },
+    {
+      "resource_id": 232,
+      "text": "Mazima olunaku lw’okulamula         lwaweebwa e kiseera e kigere."
+    },
+    {
+      "resource_id": 232,
+      "text": "Olwo Lwe lunaku e ngombe lw'erifuuyibwa ne mujja nga muli bibinja."
+    },
+    {
+      "resource_id": 232,
+      "text": "N’eggulu ne liggulwawo ne libeerako e miryango."
+    },
+    {
+      "resource_id": 232,
+      "text": "N’ensozi nezikungunsibwa ne ziba nga ezitabangawo."
+    },
+    { "resource_id": 232, "text": "Mazima omuliro Jahannama weeguli gulinze." },
+    {
+      "resource_id": 232,
+      "text": "Nga bwe buddo bw’abo abamawaggali eri Katonda."
+    },
+    { "resource_id": 232, "text": "Baakugubeeramu byeya na byeya." },
+    {
+      "resource_id": 232,
+      "text": "Nga bali mu gwo tebagenda kufuna buweerero wadde ak'okunywa akaweweeza."
+    },
+    {
+      "resource_id": 232,
+      "text": "Okugyako olweje n’amasira        Ag'olusaayisaayi."
+    },
+    { "resource_id": 232, "text": "Nga y’empeera ebasaanira." },
+    {
+      "resource_id": 232,
+      "text": "Kubanga baali tebasuubira nti walibayo okubalibwa."
+    },
+    { "resource_id": 232, "text": "Ne balimbisa nnyo ebigambo byaffe." },
+    {
+      "resource_id": 232,
+      "text": "So ng’ate buli kintu twakikuuma mu bujjuvu, mu buwandiike."
+    },
+    {
+      "resource_id": 232,
+      "text": "Kale mukombe ku kibabu ky'ebikolwa byammwe kubanga tetujja kubongera okugyako ebibonerezo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima abatya Katonda bajja kufuna okwesiima (okulimu buli kyonna kye baagala)."
+    },
+    { "resource_id": 232, "text": "Amalimiro n’emizabbibu." },
+    { "resource_id": 232, "text": "N’abawala ab’amabeere amatutu." },
+    { "resource_id": 232, "text": "N’amagiraasi agajjudde eby’okunywa." },
+    {
+      "resource_id": 232,
+      "text": "Nga bali mu yo (e jjana) tebagenda kuwulira bigambo bya butaliimu wadde eby’obulimba."
+    },
+    {
+      "resource_id": 232,
+      "text": "Nga y’empeera okuva eri omulezi wo, nga kuweebwa okumatiza."
+    },
+    {
+      "resource_id": 232,
+      "text": "Oyo nanyini Ggulu omusanvu n’ensi n’ebiri wakati wa byombi, oweekisa ekingi, tebalyetantala kwogeraganya naye."
+    },
+    {
+      "resource_id": 232,
+      "text": "Jiburilu ne ba malayika abalala ku lunaku lwe baliyimirira nga bali mu nnyiriri nga bonna tewali ayogera okugyako oyo yekka Katonda omusaasizi, gw’aliba akkiriza okwogera ate n'ayogera bituufu."
+    },
+    {
+      "resource_id": 232,
+      "text": "Olwo lwe lunaku olw’amazima. Omuntu ayagala emirembe alwetegekere afune obuddo eri Katonda we."
+    },
+    {
+      "resource_id": 232,
+      "text": "Mazima tubatiisizza ebibonerezo ebiri okumpi ennyo. Olunaku omuntu lw’aliraba ebyo emikono gye bye gyakola. Ku lunaku olwo omukaafiiri  aligamba: ye nga zinsanze, singa  nfuuse ettaka."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "78" }
+  }
+}

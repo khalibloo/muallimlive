@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 819, "text": "جب اللہ کی مدد آجائے اور فتح" },
+    {
+      "resource_id": 819,
+      "text": "اور تم دیکھو گے کہ لوگ خدا کے دین میں داخل ہورہے ہیں فوج در فوج"
+    },
+    {
+      "resource_id": 819,
+      "text": "تو اپنے رب کی تسبیح کرو اس کی حمد کے ساتھ اور اس سے بخشش مانگو،بے شک وہ بہت معاف کرنے والا ہے"
+    }
+  ],
+  "meta": {
+    "translation_name": "Maulana Wahiduddin Khan",
+    "author_name": "Maulana Wahiduddin Khan",
+    "filters": { "resource_id": 819, "chapter_number": "110" }
+  }
+}

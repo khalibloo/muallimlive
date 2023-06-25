@@ -1,0 +1,74 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Ist zu dir die Geschichte der Überdeckenden gekommen?"
+    },
+    {
+      "resource_id": 27,
+      "text": "(Die einen) Gesichter werden an jenem Tag demütig sein,"
+    },
+    { "resource_id": 27, "text": "sich abarbeitend und von Mühsal erfüllt," },
+    { "resource_id": 27, "text": "einem sehr heißen Feuer ausgesetzt," },
+    {
+      "resource_id": 27,
+      "text": "und aus einer siedenden Quelle zu trinken bekommen."
+    },
+    {
+      "resource_id": 27,
+      "text": "Es wird für sie keine Speise geben außer aus trockenen Dornen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "die weder fett machen noch gegen den Hunger nützen."
+    },
+    {
+      "resource_id": 27,
+      "text": "(Die anderen) Gesichter werden an jenem Tag wonnig sein,"
+    },
+    { "resource_id": 27, "text": "mit ihrem Bemühen zufrieden" },
+    { "resource_id": 27, "text": "und in einem hohen Garten," },
+    { "resource_id": 27, "text": "worin sie keine unbedachte Rede hören." },
+    { "resource_id": 27, "text": "Darin gibt es eine fließende Quelle," },
+    { "resource_id": 27, "text": "darin gibt es erhöhte Liegen" },
+    { "resource_id": 27, "text": "und hingestellte Trinkschalen" },
+    { "resource_id": 27, "text": "und aufgereihte Kissen" },
+    { "resource_id": 27, "text": "und ausgebreitete Teppiche." },
+    {
+      "resource_id": 27,
+      "text": "Schauen sie denn nicht zu den Kamelen, wie sie erschaffen worden sind,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und zum Himmel, wie er emporgehoben worden ist,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und zu den Bergen, wie sie aufgerichtet worden sind,"
+    },
+    {
+      "resource_id": 27,
+      "text": "und zur Erde, wie sie flach gemacht worden ist?"
+    },
+    { "resource_id": 27, "text": "So ermahne; du bist nur ein Ermahner." },
+    {
+      "resource_id": 27,
+      "text": "Du übst nicht die Oberherrschaft über sie aus."
+    },
+    { "resource_id": 27, "text": "Wer sich aber abkehrt und ungläubig ist," },
+    {
+      "resource_id": 27,
+      "text": "den straft dann Allah mit der größten Strafe."
+    },
+    { "resource_id": 27, "text": "Gewiß, zu Uns ist ihre Rückkehr" },
+    {
+      "resource_id": 27,
+      "text": "und gewiß, hierauf obliegt Uns ihre Abrechnung."
+    }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "88" }
+  }
+}

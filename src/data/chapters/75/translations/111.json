@@ -1,0 +1,115 @@
+{
+  "translations": [
+    { "resource_id": 111, "text": "Lakki! Guyyaa Qiyaamaatiinin kakadha." },
+    {
+      "resource_id": 111,
+      "text": "Lubbuu of komattuu taateenis nan kakadha; (mindaa galfamuuf jirtu)"
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila namni lafee isaa walitti hin qabnuu yaadaa?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Eeyyeen (walitti ni qabna)(Nuti) qubbeen isaatuu akka turanitti deebifnee sirreessuu irratti danda'oodha"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti namni fuuldura isaa (Qiyaamaa) sobsiisuu fedha."
+    },
+    { "resource_id": 111, "text": "\"Guyyaan Qiyaamaa yoomii?\"gaafata." },
+    { "resource_id": 111, "text": "(Guyyaan sun) yeroo ijji dhamaatu." },
+    { "resource_id": 111, "text": "(Yeroo) jiini ifa dhabu (gaddiddaa’u)" },
+    { "resource_id": 111, "text": "Aduufi jiinis walitti qabamu." },
+    {
+      "resource_id": 111,
+      "text": "Guyyaa san namni \"bakki baqaa eessa?\" jedha"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhorgamaa! (Guyyaa san) iddoon baqaa hin jiru."
+    },
+    {
+      "resource_id": 111,
+      "text": "Guyyaa san bakki qubannaa gara Gooftaa keetiiti."
+    },
+    {
+      "resource_id": 111,
+      "text": "Namni guyyaa san wanti inni hojjateefi dhiise itti himama"
+    },
+    { "resource_id": 111, "text": "Dhugumatti, namni of irratti ragaadha" },
+    { "resource_id": 111, "text": "Odoma rakkoo adda addaa dhiyeeffateeyyuu" },
+    {
+      "resource_id": 111,
+      "text": "Isa (qabachuu)tti ariifachuuf jecha arraba kee isaan hin sochoosin"
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, isa (onnee kee keessatti) walitti qabuufi isa dubbisuun kee nurra jira."
+    },
+    {
+      "resource_id": 111,
+      "text": ".Yeroo Nuti isa qaraane qiraatii isaa hordofi"
+    },
+    { "resource_id": 111, "text": "Ergasii isa ibsuun Nurra jira." },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, isin ariifattuu (duuniyaa) jaalattu."
+    },
+    { "resource_id": 111, "text": "Aakhiraa ni dhiiftu" },
+    { "resource_id": 111, "text": "Fuulli gariin Guyyaa san iftuudha" },
+    { "resource_id": 111, "text": "Gara Gooftaa ishees ilaaltuudha" },
+    {
+      "resource_id": 111,
+      "text": "Fuulli gariinis Guyyaa san akkaan suntuurtuudha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Balaan guddaan ishee irratti raawwatamuu yaaddi."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhaga’aa! Yeroo (lubbuun ba'uuf) kokkee bira geesse,"
+    },
+    { "resource_id": 111, "text": "(Yeroo) \"eenyutu isa yaala?\" jedhame," },
+    {
+      "resource_id": 111,
+      "text": "(Namni du'aa jiru sun) ‘dhugumatti, inni (addunyaa kana irraa) adda ba'uu dha’ jechuu yeroo mirkaneeffate;"
+    },
+    { "resource_id": 111, "text": "(Yeroo) mogoleen mogoleetti maramte." },
+    {
+      "resource_id": 111,
+      "text": "Guyyaa san oofamiinsi gara Gooftaa keetiiti."
+    },
+    { "resource_id": 111, "text": "Hin amanne; hin salaanne." },
+    { "resource_id": 111, "text": "Garuu kijibsiisee irraa gara gale." },
+    { "resource_id": 111, "text": "Ergasii boonaa gara maatii isaa deeme" },
+    { "resource_id": 111, "text": "Badiin siif haa ta’u! Ammas badiin!" },
+    {
+      "resource_id": 111,
+      "text": "Sana booda badiin siif haa ta’u! Ammas badiin!"
+    },
+    { "resource_id": 111, "text": "Sila namni akkanumaan dhiifamuu yaadaa?" },
+    {
+      "resource_id": 111,
+      "text": "Sila inni bishaan saalaa kan dhangalaafamu irraa ta'ee hin turree?"
+    },
+    {
+      "resource_id": 111,
+      "text": "Ergasii dhiiga ititaa ta'eeti (nama godhee) uumee guute."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isa irraas cimdii lama, dhiiraafi dhalaa, taasise"
+    },
+    {
+      "resource_id": 111,
+      "text": "Sila (Rabbiin akkas godhe) sun du'aa jiraachisuu irratti danda'aa mitii?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "75" }
+  }
+}

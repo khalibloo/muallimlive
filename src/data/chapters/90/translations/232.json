@@ -1,0 +1,62 @@
+{
+  "translations": [
+    { "resource_id": 232, "text": "Ndayira ekibuga kino (Makkah)." },
+    {
+      "resource_id": 232,
+      "text": "Nga naawe (Muhammad) oli mutuuze mu kibuga kino."
+    },
+    { "resource_id": 232, "text": "Era ndayira omuzadde ne baazaala." },
+    {
+      "resource_id": 232,
+      "text": "Mazima twakola omuntu nga lubeerera abeera mu kutawaana."
+    },
+    {
+      "resource_id": 232,
+      "text": "Alowooza nti tewali n’omu ayinza      ku musobola."
+    },
+    {
+      "resource_id": 232,
+      "text": "Ng’agamba nti nsaasanyiza emmaali nyingi nnyo."
+    },
+    { "resource_id": 232, "text": "Alowooza nti tewali n’omu amulaba." },
+    { "resource_id": 232, "text": "Tetwamuwa amaaso abiri." },
+    { "resource_id": 232, "text": "N’olulimi n’emimwa ebiri." },
+    {
+      "resource_id": 232,
+      "text": "Era ne tumulungamya okumanya amakubo abiri (ery'ekirungi n'ery'ekibi)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Kale singa yabikozesa mu kuvvuunuka obizibu (bw'olunaku lw'enkomerero n'aba nga akozesa bye yafuna naafunamu                   e nkomerero)."
+    },
+    {
+      "resource_id": 232,
+      "text": "Abaffe obuzibu obumanyi (n'ekiyinza okubukuyambako)?"
+    },
+    { "resource_id": 232, "text": "Kuta muddu." },
+    { "resource_id": 232, "text": "Oba okuliisa mu kiseera eky’enjala;" },
+    { "resource_id": 232, "text": "Mulekwa, owooluganda olw’okumpi;" },
+    { "resource_id": 232, "text": "Oba omwavu lunkupe." },
+    {
+      "resource_id": 232,
+      "text": "Ate era n’abeera mu abo abakkiriza. Ng’era balaamiragana obugumiikiriza nga bwe balaamiragana okusaasiragana."
+    },
+    {
+      "resource_id": 232,
+      "text": "Abo nno beebo abokubeera ku mukono ogwa ddyo."
+    },
+    {
+      "resource_id": 232,
+      "text": "Naye abo abawakanya               e bigambo byaffe baakubeera ku mukono ogwa kkono."
+    },
+    {
+      "resource_id": 232,
+      "text": "( Bagenda kubeera mu muliro         omusaanikire."
+    }
+  ],
+  "meta": {
+    "translation_name": "African Development Foundation",
+    "author_name": "African Development Foundation",
+    "filters": { "resource_id": 232, "chapter_number": "90" }
+  }
+}

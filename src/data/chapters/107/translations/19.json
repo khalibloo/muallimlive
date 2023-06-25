@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "resource_id": 19,
+      "text": "Hast thou observed him who belieth religion?"
+    },
+    { "resource_id": 19, "text": "That is he who repelleth the orphan," },
+    { "resource_id": 19, "text": "And urgeth not the feeding of the needy." },
+    { "resource_id": 19, "text": "Ah, woe unto worshippers" },
+    { "resource_id": 19, "text": "Who are heedless of their prayer;" },
+    { "resource_id": 19, "text": "Who would be seen (at worship)" },
+    { "resource_id": 19, "text": "Yet refuse small kindnesses!" }
+  ],
+  "meta": {
+    "translation_name": "English Translation (Pickthall)",
+    "author_name": "Mohammed Marmaduke William Pickthall",
+    "filters": { "resource_id": 19, "chapter_number": "107" }
+  }
+}

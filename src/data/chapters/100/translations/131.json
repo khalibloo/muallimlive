@@ -1,0 +1,41 @@
+{
+  "translations": [
+    { "resource_id": 131, "text": "’ By the galloping, panting horses," },
+    {
+      "resource_id": 131,
+      "text": "striking sparks of fire ˹with their hoofs˺,"
+    },
+    { "resource_id": 131, "text": "launching raids at dawn," },
+    { "resource_id": 131, "text": "stirring up ˹clouds of˺ dust," },
+    {
+      "resource_id": 131,
+      "text": "and penetrating into the heart of enemy lines!"
+    },
+    {
+      "resource_id": 131,
+      "text": "Surely humankind is ungrateful to their Lord—"
+    },
+    { "resource_id": 131, "text": "and they certainly attest to this—" },
+    {
+      "resource_id": 131,
+      "text": "and they are truly extreme in their love of ˹worldly˺ gains."
+    },
+    {
+      "resource_id": 131,
+      "text": "Do they not know that when the contents of the graves will be spilled out,"
+    },
+    {
+      "resource_id": 131,
+      "text": "and the secrets of the hearts will be laid bare—"
+    },
+    {
+      "resource_id": 131,
+      "text": "surely their Lord is All-Aware of them on that Day."
+    }
+  ],
+  "meta": {
+    "translation_name": "Dr. Mustafa Khattab, the Clear Quran",
+    "author_name": "Dr. Mustafa Khattab",
+    "filters": { "resource_id": 131, "chapter_number": "100" }
+  }
+}

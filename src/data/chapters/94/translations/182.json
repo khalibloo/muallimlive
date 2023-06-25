@@ -1,0 +1,29 @@
+{
+  "translations": [
+    {
+      "resource_id": 182,
+      "text": "真主确已为你敞开你的胸襟，使你喜爱接受启示，"
+    },
+    { "resource_id": 182, "text": "并消除你的过错。" },
+    { "resource_id": 182, "text": "它紧追你左右，压迫得你几乎折腰；" },
+    {
+      "resource_id": 182,
+      "text": "我提高你的声望，使人们在内、外宣礼和其它时间中都赞念你。"
+    },
+    { "resource_id": 182, "text": "的确，伴随着困难和艰辛的是宽松和容易；" },
+    {
+      "resource_id": 182,
+      "text": "伴随着困难和艰辛的是宽松和容易。如果你确知了这些，那么，你就应对民众对你的伤害，和阻拦你宣传真主的宗教而释怀。"
+    },
+    {
+      "resource_id": 182,
+      "text": "当你忙碌完你的事情空闲下来的时候，你当努力敬拜你的主，"
+    },
+    { "resource_id": 182, "text": "当将自己的所求和目的只归属于独一的真主。" }
+  ],
+  "meta": {
+    "translation_name": "Chinese Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 182, "chapter_number": "94" }
+  }
+}

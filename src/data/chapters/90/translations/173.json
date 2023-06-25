@@ -1,0 +1,86 @@
+{
+  "translations": [
+    {
+      "resource_id": 173,
+      "text": "Allah prête serment par le Pays Sacré qui est la Mecque,"
+    },
+    {
+      "resource_id": 173,
+      "text": "et toi, ô Messager, tes agissements y sont licites, comme lorsque tu y tues ceux qui méritent d'être tués et y capture ceux qui méritent d’être capturés."
+    },
+    {
+      "resource_id": 173,
+      "text": "Allah prête serment par le père des êtres humains et par sa descendance, que:"
+    },
+    {
+      "resource_id": 173,
+      "text": "Nous l’avons créé pour une vie de peine, en raison des malheurs qu’il endure dans le bas monde."
+    },
+    {
+      "resource_id": 173,
+      "text": "L’être humain croit-il que, lorsqu’il commet des péchés, personne ne pourra rien contre lui ni ne se vengera de lui, même son Seigneur qui l’a créé?"
+    },
+    {
+      "resource_id": 173,
+      "text": "Il dit: J’ai dépensé des amas de richesses."
+    },
+    {
+      "resource_id": 173,
+      "text": "Ce prétentieux croit-il qu’Allah ne voit pas ce qu’il dépense, et qu’Il ne lui demandera pas de compte sur la provenance de sa richesse et comment l’a-t-il dépensée?"
+    },
+    {
+      "resource_id": 173,
+      "text": "Ne lui avons-Nous pas donné deux yeux pour voir,"
+    },
+    {
+      "resource_id": 173,
+      "text": "ainsi qu’une langue et deux lèvres pour parler?"
+    },
+    {
+      "resource_id": 173,
+      "text": "Ne lui avons-Nous pas montré la voie du bien et la voie du mal?"
+    },
+    {
+      "resource_id": 173,
+      "text": "Or il lui est demandé de franchir l’obstacle qui le sépare du Paradis."
+    },
+    {
+      "resource_id": 173,
+      "text": "Ô Messager, quel est l’obstacle qu’il doit franchir pour entrer au Paradis?"
+    },
+    {
+      "resource_id": 173,
+      "text": "Il consiste à affranchir un esclave, homme ou femme,"
+    },
+    {
+      "resource_id": 173,
+      "text": "ou offrir de la nourriture en un jour de famine"
+    },
+    {
+      "resource_id": 173,
+      "text": "à un enfant qui a perdu son père et avec qui on a un lien de parenté,"
+    },
+    { "resource_id": 173, "text": "ou à un pauvre qui ne possède rien," },
+    {
+      "resource_id": 173,
+      "text": "tout en étant de ceux qui croient en Allah, s’enjoignent les uns les autres d’être patient dans l’accomplissement des actes d’adorations et s’enjoignent les uns les autres d’être miséricordieux envers les serviteurs d’Allah."
+    },
+    {
+      "resource_id": 173,
+      "text": "Ceux qui possèdent ces caractéristiques sont les gens de la droite"
+    },
+    {
+      "resource_id": 173,
+      "text": "tandis que ceux qui mécroient en Nos versets révélés à Notre Messager sont les gens de la gauche,"
+    },
+    {
+      "resource_id": 173,
+      "text": "sur lesquels le Feu où ils seront châtiés se refermera le Jour de la Résurrection."
+    }
+  ],
+  "meta": {
+    "translation_name": "French Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 173, "chapter_number": "90" }
+  }
+}

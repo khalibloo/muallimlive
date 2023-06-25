@@ -1,0 +1,65 @@
+{
+  "translations": [
+    {
+      "resource_id": 89,
+      "text": "Pasha qiellin dhe yllin ndriçues (të natës)!"
+    },
+    {
+      "resource_id": 89,
+      "text": "E ku e di tise çka është tariku - trokitësi?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Ai është ylli që shpon (errësirën me dritë)."
+    },
+    {
+      "resource_id": 89,
+      "text": "Nuk ka asnjëri njeri që ndaj tij të mos ketë përcjellës."
+    },
+    {
+      "resource_id": 89,
+      "text": "Le të shikojë njeriu se prej çkahit është krijuar?"
+    },
+    {
+      "resource_id": 89,
+      "text": "Ai është krijuar prej një uji që hidhet fuqishëm,"
+    },
+    {
+      "resource_id": 89,
+      "text": "E që del nga kurrizi i shpinës dhe dërrasa e gjoksit."
+    },
+    {
+      "resource_id": 89,
+      "text": "E s’ka dyshim se Ai ka fuqi ta rikthejë në jetë atë."
+    },
+    { "resource_id": 89, "text": "Ditën kur do të gjurmohen të fshehtat." },
+    { "resource_id": 89, "text": "E ai (njeriu) nuk ka forcë as ndihmëtarë." },
+    {
+      "resource_id": 89,
+      "text": "Pasha qiellin që kohë pas kohe kthehet me shi."
+    },
+    { "resource_id": 89, "text": "Edhe kohën që qahet për bimë." },
+    {
+      "resource_id": 89,
+      "text": "Është e vërtetë se ai (Kur’ani) është fjalë që dallon - gjykon."
+    },
+    {
+      "resource_id": 89,
+      "text": "Nuk është ai i parëndësishëm (lojë e kotë)!"
+    },
+    { "resource_id": 89, "text": "Ata vërtetë bëjnë kurtha." },
+    {
+      "resource_id": 89,
+      "text": "Po edhe Unë përgatis dështimin e kurtheve të tyre!"
+    },
+    {
+      "resource_id": 89,
+      "text": "E ti jobesimtarët jepju afat, afatizoi ata pak."
+    }
+  ],
+  "meta": {
+    "translation_name": "Albanian Translation",
+    "author_name": "Sherif Ahmeti\t",
+    "filters": { "resource_id": 89, "chapter_number": "86" }
+  }
+}

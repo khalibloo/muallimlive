@@ -1,0 +1,18 @@
+{
+  "translations": [
+    { "resource_id": 126, "text": "Mi smo ti, uistinu, Kevser dali!" },
+    {
+      "resource_id": 126,
+      "text": "zato se Gospodaru svome moli i kurban kolji,"
+    },
+    {
+      "resource_id": 126,
+      "text": "onaj koji tebe mrzi sigurno će on bez spomena ostati."
+    }
+  ],
+  "meta": {
+    "translation_name": "Besim Korkut",
+    "author_name": "Besim Korkut",
+    "filters": { "resource_id": 126, "chapter_number": "108" }
+  }
+}

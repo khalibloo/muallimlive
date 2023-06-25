@@ -1,0 +1,13 @@
+{
+  "translations": [
+    { "resource_id": 233, "text": "אמור: הוא אללה, אחד!" },
+    { "resource_id": 233, "text": "אללה הוא הנצחי!" },
+    { "resource_id": 233, "text": "לא הוליד ולא נולד," },
+    { "resource_id": 233, "text": "ולא היה אחד ששווה לו." }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 233, "chapter_number": "112" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "translations": [
+    {
+      "resource_id": 203,
+      "text": "  Have We not opened your breast for you (O Muhammad صلى الله عليه وسلم)?"
+    },
+    { "resource_id": 203, "text": "  And removed from you your burden." },
+    { "resource_id": 203, "text": "  Which weighed down your back?" },
+    { "resource_id": 203, "text": "  And have We not raised high your fame?" },
+    {
+      "resource_id": 203,
+      "text": "  Verily, along with every hardship is relief,"
+    },
+    {
+      "resource_id": 203,
+      "text": "  Verily, along with every hardship is relief (i.e. there is one hardship with two reliefs, so one hardship cannot overcome two reliefs)."
+    },
+    {
+      "resource_id": 203,
+      "text": "  So when you have finished (your occupation), devote yourself for Allâh’s worship."
+    },
+    {
+      "resource_id": 203,
+      "text": "  And to your Lord (Alone) turn (all your) intentions and hopes."
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "author_name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+    "filters": { "resource_id": 203, "chapter_number": "94" }
+  }
+}

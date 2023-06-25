@@ -1,0 +1,71 @@
+{
+  "translations": [
+    {
+      "resource_id": 20,
+      "text": "Has there reached you the report of the Overwhelming [event]?"
+    },
+    { "resource_id": 20, "text": "[Some] faces, that Day, will be humbled," },
+    {
+      "resource_id": 20,
+      "text": "Working [hard] and exhausted.<sup foot_note=197752>1</sup>"
+    },
+    {
+      "resource_id": 20,
+      "text": "They will [enter to] burn in an intensely hot Fire."
+    },
+    {
+      "resource_id": 20,
+      "text": "They will be given drink from a boiling spring."
+    },
+    {
+      "resource_id": 20,
+      "text": "For them there will be no food except from a poisonous, thorny plant"
+    },
+    {
+      "resource_id": 20,
+      "text": "Which neither nourishes nor avails against hunger."
+    },
+    {
+      "resource_id": 20,
+      "text": "[Other] faces, that Day, will show pleasure."
+    },
+    { "resource_id": 20, "text": "With their effort [they are] satisfied" },
+    { "resource_id": 20, "text": "In an elevated garden," },
+    {
+      "resource_id": 20,
+      "text": "Wherein they will hear no unsuitable speech.<sup foot_note=197753>1</sup>"
+    },
+    { "resource_id": 20, "text": "Within it is a flowing spring." },
+    { "resource_id": 20, "text": "Within it are couches raised high" },
+    { "resource_id": 20, "text": "And cups put in place" },
+    { "resource_id": 20, "text": "And cushions lined up" },
+    { "resource_id": 20, "text": "And carpets spread around." },
+    {
+      "resource_id": 20,
+      "text": "Then do they not look at the camels - how they are created?"
+    },
+    { "resource_id": 20, "text": "And at the sky - how it is raised?" },
+    {
+      "resource_id": 20,
+      "text": "And at the mountains - how they are erected?"
+    },
+    { "resource_id": 20, "text": "And at the earth - how it is spread out?" },
+    {
+      "resource_id": 20,
+      "text": "So remind, [O Muḥammad]; you are only a reminder."
+    },
+    { "resource_id": 20, "text": "You are not over them a controller." },
+    { "resource_id": 20, "text": "However, he who turns away and disbelieves" },
+    {
+      "resource_id": 20,
+      "text": "Then Allāh will punish him with the greatest punishment."
+    },
+    { "resource_id": 20, "text": "Indeed, to Us is their return." },
+    { "resource_id": 20, "text": "Then indeed, upon Us is their account." }
+  ],
+  "meta": {
+    "translation_name": "Saheeh International",
+    "author_name": "Saheeh International",
+    "filters": { "resource_id": 20, "chapter_number": "88" }
+  }
+}

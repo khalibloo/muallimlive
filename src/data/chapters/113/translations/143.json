@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 143,
+      "text": "(ئەی موحەممەد ﷺ) بڵێ: پەنا دەگرم بە دروستكەری بوونەوەر (بەپەروەردگاری بەرەبەیان)"
+    },
+    { "resource_id": 143, "text": "لە زیانی ئەوەی کە دروستی کردووە" },
+    { "resource_id": 143, "text": "وە لە زیانی تاریکی کاتێک کە دادێت" },
+    {
+      "resource_id": 143,
+      "text": "وە لە زیان وخراپەی(جادوگەران) کەپەت ودەزوو گرێ دەدەن وفووی پێدا دەكەن"
+    },
+    {
+      "resource_id": 143,
+      "text": "وە لە زیانی بەخیل وحەسوود کاتێک کە حەسوودی دەبات"
+    }
+  ],
+  "meta": {
+    "translation_name": "Muhammad Saleh Bamoki",
+    "author_name": "Muhammad Saleh Bamoki",
+    "filters": { "resource_id": 143, "chapter_number": "113" }
+  }
+}

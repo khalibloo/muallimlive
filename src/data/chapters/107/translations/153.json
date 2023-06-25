@@ -1,0 +1,25 @@
+{
+  "translations": [
+    {
+      "resource_id": 153,
+      "text": "Non vedi colui che taccia di menzogna il Giudizio?"
+    },
+    { "resource_id": 153, "text": "È quello stesso che scaccia l’orfano," },
+    { "resource_id": 153, "text": "e non esorta a sfamare il povero." },
+    {
+      "resource_id": 153,
+      "text": "Guai a quelli che fanno l’orazione <a class=f><sup foot_note=160776>1</sup></a>"
+    },
+    { "resource_id": 153, "text": "e sono incuranti delle loro orazioni," },
+    { "resource_id": 153, "text": "che sono pieni di ostentazione" },
+    {
+      "resource_id": 153,
+      "text": "e rifiutano di dare ciò che è utile <a class=f><sup foot_note=160777>1</sup></a> . <a class=f><sup foot_note=160778>2</sup></a> «l’orazione»: la pratica di eseguirla comunitariamente, nelle moschee e nei luoghi di lavoro, è segno di devozione e gode di alta considerazione tra i musulmani. E certamente possibile che alcuni la eseguano solo per ottenere vantaggi materiali o sociali dalla loro millantata pietà. Forse non ingannano neppure i veri devoti, quanto poi ad ingannare Allah… <a class=f><sup foot_note=160779>3</sup></a> Nel senso che non sono disponibili neppure alla minima cortesia consistente nel prestare un utensile comune come un secchio, un martello ecc. (è questo il senso di «mâ‘ûn» che abbiamo tradotto «cioè che è utile»."
+    }
+  ],
+  "meta": {
+    "translation_name": "Hamza Roberto Piccardo",
+    "author_name": "Hamza Roberto Piccardo",
+    "filters": { "resource_id": 153, "chapter_number": "107" }
+  }
+}

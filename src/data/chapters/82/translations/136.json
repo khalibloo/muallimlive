@@ -1,0 +1,61 @@
+{
+  "translations": [
+    { "resource_id": 136, "text": "Quand le ciel se brisera," },
+    { "resource_id": 136, "text": "quand les astres choiront," },
+    { "resource_id": 136, "text": "que les mers se confondront," },
+    { "resource_id": 136, "text": "que les tombes seront renversées," },
+    {
+      "resource_id": 136,
+      "text": "chaque âme saura alors ce qu’elle a déjà fait et ce qu’elle a renvoyé à plus tard."
+    },
+    {
+      "resource_id": 136,
+      "text": "Ô homme ! Qu’est-ce qui t’a donc leurré au sujet de ton Noble Seigneur"
+    },
+    {
+      "resource_id": 136,
+      "text": "Qui t’a créé, t’a façonné et t’a donné des formes aussi proportionnées ?"
+    },
+    {
+      "resource_id": 136,
+      "text": "Il t’a constitué dans la forme qu’Il a voulue."
+    },
+    {
+      "resource_id": 136,
+      "text": "Et pourtant, vous tenez la Rétribution pour imposture."
+    },
+    { "resource_id": 136, "text": "Des gardiens sont là à vous surveiller," },
+    {
+      "resource_id": 136,
+      "text": "qui sont de nobles scripteurs,<sup foot_note=195225>1</sup>"
+    },
+    { "resource_id": 136, "text": "sachant bien ce que vous faites." },
+    {
+      "resource_id": 136,
+      "text": "Les vertueux auront droit au délice absolu."
+    },
+    { "resource_id": 136, "text": "Les scélérats seront en Enfer." },
+    {
+      "resource_id": 136,
+      "text": "Ils y brûleront au Jour de la Rétribution,"
+    },
+    { "resource_id": 136, "text": "et ne pourront s’y dérober." },
+    {
+      "resource_id": 136,
+      "text": "Et qui te fera jamais savoir ce qu’est le Jour de la Rétribution ?"
+    },
+    {
+      "resource_id": 136,
+      "text": "Et puis, qui te fera jamais savoir ce qu’est le Jour de la Rétribution ?"
+    },
+    {
+      "resource_id": 136,
+      "text": "C’est le jour où aucune âme ne pourra rien pour une autre âme. Et la décision, ce jour-là, reviendra entière à Allah."
+    }
+  ],
+  "meta": {
+    "translation_name": "Montada Islamic Foundation",
+    "author_name": "Montada Islamic Foundation",
+    "filters": { "resource_id": 136, "chapter_number": "82" }
+  }
+}

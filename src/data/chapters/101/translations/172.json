@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "resource_id": 172,
+      "text": "Dehşetinin büyüklüğüyle insanların kalplerini bürüyen o (kıyamet) vakit."
+    },
+    {
+      "resource_id": 172,
+      "text": "Dehşetinin büyüklüğüyle insanların kalplerini hoplatan bu saat nedir?"
+    },
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- Dehşetinin büyüklüğüyle insanların kalplerini hoplatan o saatin ne olduğunu sana ne öğretti? Şüphesiz o kıyamet günüdür."
+    },
+    {
+      "resource_id": 172,
+      "text": "Dehşetin kalpleri bürüdüğü o gün, insanlar etrafa saçılan pervaneler gibi olurlar."
+    },
+    {
+      "resource_id": 172,
+      "text": "Dağlar hızlı bir şekilde yerinden oynamasında ve hareket etmesinde etrafa atılmış yün gibi olurlar."
+    },
+    {
+      "resource_id": 172,
+      "text": "Artık kimin salih amelleri, kötü amellerine ağır basarsa."
+    },
+    {
+      "resource_id": 172,
+      "text": "O, Cennet'te elde edeceği ve hoşnut olacağı bir hayatın içinde olacaktır."
+    },
+    {
+      "resource_id": 172,
+      "text": "Fakat kimin de kötü amelleri, salih amellerine ağır basarsa."
+    },
+    {
+      "resource_id": 172,
+      "text": "Onun, kıyamet günü meskeni ve varacağı yer Cehennem'dir."
+    },
+    {
+      "resource_id": 172,
+      "text": "-Ey Peygamber!- Onun ne olduğunu sana ne öğretti?"
+    },
+    { "resource_id": 172, "text": "O, sıcaklığı çok şiddetli bir ateştir." }
+  ],
+  "meta": {
+    "translation_name": "Turkish Mokhtasar",
+    "author_name": "Al-Mukhtasar",
+    "filters": { "resource_id": 172, "chapter_number": "101" }
+  }
+}

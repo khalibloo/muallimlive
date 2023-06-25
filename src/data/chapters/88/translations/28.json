@@ -1,0 +1,47 @@
+{
+  "translations": [
+    {
+      "resource_id": 28,
+      "text": "¿Te has enterado de la historia de la que cubre?"
+    },
+    { "resource_id": 28, "text": "Ese día, unos rostros, humillados," },
+    { "resource_id": 28, "text": "preocupados, cansados," },
+    { "resource_id": 28, "text": "arderán en un fuego abrasador." },
+    {
+      "resource_id": 28,
+      "text": "Se les dará de beber de una fuente hirviente."
+    },
+    { "resource_id": 28, "text": "No tendrán más alimento que de dari," },
+    { "resource_id": 28, "text": "que no engorda, ni sacia." },
+    { "resource_id": 28, "text": "Otros rostros, ese día, estarán alegres," },
+    { "resource_id": 28, "text": "satisfechos de su esfuerzo," },
+    { "resource_id": 28, "text": "en un Jardín elevado," },
+    { "resource_id": 28, "text": "en el que no se oirá vaniloquio." },
+    { "resource_id": 28, "text": "Habrá allí una fuente caudalosa," },
+    { "resource_id": 28, "text": "lechos elevados," },
+    { "resource_id": 28, "text": "copas preparadas," },
+    { "resource_id": 28, "text": "cojines alineados" },
+    { "resource_id": 28, "text": "y alfombras extendidas." },
+    {
+      "resource_id": 28,
+      "text": "¿Es que no consideran cómo han sido creados los camélidos,"
+    },
+    { "resource_id": 28, "text": "cómo alzado el cielo." },
+    { "resource_id": 28, "text": "cómo erigidas las montañas," },
+    { "resource_id": 28, "text": "cómo extendida la tierra?" },
+    { "resource_id": 28, "text": "¡Amonesta, pues! Tú eres sólo un monitor," },
+    { "resource_id": 28, "text": "no tienes autoridad sobre ellos." },
+    { "resource_id": 28, "text": "Sin embargo, a quien se desvíe y no crea," },
+    { "resource_id": 28, "text": "Alá le infligirá el castigo mayor." },
+    { "resource_id": 28, "text": "Volverán todos a Nosotros." },
+    {
+      "resource_id": 28,
+      "text": "Luego, nos tocará a Nosotros pedirles cuentas."
+    }
+  ],
+  "meta": {
+    "translation_name": "Spanish Translation(Cortes)",
+    "author_name": "Julio Cortes",
+    "filters": { "resource_id": 28, "chapter_number": "88" }
+  }
+}

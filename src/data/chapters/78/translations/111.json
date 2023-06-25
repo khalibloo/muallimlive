@@ -1,0 +1,124 @@
+{
+  "translations": [
+    {
+      "resource_id": 111,
+      "text": "[Warri hin amanin] maal irraa wal gaafatuu?"
+    },
+    { "resource_id": 111, "text": "Oduu guddaa irraa [wal gaafatu" },
+    {
+      "resource_id": 111,
+      "text": "Isa isaan isa keessatti wal dhaban [irraayi]."
+    },
+    { "resource_id": 111, "text": "Haa dhowwamanu! fuula dura beekuuf jiru" },
+    {
+      "resource_id": 111,
+      "text": "Ammas haa dhowwamanu! fuula dura beekuuf jiru."
+    },
+    { "resource_id": 111, "text": "Sila Nuti dachii firaasha hin goonee?" },
+    { "resource_id": 111, "text": "Gaarreenis shikaala [hin goonee]?" },
+    { "resource_id": 111, "text": "Cimdiis goonee isin uumne." },
+    { "resource_id": 111, "text": "Hirriba keessan boqonnaa goone." },
+    { "resource_id": 111, "text": "Halkan uffata goone." },
+    {
+      "resource_id": 111,
+      "text": "Guyyaas yeroo jireenyaa (keessa hojjatan) goone."
+    },
+    {
+      "resource_id": 111,
+      "text": "Gubbaa keessanittis [samii] jajjaboo torba ijaarre."
+    },
+    { "resource_id": 111, "text": "Ifaa boba'aas uumne." },
+    {
+      "resource_id": 111,
+      "text": "Duumessa irraas bishaan dhangala'aa baay'ee buufne."
+    },
+    {
+      "resource_id": 111,
+      "text": "Isaan fuduraafi marga baasuuf jecha [buufne]"
+    },
+    {
+      "resource_id": 111,
+      "text": "Ashaakiltii damee wal keessa seensifattes."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, guyyaan fooyamaa yeroo beellamamaa ta'e."
+    },
+    {
+      "resource_id": 111,
+      "text": "[Guyyaan sun] guyyaa Garriin (xurumbaan) afuufamee isinis garee gareen dhuftanuudha."
+    },
+    {
+      "resource_id": 111,
+      "text": "[Guyyaa] samiinillee banamtee hulaalee taatuudha."
+    },
+    {
+      "resource_id": 111,
+      "text": "Gaarreenis deemsifamtee siribii (siribduu) taate."
+    },
+    { "resource_id": 111, "text": "Dhugumatti jahannam waldaa taateetti" },
+    { "resource_id": 111, "text": "Warra daangaa dabraniif iddoo deebiiti." },
+    { "resource_id": 111, "text": "Yeroo dheeraaf ishee keessa turu." },
+    {
+      "resource_id": 111,
+      "text": "Ishee keessatti qabbanas ta'ee dhugaatii hin dhandhamanu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Bishaan akkaan danfaafi malaa malee [dhugaatii biraa hin argatanu]"
+    },
+    { "resource_id": 111, "text": "Mindaa wal madaalu [mindeeffaman]." },
+    { "resource_id": 111, "text": "Isaan qormaata hin sodaatanu turan." },
+    {
+      "resource_id": 111,
+      "text": "Keeyyattoota keenyas kijibsiisuu kijibsiisan."
+    },
+    {
+      "resource_id": 111,
+      "text": "Wanta cufaayyuu haala barreeffameen walitti qabne."
+    },
+    {
+      "resource_id": 111,
+      "text": "“Dhandhamaa; azaaba malees isiniif hin daballu” [isaaniin jedhama]."
+    },
+    {
+      "resource_id": 111,
+      "text": "Dhugumatti, warra Rabbiin sodaataniif milkiitu jira."
+    },
+    { "resource_id": 111, "text": "Ashaakiltiifi inabatu [jira]." },
+    {
+      "resource_id": 111,
+      "text": "Dubartoota harma guntuttuu hiriyaa ta'antu [jiru]."
+    },
+    { "resource_id": 111, "text": "Geeba (xoofoo) guutamtuu." },
+    {
+      "resource_id": 111,
+      "text": "Achi keessatti dubbii badaafi wal kijibsiisuu hin dhaga'anu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Mindaa Gooftaa kee irraa ta’e kennaa ga’aa [mindeeffaman]."
+    },
+    {
+      "resource_id": 111,
+      "text": "Gooftaa samii, dachiifi waan gidduu isaanii jiru, mararfataa kan ta'e [irraa mindeeffaman]Isaa wajjin dubbachuu hin danda'anu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Guyyaa Jibriiliifi Maleykonni haala hiriiraniin dhaabbatan nama Rabbiin eeyyameefi dhugaa dubbate malee hin haasawanu."
+    },
+    {
+      "resource_id": 111,
+      "text": "Sun guyyaa [dhufaatiin isaa] haqaatiNamni fedhe [hojii gaarii hojjachuun] gara Gooftaa isaatti deebii tolfata."
+    },
+    {
+      "resource_id": 111,
+      "text": "Nuti adabbii dhihoo kan guyyaa namni waan harki lamaan isaa dabarfatte arguufi kaafirris \"yaa hawwii kiyya! odoon biyyee ta’ee maal qaba\" jedhu san isin sodaachifneerra."
+    }
+  ],
+  "meta": {
+    "translation_name": "Ghali Apapur Apaghuna",
+    "author_name": "Ghali Apapur Apaghuna",
+    "filters": { "resource_id": 111, "chapter_number": "78" }
+  }
+}

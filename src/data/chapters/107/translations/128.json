@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "resource_id": 128,
+      "text": "តើអ្នក(មូហាំម៉ាត់)បានឃើញបុគ្គលដែលបដិសេធនឹងថ្ងៃ ជំនុំជំរះដែរឬទេ ?"
+    },
+    { "resource_id": 128, "text": "នោះហើយគឺជាបុគ្គលដែលបោះបង់កូនកំព្រា។" },
+    {
+      "resource_id": 128,
+      "text": "ហើយមិនជម្រុញគ្នាឱ្យផ្ដល់ចំណីអាហារដល់អ្នកក្រីក្រ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "ដូចេ្នះ ភាពវិនាសអន្ដរាយគឺសម្រាប់ពួកដែលសឡាត"
+    },
+    {
+      "resource_id": 128,
+      "text": "ដែលពួកគេព្រងើយកន្ដើយចំពោះការសឡាតរបស់ពួកគេ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "ពួកគេគឺជាពួកដែលសាងអំពើល្អដើម្បីចង់បង្ហាញឱ្យគេ ឃើញតែប៉ុណ្ណោះ។"
+    },
+    {
+      "resource_id": 128,
+      "text": "ហើយពួកគេមិនឱ្យទ្រព្យគេខ្ចីឡើយ សូម្បីតែបន្ដិចបន្ដួច ក៏ដោយ។"
+    }
+  ],
+  "meta": {
+    "translation_name": "Cambodian Muslim Community Development",
+    "author_name": "Cambodian Muslim Community Development",
+    "filters": { "resource_id": 128, "chapter_number": "107" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "translations": [
+    {
+      "resource_id": 785,
+      "text": "(ای پیغمبر)! بگو: پناه می‌برم به پروردگار صبح (سپیده دم)."
+    },
+    { "resource_id": 785, "text": "از شر هر آنچه آفریده است." },
+    {
+      "resource_id": 785,
+      "text": "و از شر تاریکی شب وقتی که همه جا را بپوشاند."
+    },
+    { "resource_id": 785, "text": "و از شر زنان جادوگر که در گره‌ها می‌دمند." },
+    { "resource_id": 785, "text": "و از شر هر حسودی وقتی که حسد ورزد." }
+  ],
+  "meta": {
+    "translation_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "author_name": "Mawlawi Muhammad Anwar Badkhashani",
+    "filters": { "resource_id": 785, "chapter_number": "113" }
+  }
+}

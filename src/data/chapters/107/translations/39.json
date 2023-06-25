@@ -1,0 +1,37 @@
+{
+  "translations": [
+    {
+      "resource_id": 39,
+      "text": "Tahukah engkau akan orang yang mendustakan ugama (meliputi hari pembalasan)?"
+    },
+    {
+      "resource_id": 39,
+      "text": "Orang itu ialah yang menindas serta berlaku zalim kepada anak yatim,"
+    },
+    {
+      "resource_id": 39,
+      "text": "Dan ia tidak menggalakkan untuk memberi makanan yang berhak diterima oleh orang miskin."
+    },
+    {
+      "resource_id": 39,
+      "text": "(Kalau orang yang demikian dikira dari bilangan orang-orang yang mendustakan ugama), maka kecelakaan besar bagi orang-orang Ahli Sembahyang -"
+    },
+    {
+      "resource_id": 39,
+      "text": "(laitu) mereka yang berkeadaan lalai daripada menyempurnakan sembahyangnya;"
+    },
+    {
+      "resource_id": 39,
+      "text": "(Juga bagi) orang-orang yang berkeadaan riak (bangga diri dalam ibadat dan bawaannya),"
+    },
+    {
+      "resource_id": 39,
+      "text": "Dan orang-orang yang tidak memberi sedikit pertolongan (kepada orang yang berhak mendapatnya)."
+    }
+  ],
+  "meta": {
+    "translation_name": "Abdullah Muhammad Basmeih",
+    "author_name": "Abdullah Muhammad Basmeih",
+    "filters": { "resource_id": 39, "chapter_number": "107" }
+  }
+}

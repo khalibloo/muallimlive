@@ -1,0 +1,117 @@
+{
+  "translations": [
+    { "resource_id": 210, "text": "Ölçüde hile yapanların vay haline!" },
+    {
+      "resource_id": 210,
+      "text": "Onlar insanlardan (bir şey) ölçüp aldıkları zaman tam ölçerler."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ama kendileri onlara bir şey ölçtükleri veya tarttıkları zaman eksiltirler."
+    },
+    {
+      "resource_id": 210,
+      "text": "Onlar düşünmezler mi ki, büyük bir günde (hesap vermek için) diriltilecekler?"
+    },
+    { "resource_id": 210, "text": "Çok büyük bir gün için." },
+    {
+      "resource_id": 210,
+      "text": "İnsanlar o günde alemlerin Rabbinin huzuruna kalkıp, duracaklardır."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır! Günahkârların kitabı muhakkak “Siccîn”dedir."
+    },
+    { "resource_id": 210, "text": "“Siccîn”in ne olduğunu sen ne bileceksin?" },
+    {
+      "resource_id": 210,
+      "text": "(O günahkârların yazısı) Amellerinin sayılıp yazıldığı bir kitaptır."
+    },
+    { "resource_id": 210, "text": "O gün yalanlayanların vay haline!" },
+    { "resource_id": 210, "text": "Ki onlar, ceza gününü yalan sayarlar." },
+    {
+      "resource_id": 210,
+      "text": "Onu; ancak her azgın, günahkâr kimse yalanlar."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ona ayetlerimiz okunsa; \"Eskilerin masalları.\" der."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır, aksine onların kazandıkları kalplerini örtmüştür."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır! Şüphesiz onlar, kıyamet günü Rablerini görmekten mahrum bırakılacaklardır."
+    },
+    { "resource_id": 210, "text": "Sonra da Cehennem'e atılacaklardır." },
+    {
+      "resource_id": 210,
+      "text": "Sonra da onlara; “Yalanlamış olduğunuz işte budur!” denilecek."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hayır, şüphe yok ki iyilerin kitabı “illiyyin”dedir."
+    },
+    {
+      "resource_id": 210,
+      "text": "İlliyyun'un ne olduğunu sen ne bileceksin?"
+    },
+    { "resource_id": 210, "text": "O yazılmış bir kitaptır." },
+    { "resource_id": 210, "text": "Ona, Allah’a yakın olanlar şâhit olur." },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz iyi kimseler Naîm Cenneti'ndedirler."
+    },
+    { "resource_id": 210, "text": "Koltuklar üzerinde (etrafı) seyrederler." },
+    {
+      "resource_id": 210,
+      "text": "Onların yüzlerinde nimetlerin sevincini görürsün."
+    },
+    {
+      "resource_id": 210,
+      "text": "Onlara mühürlü halis bir şaraptan içirilir."
+    },
+    {
+      "resource_id": 210,
+      "text": "Onun (içiminin) sonu bir misktir. İşte yarışanlar bunun için yarışsınlar."
+    },
+    { "resource_id": 210, "text": "Onun karışımı Tesnim’dendir." },
+    {
+      "resource_id": 210,
+      "text": "Bir pınar ki, Allah’a yakın olanlar ondan içerler."
+    },
+    {
+      "resource_id": 210,
+      "text": "Şüphesiz günahkârlar, (dünyada) iman edenlere gülüyorlardı."
+    },
+    {
+      "resource_id": 210,
+      "text": "Yanlarından geçtiklerinde birbirlerine kaş göz işaretleri yaparlardı."
+    },
+    {
+      "resource_id": 210,
+      "text": "Ailelerine döndükleri zaman zevk duyarak dönerlerdi."
+    },
+    {
+      "resource_id": 210,
+      "text": "Onları gördüklerinde: \"Bunlar hiç şüphesiz sapıklardır\" derlerdi."
+    },
+    {
+      "resource_id": 210,
+      "text": "Hâlbuki onlar, Mü’minlerin başına bekçi olarak gönderilmemişlerdi."
+    },
+    { "resource_id": 210, "text": "İşte bugün Mü’minler kâfirlere gülerler." },
+    { "resource_id": 210, "text": "Koltuklar üzerinde (etrafı) seyrederler." },
+    {
+      "resource_id": 210,
+      "text": "Kâfirler yapmakta olduklarının karşılığını gördüler mi?"
+    }
+  ],
+  "meta": {
+    "translation_name": "Dar Al-Salam Center",
+    "author_name": "Dar Al-Salam Center",
+    "filters": { "resource_id": 210, "chapter_number": "83" }
+  }
+}

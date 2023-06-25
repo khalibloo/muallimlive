@@ -1,0 +1,23 @@
+{
+  "translations": [
+    {
+      "resource_id": 27,
+      "text": "Siehst du nicht, wie dein Herr mit den Leuten des Elefanten verfuhr?"
+    },
+    { "resource_id": 27, "text": "Ließ Er nicht ihre List verlorengehen" },
+    {
+      "resource_id": 27,
+      "text": "und sandte gegen sie Vögel in aufeinanderfolgenden Schwärmen,"
+    },
+    {
+      "resource_id": 27,
+      "text": "die sie mit Steinen aus gebranntem Lehm bewarfen,"
+    },
+    { "resource_id": 27, "text": "und sie so wie abgefressene Halme machte?" }
+  ],
+  "meta": {
+    "translation_name": "Frank Bubenheim and Nadeem",
+    "author_name": "Frank Bubenheim and Nadeem",
+    "filters": { "resource_id": 27, "chapter_number": "105" }
+  }
+}
