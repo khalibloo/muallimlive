@@ -3,26 +3,24 @@ import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert } from "ant
 import { useForm } from "antd/lib/form/Form";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import { useResponsive } from "ahooks";
-import _ from "lodash";
+import { sortBy } from "lodash";
 
 import lf from "@/utils/localforage";
-import useTranslations from "@/queries/useTranslations";
-import useLanguages from "@/queries/useLanguages";
-import useTafsirs from "@/queries/useTafsirs";
-import Loader from "./Loader";
 import config from "@/utils/config";
+import Loader from "./Loader";
 
 interface Props {
+  languages: any;
+  recitations: any;
+  tafsirs: any;
+  translations: any;
   onSubmit?: () => void;
 }
-const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
+const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, translations, onSubmit }) => {
   const responsive = useResponsive();
   const [form] = useForm();
   const [useSplitView, setUseSplitView] = useState(false);
   const [settings, setSettings] = useState<ReaderSettings>();
-  const { data: translationsData, isLoading: translationsLoading } = useTranslations();
-  const { data: tafsirsData, isLoading: tafsirsLoading } = useTafsirs();
-  const { data: languagesData, isLoading: languagesLoading } = useLanguages();
 
   React.useEffect(() => {
     lf.getItem("reader-settings").then((settings) => {
@@ -39,77 +37,81 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
     });
   }, []);
 
-  const optionsSortFn = (a, b) => (a.label > b.label ? 1 : -1);
-  const translationTypes = languagesData
-    ? [
-        {
-          label: "Arabic",
-          value: "ar",
-          children: [
-            {
-              label: "Indopak Script",
-              value: "indopak",
-            },
-            {
-              label: "Imlaei Script",
-              value: "imlaei",
-            },
-            {
-              label: "Imlaei Simple Script",
-              value: "imlaei_simple",
-            },
-            {
-              label: "Uthmani Script",
-              value: "uthmani",
-            },
-            {
-              label: "Uthmani Simple Script",
-              value: "uthmani_simple",
-            },
-            {
-              label: "Uthmani Tajweed Script",
-              value: "uthmani_tajweed",
-            },
-          ],
-        },
-        ...languagesData.languages.map((l) => ({
-          label: l.translated_name.name,
-          value: l.iso_code,
-          children: translationsData?.translations
-            .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
-            .map((t) => ({ label: t.translated_name.name, value: t.id }))
-            .sort(optionsSortFn),
-        })),
-      ].sort(optionsSortFn)
-    : [];
-
-  const tafsirTypes = languagesData
-    ? [
-        ...languagesData.languages,
-        {
-          id: 0,
-          name: "Arabic",
-          iso_code: "ar",
-          native_name: "Arabic",
-          direction: "rtl",
-          translations_count: 0,
-          translated_name: {
-            name: "Arabic",
-            language_name: "english",
+  const translationTypes = sortBy(
+    [
+      {
+        label: "Arabic",
+        value: "ar",
+        children: [
+          {
+            label: "Indopak Script",
+            value: "indopak",
           },
-        },
-      ]
-        .map((l) => ({
-          label: l.translated_name.name,
-          value: l.iso_code,
-          children: tafsirsData?.tafsirs
+          {
+            label: "Imlaei Script",
+            value: "imlaei",
+          },
+          {
+            label: "Imlaei Simple Script",
+            value: "imlaei_simple",
+          },
+          {
+            label: "Uthmani Script",
+            value: "uthmani",
+          },
+          {
+            label: "Uthmani Simple Script",
+            value: "uthmani_simple",
+          },
+          {
+            label: "Uthmani Tajweed Script",
+            value: "uthmani_tajweed",
+          },
+        ],
+      },
+      ...languages.languages.map((l) => ({
+        label: l.translated_name.name,
+        value: l.iso_code,
+        children: sortBy(
+          translations.translations
             .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
-            .map((t) => ({ label: t.translated_name.name, value: t.id }))
-            .sort(optionsSortFn),
-        }))
-        .filter((l) => l.children && l.children.length > 0)
-        .sort(optionsSortFn)
-    : [];
+            .map((t) => ({ label: t.translated_name.name, value: t.id })),
+          "label"
+        ),
+      })),
+    ],
+    "label"
+  );
+
+  const tafsirTypes = sortBy(
+    [
+      ...languages.languages,
+      {
+        id: 0,
+        name: "Arabic",
+        iso_code: "ar",
+        native_name: "Arabic",
+        direction: "rtl",
+        translations_count: 0,
+        translated_name: {
+          name: "Arabic",
+          language_name: "english",
+        },
+      },
+    ]
+      .map((l) => ({
+        label: l.translated_name.name,
+        value: l.iso_code,
+        children: sortBy(
+          tafsirs.tafsirs
+            .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
+            .map((t) => ({ label: t.translated_name.name, value: t.id })),
+          "label"
+        ),
+      }))
+      .filter((l) => l.children && l.children.length > 0),
+    "label"
+  );
 
   const combinedTypes = [
     {
@@ -147,7 +149,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ onSubmit }) => {
             <Form.Item
               {...restField}
               name={[name, "content"]}
-              fieldKey={[fieldKey, "content"]}
+              // fieldKey={[fieldKey, "content"]}
               rules={[{ required: true, message: "Please select content" }]}
             >
               <Cascader allowClear={false} options={combinedTypes} showSearch={{ filter: handleCascaderSearch }} />

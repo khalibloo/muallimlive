@@ -8,14 +8,19 @@ import Providers from "./Providers";
 
 import "@/styles/global.css";
 import config from "@/utils/config";
+import { fetchData } from "@/data/fetcher";
 
 export const metadata: Metadata = {
   title: "Muallimlive",
   description: "Al-Qur'an reading app",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const origin = `${process.env.NODE_ENV === "development" ? "http" : "https"}://${headers().get("host")}`;
+  const tafsirs = await fetchData("resources/tafsirs");
+  const recitations = await fetchData("resources/recitations");
+  const languages = await fetchData("resources/languages");
+  const translations = await fetchData("resources/translations");
 
   return (
     <html lang="en">
@@ -84,7 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </noscript>
         )}
         <Providers>
-          <BasicLayout>{children}</BasicLayout>
+          <BasicLayout settingsReources={{ languages, recitations, tafsirs, translations }}>{children}</BasicLayout>
         </Providers>
       </body>
     </html>

@@ -17,6 +17,7 @@ const Providers: React.FC<Props> = ({ children }) => (
           colorPrimary: "#43A047",
           fontSize: 16,
           colorBgBase: "#444",
+          colorBgElevated: "#333",
           colorLink: "#43A047",
           colorLinkHover: "#43A047",
           borderRadius: 4,

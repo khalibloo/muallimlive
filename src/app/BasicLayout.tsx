@@ -7,16 +7,17 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 interface Props {
+  settingsReources: any;
   noPadding?: boolean;
   children: React.ReactNode;
 }
 
-const BasicLayout: React.FC<Props> = ({ children, noPadding }) => {
+const BasicLayout: React.FC<Props> = ({ settingsReources, children, noPadding }) => {
   return (
     <>
       <Layout className="min-h-screen">
         <Layout.Header className={clsx("w-full p-0 fixed z-10 shadow-md")}>
-          <NavBar />
+          <NavBar settingsResources={settingsReources} />
         </Layout.Header>
         <Layout.Content className={clsx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
         <Layout.Footer className="bg-333">

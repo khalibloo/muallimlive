@@ -7,8 +7,11 @@ import { useBoolean, useResponsive } from "ahooks";
 
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 
-interface Props {}
-const NavBar: React.FC<Props> = () => {
+interface Props {
+  settingsResources: any;
+}
+
+const NavBar: React.FC<Props> = ({ settingsResources }) => {
   const responsive = useResponsive();
   const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);
   const [settingsTab, setSettingsTab] = useState("display");
@@ -52,6 +55,7 @@ const NavBar: React.FC<Props> = () => {
         <Tabs activeKey={settingsTab} onChange={setSettingsTab}>
           <Tabs.TabPane key="display" tab="Display">
             <ReaderSettingsForm
+              {...settingsResources}
               onSubmit={() => {
                 notification.success({ message: "Changes Saved Successfully" });
               }}
