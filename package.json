@@ -41,6 +41,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "3.9.2",
     "@sentry/browser": "^6.3.5",
     "@svgr/webpack": "^5.5.0",
     "@types/dompurify": "^2.2.2",
