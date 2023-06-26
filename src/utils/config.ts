@@ -1,10 +1,5 @@
 const appEnv = process.env.NEXT_PUBLIC_APP_ENV;
 
-if (process.env.NODE_ENV === "production") {
-  console.log = () => {};
-  console.warn = () => {};
-  console.error = () => {};
-}
 const defaultReaderSettings: ReaderSettings = {
   splitView: true,
   left: [{ content: ["translation", "en", 22] }, { content: ["tafsir", "en", 169] }],

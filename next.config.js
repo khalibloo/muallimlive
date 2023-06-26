@@ -3,4 +3,9 @@ const nextConfig = {
   experimental: { serverActions: true },
 };
 
-module.exports = nextConfig;
+const withPWA = require("next-pwa")({
+  dest: "public",
+  skipWaiting: false,
+});
+
+module.exports = withPWA(nextConfig);

@@ -16,8 +16,7 @@ const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
       onClick={() => {
         const key = "faves-quran";
         lf.ready().then(() => {
-          lf.getItem(key).then((faves) => {
-            // if verse currently faved, we should unfave
+          lf.getItem<string[]>(key).then((faves) => {
             const verseKey = `${chapterNumber}:${verseNumber}`;
             const favesIsValid = typeof faves?.length === "number";
             let newFaves: string[] = [];

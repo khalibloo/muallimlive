@@ -9,6 +9,7 @@ import config from "@/utils/config";
 import { fetchData } from "@/data/fetcher";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
+import ServiceWorkerEvents from "./ServiceWorkerEvents";
 
 import "@/styles/global.css";
 
@@ -108,6 +109,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Providers>
           <BasicLayout settingsReources={{ languages, recitations, tafsirs, translations, readerSettings }}>
             {children}
+            <ServiceWorkerEvents />
           </BasicLayout>
         </Providers>
       </body>

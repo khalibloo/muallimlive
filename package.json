@@ -40,10 +40,10 @@
     "react-visibility-sensor": "^5.1.1",
     "redux": "^4.0.5",
     "rxjs": "^7.0.0",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "workbox-window": "^7.0.0"
   },
   "devDependencies": {
-    "@svgr/webpack": "^5.5.0",
     "@types/dompurify": "^2.2.2",
     "@types/lodash": "^4.14.195",
     "@types/node": "20.3.1",
