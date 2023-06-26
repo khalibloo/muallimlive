@@ -13,6 +13,7 @@ interface Props {
     languages: GetLanguagesResponse;
     tafsirs: GetTafsirsResponse;
     recitations: GetRecitationsResponse;
+    readerSettings: ReaderSettings;
   };
 }
 
@@ -50,19 +51,14 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
 
   return (
     <>
-      <Modal
-        open={settingsModalOpen}
-        maskClosable={false}
-        footer={null}
-        onCancel={closeSettingsModal}
-        width={modalWidth}
-      >
+      <Modal open={settingsModalOpen} footer={null} onCancel={closeSettingsModal} width={modalWidth}>
         <Tabs activeKey={settingsTab} onChange={setSettingsTab}>
           <Tabs.TabPane key="display" tab="Display">
             <ReaderSettingsForm
               {...settingsResources}
               onSubmit={() => {
                 notification.success({ message: "Changes Saved Successfully" });
+                closeSettingsModal;
               }}
             />
           </Tabs.TabPane>

@@ -1,14 +1,25 @@
 import { Metadata } from "next";
-import { headers } from "next/headers";
+import { cookies, headers } from "next/headers";
+import { configResponsive } from "ahooks";
 
 import "antd/dist/reset.css";
 
+import "@/utils/localforage";
+import config from "@/utils/config";
+import { fetchData } from "@/data/fetcher";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
 
 import "@/styles/global.css";
-import config from "@/utils/config";
-import { fetchData } from "@/data/fetcher";
+
+configResponsive({
+  xs: 0,
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200,
+  xxl: 1600,
+});
 
 export const metadata: Metadata = {
   title: "Muallimlive",
@@ -21,6 +32,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const recitations = await fetchData<GetRecitationsResponse>("resources/recitations");
   const languages = await fetchData<GetLanguagesResponse>("resources/languages");
   const translations = await fetchData<GetTranslationsResponse>("resources/translations");
+
+  const cookieStore = cookies();
+  const readerSettingsData = cookieStore.get("reader-settings");
+  const readerSettings: ReaderSettings = readerSettingsData?.value
+    ? JSON.parse(readerSettingsData.value)
+    : config.defaultReaderSettings;
 
   return (
     <html lang="en">
@@ -89,7 +106,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </noscript>
         )}
         <Providers>
-          <BasicLayout settingsReources={{ languages, recitations, tafsirs, translations }}>{children}</BasicLayout>
+          <BasicLayout settingsReources={{ languages, recitations, tafsirs, translations, readerSettings }}>
+            {children}
+          </BasicLayout>
         </Providers>
       </body>
     </html>

@@ -12,6 +12,7 @@ interface Props {
     languages: GetLanguagesResponse;
     tafsirs: GetTafsirsResponse;
     recitations: GetRecitationsResponse;
+    readerSettings: ReaderSettings;
   };
   noPadding?: boolean;
   children: React.ReactNode;

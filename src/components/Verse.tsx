@@ -3,11 +3,12 @@ import { Row, Col, Typography, List, Space, Divider, Tooltip, Button } from "ant
 import VisibilitySensor from "react-visibility-sensor";
 import clsx from "clsx";
 import { useResponsive } from "ahooks";
+import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
+import ReactPlayer from "react-player";
+
 import lf from "@/utils/localforage";
 import Fave from "./Fave";
 import Notes from "./Notes";
-import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
-import ReactPlayer from "react-player";
 
 interface Props {
   verseNumber: number;
@@ -113,13 +114,23 @@ const Verse: React.FC<Props> = ({
                   <List.Item key={v.id}>
                     <div className={clsx("w-full", { "text-right": v.isArabic })}>
                       {v.isHTML ? (
-                        <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
+                        <div
+                          className={clsx({
+                            "text-lg": v.isBold && !v.isArabic,
+                            "text-4xl": v.isArabic,
+                            "text-arabic": v.isArabic,
+                            "font-light": v.isHTML && !v.isArabic,
+                            "font-bold": v.isBold,
+                          })}
+                          dangerouslySetInnerHTML={{ __html: v.text }}
+                        />
                       ) : (
                         <Typography.Text
                           className={clsx({
                             "text-lg": v.isBold && !v.isArabic,
                             "text-4xl": v.isArabic,
                             "text-arabic": v.isArabic,
+                            "font-light": v.isHTML && !v.isArabic,
                           })}
                           strong={v.isBold}
                         >

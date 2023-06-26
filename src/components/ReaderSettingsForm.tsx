@@ -4,40 +4,22 @@ import { useForm } from "antd/lib/form/Form";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import { useResponsive } from "ahooks";
 import { sortBy } from "lodash";
-
-import lf from "@/utils/localforage";
-import config from "@/utils/config";
-import Loader from "./Loader";
 import { DefaultOptionType } from "antd/es/cascader";
 import { FormListProps } from "antd/es/form";
 
+import { saveReaderSettings } from "./saveReaderSettings";
+
 interface Props {
+  readerSettings: ReaderSettings;
   translations: GetTranslationsResponse;
   languages: GetLanguagesResponse;
   tafsirs: GetTafsirsResponse;
-  recitations: GetRecitationsResponse;
   onSubmit?: () => void;
 }
-const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, translations, onSubmit }) => {
+const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsirs, translations, onSubmit }) => {
   const responsive = useResponsive();
   const [form] = useForm<ReaderSettings>();
-  const [useSplitView, setUseSplitView] = useState(false);
-  const [settings, setSettings] = useState<ReaderSettings>();
-
-  React.useEffect(() => {
-    lf.getItem("reader-settings").then((settings) => {
-      // TODO: validate object somehow
-      const defaultSettings = config.defaultReaderSettings;
-      if (settings) {
-        setSettings(settings as ReaderSettings);
-        setUseSplitView((settings as ReaderSettings).splitView);
-      } else {
-        setSettings(defaultSettings);
-        lf.setItem("reader-settings", defaultSettings);
-        setUseSplitView(defaultSettings.splitView);
-      }
-    });
-  }, []);
+  const [useSplitView, setUseSplitView] = useState(readerSettings.splitView);
 
   const translationTypes = sortBy(
     [
@@ -128,14 +110,14 @@ const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, 
     },
   ];
 
-  const handleSubmit = (values: ReaderSettings) => {
+  const handleSubmit = async (values: ReaderSettings) => {
     const cleanedValues = {
       ...values,
       left: values.left.filter((item) => item.content && item.content.length > 0),
       right: values.right.filter((item) => item.content && item.content.length > 0),
     };
-    setSettings(cleanedValues);
-    lf.setItem("reader-settings", cleanedValues);
+    await saveReaderSettings(cleanedValues);
+
     form.resetFields();
     onSubmit?.();
   };
@@ -173,14 +155,8 @@ const ReaderSettingsForm: React.FC<Props> = ({ languages, recitations, tafsirs, 
     </>
   );
 
-  if (!settings) {
-    // settings will be fed to form as initial values
-    // so we must wait for localforage to load settings
-    return <Loader />;
-  }
-
   return (
-    <Form form={form} onFinish={handleSubmit} initialValues={settings} requiredMark={false}>
+    <Form form={form} onFinish={handleSubmit} initialValues={readerSettings} requiredMark={false}>
       <Alert
         type="info"
         message="Split view allows you to have content on right and left sides of your screen"

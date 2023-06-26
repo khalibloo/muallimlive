@@ -13,6 +13,13 @@ module.exports = {
         ["333"]: "#333",
         ["444"]: "#444",
       },
+      screens: {
+        sm: "576px",
+        md: "768px",
+        lg: "992px",
+        xl: "1200px",
+        xxl: "1600px",
+      },
     },
   },
   plugins: [],

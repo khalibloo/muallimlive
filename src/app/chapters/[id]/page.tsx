@@ -56,6 +56,7 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
             (v: any) =>
               ({
                 isArabic: true,
+                isHTML: true,
                 verse_key: v.verse_key as string,
                 text: v[`text_${scriptName}`] as string,
               } as VerseText)
@@ -118,6 +119,7 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
       rightContent={rightContent}
       versesRecitations={versesRecitationsData.audio_files}
       recitations={recitations}
+      playerSettings={playerSettings}
     />
   );
 };

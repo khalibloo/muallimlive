@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Row, Col, Form, Button, Select, Checkbox, InputNumber } from "antd";
 import { useForm } from "antd/lib/form/Form";
 
-import lf from "@/utils/localforage";
+import { savePlayerSettings } from "./savePlayerSettings";
 
 export interface PlayConfig extends PlaySettings {
   start: number;
@@ -32,13 +32,13 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
 
   const recitersSortFn = (a: any, b: any) => (a.translated_name.name > b.translated_name.name ? 1 : -1);
 
-  const handleSubmit = (values: FormValues) => {
+  const handleSubmit = async (values: FormValues) => {
     const cleanedValues: PlaySettings = {
       reciter: values.reciter,
       hideTafsirs: values.hideTafsirs,
     };
 
-    lf.setItem("play-settings", cleanedValues);
+    await savePlayerSettings(cleanedValues);
     form.resetFields();
     onSubmit?.({
       ...cleanedValues,

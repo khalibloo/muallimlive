@@ -1,28 +1,6 @@
-import * as Sentry from "@sentry/browser";
-import config from "@/utils/config";
-import { configResponsive } from "ahooks";
 import { Button, notification } from "antd";
-import "./localforage";
 
 const init = () => {
-  // sentry
-  if (config.sentryDSN) {
-    Sentry.init({
-      dsn: config.sentryDSN,
-      environment: config.env,
-    });
-  }
-
-  // Responsive
-  configResponsive({
-    xs: 0,
-    sm: 576,
-    md: 768,
-    lg: 992,
-    xl: 1200,
-    xxl: 1600,
-  });
-
   // SW
   if (typeof window !== "undefined" && "serviceWorker" in navigator && window.workbox !== undefined) {
     const wb = window.workbox;

@@ -8,6 +8,7 @@ interface Props {
   chapterNumber: number;
   verseNumber: number;
 }
+
 const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
   <Tooltip title={faved ? "Remove from favorites" : "Add to favorites"}>
     <Button

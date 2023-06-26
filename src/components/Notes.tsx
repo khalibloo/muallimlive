@@ -17,6 +17,7 @@ interface Props {
   chapterNumber: number;
   verseNumber: number;
 }
+
 const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
   const responsive = useResponsive();
   const [notesOpened, { setTrue: openNotes, setFalse: closeNotes }] = useBoolean();

@@ -12,7 +12,6 @@ import Verse from "@/components/Verse";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar from "@/components/AudioBar";
 import lf from "@/utils/localforage";
-import config from "@/utils/config";
 
 interface Props {
   chapter: Chapter;
@@ -21,6 +20,7 @@ interface Props {
   chapters: { chapters: Chapter[] };
   versesRecitations: { id: number; url: string; verse_key: string }[];
   recitations: GetRecitationsResponse;
+  playerSettings: PlaySettings;
 }
 
 const Chapter: React.FC<Props> = ({
@@ -30,17 +30,23 @@ const Chapter: React.FC<Props> = ({
   rightContent,
   versesRecitations,
   recitations,
+  playerSettings,
 }) => {
   const responsive = Grid.useBreakpoint();
   const chapterNumber = currentChapter.id;
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
   const [chaptersDrawerOpen, { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer }] = useBoolean(false);
   const [playModalOpen, { setTrue: openPlayModal, setFalse: closePlayModal }] = useBoolean(false);
+  const [hasRestoredProgress, setHasRestoredProgress] = useState(false);
 
   const virtualListRef = useRef<VirtuosoHandle>(null);
 
   const [faves, setFaves] = useState<string[]>([]);
-  const [playSettings, setPlaySettings] = useState<PlayConfig>();
+  const [playbackConfig, setPlaybackConfig] = useState<PlayConfig>({
+    ...playerSettings,
+    start: 1,
+    end: currentChapter.verses_count,
+  });
   const [isPlayingVerses, setIsPlayingVerses] = useState(false);
   const [playingVerseNumber, setPlayingVerseNumber] = useState<number>();
   const [muted, setMuted] = useState(false);
@@ -79,17 +85,9 @@ const Chapter: React.FC<Props> = ({
     setReaderMode("reading");
   }, [chapterNumber]);
 
-  // get play settings
-  React.useEffect(() => {
-    lf.getItem("play-settings").then((settings) => {
-      const defaultSettings = config.defaultPlaySettings;
-      setPlaySettings((settings as PlayConfig) || defaultSettings);
-    });
-  }, []);
-
   // restore progress
   React.useEffect(() => {
-    if (!virtualListRef.current) {
+    if (hasRestoredProgress || !virtualListRef.current) {
       return;
     }
     const key = `progress-surah-${chapterNumber}`;
@@ -105,6 +103,7 @@ const Chapter: React.FC<Props> = ({
         }
       });
     });
+    setHasRestoredProgress(true);
   }, [virtualListRef.current]);
 
   const verseList: { left: VerseText[]; right: VerseText[] }[] = [];
@@ -146,11 +145,11 @@ const Chapter: React.FC<Props> = ({
         <PlayForm
           recitations={recitations}
           verseCount={currentChapter.verses_count}
-          playSettings={playSettings!}
-          onSubmit={(playSettingsData) => {
+          playSettings={playerSettings}
+          onSubmit={(playerSettingsData) => {
             setReaderMode("recitation");
             closePlayModal();
-            setPlaySettings(playSettingsData);
+            setPlaybackConfig(playerSettingsData);
             setIsPlayingVerses(true);
           }}
         />
@@ -240,7 +239,7 @@ const Chapter: React.FC<Props> = ({
                         totalVerses={currentChapter.verses_count}
                         left={item.left}
                         right={item.right}
-                        hideTafsirs={readerMode === "recitation" && playSettings?.hideTafsirs}
+                        hideTafsirs={readerMode === "recitation" && playerSettings.hideTafsirs}
                         audioUrl={versesRecitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
                         onPlay={() => {
                           setPlayingVerseNumber(i + 1);
@@ -270,10 +269,10 @@ const Chapter: React.FC<Props> = ({
         closeIcon={false}
         bodyStyle={{ padding: 0 }}
       >
-        {versesRecitations && readerMode === "recitation" && playSettings && (
+        {readerMode === "recitation" && (
           <AudioBar
-            audioUrls={versesRecitations.slice(playSettings.start - 1, playSettings.end).map((a) => a.url)}
-            start={playSettings.start}
+            audioUrls={versesRecitations.slice(playbackConfig.start - 1, playbackConfig.end).map((a) => a.url)}
+            start={playbackConfig.start}
             isPlaying={isPlayingVerses}
             setIsPlaying={setIsPlayingVerses}
             onOpenSettings={openPlayModal}
