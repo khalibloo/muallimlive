@@ -58,6 +58,7 @@
     "next-compose-plugins": "^2.2.1",
     "postcss": "^8.4.24",
     "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-nesting": "^11.3.0",
     "postcss-preset-env": "^8.5.1",
     "prettier": "2.8.8",
     "typescript": "^5.1.3"

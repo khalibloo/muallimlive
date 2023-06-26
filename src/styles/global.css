@@ -2,9 +2,14 @@
 @import "./tajweed.css";
 @import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
 
+:root {
+  --primary-color: #43a047;
+  --text-color: rgba(255, 255, 255, 0.85);
+}
+
 body {
   background-color: #444;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--text-color);
 }
 
 .bg-default {
