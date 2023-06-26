@@ -7,11 +7,6 @@ import Chapter from "./Chapter";
 import config from "@/utils/config";
 import { fetchData } from "@/data/fetcher";
 
-export const metadata: Metadata = {
-  title: "Terms of Service | Muallimlive",
-  description: "Muallimlive terms of service document.",
-};
-
 interface Props {
   params: { id: string };
 }
