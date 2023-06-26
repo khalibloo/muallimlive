@@ -178,6 +178,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
           {useSplitView && <Typography.Text strong>Left Pane</Typography.Text>}
           <Form.List name="left">{paneFields}</Form.List>
         </Col>
+        {/* eslint-disable-next-line no-nested-ternary */}
         <Col span={useSplitView ? (responsive.md ? 12 : 24) : 0}>
           <Typography.Text strong>Right Pane</Typography.Text>
           <Form.List name="right">{paneFields}</Form.List>

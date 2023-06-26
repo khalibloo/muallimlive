@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useRef, useState } from "react";
 import { Button, Col, Drawer, FloatButton, Grid, Menu, Modal, Popconfirm, Row, Tooltip, Typography } from "antd";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
@@ -220,6 +221,7 @@ const Chapter: React.FC<Props> = ({
             data={verseList}
             useWindowScroll
             ref={virtualListRef}
+            // eslint-disable-next-line react/no-unstable-nested-components
             itemContent={(i) => {
               const item = verseList[i];
               return (
@@ -248,9 +250,9 @@ const Chapter: React.FC<Props> = ({
                         onEnded={() => setPlayingVerseNumber(-1)}
                         isPlaying={playingVerseNumber === i + 1}
                         muted={muted}
-                        setMuted={setMuted}
+                        // setMuted={setMuted}
                         volume={volume}
-                        setVolume={setVolume}
+                        // setVolume={setVolume}
                       />
                     </Col>
                   </Row>

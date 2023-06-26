@@ -1,4 +1,5 @@
 "use client";
+
 import { ConfigProvider, theme } from "antd";
 import { QueryClientProvider } from "@tanstack/react-query";
 

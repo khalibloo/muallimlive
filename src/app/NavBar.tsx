@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { Typography, Row, Col, Menu, Dropdown, Modal, Tabs, notification } from "antd";
 import { GlobalOutlined, SettingOutlined } from "@ant-design/icons";
@@ -23,7 +24,7 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
   const [settingsTab, setSettingsTab] = useState("display");
 
   const langMenu = (
-    <Menu onClick={(item) => {}}>
+    <Menu>
       <Menu.Item key="en-US">English</Menu.Item>
       <Menu.Item key="fr-FR">Français</Menu.Item>
     </Menu>
@@ -58,7 +59,7 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
               {...settingsResources}
               onSubmit={() => {
                 notification.success({ message: "Changes Saved Successfully" });
-                closeSettingsModal;
+                closeSettingsModal();
               }}
             />
           </Tabs.TabPane>

@@ -71,9 +71,22 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
     }
   };
 
+  const deleteNote = (index: number) => {
+    lf.getItem(key).then((notesData) => {
+      if (typeof (notesData as string[])?.length === "number") {
+        const notesList = notesData as string[];
+        notesList.splice(index, 1);
+
+        lf.setItem(key, notesList);
+        setNotes(notesList);
+      }
+    });
+  };
+
   const updateNote = (index: number) => {
     if (isEmptyQuill(editNote)) {
-      return deleteNote(index);
+      deleteNote(index);
+      return;
     }
     lf.getItem(key).then((notesData) => {
       if (typeof (notesData as string[])?.length === "number") {
@@ -84,18 +97,6 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         setNotes(notesList);
         setEditNote("");
         setEditNoteIndex(-1);
-      }
-    });
-  };
-
-  const deleteNote = (index: number) => {
-    lf.getItem(key).then((notesData) => {
-      if (typeof (notesData as string[])?.length === "number") {
-        const notesList = notesData as string[];
-        notesList.splice(index, 1);
-
-        lf.setItem(key, notesList);
-        setNotes(notesList);
       }
     });
   };
@@ -200,6 +201,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                     </Row>
                   </Space>
                 ) : (
+                  // eslint-disable-next-line react/no-danger
                   <div dangerouslySetInnerHTML={{ __html: note }} />
                 )}
               </List.Item>

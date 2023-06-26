@@ -78,10 +78,12 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
     if (c.content?.[0] === "translation" && c.content[1] === "ar") {
       const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return arabicContentData[i].verses;
-    } else if (c.content?.[0] === "translation" && c.content[1] !== "ar") {
+    }
+    if (c.content?.[0] === "translation" && c.content[1] !== "ar") {
       const i = translationContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return translationContentData[i].translations;
-    } else if (c.content?.[0] === "tafsir") {
+    }
+    if (c.content?.[0] === "tafsir") {
       const i = tafsirContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
       return tafsirContentData[i].tafsirs;
     }

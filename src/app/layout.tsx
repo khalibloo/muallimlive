@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { cookies, headers } from "next/headers";
+import Script from "next/script";
 import { configResponsive } from "ahooks";
 
 import "antd/dist/reset.css";
@@ -75,8 +76,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
         {config.gtmCode && (
           <>
+            {/* eslint-disable-next-line react/no-danger */}
             <script dangerouslySetInnerHTML={{ __html: `dataLayer = [];` }} />
-            <script
+            <Script
+              id="google-analytics"
+              // eslint-disable-next-line react/no-danger
               dangerouslySetInnerHTML={{
                 __html: `
                     (function(w, d, s, l, i) {
@@ -98,12 +102,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         {config.gtmCode && (
           <noscript>
+            {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
             <iframe
               src={`https://www.googletagmanager.com/ns.html?id=${config.gtmCode}`}
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}
-            ></iframe>
+            />
           </noscript>
         )}
         <Providers>

@@ -23,9 +23,7 @@ interface Props {
   onEnded: () => void;
   isPlaying: boolean;
   volume: number;
-  setVolume: React.Dispatch<React.SetStateAction<number>>;
   muted: boolean;
-  setMuted: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const Verse: React.FC<Props> = ({
@@ -41,9 +39,7 @@ const Verse: React.FC<Props> = ({
   onEnded,
   isPlaying,
   muted,
-  setMuted,
   volume,
-  setVolume,
 }) => {
   const responsive = useResponsive();
   const audioRef = createRef<ReactPlayer>();
@@ -85,6 +81,7 @@ const Verse: React.FC<Props> = ({
                       <List.Item key={v.id}>
                         <div>
                           {v.isHTML ? (
+                            // eslint-disable-next-line react/no-danger
                             <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
                           ) : (
                             <Typography.Text
@@ -122,6 +119,7 @@ const Verse: React.FC<Props> = ({
                             "font-light": v.isHTML && !v.isArabic,
                             "font-bold": v.isBold,
                           })}
+                          // eslint-disable-next-line react/no-danger
                           dangerouslySetInnerHTML={{ __html: v.text }}
                         />
                       ) : (

@@ -1,4 +1,5 @@
 "use client";
+
 import { Layout } from "antd";
 import clsx from "clsx";
 
@@ -18,21 +19,19 @@ interface Props {
   children: React.ReactNode;
 }
 
-const BasicLayout: React.FC<Props> = ({ settingsReources, children, noPadding }) => {
-  return (
-    <>
-      <Layout className="min-h-screen">
-        <Layout.Header className={clsx("w-full p-0 fixed z-10 shadow-md")}>
-          <NavBar settingsResources={settingsReources} />
-        </Layout.Header>
-        <Layout.Content className={clsx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
-        <Layout.Footer className="bg-333">
-          <Footer />
-        </Layout.Footer>
-      </Layout>
-      <CookieNotice />
-    </>
-  );
-};
+const BasicLayout: React.FC<Props> = ({ settingsReources, children, noPadding }) => (
+  <>
+    <Layout className="min-h-screen">
+      <Layout.Header className={clsx("w-full p-0 fixed z-10 shadow-md")}>
+        <NavBar settingsResources={settingsReources} />
+      </Layout.Header>
+      <Layout.Content className={clsx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
+      <Layout.Footer className="bg-333">
+        <Footer />
+      </Layout.Footer>
+    </Layout>
+    <CookieNotice />
+  </>
+);
 
 export default BasicLayout;

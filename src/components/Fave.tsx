@@ -24,12 +24,10 @@ const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
               if (favesIsValid) {
                 newFaves = faves.filter((v) => v !== verseKey);
               }
+            } else if (favesIsValid) {
+              newFaves = [...faves, verseKey];
             } else {
-              if (favesIsValid) {
-                newFaves = [...faves, verseKey];
-              } else {
-                newFaves = [verseKey];
-              }
+              newFaves = [verseKey];
             }
             lf.setItem(key, newFaves);
           });

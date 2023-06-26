@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect } from "react";
 import { Workbox } from "workbox-window";
 
@@ -17,8 +18,9 @@ const ServiceWorkerEvents: React.FC = () => {
         // `event.wasWaitingBeforeRegister` will be false if this is the first time the updated service worker is waiting.
         // When `event.wasWaitingBeforeRegister` is true, a previously updated service worker is still waiting.
         // You may want to customize the UI prompt accordingly.
+        // eslint-disable-next-line no-restricted-globals, no-alert
         if (confirm("A newer version of this web app is available, reload to update?")) {
-          wb.addEventListener("controlling", (event) => {
+          wb.addEventListener("controlling", () => {
             window.location.reload();
           });
 

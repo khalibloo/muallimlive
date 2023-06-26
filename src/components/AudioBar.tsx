@@ -2,7 +2,6 @@ import React, { createRef, useState } from "react";
 import { Row, Col, Button, Popover, Slider, Space } from "antd";
 import { BsVolumeMute, BsVolumeUp } from "react-icons/bs";
 import ReactPlayer from "react-player";
-import _ from "lodash";
 import {
   ColumnHeightOutlined,
   PauseCircleOutlined,
