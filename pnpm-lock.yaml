@@ -121,6 +121,18 @@ devDependencies:
   eslint-config-prettier:
     specifier: ^8.8.0
     version: 8.8.0(eslint@8.43.0)
+  eslint-plugin-import:
+    specifier: ^2.27.5
+    version: 2.27.5(@typescript-eslint/parser@5.60.0)(eslint-import-resolver-typescript@3.5.5)(eslint@8.43.0)
+  eslint-plugin-jsx-a11y:
+    specifier: ^6.7.1
+    version: 6.7.1(eslint@8.43.0)
+  eslint-plugin-react:
+    specifier: ^7.32.2
+    version: 7.32.2(eslint@8.43.0)
+  eslint-plugin-react-hooks:
+    specifier: ^4.6.0
+    version: 4.6.0(eslint@8.43.0)
   next-compose-plugins:
     specifier: ^2.2.1
     version: 2.2.1
