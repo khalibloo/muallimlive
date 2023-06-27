@@ -2,7 +2,7 @@ import { Metadata, NextPage } from "next";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 
-import chaptersData from "@/data/resources/chapters.json";
+import chaptersData from "@public/data/resources/chapters.json";
 import config from "@/utils/config";
 import { fetchData } from "@/utils/fetcher";
 import Chapter from "./Chapter";
