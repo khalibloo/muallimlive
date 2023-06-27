@@ -1,14 +1,21 @@
 @import "./tailwind.css";
+@import "./tajweed.css";
 @import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: unset !important;
+:root {
+  --primary-color: #43a047;
+  --text-color: rgba(255, 255, 255, 0.85);
 }
 
-/* important: override tailwind svg vertical align. it messes with antd icon placement */
-svg {
-  vertical-align: unset;
+body {
+  background-color: #444;
+  color: var(--text-color);
+}
+
+.bg-default {
+  background-color: #444;
+}
+
+.text-arabic {
+  font-family: "Mirza", cursive;
 }

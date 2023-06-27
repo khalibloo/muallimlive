@@ -1,0 +1,35 @@
+.madda_normal,
+.madda_permissible,
+.madda_necessary,
+.madda_obligatory {
+  @apply text-purple-400;
+}
+
+.qalaqah {
+  @apply text-lime-400;
+}
+
+.ikhafa,
+.ikhafa_shafawi {
+  @apply text-amber-400;
+}
+
+.ghunnah,
+.iqlab {
+  @apply text-emerald-400;
+}
+
+.slnt,
+.ham_wasl {
+  @apply text-neutral-400;
+}
+
+.idgham_wo_ghunnah,
+.idgham_ghunnah,
+.idgham_shafawi {
+  @apply text-blue-400;
+}
+
+.end {
+  display: none;
+}

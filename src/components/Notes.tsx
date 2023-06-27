@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Drawer,
-  Empty,
-  List,
-  Popconfirm,
-  Row,
-  Space,
-  Tooltip,
-} from "antd";
+import { Button, Drawer, Empty, List, Popconfirm, Row, Space, Tooltip } from "antd";
 import { DeleteOutlined, EditOutlined, FormOutlined } from "@ant-design/icons";
 import { useBoolean, useResponsive } from "ahooks";
 import dynamic from "next/dynamic";
@@ -16,7 +7,7 @@ import dynamic from "next/dynamic";
 import lf from "@/utils/localforage";
 
 import "react-quill/dist/quill.snow.css";
-import "@/styles/quill.less";
+import "@/styles/quill.css";
 
 const ReactQuill = dynamic(() => import("react-quill"), {
   ssr: false,
@@ -26,12 +17,10 @@ interface Props {
   chapterNumber: number;
   verseNumber: number;
 }
+
 const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
   const responsive = useResponsive();
-  const [
-    notesOpened,
-    { setTrue: openNotes, setFalse: closeNotes },
-  ] = useBoolean();
+  const [notesOpened, { setTrue: openNotes, setFalse: closeNotes }] = useBoolean();
   const [notes, setNotes] = useState<string[]>([]);
   const [newNote, setNewNote] = useState<string>("");
   // index of note being edited
@@ -41,8 +30,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
 
   const key = `notes-quran-${chapterNumber}-${verseNumber}`;
 
-  const isEmptyQuill = (text: string) =>
-    text.replace(/<(.|\n)*?>/g, "").trim().length === 0;
+  const isEmptyQuill = (text: string) => text.replace(/<(.|\n)*?>/g, "").trim().length === 0;
 
   React.useEffect(() => {
     lf.ready().then(() => {
@@ -83,9 +71,22 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
     }
   };
 
+  const deleteNote = (index: number) => {
+    lf.getItem(key).then((notesData) => {
+      if (typeof (notesData as string[])?.length === "number") {
+        const notesList = notesData as string[];
+        notesList.splice(index, 1);
+
+        lf.setItem(key, notesList);
+        setNotes(notesList);
+      }
+    });
+  };
+
   const updateNote = (index: number) => {
     if (isEmptyQuill(editNote)) {
-      return deleteNote(index);
+      deleteNote(index);
+      return;
     }
     lf.getItem(key).then((notesData) => {
       if (typeof (notesData as string[])?.length === "number") {
@@ -96,18 +97,6 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         setNotes(notesList);
         setEditNote("");
         setEditNoteIndex(-1);
-      }
-    });
-  };
-
-  const deleteNote = (index: number) => {
-    lf.getItem(key).then((notesData) => {
-      if (typeof (notesData as string[])?.length === "number") {
-        const notesList = notesData as string[];
-        notesList.splice(index, 1);
-
-        lf.setItem(key, notesList);
-        setNotes(notesList);
       }
     });
   };
@@ -129,7 +118,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         placement="right"
         title={`Notes Q${chapterNumber}:${verseNumber}`}
         onClose={closeNotes}
-        visible={notesOpened}
+        open={notesOpened}
         footer={
           <Space direction="vertical" className="w-full">
             <ReactQuill theme="snow" onChange={setNewNote} value={newNote} />
@@ -143,11 +132,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                 >
                   Cancel
                 </Button>
-                <Button
-                  disabled={isEmptyQuill(newNote)}
-                  type="primary"
-                  onClick={addNote}
-                >
+                <Button disabled={isEmptyQuill(newNote)} type="primary" onClick={addNote}>
                   Save New Note
                 </Button>
               </Space>
@@ -198,11 +183,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
               >
                 {editNoteIndex === i ? (
                   <Space direction="vertical" className="w-full">
-                    <ReactQuill
-                      theme="snow"
-                      onChange={setEditNote}
-                      value={editNote}
-                    />
+                    <ReactQuill theme="snow" onChange={setEditNote} value={editNote} />
                     <Row>
                       <Space>
                         <Button
@@ -213,17 +194,14 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                         >
                           Cancel
                         </Button>
-                        <Button
-                          disabled={isEmptyQuill(editNote)}
-                          type="primary"
-                          onClick={() => updateNote(i)}
-                        >
+                        <Button disabled={isEmptyQuill(editNote)} type="primary" onClick={() => updateNote(i)}>
                           Save Changes
                         </Button>
                       </Space>
                     </Row>
                   </Space>
                 ) : (
+                  // eslint-disable-next-line react/no-danger
                   <div dangerouslySetInnerHTML={{ __html: note }} />
                 )}
               </List.Item>

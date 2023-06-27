@@ -2,7 +2,6 @@ import React, { createRef, useState } from "react";
 import { Row, Col, Button, Popover, Slider, Space } from "antd";
 import { BsVolumeMute, BsVolumeUp } from "react-icons/bs";
 import ReactPlayer from "react-player";
-import _ from "lodash";
 import {
   ColumnHeightOutlined,
   PauseCircleOutlined,
@@ -116,17 +115,8 @@ const AudioBar: React.FC<Props> = ({
               </Button>
             </Col>
             <Col>
-              <Button
-                className="px-2"
-                type="link"
-                onClick={() => setIsPlaying((val) => !val)}
-                size="large"
-              >
-                {isPlaying ? (
-                  <PauseCircleOutlined style={iconStyle} />
-                ) : (
-                  <PlayCircleOutlined style={iconStyle} />
-                )}
+              <Button className="px-2" type="link" onClick={() => setIsPlaying((val) => !val)} size="large">
+                {isPlaying ? <PauseCircleOutlined style={iconStyle} /> : <PlayCircleOutlined style={iconStyle} />}
               </Button>
             </Col>
             <Col>
@@ -155,15 +145,13 @@ const AudioBar: React.FC<Props> = ({
                           setVolume(val);
                           setMuted(false);
                         }}
-                        tipFormatter={(val) => ((val || 0) * 100).toFixed(0)}
+                        tooltip={{
+                          formatter: (val) => ((val || 0) * 100).toFixed(0),
+                        }}
                       />
                     </div>
                     <Button type="link" onClick={() => setMuted((val) => !val)}>
-                      {muted ? (
-                        <BsVolumeMute fontSize="2rem" />
-                      ) : (
-                        <BsVolumeUp fontSize="2rem" />
-                      )}
+                      {muted ? <BsVolumeMute fontSize="2rem" /> : <BsVolumeUp fontSize="2rem" />}
                     </Button>
                   </Space>
                 }
@@ -176,12 +164,7 @@ const AudioBar: React.FC<Props> = ({
               </Popover>
             </Col>
             <Col>
-              <Button
-                className="px-2"
-                type="link"
-                size="large"
-                onClick={onOpenSettings}
-              >
+              <Button className="px-2" type="link" size="large" onClick={onOpenSettings}>
                 <SettingOutlined style={iconStyle} />
               </Button>
             </Col>

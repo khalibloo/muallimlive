@@ -8,6 +8,7 @@ interface Props {
   chapterNumber: number;
   verseNumber: number;
 }
+
 const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
   <Tooltip title={faved ? "Remove from favorites" : "Add to favorites"}>
     <Button
@@ -15,8 +16,7 @@ const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
       onClick={() => {
         const key = "faves-quran";
         lf.ready().then(() => {
-          lf.getItem(key).then((faves) => {
-            // if verse currently faved, we should unfave
+          lf.getItem<string[]>(key).then((faves) => {
             const verseKey = `${chapterNumber}:${verseNumber}`;
             const favesIsValid = typeof faves?.length === "number";
             let newFaves: string[] = [];
@@ -24,12 +24,10 @@ const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
               if (favesIsValid) {
                 newFaves = faves.filter((v) => v !== verseKey);
               }
+            } else if (favesIsValid) {
+              newFaves = [...faves, verseKey];
             } else {
-              if (favesIsValid) {
-                newFaves = [...faves, verseKey];
-              } else {
-                newFaves = [verseKey];
-              }
+              newFaves = [verseKey];
             }
             lf.setItem(key, newFaves);
           });

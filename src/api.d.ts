@@ -108,10 +108,44 @@ type Verse =
   | VerseUthmaniSimple
   | VerseUthmaniTajweed;
 
-type ArabicScript =
-  | "uthmani"
-  | "uthmani_simple"
-  | "uthmani_tajweed"
-  | "imlaei"
-  | "imlaei_simple"
-  | "indopak";
+type ArabicScript = "uthmani" | "uthmani_simple" | "uthmani_tajweed" | "imlaei" | "imlaei_simple" | "indopak";
+
+// resource response types
+
+interface GetTranslationsResponse {
+  translations: Translation[];
+}
+
+interface GetTafsirsResponse {
+  tafsirs: Tafsir[];
+}
+
+interface GetRecitationsResponse {
+  recitations: Recitation[];
+}
+
+interface GetLanguagesResponse {
+  languages: Language[];
+}
+
+interface GetChaptersResponse {
+  chapters: Chapter[];
+}
+
+// data response types
+
+interface GetVersesArabicResponse {
+  verses: (VerseIndopak | VerseImlaei | VerseImlaeiSimple | VerseUthmani | VerseUthmaniSimple | VerseUthmaniTajweed)[];
+}
+
+interface GetVersesRecitationResponse {
+  audio_files: VerseRecitation[];
+}
+
+interface GetVersesTafsirResponse {
+  tafsirs: VerseText[];
+}
+
+interface GetVersesTranslationResponse {
+  translations: { resource_id: number; text: string }[];
+}

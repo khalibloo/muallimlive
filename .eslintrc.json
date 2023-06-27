@@ -1,3 +1,21 @@
 {
-  "extends": ["airbnb-typescript", "airbnb/hooks", "prettier", "prettier/react"]
+  "extends": ["airbnb", "airbnb-typescript", "plugin:@next/next/recommended", "plugin:react/jsx-runtime", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    }
+  ],
+  "rules": {
+    "react/function-component-definition": [1, { "namedComponents": "arrow-function" }],
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-unescaped-entities": 0,
+    "react/require-default-props": 0
+  }
 }

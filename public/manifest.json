@@ -18,6 +18,6 @@
   ],
   "name": "MuallimLive",
   "short_name": "MuallimLive",
-  "start_url": "./?homescreen=true",
+  "start_url": "/",
   "scope": "/"
 }

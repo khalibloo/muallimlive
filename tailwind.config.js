@@ -1,10 +1,7 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/layouts/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
-  ],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/pages/**/*.{ts,tsx,mdx}", "./src/components/**/*.{ts,tsx,mdx}", "./src/app/**/*.{ts,tsx,mdx}"],
+  darkMode: true,
   important: true,
   theme: {
     extend: {
@@ -16,10 +13,14 @@ module.exports = {
         ["333"]: "#333",
         ["444"]: "#444",
       },
+      screens: {
+        sm: "576px",
+        md: "768px",
+        lg: "992px",
+        xl: "1200px",
+        xxl: "1600px",
+      },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };

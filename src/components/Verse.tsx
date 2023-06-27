@@ -1,22 +1,14 @@
 import React, { createRef } from "react";
-import {
-  Row,
-  Col,
-  Typography,
-  List,
-  Space,
-  Divider,
-  Tooltip,
-  Button,
-} from "antd";
+import { Row, Col, Typography, List, Space, Divider, Tooltip, Button } from "antd";
 import VisibilitySensor from "react-visibility-sensor";
-import clx from "classnames";
+import clsx from "clsx";
 import { useResponsive } from "ahooks";
+import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
+import ReactPlayer from "react-player";
+
 import lf from "@/utils/localforage";
 import Fave from "./Fave";
 import Notes from "./Notes";
-import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
-import ReactPlayer from "react-player";
 
 interface Props {
   verseNumber: number;
@@ -31,9 +23,7 @@ interface Props {
   onEnded: () => void;
   isPlaying: boolean;
   volume: number;
-  setVolume: React.Dispatch<React.SetStateAction<number>>;
   muted: boolean;
-  setMuted: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const Verse: React.FC<Props> = ({
@@ -49,9 +39,7 @@ const Verse: React.FC<Props> = ({
   onEnded,
   isPlaying,
   muted,
-  setMuted,
   volume,
-  setVolume,
 }) => {
   const responsive = useResponsive();
   const audioRef = createRef<ReactPlayer>();
@@ -63,7 +51,7 @@ const Verse: React.FC<Props> = ({
     <VisibilitySensor
       offset={{ top: 200, bottom: 200 }}
       partialVisibility
-      onChange={(isVisible) => {
+      onChange={(isVisible: boolean) => {
         const key = `progress-surah-${chapterNumber}`;
 
         if (window.scrollY < 200 || verseNumber === totalVerses) {
@@ -74,39 +62,30 @@ const Verse: React.FC<Props> = ({
       }}
     >
       <>
-        <Row
-          gutter={24}
-          id={`v-${verseNumber}`}
-          className="mt-6 w-full items-stretch"
-        >
+        <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 w-full items-stretch">
           {left.length > 0 && (
             <Col
               span={leftColSpan}
               xs={24}
               md={leftColSpan}
               style={{
-                borderRight:
-                  split && responsive.md ? "1px solid #666" : undefined,
+                borderRight: split && responsive.md ? "1px solid #666" : undefined,
               }}
             >
               <div className="flex gap-2">
                 <div className="py-3">{verseNumber})</div>
                 <div className="flex-grow">
                   <List
-                    dataSource={
-                      hideTafsirs ? left.filter((v) => !v.isTafsir) : left
-                    }
+                    dataSource={hideTafsirs ? left.filter((v) => !v.isTafsir) : left}
                     renderItem={(v) => (
                       <List.Item key={v.id}>
                         <div>
                           {v.isHTML ? (
-                            <div
-                              className="font-light"
-                              dangerouslySetInnerHTML={{ __html: v.text }}
-                            />
+                            // eslint-disable-next-line react/no-danger
+                            <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
                           ) : (
                             <Typography.Text
-                              className={clx({
+                              className={clsx({
                                 "text-lg": v.isBold && !v.isArabic,
                                 "text-2xl": v.isArabic,
                                 "text-arabic": v.isArabic,
@@ -127,25 +106,29 @@ const Verse: React.FC<Props> = ({
           {right.length > 0 && (
             <Col span={rightColSpan} xs={24} md={rightColSpan}>
               <List
-                dataSource={
-                  hideTafsirs ? right.filter((v) => !v.isTafsir) : right
-                }
+                dataSource={hideTafsirs ? right.filter((v) => !v.isTafsir) : right}
                 renderItem={(v) => (
                   <List.Item key={v.id}>
-                    <div
-                      className={clx("w-full", { "text-right": v.isArabic })}
-                    >
+                    <div className={clsx("w-full", { "text-right": v.isArabic })}>
                       {v.isHTML ? (
                         <div
-                          className="font-light"
+                          className={clsx({
+                            "text-lg": v.isBold && !v.isArabic,
+                            "text-4xl": v.isArabic,
+                            "text-arabic": v.isArabic,
+                            "font-light": v.isHTML && !v.isArabic,
+                            "font-bold": v.isBold,
+                          })}
+                          // eslint-disable-next-line react/no-danger
                           dangerouslySetInnerHTML={{ __html: v.text }}
                         />
                       ) : (
                         <Typography.Text
-                          className={clx({
+                          className={clsx({
                             "text-lg": v.isBold && !v.isArabic,
                             "text-4xl": v.isArabic,
                             "text-arabic": v.isArabic,
+                            "font-light": v.isHTML && !v.isArabic,
                           })}
                           strong={v.isBold}
                         >
@@ -161,11 +144,7 @@ const Verse: React.FC<Props> = ({
         </Row>
         <div>
           <Space split={<Divider type="vertical" />}>
-            <Fave
-              faved={faved}
-              chapterNumber={chapterNumber}
-              verseNumber={verseNumber}
-            />
+            <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
             <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
             <Tooltip title="Play verse">
               <Button
