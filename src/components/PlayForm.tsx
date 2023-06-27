@@ -39,7 +39,6 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
     };
 
     await savePlayerSettings(cleanedValues);
-    form.resetFields();
     onSubmit?.({
       ...cleanedValues,
       start: values.mode === "surah" ? 1 : values.start,

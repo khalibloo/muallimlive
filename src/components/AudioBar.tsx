@@ -26,6 +26,7 @@ interface Props {
   onOpenSettings: () => void;
   virtualListRef: React.RefObject<VirtuosoHandle>;
 }
+
 const AudioBar: React.FC<Props> = ({
   audioUrls,
   start,

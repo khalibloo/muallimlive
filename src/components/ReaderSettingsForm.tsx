@@ -118,7 +118,6 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
     };
     await saveReaderSettings(cleanedValues);
 
-    form.resetFields();
     onSubmit?.();
   };
 
