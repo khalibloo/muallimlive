@@ -2,7 +2,6 @@ import { Metadata, NextPage } from "next";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 
-import chaptersData from "@public/data/resources/chapters.json";
 import config from "@/utils/config";
 import { fetchData } from "@/utils/fetcher";
 import Chapter from "./Chapter";
@@ -11,7 +10,10 @@ interface Props {
   params: { id: string };
 }
 
+const fetchChapters = () => fetchData<GetChaptersResponse>("resources/chapters");
+
 export async function generateMetadata({ params: { id } }: Props): Promise<Metadata> {
+  const chaptersData = await fetchChapters();
   const chapter = chaptersData.chapters.find((c) => `${c.id}` === id);
 
   return {
@@ -21,6 +23,7 @@ export async function generateMetadata({ params: { id } }: Props): Promise<Metad
 }
 
 const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
+  const chaptersData = await fetchChapters();
   const chapter = chaptersData.chapters.find((c) => `${c.id}` === id);
   if (!chapter) {
     notFound();
