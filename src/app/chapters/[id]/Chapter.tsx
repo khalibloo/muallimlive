@@ -142,7 +142,7 @@ const Chapter: React.FC<Props> = ({
           ))}
         </Menu>
       </Drawer>
-      <Modal title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
+      <Modal destroyOnClose title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
         <PlayForm
           recitations={recitations}
           verseCount={currentChapter.verses_count}

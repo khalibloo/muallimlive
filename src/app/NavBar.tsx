@@ -52,7 +52,7 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
 
   return (
     <>
-      <Modal open={settingsModalOpen} footer={null} onCancel={closeSettingsModal} width={modalWidth}>
+      <Modal destroyOnClose open={settingsModalOpen} footer={null} onCancel={closeSettingsModal} width={modalWidth}>
         <Tabs activeKey={settingsTab} onChange={setSettingsTab}>
           <Tabs.TabPane key="display" tab="Display">
             <ReaderSettingsForm
