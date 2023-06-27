@@ -35,12 +35,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
+    "@netlify/plugin-nextjs": "^4.38.1",
     "@types/dompurify": "^2.2.2",
     "@types/lodash": "^4.14.195",
     "@types/node": "20.3.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "18.2.6",
-    "@types/react-redux": "^7.1.16",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "autoprefixer": "^10.4.14",
