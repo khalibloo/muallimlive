@@ -13,7 +13,7 @@ const defaultPlaySettings: PlaySettings = {
 
 export default {
   env: appEnv,
-  apiUri: process.env.NEXT_PUBLIC_API_URI,
+  apiUri: process.env.API_URI,
   apiMediaUri: process.env.NEXT_PUBLIC_API_MEDIA_URI,
   sentryDSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   gtmEnabled: Boolean(process.env.NEXT_PUBLIC_GTM_CODE),

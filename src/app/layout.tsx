@@ -7,7 +7,7 @@ import "antd/dist/reset.css";
 
 import "@/utils/localforage";
 import config from "@/utils/config";
-import { fetchData } from "@/data/fetcher";
+import { fetchData } from "@/utils/fetcher";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
 import ServiceWorkerEvents from "./ServiceWorkerEvents";

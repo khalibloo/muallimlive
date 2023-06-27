@@ -3,9 +3,9 @@ import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 
 import chaptersData from "@/data/resources/chapters.json";
-import Chapter from "./Chapter";
 import config from "@/utils/config";
-import { fetchData } from "@/data/fetcher";
+import { fetchData } from "@/utils/fetcher";
+import Chapter from "./Chapter";
 
 interface Props {
   params: { id: string };
