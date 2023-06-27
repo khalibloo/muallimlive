@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
+    "@netlify/plugin-nextjs": "^4.38.1",
     "@types/dompurify": "^2.2.2",
     "@types/lodash": "^4.14.195",
     "@types/node": "20.3.1",
