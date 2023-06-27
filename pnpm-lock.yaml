@@ -142,9 +142,6 @@ devDependencies:
   postcss-flexbugs-fixes:
     specifier: ^5.0.2
     version: 5.0.2(postcss@8.4.24)
-  postcss-nesting:
-    specifier: ^11.3.0
-    version: 11.3.0(postcss@8.4.24)
   postcss-preset-env:
     specifier: ^8.5.1
     version: 8.5.1(postcss@8.4.24)
