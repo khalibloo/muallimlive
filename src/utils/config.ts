@@ -2,7 +2,7 @@ const appEnv = process.env.NEXT_PUBLIC_APP_ENV;
 
 const defaultReaderSettings: ReaderSettings = {
   splitView: true,
-  left: [{ content: ["translation", "en", 22] }, { content: ["tafsir", "en", 169] }],
+  left: [{ content: ["translation", "en", 22] }, { content: ["tafsir", "en", 0] }],
   right: [{ content: ["translation", "ar", "imlaei"] }, { content: ["translation", "en", 57] }],
 };
 
