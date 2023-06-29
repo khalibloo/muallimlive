@@ -16,8 +16,8 @@ import lf from "@/utils/localforage";
 
 interface Props {
   chapter: Chapter;
-  leftContent: (VerseText[] | Translation[] | null)[];
-  rightContent: (VerseText[] | Translation[] | null)[];
+  leftContent: VerseText[][];
+  rightContent: VerseText[][];
   chapters: { chapters: Chapter[] };
   versesRecitations: { id: number; url: string; verse_key: string }[];
   recitations: GetRecitationsResponse;
@@ -109,12 +109,12 @@ const Chapter: React.FC<Props> = ({
 
   const verseList: { left: VerseText[]; right: VerseText[] }[] = [];
   range(currentChapter.verses_count).forEach((i) => {
-    const l = leftContent.map((c: any) => c?.[i]);
-    const r = rightContent.map((c: any) => c?.[i]);
+    const l = leftContent.map((c) => c?.[i]);
+    const r = rightContent.map((c) => c?.[i]);
 
-    if (![...l, ...r].includes(undefined)) {
-      verseList.push({ left: l as VerseText[], right: r as VerseText[] });
-    }
+    // if (![...l, ...r].includes(undefined)) {
+    verseList.push({ left: l as VerseText[], right: r as VerseText[] });
+    // }
   });
 
   return (
