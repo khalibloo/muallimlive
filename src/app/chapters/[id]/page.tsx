@@ -67,33 +67,51 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
     translationContentTypes
       .map((c) => (c.content as number[])[2])
       .map((translationId) =>
-        fetchData<GetTranslationsResponse>(`chapters/${chapter.id}/translations/${translationId}`)
+        fetchData<GetVersesTranslationResponse>(`chapters/${chapter.id}/translations/${translationId}`)
       )
   );
 
   const tafsirContentData = await Promise.all(
     tafsirContentTypes
       .map((c) => (c.content as number[])[2])
-      .map((tafsirId) => fetchData<GetTafsirsResponse>(`chapters/${chapter.id}/tafsirs/${tafsirId}`))
+      .map((tafsirId) => fetchData<GetVersesTafsirResponse>(`chapters/${chapter.id}/tafsirs/${tafsirId}`))
   );
 
-  const mapContent = (c: ReaderSettings["left"][0]) => {
-    if (c.content?.[0] === "translation" && c.content[1] === "ar") {
-      const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
-      return arabicContentData[i].verses;
+  const mapContent = (c: ReaderSettings["left"][0]): VerseText[] => {
+    if (c.content?.[0] === "translation") {
+      if (c.content[1] === "ar") {
+        const i = arabicContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
+        return arabicContentData[i].verses;
+      }
+      const index = translationContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
+      return translationContentData[index].translations.map((t, i) => ({
+        id: i + 1,
+        text: t.text,
+        verse_key: `${chapter.id}:${i + 1}`,
+      }));
     }
-    if (c.content?.[0] === "translation" && c.content[1] !== "ar") {
-      const i = translationContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
-      return translationContentData[i].translations;
+    // then it's a tafsir
+    // if (c.content?.[0] === "tafsir") {
+    const index = tafsirContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
+    // some verses are skipped in tafsirs, we should fill in the blanks
+    const tafsirs: VerseText[] = [];
+    for (let i = 0; i < chapter.verses_count; i++) {
+      const tafsir = tafsirContentData[index].tafsirs.find((t) => t.verse_id === i + 1);
+      tafsirs.push(
+        tafsir
+          ? {
+              id: tafsir.verse_id,
+              verse_key: `${chapter.id}:${i + 1}`,
+              text: tafsir.text,
+              isHTML: true,
+              isTafsir: true,
+            }
+          : { id: i + 1, text: "", verse_key: `${chapter.id}:${i + 1}` }
+      );
     }
-    if (c.content?.[0] === "tafsir") {
-      const i = tafsirContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
-      return tafsirContentData[i].tafsirs;
-    }
-    return null;
+    return tafsirs;
+    // }
   };
-  const leftContent = readerSettings.left.map(mapContent);
-  const rightContent = readerSettings.right.map(mapContent);
 
   const versesRecitationsData = await fetchData<GetVersesRecitationResponse>(
     `chapters/${chapter.id}/recitations/${playerSettings.reciter}`
@@ -115,8 +133,8 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
     <Chapter
       chapter={chapter}
       chapters={chaptersData}
-      leftContent={leftContent}
-      rightContent={rightContent}
+      leftContent={readerSettings.left.map(mapContent)}
+      rightContent={readerSettings.right.map(mapContent)}
       versesRecitations={versesRecitationsData.audio_files}
       recitations={recitations}
       playerSettings={playerSettings}

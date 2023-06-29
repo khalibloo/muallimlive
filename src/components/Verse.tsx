@@ -77,27 +77,32 @@ const Verse: React.FC<Props> = ({
                 <div className="flex-grow">
                   <List
                     dataSource={hideTafsirs ? left.filter((v) => !v.isTafsir) : left}
-                    renderItem={(v) => (
-                      <List.Item key={v.id}>
-                        <div>
-                          {v.isHTML ? (
-                            // eslint-disable-next-line react/no-danger
-                            <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
-                          ) : (
-                            <Typography.Text
-                              className={clsx({
-                                "text-lg": v.isBold && !v.isArabic,
-                                "text-2xl": v.isArabic,
-                                "text-arabic": v.isArabic,
-                              })}
-                              strong={v.isBold}
-                            >
-                              {v.text}
-                            </Typography.Text>
-                          )}
-                        </div>
-                      </List.Item>
-                    )}
+                    renderItem={(v) => {
+                      if (!v.text) {
+                        return null;
+                      }
+                      return (
+                        <List.Item key={v.id}>
+                          <div>
+                            {v.isHTML ? (
+                              // eslint-disable-next-line react/no-danger
+                              <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
+                            ) : (
+                              <Typography.Text
+                                className={clsx({
+                                  "text-lg": v.isBold && !v.isArabic,
+                                  "text-2xl": v.isArabic,
+                                  "text-arabic": v.isArabic,
+                                })}
+                                strong={v.isBold}
+                              >
+                                {v.text}
+                              </Typography.Text>
+                            )}
+                          </div>
+                        </List.Item>
+                      );
+                    }}
                   />
                 </div>
               </div>

@@ -99,6 +99,18 @@ interface VerseRecitation extends VerseContent {
   url: string;
 }
 
+interface VerseTafsir {
+  verse_id: number;
+  isHTML: boolean;
+  isTafsir: boolean;
+  text: string;
+}
+
+interface VerseTranslation {
+  resource_id: number;
+  text: string;
+}
+
 type Verse =
   | VerseText
   | VerseIndopak
@@ -143,9 +155,9 @@ interface GetVersesRecitationResponse {
 }
 
 interface GetVersesTafsirResponse {
-  tafsirs: VerseText[];
+  tafsirs: VerseTafsir[];
 }
 
 interface GetVersesTranslationResponse {
-  translations: { resource_id: number; text: string }[];
+  translations: VerseTranslation[];
 }
