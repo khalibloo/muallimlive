@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Form, Button, Select, Checkbox, InputNumber } from "antd";
+import { useTranslations } from "next-intl";
 
 import { savePlayerSettings } from "./savePlayerSettings";
 
@@ -24,6 +25,7 @@ interface Props {
 }
 
 const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSubmit }) => {
+  const t = useTranslations("common");
   const [form] = Form.useForm<FormValues>();
   const mode = Form.useWatch("mode", form);
   const start = Form.useWatch("start", form) ?? 1;
@@ -68,24 +70,24 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
         <Col xs={24} md={20}>
           <Form.Item
             name="reciter"
-            label="Audio Reciter"
-            rules={[{ required: true, message: "Please select reciter" }]}
+            label={t("audio-reciter")}
+            rules={[{ required: true, message: t("reciter-required") }]}
           >
-            <Select placeholder="Please select" options={reciterOptions} />
+            <Select placeholder={t("please-select")} options={reciterOptions} />
           </Form.Item>
         </Col>
       </Row>
       <Form.Item name="hideTafsirs" valuePropName="checked">
-        <Checkbox>Hide Tafsirs</Checkbox>
+        <Checkbox>{t("hide-tafsirs")}</Checkbox>
       </Form.Item>
       <Row gutter={24}>
         <Col span={12} xs={24} sm={24} md={20} lg={20}>
-          <Form.Item label="Recite" name="mode" rules={[{ required: true, message: "Please select recitation mode" }]}>
+          <Form.Item label={t("recite")} name="mode" rules={[{ required: true, message: t("mode-required") }]}>
             <Select
-              placeholder="Please select"
+              placeholder={t("please-select")}
               options={[
-                { value: "surah", label: "Entire Surah" },
-                { value: "verse-range", label: "Verse Range" },
+                { value: "surah", label: t("entire-surah") },
+                { value: "verse-range", label: t("verse-range") },
               ]}
             />
           </Form.Item>
@@ -94,12 +96,12 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
       {mode === "verse-range" && (
         <Row gutter={24}>
           <Col>
-            <Form.Item label="From Verse" name="start" rules={[{ required: true, message: "Please select start" }]}>
+            <Form.Item label={t("from-verse")} name="start" rules={[{ required: true, message: t("start-required") }]}>
               <InputNumber min={1} max={end} />
             </Form.Item>
           </Col>
           <Col>
-            <Form.Item label="To Verse" name="end" rules={[{ required: true, message: "Please select end" }]}>
+            <Form.Item label={t("to-verse")} name="end" rules={[{ required: true, message: t("end-required") }]}>
               <InputNumber min={start} max={verseCount} />
             </Form.Item>
           </Col>
@@ -107,7 +109,7 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
       )}
       <Row justify="end" className="mt-6">
         <Button htmlType="submit" type="primary" size="large">
-          Play
+          {t("play")}
         </Button>
       </Row>
     </Form>

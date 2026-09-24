@@ -12,6 +12,7 @@ import {
   SyncOutlined,
 } from "@ant-design/icons";
 import { VirtuosoHandle } from "react-virtuoso";
+import { useTranslations } from "next-intl";
 
 interface Props {
   audioUrls: string[];
@@ -38,6 +39,7 @@ const AudioBar: React.FC<Props> = ({
   onOpenSettings,
   virtualListRef,
 }) => {
+  const t = useTranslations("common");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoScroll, setAutoScroll] = useState(true);
   const [loop, setLoop] = useState(false);
@@ -121,7 +123,7 @@ const AudioBar: React.FC<Props> = ({
                 className="px-2"
                 type={autoScroll ? "primary" : "link"}
                 size="large"
-                aria-label="Auto scroll"
+                aria-label={t("auto-scroll")}
                 aria-pressed={autoScroll}
                 onClick={() => setAutoScroll((val) => !val)}
               >
@@ -133,7 +135,7 @@ const AudioBar: React.FC<Props> = ({
                 className="px-2"
                 type={loop ? "primary" : "link"}
                 size="large"
-                aria-label="Loop"
+                aria-label={t("loop")}
                 aria-pressed={loop}
                 onClick={() => setLoop((val) => !val)}
               >
@@ -141,7 +143,7 @@ const AudioBar: React.FC<Props> = ({
               </Button>
             </Col>
             <Col>
-              <Button className="px-2" type="link" size="large" aria-label="Previous verse" onClick={prev}>
+              <Button className="px-2" type="link" size="large" aria-label={t("previous-verse")} onClick={prev}>
                 <StepBackwardOutlined style={iconStyle} />
               </Button>
             </Col>
@@ -150,7 +152,7 @@ const AudioBar: React.FC<Props> = ({
                 className="px-2"
                 type="link"
                 size="large"
-                aria-label={isPlaying ? "Pause" : "Play"}
+                aria-label={isPlaying ? t("pause") : t("play")}
                 onClick={() => setIsPlaying((val) => !val)}
               >
                 {isPlaying ? <PauseCircleOutlined style={iconStyle} /> : <PlayCircleOutlined style={iconStyle} />}
@@ -162,7 +164,7 @@ const AudioBar: React.FC<Props> = ({
                 disabled={currentIndex === audioUrls.length - 1 && !loop}
                 type="link"
                 size="large"
-                aria-label="Next verse"
+                aria-label={t("next-verse")}
                 onClick={next}
               >
                 <StepForwardOutlined style={iconStyle} />
@@ -179,7 +181,7 @@ const AudioBar: React.FC<Props> = ({
                         min={0}
                         max={1}
                         step={0.01}
-                        aria-label="Volume level"
+                        aria-label={t("volume-level")}
                         onChange={(val) => {
                           setVolume(val);
                           setMuted(false);
@@ -189,7 +191,11 @@ const AudioBar: React.FC<Props> = ({
                         }}
                       />
                     </div>
-                    <Button type="link" aria-label={muted ? "Unmute" : "Mute"} onClick={() => setMuted((val) => !val)}>
+                    <Button
+                      type="link"
+                      aria-label={muted ? t("unmute") : t("mute")}
+                      onClick={() => setMuted((val) => !val)}
+                    >
                       {muted ? <BsVolumeMute fontSize="2rem" /> : <BsVolumeUp fontSize="2rem" />}
                     </Button>
                   </Space>
@@ -197,13 +203,13 @@ const AudioBar: React.FC<Props> = ({
                 placement="top"
                 trigger="click"
               >
-                <Button className="px-2" type="link" size="large" aria-label="Volume">
+                <Button className="px-2" type="link" size="large" aria-label={t("volume")}>
                   <SoundOutlined style={iconStyle} />
                 </Button>
               </Popover>
             </Col>
             <Col>
-              <Button className="px-2" type="link" size="large" aria-label="Play options" onClick={onOpenSettings}>
+              <Button className="px-2" type="link" size="large" aria-label={t("play-options")} onClick={onOpenSettings}>
                 <SettingOutlined style={iconStyle} />
               </Button>
             </Col>

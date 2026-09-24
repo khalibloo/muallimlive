@@ -3,6 +3,7 @@ import { Button, Drawer, Empty, Grid, Popconfirm, Row, Space, Tooltip } from "an
 import { DeleteOutlined, EditOutlined, FormOutlined } from "@ant-design/icons";
 import { useBoolean } from "ahooks";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl";
 
 import lf from "@/utils/localforage";
 import SafeHtml from "./SafeHtml";
@@ -19,6 +20,7 @@ interface Props {
 const isEmptyQuill = (text: string) => text.replace(/<(.|\n)*?>/g, "").trim().length === 0;
 
 const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
+  const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const [notesOpened, { setTrue: openNotes, setFalse: closeNotes }] = useBoolean();
   const [notes, setNotes] = useState<string[]>([]);
@@ -110,7 +112,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
     <>
       <Drawer
         placement="right"
-        title={`Notes Q${chapterNumber}:${verseNumber}`}
+        title={t("notes-title", { chapter: chapterNumber, verse: verseNumber })}
         onClose={closeNotes}
         open={notesOpened}
         footer={
@@ -124,10 +126,10 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                     closeNotes();
                   }}
                 >
-                  Cancel
+                  {t("cancel")}
                 </Button>
                 <Button disabled={isEmptyQuill(newNote)} type="primary" onClick={addNote}>
-                  Save New Note
+                  {t("save-new-note")}
                 </Button>
               </Space>
             </Row>
@@ -137,7 +139,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         className="content-overflow"
       >
         {notes.length === 0 ? (
-          <Empty description="You have not added any notes for this verse" />
+          <Empty description={t("no-notes")} />
         ) : (
           <ul className="list-none m-0 p-0 divide-y divide-white/10">
             {notes.map((note, i) => (
@@ -153,10 +155,10 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                             setEditNoteIndex(-1);
                           }}
                         >
-                          Cancel
+                          {t("cancel")}
                         </Button>
                         <Button disabled={isEmptyQuill(editNote)} type="primary" onClick={() => updateNote(i)}>
-                          Save Changes
+                          {t("save-changes")}
                         </Button>
                       </Space>
                     </Row>
@@ -165,9 +167,9 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                   <>
                     <SafeHtml html={note} />
                     <Space className="mt-3">
-                      <Tooltip title="Edit Note">
+                      <Tooltip title={t("edit-note")}>
                         <Button
-                          aria-label="Edit note"
+                          aria-label={t("edit-note")}
                           onClick={() => {
                             setEditNoteIndex(i);
                             setEditNote(note);
@@ -178,13 +180,13 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                         </Button>
                       </Tooltip>
                       <Popconfirm
-                        title="Delete note forever?"
+                        title={t("delete-note-confirm")}
                         okType="danger"
-                        okText="Delete"
+                        okText={t("delete")}
                         onConfirm={() => deleteNote(i)}
                       >
-                        <Tooltip title="Delete Note">
-                          <Button danger size="small" aria-label="Delete note">
+                        <Tooltip title={t("delete-note")}>
+                          <Button danger size="small" aria-label={t("delete-note")}>
                             <DeleteOutlined />
                           </Button>
                         </Tooltip>
@@ -197,8 +199,8 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
           </ul>
         )}
       </Drawer>
-      <Tooltip title="Notes">
-        <Button type="text" aria-label="Notes" onClick={openNotes}>
+      <Tooltip title={t("notes")}>
+        <Button type="text" aria-label={t("notes")} onClick={openNotes}>
           <FormOutlined />
         </Button>
       </Tooltip>

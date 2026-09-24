@@ -6,6 +6,7 @@ import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clsx from "clsx";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { range } from "lodash-es";
 import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";
 
@@ -33,6 +34,7 @@ const Chapter: React.FC<Props> = ({
   recitations,
   playerSettings,
 }) => {
+  const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const chapterNumber = currentChapter.id;
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
@@ -123,7 +125,7 @@ const Chapter: React.FC<Props> = ({
         open={chaptersDrawerOpen}
         title={null}
       >
-        <nav aria-label="Chapters">
+        <nav aria-label={t("chapters")}>
           <Menu
             theme="dark"
             selectedKeys={[`${currentChapter.id}`]}
@@ -146,7 +148,7 @@ const Chapter: React.FC<Props> = ({
           />
         </nav>
       </Drawer>
-      <Modal destroyOnHidden title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
+      <Modal destroyOnHidden title={t("play-options")} onCancel={closePlayModal} open={playModalOpen} footer={null}>
         <PlayForm
           recitations={recitations}
           verseCount={currentChapter.verses_count}
@@ -162,9 +164,9 @@ const Chapter: React.FC<Props> = ({
       <div className="fixed top-16 shadow-md bg-444 w-full z-10">
         <div className="flex items-stretch">
           <div>
-            <Button className={navButtonClassName} aria-label="Chapters" onClick={openChaptersDrawer}>
+            <Button className={navButtonClassName} aria-label={t("chapters")} onClick={openChaptersDrawer}>
               <MenuOutlined className="text-xl" />
-              {responsive.md && "Chapters"}
+              {responsive.md && t("chapters")}
             </Button>
           </div>
           <div className="grow p-3 text-center">
@@ -181,26 +183,26 @@ const Chapter: React.FC<Props> = ({
           </div>
           {readerMode === "reading" ? (
             <div>
-              <Button className={navButtonClassName} aria-label="Recite" onClick={openPlayModal} type="primary">
+              <Button className={navButtonClassName} aria-label={t("recite")} onClick={openPlayModal} type="primary">
                 <PlayCircleFilled className="text-xl" />
-                {responsive.md && " Recite"}
+                {responsive.md && t("recite")}
               </Button>
             </div>
           ) : (
             <div>
               <Popconfirm
-                title="Stop recitation?"
+                title={t("stop-recitation-confirm")}
                 onConfirm={() => {
                   setReaderMode("reading");
                   setIsPlayingVerses(false);
                 }}
-                okText="Yes"
-                cancelText="No"
+                okText={t("yes")}
+                cancelText={t("no")}
                 placement="bottomRight"
               >
-                <Button className={navButtonClassName} aria-label="Read" type="primary">
+                <Button className={navButtonClassName} aria-label={t("read")} type="primary">
                   <ReadOutlined className="text-xl" />
-                  {responsive.md && " Read"}
+                  {responsive.md && t("read")}
                 </Button>
               </Popconfirm>
             </div>

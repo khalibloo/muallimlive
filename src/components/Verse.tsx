@@ -3,6 +3,7 @@ import { Row, Col, Typography, Space, Divider, Tooltip, Button, Grid } from "ant
 import { useInView } from "react-intersection-observer";
 import clsx from "clsx";
 import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
+import { useTranslations } from "next-intl";
 
 import lf from "@/utils/localforage";
 import Fave from "./Fave";
@@ -40,6 +41,7 @@ const Verse: React.FC<Props> = ({
   muted,
   volume,
 }) => {
+  const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const audioRef = useRef<HTMLAudioElement>(null);
   const split = left.length > 0 && right.length > 0;
@@ -156,10 +158,10 @@ const Verse: React.FC<Props> = ({
         <Space separator={<Divider orientation="vertical" />}>
           <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
           <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
-          <Tooltip title={isPlaying ? "Stop verse" : "Play verse"}>
+          <Tooltip title={isPlaying ? t("stop-verse") : t("play-verse")}>
             <Button
               type="text"
-              aria-label={isPlaying ? "Stop verse" : "Play verse"}
+              aria-label={isPlaying ? t("stop-verse") : t("play-verse")}
               onClick={() => {
                 if (!isPlaying) {
                   onPlay();

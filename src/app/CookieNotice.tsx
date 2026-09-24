@@ -4,10 +4,12 @@ import { useEffect } from "react";
 import { Affix, Button, Col, Row, Space, Typography } from "antd";
 import lf from "localforage";
 import { useBoolean } from "ahooks";
+import { useTranslations } from "next-intl";
 
 export const COOKIE_NOTICE_KEY = "accepted_cookie_notice";
 
 const CookieNotice: React.FC = () => {
+  const t = useTranslations("common");
   const [cookieNoticeOpen, { setTrue: openCookieNotice, setFalse: closeCookieNotice }] = useBoolean(false);
   useEffect(() => {
     lf.getItem(COOKIE_NOTICE_KEY).then((accepted) => {
@@ -28,17 +30,15 @@ const CookieNotice: React.FC = () => {
         align="middle"
         className="h-full bg-default p-6 shadow-md"
         role="region"
-        aria-label="Cookie notice"
+        aria-label={t("cookie-notice")}
       >
         <Col span={16} xs={22} sm={22} md={20} lg={16}>
-          <Typography.Paragraph className="text-center text-lg">
-            This website uses cookies. By continuing to use the website, you indicate that you are fine with this.
-          </Typography.Paragraph>
+          <Typography.Paragraph className="text-center text-lg">{t("cookie-notice-message")}</Typography.Paragraph>
           <Row justify="center">
             <Col>
               <Space>
                 <Button href="/privacy" size="large">
-                  Privacy Policy
+                  {t("privacy-policy")}
                 </Button>
                 <Button
                   type="primary"
@@ -51,7 +51,7 @@ const CookieNotice: React.FC = () => {
                     });
                   }}
                 >
-                  Accept Cookies
+                  {t("accept-cookies")}
                 </Button>
               </Space>
             </Col>

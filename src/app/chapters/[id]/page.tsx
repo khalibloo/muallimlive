@@ -1,6 +1,7 @@
 import { Metadata, NextPage } from "next";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 
 import config from "@/utils/config";
 import { fetchData } from "@/utils/fetcher";
@@ -21,9 +22,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {};
   }
 
+  const t = await getTranslations("common");
   return {
     title: chapter.name_simple,
-    description: `Chapter ${id} of the Holy Qur'an`,
+    description: t("chapter-description", { id }),
   };
 }
 

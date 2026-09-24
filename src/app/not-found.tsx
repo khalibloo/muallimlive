@@ -1,9 +1,13 @@
 import { Metadata, NextPage } from "next";
+import { getTranslations } from "next-intl/server";
 import PageNotFound from "./PageNotFound";
 
-export const metadata: Metadata = {
-  title: "Page Not Found",
-  description: "Al-Qur'an reading app",
+export const generateMetadata = async (): Promise<Metadata> => {
+  const t = await getTranslations("common");
+  return {
+    title: t("page-not-found"),
+    description: t("app-description"),
+  };
 };
 
 const NotFoundPage: NextPage = () => <PageNotFound />;

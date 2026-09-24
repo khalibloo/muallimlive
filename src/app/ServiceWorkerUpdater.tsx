@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { App, Button } from "antd";
+import { useTranslations } from "next-intl";
 
 /**
  * With skipWaiting + clientsClaim, a freshly-built service worker takes control automatically. When
@@ -10,6 +11,7 @@ import { App, Button } from "antd";
  * install, not an update, so it is ignored.
  */
 const ServiceWorkerUpdater: React.FC = () => {
+  const t = useTranslations("common");
   const { notification } = App.useApp();
 
   useEffect(() => {
@@ -25,8 +27,8 @@ const ServiceWorkerUpdater: React.FC = () => {
       const key = "sw-update";
       notification.info({
         key,
-        title: "A new version is available",
-        description: "Reload to get the latest version of MuallimLive.",
+        title: t("new-version-available"),
+        description: t("new-version-description"),
         duration: 0,
         actions: (
           <Button
@@ -37,7 +39,7 @@ const ServiceWorkerUpdater: React.FC = () => {
               window.location.reload();
             }}
           >
-            Reload
+            {t("reload")}
           </Button>
         ),
       });

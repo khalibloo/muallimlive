@@ -3,6 +3,7 @@ import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert, Grid } fro
 import type { CascaderProps, GetProp } from "antd";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import { sortBy } from "lodash-es";
+import { useTranslations } from "next-intl";
 
 import { saveReaderSettings } from "./saveReaderSettings";
 
@@ -20,6 +21,7 @@ const handleCascaderSearch: ShowSearchFilter = (inputValue, path) =>
   path.some((option) => `${option.label}`.toLowerCase().includes(inputValue.toLowerCase()));
 
 const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsirs, translations, onSubmit }) => {
+  const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const [form] = Form.useForm<ReaderSettings>();
   const useSplitView = Form.useWatch("splitView", form) ?? readerSettings.splitView;
@@ -27,31 +29,31 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
   const translationTypes = sortBy(
     [
       {
-        label: "Arabic",
+        label: t("arabic"),
         value: "ar",
         children: [
           {
-            label: "Indopak Script",
+            label: t("indopak-script"),
             value: "indopak",
           },
           {
-            label: "Imlaei Script",
+            label: t("imlaei-script"),
             value: "imlaei",
           },
           {
-            label: "Imlaei Simple Script",
+            label: t("imlaei-simple-script"),
             value: "imlaei_simple",
           },
           {
-            label: "Uthmani Script",
+            label: t("uthmani-script"),
             value: "uthmani",
           },
           {
-            label: "Uthmani Simple Script",
+            label: t("uthmani-simple-script"),
             value: "uthmani_simple",
           },
           {
-            label: "Uthmani Tajweed Script",
+            label: t("uthmani-tajweed-script"),
             value: "uthmani_tajweed",
           },
         ],
@@ -81,7 +83,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
         direction: "rtl",
         translations_count: 0,
         translated_name: {
-          name: "Arabic",
+          name: t("arabic"),
           language_name: "english",
         },
       },
@@ -102,12 +104,12 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
 
   const combinedTypes = [
     {
-      label: "Translations",
+      label: t("translations"),
       value: "translation",
       children: translationTypes,
     },
     {
-      label: "Tafsirs",
+      label: t("tafsirs"),
       value: "tafsir",
       children: tafsirTypes,
     },
@@ -126,7 +128,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
     onSubmit?.();
   };
 
-  const paneFields = (pane: string): GetProp<typeof Form.List, "children"> =>
+  const paneFields = (pane: "left" | "right"): GetProp<typeof Form.List, "children"> =>
     function PaneFields(fields, { add, remove }) {
       return (
         <>
@@ -136,13 +138,13 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
                 <Form.Item
                   {...restField}
                   name={[name, "content"]}
-                  rules={[{ required: true, message: "Please select content" }]}
+                  rules={[{ required: true, message: t("content-required") }]}
                 >
                   <Cascader
                     allowClear={false}
                     options={combinedTypes}
                     showSearch={{ filter: handleCascaderSearch }}
-                    aria-label={`${pane} content ${i + 1}`}
+                    aria-label={t(`${pane}-pane-content`, { index: i + 1 })}
                   />
                 </Form.Item>
               </Col>
@@ -151,7 +153,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
                   <Button
                     danger
                     type="link"
-                    aria-label={`Remove ${pane} content ${i + 1}`}
+                    aria-label={t(`remove-${pane}-pane-content`, { index: i + 1 })}
                     onClick={() => remove(name)}
                   >
                     <MinusCircleOutlined />
@@ -166,9 +168,9 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
               onClick={() => add()}
               block
               icon={<PlusOutlined />}
-              aria-label={`Add ${pane} content`}
+              aria-label={t(`add-${pane}-pane-content`)}
             >
-              Add
+              {t("add")}
             </Button>
           </Form.Item>
         </>
@@ -182,30 +184,26 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
 
   return (
     <Form form={form} onFinish={handleSubmit} initialValues={readerSettings} requiredMark={false}>
-      <Alert
-        type="info"
-        title="Split view allows you to have content on right and left sides of your screen"
-        showIcon
-      />
+      <Alert type="info" title={t("split-view-info")} showIcon />
       {useSplitView && !responsive.md && (
-        <Alert className="mt-2" type="warning" title="Right and left panes are merged if on a mobile screen" showIcon />
+        <Alert className="mt-2" type="warning" title={t("mobile-panes-merged")} showIcon />
       )}
-      <Form.Item name="splitView" label="Use Split View" valuePropName="checked">
+      <Form.Item name="splitView" label={t("use-split-view")} valuePropName="checked">
         <Switch />
       </Form.Item>
       <Row gutter={24}>
         <Col span={useSplitView && responsive.md ? 12 : 24}>
-          {useSplitView && <Typography.Text strong>Left Pane</Typography.Text>}
-          <Form.List name="left">{paneFields("Left pane")}</Form.List>
+          {useSplitView && <Typography.Text strong>{t("left-pane")}</Typography.Text>}
+          <Form.List name="left">{paneFields("left")}</Form.List>
         </Col>
         <Col span={rightPaneSpan}>
-          <Typography.Text strong>Right Pane</Typography.Text>
-          <Form.List name="right">{paneFields("Right pane")}</Form.List>
+          <Typography.Text strong>{t("right-pane")}</Typography.Text>
+          <Form.List name="right">{paneFields("right")}</Form.List>
         </Col>
       </Row>
       <Row justify="end" className="mt-6">
         <Button htmlType="submit" type="primary" size="large">
-          Save Changes
+          {t("save-changes")}
         </Button>
       </Row>
     </Form>
