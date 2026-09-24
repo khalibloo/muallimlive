@@ -84,9 +84,6 @@ importers:
       '@serwist/turbopack':
         specifier: ^9.5.12
         version: 9.5.12(@swc/helpers@0.5.23)(esbuild@0.28.2)(next@16.3.6(@babel/core@7.29.7)(@playwright/test@1.63.0)(@types/node@24.13.6)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)(typescript@5.9.3)
-      '@serwist/window':
-        specifier: ^9.5.12
-        version: 9.5.12(browserslist@4.29.1)(typescript@5.9.3)
       '@tailwindcss/postcss':
         specifier: ^4.3.3
         version: 4.3.3
@@ -4903,15 +4900,6 @@ snapshots:
     dependencies:
       '@types/trusted-types': 2.0.7
       serwist: 9.5.12(browserslist@4.28.6)(typescript@5.9.3)
-    optionalDependencies:
-      typescript: 5.9.3
-    transitivePeerDependencies:
-      - browserslist
-
-  '@serwist/window@9.5.12(browserslist@4.29.1)(typescript@5.9.3)':
-    dependencies:
-      '@types/trusted-types': 2.0.7
-      serwist: 9.5.12(browserslist@4.29.1)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:

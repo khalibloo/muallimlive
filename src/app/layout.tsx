@@ -11,6 +11,8 @@ import { parseReaderSettings, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { fetchData } from "@/utils/fetcher";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
+import ServiceWorkerEvents from "./ServiceWorkerEvents";
+import ServiceWorkerUpdater from "./ServiceWorkerUpdater";
 
 const mirza = Mirza({ weight: "400", subsets: ["arabic"], display: "swap", variable: "--font-mirza" });
 
@@ -79,6 +81,8 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
             <BasicLayout settingsResources={{ languages, recitations, tafsirs, translations, readerSettings }}>
               {children}
             </BasicLayout>
+            <ServiceWorkerEvents />
+            <ServiceWorkerUpdater />
           </Providers>
         </AntdRegistry>
       </body>

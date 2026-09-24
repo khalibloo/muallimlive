@@ -62,7 +62,6 @@
     "@next/eslint-plugin-next": "^16.3.6",
     "@playwright/test": "^1.63.0",
     "@serwist/turbopack": "^9.5.12",
-    "@serwist/window": "^9.5.12",
     "@tailwindcss/postcss": "^4.3.3",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
