@@ -1,22 +1,28 @@
+@layer reset, base, antd, theme, app, utilities;
+
+@import "antd/dist/reset.css" layer(reset);
+@import "react-quill-new/dist/quill.snow.css" layer(base);
 @import "./tailwind.css";
-@import "./tajweed.css";
-@import "./tafsir.css";
-@import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
+@import "./tajweed.css" layer(app);
+@import "./tafsir.css" layer(app);
+@import "./quill.css" layer(app);
 
 :root {
   --primary-color: #43a047;
   --text-color: rgba(255, 255, 255, 0.85);
 }
 
-body {
-  background-color: #444;
-  color: var(--text-color);
-}
+@layer app {
+  body {
+    background-color: #444;
+    color: var(--text-color);
+  }
 
-.bg-default {
-  background-color: #444;
-}
+  .bg-default {
+    background-color: #444;
+  }
 
-.text-arabic {
-  font-family: "Mirza", cursive;
+  .text-arabic {
+    font-family: var(--font-arabic);
+  }
 }

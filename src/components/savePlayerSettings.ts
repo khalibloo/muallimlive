@@ -2,6 +2,8 @@
 
 import { cookies } from "next/headers";
 
+import { PLAYER_SETTINGS_KEY } from "@/utils/cookies";
+
 export async function savePlayerSettings(data: PlaySettings) {
-  cookies().set("player-settings", JSON.stringify(data));
+  (await cookies()).set(PLAYER_SETTINGS_KEY, JSON.stringify(data));
 }

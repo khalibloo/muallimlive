@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import { Button, Drawer, Empty, List, Popconfirm, Row, Space, Tooltip } from "antd";
+import { Button, Drawer, Empty, Grid, Popconfirm, Row, Space, Tooltip } from "antd";
 import { DeleteOutlined, EditOutlined, FormOutlined } from "@ant-design/icons";
-import { useBoolean, useResponsive } from "ahooks";
+import { useBoolean } from "ahooks";
 import dynamic from "next/dynamic";
 
 import lf from "@/utils/localforage";
+import SafeHtml from "./SafeHtml";
 
-import "react-quill/dist/quill.snow.css";
-import "@/styles/quill.css";
-
-const ReactQuill = dynamic(() => import("react-quill"), {
+const ReactQuill = dynamic(() => import("react-quill-new"), {
   ssr: false,
 });
 
@@ -18,8 +16,10 @@ interface Props {
   verseNumber: number;
 }
 
+const isEmptyQuill = (text: string) => text.replace(/<(.|\n)*?>/g, "").trim().length === 0;
+
 const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
-  const responsive = useResponsive();
+  const responsive = Grid.useBreakpoint();
   const [notesOpened, { setTrue: openNotes, setFalse: closeNotes }] = useBoolean();
   const [notes, setNotes] = useState<string[]>([]);
   const [newNote, setNewNote] = useState<string>("");
@@ -30,13 +30,17 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
 
   const key = `notes-quran-${chapterNumber}-${verseNumber}`;
 
-  const isEmptyQuill = (text: string) => text.replace(/<(.|\n)*?>/g, "").trim().length === 0;
-
   React.useEffect(() => {
+    let cancelled = false;
+    let subscription: Subscription | undefined;
+
     lf.ready().then(() => {
-      lf.getItem(key).then((notesData) => {
-        if (typeof (notesData as string[])?.length === "number") {
-          setNotes(notesData as string[]);
+      if (cancelled) {
+        return;
+      }
+      lf.getItem<string[]>(key).then((notesData) => {
+        if (!cancelled && Array.isArray(notesData)) {
+          setNotes(notesData);
         }
       });
 
@@ -45,68 +49,58 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         crossTabNotification: true,
         crossTabChangeDetection: true,
       });
-      const ob = lf.newObservable({
-        key,
-        crossTabNotification: true,
-      });
-
-      ob.subscribe({
-        next: (args) => {
-          setNotes(args.newValue);
-        },
-      });
+      subscription = lf
+        .newObservable({
+          key,
+          crossTabNotification: true,
+        })
+        .subscribe({
+          next: (args) => {
+            setNotes(Array.isArray(args.newValue) ? args.newValue : []);
+          },
+        });
     });
-  }, [chapterNumber, verseNumber]);
+
+    return () => {
+      cancelled = true;
+      subscription?.unsubscribe();
+    };
+  }, [key]);
+
+  const saveNotes = (updater: (notesList: string[]) => string[]) =>
+    lf.getItem<string[]>(key).then((notesData) => {
+      const newNotes = updater(Array.isArray(notesData) ? notesData : []);
+      setNotes(newNotes);
+      return lf.setItem(key, newNotes);
+    });
 
   const addNote = () => {
     if (!isEmptyQuill(newNote)) {
-      lf.getItem(key).then((notesData) => {
-        const newNotes = (notesData as string[]) || [];
-        newNotes.push(newNote);
-
-        lf.setItem(key, newNotes);
-        setNotes(newNotes);
-        setNewNote("");
-      });
+      saveNotes((notesList) => [...notesList, newNote]);
+      setNewNote("");
     }
   };
 
   const deleteNote = (index: number) => {
-    lf.getItem(key).then((notesData) => {
-      if (typeof (notesData as string[])?.length === "number") {
-        const notesList = notesData as string[];
-        notesList.splice(index, 1);
-
-        lf.setItem(key, notesList);
-        setNotes(notesList);
-      }
-    });
+    saveNotes((notesList) => notesList.filter((_, i) => i !== index));
   };
 
   const updateNote = (index: number) => {
     if (isEmptyQuill(editNote)) {
       deleteNote(index);
-      return;
+    } else {
+      saveNotes((notesList) => notesList.map((note, i) => (i === index ? editNote : note)));
     }
-    lf.getItem(key).then((notesData) => {
-      if (typeof (notesData as string[])?.length === "number") {
-        const notesList = notesData as string[];
-        notesList[index] = editNote;
-
-        lf.setItem(key, notesList);
-        setNotes(notesList);
-        setEditNote("");
-        setEditNoteIndex(-1);
-      }
-    });
+    setEditNote("");
+    setEditNoteIndex(-1);
   };
 
   let drawerWidth;
-  if (responsive?.lg) {
+  if (responsive.lg) {
     drawerWidth = "40%";
-  } else if (responsive?.md) {
+  } else if (responsive.md) {
     drawerWidth = "50%";
-  } else if (responsive?.sm) {
+  } else if (responsive.sm) {
     drawerWidth = "80%";
   } else {
     drawerWidth = "90%";
@@ -120,7 +114,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         onClose={closeNotes}
         open={notesOpened}
         footer={
-          <Space direction="vertical" className="w-full">
+          <Space orientation="vertical" className="w-full">
             <ReactQuill theme="snow" onChange={setNewNote} value={newNote} />
             <Row>
               <Space>
@@ -139,50 +133,17 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
             </Row>
           </Space>
         }
-        width={drawerWidth}
+        size={drawerWidth}
         className="content-overflow"
       >
         {notes.length === 0 ? (
           <Empty description="You have not added any notes for this verse" />
         ) : (
-          <List
-            dataSource={notes}
-            itemLayout="vertical"
-            renderItem={(note, i) => (
-              <List.Item
-                key={i}
-                actions={
-                  editNoteIndex !== i
-                    ? [
-                        <Tooltip title="Edit Note">
-                          <Button
-                            onClick={() => {
-                              setEditNoteIndex(i);
-                              setEditNote(note);
-                            }}
-                            size="small"
-                          >
-                            <EditOutlined />
-                          </Button>
-                        </Tooltip>,
-                        <Tooltip title="Delete Note">
-                          <Popconfirm
-                            title="Delete note forever?"
-                            okType="danger"
-                            okText="Delete"
-                            onConfirm={() => deleteNote(i)}
-                          >
-                            <Button danger size="small">
-                              <DeleteOutlined />
-                            </Button>
-                          </Popconfirm>
-                        </Tooltip>,
-                      ]
-                    : []
-                }
-              >
+          <ul className="list-none m-0 p-0 divide-y divide-white/10">
+            {notes.map((note, i) => (
+              <li key={i} className="py-3">
                 {editNoteIndex === i ? (
-                  <Space direction="vertical" className="w-full">
+                  <Space orientation="vertical" className="w-full">
                     <ReactQuill theme="snow" onChange={setEditNote} value={editNote} />
                     <Row>
                       <Space>
@@ -201,16 +162,43 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                     </Row>
                   </Space>
                 ) : (
-                  // eslint-disable-next-line react/no-danger
-                  <div dangerouslySetInnerHTML={{ __html: note }} />
+                  <>
+                    <SafeHtml html={note} />
+                    <Space className="mt-3">
+                      <Tooltip title="Edit Note">
+                        <Button
+                          aria-label="Edit note"
+                          onClick={() => {
+                            setEditNoteIndex(i);
+                            setEditNote(note);
+                          }}
+                          size="small"
+                        >
+                          <EditOutlined />
+                        </Button>
+                      </Tooltip>
+                      <Popconfirm
+                        title="Delete note forever?"
+                        okType="danger"
+                        okText="Delete"
+                        onConfirm={() => deleteNote(i)}
+                      >
+                        <Tooltip title="Delete Note">
+                          <Button danger size="small" aria-label="Delete note">
+                            <DeleteOutlined />
+                          </Button>
+                        </Tooltip>
+                      </Popconfirm>
+                    </Space>
+                  </>
                 )}
-              </List.Item>
-            )}
-          />
+              </li>
+            ))}
+          </ul>
         )}
       </Drawer>
       <Tooltip title="Notes">
-        <Button type="text" onClick={openNotes}>
+        <Button type="text" aria-label="Notes" onClick={openNotes}>
           <FormOutlined />
         </Button>
       </Tooltip>

@@ -1,111 +1,93 @@
 "use client";
 
-import React, { useState } from "react";
-import { Typography, Row, Col, Menu, Dropdown, Modal, Tabs, notification } from "antd";
-import { GlobalOutlined, SettingOutlined } from "@ant-design/icons";
+import { useState } from "react";
+import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
+import { SettingOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import { useBoolean, useResponsive } from "ahooks";
+import { useBoolean } from "ahooks";
 
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 
+export interface SettingsResources {
+  translations: GetTranslationsResponse;
+  languages: GetLanguagesResponse;
+  tafsirs: GetTafsirsResponse;
+  recitations: GetRecitationsResponse;
+  readerSettings: ReaderSettings;
+}
+
 interface Props {
-  settingsResources: {
-    translations: GetTranslationsResponse;
-    languages: GetLanguagesResponse;
-    tafsirs: GetTafsirsResponse;
-    recitations: GetRecitationsResponse;
-    readerSettings: ReaderSettings;
-  };
+  settingsResources: SettingsResources;
 }
 
 const NavBar: React.FC<Props> = ({ settingsResources }) => {
-  const responsive = useResponsive();
+  const responsive = Grid.useBreakpoint();
+  const { notification } = App.useApp();
   const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);
   const [settingsTab, setSettingsTab] = useState("display");
 
-  const langMenu = (
-    <Menu>
-      <Menu.Item key="en-US">English</Menu.Item>
-      <Menu.Item key="fr-FR">Français</Menu.Item>
-    </Menu>
-  );
-
-  const settingsMenu = (
-    <Menu
-      onClick={(item) => {
-        openSettingsModal();
-        setSettingsTab(item.key);
-      }}
-    >
-      <Menu.Item key="display">Display Settings</Menu.Item>
-      <Menu.Item key="storage">Offline Storage</Menu.Item>
-      <Menu.Item key="sync">Sync Settings</Menu.Item>
-    </Menu>
-  );
-
   let modalWidth;
-  if (responsive?.lg) {
+  if (responsive.lg) {
     modalWidth = "60%";
-  } else if (responsive?.md) {
+  } else if (responsive.md) {
     modalWidth = "90%";
   }
 
   return (
     <>
-      <Modal destroyOnClose open={settingsModalOpen} footer={null} onCancel={closeSettingsModal} width={modalWidth}>
-        <Tabs activeKey={settingsTab} onChange={setSettingsTab}>
-          <Tabs.TabPane key="display" tab="Display">
-            <ReaderSettingsForm
-              {...settingsResources}
-              onSubmit={() => {
-                notification.success({ message: "Changes Saved Successfully" });
-                closeSettingsModal();
-              }}
-            />
-          </Tabs.TabPane>
-          <Tabs.TabPane key="storage" tab="Storage">
-            <span>Coming soon</span>
-          </Tabs.TabPane>
-          <Tabs.TabPane key="sync" tab="Sync">
-            <span>Coming soon</span>
-          </Tabs.TabPane>
-        </Tabs>
+      <Modal
+        destroyOnHidden
+        open={settingsModalOpen}
+        footer={null}
+        onCancel={closeSettingsModal}
+        width={modalWidth}
+        title="Settings"
+      >
+        <Tabs
+          activeKey={settingsTab}
+          onChange={setSettingsTab}
+          items={[
+            {
+              key: "display",
+              label: "Display",
+              children: (
+                <ReaderSettingsForm
+                  {...settingsResources}
+                  onSubmit={() => {
+                    notification.success({ title: "Changes Saved Successfully" });
+                    closeSettingsModal();
+                  }}
+                />
+              ),
+            },
+            { key: "storage", label: "Storage", children: <span>Coming soon</span> },
+            { key: "sync", label: "Sync", children: <span>Coming soon</span> },
+          ]}
+        />
       </Modal>
-      <Row justify="space-between" align="middle" className="h-full">
-        <Col className="h-full">
-          <Menu mode="horizontal" disabledOverflow className="bg-transparent border-none h-full" selectedKeys={[]}>
-            <Menu.Item key="1" className="h-full block">
-              <Link className="h-full" href="/">
-                <Row align="middle" className="h-full">
-                  <Col>
-                    <Typography.Title level={3} className="m-0">
-                      MuallimLive
-                    </Typography.Title>
-                  </Col>
-                </Row>
-              </Link>
-            </Menu.Item>
-          </Menu>
-        </Col>
-        <Col className="h-full">
-          <Menu mode="horizontal" disabledOverflow className="bg-transparent border-none h-full" selectable={false}>
-            <Menu.Item key="lang" className="m-0 h-full">
-              <Dropdown overlay={langMenu} trigger={["click"]}>
-                <div className="px-2">
-                  <GlobalOutlined className="text-2xl" />
-                </div>
-              </Dropdown>
-            </Menu.Item>
-            <Menu.Item key="settings" className="m-0 h-full">
-              <Dropdown overlay={settingsMenu} trigger={["click"]}>
-                <div className="px-2">
-                  <SettingOutlined className="text-2xl" />
-                </div>
-              </Dropdown>
-            </Menu.Item>
-          </Menu>
-        </Col>
-      </Row>
+      <div className="flex justify-between items-center h-full px-4">
+        <Link href="/" className="flex items-center h-full">
+          <Typography.Title level={3} className="m-0">
+            MuallimLive
+          </Typography.Title>
+        </Link>
+        <Dropdown
+          trigger={["click"]}
+          menu={{
+            items: [
+              { key: "display", label: "Display Settings" },
+              { key: "storage", label: "Offline Storage" },
+              { key: "sync", label: "Sync Settings" },
+            ],
+            onClick: (item) => {
+              setSettingsTab(item.key);
+              openSettingsModal();
+            },
+          }}
+        >
+          <Button type="text" size="large" aria-label="Settings" icon={<SettingOutlined className="text-2xl" />} />
+        </Dropdown>
+      </div>
     </>
   );
 };

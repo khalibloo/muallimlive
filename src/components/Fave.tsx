@@ -13,6 +13,8 @@ const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => (
   <Tooltip title={faved ? "Remove from favorites" : "Add to favorites"}>
     <Button
       type="text"
+      aria-label={faved ? "Remove from favorites" : "Add to favorites"}
+      aria-pressed={faved}
       onClick={() => {
         const key = "faves-quran";
         lf.ready().then(() => {

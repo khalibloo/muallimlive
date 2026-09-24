@@ -1,31 +1,23 @@
 "use client";
 
 import { Layout } from "antd";
-import clsx from "clsx";
 
-import CookieNotice from "@/app/CookieNotice";
-import NavBar from "./NavBar";
+import CookieNotice from "./CookieNotice";
+import NavBar, { type SettingsResources } from "./NavBar";
 import Footer from "./Footer";
 
 interface Props {
-  settingsReources: {
-    translations: GetTranslationsResponse;
-    languages: GetLanguagesResponse;
-    tafsirs: GetTafsirsResponse;
-    recitations: GetRecitationsResponse;
-    readerSettings: ReaderSettings;
-  };
-  noPadding?: boolean;
+  settingsResources: SettingsResources;
   children: React.ReactNode;
 }
 
-const BasicLayout: React.FC<Props> = ({ settingsReources, children, noPadding }) => (
+const BasicLayout: React.FC<Props> = ({ settingsResources, children }) => (
   <>
     <Layout className="min-h-screen">
-      <Layout.Header className={clsx("w-full p-0 fixed z-10 shadow-md")}>
-        <NavBar settingsResources={settingsReources} />
+      <Layout.Header className="w-full p-0 fixed z-10 shadow-md">
+        <NavBar settingsResources={settingsResources} />
       </Layout.Header>
-      <Layout.Content className={clsx("mt-16 flex flex-col", { "py-12": !noPadding })}>{children}</Layout.Content>
+      <Layout.Content className="mt-16 py-12 flex flex-col">{children}</Layout.Content>
       <Layout.Footer className="bg-333">
         <Footer />
       </Layout.Footer>

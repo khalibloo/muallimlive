@@ -112,13 +112,7 @@ interface VerseTranslation {
 }
 
 type Verse =
-  | VerseText
-  | VerseIndopak
-  | VerseImlaei
-  | VerseImlaeiSimple
-  | VerseUthmani
-  | VerseUthmaniSimple
-  | VerseUthmaniTajweed;
+  VerseText | VerseIndopak | VerseImlaei | VerseImlaeiSimple | VerseUthmani | VerseUthmaniSimple | VerseUthmaniTajweed;
 
 type ArabicScript = "uthmani" | "uthmani_simple" | "uthmani_tajweed" | "imlaei" | "imlaei_simple" | "indopak";
 

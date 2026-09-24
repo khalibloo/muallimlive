@@ -4,42 +4,42 @@ import { notFound } from "next/navigation";
 
 import config from "@/utils/config";
 import { fetchData } from "@/utils/fetcher";
+import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SETTINGS_KEY } from "@/utils/cookies";
 import Chapter from "./Chapter";
 
 interface Props {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 const fetchChapters = () => fetchData<GetChaptersResponse>("resources/chapters");
 
-export async function generateMetadata({ params: { id } }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params;
   const chaptersData = await fetchChapters();
   const chapter = chaptersData.chapters.find((c) => `${c.id}` === id);
+  if (!chapter) {
+    return {};
+  }
 
   return {
-    title: `${chapter?.name_simple} | Muallimlive`,
+    title: chapter.name_simple,
     description: `Chapter ${id} of the Holy Qur'an`,
   };
 }
 
-const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
+const ChapterPage: NextPage<Props> = async ({ params }) => {
+  const { id } = await params;
   const chaptersData = await fetchChapters();
   const chapter = chaptersData.chapters.find((c) => `${c.id}` === id);
   if (!chapter) {
     notFound();
   }
 
-  const cookieStore = cookies();
-  const readerSettingsData = cookieStore.get("reader-settings");
-  const readerSettings: ReaderSettings = readerSettingsData?.value
-    ? JSON.parse(readerSettingsData.value)
-    : config.defaultReaderSettings;
-  const playerSettingsData = cookieStore.get("player-settings");
-  const playerSettings: PlaySettings = playerSettingsData?.value
-    ? JSON.parse(playerSettingsData.value)
-    : config.defaultPlaySettings;
+  const cookieStore = await cookies();
+  const readerSettings = parseReaderSettings(cookieStore.get(READER_SETTINGS_KEY)?.value);
+  const playerSettings = parsePlaySettings(cookieStore.get(PLAYER_SETTINGS_KEY)?.value);
 
-  const contentTypes = readerSettings ? [...readerSettings.left, ...readerSettings.right] : [];
+  const contentTypes = [...readerSettings.left, ...readerSettings.right];
   const arabicContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] === "ar");
   const translationContentTypes = contentTypes.filter((c) => c.content?.[0] === "translation" && c.content[1] !== "ar");
   const tafsirContentTypes = contentTypes.filter((c) => c.content?.[0] === "tafsir");
@@ -57,24 +57,24 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
                 isHTML: true,
                 verse_key: v.verse_key as string,
                 text: v[`text_${scriptName}`] as string,
-              } as VerseText)
+              }) as VerseText,
           ),
-        }))
-      )
+        })),
+      ),
   );
 
   const translationContentData = await Promise.all(
     translationContentTypes
       .map((c) => (c.content as number[])[2])
       .map((translationId) =>
-        fetchData<GetVersesTranslationResponse>(`chapters/${chapter.id}/translations/${translationId}`)
-      )
+        fetchData<GetVersesTranslationResponse>(`chapters/${chapter.id}/translations/${translationId}`),
+      ),
   );
 
   const tafsirContentData = await Promise.all(
     tafsirContentTypes
       .map((c) => (c.content as number[])[2])
-      .map((tafsirId) => fetchData<GetVersesTafsirResponse>(`chapters/${chapter.id}/tafsirs/${tafsirId}`))
+      .map((tafsirId) => fetchData<GetVersesTafsirResponse>(`chapters/${chapter.id}/tafsirs/${tafsirId}`)),
   );
 
   const mapContent = (c: ReaderSettings["left"][0]): VerseText[] => {
@@ -91,7 +91,6 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
       }));
     }
     // then it's a tafsir
-    // if (c.content?.[0] === "tafsir") {
     const index = tafsirContentTypes.findIndex((t) => t.content?.[2] === c.content?.[2]);
     // some verses are skipped in tafsirs, we should fill in the blanks
     const tafsirs: VerseText[] = [];
@@ -106,31 +105,32 @@ const ChapterPage: NextPage<Props> = async ({ params: { id } }) => {
               isHTML: true,
               isTafsir: true,
             }
-          : { id: i + 1, text: "", verse_key: `${chapter.id}:${i + 1}` }
+          : { id: i + 1, text: "", verse_key: `${chapter.id}:${i + 1}` },
       );
     }
     return tafsirs;
-    // }
   };
 
-  const versesRecitationsData = await fetchData<GetVersesRecitationResponse>(
-    `chapters/${chapter.id}/recitations/${playerSettings.reciter}`
-  ).then((data) => ({
-    ...data,
-    audio_files: data.audio_files.map((v) => {
-      const url = new URL(config.apiMediaUri!);
-      url.pathname = v.url;
-      return {
-        ...v,
-        url: url.href,
-      };
-    }),
-  }));
-
-  const recitations = await fetchData<GetRecitationsResponse>("resources/recitations");
+  const [versesRecitationsData, recitations] = await Promise.all([
+    fetchData<GetVersesRecitationResponse>(`chapters/${chapter.id}/recitations/${playerSettings.reciter}`).then(
+      (data) => ({
+        ...data,
+        audio_files: data.audio_files.map((v) => {
+          const url = new URL(config.apiMediaUri!);
+          url.pathname = v.url;
+          return {
+            ...v,
+            url: url.href,
+          };
+        }),
+      }),
+    ),
+    fetchData<GetRecitationsResponse>("resources/recitations"),
+  ]);
 
   return (
     <Chapter
+      key={chapter.id}
       chapter={chapter}
       chapters={chaptersData}
       leftContent={readerSettings.left.map(mapContent)}

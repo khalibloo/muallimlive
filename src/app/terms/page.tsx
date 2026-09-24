@@ -2,7 +2,7 @@ import { Metadata, NextPage } from "next";
 import TermsOfService from "./TermsOfService";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Muallimlive",
+  title: "Terms of Service",
   description: "Muallimlive terms of service document.",
 };
 

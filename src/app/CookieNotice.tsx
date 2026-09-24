@@ -1,28 +1,35 @@
 "use client";
 
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Affix, Button, Col, Row, Space, Typography } from "antd";
 import lf from "localforage";
 import { useBoolean } from "ahooks";
-import Link from "next/link";
+
+export const COOKIE_NOTICE_KEY = "accepted_cookie_notice";
 
 const CookieNotice: React.FC = () => {
-  const [cookieDrawerOpen, { setTrue: openCookieDrawer, setFalse: closeCookieDrawer }] = useBoolean(false);
+  const [cookieNoticeOpen, { setTrue: openCookieNotice, setFalse: closeCookieNotice }] = useBoolean(false);
   useEffect(() => {
-    lf.getItem("accepted_cookie_notice").then((accepted) => {
+    lf.getItem(COOKIE_NOTICE_KEY).then((accepted) => {
       if (!accepted) {
-        openCookieDrawer();
+        openCookieNotice();
       }
     });
   }, []);
 
-  if (!cookieDrawerOpen) {
+  if (!cookieNoticeOpen) {
     return null;
   }
 
   return (
     <Affix offsetBottom={0} target={() => window}>
-      <Row justify="space-around" align="middle" className="h-full bg-default p-6 shadow-md">
+      <Row
+        justify="space-around"
+        align="middle"
+        className="h-full bg-default p-6 shadow-md"
+        role="region"
+        aria-label="Cookie notice"
+      >
         <Col span={16} xs={22} sm={22} md={20} lg={16}>
           <Typography.Paragraph className="text-center text-lg">
             This website uses cookies. By continuing to use the website, you indicate that you are fine with this.
@@ -30,16 +37,16 @@ const CookieNotice: React.FC = () => {
           <Row justify="center">
             <Col>
               <Space>
-                <Link href="/privacy">
-                  <Button size="large">Privacy Policy</Button>
-                </Link>
+                <Button href="/privacy" size="large">
+                  Privacy Policy
+                </Button>
                 <Button
                   type="primary"
                   size="large"
                   onClick={() => {
-                    lf.setItem("accepted_cookie_notice", true).then((value) => {
+                    lf.setItem(COOKIE_NOTICE_KEY, true).then((value) => {
                       if (value) {
-                        closeCookieDrawer();
+                        closeCookieNotice();
                       }
                     });
                   }}

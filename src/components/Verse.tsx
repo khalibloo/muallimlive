@@ -1,14 +1,13 @@
-import React, { createRef } from "react";
-import { Row, Col, Typography, List, Space, Divider, Tooltip, Button } from "antd";
-import VisibilitySensor from "react-visibility-sensor";
+import React, { useEffect, useRef } from "react";
+import { Row, Col, Typography, Space, Divider, Tooltip, Button, Grid } from "antd";
+import { useInView } from "react-intersection-observer";
 import clsx from "clsx";
-import { useResponsive } from "ahooks";
 import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
-import ReactPlayer from "react-player";
 
 import lf from "@/utils/localforage";
 import Fave from "./Fave";
 import Notes from "./Notes";
+import SafeHtml from "./SafeHtml";
 
 interface Props {
   verseNumber: number;
@@ -41,149 +40,144 @@ const Verse: React.FC<Props> = ({
   muted,
   volume,
 }) => {
-  const responsive = useResponsive();
-  const audioRef = createRef<ReactPlayer>();
+  const responsive = Grid.useBreakpoint();
+  const audioRef = useRef<HTMLAudioElement>(null);
   const split = left.length > 0 && right.length > 0;
-  const leftColSpan = split && right.length > 0 ? 12 : 24;
-  const rightColSpan = split && left.length > 0 ? 12 : 24;
+  const leftColSpan = split ? 12 : 24;
+  const rightColSpan = split ? 12 : 24;
+  const leftItems = (hideTafsirs ? left.filter((v) => !v.isTafsir) : left).filter((v) => v.text);
+  const rightItems = hideTafsirs ? right.filter((v) => !v.isTafsir) : right;
+
+  const { ref } = useInView({
+    rootMargin: "-200px 0px",
+    onChange: (inView) => {
+      const key = `progress-surah-${chapterNumber}`;
+
+      if (window.scrollY < 200 || verseNumber === totalVerses) {
+        lf.removeItem(key);
+      } else if (inView) {
+        lf.setItem(key, verseNumber);
+      }
+    },
+  });
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) {
+      return;
+    }
+    if (isPlaying) {
+      audio.currentTime = 0;
+      audio.play().catch(onEnded);
+    } else {
+      audio.pause();
+    }
+  }, [isPlaying]);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+      audioRef.current.muted = muted;
+    }
+  }, [volume, muted]);
 
   return (
-    <VisibilitySensor
-      offset={{ top: 200, bottom: 200 }}
-      partialVisibility
-      onChange={(isVisible: boolean) => {
-        const key = `progress-surah-${chapterNumber}`;
-
-        if (window.scrollY < 200 || verseNumber === totalVerses) {
-          lf.removeItem(key);
-        } else if (isVisible) {
-          lf.setItem(key, verseNumber);
-        }
-      }}
-    >
-      <>
-        <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 w-full items-stretch">
-          {left.length > 0 && (
-            <Col
-              span={leftColSpan}
-              xs={24}
-              md={leftColSpan}
-              style={{
-                borderRight: split && responsive.md ? "1px solid #666" : undefined,
+    <div ref={ref}>
+      <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 w-full items-stretch">
+        {left.length > 0 && (
+          <Col
+            span={leftColSpan}
+            xs={24}
+            md={leftColSpan}
+            style={{
+              borderRight: split && responsive.md ? "1px solid #666" : undefined,
+            }}
+          >
+            <div className="flex gap-2">
+              <div className="py-3">{verseNumber})</div>
+              <ul className="grow list-none m-0 p-0 divide-y divide-white/10">
+                {leftItems.map((v, i) => (
+                  <li key={v.id ?? i} className="py-3">
+                    {v.isHTML ? (
+                      <SafeHtml className="font-light" html={v.text} />
+                    ) : (
+                      <Typography.Text
+                        className={clsx({
+                          "text-lg": v.isBold && !v.isArabic,
+                          "text-2xl": v.isArabic,
+                          "text-arabic": v.isArabic,
+                        })}
+                        strong={v.isBold}
+                      >
+                        {v.text}
+                      </Typography.Text>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Col>
+        )}
+        {right.length > 0 && (
+          <Col span={rightColSpan} xs={24} md={rightColSpan}>
+            <ul className="list-none m-0 p-0 divide-y divide-white/10">
+              {rightItems.map((v, i) => (
+                <li key={v.id ?? i} className={clsx("w-full py-3", { "text-right": v.isArabic })}>
+                  {v.isHTML ? (
+                    <SafeHtml
+                      className={clsx({
+                        "text-lg": v.isBold && !v.isArabic,
+                        "text-4xl": v.isArabic,
+                        "text-arabic": v.isArabic,
+                        "font-light": !v.isArabic,
+                        "font-bold": v.isBold,
+                      })}
+                      html={v.text}
+                    />
+                  ) : (
+                    <Typography.Text
+                      className={clsx({
+                        "text-lg": v.isBold && !v.isArabic,
+                        "text-4xl": v.isArabic,
+                        "text-arabic": v.isArabic,
+                      })}
+                      strong={v.isBold}
+                    >
+                      {v.text}
+                    </Typography.Text>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </Col>
+        )}
+      </Row>
+      <div>
+        <Space separator={<Divider orientation="vertical" />}>
+          <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
+          <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
+          <Tooltip title={isPlaying ? "Stop verse" : "Play verse"}>
+            <Button
+              type="text"
+              aria-label={isPlaying ? "Stop verse" : "Play verse"}
+              onClick={() => {
+                if (!isPlaying) {
+                  onPlay();
+                } else {
+                  onEnded();
+                }
               }}
             >
-              <div className="flex gap-2">
-                <div className="py-3">{verseNumber})</div>
-                <div className="flex-grow">
-                  <List
-                    dataSource={hideTafsirs ? left.filter((v) => !v.isTafsir) : left}
-                    renderItem={(v) => {
-                      if (!v.text) {
-                        return null;
-                      }
-                      return (
-                        <List.Item key={v.id}>
-                          <div>
-                            {v.isHTML ? (
-                              // eslint-disable-next-line react/no-danger
-                              <div className="font-light" dangerouslySetInnerHTML={{ __html: v.text }} />
-                            ) : (
-                              <Typography.Text
-                                className={clsx({
-                                  "text-lg": v.isBold && !v.isArabic,
-                                  "text-2xl": v.isArabic,
-                                  "text-arabic": v.isArabic,
-                                })}
-                                strong={v.isBold}
-                              >
-                                {v.text}
-                              </Typography.Text>
-                            )}
-                          </div>
-                        </List.Item>
-                      );
-                    }}
-                  />
-                </div>
-              </div>
-            </Col>
-          )}
-          {right.length > 0 && (
-            <Col span={rightColSpan} xs={24} md={rightColSpan}>
-              <List
-                dataSource={hideTafsirs ? right.filter((v) => !v.isTafsir) : right}
-                renderItem={(v) => (
-                  <List.Item key={v.id}>
-                    <div className={clsx("w-full", { "text-right": v.isArabic })}>
-                      {v.isHTML ? (
-                        <div
-                          className={clsx({
-                            "text-lg": v.isBold && !v.isArabic,
-                            "text-4xl": v.isArabic,
-                            "text-arabic": v.isArabic,
-                            "font-light": v.isHTML && !v.isArabic,
-                            "font-bold": v.isBold,
-                          })}
-                          // eslint-disable-next-line react/no-danger
-                          dangerouslySetInnerHTML={{ __html: v.text }}
-                        />
-                      ) : (
-                        <Typography.Text
-                          className={clsx({
-                            "text-lg": v.isBold && !v.isArabic,
-                            "text-4xl": v.isArabic,
-                            "text-arabic": v.isArabic,
-                            "font-light": v.isHTML && !v.isArabic,
-                          })}
-                          strong={v.isBold}
-                        >
-                          {v.text}
-                        </Typography.Text>
-                      )}
-                    </div>
-                  </List.Item>
-                )}
-              />
-            </Col>
-          )}
-        </Row>
-        <div>
-          <Space split={<Divider type="vertical" />}>
-            <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
-            <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
-            <Tooltip title="Play verse">
-              <Button
-                type="text"
-                onClick={() => {
-                  if (!isPlaying) {
-                    audioRef.current?.seekTo(0);
-                    onPlay();
-                  } else {
-                    onEnded();
-                  }
-                }}
-              >
-                {!isPlaying ? <PlayCircleOutlined /> : <PauseCircleOutlined />}
-              </Button>
-              {audioUrl && (
-                <ReactPlayer
-                  controls={false}
-                  url={audioUrl}
-                  playing={isPlaying}
-                  onEnded={() => {
-                    onEnded();
-                  }}
-                  style={{ display: "none" }}
-                  stopOnUnmount
-                  volume={muted ? 0 : volume}
-                  ref={audioRef}
-                />
-              )}
-            </Tooltip>
-          </Space>
-        </div>
-      </>
-    </VisibilitySensor>
+              {!isPlaying ? <PlayCircleOutlined /> : <PauseCircleOutlined />}
+            </Button>
+          </Tooltip>
+        </Space>
+        {audioUrl && (
+          // eslint-disable-next-line jsx-a11y/media-has-caption
+          <audio ref={audioRef} src={audioUrl} preload="none" onEnded={onEnded} />
+        )}
+      </div>
+    </div>
   );
 };
 

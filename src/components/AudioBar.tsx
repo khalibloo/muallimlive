@@ -1,7 +1,6 @@
-import React, { createRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Row, Col, Button, Popover, Slider, Space } from "antd";
 import { BsVolumeMute, BsVolumeUp } from "react-icons/bs";
-import ReactPlayer from "react-player";
 import {
   ColumnHeightOutlined,
   PauseCircleOutlined,
@@ -24,7 +23,7 @@ interface Props {
   muted: boolean;
   setMuted: React.Dispatch<React.SetStateAction<boolean>>;
   onOpenSettings: () => void;
-  virtualListRef: React.RefObject<VirtuosoHandle>;
+  virtualListRef: React.RefObject<VirtuosoHandle | null>;
 }
 
 const AudioBar: React.FC<Props> = ({
@@ -42,51 +41,78 @@ const AudioBar: React.FC<Props> = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoScroll, setAutoScroll] = useState(true);
   const [loop, setLoop] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
-  const audioRefs = audioUrls.map(() => createRef<ReactPlayer>());
-
-  const prev = () => {
-    setIsPlaying(true);
-    audioRefs[currentIndex].current?.seekTo(0);
-    if (currentIndex > 0) {
-      setCurrentIndex((val) => val - 1);
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) {
+      return;
     }
-  };
-  const next = () => {
-    audioRefs[currentIndex].current?.seekTo(0);
-    if (currentIndex === audioUrls.length - 1) {
-      if (!loop) {
-        setIsPlaying(false);
-      }
-      setCurrentIndex(0);
+    if (isPlaying) {
+      audio.play().catch(() => setIsPlaying(false));
     } else {
-      setIsPlaying(true);
-      if (autoScroll) {
-        virtualListRef.current?.scrollToIndex({
-          index: currentIndex + start - 1,
-          align: "start",
-          behavior: "smooth",
-        });
+      audio.pause();
+    }
+  }, [isPlaying, currentIndex]);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+      audioRef.current.muted = muted;
+    }
+  }, [volume, muted, currentIndex]);
+
+  useEffect(() => {
+    if (autoScroll) {
+      virtualListRef.current?.scrollToIndex({
+        index: start - 1 + currentIndex,
+        align: "start",
+        behavior: "smooth",
+      });
+    }
+  }, [currentIndex]);
+
+  const goTo = (index: number, play: boolean) => {
+    setIsPlaying(play);
+    if (index !== currentIndex) {
+      setCurrentIndex(index);
+      return;
+    }
+    // same verse, so restart it
+    const audio = audioRef.current;
+    if (audio) {
+      audio.currentTime = 0;
+      if (play) {
+        audio.play().catch(() => setIsPlaying(false));
       }
-      setCurrentIndex((val) => val + 1);
     }
   };
+
+  const prev = () => goTo(Math.max(currentIndex - 1, 0), true);
+  const next = () => {
+    const isLast = currentIndex === audioUrls.length - 1;
+    if (isLast) {
+      goTo(0, loop);
+    } else {
+      goTo(currentIndex + 1, true);
+    }
+  };
+
   const iconStyle = { fontSize: "1.5rem" };
   return (
     <>
-      {audioUrls.map((url, i) => (
-        <ReactPlayer
-          key={url}
-          controls={false}
-          url={url}
-          playing={isPlaying && currentIndex === i}
-          onEnded={next}
-          style={{ display: "none" }}
-          stopOnUnmount
-          volume={muted ? 0 : volume}
-          ref={audioRefs[i]}
-        />
-      ))}
+      {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+      <audio
+        ref={audioRef}
+        src={audioUrls[currentIndex]}
+        onEnded={next}
+        preload="auto"
+        data-testid="recitation-audio"
+      />
+      {audioUrls[currentIndex + 1] && (
+        // eslint-disable-next-line jsx-a11y/media-has-caption
+        <audio src={audioUrls[currentIndex + 1]} preload="auto" />
+      )}
       <Row justify="center" className="h-full">
         <Col className="h-full w-full max-w-md">
           <Row justify="space-between" align="middle" className="h-full">
@@ -95,6 +121,8 @@ const AudioBar: React.FC<Props> = ({
                 className="px-2"
                 type={autoScroll ? "primary" : "link"}
                 size="large"
+                aria-label="Auto scroll"
+                aria-pressed={autoScroll}
                 onClick={() => setAutoScroll((val) => !val)}
               >
                 <ColumnHeightOutlined style={iconStyle} />
@@ -105,18 +133,26 @@ const AudioBar: React.FC<Props> = ({
                 className="px-2"
                 type={loop ? "primary" : "link"}
                 size="large"
+                aria-label="Loop"
+                aria-pressed={loop}
                 onClick={() => setLoop((val) => !val)}
               >
                 <SyncOutlined style={iconStyle} />
               </Button>
             </Col>
             <Col>
-              <Button className="px-2" type="link" size="large" onClick={prev}>
+              <Button className="px-2" type="link" size="large" aria-label="Previous verse" onClick={prev}>
                 <StepBackwardOutlined style={iconStyle} />
               </Button>
             </Col>
             <Col>
-              <Button className="px-2" type="link" onClick={() => setIsPlaying((val) => !val)} size="large">
+              <Button
+                className="px-2"
+                type="link"
+                size="large"
+                aria-label={isPlaying ? "Pause" : "Play"}
+                onClick={() => setIsPlaying((val) => !val)}
+              >
                 {isPlaying ? <PauseCircleOutlined style={iconStyle} /> : <PlayCircleOutlined style={iconStyle} />}
               </Button>
             </Col>
@@ -126,6 +162,7 @@ const AudioBar: React.FC<Props> = ({
                 disabled={currentIndex === audioUrls.length - 1 && !loop}
                 type="link"
                 size="large"
+                aria-label="Next verse"
                 onClick={next}
               >
                 <StepForwardOutlined style={iconStyle} />
@@ -134,7 +171,7 @@ const AudioBar: React.FC<Props> = ({
             <Col>
               <Popover
                 content={
-                  <Space direction="vertical">
+                  <Space orientation="vertical">
                     <div className="h-52 grid place-items-center">
                       <Slider
                         vertical
@@ -142,6 +179,7 @@ const AudioBar: React.FC<Props> = ({
                         min={0}
                         max={1}
                         step={0.01}
+                        aria-label="Volume level"
                         onChange={(val) => {
                           setVolume(val);
                           setMuted(false);
@@ -151,7 +189,7 @@ const AudioBar: React.FC<Props> = ({
                         }}
                       />
                     </div>
-                    <Button type="link" onClick={() => setMuted((val) => !val)}>
+                    <Button type="link" aria-label={muted ? "Unmute" : "Mute"} onClick={() => setMuted((val) => !val)}>
                       {muted ? <BsVolumeMute fontSize="2rem" /> : <BsVolumeUp fontSize="2rem" />}
                     </Button>
                   </Space>
@@ -159,13 +197,13 @@ const AudioBar: React.FC<Props> = ({
                 placement="top"
                 trigger="click"
               >
-                <Button className="px-2" type="link" size="large">
+                <Button className="px-2" type="link" size="large" aria-label="Volume">
                   <SoundOutlined style={iconStyle} />
                 </Button>
               </Popover>
             </Col>
             <Col>
-              <Button className="px-2" type="link" size="large" onClick={onOpenSettings}>
+              <Button className="px-2" type="link" size="large" aria-label="Play options" onClick={onOpenSettings}>
                 <SettingOutlined style={iconStyle} />
               </Button>
             </Col>

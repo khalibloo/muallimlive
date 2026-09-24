@@ -2,6 +2,8 @@
 
 import { cookies } from "next/headers";
 
+import { READER_SETTINGS_KEY } from "@/utils/cookies";
+
 export async function saveReaderSettings(data: ReaderSettings) {
-  cookies().set("reader-settings", JSON.stringify(data));
+  (await cookies()).set(READER_SETTINGS_KEY, JSON.stringify(data));
 }

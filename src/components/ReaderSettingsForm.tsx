@@ -1,11 +1,8 @@
-import React, { useState } from "react";
-import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert } from "antd";
-import { useForm } from "antd/lib/form/Form";
+import React from "react";
+import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert, Grid } from "antd";
+import type { CascaderProps, GetProp } from "antd";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
-import { useResponsive } from "ahooks";
-import { sortBy } from "lodash";
-import { DefaultOptionType } from "antd/es/cascader";
-import { FormListProps } from "antd/es/form";
+import { sortBy } from "lodash-es";
 
 import { saveReaderSettings } from "./saveReaderSettings";
 
@@ -16,10 +13,16 @@ interface Props {
   tafsirs: GetTafsirsResponse;
   onSubmit?: () => void;
 }
+
+type ShowSearchFilter = Exclude<Exclude<CascaderProps["showSearch"], boolean | undefined>["filter"], undefined>;
+
+const handleCascaderSearch: ShowSearchFilter = (inputValue, path) =>
+  path.some((option) => `${option.label}`.toLowerCase().includes(inputValue.toLowerCase()));
+
 const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsirs, translations, onSubmit }) => {
-  const responsive = useResponsive();
-  const [form] = useForm<ReaderSettings>();
-  const [useSplitView, setUseSplitView] = useState(readerSettings.splitView);
+  const responsive = Grid.useBreakpoint();
+  const [form] = Form.useForm<ReaderSettings>();
+  const useSplitView = Form.useWatch("splitView", form) ?? readerSettings.splitView;
 
   const translationTypes = sortBy(
     [
@@ -60,11 +63,11 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
           translations.translations
             .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
             .map((t) => ({ label: t.translated_name.name, value: t.id })),
-          "label"
+          "label",
         ),
       })),
     ],
-    "label"
+    "label",
   );
 
   const tafsirTypes = sortBy(
@@ -90,11 +93,11 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
           tafsirs.tafsirs
             .filter((t) => t.language_name.toLowerCase() === l.name.toLowerCase())
             .map((t) => ({ label: t.translated_name.name, value: t.id })),
-          "label"
+          "label",
         ),
       }))
       .filter((l) => l.children && l.children.length > 0),
-    "label"
+    "label",
   );
 
   const combinedTypes = [
@@ -111,76 +114,93 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
   ];
 
   const handleSubmit = async (values: ReaderSettings) => {
-    const cleanedValues = {
-      ...values,
-      left: values.left.filter((item) => item.content && item.content.length > 0),
-      right: values.right.filter((item) => item.content && item.content.length > 0),
-    };
+    const hasContent = (item: VerseLayoutItem) => item.content && item.content.length > 0;
+    const left = (values.left ?? []).filter(hasContent);
+    const right = (values.right ?? []).filter(hasContent);
+    // the right pane is hidden when split view is off, so merge its content into the left pane
+    const cleanedValues: ReaderSettings = values.splitView
+      ? { splitView: true, left, right }
+      : { splitView: false, left: [...left, ...right], right: [] };
     await saveReaderSettings(cleanedValues);
 
     onSubmit?.();
   };
 
-  const handleCascaderSearch = (inputValue: string, path: DefaultOptionType[]) =>
-    path.some((option) => (option.label as string).toLowerCase().indexOf(inputValue.toLowerCase()) > -1);
-
-  const paneFields: FormListProps["children"] = (fields, { add, remove }) => (
-    <>
-      {fields.map(({ key, name, ...restField }) => (
-        <Row key={key} className="mb-2 flex-nowrap" gutter={16}>
-          <Col className="flex-grow">
-            <Form.Item
-              {...restField}
-              name={[name, "content"]}
-              rules={[{ required: true, message: "Please select content" }]}
+  const paneFields = (pane: string): GetProp<typeof Form.List, "children"> =>
+    function PaneFields(fields, { add, remove }) {
+      return (
+        <>
+          {fields.map(({ key, name, ...restField }, i) => (
+            <Row key={key} className="mb-2 flex-nowrap" gutter={16}>
+              <Col className="grow">
+                <Form.Item
+                  {...restField}
+                  name={[name, "content"]}
+                  rules={[{ required: true, message: "Please select content" }]}
+                >
+                  <Cascader
+                    allowClear={false}
+                    options={combinedTypes}
+                    showSearch={{ filter: handleCascaderSearch }}
+                    aria-label={`${pane} content ${i + 1}`}
+                  />
+                </Form.Item>
+              </Col>
+              {fields.length > 1 && (
+                <Col>
+                  <Button
+                    danger
+                    type="link"
+                    aria-label={`Remove ${pane} content ${i + 1}`}
+                    onClick={() => remove(name)}
+                  >
+                    <MinusCircleOutlined />
+                  </Button>
+                </Col>
+              )}
+            </Row>
+          ))}
+          <Form.Item>
+            <Button
+              type="dashed"
+              onClick={() => add()}
+              block
+              icon={<PlusOutlined />}
+              aria-label={`Add ${pane} content`}
             >
-              <Cascader allowClear={false} options={combinedTypes} showSearch={{ filter: handleCascaderSearch }} />
-            </Form.Item>
-          </Col>
-          {fields.length > 1 && (
-            <Col>
-              <Button danger type="link" onClick={() => remove(name)}>
-                <MinusCircleOutlined />
-              </Button>
-            </Col>
-          )}
-        </Row>
-      ))}
-      <Form.Item>
-        <Button type="dashed" onClick={() => add()} block icon={<PlusOutlined />}>
-          Add
-        </Button>
-      </Form.Item>
-    </>
-  );
+              Add
+            </Button>
+          </Form.Item>
+        </>
+      );
+    };
+
+  let rightPaneSpan = 0;
+  if (useSplitView) {
+    rightPaneSpan = responsive.md ? 12 : 24;
+  }
 
   return (
     <Form form={form} onFinish={handleSubmit} initialValues={readerSettings} requiredMark={false}>
       <Alert
         type="info"
-        message="Split view allows you to have content on right and left sides of your screen"
+        title="Split view allows you to have content on right and left sides of your screen"
         showIcon
       />
       {useSplitView && !responsive.md && (
-        <Alert
-          className="mt-2"
-          type="warning"
-          message="Right and left panes are merged if on a mobile screen"
-          showIcon
-        />
+        <Alert className="mt-2" type="warning" title="Right and left panes are merged if on a mobile screen" showIcon />
       )}
       <Form.Item name="splitView" label="Use Split View" valuePropName="checked">
-        <Switch checked={useSplitView} onChange={(checked) => setUseSplitView(checked)} />
+        <Switch />
       </Form.Item>
       <Row gutter={24}>
         <Col span={useSplitView && responsive.md ? 12 : 24}>
           {useSplitView && <Typography.Text strong>Left Pane</Typography.Text>}
-          <Form.List name="left">{paneFields}</Form.List>
+          <Form.List name="left">{paneFields("Left pane")}</Form.List>
         </Col>
-        {/* eslint-disable-next-line no-nested-ternary */}
-        <Col span={useSplitView ? (responsive.md ? 12 : 24) : 0}>
+        <Col span={rightPaneSpan}>
           <Typography.Text strong>Right Pane</Typography.Text>
-          <Form.List name="right">{paneFields}</Form.List>
+          <Form.List name="right">{paneFields("Right pane")}</Form.List>
         </Col>
       </Row>
       <Row justify="end" className="mt-6">

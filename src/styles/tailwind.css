@@ -1,3 +1,19 @@
-/* @tailwind base;
-@tailwind components; */
-@tailwind utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  --color-primary: #43a047;
+  --color-primary-tint: #65ad66;
+  --color-111: #111;
+  --color-222: #222;
+  --color-333: #333;
+  --color-444: #444;
+
+  --font-arabic: var(--font-mirza), cursive;
+
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1600px;
+}

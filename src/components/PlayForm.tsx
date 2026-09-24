@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row, Col, Form, Button, Select, Checkbox, InputNumber } from "antd";
-import { useForm } from "antd/lib/form/Form";
 
 import { savePlayerSettings } from "./savePlayerSettings";
 
@@ -25,12 +24,17 @@ interface Props {
 }
 
 const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSubmit }) => {
-  const [form] = useForm<FormValues>();
-  const [recitationMode, setRecitationMode] = useState<"surah" | "verse-range">("surah");
-  const [start, setStart] = useState(1);
-  const [end, setEnd] = useState(verseCount);
+  const [form] = Form.useForm<FormValues>();
+  const mode = Form.useWatch("mode", form);
+  const start = Form.useWatch("start", form) ?? 1;
+  const end = Form.useWatch("end", form) ?? verseCount;
 
-  const recitersSortFn = (a: any, b: any) => (a.translated_name.name > b.translated_name.name ? 1 : -1);
+  const reciterOptions = [...(recitations?.recitations ?? [])]
+    .sort((a, b) => (a.translated_name.name > b.translated_name.name ? 1 : -1))
+    .map((r) => ({
+      value: r.id,
+      label: r.style ? `${r.translated_name.name} (${r.style})` : r.translated_name.name,
+    }));
 
   const handleSubmit = async (values: FormValues) => {
     const cleanedValues: PlaySettings = {
@@ -53,9 +57,9 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
       initialValues={{
         reciter: playSettings.reciter,
         hideTafsirs: playSettings.hideTafsirs,
-        mode: recitationMode,
-        start,
-        end,
+        mode: "surah",
+        start: 1,
+        end: verseCount,
       }}
       requiredMark={false}
       layout="vertical"
@@ -67,13 +71,7 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
             label="Audio Reciter"
             rules={[{ required: true, message: "Please select reciter" }]}
           >
-            <Select placeholder="Please select">
-              {recitations?.recitations.sort(recitersSortFn).map((r) => (
-                <Select.Option key={r.id} value={r.id}>
-                  {r.translated_name.name} {r.style && <>({r.style})</>}
-                </Select.Option>
-              ))}
-            </Select>
+            <Select placeholder="Please select" options={reciterOptions} />
           </Form.Item>
         </Col>
       </Row>
@@ -83,31 +81,26 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
       <Row gutter={24}>
         <Col span={12} xs={24} sm={24} md={20} lg={20}>
           <Form.Item label="Recite" name="mode" rules={[{ required: true, message: "Please select recitation mode" }]}>
-            <Select placeholder="Please select" value={recitationMode} onChange={(m) => setRecitationMode(m)}>
-              <Select.Option value="surah">Entire Surah</Select.Option>
-              <Select.Option value="verse-range">Verse Range</Select.Option>
-            </Select>
-            {/* <Radio.Group
-          buttonStyle="solid"
-          value={recitationMode}
-          onChange={(e) => setRecitationMode(e.target.value)}
-        >
-          <Radio.Button value="surah">Entire Surah</Radio.Button>
-          <Radio.Button value="verse-range">Verse Range</Radio.Button>
-        </Radio.Group> */}
+            <Select
+              placeholder="Please select"
+              options={[
+                { value: "surah", label: "Entire Surah" },
+                { value: "verse-range", label: "Verse Range" },
+              ]}
+            />
           </Form.Item>
         </Col>
       </Row>
-      {recitationMode === "verse-range" && (
+      {mode === "verse-range" && (
         <Row gutter={24}>
           <Col>
             <Form.Item label="From Verse" name="start" rules={[{ required: true, message: "Please select start" }]}>
-              <InputNumber min={1} max={end} onChange={(value) => setStart(value as number)} value={start} />
+              <InputNumber min={1} max={end} />
             </Form.Item>
           </Col>
           <Col>
             <Form.Item label="To Verse" name="end" rules={[{ required: true, message: "Please select end" }]}>
-              <InputNumber min={start} max={verseCount} onChange={(value) => setEnd(value as number)} value={end} />
+              <InputNumber min={start} max={verseCount} />
             </Form.Item>
           </Col>
         </Row>

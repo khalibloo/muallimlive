@@ -6,7 +6,7 @@ import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clsx from "clsx";
 import Link from "next/link";
-import { range } from "lodash";
+import { range } from "lodash-es";
 import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";
 
 import Verse from "@/components/Verse";
@@ -38,7 +38,6 @@ const Chapter: React.FC<Props> = ({
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
   const [chaptersDrawerOpen, { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer }] = useBoolean(false);
   const [playModalOpen, { setTrue: openPlayModal, setFalse: closePlayModal }] = useBoolean(false);
-  const [hasRestoredProgress, setHasRestoredProgress] = useState(false);
 
   const virtualListRef = useRef<VirtuosoHandle>(null);
 
@@ -53,12 +52,19 @@ const Chapter: React.FC<Props> = ({
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(1);
 
-  React.useEffect(() => {
+  useEffect(() => {
+    let cancelled = false;
+    let subscription: Subscription | undefined;
+    const getSurahFaves = (favesData: unknown) =>
+      Array.isArray(favesData) ? favesData.filter((f: string) => f.startsWith(`${chapterNumber}:`)) : [];
+
     lf.ready().then(() => {
+      if (cancelled) {
+        return;
+      }
       lf.getItem("faves-quran").then((favesData) => {
-        if (typeof (favesData as string[])?.length === "number") {
-          const surahFaves = (favesData as string[]).filter((f) => f.startsWith(`${chapterNumber}:`));
-          setFaves(surahFaves);
+        if (!cancelled) {
+          setFaves(getSurahFaves(favesData));
         }
       });
 
@@ -67,33 +73,26 @@ const Chapter: React.FC<Props> = ({
         crossTabNotification: true,
         crossTabChangeDetection: true,
       });
-      const ob = lf.newObservable({
-        key: "faves-quran",
-        crossTabNotification: true,
-      });
-
-      ob.subscribe({
-        next: (args) => {
-          const surahFaves = args.newValue.filter((f: any) => f.startsWith(`${chapterNumber}:`));
-          setFaves(surahFaves);
-        },
-      });
+      subscription = lf
+        .newObservable({
+          key: "faves-quran",
+          crossTabNotification: true,
+        })
+        .subscribe({
+          next: (args) => setFaves(getSurahFaves(args.newValue)),
+        });
     });
-  }, [chapterNumber]);
 
-  // exit recitation mode if chapter changes
-  useEffect(() => {
-    setReaderMode("reading");
+    return () => {
+      cancelled = true;
+      subscription?.unsubscribe();
+    };
   }, [chapterNumber]);
 
   // restore progress
-  React.useEffect(() => {
-    if (hasRestoredProgress || !virtualListRef.current) {
-      return;
-    }
-    const key = `progress-surah-${chapterNumber}`;
+  useEffect(() => {
     lf.ready().then(() => {
-      lf.getItem(key).then((progress) => {
+      lf.getItem(`progress-surah-${chapterNumber}`).then((progress) => {
         // validation
         if (typeof progress === "number" && progress > 0 && progress <= currentChapter.verses_count) {
           virtualListRef.current?.scrollToIndex({
@@ -104,18 +103,14 @@ const Chapter: React.FC<Props> = ({
         }
       });
     });
-    setHasRestoredProgress(true);
-  }, [virtualListRef.current]);
+  }, [chapterNumber]);
 
-  const verseList: { left: VerseText[]; right: VerseText[] }[] = [];
-  range(currentChapter.verses_count).forEach((i) => {
-    const l = leftContent.map((c) => c?.[i]);
-    const r = rightContent.map((c) => c?.[i]);
+  const verseList = range(currentChapter.verses_count).map((i) => ({
+    left: leftContent.map((c) => c?.[i]).filter(Boolean),
+    right: rightContent.map((c) => c?.[i]).filter(Boolean),
+  }));
 
-    // if (![...l, ...r].includes(undefined)) {
-    verseList.push({ left: l as VerseText[], right: r as VerseText[] });
-    // }
-  });
+  const navButtonClassName = clsx("h-full border-none rounded-none", { "px-3": !responsive.md });
 
   return (
     <>
@@ -123,26 +118,35 @@ const Chapter: React.FC<Props> = ({
       <Drawer
         placement="left"
         closable={false}
-        bodyStyle={{ padding: 0 }}
+        styles={{ body: { padding: 0 } }}
         onClose={closeChaptersDrawer}
         open={chaptersDrawerOpen}
+        title={null}
       >
-        <Menu theme="dark" selectedKeys={[`${currentChapter.id}`]} mode="inline">
-          {chapters?.chapters.map((chapter) => (
-            <Menu.Item key={chapter.id} className="text-left" onClick={closeChaptersDrawer}>
-              <Link href={`/chapters/${chapter.id}`}>
-                <Tooltip overlayClassName="capitalize" title={chapter.translated_name.name} placement="right">
-                  <Typography.Text className="capitalize">
-                    <span className="mr-3">{chapter.id}</span>
-                    {chapter.name_simple}
-                  </Typography.Text>
-                </Tooltip>
-              </Link>
-            </Menu.Item>
-          ))}
-        </Menu>
+        <nav aria-label="Chapters">
+          <Menu
+            theme="dark"
+            selectedKeys={[`${currentChapter.id}`]}
+            mode="inline"
+            onClick={closeChaptersDrawer}
+            items={chapters?.chapters.map((chapter) => ({
+              key: `${chapter.id}`,
+              className: "text-left",
+              label: (
+                <Link href={`/chapters/${chapter.id}`}>
+                  <Tooltip classNames={{ root: "capitalize" }} title={chapter.translated_name.name} placement="right">
+                    <Typography.Text className="capitalize">
+                      <span className="mr-3">{chapter.id}</span>
+                      {chapter.name_simple}
+                    </Typography.Text>
+                  </Tooltip>
+                </Link>
+              ),
+            }))}
+          />
+        </nav>
       </Drawer>
-      <Modal destroyOnClose title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
+      <Modal destroyOnHidden title="Play Options" onCancel={closePlayModal} open={playModalOpen} footer={null}>
         <PlayForm
           recitations={recitations}
           verseCount={currentChapter.verses_count}
@@ -158,36 +162,26 @@ const Chapter: React.FC<Props> = ({
       <div className="fixed top-16 shadow-md bg-444 w-full z-10">
         <div className="flex items-stretch">
           <div>
-            <Button
-              className={clsx("h-full border-none rounded-none", {
-                "px-3": !responsive.md,
-              })}
-              onClick={openChaptersDrawer}
-            >
+            <Button className={navButtonClassName} aria-label="Chapters" onClick={openChaptersDrawer}>
               <MenuOutlined className="text-xl" />
               {responsive.md && "Chapters"}
             </Button>
           </div>
-          <div className="flex-grow p-3 text-center">
-            <Typography.Text
+          <div className="grow p-3 text-center">
+            <Typography.Title
+              level={1}
               ellipsis={{
                 tooltip: `${currentChapter.name_simple} - ${currentChapter.translated_name.name}`,
               }}
-              className="capitalize text-lg"
-              strong={responsive.md}
+              className="capitalize text-lg m-0"
+              style={{ fontWeight: responsive.md ? 600 : 400 }}
             >
               {currentChapter.name_simple} - {currentChapter.translated_name.name}
-            </Typography.Text>
+            </Typography.Title>
           </div>
           {readerMode === "reading" ? (
             <div>
-              <Button
-                className={clsx("h-full border-none rounded-none", {
-                  "px-3": !responsive.md,
-                })}
-                onClick={openPlayModal}
-                type="primary"
-              >
+              <Button className={navButtonClassName} aria-label="Recite" onClick={openPlayModal} type="primary">
                 <PlayCircleFilled className="text-xl" />
                 {responsive.md && " Recite"}
               </Button>
@@ -196,17 +190,15 @@ const Chapter: React.FC<Props> = ({
             <div>
               <Popconfirm
                 title="Stop recitation?"
-                onConfirm={() => setReaderMode("reading")}
+                onConfirm={() => {
+                  setReaderMode("reading");
+                  setIsPlayingVerses(false);
+                }}
                 okText="Yes"
                 cancelText="No"
                 placement="bottomRight"
               >
-                <Button
-                  className={clsx("h-full border-none rounded-none", {
-                    "px-3": !responsive.md,
-                  })}
-                  type="primary"
-                >
+                <Button className={navButtonClassName} aria-label="Read" type="primary">
                   <ReadOutlined className="text-xl" />
                   {responsive.md && " Read"}
                 </Button>
@@ -215,50 +207,42 @@ const Chapter: React.FC<Props> = ({
           )}
         </div>
       </div>
-      <Row className="mt-13 py-6 flex-grow" justify="center">
+      <Row className="mt-13 py-6 grow" justify="center">
         <Col span={24}>
           <Virtuoso
             data={verseList}
             useWindowScroll
             ref={virtualListRef}
-            // eslint-disable-next-line react/no-unstable-nested-components
-            itemContent={(i) => {
-              const item = verseList[i];
-              return (
-                <div key={i}>
-                  <Row justify="center">
-                    <Col
-                      span={22}
-                      className="py-3"
-                      style={{
-                        borderBottom: i === verseList.length - 1 ? undefined : "1px solid #666",
-                      }}
-                    >
-                      <Verse
-                        verseNumber={i + 1}
-                        chapterNumber={chapterNumber}
-                        faved={faves.includes(`${chapterNumber}:${i + 1}`)}
-                        totalVerses={currentChapter.verses_count}
-                        left={item.left}
-                        right={item.right}
-                        hideTafsirs={readerMode === "recitation" && playerSettings.hideTafsirs}
-                        audioUrl={versesRecitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
-                        onPlay={() => {
-                          setPlayingVerseNumber(i + 1);
-                          setIsPlayingVerses(false);
-                        }}
-                        onEnded={() => setPlayingVerseNumber(-1)}
-                        isPlaying={playingVerseNumber === i + 1}
-                        muted={muted}
-                        // setMuted={setMuted}
-                        volume={volume}
-                        // setVolume={setVolume}
-                      />
-                    </Col>
-                  </Row>
-                </div>
-              );
-            }}
+            itemContent={(i, item) => (
+              <Row justify="center">
+                <Col
+                  span={22}
+                  className="py-3"
+                  style={{
+                    borderBottom: i === verseList.length - 1 ? undefined : "1px solid #666",
+                  }}
+                >
+                  <Verse
+                    verseNumber={i + 1}
+                    chapterNumber={chapterNumber}
+                    faved={faves.includes(`${chapterNumber}:${i + 1}`)}
+                    totalVerses={currentChapter.verses_count}
+                    left={item.left}
+                    right={item.right}
+                    hideTafsirs={readerMode === "recitation" && playbackConfig.hideTafsirs}
+                    audioUrl={versesRecitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
+                    onPlay={() => {
+                      setPlayingVerseNumber(i + 1);
+                      setIsPlayingVerses(false);
+                    }}
+                    onEnded={() => setPlayingVerseNumber(-1)}
+                    isPlaying={playingVerseNumber === i + 1}
+                    muted={muted}
+                    volume={volume}
+                  />
+                </Col>
+              </Row>
+            )}
           />
         </Col>
       </Row>
@@ -266,13 +250,13 @@ const Chapter: React.FC<Props> = ({
         placement="bottom"
         open={readerMode === "recitation"}
         mask={false}
-        height={48}
-        headerStyle={{ display: "none" }}
-        closeIcon={false}
-        bodyStyle={{ padding: 0 }}
+        size={48}
+        closable={false}
+        styles={{ header: { display: "none" }, body: { padding: 0 } }}
       >
         {readerMode === "recitation" && (
           <AudioBar
+            key={`${playbackConfig.start}-${playbackConfig.end}-${playbackConfig.reciter}`}
             audioUrls={versesRecitations.slice(playbackConfig.start - 1, playbackConfig.end).map((a) => a.url)}
             start={playbackConfig.start}
             isPlaying={isPlayingVerses}

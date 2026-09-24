@@ -2,7 +2,7 @@ import { Metadata, NextPage } from "next";
 import PrivacyPolicy from "./PrivacyPolicy";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Muallimlive",
+  title: "Privacy Policy",
   description: "Muallimlive privacy policy document.",
 };
 

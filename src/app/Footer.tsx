@@ -1,4 +1,3 @@
-import React from "react";
 import { Typography, Row, Col } from "antd";
 import Link from "next/link";
 
@@ -11,7 +10,9 @@ const Footer: React.FC = () => (
         </Typography.Text>
       </div>
       <div>
-        <Typography.Text className="text-center">Khalibloo ©2023 All Rights Reserved</Typography.Text>
+        <Typography.Text className="text-center">
+          Khalibloo ©{new Date().getFullYear()} All Rights Reserved
+        </Typography.Text>
       </div>
     </Col>
   </Row>

@@ -2,7 +2,7 @@ import { Metadata, NextPage } from "next";
 import PageNotFound from "./PageNotFound";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | Muallimlive",
+  title: "Page Not Found",
   description: "Al-Qur'an reading app",
 };
 

@@ -5,6 +5,14 @@
 
 # testing
 /coverage
+/playwright-report
+/test-results
+/e2e/fixtures/cdn
+/.playwright-mcp
+
+# local tooling
+/.remember
+/.claude
 
 # next.js
 /.next/
@@ -22,5 +30,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# vercel
-.vercel
+# hosting
+/.vercel
+/.netlify
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# package manager
+pnpm-lock.yaml

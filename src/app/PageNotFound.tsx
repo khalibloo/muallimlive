@@ -1,8 +1,6 @@
 "use client";
 
-import React from "react";
 import { Button, Col, Row, Typography } from "antd";
-import Link from "next/link";
 
 const PageNotFound: React.FC = () => (
   <Row justify="center">
@@ -12,9 +10,9 @@ const PageNotFound: React.FC = () => (
         Sorry, we could not find the page you're looking for. It may have been moved or you visited an invalid link.
       </Typography.Paragraph>
       <Row justify="space-around" align="middle" className="mt-12">
-        <Link href="/">
-          <Button type="primary">Go Back To Home</Button>
-        </Link>
+        <Button type="primary" href="/">
+          Go Back To Home
+        </Button>
       </Row>
     </Col>
   </Row>

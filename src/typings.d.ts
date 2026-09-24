@@ -1,3 +1,5 @@
+declare module "eslint-plugin-jsx-a11y";
+
 interface VerseLayoutItem {
   content?: ["translation" | "tafsir", string, number | string];
 }
