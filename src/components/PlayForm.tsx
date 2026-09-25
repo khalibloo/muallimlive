@@ -35,7 +35,7 @@ const PlayForm: React.FC<Props> = ({ recitations, verseCount, playSettings, onSu
     .sort((a, b) => (a.translated_name.name > b.translated_name.name ? 1 : -1))
     .map((r) => ({
       value: r.id,
-      label: r.style ? `${r.translated_name.name} (${r.style})` : r.translated_name.name,
+      label: r.style ? t("reciter-name", { name: r.translated_name.name, style: r.style }) : r.translated_name.name,
     }));
 
   const handleSubmit = async (values: FormValues) => {

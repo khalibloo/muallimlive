@@ -1,6 +1,6 @@
 # MuallimLive
 
-Qur'an reading and recitation app built with Next.js 16, React 19, Ant Design 6, TailwindCSS 4, next-intl and Serwist. Find chapters with a fuzzy search by number or name, pick up where you left off, read each one with configurable translations, tafsirs and Arabic scripts (optionally in a split view) at your preferred text size, listen to verse recitations with the current verse highlighted, keep favorites and notes, switch between dark, light and sepia themes, and install it as a PWA. Each Arabic script, translation and tafsir can be downloaded separately (plus recitation audio per reciter and chapter) to read and listen offline.
+Qur'an reading and recitation app built with Next.js 16, React 19, Ant Design 6, TailwindCSS 4, next-intl and Serwist. Find chapters with a fuzzy search by number or name, pick up where you left off, read each one with configurable translations, tafsirs and Arabic scripts (optionally in a split view) at your preferred text size, listen to verse recitations with the current verse highlighted, keep favorites and notes, share links to verses, switch between dark, light and sepia themes, and install it as a PWA. Each Arabic script, translation and tafsir can be downloaded separately (plus recitation audio per reciter and chapter) to read and listen offline.
 
 ## Getting Started
 

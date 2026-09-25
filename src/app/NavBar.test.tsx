@@ -119,7 +119,9 @@ describe("NavBar", () => {
   describe("with offline downloads", () => {
     const resources = {
       ...settingsResources,
-      chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse,
+      chapters: {
+        chapters: [{ id: 1, name_simple: "Al-Fatihah", translated_name: { name: "The Opener" } }],
+      } as GetChaptersResponse,
     };
 
     beforeEach(() => {
@@ -176,7 +178,9 @@ describe("NavBar", () => {
   describe("after installing the app", () => {
     const resources = {
       ...settingsResources,
-      chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse,
+      chapters: {
+        chapters: [{ id: 1, name_simple: "Al-Fatihah", translated_name: { name: "The Opener" } }],
+      } as GetChaptersResponse,
     };
     const prompt = "Read offline";
 

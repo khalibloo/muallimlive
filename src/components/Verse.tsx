@@ -9,10 +9,12 @@ import lf from "@/utils/localforage";
 import Fave from "./Fave";
 import Notes from "./Notes";
 import SafeHtml from "./SafeHtml";
+import Share from "./Share";
 
 interface Props {
   verseNumber: number;
   chapterNumber: number;
+  chapterName: string;
   faved: boolean;
   totalVerses: number;
   left: VerseText[];
@@ -42,6 +44,7 @@ const verseTextClassName = (v: VerseText, rightPane?: boolean) =>
 const Verse: React.FC<Props> = ({
   verseNumber,
   chapterNumber,
+  chapterName,
   totalVerses,
   faved,
   audioUrl,
@@ -114,6 +117,7 @@ const Verse: React.FC<Props> = ({
         <Space>
           <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
           <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
+          <Share chapterNumber={chapterNumber} chapterName={chapterName} verseNumber={verseNumber} />
           <Tooltip title={isPlaying ? t("stop-verse") : t("play-verse")}>
             <Button
               type="text"

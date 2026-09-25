@@ -63,6 +63,7 @@ if (!chapter) {
 - The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme dropdown in `NavBar`). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
 - **Favorites** (`faves-quran`) and **notes** (`notes-quran-<chapter>-<verse>`) are stored client-side with `localforage` (`src/utils/localforage.ts`). Components subscribe with `lf.newObservable(...)` and must unsubscribe on unmount.
 - **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for the home page's "continue reading").
+- **Verse links**: `Share` shares `/chapters/<chapter>#v-<verse>` with the Web Share API, or copies it to the clipboard where that API is missing. On load, `Chapter` scrolls to a valid `#v-N` verse instead of the saved progress.
 
 ### 3. Audio playback
 
@@ -200,8 +201,9 @@ src/
 ├── components/
 │   ├── AudioBar.tsx              # Recitation player
 │   ├── OfflineStorage.tsx        # Offline downloads settings tab
-│   ├── Verse.tsx                 # Verse row: panes, play, fave, notes
+│   ├── Verse.tsx                 # Verse row: panes, play, fave, notes, share
 │   ├── Fave.tsx, Notes.tsx       # Favorites and notes (localforage)
+│   ├── Share.tsx                 # Shares or copies a verse link
 │   ├── NoteEditor.tsx            # Labelled Quill editor (loaded client-only)
 │   ├── PlayForm.tsx              # Recitation options form
 │   ├── ReaderSettingsForm.tsx    # Display settings form

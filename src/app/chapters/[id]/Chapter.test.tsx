@@ -244,7 +244,9 @@ describe("Chapter", () => {
     await lf.setItem("progress-surah-1", 2);
     renderChapter();
 
-    await waitFor(() => expect(scrollToIndex).toHaveBeenCalledWith({ index: 1, align: "start", behavior: "smooth" }));
+    await waitFor(() =>
+      expect(scrollToIndex).toHaveBeenCalledWith({ index: 1, align: "start", behavior: "smooth", offset: -120 }),
+    );
   });
 
   it("ignores invalid reading progress", async () => {
@@ -256,6 +258,33 @@ describe("Chapter", () => {
     await Promise.all(getItem.mock.results.map((r) => r.value));
     expect(scrollToIndex).not.toHaveBeenCalled();
     getItem.mockRestore();
+  });
+
+  describe("shared verse links", () => {
+    afterEach(() => {
+      window.location.hash = "";
+    });
+
+    it("scrolls to the linked verse instead of the saved progress", async () => {
+      await lf.setItem("progress-surah-1", 2);
+      window.location.hash = "#v-3";
+      renderChapter();
+
+      await waitFor(() =>
+        expect(scrollToIndex).toHaveBeenCalledWith({ index: 2, align: "start", behavior: "smooth", offset: -120 }),
+      );
+      expect(scrollToIndex).toHaveBeenCalledTimes(1);
+    });
+
+    it("falls back to the saved progress for a verse outside the chapter", async () => {
+      await lf.setItem("progress-surah-1", 2);
+      window.location.hash = "#v-9";
+      renderChapter();
+
+      await waitFor(() =>
+        expect(scrollToIndex).toHaveBeenCalledWith({ index: 1, align: "start", behavior: "smooth", offset: -120 }),
+      );
+    });
   });
 
   it("plays a single verse from its play button", async () => {

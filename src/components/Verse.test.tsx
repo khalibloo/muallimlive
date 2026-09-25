@@ -20,6 +20,7 @@ const right: VerseText[] = [
 const defaultProps = {
   verseNumber: 2,
   chapterNumber: 1,
+  chapterName: "Al-Fatihah",
   totalVerses: 7,
   faved: false,
   left,

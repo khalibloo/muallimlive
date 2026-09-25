@@ -8,8 +8,8 @@ import OfflineStorage from "./OfflineStorage";
 
 const chapters = {
   chapters: [
-    { id: 1, name_simple: "Al-Fatihah" },
-    { id: 2, name_simple: "Al-Baqarah" },
+    { id: 1, name_simple: "Al-Fatihah", translated_name: { name: "The Opener" } },
+    { id: 2, name_simple: "Al-Baqarah", translated_name: { name: "The Cow" } },
   ],
 } as GetChaptersResponse;
 const translations = {
@@ -151,7 +151,7 @@ describe("OfflineStorage", () => {
     const user = renderStorage();
 
     await user.click(screen.getByRole("combobox", { name: "Chapter" }));
-    await user.click((await screen.findAllByText("1. Al-Fatihah")).at(-1)!);
+    await user.click((await screen.findAllByText("1. Al-Fatihah (The Opener)")).at(-1)!);
     await user.click(screen.getByRole("button", { name: "Download recitation audio" }));
     expect(await screen.findByText("1 of 2 chapters downloaded for this reciter")).toBeInTheDocument();
 

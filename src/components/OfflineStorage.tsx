@@ -184,7 +184,9 @@ const OfflineStorage: React.FC<Props> = ({
               <Select
                 options={recitations.recitations.map((r) => ({
                   value: r.id,
-                  label: r.style ? `${r.translated_name.name} (${r.style})` : r.translated_name.name,
+                  label: r.style
+                    ? t("reciter-name", { name: r.translated_name.name, style: r.style })
+                    : r.translated_name.name,
                 }))}
               />
             </Form.Item>
@@ -195,7 +197,10 @@ const OfflineStorage: React.FC<Props> = ({
                 showSearch={{ optionFilterProp: "label" }}
                 options={[
                   { value: ALL_CHAPTERS, label: t("all-chapters") },
-                  ...chapters.chapters.map((c) => ({ value: c.id, label: `${c.id}. ${c.name_simple}` })),
+                  ...chapters.chapters.map((c) => ({
+                    value: c.id,
+                    label: t("chapter-name", { id: c.id, name: c.name_simple, translation: c.translated_name.name }),
+                  })),
                 ]}
               />
             </Form.Item>

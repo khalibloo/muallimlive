@@ -44,6 +44,12 @@ test.describe("Reading a chapter", () => {
     }).toPass();
   });
 
+  test("opens a shared verse link at that verse", async ({ testPage }) => {
+    await testPage.goto("/chapters/114#v-5");
+
+    await expect(testPage.getByRole("article", { name: "Verse 5", exact: true })).toBeInViewport();
+  });
+
   test("navigates to another chapter from the chapters drawer", async ({ testPage }) => {
     await testPage.goto("/chapters/1");
 

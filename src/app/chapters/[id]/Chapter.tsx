@@ -98,19 +98,27 @@ const Chapter: React.FC<Props> = ({
     };
   }, [chapterNumber]);
 
-  // restore progress
+  // jump to a shared verse (#v-N), otherwise restore progress
   useEffect(() => {
+    const scrollToVerse = (verse: unknown) => {
+      if (typeof verse === "number" && verse > 0 && verse <= currentChapter.verses_count) {
+        virtualListRef.current?.scrollToIndex({
+          index: verse - 1,
+          align: "start",
+          behavior: "smooth",
+          // clear the fixed nav bar and chapter toolbar
+          offset: -120,
+        });
+        return true;
+      }
+      return false;
+    };
+    const hashVerse = /^#v-(\d+)$/.exec(window.location.hash)?.[1];
+    // after storage is ready, so the list has measured its first items
     lf.ready().then(() => {
-      lf.getItem(`progress-surah-${chapterNumber}`).then((progress) => {
-        // validation
-        if (typeof progress === "number" && progress > 0 && progress <= currentChapter.verses_count) {
-          virtualListRef.current?.scrollToIndex({
-            index: progress - 1,
-            align: "start",
-            behavior: "smooth",
-          });
-        }
-      });
+      if (!scrollToVerse(Number(hashVerse))) {
+        lf.getItem(`progress-surah-${chapterNumber}`).then(scrollToVerse);
+      }
     });
   }, [chapterNumber]);
 
@@ -253,6 +261,7 @@ const Chapter: React.FC<Props> = ({
                   <Verse
                     verseNumber={i + 1}
                     chapterNumber={chapterNumber}
+                    chapterName={currentChapter.name_simple}
                     faved={faves.includes(`${chapterNumber}:${i + 1}`)}
                     totalVerses={currentChapter.verses_count}
                     left={item.left}
