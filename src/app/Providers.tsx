@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { App, ConfigProvider } from "antd";
 
+import SyncProvider from "@/components/SyncProvider";
 import getTheme from "@/theme";
 
 interface Props {
@@ -18,7 +19,9 @@ const Providers: React.FC<Props> = ({ colorScheme, children }) => {
 
   return (
     <ConfigProvider theme={getTheme(colorScheme)}>
-      <App>{children}</App>
+      <App>
+        <SyncProvider>{children}</SyncProvider>
+      </App>
     </ConfigProvider>
   );
 };
