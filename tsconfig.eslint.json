@@ -3,6 +3,16 @@
   "compilerOptions": {
     "allowJs": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "*.ts", "*.js", "*.mts", "*.mjs", "*.config.ts", "e2e/**/*.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "*.ts",
+    "*.js",
+    "*.mts",
+    "*.mjs",
+    "*.config.ts",
+    "e2e/**/*.ts",
+    "scripts/**/*.mjs"
+  ],
   "exclude": ["node_modules", ".next"]
 }
