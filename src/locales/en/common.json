@@ -114,7 +114,7 @@
     "privacy-policy-children": "We strongly recommend that users under the age of 13 (or those considered to be children) be supervised in their use of our services by adults such as parents or teachers. This is to help them better understand our content and to prevent misinterpretations. This should be used as a supplementary learning resource for them rather than a replacement of their education by trained professionals on the subject matter.",
     "privacy-policy-description": "Muallimlive privacy policy document.",
     "privacy-policy-sharing": "We may also allow users to share our content with social media services. We keep no personally identifiable records of such activities.",
-    "privacy-policy-sync": "We may also allow users to sync their personal data on their cloud storage such as OneDrive. This is to allow them to use our service seamlessly on multiple devices. This data does not pass through our servers at all. It is sent directly to the storage service. Please review their own privacy policy regarding this.",
+    "privacy-policy-sync": "You can sync your favorites and notes through your own Google Drive. They're stored in a hidden app folder there that only MuallimLive can see, and go directly between your browser and Google. Our server only keeps an encrypted sign-in cookie in your browser, so it can renew access, and never stores your data. You can stop syncing at any time in Settings, and remove the folder in Google Drive's app settings. Please review Google's privacy policy as well.",
     "read": "Read",
     "recitation-progress": "Verse {current} of {total}",
     "recite": "Recite",

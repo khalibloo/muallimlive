@@ -37,7 +37,7 @@ Preferred query priority (from Testing Library best practices):
 
 1. `screen.getByRole("button", { name: "Save Changes" })` -- roles and accessible names
 2. `screen.getByLabelText("Audio Reciter")` -- form fields by label
-3. `screen.getByText("Coming soon")` -- visible text content
+3. `screen.getByText("Last sync failed, will retry")` -- visible text content
 4. `screen.findByText(...)` -- for async content (returns a Promise)
 
 Scope queries to a region with `within()`, for example the verse `article` (named "Verse 1") or a drawer's `dialog`.
@@ -87,6 +87,23 @@ beforeEach(() => {
 ```
 
 `stubFetch` answers the listed pathnames with JSON and everything else with a 404. Without `stubCaches`, components render their "not supported" state.
+
+#### Drive sync
+
+`stubDrive(initial?)` (`src/components/test/fakeDrive.ts`) stubs `fetch` with the `/api/sync/token` route and an in-memory Drive app folder, optionally holding `initial` data. It returns `fetchMock`, `drive` (the fake's state) and `stored()` (the file's content). `sync.ts` caches the access token per module, so call `forgetToken()` in `beforeEach`:
+
+```ts
+beforeEach(async () => {
+  await lf.clear();
+  forgetToken();
+});
+```
+
+Components that only read the sync state render inside `<SyncContext value={…}>` with `vi.fn()` actions instead of the real `SyncProvider`.
+
+#### Route handlers with cookies
+
+The sign-in routes read and write the `iron-session` cookies through `next/headers`. `stubCookies()` (`src/components/test/fakeCookies.ts`) makes the mocked `cookies()` a working in-memory store and returns it, so a test can carry the cookies from `login` to `callback`. Google is faked by spying on `OAuth2Client.prototype` (`getToken`, `verifyIdToken`, `refreshAccessToken`, `revokeToken`), so the real authorization URL and PKCE still run. These tests run in `// @vitest-environment node`, because iron-session's Web Crypto bytes fail jsdom's `Uint8Array` check.
 
 #### Heavy third-party components
 

@@ -109,6 +109,19 @@ The `testPage` fixture wraps `page`:
 - **Recitation audio mocked**: every request to the media host (`NEXT_PUBLIC_API_MEDIA_URI`) is fulfilled with a generated silent WAV (`e2e/helpers/audio.ts`), with CORS like the real host. Its length is set by the `audioClipSeconds` option (default 30). Use short clips to test auto-advance. The mock is a `context.route()`, so it also covers the service worker's requests.
 - **Hydration wait**: `goto()` and `reload()` wait for `html[data-hydrated="true"]`, which `Providers` sets once React mounts, so clicks never land on unhydrated markup.
 
+The same setup is exported as `preparePage(page, context, options)`, for a page in a context the test creates itself, such as a second device.
+
+### Google Sign-in and Drive Fakes (`e2e/helpers/drive.ts`)
+
+E2E never reaches Google. `routeFakeGoogle(context, google)` routes, per context:
+
+- `/api/sync/login` straight back to the page with `?sync=connected`, as Google's consent and the callback would;
+- `/api/sync/token` to an access token for `google.account`, or `google.tokenStatus` (set it to 401 to test an expired sign-in);
+- `/api/sync/disconnect` to a 204;
+- `www.googleapis.com` to an in-memory Drive app folder holding one file.
+
+A `FakeGoogle` from `createFakeGoogle()` can be routed into several contexts, so two devices share one Drive; `driveFaves(google)` lists the live favorites in its file. The real sign-in routes are covered by unit tests only (`src/app/api/sync/routes.test.ts`).
+
 ### Service Workers
 
 The production build registers the Serwist service worker. That would cache pages and data across tests and hide `page.route()` mocks, so the config sets `serviceWorkers: "block"`. The PWA and offline specs (`e2e/flows/pwa.test.ts`, `e2e/flows/offline.test.ts`) opt back in with `test.use({ serviceWorkers: "allow" })`.

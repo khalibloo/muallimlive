@@ -6,7 +6,7 @@
 
 - **Stack**: Next.js 16 (App Router, Turbopack), TypeScript, React 19, Ant Design 6 (https://ant.design/llms.txt), TailwindCSS 4
 - **Data Layer**: Static Qur'an JSON served from a CDN (`API_URI`), fetched in server components with `fetchData()` (`force-cache`). The browser never sees the CDN: offline downloads go through the `/api/content` and `/api/resources` route handlers. Recitation audio comes straight from a third-party host (`NEXT_PUBLIC_API_MEDIA_URI`)
-- **Client storage**: Favorites and notes in IndexedDB via `localforage` (+ `localforage-observable`); reader/player settings in cookies so server components can read them; offline packs in Cache Storage
+- **Client storage**: Favorites and notes in IndexedDB via `localforage` (+ `localforage-observable`), timestamped with deletion markers so devices can merge them, and optionally synced through the reader's Google Drive; reader/player settings in cookies so server components can read them; offline packs in Cache Storage
 - **i18n**: `next-intl` without locale routing (English only, `src/i18n/request.ts`)
 - **PWA**: Serwist (`@serwist/turbopack`), service worker in `src/app/sw.ts`, served by `src/app/serwist/[path]/route.ts`
 - **Testing**: Vitest (unit), Playwright (E2E against local CDN fixtures), both generate JUnit XML for CI
@@ -61,7 +61,7 @@ if (!chapter) {
 - Settings cookies are written with `SETTINGS_COOKIE_OPTIONS` (1-year `maxAge`), and `src/proxy.ts` re-sets the ones a GET page request carries, so they only expire after a year without a visit. Add new settings cookies to `SETTINGS_COOKIE_KEYS`.
 - The **text size** (`ReaderSettings.textSize`, a percentage, default 100) is set by the root layout as `--reader-scale` on `<html>`; the `text-verse*` Tailwind sizes scale with it, so verse text uses them instead of fixed sizes.
 - The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme dropdown in `NavBar`). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
-- **Favorites** (`faves-quran`) and **notes** (`notes-quran-<chapter>-<verse>`) are stored client-side with `localforage` (`src/utils/localforage.ts`). Components subscribe with `lf.newObservable(...)` and must unsubscribe on unmount.
+- **Favorites** (`faves-quran`) and **notes** (`notes-quran-<chapter>-<verse>`) are stored client-side with `localforage` (`src/utils/localforage.ts`), and read and written only through `src/utils/userData.ts`: the timestamped format (a deleted fave or note keeps a `deleted` marker), the one-time conversion of the old format, `mergeUserData` (newest `updatedAt` wins), and the change counter (`user-data-change`) that every write bumps. Components subscribe to the same keys with `lf.newObservable(...)` and must unsubscribe on unmount.
 - **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for the home page's "continue reading"). Opening a different chapter sets `last-read` to its verse 1 before any verse scrolls into view.
 - **Verse links**: `Share` shares `/chapters/<chapter>#v-<verse>` with the Web Share API, or copies it to the clipboard where that API is missing. On load, `Chapter` scrolls to a valid `#v-N` verse instead of the saved progress.
 
@@ -95,6 +95,18 @@ Every Arabic script, translation and tafsir is its own **text pack**, and each r
 - `OfflineStorage` (Settings → Offline Storage) manages downloads. After a reader saves display settings that use a pack they haven't downloaded (while having downloaded others), `NavBar` shows a notification that opens it.
 - `NavBar` also offers the downloads once after the app is installed: on Chromium's `appinstalled` event, or on the first launch in `display-mode: standalone` (iOS fires no install event). It skips readers who already have their display settings' content or are offline, and stores `offline-install-prompt-shown` in localforage.
 
+### 7. Google Drive sync
+
+Favorites and notes can sync between a reader's devices through `muallimlive-data.json` in their Google Drive's hidden `appDataFolder` (scope `drive.appdata`). The data goes straight between the browser and Google; the server only holds the sign-in.
+
+- **Sign-in routes** (`src/app/api/sync/`, `google-auth-library` + `iron-session`, helpers in `src/utils/syncSession.ts`): `login` starts Google's OAuth with PKCE, `callback` verifies the ID token and stores the refresh token, account id and email in the encrypted, httpOnly `sync-session` cookie (path `/api/sync`, re-saved on use so it lasts a year), `token` returns a fresh access token (401 when the sign-in is gone or revoked, 503 when Google is unreachable), and `disconnect` revokes the token and deletes the cookie.
+- **`src/utils/sync.ts`** runs in the browser: it caches the access token, calls the Drive REST API directly, and `syncNow` downloads, merges (`mergeUserData`), writes and uploads, skipping the transfer when neither the Drive file's version nor the change counter moved. A Web Lock (plus an in-tab flag) allows one sync at a time. The `sync-state` localforage key holds the account, file id, last version and synced change; it's only saved while the same account is still syncing, so stopping mid-sync sticks. A 401 sets `needsReauth`.
+- **Connecting**: `startConnect` merges straight away unless this device and the account's Drive both have data and this device wasn't syncing that account; then the reader chooses to merge or use Drive only (which exports a backup first).
+- **`SyncProvider`** (in `Providers`) syncs on load, 3 s after a local change, on becoming visible or online, and every 5 minutes while visible. It handles `?sync=connected|failed` after sign-in (then removes the param) and shows `SyncDialogs`: the merge choice and an undismissable "sign in again" dialog (sign in, stop syncing, or clear data and stop).
+- **`SyncSettings`** (Settings → Sync & Backup): connect, sync now, stop syncing, JSON export/import (import merges), clear this device, and delete from all devices.
+- The service worker sends `www.googleapis.com` requests `NetworkOnly`.
+- Merging trusts each device's clock, so a device whose clock is wrong can let an older edit win.
+
 ## Development Workflows
 
 ### Build & Dev Commands
@@ -123,12 +135,13 @@ pnpm test:e2e:ci      # CI mode (JUnit XML)
 
 - **TestProviders**: Wrap all component renders in `<TestProviders>` (`src/components/test/TestProviders.tsx`). It defaults to the real English catalogue so tests assert the exact user-facing strings; pass `translations` to override.
 - **Accessible queries only**: Use `screen.getByRole()`, `getByLabelText()`, `getByText()`. Never use `querySelector`, IDs, CSS classes, or `data-testid`.
-- **Mocking**: `server-only` and `next/headers` are globally mocked in `vitest-setup.ts`, along with `matchMedia`, `ResizeObserver`, `IntersectionObserver` (`react-intersection-observer/test-utils`) and `HTMLMediaElement.play/pause`. Mock server actions with `vi.mock("@/components/saveReaderSettings")`. jsdom has no Cache Storage; offline tests use `stubCaches`/`stubFetch` from `src/components/test/fakeCaches.ts`.
+- **Mocking**: `server-only` and `next/headers` are globally mocked in `vitest-setup.ts`, along with `matchMedia`, `ResizeObserver`, `IntersectionObserver` (`react-intersection-observer/test-utils`) and `HTMLMediaElement.play/pause`. Mock server actions with `vi.mock("@/components/saveReaderSettings")`. jsdom has no Cache Storage; offline tests use `stubCaches`/`stubFetch` from `src/components/test/fakeCaches.ts`. Sync tests fake the token route and Drive with `stubDrive` (`src/components/test/fakeDrive.ts`) and call `forgetToken()` in `beforeEach`; the sign-in route tests use `stubCookies` (`fakeCookies.ts`), spy on `OAuth2Client.prototype`, and run in `@vitest-environment node`.
 - **Coverage thresholds**: statements 80%, branches 60%, functions 70%, lines 80%.
 
 #### Playwright Key Patterns
 
-- **Custom fixtures**: Import `test` and `expect` from `e2e/helpers/fixtures.ts` (not `@playwright/test`). They pre-accept the cookie notice, mock recitation audio, and wait for hydration.
+- **Custom fixtures**: Import `test` and `expect` from `e2e/helpers/fixtures.ts` (not `@playwright/test`). They pre-accept the cookie notice, mock recitation audio, and wait for hydration. `preparePage` applies the same setup to a page in another context (a second device).
+- **Google fakes**: `e2e/helpers/drive.ts` routes the sign-in, token and Drive requests per context to one in-memory `FakeGoogle`, which several contexts can share.
 - **Fixture CDN**: E2E runs against `e2e/fixtures/cdn` served locally (`pnpm test:e2e:data`), configured by `.env.test`. Regenerate the fixtures with `pnpm test:e2e:fixtures`, then delete `.next/cache/fetch-cache`, which otherwise keeps serving the old data.
 - **Service workers** are blocked except in `pwa.test.ts` and `offline.test.ts`, which opt in with `test.use({ serviceWorkers: "allow" })`.
 
@@ -178,6 +191,9 @@ API_URI=https://d28mcm0t8zev62.cloudfront.net       # Qur'an data CDN (server-on
 NEXT_PUBLIC_API_MEDIA_URI=...                       # Recitation audio host
 NEXT_PUBLIC_GTM_CODE=...                            # Optional: Google Tag Manager
 NEXT_PUBLIC_APP_ENV=development                     # Optional: environment label
+GOOGLE_CLIENT_ID=...                                # Google OAuth client for Drive sync (server-only)
+GOOGLE_CLIENT_SECRET=...                            # Its secret (server-only)
+SYNC_SESSION_SECRET=...                             # 32+ random characters encrypting the sync-session cookie
 ```
 
 **Security**: Never commit `.env.local` or any file with real secrets.
@@ -188,12 +204,13 @@ NEXT_PUBLIC_APP_ENV=development                     # Optional: environment labe
 src/
 ├── app/                          # App Router
 │   ├── layout.tsx                # Root layout: metadata, providers, GTM
-│   ├── Providers.tsx             # AntdRegistry, ConfigProvider, App
+│   ├── Providers.tsx             # AntdRegistry, ConfigProvider, App, SyncProvider
 │   ├── BasicLayout.tsx           # NavBar + content + Footer + CookieNotice
 │   ├── page.tsx, Home.tsx        # Home: continue reading + searchable chapter grid
 │   ├── chapters/[id]/            # Chapter page (server) + Chapter, ChapterHeader (client)
 │   ├── privacy/, terms/          # Legal pages
 │   ├── api/                      # Route handlers proxying offline packs from the CDN
+│   ├── api/sync/                 # Google sign-in for Drive sync: login, callback, token, disconnect
 │   ├── ~offline/                 # Offline fallback page (renders downloaded packs)
 │   ├── manifest.ts               # Web app manifest
 │   ├── sw.ts                     # Serwist service worker
@@ -209,8 +226,12 @@ src/
 │   ├── ReaderSettingsForm.tsx    # Display settings form
 │   ├── save*Settings.ts, saveColorScheme.ts # Server actions writing settings cookies
 │   ├── SafeHtml.tsx              # DOMPurify-sanitized HTML
-│   └── test/                     # TestProviders, fakeCaches
-├── utils/                        # config, fetcher, cookies, localforage, chapters, packs, content, offline
+│   ├── SyncProvider.tsx          # Runs Drive sync in the background, handles ?sync= after sign-in
+│   ├── SyncDialogs.tsx           # Merge choice and the required "sign in again" dialog
+│   ├── SyncSettings.tsx          # Sync & Backup settings tab
+│   └── test/                     # TestProviders, fakeCaches, fakeDrive, fakeCookies
+├── utils/                        # config, fetcher, cookies, localforage, chapters, packs, content, offline,
+│                                 # userData (faves/notes format and merge), sync, syncSession (server)
 ├── proxy.ts                      # Renews the settings cookies on page visits
 ├── i18n/request.ts               # next-intl request config
 ├── locales/en/common.json        # UI strings

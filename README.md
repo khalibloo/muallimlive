@@ -1,6 +1,6 @@
 # MuallimLive
 
-Qur'an reading and recitation app built with Next.js 16, React 19, Ant Design 6, TailwindCSS 4, next-intl and Serwist. Find chapters with a fuzzy search by number or name, pick up where you left off, read each one with configurable translations, tafsirs and Arabic scripts (optionally in a split view) at your preferred text size, listen to verse recitations with the current verse highlighted, keep favorites and notes, share links to verses, switch between dark, light and sepia themes, and install it as a PWA. Each Arabic script, translation and tafsir can be downloaded separately (plus recitation audio per reciter and chapter) to read and listen offline.
+Qur'an reading and recitation app built with Next.js 16, React 19, Ant Design 6, TailwindCSS 4, next-intl and Serwist. Find chapters with a fuzzy search by number or name, pick up where you left off, read each one with configurable translations, tafsirs and Arabic scripts (optionally in a split view) at your preferred text size, listen to verse recitations with the current verse highlighted, keep favorites and notes (synced between devices through your own Google Drive, or backed up to a file), share links to verses, switch between dark, light and sepia themes, and install it as a PWA. Each Arabic script, translation and tafsir can be downloaded separately (plus recitation audio per reciter and chapter) to read and listen offline.
 
 ## Getting Started
 
@@ -15,12 +15,22 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 
 Copy `.env.sample` to `.env.local` and fill in the values.
 
-| Variable                    | Description                     |
-| --------------------------- | ------------------------------- |
-| `API_URI`                   | Qur'an data CDN (server-only)   |
-| `NEXT_PUBLIC_API_MEDIA_URI` | Recitation audio host           |
-| `NEXT_PUBLIC_GTM_CODE`      | Optional: Google Tag Manager ID |
-| `NEXT_PUBLIC_APP_ENV`       | Optional: environment label     |
+| Variable                    | Description                                         |
+| --------------------------- | --------------------------------------------------- |
+| `API_URI`                   | Qur'an data CDN (server-only)                       |
+| `NEXT_PUBLIC_API_MEDIA_URI` | Recitation audio host                               |
+| `NEXT_PUBLIC_GTM_CODE`      | Optional: Google Tag Manager ID                     |
+| `NEXT_PUBLIC_APP_ENV`       | Optional: environment label                         |
+| `GOOGLE_CLIENT_ID`          | Google OAuth client ID for Drive sync (server-only) |
+| `GOOGLE_CLIENT_SECRET`      | Its client secret (server-only)                     |
+| `SYNC_SESSION_SECRET`       | Random secret encrypting the sync sign-in cookie    |
+
+### Google Drive sync setup
+
+1. In the [Google Cloud console](https://console.cloud.google.com/), create a project and enable the **Google Drive API**.
+2. Set up the OAuth consent screen: External, the app name, a support email, the home page and `/privacy` URLs, and the scopes `openid`, `email` and `https://www.googleapis.com/auth/drive.appdata` (non-sensitive, so only basic verification). **Publish it "In production"**: while it's in Testing, refresh tokens expire after 7 days.
+3. Under Credentials, create an OAuth client ID for a web application with the authorized redirect URIs `http://localhost:3000/api/sync/callback` and `https://<production host>/api/sync/callback`. Deploy previews can't sign in.
+4. Put the client ID and secret in `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`, and a random `SYNC_SESSION_SECRET` (`openssl rand -base64 32`).
 
 ## Scripts
 
