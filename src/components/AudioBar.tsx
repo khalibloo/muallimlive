@@ -29,6 +29,9 @@ interface Props {
   onVerseChange?: (verse: number) => void;
 }
 
+/** Scroll offset that keeps a verse clear of the fixed nav bar and chapter toolbar */
+export const VERSE_SCROLL_OFFSET = -120;
+
 const AudioBar: React.FC<Props> = ({
   audioUrls,
   start,
@@ -84,6 +87,7 @@ const AudioBar: React.FC<Props> = ({
         index: start - 1 + currentIndex,
         align: "start",
         behavior: "smooth",
+        offset: VERSE_SCROLL_OFFSET,
       });
     }
   }, [currentIndex]);

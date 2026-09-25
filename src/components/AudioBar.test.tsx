@@ -50,7 +50,7 @@ describe("AudioBar", () => {
   it("scrolls to the first verse of the range on mount", () => {
     renderAudioBar();
 
-    expect(scrollToIndex).toHaveBeenCalledWith({ index: 4, align: "start", behavior: "smooth" });
+    expect(scrollToIndex).toHaveBeenCalledWith({ index: 4, align: "start", behavior: "smooth", offset: -120 });
   });
 
   it("toggles between play and pause", async () => {
