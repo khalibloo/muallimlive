@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 
-import { PLAYER_SETTINGS_KEY } from "@/utils/cookies";
+import { PLAYER_SETTINGS_KEY, SETTINGS_COOKIE_OPTIONS } from "@/utils/cookies";
 import { savePlayerSettings } from "./savePlayerSettings";
 
 describe("savePlayerSettings", () => {
@@ -10,6 +10,10 @@ describe("savePlayerSettings", () => {
 
     await savePlayerSettings({ reciter: 7, hideTafsirs: false });
 
-    expect(set).toHaveBeenCalledWith(PLAYER_SETTINGS_KEY, JSON.stringify({ reciter: 7, hideTafsirs: false }));
+    expect(set).toHaveBeenCalledWith(
+      PLAYER_SETTINGS_KEY,
+      JSON.stringify({ reciter: 7, hideTafsirs: false }),
+      SETTINGS_COOKIE_OPTIONS,
+    );
   });
 });

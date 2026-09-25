@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 
-import { READER_SETTINGS_KEY } from "@/utils/cookies";
+import { READER_SETTINGS_KEY, SETTINGS_COOKIE_OPTIONS } from "@/utils/cookies";
 import { saveReaderSettings } from "./saveReaderSettings";
 
 describe("saveReaderSettings", () => {
@@ -11,6 +11,6 @@ describe("saveReaderSettings", () => {
 
     await saveReaderSettings(settings);
 
-    expect(set).toHaveBeenCalledWith(READER_SETTINGS_KEY, JSON.stringify(settings));
+    expect(set).toHaveBeenCalledWith(READER_SETTINGS_KEY, JSON.stringify(settings), SETTINGS_COOKIE_OPTIONS);
   });
 });
