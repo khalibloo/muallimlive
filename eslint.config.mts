@@ -1,3 +1,4 @@
+import { fixupPluginRules } from "@eslint/compat";
 import { globalIgnores } from "eslint/config";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
@@ -29,9 +30,10 @@ export default tseslint.config(
   // Main configuration
   {
     plugins: {
-      react,
+      // react and jsx-a11y still call context APIs removed in ESLint 10
+      react: fixupPluginRules(react),
       "react-hooks": reactHooks,
-      "jsx-a11y": jsxA11y,
+      "jsx-a11y": fixupPluginRules(jsxA11y),
       "@next/next": next as any,
     },
     languageOptions: {
