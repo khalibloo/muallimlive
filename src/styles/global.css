@@ -7,22 +7,73 @@
 @import "./tafsir.css" layer(app);
 @import "./quill.css" layer(app);
 
+/* Keep in sync with the palette in src/theme.ts */
 :root {
+  --primary-color: #2e7d32;
+  --text-color: rgba(0, 0, 0, 0.88);
+  --text-secondary: rgba(0, 0, 0, 0.62);
+  --page: #f7f5ef;
+  --surface: #ffffff;
+  --surface-elevated: #ffffff;
+  --line: #d9d9d4;
+}
+
+.sepia {
+  --primary-color: #2e6b30;
+  --text-color: #3d2f1f;
+  --text-secondary: #6b5840;
+  --page: #f1e7d0;
+  --surface: #faf3e3;
+  --surface-elevated: #fdf8ec;
+  --line: #dccdab;
+}
+
+.dark {
   --primary-color: #43a047;
   --text-color: rgba(255, 255, 255, 0.85);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --page: #131414;
+  --surface: #1c1d1d;
+  --surface-elevated: #242626;
+  --line: rgba(255, 255, 255, 0.14);
 }
 
 @layer app {
   body {
-    background-color: #444;
+    background-color: var(--page);
     color: var(--text-color);
-  }
-
-  .bg-default {
-    background-color: #444;
   }
 
   .text-arabic {
     font-family: var(--font-arabic);
+    line-height: 2;
+  }
+
+  /* An eight-pointed star (two overlapping squares) behind the verse number */
+  .verse-badge {
+    position: relative;
+    display: inline-grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    isolation: isolate;
+  }
+
+  .verse-badge::before,
+  .verse-badge::after {
+    content: "";
+    position: absolute;
+    inset: 0.3rem;
+    z-index: -1;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 3px;
+    background-color: var(--surface);
+  }
+
+  .verse-badge::after {
+    transform: rotate(45deg);
   }
 }

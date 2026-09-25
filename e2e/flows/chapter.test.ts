@@ -1,5 +1,13 @@
 import { expect, test } from "../helpers/fixtures";
-import { arabicText, chapterHeading, chapterName, tafsirExcerpt, translationText } from "../helpers/data";
+import {
+  arabicText,
+  chapterHeading,
+  chapterLabel,
+  chapterName,
+  chapterTranslatedName,
+  tafsirExcerpt,
+  translationText,
+} from "../helpers/data";
 
 // Default reader settings (src/utils/config.ts): Yusuf Ali translation (22) and tafsir (0) on the left,
 // Uthmani Tajweed Arabic and transliteration (57) on the right
@@ -42,11 +50,31 @@ test.describe("Reading a chapter", () => {
     await testPage.getByRole("button", { name: "Chapters", exact: true }).click();
     const chaptersNav = testPage.getByRole("navigation", { name: "Chapters", exact: true });
     await expect(chaptersNav).toBeVisible();
-    await chaptersNav.getByRole("link", { name: `112 ${chapterName(112)}`, exact: true }).click();
+    await chaptersNav.getByRole("link", { name: chapterLabel(112), exact: true }).click();
 
     await expect(testPage).toHaveURL("/chapters/112");
     await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(112), exact: true })).toBeVisible();
     await expect(testPage.getByText(translationText(112, 22, 1), { exact: true })).toBeVisible();
     await expect(chaptersNav).toBeHidden();
+  });
+
+  test("searches the chapters drawer", async ({ testPage }) => {
+    await testPage.goto("/chapters/1");
+
+    await testPage.getByRole("button", { name: "Chapters", exact: true }).click();
+    const chaptersNav = testPage.getByRole("navigation", { name: "Chapters", exact: true });
+    const search = testPage.getByRole("textbox", { name: "Search chapters", exact: true });
+
+    await search.fill(chapterTranslatedName(114).toLowerCase());
+    await expect(chaptersNav.getByRole("link")).toHaveText([chapterLabel(114)]);
+
+    await search.fill(chapterName(113));
+    await expect(chaptersNav.getByRole("link")).toHaveText([chapterLabel(113)]);
+
+    await search.fill("112");
+    await expect(chaptersNav.getByRole("link")).toHaveText([chapterLabel(112)]);
+    await chaptersNav.getByRole("link", { name: chapterLabel(112), exact: true }).click();
+
+    await expect(testPage).toHaveURL("/chapters/112");
   });
 });

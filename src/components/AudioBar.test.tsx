@@ -10,6 +10,7 @@ const audioUrls = ["https://audio.test/1_5.mp3", "https://audio.test/1_6.mp3", "
 
 const scrollToIndex = vi.fn();
 const onOpenSettings = vi.fn();
+const onVerseChange = vi.fn();
 
 const Harness: React.FC<{ initialPlaying?: boolean }> = ({ initialPlaying = false }) => {
   const [isPlaying, setIsPlaying] = useState(initialPlaying);
@@ -28,6 +29,7 @@ const Harness: React.FC<{ initialPlaying?: boolean }> = ({ initialPlaying = fals
       setMuted={setMuted}
       onOpenSettings={onOpenSettings}
       virtualListRef={virtualListRef}
+      onVerseChange={onVerseChange}
     />
   );
 };
@@ -80,6 +82,18 @@ describe("AudioBar", () => {
 
     await user.click(screen.getByRole("button", { name: "Previous verse" }));
     expect(scrolledTo()).toEqual([4, 5, 4]);
+  });
+
+  it("reports the verse being recited and shows the progress through the range", async () => {
+    const user = renderAudioBar();
+
+    expect(onVerseChange).toHaveBeenLastCalledWith(5);
+    expect(screen.getByRole("progressbar", { name: "Verse 5 of 7" })).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Next verse" }));
+
+    expect(onVerseChange).toHaveBeenLastCalledWith(6);
+    expect(screen.getByRole("progressbar", { name: "Verse 6 of 7" })).toBeInTheDocument();
   });
 
   it("restarts the first verse when going back from it", async () => {

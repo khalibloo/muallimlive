@@ -18,6 +18,15 @@ export const chapterHeading = (chapterId: number) => {
 
 export const chapterName = (chapterId: number) => chapters.find((c) => c.id === chapterId)!.name_simple;
 
+/** The chapter's entry in the chapters drawer, e.g. "1. Al-Fatihah (The Opener)" */
+export const chapterLabel = (chapterId: number) => {
+  const chapter = chapters.find((c) => c.id === chapterId)!;
+  return `${chapter.id}. ${chapter.name_simple} (${chapter.translated_name.name})`;
+};
+
+export const chapterTranslatedName = (chapterId: number) =>
+  chapters.find((c) => c.id === chapterId)!.translated_name.name;
+
 export const translationText = (chapterId: number, translationId: number, verse: number) =>
   readFixture<GetVersesTranslationResponse>(`chapters/${chapterId}/translations/${translationId}`).translations[
     verse - 1

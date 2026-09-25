@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { contentUrl, getContentPack, recitationUrl, resourceUrl } from "@/utils/packs";
 import Chapter from "../chapters/[id]/Chapter";
-import HomePage from "../page";
+import Home from "../Home";
 
 /** Resolves to undefined when the response isn't downloaded (the service worker's fetch fails offline) */
 const getJson = async <T,>(url: string): Promise<T | undefined> => {
@@ -86,6 +86,18 @@ const OfflineChapter: React.FC<{ id: number }> = ({ id }) => {
   );
 };
 
+const OfflineHome: React.FC = () => {
+  const { data: chapters, loading } = useRequest(() => getJson<GetChaptersResponse>(resourceUrl("chapters")));
+
+  if (loading) {
+    return <Spin className="mt-12" />;
+  }
+  if (!chapters) {
+    return <Unavailable />;
+  }
+  return <Home chapters={chapters.chapters} />;
+};
+
 // The page is served in place of whichever page failed to load, so the URL is the page to show
 const subscribe = () => () => {};
 
@@ -103,7 +115,7 @@ const OfflinePage: React.FC = () => {
     return <OfflineChapter key={chapterId} id={Number(chapterId)} />;
   }
   if (pathname === "/") {
-    return <HomePage />;
+    return <OfflineHome />;
   }
   return <Unavailable />;
 };

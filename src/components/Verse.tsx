@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Row, Col, Typography, Space, Divider, Tooltip, Button, Grid } from "antd";
+import { Row, Col, Typography, Space, Tooltip, Button } from "antd";
 import { useInView } from "react-intersection-observer";
 import clsx from "clsx";
 import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
@@ -24,7 +24,20 @@ interface Props {
   isPlaying: boolean;
   volume: number;
   muted: boolean;
+  /** Marks the verse being recited */
+  highlighted?: boolean;
 }
+
+/** Verse text scales with the reader's text size; Arabic in the right pane is the larger script */
+const verseTextClassName = (v: VerseText, rightPane?: boolean) =>
+  clsx({
+    "text-arabic": v.isArabic,
+    "text-verse-arabic": v.isArabic && !rightPane,
+    "text-verse-arabic-lg": v.isArabic && rightPane,
+    "text-verse-sm text-secondary font-light": v.isTafsir && !v.isArabic,
+    "text-verse-lg": v.isBold && !v.isArabic && !v.isTafsir,
+    "text-verse": !v.isArabic && !v.isBold && !v.isTafsir,
+  });
 
 const Verse: React.FC<Props> = ({
   verseNumber,
@@ -40,9 +53,9 @@ const Verse: React.FC<Props> = ({
   isPlaying,
   muted,
   volume,
+  highlighted,
 }) => {
   const t = useTranslations("common");
-  const responsive = Grid.useBreakpoint();
   const audioRef = useRef<HTMLAudioElement>(null);
   const split = left.length > 0 && right.length > 0;
   const leftColSpan = split ? 12 : 24;
@@ -59,6 +72,9 @@ const Verse: React.FC<Props> = ({
         lf.removeItem(key);
       } else if (inView) {
         lf.setItem(key, verseNumber);
+      }
+      if (inView) {
+        lf.setItem<LastRead>("last-read", { chapter: chapterNumber, verse: verseNumber });
       }
     },
   });
@@ -84,79 +100,18 @@ const Verse: React.FC<Props> = ({
   }, [volume, muted]);
 
   return (
-    <article ref={ref} aria-label={t("verse-label", { verse: verseNumber })}>
-      <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 items-stretch">
-        {left.length > 0 && (
-          <Col
-            span={leftColSpan}
-            xs={24}
-            md={leftColSpan}
-            style={{
-              borderRight: split && responsive.md ? "1px solid #666" : undefined,
-            }}
-          >
-            <div className="flex gap-2">
-              <div className="py-3">{verseNumber})</div>
-              <ul className="grow list-none m-0 p-0 divide-y divide-white/10">
-                {leftItems.map((v, i) => (
-                  // items are one verse's text from each configured source, so ids repeat but order is stable
-                  <li key={i} className="py-3">
-                    {v.isHTML ? (
-                      <SafeHtml className={clsx({ "font-light": v.isTafsir })} html={v.text} />
-                    ) : (
-                      <Typography.Text
-                        className={clsx({
-                          "text-lg": v.isBold && !v.isArabic,
-                          "text-2xl": v.isArabic,
-                          "text-arabic": v.isArabic,
-                        })}
-                        strong={v.isBold}
-                      >
-                        {v.text}
-                      </Typography.Text>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Col>
-        )}
-        {right.length > 0 && (
-          <Col span={rightColSpan} xs={24} md={rightColSpan}>
-            <ul className="list-none m-0 p-0 divide-y divide-white/10">
-              {rightItems.map((v, i) => (
-                <li key={i} className={clsx("w-full py-3", { "text-right": v.isArabic })}>
-                  {v.isHTML ? (
-                    <SafeHtml
-                      className={clsx({
-                        "text-lg": v.isBold && !v.isArabic,
-                        "text-4xl": v.isArabic,
-                        "text-arabic": v.isArabic,
-                        "font-light": v.isTafsir,
-                        "font-bold": v.isBold,
-                      })}
-                      html={v.text}
-                    />
-                  ) : (
-                    <Typography.Text
-                      className={clsx({
-                        "text-lg": v.isBold && !v.isArabic,
-                        "text-4xl": v.isArabic,
-                        "text-arabic": v.isArabic,
-                      })}
-                      strong={v.isBold}
-                    >
-                      {v.text}
-                    </Typography.Text>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </Col>
-        )}
-      </Row>
-      <div>
-        <Space separator={<Divider orientation="vertical" />}>
+    <article
+      ref={ref}
+      aria-label={t("verse-label", { verse: verseNumber })}
+      aria-current={highlighted || undefined}
+      className={clsx("rounded-xl border bg-surface px-4 md:px-6 py-4 transition-colors", {
+        "border-line": !highlighted,
+        "border-primary ring-1 ring-primary": highlighted,
+      })}
+    >
+      <div className="flex items-center justify-between gap-2">
+        <span className="verse-badge">{verseNumber}</span>
+        <Space>
           <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
           <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
           <Tooltip title={isPlaying ? t("stop-verse") : t("play-verse")}>
@@ -180,6 +135,43 @@ const Verse: React.FC<Props> = ({
           <audio ref={audioRef} src={audioUrl} preload="none" onEnded={onEnded} />
         )}
       </div>
+      <Row gutter={24} id={`v-${verseNumber}`} className="items-stretch">
+        {left.length > 0 && (
+          <Col span={leftColSpan} xs={24} md={leftColSpan} className={clsx("border-line", { "md:border-r": split })}>
+            <ul className="list-none m-0 p-0 divide-y divide-line">
+              {leftItems.map((v, i) => (
+                // items are one verse's text from each configured source, so ids repeat but order is stable
+                <li key={i} className={clsx("py-3", { "text-right": v.isArabic })}>
+                  {v.isHTML ? (
+                    <SafeHtml className={verseTextClassName(v)} html={v.text} />
+                  ) : (
+                    <Typography.Text className={verseTextClassName(v)} strong={v.isBold}>
+                      {v.text}
+                    </Typography.Text>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </Col>
+        )}
+        {right.length > 0 && (
+          <Col span={rightColSpan} xs={24} md={rightColSpan}>
+            <ul className="list-none m-0 p-0 divide-y divide-line">
+              {rightItems.map((v, i) => (
+                <li key={i} className={clsx("w-full py-3", { "text-right": v.isArabic })}>
+                  {v.isHTML ? (
+                    <SafeHtml className={clsx(verseTextClassName(v, true), { "font-bold": v.isBold })} html={v.text} />
+                  ) : (
+                    <Typography.Text className={verseTextClassName(v, true)} strong={v.isBold}>
+                      {v.text}
+                    </Typography.Text>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </Col>
+        )}
+      </Row>
     </article>
   );
 };

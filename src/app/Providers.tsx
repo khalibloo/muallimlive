@@ -3,20 +3,21 @@
 import { useEffect } from "react";
 import { App, ConfigProvider } from "antd";
 
-import theme from "@/theme";
+import getTheme from "@/theme";
 
 interface Props {
+  colorScheme: ColorScheme;
   children: React.ReactNode;
 }
 
-const Providers: React.FC<Props> = ({ children }) => {
+const Providers: React.FC<Props> = ({ colorScheme, children }) => {
   // Signal to E2E tests that the client has hydrated and interactive controls are wired up
   useEffect(() => {
     document.documentElement.dataset.hydrated = "true";
   }, []);
 
   return (
-    <ConfigProvider theme={theme}>
+    <ConfigProvider theme={getTheme(colorScheme)}>
       <App>{children}</App>
     </ConfigProvider>
   );

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Row, Col, Button, Popover, Slider, Space } from "antd";
+import { Row, Col, Button, Popover, Progress, Slider, Space } from "antd";
 import { BsVolumeMute, BsVolumeUp } from "react-icons/bs";
 import {
   ColumnHeightOutlined,
@@ -25,6 +25,8 @@ interface Props {
   setMuted: React.Dispatch<React.SetStateAction<boolean>>;
   onOpenSettings: () => void;
   virtualListRef: React.RefObject<VirtuosoHandle | null>;
+  /** Called with the verse number whenever the recitation moves to another verse */
+  onVerseChange?: (verse: number) => void;
 }
 
 const AudioBar: React.FC<Props> = ({
@@ -38,6 +40,7 @@ const AudioBar: React.FC<Props> = ({
   setVolume,
   onOpenSettings,
   virtualListRef,
+  onVerseChange,
 }) => {
   const t = useTranslations("common");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,6 +78,7 @@ const AudioBar: React.FC<Props> = ({
   }, [volume, muted, currentIndex]);
 
   useEffect(() => {
+    onVerseChange?.(start + currentIndex);
     if (autoScroll) {
       virtualListRef.current?.scrollToIndex({
         index: start - 1 + currentIndex,
@@ -111,13 +115,21 @@ const AudioBar: React.FC<Props> = ({
   };
 
   return (
-    <>
+    <div className="relative h-full">
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
       <audio ref={audioRef} src={audioUrls[currentIndex]} onEnded={next} preload="auto" />
       {audioUrls[currentIndex + 1] && (
         // eslint-disable-next-line jsx-a11y/media-has-caption
         <audio src={audioUrls[currentIndex + 1]} preload="auto" />
       )}
+      <Progress
+        className="absolute inset-x-0 top-0 m-0 leading-none"
+        percent={((currentIndex + 1) / audioUrls.length) * 100}
+        showInfo={false}
+        strokeColor="var(--primary-color)"
+        size={{ height: 3 }}
+        aria-label={t("recitation-progress", { current: start + currentIndex, total: start + audioUrls.length - 1 })}
+      />
       <Row justify="center" className="h-full">
         <Col className="h-full w-full max-w-md">
           <Row justify="space-between" align="middle" className="h-full">
@@ -227,7 +239,7 @@ const AudioBar: React.FC<Props> = ({
           </Row>
         </Col>
       </Row>
-    </>
+    </div>
   );
 };
 

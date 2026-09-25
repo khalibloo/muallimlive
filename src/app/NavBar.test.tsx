@@ -5,12 +5,16 @@ import lf from "localforage";
 
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
+import { saveColorScheme } from "@/components/saveColorScheme";
 import { saveReaderSettings } from "@/components/saveReaderSettings";
 import { downloadText } from "@/utils/offline";
 import NavBar, { INSTALL_PROMPT_KEY, type SettingsResources } from "./NavBar";
 
 vi.mock("@/components/saveReaderSettings", () => ({
   saveReaderSettings: vi.fn(),
+}));
+vi.mock("@/components/saveColorScheme", () => ({
+  saveColorScheme: vi.fn(),
 }));
 
 const settingsResources: SettingsResources = {
@@ -27,13 +31,13 @@ const settingsResources: SettingsResources = {
   playerSettings: { reciter: 1, hideTafsirs: true },
 };
 
-const renderNavBar = (resources = settingsResources) => {
+const renderNavBar = (resources = settingsResources, colorScheme: ColorScheme = "dark") => {
   const user = userEvent.setup();
   render(
     <TestProviders>
       {/* jsdom never fires transition events, so closing modals only completes with motion disabled */}
       <ConfigProvider theme={{ token: { motion: false } }}>
-        <NavBar settingsResources={resources} />
+        <NavBar settingsResources={resources} colorScheme={colorScheme} />
       </ConfigProvider>
     </TestProviders>,
   );
@@ -52,6 +56,19 @@ describe("NavBar", () => {
 
     expect(screen.getByRole("link", { name: "MuallimLive" })).toHaveAttribute("href", "/");
     expect(screen.getByRole("heading", { level: 3, name: "MuallimLive" })).toBeInTheDocument();
+  });
+
+  it.each([
+    ["dark", "Light", "light"],
+    ["light", "Sepia", "sepia"],
+    ["sepia", "Dark", "dark"],
+  ] as const)("switches from the %s theme to %s", async (colorScheme, label, next) => {
+    const user = renderNavBar(settingsResources, colorScheme);
+
+    await user.click(screen.getByRole("button", { name: "Theme" }));
+    await user.click(await screen.findByRole("menuitem", { name: label }));
+
+    expect(saveColorScheme).toHaveBeenCalledWith(next);
   });
 
   it("offers the settings sections", async () => {
@@ -95,12 +112,15 @@ describe("NavBar", () => {
     await user.click(within(dialog).getByRole("button", { name: "Save Changes" }));
 
     expect(await screen.findByText("Changes Saved Successfully")).toBeInTheDocument();
-    expect(saveReaderSettings).toHaveBeenCalledWith(settingsResources.readerSettings);
+    expect(saveReaderSettings).toHaveBeenCalledWith({ ...settingsResources.readerSettings, textSize: 100 });
     await waitFor(() => expect(screen.queryByRole("dialog", { name: "Settings" })).not.toBeInTheDocument());
   });
 
   describe("with offline downloads", () => {
-    const resources = { ...settingsResources, chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse };
+    const resources = {
+      ...settingsResources,
+      chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse,
+    };
 
     beforeEach(() => {
       stubCaches();
@@ -154,7 +174,10 @@ describe("NavBar", () => {
   });
 
   describe("after installing the app", () => {
-    const resources = { ...settingsResources, chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse };
+    const resources = {
+      ...settingsResources,
+      chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse,
+    };
     const prompt = "Read offline";
 
     /** Makes the page look launched from the home screen */

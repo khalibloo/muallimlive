@@ -1,13 +1,13 @@
 body .quill {
   /* toolbar */
   .ql-snow.ql-toolbar {
-    border-color: #666;
+    border-color: var(--line);
 
     .ql-picker {
       color: var(--text-color);
       .ql-picker-label {
         color: var(--text-color);
-        border-color: #666;
+        border-color: var(--line);
       }
       .ql-picker-label:hover {
         color: var(--primary-color);
@@ -16,7 +16,7 @@ body .quill {
     }
 
     .ql-picker.ql-expanded .ql-picker-options {
-      background-color: #333;
+      background-color: var(--surface-elevated);
       .ql-picker-item:hover,
       .ql-picker-item.ql-selected {
         color: var(--primary-color);
@@ -33,18 +33,18 @@ body .quill {
 
   /* the text area */
   .ql-snow.ql-container {
-    border-color: #666;
+    border-color: var(--line);
 
     /* tooltips such as when adding a hpyerlink */
     .ql-tooltip {
-      background-color: #333;
+      background-color: var(--surface-elevated);
       color: var(--text-color);
-      border-color: #666;
+      border-color: var(--line);
       @apply shadow-md;
 
       input {
-        background-color: #111;
-        border-color: #666;
+        background-color: var(--page);
+        border-color: var(--line);
       }
     }
   }

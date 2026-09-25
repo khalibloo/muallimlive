@@ -110,10 +110,19 @@ describe("OfflinePage", () => {
     expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
   });
 
-  it("renders the home page", () => {
+  it("renders the home page from the downloaded chapter list", async () => {
+    stubFetch(responses);
     renderAt("/");
 
-    expect(screen.getByRole("heading", { level: 2, name: "Al-Qur'an" })).toBeInTheDocument();
+    expect(await screen.findByRole("heading", { level: 1, name: "Al-Qur'an" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute("href", "/chapters/1");
+  });
+
+  it("is unavailable at home without the chapter list", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
+    renderAt("/");
+
+    expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
   });
 
   it("is unavailable for other pages", () => {

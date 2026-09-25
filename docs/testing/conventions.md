@@ -150,6 +150,7 @@ e2e/
     recitation.test.ts     # Audio player
     pwa.test.ts            # Manifest and service worker
     offline.test.ts        # Offline downloads and reading
+    theme.test.ts          # Light/sepia/dark theme switcher
   helpers/
     fixtures.ts            # Custom Playwright fixtures
     settings.ts            # Opens the settings dialog

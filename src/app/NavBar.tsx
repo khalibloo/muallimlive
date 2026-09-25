@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
-import { SettingOutlined } from "@ant-design/icons";
+import { MoonOutlined, ReadOutlined, SettingOutlined, SunOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import lf from "localforage";
 import { useBoolean, useEventListener, useMount } from "ahooks";
@@ -10,6 +10,8 @@ import { useFormatter, useTranslations } from "next-intl";
 
 import OfflineStorage, { getSettingsPacks, usePackLabel } from "@/components/OfflineStorage";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
+import { saveColorScheme } from "@/components/saveColorScheme";
+import { COLOR_SCHEMES } from "@/utils/cookies";
 import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
 import { packKey } from "@/utils/packs";
 
@@ -25,11 +27,19 @@ export interface SettingsResources {
 
 interface Props {
   settingsResources: SettingsResources;
+  colorScheme: ColorScheme;
 }
 
 export const INSTALL_PROMPT_KEY = "offline-install-prompt-shown";
 
-const NavBar: React.FC<Props> = ({ settingsResources }) => {
+const SCHEME_ICONS = { light: SunOutlined, sepia: ReadOutlined, dark: MoonOutlined };
+
+const SchemeIcon: React.FC<{ scheme: ColorScheme; className?: string }> = ({ scheme, ...props }) => {
+  const Icon = SCHEME_ICONS[scheme];
+  return <Icon aria-hidden {...props} />;
+};
+
+const NavBar: React.FC<Props> = ({ settingsResources, colorScheme }) => {
   const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const { notification } = App.useApp();
@@ -152,24 +162,46 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
             {t("app-name")}
           </Typography.Title>
         </Link>
-        <Dropdown
-          trigger={["click"]}
-          menu={{
-            items: [
-              { key: "display", label: t("display-settings") },
-              { key: "storage", label: t("offline-storage") },
-              { key: "sync", label: t("sync-settings") },
-            ],
-            onClick: (item) => openSettings(item.key),
-          }}
-        >
-          <Button
-            type="text"
-            size="large"
-            aria-label={t("settings")}
-            icon={<SettingOutlined aria-hidden className="text-2xl" />}
-          />
-        </Dropdown>
+        <div className="flex items-center gap-2">
+          <Dropdown
+            trigger={["click"]}
+            menu={{
+              selectable: true,
+              selectedKeys: [colorScheme],
+              items: COLOR_SCHEMES.map((scheme) => ({
+                key: scheme,
+                label: t(`theme-${scheme}`),
+                icon: <SchemeIcon scheme={scheme} />,
+              })),
+              onClick: (item) => saveColorScheme(item.key as ColorScheme),
+            }}
+          >
+            <Button
+              type="text"
+              size="large"
+              aria-label={t("theme")}
+              icon={<SchemeIcon scheme={colorScheme} className="text-2xl" />}
+            />
+          </Dropdown>
+          <Dropdown
+            trigger={["click"]}
+            menu={{
+              items: [
+                { key: "display", label: t("display-settings") },
+                { key: "storage", label: t("offline-storage") },
+                { key: "sync", label: t("sync-settings") },
+              ],
+              onClick: (item) => openSettings(item.key),
+            }}
+          >
+            <Button
+              type="text"
+              size="large"
+              aria-label={t("settings")}
+              icon={<SettingOutlined aria-hidden className="text-2xl" />}
+            />
+          </Dropdown>
+        </div>
       </div>
     </>
   );

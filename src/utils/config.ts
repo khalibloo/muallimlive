@@ -18,4 +18,5 @@ export default {
   gtmCode: process.env.NEXT_PUBLIC_GTM_CODE,
   defaultReaderSettings,
   defaultPlaySettings,
+  defaultColorScheme: "dark" as ColorScheme,
 };

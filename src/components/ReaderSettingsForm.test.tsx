@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 import TestProviders from "@/components/test/TestProviders";
@@ -57,6 +57,7 @@ const readerSettings: ReaderSettings = {
   splitView: true,
   left: [{ content: ["translation", "en", 20] }, { content: ["tafsir", "en", 169] }],
   right: [{ content: ["translation", "ar", "uthmani_tajweed"] }, { content: ["translation", "en", 131] }],
+  textSize: 120,
 };
 
 const renderForm = (settings = readerSettings) => {
@@ -129,7 +130,23 @@ describe("ReaderSettingsForm", () => {
       splitView: false,
       left: [...readerSettings.left, ...readerSettings.right],
       right: [],
+      textSize: 120,
     });
+  });
+
+  it("changes the text size, which defaults to 100%", async () => {
+    const { textSize: _, ...withoutTextSize } = readerSettings;
+    const { user, onSubmit } = renderForm(withoutTextSize);
+
+    const slider = screen.getByRole("slider", { name: "Text Size" });
+    expect(slider).toHaveAttribute("aria-valuenow", "100");
+    // the slider only reads the legacy `keyCode`, which user-event never sets, so fireEvent is required here
+    fireEvent.keyDown(slider, { key: "ArrowRight", keyCode: 39 });
+    await waitFor(() => expect(slider).toHaveAttribute("aria-valuenow", "110"));
+    await user.click(screen.getByRole("button", { name: "Save Changes" }));
+
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(saveReaderSettings).toHaveBeenCalledWith({ ...readerSettings, textSize: 110 });
   });
 
   it("removes pane content rows", async () => {

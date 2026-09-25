@@ -2,32 +2,32 @@
 .madda_permissible,
 .madda_necessary,
 .madda_obligatory {
-  @apply text-purple-400;
+  @apply text-purple-700 dark:text-purple-400;
 }
 
 .qalaqah {
-  @apply text-lime-400;
+  @apply text-lime-700 dark:text-lime-400;
 }
 
 .ikhafa,
 .ikhafa_shafawi {
-  @apply text-amber-400;
+  @apply text-amber-700 dark:text-amber-400;
 }
 
 .ghunnah,
 .iqlab {
-  @apply text-emerald-400;
+  @apply text-emerald-700 dark:text-emerald-400;
 }
 
 .slnt,
 .ham_wasl {
-  @apply text-neutral-400;
+  @apply text-neutral-500 dark:text-neutral-400;
 }
 
 .idgham_wo_ghunnah,
 .idgham_ghunnah,
 .idgham_shafawi {
-  @apply text-blue-400;
+  @apply text-blue-700 dark:text-blue-400;
 }
 
 .end {

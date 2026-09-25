@@ -8,17 +8,18 @@ import Footer from "./Footer";
 
 interface Props {
   settingsResources: SettingsResources;
+  colorScheme: ColorScheme;
   children: React.ReactNode;
 }
 
-const BasicLayout: React.FC<Props> = ({ settingsResources, children }) => (
+const BasicLayout: React.FC<Props> = ({ settingsResources, colorScheme, children }) => (
   <>
     <Layout className="min-h-screen">
       <Layout.Header className="w-full p-0 fixed z-10 shadow-md">
-        <NavBar settingsResources={settingsResources} />
+        <NavBar settingsResources={settingsResources} colorScheme={colorScheme} />
       </Layout.Header>
       <Layout.Content className="mt-16 py-12 flex flex-col">{children}</Layout.Content>
-      <Layout.Footer className="bg-333">
+      <Layout.Footer className="border-t border-line">
         <Footer />
       </Layout.Footer>
     </Layout>

@@ -1,20 +1,39 @@
 import type { Page } from "@playwright/test";
 
 import { expect, test } from "../helpers/fixtures";
-import { chapterHeading } from "../helpers/data";
+import { chapterHeading, chapterLabel } from "../helpers/data";
+
+const homeHeading = (page: Page) => page.getByRole("heading", { level: 1, name: "Al-Qur'an", exact: true });
 
 test.describe("Static pages", () => {
-  test("home page links to Al-Qur'an", async ({ testPage }) => {
+  test("home page lists the chapters", async ({ testPage }) => {
     await testPage.goto("/");
 
     await expect(testPage).toHaveTitle("MuallimLive");
-    await expect(testPage.getByRole("heading", { name: "Hadith", exact: true })).toBeVisible();
-    await expect(testPage.getByText("Coming soon", { exact: true })).toBeVisible();
+    await expect(homeHeading(testPage)).toBeVisible();
 
-    await testPage.getByRole("link", { name: "Al-Qur'an", exact: true }).click();
+    await testPage.getByRole("link", { name: chapterLabel(1), exact: true }).click();
 
     await expect(testPage).toHaveURL("/chapters/1");
     await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(1), exact: true })).toBeVisible();
+  });
+
+  test("home page searches the chapters", async ({ testPage }) => {
+    await testPage.goto("/");
+
+    await testPage.getByRole("textbox", { name: "Search chapters", exact: true }).fill("114");
+
+    await expect(testPage.getByRole("link", { name: chapterLabel(114), exact: true })).toBeVisible();
+    await expect(testPage.getByRole("link", { name: chapterLabel(1), exact: true })).toBeHidden();
+  });
+
+  test("home page continues from the last verse read", async ({ testPage }) => {
+    await testPage.goto("/chapters/114");
+    await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(114), exact: true })).toBeVisible();
+
+    await testPage.getByRole("link", { name: "MuallimLive", exact: true }).click();
+
+    await expect(testPage.getByRole("link", { name: /Continue reading/ })).toHaveAttribute("href", "/chapters/114");
   });
 
   test("app name in the nav bar links back home", async ({ testPage }) => {
@@ -23,7 +42,7 @@ test.describe("Static pages", () => {
     await testPage.getByRole("link", { name: "MuallimLive", exact: true }).click();
 
     await expect(testPage).toHaveURL("/");
-    await expect(testPage.getByRole("link", { name: "Al-Qur'an", exact: true })).toBeVisible();
+    await expect(homeHeading(testPage)).toBeVisible();
   });
 
   test("privacy policy page", async ({ testPage }) => {
@@ -87,7 +106,7 @@ test.describe("Page not found", () => {
 
     await testPage.getByRole("link", { name: "Go Back To Home", exact: true }).click();
     await expect(testPage).toHaveURL("/");
-    await expect(testPage.getByRole("link", { name: "Al-Qur'an", exact: true })).toBeVisible();
+    await expect(homeHeading(testPage)).toBeVisible();
   });
 
   test("unknown chapter shows the 404 page", async ({ testPage }) => {

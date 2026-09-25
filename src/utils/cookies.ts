@@ -2,6 +2,11 @@ import config from "./config";
 
 export const READER_SETTINGS_KEY = "reader-settings";
 export const PLAYER_SETTINGS_KEY = "player-settings";
+export const COLOR_SCHEME_KEY = "color-scheme";
+export const SETTINGS_COOKIE_KEYS = [READER_SETTINGS_KEY, PLAYER_SETTINGS_KEY, COLOR_SCHEME_KEY];
+
+/** Settings cookies last a year, and `src/proxy.ts` renews them on every visit so they only expire when unused */
+export const SETTINGS_COOKIE_OPTIONS = { maxAge: 60 * 60 * 24 * 365, path: "/", sameSite: "lax" } as const;
 
 const parseJson = (value?: string): unknown => {
   if (!value) return undefined;
@@ -18,7 +23,8 @@ const isRecord = (value: unknown): value is Record<string, unknown> => typeof va
 export const parseReaderSettings = (value?: string): ReaderSettings => {
   const data = parseJson(value);
   if (isRecord(data) && typeof data.splitView === "boolean" && Array.isArray(data.left) && Array.isArray(data.right)) {
-    return data as unknown as ReaderSettings;
+    const { textSize, ...settings } = data as unknown as ReaderSettings;
+    return typeof textSize === "number" ? { ...settings, textSize } : settings;
   }
   return config.defaultReaderSettings;
 };
@@ -31,3 +37,9 @@ export const parsePlaySettings = (value?: string): PlaySettings => {
   }
   return config.defaultPlaySettings;
 };
+
+export const COLOR_SCHEMES: ColorScheme[] = ["light", "sepia", "dark"];
+
+/** Parses the color scheme cookie, falling back to the default when it is missing or unknown */
+export const parseColorScheme = (value?: string): ColorScheme =>
+  COLOR_SCHEMES.find((scheme) => scheme === value) ?? config.defaultColorScheme;

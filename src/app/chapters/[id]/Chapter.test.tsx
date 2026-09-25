@@ -73,7 +73,7 @@ const recitations: GetRecitationsResponse = {
   recitations: [{ id: 1, reciter_name: "Reciter", style: "", translated_name: { name: "Reciter", language_name: "" } }],
 };
 
-const renderChapter = (notice?: React.ReactNode) => {
+const renderChapter = (notice?: React.ReactNode, chapterList = chapters) => {
   const user = userEvent.setup();
   render(
     <TestProviders>
@@ -81,7 +81,7 @@ const renderChapter = (notice?: React.ReactNode) => {
       <ConfigProvider theme={{ token: { motion: false } }}>
         <Chapter
           chapter={alFatihah}
-          chapters={chapters}
+          chapters={chapterList}
           leftContent={leftContent}
           rightContent={rightContent}
           versesRecitations={versesRecitations}
@@ -117,6 +117,15 @@ describe("Chapter", () => {
     expect(screen.getAllByRole("button", { name: "Play verse" })).toHaveLength(3);
   });
 
+  it("introduces the chapter with its names, details and the bismillah", () => {
+    renderChapter();
+
+    expect(screen.getByRole("heading", { level: 2, name: "Al-Fatihah" })).toBeInTheDocument();
+    expect(screen.getByText("The Opener")).toBeInTheDocument();
+    expect(screen.getByText("Meccan · 3 verses")).toBeInTheDocument();
+    expect(screen.getByText("بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ")).toBeInTheDocument();
+  });
+
   it("shows a notice above the verses", () => {
     renderChapter(<p>Some content is missing</p>);
 
@@ -142,11 +151,77 @@ describe("Chapter", () => {
     await user.click(screen.getByRole("button", { name: "Chapters" }));
 
     const nav = await screen.findByRole("navigation", { name: "Chapters" });
-    expect(within(nav).getByRole("link", { name: "1 Al-Fatihah" })).toHaveAttribute("href", "/chapters/1");
-    expect(within(nav).getByRole("link", { name: "2 Al-Baqarah" })).toHaveAttribute("href", "/chapters/2");
+    expect(within(nav).getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute(
+      "href",
+      "/chapters/1",
+    );
+    expect(within(nav).getByRole("link", { name: "2. Al-Baqarah (The Cow)" })).toHaveAttribute("href", "/chapters/2");
 
-    await user.click(within(nav).getByRole("link", { name: "2 Al-Baqarah" }));
+    await user.click(within(nav).getByRole("link", { name: "2. Al-Baqarah (The Cow)" }));
     await waitFor(() => expect(screen.queryByRole("navigation", { name: "Chapters" })).not.toBeInTheDocument());
+  });
+
+  describe("chapter search", () => {
+    const searchChapters = async (query: string) => {
+      const user = renderChapter(undefined, {
+        chapters: [
+          alFatihah,
+          chapter(2, "Al-Baqarah", "The Cow", 286),
+          chapter(12, "Yusuf", "Joseph", 111),
+          chapter(21, "Al-Anbya", "The Prophets", 112),
+          chapter(112, "Al-Ikhlas", "Sincerity", 4),
+        ],
+      });
+      await user.click(screen.getByRole("button", { name: "Chapters" }));
+      await user.type(await screen.findByRole("textbox", { name: "Search chapters" }), query);
+      const nav = screen.getByRole("navigation", { name: "Chapters" });
+      return {
+        user,
+        nav,
+        links: () =>
+          within(nav)
+            .queryAllByRole("link")
+            .map((link) => link.textContent),
+      };
+    };
+
+    it.each([
+      ["the number", "112", ["112. Al-Ikhlas (Sincerity)"]],
+      ["the transliterated name", "baqara", ["2. Al-Baqarah (The Cow)"]],
+      ["the English name", "prophets", ["21. Al-Anbya (The Prophets)"]],
+      ["a misspelled name", "yusef", ["12. Yusuf (Joseph)"]],
+    ])("finds a chapter by %s", async (_, query, expected) => {
+      const { links } = await searchChapters(query);
+
+      expect(links()).toEqual(expected);
+    });
+
+    it("ranks the exact number first", async () => {
+      const { links } = await searchChapters("12");
+
+      expect(links()[0]).toBe("12. Yusuf (Joseph)");
+      expect(links()).toContain("112. Al-Ikhlas (Sincerity)");
+    });
+
+    it("says when nothing matches and lists every chapter again once cleared", async () => {
+      const { user, nav, links } = await searchChapters("zzzz");
+
+      expect(links()).toEqual([]);
+      expect(within(nav).getByText("No chapters found")).toBeInTheDocument();
+
+      await user.clear(screen.getByRole("textbox", { name: "Search chapters" }));
+      expect(links()).toHaveLength(5);
+    });
+
+    it("clears the search when the drawer closes", async () => {
+      const { user, nav } = await searchChapters("baqara");
+
+      await user.click(within(nav).getByRole("link", { name: "2. Al-Baqarah (The Cow)" }));
+      await waitFor(() => expect(screen.queryByRole("navigation", { name: "Chapters" })).not.toBeInTheDocument());
+      await user.click(screen.getByRole("button", { name: "Chapters" }));
+
+      expect(await screen.findByRole("textbox", { name: "Search chapters" })).toHaveValue("");
+    });
   });
 
   it("marks the verses faved in this chapter", async () => {
@@ -189,8 +264,22 @@ describe("Chapter", () => {
     await user.click(screen.getAllByRole("button", { name: "Play verse" })[0]);
     expect(screen.getByRole("button", { name: "Stop verse" })).toBeInTheDocument();
 
+    expect(screen.getByRole("article", { name: "Verse 1" })).toHaveAttribute("aria-current", "true");
+
     await user.click(screen.getByRole("button", { name: "Stop verse" }));
     expect(screen.getAllByRole("button", { name: "Play verse" })).toHaveLength(3);
+    expect(screen.getByRole("article", { name: "Verse 1" })).not.toHaveAttribute("aria-current");
+  });
+
+  it("highlights the verse being recited", async () => {
+    const user = renderChapter();
+
+    await startRecitation(user);
+
+    expect(screen.getByRole("article", { name: "Verse 1" })).toHaveAttribute("aria-current", "true");
+    await user.click(screen.getByRole("button", { name: "Next verse" }));
+    expect(screen.getByRole("article", { name: "Verse 2" })).toHaveAttribute("aria-current", "true");
+    expect(screen.getByRole("article", { name: "Verse 1" })).not.toHaveAttribute("aria-current");
   });
 
   it("switches to recitation mode from the play options", async () => {

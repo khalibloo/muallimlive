@@ -28,7 +28,7 @@ const CookieNotice: React.FC = () => {
       <Row
         justify="space-around"
         align="middle"
-        className="h-full bg-default p-6 shadow-md"
+        className="h-full bg-surface-elevated border-t border-line p-6 shadow-md"
         role="region"
         aria-label={t("cookie-notice")}
       >

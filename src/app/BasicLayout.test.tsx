@@ -8,6 +8,9 @@ import type { SettingsResources } from "./NavBar";
 vi.mock("@/components/saveReaderSettings", () => ({
   saveReaderSettings: vi.fn(),
 }));
+vi.mock("@/components/saveColorScheme", () => ({
+  saveColorScheme: vi.fn(),
+}));
 
 const settingsResources: SettingsResources = {
   chapters: { chapters: [] },
@@ -27,7 +30,7 @@ describe("BasicLayout", () => {
   it("renders the nav bar, page content, footer and cookie notice", async () => {
     render(
       <TestProviders>
-        <BasicLayout settingsResources={settingsResources}>
+        <BasicLayout settingsResources={settingsResources} colorScheme="dark">
           <p>Page content</p>
         </BasicLayout>
       </TestProviders>,

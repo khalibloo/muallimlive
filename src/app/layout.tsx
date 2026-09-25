@@ -1,23 +1,32 @@
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata, Viewport } from "next";
-import { Mirza } from "next/font/google";
+import { Amiri_Quran } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import clsx from "clsx";
 
 import "@/styles/global.css";
 
+import { palette } from "@/theme";
 import config from "@/utils/config";
 import { getChapters } from "@/utils/content";
-import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SETTINGS_KEY } from "@/utils/cookies";
+import {
+  COLOR_SCHEME_KEY,
+  parseColorScheme,
+  parsePlaySettings,
+  parseReaderSettings,
+  PLAYER_SETTINGS_KEY,
+  READER_SETTINGS_KEY,
+} from "@/utils/cookies";
 import { fetchData } from "@/utils/fetcher";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
 import ServiceWorkerEvents from "./ServiceWorkerEvents";
 import ServiceWorkerUpdater from "./ServiceWorkerUpdater";
 
-const mirza = Mirza({ weight: "400", subsets: ["arabic"], display: "swap", variable: "--font-mirza" });
+const amiriQuran = Amiri_Quran({ weight: "400", subsets: ["arabic"], display: "swap", variable: "--font-amiri-quran" });
 
 const getOrigin = async () => {
   const host = (await headers()).get("host");
@@ -47,14 +56,18 @@ export const generateMetadata = async (): Promise<Metadata> => {
     other: {
       "mobile-web-app-capable": "yes",
       "msapplication-config": "/icons/browserconfig.xml",
-      "msapplication-TileColor": "#444",
+      "msapplication-TileColor": palette.dark.surface,
       "msapplication-tap-highlight": "no",
     },
   };
 };
 
-export const viewport: Viewport = {
-  themeColor: "#444",
+const getColorScheme = async () => parseColorScheme((await cookies()).get(COLOR_SCHEME_KEY)?.value);
+
+export const generateViewport = async (): Promise<Viewport> => {
+  const colorScheme = await getColorScheme();
+  // sepia is a light scheme to the browser (form controls, scrollbars)
+  return { themeColor: palette[colorScheme].surface, colorScheme: colorScheme === "dark" ? "dark" : "light" };
 };
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children }) => {
@@ -70,9 +83,14 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
   const cookieStore = await cookies();
   const readerSettings = parseReaderSettings(cookieStore.get(READER_SETTINGS_KEY)?.value);
   const playerSettings = parsePlaySettings(cookieStore.get(PLAYER_SETTINGS_KEY)?.value);
+  const colorScheme = await getColorScheme();
 
   return (
-    <html lang="en" className={mirza.variable}>
+    <html
+      lang="en"
+      className={clsx(amiriQuran.variable, colorScheme)}
+      style={{ "--reader-scale": (readerSettings.textSize ?? 100) / 100 } as React.CSSProperties}
+    >
       {config.gtmCode && <GoogleTagManager gtmId={config.gtmCode} />}
       <body>
         {config.gtmCode && (
@@ -88,8 +106,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
         )}
         <NextIntlClientProvider>
           <AntdRegistry layer>
-            <Providers>
+            <Providers colorScheme={colorScheme}>
               <BasicLayout
+                colorScheme={colorScheme}
                 settingsResources={{
                   chapters,
                   languages,

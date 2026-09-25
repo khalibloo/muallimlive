@@ -1,19 +1,21 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { Button, Col, Drawer, FloatButton, Grid, Menu, Modal, Popconfirm, Row, Tooltip, Typography } from "antd";
+import { Button, Col, Drawer, Empty, FloatButton, Grid, Input, Menu, Modal, Popconfirm, Row, Typography } from "antd";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
 import { useBoolean } from "ahooks";
 import clsx from "clsx";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { range } from "lodash-es";
-import { MenuOutlined, PlayCircleFilled, ReadOutlined } from "@ant-design/icons";
+import { MenuOutlined, PlayCircleFilled, ReadOutlined, SearchOutlined } from "@ant-design/icons";
 
 import Verse from "@/components/Verse";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar from "@/components/AudioBar";
+import { searchChapters } from "@/utils/chapters";
 import lf from "@/utils/localforage";
+import ChapterHeader from "./ChapterHeader";
 
 interface Props {
   chapter: Chapter;
@@ -42,6 +44,7 @@ const Chapter: React.FC<Props> = ({
   const chapterNumber = currentChapter.id;
   const [readerMode, setReaderMode] = useState<"reading" | "recitation">("reading");
   const [chaptersDrawerOpen, { setTrue: openChaptersDrawer, setFalse: closeChaptersDrawer }] = useBoolean(false);
+  const [chapterQuery, setChapterQuery] = useState("");
   const [playModalOpen, { setTrue: openPlayModal, setFalse: closePlayModal }] = useBoolean(false);
 
   const virtualListRef = useRef<VirtuosoHandle>(null);
@@ -54,6 +57,7 @@ const Chapter: React.FC<Props> = ({
   });
   const [isPlayingVerses, setIsPlayingVerses] = useState(false);
   const [playingVerseNumber, setPlayingVerseNumber] = useState<number>();
+  const [recitingVerse, setRecitingVerse] = useState<number>();
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(1);
 
@@ -115,6 +119,14 @@ const Chapter: React.FC<Props> = ({
     right: rightContent.map((c) => c?.[i]).filter(Boolean),
   }));
 
+  const filteredChapters = searchChapters(chapters.chapters, chapterQuery);
+  const highlightedVerse = readerMode === "recitation" ? recitingVerse : playingVerseNumber;
+
+  const chapterTitle = t("chapter-title", {
+    name: currentChapter.name_simple,
+    translation: currentChapter.translated_name.name,
+  });
+
   const navButtonClassName = clsx("h-full border-none rounded-none", { "px-3": !responsive.md });
 
   return (
@@ -125,29 +137,45 @@ const Chapter: React.FC<Props> = ({
         closable={false}
         styles={{ body: { padding: 0 } }}
         onClose={closeChaptersDrawer}
+        afterOpenChange={(open) => !open && setChapterQuery("")}
         open={chaptersDrawerOpen}
         title={null}
       >
-        <nav aria-label={t("chapters")}>
-          <Menu
-            theme="dark"
-            selectedKeys={[`${currentChapter.id}`]}
-            mode="inline"
-            onClick={closeChaptersDrawer}
-            items={chapters?.chapters.map((chapter) => ({
-              key: `${chapter.id}`,
-              className: "text-left",
-              label: (
-                <Link href={`/chapters/${chapter.id}`}>
-                  <Tooltip classNames={{ root: "capitalize" }} title={chapter.translated_name.name} placement="right">
-                    <Typography.Text className="capitalize">
-                      <span className="mr-2">{chapter.id}</span> {chapter.name_simple}
-                    </Typography.Text>
-                  </Tooltip>
-                </Link>
-              ),
-            }))}
+        <div className="sticky top-0 z-10 p-4 bg-surface-elevated">
+          <Input
+            allowClear
+            aria-label={t("search-chapters")}
+            placeholder={t("search-chapters")}
+            prefix={<SearchOutlined aria-hidden />}
+            value={chapterQuery}
+            onChange={(e) => setChapterQuery(e.target.value)}
           />
+        </div>
+        <nav aria-label={t("chapters")}>
+          {filteredChapters.length > 0 ? (
+            <Menu
+              selectedKeys={[`${currentChapter.id}`]}
+              mode="inline"
+              onClick={closeChaptersDrawer}
+              items={filteredChapters.map((chapter) => ({
+                key: `${chapter.id}`,
+                className: "text-left",
+                label: (
+                  <Link href={`/chapters/${chapter.id}`}>
+                    <Typography.Text className="capitalize">
+                      {t("chapter-name", {
+                        id: chapter.id,
+                        name: chapter.name_simple,
+                        translation: chapter.translated_name.name,
+                      })}
+                    </Typography.Text>
+                  </Link>
+                ),
+              }))}
+            />
+          ) : (
+            <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={t("no-chapters-found")} />
+          )}
         </nav>
       </Drawer>
       <Modal destroyOnHidden title={t("play-options")} onCancel={closePlayModal} open={playModalOpen} footer={null}>
@@ -163,7 +191,7 @@ const Chapter: React.FC<Props> = ({
           }}
         />
       </Modal>
-      <div className="fixed top-16 shadow-md bg-444 w-full z-10">
+      <div className="fixed top-16 shadow-md bg-surface border-t border-line w-full z-10">
         <div className="flex items-stretch">
           <div>
             <Button className={navButtonClassName} aria-label={t("chapters")} onClick={openChaptersDrawer}>
@@ -174,13 +202,11 @@ const Chapter: React.FC<Props> = ({
           <div className="grow p-3 text-center">
             <Typography.Title
               level={1}
-              ellipsis={{
-                tooltip: `${currentChapter.name_simple} - ${currentChapter.translated_name.name}`,
-              }}
+              ellipsis={{ tooltip: chapterTitle }}
               className="capitalize text-lg m-0"
               style={{ fontWeight: responsive.md ? 600 : 400 }}
             >
-              {currentChapter.name_simple} - {currentChapter.translated_name.name}
+              {chapterTitle}
             </Typography.Title>
           </div>
           {readerMode === "reading" ? (
@@ -213,6 +239,9 @@ const Chapter: React.FC<Props> = ({
       </div>
       <Row className="mt-13 py-6 grow" justify="center">
         {notice && <Col span={22}>{notice}</Col>}
+        <Col span={22}>
+          <ChapterHeader chapter={currentChapter} />
+        </Col>
         <Col span={24}>
           <Virtuoso
             data={verseList}
@@ -220,13 +249,7 @@ const Chapter: React.FC<Props> = ({
             ref={virtualListRef}
             itemContent={(i, item) => (
               <Row justify="center">
-                <Col
-                  span={22}
-                  className="py-3"
-                  style={{
-                    borderBottom: i === verseList.length - 1 ? undefined : "1px solid #666",
-                  }}
-                >
+                <Col span={22} className="py-2">
                   <Verse
                     verseNumber={i + 1}
                     chapterNumber={chapterNumber}
@@ -244,6 +267,7 @@ const Chapter: React.FC<Props> = ({
                     isPlaying={playingVerseNumber === i + 1}
                     muted={muted}
                     volume={volume}
+                    highlighted={highlightedVerse === i + 1}
                   />
                 </Col>
               </Row>
@@ -273,6 +297,7 @@ const Chapter: React.FC<Props> = ({
             volume={volume}
             setVolume={setVolume}
             virtualListRef={virtualListRef}
+            onVerseChange={setRecitingVerse}
           />
         )}
       </Drawer>

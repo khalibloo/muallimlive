@@ -50,16 +50,23 @@ if (!chapter) {
 
 - Response types live in `src/api.d.ts` (ambient, no import needed).
 - The chapter page fetches only the content types chosen in the reader settings and hands the result to the `Chapter` client component.
+- The home page (`src/app/page.tsx`) fetches the chapter list and hands it to the `Home` client component: a "continue reading" card and a searchable grid of chapters.
+- `Home` and `Chapter`'s chapters drawer list every chapter as `t("chapter-name")` ("1. Al-Fatihah (The Opener)") and filter them with `searchChapters` (`src/utils/chapters.ts`), a `fuse.js` fuzzy search over the number, `name_simple` and `translated_name.name`.
+- `ChapterHeader` is the banner above the verses: Arabic and English names, `t("chapter-details")` (revelation place and verse count), and the bismillah when `bismillah_pre` is set.
 
 ### 2. Settings in cookies, user data in IndexedDB
 
-- **Reader settings** (split view, left/right pane content) and **player settings** (reciter, hide tafsirs) are JSON cookies, parsed with `parseReaderSettings`/`parsePlaySettings` in `src/utils/cookies.ts`, which fall back to `config.defaultReaderSettings`/`defaultPlaySettings` on missing or malformed values.
+- **Reader settings** (split view, left/right pane content, text size) and **player settings** (reciter, hide tafsirs) are JSON cookies, parsed with `parseReaderSettings`/`parsePlaySettings` in `src/utils/cookies.ts`, which fall back to `config.defaultReaderSettings`/`defaultPlaySettings` on missing or malformed values.
 - They are written by the server actions in `src/components/saveReaderSettings.ts` and `savePlayerSettings.ts`, so the server-rendered chapter page reflects them on the next request.
+- Settings cookies are written with `SETTINGS_COOKIE_OPTIONS` (1-year `maxAge`), and `src/proxy.ts` re-sets the ones a GET page request carries, so they only expire after a year without a visit. Add new settings cookies to `SETTINGS_COOKIE_KEYS`.
+- The **text size** (`ReaderSettings.textSize`, a percentage, default 100) is set by the root layout as `--reader-scale` on `<html>`; the `text-verse*` Tailwind sizes scale with it, so verse text uses them instead of fixed sizes.
+- The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme dropdown in `NavBar`). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
 - **Favorites** (`faves-quran`) and **notes** (`notes-quran-<chapter>-<verse>`) are stored client-side with `localforage` (`src/utils/localforage.ts`). Components subscribe with `lf.newObservable(...)` and must unsubscribe on unmount.
+- **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for the home page's "continue reading").
 
 ### 3. Audio playback
 
-`AudioBar` owns a single `<audio>` element and the recitation state machine (play/pause, verse range, loop, auto-scroll, volume). `Chapter` wires `Verse` play buttons and `PlayForm` (verse range and reciter) to it. The verse list is virtualized with `react-virtuoso`; auto-scroll uses the virtuoso ref, never DOM lookups.
+`AudioBar` owns a single `<audio>` element and the recitation state machine (play/pause, verse range, loop, auto-scroll, volume). `Chapter` wires `Verse` play buttons and `PlayForm` (verse range and reciter) to it. `AudioBar` shows the progress through the range and reports the verse being recited (`onVerseChange`), which `Chapter` highlights with `Verse highlighted` (`aria-current`). The verse list is virtualized with `react-virtuoso`; auto-scroll uses the virtuoso ref, never DOM lookups.
 
 ### 4. i18n with `next-intl`
 
@@ -182,8 +189,8 @@ src/
 │   ├── layout.tsx                # Root layout: metadata, providers, GTM
 │   ├── Providers.tsx             # AntdRegistry, ConfigProvider, App
 │   ├── BasicLayout.tsx           # NavBar + content + Footer + CookieNotice
-│   ├── page.tsx                  # Chapter list (home)
-│   ├── chapters/[id]/            # Chapter page (server) + Chapter (client)
+│   ├── page.tsx, Home.tsx        # Home: continue reading + searchable chapter grid
+│   ├── chapters/[id]/            # Chapter page (server) + Chapter, ChapterHeader (client)
 │   ├── privacy/, terms/          # Legal pages
 │   ├── api/                      # Route handlers proxying offline packs from the CDN
 │   ├── ~offline/                 # Offline fallback page (renders downloaded packs)
@@ -198,16 +205,17 @@ src/
 │   ├── NoteEditor.tsx            # Labelled Quill editor (loaded client-only)
 │   ├── PlayForm.tsx              # Recitation options form
 │   ├── ReaderSettingsForm.tsx    # Display settings form
-│   ├── save*Settings.ts          # Server actions writing settings cookies
+│   ├── save*Settings.ts, saveColorScheme.ts # Server actions writing settings cookies
 │   ├── SafeHtml.tsx              # DOMPurify-sanitized HTML
 │   └── test/                     # TestProviders, fakeCaches
-├── utils/                        # config, fetcher, cookies, localforage, packs, content, offline
+├── utils/                        # config, fetcher, cookies, localforage, chapters, packs, content, offline
+├── proxy.ts                      # Renews the settings cookies on page visits
 ├── i18n/request.ts               # next-intl request config
 ├── locales/en/common.json        # UI strings
 ├── types/next-intl.d.ts          # next-intl type augmentation
 ├── api.d.ts                      # CDN response types (ambient)
 ├── typings.d.ts                  # App types (ReaderSettings, PlaySettings, …)
-└── theme.ts                      # Ant Design theme config
+└── theme.ts                      # palette + getTheme(scheme) Ant Design theme
 ```
 
 ## Common Patterns & Conventions
@@ -241,6 +249,8 @@ These Ant Design props are deprecated in v6. Use the replacements:
 - **Consistent spacing values only** — 0, 1, 2, 4, 6, 8, 12, 16, 20, 24.
 - **Prefer Tailwind over `style` prop** — only use `style` for dynamically computed values (e.g. theme token colors).
 - Tailwind and antd share CSS layers (`AntdRegistry layer`); keep global overrides in `src/styles/`.
+- **Theme-aware colors only** — no hardcoded greys or `white/…` tints. Use the semantic colors `bg-page`, `bg-surface`, `bg-surface-elevated`, `border-line`/`divide-line`, `text-primary`, `text-secondary` (CSS variables in `src/styles/global.css` for `:root`, `.sepia` and `.dark`, mirroring `palette` in `src/theme.ts`), or a `dark:` variant. Tailwind's `sepia` filter utility is disabled (`@source not inline`) because `sepia` is a scheme class.
+- **Verse text sizes** — use `text-verse`, `text-verse-sm`, `text-verse-lg`, `text-verse-arabic`, `text-verse-arabic-lg` so the reader's text size applies.
 
 ## Ant Design Conventions
 

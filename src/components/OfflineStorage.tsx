@@ -125,7 +125,7 @@ const OfflineStorage: React.FC<Props> = ({
           </Button>
         )}
       </div>
-      <ul className="list-none m-0 p-0 divide-y divide-white/10">
+      <ul className="list-none m-0 p-0 divide-y divide-line">
         {packs.map((pack) => {
           const key = packKey(pack);
           const label = packLabel(pack);

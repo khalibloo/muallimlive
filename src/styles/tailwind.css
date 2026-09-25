@@ -1,15 +1,27 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/utilities.css" layer(utilities);
 
-@theme {
-  --color-primary: #43a047;
-  --color-primary-tint: #65ad66;
-  --color-111: #111;
-  --color-222: #222;
-  --color-333: #333;
-  --color-444: #444;
+@custom-variant dark (&:where(.dark, .dark *));
 
-  --font-arabic: var(--font-mirza), cursive;
+/* `sepia` is a color scheme class on <html>, not the filter utility, which would tint the whole page */
+@source not inline("sepia");
+
+@theme {
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--text-secondary);
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-line: var(--line);
+
+  --font-arabic: var(--font-amiri-quran), serif;
+
+  /* Verse text follows the reader's text size (`--reader-scale`, set on <html> by the root layout) */
+  --text-verse: calc(1rem * var(--reader-scale, 1));
+  --text-verse-sm: calc(0.9375rem * var(--reader-scale, 1));
+  --text-verse-lg: calc(1.125rem * var(--reader-scale, 1));
+  --text-verse-arabic: calc(1.625rem * var(--reader-scale, 1));
+  --text-verse-arabic-lg: calc(2.125rem * var(--reader-scale, 1));
 
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;

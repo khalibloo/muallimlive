@@ -49,7 +49,7 @@ describe("Verse", () => {
   it("renders the verse number with left and right content", () => {
     renderVerse();
 
-    expect(screen.getByText("2)")).toBeInTheDocument();
+    expect(screen.getByText("2", { exact: true })).toBeInTheDocument();
     expect(screen.getByText("All praise is due to Allah")).toBeInTheDocument();
     expect(screen.getByText("text")).toBeInTheDocument();
     expect(screen.getByText("ٱلْحَمْدُ لِلَّهِ")).toBeInTheDocument();
@@ -134,6 +134,27 @@ describe("Verse", () => {
     mockAllIsIntersecting(true);
 
     await waitFor(async () => expect(await lf.getItem("progress-surah-1")).toBe(2));
+  });
+
+  it("remembers the verse in view as the last read, even near the top", async () => {
+    renderVerse();
+
+    mockAllIsIntersecting(true);
+
+    await waitFor(async () => expect(await lf.getItem("last-read")).toEqual({ chapter: 1, verse: 2 }));
+  });
+
+  it("marks the verse being recited as current", () => {
+    const { rerender } = renderVerse();
+    expect(screen.getByRole("article", { name: "Verse 2" })).not.toHaveAttribute("aria-current");
+
+    rerender(
+      <TestProviders>
+        <Verse {...defaultProps} highlighted />
+      </TestProviders>,
+    );
+
+    expect(screen.getByRole("article", { name: "Verse 2" })).toHaveAttribute("aria-current", "true");
   });
 
   it("clears reading progress near the top of the page", async () => {

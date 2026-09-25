@@ -141,7 +141,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         {notes.length === 0 ? (
           <Empty description={t("no-notes")} />
         ) : (
-          <ul className="list-none m-0 p-0 divide-y divide-white/10">
+          <ul className="list-none m-0 p-0 divide-y divide-line">
             {notes.map((note, i) => (
               <li key={i} className="py-3">
                 {editNoteIndex === i ? (

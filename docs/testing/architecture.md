@@ -45,7 +45,7 @@ export default defineConfig({
 Component tests render inside `<TestProviders>` (`src/components/test/TestProviders.tsx`), which wraps children with:
 
 - **NextIntlClientProvider** -- locale `en`, timezone `UTC`, and the translations
-- **Ant Design ConfigProvider** -- the app theme (`src/theme.ts`)
+- **Ant Design ConfigProvider** -- the app's dark theme (`getTheme("dark")` from `src/theme.ts`)
 - **StyleProvider** -- CSS-in-JS for Ant Design
 - **App** -- Ant Design's App context (message, notification)
 
@@ -90,7 +90,7 @@ The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits
 - `pnpm test:e2e:fixtures` (`scripts/fetch-e2e-fixtures.mjs`) re-downloads the subset. Re-run it when a test needs a new chapter or content ID.
 - `fetchData()` uses `force-cache`, and Next keeps that cache in `.next/cache/fetch-cache` across builds. After changing an existing fixture file, delete that directory, or the app keeps serving the old data.
 
-`e2e/helpers/data.ts` reads the same fixture files, so tests assert exactly what the app renders instead of hard-coding Qur'an text. It provides `chapterName`, `translationText`, `arabicText`, `tafsirExcerpt` and `recitationUrl`.
+`e2e/helpers/data.ts` reads the same fixture files, so tests assert exactly what the app renders instead of hard-coding Qur'an text. It provides `chapterHeading`, `chapterName`, `chapterLabel`, `chapterTranslatedName`, `translationText`, `arabicText`, `tafsirExcerpt` and `recitationUrl`.
 
 ### Web Servers
 

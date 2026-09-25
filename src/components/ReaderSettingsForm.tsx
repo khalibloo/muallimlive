@@ -1,9 +1,9 @@
 import React from "react";
-import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert, Grid } from "antd";
+import { Row, Col, Form, Switch, Typography, Cascader, Button, Alert, Grid, Slider } from "antd";
 import type { CascaderProps, GetProp } from "antd";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import { sortBy } from "lodash-es";
-import { useTranslations } from "next-intl";
+import { useFormatter, useTranslations } from "next-intl";
 
 import { ARABIC_SCRIPTS } from "@/utils/packs";
 import { saveReaderSettings } from "./saveReaderSettings";
@@ -23,6 +23,7 @@ const handleCascaderSearch: ShowSearchFilter = (inputValue, path) =>
 
 const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsirs, translations, onSubmit }) => {
   const t = useTranslations("common");
+  const format = useFormatter();
   const responsive = Grid.useBreakpoint();
   const [form] = Form.useForm<ReaderSettings>();
   const useSplitView = Form.useWatch("splitView", form) ?? readerSettings.splitView;
@@ -96,9 +97,12 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
     const left = (values.left ?? []).filter(hasContent);
     const right = (values.right ?? []).filter(hasContent);
     // the right pane is hidden when split view is off, so merge its content into the left pane
-    const cleanedValues: ReaderSettings = values.splitView
-      ? { splitView: true, left, right }
-      : { splitView: false, left: [...left, ...right], right: [] };
+    const cleanedValues: ReaderSettings = {
+      ...(values.splitView
+        ? { splitView: true, left, right }
+        : { splitView: false, left: [...left, ...right], right: [] }),
+      textSize: values.textSize ?? 100,
+    };
     await saveReaderSettings(cleanedValues);
 
     onSubmit?.(cleanedValues);
@@ -160,13 +164,22 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
   }
 
   return (
-    <Form form={form} onFinish={handleSubmit} initialValues={readerSettings} requiredMark={false}>
+    <Form form={form} onFinish={handleSubmit} initialValues={{ textSize: 100, ...readerSettings }} requiredMark={false}>
       <Alert type="info" title={t("split-view-info")} showIcon />
       {useSplitView && !responsive.md && (
         <Alert className="mt-2" type="warning" title={t("mobile-panes-merged")} showIcon />
       )}
       <Form.Item name="splitView" label={t("use-split-view")} colon={false} valuePropName="checked">
         <Switch />
+      </Form.Item>
+      <Form.Item name="textSize" label={t("text-size")} colon={false}>
+        <Slider
+          min={80}
+          max={160}
+          step={10}
+          ariaLabelForHandle={t("text-size")}
+          tooltip={{ formatter: (val) => format.number((val ?? 100) / 100, { style: "percent" }) }}
+        />
       </Form.Item>
       <Row gutter={24}>
         <Col span={useSplitView && responsive.md ? 12 : 24}>

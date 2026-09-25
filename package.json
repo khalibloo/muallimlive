@@ -36,6 +36,7 @@
     "ahooks": "^3.10.0",
     "antd": "^6.6.5",
     "clsx": "^2.1.1",
+    "fuse.js": "^7.5.0",
     "isomorphic-dompurify": "^4.3.0",
     "localforage": "^1.10.0",
     "localforage-observable": "^2.1.1",
