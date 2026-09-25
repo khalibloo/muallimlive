@@ -44,6 +44,8 @@ const serwist = new Serwist({
         plugins: [noAutoWrites, new RangeRequestsPlugin()],
       }),
     },
+    // Drive sync always needs the live file, and responses carry the reader's data
+    { matcher: ({ url }) => url.hostname === "www.googleapis.com", handler: new NetworkOnly() },
     ...defaultCache,
   ],
   fallbacks: {
