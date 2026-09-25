@@ -7,6 +7,9 @@ import { withSerwist } from "@serwist/turbopack";
 
 const withNextIntl = createNextIntlPlugin();
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  // AGENTS.md is maintained by hand, so stop `next dev` from rewriting it
+  agentRules: false,
+};
 
 export default withSerwist(withNextIntl(nextConfig));
