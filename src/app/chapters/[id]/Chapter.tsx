@@ -12,7 +12,7 @@ import { MenuOutlined, PlayCircleFilled, ReadOutlined, SearchOutlined } from "@a
 
 import Verse from "@/components/Verse";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
-import AudioBar from "@/components/AudioBar";
+import AudioBar, { VERSE_SCROLL_OFFSET } from "@/components/AudioBar";
 import { searchChapters } from "@/utils/chapters";
 import lf from "@/utils/localforage";
 import ChapterHeader from "./ChapterHeader";
@@ -106,8 +106,7 @@ const Chapter: React.FC<Props> = ({
           index: verse - 1,
           align: "start",
           behavior: "smooth",
-          // clear the fixed nav bar and chapter toolbar
-          offset: -120,
+          offset: VERSE_SCROLL_OFFSET,
         });
         return true;
       }
@@ -115,7 +114,13 @@ const Chapter: React.FC<Props> = ({
     };
     const hashVerse = /^#v-(\d+)$/.exec(window.location.hash)?.[1];
     // after storage is ready, so the list has measured its first items
-    lf.ready().then(() => {
+    lf.ready().then(async () => {
+      // opening a chapter makes it the one to continue, even before a verse scrolls into view; written before
+      // scrolling so it can't overwrite the verse that scroll brings into view
+      const lastRead = await lf.getItem<LastRead>("last-read");
+      if (lastRead?.chapter !== chapterNumber) {
+        await lf.setItem<LastRead>("last-read", { chapter: chapterNumber, verse: 1 });
+      }
       if (!scrollToVerse(Number(hashVerse))) {
         lf.getItem(`progress-surah-${chapterNumber}`).then(scrollToVerse);
       }

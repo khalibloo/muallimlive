@@ -135,8 +135,13 @@ test.describe("Display settings", () => {
         "Remove right pane content 1",
         "Remove right pane content 2",
       ]) {
-        // No scrolling first: the overflow made the drawer scroll sideways, which would hide the bug
-        await expect(dialog.getByRole("button", { name, exact: true })).toBeInViewport({ ratio: 1 });
+        // No scrolling first: the overflow made the drawer scroll sideways, which would hide the bug. Only the
+        // horizontal position is checked, since the last rows may be below the fold.
+        const button = dialog.getByRole("button", { name, exact: true });
+        await expect(button).toBeVisible();
+        const box = await button.boundingBox();
+        expect(box!.x).toBeGreaterThanOrEqual(0);
+        expect(box!.x + box!.width).toBeLessThanOrEqual(390);
       }
     });
   });

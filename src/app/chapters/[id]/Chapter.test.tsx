@@ -260,6 +260,22 @@ describe("Chapter", () => {
     getItem.mockRestore();
   });
 
+  it("becomes the chapter to continue as soon as it opens", async () => {
+    await lf.setItem<LastRead>("last-read", { chapter: 2, verse: 40 });
+    renderChapter();
+
+    await waitFor(async () => expect(await lf.getItem("last-read")).toEqual({ chapter: 1, verse: 1 }));
+  });
+
+  it("keeps the last verse read when reopening the same chapter", async () => {
+    await lf.setItem<LastRead>("last-read", { chapter: 1, verse: 3 });
+    await lf.setItem("progress-surah-1", 3);
+    renderChapter();
+
+    await waitFor(() => expect(scrollToIndex).toHaveBeenCalled());
+    expect(await lf.getItem("last-read")).toEqual({ chapter: 1, verse: 3 });
+  });
+
   describe("shared verse links", () => {
     afterEach(() => {
       window.location.hash = "";
