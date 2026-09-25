@@ -112,7 +112,7 @@ describe("ReaderSettingsForm", () => {
 
     await user.click(screen.getByRole("button", { name: "Save Changes" }));
 
-    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    await waitFor(() => expect(onSubmit).toHaveBeenCalledWith(readerSettings));
     expect(saveReaderSettings).toHaveBeenCalledWith(readerSettings);
   });
 

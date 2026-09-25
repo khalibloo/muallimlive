@@ -2,25 +2,13 @@ import type { Locator, Page } from "@playwright/test";
 
 import { expect, test } from "../helpers/fixtures";
 import { translationText } from "../helpers/data";
+import { openSettings } from "../helpers/settings";
 
 // Chapter 114's translations are plain text (some others embed footnote markup)
 const CHAPTER = 114;
 const YUSUF_ALI = 22;
 const TRANSLITERATION = 57;
 const SAHEEH = 20;
-
-const openSettings = async (page: Page, menuItem: string) => {
-  const dialog = page.getByRole("dialog", { name: "Settings", exact: true });
-  // Under load a click on the menu can land before its popup settles and be dropped, so retry the pick
-  await expect(async () => {
-    if (!(await dialog.isVisible())) {
-      await page.getByRole("button", { name: "Settings", exact: true }).click();
-      await page.getByRole("menuitem", { name: menuItem, exact: true }).click({ timeout: 2000 });
-    }
-    await expect(dialog).toBeVisible({ timeout: 2000 });
-  }).toPass();
-  return dialog;
-};
 
 const openDisplaySettings = (page: Page) => openSettings(page, "Display Settings");
 
@@ -153,13 +141,15 @@ test.describe("Display settings", () => {
     });
   });
 
-  test("storage and sync tabs are placeholders", async ({ testPage }) => {
+  test("opens offline storage, and sync is a placeholder", async ({ testPage }) => {
     await testPage.goto(`/chapters/${CHAPTER}`);
 
     const dialog = await openSettings(testPage, "Offline Storage");
 
     await expect(dialog.getByRole("tab", { name: "Storage", exact: true })).toHaveAttribute("aria-selected", "true");
-    await expect(dialog.getByRole("tabpanel", { name: "Storage", exact: true }).getByText("Coming soon")).toBeVisible();
+    const storage = dialog.getByRole("tabpanel", { name: "Storage", exact: true });
+    await expect(storage.getByRole("heading", { name: "Text Content", exact: true })).toBeVisible();
+    await expect(storage.getByRole("heading", { name: "Recitation Audio", exact: true })).toBeVisible();
 
     await dialog.getByRole("tab", { name: "Sync", exact: true }).click();
     await expect(dialog.getByRole("tabpanel", { name: "Sync", exact: true }).getByText("Coming soon")).toBeVisible();

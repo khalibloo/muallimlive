@@ -17,7 +17,7 @@ export const test = base.extend<TestOptions & TestFixtures>({
   acceptCookieNotice: [true, { option: true }],
   audioClipSeconds: [30, { option: true }],
 
-  testPage: async ({ page, acceptCookieNotice, audioClipSeconds }, provide) => {
+  testPage: async ({ page, context, acceptCookieNotice, audioClipSeconds }, provide) => {
     if (acceptCookieNotice) {
       // The notice's acceptance lives in localforage (IndexedDB), so seed it before any app script runs.
       // The open request is queued ahead of localforage's own, so the flag is always there when it reads.
@@ -36,10 +36,16 @@ export const test = base.extend<TestOptions & TestFixtures>({
       });
     }
 
-    // Never hit the real recitation CDN: every audio file is a short silent clip
+    // Never hit the real recitation CDN: every audio file is a short silent clip. Routed on the context so
+    // the service worker's requests are mocked too, with CORS like the real host for offline downloads.
     const audio = silentWav(audioClipSeconds);
-    await page.route(`${MEDIA_URI}/**`, (route) =>
-      route.fulfill({ status: 200, contentType: "audio/wav", body: audio }),
+    await context.route(`${MEDIA_URI}/**`, (route) =>
+      route.fulfill({
+        status: 200,
+        contentType: "audio/wav",
+        headers: { "Access-Control-Allow-Origin": "*" },
+        body: audio,
+      }),
     );
 
     // Wrap goto()/reload() so every navigation waits for client hydration before the test interacts.

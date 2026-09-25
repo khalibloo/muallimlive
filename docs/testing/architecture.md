@@ -84,10 +84,11 @@ Pages, layouts, the manifest, the service worker and its route, the i18n request
 
 The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits the real CDN. Instead:
 
-- `e2e/fixtures/cdn/data/**` holds a committed subset of the CDN: chapters 1, 112, 113 and 114, the default reader settings' content, Saheeh International, and reciters 1 and 7.
+- `e2e/fixtures/cdn/data/**` holds a committed subset of the CDN: chapters 1, 112, 113 and 114, the default reader settings' content, Saheeh International, and reciters 1 and 7. The chapter list (`resources/chapters`) is trimmed to those four chapters, so offline downloads of "every chapter" stay small.
 - `pnpm test:e2e:data` serves it with `http-server` on port 4010.
 - `.env.test` points `API_URI` at `http://localhost:4010`. `playwright.config.ts` loads it before starting the servers.
 - `pnpm test:e2e:fixtures` (`scripts/fetch-e2e-fixtures.mjs`) re-downloads the subset. Re-run it when a test needs a new chapter or content ID.
+- `fetchData()` uses `force-cache`, and Next keeps that cache in `.next/cache/fetch-cache` across builds. After changing an existing fixture file, delete that directory, or the app keeps serving the old data.
 
 `e2e/helpers/data.ts` reads the same fixture files, so tests assert exactly what the app renders instead of hard-coding Qur'an text. It provides `chapterName`, `translationText`, `arabicText`, `tafsirExcerpt` and `recitationUrl`.
 
@@ -105,12 +106,14 @@ The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits
 The `testPage` fixture wraps `page`:
 
 - **Cookie notice pre-accepted**: an init script seeds `accepted_cookie_notice` into localforage's IndexedDB store before any app script runs. Opt out with `test.use({ acceptCookieNotice: false })`.
-- **Recitation audio mocked**: every request to the media host (`NEXT_PUBLIC_API_MEDIA_URI`) is fulfilled with a generated silent WAV (`e2e/helpers/audio.ts`). Its length is set by the `audioClipSeconds` option (default 30). Use short clips to test auto-advance.
+- **Recitation audio mocked**: every request to the media host (`NEXT_PUBLIC_API_MEDIA_URI`) is fulfilled with a generated silent WAV (`e2e/helpers/audio.ts`), with CORS like the real host. Its length is set by the `audioClipSeconds` option (default 30). Use short clips to test auto-advance. The mock is a `context.route()`, so it also covers the service worker's requests.
 - **Hydration wait**: `goto()` and `reload()` wait for `html[data-hydrated="true"]`, which `Providers` sets once React mounts, so clicks never land on unhydrated markup.
 
 ### Service Workers
 
-The production build registers the Serwist service worker. That would cache pages and data across tests and hide `page.route()` mocks, so the config sets `serviceWorkers: "block"`. The PWA spec (`e2e/flows/pwa.test.ts`) opts back in with `test.use({ serviceWorkers: "allow" })`.
+The production build registers the Serwist service worker. That would cache pages and data across tests and hide `page.route()` mocks, so the config sets `serviceWorkers: "block"`. The PWA and offline specs (`e2e/flows/pwa.test.ts`, `e2e/flows/offline.test.ts`) opt back in with `test.use({ serviceWorkers: "allow" })`.
+
+The offline spec downloads packs from the Storage tab, then calls `context.setOffline(true)`. It also swaps the media mock for one that aborts and records requests, which proves the recitations play from Cache Storage.
 
 ### Isolation and Parallelism
 

@@ -5,16 +5,21 @@ import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
 import { SettingOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import { useBoolean } from "ahooks";
-import { useTranslations } from "next-intl";
+import { useFormatter, useTranslations } from "next-intl";
 
+import OfflineStorage, { getSettingsPacks, usePackLabel } from "@/components/OfflineStorage";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
+import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
+import { packKey } from "@/utils/packs";
 
 export interface SettingsResources {
+  chapters: GetChaptersResponse;
   translations: GetTranslationsResponse;
   languages: GetLanguagesResponse;
   tafsirs: GetTafsirsResponse;
   recitations: GetRecitationsResponse;
   readerSettings: ReaderSettings;
+  playerSettings: PlaySettings;
 }
 
 interface Props {
@@ -27,6 +32,44 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
   const { notification } = App.useApp();
   const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);
   const [settingsTab, setSettingsTab] = useState("display");
+  const format = useFormatter();
+  const packLabel = usePackLabel(settingsResources);
+
+  const openSettings = (tab: string) => {
+    setSettingsTab(tab);
+    openSettingsModal();
+  };
+
+  // Readers who keep content offline are told when their new settings show content they haven't downloaded
+  const notifyMissingPacks = async (readerSettings: ReaderSettings) => {
+    if (!isOfflineStorageSupported()) {
+      return;
+    }
+    const { text } = await getDownloadStatus();
+    const total = settingsResources.chapters.chapters.length;
+    const missing = getSettingsPacks(readerSettings).filter((p) => (text[packKey(p)] ?? 0) < total);
+    if (Object.keys(text).length === 0 || missing.length === 0) {
+      return;
+    }
+    const key = "offline-packs-missing";
+    notification.info({
+      key,
+      title: t("offline-packs-missing"),
+      description: t("offline-packs-missing-description", { names: format.list(missing.map(packLabel)) }),
+      actions: (
+        <Button
+          type="primary"
+          size="small"
+          onClick={() => {
+            notification.destroy(key);
+            openSettings("storage");
+          }}
+        >
+          {t("open-offline-storage")}
+        </Button>
+      ),
+    });
+  };
 
   let modalWidth;
   if (responsive.lg) {
@@ -55,14 +98,15 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
               children: (
                 <ReaderSettingsForm
                   {...settingsResources}
-                  onSubmit={() => {
+                  onSubmit={(readerSettings) => {
                     notification.success({ title: t("changes-saved") });
                     closeSettingsModal();
+                    notifyMissingPacks(readerSettings);
                   }}
                 />
               ),
             },
-            { key: "storage", label: t("storage"), children: <span>{t("coming-soon")}</span> },
+            { key: "storage", label: t("storage"), children: <OfflineStorage {...settingsResources} /> },
             { key: "sync", label: t("sync"), children: <span>{t("coming-soon")}</span> },
           ]}
         />
@@ -81,10 +125,7 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
               { key: "storage", label: t("offline-storage") },
               { key: "sync", label: t("sync-settings") },
             ],
-            onClick: (item) => {
-              setSettingsTab(item.key);
-              openSettingsModal();
-            },
+            onClick: (item) => openSettings(item.key),
           }}
         >
           <Button

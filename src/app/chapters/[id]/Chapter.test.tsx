@@ -73,7 +73,7 @@ const recitations: GetRecitationsResponse = {
   recitations: [{ id: 1, reciter_name: "Reciter", style: "", translated_name: { name: "Reciter", language_name: "" } }],
 };
 
-const renderChapter = () => {
+const renderChapter = (notice?: React.ReactNode) => {
   const user = userEvent.setup();
   render(
     <TestProviders>
@@ -87,6 +87,7 @@ const renderChapter = () => {
           versesRecitations={versesRecitations}
           recitations={recitations}
           playerSettings={{ reciter: 1, hideTafsirs: true }}
+          notice={notice}
         />
       </ConfigProvider>
     </TestProviders>,
@@ -114,6 +115,12 @@ describe("Chapter", () => {
       expect(screen.getByText(text)).toBeInTheDocument();
     }
     expect(screen.getAllByRole("button", { name: "Play verse" })).toHaveLength(3);
+  });
+
+  it("shows a notice above the verses", () => {
+    renderChapter(<p>Some content is missing</p>);
+
+    expect(screen.getByText("Some content is missing")).toBeInTheDocument();
   });
 
   it("labels the toolbar buttons on wide screens", () => {

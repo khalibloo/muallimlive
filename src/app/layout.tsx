@@ -9,7 +9,8 @@ import { getTranslations } from "next-intl/server";
 import "@/styles/global.css";
 
 import config from "@/utils/config";
-import { parseReaderSettings, READER_SETTINGS_KEY } from "@/utils/cookies";
+import { getChapters } from "@/utils/content";
+import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { fetchData } from "@/utils/fetcher";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
@@ -57,7 +58,8 @@ export const viewport: Viewport = {
 };
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children }) => {
-  const [tafsirs, recitations, languages, translations] = await Promise.all([
+  const [chapters, tafsirs, recitations, languages, translations] = await Promise.all([
+    getChapters(),
     fetchData<GetTafsirsResponse>("resources/tafsirs"),
     fetchData<GetRecitationsResponse>("resources/recitations"),
     fetchData<GetLanguagesResponse>("resources/languages"),
@@ -67,6 +69,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
   const t = await getTranslations("common");
   const cookieStore = await cookies();
   const readerSettings = parseReaderSettings(cookieStore.get(READER_SETTINGS_KEY)?.value);
+  const playerSettings = parsePlaySettings(cookieStore.get(PLAYER_SETTINGS_KEY)?.value);
 
   return (
     <html lang="en" className={mirza.variable}>
@@ -86,7 +89,17 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
         <NextIntlClientProvider>
           <AntdRegistry layer>
             <Providers>
-              <BasicLayout settingsResources={{ languages, recitations, tafsirs, translations, readerSettings }}>
+              <BasicLayout
+                settingsResources={{
+                  chapters,
+                  languages,
+                  recitations,
+                  tafsirs,
+                  translations,
+                  readerSettings,
+                  playerSettings,
+                }}
+              >
                 {children}
               </BasicLayout>
               <ServiceWorkerEvents />

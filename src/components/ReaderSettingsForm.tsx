@@ -5,6 +5,7 @@ import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import { sortBy } from "lodash-es";
 import { useTranslations } from "next-intl";
 
+import { ARABIC_SCRIPTS } from "@/utils/packs";
 import { saveReaderSettings } from "./saveReaderSettings";
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
   translations: GetTranslationsResponse;
   languages: GetLanguagesResponse;
   tafsirs: GetTafsirsResponse;
-  onSubmit?: () => void;
+  onSubmit?: (values: ReaderSettings) => void;
 }
 
 type ShowSearchFilter = Exclude<Exclude<CascaderProps["showSearch"], boolean | undefined>["filter"], undefined>;
@@ -31,32 +32,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
       {
         label: t("arabic"),
         value: "ar",
-        children: [
-          {
-            label: t("indopak-script"),
-            value: "indopak",
-          },
-          {
-            label: t("imlaei-script"),
-            value: "imlaei",
-          },
-          {
-            label: t("imlaei-simple-script"),
-            value: "imlaei_simple",
-          },
-          {
-            label: t("uthmani-script"),
-            value: "uthmani",
-          },
-          {
-            label: t("uthmani-simple-script"),
-            value: "uthmani_simple",
-          },
-          {
-            label: t("uthmani-tajweed-script"),
-            value: "uthmani_tajweed",
-          },
-        ],
+        children: Object.entries(ARABIC_SCRIPTS).map(([value, label]) => ({ label: t(label), value })),
       },
       ...languages.languages.map((l) => ({
         label: l.translated_name.name,
@@ -125,7 +101,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
       : { splitView: false, left: [...left, ...right], right: [] };
     await saveReaderSettings(cleanedValues);
 
-    onSubmit?.();
+    onSubmit?.(cleanedValues);
   };
 
   const paneFields = (pane: "left" | "right"): GetProp<typeof Form.List, "children"> =>

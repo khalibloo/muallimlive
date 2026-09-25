@@ -73,6 +73,21 @@ beforeEach(async () => {
 await lf.setItem("notes-quran-1-2", ["<p>First note</p>"]);
 ```
 
+#### Cache Storage and offline packs
+
+jsdom has no `caches` or `navigator.storage`. Offline pack tests use the in-memory fakes in `src/components/test/fakeCaches.ts`:
+
+```tsx
+import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
+
+beforeEach(() => {
+  stubCaches();
+  stubFetch({ "/api/resources/chapters": { chapters: [{ id: 1 }] } });
+});
+```
+
+`stubFetch` answers the listed pathnames with JSON and everything else with a 404. Without `stubCaches`, components render their "not supported" state.
+
 #### Heavy third-party components
 
 Mock only what jsdom can't run. For example, `Notes.test.tsx` replaces Quill with a `<textarea>` that exposes itself as the editor root, so the real `NoteEditor` labelling still runs:
@@ -134,8 +149,10 @@ e2e/
     settings.test.ts       # Display and play settings
     recitation.test.ts     # Audio player
     pwa.test.ts            # Manifest and service worker
+    offline.test.ts        # Offline downloads and reading
   helpers/
     fixtures.ts            # Custom Playwright fixtures
+    settings.ts            # Opens the settings dialog
     audio.ts               # Media host and silent WAV generator
     data.ts                # Reads the fixture CDN for expected text
   fixtures/cdn/            # Committed CDN subset

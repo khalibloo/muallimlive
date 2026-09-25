@@ -23,6 +23,8 @@ interface Props {
   versesRecitations: { id: number; url: string; verse_key: string }[];
   recitations: GetRecitationsResponse;
   playerSettings: PlaySettings;
+  /** Shown above the verses */
+  notice?: React.ReactNode;
 }
 
 const Chapter: React.FC<Props> = ({
@@ -33,6 +35,7 @@ const Chapter: React.FC<Props> = ({
   versesRecitations,
   recitations,
   playerSettings,
+  notice,
 }) => {
   const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
@@ -209,6 +212,7 @@ const Chapter: React.FC<Props> = ({
         </div>
       </div>
       <Row className="mt-13 py-6 grow" justify="center">
+        {notice && <Col span={22}>{notice}</Col>}
         <Col span={24}>
           <Virtuoso
             data={verseList}

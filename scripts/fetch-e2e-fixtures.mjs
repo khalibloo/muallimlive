@@ -30,14 +30,20 @@ const paths = [
   ]),
 ];
 
+// The chapter list only has the fixture chapters, so offline downloads of every chapter stay small
+const TRANSFORMS = {
+  "resources/chapters": (data) => ({ ...data, chapters: data.chapters.filter((c) => CHAPTERS.includes(c.id)) }),
+};
+
 const download = async (path) => {
   const res = await fetch(`${CDN_URI}/data/${path}.json`);
   if (!res.ok) {
     throw new Error(`Failed to fetch ${path}: ${res.status} ${res.statusText}`);
   }
+  const data = await res.json();
   const file = join(OUT_DIR, `${path}.json`);
   await mkdir(dirname(file), { recursive: true });
-  await writeFile(file, `${JSON.stringify(await res.json(), null, 2)}\n`);
+  await writeFile(file, `${JSON.stringify(TRANSFORMS[path]?.(data) ?? data, null, 2)}\n`);
 };
 
 await Promise.all(paths.map(download));

@@ -10,11 +10,13 @@ vi.mock("@/components/saveReaderSettings", () => ({
 }));
 
 const settingsResources: SettingsResources = {
+  chapters: { chapters: [] },
   translations: { translations: [] },
   languages: { languages: [] },
   tafsirs: { tafsirs: [] },
   recitations: { recitations: [] },
   readerSettings: { splitView: false, left: [{ content: ["translation", "ar", "uthmani"] }], right: [] },
+  playerSettings: { reciter: 1, hideTafsirs: true },
 };
 
 describe("BasicLayout", () => {

@@ -1,6 +1,6 @@
 # MuallimLive
 
-Qur'an reading and recitation app built with Next.js 16, React 19, Ant Design 6, TailwindCSS 4, next-intl and Serwist. Read each chapter with configurable translations, tafsirs and Arabic scripts (optionally in a split view), listen to verse recitations, keep favorites and notes, and install it as a PWA.
+Qur'an reading and recitation app built with Next.js 16, React 19, Ant Design 6, TailwindCSS 4, next-intl and Serwist. Read each chapter with configurable translations, tafsirs and Arabic scripts (optionally in a split view), listen to verse recitations, keep favorites and notes, and install it as a PWA. Each Arabic script, translation and tafsir can be downloaded separately (plus recitation audio per reciter and chapter) to read and listen offline.
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ Copy `.env.sample` to `.env.local` and fill in the values.
 | `pnpm format`    | Prettier (auto-fix)      |
 | `pnpm typecheck` | TypeScript type checking |
 
-The service worker is only registered in production builds (`pnpm build && pnpm start`).
+The service worker is only registered in production builds (`pnpm build && pnpm start`), so offline reading can only be tried there. Downloads are managed in Settings → Offline Storage.
 
 ## Testing
 
