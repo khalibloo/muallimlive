@@ -9,20 +9,6 @@ afterEach(() => {
   cleanup();
 });
 
-Object.defineProperty(window, "matchMedia", {
-  writable: true,
-  value: vi.fn().mockImplementation((query: string) => ({
-    matches: false,
-    media: query,
-    onchange: null,
-    addListener: vi.fn(),
-    removeListener: vi.fn(),
-    addEventListener: vi.fn(),
-    removeEventListener: vi.fn(),
-    dispatchEvent: vi.fn(),
-  })),
-});
-
 class ResizeObserver {
   callback: ResizeObserverCallback;
   constructor(cb: ResizeObserverCallback) {
@@ -33,20 +19,37 @@ class ResizeObserver {
   disconnect() {}
 }
 
-Object.defineProperty(window, "ResizeObserver", {
-  writable: true,
-  value: ResizeObserver,
-});
+// Server-side tests opt into the node environment (`// @vitest-environment node`), which has no window
+if (typeof window !== "undefined") {
+  Object.defineProperty(window, "matchMedia", {
+    writable: true,
+    value: vi.fn().mockImplementation((query: string) => ({
+      matches: false,
+      media: query,
+      onchange: null,
+      addListener: vi.fn(),
+      removeListener: vi.fn(),
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+      dispatchEvent: vi.fn(),
+    })),
+  });
 
-// jsdom does not implement media playback
-Object.defineProperty(window.HTMLMediaElement.prototype, "play", {
-  writable: true,
-  value: vi.fn().mockResolvedValue(undefined),
-});
-Object.defineProperty(window.HTMLMediaElement.prototype, "pause", {
-  writable: true,
-  value: vi.fn(),
-});
+  Object.defineProperty(window, "ResizeObserver", {
+    writable: true,
+    value: ResizeObserver,
+  });
+
+  // jsdom does not implement media playback
+  Object.defineProperty(window.HTMLMediaElement.prototype, "play", {
+    writable: true,
+    value: vi.fn().mockResolvedValue(undefined),
+  });
+  Object.defineProperty(window.HTMLMediaElement.prototype, "pause", {
+    writable: true,
+    value: vi.fn(),
+  });
+}
 
 vi.mock("server-only", () => ({}));
 vi.mock("next/headers", () => ({
