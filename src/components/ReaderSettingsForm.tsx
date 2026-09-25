@@ -156,7 +156,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
                     aria-label={t(`remove-${pane}-pane-content`, { index: i + 1 })}
                     onClick={() => remove(name)}
                   >
-                    <MinusCircleOutlined />
+                    <MinusCircleOutlined aria-hidden />
                   </Button>
                 </Col>
               )}
@@ -167,7 +167,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
               type="dashed"
               onClick={() => add()}
               block
-              icon={<PlusOutlined />}
+              icon={<PlusOutlined aria-hidden />}
               aria-label={t(`add-${pane}-pane-content`)}
             >
               {t("add")}
@@ -188,7 +188,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
       {useSplitView && !responsive.md && (
         <Alert className="mt-2" type="warning" title={t("mobile-panes-merged")} showIcon />
       )}
-      <Form.Item name="splitView" label={t("use-split-view")} valuePropName="checked">
+      <Form.Item name="splitView" label={t("use-split-view")} colon={false} valuePropName="checked">
         <Switch />
       </Form.Item>
       <Row gutter={24}>

@@ -87,7 +87,12 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
             },
           }}
         >
-          <Button type="text" size="large" aria-label={t("settings")} icon={<SettingOutlined className="text-2xl" />} />
+          <Button
+            type="text"
+            size="large"
+            aria-label={t("settings")}
+            icon={<SettingOutlined aria-hidden className="text-2xl" />}
+          />
         </Dropdown>
       </div>
     </>

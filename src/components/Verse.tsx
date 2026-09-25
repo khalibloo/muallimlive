@@ -84,7 +84,7 @@ const Verse: React.FC<Props> = ({
   }, [volume, muted]);
 
   return (
-    <div ref={ref}>
+    <article ref={ref} aria-label={t("verse-label", { verse: verseNumber })}>
       <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 w-full items-stretch">
         {left.length > 0 && (
           <Col
@@ -99,9 +99,10 @@ const Verse: React.FC<Props> = ({
               <div className="py-3">{verseNumber})</div>
               <ul className="grow list-none m-0 p-0 divide-y divide-white/10">
                 {leftItems.map((v, i) => (
-                  <li key={v.id ?? i} className="py-3">
+                  // items are one verse's text from each configured source, so ids repeat but order is stable
+                  <li key={i} className="py-3">
                     {v.isHTML ? (
-                      <SafeHtml className="font-light" html={v.text} />
+                      <SafeHtml className={clsx({ "font-light": v.isTafsir })} html={v.text} />
                     ) : (
                       <Typography.Text
                         className={clsx({
@@ -124,14 +125,14 @@ const Verse: React.FC<Props> = ({
           <Col span={rightColSpan} xs={24} md={rightColSpan}>
             <ul className="list-none m-0 p-0 divide-y divide-white/10">
               {rightItems.map((v, i) => (
-                <li key={v.id ?? i} className={clsx("w-full py-3", { "text-right": v.isArabic })}>
+                <li key={i} className={clsx("w-full py-3", { "text-right": v.isArabic })}>
                   {v.isHTML ? (
                     <SafeHtml
                       className={clsx({
                         "text-lg": v.isBold && !v.isArabic,
                         "text-4xl": v.isArabic,
                         "text-arabic": v.isArabic,
-                        "font-light": !v.isArabic,
+                        "font-light": v.isTafsir,
                         "font-bold": v.isBold,
                       })}
                       html={v.text}
@@ -170,7 +171,7 @@ const Verse: React.FC<Props> = ({
                 }
               }}
             >
-              {!isPlaying ? <PlayCircleOutlined /> : <PauseCircleOutlined />}
+              {!isPlaying ? <PlayCircleOutlined aria-hidden /> : <PauseCircleOutlined aria-hidden />}
             </Button>
           </Tooltip>
         </Space>
@@ -179,7 +180,7 @@ const Verse: React.FC<Props> = ({
           <audio ref={audioRef} src={audioUrl} preload="none" onEnded={onEnded} />
         )}
       </div>
-    </div>
+    </article>
   );
 };
 

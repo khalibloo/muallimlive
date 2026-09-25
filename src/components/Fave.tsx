@@ -40,7 +40,7 @@ const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => {
           });
         }}
       >
-        {faved ? <HeartFilled style={{ color: "#c22" }} /> : <HeartOutlined />}
+        {faved ? <HeartFilled aria-hidden style={{ color: "#c22" }} /> : <HeartOutlined aria-hidden />}
       </Button>
     </Tooltip>
   );

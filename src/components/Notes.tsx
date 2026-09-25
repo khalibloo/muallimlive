@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import lf from "@/utils/localforage";
 import SafeHtml from "./SafeHtml";
 
-const ReactQuill = dynamic(() => import("react-quill-new"), {
+const NoteEditor = dynamic(() => import("./NoteEditor"), {
   ssr: false,
 });
 
@@ -117,7 +117,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         open={notesOpened}
         footer={
           <Space orientation="vertical" className="w-full">
-            <ReactQuill theme="snow" onChange={setNewNote} value={newNote} />
+            <NoteEditor label={t("new-note")} onChange={setNewNote} value={newNote} />
             <Row>
               <Space>
                 <Button
@@ -146,7 +146,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
               <li key={i} className="py-3">
                 {editNoteIndex === i ? (
                   <Space orientation="vertical" className="w-full">
-                    <ReactQuill theme="snow" onChange={setEditNote} value={editNote} />
+                    <NoteEditor label={t("edit-note")} onChange={setEditNote} value={editNote} />
                     <Row>
                       <Space>
                         <Button
@@ -176,7 +176,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                           }}
                           size="small"
                         >
-                          <EditOutlined />
+                          <EditOutlined aria-hidden />
                         </Button>
                       </Tooltip>
                       <Popconfirm
@@ -187,7 +187,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                       >
                         <Tooltip title={t("delete-note")}>
                           <Button danger size="small" aria-label={t("delete-note")}>
-                            <DeleteOutlined />
+                            <DeleteOutlined aria-hidden />
                           </Button>
                         </Tooltip>
                       </Popconfirm>
@@ -201,7 +201,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
       </Drawer>
       <Tooltip title={t("notes")}>
         <Button type="text" aria-label={t("notes")} onClick={openNotes}>
-          <FormOutlined />
+          <FormOutlined aria-hidden />
         </Button>
       </Tooltip>
     </>

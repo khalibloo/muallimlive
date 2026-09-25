@@ -116,7 +116,7 @@ const Chapter: React.FC<Props> = ({
 
   return (
     <>
-      <FloatButton.BackTop />
+      <FloatButton.BackTop aria-label={t("back-to-top")} />
       <Drawer
         placement="left"
         closable={false}
@@ -138,8 +138,7 @@ const Chapter: React.FC<Props> = ({
                 <Link href={`/chapters/${chapter.id}`}>
                   <Tooltip classNames={{ root: "capitalize" }} title={chapter.translated_name.name} placement="right">
                     <Typography.Text className="capitalize">
-                      <span className="mr-3">{chapter.id}</span>
-                      {chapter.name_simple}
+                      <span className="mr-2">{chapter.id}</span> {chapter.name_simple}
                     </Typography.Text>
                   </Tooltip>
                 </Link>
@@ -165,7 +164,7 @@ const Chapter: React.FC<Props> = ({
         <div className="flex items-stretch">
           <div>
             <Button className={navButtonClassName} aria-label={t("chapters")} onClick={openChaptersDrawer}>
-              <MenuOutlined className="text-xl" />
+              <MenuOutlined aria-hidden className="text-xl" />
               {responsive.md && t("chapters")}
             </Button>
           </div>
@@ -184,7 +183,7 @@ const Chapter: React.FC<Props> = ({
           {readerMode === "reading" ? (
             <div>
               <Button className={navButtonClassName} aria-label={t("recite")} onClick={openPlayModal} type="primary">
-                <PlayCircleFilled className="text-xl" />
+                <PlayCircleFilled aria-hidden className="text-xl" />
                 {responsive.md && t("recite")}
               </Button>
             </div>
@@ -201,7 +200,7 @@ const Chapter: React.FC<Props> = ({
                 placement="bottomRight"
               >
                 <Button className={navButtonClassName} aria-label={t("read")} type="primary">
-                  <ReadOutlined className="text-xl" />
+                  <ReadOutlined aria-hidden className="text-xl" />
                   {responsive.md && t("read")}
                 </Button>
               </Popconfirm>
@@ -250,6 +249,7 @@ const Chapter: React.FC<Props> = ({
       </Row>
       <Drawer
         placement="bottom"
+        aria-label={t("audio-player")}
         open={readerMode === "recitation"}
         mask={false}
         size={48}

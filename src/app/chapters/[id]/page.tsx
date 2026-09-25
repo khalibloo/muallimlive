@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const chaptersData = await fetchChapters();
   const chapter = chaptersData.chapters.find((c) => `${c.id}` === id);
   if (!chapter) {
-    return {};
+    notFound();
   }
 
   const t = await getTranslations("common");
@@ -90,6 +90,8 @@ const ChapterPage: NextPage<Props> = async ({ params }) => {
         id: i + 1,
         text: t.text,
         verse_key: `${chapter.id}:${i + 1}`,
+        // some translations mark footnotes with <sup>
+        isHTML: true,
       }));
     }
     // then it's a tafsir

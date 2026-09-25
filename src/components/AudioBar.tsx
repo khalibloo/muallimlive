@@ -44,6 +44,16 @@ const AudioBar: React.FC<Props> = ({
   const [autoScroll, setAutoScroll] = useState(true);
   const [loop, setLoop] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const currentUrl = audioUrls[currentIndex];
+
+  // A new src aborts a pending play() (e.g. the reciter's URLs arrive after Play is pressed); that
+  // play is superseded, not failed, so only other errors (autoplay blocked, bad file) stop playback
+  const play = (audio: HTMLAudioElement) =>
+    audio.play().catch((error: unknown) => {
+      if (!(error instanceof DOMException && error.name === "AbortError")) {
+        setIsPlaying(false);
+      }
+    });
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -51,11 +61,11 @@ const AudioBar: React.FC<Props> = ({
       return;
     }
     if (isPlaying) {
-      audio.play().catch(() => setIsPlaying(false));
+      play(audio);
     } else {
       audio.pause();
     }
-  }, [isPlaying, currentIndex]);
+  }, [isPlaying, currentIndex, currentUrl]);
 
   useEffect(() => {
     if (audioRef.current) {
@@ -74,8 +84,8 @@ const AudioBar: React.FC<Props> = ({
     }
   }, [currentIndex]);
 
-  const goTo = (index: number, play: boolean) => {
-    setIsPlaying(play);
+  const goTo = (index: number, shouldPlay: boolean) => {
+    setIsPlaying(shouldPlay);
     if (index !== currentIndex) {
       setCurrentIndex(index);
       return;
@@ -84,8 +94,8 @@ const AudioBar: React.FC<Props> = ({
     const audio = audioRef.current;
     if (audio) {
       audio.currentTime = 0;
-      if (play) {
-        audio.play().catch(() => setIsPlaying(false));
+      if (shouldPlay) {
+        play(audio);
       }
     }
   };
@@ -100,17 +110,10 @@ const AudioBar: React.FC<Props> = ({
     }
   };
 
-  const iconStyle = { fontSize: "1.5rem" };
   return (
     <>
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-      <audio
-        ref={audioRef}
-        src={audioUrls[currentIndex]}
-        onEnded={next}
-        preload="auto"
-        data-testid="recitation-audio"
-      />
+      <audio ref={audioRef} src={audioUrls[currentIndex]} onEnded={next} preload="auto" />
       {audioUrls[currentIndex + 1] && (
         // eslint-disable-next-line jsx-a11y/media-has-caption
         <audio src={audioUrls[currentIndex + 1]} preload="auto" />
@@ -127,7 +130,7 @@ const AudioBar: React.FC<Props> = ({
                 aria-pressed={autoScroll}
                 onClick={() => setAutoScroll((val) => !val)}
               >
-                <ColumnHeightOutlined style={iconStyle} />
+                <ColumnHeightOutlined aria-hidden className="text-2xl" />
               </Button>
             </Col>
             <Col>
@@ -139,12 +142,12 @@ const AudioBar: React.FC<Props> = ({
                 aria-pressed={loop}
                 onClick={() => setLoop((val) => !val)}
               >
-                <SyncOutlined style={iconStyle} />
+                <SyncOutlined aria-hidden className="text-2xl" />
               </Button>
             </Col>
             <Col>
               <Button className="px-2" type="link" size="large" aria-label={t("previous-verse")} onClick={prev}>
-                <StepBackwardOutlined style={iconStyle} />
+                <StepBackwardOutlined aria-hidden className="text-2xl" />
               </Button>
             </Col>
             <Col>
@@ -155,7 +158,11 @@ const AudioBar: React.FC<Props> = ({
                 aria-label={isPlaying ? t("pause") : t("play")}
                 onClick={() => setIsPlaying((val) => !val)}
               >
-                {isPlaying ? <PauseCircleOutlined style={iconStyle} /> : <PlayCircleOutlined style={iconStyle} />}
+                {isPlaying ? (
+                  <PauseCircleOutlined aria-hidden className="text-2xl" />
+                ) : (
+                  <PlayCircleOutlined aria-hidden className="text-2xl" />
+                )}
               </Button>
             </Col>
             <Col>
@@ -167,7 +174,7 @@ const AudioBar: React.FC<Props> = ({
                 aria-label={t("next-verse")}
                 onClick={next}
               >
-                <StepForwardOutlined style={iconStyle} />
+                <StepForwardOutlined aria-hidden className="text-2xl" />
               </Button>
             </Col>
             <Col>
@@ -181,7 +188,7 @@ const AudioBar: React.FC<Props> = ({
                         min={0}
                         max={1}
                         step={0.01}
-                        aria-label={t("volume-level")}
+                        ariaLabelForHandle={t("volume-level")}
                         onChange={(val) => {
                           setVolume(val);
                           setMuted(false);
@@ -196,7 +203,11 @@ const AudioBar: React.FC<Props> = ({
                       aria-label={muted ? t("unmute") : t("mute")}
                       onClick={() => setMuted((val) => !val)}
                     >
-                      {muted ? <BsVolumeMute fontSize="2rem" /> : <BsVolumeUp fontSize="2rem" />}
+                      {muted ? (
+                        <BsVolumeMute aria-hidden fontSize="2rem" />
+                      ) : (
+                        <BsVolumeUp aria-hidden fontSize="2rem" />
+                      )}
                     </Button>
                   </Space>
                 }
@@ -204,13 +215,13 @@ const AudioBar: React.FC<Props> = ({
                 trigger="click"
               >
                 <Button className="px-2" type="link" size="large" aria-label={t("volume")}>
-                  <SoundOutlined style={iconStyle} />
+                  <SoundOutlined aria-hidden className="text-2xl" />
                 </Button>
               </Popover>
             </Col>
             <Col>
               <Button className="px-2" type="link" size="large" aria-label={t("play-options")} onClick={onOpenSettings}>
-                <SettingOutlined style={iconStyle} />
+                <SettingOutlined aria-hidden className="text-2xl" />
               </Button>
             </Col>
           </Row>
