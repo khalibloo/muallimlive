@@ -78,13 +78,13 @@ describe("NavBar", () => {
 
     expect(await screen.findByRole("menuitem", { name: "Display Settings" })).toBeInTheDocument();
     expect(screen.getByRole("menuitem", { name: "Offline Storage" })).toBeInTheDocument();
-    expect(screen.getByRole("menuitem", { name: "Sync Settings" })).toBeInTheDocument();
+    expect(screen.getByRole("menuitem", { name: "Sync & Backup" })).toBeInTheDocument();
   });
 
   it.each([
     // jsdom has no Cache Storage, so the storage tab reports it as unsupported
     ["Offline Storage", "Storage", "This browser doesn't support offline storage."],
-    ["Sync Settings", "Sync", "Coming soon"],
+    ["Sync & Backup", "Sync & Backup", "Sync with Google Drive"],
   ])("opens %s on the %s tab", async (item, tab, content) => {
     const user = renderNavBar();
 

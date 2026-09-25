@@ -146,7 +146,7 @@ test.describe("Display settings", () => {
     });
   });
 
-  test("opens offline storage, and sync is a placeholder", async ({ testPage }) => {
+  test("opens offline storage and sync & backup", async ({ testPage }) => {
     await testPage.goto(`/chapters/${CHAPTER}`);
 
     const dialog = await openSettings(testPage, "Offline Storage");
@@ -156,7 +156,8 @@ test.describe("Display settings", () => {
     await expect(storage.getByRole("heading", { name: "Text Content", exact: true })).toBeVisible();
     await expect(storage.getByRole("heading", { name: "Recitation Audio", exact: true })).toBeVisible();
 
-    await dialog.getByRole("tab", { name: "Sync", exact: true }).click();
-    await expect(dialog.getByRole("tabpanel", { name: "Sync", exact: true }).getByText("Coming soon")).toBeVisible();
+    await dialog.getByRole("tab", { name: "Sync & Backup", exact: true }).click();
+    const sync = dialog.getByRole("tabpanel", { name: "Sync & Backup", exact: true });
+    await expect(sync.getByRole("link", { name: "Sync with Google Drive", exact: true })).toBeVisible();
   });
 });

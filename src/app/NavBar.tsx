@@ -11,6 +11,7 @@ import { useFormatter, useTranslations } from "next-intl";
 import OfflineStorage, { getSettingsPacks, usePackLabel } from "@/components/OfflineStorage";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 import { saveColorScheme } from "@/components/saveColorScheme";
+import SyncSettings from "@/components/SyncSettings";
 import { COLOR_SCHEMES } from "@/utils/cookies";
 import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
 import { packKey } from "@/utils/packs";
@@ -152,7 +153,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme }) => {
               ),
             },
             { key: "storage", label: t("storage"), children: <OfflineStorage {...settingsResources} /> },
-            { key: "sync", label: t("sync"), children: <span>{t("coming-soon")}</span> },
+            { key: "sync", label: t("sync"), children: <SyncSettings /> },
           ]}
         />
       </Modal>
