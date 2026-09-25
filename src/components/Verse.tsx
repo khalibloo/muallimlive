@@ -85,7 +85,7 @@ const Verse: React.FC<Props> = ({
 
   return (
     <article ref={ref} aria-label={t("verse-label", { verse: verseNumber })}>
-      <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 w-full items-stretch">
+      <Row gutter={24} id={`v-${verseNumber}`} className="mt-6 items-stretch">
         {left.length > 0 && (
           <Col
             span={leftColSpan}

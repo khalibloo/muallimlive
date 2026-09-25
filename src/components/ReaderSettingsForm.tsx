@@ -133,8 +133,9 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
       return (
         <>
           {fields.map(({ key, name, ...restField }, i) => (
-            <Row key={key} className="mb-2 flex-nowrap" gutter={16}>
-              <Col className="grow">
+            <Row key={key} className="mb-2" gutter={16} wrap={false}>
+              {/* flex + wrap={false} sets min-width: 0, so long labels shrink instead of pushing the remove button off-screen */}
+              <Col flex="auto">
                 <Form.Item
                   {...restField}
                   name={[name, "content"]}

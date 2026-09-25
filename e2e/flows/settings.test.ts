@@ -134,6 +134,25 @@ test.describe("Display settings", () => {
     await expect(testPage.getByRole("alert").filter({ hasText: "Changes Saved Successfully" })).toBeHidden();
   });
 
+  test.describe("on a phone", () => {
+    test.use({ viewport: { width: 390, height: 844 } });
+
+    test("long content labels don't push the remove buttons off-screen", async ({ testPage }) => {
+      await testPage.goto(`/chapters/${CHAPTER}`);
+
+      const dialog = await openDisplaySettings(testPage);
+      for (const name of [
+        "Remove left pane content 1",
+        "Remove left pane content 2",
+        "Remove right pane content 1",
+        "Remove right pane content 2",
+      ]) {
+        // No scrolling first: the overflow made the drawer scroll sideways, which would hide the bug
+        await expect(dialog.getByRole("button", { name, exact: true })).toBeInViewport({ ratio: 1 });
+      }
+    });
+  });
+
   test("storage and sync tabs are placeholders", async ({ testPage }) => {
     await testPage.goto(`/chapters/${CHAPTER}`);
 
