@@ -37,6 +37,8 @@
     "antd": "^6.6.5",
     "clsx": "^2.1.1",
     "fuse.js": "^7.5.0",
+    "google-auth-library": "^11.1.0",
+    "iron-session": "^9.0.1",
     "isomorphic-dompurify": "^4.3.0",
     "localforage": "^1.10.0",
     "localforage-observable": "^2.1.1",
@@ -52,7 +54,8 @@
     "react-virtuoso": "^4.18.15",
     "rxjs": "^7.8.2",
     "server-only": "^0.0.1",
-    "serwist": "^9.5.12"
+    "serwist": "^9.5.12",
+    "zod": "^4.6.5"
   },
   "lint-staged": {
     "src/locales/**/*.json": "prettier --write --plugin prettier-plugin-sort-json --json-recursive-sort",

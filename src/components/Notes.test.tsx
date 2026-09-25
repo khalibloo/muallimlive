@@ -3,6 +3,7 @@ import userEvent from "@testing-library/user-event";
 
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
+import { liveNotes } from "@/utils/userData";
 import Notes from "./Notes";
 
 // A textarea standing in for Quill, exposing it as the editor root like the real instance
@@ -26,6 +27,8 @@ vi.mock("react-quill-new", async () => {
 });
 
 const KEY = "notes-quran-1-2";
+
+const storedNotes = async () => liveNotes(await lf.getItem(KEY)).map((n) => n.html);
 
 const renderNotes = async () => {
   const user = userEvent.setup();
@@ -74,7 +77,7 @@ describe("Notes", () => {
 
     expect(await within(drawer).findByText("Remember this")).toBeInTheDocument();
     expect(editor).toHaveValue("");
-    await waitFor(async () => expect(await lf.getItem(KEY)).toEqual(["<p>Remember this</p>"]));
+    await waitFor(async () => expect(await storedNotes()).toEqual(["<p>Remember this</p>"]));
   });
 
   it("discards the draft on cancel", async () => {
@@ -103,7 +106,7 @@ describe("Notes", () => {
     await user.click(within(item).getByRole("button", { name: "Save Changes" }));
 
     expect(await within(drawer).findByText("New text")).toBeInTheDocument();
-    await waitFor(async () => expect(await lf.getItem(KEY)).toEqual(["<p>New text</p>", "<p>Other</p>"]));
+    await waitFor(async () => expect(await storedNotes()).toEqual(["<p>New text</p>", "<p>Other</p>"]));
   });
 
   it("cancels editing without saving", async () => {
@@ -119,7 +122,7 @@ describe("Notes", () => {
     await user.click(within(item).getByRole("button", { name: "Cancel" }));
 
     expect(within(drawer).getByText("Keep me")).toBeInTheDocument();
-    expect(await lf.getItem(KEY)).toEqual(["<p>Keep me</p>"]);
+    expect(await storedNotes()).toEqual(["<p>Keep me</p>"]);
   });
 
   it("disables saving an edit that empties the note", async () => {
@@ -145,6 +148,19 @@ describe("Notes", () => {
 
     await waitFor(() => expect(within(drawer).queryByText("Delete me")).not.toBeInTheDocument());
     expect(within(drawer).getByText("Stay")).toBeInTheDocument();
-    await waitFor(async () => expect(await lf.getItem(KEY)).toEqual(["<p>Stay</p>"]));
+    await waitFor(async () => expect(await storedNotes()).toEqual(["<p>Stay</p>"]));
+  });
+
+  it("keeps a deleted note as a deletion marker", async () => {
+    await lf.setItem(KEY, ["<p>First note</p>"]);
+    const { user, drawer } = await renderNotes();
+
+    await user.click(await within(drawer).findByRole("button", { name: "Delete note" }));
+    await user.click(await screen.findByRole("button", { name: "Delete" }));
+
+    await waitFor(async () =>
+      expect(await lf.getItem(KEY)).toEqual([expect.objectContaining({ html: "", deleted: true })]),
+    );
+    expect(within(drawer).getByText("You have not added any notes for this verse")).toBeInTheDocument();
   });
 });

@@ -3,7 +3,10 @@ import userEvent from "@testing-library/user-event";
 
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
+import { liveFaves } from "@/utils/userData";
 import Fave from "./Fave";
+
+const storedFaves = async () => liveFaves(await lf.getItem("faves-quran"));
 
 describe("Fave", () => {
   beforeEach(async () => {
@@ -23,7 +26,7 @@ describe("Fave", () => {
     expect(button).toHaveAttribute("aria-pressed", "false");
     await user.click(button);
 
-    await waitFor(async () => expect(await lf.getItem("faves-quran")).toEqual(["2:5", "1:3"]));
+    await waitFor(async () => expect(await storedFaves()).toEqual(["2:5", "1:3"]));
   });
 
   it("creates the favorites list when none is stored", async () => {
@@ -36,7 +39,7 @@ describe("Fave", () => {
 
     await user.click(screen.getByRole("button", { name: "Add to favorites" }));
 
-    await waitFor(async () => expect(await lf.getItem("faves-quran")).toEqual(["1:3"]));
+    await waitFor(async () => expect(await storedFaves()).toEqual(["1:3"]));
   });
 
   it("removes the verse from favorites when faved", async () => {
@@ -52,6 +55,19 @@ describe("Fave", () => {
     expect(button).toHaveAttribute("aria-pressed", "true");
     await user.click(button);
 
-    await waitFor(async () => expect(await lf.getItem("faves-quran")).toEqual(["2:5"]));
+    await waitFor(async () => expect(await storedFaves()).toEqual(["2:5"]));
+  });
+
+  it("counts toggling as a change to sync", async () => {
+    const user = userEvent.setup();
+    render(
+      <TestProviders>
+        <Fave faved={false} chapterNumber={1} verseNumber={3} />
+      </TestProviders>,
+    );
+
+    await user.click(screen.getByRole("button", { name: "Add to favorites" }));
+
+    await waitFor(async () => expect(await lf.getItem("user-data-change")).toBe(1));
   });
 });

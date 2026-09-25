@@ -15,6 +15,7 @@ import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar, { VERSE_SCROLL_OFFSET } from "@/components/AudioBar";
 import { searchChapters } from "@/utils/chapters";
 import lf from "@/utils/localforage";
+import { FAVES_KEY, liveFaves, readFaves } from "@/utils/userData";
 import ChapterHeader from "./ChapterHeader";
 
 interface Props {
@@ -64,14 +65,17 @@ const Chapter: React.FC<Props> = ({
   useEffect(() => {
     let cancelled = false;
     let subscription: Subscription | undefined;
+    // takes readFaves()'s list or a stored record from the observable
     const getSurahFaves = (favesData: unknown) =>
-      Array.isArray(favesData) ? favesData.filter((f: string) => f.startsWith(`${chapterNumber}:`)) : [];
+      (Array.isArray(favesData) ? favesData : liveFaves(favesData)).filter((f: string) =>
+        f.startsWith(`${chapterNumber}:`),
+      );
 
     lf.ready().then(() => {
       if (cancelled) {
         return;
       }
-      lf.getItem("faves-quran").then((favesData) => {
+      readFaves().then((favesData) => {
         if (!cancelled) {
           setFaves(getSurahFaves(favesData));
         }
@@ -84,7 +88,7 @@ const Chapter: React.FC<Props> = ({
       });
       subscription = lf
         .newObservable({
-          key: "faves-quran",
+          key: FAVES_KEY,
           crossTabNotification: true,
         })
         .subscribe({

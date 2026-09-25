@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
 
 import lf from "@/utils/localforage";
+import { addNote, deleteNote, liveNotes, noteKey, readNotes, updateNote, type Note } from "@/utils/userData";
 import SafeHtml from "./SafeHtml";
 
 const NoteEditor = dynamic(() => import("./NoteEditor"), {
@@ -23,14 +24,14 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
   const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const [notesOpened, { setTrue: openNotes, setFalse: closeNotes }] = useBoolean();
-  const [notes, setNotes] = useState<string[]>([]);
+  const [notes, setNotes] = useState<Note[]>([]);
   const [newNote, setNewNote] = useState<string>("");
-  // index of note being edited
-  const [editNoteIndex, setEditNoteIndex] = useState<number>(-1);
+  // id of note being edited
+  const [editNoteId, setEditNoteId] = useState<string>();
   // text of note being edited
   const [editNote, setEditNote] = useState<string>("");
 
-  const key = `notes-quran-${chapterNumber}-${verseNumber}`;
+  const key = noteKey(chapterNumber, verseNumber);
 
   React.useEffect(() => {
     let cancelled = false;
@@ -40,8 +41,8 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
       if (cancelled) {
         return;
       }
-      lf.getItem<string[]>(key).then((notesData) => {
-        if (!cancelled && Array.isArray(notesData)) {
+      readNotes(chapterNumber, verseNumber).then((notesData) => {
+        if (!cancelled) {
           setNotes(notesData);
         }
       });
@@ -58,7 +59,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
         })
         .subscribe({
           next: (args) => {
-            setNotes(Array.isArray(args.newValue) ? args.newValue : []);
+            setNotes(liveNotes(args.newValue));
           },
         });
     });
@@ -67,34 +68,32 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
       cancelled = true;
       subscription?.unsubscribe();
     };
-  }, [key]);
+  }, [key, chapterNumber, verseNumber]);
 
-  const saveNotes = (updater: (notesList: string[]) => string[]) =>
-    lf.getItem<string[]>(key).then((notesData) => {
-      const newNotes = updater(Array.isArray(notesData) ? notesData : []);
-      setNotes(newNotes);
-      return lf.setItem(key, newNotes);
-    });
+  const refresh = () => readNotes(chapterNumber, verseNumber).then(setNotes);
 
-  const addNote = () => {
+  const saveNewNote = async () => {
     if (!isEmptyQuill(newNote)) {
-      saveNotes((notesList) => [...notesList, newNote]);
       setNewNote("");
+      await addNote(chapterNumber, verseNumber, newNote);
+      await refresh();
     }
   };
 
-  const deleteNote = (index: number) => {
-    saveNotes((notesList) => notesList.filter((_, i) => i !== index));
+  const removeNote = async (id: string) => {
+    await deleteNote(chapterNumber, verseNumber, id);
+    await refresh();
   };
 
-  const updateNote = (index: number) => {
-    if (isEmptyQuill(editNote)) {
-      deleteNote(index);
-    } else {
-      saveNotes((notesList) => notesList.map((note, i) => (i === index ? editNote : note)));
-    }
+  const saveEdit = async (id: string) => {
     setEditNote("");
-    setEditNoteIndex(-1);
+    setEditNoteId(undefined);
+    if (isEmptyQuill(editNote)) {
+      await removeNote(id);
+    } else {
+      await updateNote(chapterNumber, verseNumber, id, editNote);
+      await refresh();
+    }
   };
 
   let drawerWidth;
@@ -128,7 +127,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                 >
                   {t("cancel")}
                 </Button>
-                <Button disabled={isEmptyQuill(newNote)} type="primary" onClick={addNote}>
+                <Button disabled={isEmptyQuill(newNote)} type="primary" onClick={saveNewNote}>
                   {t("save-new-note")}
                 </Button>
               </Space>
@@ -142,9 +141,9 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
           <Empty description={t("no-notes")} />
         ) : (
           <ul className="list-none m-0 p-0 divide-y divide-line">
-            {notes.map((note, i) => (
-              <li key={i} className="py-3">
-                {editNoteIndex === i ? (
+            {notes.map((note) => (
+              <li key={note.id} className="py-3">
+                {editNoteId === note.id ? (
                   <Space orientation="vertical" className="w-full">
                     <NoteEditor label={t("edit-note")} onChange={setEditNote} value={editNote} />
                     <Row>
@@ -152,12 +151,12 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                         <Button
                           onClick={() => {
                             setEditNote("");
-                            setEditNoteIndex(-1);
+                            setEditNoteId(undefined);
                           }}
                         >
                           {t("cancel")}
                         </Button>
-                        <Button disabled={isEmptyQuill(editNote)} type="primary" onClick={() => updateNote(i)}>
+                        <Button disabled={isEmptyQuill(editNote)} type="primary" onClick={() => saveEdit(note.id)}>
                           {t("save-changes")}
                         </Button>
                       </Space>
@@ -165,14 +164,14 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                   </Space>
                 ) : (
                   <>
-                    <SafeHtml html={note} />
+                    <SafeHtml html={note.html} />
                     <Space className="mt-3">
                       <Tooltip title={t("edit-note")}>
                         <Button
                           aria-label={t("edit-note")}
                           onClick={() => {
-                            setEditNoteIndex(i);
-                            setEditNote(note);
+                            setEditNoteId(note.id);
+                            setEditNote(note.html);
                           }}
                           size="small"
                         >
@@ -183,7 +182,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
                         title={t("delete-note-confirm")}
                         okType="danger"
                         okText={t("delete")}
-                        onConfirm={() => deleteNote(i)}
+                        onConfirm={() => removeNote(note.id)}
                       >
                         <Tooltip title={t("delete-note")}>
                           <Button danger size="small" aria-label={t("delete-note")}>
