@@ -101,6 +101,37 @@ test.describe("Offline reading", () => {
     await expect(verse.getByText(translationText(CHAPTER, SAHEEH, 1), { exact: true })).toBeHidden();
   });
 
+  test.describe("after installing the app", () => {
+    const prompt = (page: Page) => page.getByRole("alert").filter({ hasText: "Read offline" });
+
+    test("offers the downloads on the first launch from the home screen", async ({ testPage, context }) => {
+      // Playwright can't install the app, so make the page look launched from the home screen
+      await context.addInitScript(() => {
+        const matchMedia = window.matchMedia.bind(window);
+        window.matchMedia = (query) =>
+          query === "(display-mode: standalone)"
+            ? ({ matches: true, media: query } as MediaQueryList)
+            : matchMedia(query);
+      });
+      await testPage.goto("/");
+
+      await prompt(testPage).getByRole("button", { name: "Open Offline Storage", exact: true }).click();
+      const dialog = await openSettings(testPage, "Offline Storage");
+      await expect(dialog.getByRole("tab", { name: "Storage", exact: true })).toHaveAttribute("aria-selected", "true");
+      await dialog.getByRole("button", { name: "Download All", exact: true }).click();
+      await expect(dialog.getByText(/· Downloaded$/)).toHaveCount(4);
+    });
+
+    test("offers the downloads when the browser installs the app", async ({ testPage }) => {
+      await testPage.goto("/");
+      await expect(prompt(testPage)).toBeHidden();
+
+      await testPage.evaluate(() => window.dispatchEvent(new Event("appinstalled")));
+
+      await expect(prompt(testPage)).toContainText("Download the content in your display settings");
+    });
+  });
+
   test.describe("with short clips", () => {
     test.use({ audioClipSeconds: 0.5 });
 

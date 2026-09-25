@@ -85,6 +85,7 @@ Every Arabic script, translation and tafsir is its own **text pack**, and each r
 - Only `offline.ts` writes the caches. The service worker reads them: navigations and RSC requests are `NetworkOnly`, `/api/content/` answers from the cache first, and `.mp3` files use `CacheFirst` with `RangeRequestsPlugin` and no automatic writes.
 - Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter from `window.location`, the reader settings cookie and the packs, and warns when a pane's pack is missing.
 - `OfflineStorage` (Settings → Offline Storage) manages downloads. After a reader saves display settings that use a pack they haven't downloaded (while having downloaded others), `NavBar` shows a notification that opens it.
+- `NavBar` also offers the downloads once after the app is installed: on Chromium's `appinstalled` event, or on the first launch in `display-mode: standalone` (iOS fires no install event). It skips readers who already have their display settings' content or are offline, and stores `offline-install-prompt-shown` in localforage.
 
 ## Development Workflows
 

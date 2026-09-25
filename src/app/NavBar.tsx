@@ -4,7 +4,8 @@ import { useState } from "react";
 import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
 import { SettingOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import { useBoolean } from "ahooks";
+import lf from "localforage";
+import { useBoolean, useEventListener, useMount } from "ahooks";
 import { useFormatter, useTranslations } from "next-intl";
 
 import OfflineStorage, { getSettingsPacks, usePackLabel } from "@/components/OfflineStorage";
@@ -26,6 +27,8 @@ interface Props {
   settingsResources: SettingsResources;
 }
 
+export const INSTALL_PROMPT_KEY = "offline-install-prompt-shown";
+
 const NavBar: React.FC<Props> = ({ settingsResources }) => {
   const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
@@ -40,22 +43,17 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
     openSettingsModal();
   };
 
-  // Readers who keep content offline are told when their new settings show content they haven't downloaded
-  const notifyMissingPacks = async (readerSettings: ReaderSettings) => {
-    if (!isOfflineStorageSupported()) {
-      return;
-    }
+  const getMissingPacks = async (readerSettings: ReaderSettings) => {
     const { text } = await getDownloadStatus();
     const total = settingsResources.chapters.chapters.length;
-    const missing = getSettingsPacks(readerSettings).filter((p) => (text[packKey(p)] ?? 0) < total);
-    if (Object.keys(text).length === 0 || missing.length === 0) {
-      return;
-    }
-    const key = "offline-packs-missing";
+    return { text, missing: getSettingsPacks(readerSettings).filter((p) => (text[packKey(p)] ?? 0) < total) };
+  };
+
+  const notifyOpenStorage = (key: string, title: string, description: string) =>
     notification.info({
       key,
-      title: t("offline-packs-missing"),
-      description: t("offline-packs-missing-description", { names: format.list(missing.map(packLabel)) }),
+      title,
+      description,
       actions: (
         <Button
           type="primary"
@@ -69,7 +67,44 @@ const NavBar: React.FC<Props> = ({ settingsResources }) => {
         </Button>
       ),
     });
+
+  // Readers who keep content offline are told when their new settings show content they haven't downloaded
+  const notifyMissingPacks = async (readerSettings: ReaderSettings) => {
+    if (!isOfflineStorageSupported()) {
+      return;
+    }
+    const { text, missing } = await getMissingPacks(readerSettings);
+    if (Object.keys(text).length === 0 || missing.length === 0) {
+      return;
+    }
+    notifyOpenStorage(
+      "offline-packs-missing",
+      t("offline-packs-missing"),
+      t("offline-packs-missing-description", { names: format.list(missing.map(packLabel)) }),
+    );
   };
+
+  // Installing the app is a good moment to offer the offline downloads, once. Chromium fires appinstalled in the
+  // tab; other browsers (iOS Safari) don't, so the first launch from the home screen asks instead.
+  const promptOfflineDownloads = async () => {
+    // offline, the prompt waits for a launch that can download
+    if (!isOfflineStorageSupported() || !navigator.onLine || (await lf.getItem(INSTALL_PROMPT_KEY))) {
+      return;
+    }
+    const { missing } = await getMissingPacks(settingsResources.readerSettings);
+    if (missing.length === 0) {
+      return;
+    }
+    await lf.setItem(INSTALL_PROMPT_KEY, true);
+    notifyOpenStorage("offline-install-prompt", t("offline-install-prompt"), t("offline-install-prompt-description"));
+  };
+
+  useEventListener("appinstalled", promptOfflineDownloads);
+  useMount(() => {
+    if (window.matchMedia("(display-mode: standalone)").matches) {
+      promptOfflineDownloads();
+    }
+  });
 
   let modalWidth;
   if (responsive.lg) {

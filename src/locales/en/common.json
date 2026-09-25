@@ -67,6 +67,8 @@
     "offline-audio": "Recitation Audio",
     "offline-content-missing": "Some of the content in your display settings hasn't been downloaded for offline use. Download it from Offline Storage in the settings when you're back online.",
     "offline-heading": "You're offline",
+    "offline-install-prompt": "Read offline",
+    "offline-install-prompt-description": "Download the content in your display settings, and recitations if you like, to keep reading and listening without an internet connection.",
     "offline-message": "This page isn't available offline. Chapters can be read offline once their content is downloaded from Offline Storage in the settings.",
     "offline-packs-missing": "Not downloaded for offline use",
     "offline-packs-missing-description": "Your display settings now show {names}. Download them to keep reading offline.",

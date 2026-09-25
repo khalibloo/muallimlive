@@ -1,12 +1,13 @@
-import { render, screen, waitFor, within } from "@testing-library/react";
+import { act, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { ConfigProvider } from "antd";
+import lf from "localforage";
 
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
 import { saveReaderSettings } from "@/components/saveReaderSettings";
 import { downloadText } from "@/utils/offline";
-import NavBar, { type SettingsResources } from "./NavBar";
+import NavBar, { INSTALL_PROMPT_KEY, type SettingsResources } from "./NavBar";
 
 vi.mock("@/components/saveReaderSettings", () => ({
   saveReaderSettings: vi.fn(),
@@ -149,6 +150,91 @@ describe("NavBar", () => {
 
       expect(await screen.findByText("Changes Saved Successfully")).toBeInTheDocument();
       expect(screen.queryByText("Not downloaded for offline use")).not.toBeInTheDocument();
+    });
+  });
+
+  describe("after installing the app", () => {
+    const resources = { ...settingsResources, chapters: { chapters: [{ id: 1 }] } as GetChaptersResponse };
+    const prompt = "Read offline";
+
+    /** Makes the page look launched from the home screen */
+    const stubStandalone = () => {
+      const matchMedia = window.matchMedia;
+      vi.stubGlobal("matchMedia", (query: string) => ({
+        ...matchMedia(query),
+        matches: query === "(display-mode: standalone)",
+      }));
+    };
+
+    // The prompt checks storage asynchronously, so give it time to (not) show
+    const settle = () => act(() => new Promise((resolve) => setTimeout(resolve, 50)));
+
+    beforeEach(async () => {
+      await lf.clear();
+      stubCaches();
+      stubFetch({ "/api/content/arabic/uthmani/1": [], "/api/content/arabic/indopak/1": [] });
+    });
+
+    afterEach(() => {
+      vi.unstubAllGlobals();
+      vi.restoreAllMocks();
+    });
+
+    it("offers the offline downloads on the first launch from the home screen", async () => {
+      stubStandalone();
+      const user = renderNavBar(resources);
+
+      expect(await screen.findByText(prompt)).toBeInTheDocument();
+      expect(
+        screen.getByText(
+          "Download the content in your display settings, and recitations if you like, to keep reading and listening without an internet connection.",
+        ),
+      ).toBeInTheDocument();
+      expect(await lf.getItem(INSTALL_PROMPT_KEY)).toBe(true);
+
+      await user.click(screen.getByRole("button", { name: "Open Offline Storage" }));
+
+      const storage = await screen.findByRole("dialog", { name: "Settings" });
+      expect(within(storage).getByRole("tab", { name: "Storage" })).toHaveAttribute("aria-selected", "true");
+    });
+
+    it("offers the offline downloads when the browser installs the app", async () => {
+      renderNavBar(resources);
+      await settle();
+      expect(screen.queryByText(prompt)).not.toBeInTheDocument();
+
+      fireEvent(window, new Event("appinstalled"));
+
+      expect(await screen.findByText(prompt)).toBeInTheDocument();
+    });
+
+    it("only offers them once", async () => {
+      await lf.setItem(INSTALL_PROMPT_KEY, true);
+      stubStandalone();
+      renderNavBar(resources);
+
+      await settle();
+      expect(screen.queryByText(prompt)).not.toBeInTheDocument();
+    });
+
+    it("stays quiet when the display settings' content is downloaded", async () => {
+      await downloadText({ type: "arabic", id: "uthmani" }, [1]);
+      await downloadText({ type: "arabic", id: "indopak" }, [1]);
+      stubStandalone();
+      renderNavBar(resources);
+
+      await settle();
+      expect(screen.queryByText(prompt)).not.toBeInTheDocument();
+    });
+
+    it("waits for a launch with a connection", async () => {
+      vi.spyOn(navigator, "onLine", "get").mockReturnValue(false);
+      stubStandalone();
+      renderNavBar(resources);
+
+      await settle();
+      expect(screen.queryByText(prompt)).not.toBeInTheDocument();
+      expect(await lf.getItem(INSTALL_PROMPT_KEY)).toBeNull();
     });
   });
 
