@@ -138,7 +138,10 @@ const SyncProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => 
     };
   }, []);
 
-  useEventListener("visibilitychange", () => visibility === "visible" && run(), { target: () => document });
+  // read from the document: the visibility state may not have re-rendered yet for this event
+  useEventListener("visibilitychange", () => document.visibilityState === "visible" && run(), {
+    target: () => document,
+  });
   useEventListener("online", run);
   useInterval(run, visibility === "visible" ? SYNC_INTERVAL : undefined);
 

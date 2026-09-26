@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 import { stubDrive } from "@/components/test/fakeDrive";
@@ -113,6 +113,25 @@ describe("SyncProvider", () => {
     await setFave(3, 3, true);
 
     await waitFor(() => expect(Object.keys(stored().faves)).toContain("3:3"), { timeout: 5000 });
+  });
+
+  it("syncs when the page becomes visible again, not when it's hidden", async () => {
+    const { drive } = stubDrive(driveFaves(["2:2"]));
+    await lf.setItem(SYNC_STATE_KEY, ACCOUNT);
+    renderProvider();
+    await waitFor(async () => expect(await readFaves()).toEqual(["2:2"]));
+    drive.file = { ...drive.file!, version: 2, content: JSON.stringify(toUserDataFile(driveFaves(["2:2", "4:4"]))) };
+    const setVisibility = (state: DocumentVisibilityState) => {
+      vi.spyOn(document, "visibilityState", "get").mockReturnValue(state);
+      fireEvent(document, new Event("visibilitychange"));
+    };
+
+    setVisibility("hidden");
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    expect(await readFaves()).toEqual(["2:2"]);
+    setVisibility("visible");
+
+    await waitFor(async () => expect(await readFaves()).toEqual(["2:2", "4:4"]));
   });
 
   it("deletes everywhere what another device added since the last sync", async () => {
