@@ -63,6 +63,7 @@ const ChapterPage: NextPage<Props> = async ({ params }) => {
       chapters={chaptersData}
       leftContent={leftContent}
       rightContent={rightContent}
+      readerSettings={readerSettings}
       versesRecitations={versesRecitations}
       recitations={recitations}
       playerSettings={playerSettings}

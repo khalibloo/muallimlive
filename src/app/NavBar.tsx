@@ -2,7 +2,14 @@
 
 import { useState } from "react";
 import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
-import { HeartOutlined, MoonOutlined, ReadOutlined, SettingOutlined, SunOutlined } from "@ant-design/icons";
+import {
+  HeartOutlined,
+  MoonOutlined,
+  ReadOutlined,
+  SearchOutlined,
+  SettingOutlined,
+  SunOutlined,
+} from "@ant-design/icons";
 import Link from "next/link";
 import lf from "localforage";
 import { useBoolean, useEventListener, useMount } from "ahooks";
@@ -11,6 +18,7 @@ import { useFormatter, useTranslations } from "next-intl";
 import OfflineStorage, { getSettingsPacks, usePackLabel } from "@/components/OfflineStorage";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 import { saveColorScheme } from "@/components/saveColorScheme";
+import SearchModal from "@/components/SearchModal";
 import SyncSettings from "@/components/SyncSettings";
 import { COLOR_SCHEMES } from "@/utils/cookies";
 import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
@@ -48,6 +56,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
   const { notification } = App.useApp();
   const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);
   const [settingsTab, setSettingsTab] = useState("display");
+  const [searchOpen, { setTrue: openSearch, setFalse: closeSearch }] = useBoolean(false);
   const format = useFormatter();
   const packLabel = usePackLabel(settingsResources);
 
@@ -159,6 +168,14 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
           ]}
         />
       </Modal>
+      <SearchModal
+        open={searchOpen}
+        onClose={closeSearch}
+        width={modalWidth}
+        chapters={settingsResources.chapters}
+        translations={settingsResources.translations}
+        tafsirs={settingsResources.tafsirs}
+      />
       <div className="flex justify-between items-center h-full px-4">
         <Link href="/" className="flex items-center h-full">
           <Typography.Title level={3} className="m-0">
@@ -166,6 +183,13 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
           </Typography.Title>
         </Link>
         <div className="flex items-center gap-2">
+          <Button
+            type="text"
+            size="large"
+            aria-label={t("search")}
+            icon={<SearchOutlined aria-hidden className="text-2xl" />}
+            onClick={openSearch}
+          />
           <Button
             type="text"
             size="large"

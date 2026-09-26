@@ -7,14 +7,16 @@ import { useBoolean } from "ahooks";
 import clsx from "clsx";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { range } from "lodash-es";
+import { range, uniqBy } from "lodash-es";
 import { MenuOutlined, PlayCircleFilled, ReadOutlined, SearchOutlined } from "@ant-design/icons";
 
 import Verse from "@/components/Verse";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar, { VERSE_SCROLL_OFFSET } from "@/components/AudioBar";
+import { useSetCurrentChapter } from "@/components/ChapterSearchContext";
 import { searchChapters } from "@/utils/chapters";
 import lf from "@/utils/localforage";
+import { getContentPack, packKey } from "@/utils/packs";
 import { FAVES_KEY, liveFaves, readFaves } from "@/utils/userData";
 import ChapterHeader from "./ChapterHeader";
 
@@ -22,6 +24,8 @@ interface Props {
   chapter: Chapter;
   leftContent: VerseText[][];
   rightContent: VerseText[][];
+  /** The settings the content was loaded for, one item per content list */
+  readerSettings: ReaderSettings;
   chapters: { chapters: Chapter[] };
   versesRecitations: { id: number; url: string; verse_key: string }[];
   recitations: GetRecitationsResponse;
@@ -35,6 +39,7 @@ const Chapter: React.FC<Props> = ({
   chapters,
   leftContent,
   rightContent,
+  readerSettings,
   versesRecitations,
   recitations,
   playerSettings,
@@ -49,6 +54,7 @@ const Chapter: React.FC<Props> = ({
   const [playModalOpen, { setTrue: openPlayModal, setFalse: closePlayModal }] = useBoolean(false);
 
   const virtualListRef = useRef<VirtuosoHandle>(null);
+  const setSearchChapter = useSetCurrentChapter();
 
   const [faves, setFaves] = useState<string[]>([]);
   const [playbackConfig, setPlaybackConfig] = useState<PlayConfig>({
@@ -102,20 +108,37 @@ const Chapter: React.FC<Props> = ({
     };
   }, [chapterNumber]);
 
+  const scrollToVerse = (verse: unknown) => {
+    if (typeof verse === "number" && verse > 0 && verse <= currentChapter.verses_count) {
+      virtualListRef.current?.scrollToIndex({
+        index: verse - 1,
+        align: "start",
+        behavior: "smooth",
+        offset: VERSE_SCROLL_OFFSET,
+      });
+      return true;
+    }
+    return false;
+  };
+
+  // the verse search searches the texts on the page, one per pack, while the chapter is open. The deps are props
+  // that only change with the content, and too large to deep-compare on every render.
+  useEffect(() => {
+    const items = [...readerSettings.left, ...readerSettings.right];
+    const contents = [...leftContent, ...rightContent];
+    const texts = uniqBy(
+      items.flatMap((item, i) => {
+        const pack = getContentPack(item);
+        return pack && contents[i] ? [{ pack, verses: contents[i] }] : [];
+      }),
+      ({ pack }) => packKey(pack),
+    );
+    setSearchChapter({ chapter: currentChapter, texts, goToVerse: scrollToVerse });
+    return () => setSearchChapter(undefined);
+  }, [currentChapter, leftContent, rightContent, readerSettings]);
+
   // jump to a shared verse (#v-N), otherwise restore progress
   useEffect(() => {
-    const scrollToVerse = (verse: unknown) => {
-      if (typeof verse === "number" && verse > 0 && verse <= currentChapter.verses_count) {
-        virtualListRef.current?.scrollToIndex({
-          index: verse - 1,
-          align: "start",
-          behavior: "smooth",
-          offset: VERSE_SCROLL_OFFSET,
-        });
-        return true;
-      }
-      return false;
-    };
     const hashVerse = /^#v-(\d+)$/.exec(window.location.hash)?.[1];
     // after storage is ready, so the list has measured its first items
     lf.ready().then(async () => {

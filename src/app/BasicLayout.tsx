@@ -2,6 +2,8 @@
 
 import { Layout } from "antd";
 
+import { ChapterSearchProvider } from "@/components/ChapterSearchContext";
+
 import CookieNotice from "./CookieNotice";
 import NavBar, { type SettingsResources } from "./NavBar";
 import Footer from "./Footer";
@@ -13,7 +15,7 @@ interface Props {
 }
 
 const BasicLayout: React.FC<Props> = ({ settingsResources, colorScheme, children }) => (
-  <>
+  <ChapterSearchProvider>
     <Layout className="min-h-screen">
       <Layout.Header className="w-full p-0 fixed z-10 shadow-md">
         <NavBar settingsResources={settingsResources} colorScheme={colorScheme} />
@@ -24,7 +26,7 @@ const BasicLayout: React.FC<Props> = ({ settingsResources, colorScheme, children
       </Layout.Footer>
     </Layout>
     <CookieNotice />
-  </>
+  </ChapterSearchProvider>
 );
 
 export default BasicLayout;

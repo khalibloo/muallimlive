@@ -3,6 +3,8 @@ import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { ConfigProvider } from "antd";
 
+import { ChapterSearchProvider } from "@/components/ChapterSearchContext";
+import SearchModal from "@/components/SearchModal";
 import TestProviders from "@/components/test/TestProviders";
 import { savePlayerSettings } from "@/components/savePlayerSettings";
 import lf from "@/utils/localforage";
@@ -66,6 +68,11 @@ const leftContent = [
   ],
 ];
 const rightContent = [[verseText(1, "Arabic one"), verseText(2, "Arabic two"), verseText(3, "Arabic three")]];
+const readerSettings: ReaderSettings = {
+  splitView: true,
+  left: [{ content: ["translation", "en", 20] }, { content: ["tafsir", "en", 169] }],
+  right: [{ content: ["translation", "ar", "uthmani"] }],
+};
 
 const versesRecitations = [1, 2, 3].map((n) => ({ id: n, verse_key: `1:${n}`, url: `https://audio.test/1_${n}.mp3` }));
 
@@ -84,11 +91,42 @@ const renderChapter = (notice?: React.ReactNode, chapterList = chapters) => {
           chapters={chapterList}
           leftContent={leftContent}
           rightContent={rightContent}
+          readerSettings={readerSettings}
           versesRecitations={versesRecitations}
           recitations={recitations}
           playerSettings={{ reciter: 1, hideTafsirs: true }}
           notice={notice}
         />
+      </ConfigProvider>
+    </TestProviders>,
+  );
+  return user;
+};
+
+const renderWithSearch = () => {
+  const user = userEvent.setup();
+  render(
+    <TestProviders>
+      <ConfigProvider theme={{ token: { motion: false } }}>
+        <ChapterSearchProvider>
+          <SearchModal
+            open
+            onClose={() => {}}
+            chapters={chapters}
+            translations={{ translations: [] }}
+            tafsirs={{ tafsirs: [{ id: 169, translated_name: { name: "Ibn Kathir" } }] } as GetTafsirsResponse}
+          />
+          <Chapter
+            chapter={alFatihah}
+            chapters={chapters}
+            leftContent={leftContent}
+            rightContent={rightContent}
+            readerSettings={readerSettings}
+            versesRecitations={versesRecitations}
+            recitations={recitations}
+            playerSettings={{ reciter: 1, hideTafsirs: true }}
+          />
+        </ChapterSearchProvider>
       </ConfigProvider>
     </TestProviders>,
   );
@@ -124,6 +162,21 @@ describe("Chapter", () => {
     expect(screen.getByText("The Opener")).toBeInTheDocument();
     expect(screen.getByText("Meccan · 3 verses")).toBeInTheDocument();
     expect(screen.getByText("بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ")).toBeInTheDocument();
+  });
+
+  it("lets the verse search find its verses, tafsirs included, and scroll to them", async () => {
+    const user = renderWithSearch();
+
+    expect(await screen.findByRole("checkbox", { name: "Only Al-Fatihah" })).toBeChecked();
+    await user.type(screen.getByRole("searchbox", { name: "Search words" }), "two");
+    const result = await screen.findByRole("article", { name: "Verse 1:2" });
+    // the translation, the tafsir and the Arabic
+    expect(within(result).getAllByText("two", { selector: "mark" })).toHaveLength(3);
+    expect(within(result).getByText("Ibn Kathir")).toBeInTheDocument();
+    scrollToIndex.mockClear();
+    await user.click(within(result).getByRole("link", { name: "Al-Fatihah 1:2" }));
+
+    expect(scrollToIndex).toHaveBeenCalledWith(expect.objectContaining({ index: 1, align: "start" }));
   });
 
   it("shows a notice above the verses", () => {

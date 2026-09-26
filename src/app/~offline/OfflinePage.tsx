@@ -69,6 +69,7 @@ const OfflineChapter: React.FC<{ id: number }> = ({ id }) => {
       chapters={data.chapters}
       leftContent={leftContent.map((c) => c ?? [])}
       rightContent={rightContent.map((c) => c ?? [])}
+      readerSettings={readerSettings}
       versesRecitations={data.versesRecitations ?? []}
       recitations={data.recitations}
       playerSettings={playerSettings}

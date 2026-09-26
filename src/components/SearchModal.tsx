@@ -1,0 +1,285 @@
+"use client";
+
+import { Fragment, useDeferredValue, useState } from "react";
+import { Alert, App, Button, Checkbox, Empty, Input, Modal, Progress, Spin, Typography } from "antd";
+import { DownloadOutlined, SearchOutlined } from "@ant-design/icons";
+import { useCookieState, useRequest } from "ahooks";
+import clsx from "clsx";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
+
+import { parseReaderSettings, READER_SETTINGS_KEY } from "@/utils/cookies";
+import { downloadText, getDownloadStatus, isOfflineStorageSupported, useDownloads } from "@/utils/offline";
+import { packKey, type ContentPack } from "@/utils/packs";
+import { getChapterIndex, highlight, loadPackIndex, searchIndexes } from "@/utils/search";
+import { useCurrentChapter } from "./ChapterSearchContext";
+import { getSettingsPacks, usePackLabel } from "./OfflineStorage";
+
+interface Props {
+  open: boolean;
+  onClose: () => void;
+  width?: string;
+  chapters: GetChaptersResponse;
+  translations: GetTranslationsResponse;
+  tafsirs: GetTafsirsResponse;
+}
+
+const PAGE_SIZE = 50;
+
+// Searches the display settings' texts: the current chapter's from the page, or the whole Qur'an's from the
+// downloaded offline packs. Tafsirs are only searched in a chapter, as their packs are too large to index.
+const VerseSearch: React.FC<Omit<Props, "open" | "width">> = ({ onClose, chapters, translations, tafsirs }) => {
+  const t = useTranslations("common");
+  const { notification } = App.useApp();
+  const current = useCurrentChapter();
+  const [readerSettingsCookie] = useCookieState(READER_SETTINGS_KEY);
+  const packLabel = usePackLabel({ translations, tafsirs });
+  const downloads = useDownloads();
+  const supported = isOfflineStorageSupported();
+  const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
+  // on by default, also for a chapter that registers while the modal is open
+  const [thisChapter = true, setThisChapter] = useState<boolean>();
+  const [excluded, setExcluded] = useState<string[]>([]);
+  const [visible, setVisible] = useState(PAGE_SIZE);
+
+  const inChapter = thisChapter && !!current;
+  const chapterIds = chapters.chapters.map((c) => c.id);
+  const settingsPacks = getSettingsPacks(parseReaderSettings(readerSettingsCookie));
+
+  const { data: status, refresh } = useRequest(getDownloadStatus, {
+    ready: supported && !inChapter,
+    // a download finishing changes the download keys, which reloads the status
+    refreshDeps: [Object.keys(downloads).join()],
+  });
+
+  const texts: { pack: ContentPack; available: boolean }[] = inChapter
+    ? current.texts.map(({ pack }) => ({ pack, available: true }))
+    : settingsPacks
+        .filter((p) => p.type !== "tafsir")
+        .map((pack) => ({
+          pack,
+          available: chapterIds.length > 0 && status?.text[packKey(pack)] === chapterIds.length,
+        }));
+  const selectedKeys = texts
+    .filter((p) => p.available && !excluded.includes(packKey(p.pack)))
+    .map((p) => packKey(p.pack));
+
+  const { data: packIndexes, loading: indexing } = useRequest(
+    () =>
+      Promise.all(
+        texts
+          .filter((p) => selectedKeys.includes(packKey(p.pack)))
+          .map(async ({ pack }) => ({ key: packKey(pack), index: await loadPackIndex(pack, chapterIds) })),
+      ),
+    { ready: !inChapter && !!status, refreshDeps: [selectedKeys.join()] },
+  );
+
+  const indexes = inChapter
+    ? current.texts
+        .filter(({ pack }) => selectedKeys.includes(packKey(pack)))
+        .map(({ pack, verses }) => ({ key: packKey(pack), index: getChapterIndex(verses) }))
+    : (packIndexes ?? []).filter((i) => selectedKeys.includes(i.key));
+  const hits = searchIndexes(indexes, deferredQuery);
+
+  const toggleText = (key: string, checked: boolean) => {
+    setExcluded(checked ? excluded.filter((k) => k !== key) : [...excluded, key]);
+    setVisible(PAGE_SIZE);
+  };
+
+  const download = async (pack: ContentPack) => {
+    try {
+      await downloadText(pack, chapterIds);
+    } catch {
+      notification.error({ title: t("download-failed") });
+    }
+    refresh();
+  };
+
+  const renderResults = () => {
+    if (selectedKeys.length === 0) {
+      return <Typography.Text type="secondary">{t("search-no-texts")}</Typography.Text>;
+    }
+    if (!inChapter && indexing) {
+      return <Spin description={t("search-preparing")} />;
+    }
+    if (!deferredQuery.trim()) {
+      return null;
+    }
+    if (hits.length === 0) {
+      return <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={t("no-verses-found")} />;
+    }
+    return (
+      <>
+        <Typography.Text type="secondary">{t("search-results", { count: hits.length })}</Typography.Text>
+        <div className="max-h-[60vh] overflow-y-auto mt-2 divide-y divide-line">
+          {hits.slice(0, visible).map((hit) => {
+            const reference = { chapter: hit.chapter, verse: hit.verse };
+            const chapter = chapters.chapters.find((c) => c.id === hit.chapter);
+            return (
+              <article key={hit.verseKey} aria-label={t("verse-reference", reference)} className="py-4 pr-2">
+                <Link
+                  href={`/chapters/${hit.chapter}#v-${hit.verse}`}
+                  className="font-semibold"
+                  onClick={(e) => {
+                    // the current chapter is already on the page, so its list scrolls there
+                    if (current?.chapter.id === hit.chapter) {
+                      e.preventDefault();
+                      current.goToVerse(hit.verse);
+                    }
+                    onClose();
+                  }}
+                >
+                  {chapter
+                    ? t("chapter-verse", { name: chapter.name_simple, ...reference })
+                    : t("verse-reference", reference)}
+                </Link>
+                {hit.texts.map(({ key, text, terms }) => {
+                  const pack = texts.find((p) => packKey(p.pack) === key)!.pack;
+                  const { parts, before, after } = highlight(text, terms);
+                  const arabic = pack.type === "arabic";
+                  return (
+                    <div key={key} className="mt-2">
+                      <Typography.Text type="secondary" className="text-xs">
+                        {packLabel(pack)}
+                      </Typography.Text>
+                      <p
+                        dir={arabic ? "rtl" : undefined}
+                        lang={arabic ? "ar" : undefined}
+                        className={clsx("m-0", { "text-arabic text-verse-arabic": arabic })}
+                      >
+                        {before && t("ellipsis")}
+                        {parts.map((part, i) =>
+                          part.match ? (
+                            <mark key={i} className="bg-primary/25 text-inherit rounded-sm">
+                              {part.text}
+                            </mark>
+                          ) : (
+                            <Fragment key={i}>{part.text}</Fragment>
+                          ),
+                        )}
+                        {after && t("ellipsis")}
+                      </p>
+                    </div>
+                  );
+                })}
+              </article>
+            );
+          })}
+          {hits.length > visible && (
+            <div className="py-4 text-center">
+              <Button onClick={() => setVisible(visible + PAGE_SIZE)}>{t("show-more")}</Button>
+            </div>
+          )}
+        </div>
+      </>
+    );
+  };
+
+  const renderTexts = () => {
+    if (!inChapter && !status) {
+      return <Spin />;
+    }
+    return (
+      <>
+        <ul className="list-none m-0 p-0">
+          {texts.map(({ pack, available }) => {
+            const key = packKey(pack);
+            const label = packLabel(pack);
+            const progress = downloads[key];
+            return (
+              <li key={key} className="flex items-center gap-4 py-1">
+                <Checkbox
+                  checked={selectedKeys.includes(key)}
+                  disabled={!available}
+                  onChange={(e) => toggleText(key, e.target.checked)}
+                >
+                  {label}
+                </Checkbox>
+                {progress !== undefined && (
+                  <Progress
+                    className="grow m-0"
+                    percent={Math.floor(progress * 100)}
+                    size="small"
+                    aria-label={t("download-progress")}
+                  />
+                )}
+                {!available && (
+                  <Button
+                    size="small"
+                    icon={<DownloadOutlined aria-hidden />}
+                    loading={progress !== undefined}
+                    aria-label={t("download-pack", { name: label })}
+                    onClick={() => download(pack)}
+                  >
+                    {t("download")}
+                  </Button>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+        {!inChapter && settingsPacks.some((p) => p.type === "tafsir") && (
+          <Typography.Paragraph type="secondary" className="mt-2 mb-0">
+            {t("search-tafsirs-chapter-only")}
+          </Typography.Paragraph>
+        )}
+        {texts.some((p) => !p.available) && (
+          <Alert className="mt-2" type="info" showIcon title={t("search-download-needed")} />
+        )}
+      </>
+    );
+  };
+
+  return (
+    <>
+      {current && (
+        <Checkbox
+          className="mb-4"
+          checked={thisChapter}
+          onChange={(e) => {
+            setThisChapter(e.target.checked);
+            setVisible(PAGE_SIZE);
+          }}
+        >
+          {t("search-this-chapter", { name: current.chapter.name_simple })}
+        </Checkbox>
+      )}
+      {!inChapter && !supported ? (
+        <Alert type="warning" showIcon title={t("search-unsupported")} />
+      ) : (
+        <>
+          <Input
+            allowClear
+            type="search"
+            size="large"
+            aria-label={t("search-query")}
+            placeholder={t("search-query")}
+            prefix={<SearchOutlined aria-hidden />}
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setVisible(PAGE_SIZE);
+            }}
+          />
+          <Typography.Title level={5} className="mt-4">
+            {t("search-texts")}
+          </Typography.Title>
+          {renderTexts()}
+          <div className="mt-4">{renderResults()}</div>
+        </>
+      )}
+    </>
+  );
+};
+
+const SearchModal: React.FC<Props> = ({ open, width, ...props }) => {
+  const t = useTranslations("common");
+  return (
+    <Modal destroyOnHidden open={open} footer={null} onCancel={props.onClose} width={width} title={t("search-verses")}>
+      <VerseSearch {...props} />
+    </Modal>
+  );
+};
+
+export default SearchModal;

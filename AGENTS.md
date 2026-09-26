@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**MuallimLive** is a Qur'an reading and recitation app. Readers browse the 114 chapters, read each verse alongside configurable translations, tafsirs and Arabic scripts (optionally in a split view), play verse recitations, keep favorites and per-verse notes (listed together on the Favorites & Notes page), install the site as a PWA, and download content and recitations for offline use.
+**MuallimLive** is a Qur'an reading and recitation app. Readers browse the 114 chapters, read each verse alongside configurable translations, tafsirs and Arabic scripts (optionally in a split view), play verse recitations, search the verses of their texts, keep favorites and per-verse notes (listed together on the Favorites & Notes page), install the site as a PWA, and download content and recitations for offline use.
 
 - **Stack**: Next.js 16 (App Router, Turbopack), TypeScript, React 19, Ant Design 6 (https://ant.design/llms.txt), TailwindCSS 4
 - **Data Layer**: Static Qur'an JSON served from a CDN (`API_URI`), fetched in server components with `fetchData()` (`force-cache`). The browser never sees the CDN: offline downloads go through the `/api/content` and `/api/resources` route handlers. Recitation audio comes straight from a third-party host (`NEXT_PUBLIC_API_MEDIA_URI`)
@@ -90,7 +90,7 @@ Every Arabic script, translation and tafsir is its own **text pack**, and each r
 
 - `src/utils/packs.ts` maps reader settings to packs (`getContentPack`) and builds the same-origin URLs: `/api/content/<type>/<id>/<chapter>` and `/api/resources/<chapters|recitations>`.
 - `src/utils/content.ts` is the server side: it reads the CDN with `fetchData()` and returns one pack's verse texts (or a reciter's recitation list) for a chapter. The route handlers under `src/app/api/` serve it with `CACHE_HEADERS` (`s-maxage` so Netlify's CDN caches them).
-- `src/utils/offline.ts` is the client side: `downloadText`/`downloadAudio` fill the `content-packs` and `audio-packs` caches (with `p-limit`), `getDownloadStatus` lists what's stored, and `useDownloads` tracks progress. For audio, the recitation list is stored after its mp3s, so it marks a complete chapter.
+- `src/utils/offline.ts` is the client side: `downloadText`/`downloadAudio` fill the `content-packs` and `audio-packs` caches (with `p-limit`), `getDownloadStatus` lists what's stored, `readText` reads a downloaded text pack back, and `useDownloads` tracks progress. For audio, the recitation list is stored after its mp3s, so it marks a complete chapter.
 - Only `offline.ts` writes the caches. The service worker reads them: navigations and RSC requests are `NetworkOnly`, `/api/content/` answers from the cache first, and `.mp3` files use `CacheFirst` with `RangeRequestsPlugin` and no automatic writes.
 - Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter, home or Favorites & Notes page from `window.location`, the reader settings cookie and the packs (fetched with `getJson`), and warns when a chapter pane's pack is missing.
 - The precached page keeps the theme and text size it was saved with, so the root layout's `SETTINGS_SCRIPT` applies the cookies' `<html>` class and `--reader-scale` before the first paint, and `useColorScheme` (`Providers`, `NavBar`) switches the antd theme to the cookie's scheme after hydration.
@@ -107,6 +107,15 @@ Favorites and notes can sync between a reader's devices through `muallimlive-dat
 - **`SyncProvider`** (in `Providers`) syncs on load, 3 s after a local change, on becoming visible or online, and every 5 minutes while visible. It handles `?sync=connected|failed` after sign-in (then removes the param) and shows `SyncDialogs`: the merge choice and an undismissable "sign in again" dialog (sign in, stop syncing, or clear data and stop).
 - **`SyncSettings`** (Settings → Sync & Backup): connect, sync now, stop syncing, JSON export/import (import merges), clear this device, and delete from all devices (which syncs first, so it also deletes what other devices synced since).
 - The service worker sends `www.googleapis.com` requests `NetworkOnly`.
+
+### 8. Verse search
+
+`SearchModal` (the Search button in `NavBar`) searches the display settings' texts in the browser with `minisearch` (`src/utils/search.ts`). Chapter names keep their `fuse.js` search.
+
+- `search.ts` builds one word index per text, normalizing texts and queries alike (`normalizeTerm`: no accents, Arabic diacritics or Qur'anic marks, one alef and one yaa) after `toPlainText` strips the CDN HTML. Every query word must match, as a prefix, with small typos allowed in longer words. `highlight` marks the matched words and shortens long texts around the first match.
+- **Current chapter**: `Chapter` registers its texts, one per pack, and `goToVerse` through `ChapterSearchContext` (the provider is in `BasicLayout`). "Only <chapter>" is on by default there; it searches what the page already holds, tafsirs included, and a result scrolls the verse list instead of navigating.
+- **Whole Qur'an**: searches the Arabic scripts and translations whose text packs are downloaded for every chapter, indexed once per session from Cache Storage (`loadPackIndex`). Tafsirs are left out, as their packs are too large to index. Missing packs can be downloaded from the modal, and browsers without Cache Storage can only search a chapter.
+- Each text can be ticked off; results show 50 at a time.
 - Merging trusts each device's clock, so a device whose clock is wrong can let an older edit win.
 
 ## Development Workflows
@@ -229,12 +238,15 @@ src/
 │   ├── ReaderSettingsForm.tsx    # Display settings form
 │   ├── save*Settings.ts, saveColorScheme.ts # Server actions writing settings cookies
 │   ├── SafeHtml.tsx              # DOMPurify-sanitized HTML
+│   ├── SearchModal.tsx           # Verse search: the chapter's texts or the downloaded packs
+│   ├── ChapterSearchContext.tsx  # The open chapter's texts, for the verse search
 │   ├── SyncProvider.tsx          # Runs Drive sync in the background, handles ?sync= after sign-in
 │   ├── SyncDialogs.tsx           # Merge choice and the required "sign in again" dialog
 │   ├── SyncSettings.tsx          # Sync & Backup settings tab
 │   └── test/                     # TestProviders, fakeCaches, fakeDrive, fakeCookies
 ├── utils/                        # config, fetcher, cookies, localforage, chapters, packs, content, offline,
-│                                 # userData (faves/notes format and merge), sync, syncSession (server)
+│                                 # userData (faves/notes format and merge), sync, syncSession (server),
+│                                 # search (verse indexes and highlighting)
 ├── proxy.ts                      # Renews the settings cookies on page visits
 ├── i18n/request.ts               # next-intl request config
 ├── locales/en/common.json        # UI strings

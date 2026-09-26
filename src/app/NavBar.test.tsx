@@ -64,6 +64,14 @@ describe("NavBar", () => {
     expect(screen.getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
   });
 
+  it("opens the verse search", async () => {
+    const user = renderNavBar();
+
+    await user.click(screen.getByRole("button", { name: "Search" }));
+
+    expect(await screen.findByRole("dialog", { name: "Search Verses" })).toBeInTheDocument();
+  });
+
   it.each([
     ["dark", "Light", "light"],
     ["light", "Sepia", "sepia"],

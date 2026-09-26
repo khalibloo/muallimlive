@@ -77,6 +77,21 @@ export const downloadText = (pack: ContentPack, chapterIds: number[]) =>
     );
   });
 
+/** A downloaded pack's verse texts for the chapters, in order. Fails when a chapter isn't downloaded. */
+export const readText = async (pack: ContentPack, chapterIds: number[]) => {
+  const cache = await caches.open(TEXT_CACHE);
+  const chapters = await Promise.all(
+    chapterIds.map(async (id) => {
+      const response = await cache.match(contentUrl(pack, id));
+      if (!response) {
+        throw new Error(`Chapter ${id} of ${packKey(pack)} isn't downloaded`);
+      }
+      return (await response.json()) as VerseText[];
+    }),
+  );
+  return chapters.flat();
+};
+
 export const removeText = async (pack: ContentPack) => {
   const cache = await caches.open(TEXT_CACHE);
   const prefix = `/api/content/${packKey(pack)}/`;

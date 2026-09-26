@@ -155,7 +155,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
             {chapterVerses.map((verse) => (
               <li key={verse.verse}>
                 <article
-                  aria-label={t("saved-verse", verse)}
+                  aria-label={t("verse-reference", verse)}
                   className="rounded-xl border border-line bg-surface px-4 md:px-6 py-4"
                 >
                   <div className="flex items-center justify-between gap-2">
