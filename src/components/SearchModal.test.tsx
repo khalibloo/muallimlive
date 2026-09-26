@@ -103,6 +103,7 @@ describe("SearchModal", () => {
 
       expect(screen.getByRole("dialog", { name: "Search Verses" })).toBeInTheDocument();
       expect(screen.getByRole("checkbox", { name: "Only Al-Baqarah" })).toBeChecked();
+      await vi.waitFor(() => expect(screen.getByRole("searchbox", { name: "Search words" })).toHaveFocus());
       await search(user, "patience");
 
       const result = await screen.findByRole("article", { name: "Verse 2:153" });

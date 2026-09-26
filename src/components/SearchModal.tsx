@@ -250,6 +250,8 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width">> = ({ onClose, chapter
       ) : (
         <>
           <Input
+            // eslint-disable-next-line jsx-a11y/no-autofocus
+            autoFocus
             allowClear
             type="search"
             size="large"

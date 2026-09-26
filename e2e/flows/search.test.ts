@@ -17,7 +17,9 @@ test.describe("Verse search", () => {
     const dialog = await openSearch(testPage);
 
     await expect(dialog.getByRole("checkbox", { name: `Only ${chapterName(112)}`, exact: true })).toBeChecked();
-    await dialog.getByRole("searchbox", { name: "Search words", exact: true }).fill("begotten");
+    const searchbox = dialog.getByRole("searchbox", { name: "Search words", exact: true });
+    await expect(searchbox).toBeFocused();
+    await searchbox.fill("begotten");
 
     const result = dialog.getByRole("article", { name: "Verse 112:3", exact: true });
     await expect(result.getByText("begotten", { exact: true })).toBeVisible();
