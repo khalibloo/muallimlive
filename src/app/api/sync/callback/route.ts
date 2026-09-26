@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 import config from "@/utils/config";
-import { getLoginSession, getSyncSession, googleClient } from "@/utils/syncSession";
+import { DRIVE_SCOPE, getLoginSession, getSyncSession, googleClient } from "@/utils/syncSession";
 
 export async function GET(request: NextRequest) {
   const { origin, searchParams } = request.nextUrl;
@@ -22,7 +22,8 @@ export async function GET(request: NextRequest) {
   try {
     const client = googleClient(origin);
     const { tokens } = await client.getToken({ code, codeVerifier });
-    if (!tokens.refresh_token || !tokens.id_token) {
+    // the reader can untick Drive access on Google's consent screen
+    if (!tokens.refresh_token || !tokens.id_token || !tokens.scope?.split(" ").includes(DRIVE_SCOPE)) {
       return back("failed");
     }
     const ticket = await client.verifyIdToken({ idToken: tokens.id_token, audience: config.googleClientId });

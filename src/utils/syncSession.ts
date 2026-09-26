@@ -18,7 +18,8 @@ interface LoginSession {
   returnTo: string;
 }
 
-export const SCOPES = ["openid", "email", "https://www.googleapis.com/auth/drive.appdata"];
+export const DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.appdata";
+export const SCOPES = ["openid", "email", DRIVE_SCOPE];
 
 export const googleClient = (origin: string) =>
   new OAuth2Client({
@@ -47,6 +48,7 @@ export const getLoginSession = async () =>
 
 /** A path on this site to return to after signing in; anything else returns home */
 export const safeReturnTo = (value: string | null, origin: string) => {
-  const target = new URL(value || "/", origin);
-  return target.origin === origin ? `${target.pathname}${target.search}` : "/";
+  const target = URL.parse(value || "/", origin);
+  // a path starting with "//" would leave the site when resolved again
+  return target?.origin === origin && !target.pathname.startsWith("//") ? `${target.pathname}${target.search}` : "/";
 };

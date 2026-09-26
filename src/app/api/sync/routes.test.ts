@@ -25,7 +25,12 @@ const refreshAccessToken = vi.spyOn(OAuth2Client.prototype, "refreshAccessToken"
 const revokeToken = vi.spyOn(OAuth2Client.prototype, "revokeToken");
 
 const ORIGIN = "http://localhost:3000";
-const tokens = { access_token: "access-token", refresh_token: "refresh-token", id_token: "id-token" };
+const tokens = {
+  access_token: "access-token",
+  refresh_token: "refresh-token",
+  id_token: "id-token",
+  scope: "https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/drive.appdata",
+};
 // what gaxios throws when Google answers with an OAuth error
 const googleError = (error: string) => Object.assign(new Error(error), { response: { data: { error } } });
 
@@ -71,7 +76,7 @@ describe("sync routes", () => {
       expect(jar.get("sync-login")?.options).toMatchObject({ httpOnly: true, path: "/api/sync" });
     });
 
-    it.each(["https://evil.example/", "//evil.example/", "/\\evil.example"])(
+    it.each(["https://evil.example/", "//evil.example/", "/\\evil.example", "/.//evil.example", "http://["])(
       "returns home instead of to %s",
       async (returnTo) => {
         const { state } = await startLogin(returnTo);
@@ -126,6 +131,19 @@ describe("sync routes", () => {
     it("fails when Google returns no refresh token", async () => {
       const { state } = await startLogin("/");
       getToken.mockResolvedValue({ tokens: { ...tokens, refresh_token: undefined }, res: null } as never);
+
+      const response = await finishLogin(`code=abc&state=${state}`);
+
+      expect(response.headers.get("Location")).toBe(`${ORIGIN}/?sync=failed`);
+      expect(jar.has("sync-session")).toBe(false);
+    });
+
+    it("fails when the reader withheld access to Drive", async () => {
+      const { state } = await startLogin("/");
+      getToken.mockResolvedValue({
+        tokens: { ...tokens, scope: "https://www.googleapis.com/auth/userinfo.email openid" },
+        res: null,
+      } as never);
 
       const response = await finishLogin(`code=abc&state=${state}`);
 
