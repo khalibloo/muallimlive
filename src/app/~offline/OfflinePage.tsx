@@ -6,19 +6,10 @@ import { useCookieState, useRequest } from "ahooks";
 import { useTranslations } from "next-intl";
 
 import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SETTINGS_KEY } from "@/utils/cookies";
-import { contentUrl, getContentPack, recitationUrl, resourceUrl } from "@/utils/packs";
+import { contentUrl, getContentPack, getJson, recitationUrl, resourceUrl } from "@/utils/packs";
 import Chapter from "../chapters/[id]/Chapter";
 import Home from "../Home";
-
-/** Resolves to undefined when the response isn't downloaded (the service worker's fetch fails offline) */
-const getJson = async <T,>(url: string): Promise<T | undefined> => {
-  try {
-    const response = await fetch(url);
-    return response.ok ? await response.json() : undefined;
-  } catch {
-    return undefined;
-  }
-};
+import Saved from "../saved/Saved";
 
 const Unavailable: React.FC = () => {
   const t = useTranslations("common");
@@ -98,6 +89,19 @@ const OfflineHome: React.FC = () => {
   return <Home chapters={chapters.chapters} />;
 };
 
+const OfflineSaved: React.FC = () => {
+  const [readerSettingsCookie] = useCookieState(READER_SETTINGS_KEY);
+  const { data: chapters, loading } = useRequest(() => getJson<GetChaptersResponse>(resourceUrl("chapters")));
+
+  if (loading) {
+    return <Spin className="mt-12" />;
+  }
+  if (!chapters) {
+    return <Unavailable />;
+  }
+  return <Saved chapters={chapters.chapters} readerSettings={parseReaderSettings(readerSettingsCookie)} />;
+};
+
 // The page is served in place of whichever page failed to load, so the URL is the page to show
 const subscribe = () => () => {};
 
@@ -116,6 +120,9 @@ const OfflinePage: React.FC = () => {
   }
   if (pathname === "/") {
     return <OfflineHome />;
+  }
+  if (pathname === "/saved") {
+    return <OfflineSaved />;
   }
   return <Unavailable />;
 };

@@ -58,6 +58,12 @@ describe("NavBar", () => {
     expect(screen.getByRole("heading", { level: 3, name: "MuallimLive" })).toBeInTheDocument();
   });
 
+  it("links to the favorites and notes", () => {
+    renderNavBar();
+
+    expect(screen.getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
+  });
+
   it.each([
     ["dark", "Light", "light"],
     ["light", "Sepia", "sepia"],

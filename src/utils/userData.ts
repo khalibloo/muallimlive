@@ -11,6 +11,8 @@ const NOTES_PREFIX = "notes-quran-";
 const VERSE_KEY = /^\d+:\d+$/;
 
 export const noteKey = (chapter: number, verse: number) => `${NOTES_PREFIX}${chapter}-${verse}`;
+/** Whether a localforage key holds favorites or notes */
+export const isUserDataKey = (key: string) => key === FAVES_KEY || key.startsWith(NOTES_PREFIX);
 const storageKey = (verseKey: string) => `${NOTES_PREFIX}${verseKey.replace(":", "-")}`;
 const verseKeyOf = (key: string) => key.slice(NOTES_PREFIX.length).replace("-", ":");
 

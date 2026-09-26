@@ -40,3 +40,13 @@ export const contentUrl = (pack: ContentPack, chapter: number) => `/api/content/
 export const recitationUrl = (reciter: number, chapter: number) => `/api/content/recitation/${reciter}/${chapter}`;
 
 export const resourceUrl = (name: "chapters" | "recitations") => `/api/resources/${name}`;
+
+/** Resolves to undefined when the response can't be loaded (offline, the service worker's fetch fails for packs that aren't downloaded) */
+export const getJson = async <T>(url: string): Promise<T | undefined> => {
+  try {
+    const response = await fetch(url);
+    return response.ok ? await response.json() : undefined;
+  } catch {
+    return undefined;
+  }
+};

@@ -44,6 +44,12 @@ describe("Home", () => {
     expect(screen.queryByText("Continue reading")).not.toBeInTheDocument();
   });
 
+  it("links to the favorites and notes", () => {
+    renderHome();
+
+    expect(screen.getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
+  });
+
   it("searches the chapters", async () => {
     const user = renderHome();
 

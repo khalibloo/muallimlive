@@ -31,7 +31,7 @@ interface Props {
 }
 
 /** Verse text scales with the reader's text size; Arabic in the right pane is the larger script */
-const verseTextClassName = (v: VerseText, rightPane?: boolean) =>
+export const verseTextClassName = (v: VerseText, rightPane?: boolean) =>
   clsx({
     "text-arabic": v.isArabic,
     "text-verse-arabic": v.isArabic && !rightPane,

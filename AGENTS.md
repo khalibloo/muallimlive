@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**MuallimLive** is a Qur'an reading and recitation app. Readers browse the 114 chapters, read each verse alongside configurable translations, tafsirs and Arabic scripts (optionally in a split view), play verse recitations, keep favorites and per-verse notes, install the site as a PWA, and download content and recitations for offline use.
+**MuallimLive** is a Qur'an reading and recitation app. Readers browse the 114 chapters, read each verse alongside configurable translations, tafsirs and Arabic scripts (optionally in a split view), play verse recitations, keep favorites and per-verse notes (listed together on the Favorites & Notes page), install the site as a PWA, and download content and recitations for offline use.
 
 - **Stack**: Next.js 16 (App Router, Turbopack), TypeScript, React 19, Ant Design 6 (https://ant.design/llms.txt), TailwindCSS 4
 - **Data Layer**: Static Qur'an JSON served from a CDN (`API_URI`), fetched in server components with `fetchData()` (`force-cache`). The browser never sees the CDN: offline downloads go through the `/api/content` and `/api/resources` route handlers. Recitation audio comes straight from a third-party host (`NEXT_PUBLIC_API_MEDIA_URI`)
@@ -62,6 +62,7 @@ if (!chapter) {
 - The **text size** (`ReaderSettings.textSize`, a percentage, default 100) is set by the root layout as `--reader-scale` on `<html>`; the `text-verse*` Tailwind sizes scale with it, so verse text uses them instead of fixed sizes.
 - The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme dropdown in `NavBar`). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
 - **Favorites** (`faves-quran`) and **notes** (`notes-quran-<chapter>-<verse>`) are stored client-side with `localforage` (`src/utils/localforage.ts`), and read and written only through `src/utils/userData.ts`: the timestamped format (a deleted fave or note keeps a `deleted` marker), the one-time conversion of the old format, `mergeUserData` (newest `updatedAt` wins), and the change counter (`user-data-change`) that every write bumps. Components subscribe to the same keys with `lf.newObservable(...)` and must unsubscribe on unmount.
+- **Favorites & Notes page** (`/saved`, linked from `NavBar` and `Home`): `Saved` lists the favorite verses and the verses with notes in two tabs, by chapter, each linking to `/chapters/<chapter>#v-<verse>` with the existing `Fave` and `Notes` buttons. Favorites and notes live in the browser, so it loads their verse texts there, through the `/api/content` packs (the display settings' Arabic scripts and translations, not tafsirs), once per chapter. It observes every localforage key and reloads on the ones `isUserDataKey` matches, since notes are stored per verse.
 - **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for the home page's "continue reading"). Opening a different chapter sets `last-read` to its verse 1 before any verse scrolls into view.
 - **Verse links**: `Share` shares `/chapters/<chapter>#v-<verse>` with the Web Share API, or copies it to the clipboard where that API is missing. On load, `Chapter` scrolls to a valid `#v-N` verse instead of the saved progress.
 
@@ -91,7 +92,7 @@ Every Arabic script, translation and tafsir is its own **text pack**, and each r
 - `src/utils/content.ts` is the server side: it reads the CDN with `fetchData()` and returns one pack's verse texts (or a reciter's recitation list) for a chapter. The route handlers under `src/app/api/` serve it with `CACHE_HEADERS` (`s-maxage` so Netlify's CDN caches them).
 - `src/utils/offline.ts` is the client side: `downloadText`/`downloadAudio` fill the `content-packs` and `audio-packs` caches (with `p-limit`), `getDownloadStatus` lists what's stored, and `useDownloads` tracks progress. For audio, the recitation list is stored after its mp3s, so it marks a complete chapter.
 - Only `offline.ts` writes the caches. The service worker reads them: navigations and RSC requests are `NetworkOnly`, `/api/content/` answers from the cache first, and `.mp3` files use `CacheFirst` with `RangeRequestsPlugin` and no automatic writes.
-- Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter from `window.location`, the reader settings cookie and the packs, and warns when a pane's pack is missing.
+- Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter, home or Favorites & Notes page from `window.location`, the reader settings cookie and the packs (fetched with `getJson`), and warns when a chapter pane's pack is missing.
 - The precached page keeps the theme and text size it was saved with, so the root layout's `SETTINGS_SCRIPT` applies the cookies' `<html>` class and `--reader-scale` before the first paint, and `useColorScheme` (`Providers`, `NavBar`) switches the antd theme to the cookie's scheme after hydration.
 - `OfflineStorage` (Settings → Offline Storage) manages downloads. After a reader saves display settings that use a pack they haven't downloaded (while having downloaded others), `NavBar` shows a notification that opens it.
 - `NavBar` also offers the downloads once after the app is installed: on Chromium's `appinstalled` event, or on the first launch in `display-mode: standalone` (iOS fires no install event). It skips readers who already have their display settings' content or are offline, and stores `offline-install-prompt-shown` in localforage.
@@ -209,6 +210,7 @@ src/
 │   ├── BasicLayout.tsx           # NavBar + content + Footer + CookieNotice
 │   ├── page.tsx, Home.tsx        # Home: continue reading + searchable chapter grid
 │   ├── chapters/[id]/            # Chapter page (server) + Chapter, ChapterHeader (client)
+│   ├── saved/                    # Favorites & Notes page (server) + Saved (client)
 │   ├── privacy/, terms/          # Legal pages
 │   ├── api/                      # Route handlers proxying offline packs from the CDN
 │   ├── api/sync/                 # Google sign-in for Drive sync: login, callback, token, disconnect

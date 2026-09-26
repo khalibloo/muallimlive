@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
-import { MoonOutlined, ReadOutlined, SettingOutlined, SunOutlined } from "@ant-design/icons";
+import { HeartOutlined, MoonOutlined, ReadOutlined, SettingOutlined, SunOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import lf from "localforage";
 import { useBoolean, useEventListener, useMount } from "ahooks";
@@ -166,6 +166,13 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
           </Typography.Title>
         </Link>
         <div className="flex items-center gap-2">
+          <Button
+            type="text"
+            size="large"
+            href="/saved"
+            aria-label={t("saved")}
+            icon={<HeartOutlined aria-hidden className="text-2xl" />}
+          />
           <Dropdown
             trigger={["click"]}
             menu={{

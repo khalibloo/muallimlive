@@ -1,9 +1,10 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 
 import { stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
+import { setFave } from "@/utils/userData";
 import OfflinePage from "./OfflinePage";
 
 // renders every item so all verses are reachable
@@ -121,6 +122,24 @@ describe("OfflinePage", () => {
   it("is unavailable at home without the chapter list", async () => {
     vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
     renderAt("/");
+
+    expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
+  });
+
+  it("renders the favorites from the downloaded content", async () => {
+    stubFetch(responses);
+    await setFave(1, 1, true);
+    renderAt("/saved");
+
+    expect(await screen.findByRole("heading", { level: 1, name: "Favorites & Notes" })).toBeInTheDocument();
+    const verse = await screen.findByRole("article", { name: "Verse 1:1" });
+    expect(await within(verse).findByText("In the name of Allah")).toBeInTheDocument();
+    expect(within(verse).getByText("بِسْمِ ٱللَّهِ")).toBeInTheDocument();
+  });
+
+  it("is unavailable for favorites without the chapter list", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
+    renderAt("/saved");
 
     expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
   });

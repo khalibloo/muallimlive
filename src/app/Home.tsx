@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Card, Empty, Input, Typography } from "antd";
-import { ArrowRightOutlined, SearchOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined, HeartOutlined, SearchOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -48,6 +48,10 @@ const Home: React.FC<Props> = ({ chapters }) => {
           </Card>
         </Link>
       )}
+      <Link href="/saved" className="mb-6 inline-flex items-center gap-2">
+        <HeartOutlined aria-hidden />
+        {t("saved")}
+      </Link>
       <Input
         allowClear
         size="large"
