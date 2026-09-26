@@ -106,6 +106,18 @@ describe("syncNow", () => {
     expect(await syncNow()).toBe("skipped");
   });
 
+  it("asks to sign in again instead of syncing another account's Drive", async () => {
+    const { drive, fetchMock } = stubDrive(driveData(["2:2"]));
+    drive.account = { accountId: "user-2", email: "other@example.com" };
+    await setFave(1, 1, true);
+    await startSyncing();
+
+    await expect(syncNow()).rejects.toEqual(new SyncError("reauth"));
+    expect(await syncState()).toMatchObject({ ...ACCOUNT, needsReauth: true });
+    expect(await readFaves()).toEqual(["1:1"]);
+    expect(uploads(fetchMock)).toBe(0);
+  });
+
   it("only reports a failure when the token route is unavailable", async () => {
     const { drive } = stubDrive();
     drive.tokenStatus = 503;

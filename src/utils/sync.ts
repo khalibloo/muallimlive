@@ -192,6 +192,10 @@ export const syncNow = () =>
       return "skipped";
     }
     try {
+      // signed in to another account whose merge choice wasn't made: signing in again asks it
+      if ((await getToken()).accountId !== state.accountId) {
+        throw new SyncError("reauth");
+      }
       // read first, so a change made during this sync counts as unsynced
       const change = await getChangeCount();
       const file = await findFile(state.fileId);

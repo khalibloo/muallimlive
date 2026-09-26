@@ -209,15 +209,19 @@ export const readAll = async (): Promise<UserData> => {
 
 /** Merges data into this device's, writing only the verses that change. Not counted as a local change. */
 export const writeMerged = async (data: UserData) => {
-  // merged with what's stored now, so an edit made while a sync was downloading isn't overwritten
-  const current = await readAll();
-  const next = mergeUserData(current, data);
-  if (!isEqual(next.faves, current.faves)) {
-    await lf.setItem(FAVES_KEY, next.faves);
+  // each value is merged with what's stored just before writing it, so an edit made during a sync isn't overwritten
+  const faves = await readFaveRecord();
+  const nextFaves = mergeUserData({ faves, notes: {} }, { faves: data.faves, notes: {} }).faves;
+  if (!isEqual(nextFaves, faves)) {
+    await lf.setItem(FAVES_KEY, nextFaves);
   }
-  for (const [key, notes] of Object.entries(next.notes)) {
-    if (!isEqual(notes, current.notes[key])) {
-      await lf.setItem(storageKey(key), notes);
+  for (const [key, notes] of Object.entries(data.notes)) {
+    const current = await readNoteList(storageKey(key));
+    const next = mergeUserData({ faves: {}, notes: { [key]: current } }, { faves: {}, notes: { [key]: notes } }).notes[
+      key
+    ];
+    if (!isEqual(next, current)) {
+      await lf.setItem(storageKey(key), next);
     }
   }
 };

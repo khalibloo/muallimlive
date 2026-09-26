@@ -161,6 +161,8 @@ const SyncProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => 
     stop,
     clearDevice,
     deleteEverywhere: async () => {
+      // synced first, so what other devices added since the last sync is deleted too
+      await run();
       await deleteEverywhere();
       await run();
     },

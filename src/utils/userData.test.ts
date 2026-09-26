@@ -172,6 +172,23 @@ describe("stored data", () => {
     expect(await getChangeCount()).toBe(1);
   });
 
+  it("keeps a fave set while merged data is being written", async () => {
+    await addNote(2, 2, "<p>A</p>");
+    const getItem = lf.getItem.bind(lf);
+    let faved = false;
+    vi.spyOn(lf, "getItem").mockImplementation(async (key: string) => {
+      if (key === noteKey(2, 2) && !faved) {
+        faved = true;
+        await setFave(3, 3, true);
+      }
+      return getItem(key);
+    });
+
+    await writeMerged({ faves: { "2:2": { updatedAt: 5 } }, notes: { "2:2": [note("n", 5)] } });
+
+    expect(await readFaves()).toEqual(["2:2", "3:3"]);
+  });
+
   it("imports by merging and counts what the file holds", async () => {
     await setFave(1, 1, true);
     const counts = await importData({

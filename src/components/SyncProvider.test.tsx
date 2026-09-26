@@ -5,7 +5,7 @@ import { stubDrive } from "@/components/test/fakeDrive";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
 import { SYNC_STATE_KEY, forgetToken, type SyncState } from "@/utils/sync";
-import { readFaves, setFave } from "@/utils/userData";
+import { hasLiveData, readFaves, setFave, toUserDataFile } from "@/utils/userData";
 import SyncProvider, { useSync } from "./SyncProvider";
 
 vi.mock("next/navigation", () => ({ usePathname: () => "/" }));
@@ -17,8 +17,13 @@ const driveFaves = (faves: string[]) => ({
 });
 
 const Status = () => {
-  const { state, lastError } = useSync();
-  return <p>{state ? `syncing ${state.email} ${lastError ?? "ok"}` : "not syncing"}</p>;
+  const { state, lastError, deleteEverywhere } = useSync();
+  return (
+    <>
+      <p>{state ? `syncing ${state.email} ${lastError ?? "ok"}` : "not syncing"}</p>
+      <button onClick={deleteEverywhere}>Delete everywhere</button>
+    </>
+  );
 };
 
 const renderProvider = () => {
@@ -108,6 +113,19 @@ describe("SyncProvider", () => {
     await setFave(3, 3, true);
 
     await waitFor(() => expect(Object.keys(stored().faves)).toContain("3:3"), { timeout: 5000 });
+  });
+
+  it("deletes everywhere what another device added since the last sync", async () => {
+    const { drive, stored } = stubDrive(driveFaves(["2:2"]));
+    await lf.setItem(SYNC_STATE_KEY, ACCOUNT);
+    const user = renderProvider();
+    await waitFor(async () => expect(await readFaves()).toEqual(["2:2"]));
+    drive.file = { ...drive.file!, version: 2, content: JSON.stringify(toUserDataFile(driveFaves(["2:2", "4:4"]))) };
+
+    await user.click(screen.getByRole("button", { name: "Delete everywhere" }));
+
+    await waitFor(() => expect(hasLiveData(stored())).toBe(false));
+    expect(Object.keys(stored().faves)).toEqual(["2:2", "4:4"]);
   });
 
   it("records a failure and keeps syncing", async () => {
