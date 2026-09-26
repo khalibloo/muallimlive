@@ -14,6 +14,7 @@ import config from "@/utils/config";
 import { getChapters } from "@/utils/content";
 import {
   COLOR_SCHEME_KEY,
+  COLOR_SCHEMES,
   parseColorScheme,
   parsePlaySettings,
   parseReaderSettings,
@@ -62,6 +63,26 @@ export const generateMetadata = async (): Promise<Metadata> => {
   };
 };
 
+// Applies the theme and text size cookies before the first paint. The precached offline page keeps the ones it was
+// saved with; on other pages this sets what the server already rendered.
+const SETTINGS_SCRIPT = `(() => {
+  const cookie = (name) => {
+    const entry = document.cookie.split("; ").find((c) => c.startsWith(name + "="));
+    return entry && decodeURIComponent(entry.slice(name.length + 1));
+  };
+  const schemes = ${JSON.stringify(COLOR_SCHEMES)};
+  const scheme = schemes.find((s) => s === cookie("${COLOR_SCHEME_KEY}")) ?? "${config.defaultColorScheme}";
+  let textSize = 100;
+  try {
+    const settings = JSON.parse(cookie("${READER_SETTINGS_KEY}"));
+    if (typeof settings.textSize === "number") textSize = settings.textSize;
+  } catch {}
+  const html = document.documentElement;
+  html.classList.remove(...schemes);
+  html.classList.add(scheme);
+  html.style.setProperty("--reader-scale", textSize / 100);
+})()`;
+
 const getColorScheme = async () => parseColorScheme((await cookies()).get(COLOR_SCHEME_KEY)?.value);
 
 export const generateViewport = async (): Promise<Viewport> => {
@@ -90,7 +111,14 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
       lang="en"
       className={clsx(amiriQuran.variable, colorScheme)}
       style={{ "--reader-scale": (readerSettings.textSize ?? 100) / 100 } as React.CSSProperties}
+      // SETTINGS_SCRIPT may change the class and style before hydration
+      suppressHydrationWarning
     >
+      <head>
+        {/* the script is a constant built from the scheme and cookie names above */}
+        {/* eslint-disable-next-line react/no-danger */}
+        <script dangerouslySetInnerHTML={{ __html: SETTINGS_SCRIPT }} />
+      </head>
       {config.gtmCode && <GoogleTagManager gtmId={config.gtmCode} />}
       <body>
         {config.gtmCode && (

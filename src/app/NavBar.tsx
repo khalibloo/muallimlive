@@ -15,6 +15,7 @@ import SyncSettings from "@/components/SyncSettings";
 import { COLOR_SCHEMES } from "@/utils/cookies";
 import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
 import { packKey } from "@/utils/packs";
+import useColorScheme from "@/utils/useColorScheme";
 
 export interface SettingsResources {
   chapters: GetChaptersResponse;
@@ -40,8 +41,9 @@ const SchemeIcon: React.FC<{ scheme: ColorScheme; className?: string }> = ({ sch
   return <Icon aria-hidden {...props} />;
 };
 
-const NavBar: React.FC<Props> = ({ settingsResources, colorScheme }) => {
+const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedScheme }) => {
   const t = useTranslations("common");
+  const colorScheme = useColorScheme(renderedScheme);
   const responsive = Grid.useBreakpoint();
   const { notification } = App.useApp();
   const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);

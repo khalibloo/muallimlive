@@ -11,6 +11,9 @@ const SAHEEH = 20;
 const CHAPTER = 114;
 // The fixture chapter list only has the fixture chapters
 const CHAPTER_COUNT = 4;
+const BASE_URL = "http://localhost:3000";
+// The light page background from src/theme.ts
+const LIGHT_PAGE = "rgb(247, 245, 239)";
 
 // The config blocks service workers so they can't cache across tests; offline reading needs the real one
 test.use({ serviceWorkers: "allow" });
@@ -54,6 +57,36 @@ test.describe("Offline reading", () => {
     await expect(verse.getByText(translationText(CHAPTER, YUSUF_ALI, 1), { exact: true })).toBeVisible();
     await expect(verse.getByText(arabicText(CHAPTER, "uthmani_tajweed", 1))).toBeVisible();
     await expect(testPage.getByText(/hasn't been downloaded for offline use/)).toBeHidden();
+  });
+
+  test("shows the theme and text size chosen after the app was saved offline", async ({ testPage, context }) => {
+    // the offline page is saved with the default dark theme and text size
+    await gotoControlled(testPage, "/");
+    await downloadAllText(testPage);
+    const readerSettings = {
+      splitView: true,
+      left: [{ content: ["translation", "en", YUSUF_ALI] }, { content: ["tafsir", "en", 0] }],
+      right: [{ content: ["translation", "ar", "uthmani_tajweed"] }, { content: ["translation", "en", 57] }],
+      textSize: 140,
+    };
+    await context.addCookies([
+      { name: "color-scheme", value: "light", url: BASE_URL },
+      { name: "reader-settings", value: encodeURIComponent(JSON.stringify(readerSettings)), url: BASE_URL },
+    ]);
+    const themeButton = testPage.getByRole("button", { name: "Theme", exact: true });
+    const buttonColor = () => themeButton.evaluate((button) => getComputedStyle(button).color);
+    await testPage.goto(`/chapters/${CHAPTER}`);
+    const lightButton = await buttonColor();
+
+    await goOffline(context);
+    await testPage.goto(`/chapters/${CHAPTER}`);
+
+    await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(CHAPTER) })).toBeVisible();
+    expect(await testPage.evaluate(() => getComputedStyle(document.body).backgroundColor)).toBe(LIGHT_PAGE);
+    expect(
+      await testPage.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--reader-scale")),
+    ).toBe("1.4");
+    await expect.poll(buttonColor).toBe(lightButton);
   });
 
   test("shows the offline page for pages that aren't available offline", async ({ testPage, context }) => {
