@@ -39,13 +39,15 @@ test.describe("Color theme", () => {
     await expect.poll(() => pageBackground(testPage)).toBe(DARK_PAGE);
   });
 
-  test("the choice outlives the browser session and is renewed on each visit", async ({ testPage, context }) => {
+  test("the choice outlives the browser session and is renewed on each visit", async ({
+    testPage,
+    context,
+    baseURL,
+  }) => {
     const expiry = async () => (await context.cookies()).find((c) => c.name === "color-scheme")?.expires ?? -1;
     const inDays = (days: number) => Date.now() / 1000 + days * 24 * 60 * 60;
 
-    await context.addCookies([
-      { name: "color-scheme", value: "light", url: "http://localhost:3000", expires: Math.round(inDays(1)) },
-    ]);
+    await context.addCookies([{ name: "color-scheme", value: "light", url: baseURL, expires: Math.round(inDays(1)) }]);
     await testPage.goto("/");
 
     expect(await pageBackground(testPage)).toBe(LIGHT_PAGE);

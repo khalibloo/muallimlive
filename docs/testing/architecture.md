@@ -86,7 +86,7 @@ The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits
 
 - `e2e/fixtures/cdn/data/**` holds a committed subset of the CDN: chapters 1, 112, 113 and 114, the default reader settings' content, Saheeh International, and reciters 1 and 7. The chapter list (`resources/chapters`) is trimmed to those four chapters, so offline downloads of "every chapter" stay small.
 - `pnpm test:e2e:data` serves it with `http-server` on port 4010.
-- `.env.test` points `API_URI` at `http://localhost:4010`. `playwright.config.ts` loads it before starting the servers.
+- `.env.test` points `API_URI` at `http://localhost:4010` and sets the app's `PORT`. `playwright.config.ts` loads it before starting the servers and builds `baseURL` from `PORT`. Tests never hard-code the host or port: they use relative paths, or the `baseURL` fixture where an absolute URL is needed (such as `context.addCookies`).
 - `pnpm test:e2e:fixtures` (`scripts/fetch-e2e-fixtures.mjs`) re-downloads the subset. Re-run it when a test needs a new chapter or content ID.
 - `fetchData()` uses `force-cache`, and Next keeps that cache in `.next/cache/fetch-cache` across builds. After changing an existing fixture file, delete that directory, or the app keeps serving the old data.
 
@@ -96,10 +96,12 @@ The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits
 
 `playwright.config.ts` starts two servers, reusing running ones outside CI:
 
-| Command               | URL                     | Purpose                                   |
-| --------------------- | ----------------------- | ----------------------------------------- |
-| `pnpm test:e2e:data`  | `http://localhost:4010` | Fixture CDN                               |
-| `pnpm test:e2e:start` | `http://localhost:3000` | Production build (`next build` + `start`) |
+| Command               | URL                                 | Purpose                                   |
+| --------------------- | ----------------------------------- | ----------------------------------------- |
+| `pnpm test:e2e:data`  | `API_URI` (`http://localhost:4010`) | Fixture CDN                               |
+| `pnpm test:e2e:start` | `http://localhost:$PORT`            | Production build (`next build` + `start`) |
+
+To run the suite while another app holds port 3000, change `PORT` in `.env.test`.
 
 ### Custom Fixtures (`e2e/helpers/fixtures.ts`)
 
@@ -142,7 +144,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   reporter: process.env.CI ? [["html"], ["junit", { outputFile: "playwright-report/junit.xml" }]] : "html",
-  use: { baseURL: "http://localhost:3000", trace: "on-first-retry", serviceWorkers: "block" },
+  use: { baseURL: `http://localhost:${process.env.PORT}`, trace: "on-first-retry", serviceWorkers: "block" },
   timeout: 30000,
   expect: { timeout: 5000 },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],

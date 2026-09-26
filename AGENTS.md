@@ -154,6 +154,7 @@ pnpm test:e2e:ci      # CI mode (JUnit XML)
 - **Custom fixtures**: Import `test` and `expect` from `e2e/helpers/fixtures.ts` (not `@playwright/test`). They pre-accept the cookie notice, mock recitation audio, and wait for hydration. `preparePage` applies the same setup to a page in another context (a second device).
 - **Google fakes**: `e2e/helpers/drive.ts` routes the sign-in, token and Drive requests per context to one in-memory `FakeGoogle`, which several contexts can share.
 - **Fixture CDN**: E2E runs against `e2e/fixtures/cdn` served locally (`pnpm test:e2e:data`), configured by `.env.test`. Regenerate the fixtures with `pnpm test:e2e:fixtures`, then delete `.next/cache/fetch-cache`, which otherwise keeps serving the old data.
+- **No hosts or ports in tests**: the app's port is `PORT` in `.env.test`, which `playwright.config.ts` turns into `baseURL`. E2E tests use relative paths, or the `baseURL` fixture where an absolute URL is needed. Unit tests assert paths only.
 - **Service workers** are blocked except in `pwa.test.ts` and `offline.test.ts`, which opt in with `test.use({ serviceWorkers: "allow" })`.
 
 ### Code Quality

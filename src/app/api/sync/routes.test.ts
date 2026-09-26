@@ -24,7 +24,7 @@ const verifyIdToken = vi.spyOn(OAuth2Client.prototype, "verifyIdToken");
 const refreshAccessToken = vi.spyOn(OAuth2Client.prototype, "refreshAccessToken");
 const revokeToken = vi.spyOn(OAuth2Client.prototype, "revokeToken");
 
-const ORIGIN = "http://localhost:3000";
+const ORIGIN = "http://localhost";
 const tokens = {
   access_token: "access-token",
   refresh_token: "refresh-token",
@@ -33,6 +33,11 @@ const tokens = {
 };
 // what gaxios throws when Google answers with an OAuth error
 const googleError = (error: string) => Object.assign(new Error(error), { response: { data: { error } } });
+/** The path of an app URL; a URL leaving the app stays whole */
+const appPath = (href: string | null) => {
+  const url = new URL(href!);
+  return url.origin === ORIGIN ? `${url.pathname}${url.search}` : href;
+};
 
 const startLogin = async (returnTo = "/chapters/2") => {
   const response = await login(new NextRequest(`${ORIGIN}/api/sync/login?returnTo=${encodeURIComponent(returnTo)}`));
@@ -62,9 +67,9 @@ describe("sync routes", () => {
       const { location, state } = await startLogin();
 
       expect(`${location.origin}${location.pathname}`).toBe("https://accounts.google.com/o/oauth2/v2/auth");
+      expect(appPath(location.searchParams.get("redirect_uri"))).toBe("/api/sync/callback");
       expect(Object.fromEntries(location.searchParams)).toMatchObject({
         client_id: "client-id",
-        redirect_uri: `${ORIGIN}/api/sync/callback`,
         response_type: "code",
         access_type: "offline",
         prompt: "consent select_account",
@@ -83,7 +88,7 @@ describe("sync routes", () => {
 
         const response = await finishLogin(`code=abc&state=${state}`);
 
-        expect(response.headers.get("Location")).toBe(`${ORIGIN}/?sync=connected`);
+        expect(appPath(response.headers.get("Location"))).toBe("/?sync=connected");
       },
     );
   });
@@ -94,7 +99,7 @@ describe("sync routes", () => {
 
       const response = await finishLogin(`code=abc&state=${state}`);
 
-      expect(response.headers.get("Location")).toBe(`${ORIGIN}/chapters/2?sync=connected`);
+      expect(appPath(response.headers.get("Location"))).toBe("/chapters/2?sync=connected");
       expect(getToken).toHaveBeenCalledWith({ code: "abc", codeVerifier: expect.any(String) });
       expect(verifyIdToken).toHaveBeenCalledWith({ idToken: "id-token", audience: "client-id" });
       expect(jar.has("sync-login")).toBe(false);
@@ -109,14 +114,14 @@ describe("sync routes", () => {
 
       const response = await finishLogin(query(state));
 
-      expect(response.headers.get("Location")).toBe(`${ORIGIN}/chapters/2?sync=failed`);
+      expect(appPath(response.headers.get("Location"))).toBe("/chapters/2?sync=failed");
       expect(jar.has("sync-session")).toBe(false);
     });
 
     it("fails without the login cookie", async () => {
       const response = await finishLogin("code=abc&state=anything");
 
-      expect(response.headers.get("Location")).toBe(`${ORIGIN}/?sync=failed`);
+      expect(appPath(response.headers.get("Location"))).toBe("/?sync=failed");
     });
 
     it("fails when Google rejects the code", async () => {
@@ -125,7 +130,7 @@ describe("sync routes", () => {
 
       const response = await finishLogin(`code=abc&state=${state}`);
 
-      expect(response.headers.get("Location")).toBe(`${ORIGIN}/?sync=failed`);
+      expect(appPath(response.headers.get("Location"))).toBe("/?sync=failed");
     });
 
     it("fails when Google returns no refresh token", async () => {
@@ -134,7 +139,7 @@ describe("sync routes", () => {
 
       const response = await finishLogin(`code=abc&state=${state}`);
 
-      expect(response.headers.get("Location")).toBe(`${ORIGIN}/?sync=failed`);
+      expect(appPath(response.headers.get("Location"))).toBe("/?sync=failed");
       expect(jar.has("sync-session")).toBe(false);
     });
 
@@ -147,7 +152,7 @@ describe("sync routes", () => {
 
       const response = await finishLogin(`code=abc&state=${state}`);
 
-      expect(response.headers.get("Location")).toBe(`${ORIGIN}/?sync=failed`);
+      expect(appPath(response.headers.get("Location"))).toBe("/?sync=failed");
       expect(jar.has("sync-session")).toBe(false);
     });
   });

@@ -11,7 +11,6 @@ const SAHEEH = 20;
 const CHAPTER = 114;
 // The fixture chapter list only has the fixture chapters
 const CHAPTER_COUNT = 4;
-const BASE_URL = "http://localhost:3000";
 // The light page background from src/theme.ts
 const LIGHT_PAGE = "rgb(247, 245, 239)";
 
@@ -59,7 +58,11 @@ test.describe("Offline reading", () => {
     await expect(testPage.getByText(/hasn't been downloaded for offline use/)).toBeHidden();
   });
 
-  test("shows the theme and text size chosen after the app was saved offline", async ({ testPage, context }) => {
+  test("shows the theme and text size chosen after the app was saved offline", async ({
+    testPage,
+    context,
+    baseURL,
+  }) => {
     // the offline page is saved with the default dark theme and text size
     await gotoControlled(testPage, "/");
     await downloadAllText(testPage);
@@ -70,8 +73,8 @@ test.describe("Offline reading", () => {
       textSize: 140,
     };
     await context.addCookies([
-      { name: "color-scheme", value: "light", url: BASE_URL },
-      { name: "reader-settings", value: encodeURIComponent(JSON.stringify(readerSettings)), url: BASE_URL },
+      { name: "color-scheme", value: "light", url: baseURL },
+      { name: "reader-settings", value: encodeURIComponent(JSON.stringify(readerSettings)), url: baseURL },
     ]);
     const themeButton = testPage.getByRole("button", { name: "Theme", exact: true });
     const buttonColor = () => themeButton.evaluate((button) => getComputedStyle(button).color);
