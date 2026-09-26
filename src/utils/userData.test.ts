@@ -142,6 +142,7 @@ describe("stored data", () => {
     await lf.setItem("user-data-version", 2);
     await lf.setItem(FAVES_KEY, { "1:1": { updatedAt: 1 }, "1:2": {}, x: { updatedAt: 1 } });
     await lf.setItem(noteKey(1, 1), [note("n", 1), "<p>stray</p>"]);
+    await lf.setItem("notes-quran-abc", [note("m", 1)]);
 
     expect(await readAll()).toEqual({ faves: { "1:1": { updatedAt: 1 } }, notes: { "1:1": [note("n", 1)] } });
   });

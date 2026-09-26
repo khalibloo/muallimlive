@@ -200,7 +200,7 @@ export const readAll = async (): Promise<UserData> => {
   const notes: Record<string, Note[]> = {};
   for (const key of await noteStorageKeys()) {
     const list = await readNoteList(key);
-    if (list.length > 0) {
+    if (list.length > 0 && VERSE_KEY.test(verseKeyOf(key))) {
       notes[verseKeyOf(key)] = list;
     }
   }
