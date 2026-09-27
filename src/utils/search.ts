@@ -93,13 +93,18 @@ export interface Highlighted {
 }
 
 /** Splits a text into its matched words and the text between them, shortened around the first match */
-export const highlight = (text: string, terms: string[]): Highlighted => {
+export const highlight = (
+  text: string,
+  terms: string[],
+  processTerm: (term: string) => string | string[] | null = normalizeTerm,
+): Highlighted => {
   // words at even positions, separators at odd ones
   const tokens = text.split(WORD_SEPARATORS);
   if (tokens.at(-1) === "") {
     tokens.pop();
   }
-  const isMatch = (token: string, i: number) => i % 2 === 0 && terms.includes(normalizeTerm(token));
+  const isMatch = (token: string, i: number) =>
+    i % 2 === 0 && [processTerm(token) ?? []].flat().some((term) => terms.includes(term));
   const wordCount = Math.ceil(tokens.length / 2);
   const firstMatch = Math.max(0, tokens.findIndex(isMatch)) / 2;
   const first = Math.max(0, Math.floor(firstMatch) - EXCERPT_WORDS);

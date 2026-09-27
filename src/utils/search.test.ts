@@ -140,6 +140,14 @@ describe("highlight", () => {
     expect(shown.endsWith(" w85")).toBe(true);
     expect(parts.filter((p) => p.match)).toEqual([{ text: "mercy", match: true }]);
   });
+
+  it("highlights with another term processor", () => {
+    const { parts } = highlight("They prayed together", ["prai"], (w) => [
+      w.toLowerCase(),
+      w.toLowerCase().replace(/yed$/, "i"),
+    ]);
+    expect(parts.filter((p) => p.match).map((p) => p.text)).toEqual(["prayed"]);
+  });
 });
 
 describe("getChapterIndex", () => {
