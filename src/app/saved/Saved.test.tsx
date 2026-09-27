@@ -196,6 +196,16 @@ describe("Saved", () => {
     expect(await screen.findByText("Friday")).toBeVisible();
   });
 
+  it("shows a noted hadith's real favorite state, not always favorited", async () => {
+    await addNote(hadithKey({ collection: "bukhari", book: 13, id: "1" }), "<p>Friday</p>");
+    stubFetch({ "/api/hadiths/bukhari/13/1": fixture<Hadith>("bukhari/13/1") });
+    const user = renderSaved();
+    await user.click(await screen.findByRole("tab", { name: "Notes" }));
+
+    const entry = await screen.findByRole("article", { name: "Sahih al-Bukhari, Volume 2, Book 13, Hadith 1" });
+    expect(within(entry).getByRole("button", { name: "Add to favorites" })).toBeInTheDocument();
+  });
+
   it("skips hadiths of unknown collections", async () => {
     await setFave(hadithKey({ collection: "tirmidhi", book: 1, id: "1" }), true);
     renderSaved();

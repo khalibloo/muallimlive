@@ -214,7 +214,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
     const refText = reference({ ...ref, volume: book.volume });
     return (
       <>
-        <Fave faved itemKey={ref.key} />
+        <Fave faved={(faves ?? []).includes(ref.key)} itemKey={ref.key} />
         <Notes itemKey={ref.key} title={t("hadith-notes-title", { collection: collection.name, reference: refText })} />
         <Share
           path={hadithPath(ref)}
