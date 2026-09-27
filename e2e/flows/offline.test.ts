@@ -146,14 +146,6 @@ test.describe("Offline reading", () => {
     await storage.getByRole("button", { name: "Close", exact: true }).click();
     await expect(storage).toBeHidden();
 
-    // warm the browser's own HTTP cache for the search worker's script while still online
-    await testPage.goto("/hadiths/bukhari/13");
-    await testPage.getByRole("button", { name: "Search this book", exact: true }).click();
-    const warm = testPage.getByRole("dialog", { name: "Search", exact: true });
-    await warm.getByRole("searchbox", { name: "Search words" }).fill("friday");
-    await expect(warm.getByRole("article").first()).toBeVisible();
-    await testPage.keyboard.press("Escape");
-
     await goOffline(context);
     await testPage.goto("/hadiths/bukhari/13");
     await testPage.getByRole("link", { name: /^1\b/ }).first().click();
@@ -165,6 +157,7 @@ test.describe("Offline reading", () => {
     await collectionBox.click();
     await expect(testPage.getByRole("option", { name: collectionName("bukhari") })).toBeAttached();
     await collectionBox.press("Enter");
+    await expect(dialog.getByTitle(collectionName("bukhari"), { exact: true })).toBeVisible();
     await dialog.getByRole("searchbox", { name: "Search words" }).fill("friday");
     await expect(dialog.getByRole("article").first()).toBeVisible();
 
