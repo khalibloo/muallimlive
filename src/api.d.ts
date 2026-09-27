@@ -155,3 +155,75 @@ interface GetVersesTafsirResponse {
 interface GetVersesTranslationResponse {
   translations: VerseTranslation[];
 }
+
+// hadith response types
+
+interface HadithCollection {
+  id: string;
+  name: string;
+  booksCount: number;
+  hadithsCount: number;
+}
+
+interface GetHadithCollectionsResponse {
+  collections: HadithCollection[];
+}
+
+interface HadithBook {
+  id: number;
+  name: string;
+  /** Bukhari only */
+  volume?: number;
+  hadiths: string[];
+  hadithsCount: number;
+}
+
+interface GetHadithBooksResponse {
+  books: HadithBook[];
+}
+
+interface HadithIndexEntry {
+  id: string;
+  narrator?: string;
+  excerpt: string;
+  truncated?: true;
+}
+
+interface GetHadithBookIndexResponse {
+  hadiths: HadithIndexEntry[];
+}
+
+interface PackedHadith {
+  id: string;
+  book: number;
+  volume?: number;
+  narrators?: string[];
+  text: string[];
+}
+
+interface HadithPack {
+  hadiths: PackedHadith[];
+}
+
+interface Hadith {
+  id: string;
+  collection: string;
+  collectionName: string;
+  book: number;
+  bookName: string;
+  volume?: number;
+  narrators?: string[];
+  text: string[];
+}
+
+interface HadithSynonyms {
+  groups: string[][];
+}
+
+type HadithResourceBook = Omit<HadithBook, "hadiths">;
+
+type HadithResourceCollection = HadithCollection & { books: HadithResourceBook[] };
+
+interface GetHadithResourcesResponse {
+  collections: HadithResourceCollection[];
+}
