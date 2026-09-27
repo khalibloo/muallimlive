@@ -15,8 +15,27 @@ declare const self: ServiceWorkerGlobalScope;
 // Offline packs are written only by the Storage settings tab (src/utils/offline.ts), never by the worker
 const noAutoWrites: SerwistPlugin = { cacheWillUpdate: async () => null };
 
+// Turbopack starts a worker chunk with its bootstrap config (the dependent chunk list) in the URL fragment.
+// Any service worker interception of that request — even a plain network passthrough — makes the browser
+// drop the fragment before the worker reads it, so the hadith search worker never starts. This chunk is
+// left unmatched by any route here, including defaultCache's static-JS one, so the browser fetches it
+// (and caches it normally over HTTP) without the service worker touching the request at all.
+const isWorkerChunk = (url: URL) => /\/turbopack-worker-[^/]+\.js$/.test(url.pathname);
+const defaultCacheWithoutWorkerChunk = defaultCache.map((entry) =>
+  entry.matcher instanceof RegExp && entry.matcher.source === "\\/_next\\/static.+\\.js$"
+    ? { ...entry, matcher: ({ url }: { url: URL }) => !isWorkerChunk(url) && (entry.matcher as RegExp).test(url.href) }
+    : entry,
+);
+
+// Precaching would serve the same broken cached response for it (see isWorkerChunk above), so it's
+// excluded here too; the browser's own HTTP cache still keeps it available once visited.
+const precacheEntries = (self.__SW_MANIFEST ?? []).filter((entry) => {
+  const url = typeof entry === "string" ? entry : entry.url;
+  return !isWorkerChunk(new URL(url, self.location.origin));
+});
+
 const serwist = new Serwist({
-  precacheEntries: self.__SW_MANIFEST,
+  precacheEntries,
   skipWaiting: true,
   clientsClaim: true,
   navigationPreload: true,
@@ -51,7 +70,7 @@ const serwist = new Serwist({
     },
     // Drive sync always needs the live file, and responses carry the reader's data
     { matcher: ({ url }) => url.hostname === "www.googleapis.com", handler: new NetworkOnly() },
-    ...defaultCache,
+    ...defaultCacheWithoutWorkerChunk,
   ],
   fallbacks: {
     entries: [{ url: "/~offline", matcher: ({ request }) => request.destination === "document" }],

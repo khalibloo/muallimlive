@@ -113,6 +113,20 @@ test.describe("Google Drive sync", () => {
     await other.context().close();
   });
 
+  test("a hadith favorite reaches another device in a version 3 file", async ({ testPage, browser, baseURL }) => {
+    await testPage.goto("/hadiths/bukhari/13/1");
+    await testPage.getByRole("button", { name: "Add to favorites", exact: true }).click();
+    await connect(testPage);
+    await expect.poll(() => driveFaves(google)).toEqual(["hadith:bukhari/13/1"]);
+    expect(JSON.parse(google.file!.content).version).toBe(3);
+
+    const other = await secondDevice(browser, google, baseURL!);
+    await other.goto("/hadiths/bukhari/13/1");
+    await connect(other);
+    await expect(other.getByRole("button", { name: "Remove from favorites", exact: true })).toBeVisible();
+    await other.context().close();
+  });
+
   test("an expired sign-in requires a choice", async ({ testPage }) => {
     await testPage.goto(`/chapters/${CHAPTER}`);
     await connect(testPage);

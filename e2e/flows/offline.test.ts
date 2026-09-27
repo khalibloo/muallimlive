@@ -1,7 +1,7 @@
 import type { BrowserContext, Page } from "@playwright/test";
 
 import { MEDIA_URI } from "../helpers/audio";
-import { arabicText, chapterHeading, translationText } from "../helpers/data";
+import { arabicText, chapterHeading, collectionName, hadithText, translationText } from "../helpers/data";
 import { expect, test } from "../helpers/fixtures";
 import { openSettings } from "../helpers/settings";
 
@@ -135,6 +135,41 @@ test.describe("Offline reading", () => {
     const verse = testPage.getByRole("article", { name: "Verse 1", exact: true });
     await expect(verse.getByText(arabicText(CHAPTER, "uthmani_tajweed", 1))).toBeVisible();
     await expect(verse.getByText(translationText(CHAPTER, SAHEEH, 1), { exact: true })).toBeHidden();
+  });
+
+  test("reads and searches a downloaded hadith collection offline", async ({ testPage, context }) => {
+    await gotoControlled(testPage, "/");
+    const storage = await openSettings(testPage, "Offline Storage");
+    const hadiths = storage.getByRole("region", { name: "Hadiths" });
+    await hadiths.getByRole("button", { name: `Download ${collectionName("bukhari")}` }).click();
+    await expect(hadiths.getByRole("button", { name: `Remove ${collectionName("bukhari")}` })).toBeVisible();
+    await storage.getByRole("button", { name: "Close", exact: true }).click();
+    await expect(storage).toBeHidden();
+
+    // warm the browser's own HTTP cache for the search worker's script while still online
+    await testPage.goto("/hadiths/bukhari/13");
+    await testPage.getByRole("button", { name: "Search this book", exact: true }).click();
+    const warm = testPage.getByRole("dialog", { name: "Search", exact: true });
+    await warm.getByRole("searchbox", { name: "Search words" }).fill("friday");
+    await expect(warm.getByRole("article").first()).toBeVisible();
+    await testPage.keyboard.press("Escape");
+
+    await goOffline(context);
+    await testPage.goto("/hadiths/bukhari/13");
+    await testPage.getByRole("link", { name: /^1\b/ }).first().click();
+    await expect(testPage.getByText(hadithText("bukhari", 13, "1"), { exact: true })).toBeVisible();
+
+    await testPage.getByRole("button", { name: "Search", exact: true }).click();
+    const dialog = testPage.getByRole("dialog", { name: "Search", exact: true });
+    const collectionBox = dialog.getByRole("combobox", { name: "Collection" });
+    await collectionBox.click();
+    await expect(testPage.getByRole("option", { name: collectionName("bukhari") })).toBeAttached();
+    await collectionBox.press("Enter");
+    await dialog.getByRole("searchbox", { name: "Search words" }).fill("friday");
+    await expect(dialog.getByRole("article").first()).toBeVisible();
+
+    await testPage.goto("/hadiths/malik/4");
+    await expect(testPage.getByText(/This collection isn't downloaded for offline use/)).toBeVisible();
   });
 
   test.describe("after installing the app", () => {
