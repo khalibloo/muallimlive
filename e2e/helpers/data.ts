@@ -5,7 +5,7 @@ import { mediaUrl } from "./audio";
 
 // Reads the fixture CDN (e2e/fixtures/cdn, served by `pnpm test:e2e:data`) so assertions use exactly
 // what the app renders instead of hard-coded copies of the Qur'an data
-const readFixture = <T>(path: string): T =>
+export const readFixture = <T>(path: string): T =>
   JSON.parse(readFileSync(join(__dirname, "..", "fixtures", "cdn", "data", `${path}.json`), "utf8"));
 
 const chapters = readFixture<GetChaptersResponse>("resources/chapters").chapters;
@@ -57,3 +57,25 @@ export const recitationUrl = (chapterId: number, reciterId: number, verse: numbe
     readFixture<GetVersesRecitationResponse>(`chapters/${chapterId}/recitations/${reciterId}`).audio_files[verse - 1]
       .url,
   );
+
+const hadithFixture = (collection: string, book: number, id: string) =>
+  readFixture<Hadith>(`hadiths/${collection}/${book}/${id}`);
+
+/** A hadith's first paragraph, with the text's "(peace_be_upon_him)" as the app shows it */
+export const hadithText = (collection: string, book: number, id: string) =>
+  hadithFixture(collection, book, id).text[0].replaceAll("(peace_be_upon_him)", "(peace be upon him)");
+
+export const hadithNarrators = (collection: string, book: number, id: string) =>
+  hadithFixture(collection, book, id).narrators ?? [];
+
+/** e.g. "Volume 2, Book 13, Hadith 1" for Bukhari, "Book 4, Hadith 4.1.1" for the others */
+export const hadithReference = (collection: string, book: number, id: string) => {
+  const { volume } = hadithFixture(collection, book, id);
+  return volume ? `Volume ${volume}, Book ${book}, Hadith ${id}` : `Book ${book}, Hadith ${id}`;
+};
+
+export const collectionName = (collection: string) =>
+  readFixture<GetHadithCollectionsResponse>("hadiths/collections").collections.find((c) => c.id === collection)!.name;
+
+export const bookName = (collection: string, book: number) =>
+  readFixture<GetHadithBooksResponse>(`hadiths/${collection}/books`).books.find((b) => b.id === book)!.name;

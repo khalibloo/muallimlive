@@ -1,0 +1,28 @@
+{
+  "collections": [
+    {
+      "id": "bukhari",
+      "name": "Sahih al-Bukhari",
+      "booksCount": 3,
+      "hadithsCount": 118
+    },
+    {
+      "id": "muslim",
+      "name": "Sahih Muslim",
+      "booksCount": 1,
+      "hadithsCount": 40
+    },
+    {
+      "id": "abu-dawud",
+      "name": "Sunan Abu Dawud",
+      "booksCount": 1,
+      "hadithsCount": 8
+    },
+    {
+      "id": "malik",
+      "name": "Muwatta Malik",
+      "booksCount": 1,
+      "hadithsCount": 3
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2",
+  "collection": "bukhari",
+  "collectionName": "Sahih al-Bukhari",
+  "book": 13,
+  "bookName": "Friday Prayer",
+  "volume": 2,
+  "narrators": [
+    "Ibn 'Umar"
+  ],
+  "text": [
+    "Allah's Apostle (p.b.u.h) said, \"Anyone of you attending the Friday (prayers) should take a bath.\""
+  ]
+}

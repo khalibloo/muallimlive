@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 7,
+      "name": "Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an",
+      "hadiths": [
+        "1396",
+        "1397",
+        "1398",
+        "1405",
+        "1406",
+        "1408",
+        "1409",
+        "1410"
+      ],
+      "hadithsCount": 8
+    }
+  ]
+}
