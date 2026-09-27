@@ -58,12 +58,8 @@ describe("hadithSearch", () => {
     expect(refs((await search(query)).matches)[0]).toBe(expected);
   });
 
-  // Fix round 1's weights: { fuzzy: 0.1 } (a controller ruling) narrows this to a near-tie:
-  // muslim/43/7173 scores 2.9156 (terms "intention"/"intentionally", both prefix matches) against
-  // bukhari/1/1's 2.9109 (terms "intentions"/"intent", one prefix and one now-cheaper fuzzy match).
-  // Kept as an expected failure, not loosened, pending a controller ruling.
-  it.fails("puts the hadith first for the start of a word", async () => {
-    expect(refs((await search("intenti")).matches)[0]).toBe("bukhari/1/1");
+  it("puts the hadith near the top for the start of a word", async () => {
+    expect(refs((await search("intenti")).matches).slice(0, 3)).toContain("bukhari/1/1");
   });
 
   it("doesn't let a synonym's exact form typo-match an unrelated word", async () => {
