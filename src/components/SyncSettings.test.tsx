@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
-import { readFaves, setFave, toUserDataFile } from "@/utils/userData";
+import { readFaves, setFave, toUserDataFile, verseKey } from "@/utils/userData";
 import { SyncContext, type SyncContextValue } from "./SyncProvider";
 import SyncSettings from "./SyncSettings";
 
@@ -81,7 +81,7 @@ describe("SyncSettings", () => {
   });
 
   it("imports a backup by merging it", async () => {
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     const { user } = renderSettings();
     const file = new File(
       [JSON.stringify(toUserDataFile({ faves: { "2:2": { updatedAt: 1 } }, notes: {} }))],

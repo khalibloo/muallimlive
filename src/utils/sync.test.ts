@@ -10,7 +10,7 @@ import {
   syncNow,
   type SyncState,
 } from "./sync";
-import { addNote, readFaves, readNotes, setFave, type UserData } from "./userData";
+import { addNote, readFaves, readNotes, setFave, verseKey, type UserData } from "./userData";
 
 vi.mock("./userData", async (importOriginal) => ({
   ...(await importOriginal<typeof import("./userData")>()),
@@ -41,14 +41,14 @@ describe("syncNow", () => {
 
   it("creates the Drive file on the first sync", async () => {
     const { stored } = stubDrive();
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     await startSyncing();
 
     expect(await syncNow()).toBe("synced");
 
     expect(stored()).toMatchObject({
       app: "muallimlive",
-      version: 2,
+      version: 3,
       faves: { "1:1": { updatedAt: expect.any(Number) } },
     });
     expect(await syncState()).toMatchObject({ fileId: "file-1", lastVersion: "1", syncedChange: 1 });
@@ -56,7 +56,7 @@ describe("syncNow", () => {
 
   it("merges Drive's data in and uploads the result", async () => {
     const { stored } = stubDrive(driveData(["2:2"]));
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     await startSyncing();
 
     await syncNow();
@@ -89,7 +89,7 @@ describe("syncNow", () => {
   it("never overwrites an invalid Drive file", async () => {
     const { drive, fetchMock } = stubDrive(driveData([]));
     drive.file!.content = '{"app":"other"}';
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     await startSyncing();
 
     await expect(syncNow()).rejects.toEqual(new SyncError("invalid-file"));
@@ -109,7 +109,7 @@ describe("syncNow", () => {
   it("asks to sign in again instead of syncing another account's Drive", async () => {
     const { drive, fetchMock } = stubDrive(driveData(["2:2"]));
     drive.account = { accountId: "user-2", email: "other@example.com" };
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     await startSyncing();
 
     await expect(syncNow()).rejects.toEqual(new SyncError("reauth"));
@@ -142,14 +142,14 @@ describe("syncNow", () => {
     const respond = fetchMock.getMockImplementation()!;
     fetchMock.mockImplementation(async (input, init) => {
       if (`${input}`.includes("alt=media")) {
-        await addNote(1, 1, "<p>Written during the sync</p>");
+        await addNote(verseKey(1, 1), "<p>Written during the sync</p>");
       }
       return respond(input, init);
     });
 
     await syncNow();
 
-    expect((await readNotes(1, 1)).map((n) => n.html)).toEqual(["<p>Written during the sync</p>"]);
+    expect((await readNotes(verseKey(1, 1))).map((n) => n.html)).toEqual(["<p>Written during the sync</p>"]);
     fetchMock.mockImplementation(respond);
     expect(await syncNow()).toBe("synced");
     expect(stored().notes["1:1"]).toHaveLength(1);
@@ -189,7 +189,7 @@ describe("connecting", () => {
 
   it("uploads silently to an empty Drive", async () => {
     const { stored } = stubDrive();
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
 
     expect(await startConnect()).toBeUndefined();
     expect(Object.keys(stored().faves)).toEqual(["1:1"]);
@@ -197,7 +197,7 @@ describe("connecting", () => {
 
   it("merges silently when signing in again to the same account", async () => {
     stubDrive(driveData(["2:2"]));
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     await startSyncing({ needsReauth: true });
 
     expect(await startConnect()).toBeUndefined();
@@ -210,7 +210,7 @@ describe("connecting", () => {
     ["other-account", { accountId: "user-2", email: "other@example.com" }],
   ])("asks when both sides have data (%s)", async (reason, stored) => {
     stubDrive(driveData(["2:2"]));
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     if (stored) {
       await lf.setItem(SYNC_STATE_KEY, stored);
     }
@@ -222,7 +222,7 @@ describe("connecting", () => {
   it("replaces this device's data after exporting it", async () => {
     const { downloadBackup } = await import("./userData");
     stubDrive(driveData(["2:2"]));
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
 
     await finishConnect(ACCOUNT, "replace");
 
@@ -232,7 +232,7 @@ describe("connecting", () => {
 
   it("stops syncing and keeps the data", async () => {
     const { fetchMock } = stubDrive();
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     await startSyncing();
 
     await stopSyncing();

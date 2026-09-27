@@ -6,21 +6,15 @@ import { setFave } from "@/utils/userData";
 
 interface Props {
   faved: boolean;
-  chapterNumber: number;
-  verseNumber: number;
+  itemKey: string;
 }
 
-const Fave: React.FC<Props> = ({ faved, chapterNumber, verseNumber }) => {
+const Fave: React.FC<Props> = ({ faved, itemKey }) => {
   const t = useTranslations("common");
   const label = faved ? t("remove-from-favorites") : t("add-to-favorites");
   return (
     <Tooltip title={label}>
-      <Button
-        type="text"
-        aria-label={label}
-        aria-pressed={faved}
-        onClick={() => setFave(chapterNumber, verseNumber, !faved)}
-      >
+      <Button type="text" aria-label={label} aria-pressed={faved} onClick={() => setFave(itemKey, !faved)}>
         {faved ? <HeartFilled aria-hidden style={{ color: "#c22" }} /> : <HeartOutlined aria-hidden />}
       </Button>
     </Tooltip>

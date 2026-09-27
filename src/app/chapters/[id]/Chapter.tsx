@@ -17,7 +17,7 @@ import { useSetCurrentChapter } from "@/components/ChapterSearchContext";
 import { searchChapters } from "@/utils/chapters";
 import lf from "@/utils/localforage";
 import { getContentPack, packKey } from "@/utils/packs";
-import { FAVES_KEY, liveFaves, readFaves } from "@/utils/userData";
+import { FAVES_KEY, liveFaves, readFaves, verseKey } from "@/utils/userData";
 import ChapterHeader from "./ChapterHeader";
 
 interface Props {
@@ -294,7 +294,7 @@ const Chapter: React.FC<Props> = ({
                     verseNumber={i + 1}
                     chapterNumber={chapterNumber}
                     chapterName={currentChapter.name_simple}
-                    faved={faves.includes(`${chapterNumber}:${i + 1}`)}
+                    faved={faves.includes(verseKey(chapterNumber, i + 1))}
                     totalVerses={currentChapter.verses_count}
                     left={item.left}
                     right={item.right}

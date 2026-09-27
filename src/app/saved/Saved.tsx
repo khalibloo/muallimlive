@@ -13,7 +13,7 @@ import SafeHtml from "@/components/SafeHtml";
 import { verseTextClassName } from "@/components/Verse";
 import lf from "@/utils/localforage";
 import { contentUrl, getContentPack, getJson, packKey, type ContentPack } from "@/utils/packs";
-import { isUserDataKey, liveFaves, liveNotes, readAll, type Note } from "@/utils/userData";
+import { isHadithKey, isUserDataKey, liveFaves, liveNotes, readAll, verseKey, type Note } from "@/utils/userData";
 
 interface Props {
   chapters: Chapter[];
@@ -114,13 +114,16 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
     };
   }, []);
 
-  // verses of chapters that don't exist are skipped
+  // hadith keys and verses of chapters that don't exist are skipped
   const toVerses = (keys: string[]) =>
     sortBy(
-      keys.map(toVerse).filter(({ chapter, verse }) => {
-        const found = chapters.find((c) => c.id === chapter);
-        return found && verse >= 1 && verse <= found.verses_count;
-      }),
+      keys
+        .filter((k) => !isHadithKey(k))
+        .map(toVerse)
+        .filter(({ chapter, verse }) => {
+          const found = chapters.find((c) => c.id === chapter);
+          return found && verse >= 1 && verse <= found.verses_count;
+        }),
       ["chapter", "verse"],
     );
   const faveVerses = toVerses(faves ?? []);
@@ -171,7 +174,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
                   <VerseTexts texts={(texts[verse.chapter] ?? []).flatMap((list) => list?.[verse.verse - 1] ?? [])} />
                   {showNotes && (
                     <ul className="list-none m-0 p-0 divide-y divide-line border-t border-line">
-                      {notes[`${verse.chapter}:${verse.verse}`].map((note) => (
+                      {notes[verseKey(verse.chapter, verse.verse)].map((note) => (
                         <li key={note.id} className="py-4">
                           <SafeHtml html={note.html} />
                         </li>
@@ -201,7 +204,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
               key: "favorites",
               label: t("favorites"),
               children: renderVerses(faveVerses, t("no-favorites"), (verse) => (
-                <Fave faved chapterNumber={verse.chapter} verseNumber={verse.verse} />
+                <Fave faved itemKey={verseKey(verse.chapter, verse.verse)} />
               )),
             },
             {
@@ -210,7 +213,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
               children: renderVerses(
                 noteVerses,
                 t("no-saved-notes"),
-                (verse) => <Notes chapterNumber={verse.chapter} verseNumber={verse.verse} />,
+                (verse) => <Notes itemKey={verseKey(verse.chapter, verse.verse)} title={t("notes-title", verse)} />,
                 true,
               ),
             },

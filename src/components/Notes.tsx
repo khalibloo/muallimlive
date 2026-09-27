@@ -14,13 +14,13 @@ const NoteEditor = dynamic(() => import("./NoteEditor"), {
 });
 
 interface Props {
-  chapterNumber: number;
-  verseNumber: number;
+  itemKey: string;
+  title: string;
 }
 
 const isEmptyQuill = (text: string) => text.replace(/<(.|\n)*?>/g, "").trim().length === 0;
 
-const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
+const Notes: React.FC<Props> = ({ itemKey, title }) => {
   const t = useTranslations("common");
   const responsive = Grid.useBreakpoint();
   const [notesOpened, { setTrue: openNotes, setFalse: closeNotes }] = useBoolean();
@@ -31,7 +31,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
   // text of note being edited
   const [editNote, setEditNote] = useState<string>("");
 
-  const key = noteKey(chapterNumber, verseNumber);
+  const key = noteKey(itemKey);
 
   React.useEffect(() => {
     let cancelled = false;
@@ -41,7 +41,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
       if (cancelled) {
         return;
       }
-      readNotes(chapterNumber, verseNumber).then((notesData) => {
+      readNotes(itemKey).then((notesData) => {
         if (!cancelled) {
           setNotes(notesData);
         }
@@ -68,20 +68,20 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
       cancelled = true;
       subscription?.unsubscribe();
     };
-  }, [key, chapterNumber, verseNumber]);
+  }, [key, itemKey]);
 
-  const refresh = () => readNotes(chapterNumber, verseNumber).then(setNotes);
+  const refresh = () => readNotes(itemKey).then(setNotes);
 
   const saveNewNote = async () => {
     if (!isEmptyQuill(newNote)) {
       setNewNote("");
-      await addNote(chapterNumber, verseNumber, newNote);
+      await addNote(itemKey, newNote);
       await refresh();
     }
   };
 
   const removeNote = async (id: string) => {
-    await deleteNote(chapterNumber, verseNumber, id);
+    await deleteNote(itemKey, id);
     await refresh();
   };
 
@@ -91,7 +91,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
     if (isEmptyQuill(editNote)) {
       await removeNote(id);
     } else {
-      await updateNote(chapterNumber, verseNumber, id, editNote);
+      await updateNote(itemKey, id, editNote);
       await refresh();
     }
   };
@@ -111,7 +111,7 @@ const Notes: React.FC<Props> = ({ chapterNumber, verseNumber }) => {
     <>
       <Drawer
         placement="right"
-        title={t("notes-title", { chapter: chapterNumber, verse: verseNumber })}
+        title={title}
         onClose={closeNotes}
         open={notesOpened}
         footer={

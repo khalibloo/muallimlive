@@ -83,6 +83,21 @@ describe("Verse", () => {
     expect(screen.getByRole("button", { name: "Notes" })).toBeInTheDocument();
   });
 
+  it("shares the verse's link", async () => {
+    const user = userEvent.setup();
+    const share = vi.fn().mockResolvedValue(undefined);
+    Object.defineProperty(navigator, "share", { configurable: true, value: share });
+    renderVerse();
+
+    await user.click(screen.getByRole("button", { name: "Share verse" }));
+
+    expect(share).toHaveBeenCalledWith({
+      title: "Al-Fatihah, verse 2",
+      url: `${window.location.origin}/chapters/1#v-2`,
+    });
+    Object.defineProperty(navigator, "share", { configurable: true, value: undefined });
+  });
+
   it("calls onPlay when play is clicked", async () => {
     const user = userEvent.setup();
     const onPlay = vi.fn();

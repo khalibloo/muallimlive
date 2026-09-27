@@ -18,7 +18,7 @@ describe("Fave", () => {
     await lf.setItem("faves-quran", ["2:5"]);
     render(
       <TestProviders>
-        <Fave faved={false} chapterNumber={1} verseNumber={3} />
+        <Fave faved={false} itemKey="2:255" />
       </TestProviders>,
     );
 
@@ -26,28 +26,28 @@ describe("Fave", () => {
     expect(button).toHaveAttribute("aria-pressed", "false");
     await user.click(button);
 
-    await waitFor(async () => expect(await storedFaves()).toEqual(["2:5", "1:3"]));
+    await waitFor(async () => expect(await storedFaves()).toEqual(["2:5", "2:255"]));
   });
 
   it("creates the favorites list when none is stored", async () => {
     const user = userEvent.setup();
     render(
       <TestProviders>
-        <Fave faved={false} chapterNumber={1} verseNumber={3} />
+        <Fave faved={false} itemKey="2:255" />
       </TestProviders>,
     );
 
     await user.click(screen.getByRole("button", { name: "Add to favorites" }));
 
-    await waitFor(async () => expect(await storedFaves()).toEqual(["1:3"]));
+    await waitFor(async () => expect(await storedFaves()).toEqual(["2:255"]));
   });
 
   it("removes the verse from favorites when faved", async () => {
     const user = userEvent.setup();
-    await lf.setItem("faves-quran", ["1:3", "2:5"]);
+    await lf.setItem("faves-quran", ["2:255", "2:5"]);
     render(
       <TestProviders>
-        <Fave faved chapterNumber={1} verseNumber={3} />
+        <Fave faved itemKey="2:255" />
       </TestProviders>,
     );
 
@@ -62,12 +62,26 @@ describe("Fave", () => {
     const user = userEvent.setup();
     render(
       <TestProviders>
-        <Fave faved={false} chapterNumber={1} verseNumber={3} />
+        <Fave faved={false} itemKey="2:255" />
       </TestProviders>,
     );
 
     await user.click(screen.getByRole("button", { name: "Add to favorites" }));
 
     await waitFor(async () => expect(await lf.getItem("user-data-change")).toBe(1));
+  });
+
+  it("adds a hadith to favorites, apart from verse favorites", async () => {
+    const user = userEvent.setup();
+    render(
+      <TestProviders>
+        <Fave faved={false} itemKey="hadith:bukhari/13/1" />
+      </TestProviders>,
+    );
+
+    await user.click(screen.getByRole("button", { name: "Add to favorites" }));
+
+    await waitFor(async () => expect(liveFaves(await lf.getItem("faves-hadith"))).toEqual(["hadith:bukhari/13/1"]));
+    expect(await lf.getItem("faves-quran")).toBeNull();
   });
 });

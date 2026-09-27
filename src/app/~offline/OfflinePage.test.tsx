@@ -4,7 +4,7 @@ import { render, screen, within } from "@testing-library/react";
 import { stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
-import { setFave } from "@/utils/userData";
+import { setFave, verseKey } from "@/utils/userData";
 import OfflinePage from "./OfflinePage";
 
 // renders every item so all verses are reachable
@@ -128,7 +128,7 @@ describe("OfflinePage", () => {
 
   it("renders the favorites from the downloaded content", async () => {
     stubFetch(responses);
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     renderAt("/saved");
 
     expect(await screen.findByRole("heading", { level: 1, name: "Favorites & Notes" })).toBeInTheDocument();

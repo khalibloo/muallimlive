@@ -4,18 +4,19 @@ import { ShareAltOutlined } from "@ant-design/icons";
 import { useTranslations } from "next-intl";
 
 interface Props {
-  chapterNumber: number;
-  chapterName: string;
-  verseNumber: number;
+  /** The page's path, with a verse's hash */
+  path: string;
+  title: string;
+  /** The button's label, e.g. "Share verse" */
+  label: string;
 }
 
-const Share: React.FC<Props> = ({ chapterNumber, chapterName, verseNumber }) => {
+const Share: React.FC<Props> = ({ path, title, label }) => {
   const t = useTranslations("common");
   const { message } = App.useApp();
 
   const share = async () => {
-    const url = `${window.location.origin}/chapters/${chapterNumber}#v-${verseNumber}`;
-    const title = t("share-verse-title", { name: chapterName, verse: verseNumber });
+    const url = `${window.location.origin}${path}`;
     if (navigator.share) {
       try {
         await navigator.share({ title, url });
@@ -36,8 +37,8 @@ const Share: React.FC<Props> = ({ chapterNumber, chapterName, verseNumber }) => 
   };
 
   return (
-    <Tooltip title={t("share-verse")}>
-      <Button type="text" aria-label={t("share-verse")} onClick={share}>
+    <Tooltip title={label}>
+      <Button type="text" aria-label={label} onClick={share}>
         <ShareAltOutlined aria-hidden />
       </Button>
     </Tooltip>

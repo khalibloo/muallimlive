@@ -4,7 +4,7 @@ import userEvent from "@testing-library/user-event";
 import { stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
-import { addNote, readFaves, setFave } from "@/utils/userData";
+import { addNote, readFaves, setFave, verseKey } from "@/utils/userData";
 import Saved from "./Saved";
 
 const chapter = (id: number, name: string, translation: string, versesCount: number): Chapter => ({
@@ -66,9 +66,9 @@ describe("Saved", () => {
 
   it("lists the favorite verses by chapter with their text", async () => {
     const fetchMock = stubFetch(responses);
-    await setFave(112, 3, true);
-    await setFave(1, 5, true);
-    await setFave(112, 1, true);
+    await setFave(verseKey(112, 3), true);
+    await setFave(verseKey(1, 5), true);
+    await setFave(verseKey(112, 1), true);
     renderSaved();
 
     const verse = await screen.findByRole("article", { name: "Verse 112:1" });
@@ -88,7 +88,7 @@ describe("Saved", () => {
 
   it("removes a verse when it's unfavorited", async () => {
     stubFetch(responses);
-    await setFave(112, 1, true);
+    await setFave(verseKey(112, 1), true);
     const user = renderSaved();
 
     const verse = await screen.findByRole("article", { name: "Verse 112:1" });
@@ -103,7 +103,7 @@ describe("Saved", () => {
     renderSaved();
 
     expect(await screen.findByText("You haven't added any favorites yet")).toBeInTheDocument();
-    await setFave(1, 2, true);
+    await setFave(verseKey(1, 2), true);
 
     expect(await screen.findByRole("article", { name: "Verse 1:2" })).toBeInTheDocument();
     expect(await screen.findByText("Opener verse 2")).toBeInTheDocument();
@@ -111,9 +111,9 @@ describe("Saved", () => {
 
   it("lists the verses with notes and their notes", async () => {
     stubFetch(responses);
-    await addNote(112, 2, "<p>First thought</p>");
-    await addNote(112, 2, "<p>Second thought</p>");
-    await addNote(1, 1, "<p>Opening note</p>");
+    await addNote(verseKey(112, 2), "<p>First thought</p>");
+    await addNote(verseKey(112, 2), "<p>Second thought</p>");
+    await addNote(verseKey(1, 1), "<p>Opening note</p>");
     const user = renderSaved();
 
     await user.click(await screen.findByRole("tab", { name: "Notes" }));
@@ -133,14 +133,14 @@ describe("Saved", () => {
 
     await user.click(await screen.findByRole("tab", { name: "Notes" }));
     expect(await screen.findByText("You haven't written any notes yet")).toBeInTheDocument();
-    await addNote(112, 4, "<p>Later note</p>");
+    await addNote(verseKey(112, 4), "<p>Later note</p>");
 
     expect(await screen.findByText("Later note")).toBeInTheDocument();
   });
 
   it("still lists verses whose text can't be loaded", async () => {
     vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
-    await setFave(112, 1, true);
+    await setFave(verseKey(112, 1), true);
     renderSaved();
 
     expect(await screen.findByRole("article", { name: "Verse 112:1" })).toBeInTheDocument();

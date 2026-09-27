@@ -5,7 +5,7 @@ import { stubDrive } from "@/components/test/fakeDrive";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
 import { SYNC_STATE_KEY, forgetToken, type SyncState } from "@/utils/sync";
-import { hasLiveData, readFaves, setFave, toUserDataFile } from "@/utils/userData";
+import { hasLiveData, readFaves, setFave, toUserDataFile, verseKey } from "@/utils/userData";
 import SyncProvider, { useSync } from "./SyncProvider";
 
 vi.mock("next/navigation", () => ({ usePathname: () => "/" }));
@@ -84,7 +84,7 @@ describe("SyncProvider", () => {
 
   it("asks before combining data, then merges", async () => {
     stubDrive(driveFaves(["2:2"]));
-    await setFave(1, 1, true);
+    await setFave(verseKey(1, 1), true);
     window.history.replaceState(null, "", "/?sync=connected");
     const user = renderProvider();
 
@@ -110,7 +110,7 @@ describe("SyncProvider", () => {
     renderProvider();
     await waitFor(() => expect(stored()).toBeDefined());
 
-    await setFave(3, 3, true);
+    await setFave(verseKey(3, 3), true);
 
     await waitFor(() => expect(Object.keys(stored().faves)).toContain("3:3"), { timeout: 5000 });
   });

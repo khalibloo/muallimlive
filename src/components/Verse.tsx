@@ -6,6 +6,7 @@ import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
 import { useTranslations } from "next-intl";
 
 import lf from "@/utils/localforage";
+import { verseKey } from "@/utils/userData";
 import Fave from "./Fave";
 import Notes from "./Notes";
 import SafeHtml from "./SafeHtml";
@@ -115,9 +116,16 @@ const Verse: React.FC<Props> = ({
       <div className="flex items-center justify-between gap-2">
         <span className="verse-badge">{verseNumber}</span>
         <Space>
-          <Fave faved={faved} chapterNumber={chapterNumber} verseNumber={verseNumber} />
-          <Notes chapterNumber={chapterNumber} verseNumber={verseNumber} />
-          <Share chapterNumber={chapterNumber} chapterName={chapterName} verseNumber={verseNumber} />
+          <Fave faved={faved} itemKey={verseKey(chapterNumber, verseNumber)} />
+          <Notes
+            itemKey={verseKey(chapterNumber, verseNumber)}
+            title={t("notes-title", { chapter: chapterNumber, verse: verseNumber })}
+          />
+          <Share
+            path={`/chapters/${chapterNumber}#v-${verseNumber}`}
+            title={t("share-verse-title", { name: chapterName, verse: verseNumber })}
+            label={t("share-verse")}
+          />
           <Tooltip title={isPlaying ? t("stop-verse") : t("play-verse")}>
             <Button
               type="text"

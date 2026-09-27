@@ -140,7 +140,7 @@ test.describe("Google Drive sync", () => {
     const download = await downloading;
     expect(download.suggestedFilename()).toMatch(/^muallimlive-backup-\d{4}-\d{2}-\d{2}\.json$/);
     const backup = await download.path();
-    expect(JSON.parse(await readFile(backup, "utf8"))).toMatchObject({ app: "muallimlive", version: 2 });
+    expect(JSON.parse(await readFile(backup, "utf8"))).toMatchObject({ app: "muallimlive", version: 3 });
 
     await dialog.getByRole("button", { name: "Clear this device", exact: true }).click();
     await testPage.getByRole("button", { name: "Yes", exact: true }).click();

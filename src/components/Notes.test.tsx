@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
-import { liveNotes } from "@/utils/userData";
+import { liveNotes, noteKey } from "@/utils/userData";
 import Notes from "./Notes";
 
 // A textarea standing in for Quill, exposing it as the editor root like the real instance
@@ -34,7 +34,7 @@ const renderNotes = async () => {
   const user = userEvent.setup();
   render(
     <TestProviders>
-      <Notes chapterNumber={1} verseNumber={2} />
+      <Notes itemKey="1:2" title="Notes Q1:2" />
     </TestProviders>,
   );
   await user.click(screen.getByRole("button", { name: "Notes" }));
@@ -162,5 +162,25 @@ describe("Notes", () => {
       expect(await lf.getItem(KEY)).toEqual([expect.objectContaining({ html: "", deleted: true })]),
     );
     expect(within(drawer).getByText("You have not added any notes for this verse")).toBeInTheDocument();
+  });
+
+  it("stores a hadith's notes under their own key", async () => {
+    const hadithKeyValue = "hadith:bukhari/13/1";
+    const user = userEvent.setup();
+    render(
+      <TestProviders>
+        <Notes itemKey={hadithKeyValue} title="Notes" />
+      </TestProviders>,
+    );
+    await user.click(screen.getByRole("button", { name: "Notes" }));
+    const drawer = await screen.findByRole("dialog", { name: "Notes" });
+
+    const editor = await within(drawer).findByRole("textbox", { name: "New note" });
+    await user.type(editor, "<p>A hadith note</p>");
+    await user.click(within(drawer).getByRole("button", { name: "Save New Note" }));
+
+    await waitFor(async () =>
+      expect(liveNotes(await lf.getItem(noteKey(hadithKeyValue))).map((n) => n.html)).toEqual(["<p>A hadith note</p>"]),
+    );
   });
 });
