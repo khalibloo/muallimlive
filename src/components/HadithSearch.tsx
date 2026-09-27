@@ -115,6 +115,14 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
   };
 
   const renderResults = () => {
+    // ahooks keeps the previous error until the next request settles, so a stale "search stopped" error must
+    // not outlive a filter change that leaves nothing to search, or outlast the loading state of a new search
+    if (!deferredQuery || downloaded.length === 0) {
+      return null;
+    }
+    if (loading) {
+      return <Spin className="w-full" />;
+    }
     if (error) {
       return (
         <Alert
@@ -124,10 +132,7 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
         />
       );
     }
-    if (!deferredQuery || downloaded.length === 0) {
-      return null;
-    }
-    if (!result || loading) {
+    if (!result) {
       return <Spin className="w-full" />;
     }
     if (result.matchCount + result.partialCount === 0) {

@@ -110,3 +110,15 @@ it("says so when the search stops", async () => {
   await user.type(screen.getByRole("searchbox", { name: "Search words" }), "last");
   expect(await screen.findByText("Hadith search stopped. Try searching fewer collections.")).toBeVisible();
 });
+
+it("clears a stopped search's message once there is nothing left to search", async () => {
+  vi.mocked(searchHadiths).mockRejectedValue(new HadithSearchStopped());
+  const { user } = renderSearch();
+  const searchbox = screen.getByRole("searchbox", { name: "Search words" });
+  await user.type(searchbox, "last");
+  expect(await screen.findByText("Hadith search stopped. Try searching fewer collections.")).toBeVisible();
+
+  await user.clear(searchbox);
+
+  await waitFor(() => expect(screen.queryByText("Hadith search stopped. Try searching fewer collections.")).toBeNull());
+});
