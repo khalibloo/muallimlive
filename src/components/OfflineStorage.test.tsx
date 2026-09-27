@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
-import { downloadText } from "@/utils/offline";
+import { downloadHadiths, downloadText } from "@/utils/offline";
 import OfflineStorage from "./OfflineStorage";
 
 const chapters = {
@@ -36,7 +36,10 @@ const recitation = (chapter: number) => [
 ];
 
 const hadiths: GetHadithResourcesResponse = {
-  collections: [{ id: "malik", name: "Muwatta Malik", booksCount: 1, hadithsCount: 1, books: [] }],
+  collections: [
+    { id: "malik", name: "Muwatta Malik", booksCount: 1, hadithsCount: 1, books: [] },
+    { id: "bukhari", name: "Sahih al-Bukhari", booksCount: 1, hadithsCount: 1, books: [] },
+  ],
 };
 
 const responses: Record<string, unknown> = {
@@ -45,6 +48,7 @@ const responses: Record<string, unknown> = {
   "/api/content/recitation/7/1": recitation(1),
   "/api/content/recitation/7/2": recitation(2),
   "/api/hadiths/malik": { hadiths: [] },
+  "/api/hadiths/bukhari": { hadiths: [] },
   "/api/hadiths/synonyms": { groups: [] },
 };
 for (const pack of ["arabic/uthmani", "translation/20", "translation/85", "tafsir/169"]) {
@@ -178,6 +182,18 @@ describe("OfflineStorage", () => {
 
     await user.click(within(section).getByRole("button", { name: "Remove Muwatta Malik" }));
     expect(await within(section).findByRole("button", { name: "Download Muwatta Malik" })).toBeVisible();
+  });
+
+  it("downloads every hadith collection that's missing", async () => {
+    await downloadHadiths("malik");
+    const user = renderStorage();
+
+    const section = await screen.findByRole("region", { name: "Hadiths" });
+    await user.click(await within(section).findByRole("button", { name: "Download all hadiths" }));
+
+    expect(await within(section).findByRole("button", { name: "Remove Sahih al-Bukhari" })).toBeVisible();
+    expect(within(section).getByRole("button", { name: "Remove Muwatta Malik" })).toBeVisible();
+    expect(within(section).queryByRole("button", { name: "Download all hadiths" })).toBeNull();
   });
 
   it("shows the storage used", async () => {

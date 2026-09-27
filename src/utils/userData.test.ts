@@ -290,6 +290,12 @@ describe("hadith favorites and notes", () => {
     await expect(readAll()).resolves.toEqual(data);
   });
 
+  it("skips malformed hadith note keys and hadith keys in the verse favorites", async () => {
+    await lf.setItem("notes-hadith-malik/four", [note("bad key", 1)]);
+    await lf.setItem(FAVES_KEY, { [hadith]: { updatedAt: 1 }, "1:1": { updatedAt: 1 } });
+    await expect(readAll()).resolves.toEqual({ faves: { "1:1": { updatedAt: 1 } }, notes: {} });
+  });
+
   it("clears and deletes everywhere across both kinds", async () => {
     await setFave(verseKey(1, 1), true);
     await setFave(hadith, true);

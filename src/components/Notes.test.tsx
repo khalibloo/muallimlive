@@ -169,11 +169,13 @@ describe("Notes", () => {
     const user = userEvent.setup();
     render(
       <TestProviders>
-        <Notes itemKey={hadithKeyValue} title="Notes" />
+        <Notes itemKey={hadithKeyValue} title="Notes: Sahih al-Bukhari, Volume 2, Book 13, Hadith 1" />
       </TestProviders>,
     );
     await user.click(screen.getByRole("button", { name: "Notes" }));
-    const drawer = await screen.findByRole("dialog", { name: "Notes" });
+    const drawer = await screen.findByRole("dialog", {
+      name: "Notes: Sahih al-Bukhari, Volume 2, Book 13, Hadith 1",
+    });
 
     const editor = await within(drawer).findByRole("textbox", { name: "New note" });
     await user.type(editor, "<p>A hadith note</p>");

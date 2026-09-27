@@ -51,7 +51,7 @@ describe("Home", () => {
   });
 
   it("switches between the Qur'an and the hadiths", () => {
-    render(<Home chapters={chapters} />, { wrapper: TestProviders });
+    renderHome();
 
     expect(screen.getByRole("link", { name: "Hadith" })).toHaveAttribute("href", "/hadiths");
     expect(screen.getByRole("link", { name: "Qur'an" })).toHaveAttribute("aria-current", "page");

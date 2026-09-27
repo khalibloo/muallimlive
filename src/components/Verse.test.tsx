@@ -87,6 +87,9 @@ describe("Verse", () => {
     const user = userEvent.setup();
     const share = vi.fn().mockResolvedValue(undefined);
     Object.defineProperty(navigator, "share", { configurable: true, value: share });
+    onTestFinished(() => {
+      Object.defineProperty(navigator, "share", { configurable: true, value: undefined });
+    });
     renderVerse();
 
     await user.click(screen.getByRole("button", { name: "Share verse" }));
@@ -95,7 +98,6 @@ describe("Verse", () => {
       title: "Al-Fatihah, verse 2",
       url: `${window.location.origin}/chapters/1#v-2`,
     });
-    Object.defineProperty(navigator, "share", { configurable: true, value: undefined });
   });
 
   it("calls onPlay when play is clicked", async () => {
