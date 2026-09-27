@@ -1,7 +1,8 @@
 import { existsSync } from "node:fs";
 import { defineConfig, devices } from "@playwright/test";
 
-// API_URI points the app at the local CDN stand-in served by `pnpm test:e2e:data`; PORT is the app's port
+// API_URI points the app at the local CDN stand-in served by `pnpm test:e2e:data` on API_URI's port;
+// PORT is the app's port
 if (existsSync(".env.test")) {
   process.loadEnvFile(".env.test");
 }
@@ -38,7 +39,7 @@ export default defineConfig({
   webServer: [
     {
       // Local copy of the Qur'an data CDN (see scripts/fetch-e2e-fixtures.mjs)
-      command: "pnpm test:e2e:data",
+      command: `pnpm test:e2e:data -p ${new URL(process.env.API_URI!).port}`,
       url: `${process.env.API_URI}/data/resources/chapters.json`,
       reuseExistingServer: !process.env.CI,
       timeout: 30 * 1000,

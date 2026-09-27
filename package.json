@@ -18,7 +18,7 @@
     "test:cov": "vitest run --coverage --silent=true",
     "test:ci": "vitest run --coverage --silent=true --reporter=default --reporter=junit --outputFile=coverage/junit.xml",
     "test:e2e:start": "cross-env NODE_ENV=test next build && cross-env NODE_ENV=test next start",
-    "test:e2e:data": "http-server e2e/fixtures/cdn -p 4010 -s --cors",
+    "test:e2e:data": "http-server e2e/fixtures/cdn -s --cors",
     "test:e2e:fixtures": "node scripts/fetch-e2e-fixtures.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",

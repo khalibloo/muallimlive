@@ -85,8 +85,8 @@ Pages, layouts, the manifest, the service worker and its route, the i18n request
 The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits the real CDN. Instead:
 
 - `e2e/fixtures/cdn/data/**` holds a committed subset of the CDN: chapters 1, 112, 113 and 114, the default reader settings' content, Saheeh International, and reciters 1 and 7. The chapter list (`resources/chapters`) is trimmed to those four chapters, so offline downloads of "every chapter" stay small.
-- `pnpm test:e2e:data` serves it with `http-server` on port 4010.
-- `.env.test` points `API_URI` at `http://localhost:4010` and sets the app's `PORT`. `playwright.config.ts` loads it before starting the servers and builds `baseURL` from `PORT`. Tests never hard-code the host or port: they use relative paths, or the `baseURL` fixture where an absolute URL is needed (such as `context.addCookies`).
+- `pnpm test:e2e:data` serves it with `http-server`.
+- `.env.test` points `API_URI` at `http://localhost:4010` and sets the app's `PORT`. These are the only place the ports are set: `playwright.config.ts` loads the file before starting the servers, passes `API_URI`'s port to `pnpm test:e2e:data -p`, and builds `baseURL` from `PORT`. To serve the fixtures by hand, run `pnpm test:e2e:data -p 4010`. Tests never hard-code the host or port: they use relative paths, or the `baseURL` fixture where an absolute URL is needed (such as `context.addCookies`).
 - `pnpm test:e2e:fixtures` (`scripts/fetch-e2e-fixtures.mjs`) re-downloads the subset. Re-run it when a test needs a new chapter or content ID.
 - `fetchData()` uses `force-cache`, and Next keeps that cache in `.next/cache/fetch-cache` across builds. After changing an existing fixture file, delete that directory, or the app keeps serving the old data.
 
@@ -101,7 +101,7 @@ The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits
 | `pnpm test:e2e:data`  | `API_URI` (`http://localhost:4010`) | Fixture CDN                               |
 | `pnpm test:e2e:start` | `http://localhost:$PORT`            | Production build (`next build` + `start`) |
 
-To run the suite while another app holds port 3000, change `PORT` in `.env.test`.
+To run the suite while another app holds port 3000 or 4010, change `PORT` or `API_URI` in `.env.test`.
 
 ### Custom Fixtures (`e2e/helpers/fixtures.ts`)
 
