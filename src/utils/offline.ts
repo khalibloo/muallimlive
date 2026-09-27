@@ -118,19 +118,6 @@ export const downloadHadiths = (collection: string) =>
     report(1);
   });
 
-export const readHadiths = async (collection: string): Promise<HadithPack> => {
-  const response = await (await caches.open(TEXT_CACHE)).match(hadithPackUrl(collection));
-  if (!response) {
-    throw new Error(`${collection} isn't downloaded`);
-  }
-  return response.json();
-};
-
-export const readSynonyms = async (): Promise<HadithSynonyms> => {
-  const response = await (await caches.open(TEXT_CACHE)).match(SYNONYMS_URL);
-  return response ? response.json() : { groups: [] };
-};
-
 export const removeHadiths = async (collection: string) => {
   await (await caches.open(TEXT_CACHE)).delete(hadithPackUrl(collection));
 };

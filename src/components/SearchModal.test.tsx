@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { ConfigProvider } from "antd";
+import { VirtuosoMockContext } from "react-virtuoso";
 
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import { hadithResources } from "@/components/test/hadithFixtures";
@@ -76,18 +77,20 @@ const renderModal = (current?: CurrentChapter, mode: SearchMode = "quran") => {
   render(
     <TestProviders>
       <ConfigProvider theme={{ token: { motion: false } }}>
-        <ChapterSearchProvider>
-          {current && <RegisterChapter current={current} />}
-          <SearchModal
-            open
-            onClose={onClose}
-            mode={mode}
-            hadiths={hadithResources}
-            chapters={chapters}
-            translations={translations}
-            tafsirs={tafsirs}
-          />
-        </ChapterSearchProvider>
+        <VirtuosoMockContext.Provider value={{ viewportHeight: 1000, itemHeight: 100 }}>
+          <ChapterSearchProvider>
+            {current && <RegisterChapter current={current} />}
+            <SearchModal
+              open
+              onClose={onClose}
+              mode={mode}
+              hadiths={hadithResources}
+              chapters={chapters}
+              translations={translations}
+              tafsirs={tafsirs}
+            />
+          </ChapterSearchProvider>
+        </VirtuosoMockContext.Provider>
       </ConfigProvider>
     </TestProviders>,
   );
@@ -174,17 +177,14 @@ describe("SearchModal", () => {
       expect(onClose).toHaveBeenCalled();
     });
 
-    it("shows 50 results at a time", async () => {
+    it("counts every result but only renders the ones in view", async () => {
       const verses = Array.from({ length: 60 }, (_, i) => text(`2:${i + 1}`, `Verse about mercy ${i}`));
       const { user } = renderModal(baqarah(verses));
 
       await search(user, "mercy");
 
-      expect(await screen.findByText("60 verses")).toBeInTheDocument();
-      expect(screen.getAllByRole("article")).toHaveLength(50);
-      await user.click(screen.getByRole("button", { name: "Show more" }));
-      expect(screen.getAllByRole("article")).toHaveLength(60);
-      expect(screen.queryByRole("button", { name: "Show more" })).not.toBeInTheDocument();
+      expect(await screen.findByRole("status")).toHaveTextContent("60 verses");
+      expect(screen.getAllByRole("article").length).toBeLessThan(60);
     });
   });
 

@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 
 import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { fromPack, getNeighbors, packBooks, toBookIndex } from "@/utils/hadithPack";
-import { readHadiths } from "@/utils/offline";
+import { readHadiths } from "@/utils/hadithCache";
 import { contentUrl, getContentPack, getJson, recitationUrl, resourceUrl } from "@/utils/packs";
 import Chapter from "../chapters/[id]/Chapter";
 import Book from "../hadiths/[collection]/[book]/Book";

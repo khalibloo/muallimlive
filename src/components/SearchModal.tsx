@@ -1,19 +1,21 @@
 "use client";
 
-import { Fragment, useDeferredValue, useState } from "react";
+import { useDeferredValue, useState } from "react";
 import { Alert, App, Button, Checkbox, Empty, Input, Modal, Progress, Segmented, Spin, Typography } from "antd";
 import { DownloadOutlined, SearchOutlined } from "@ant-design/icons";
 import { useCookieState, useRequest } from "ahooks";
 import clsx from "clsx";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { Virtuoso } from "react-virtuoso";
 
 import { parseReaderSettings, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { downloadText, getDownloadStatus, isOfflineStorageSupported, useDownloads } from "@/utils/offline";
 import { packKey, type ContentPack } from "@/utils/packs";
-import { getChapterIndex, highlight, loadPackIndex, searchIndexes } from "@/utils/search";
+import { getChapterIndex, highlight, loadPackIndex, searchIndexes, type SearchHit } from "@/utils/search";
 import { useCurrentChapter, type SearchMode } from "./ChapterSearchContext";
 import HadithSearch from "./HadithSearch";
+import Highlighted from "./Highlighted";
 import { getSettingsPacks, usePackLabel } from "./OfflineStorage";
 
 interface Props {
@@ -26,8 +28,6 @@ interface Props {
   tafsirs: GetTafsirsResponse;
   hadiths: GetHadithResourcesResponse;
 }
-
-const PAGE_SIZE = 50;
 
 // Searches the display settings' texts: the current chapter's from the page, or the whole Qur'an's from the
 // downloaded offline packs. Tafsirs are only searched in a chapter, as their packs are too large to index.
@@ -49,7 +49,7 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
   // on by default, also for a chapter that registers while the modal is open
   const [thisChapter = true, setThisChapter] = useState<boolean>();
   const [excluded, setExcluded] = useState<string[]>([]);
-  const [visible, setVisible] = useState(PAGE_SIZE);
+  const [scroller, setScroller] = useState<HTMLElement | null>(null);
 
   const inChapter = thisChapter && !!current;
   const chapterIds = chapters.chapters.map((c) => c.id);
@@ -92,7 +92,6 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
 
   const toggleText = (key: string, checked: boolean) => {
     setExcluded(checked ? excluded.filter((k) => k !== key) : [...excluded, key]);
-    setVisible(PAGE_SIZE);
   };
 
   const download = async (pack: ContentPack) => {
@@ -118,69 +117,57 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
       return <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={t("no-verses-found")} />;
     }
     return (
-      <>
-        <Typography.Text type="secondary">{t("search-results", { count: hits.length })}</Typography.Text>
-        <div className="max-h-[60vh] overflow-y-auto mt-2 divide-y divide-line">
-          {hits.slice(0, visible).map((hit) => {
-            const reference = { chapter: hit.chapter, verse: hit.verse };
-            const chapter = chapters.chapters.find((c) => c.id === hit.chapter);
-            return (
-              <article key={hit.verseKey} aria-label={t("verse-reference", reference)} className="py-4 pr-2">
-                <Link
-                  href={`/chapters/${hit.chapter}#v-${hit.verse}`}
-                  className="font-semibold"
-                  onClick={(e) => {
-                    // the current chapter is already on the page, so its list scrolls there
-                    if (current?.chapter.id === hit.chapter) {
-                      e.preventDefault();
-                      current.goToVerse(hit.verse);
-                    }
-                    onClose();
-                  }}
-                >
-                  {chapter
-                    ? t("chapter-verse", { name: chapter.name_simple, ...reference })
-                    : t("verse-reference", reference)}
-                </Link>
-                {hit.texts.map(({ key, text, terms }) => {
-                  const pack = texts.find((p) => packKey(p.pack) === key)!.pack;
-                  const { parts, before, after } = highlight(text, terms);
-                  const arabic = pack.type === "arabic";
-                  return (
-                    <div key={key} className="mt-2">
-                      <Typography.Text type="secondary" className="text-xs">
-                        {packLabel(pack)}
-                      </Typography.Text>
-                      <p
-                        dir={arabic ? "rtl" : undefined}
-                        lang={arabic ? "ar" : undefined}
-                        className={clsx("m-0", { "text-arabic text-verse-arabic": arabic })}
-                      >
-                        {before && t("ellipsis")}
-                        {parts.map((part, i) =>
-                          part.match ? (
-                            <mark key={i} className="bg-primary/25 text-inherit rounded-sm">
-                              {part.text}
-                            </mark>
-                          ) : (
-                            <Fragment key={i}>{part.text}</Fragment>
-                          ),
-                        )}
-                        {after && t("ellipsis")}
-                      </p>
-                    </div>
-                  );
-                })}
-              </article>
-            );
-          })}
-          {hits.length > visible && (
-            <div className="py-4 text-center">
-              <Button onClick={() => setVisible(visible + PAGE_SIZE)}>{t("show-more")}</Button>
+      <div ref={setScroller} className="max-h-[60vh] overflow-y-auto">
+        {scroller && (
+          <Virtuoso
+            customScrollParent={scroller}
+            data={hits}
+            computeItemKey={(_, hit) => hit.verseKey}
+            itemContent={(_, hit) => renderHit(hit)}
+          />
+        )}
+      </div>
+    );
+  };
+
+  const renderHit = (hit: SearchHit) => {
+    const reference = { chapter: hit.chapter, verse: hit.verse };
+    const chapter = chapters.chapters.find((c) => c.id === hit.chapter);
+    return (
+      <article aria-label={t("verse-reference", reference)} className="border-b border-line py-4 pr-2">
+        <Link
+          href={`/chapters/${hit.chapter}#v-${hit.verse}`}
+          className="font-semibold"
+          onClick={(e) => {
+            // the current chapter is already on the page, so its list scrolls there
+            if (current?.chapter.id === hit.chapter) {
+              e.preventDefault();
+              current.goToVerse(hit.verse);
+            }
+            onClose();
+          }}
+        >
+          {chapter ? t("chapter-verse", { name: chapter.name_simple, ...reference }) : t("verse-reference", reference)}
+        </Link>
+        {hit.texts.map(({ key, text, terms }) => {
+          const pack = texts.find((p) => packKey(p.pack) === key)!.pack;
+          const arabic = pack.type === "arabic";
+          return (
+            <div key={key} className="mt-2">
+              <Typography.Text type="secondary" className="text-xs">
+                {packLabel(pack)}
+              </Typography.Text>
+              <p
+                dir={arabic ? "rtl" : undefined}
+                lang={arabic ? "ar" : undefined}
+                className={clsx("m-0", { "text-arabic text-verse-arabic": arabic })}
+              >
+                <Highlighted {...highlight(text, terms)} />
+              </p>
             </div>
-          )}
-        </div>
-      </>
+          );
+        })}
+      </article>
     );
   };
 
@@ -242,14 +229,7 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
   return (
     <>
       {current && (
-        <Checkbox
-          className="mb-4"
-          checked={thisChapter}
-          onChange={(e) => {
-            setThisChapter(e.target.checked);
-            setVisible(PAGE_SIZE);
-          }}
-        >
+        <Checkbox className="mb-4" checked={thisChapter} onChange={(e) => setThisChapter(e.target.checked)}>
           {t("search-this-chapter", { name: current.chapter.name_simple })}
         </Checkbox>
       )}
@@ -267,16 +247,19 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
             placeholder={t("search-query")}
             prefix={<SearchOutlined aria-hidden />}
             value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
-              setVisible(PAGE_SIZE);
-            }}
+            onChange={(e) => setQuery(e.target.value)}
           />
           <Typography.Title level={5} className="mt-4">
             {t("search-texts")}
           </Typography.Title>
           {renderTexts()}
-          <div className="mt-4">{renderResults()}</div>
+          <Typography.Text type="secondary" role="status" className="mt-4 block">
+            {selectedKeys.length > 0 &&
+              !(!inChapter && indexing) &&
+              hits.length > 0 &&
+              t("search-results", { count: hits.length })}
+          </Typography.Text>
+          <div className="mt-2">{renderResults()}</div>
         </>
       )}
     </>

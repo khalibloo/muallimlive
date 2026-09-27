@@ -7,13 +7,12 @@ import {
   downloadText,
   getDownloadStatus,
   isOfflineStorageSupported,
-  readHadiths,
-  readSynonyms,
   removeAudio,
   removeHadiths,
   removeText,
   useDownloads,
 } from "./offline";
+import { readHadiths, readSynonyms } from "./hadithCache";
 import type { ContentPack } from "./packs";
 
 const translation: ContentPack = { type: "translation", id: "20" };

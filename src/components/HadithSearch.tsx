@@ -1,17 +1,19 @@
 "use client";
 
-import { Fragment, useDeferredValue, useState } from "react";
+import { useDeferredValue, useState } from "react";
 import { Alert, App, Button, Empty, Form, Input, Progress, Select, Spin, Typography } from "antd";
 import { DownloadOutlined, SearchOutlined } from "@ant-design/icons";
-import { useDeepCompareEffect, useRequest } from "ahooks";
+import { useNetwork, useRequest } from "ahooks";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { Virtuoso } from "react-virtuoso";
 
 import { hadithPath, type HadithRef } from "@/utils/hadithPack";
 import { HADITH_WORD_SEPARATORS, processHadithHighlightTerm, type HadithHit } from "@/utils/hadithSearch";
 import { HadithSearchStopped, listNarrators, searchHadiths } from "@/utils/hadithSearchClient";
 import { downloadHadiths, getDownloadStatus, isOfflineStorageSupported, useDownloads } from "@/utils/offline";
 import { highlight } from "@/utils/search";
+import Highlighted from "./Highlighted";
 import useHadithReference from "./useHadithReference";
 
 interface Props {
@@ -30,38 +32,38 @@ const getPageFilters = ({ collections }: GetHadithResourcesResponse) => {
   return { collection: collection?.id ?? "", book: book?.id };
 };
 
-// Searches the downloaded collections in a worker, downloading the selected ones that are missing first
+const highlightHadith = (text: string, terms: string[]) =>
+  highlight(text, terms, processHadithHighlightTerm, HADITH_WORD_SEPARATORS);
+
+type ResultItem = { hit: HadithHit } | { partialHeading: number };
+
+// Searches the downloaded collections in a worker. The selected collections that are missing can be downloaded here.
 const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
   const t = useTranslations("common");
   const { notification } = App.useApp();
   const reference = useHadithReference();
   const downloads = useDownloads();
+  const { online } = useNetwork();
   const supported = isOfflineStorageSupported();
   const [filters, setFilters] = useState(() => getPageFilters(hadiths));
   const [narrator, setNarrator] = useState<string>();
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query.trim());
   const [limit, setLimit] = useState(PAGE_SIZE);
+  const [scroller, setScroller] = useState<HTMLElement | null>(null);
 
-  const selected = filters.collection ? [filters.collection] : hadiths.collections.map((c) => c.id);
+  const selected = hadiths.collections.filter((c) => !filters.collection || c.id === filters.collection);
   const { data: status } = useRequest(getDownloadStatus, {
     ready: supported,
     refreshDeps: [Object.keys(downloads).join()],
   });
-  const downloaded = selected.filter((c) => status?.hadiths.includes(c));
-  const missing = status ? selected.filter((c) => !status.hadiths.includes(c)) : [];
-  const download = (collection: string) =>
-    downloadHadiths(collection).catch(() => notification.error({ title: t("download-failed") }));
-
-  useDeepCompareEffect(() => {
-    if (navigator.onLine) {
-      missing.filter((c) => !(`hadiths/${c}` in downloads)).forEach(download);
-    }
-  }, [missing]);
+  const downloaded = selected.filter((c) => status?.hadiths.includes(c.id));
+  const missing = status ? selected.filter((c) => !status.hadiths.includes(c.id)) : [];
+  const downloadedIds = downloaded.map((c) => c.id).join();
 
   const { data: narrators } = useRequest(() => listNarrators(downloaded), {
     ready: downloaded.length > 0,
-    refreshDeps: [downloaded.join()],
+    refreshDeps: [downloadedIds],
   });
   const {
     data: result,
@@ -71,26 +73,28 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
     () => searchHadiths({ collections: downloaded, query: deferredQuery, book: filters.book, narrator, limit }),
     {
       ready: downloaded.length > 0 && !!deferredQuery,
-      refreshDeps: [downloaded.join(), deferredQuery, filters.book, narrator, limit],
+      refreshDeps: [downloadedIds, deferredQuery, filters.book, narrator, limit],
     },
   );
+
+  const download = (collection: string) =>
+    downloadHadiths(collection).catch(() => notification.error({ title: t("download-failed") }));
 
   const collectionOf = (hit: HadithRef) => hadiths.collections.find((c) => c.id === hit.collection);
   const label = (hit: HadithHit) =>
     t("hadith-label", { collection: collectionOf(hit)?.name ?? hit.collection, reference: reference(hit) });
 
   const renderHit = (hit: HadithHit) => {
-    const { parts, before, after } = highlight(hit.text, hit.terms, processHadithHighlightTerm, HADITH_WORD_SEPARATORS);
     const book = collectionOf(hit)?.books.find((b) => b.id === hit.book);
     return (
-      <article key={`${hit.collection}/${hit.book}/${hit.id}`} aria-label={label(hit)} className="py-4 pr-2">
+      <article aria-label={label(hit)} className="border-b border-line py-4 pr-2">
         <Link href={hadithPath(hit)} className="font-semibold" onClick={onClose}>
           {label(hit)}
         </Link>
         <div className="flex flex-wrap gap-x-4 text-xs">
           {book && (
             <Typography.Text type="secondary">
-              {t("hadith-book-name", { id: book.id, name: book.name })}
+              <Highlighted {...highlightHadith(t("hadith-book-name", { id: book.id, name: book.name }), hit.terms)} />
             </Typography.Text>
           )}
           {hit.narrators?.[0] && (
@@ -98,17 +102,7 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
           )}
         </div>
         <p className="m-0 mt-2">
-          {before && t("ellipsis")}
-          {parts.map((part, i) =>
-            part.match ? (
-              <mark key={i} className="bg-primary/25 text-inherit rounded-sm">
-                {part.text}
-              </mark>
-            ) : (
-              <Fragment key={i}>{part.text}</Fragment>
-            ),
-          )}
-          {after && t("ellipsis")}
+          <Highlighted {...highlightHadith(hit.text, hit.terms)} />
         </p>
       </article>
     );
@@ -120,7 +114,7 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
     if (!deferredQuery || downloaded.length === 0) {
       return null;
     }
-    // the previous result stays on screen while the next page loads, instead of unmounting the results container
+    // the previous result stays on screen while the next page loads, instead of unmounting the results list
     if (loading && !result) {
       return <Spin className="w-full" />;
     }
@@ -139,22 +133,33 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
     if (result.matchCount + result.partialCount === 0) {
       return <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={t("no-hadiths-found")} />;
     }
+    const items: ResultItem[] = [
+      ...result.matches.map((hit) => ({ hit })),
+      ...(result.partial.length > 0 ? [{ partialHeading: result.partialCount }] : []),
+      ...result.partial.map((hit) => ({ hit })),
+    ];
+    const hasMore = result.matches.length + result.partial.length < result.matchCount + result.partialCount;
     return (
-      <div className="max-h-[60vh] overflow-y-auto divide-y divide-line">
-        {result.matchCount > 0 && (
-          <Typography.Text type="secondary">{t("hadith-matches", { count: result.matchCount })}</Typography.Text>
-        )}
-        {result.matches.map(renderHit)}
-        {result.partial.length > 0 && (
-          <Typography.Title level={5} className="pt-4">
-            {t("partial-matches", { count: result.partialCount })}
-          </Typography.Title>
-        )}
-        {result.partial.map(renderHit)}
-        {result.matches.length + result.partial.length < result.matchCount + result.partialCount && (
-          <Button type="link" onClick={() => setLimit((l) => l + PAGE_SIZE)}>
-            {t("show-more")}
-          </Button>
+      <div ref={setScroller} className="max-h-[60vh] overflow-y-auto">
+        {scroller && (
+          <Virtuoso
+            customScrollParent={scroller}
+            data={items}
+            computeItemKey={(_, item) =>
+              "hit" in item ? `${item.hit.collection}/${item.hit.book}/${item.hit.id}` : "partial"
+            }
+            itemContent={(_, item) =>
+              "hit" in item ? (
+                renderHit(item.hit)
+              ) : (
+                <Typography.Title level={5} className="pt-4">
+                  {t("partial-matches", { count: item.partialHeading })}
+                </Typography.Title>
+              )
+            }
+            endReached={() => hasMore && !loading && setLimit((l) => l + PAGE_SIZE)}
+            components={{ Footer: () => (hasMore ? <Spin className="w-full py-4" /> : null) }}
+          />
         )}
       </div>
     );
@@ -174,6 +179,8 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
             value={filters.collection}
             onChange={(value) => {
               setFilters({ collection: value, book: undefined });
+              // another collection has other narrators
+              setNarrator(undefined);
               setLimit(PAGE_SIZE);
             }}
             options={[
@@ -216,34 +223,41 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
         </Form.Item>
       </Form>
       {missing.length > 0 && (
-        <ul className="m-0 mb-4 list-none p-0">
-          {missing.map((id) => {
-            const name = hadiths.collections.find((c) => c.id === id)?.name ?? id;
-            const progress = downloads[`hadiths/${id}`];
-            return (
-              <li key={id} className="flex items-center gap-4 py-1">
-                <span className="flex-1">{name}</span>
-                {progress !== undefined ? (
-                  <Progress className="w-32" percent={Math.round(progress * 100)} aria-label={t("download-progress")} />
-                ) : (
-                  <>
-                    {!navigator.onLine && (
-                      <Typography.Text type="secondary">{t("hadith-not-downloaded-offline")}</Typography.Text>
-                    )}
-                    <Button
-                      icon={<DownloadOutlined aria-hidden />}
-                      disabled={!navigator.onLine}
-                      aria-label={t("download-pack", { name })}
-                      onClick={() => download(id)}
-                    >
-                      {t("download")}
-                    </Button>
-                  </>
-                )}
-              </li>
-            );
-          })}
-        </ul>
+        <>
+          <ul className="m-0 list-none p-0">
+            {missing.map(({ id, name }) => {
+              const progress = downloads[`hadiths/${id}`];
+              return (
+                <li key={id} className="flex items-center gap-4 py-1">
+                  <span className="flex-1">{name}</span>
+                  {progress !== undefined ? (
+                    <Progress
+                      className="w-32"
+                      percent={Math.round(progress * 100)}
+                      aria-label={t("download-progress")}
+                    />
+                  ) : (
+                    <>
+                      {!online && (
+                        <Typography.Text type="secondary">{t("hadith-not-downloaded-offline")}</Typography.Text>
+                      )}
+                      <Button
+                        size="small"
+                        icon={<DownloadOutlined aria-hidden />}
+                        disabled={!online}
+                        aria-label={t("download-pack", { name })}
+                        onClick={() => download(id)}
+                      >
+                        {t("download")}
+                      </Button>
+                    </>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+          <Alert className="my-4" type="info" showIcon title={t("hadith-download-needed")} />
+        </>
       )}
       <Input
         // eslint-disable-next-line jsx-a11y/no-autofocus
@@ -260,7 +274,14 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
           setLimit(PAGE_SIZE);
         }}
       />
-      <div className="mt-4">{renderResults()}</div>
+      <Typography.Text type="secondary" role="status" className="mt-4 block">
+        {deferredQuery &&
+          downloaded.length > 0 &&
+          result &&
+          !(error && !loading) &&
+          t("hadith-matches", { count: result.matchCount })}
+      </Typography.Text>
+      <div className="mt-2">{renderResults()}</div>
     </>
   );
 };

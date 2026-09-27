@@ -46,6 +46,8 @@ test.describe("Verse search", () => {
     await dialog.getByRole("searchbox", { name: "Search words", exact: true }).fill("mischief");
 
     await expect(dialog.getByRole("article", { name: "Verse 113:2", exact: true })).toBeVisible();
+    // the results are virtualized, so a result further down is only rendered once in view
+    await dialog.getByRole("searchbox", { name: "Search words", exact: true }).fill("mischief whisperer");
     await dialog
       .getByRole("article", { name: "Verse 114:4", exact: true })
       .getByRole("link", { name: `${chapterName(114)} 114:4`, exact: true })

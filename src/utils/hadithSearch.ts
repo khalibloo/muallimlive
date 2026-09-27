@@ -3,12 +3,13 @@ import { stemmer } from "stemmer";
 import { orderBy, uniq } from "lodash-es";
 
 import type { HadithRef } from "./hadithPack";
-import { readHadiths, readSynonyms } from "./offline";
+import { readHadiths, readSynonyms } from "./hadithCache";
 import { normalizeTerm } from "./search";
 
-// Hadith search, run in a worker (hadithSearch.worker.ts): one MiniSearch index per downloaded collection.
-// Words are indexed both as written (normalized) and stemmed, so word forms match and typos in long words
-// still do. Each query word also matches its synonyms, at a lower weight.
+// Hadith search, run in a worker (hadithSearch.worker.ts): one MiniSearch index per downloaded collection,
+// of each hadith's text, narrators and book title. Words are indexed both as written (normalized) and
+// stemmed, so word forms match and typos in long words still do; a word in its typed form matches both,
+// so it ranks above its other forms. Each query word also matches its synonyms, at a lower weight.
 
 const APOSTROPHES = /['’‘ʿʾ`]/g;
 const SEPARATORS = /[\n\r\p{Z}\p{P}]+/u;
@@ -96,7 +97,12 @@ const toUnits = (query: string, synonyms: SynonymIndex) => {
   return units;
 };
 
-type IndexedHadith = { id: string; text: string; narrators: string };
+type IndexedHadith = { id: string; text: string; narrators: string; book: string };
+
+/** A collection to search, with its book titles, which the packs don't have */
+export type HadithSearchCollection = Pick<HadithResourceCollection, "id"> & {
+  books: Pick<HadithResourceBook, "id" | "name">[];
+};
 
 interface CollectionIndex {
   index: MiniSearch<IndexedHadith>;
@@ -104,15 +110,21 @@ interface CollectionIndex {
   docs: Map<string, PackedHadith>;
 }
 
-const buildIndex = (pack: HadithPack): CollectionIndex => {
+const buildIndex = (pack: HadithPack, { books }: HadithSearchCollection): CollectionIndex => {
   const index = new MiniSearch<IndexedHadith>({
-    fields: ["text", "narrators"],
+    fields: ["text", "narrators", "book"],
     tokenize,
     processTerm: processHadithTerm,
   });
   const docs = new Map(pack.hadiths.map((h) => [`${h.book}/${h.id}`, h]));
+  const bookNames = new Map(books.map((b) => [b.id, b.name]));
   index.addAll(
-    [...docs].map(([id, h]) => ({ id, text: h.text.join("\n"), narrators: (h.narrators ?? []).join("\n") })),
+    [...docs].map(([id, h]) => ({
+      id,
+      text: h.text.join("\n"),
+      narrators: (h.narrators ?? []).join("\n"),
+      book: bookNames.get(h.book) ?? "",
+    })),
   );
   return { index, docs };
 };
@@ -121,12 +133,12 @@ const indexes = new Map<string, Promise<CollectionIndex>>();
 let synonymIndex: Promise<SynonymIndex> | undefined;
 
 /** Indexes a downloaded collection once per session. Fails, without keeping the failure, when it isn't downloaded. */
-const getIndex = (collection: string) => {
-  let index = indexes.get(collection);
+const getIndex = (collection: HadithSearchCollection) => {
+  let index = indexes.get(collection.id);
   if (!index) {
-    index = readHadiths(collection).then(buildIndex);
-    index.catch(() => indexes.delete(collection));
-    indexes.set(collection, index);
+    index = readHadiths(collection.id).then((pack) => buildIndex(pack, collection));
+    index.catch(() => indexes.delete(collection.id));
+    indexes.set(collection.id, index);
   }
   return index;
 };
@@ -169,7 +181,7 @@ export interface HadithSearchResult {
 }
 
 export interface HadithSearchRequest {
-  collections: string[];
+  collections: HadithSearchCollection[];
   query: string;
   /** Only with a single collection */
   book?: number;
@@ -179,7 +191,7 @@ export interface HadithSearchRequest {
 }
 
 export type HadithSearchMessage =
-  ({ type: "search" } & HadithSearchRequest) | { type: "narrators"; collections: string[] };
+  ({ type: "search" } & HadithSearchRequest) | { type: "narrators"; collections: HadithSearchCollection[] };
 
 const EMPTY: HadithSearchResult = { matches: [], partial: [], matchCount: 0, partialCount: 0 };
 
@@ -199,7 +211,7 @@ const search = async ({ collections, query, book, narrator, limit }: HadithSearc
     const toHit = (result: SearchResult): HadithHit => {
       const h = docs.get(`${result.id}`)!;
       return {
-        collection,
+        collection: collection.id,
         book: h.book,
         id: h.id,
         volume: h.volume,
@@ -239,7 +251,7 @@ const search = async ({ collections, query, book, narrator, limit }: HadithSearc
   };
 };
 
-const listNarrators = async (collections: string[]) =>
+const listNarrators = async (collections: HadithSearchCollection[]) =>
   uniq(
     (await Promise.all(collections.map(getIndex))).flatMap(({ docs }) =>
       [...docs.values()].flatMap((h) => h.narrators ?? []),

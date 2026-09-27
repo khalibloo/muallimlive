@@ -1,5 +1,5 @@
 import { stubCaches } from "@/components/test/fakeCaches";
-import { fixture, fixtureText } from "@/components/test/hadithFixtures";
+import { fixture, fixtureCollection, fixtureText } from "@/components/test/hadithFixtures";
 import { highlight } from "./search";
 import { hadithPackUrl, SYNONYMS_URL, TEXT_CACHE } from "./packs";
 import {
@@ -21,10 +21,10 @@ const search = (
 ) =>
   handleMessage({
     type: "search",
-    collections: COLLECTIONS,
     limit: 50,
     query,
     ...options,
+    collections: (options.collections ?? COLLECTIONS).map(fixtureCollection),
   }) as Promise<HadithSearchResult>;
 const refs = (hits: { collection: string; book: number; id: string }[]) =>
   hits.map((h) => `${h.collection}/${h.book}/${h.id}`);
@@ -87,10 +87,11 @@ describe("hadithSearch", () => {
     expect(refs(matches)[0]).toBe("malik/4/4.1.1");
   });
 
-  it("keeps a coincidental double typo-match out of matches, though it can surface as a partial", async () => {
-    const { matches, partial } = await search("satan forgetfulness");
+  it("keeps a coincidental double typo-match out of matches", async () => {
+    const { matches } = await search("satan forgetfulness");
     expect(refs(matches)).not.toContain("bukhari/2/46");
-    expect(refs(partial)).toContain("malik/4/4.1.1");
+    // Satan is in its text, and forgetfulness in its book's title, "Forgetfulness in Prayer"
+    expect(refs(matches)).toContain("malik/4/4.1.1");
   });
 
   it("matches a phrase synonym both ways", async () => {
@@ -112,6 +113,14 @@ describe("hadithSearch", () => {
     expect(refs(result.partial)).toContain("bukhari/1/1");
     const both = await search("reward intentions");
     expect(refs(both.partial)).not.toEqual(expect.arrayContaining(refs(both.matches)));
+  });
+
+  it("finds hadiths by their book's title", async () => {
+    // bukhari/13/12 is in the book "Friday Prayer", but its text never says "Friday"
+    expect(fixture<Hadith>("bukhari/13/12").text.join(" ")).not.toMatch(/friday/i);
+    const { matches } = await search("friday", { collections: ["bukhari"] });
+    expect(refs(matches)).toContain("bukhari/13/12");
+    expect(matches[0].text).toMatch(/friday/i);
   });
 
   it("boosts narrator matches", async () => {
@@ -151,7 +160,10 @@ describe("hadithSearch", () => {
   });
 
   it("lists the narrators of the collections", async () => {
-    const narrators = (await handleMessage({ type: "narrators", collections: ["malik"] })) as string[];
+    const narrators = (await handleMessage({
+      type: "narrators",
+      collections: [fixtureCollection("malik")],
+    })) as string[];
     expect(narrators).toEqual([...narrators].sort());
     expect(narrators).toContain("Ibn Shihab");
   });
