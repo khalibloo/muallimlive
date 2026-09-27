@@ -173,11 +173,13 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
       </Modal>
       <SearchModal
         open={!!searchMode}
+        mode={searchMode ?? "quran"}
         onClose={closeSearch}
         width={modalWidth}
         chapters={settingsResources.chapters}
         translations={settingsResources.translations}
         tafsirs={settingsResources.tafsirs}
+        hadiths={settingsResources.hadiths}
       />
       <div className="flex justify-between items-center h-full px-4">
         <Link href="/" className="flex items-center h-full">

@@ -79,7 +79,7 @@ describe("NavBar", () => {
 
     await user.click(screen.getByRole("button", { name: "Search" }));
 
-    expect(await screen.findByRole("dialog", { name: "Search Verses" })).toBeInTheDocument();
+    expect(await screen.findByRole("dialog", { name: "Search" })).toBeInTheDocument();
   });
 
   it.each([

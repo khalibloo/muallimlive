@@ -111,10 +111,12 @@ const renderWithSearch = () => {
         <ChapterSearchProvider>
           <SearchModal
             open
+            mode="quran"
             onClose={() => {}}
             chapters={chapters}
             translations={{ translations: [] }}
             tafsirs={{ tafsirs: [{ id: 169, translated_name: { name: "Ibn Kathir" } }] } as GetTafsirsResponse}
+            hadiths={{ collections: [] }}
           />
           <Chapter
             chapter={alFatihah}

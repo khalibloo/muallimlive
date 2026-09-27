@@ -6,7 +6,7 @@ import { openSettings } from "../helpers/settings";
 
 const openSearch = async (page: Page) => {
   await page.getByRole("button", { name: "Search", exact: true }).click();
-  const dialog = page.getByRole("dialog", { name: "Search Verses", exact: true });
+  const dialog = page.getByRole("dialog", { name: "Search", exact: true });
   await expect(dialog).toBeVisible();
   return dialog;
 };

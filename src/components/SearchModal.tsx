@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment, useDeferredValue, useState } from "react";
-import { Alert, App, Button, Checkbox, Empty, Input, Modal, Progress, Spin, Typography } from "antd";
+import { Alert, App, Button, Checkbox, Empty, Input, Modal, Progress, Segmented, Spin, Typography } from "antd";
 import { DownloadOutlined, SearchOutlined } from "@ant-design/icons";
 import { useCookieState, useRequest } from "ahooks";
 import clsx from "clsx";
@@ -12,23 +12,31 @@ import { parseReaderSettings, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { downloadText, getDownloadStatus, isOfflineStorageSupported, useDownloads } from "@/utils/offline";
 import { packKey, type ContentPack } from "@/utils/packs";
 import { getChapterIndex, highlight, loadPackIndex, searchIndexes } from "@/utils/search";
-import { useCurrentChapter } from "./ChapterSearchContext";
+import { useCurrentChapter, type SearchMode } from "./ChapterSearchContext";
+import HadithSearch from "./HadithSearch";
 import { getSettingsPacks, usePackLabel } from "./OfflineStorage";
 
 interface Props {
   open: boolean;
+  mode: SearchMode;
   onClose: () => void;
   width?: string;
   chapters: GetChaptersResponse;
   translations: GetTranslationsResponse;
   tafsirs: GetTafsirsResponse;
+  hadiths: GetHadithResourcesResponse;
 }
 
 const PAGE_SIZE = 50;
 
 // Searches the display settings' texts: the current chapter's from the page, or the whole Qur'an's from the
 // downloaded offline packs. Tafsirs are only searched in a chapter, as their packs are too large to index.
-const VerseSearch: React.FC<Omit<Props, "open" | "width">> = ({ onClose, chapters, translations, tafsirs }) => {
+const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> = ({
+  onClose,
+  chapters,
+  translations,
+  tafsirs,
+}) => {
   const t = useTranslations("common");
   const { notification } = App.useApp();
   const current = useCurrentChapter();
@@ -275,11 +283,32 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width">> = ({ onClose, chapter
   );
 };
 
+const Search: React.FC<Omit<Props, "open" | "width">> = ({ mode: initialMode, hadiths, ...props }) => {
+  const t = useTranslations("common");
+  const [mode, setMode] = useState(initialMode);
+  return (
+    <>
+      <Segmented
+        block
+        className="mb-4"
+        aria-label={t("search-in")}
+        value={mode}
+        onChange={setMode}
+        options={[
+          { value: "quran", label: t("quran") },
+          { value: "hadith", label: t("hadith") },
+        ]}
+      />
+      {mode === "quran" ? <VerseSearch {...props} /> : <HadithSearch hadiths={hadiths} onClose={props.onClose} />}
+    </>
+  );
+};
+
 const SearchModal: React.FC<Props> = ({ open, width, ...props }) => {
   const t = useTranslations("common");
   return (
-    <Modal destroyOnHidden open={open} footer={null} onCancel={props.onClose} width={width} title={t("search-verses")}>
-      <VerseSearch {...props} />
+    <Modal destroyOnHidden open={open} footer={null} onCancel={props.onClose} width={width} title={t("search")}>
+      <Search {...props} />
     </Modal>
   );
 };

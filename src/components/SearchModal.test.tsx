@@ -4,11 +4,23 @@ import userEvent from "@testing-library/user-event";
 import { ConfigProvider } from "antd";
 
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
+import { hadithResources } from "@/components/test/hadithFixtures";
 import TestProviders from "@/components/test/TestProviders";
 import { downloadText } from "@/utils/offline";
 import { clearPackIndexes } from "@/utils/search";
-import { ChapterSearchProvider, useSetCurrentChapter, type CurrentChapter } from "./ChapterSearchContext";
+import {
+  ChapterSearchProvider,
+  useSetCurrentChapter,
+  type CurrentChapter,
+  type SearchMode,
+} from "./ChapterSearchContext";
 import SearchModal from "./SearchModal";
+
+vi.mock("@/utils/hadithSearchClient", () => ({
+  HadithSearchStopped: class extends Error {},
+  searchHadiths: vi.fn(),
+  listNarrators: vi.fn().mockResolvedValue([]),
+}));
 
 const chapters = {
   chapters: [
@@ -58,7 +70,7 @@ const RegisterChapter: React.FC<{ current: CurrentChapter }> = ({ current }) => 
   return null;
 };
 
-const renderModal = (current?: CurrentChapter) => {
+const renderModal = (current?: CurrentChapter, mode: SearchMode = "quran") => {
   const user = userEvent.setup();
   const onClose = vi.fn();
   render(
@@ -66,7 +78,15 @@ const renderModal = (current?: CurrentChapter) => {
       <ConfigProvider theme={{ token: { motion: false } }}>
         <ChapterSearchProvider>
           {current && <RegisterChapter current={current} />}
-          <SearchModal open onClose={onClose} chapters={chapters} translations={translations} tafsirs={tafsirs} />
+          <SearchModal
+            open
+            onClose={onClose}
+            mode={mode}
+            hadiths={hadithResources}
+            chapters={chapters}
+            translations={translations}
+            tafsirs={tafsirs}
+          />
         </ChapterSearchProvider>
       </ConfigProvider>
     </TestProviders>,
@@ -97,11 +117,19 @@ describe("SearchModal", () => {
     vi.unstubAllGlobals();
   });
 
+  it("opens in the mode it's given and switches between them", async () => {
+    stubCaches();
+    const { user } = renderModal(undefined, "hadith");
+    await vi.waitFor(() => expect(screen.getByRole("combobox", { name: "Collection" })).toBeVisible());
+    await user.click(screen.getByText("Qur'an"));
+    expect(screen.queryByRole("combobox", { name: "Collection" })).toBeNull();
+  });
+
   describe("in a chapter", () => {
     it("searches the chapter's texts, tafsirs included, and highlights the matches", async () => {
       const { user } = renderModal(baqarah());
 
-      expect(screen.getByRole("dialog", { name: "Search Verses" })).toBeInTheDocument();
+      expect(screen.getByRole("dialog", { name: "Search" })).toBeInTheDocument();
       expect(screen.getByRole("checkbox", { name: "Only Al-Baqarah" })).toBeChecked();
       await vi.waitFor(() => expect(screen.getByRole("searchbox", { name: "Search words" })).toHaveFocus());
       await search(user, "patience");
