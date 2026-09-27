@@ -7,10 +7,12 @@ import { useFormatter, useTranslations } from "next-intl";
 
 import {
   downloadAudio,
+  downloadHadiths,
   downloadText,
   getDownloadStatus,
   isOfflineStorageSupported,
   removeAudio,
+  removeHadiths,
   removeText,
   useDownloads,
 } from "@/utils/offline";
@@ -21,6 +23,7 @@ interface Props {
   translations: GetTranslationsResponse;
   tafsirs: GetTafsirsResponse;
   recitations: GetRecitationsResponse;
+  hadiths: GetHadithResourcesResponse;
   readerSettings: ReaderSettings;
   playerSettings: PlaySettings;
 }
@@ -50,6 +53,7 @@ const OfflineStorage: React.FC<Props> = ({
   translations,
   tafsirs,
   recitations,
+  hadiths,
   readerSettings,
   playerSettings,
 }) => {
@@ -85,6 +89,7 @@ const OfflineStorage: React.FC<Props> = ({
   });
   const packs = uniqBy([...settingsPacks, ...downloadedPacks], packKey);
   const missingPacks = settingsPacks.filter((p) => (status.text[packKey(p)] ?? 0) < total);
+  const missingHadiths = hadiths.collections.filter((c) => !status.hadiths.includes(c.id));
 
   const run = async (task: Promise<unknown>) => {
     try {
@@ -168,6 +173,65 @@ const OfflineStorage: React.FC<Props> = ({
           );
         })}
       </ul>
+
+      <section aria-labelledby="offline-hadiths">
+        <div className="flex items-center justify-between gap-4 mt-6">
+          <Typography.Title level={4} id="offline-hadiths" className="m-0">
+            {t("offline-hadiths")}
+          </Typography.Title>
+          {missingHadiths.length > 0 && (
+            <Button
+              type="primary"
+              icon={<DownloadOutlined aria-hidden />}
+              aria-label={t("download-all-hadiths")}
+              onClick={() => run(Promise.all(missingHadiths.map((c) => downloadHadiths(c.id))))}
+            >
+              {t("download-all")}
+            </Button>
+          )}
+        </div>
+        <ul className="list-none m-0 p-0 divide-y divide-line">
+          {hadiths.collections.map((c) => {
+            const progress = downloads[`hadiths/${c.id}`];
+            const downloaded = status.hadiths.includes(c.id);
+            return (
+              <li key={c.id} className="flex items-center gap-4 py-2">
+                <div className="grow min-w-0">
+                  <Typography.Text strong>{c.name}</Typography.Text>
+                  <div>
+                    <Typography.Text type="secondary">
+                      {t("hadith-count", { count: c.hadithsCount })} · {t(downloaded ? "downloaded" : "not-downloaded")}
+                    </Typography.Text>
+                  </div>
+                  {progress !== undefined && (
+                    <Progress percent={Math.floor(progress * 100)} size="small" aria-label={t("download-progress")} />
+                  )}
+                </div>
+                {!downloaded && (
+                  <Button
+                    icon={<DownloadOutlined aria-hidden />}
+                    loading={progress !== undefined}
+                    aria-label={t("download-pack", { name: c.name })}
+                    onClick={() => run(downloadHadiths(c.id))}
+                  >
+                    {t("download")}
+                  </Button>
+                )}
+                {downloaded && progress === undefined && (
+                  <Button
+                    danger
+                    icon={<DeleteOutlined aria-hidden />}
+                    aria-label={t("remove-pack", { name: c.name })}
+                    onClick={() => run(removeHadiths(c.id))}
+                  >
+                    {t("remove")}
+                  </Button>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
 
       <Typography.Title level={4} className="mt-6">
         {t("offline-audio")}

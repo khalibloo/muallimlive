@@ -35,11 +35,17 @@ const recitation = (chapter: number) => [
   { id: 1, verse_key: `${chapter}:1`, url: `https://audio.test/${chapter}.mp3` },
 ];
 
+const hadiths: GetHadithResourcesResponse = {
+  collections: [{ id: "malik", name: "Muwatta Malik", booksCount: 1, hadithsCount: 1, books: [] }],
+};
+
 const responses: Record<string, unknown> = {
   "/1.mp3": {},
   "/2.mp3": {},
   "/api/content/recitation/7/1": recitation(1),
   "/api/content/recitation/7/2": recitation(2),
+  "/api/hadiths/malik": { hadiths: [] },
+  "/api/hadiths/synonyms": { groups: [] },
 };
 for (const pack of ["arabic/uthmani", "translation/20", "translation/85", "tafsir/169"]) {
   for (const chapter of [1, 2]) {
@@ -56,6 +62,7 @@ const renderStorage = () => {
         translations={translations}
         tafsirs={tafsirs}
         recitations={recitations}
+        hadiths={hadiths}
         readerSettings={readerSettings}
         playerSettings={{ reciter: 7, hideTafsirs: true }}
       />
@@ -87,7 +94,9 @@ describe("OfflineStorage", () => {
   it("lists each content pack in the display settings once", async () => {
     renderStorage();
 
-    expect(await screen.findAllByText(/· Not downloaded/)).toHaveLength(3);
+    const hadithsSection = await screen.findByRole("region", { name: "Hadiths" });
+    const notDownloaded = (await screen.findAllByText(/· Not downloaded/)).filter((el) => !hadithsSection.contains(el));
+    expect(notDownloaded).toHaveLength(3);
     expect(within(packRow("Uthmani Script")).getByText("Arabic · Not downloaded")).toBeInTheDocument();
     expect(within(packRow("Saheeh International")).getByText("Translation · Not downloaded")).toBeInTheDocument();
     expect(within(packRow("Ibn Kathir")).getByText("Tafsir · Not downloaded")).toBeInTheDocument();
@@ -158,6 +167,17 @@ describe("OfflineStorage", () => {
     await user.click(screen.getByRole("combobox", { name: "Audio Reciter" }));
     await user.click((await screen.findAllByText("Hani ar-Rifai (Murattal)")).at(-1)!);
     expect(await screen.findByText("0 of 2 chapters downloaded for this reciter")).toBeInTheDocument();
+  });
+
+  it("downloads and removes hadith collections", async () => {
+    const user = renderStorage();
+
+    const section = await screen.findByRole("region", { name: "Hadiths" });
+    await user.click(within(section).getByRole("button", { name: "Download Muwatta Malik" }));
+    expect(await within(section).findByRole("button", { name: "Remove Muwatta Malik" })).toBeVisible();
+
+    await user.click(within(section).getByRole("button", { name: "Remove Muwatta Malik" }));
+    expect(await within(section).findByRole("button", { name: "Download Muwatta Malik" })).toBeVisible();
   });
 
   it("shows the storage used", async () => {
