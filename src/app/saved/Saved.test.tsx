@@ -67,6 +67,7 @@ describe("Saved", () => {
 
   afterEach(() => {
     vi.unstubAllGlobals();
+    vi.restoreAllMocks();
   });
 
   it("lists the favorite verses by chapter with their text", async () => {
@@ -183,9 +184,40 @@ describe("Saved", () => {
   it("says a hadith's text is unavailable offline without its pack", async () => {
     await setFave(hadithKey({ collection: "bukhari", book: 13, id: "1" }), true);
     stubCaches();
-    stubFetch({});
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
+    vi.spyOn(navigator, "onLine", "get").mockReturnValue(false);
     renderSaved();
     expect(await screen.findByText("This hadith's text isn't downloaded for offline use.")).toBeVisible();
+  });
+
+  it("says a hadith's text couldn't be loaded while online", async () => {
+    await setFave(hadithKey({ collection: "bukhari", book: 13, id: "1" }), true);
+    stubCaches();
+    stubFetch({});
+    renderSaved();
+    expect(await screen.findByText("This hadith's text couldn't be loaded. Try again later.")).toBeVisible();
+    expect(screen.getByRole("article", { name: "Sahih al-Bukhari, Volume 2, Book 13, Hadith 1" })).toBeVisible();
+  });
+
+  it("says a hadith's text couldn't be loaded when its downloaded pack lacks it", async () => {
+    await setFave(hadithKey({ collection: "malik", book: 4, id: "999" }), true);
+    stubCaches();
+    await (await caches.open("content-packs")).put("/api/hadiths/malik", new Response(fixtureText("malik/all")));
+    stubFetch({});
+    renderSaved();
+    expect(await screen.findByText("This hadith's text couldn't be loaded. Try again later.")).toBeVisible();
+  });
+
+  it("orders the hadiths of a book by their numbers", async () => {
+    await setFave(hadithKey({ collection: "bukhari", book: 13, id: "10" }), true);
+    await setFave(hadithKey({ collection: "bukhari", book: 13, id: "2" }), true);
+    stubFetch({});
+    renderSaved();
+    await screen.findByRole("region", { name: "Hadith" });
+    expect(screen.getAllByRole("article").map((a) => a.getAttribute("aria-label"))).toEqual([
+      "Sahih al-Bukhari, Volume 2, Book 13, Hadith 2",
+      "Sahih al-Bukhari, Volume 2, Book 13, Hadith 10",
+    ]);
   });
 
   it("lists hadith notes", async () => {

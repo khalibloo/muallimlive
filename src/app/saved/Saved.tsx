@@ -15,7 +15,8 @@ import useHadithReference from "@/components/useHadithReference";
 import { verseTextClassName } from "@/components/Verse";
 import { formatHadithText, hadithPath, type HadithRef } from "@/utils/hadithPack";
 import lf from "@/utils/localforage";
-import { getDownloadStatus, isOfflineStorageSupported, readHadiths } from "@/utils/offline";
+import { readHadiths } from "@/utils/hadithCache";
+import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
 import { contentUrl, getContentPack, getJson, hadithUrl, packKey, type ContentPack } from "@/utils/packs";
 import {
   isHadithKey,
@@ -95,9 +96,10 @@ const NoteList: React.FC<{ notes: Note[] }> = ({ notes }) => (
 );
 
 type SavedHadith = HadithRef & { key: string };
-type HadithText = { narrators?: string[]; text: string[] } | null;
+/** A hadith's text, or why it's missing: offline without its pack, or a failed load */
+type HadithText = { narrators?: string[]; text: string[] } | "offline" | "failed";
 
-/** Loads each hadith's text once: from a downloaded pack, else from the server; null when neither is available */
+/** Loads each hadith's text once: from a downloaded pack, else from the server */
 const useHadithTexts = (refs: SavedHadith[]) => {
   const [texts, setTexts] = useState<Record<string, HadithText>>({});
   useDeepCompareEffect(() => {
@@ -114,12 +116,12 @@ const useHadithTexts = (refs: SavedHadith[]) => {
             if (!packs.has(ref.collection)) {
               packs.set(ref.collection, readHadiths(ref.collection));
             }
-            const found = (await packs.get(ref.collection)!).hadiths.find(
-              (h) => h.book === ref.book && h.id === ref.id,
-            );
-            return [ref.key, found ?? null];
+            const pack = await packs.get(ref.collection)!.catch(() => undefined);
+            const found = pack?.hadiths.find((h) => h.book === ref.book && h.id === ref.id);
+            return [ref.key, found ?? "failed"];
           }
-          return [ref.key, (await getJson<Hadith>(hadithUrl(ref))) ?? null];
+          const hadith = await getJson<Hadith>(hadithUrl(ref));
+          return [ref.key, hadith ?? (navigator.onLine ? "failed" : "offline")];
         }),
       );
       setTexts((current) => ({ ...current, ...Object.fromEntries(loaded) }));
@@ -193,37 +195,34 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
     getTextPacks(readerSettings),
   );
 
-  // hadiths of collections or books that don't exist are skipped; sortBy is stable, so a book keeps the stored order
+  // hadiths of collections or books that don't exist are skipped; ids like "4.1.10" sort by their numbers
+  const collectionIndex = (ref: HadithRef) => hadiths.collections.findIndex((c) => c.id === ref.collection);
   const toHadiths = (keys: string[]): SavedHadith[] =>
-    sortBy(
-      keys
-        .filter(isHadithKey)
-        .map((key) => ({ ...toHadithRef(key), key }))
-        .filter((ref) =>
-          hadiths.collections.find((c) => c.id === ref.collection)?.books.some((b) => b.id === ref.book),
-        ),
-      [(ref) => hadiths.collections.findIndex((c) => c.id === ref.collection), "book"],
-    );
+    keys
+      .filter(isHadithKey)
+      .map((key) => ({ ...toHadithRef(key), key }))
+      .filter((ref) => hadiths.collections[collectionIndex(ref)]?.books.some((b) => b.id === ref.book))
+      .sort(
+        (a, b) =>
+          collectionIndex(a) - collectionIndex(b) ||
+          a.book - b.book ||
+          a.id.localeCompare(b.id, undefined, { numeric: true }),
+      );
   const faveHadiths = toHadiths(faves ?? []);
   const noteHadiths = toHadiths(Object.keys(notes));
   const hadithTexts = useHadithTexts(uniqBy([...faveHadiths, ...noteHadiths], "key"));
 
-  const hadithActions = (ref: SavedHadith) => {
-    const collection = hadiths.collections.find((c) => c.id === ref.collection)!;
-    const book = collection.books.find((b) => b.id === ref.book)!;
-    const refText = reference({ ...ref, volume: book.volume });
-    return (
-      <>
-        <Fave faved={(faves ?? []).includes(ref.key)} itemKey={ref.key} />
-        <Notes itemKey={ref.key} title={t("hadith-notes-title", { collection: collection.name, reference: refText })} />
-        <Share
-          path={hadithPath(ref)}
-          title={t("hadith-label", { collection: collection.name, reference: refText })}
-          label={t("share-hadith")}
-        />
-      </>
-    );
-  };
+  const hadithActions = (ref: SavedHadith, collection: HadithResourceCollection, refText: string) => (
+    <>
+      <Fave faved={(faves ?? []).includes(ref.key)} itemKey={ref.key} />
+      <Notes itemKey={ref.key} title={t("hadith-notes-title", { collection: collection.name, reference: refText })} />
+      <Share
+        path={hadithPath(ref)}
+        title={t("hadith-label", { collection: collection.name, reference: refText })}
+        label={t("share-hadith")}
+      />
+    </>
+  );
 
   const renderVerses = (
     verses: SavedVerse[],
@@ -273,7 +272,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
     });
   };
 
-  const renderHadiths = (refs: SavedHadith[], action: (ref: SavedHadith) => React.ReactNode, showNotes?: boolean) =>
+  const renderHadiths = (refs: SavedHadith[], showNotes?: boolean) =>
     refs.length > 0 && (
       <section aria-labelledby={`hadiths-${showNotes ? "notes" : "faves"}`} className="mb-8">
         <Typography.Title level={2} id={`hadiths-${showNotes ? "notes" : "faves"}`} className="text-xl">
@@ -308,21 +307,26 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
                                 <Link href={hadithPath(ref)} className="font-semibold">
                                   {refText}
                                 </Link>
-                                <Space>{action(ref)}</Space>
+                                <Space>{hadithActions(ref, collection, refText)}</Space>
                               </div>
-                              {text?.narrators?.[0] && (
-                                <Typography.Paragraph strong>
-                                  {t("narrated-by", { name: text.narrators[0] })}
-                                </Typography.Paragraph>
+                              {typeof text === "string" ? (
+                                <Typography.Text type="secondary">
+                                  {text === "offline" ? t("hadith-text-unavailable") : t("hadith-text-load-failed")}
+                                </Typography.Text>
+                              ) : (
+                                <>
+                                  {text?.narrators?.[0] && (
+                                    <Typography.Paragraph strong>
+                                      {t("narrated-by", { name: text.narrators[0] })}
+                                    </Typography.Paragraph>
+                                  )}
+                                  {text?.text.map((p, i) => (
+                                    <p key={i} className="text-verse">
+                                      {formatHadithText(p)}
+                                    </p>
+                                  ))}
+                                </>
                               )}
-                              {text === null && (
-                                <Typography.Text type="secondary">{t("hadith-text-unavailable")}</Typography.Text>
-                              )}
-                              {text?.text.map((p, i) => (
-                                <p key={i} className="text-verse">
-                                  {formatHadithText(p)}
-                                </p>
-                              ))}
                               {showNotes && <NoteList notes={notes[ref.key]} />}
                             </article>
                           </li>
@@ -356,7 +360,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
                   {renderVerses(faveVerses, faveHadiths.length ? undefined : t("no-favorites"), (verse) => (
                     <Fave faved itemKey={verseKey(verse.chapter, verse.verse)} />
                   ))}
-                  {renderHadiths(faveHadiths, hadithActions)}
+                  {renderHadiths(faveHadiths)}
                 </>
               ),
             },
@@ -373,7 +377,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
                     ),
                     true,
                   )}
-                  {renderHadiths(noteHadiths, hadithActions, true)}
+                  {renderHadiths(noteHadiths, true)}
                 </>
               ),
             },
