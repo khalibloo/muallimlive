@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 import { ChapterSearchProvider } from "@/components/ChapterSearchContext";
@@ -31,21 +31,25 @@ describe("HadithView", () => {
     ).toBeVisible();
     expect(screen.getByText("Narrated by Abu Huraira")).toBeVisible();
     expect(screen.getByText(hadith.text[0])).toBeVisible();
-    expect(screen.getByRole("link", { name: "Previous hadith" })).toHaveAttribute("href", "/hadiths/bukhari/2/55");
-    expect(screen.getByRole("link", { name: "Next hadith" })).toHaveAttribute("href", "/hadiths/bukhari/13/2");
+    const nav = within(screen.getByRole("navigation", { name: "Previous and next hadiths" }));
+    expect(nav.getByRole("link", { name: "Previous hadith" })).toHaveAttribute("href", "/hadiths/bukhari/2/55");
+    expect(nav.getByRole("link", { name: "Next hadith" })).toHaveAttribute("href", "/hadiths/bukhari/13/2");
     expect(screen.getByRole("link", { name: "13. Friday Prayer" })).toHaveAttribute("href", "/hadiths/bukhari/13");
   });
 
   it("shows a narrator chain, and the blessing spelled out", () => {
     const malik = fixture<Hadith>("malik/4/4.1.1");
     renderWithProviders(<HadithView hadith={malik} />);
-    expect(screen.getByLabelText("Narrator chain")).toHaveTextContent(malik.narrators!.join(" ← "));
+    const chain = within(screen.getByRole("list", { name: "Narrator chain" }));
+    expect(chain.getAllByRole("listitem").map((item) => item.textContent)).toEqual(
+      malik.narrators!.map((name, i) => (i > 0 ? `←${name}` : name)),
+    );
   });
 
   it("shows no narrator line when there are none", () => {
     renderWithProviders(<HadithView hadith={fixture<Hadith>("muslim/43/7188")} />);
     expect(screen.queryByText(/^Narrated by/)).toBeNull();
-    expect(screen.queryByLabelText("Narrator chain")).toBeNull();
+    expect(screen.queryByRole("list", { name: "Narrator chain" })).toBeNull();
   });
 
   it("spells out (peace_be_upon_him)", () => {

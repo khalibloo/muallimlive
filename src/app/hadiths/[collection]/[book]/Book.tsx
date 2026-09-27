@@ -55,6 +55,7 @@ const Book: React.FC<Props> = ({ collection, book, hadiths }) => {
                 href={hadithPath({ collection: collection.id, book: book.id, id: h.id })}
                 className="flex gap-4 py-4"
               >
+                {/* the space separates the number from the text in the link's accessible name */}
                 <span className="verse-badge shrink-0">{h.id}</span>{" "}
                 <span className="flex flex-col gap-1">
                   {h.narrator && <span className="font-semibold">{h.narrator}</span>}

@@ -87,16 +87,25 @@ const HadithView: React.FC<Props> = ({ hadith, previous, next }) => {
         <Typography.Paragraph strong>{t("narrated-by", { name: narrators[0] })}</Typography.Paragraph>
       )}
       {narrators.length > 1 && (
-        <Typography.Paragraph strong aria-label={t("narrator-chain")}>
-          {narrators.join(" ← ")}
-        </Typography.Paragraph>
+        <ol aria-label={t("narrator-chain")} className="m-0 mb-4 flex list-none flex-wrap gap-x-2 p-0 font-semibold">
+          {narrators.map((name, i) => (
+            <li key={i}>
+              {i > 0 && (
+                <span aria-hidden className="mr-2">
+                  ←
+                </span>
+              )}
+              {name}
+            </li>
+          ))}
+        </ol>
       )}
       {hadith.text.map((paragraph, i) => (
         <p key={i} className="text-verse">
           {formatHadithText(paragraph)}
         </p>
       ))}
-      <nav className="mt-8 flex justify-between gap-4">
+      <nav aria-label={t("hadith-navigation")} className="mt-8 flex justify-between gap-4">
         {previous ? (
           <Button href={link(previous)} icon={<LeftOutlined aria-hidden />}>
             {t("previous-hadith")}
