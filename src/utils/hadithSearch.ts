@@ -63,7 +63,10 @@ const toSynonymIndex = ({ groups }: HadithSynonyms): SynonymIndex => {
 
 const or = (queries: Query[]): Query => ({ combineWith: "OR", queries });
 const and = (queries: Query[]): Query => ({ combineWith: "AND", queries });
-const wordQuery = (word: Word) => or(uniq([word.raw, word.stem]));
+/** An exact-only query: no prefix or fuzzy matching, even under an ancestor that allows them */
+const exact = (queries: Query[]): Query => ({ combineWith: "AND", queries, fuzzy: false, prefix: false });
+/** The typed word keeps prefix and typo matching; its stem, when it differs, matches exactly */
+const wordQuery = (word: Word): Query => (word.raw === word.stem ? word.raw : or([word.raw, exact([word.stem])]));
 const sameWords = (a: Word[], b: Word[]) => a.length === b.length && a.every((w, i) => w.stem === b[i].stem);
 
 /** One query per typed word or known phrase: the words as typed, or any entry of their synonym group */
@@ -78,7 +81,7 @@ const toUnits = (query: string, synonyms: SynonymIndex) => {
       : (synonyms.byWord.get(words[i].raw) ?? synonyms.byWord.get(words[i].stem));
     const others = (groupIndex === undefined ? [] : synonyms.groups[groupIndex]).filter((e) => !sameWords(e, typed));
     units.push({
-      query: or([and(typed.map(wordQuery)), ...others.map((entry) => and(entry.map((w) => w.stem)))]),
+      query: or([and(typed.map(wordQuery)), ...others.map((entry) => exact(entry.map((w) => w.stem)))]),
       typedTerms: typed.flatMap((w) => [w.raw, w.stem]),
       synonymTerms: others.flatMap((entry) => entry.map((w) => w.stem)),
     });
@@ -129,12 +132,14 @@ export const clearHadithIndexes = () => {
   synonymIndex = undefined;
 };
 
-/** The query words are already processed, so the search only splits nothing and keeps each term */
+/** The query terms are already processed, so tokenize and processTerm here are identity: nothing more is split off, and each term is kept as is */
 const SEARCH_OPTIONS: SearchOptions = {
   prefix: true,
   fuzzy: (term) => (term.length > 4 ? 0.2 : false),
   maxFuzzy: 2,
   boost: { narrators: 2 },
+  // typo matches weigh less than exact and synonym matches
+  weights: { fuzzy: 0.1, prefix: 0.375 },
   tokenize: (term) => [term],
   processTerm: (term) => term,
 };

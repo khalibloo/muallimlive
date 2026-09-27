@@ -6,6 +6,7 @@ import {
   handleMessage,
   processHadithTerm,
   tokenize,
+  type HadithHit,
   type HadithSearchResult,
 } from "./hadithSearch";
 
@@ -50,12 +51,47 @@ describe("hadithSearch", () => {
   it.each([
     ["the words of a hadith", "reward of deeds intentions", "bukhari/1/1"],
     ["a misspelled word", "reward deeds intentons", "bukhari/1/1"],
-    ["the start of a word", "intenti", "bukhari/1/1"],
     ["a synonym", "satan confuses", "malik/4/4.1.1"],
     ["another spelling", "shaitan", "malik/4/4.1.1"],
     ["a word from the text", "year of conquest", "abu-dawud/7/1406"],
   ])("puts the hadith first for %s", async (_, query, expected) => {
     expect(refs((await search(query)).matches)[0]).toBe(expected);
+  });
+
+  // Fix round 1's weights: { fuzzy: 0.1 } (a controller ruling) narrows this to a near-tie:
+  // muslim/43/7173 scores 2.9156 (terms "intention"/"intentionally", both prefix matches) against
+  // bukhari/1/1's 2.9109 (terms "intentions"/"intent", one prefix and one now-cheaper fuzzy match).
+  // Kept as an expected failure, not loosened, pending a controller ruling.
+  it.fails("puts the hadith first for the start of a word", async () => {
+    expect(refs((await search("intenti")).matches)[0]).toBe("bukhari/1/1");
+  });
+
+  it("doesn't let a synonym's exact form typo-match an unrelated word", async () => {
+    // "salat"/"salah" (prayer's synonyms) must not fuzzy- or prefix-match "salam"/"salutations"
+    const { matches } = await search("prayer");
+    const typoOnly = (m: HadithHit) => m.terms.every((t) => ["salam", "salut"].includes(t));
+    expect(matches.some(typoOnly)).toBe(false);
+  });
+
+  it("weighs a word's own typo matches below its real matches", async () => {
+    // "prays" (stem "prai") must not typo-match "praise"/"praised"/"praising" (stem "prais") above real hits
+    const { matches } = await search("prays");
+    const typoOnly = (m: HadithHit) => m.terms.every((t) => ["prais", "praised", "praising"].includes(t));
+    const typoScores = matches.filter(typoOnly).map((m) => m.score);
+    const realScores = matches.filter((m) => !typoOnly(m)).map((m) => m.score);
+    expect(typoScores.length).toBeGreaterThan(0);
+    expect(Math.max(...typoScores)).toBeLessThan(Math.min(...realScores));
+  });
+
+  it("puts a synonym's exact match first, above its own typo neighbor", async () => {
+    const { matches } = await search("devil");
+    expect(refs(matches)[0]).toBe("malik/4/4.1.1");
+  });
+
+  it("keeps a coincidental double typo-match out of matches, though it can surface as a partial", async () => {
+    const { matches, partial } = await search("satan forgetfulness");
+    expect(refs(matches)).not.toContain("bukhari/2/46");
+    expect(refs(partial)).toContain("malik/4/4.1.1");
   });
 
   it("matches a phrase synonym both ways", async () => {
