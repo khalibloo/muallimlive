@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 import { hadithPath, type HadithRef } from "@/utils/hadithPack";
-import { processHadithTerm, type HadithHit } from "@/utils/hadithSearch";
+import { HADITH_WORD_SEPARATORS, processHadithHighlightTerm, type HadithHit } from "@/utils/hadithSearch";
 import { HadithSearchStopped, listNarrators, searchHadiths } from "@/utils/hadithSearchClient";
 import { downloadHadiths, getDownloadStatus, isOfflineStorageSupported, useDownloads } from "@/utils/offline";
 import { highlight } from "@/utils/search";
@@ -80,7 +80,7 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
     t("hadith-label", { collection: collectionOf(hit)?.name ?? hit.collection, reference: reference(hit) });
 
   const renderHit = (hit: HadithHit) => {
-    const { parts, before, after } = highlight(hit.text, hit.terms, processHadithTerm);
+    const { parts, before, after } = highlight(hit.text, hit.terms, processHadithHighlightTerm, HADITH_WORD_SEPARATORS);
     const book = collectionOf(hit)?.books.find((b) => b.id === hit.book);
     return (
       <article key={`${hit.collection}/${hit.book}/${hit.id}`} aria-label={label(hit)} className="py-4 pr-2">

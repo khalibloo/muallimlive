@@ -28,6 +28,12 @@ export const processHadithTerm = (word: string) => {
   return !term || STOP_WORDS.has(term) ? null : uniq([term, stemmer(term)]);
 };
 
+/** Splits highlighted text into words the way hadiths are indexed: an apostrophe stays inside a word, e.g. "Qur'an" */
+export const HADITH_WORD_SEPARATORS = /([\n\r\p{Z}]+|(?:(?!['’‘ʿʾ`])\p{P})+)/u;
+
+/** A word's index terms for highlighting: apostrophes are ignored first, the same way the index treats them */
+export const processHadithHighlightTerm = (word: string) => processHadithTerm(word.replace(APOSTROPHES, ""));
+
 type Word = { raw: string; stem: string };
 
 const toWords = (text: string): Word[] =>

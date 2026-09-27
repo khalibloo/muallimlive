@@ -97,9 +97,10 @@ export const highlight = (
   text: string,
   terms: string[],
   processTerm: (term: string) => string | string[] | null = normalizeTerm,
+  wordSeparators: RegExp = WORD_SEPARATORS,
 ): Highlighted => {
   // words at even positions, separators at odd ones
-  const tokens = text.split(WORD_SEPARATORS);
+  const tokens = text.split(wordSeparators);
   if (tokens.at(-1) === "") {
     tokens.pop();
   }

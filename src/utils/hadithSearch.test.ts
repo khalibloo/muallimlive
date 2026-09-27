@@ -1,9 +1,12 @@
 import { stubCaches } from "@/components/test/fakeCaches";
 import { fixture, fixtureText } from "@/components/test/hadithFixtures";
+import { highlight } from "./search";
 import { hadithPackUrl, SYNONYMS_URL, TEXT_CACHE } from "./packs";
 import {
   clearHadithIndexes,
   handleMessage,
+  HADITH_WORD_SEPARATORS,
+  processHadithHighlightTerm,
   processHadithTerm,
   tokenize,
   type HadithHit,
@@ -158,5 +161,14 @@ describe("hadithSearch", () => {
     await expect(search("shaytan", { collections: ["malik"] })).rejects.toThrow("malik isn't downloaded");
     await (await caches.open(TEXT_CACHE)).put(hadithPackUrl("malik"), new Response(fixtureText("malik/all")));
     expect(refs((await search("shaytan", { collections: ["malik"] })).matches)).toContain("malik/4/4.1.1");
+  });
+
+  it('marks a word with a mid-word apostrophe, e.g. "Qur\'an", when highlighting a hit', async () => {
+    const { matches } = await search("quran", { collections: ["abu-dawud"], book: 7 });
+    const hit = matches.find((m) => m.id === "1408")!;
+
+    const { parts } = highlight(hit.text, hit.terms, processHadithHighlightTerm, HADITH_WORD_SEPARATORS);
+
+    expect(parts.filter((p) => p.match).map((p) => p.text)).toContain("Qur'an");
   });
 });
