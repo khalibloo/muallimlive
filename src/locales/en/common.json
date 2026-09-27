@@ -65,6 +65,8 @@
     "go-to-verse": "Go to verse {chapter}:{verse}",
     "google-tag-manager": "Google Tag Manager",
     "hadith": "Hadith",
+    "hadith-reference": "Book {book}, Hadith {id}",
+    "hadith-reference-volume": "Volume {volume}, Book {book}, Hadith {id}",
     "hide-tafsirs": "Hide Tafsirs",
     "imlaei-script": "Imlaei Script",
     "imlaei-simple-script": "Imlaei Simple Script",
