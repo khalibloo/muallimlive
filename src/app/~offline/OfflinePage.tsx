@@ -100,7 +100,13 @@ const OfflineSaved: React.FC = () => {
   if (!chapters) {
     return <Unavailable />;
   }
-  return <Saved chapters={chapters.chapters} readerSettings={parseReaderSettings(readerSettingsCookie)} />;
+  return (
+    <Saved
+      chapters={chapters.chapters}
+      readerSettings={parseReaderSettings(readerSettingsCookie)}
+      hadiths={{ collections: [] }}
+    />
+  );
 };
 
 // The page is served in place of whichever page failed to load, so the URL is the page to show

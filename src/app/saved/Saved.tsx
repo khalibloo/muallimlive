@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Empty, Space, Spin, Tabs, Typography } from "antd";
 import { useDeepCompareEffect } from "ahooks";
 import Link from "next/link";
@@ -10,14 +10,28 @@ import { groupBy, mapValues, pickBy, sortBy, uniq, uniqBy } from "lodash-es";
 import Fave from "@/components/Fave";
 import Notes from "@/components/Notes";
 import SafeHtml from "@/components/SafeHtml";
+import Share from "@/components/Share";
+import useHadithReference from "@/components/useHadithReference";
 import { verseTextClassName } from "@/components/Verse";
+import { formatHadithText, hadithPath, type HadithRef } from "@/utils/hadithPack";
 import lf from "@/utils/localforage";
-import { contentUrl, getContentPack, getJson, packKey, type ContentPack } from "@/utils/packs";
-import { isHadithKey, isUserDataKey, liveFaves, liveNotes, readAll, verseKey, type Note } from "@/utils/userData";
+import { getDownloadStatus, isOfflineStorageSupported, readHadiths } from "@/utils/offline";
+import { contentUrl, getContentPack, getJson, hadithUrl, packKey, type ContentPack } from "@/utils/packs";
+import {
+  isHadithKey,
+  isUserDataKey,
+  liveFaves,
+  liveNotes,
+  readAll,
+  toHadithRef,
+  verseKey,
+  type Note,
+} from "@/utils/userData";
 
 interface Props {
   chapters: Chapter[];
   readerSettings: ReaderSettings;
+  hadiths: GetHadithResourcesResponse;
 }
 
 // a type, not an interface, so it can be passed as translation values
@@ -70,9 +84,54 @@ const VerseTexts: React.FC<{ texts: VerseText[] }> = ({ texts }) => (
   </ul>
 );
 
+const NoteList: React.FC<{ notes: Note[] }> = ({ notes }) => (
+  <ul className="list-none m-0 p-0 divide-y divide-line border-t border-line">
+    {notes.map((note) => (
+      <li key={note.id} className="py-4">
+        <SafeHtml html={note.html} />
+      </li>
+    ))}
+  </ul>
+);
+
+type SavedHadith = HadithRef & { key: string };
+type HadithText = { narrators?: string[]; text: string[] } | null;
+
+/** Loads each hadith's text once: from a downloaded pack, else from the server; null when neither is available */
+const useHadithTexts = (refs: SavedHadith[]) => {
+  const [texts, setTexts] = useState<Record<string, HadithText>>({});
+  useDeepCompareEffect(() => {
+    const missing = refs.filter((r) => !(r.key in texts));
+    if (missing.length === 0) {
+      return;
+    }
+    (async () => {
+      const downloaded = isOfflineStorageSupported() ? (await getDownloadStatus()).hadiths : [];
+      const packs = new Map<string, Promise<HadithPack>>();
+      const loaded = await Promise.all(
+        missing.map(async (ref): Promise<[string, HadithText]> => {
+          if (downloaded.includes(ref.collection)) {
+            if (!packs.has(ref.collection)) {
+              packs.set(ref.collection, readHadiths(ref.collection));
+            }
+            const found = (await packs.get(ref.collection)!).hadiths.find(
+              (h) => h.book === ref.book && h.id === ref.id,
+            );
+            return [ref.key, found ?? null];
+          }
+          return [ref.key, (await getJson<Hadith>(hadithUrl(ref))) ?? null];
+        }),
+      );
+      setTexts((current) => ({ ...current, ...Object.fromEntries(loaded) }));
+    })();
+  }, [refs]);
+  return texts;
+};
+
 /** The reader's favorite verses and verses with notes, by chapter */
-const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
+const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
   const t = useTranslations("common");
+  const reference = useHadithReference();
   const [faves, setFaves] = useState<string[]>();
   const [notes, setNotes] = useState<Record<string, Note[]>>({});
 
@@ -134,14 +193,46 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
     getTextPacks(readerSettings),
   );
 
+  // hadiths of collections or books that don't exist are skipped; sortBy is stable, so a book keeps the stored order
+  const toHadiths = (keys: string[]): SavedHadith[] =>
+    sortBy(
+      keys
+        .filter(isHadithKey)
+        .map((key) => ({ ...toHadithRef(key), key }))
+        .filter((ref) =>
+          hadiths.collections.find((c) => c.id === ref.collection)?.books.some((b) => b.id === ref.book),
+        ),
+      [(ref) => hadiths.collections.findIndex((c) => c.id === ref.collection), "book"],
+    );
+  const faveHadiths = toHadiths(faves ?? []);
+  const noteHadiths = toHadiths(Object.keys(notes));
+  const hadithTexts = useHadithTexts(uniqBy([...faveHadiths, ...noteHadiths], "key"));
+
+  const hadithActions = (ref: SavedHadith) => {
+    const collection = hadiths.collections.find((c) => c.id === ref.collection)!;
+    const book = collection.books.find((b) => b.id === ref.book)!;
+    const refText = reference({ ...ref, volume: book.volume });
+    return (
+      <>
+        <Fave faved itemKey={ref.key} />
+        <Notes itemKey={ref.key} title={t("hadith-notes-title", { collection: collection.name, reference: refText })} />
+        <Share
+          path={hadithPath(ref)}
+          title={t("hadith-label", { collection: collection.name, reference: refText })}
+          label={t("share-hadith")}
+        />
+      </>
+    );
+  };
+
   const renderVerses = (
     verses: SavedVerse[],
-    empty: string,
+    empty: string | undefined,
     action: (verse: SavedVerse) => React.ReactNode,
     showNotes?: boolean,
   ) => {
     if (verses.length === 0) {
-      return <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={empty} />;
+      return empty && <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={empty} />;
     }
     return Object.entries(groupBy(verses, "chapter")).map(([chapterId, chapterVerses]) => {
       const chapter = chapters.find((c) => `${c.id}` === chapterId)!;
@@ -172,15 +263,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
                     <Space>{action(verse)}</Space>
                   </div>
                   <VerseTexts texts={(texts[verse.chapter] ?? []).flatMap((list) => list?.[verse.verse - 1] ?? [])} />
-                  {showNotes && (
-                    <ul className="list-none m-0 p-0 divide-y divide-line border-t border-line">
-                      {notes[verseKey(verse.chapter, verse.verse)].map((note) => (
-                        <li key={note.id} className="py-4">
-                          <SafeHtml html={note.html} />
-                        </li>
-                      ))}
-                    </ul>
-                  )}
+                  {showNotes && <NoteList notes={notes[verseKey(verse.chapter, verse.verse)]} />}
                 </article>
               </li>
             ))}
@@ -189,6 +272,71 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
       );
     });
   };
+
+  const renderHadiths = (refs: SavedHadith[], action: (ref: SavedHadith) => React.ReactNode, showNotes?: boolean) =>
+    refs.length > 0 && (
+      <section aria-labelledby={`hadiths-${showNotes ? "notes" : "faves"}`} className="mb-8">
+        <Typography.Title level={2} id={`hadiths-${showNotes ? "notes" : "faves"}`} className="text-xl">
+          {t("hadith")}
+        </Typography.Title>
+        {Object.entries(groupBy(refs, "collection")).map(([collectionId, collectionRefs]) => {
+          const collection = hadiths.collections.find((c) => c.id === collectionId)!;
+          return (
+            <Fragment key={collectionId}>
+              <Typography.Title level={3} className="text-lg">
+                {collection.name}
+              </Typography.Title>
+              {Object.entries(groupBy(collectionRefs, "book")).map(([bookId, bookRefs]) => {
+                const book = collection.books.find((b) => `${b.id}` === bookId)!;
+                return (
+                  <Fragment key={bookId}>
+                    <Typography.Title level={4} className="text-base">
+                      {t("hadith-book-name", { id: book.id, name: book.name })}
+                    </Typography.Title>
+                    <ul className="m-0 flex list-none flex-col gap-4 p-0">
+                      {bookRefs.map((ref) => {
+                        const text = hadithTexts[ref.key];
+                        const refText = reference({ ...ref, volume: book.volume });
+                        const label = t("hadith-label", { collection: collection.name, reference: refText });
+                        return (
+                          <li key={ref.key}>
+                            <article
+                              aria-label={label}
+                              className="rounded-xl border border-line bg-surface px-4 md:px-6 py-4"
+                            >
+                              <div className="flex items-center justify-between gap-2">
+                                <Link href={hadithPath(ref)} className="font-semibold">
+                                  {refText}
+                                </Link>
+                                <Space>{action(ref)}</Space>
+                              </div>
+                              {text?.narrators?.[0] && (
+                                <Typography.Paragraph strong>
+                                  {t("narrated-by", { name: text.narrators[0] })}
+                                </Typography.Paragraph>
+                              )}
+                              {text === null && (
+                                <Typography.Text type="secondary">{t("hadith-text-unavailable")}</Typography.Text>
+                              )}
+                              {text?.text.map((p, i) => (
+                                <p key={i} className="text-verse">
+                                  {formatHadithText(p)}
+                                </p>
+                              ))}
+                              {showNotes && <NoteList notes={notes[ref.key]} />}
+                            </article>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </Fragment>
+                );
+              })}
+            </Fragment>
+          );
+        })}
+      </section>
+    );
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-8">
@@ -203,18 +351,30 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings }) => {
             {
               key: "favorites",
               label: t("favorites"),
-              children: renderVerses(faveVerses, t("no-favorites"), (verse) => (
-                <Fave faved itemKey={verseKey(verse.chapter, verse.verse)} />
-              )),
+              children: (
+                <>
+                  {renderVerses(faveVerses, faveHadiths.length ? undefined : t("no-favorites"), (verse) => (
+                    <Fave faved itemKey={verseKey(verse.chapter, verse.verse)} />
+                  ))}
+                  {renderHadiths(faveHadiths, hadithActions)}
+                </>
+              ),
             },
             {
               key: "notes",
               label: t("notes"),
-              children: renderVerses(
-                noteVerses,
-                t("no-saved-notes"),
-                (verse) => <Notes itemKey={verseKey(verse.chapter, verse.verse)} title={t("notes-title", verse)} />,
-                true,
+              children: (
+                <>
+                  {renderVerses(
+                    noteVerses,
+                    noteHadiths.length ? undefined : t("no-saved-notes"),
+                    (verse) => (
+                      <Notes itemKey={verseKey(verse.chapter, verse.verse)} title={t("notes-title", verse)} />
+                    ),
+                    true,
+                  )}
+                  {renderHadiths(noteHadiths, hadithActions, true)}
+                </>
               ),
             },
           ]}

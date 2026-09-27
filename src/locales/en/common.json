@@ -86,6 +86,7 @@
     "hadith-reference-volume": "Volume {volume}, Book {book}, Hadith {id}",
     "hadith-search-stopped": "Hadith search stopped. Try searching fewer collections.",
     "hadith-search-unsupported": "This browser can't store the hadiths it needs to search them.",
+    "hadith-text-unavailable": "This hadith's text isn't downloaded for offline use.",
     "hadith-volume": "Volume {volume}",
     "hadiths": "Hadiths",
     "hide-tafsirs": "Hide Tafsirs",

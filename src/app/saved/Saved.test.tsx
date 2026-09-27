@@ -1,10 +1,11 @@
 import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-import { stubFetch } from "@/components/test/fakeCaches";
+import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
+import { fixture, fixtureCollection, fixtureText } from "@/components/test/hadithFixtures";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
-import { addNote, readFaves, setFave, verseKey } from "@/utils/userData";
+import { addNote, hadithKey, readFaves, setFave, verseKey } from "@/utils/userData";
 import Saved from "./Saved";
 
 const chapter = (id: number, name: string, translation: string, versesCount: number): Chapter => ({
@@ -45,11 +46,15 @@ const responses = {
   "/api/content/tafsir/169/112": verses(112, 4, (v) => `Sincerity tafsir ${v}`, { isTafsir: true }),
 };
 
+const hadiths: GetHadithResourcesResponse = {
+  collections: [fixtureCollection("bukhari"), fixtureCollection("malik")],
+};
+
 const renderSaved = () => {
   const user = userEvent.setup();
   render(
     <TestProviders>
-      <Saved chapters={chapters} readerSettings={readerSettings} />
+      <Saved chapters={chapters} readerSettings={readerSettings} hadiths={hadiths} />
     </TestProviders>,
   );
   return user;
@@ -145,5 +150,55 @@ describe("Saved", () => {
 
     expect(await screen.findByRole("article", { name: "Verse 112:1" })).toBeInTheDocument();
     await waitFor(() => expect(fetch).toHaveBeenCalled());
+  });
+
+  it("lists favorite hadiths after the verses, by collection and book", async () => {
+    await setFave(verseKey(1, 1), true);
+    await setFave(hadithKey({ collection: "bukhari", book: 13, id: "1" }), true);
+    stubFetch({ "/api/hadiths/bukhari/13/1": fixture<Hadith>("bukhari/13/1") });
+    renderSaved();
+
+    const hadithSection = await screen.findByRole("region", { name: "Hadith" });
+    expect(within(hadithSection).getByRole("heading", { level: 3, name: "Sahih al-Bukhari" })).toBeVisible();
+    expect(within(hadithSection).getByRole("heading", { level: 4, name: "13. Friday Prayer" })).toBeVisible();
+    const entry = within(hadithSection).getByRole("article", { name: "Sahih al-Bukhari, Volume 2, Book 13, Hadith 1" });
+    expect(await within(entry).findByText(/We \(Muslims\) are the last/)).toBeVisible();
+    expect(within(entry).getByRole("link", { name: "Volume 2, Book 13, Hadith 1" })).toHaveAttribute(
+      "href",
+      "/hadiths/bukhari/13/1",
+    );
+    expect(within(entry).getByText("Narrated by Abu Huraira")).toBeVisible();
+  });
+
+  it("reads a downloaded collection's texts from its pack", async () => {
+    await setFave(hadithKey({ collection: "malik", book: 4, id: "4.1.1" }), true);
+    stubCaches();
+    await (await caches.open("content-packs")).put("/api/hadiths/malik", new Response(fixtureText("malik/all")));
+    const fetchMock = stubFetch({});
+    renderSaved();
+    expect(await screen.findByText(/Shaytan/)).toBeVisible();
+    expect(fetchMock).not.toHaveBeenCalledWith(expect.stringContaining("/api/hadiths/malik/4"));
+  });
+
+  it("says a hadith's text is unavailable offline without its pack", async () => {
+    await setFave(hadithKey({ collection: "bukhari", book: 13, id: "1" }), true);
+    stubCaches();
+    stubFetch({});
+    renderSaved();
+    expect(await screen.findByText("This hadith's text isn't downloaded for offline use.")).toBeVisible();
+  });
+
+  it("lists hadith notes", async () => {
+    await addNote(hadithKey({ collection: "bukhari", book: 13, id: "1" }), "<p>Friday</p>");
+    stubFetch({ "/api/hadiths/bukhari/13/1": fixture<Hadith>("bukhari/13/1") });
+    const user = renderSaved();
+    await user.click(await screen.findByRole("tab", { name: "Notes" }));
+    expect(await screen.findByText("Friday")).toBeVisible();
+  });
+
+  it("skips hadiths of unknown collections", async () => {
+    await setFave(hadithKey({ collection: "tirmidhi", book: 1, id: "1" }), true);
+    renderSaved();
+    expect(await screen.findByText("You haven't added any favorites yet")).toBeVisible();
   });
 });
