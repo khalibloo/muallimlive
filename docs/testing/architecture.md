@@ -65,6 +65,13 @@ Component tests render inside `<TestProviders>` (`src/components/test/TestProvid
 
 jsdom has no IndexedDB, so `localforage` falls back to its `localStorage` driver. Tests call `lf.clear()` in `beforeEach` and seed data with `lf.setItem()`.
 
+### Hadith Search Worker
+
+jsdom has no Web Worker implementation that runs real script, so neither test instantiates the actual worker:
+
+- `hadithSearch.test.ts` calls `handleMessage` — the function the worker's `onmessage` handler in `hadithSearch.worker.ts` delegates to — directly, against the hadith fixtures staged into `stubCaches()`'s `content-packs` cache. This exercises the indexing and search logic without `postMessage`/`onmessage` or a worker thread.
+- `hadithSearchClient.test.ts` stubs the global `Worker` constructor with a `FakeWorker` class (`vi.stubGlobal("Worker", FakeWorker)`) that records what `postMessage` sends and lets the test reply through `onmessage`/`onerror`, so `searchHadiths`, `listNarrators` and the `HadithSearchStopped` rejection are exercised without a real worker.
+
 ### Coverage Configuration
 
 Pages, layouts, the manifest, the service worker and its route, the i18n request config and type declarations are excluded. They are thin wrappers or need a real server, and Playwright covers them. The thresholds are:
@@ -85,6 +92,7 @@ Pages, layouts, the manifest, the service worker and its route, the i18n request
 The app reads all Qur'an data from a static JSON CDN (`API_URI`). E2E never hits the real CDN. Instead:
 
 - `e2e/fixtures/cdn/data/**` holds a committed subset of the CDN: chapters 1, 112, 113 and 114, the default reader settings' content, Saheeh International, and reciters 1 and 7. The chapter list (`resources/chapters`) is trimmed to those four chapters, so offline downloads of "every chapter" stay small.
+- `e2e/fixtures/cdn/data/hadiths` holds a subset of a few collections' books, chosen to exercise edge cases: Bukhari 1, 2 and 13 (13's hadith ids repeat book 1's, since ids are unique only within a book), Muslim 43 (has a hadith with no narrators), Abu Dawud 7, and Malik 4 (dotted hadith ids). The CDN has no hadith data yet, so the script copies the subset from a local checkout of the data repo instead of downloading it: `pnpm test:e2e:fixtures <path-to-muallimlive-data>/data/hadiths`.
 - `pnpm test:e2e:data` serves it with `http-server`.
 - `.env.test` points `API_URI` at `http://localhost:4010` and sets the app's `PORT`. These are the only place the ports are set: `playwright.config.ts` loads the file before starting the servers, passes `API_URI`'s port to `pnpm test:e2e:data -p`, and builds `baseURL` from `PORT`. To serve the fixtures by hand, run `pnpm test:e2e:data -p 4010`. Tests never hard-code the host or port: they use relative paths, or the `baseURL` fixture where an absolute URL is needed (such as `context.addCookies`).
 - `pnpm test:e2e:fixtures` (`scripts/fetch-e2e-fixtures.mjs`) re-downloads the subset. Re-run it when a test needs a new chapter or content ID.

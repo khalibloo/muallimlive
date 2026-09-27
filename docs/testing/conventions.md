@@ -105,6 +105,43 @@ Components that only read the sync state render inside `<SyncContext value={…}
 
 The sign-in routes read and write the `iron-session` cookies through `next/headers`. `stubCookies()` (`src/components/test/fakeCookies.ts`) makes the mocked `cookies()` a working in-memory store and returns it, so a test can carry the cookies from `login` to `callback`. Google is faked by spying on `OAuth2Client.prototype` (`getToken`, `verifyIdToken`, `refreshAccessToken`, `revokeToken`), so the real authorization URL and PKCE still run. These tests run in `// @vitest-environment node`, because iron-session's Web Crypto bytes fail jsdom's `Uint8Array` check.
 
+#### Hadith fixtures
+
+Unit tests read the hadith fixture subset (`e2e/fixtures/cdn/data/hadiths`, see [`docs/testing/architecture.md`](architecture.md)) only through `src/components/test/hadithFixtures.ts`, never by hand-rolling hadith data:
+
+```ts
+import { fixture, fixtureCollection, hadithResources } from "@/components/test/hadithFixtures";
+
+const { hadiths } = fixture<{ hadiths: PackedHadith[] }>("bukhari/all");
+const bukhari = fixtureCollection("bukhari"); // one collection from hadithResources
+```
+
+#### Hadith search worker
+
+`hadithSearch.ts` is tested by calling `handleMessage` directly — the function the worker's `onmessage` handler delegates to — so the indexing and search logic runs without a real worker thread:
+
+```ts
+import { handleMessage } from "./hadithSearch";
+
+const result = await handleMessage({ type: "search", collections: ["bukhari"], query: "intention", limit: 50 });
+```
+
+`hadithSearchClient.ts`, which starts and talks to the real `Worker`, is tested by stubbing the global constructor with a small `FakeWorker` class that records `postMessage` calls and lets the test drive its replies:
+
+```ts
+class FakeWorker {
+  postMessage(data: { id: number; message: unknown }) {
+    /* record it */
+  }
+  onmessage?: (event: MessageEvent) => void;
+  reply(data: unknown) {
+    this.onmessage?.({ data } as MessageEvent);
+  }
+}
+
+vi.stubGlobal("Worker", FakeWorker);
+```
+
 #### Heavy third-party components
 
 Mock only what jsdom can't run. For example, `Notes.test.tsx` replaces Quill with a `<textarea>` that exposes itself as the editor root, so the real `NoteEditor` labelling still runs:
@@ -165,6 +202,8 @@ e2e/
     notes.test.ts
     settings.test.ts       # Display and play settings
     recitation.test.ts     # Audio player
+    hadiths.test.ts        # Browsing, favoriting and noting hadiths
+    hadith-search.test.ts  # Hadith search: filters, downloads, worker results
     pwa.test.ts            # Manifest and service worker
     offline.test.ts        # Offline downloads and reading
     theme.test.ts          # Light/sepia/dark theme switcher

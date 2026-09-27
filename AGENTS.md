@@ -2,10 +2,10 @@
 
 ## Project Overview
 
-**MuallimLive** is a Qur'an reading and recitation app. Readers browse the 114 chapters, read each verse alongside configurable translations, tafsirs and Arabic scripts (optionally in a split view), play verse recitations, search the verses of their texts, keep favorites and per-verse notes (listed together on the Favorites & Notes page), install the site as a PWA, and download content and recitations for offline use.
+**MuallimLive** is a Qur'an reading and recitation app. Readers browse the 114 chapters, read each verse alongside configurable translations, tafsirs and Arabic scripts (optionally in a split view), play verse recitations, search the verses of their texts, keep favorites and per-verse notes (listed together on the Favorites & Notes page), install the site as a PWA, and download content and recitations for offline use. They also browse hadith collections and books, read individual hadiths, search them, and favorite and note them alongside verses.
 
 - **Stack**: Next.js 16 (App Router, Turbopack), TypeScript, React 19, Ant Design 6 (https://ant.design/llms.txt), TailwindCSS 4
-- **Data Layer**: Static Qur'an JSON served from a CDN (`API_URI`), fetched in server components with `fetchData()` (`force-cache`). The browser never sees the CDN: offline downloads go through the `/api/content` and `/api/resources` route handlers. Recitation audio comes straight from a third-party host (`NEXT_PUBLIC_API_MEDIA_URI`)
+- **Data Layer**: Static Qur'an JSON served from a CDN (`API_URI`), fetched in server components with `fetchData()` (`force-cache`). Hadith collections live under the same CDN's `data/hadiths/`, read by `src/utils/hadiths.ts` (see Section 9). The browser never sees the CDN: offline downloads go through the `/api/content`, `/api/hadiths` and `/api/resources` route handlers. Recitation audio comes straight from a third-party host (`NEXT_PUBLIC_API_MEDIA_URI`)
 - **Client storage**: Favorites and notes in IndexedDB via `localforage` (+ `localforage-observable`), timestamped with deletion markers so devices can merge them, and optionally synced through the reader's Google Drive; reader/player settings in cookies so server components can read them; offline packs in Cache Storage
 - **i18n**: `next-intl` without locale routing (English only, `src/i18n/request.ts`)
 - **PWA**: Serwist (`@serwist/turbopack`), service worker in `src/app/sw.ts`, served by `src/app/serwist/[path]/route.ts`
@@ -61,7 +61,7 @@ if (!chapter) {
 - Settings cookies are written with `SETTINGS_COOKIE_OPTIONS` (1-year `maxAge`), and `src/proxy.ts` re-sets the ones a GET page request carries, so they only expire after a year without a visit. Add new settings cookies to `SETTINGS_COOKIE_KEYS`.
 - The **text size** (`ReaderSettings.textSize`, a percentage, default 100) is set by the root layout as `--reader-scale` on `<html>`; the `text-verse*` Tailwind sizes scale with it, so verse text uses them instead of fixed sizes.
 - The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme dropdown in `NavBar`). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
-- **Favorites** (`faves-quran`) and **notes** (`notes-quran-<chapter>-<verse>`) are stored client-side with `localforage` (`src/utils/localforage.ts`), and read and written only through `src/utils/userData.ts`: the timestamped format (a deleted fave or note keeps a `deleted` marker), the one-time conversion of the old format, `mergeUserData` (newest `updatedAt` wins), and the change counter (`user-data-change`) that every write bumps. Components subscribe to the same keys with `lf.newObservable(...)` and must unsubscribe on unmount.
+- **Favorites** and **notes** are stored client-side with `localforage` (`src/utils/localforage.ts`), and read and written only through `src/utils/userData.ts`, keyed by an item key: `verseKey(chapter, verse)` (`<chapter>:<verse>`) for a verse, `hadithKey(ref)` (`hadith:<collection>/<book>/<id>`) for a hadith (`isHadithKey`/`toHadithRef` tell the two apart and parse a hadith key back to its `HadithRef`). Favorites live under `faves-quran` for verses and, separately, `faves-hadith` for hadiths (`FAVES_KEY`/`HADITH_FAVES_KEY`), so a tab on an older release never rewrites the other kind; notes live under `notes-quran-<chapter>-<verse>` or `notes-hadith-<collection>-<book>-<id>` (`noteKey`). Both share the timestamped format (a deleted fave or note keeps a `deleted` marker), the one-time conversion of the old format, `mergeUserData` (newest `updatedAt` wins), and the change counter (`user-data-change`) that every write bumps. Components subscribe to the same keys with `lf.newObservable(...)` and must unsubscribe on unmount.
 - **Favorites & Notes page** (`/saved`, linked from `NavBar` and `Home`): `Saved` lists the favorite verses and the verses with notes in two tabs, by chapter, each linking to `/chapters/<chapter>#v-<verse>` with the existing `Fave` and `Notes` buttons. Favorites and notes live in the browser, so it loads their verse texts there, through the `/api/content` packs (the display settings' Arabic scripts and translations, not tafsirs), once per chapter. It observes every localforage key and reloads on the ones `isUserDataKey` matches, since notes are stored per verse.
 - **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for the home page's "continue reading"). Opening a different chapter sets `last-read` to its verse 1 before any verse scrolls into view.
 - **Verse links**: `Share` shares `/chapters/<chapter>#v-<verse>` with the Web Share API, or copies it to the clipboard where that API is missing. On load, `Chapter` scrolls to a valid `#v-N` verse instead of the saved progress.
@@ -79,7 +79,7 @@ if (!chapter) {
 
 ### 5. PWA (Serwist)
 
-- `src/app/sw.ts` is the service worker (precache manifest, the offline pack routes below, then `defaultCache`).
+- `src/app/sw.ts` is the service worker (precache manifest, the offline pack routes below, then `defaultCache`). Its precache plugin rebuilds the response it serves for the hadith search worker's `turbopack-worker-*.js` chunk (`isWorkerChunk`): Turbopack starts that worker with its bootstrap config (the dependent chunk list) in the URL fragment, but a precached response's recorded URL has none, so the fresh `Response` carries an empty URL list and the browser falls back to the fragment-carrying request URL instead of the fragment-less cached one.
 - `@serwist/turbopack` builds it at request time through the `src/app/serwist/[path]/route.ts` route, so it is served at `/serwist/sw.js`.
 - `ServiceWorkerEvents` registers it (production only) and `ServiceWorkerUpdater` prompts the user to reload when a new version is waiting.
 - The web app manifest is generated by `src/app/manifest.ts`.
@@ -91,15 +91,16 @@ Every Arabic script, translation and tafsir is its own **text pack**, and each r
 - `src/utils/packs.ts` maps reader settings to packs (`getContentPack`) and builds the same-origin URLs: `/api/content/<type>/<id>/<chapter>` and `/api/resources/<chapters|recitations>`.
 - `src/utils/content.ts` is the server side: it reads the CDN with `fetchData()` and returns one pack's verse texts (or a reciter's recitation list) for a chapter. The route handlers under `src/app/api/` serve it with `CACHE_HEADERS` (`s-maxage` so Netlify's CDN caches them).
 - `src/utils/offline.ts` is the client side: `downloadText`/`downloadAudio` fill the `content-packs` and `audio-packs` caches (with `p-limit`), `getDownloadStatus` lists what's stored, `readText` reads a downloaded text pack back, and `useDownloads` tracks progress. For audio, the recitation list is stored after its mp3s, so it marks a complete chapter.
-- Only `offline.ts` writes the caches. The service worker reads them: navigations and RSC requests are `NetworkOnly`, `/api/content/` answers from the cache first, and `.mp3` files use `CacheFirst` with `RangeRequestsPlugin` and no automatic writes.
-- Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter, home or Favorites & Notes page from `window.location`, the reader settings cookie and the packs (fetched with `getJson`), and warns when a chapter pane's pack is missing.
+- Hadith collections download the same way, into the same `content-packs` cache: `downloadHadiths(collection)` fetches the shared synonyms (`SYNONYMS_URL`) once and the collection's pack (`hadithPackUrl(collection)`); `readHadiths`/`removeHadiths` read a downloaded pack back or evict it, and `getDownloadStatus().hadiths` lists the downloaded collection ids (matched from the cache's URLs, like the text packs' pack keys).
+- Only `offline.ts` writes the caches. The service worker reads them: navigations and RSC requests are `NetworkOnly`, `/api/content/` and `/api/hadiths/` answer from the cache first, and `.mp3` files use `CacheFirst` with `RangeRequestsPlugin` and no automatic writes.
+- Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter, home, Favorites & Notes, or hadith collection/book/hadith page from `window.location`, the reader settings cookie and the packs (fetched with `getJson`), and warns when a chapter pane's pack is missing. The hadith routes (`OfflineHadiths`, matched by a `HADITH_PATH` regex against `/hadiths(/<collection>(/<book>(/<id>)?)?)?`) resolve the collection and book from the precached `/api/resources/hadiths` response, then, past the collection, read the collection's downloaded pack directly with `readHadiths` rather than through `/api/hadiths/`, and show `hadith-collection-missing` (pointing to Offline Storage) when it isn't downloaded.
 - The precached page keeps the theme and text size it was saved with, so the root layout's `SETTINGS_SCRIPT` applies the cookies' `<html>` class and `--reader-scale` before the first paint, and `useColorScheme` (`Providers`, `NavBar`) switches the antd theme to the cookie's scheme after hydration.
 - `OfflineStorage` (Settings → Offline Storage) manages downloads. After a reader saves display settings that use a pack they haven't downloaded (while having downloaded others), `NavBar` shows a notification that opens it.
 - `NavBar` also offers the downloads once after the app is installed: on Chromium's `appinstalled` event, or on the first launch in `display-mode: standalone` (iOS fires no install event). It skips readers who already have their display settings' content or are offline, and stores `offline-install-prompt-shown` in localforage.
 
 ### 7. Google Drive sync
 
-Favorites and notes can sync between a reader's devices through `muallimlive-data.json` in their Google Drive's hidden `appDataFolder` (scope `drive.appdata`). The data goes straight between the browser and Google; the server only holds the sign-in.
+Favorites and notes can sync between a reader's devices through `muallimlive-data.json` in their Google Drive's hidden `appDataFolder` (scope `drive.appdata`). The data goes straight between the browser and Google; the server only holds the sign-in. The file is `{ app: "muallimlive", version: 3, faves, notes }` (`toUserDataFile`/`parseUserDataFile`, `src/utils/userData.ts`); the app reads versions 2 and 3 (an older release's file, without hadith faves or notes) and always writes 3, so a device still on an older release rejects the newer file with `invalid-file` and uploads nothing until it updates, rather than losing data.
 
 - **Sign-in routes** (`src/app/api/sync/`, `google-auth-library` + `iron-session`, helpers in `src/utils/syncSession.ts`): `login` starts Google's OAuth with PKCE, `callback` verifies the ID token, fails when the reader withheld Drive access, and stores the refresh token, account id and email in the encrypted, httpOnly `sync-session` cookie (path `/api/sync`, re-saved on use so it lasts a year), `token` returns a fresh access token (401 when the sign-in is gone or revoked, 503 when Google is unreachable), and `disconnect` revokes the token and deletes the cookie.
 - **`src/utils/sync.ts`** runs in the browser: it caches the access token, calls the Drive REST API directly, and `syncNow` downloads, merges (`mergeUserData`), writes and uploads, skipping the transfer when neither the Drive file's version nor the change counter moved. A Web Lock (plus an in-tab flag) allows one sync at a time. The `sync-state` localforage key holds the account, file id, last version and synced change; it's only saved while the same account is still syncing, so stopping mid-sync sticks. A 401, or a sign-in to an account other than the synced one, sets `needsReauth`. Merged data is written one value at a time, each merged with what's stored just before.
@@ -112,11 +113,24 @@ Favorites and notes can sync between a reader's devices through `muallimlive-dat
 
 `SearchModal` (the Search button in `NavBar`) searches the display settings' texts in the browser with `minisearch` (`src/utils/search.ts`). Chapter names keep their `fuse.js` search.
 
+- `SearchModal` opens on a `Segmented` "Qur'an"/"Hadith" switch (`SearchMode`, `"quran" | "hadith"`): the `quran` mode is the verse search below, the `hadith` mode renders `HadithSearch` (Section 9). `ChapterSearchContext`'s `openSearch(mode)` sets which mode the switch starts on and opens the modal; the nav bar's Search button always opens `quran`, while the hadith pages' "Search hadiths"/"Search this book" buttons open `hadith`. Switching the `Segmented` after opening just changes local state, no re-fetch.
 - `search.ts` builds one word index per text, normalizing texts and queries alike (`normalizeTerm`: no accents, Arabic diacritics or Qur'anic marks, one alef and one yaa) after `toPlainText` strips the CDN HTML. Every query word must match, as a prefix, with small typos allowed in longer words. `highlight` marks the matched words and shortens long texts around the first match.
 - **Current chapter**: `Chapter` registers its texts, one per pack, and `goToVerse` through `ChapterSearchContext` (the provider is in `BasicLayout`). "Only <chapter>" is on by default there; it searches what the page already holds, tafsirs included, and a result scrolls the verse list instead of navigating.
 - **Whole Qur'an**: searches the Arabic scripts and translations whose text packs are downloaded for every chapter, indexed once per session from Cache Storage (`loadPackIndex`). Tafsirs are left out, as their packs are too large to index. Missing packs can be downloaded from the modal, and browsers without Cache Storage can only search a chapter.
 - Each text can be ticked off; results show 50 at a time.
 - Merging trusts each device's clock, so a device whose clock is wrong can let an older edit win.
+
+### 9. Hadiths
+
+Readers browse collections (e.g. Bukhari, Muslim, Abu Dawud, Malik) → books → hadiths, search them, and favorite/note them like verses.
+
+- **Pages**: `/hadiths` (`Hadiths`, collection cards with a book/hadith count and a "Search hadiths" button), `/hadiths/[collection]` (`Collection`, its books, grouped by volume when any book has one, e.g. Bukhari), `/hadiths/[collection]/[book]` (`Book`, a `filterHadiths`-filterable list of the book's hadith excerpts from its `index.json`, plus a "Search this book" button), `/hadiths/[collection]/[book]/[id]` (`HadithView`, the full text, narrator chain, Fave/Notes/Share, and previous/next links that cross book boundaries via `getNeighbors`).
+- **`src/utils/hadiths.ts`** (server-only) reads the CDN: `getCollections`, `getBooks`, `getBookIndex`, `getHadith`, `getSynonyms`, and `getCollectionPack` (`cache: "no-store"`, see the pack route below). `getHadithResources()` returns every collection's books without their hadith id lists, for the root layout, the search filters and the offline pages. `findBook(collectionId, bookId)` checks the collection and book lists before fetching a hadith, since the CDN fails on an unknown path instead of returning 404.
+- **`src/utils/hadithPack.ts`** has the pure helpers shared by the hadith pages, the offline page and the search: `HadithRef`/`HadithPosition`, `hadithPath`, `toBookIndex` (a book's `index.json` shape, from a downloaded collection pack), `packBooks`/`getNeighbors` (previous/next hadiths across books), `fromPack` (a hadith page's data from a pack), `formatHadithText`, and `filterHadiths` (a `fuse.js` search over a book's hadith ids and first narrators, like `searchChapters`).
+- **Routes**: `/api/hadiths/[collection]` and `/api/hadiths/[collection]/[book]/[id]` proxy the CDN with `CACHE_HEADERS`; `/api/hadiths/synonyms` serves the shared synonym groups; `/api/resources/hadiths` serves `getHadithResources()` for the offline pages and the service worker's precache. The collection pack route fetches with `cache: "no-store"`: Next's data cache refuses responses over 2 MB and Bukhari's pack is 4.6 MB, so the pack relies on the CDN's own cache (`CACHE_HEADERS`'s `s-maxage`) instead of Next's.
+- **The worker search**: `HadithSearch` (the Hadith mode of `SearchModal`) runs the search in a Web Worker (`src/utils/hadithSearch.worker.ts`, started by `src/utils/hadithSearchClient.ts`'s `searchHadiths`/`listNarrators`), so building an index never blocks the page and running out of memory only stops the worker (`HadithSearchStopped`, shown as "hadith-search-stopped"; a fresh worker starts on the next request). `src/utils/hadithSearch.ts` builds one MiniSearch index per downloaded collection: `tokenize` splits on Unicode punctuation/space after stripping apostrophes (they stand for Arabic letters in transliteration, e.g. "Mas'ud"), and `processHadithTerm` indexes each word both as normalized (`normalizeTerm`) and stemmed (`stemmer`), dropping English stop words. A query word also matches its synonym group's other words (`HadithSynonyms`, from `/api/hadiths/synonyms`), weighted down with `boostTerm` (0.5) unless that term is also typed as-is. A search runs the query's words `AND`-ed together first for `matches`; when the query has more than one word, it also runs them `OR`-ed together for `partial` (hits missing some words), excluding anything already in `matches`. Both lists are sorted by score and capped at the request's `limit`.
+- Downloaded collection packs and the shared synonyms live in `TEXT_CACHE` (`content-packs`, the same cache as text packs) — see Section 6.
+- Favorites and notes use hadith-only localforage keys, `faves-hadith` and `notes-hadith-<collection>-<book>-<id>`, and the Drive/backup file is version 3 for them — see Section 2 and Section 7.
 
 ## Development Workflows
 
@@ -148,12 +162,14 @@ pnpm test:e2e:ci      # CI mode (JUnit XML)
 - **Accessible queries only**: Use `screen.getByRole()`, `getByLabelText()`, `getByText()`. Never use `querySelector`, IDs, CSS classes, or `data-testid`.
 - **Mocking**: `server-only` and `next/headers` are globally mocked in `vitest-setup.ts`, along with `matchMedia`, `ResizeObserver`, `IntersectionObserver` (`react-intersection-observer/test-utils`) and `HTMLMediaElement.play/pause`. Mock server actions with `vi.mock("@/components/saveReaderSettings")`. jsdom has no Cache Storage; offline tests use `stubCaches`/`stubFetch` from `src/components/test/fakeCaches.ts`. Sync tests fake the token route and Drive with `stubDrive` (`src/components/test/fakeDrive.ts`) and call `forgetToken()` in `beforeEach`; the sign-in route tests use `stubCookies` (`fakeCookies.ts`), spy on `OAuth2Client.prototype`, and run in `@vitest-environment node`.
 - **Coverage thresholds**: statements 80%, branches 60%, functions 70%, lines 80%.
+- **Hadith fixtures**: unit tests read the hadith fixture subset (`e2e/fixtures/cdn/data/hadiths`) only through `src/components/test/hadithFixtures.ts` (`fixture`/`fixtureText`/`hadithResources`/`fixtureCollection`), never by hand-rolling hadith data.
 
 #### Playwright Key Patterns
 
 - **Custom fixtures**: Import `test` and `expect` from `e2e/helpers/fixtures.ts` (not `@playwright/test`). They pre-accept the cookie notice, mock recitation audio, and wait for hydration. `preparePage` applies the same setup to a page in another context (a second device).
 - **Google fakes**: `e2e/helpers/drive.ts` routes the sign-in, token and Drive requests per context to one in-memory `FakeGoogle`, which several contexts can share.
 - **Fixture CDN**: E2E runs against `e2e/fixtures/cdn` served locally (`pnpm test:e2e:data`), configured by `.env.test`. Regenerate the fixtures with `pnpm test:e2e:fixtures`, then delete `.next/cache/fetch-cache`, which otherwise keeps serving the old data.
+- **Hadith fixture subset**: `e2e/fixtures/cdn/data/hadiths` holds a few small books per collection: Bukhari 1, 2 and 13 (13's hadith ids repeat book 1's), Muslim 43 (has a hadith without narrators), Abu Dawud 7, and Malik 4 (dotted hadith ids). The CDN has no hadith data yet, so `scripts/fetch-e2e-fixtures.mjs` copies them from a local checkout of the data repo instead of downloading: `pnpm test:e2e:fixtures <path-to-muallimlive-data>/data/hadiths`.
 - **No hosts or ports in tests**: the app's port is `PORT` in `.env.test`, which `playwright.config.ts` turns into `baseURL`. E2E tests use relative paths, or the `baseURL` fixture where an absolute URL is needed. Unit tests assert paths only.
 - **Service workers** are blocked except in `pwa.test.ts` and `offline.test.ts`, which opt in with `test.use({ serviceWorkers: "allow" })`.
 
@@ -210,6 +226,8 @@ SYNC_SESSION_SECRET=...                             # 32+ random characters encr
 
 **Security**: Never commit `.env.local` or any file with real secrets.
 
+**Deploy order**: the root layout calls `getHadithResources()` on every page, so `API_URI`'s CDN must have `data/hadiths/` before this deploys — otherwise `pnpm build` fails prerendering `/_not-found`, and a running deploy 500s on every page.
+
 ## File Organization
 
 ```
@@ -220,9 +238,11 @@ src/
 │   ├── BasicLayout.tsx           # NavBar + content + Footer + CookieNotice
 │   ├── page.tsx, Home.tsx        # Home: continue reading + searchable chapter grid
 │   ├── chapters/[id]/            # Chapter page (server) + Chapter, ChapterHeader (client)
+│   ├── hadiths/                  # Hadiths, Collection, Book, HadithView pages (server + client)
 │   ├── saved/                    # Favorites & Notes page (server) + Saved (client)
 │   ├── privacy/, terms/          # Legal pages
 │   ├── api/                      # Route handlers proxying offline packs from the CDN
+│   ├── api/hadiths/              # Hadith pack, hadith and synonyms route handlers
 │   ├── api/sync/                 # Google sign-in for Drive sync: login, callback, token, disconnect
 │   ├── ~offline/                 # Offline fallback page (renders downloaded packs)
 │   ├── manifest.ts               # Web app manifest
@@ -239,15 +259,18 @@ src/
 │   ├── ReaderSettingsForm.tsx    # Display settings form
 │   ├── save*Settings.ts, saveColorScheme.ts # Server actions writing settings cookies
 │   ├── SafeHtml.tsx              # DOMPurify-sanitized HTML
-│   ├── SearchModal.tsx           # Verse search: the chapter's texts or the downloaded packs
-│   ├── ChapterSearchContext.tsx  # The open chapter's texts, for the verse search
+│   ├── SearchModal.tsx           # Verse/hadith search: the "Qur'an"/"Hadith" switch and the verse search
+│   ├── HadithSearch.tsx          # Hadith search: collection/book/narrator filters, worker-backed results
+│   ├── ChapterSearchContext.tsx  # The open chapter's texts and the search modal's mode, for the search
+│   ├── useHadithReference.ts     # "Volume 2, Book 13, Hadith 1" / "Book 7, Hadith 1406"
 │   ├── SyncProvider.tsx          # Runs Drive sync in the background, handles ?sync= after sign-in
 │   ├── SyncDialogs.tsx           # Merge choice and the required "sign in again" dialog
 │   ├── SyncSettings.tsx          # Sync & Backup settings tab
-│   └── test/                     # TestProviders, fakeCaches, fakeDrive, fakeCookies
+│   └── test/                     # TestProviders, fakeCaches, fakeDrive, fakeCookies, hadithFixtures
 ├── utils/                        # config, fetcher, cookies, localforage, chapters, packs, content, offline,
 │                                 # userData (faves/notes format and merge), sync, syncSession (server),
-│                                 # search (verse indexes and highlighting)
+│                                 # search (verse indexes and highlighting), hadiths (server), hadithPack,
+│                                 # hadithSearch, hadithSearch.worker, hadithSearchClient
 ├── proxy.ts                      # Renews the settings cookies on page visits
 ├── i18n/request.ts               # next-intl request config
 ├── locales/en/common.json        # UI strings
