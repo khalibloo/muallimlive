@@ -74,6 +74,7 @@
     "hadith-book-name": "{id}. {name}",
     "hadith-book-title": "{book} · {collection}",
     "hadith-collection": "Collection",
+    "hadith-collection-missing": "This collection isn't downloaded for offline use. Download it from Offline Storage in the settings when you're back online.",
     "hadith-collections": "Hadith collections",
     "hadith-count": "{count, plural, one {# hadith} other {# hadiths}}",
     "hadith-counts": "{books, plural, one {# book} other {# books}} · {hadiths, plural, one {# hadith} other {# hadiths}}",

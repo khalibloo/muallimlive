@@ -1,9 +1,11 @@
 import React from "react";
 import { render, screen, within } from "@testing-library/react";
 
-import { stubFetch } from "@/components/test/fakeCaches";
+import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
+import { fixtureCollection, fixtureText } from "@/components/test/hadithFixtures";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
+import { hadithPackUrl, TEXT_CACHE } from "@/utils/packs";
 import { setFave, verseKey } from "@/utils/userData";
 import OfflinePage from "./OfflinePage";
 
@@ -51,9 +53,13 @@ const readerSettings: ReaderSettings = {
 const responses = {
   "/api/resources/chapters": { chapters: [alFatihah] },
   "/api/resources/recitations": { recitations: [] },
+  "/api/resources/hadiths": { collections: [fixtureCollection("bukhari"), fixtureCollection("malik")] },
   "/api/content/translation/20/1": [{ id: 1, verse_key: "1:1", text: "In the name of Allah" }],
   "/api/content/arabic/uthmani/1": [{ id: 1, verse_key: "1:1", text: "بِسْمِ ٱللَّهِ", isArabic: true }],
 };
+
+const putPack = async (collection: string) =>
+  (await caches.open(TEXT_CACHE)).put(hadithPackUrl(collection), new Response(fixtureText(`${collection}/all`)));
 
 const renderAt = (pathname: string) => {
   window.history.pushState({}, "", pathname);
@@ -148,5 +154,54 @@ describe("OfflinePage", () => {
     renderAt("/terms");
 
     expect(screen.getByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
+  });
+
+  describe("hadiths", () => {
+    beforeEach(() => {
+      stubCaches();
+      stubFetch(responses);
+    });
+
+    it.each([
+      ["/hadiths", "heading", "Hadiths"],
+      ["/hadiths/bukhari", "region", "Volume 2"],
+    ])("renders %s from the resources", async (path, role, name) => {
+      renderAt(path);
+      expect(await screen.findByRole(role as "heading", { name })).toBeVisible();
+    });
+
+    it("renders a downloaded book and hadith from the pack", async () => {
+      await putPack("bukhari");
+      renderAt("/hadiths/bukhari/13");
+      expect(await screen.findByRole("link", { name: /^1\b/ })).toHaveAttribute("href", "/hadiths/bukhari/13/1");
+    });
+
+    it("renders a hadith with its neighbors across books", async () => {
+      await putPack("bukhari");
+      renderAt("/hadiths/bukhari/13/1");
+      expect(
+        await screen.findByRole("heading", { level: 1, name: "Sahih al-Bukhari, Volume 2, Book 13, Hadith 1" }),
+      ).toBeVisible();
+      expect(screen.getByRole("link", { name: "Previous hadith" })).toHaveAttribute("href", "/hadiths/bukhari/2/55");
+    });
+
+    it("renders a Malik hadith with a dotted id", async () => {
+      await putPack("malik");
+      renderAt("/hadiths/malik/4/4.1.1");
+      expect(
+        await screen.findByRole("heading", { level: 1, name: "Muwatta Malik, Book 4, Hadith 4.1.1" }),
+      ).toBeVisible();
+    });
+
+    it("says a collection isn't downloaded", async () => {
+      renderAt("/hadiths/malik/4");
+      expect(await screen.findByText(/This collection isn't downloaded for offline use/)).toBeVisible();
+    });
+
+    it("says so for a hadith the pack doesn't have", async () => {
+      await putPack("malik");
+      renderAt("/hadiths/malik/4/9.9.9");
+      expect(await screen.findByRole("heading", { name: "You're offline" })).toBeVisible();
+    });
   });
 });
