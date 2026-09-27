@@ -1,4 +1,4 @@
-import { render, screen, waitFor, within } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 import { stubCaches } from "@/components/test/fakeCaches";
@@ -85,6 +85,22 @@ it("lists partial matches under their own heading", async () => {
   const { user } = renderSearch();
   await user.type(screen.getByRole("searchbox", { name: "Search words" }), "last zzz");
   expect(await screen.findByText("1 partial match")).toBeVisible();
+});
+
+it("keeps the earlier results in the document while the next page loads", async () => {
+  const manyMatches = { matches: [hit], partial: [], matchCount: 100, partialCount: 0 };
+  let resolveSecond!: (value: typeof manyMatches) => void;
+  vi.mocked(searchHadiths)
+    .mockResolvedValueOnce(manyMatches)
+    .mockImplementationOnce(() => new Promise((resolve) => (resolveSecond = resolve)));
+  const { user } = renderSearch();
+  fireEvent.change(screen.getByRole("searchbox", { name: "Search words" }), { target: { value: "last" } });
+  await user.click(await screen.findByRole("button", { name: "Show more" }));
+
+  expect(screen.getByRole("article", { name: "Sahih al-Bukhari, Volume 2, Book 13, Hadith 1" })).toBeVisible();
+
+  resolveSecond(manyMatches);
+  await waitFor(() => expect(searchHadiths).toHaveBeenCalledTimes(2));
 });
 
 it("downloads the selected collections that are missing", async () => {

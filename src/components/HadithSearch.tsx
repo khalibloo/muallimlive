@@ -120,10 +120,11 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
     if (!deferredQuery || downloaded.length === 0) {
       return null;
     }
-    if (loading) {
+    // the previous result stays on screen while the next page loads, instead of unmounting the results container
+    if (loading && !result) {
       return <Spin className="w-full" />;
     }
-    if (error) {
+    if (error && !loading) {
       return (
         <Alert
           type="error"
