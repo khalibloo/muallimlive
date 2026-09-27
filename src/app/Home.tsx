@@ -31,6 +31,14 @@ const Home: React.FC<Props> = ({ chapters }) => {
       <Typography.Title level={1} className="text-center">
         {t("al-quran")}
       </Typography.Title>
+      <nav aria-label={t("sections")} className="mb-6 flex justify-center gap-2">
+        <Link href="/" aria-current="page" className="rounded-full border border-primary px-4 py-1 text-primary">
+          {t("quran")}
+        </Link>
+        <Link href="/hadiths" className="rounded-full border border-line px-4 py-1 hover:border-primary">
+          {t("hadith")}
+        </Link>
+      </nav>
       {lastRead && lastReadChapter && (
         <Link href={`/chapters/${lastReadChapter.id}`} className="mb-6 block">
           <Card hoverable className="border-primary">

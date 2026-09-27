@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
 import {
+  BookOutlined,
   HeartOutlined,
   MoonOutlined,
   ReadOutlined,
@@ -15,6 +16,7 @@ import lf from "localforage";
 import { useBoolean, useEventListener, useMount } from "ahooks";
 import { useFormatter, useTranslations } from "next-intl";
 
+import { useSearchModal } from "@/components/ChapterSearchContext";
 import OfflineStorage, { getSettingsPacks, usePackLabel } from "@/components/OfflineStorage";
 import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 import { saveColorScheme } from "@/components/saveColorScheme";
@@ -31,6 +33,7 @@ export interface SettingsResources {
   languages: GetLanguagesResponse;
   tafsirs: GetTafsirsResponse;
   recitations: GetRecitationsResponse;
+  hadiths: GetHadithResourcesResponse;
   readerSettings: ReaderSettings;
   playerSettings: PlaySettings;
 }
@@ -56,7 +59,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
   const { notification } = App.useApp();
   const [settingsModalOpen, { setTrue: openSettingsModal, setFalse: closeSettingsModal }] = useBoolean(false);
   const [settingsTab, setSettingsTab] = useState("display");
-  const [searchOpen, { setTrue: openSearch, setFalse: closeSearch }] = useBoolean(false);
+  const { searchMode, openSearch, closeSearch } = useSearchModal();
   const format = useFormatter();
   const packLabel = usePackLabel(settingsResources);
 
@@ -169,7 +172,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
         />
       </Modal>
       <SearchModal
-        open={searchOpen}
+        open={!!searchMode}
         onClose={closeSearch}
         width={modalWidth}
         chapters={settingsResources.chapters}
@@ -188,7 +191,14 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
             size="large"
             aria-label={t("search")}
             icon={<SearchOutlined aria-hidden className="text-2xl" />}
-            onClick={openSearch}
+            onClick={() => openSearch(window.location.pathname.startsWith("/hadiths") ? "hadith" : "quran")}
+          />
+          <Button
+            type="text"
+            size="large"
+            href="/hadiths"
+            aria-label={t("hadith")}
+            icon={<BookOutlined aria-hidden className="text-2xl" />}
           />
           <Button
             type="text"

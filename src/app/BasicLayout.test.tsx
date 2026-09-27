@@ -18,6 +18,7 @@ const settingsResources: SettingsResources = {
   languages: { languages: [] },
   tafsirs: { tafsirs: [] },
   recitations: { recitations: [] },
+  hadiths: { collections: [] },
   readerSettings: { splitView: false, left: [{ content: ["translation", "ar", "uthmani"] }], right: [] },
   playerSettings: { reciter: 1, hideTafsirs: true },
 };

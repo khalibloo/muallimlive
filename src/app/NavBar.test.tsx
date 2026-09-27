@@ -3,6 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { ConfigProvider } from "antd";
 import lf from "localforage";
 
+import { ChapterSearchProvider } from "@/components/ChapterSearchContext";
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
 import { saveColorScheme } from "@/components/saveColorScheme";
@@ -23,6 +24,7 @@ const settingsResources: SettingsResources = {
   languages: { languages: [] },
   tafsirs: { tafsirs: [] },
   recitations: { recitations: [] },
+  hadiths: { collections: [] },
   readerSettings: {
     splitView: true,
     left: [{ content: ["translation", "ar", "uthmani"] }],
@@ -37,7 +39,9 @@ const renderNavBar = (resources = settingsResources, colorScheme: ColorScheme = 
     <TestProviders>
       {/* jsdom never fires transition events, so closing modals only completes with motion disabled */}
       <ConfigProvider theme={{ token: { motion: false } }}>
-        <NavBar settingsResources={resources} colorScheme={colorScheme} />
+        <ChapterSearchProvider>
+          <NavBar settingsResources={resources} colorScheme={colorScheme} />
+        </ChapterSearchProvider>
       </ConfigProvider>
     </TestProviders>,
   );
@@ -62,6 +66,12 @@ describe("NavBar", () => {
     renderNavBar();
 
     expect(screen.getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
+  });
+
+  it("links to the hadiths", () => {
+    renderNavBar();
+
+    expect(screen.getByRole("link", { name: "Hadith" })).toHaveAttribute("href", "/hadiths");
   });
 
   it("opens the verse search", async () => {

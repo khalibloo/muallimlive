@@ -22,6 +22,7 @@ import {
   READER_SETTINGS_KEY,
 } from "@/utils/cookies";
 import { fetchData } from "@/utils/fetcher";
+import { getHadithResources } from "@/utils/hadiths";
 import BasicLayout from "./BasicLayout";
 import Providers from "./Providers";
 import ServiceWorkerEvents from "./ServiceWorkerEvents";
@@ -92,12 +93,13 @@ export const generateViewport = async (): Promise<Viewport> => {
 };
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children }) => {
-  const [chapters, tafsirs, recitations, languages, translations] = await Promise.all([
+  const [chapters, tafsirs, recitations, languages, translations, hadiths] = await Promise.all([
     getChapters(),
     fetchData<GetTafsirsResponse>("resources/tafsirs"),
     fetchData<GetRecitationsResponse>("resources/recitations"),
     fetchData<GetLanguagesResponse>("resources/languages"),
     fetchData<GetTranslationsResponse>("resources/translations"),
+    getHadithResources(),
   ]);
 
   const t = await getTranslations("common");
@@ -143,6 +145,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
                   recitations,
                   tafsirs,
                   translations,
+                  hadiths,
                   readerSettings,
                   playerSettings,
                 }}
