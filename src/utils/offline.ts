@@ -1,7 +1,16 @@
 import { useSyncExternalStore } from "react";
 import pLimit from "p-limit";
 
-import { AUDIO_CACHE, contentUrl, packKey, recitationUrl, TEXT_CACHE, type ContentPack } from "./packs";
+import {
+  AUDIO_CACHE,
+  contentUrl,
+  hadithPackUrl,
+  packKey,
+  recitationUrl,
+  SYNONYMS_URL,
+  TEXT_CACHE,
+  type ContentPack,
+} from "./packs";
 
 // Downloads and removals of offline packs in Cache Storage. Downloads keep running when the settings
 // modal closes, so their progress lives in a module store rather than in component state.
@@ -10,7 +19,7 @@ const CONCURRENCY = 6;
 
 export const isOfflineStorageSupported = () => typeof caches !== "undefined";
 
-/** Download progress (0 to 1) by key: a pack key for text, `audio/<reciter>` for recitations */
+/** Download progress (0 to 1) by key: a pack key for text, `audio/<reciter>` for recitations, `hadiths/<collection>` for hadith collections */
 let downloads: Record<string, number> = {};
 const listeners = new Set<() => void>();
 
@@ -99,6 +108,33 @@ export const removeText = async (pack: ContentPack) => {
   await Promise.all(keys.filter((k) => new URL(k.url).pathname.startsWith(prefix)).map((k) => cache.delete(k)));
 };
 
+/** Downloads a hadith collection, and the synonyms its search needs */
+export const downloadHadiths = (collection: string) =>
+  track(`hadiths/${collection}`, async (report) => {
+    const cache = await caches.open(TEXT_CACHE);
+    await addMissing(cache, SYNONYMS_URL);
+    report(0.1);
+    await addMissing(cache, hadithPackUrl(collection));
+    report(1);
+  });
+
+export const readHadiths = async (collection: string): Promise<HadithPack> => {
+  const response = await (await caches.open(TEXT_CACHE)).match(hadithPackUrl(collection));
+  if (!response) {
+    throw new Error(`${collection} isn't downloaded`);
+  }
+  return response.json();
+};
+
+export const readSynonyms = async (): Promise<HadithSynonyms> => {
+  const response = await (await caches.open(TEXT_CACHE)).match(SYNONYMS_URL);
+  return response ? response.json() : { groups: [] };
+};
+
+export const removeHadiths = async (collection: string) => {
+  await (await caches.open(TEXT_CACHE)).delete(hadithPackUrl(collection));
+};
+
 const fetchRecitation = async (url: string) => {
   const response = await fetch(url);
   if (!response.ok) {
@@ -148,17 +184,26 @@ export interface DownloadStatus {
   text: Record<string, number>;
   /** Downloaded chapter ids by reciter id */
   audio: Record<string, number[]>;
+  /** Downloaded hadith collections */
+  hadiths: string[];
 }
 
 const API_CONTENT = /^\/api\/content\/([^/]+)\/([^/]+)\/(\d+)$/;
+const API_HADITHS = /^\/api\/hadiths\/([a-z-]+)$/;
 
 export const getDownloadStatus = async (): Promise<DownloadStatus> => {
   const [textKeys, audioKeys] = await Promise.all(
     [TEXT_CACHE, AUDIO_CACHE].map(async (name) => (await (await caches.open(name)).keys()).map((k) => k.url)),
   );
-  const status: DownloadStatus = { text: {}, audio: {} };
+  const status: DownloadStatus = { text: {}, audio: {}, hadiths: [] };
   for (const url of textKeys) {
-    const [, type, id] = new URL(url).pathname.match(API_CONTENT) ?? [];
+    const { pathname } = new URL(url);
+    const collection = pathname.match(API_HADITHS)?.[1];
+    if (collection && `/api/hadiths/${collection}` !== SYNONYMS_URL) {
+      status.hadiths.push(collection);
+      continue;
+    }
+    const [, type, id] = pathname.match(API_CONTENT) ?? [];
     if (type) {
       const key = `${type}/${id}`;
       status.text[key] = (status.text[key] ?? 0) + 1;

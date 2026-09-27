@@ -75,7 +75,7 @@ const OfflineStorage: React.FC<Props> = ({
 
   const chapterIds = chapters.chapters.map((c) => c.id);
   const total = chapterIds.length;
-  const status = data?.status ?? { text: {}, audio: {} };
+  const status = data?.status ?? { text: {}, audio: {}, hadiths: [] };
 
   const settingsPacks = getSettingsPacks(readerSettings);
   // packs downloaded for earlier settings are listed too, so they can be removed

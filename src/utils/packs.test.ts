@@ -1,4 +1,4 @@
-import { contentUrl, getContentPack, packKey, recitationUrl, resourceUrl } from "./packs";
+import { contentUrl, getContentPack, hadithPackUrl, hadithUrl, packKey, recitationUrl, resourceUrl } from "./packs";
 
 describe("getContentPack", () => {
   it.each<[VerseLayoutItem["content"], ReturnType<typeof getContentPack>]>([
@@ -19,5 +19,11 @@ describe("pack URLs", () => {
     expect(contentUrl(pack, 2)).toBe("/api/content/tafsir/169/2");
     expect(recitationUrl(7, 2)).toBe("/api/content/recitation/7/2");
     expect(resourceUrl("chapters")).toBe("/api/resources/chapters");
+  });
+
+  it("builds the hadith URLs", () => {
+    expect(hadithPackUrl("abu-dawud")).toBe("/api/hadiths/abu-dawud");
+    expect(hadithUrl({ collection: "malik", book: 4, id: "4.1.1" })).toBe("/api/hadiths/malik/4/4.1.1");
+    expect(resourceUrl("hadiths")).toBe("/api/resources/hadiths");
   });
 });

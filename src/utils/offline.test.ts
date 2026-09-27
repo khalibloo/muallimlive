@@ -3,10 +3,14 @@ import { act, renderHook } from "@testing-library/react";
 import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import {
   downloadAudio,
+  downloadHadiths,
   downloadText,
   getDownloadStatus,
   isOfflineStorageSupported,
+  readHadiths,
+  readSynonyms,
   removeAudio,
+  removeHadiths,
   removeText,
   useDownloads,
 } from "./offline";
@@ -62,7 +66,7 @@ describe("offline downloads", () => {
     await act(() => download);
 
     expect(result.current).toEqual({});
-    await expect(getDownloadStatus()).resolves.toEqual({ text: { "translation/20": 2 }, audio: {} });
+    await expect(getDownloadStatus()).resolves.toEqual({ text: { "translation/20": 2 }, audio: {}, hadiths: [] });
   });
 
   it("skips chapters that are already downloaded and downloads already running", async () => {
@@ -93,7 +97,7 @@ describe("offline downloads", () => {
 
     await removeText(translation);
 
-    await expect(getDownloadStatus()).resolves.toEqual({ text: { "tafsir/169": 1 }, audio: {} });
+    await expect(getDownloadStatus()).resolves.toEqual({ text: { "tafsir/169": 1 }, audio: {}, hadiths: [] });
   });
 
   it("downloads a reciter's audio files and marks the chapters downloaded", async () => {
@@ -101,7 +105,7 @@ describe("offline downloads", () => {
 
     await downloadAudio(7, [1, 2]);
 
-    await expect(getDownloadStatus()).resolves.toEqual({ text: {}, audio: { 7: [1, 2] } });
+    await expect(getDownloadStatus()).resolves.toEqual({ text: {}, audio: { 7: [1, 2] }, hadiths: [] });
     for (const file of ["https://audio.test/1_1.mp3", "https://audio.test/1_2.mp3", "https://audio.test/2_1.mp3"]) {
       expect(fetchMock).toHaveBeenCalledWith(file);
     }
@@ -113,7 +117,7 @@ describe("offline downloads", () => {
 
     await expect(downloadAudio(7, [1])).rejects.toThrow();
 
-    await expect(getDownloadStatus()).resolves.toEqual({ text: {}, audio: {} });
+    await expect(getDownloadStatus()).resolves.toEqual({ text: {}, audio: {}, hadiths: [] });
   });
 
   it("fails an audio download when a recitation list can't be fetched", async () => {
@@ -129,8 +133,37 @@ describe("offline downloads", () => {
 
     await removeAudio(7, [1, 3]);
 
-    await expect(getDownloadStatus()).resolves.toEqual({ text: {}, audio: { 7: [2] } });
+    await expect(getDownloadStatus()).resolves.toEqual({ text: {}, audio: { 7: [2] }, hadiths: [] });
     const urls = [...caches.get("audio-packs")!.entries.keys()];
     expect(urls).toEqual(["https://audio.test/2_1.mp3", `${window.location.origin}/api/content/recitation/7/2`]);
+  });
+});
+
+describe("hadith packs", () => {
+  const pack = { hadiths: [{ id: "1", book: 13, text: ["text"] }] };
+  const synonyms = { groups: [["salat", "prayer"]] };
+
+  it("downloads a collection with the synonyms and reads it back", async () => {
+    stubCaches();
+    stubFetch({ "/api/hadiths/bukhari": pack, "/api/hadiths/synonyms": synonyms });
+    await downloadHadiths("bukhari");
+    await expect(readHadiths("bukhari")).resolves.toEqual(pack);
+    await expect(readSynonyms()).resolves.toEqual(synonyms);
+    await expect(getDownloadStatus()).resolves.toMatchObject({ hadiths: ["bukhari"], text: {} });
+  });
+
+  it("fails to read a collection that isn't downloaded, and has no synonyms yet", async () => {
+    stubCaches();
+    await expect(readHadiths("malik")).rejects.toThrow("malik isn't downloaded");
+    await expect(readSynonyms()).resolves.toEqual({ groups: [] });
+  });
+
+  it("removes a collection but keeps the shared synonyms", async () => {
+    stubCaches();
+    stubFetch({ "/api/hadiths/bukhari": pack, "/api/hadiths/synonyms": synonyms });
+    await downloadHadiths("bukhari");
+    await removeHadiths("bukhari");
+    await expect(getDownloadStatus()).resolves.toMatchObject({ hadiths: [] });
+    await expect(readSynonyms()).resolves.toEqual(synonyms);
   });
 });

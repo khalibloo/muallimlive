@@ -34,6 +34,11 @@ const serwist = new Serwist({
       matcher: ({ sameOrigin, url }) => sameOrigin && url.pathname.startsWith("/api/content/"),
       handler: async ({ request }) => (await caches.match(request)) ?? fetch(request),
     },
+    // Hadith collection packs and the shared synonyms
+    {
+      matcher: ({ sameOrigin, url }) => sameOrigin && url.pathname.startsWith("/api/hadiths/"),
+      handler: async ({ request }) => (await caches.match(request)) ?? fetch(request),
+    },
     // Audio packs. The recitation host is cross-origin, and RegExp matchers only match cross-origin URLs
     // from their start, hence the function. Range support lets <audio> seek in a cached file.
     {

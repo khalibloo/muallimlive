@@ -15,7 +15,12 @@ export const { dynamic, dynamicParams, revalidate, generateStaticParams, GET } =
   // inherits the app's browserslist target and fails to transform Serwist's syntax.
   esbuildOptions: { target: "es2020" },
   // The offline page and the resources it needs to render a chapter from the downloaded packs
-  additionalPrecacheEntries: ["/~offline", resourceUrl("chapters"), resourceUrl("recitations")].map((url) => ({
+  additionalPrecacheEntries: [
+    "/~offline",
+    resourceUrl("chapters"),
+    resourceUrl("recitations"),
+    resourceUrl("hadiths"),
+  ].map((url) => ({
     url,
     revision,
   })),
