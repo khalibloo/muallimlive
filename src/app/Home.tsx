@@ -13,6 +13,8 @@ interface Props {
   chapters: Chapter[];
 }
 
+export const LINK_CARD = "rounded-xl border border-line bg-surface p-4 transition-colors hover:border-primary";
+
 /** The home page: the chapter the reader left off at, and a searchable grid of every chapter */
 const Home: React.FC<Props> = ({ chapters }) => {
   const t = useTranslations("common");
@@ -82,7 +84,7 @@ const Home: React.FC<Props> = ({ chapters }) => {
                     name: chapter.name_simple,
                     translation: chapter.translated_name.name,
                   })}
-                  className="flex h-full items-center gap-4 rounded-xl border border-line bg-surface p-4 transition-colors hover:border-primary"
+                  className={`${LINK_CARD} flex h-full items-center gap-4`}
                 >
                   <span className="verse-badge shrink-0">{chapter.id}</span>
                   <span className="min-w-0 grow">
