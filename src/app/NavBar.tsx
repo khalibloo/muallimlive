@@ -2,16 +2,9 @@
 
 import { useState } from "react";
 import { App, Button, Dropdown, Grid, Modal, Tabs, Typography } from "antd";
-import {
-  BookOutlined,
-  HeartOutlined,
-  MoonOutlined,
-  ReadOutlined,
-  SearchOutlined,
-  SettingOutlined,
-  SunOutlined,
-} from "@ant-design/icons";
+import { MenuOutlined, MoonOutlined, ReadOutlined, SearchOutlined, SunOutlined } from "@ant-design/icons";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import lf from "localforage";
 import { useBoolean, useEventListener, useMount } from "ahooks";
 import { useFormatter, useTranslations } from "next-intl";
@@ -47,6 +40,13 @@ export const INSTALL_PROMPT_KEY = "offline-install-prompt-shown";
 
 const SCHEME_ICONS = { light: SunOutlined, sepia: ReadOutlined, dark: MoonOutlined };
 
+const SECTIONS = [
+  { href: "/", label: "home" },
+  { href: "/quran", label: "quran" },
+  { href: "/hadiths", label: "hadith" },
+  { href: "/saved", label: "saved" },
+] as const;
+
 const SchemeIcon: React.FC<{ scheme: ColorScheme; className?: string }> = ({ scheme, ...props }) => {
   const Icon = SCHEME_ICONS[scheme];
   return <Icon aria-hidden {...props} />;
@@ -62,6 +62,8 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
   const { searchMode, openSearch, closeSearch } = useSearchModal();
   const format = useFormatter();
   const packLabel = usePackLabel(settingsResources);
+  const pathname = usePathname();
+  const section = SECTIONS.find(({ href }) => pathname === href || pathname.startsWith(`${href}/`));
 
   const openSettings = (tab: string) => {
     setSettingsTab(tab);
@@ -193,58 +195,61 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
             size="large"
             aria-label={t("search")}
             icon={<SearchOutlined aria-hidden className="text-2xl" />}
-            onClick={() => openSearch(window.location.pathname.startsWith("/hadiths") ? "hadith" : "quran")}
-          />
-          <Button
-            type="text"
-            size="large"
-            href="/hadiths"
-            aria-label={t("hadith")}
-            icon={<BookOutlined aria-hidden className="text-2xl" />}
-          />
-          <Button
-            type="text"
-            size="large"
-            href="/saved"
-            aria-label={t("saved")}
-            icon={<HeartOutlined aria-hidden className="text-2xl" />}
+            onClick={() => openSearch(section?.href === "/hadiths" ? "hadith" : "quran")}
           />
           <Dropdown
             trigger={["click"]}
             menu={{
-              selectable: true,
-              selectedKeys: [colorScheme],
-              items: COLOR_SCHEMES.map((scheme) => ({
-                key: scheme,
-                label: t(`theme-${scheme}`),
-                icon: <SchemeIcon scheme={scheme} />,
-              })),
-              onClick: (item) => saveColorScheme(item.key as ColorScheme),
-            }}
-          >
-            <Button
-              type="text"
-              size="large"
-              aria-label={t("theme")}
-              icon={<SchemeIcon scheme={colorScheme} className="text-2xl" />}
-            />
-          </Dropdown>
-          <Dropdown
-            trigger={["click"]}
-            menu={{
+              selectedKeys: [`section-${section?.href}`, `theme-${colorScheme}`],
               items: [
-                { key: "display", label: t("display-settings") },
-                { key: "storage", label: t("offline-storage") },
-                { key: "sync", label: t("sync-settings") },
+                {
+                  type: "group",
+                  label: t("go-to"),
+                  children: SECTIONS.map(({ href, label }) => ({
+                    key: `section-${href}`,
+                    label: (
+                      <Link href={href} aria-current={href === section?.href ? "page" : undefined}>
+                        {t(label)}
+                      </Link>
+                    ),
+                  })),
+                },
+                {
+                  type: "group",
+                  label: t("theme"),
+                  children: COLOR_SCHEMES.map((scheme) => ({
+                    key: `theme-${scheme}`,
+                    role: "menuitemradio",
+                    "aria-checked": scheme === colorScheme,
+                    label: t(`theme-${scheme}`),
+                    icon: <SchemeIcon scheme={scheme} />,
+                  })),
+                },
+                {
+                  type: "group",
+                  label: t("settings"),
+                  children: [
+                    { key: "settings-display", label: t("display-settings") },
+                    { key: "settings-storage", label: t("offline-storage") },
+                    { key: "settings-sync", label: t("sync-settings") },
+                  ],
+                },
               ],
-              onClick: (item) => openSettings(item.key),
+              onClick: ({ key }) => {
+                const [kind, value] = key.split(/-(.*)/);
+                if (kind === "theme") {
+                  saveColorScheme(value as ColorScheme);
+                } else if (kind === "settings") {
+                  openSettings(value);
+                }
+              },
             }}
           >
             <Button
               type="text"
               size="large"
-              aria-label={t("settings")}
-              icon={<SettingOutlined aria-hidden className="text-2xl" />}
+              aria-label={t("menu")}
+              icon={<MenuOutlined aria-hidden className="text-2xl" />}
             />
           </Dropdown>
         </div>

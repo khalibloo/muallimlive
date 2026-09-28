@@ -81,7 +81,7 @@ describe("Saved", () => {
     expect(await within(verse).findByText("Sincerity verse 1")).toBeInTheDocument();
     expect(within(verse).getByText("إخلاص 1")).toBeInTheDocument();
     expect(within(verse).queryByText("Sincerity tafsir 1")).not.toBeInTheDocument();
-    expect(within(verse).getByRole("link", { name: "Go to verse 112:1" })).toHaveAttribute("href", "/chapters/112#v-1");
+    expect(within(verse).getByRole("link", { name: "Go to verse 112:1" })).toHaveAttribute("href", "/quran/112#v-1");
 
     const headings = screen.getAllByRole("heading", { level: 2 }).map((h) => h.textContent);
     expect(headings).toEqual(["1. Al-Fatihah (The Opener)", "112. Al-Ikhlas (The Sincerity)"]);

@@ -1,9 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
+import { ChapterSearchProvider, useSearchModal } from "@/components/ChapterSearchContext";
 import TestProviders from "@/components/test/TestProviders";
 import lf from "@/utils/localforage";
-import Home from "./Home";
+import Quran from "./Quran";
 
 const chapter = (id: number, name: string, translation: string): Chapter => ({
   id,
@@ -20,63 +21,72 @@ const chapter = (id: number, name: string, translation: string): Chapter => ({
 
 const chapters = [chapter(1, "Al-Fatihah", "The Opener"), chapter(2, "Al-Baqarah", "The Cow")];
 
-const renderHome = () => {
+const SearchModeProbe: React.FC = () => <output>{useSearchModal().searchMode ?? "closed"}</output>;
+
+const renderQuran = () => {
   const user = userEvent.setup();
   render(
     <TestProviders>
-      <Home chapters={chapters} />
+      <ChapterSearchProvider>
+        <Quran chapters={chapters} />
+        <SearchModeProbe />
+      </ChapterSearchProvider>
     </TestProviders>,
   );
   return user;
 };
 
-describe("Home", () => {
+describe("Quran", () => {
   beforeEach(async () => {
     await lf.clear();
   });
 
   it("links to every chapter", () => {
-    renderHome();
+    renderQuran();
 
     expect(screen.getByRole("heading", { level: 1, name: "Al-Qur'an" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute("href", "/chapters/1");
-    expect(screen.getByRole("link", { name: "2. Al-Baqarah (The Cow)" })).toHaveAttribute("href", "/chapters/2");
+    expect(screen.getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute("href", "/quran/1");
+    expect(screen.getByRole("link", { name: "2. Al-Baqarah (The Cow)" })).toHaveAttribute("href", "/quran/2");
     expect(screen.queryByText("Continue reading")).not.toBeInTheDocument();
   });
 
-  it("links to the favorites and notes", () => {
-    renderHome();
+  it("leaves switching modules to the dashboard and the menu", () => {
+    renderQuran();
 
-    expect(screen.getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
+    expect(screen.queryByRole("link", { name: "Hadith" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Favorites & Notes" })).not.toBeInTheDocument();
   });
 
-  it("switches between the Qur'an and the hadiths", () => {
-    renderHome();
+  it("opens the Qur'an search", async () => {
+    const user = renderQuran();
 
-    expect(screen.getByRole("link", { name: "Hadith" })).toHaveAttribute("href", "/hadiths");
-    expect(screen.getByRole("link", { name: "Qur'an" })).toHaveAttribute("aria-current", "page");
+    await user.click(screen.getByRole("button", { name: "Search the Qur'an" }));
+
+    expect(screen.getByRole("status")).toHaveTextContent("quran");
   });
 
-  it("searches the chapters", async () => {
-    const user = renderHome();
+  it("finds a chapter by name or number", async () => {
+    const user = renderQuran();
+    const finder = screen.getByRole("textbox", { name: "Find a chapter" });
+    expect(finder).toHaveAttribute("placeholder", "Name or number");
 
-    await user.type(screen.getByRole("textbox", { name: "Search chapters" }), "cow");
+    await user.type(finder, "cow");
 
     expect(screen.getByRole("link", { name: "2. Al-Baqarah (The Cow)" })).toBeInTheDocument();
     expect(screen.queryByRole("link", { name: "1. Al-Fatihah (The Opener)" })).not.toBeInTheDocument();
 
-    await user.clear(screen.getByRole("textbox", { name: "Search chapters" }));
-    await user.type(screen.getByRole("textbox", { name: "Search chapters" }), "zzzz");
+    await user.clear(finder);
+    await user.type(finder, "zzzz");
 
     expect(screen.getByText("No chapters found")).toBeInTheDocument();
   });
 
   it("continues from the last verse read", async () => {
     await lf.setItem<LastRead>("last-read", { chapter: 2, verse: 5 });
-    renderHome();
+    renderQuran();
 
     const link = await screen.findByRole("link", { name: /Continue reading/ });
-    expect(link).toHaveAttribute("href", "/chapters/2");
+    expect(link).toHaveAttribute("href", "/quran/2");
     expect(link).toHaveTextContent("Al-Baqarah, verse 5");
   });
 });

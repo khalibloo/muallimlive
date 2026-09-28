@@ -17,7 +17,7 @@ const TAFSIRS = [0];
 const RECITATIONS = [1, 7];
 
 // Hadith books small enough to commit: Bukhari 13's ids repeat book 1's, Muslim 43 has a hadith without
-// narrators, and Malik's ids are dotted. The CDN has no hadiths yet, so they're copied from a local data
+// narrators, and Malik's ids are dotted. They're downloaded from the CDN, or copied from a local data
 // folder (`pnpm test:e2e:fixtures <muallimlive-data>/data/hadiths`) when one is given.
 const HADITH_BOOKS = { bukhari: [1, 2, 13], muslim: [43], "abu-dawud": [7], malik: [4] };
 const HADITHS_DIR = process.argv[2];

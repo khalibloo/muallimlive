@@ -5,8 +5,8 @@ import { SearchOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-import { LINK_CARD } from "@/app/Home";
 import { useSearchModal } from "@/components/ChapterSearchContext";
+import { LINK_CARD } from "@/components/linkCard";
 
 const Hadiths: React.FC<{ collections: HadithResourceCollection[] }> = ({ collections }) => {
   const t = useTranslations("common");

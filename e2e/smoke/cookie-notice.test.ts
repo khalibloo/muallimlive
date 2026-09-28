@@ -26,7 +26,7 @@ test.describe("Cookie notice", () => {
     await expect(notice).toBeHidden();
 
     await testPage.reload();
-    await expect(testPage.getByRole("heading", { level: 1, name: "Al-Qur'an", exact: true })).toBeVisible();
+    await expect(testPage.getByRole("heading", { level: 1, name: "MuallimLive", exact: true })).toBeVisible();
     await expect(notice).toBeHidden();
   });
 });

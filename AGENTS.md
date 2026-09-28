@@ -40,7 +40,7 @@ Trailing args to `test:e2e` (e.g. `--workers=1 --project=chromium`) pass through
 The Qur'an data is static JSON, so every read happens in server components through `fetchData()` (`src/utils/fetcher.ts`), which requests `${API_URI}/data/<path>.json` with `cache: "force-cache"`.
 
 ```typescript
-// src/app/chapters/[id]/page.tsx
+// src/app/quran/[id]/page.tsx
 const chaptersData = await fetchData<GetChaptersResponse>("resources/chapters");
 const chapter = chaptersData.chapters.find((c) => `${c.id}` === id);
 if (!chapter) {
@@ -50,9 +50,12 @@ if (!chapter) {
 
 - Response types live in `src/api.d.ts` (ambient, no import needed).
 - The chapter page fetches only the content types chosen in the reader settings and hands the result to the `Chapter` client component.
-- The home page (`src/app/page.tsx`) fetches the chapter list and hands it to the `Home` client component: a "continue reading" card and a searchable grid of chapters.
-- `Home` and `Chapter`'s chapters drawer list every chapter as `t("chapter-name")` ("1. Al-Fatihah (The Opener)") and filter them with `searchChapters` (`src/utils/chapters.ts`), a `fuse.js` fuzzy search over the number, `name_simple` and `translated_name.name`.
+- The home page (`src/app/page.tsx`) is a dashboard of the app's modules: it fetches the chapter list and `getHadithResources()` and hands them to the `Dashboard` client component, a "Modules" grid of link cards (Qur'an → `/quran` with its chapter count, Hadith → `/hadiths` with its collection and hadith counts), the `ContinueReading` card and a Favorites & Notes link. A new module is one more card there and one more section in the `NavBar` menu.
+- The Qur'an page (`src/app/quran/page.tsx`, `Quran`) holds a "Search the Qur'an" button (`openSearch("quran")`), `ContinueReading`, and the "Find a chapter" filter over the chapter grid. Chapters live at `/quran/<chapter>`; build their paths with `chapterPath(chapter, verse?)` (`src/utils/chapters.ts`), never by hand. The link cards share `LINK_CARD` (`src/components/linkCard.ts`).
+- `ContinueReading` links to the `last-read` chapter (without a hash, since `Chapter` scrolls back to the saved progress) and renders nothing until one is stored.
+- `Quran` and `Chapter`'s chapters drawer list every chapter as `t("chapter-name")` ("1. Al-Fatihah (The Opener)") and filter them with `searchChapters` (`src/utils/chapters.ts`), a `fuse.js` fuzzy search over the number, `name_simple` and `translated_name.name`.
 - `ChapterHeader` is the banner above the verses: Arabic and English names, `t("chapter-details")` (revelation place and verse count), and the bismillah when `bismillah_pre` is set.
+- `NavBar` holds the app name (linking home), the Search button and a Menu button (`MenuOutlined`) opening an antd `Dropdown` with three groups: "Go to" (Home, Qur'an, Hadith, Favorites & Notes, as links; the current section, matched from `usePathname`, is selected and `aria-current="page"`), "Theme" (Light/Sepia/Dark as `menuitemradio`s) and "Settings" (Display Settings, Offline Storage, Sync & Backup, each opening that tab of the Settings modal). "Settings → Offline Storage" below means that menu item.
 
 ### 2. Settings in cookies, user data in IndexedDB
 
@@ -60,11 +63,11 @@ if (!chapter) {
 - They are written by the server actions in `src/components/saveReaderSettings.ts` and `savePlayerSettings.ts`, so the server-rendered chapter page reflects them on the next request.
 - Settings cookies are written with `SETTINGS_COOKIE_OPTIONS` (1-year `maxAge`), and `src/proxy.ts` re-sets the ones a GET page request carries, so they only expire after a year without a visit. Add new settings cookies to `SETTINGS_COOKIE_KEYS`.
 - The **text size** (`ReaderSettings.textSize`, a percentage, default 100) is set by the root layout as `--reader-scale` on `<html>`; the `text-verse*` Tailwind sizes scale with it, so verse text uses them instead of fixed sizes.
-- The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme dropdown in `NavBar`). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
+- The **color scheme** (`light`/`sepia`/`dark`, `COLOR_SCHEMES`, default `config.defaultColorScheme`) is the `color-scheme` cookie, parsed with `parseColorScheme` and written by `saveColorScheme` (the Theme group of the `NavBar` menu). The root layout reads it to set `<html class="light|sepia|dark">`, the viewport `themeColor`/`colorScheme` (sepia is `light` to the browser), and `Providers colorScheme` → `getTheme(scheme)`.
 - **Favorites** and **notes** are stored client-side with `localforage` (`src/utils/localforage.ts`), and read and written only through `src/utils/userData.ts`, keyed by an item key: `verseKey(chapter, verse)` (`<chapter>:<verse>`) for a verse, `hadithKey(ref)` (`hadith:<collection>/<book>/<id>`) for a hadith (`isHadithKey`/`toHadithRef` tell the two apart and parse a hadith key back to its `HadithRef`). Favorites live under `faves-quran` for verses and, separately, `faves-hadith` for hadiths (`FAVES_KEY`/`HADITH_FAVES_KEY`), so a tab on an older release never rewrites the other kind; notes live under `notes-quran-<chapter>-<verse>` or `notes-hadith-<collection>/<book>/<id>` (`noteKey`). Both share the timestamped format (a deleted fave or note keeps a `deleted` marker), the one-time conversion of the old format, `mergeUserData` (newest `updatedAt` wins), and the change counter (`user-data-change`) that every write bumps. Components subscribe to the same keys with `lf.newObservable(...)` and must unsubscribe on unmount.
-- **Favorites & Notes page** (`/saved`, linked from `NavBar` and `Home`): `Saved` lists the favorite verses and the verses with notes in two tabs, by chapter, each linking to `/chapters/<chapter>#v-<verse>` with the existing `Fave` and `Notes` buttons. Favorites and notes live in the browser, so it loads their verse texts there, through the `/api/content` packs (the display settings' Arabic scripts and translations, not tafsirs), once per chapter. Each tab also lists the favorite hadiths or hadith notes, by collection and book, with the same `Fave`/`Notes`/`Share` actions; their texts are loaded once per collection, from a downloaded pack (`readHadiths`) or `/api/hadiths/<collection>/<book>/<id>` otherwise (see `Saved.tsx`), sorted by collection, book and hadith number. A text that can't be loaded says whether the reader is offline or the load failed. It observes every localforage key and reloads on the ones `isUserDataKey` matches, since notes are stored per verse or hadith.
-- **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for the home page's "continue reading"). Opening a different chapter sets `last-read` to its verse 1 before any verse scrolls into view.
-- **Verse links**: `Share` shares `/chapters/<chapter>#v-<verse>` with the Web Share API, or copies it to the clipboard where that API is missing. On load, `Chapter` scrolls to a valid `#v-N` verse instead of the saved progress.
+- **Favorites & Notes page** (`/saved`, linked from the `NavBar` menu and `Dashboard`): `Saved` lists the favorite verses and the verses with notes in two tabs, by chapter, each linking to `/quran/<chapter>#v-<verse>` with the existing `Fave` and `Notes` buttons. Favorites and notes live in the browser, so it loads their verse texts there, through the `/api/content` packs (the display settings' Arabic scripts and translations, not tafsirs), once per chapter. Each tab also lists the favorite hadiths or hadith notes, by collection and book, with the same `Fave`/`Notes`/`Share` actions; their texts are loaded once per collection, from a downloaded pack (`readHadiths`) or `/api/hadiths/<collection>/<book>/<id>` otherwise (see `Saved.tsx`), sorted by collection, book and hadith number. A text that can't be loaded says whether the reader is offline or the load failed. It observes every localforage key and reloads on the ones `isUserDataKey` matches, since notes are stored per verse or hadith.
+- **Reading progress**: `Verse` stores the verse in view as `progress-surah-<chapter>` (where `Chapter` scrolls back to) and as `last-read` (`{ chapter, verse }`, for `ContinueReading` on the home and Qur'an pages). Opening a different chapter sets `last-read` to its verse 1 before any verse scrolls into view.
+- **Verse links**: `Share` shares `/quran/<chapter>#v-<verse>` with the Web Share API, or copies it to the clipboard where that API is missing. On load, `Chapter` scrolls to a valid `#v-N` verse instead of the saved progress.
 
 ### 3. Audio playback
 
@@ -93,7 +96,7 @@ Every Arabic script, translation and tafsir is its own **text pack**, and each r
 - `src/utils/offline.ts` is the client side: `downloadText`/`downloadAudio` fill the `content-packs` and `audio-packs` caches (with `p-limit`), `getDownloadStatus` lists what's stored, `readText` reads a downloaded text pack back, and `useDownloads` tracks progress. For audio, the recitation list is stored after its mp3s, so it marks a complete chapter.
 - Hadith collections download the same way, into the same `content-packs` cache: `downloadHadiths(collection)` fetches the shared synonyms (`SYNONYMS_URL`) once and the collection's pack (`hadithPackUrl(collection)`); `readHadiths` (in `hadithCache.ts`) and `removeHadiths` read a downloaded pack back or evict it, and `getDownloadStatus().hadiths` lists the downloaded collection ids (matched from the cache's URLs, like the text packs' pack keys).
 - Only `offline.ts` writes the caches. The service worker reads them: navigations and RSC requests are `NetworkOnly`, `/api/content/` and `/api/hadiths/` answer from the cache first, and `.mp3` files use `CacheFirst` with `RangeRequestsPlugin` and no automatic writes.
-- Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter, home, Favorites & Notes, or hadith collection/book/hadith page from `window.location`, the reader settings cookie and the packs (fetched with `getJson`), and warns when a chapter pane's pack is missing. The hadith routes (`OfflineHadiths`, matched by a `HADITH_PATH` regex against `/hadiths(/<collection>(/<book>(/<id>)?)?)?`) resolve the collection and book from the precached `/api/resources/hadiths` response, then, past the collection, read the collection's downloaded pack directly with `readHadiths` rather than through `/api/hadiths/`, and show `hadith-collection-missing` (pointing to Offline Storage) when it isn't downloaded.
+- Offline, every navigation falls back to the precached `/~offline` page (`src/app/~offline/`), which renders the chapter, home (the dashboard), Qur'an (chapter list), Favorites & Notes, or hadith collection/book/hadith page from `window.location`, the reader settings cookie and the packs (fetched with `getJson`), and warns when a chapter pane's pack is missing. The hadith routes (`OfflineHadiths`, matched by a `HADITH_PATH` regex against `/hadiths(/<collection>(/<book>(/<id>)?)?)?`) resolve the collection and book from the precached `/api/resources/hadiths` response, then, past the collection, read the collection's downloaded pack directly with `readHadiths` rather than through `/api/hadiths/`, and show `hadith-collection-missing` (pointing to Offline Storage) when it isn't downloaded.
 - The precached page keeps the theme and text size it was saved with, so the root layout's `SETTINGS_SCRIPT` applies the cookies' `<html>` class and `--reader-scale` before the first paint, and `useColorScheme` (`Providers`, `NavBar`) switches the antd theme to the cookie's scheme after hydration.
 - `OfflineStorage` (Settings → Offline Storage) manages downloads. After a reader saves display settings that use a pack they haven't downloaded (while having downloaded others), `NavBar` shows a notification that opens it.
 - `NavBar` also offers the downloads once after the app is installed: on Chromium's `appinstalled` event, or on the first launch in `display-mode: standalone` (iOS fires no install event). It skips readers who already have their display settings' content or are offline, and stores `offline-install-prompt-shown` in localforage.
@@ -170,7 +173,7 @@ pnpm test:e2e:ci      # CI mode (JUnit XML)
 - **Custom fixtures**: Import `test` and `expect` from `e2e/helpers/fixtures.ts` (not `@playwright/test`). They pre-accept the cookie notice, mock recitation audio, and wait for hydration. `preparePage` applies the same setup to a page in another context (a second device).
 - **Google fakes**: `e2e/helpers/drive.ts` routes the sign-in, token and Drive requests per context to one in-memory `FakeGoogle`, which several contexts can share.
 - **Fixture CDN**: E2E runs against `e2e/fixtures/cdn` served locally (`pnpm test:e2e:data -p 4010`, matching `.env.test`'s `API_URI` port; the script itself has no port). Regenerate the fixtures with `pnpm test:e2e:fixtures`, then delete `.next/cache/fetch-cache`, which otherwise keeps serving the old data.
-- **Hadith fixture subset**: `e2e/fixtures/cdn/data/hadiths` holds a few small books per collection: Bukhari 1, 2 and 13 (13's hadith ids repeat book 1's), Muslim 43 (has a hadith without narrators), Abu Dawud 7, and Malik 4 (dotted hadith ids). The CDN has no hadith data yet, so `scripts/fetch-e2e-fixtures.mjs` copies them from a local checkout of the data repo instead of downloading: `pnpm test:e2e:fixtures <path-to-muallimlive-data>/data/hadiths`.
+- **Hadith fixture subset**: `e2e/fixtures/cdn/data/hadiths` holds a few small books per collection: Bukhari 1, 2 and 13 (13's hadith ids repeat book 1's), Muslim 43 (has a hadith without narrators), Abu Dawud 7, and Malik 4 (dotted hadith ids). `scripts/fetch-e2e-fixtures.mjs` downloads them from the CDN with the rest, or copies them from a local checkout of the data repo when given its folder (`pnpm test:e2e:fixtures <path-to-muallimlive-data>/data/hadiths`), e.g. to try data that isn't deployed yet.
 - **No hosts or ports in tests**: the app's port is `PORT` in `.env.test`, which `playwright.config.ts` turns into `baseURL`. E2E tests use relative paths, or the `baseURL` fixture where an absolute URL is needed. Unit tests assert paths only.
 - **Service workers** are blocked except in `pwa.test.ts` and `offline.test.ts`, which opt in with `test.use({ serviceWorkers: "allow" })`.
 
@@ -237,8 +240,10 @@ src/
 │   ├── layout.tsx                # Root layout: metadata, providers, GTM
 │   ├── Providers.tsx             # AntdRegistry, ConfigProvider, App, SyncProvider
 │   ├── BasicLayout.tsx           # NavBar + content + Footer + CookieNotice
-│   ├── page.tsx, Home.tsx        # Home: continue reading + searchable chapter grid
-│   ├── chapters/[id]/            # Chapter page (server) + Chapter, ChapterHeader (client)
+│   ├── NavBar.tsx                # App name, Search, and the Menu (Go to, Theme, Settings)
+│   ├── page.tsx, Dashboard.tsx   # Home: module cards, continue reading, saved link
+│   ├── quran/                    # Qur'an page (server) + Quran (client): continue reading + chapter grid
+│   ├── quran/[id]/               # Chapter page (server) + Chapter, ChapterHeader (client)
 │   ├── hadiths/                  # Hadiths, Collection, Book, HadithView pages (server + client)
 │   ├── saved/                    # Favorites & Notes page (server) + Saved (client)
 │   ├── privacy/, terms/          # Legal pages
@@ -251,6 +256,8 @@ src/
 │   └── serwist/[path]/route.ts   # Serves the compiled service worker
 ├── components/
 │   ├── AudioBar.tsx              # Recitation player
+│   ├── ContinueReading.tsx       # "Continue reading" card from the last-read verse
+│   ├── linkCard.ts               # LINK_CARD classes shared by the link cards
 │   ├── OfflineStorage.tsx        # Offline downloads settings tab
 │   ├── Verse.tsx                 # Verse row: panes, play, fave, notes, share
 │   ├── Fave.tsx, Notes.tsx       # Favorites and notes (localforage)
@@ -314,7 +321,8 @@ These Ant Design props are deprecated in v6. Use the replacements:
 - **Prefer Tailwind over `style` prop** — only use `style` for dynamically computed values (e.g. theme token colors).
 - Tailwind and antd share CSS layers (`AntdRegistry layer`); keep global overrides in `src/styles/`.
 - **Theme-aware colors only** — no hardcoded greys or `white/…` tints. Use the semantic colors `bg-page`, `bg-surface`, `bg-surface-elevated`, `border-line`/`divide-line`, `text-primary`, `text-secondary` (CSS variables in `src/styles/global.css` for `:root`, `.sepia` and `.dark`, mirroring `palette` in `src/theme.ts`), or a `dark:` variant. Tailwind's `sepia` filter utility is disabled (`@source not inline`) because `sepia` is a scheme class.
-- **Verse text sizes** — use `text-verse`, `text-verse-sm`, `text-verse-lg`, `text-verse-arabic`, `text-verse-arabic-lg` so the reader's text size applies.
+- **Verse text sizes** — use `text-verse`, `text-verse-lg`, `text-verse-arabic`, `text-verse-arabic-lg` so the reader's text size applies.
+- **No text below 16px** — no `text-sm`/`text-xs` or smaller sizes; the antd theme keeps `fontSize` and `fontSizeSM` at 16.
 
 ## Ant Design Conventions
 

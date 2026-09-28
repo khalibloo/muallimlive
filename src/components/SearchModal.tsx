@@ -9,6 +9,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { Virtuoso } from "react-virtuoso";
 
+import { chapterPath } from "@/utils/chapters";
 import { parseReaderSettings, READER_SETTINGS_KEY } from "@/utils/cookies";
 import { downloadText, getDownloadStatus, isOfflineStorageSupported, useDownloads } from "@/utils/offline";
 import { packKey, type ContentPack } from "@/utils/packs";
@@ -136,7 +137,7 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
     return (
       <article aria-label={t("verse-reference", reference)} className="border-b border-line py-4 pr-2">
         <Link
-          href={`/chapters/${hit.chapter}#v-${hit.verse}`}
+          href={chapterPath(hit.chapter, hit.verse)}
           className="font-semibold"
           onClick={(e) => {
             // the current chapter is already on the page, so its list scrolls there
@@ -154,9 +155,7 @@ const VerseSearch: React.FC<Omit<Props, "open" | "width" | "mode" | "hadiths">> 
           const arabic = pack.type === "arabic";
           return (
             <div key={key} className="mt-2">
-              <Typography.Text type="secondary" className="text-xs">
-                {packLabel(pack)}
-              </Typography.Text>
+              <Typography.Text type="secondary">{packLabel(pack)}</Typography.Text>
               <p
                 dir={arabic ? "rtl" : undefined}
                 lang={arabic ? "ar" : undefined}

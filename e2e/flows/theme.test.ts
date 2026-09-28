@@ -10,8 +10,8 @@ const SEPIA_PAGE = "rgb(241, 231, 208)";
 const pageBackground = (page: Page) => page.evaluate(() => getComputedStyle(document.body).backgroundColor);
 
 const chooseTheme = async (page: Page, theme: "Light" | "Sepia" | "Dark") => {
-  await page.getByRole("button", { name: "Theme", exact: true }).click();
-  await page.getByRole("menuitem", { name: theme, exact: true }).click();
+  await page.getByRole("button", { name: "Menu", exact: true }).click();
+  await page.getByRole("menuitemradio", { name: theme, exact: true }).click();
 };
 
 test.describe("Color theme", () => {
@@ -22,7 +22,7 @@ test.describe("Color theme", () => {
   });
 
   test("switching the theme persists across reloads", async ({ testPage, context }) => {
-    await testPage.goto("/chapters/114");
+    await testPage.goto("/quran/114");
 
     await chooseTheme(testPage, "Light");
 

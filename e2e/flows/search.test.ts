@@ -13,7 +13,7 @@ const openSearch = async (page: Page) => {
 
 test.describe("Verse search", () => {
   test("searches the open chapter and scrolls to a verse", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     const dialog = await openSearch(testPage);
 
     await expect(dialog.getByRole("checkbox", { name: `Only ${chapterName(112)}`, exact: true })).toBeChecked();
@@ -53,7 +53,7 @@ test.describe("Verse search", () => {
       .getByRole("link", { name: `${chapterName(114)} 114:4`, exact: true })
       .click();
 
-    await expect(testPage).toHaveURL(/\/chapters\/114#v-4$/);
+    await expect(testPage).toHaveURL(/\/quran\/114#v-4$/);
     await expect(testPage.getByRole("article", { name: "Verse 4", exact: true })).toBeInViewport();
   });
 });

@@ -23,4 +23,11 @@ describe("getTheme", () => {
     expect(theme.algorithm).toBeUndefined();
     expect(theme.token).toMatchObject({ colorTextBase: palette.sepia.text, colorBgLayout: palette.sepia.page });
   });
+
+  it.each(["light", "sepia", "dark"] as const)("keeps every %s font size at 16px or more", (scheme) => {
+    const { fontSize, fontSizeSM } = antdTheme.getDesignToken(getTheme(scheme));
+
+    expect(fontSize).toBe(16);
+    expect(fontSizeSM).toBe(16);
+  });
 });

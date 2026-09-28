@@ -206,11 +206,8 @@ describe("Chapter", () => {
     await user.click(screen.getByRole("button", { name: "Chapters" }));
 
     const nav = await screen.findByRole("navigation", { name: "Chapters" });
-    expect(within(nav).getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute(
-      "href",
-      "/chapters/1",
-    );
-    expect(within(nav).getByRole("link", { name: "2. Al-Baqarah (The Cow)" })).toHaveAttribute("href", "/chapters/2");
+    expect(within(nav).getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute("href", "/quran/1");
+    expect(within(nav).getByRole("link", { name: "2. Al-Baqarah (The Cow)" })).toHaveAttribute("href", "/quran/2");
 
     await user.click(within(nav).getByRole("link", { name: "2. Al-Baqarah (The Cow)" }));
     await waitFor(() => expect(screen.queryByRole("navigation", { name: "Chapters" })).not.toBeInTheDocument());

@@ -7,7 +7,10 @@ const heading = (collection: string, book: number, id: string) =>
 test.describe("Hadiths", () => {
   test("drills down from the home page to a hadith", async ({ testPage }) => {
     await testPage.goto("/");
-    await testPage.getByRole("main").getByRole("link", { name: "Hadith", exact: true }).click();
+    await testPage
+      .getByRole("navigation", { name: "Modules", exact: true })
+      .getByRole("link", { name: /^Hadith/ })
+      .click();
     await expect(testPage.getByRole("heading", { level: 1, name: "Hadiths" })).toBeVisible();
     await testPage.getByRole("link", { name: new RegExp(collectionName("bukhari")) }).click();
     await expect(testPage.getByRole("heading", { level: 1, name: collectionName("bukhari") })).toBeVisible();

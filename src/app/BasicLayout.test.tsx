@@ -11,6 +11,7 @@ vi.mock("@/components/saveReaderSettings", () => ({
 vi.mock("@/components/saveColorScheme", () => ({
   saveColorScheme: vi.fn(),
 }));
+vi.mock("next/navigation", () => ({ usePathname: () => "/" }));
 
 const settingsResources: SettingsResources = {
   chapters: { chapters: [] },
@@ -38,7 +39,7 @@ describe("BasicLayout", () => {
     );
 
     expect(screen.getByRole("link", { name: "MuallimLive" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Settings" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Menu" })).toBeInTheDocument();
     expect(screen.getByText("Page content")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Terms of Service" })).toBeInTheDocument();
     expect(await screen.findByRole("region", { name: "Cookie notice" })).toBeInTheDocument();

@@ -4,7 +4,7 @@ import { COLOR_SCHEME_KEY, READER_SETTINGS_KEY, SETTINGS_COOKIE_OPTIONS } from "
 import { proxy } from "./proxy";
 
 const request = (method: string, cookie: string) =>
-  new NextRequest("http://localhost/chapters/1", { method, headers: { cookie } });
+  new NextRequest("http://localhost/quran/1", { method, headers: { cookie } });
 
 describe("proxy", () => {
   it("renews the settings cookies the reader has", () => {

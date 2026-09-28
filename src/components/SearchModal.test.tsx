@@ -139,10 +139,7 @@ describe("SearchModal", () => {
 
       const result = await screen.findByRole("article", { name: "Verse 2:153" });
       expect(screen.getByText("1 verse")).toBeInTheDocument();
-      expect(within(result).getByRole("link", { name: "Al-Baqarah 2:153" })).toHaveAttribute(
-        "href",
-        "/chapters/2#v-153",
-      );
+      expect(within(result).getByRole("link", { name: "Al-Baqarah 2:153" })).toHaveAttribute("href", "/quran/2#v-153");
       expect(within(result).getByText("Saheeh International")).toBeInTheDocument();
       expect(within(result).getByText("Ibn Kathir")).toBeInTheDocument();
       expect(within(result).getAllByText("patience", { selector: "mark" })).toHaveLength(2);
@@ -204,7 +201,7 @@ describe("SearchModal", () => {
       await search(user, "allah");
 
       expect(await screen.findByText("2 verses")).toBeInTheDocument();
-      expect(screen.getByRole("link", { name: "Al-Fatihah 1:1" })).toHaveAttribute("href", "/chapters/1#v-1");
+      expect(screen.getByRole("link", { name: "Al-Fatihah 1:1" })).toHaveAttribute("href", "/quran/1#v-1");
       expect(screen.getByRole("link", { name: "Al-Fatihah 1:2" })).toBeInTheDocument();
     });
 

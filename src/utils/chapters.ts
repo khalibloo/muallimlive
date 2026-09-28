@@ -1,5 +1,8 @@
 import Fuse from "fuse.js";
 
+export const chapterPath = (chapter: number, verse?: number) =>
+  verse === undefined ? `/quran/${chapter}` : `/quran/${chapter}#v-${verse}`;
+
 /** Fuzzy matches the number, the transliterated name and the English name. The index is only built while searching. */
 export const searchChapters = (chapters: Chapter[], query: string) =>
   query.trim()

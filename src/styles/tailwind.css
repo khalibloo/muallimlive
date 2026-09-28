@@ -18,7 +18,6 @@
 
   /* Verse text follows the reader's text size (`--reader-scale`, set on <html> by the root layout) */
   --text-verse: calc(1rem * var(--reader-scale, 1));
-  --text-verse-sm: calc(0.9375rem * var(--reader-scale, 1));
   --text-verse-lg: calc(1.125rem * var(--reader-scale, 1));
   --text-verse-arabic: calc(1.625rem * var(--reader-scale, 1));
   --text-verse-arabic-lg: calc(2.125rem * var(--reader-scale, 1));

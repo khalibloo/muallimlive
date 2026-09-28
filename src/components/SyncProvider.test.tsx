@@ -56,7 +56,7 @@ describe("SyncProvider", () => {
 
   it("connects when returning from Google and drops the query", async () => {
     stubDrive(driveFaves(["2:2"]));
-    window.history.replaceState(null, "", "/chapters/2?sync=connected");
+    window.history.replaceState(null, "", "/quran/2?sync=connected");
     renderProvider();
 
     expect(await screen.findByText("syncing reader@example.com ok")).toBeInTheDocument();

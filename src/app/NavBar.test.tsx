@@ -8,6 +8,7 @@ import { stubCaches, stubFetch } from "@/components/test/fakeCaches";
 import TestProviders from "@/components/test/TestProviders";
 import { saveColorScheme } from "@/components/saveColorScheme";
 import { saveReaderSettings } from "@/components/saveReaderSettings";
+import { COLOR_SCHEME_KEY } from "@/utils/cookies";
 import { downloadText } from "@/utils/offline";
 import NavBar, { INSTALL_PROMPT_KEY, type SettingsResources } from "./NavBar";
 
@@ -17,6 +18,8 @@ vi.mock("@/components/saveReaderSettings", () => ({
 vi.mock("@/components/saveColorScheme", () => ({
   saveColorScheme: vi.fn(),
 }));
+const { pathname } = vi.hoisted(() => ({ pathname: vi.fn(() => "/") }));
+vi.mock("next/navigation", () => ({ usePathname: pathname }));
 
 const settingsResources: SettingsResources = {
   chapters: { chapters: [] },
@@ -48,13 +51,23 @@ const renderNavBar = (resources = settingsResources, colorScheme: ColorScheme = 
   return user;
 };
 
+const openMenu = async (user: ReturnType<typeof userEvent.setup>) => {
+  await user.click(screen.getByRole("button", { name: "Menu" }));
+  return screen.findByRole("menu");
+};
+
 const openSettings = async (user: ReturnType<typeof userEvent.setup>, item: string) => {
-  await user.click(screen.getByRole("button", { name: "Settings" }));
-  await user.click(await screen.findByRole("menuitem", { name: item }));
+  const menu = await openMenu(user);
+  await user.click(within(menu).getByRole("menuitem", { name: item }));
   return screen.findByRole("dialog", { name: "Settings" });
 };
 
 describe("NavBar", () => {
+  afterEach(() => {
+    pathname.mockReturnValue("/");
+    document.cookie = `${COLOR_SCHEME_KEY}=; max-age=0`;
+  });
+
   it("links the app name to the home page", () => {
     renderNavBar();
 
@@ -62,16 +75,48 @@ describe("NavBar", () => {
     expect(screen.getByRole("heading", { level: 3, name: "MuallimLive" })).toBeInTheDocument();
   });
 
-  it("links to the favorites and notes", () => {
+  it("keeps the sections, theme and settings in the menu", () => {
     renderNavBar();
 
-    expect(screen.getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
+    expect(screen.getAllByRole("button").map((b) => b.getAttribute("aria-label"))).toEqual(["Search", "Menu"]);
   });
 
-  it("links to the hadiths", () => {
-    renderNavBar();
+  it("links to every section from the menu", async () => {
+    const user = renderNavBar();
+    const menu = await openMenu(user);
 
-    expect(screen.getByRole("link", { name: "Hadith" })).toHaveAttribute("href", "/hadiths");
+    expect(within(menu).getByText("Go to")).toBeInTheDocument();
+    expect(within(menu).getByRole("link", { name: "Home" })).toHaveAttribute("href", "/");
+    expect(within(menu).getByRole("link", { name: "Qur'an" })).toHaveAttribute("href", "/quran");
+    expect(within(menu).getByRole("link", { name: "Hadith" })).toHaveAttribute("href", "/hadiths");
+    expect(within(menu).getByRole("link", { name: "Favorites & Notes" })).toHaveAttribute("href", "/saved");
+  });
+
+  it.each([
+    ["/", "Home"],
+    ["/quran/2", "Qur'an"],
+    ["/hadiths/bukhari/13", "Hadith"],
+    ["/saved", "Favorites & Notes"],
+  ])("marks %s as in the %s section", async (path, section) => {
+    pathname.mockReturnValue(path);
+    const user = renderNavBar();
+    const menu = await openMenu(user);
+
+    expect(within(menu).getByRole("link", { name: section })).toHaveAttribute("aria-current", "page");
+    expect(
+      within(menu)
+        .getAllByRole("link")
+        .filter((l) => l.hasAttribute("aria-current")),
+    ).toHaveLength(1);
+  });
+
+  it("marks the current theme", async () => {
+    document.cookie = `${COLOR_SCHEME_KEY}=sepia`;
+    const user = renderNavBar(settingsResources, "sepia");
+    const menu = await openMenu(user);
+
+    expect(within(menu).getByRole("menuitemradio", { name: "Sepia" })).toHaveAttribute("aria-checked", "true");
+    expect(within(menu).getByRole("menuitemradio", { name: "Dark" })).toHaveAttribute("aria-checked", "false");
   });
 
   it("opens the verse search", async () => {
@@ -83,26 +128,39 @@ describe("NavBar", () => {
   });
 
   it.each([
+    ["/quran/2", "Qur'an"],
+    ["/hadiths/bukhari", "Hadith"],
+  ])("opens the search on %s in the %s mode", async (path, mode) => {
+    pathname.mockReturnValue(path);
+    const user = renderNavBar();
+
+    await user.click(screen.getByRole("button", { name: "Search" }));
+
+    const dialog = await screen.findByRole("dialog", { name: "Search" });
+    expect(within(dialog).getByRole("radio", { name: mode })).toBeChecked();
+  });
+
+  it.each([
     ["dark", "Light", "light"],
     ["light", "Sepia", "sepia"],
     ["sepia", "Dark", "dark"],
   ] as const)("switches from the %s theme to %s", async (colorScheme, label, next) => {
     const user = renderNavBar(settingsResources, colorScheme);
 
-    await user.click(screen.getByRole("button", { name: "Theme" }));
-    await user.click(await screen.findByRole("menuitem", { name: label }));
+    const menu = await openMenu(user);
+    await user.click(within(menu).getByRole("menuitemradio", { name: label }));
 
     expect(saveColorScheme).toHaveBeenCalledWith(next);
   });
 
   it("offers the settings sections", async () => {
     const user = renderNavBar();
+    const menu = await openMenu(user);
 
-    await user.click(screen.getByRole("button", { name: "Settings" }));
-
-    expect(await screen.findByRole("menuitem", { name: "Display Settings" })).toBeInTheDocument();
-    expect(screen.getByRole("menuitem", { name: "Offline Storage" })).toBeInTheDocument();
-    expect(screen.getByRole("menuitem", { name: "Sync & Backup" })).toBeInTheDocument();
+    expect(within(menu).getByText("Settings")).toBeInTheDocument();
+    expect(within(menu).getByRole("menuitem", { name: "Display Settings" })).toBeInTheDocument();
+    expect(within(menu).getByRole("menuitem", { name: "Offline Storage" })).toBeInTheDocument();
+    expect(within(menu).getByRole("menuitem", { name: "Sync & Backup" })).toBeInTheDocument();
   });
 
   it.each([

@@ -21,7 +21,7 @@ const ChapterHeader: React.FC<Props> = ({ chapter }) => {
       <Typography.Paragraph type="secondary" className="capitalize m-0">
         {chapter.translated_name.name}
       </Typography.Paragraph>
-      <Typography.Paragraph type="secondary" className="text-sm mt-2 mb-0">
+      <Typography.Paragraph type="secondary" className="mt-2 mb-0">
         {t("chapter-details", { place: chapter.revelation_place, count: chapter.verses_count })}
       </Typography.Paragraph>
       {chapter.bismillah_pre && (

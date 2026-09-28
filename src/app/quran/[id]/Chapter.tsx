@@ -14,7 +14,7 @@ import Verse from "@/components/Verse";
 import PlayForm, { PlayConfig } from "@/components/PlayForm";
 import AudioBar, { VERSE_SCROLL_OFFSET } from "@/components/AudioBar";
 import { useSetCurrentChapter } from "@/components/ChapterSearchContext";
-import { searchChapters } from "@/utils/chapters";
+import { chapterPath, searchChapters } from "@/utils/chapters";
 import lf from "@/utils/localforage";
 import { getContentPack, packKey } from "@/utils/packs";
 import { FAVES_KEY, liveFaves, readFaves, verseKey } from "@/utils/userData";
@@ -201,7 +201,7 @@ const Chapter: React.FC<Props> = ({
                 key: `${chapter.id}`,
                 className: "text-left",
                 label: (
-                  <Link href={`/chapters/${chapter.id}`}>
+                  <Link href={chapterPath(chapter.id)}>
                     <Typography.Text className="capitalize">
                       {t("chapter-name", {
                         id: chapter.id,

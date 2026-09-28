@@ -14,7 +14,7 @@ const renderShare = (props: { path: string; title: string; label: string }) =>
 const setShare = (share?: Navigator["share"]) =>
   Object.defineProperty(navigator, "share", { configurable: true, value: share });
 
-const verseProps = { path: "/chapters/1#v-3", title: "Al-Fatihah, verse 3", label: "Share verse" };
+const verseProps = { path: "/quran/1#v-3", title: "Al-Fatihah, verse 3", label: "Share verse" };
 const hadithProps = {
   path: "/hadiths/bukhari/13/1",
   title: "Sahih al-Bukhari, Volume 2, Book 13, Hadith 1",
@@ -36,7 +36,7 @@ describe("Share", () => {
 
     expect(share).toHaveBeenCalledWith({
       title: "Al-Fatihah, verse 3",
-      url: `${window.location.origin}/chapters/1#v-3`,
+      url: `${window.location.origin}/quran/1#v-3`,
     });
   });
 
@@ -81,6 +81,6 @@ describe("Share", () => {
     await user.click(screen.getByRole("button", { name: "Share verse" }));
 
     expect(await screen.findByText("Link copied")).toBeInTheDocument();
-    expect(await navigator.clipboard.readText()).toBe(`${window.location.origin}/chapters/1#v-3`);
+    expect(await navigator.clipboard.readText()).toBe(`${window.location.origin}/quran/1#v-3`);
   });
 });

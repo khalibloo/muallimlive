@@ -7,7 +7,7 @@ import { readFaves, setFave, toUserDataFile, verseKey } from "@/utils/userData";
 import { SyncContext, type SyncContextValue } from "./SyncProvider";
 import SyncSettings from "./SyncSettings";
 
-vi.mock("next/navigation", () => ({ usePathname: () => "/chapters/2" }));
+vi.mock("next/navigation", () => ({ usePathname: () => "/quran/2" }));
 
 const actions = () => ({
   syncing: false,
@@ -42,7 +42,7 @@ describe("SyncSettings", () => {
 
     expect(screen.getByRole("link", { name: "Sync with Google Drive" })).toHaveAttribute(
       "href",
-      "/api/sync/login?returnTo=%2Fchapters%2F2",
+      "/api/sync/login?returnTo=%2Fquran%2F2",
     );
     expect(screen.queryByRole("button", { name: "Delete from all devices" })).not.toBeInTheDocument();
   });

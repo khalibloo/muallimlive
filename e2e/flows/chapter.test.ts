@@ -13,14 +13,14 @@ import {
 // Uthmani Tajweed Arabic and transliteration (57) on the right
 test.describe("Reading a chapter", () => {
   test("shows the chapter heading and page title", async ({ testPage }) => {
-    await testPage.goto("/chapters/1");
+    await testPage.goto("/quran/1");
 
     await expect(testPage).toHaveTitle(`${chapterName(1)} | MuallimLive`);
     await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(1), exact: true })).toBeVisible();
   });
 
   test("shows the verse in every configured content type", async ({ testPage }) => {
-    await testPage.goto("/chapters/1");
+    await testPage.goto("/quran/1");
 
     await expect(testPage.getByText(translationText(1, 22, 1), { exact: true })).toBeVisible();
     await expect(testPage.getByText(translationText(1, 57, 1), { exact: true })).toBeVisible();
@@ -30,7 +30,7 @@ test.describe("Reading a chapter", () => {
   });
 
   test("renders later verses when scrolled to the end", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     const lastVerse = testPage.getByText(translationText(112, 22, 4), { exact: true });
     const lastVerseArabic = testPage.getByText(arabicText(112, "uthmani_tajweed", 4));
 
@@ -45,27 +45,27 @@ test.describe("Reading a chapter", () => {
   });
 
   test("opens a shared verse link at that verse", async ({ testPage }) => {
-    await testPage.goto("/chapters/114#v-5");
+    await testPage.goto("/quran/114#v-5");
 
     await expect(testPage.getByRole("article", { name: "Verse 5", exact: true })).toBeInViewport();
   });
 
   test("navigates to another chapter from the chapters drawer", async ({ testPage }) => {
-    await testPage.goto("/chapters/1");
+    await testPage.goto("/quran/1");
 
     await testPage.getByRole("button", { name: "Chapters", exact: true }).click();
     const chaptersNav = testPage.getByRole("navigation", { name: "Chapters", exact: true });
     await expect(chaptersNav).toBeVisible();
     await chaptersNav.getByRole("link", { name: chapterLabel(112), exact: true }).click();
 
-    await expect(testPage).toHaveURL("/chapters/112");
+    await expect(testPage).toHaveURL("/quran/112");
     await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(112), exact: true })).toBeVisible();
     await expect(testPage.getByText(translationText(112, 22, 1), { exact: true })).toBeVisible();
     await expect(chaptersNav).toBeHidden();
   });
 
   test("searches the chapters drawer", async ({ testPage }) => {
-    await testPage.goto("/chapters/1");
+    await testPage.goto("/quran/1");
 
     await testPage.getByRole("button", { name: "Chapters", exact: true }).click();
     const chaptersNav = testPage.getByRole("navigation", { name: "Chapters", exact: true });
@@ -81,6 +81,6 @@ test.describe("Reading a chapter", () => {
     await expect(chaptersNav.getByRole("link")).toHaveText([chapterLabel(112)]);
     await chaptersNav.getByRole("link", { name: chapterLabel(112), exact: true }).click();
 
-    await expect(testPage).toHaveURL("/chapters/112");
+    await expect(testPage).toHaveURL("/quran/112");
   });
 });

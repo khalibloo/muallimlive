@@ -48,6 +48,7 @@ const getTheme = (scheme: ColorScheme): ThemeConfig => {
       colorLinkHover: colors.primary,
       colorTextBase: colors.text,
       fontSize: 16,
+      fontSizeSM: 16,
       borderRadius: 8,
       wireframe: false,
       colorBgBase: dark ? colors.page : undefined,

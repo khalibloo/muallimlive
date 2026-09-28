@@ -7,7 +7,7 @@ const addButton = (page: Page) => firstVerse(page).getByRole("button", { name: "
 
 test.describe("Favourite verses", () => {
   test("adding a favourite persists across reloads", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
 
     await addButton(testPage).click();
 
@@ -27,7 +27,7 @@ test.describe("Favourite verses", () => {
   });
 
   test("removing a favourite persists across reloads", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     const removeButton = testPage.getByRole("button", { name: "Remove from favorites", exact: true });
 
     await addButton(testPage).click();
@@ -43,11 +43,11 @@ test.describe("Favourite verses", () => {
   });
 
   test("favourites are kept per chapter", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     await addButton(testPage).click();
     await expect(testPage.getByRole("button", { name: "Remove from favorites", exact: true })).toHaveCount(1);
 
-    await testPage.goto("/chapters/114");
+    await testPage.goto("/quran/114");
     await expect(addButton(testPage)).toBeVisible();
     await expect(testPage.getByRole("button", { name: "Remove from favorites", exact: true })).toHaveCount(0);
   });

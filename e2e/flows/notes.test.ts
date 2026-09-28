@@ -30,7 +30,7 @@ const addNote = async (page: Page, text: string) => {
 
 test.describe("Verse notes", () => {
   test("a new verse has no notes", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
 
     const dialog = await openNotes(testPage);
 
@@ -38,7 +38,7 @@ test.describe("Verse notes", () => {
   });
 
   test("adding a note persists across reloads", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
 
     const dialog = await addNote(testPage, "Surah of pure monotheism");
     await expect(dialog.getByText("You have not added any notes for this verse", { exact: true })).toBeHidden();
@@ -49,7 +49,7 @@ test.describe("Verse notes", () => {
   });
 
   test("editing a note persists across reloads", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     const dialog = await addNote(testPage, "First thoughts");
 
     await dialog.getByRole("button", { name: "Edit note", exact: true }).click();
@@ -66,7 +66,7 @@ test.describe("Verse notes", () => {
   });
 
   test("cancelling an edit keeps the note unchanged", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     const dialog = await addNote(testPage, "Keep me");
 
     await dialog.getByRole("button", { name: "Edit note", exact: true }).click();
@@ -78,7 +78,7 @@ test.describe("Verse notes", () => {
   });
 
   test("deleting a note persists across reloads", async ({ testPage }) => {
-    await testPage.goto("/chapters/112");
+    await testPage.goto("/quran/112");
     const dialog = await addNote(testPage, "Delete me");
 
     await dialog.getByRole("button", { name: "Delete note", exact: true }).click();

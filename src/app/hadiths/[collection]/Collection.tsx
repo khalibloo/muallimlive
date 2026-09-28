@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { groupBy } from "lodash-es";
 
-import { LINK_CARD } from "@/app/Home";
+import { LINK_CARD } from "@/components/linkCard";
 
 const Collection: React.FC<{ collection: HadithResourceCollection }> = ({ collection }) => {
   const t = useTranslations("common");

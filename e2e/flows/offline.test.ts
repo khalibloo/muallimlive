@@ -1,7 +1,7 @@
 import type { BrowserContext, Page } from "@playwright/test";
 
 import { MEDIA_URI } from "../helpers/audio";
-import { arabicText, chapterHeading, collectionName, hadithText, translationText } from "../helpers/data";
+import { arabicText, chapterHeading, chapterLabel, collectionName, hadithText, translationText } from "../helpers/data";
 import { expect, test } from "../helpers/fixtures";
 import { openSettings } from "../helpers/settings";
 
@@ -49,7 +49,7 @@ test.describe("Offline reading", () => {
     await downloadAllText(testPage);
 
     await goOffline(context);
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(CHAPTER) })).toBeVisible();
     const verse = testPage.getByRole("article", { name: "Verse 1", exact: true });
@@ -76,13 +76,13 @@ test.describe("Offline reading", () => {
       { name: "color-scheme", value: "light", url: baseURL },
       { name: "reader-settings", value: encodeURIComponent(JSON.stringify(readerSettings)), url: baseURL },
     ]);
-    const themeButton = testPage.getByRole("button", { name: "Theme", exact: true });
+    const themeButton = testPage.getByRole("button", { name: "Menu", exact: true });
     const buttonColor = () => themeButton.evaluate((button) => getComputedStyle(button).color);
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     const lightButton = await buttonColor();
 
     await goOffline(context);
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     await expect(testPage.getByRole("heading", { level: 1, name: chapterHeading(CHAPTER) })).toBeVisible();
     expect(await testPage.evaluate(() => getComputedStyle(document.body).backgroundColor)).toBe(LIGHT_PAGE);
@@ -90,6 +90,22 @@ test.describe("Offline reading", () => {
       await testPage.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--reader-scale")),
     ).toBe("1.4");
     await expect.poll(buttonColor).toBe(lightButton);
+  });
+
+  test("shows the dashboard and the chapter list without a connection", async ({ testPage, context }) => {
+    await gotoControlled(testPage, "/");
+
+    await goOffline(context);
+    await testPage.goto("/");
+
+    await expect(testPage.getByRole("heading", { level: 1, name: "MuallimLive", exact: true })).toBeVisible();
+    await testPage
+      .getByRole("navigation", { name: "Modules", exact: true })
+      .getByRole("link", { name: /^Qur'an/ })
+      .click();
+
+    await expect(testPage.getByRole("heading", { level: 1, name: "Al-Qur'an", exact: true })).toBeVisible();
+    await expect(testPage.getByRole("link", { name: chapterLabel(CHAPTER), exact: true })).toBeVisible();
   });
 
   test("shows the offline page for pages that aren't available offline", async ({ testPage, context }) => {
@@ -103,7 +119,7 @@ test.describe("Offline reading", () => {
   });
 
   test("warns about content in the display settings that isn't downloaded", async ({ testPage, context }) => {
-    await gotoControlled(testPage, `/chapters/${CHAPTER}`);
+    await gotoControlled(testPage, `/quran/${CHAPTER}`);
     await downloadAllText(testPage);
 
     // Swap Yusuf Ali for Saheeh International, which isn't downloaded. The cascader opens on the current
@@ -129,7 +145,7 @@ test.describe("Offline reading", () => {
     await storage.getByRole("button", { name: "Close", exact: true }).click();
 
     await goOffline(context);
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     await expect(testPage.getByText(/hasn't been downloaded for offline use/)).toBeVisible();
     const verse = testPage.getByRole("article", { name: "Verse 1", exact: true });
@@ -209,7 +225,7 @@ test.describe("Offline reading", () => {
       ).toBeVisible();
 
       const audioRequests = await goOffline(context);
-      await testPage.goto(`/chapters/${CHAPTER}`);
+      await testPage.goto(`/quran/${CHAPTER}`);
       const playVerse = testPage
         .getByRole("article", { name: "Verse 1", exact: true })
         .getByRole("button", { name: "Play verse", exact: true });

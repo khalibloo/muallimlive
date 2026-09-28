@@ -9,12 +9,13 @@ import { parsePlaySettings, parseReaderSettings, PLAYER_SETTINGS_KEY, READER_SET
 import { fromPack, getNeighbors, packBooks, toBookIndex } from "@/utils/hadithPack";
 import { readHadiths } from "@/utils/hadithCache";
 import { contentUrl, getContentPack, getJson, recitationUrl, resourceUrl } from "@/utils/packs";
-import Chapter from "../chapters/[id]/Chapter";
+import Dashboard from "../Dashboard";
 import Book from "../hadiths/[collection]/[book]/Book";
 import HadithView from "../hadiths/[collection]/[book]/[id]/HadithView";
 import Collection from "../hadiths/[collection]/Collection";
 import Hadiths from "../hadiths/Hadiths";
-import Home from "../Home";
+import Chapter from "../quran/[id]/Chapter";
+import Quran from "../quran/Quran";
 import Saved from "../saved/Saved";
 
 const Unavailable: React.FC<{ message?: string }> = ({ message }) => {
@@ -84,7 +85,25 @@ const OfflineChapter: React.FC<{ id: number }> = ({ id }) => {
   );
 };
 
-const OfflineHome: React.FC = () => {
+const OfflineDashboard: React.FC = () => {
+  const { data, loading } = useRequest(async () => {
+    const [chapters, hadiths] = await Promise.all([
+      getJson<GetChaptersResponse>(resourceUrl("chapters")),
+      getJson<GetHadithResourcesResponse>(resourceUrl("hadiths")),
+    ]);
+    return { chapters, hadiths };
+  });
+
+  if (loading) {
+    return <Spin className="mt-12" />;
+  }
+  if (!data?.chapters || !data.hadiths) {
+    return <Unavailable />;
+  }
+  return <Dashboard chapters={data.chapters.chapters} collections={data.hadiths.collections} />;
+};
+
+const OfflineQuran: React.FC = () => {
   const { data: chapters, loading } = useRequest(() => getJson<GetChaptersResponse>(resourceUrl("chapters")));
 
   if (loading) {
@@ -93,7 +112,7 @@ const OfflineHome: React.FC = () => {
   if (!chapters) {
     return <Unavailable />;
   }
-  return <Home chapters={chapters.chapters} />;
+  return <Quran chapters={chapters.chapters} />;
 };
 
 const OfflineSaved: React.FC = () => {
@@ -178,12 +197,15 @@ const OfflinePage: React.FC = () => {
   if (pathname === undefined) {
     return null;
   }
-  const chapterId = pathname.match(/^\/chapters\/(\d+)$/)?.[1];
+  const chapterId = pathname.match(/^\/quran\/(\d+)$/)?.[1];
   if (chapterId) {
     return <OfflineChapter key={chapterId} id={Number(chapterId)} />;
   }
   if (pathname === "/") {
-    return <OfflineHome />;
+    return <OfflineDashboard />;
+  }
+  if (pathname === "/quran") {
+    return <OfflineQuran />;
   }
   if (pathname === "/saved") {
     return <OfflineSaved />;

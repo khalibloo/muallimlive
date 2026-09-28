@@ -83,7 +83,7 @@ describe("OfflinePage", () => {
 
   it("renders a chapter from the downloaded content", async () => {
     stubFetch(responses);
-    renderAt("/chapters/1");
+    renderAt("/quran/1");
 
     expect(await screen.findByRole("heading", { level: 1, name: "Al-Fatihah - The Opener" })).toBeInTheDocument();
     expect(screen.getByText("In the name of Allah")).toBeInTheDocument();
@@ -94,7 +94,7 @@ describe("OfflinePage", () => {
   it("warns when some of the display settings content isn't downloaded", async () => {
     const { "/api/content/arabic/uthmani/1": _, ...rest } = responses;
     stubFetch(rest);
-    renderAt("/chapters/1");
+    renderAt("/quran/1");
 
     expect(
       await screen.findByText(/Some of the content in your display settings hasn't been downloaded/),
@@ -104,7 +104,7 @@ describe("OfflinePage", () => {
 
   it("is unavailable for chapters it can't load", async () => {
     vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
-    renderAt("/chapters/1");
+    renderAt("/quran/1");
 
     expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Go Back To Home" })).toHaveAttribute("href", "/");
@@ -112,22 +112,31 @@ describe("OfflinePage", () => {
 
   it("is unavailable for chapters missing from the chapter list", async () => {
     stubFetch(responses);
-    renderAt("/chapters/2");
+    renderAt("/quran/2");
 
     expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
   });
 
-  it("renders the home page from the downloaded chapter list", async () => {
+  it("renders the dashboard from the downloaded resources", async () => {
     stubFetch(responses);
     renderAt("/");
 
-    expect(await screen.findByRole("heading", { level: 1, name: "Al-Qur'an" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute("href", "/chapters/1");
+    expect(await screen.findByRole("heading", { level: 1, name: "MuallimLive" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /^Qur'an/ })).toHaveAttribute("href", "/quran");
+    expect(screen.getByRole("link", { name: /^Hadith/ })).toHaveTextContent("2 collections");
   });
 
-  it("is unavailable at home without the chapter list", async () => {
+  it("renders the Qur'an page from the downloaded chapter list", async () => {
+    stubFetch(responses);
+    renderAt("/quran");
+
+    expect(await screen.findByRole("heading", { level: 1, name: "Al-Qur'an" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "1. Al-Fatihah (The Opener)" })).toHaveAttribute("href", "/quran/1");
+  });
+
+  it.each(["/", "/quran"])("is unavailable at %s without the resources", async (path) => {
     vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new TypeError("Failed to fetch")));
-    renderAt("/");
+    renderAt(path);
 
     expect(await screen.findByRole("heading", { level: 1, name: "You're offline" })).toBeInTheDocument();
   });

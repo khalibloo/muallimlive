@@ -96,7 +96,7 @@ describe("Verse", () => {
 
     expect(share).toHaveBeenCalledWith({
       title: "Al-Fatihah, verse 2",
-      url: `${window.location.origin}/chapters/1#v-2`,
+      url: `${window.location.origin}/quran/1#v-2`,
     });
   });
 

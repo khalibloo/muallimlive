@@ -91,7 +91,7 @@ const HadithSearch: React.FC<Props> = ({ hadiths, onClose }) => {
         <Link href={hadithPath(hit)} className="font-semibold" onClick={onClose}>
           {label(hit)}
         </Link>
-        <div className="flex flex-wrap gap-x-4 text-xs">
+        <div className="flex flex-wrap gap-x-4">
           {book && (
             <Typography.Text type="secondary">
               <Highlighted {...highlightHadith(t("hadith-book-name", { id: book.id, name: book.name }), hit.terms)} />

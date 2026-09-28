@@ -68,7 +68,7 @@ test.describe("Google Drive sync", () => {
   });
 
   test("connecting with an empty Drive uploads this device's favorites", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await fave(testPage, 1);
 
     await connect(testPage);
@@ -79,7 +79,7 @@ test.describe("Google Drive sync", () => {
 
   test("connecting with data on both sides asks, and merging keeps both", async ({ testPage }) => {
     drivePage(google).file([`${CHAPTER}:2`]);
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await fave(testPage, 1);
 
     await connect(testPage);
@@ -93,13 +93,13 @@ test.describe("Google Drive sync", () => {
   });
 
   test("a favorite added on one device appears on another", async ({ testPage, browser, baseURL }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await fave(testPage, 1);
     await connect(testPage);
     await expect.poll(() => driveFaves(google)).toEqual([`${CHAPTER}:1`]);
 
     const other = await secondDevice(browser, google, baseURL!);
-    await other.goto(`/chapters/${CHAPTER}`);
+    await other.goto(`/quran/${CHAPTER}`);
     await connect(other);
     await expect(faved(other, 1)).toBeVisible();
 
@@ -128,7 +128,7 @@ test.describe("Google Drive sync", () => {
   });
 
   test("an expired sign-in requires a choice", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await connect(testPage);
     google.tokenStatus = 401;
 
@@ -145,7 +145,7 @@ test.describe("Google Drive sync", () => {
   });
 
   test("an exported backup imports back", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await fave(testPage, 1);
     const dialog = await openSync(testPage);
 
@@ -168,12 +168,12 @@ test.describe("Google Drive sync", () => {
   });
 
   test("deleting from all devices empties the other device", async ({ testPage, browser, baseURL }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await fave(testPage, 1);
     await connect(testPage);
     await expect.poll(() => driveFaves(google)).toEqual([`${CHAPTER}:1`]);
     const other = await secondDevice(browser, google, baseURL!);
-    await other.goto(`/chapters/${CHAPTER}`);
+    await other.goto(`/quran/${CHAPTER}`);
     await connect(other);
     await expect(faved(other, 1)).toBeVisible();
 

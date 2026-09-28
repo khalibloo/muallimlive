@@ -25,7 +25,7 @@ const splitViewSwitch = (dialog: Locator) => dialog.getByRole("switch", { name: 
 
 test.describe("Display settings", () => {
   test("shows the current layout", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openDisplaySettings(testPage);
 
@@ -39,7 +39,7 @@ test.describe("Display settings", () => {
   });
 
   test("removing a content type hides it and persists", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     const transliteration = testPage.getByText(translationText(CHAPTER, TRANSLITERATION, 1), { exact: true });
     await expect(transliteration).toBeVisible();
 
@@ -60,7 +60,7 @@ test.describe("Display settings", () => {
   });
 
   test("changing a translation updates the verses and persists", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     const yusufAli = testPage.getByText(translationText(CHAPTER, YUSUF_ALI, 1), { exact: true });
     const saheeh = testPage.getByText(translationText(CHAPTER, SAHEEH, 1), { exact: true });
     await expect(yusufAli).toBeVisible();
@@ -88,7 +88,7 @@ test.describe("Display settings", () => {
   });
 
   test("turning split view off merges the panes and persists", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openDisplaySettings(testPage);
     await splitViewSwitch(dialog).click();
@@ -110,7 +110,7 @@ test.describe("Display settings", () => {
   });
 
   test("an empty content row must be filled in before saving", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openDisplaySettings(testPage);
     await dialog.getByRole("button", { name: "Add left pane content", exact: true }).click();
@@ -126,7 +126,7 @@ test.describe("Display settings", () => {
     test.use({ viewport: { width: 390, height: 844 } });
 
     test("long content labels don't push the remove buttons off-screen", async ({ testPage }) => {
-      await testPage.goto(`/chapters/${CHAPTER}`);
+      await testPage.goto(`/quran/${CHAPTER}`);
 
       const dialog = await openDisplaySettings(testPage);
       for (const name of [
@@ -147,7 +147,7 @@ test.describe("Display settings", () => {
   });
 
   test("opens offline storage and sync & backup", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openSettings(testPage, "Offline Storage");
 

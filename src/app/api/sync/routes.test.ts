@@ -39,7 +39,7 @@ const appPath = (href: string | null) => {
   return url.origin === ORIGIN ? `${url.pathname}${url.search}` : href;
 };
 
-const startLogin = async (returnTo = "/chapters/2") => {
+const startLogin = async (returnTo = "/quran/2") => {
   const response = await login(new NextRequest(`${ORIGIN}/api/sync/login?returnTo=${encodeURIComponent(returnTo)}`));
   const location = new URL(response.headers.get("Location")!);
   return { response, location, state: location.searchParams.get("state")! };
@@ -95,11 +95,11 @@ describe("sync routes", () => {
 
   describe("callback", () => {
     it("saves the session and returns with sync=connected", async () => {
-      const { state } = await startLogin("/chapters/2");
+      const { state } = await startLogin("/quran/2");
 
       const response = await finishLogin(`code=abc&state=${state}`);
 
-      expect(appPath(response.headers.get("Location"))).toBe("/chapters/2?sync=connected");
+      expect(appPath(response.headers.get("Location"))).toBe("/quran/2?sync=connected");
       expect(getToken).toHaveBeenCalledWith({ code: "abc", codeVerifier: expect.any(String) });
       expect(verifyIdToken).toHaveBeenCalledWith({ idToken: "id-token", audience: "client-id" });
       expect(jar.has("sync-login")).toBe(false);
@@ -110,11 +110,11 @@ describe("sync routes", () => {
       ["a mismatched state", (state: string) => `code=abc&state=${state}x`],
       ["a denied consent", (state: string) => `error=access_denied&state=${state}`],
     ])("fails on %s", async (_, query) => {
-      const { state } = await startLogin("/chapters/2");
+      const { state } = await startLogin("/quran/2");
 
       const response = await finishLogin(query(state));
 
-      expect(appPath(response.headers.get("Location"))).toBe("/chapters/2?sync=failed");
+      expect(appPath(response.headers.get("Location"))).toBe("/quran/2?sync=failed");
       expect(jar.has("sync-session")).toBe(false);
     });
 

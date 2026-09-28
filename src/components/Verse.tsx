@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { PauseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
 import { useTranslations } from "next-intl";
 
+import { chapterPath } from "@/utils/chapters";
 import lf from "@/utils/localforage";
 import { verseKey } from "@/utils/userData";
 import Fave from "./Fave";
@@ -37,9 +38,9 @@ export const verseTextClassName = (v: VerseText, rightPane?: boolean) =>
     "text-arabic": v.isArabic,
     "text-verse-arabic": v.isArabic && !rightPane,
     "text-verse-arabic-lg": v.isArabic && rightPane,
-    "text-verse-sm text-secondary font-light": v.isTafsir && !v.isArabic,
+    "text-secondary font-light": v.isTafsir && !v.isArabic,
     "text-verse-lg": v.isBold && !v.isArabic && !v.isTafsir,
-    "text-verse": !v.isArabic && !v.isBold && !v.isTafsir,
+    "text-verse": !v.isArabic && (!v.isBold || v.isTafsir),
   });
 
 const Verse: React.FC<Props> = ({
@@ -122,7 +123,7 @@ const Verse: React.FC<Props> = ({
             title={t("notes-title", { chapter: chapterNumber, verse: verseNumber })}
           />
           <Share
-            path={`/chapters/${chapterNumber}#v-${verseNumber}`}
+            path={chapterPath(chapterNumber, verseNumber)}
             title={t("share-verse-title", { name: chapterName, verse: verseNumber })}
             label={t("share-verse")}
           />

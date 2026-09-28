@@ -9,7 +9,7 @@ export const openSettings = async (page: Page, menuItem: string) => {
   // A dialog still animating in reads as hidden while its mask blocks the button, so that click times out too.
   await expect(async () => {
     if (!(await dialog.isVisible())) {
-      await page.getByRole("button", { name: "Settings", exact: true }).click({ timeout: 2000 });
+      await page.getByRole("button", { name: "Menu", exact: true }).click({ timeout: 2000 });
       await page.getByRole("menuitem", { name: menuItem, exact: true }).click({ timeout: 2000 });
     }
     await expect(dialog).toBeVisible({ timeout: 2000 });

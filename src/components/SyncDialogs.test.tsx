@@ -5,7 +5,7 @@ import { ConfigProvider } from "antd";
 import TestProviders from "@/components/test/TestProviders";
 import SyncDialogs from "./SyncDialogs";
 
-vi.mock("next/navigation", () => ({ usePathname: () => "/chapters/2" }));
+vi.mock("next/navigation", () => ({ usePathname: () => "/quran/2" }));
 
 const props = { onChoose: vi.fn(), onStop: vi.fn(), onClearAndStop: vi.fn() };
 const renderDialogs = (extra: Partial<React.ComponentProps<typeof SyncDialogs>>) => {
@@ -56,7 +56,7 @@ describe("SyncDialogs", () => {
 
     expect(await screen.findByRole("link", { name: "Sign in again" })).toHaveAttribute(
       "href",
-      "/api/sync/login?returnTo=%2Fchapters%2F2",
+      "/api/sync/login?returnTo=%2Fquran%2F2",
     );
     expect(screen.getByText("Sign in to Google again to keep syncing reader@example.com.")).toBeInTheDocument();
   });

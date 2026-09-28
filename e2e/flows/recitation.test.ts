@@ -42,7 +42,7 @@ const startRecitation = async (page: Page) => {
 
 test.describe("Recitation", () => {
   test("play options default to the saved player settings", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openPlayOptions(testPage);
 
@@ -54,7 +54,7 @@ test.describe("Recitation", () => {
   });
 
   test("playing the chapter shows the audio bar and plays from the media host", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     await startRecitation(testPage);
 
@@ -66,7 +66,7 @@ test.describe("Recitation", () => {
   });
 
   test("pause and play toggle the recitation", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await startRecitation(testPage);
 
     await testPage.getByRole("button", { name: "Pause", exact: true }).click();
@@ -78,7 +78,7 @@ test.describe("Recitation", () => {
   });
 
   test("next and previous verse move through the chapter", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await startRecitation(testPage);
     const nextButton = testPage.getByRole("button", { name: "Next verse", exact: true });
 
@@ -103,7 +103,7 @@ test.describe("Recitation", () => {
   });
 
   test("loop wraps from the last verse back to the first", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await startRecitation(testPage);
     const nextButton = testPage.getByRole("button", { name: "Next verse", exact: true });
     const loopButton = testPage.getByRole("button", { name: "Loop", exact: true });
@@ -130,7 +130,7 @@ test.describe("Recitation", () => {
   });
 
   test("auto scroll and mute can be toggled", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await startRecitation(testPage);
     const autoScroll = testPage.getByRole("button", { name: "Auto scroll", exact: true });
 
@@ -150,7 +150,7 @@ test.describe("Recitation", () => {
   });
 
   test("stopping the recitation asks for confirmation", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     await startRecitation(testPage);
     const readButton = testPage.getByRole("button", { name: "Read", exact: true });
 
@@ -171,7 +171,7 @@ test.describe("Recitation", () => {
   });
 
   test("tafsirs are hidden while reciting unless the option is unchecked", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
     const tafsir = testPage.getByText(tafsirExcerpt(CHAPTER, 0, 1));
     await expect(tafsir).toBeVisible();
 
@@ -196,7 +196,7 @@ test.describe("Recitation", () => {
   });
 
   test("changing the reciter plays their recording and persists", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openPlayOptions(testPage);
     await pickOption(
@@ -217,7 +217,7 @@ test.describe("Recitation", () => {
   });
 
   test("verse range plays only the selected verses", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const dialog = await openPlayOptions(testPage);
     await pickOption(
@@ -245,7 +245,7 @@ test.describe("Recitation", () => {
     test.use({ audioClipSeconds: 0.5 });
 
     test("plays through to the end of the chapter and stops", async ({ testPage }) => {
-      await testPage.goto(`/chapters/${CHAPTER}`);
+      await testPage.goto(`/quran/${CHAPTER}`);
       const lastVerse = testPage.waitForRequest(verseAudio(4));
 
       await startRecitation(testPage);
@@ -257,7 +257,7 @@ test.describe("Recitation", () => {
     });
 
     test("a single verse can be played on its own", async ({ testPage }) => {
-      await testPage.goto(`/chapters/${CHAPTER}`);
+      await testPage.goto(`/quran/${CHAPTER}`);
       const playVerse = testPage
         .getByRole("article", { name: "Verse 1", exact: true })
         .getByRole("button", { name: "Play verse", exact: true });
@@ -273,7 +273,7 @@ test.describe("Recitation", () => {
   });
 
   test("a playing verse can be stopped", async ({ testPage }) => {
-    await testPage.goto(`/chapters/${CHAPTER}`);
+    await testPage.goto(`/quran/${CHAPTER}`);
 
     const verse1 = testPage.waitForRequest(verseAudio(1));
     await testPage

@@ -13,6 +13,7 @@ import SafeHtml from "@/components/SafeHtml";
 import Share from "@/components/Share";
 import useHadithReference from "@/components/useHadithReference";
 import { verseTextClassName } from "@/components/Verse";
+import { chapterPath } from "@/utils/chapters";
 import { formatHadithText, hadithPath, type HadithRef } from "@/utils/hadithPack";
 import lf from "@/utils/localforage";
 import { readHadiths } from "@/utils/hadithCache";
@@ -253,7 +254,7 @@ const Saved: React.FC<Props> = ({ chapters, readerSettings, hadiths }) => {
                 >
                   <div className="flex items-center justify-between gap-2">
                     <Link
-                      href={`/chapters/${verse.chapter}#v-${verse.verse}`}
+                      href={chapterPath(verse.chapter, verse.verse)}
                       aria-label={t("go-to-verse", verse)}
                       className="verse-badge"
                     >

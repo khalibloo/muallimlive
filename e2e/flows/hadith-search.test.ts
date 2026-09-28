@@ -22,7 +22,7 @@ const downloadCollections = async (dialog: Locator, collections: string[]) => {
 
 test.describe("Hadith search", () => {
   test("switches from a chapter to the hadiths and finds a synonym", async ({ testPage }) => {
-    await testPage.goto("/chapters/1");
+    await testPage.goto("/quran/1");
     const dialog = await openSearch(testPage);
     await dialog.getByText("Hadith", { exact: true }).click();
     await downloadCollections(dialog, allCollections);

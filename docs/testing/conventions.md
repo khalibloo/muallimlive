@@ -7,9 +7,9 @@
 Test files are **co-located** with the source file they test:
 
 ```
-src/utils/cookies.ts              -> src/utils/cookies.test.ts
-src/components/Notes.tsx          -> src/components/Notes.test.tsx
-src/app/chapters/[id]/Chapter.tsx -> src/app/chapters/[id]/Chapter.test.tsx
+src/utils/cookies.ts           -> src/utils/cookies.test.ts
+src/components/Notes.tsx       -> src/components/Notes.test.tsx
+src/app/quran/[id]/Chapter.tsx -> src/app/quran/[id]/Chapter.test.tsx
 ```
 
 ### Using TestProviders
