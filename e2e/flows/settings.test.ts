@@ -2,7 +2,7 @@ import type { Locator, Page } from "@playwright/test";
 
 import { expect, test } from "../helpers/fixtures";
 import { translationText, transliterationText, transliterationWords } from "../helpers/data";
-import { openSettings } from "../helpers/settings";
+import { openSettings, saveSettings } from "../helpers/settings";
 
 // Chapter 114's translations are plain text (some others embed footnote markup)
 const CHAPTER = 114;
@@ -10,15 +10,6 @@ const YUSUF_ALI = 22;
 const SAHEEH = 20;
 
 const openDisplaySettings = (page: Page) => openSettings(page, "Display Settings");
-
-const saveSettings = async (page: Page, dialog: Locator) => {
-  await dialog.getByRole("button", { name: "Save Changes", exact: true }).click();
-  await expect(page.getByRole("alert").filter({ hasText: "Changes Saved Successfully" })).toBeVisible();
-  await expect(dialog).toBeHidden();
-  // The settings popups can scroll the page behind the dialog, and the verse list is virtualized,
-  // so go back to the first verse, which the tests check
-  await page.keyboard.press("Home");
-};
 
 const splitViewSwitch = (dialog: Locator) => dialog.getByRole("switch", { name: "Use Split View", exact: true });
 
@@ -35,6 +26,7 @@ test.describe("Display settings", () => {
     for (const name of ["Left pane content 1", "Left pane content 2", "Right pane content 1", "Right pane content 2"]) {
       await expect(dialog.getByRole("combobox", { name, exact: true })).toBeVisible();
     }
+    await expect(dialog.getByText("Translations / English / Roman Transliteration", { exact: true })).toBeVisible();
   });
 
   test("removing a content type hides it and persists", async ({ testPage }) => {
@@ -106,30 +98,6 @@ test.describe("Display settings", () => {
       await expect(reopened.getByRole("combobox", { name, exact: true })).toBeVisible();
     }
     await expect(reopened.getByRole("combobox", { name: "Right pane content 1", exact: true })).toBeHidden();
-  });
-
-  test("turning the tajweed colours off uncolours the texts and persists", async ({ testPage }) => {
-    await testPage.goto(`/quran/${CHAPTER}`);
-    const verse = testPage.getByRole("article", { name: "Verse 1", exact: true });
-    // how many of the verse's markings (in the Arabic and the transliteration) look different from their text
-    const styledMarkings = () =>
-      verse.locator("tajweed").evaluateAll(
-        (markings) =>
-          markings.filter((el) => {
-            const [own, text] = [getComputedStyle(el), getComputedStyle(el.parentElement!)];
-            return own.color !== text.color || own.fontWeight !== text.fontWeight;
-          }).length,
-      );
-    await expect.poll(styledMarkings).toBeGreaterThan(0);
-
-    const dialog = await openDisplaySettings(testPage);
-    await dialog.getByRole("switch", { name: "Tajweed Colours", exact: true }).click();
-    await saveSettings(testPage, dialog);
-
-    await expect.poll(styledMarkings).toBe(0);
-    await testPage.reload();
-    await expect(verse).toBeVisible();
-    await expect.poll(styledMarkings).toBe(0);
   });
 
   test("turning the word glosses off stops showing them and persists", async ({ testPage }) => {

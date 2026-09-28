@@ -138,20 +138,32 @@ describe("ReaderSettingsForm", () => {
     });
   });
 
-  it("turns off the tajweed colours and word glosses, which default to on", async () => {
-    const { tajweedColors: _, glosses: __, ...withoutSwitches } = readerSettings;
-    const { user, onSubmit } = renderForm(withoutSwitches);
+  it("turns off the word glosses, which default to on", async () => {
+    const { glosses: _, ...withoutGlosses } = readerSettings;
+    const { user, onSubmit } = renderForm(withoutGlosses);
 
-    const tajweedColors = screen.getByRole("switch", { name: "Tajweed Colours" });
     const glosses = screen.getByRole("switch", { name: "Word Glosses" });
-    expect(tajweedColors).toBeChecked();
     expect(glosses).toBeChecked();
-    await user.click(tajweedColors);
     await user.click(glosses);
     await user.click(screen.getByRole("button", { name: "Save Changes" }));
 
     await waitFor(() => expect(onSubmit).toHaveBeenCalled());
-    expect(saveReaderSettings).toHaveBeenCalledWith({ ...readerSettings, tajweedColors: false, glosses: false });
+    expect(saveReaderSettings).toHaveBeenCalledWith({ ...readerSettings, glosses: false });
+  });
+
+  it("keeps the tajweed settings, which have their own tab", async () => {
+    const settings: ReaderSettings = {
+      ...readerSettings,
+      tajweedColors: false,
+      tajweedRules: { "hamzat-wasl": { look: "hidden" } },
+    };
+    const { user, onSubmit } = renderForm(settings);
+
+    expect(screen.queryByRole("switch", { name: "Tajweed Colors" })).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Save Changes" }));
+
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(saveReaderSettings).toHaveBeenCalledWith(settings);
   });
 
   it("changes the text size, which defaults to 100%", async () => {

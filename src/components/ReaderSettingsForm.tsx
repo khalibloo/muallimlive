@@ -29,7 +29,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
   const useSplitView = Form.useWatch("splitView", form) ?? readerSettings.splitView;
   const left = Form.useWatch("left", form) ?? readerSettings.left;
   const right = Form.useWatch("right", form) ?? readerSettings.right;
-  // transliteration.org's colour-coded Arabic is a learning aid, and its spelling isn't the mushaf's
+  // transliteration.org's color-coded Arabic is a learning aid, and its spelling isn't the mushaf's
   const showsImlaeiTajweed = [...left, ...right].some((item) => item?.content?.[2] === "imlaei_tajweed");
 
   const translationTypes = sortBy(
@@ -100,13 +100,14 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
     const hasContent = (item: VerseLayoutItem) => item.content && item.content.length > 0;
     const left = (values.left ?? []).filter(hasContent);
     const right = (values.right ?? []).filter(hasContent);
-    // the right pane is hidden when split view is off, so merge its content into the left pane
+    // keep the settings edited elsewhere (tajweed); the right pane is hidden when split view is off, so merge its
+    // content into the left pane
     const cleanedValues: ReaderSettings = {
+      ...readerSettings,
       ...(values.splitView
         ? { splitView: true, left, right }
         : { splitView: false, left: [...left, ...right], right: [] }),
       textSize: values.textSize ?? 100,
-      tajweedColors: values.tajweedColors ?? true,
       glosses: values.glosses ?? true,
     };
     await saveReaderSettings(cleanedValues);
@@ -173,7 +174,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
     <Form
       form={form}
       onFinish={handleSubmit}
-      initialValues={{ textSize: 100, tajweedColors: true, glosses: true, ...readerSettings }}
+      initialValues={{ textSize: 100, glosses: true, ...readerSettings }}
       requiredMark={false}
     >
       <Alert type="info" title={t("split-view-info")} showIcon />
@@ -182,9 +183,6 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
       )}
       {showsImlaeiTajweed && <Alert className="mt-2" type="warning" title={t("imlaei-tajweed-warning")} showIcon />}
       <Form.Item name="splitView" label={t("use-split-view")} colon={false} valuePropName="checked">
-        <Switch />
-      </Form.Item>
-      <Form.Item name="tajweedColors" label={t("tajweed-colors")} colon={false} valuePropName="checked">
         <Switch />
       </Form.Item>
       <Form.Item name="glosses" label={t("word-glosses")} colon={false} valuePropName="checked">

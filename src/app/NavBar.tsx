@@ -15,6 +15,7 @@ import ReaderSettingsForm from "@/components/ReaderSettingsForm";
 import { saveColorScheme } from "@/components/saveColorScheme";
 import SearchModal from "@/components/SearchModal";
 import SyncSettings from "@/components/SyncSettings";
+import TajweedSettings from "@/components/TajweedSettings";
 import { COLOR_SCHEMES } from "@/utils/cookies";
 import { getDownloadStatus, isOfflineStorageSupported } from "@/utils/offline";
 import { packKey } from "@/utils/packs";
@@ -168,6 +169,19 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
                 />
               ),
             },
+            {
+              key: "tajweed",
+              label: t("tajweed"),
+              children: (
+                <TajweedSettings
+                  readerSettings={settingsResources.readerSettings}
+                  onSubmit={() => {
+                    notification.success({ title: t("changes-saved") });
+                    closeSettingsModal();
+                  }}
+                />
+              ),
+            },
             { key: "storage", label: t("storage"), children: <OfflineStorage {...settingsResources} /> },
             { key: "sync", label: t("sync"), children: <SyncSettings /> },
           ]}
@@ -230,6 +244,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
                   label: t("settings"),
                   children: [
                     { key: "settings-display", label: t("display-settings") },
+                    { key: "settings-tajweed", label: t("tajweed") },
                     { key: "settings-storage", label: t("offline-storage") },
                     { key: "settings-sync", label: t("sync-settings") },
                   ],

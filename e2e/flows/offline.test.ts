@@ -13,7 +13,7 @@ import {
 import { expect, test } from "../helpers/fixtures";
 import { openSettings } from "../helpers/settings";
 
-// Default reader settings: Yusuf Ali (22), a tafsir, Uthmani Tajweed and the colour-coded transliteration (0)
+// Default reader settings: Yusuf Ali (22), a tafsir, Uthmani Tajweed and the color-coded transliteration (0)
 const YUSUF_ALI = 22;
 const SAHEEH = 20;
 const CHAPTER = 114;
@@ -70,12 +70,12 @@ test.describe("Offline reading", () => {
     await expect(testPage.getByRole("tooltip", { name: word.translation, exact: true })).toBeVisible();
   });
 
-  test("shows the theme, text size and tajweed colours chosen after the app was saved offline", async ({
+  test("shows the theme, text size and tajweed styles chosen after the app was saved offline", async ({
     testPage,
     context,
     baseURL,
   }) => {
-    // the offline page is saved with the default dark theme, text size and tajweed colours
+    // the offline page is saved with the default dark theme, text size and tajweed styles
     await gotoControlled(testPage, "/");
     await downloadAllText(testPage);
     const readerSettings = {
@@ -84,6 +84,7 @@ test.describe("Offline reading", () => {
       right: [{ content: ["translation", "ar", "uthmani_tajweed"] }, { content: ["translation", "en", 0] }],
       textSize: 140,
       tajweedColors: false,
+      tajweedRules: { "hamzat-wasl": { look: "hidden" }, qalqalah: { color: "red" } },
     };
     await context.addCookies([
       { name: "color-scheme", value: "light", url: baseURL },
@@ -103,6 +104,10 @@ test.describe("Offline reading", () => {
       await testPage.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--reader-scale")),
     ).toBe("1.4");
     await expect(testPage.locator("html")).toHaveClass(/\bno-tajweed\b/);
+    await expect(testPage.locator("html")).toHaveClass(/\btajweed-hide-hamzat-wasl\b/);
+    expect(await testPage.evaluate(() => document.documentElement.style.getPropertyValue("--tajweed-qalqalah"))).toBe(
+      "var(--palette-red)",
+    );
     await expect.poll(buttonColor).toBe(lightButton);
   });
 

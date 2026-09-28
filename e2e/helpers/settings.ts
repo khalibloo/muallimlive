@@ -1,4 +1,4 @@
-import type { Page } from "@playwright/test";
+import type { Locator, Page } from "@playwright/test";
 
 import { expect } from "./fixtures";
 
@@ -15,4 +15,14 @@ export const openSettings = async (page: Page, menuItem: string) => {
     await expect(dialog).toBeVisible({ timeout: 2000 });
   }).toPass();
   return dialog;
+};
+
+/** Saves the settings dialog and waits for it to close */
+export const saveSettings = async (page: Page, dialog: Locator) => {
+  await dialog.getByRole("button", { name: "Save Changes", exact: true }).click();
+  await expect(page.getByRole("alert").filter({ hasText: "Changes Saved Successfully" })).toBeVisible();
+  await expect(dialog).toBeHidden();
+  // The settings popups can scroll the page behind the dialog, and the verse list is virtualized,
+  // so go back to the first verse, which the tests check
+  await page.keyboard.press("Home");
 };

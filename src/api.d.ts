@@ -103,7 +103,7 @@ interface VerseImlaeiSimple extends VerseContent {
   text_imlaei_simple: string;
 }
 
-/** transliteration.org's colour-coded Arabic, not from quran.com */
+/** transliteration.org's color-coded Arabic, not from quran.com */
 interface VerseImlaeiTajweed extends VerseContent {
   text_imlaei_tajweed: string;
 }
@@ -122,7 +122,7 @@ interface VerseTafsir {
 interface VerseTranslation {
   resource_id: number;
   text: string;
-  /** Only the colour-coded transliteration (0) has them */
+  /** Only the color-coded transliteration (0) has them */
   words?: VerseWord[];
 }
 

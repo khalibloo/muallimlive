@@ -159,6 +159,7 @@ describe("NavBar", () => {
 
     expect(within(menu).getByText("Settings")).toBeInTheDocument();
     expect(within(menu).getByRole("menuitem", { name: "Display Settings" })).toBeInTheDocument();
+    expect(within(menu).getByRole("menuitem", { name: "Tajweed" })).toBeInTheDocument();
     expect(within(menu).getByRole("menuitem", { name: "Offline Storage" })).toBeInTheDocument();
     expect(within(menu).getByRole("menuitem", { name: "Sync & Backup" })).toBeInTheDocument();
   });
@@ -197,9 +198,21 @@ describe("NavBar", () => {
     expect(saveReaderSettings).toHaveBeenCalledWith({
       ...settingsResources.readerSettings,
       textSize: 100,
-      tajweedColors: true,
       glosses: true,
     });
+    await waitFor(() => expect(screen.queryByRole("dialog", { name: "Settings" })).not.toBeInTheDocument());
+  });
+
+  it("opens the tajweed settings and saves them with a notification", async () => {
+    const user = renderNavBar();
+    const dialog = await openSettings(user, "Tajweed");
+
+    expect(within(dialog).getByRole("tab", { name: "Tajweed" })).toHaveAttribute("aria-selected", "true");
+    await user.click(within(dialog).getByRole("switch", { name: "Tajweed Colors" }));
+    await user.click(within(dialog).getByRole("button", { name: "Save Changes" }));
+
+    expect(await screen.findByText("Changes Saved Successfully")).toBeInTheDocument();
+    expect(saveReaderSettings).toHaveBeenCalledWith({ ...settingsResources.readerSettings, tajweedColors: false });
     await waitFor(() => expect(screen.queryByRole("dialog", { name: "Settings" })).not.toBeInTheDocument());
   });
 

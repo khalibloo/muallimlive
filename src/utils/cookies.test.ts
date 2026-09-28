@@ -41,7 +41,7 @@ describe("parseReaderSettings", () => {
     });
   });
 
-  it("keeps boolean tajweed colours and glosses switches and drops any other", () => {
+  it("keeps boolean tajweed colors and glosses switches and drops any other", () => {
     const settings: ReaderSettings = { splitView: false, left: [], right: [], tajweedColors: false, glosses: true };
     expect(parseReaderSettings(JSON.stringify(settings))).toEqual(settings);
     expect(parseReaderSettings(JSON.stringify({ ...settings, tajweedColors: "no", glosses: 0 }))).toEqual({
@@ -49,6 +49,26 @@ describe("parseReaderSettings", () => {
       left: [],
       right: [],
     });
+  });
+
+  it("keeps the valid tajweed rule styles", () => {
+    const settings: ReaderSettings = { splitView: false, left: [], right: [] };
+    const tajweedRules = { "hamzat-wasl": { look: "hidden" }, qalqalah: { color: "red" } };
+    expect(parseReaderSettings(JSON.stringify({ ...settings, tajweedRules }))).toEqual({ ...settings, tajweedRules });
+  });
+
+  it("drops unknown or malformed tajweed rule styles", () => {
+    const settings: ReaderSettings = { splitView: false, left: [], right: [] };
+    const tajweedRules = {
+      "hamzat-wasl": { look: "blurred" },
+      qalqalah: { color: "pink" },
+      "not-a-rule": { look: "hidden" },
+    };
+    expect(parseReaderSettings(JSON.stringify({ ...settings, tajweedRules }))).toEqual(settings);
+    expect(parseReaderSettings(JSON.stringify({ ...settings, tajweedRules: "hidden" }))).toEqual(settings);
+    expect(
+      parseReaderSettings(JSON.stringify({ ...settings, tajweedRules: { ikhfa: { color: "none" }, iqlab: null } })),
+    ).toEqual({ ...settings, tajweedRules: { ikhfa: { color: "none" } } });
   });
 });
 

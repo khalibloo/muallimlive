@@ -12,7 +12,7 @@ import {
 } from "../helpers/data";
 
 // Default reader settings (src/utils/config.ts): Yusuf Ali translation (22) and tafsir (0) on the left,
-// Uthmani Tajweed Arabic and the colour-coded transliteration (0) on the right
+// Uthmani Tajweed Arabic and the color-coded transliteration (0) on the right
 test.describe("Reading a chapter", () => {
   test("shows the chapter heading and page title", async ({ testPage }) => {
     await testPage.goto("/quran/1");

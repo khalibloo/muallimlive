@@ -1,113 +1,287 @@
-.madda_normal,
-.madda_permissible,
-.madda_necessary,
-.madda_obligatory {
-  @apply text-purple-700 dark:text-purple-400;
+/* Each tajweed rule's color (the reader's `--tajweed-<id>`, or its default) and looks (the `tajweed-fade-<id>` and
+   `tajweed-hide-<id>` classes on <html>). Keep in sync with TAJWEED_GROUPS in src/utils/tajweed.ts */
+
+tajweed.ham_wasl,
+tajweed.HmA,
+tajweed.HmI,
+tajweed.HmU {
+  color: var(--tajweed-hamzat-wasl, var(--palette-sky));
+}
+:root.tajweed-fade-hamzat-wasl :is(tajweed.ham_wasl, tajweed.HmA, tajweed.HmI, tajweed.HmU) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-hamzat-wasl :is(tajweed.ham_wasl, tajweed.HmA, tajweed.HmI, tajweed.HmU) {
+  display: none;
 }
 
-.qalaqah {
-  @apply text-lime-700 dark:text-lime-400;
+tajweed.madda_normal,
+tajweed.MS2 {
+  color: var(--tajweed-madd-2, var(--palette-amber));
+}
+:root.tajweed-fade-madd-2 :is(tajweed.madda_normal, tajweed.MS2) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-madd-2 :is(tajweed.madda_normal, tajweed.MS2) {
+  display: none;
 }
 
-.ikhafa,
-.ikhafa_shafawi {
-  @apply text-amber-700 dark:text-amber-400;
+tajweed.MS {
+  color: var(--tajweed-madd-arid, var(--palette-orange));
+}
+:root.tajweed-fade-madd-arid :is(tajweed.MS) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-madd-arid :is(tajweed.MS) {
+  display: none;
 }
 
-.ghunnah,
-.iqlab {
-  @apply text-emerald-700 dark:text-emerald-400;
+tajweed.MB {
+  color: var(--tajweed-madd-badal, var(--palette-orange));
+}
+:root.tajweed-fade-madd-badal :is(tajweed.MB) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-madd-badal :is(tajweed.MB) {
+  display: none;
 }
 
-.slnt,
-.ham_wasl {
-  @apply text-neutral-500 dark:text-neutral-400;
+tajweed.madda_necessary,
+tajweed.ML {
+  color: var(--tajweed-madd-lazim, var(--palette-rose));
+}
+:root.tajweed-fade-madd-lazim :is(tajweed.madda_necessary, tajweed.ML) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-madd-lazim :is(tajweed.madda_necessary, tajweed.ML) {
+  display: none;
 }
 
-.idgham_wo_ghunnah,
-.idgham_ghunnah,
-.idgham_shafawi {
-  @apply text-blue-700 dark:text-blue-400;
+tajweed.madda_obligatory,
+tajweed.MWT {
+  color: var(--tajweed-madd-wajib, var(--palette-red));
+}
+:root.tajweed-fade-madd-wajib :is(tajweed.madda_obligatory, tajweed.MWT) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-madd-wajib :is(tajweed.madda_obligatory, tajweed.MWT) {
+  display: none;
+}
+
+tajweed.madda_permissible,
+tajweed.MJF {
+  color: var(--tajweed-madd-jaiz, var(--palette-violet));
+}
+:root.tajweed-fade-madd-jaiz :is(tajweed.madda_permissible, tajweed.MJF) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-madd-jaiz :is(tajweed.madda_permissible, tajweed.MJF) {
+  display: none;
+}
+
+tajweed.qalaqah,
+tajweed.Q {
+  color: var(--tajweed-qalqalah, var(--palette-lime));
+}
+:root.tajweed-fade-qalqalah :is(tajweed.qalaqah, tajweed.Q) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-qalqalah :is(tajweed.qalaqah, tajweed.Q) {
+  display: none;
+}
+
+tajweed.ghunnah,
+tajweed.GhSh {
+  color: var(--tajweed-ghunnah, var(--palette-cyan));
+}
+:root.tajweed-fade-ghunnah :is(tajweed.ghunnah, tajweed.GhSh) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-ghunnah :is(tajweed.ghunnah, tajweed.GhSh) {
+  display: none;
+}
+
+tajweed.idgham_ghunnah,
+tajweed.Gh {
+  color: var(--tajweed-idgham-ghunnah, var(--palette-teal));
+}
+:root.tajweed-fade-idgham-ghunnah :is(tajweed.idgham_ghunnah, tajweed.Gh) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-idgham-ghunnah :is(tajweed.idgham_ghunnah, tajweed.Gh) {
+  display: none;
+}
+
+tajweed.idgham_wo_ghunnah,
+tajweed.Kh {
+  color: var(--tajweed-idgham-no-ghunnah, var(--palette-gray));
+}
+:root.tajweed-fade-idgham-no-ghunnah :is(tajweed.idgham_wo_ghunnah, tajweed.Kh) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-idgham-no-ghunnah :is(tajweed.idgham_wo_ghunnah, tajweed.Kh) {
+  display: none;
+}
+
+tajweed.DY {
+  color: var(--tajweed-idgham-mithlayn, var(--palette-teal));
+}
+:root.tajweed-fade-idgham-mithlayn :is(tajweed.DY) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-idgham-mithlayn :is(tajweed.DY) {
+  display: none;
+}
+
+tajweed.idgham_mutajanisayn,
+tajweed.DJ {
+  color: var(--tajweed-idgham-mutajanisayn, var(--palette-teal));
+}
+:root.tajweed-fade-idgham-mutajanisayn :is(tajweed.idgham_mutajanisayn, tajweed.DJ) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-idgham-mutajanisayn :is(tajweed.idgham_mutajanisayn, tajweed.DJ) {
+  display: none;
+}
+
+tajweed.idgham_mutaqaribayn {
+  color: var(--tajweed-idgham-mutaqaribayn, var(--palette-teal));
+}
+:root.tajweed-fade-idgham-mutaqaribayn :is(tajweed.idgham_mutaqaribayn) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-idgham-mutaqaribayn :is(tajweed.idgham_mutaqaribayn) {
+  display: none;
+}
+
+tajweed.idgham_shafawi,
+tajweed.DW {
+  color: var(--tajweed-idgham-shafawi, var(--palette-gray));
+}
+:root.tajweed-fade-idgham-shafawi :is(tajweed.idgham_shafawi, tajweed.DW) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-idgham-shafawi :is(tajweed.idgham_shafawi, tajweed.DW) {
+  display: none;
+}
+
+tajweed.ikhafa,
+tajweed.KhQ {
+  color: var(--tajweed-ikhfa, var(--palette-purple));
+}
+:root.tajweed-fade-ikhfa :is(tajweed.ikhafa, tajweed.KhQ) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-ikhfa :is(tajweed.ikhafa, tajweed.KhQ) {
+  display: none;
+}
+
+tajweed.ikhafa_shafawi,
+tajweed.KhW {
+  color: var(--tajweed-ikhfa-shafawi, var(--palette-purple));
+}
+:root.tajweed-fade-ikhfa-shafawi :is(tajweed.ikhafa_shafawi, tajweed.KhW) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-ikhfa-shafawi :is(tajweed.ikhafa_shafawi, tajweed.KhW) {
+  display: none;
+}
+
+tajweed.iqlab,
+tajweed.IM {
+  color: var(--tajweed-iqlab, var(--palette-emerald));
+}
+:root.tajweed-fade-iqlab :is(tajweed.iqlab, tajweed.IM) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-iqlab :is(tajweed.iqlab, tajweed.IM) {
+  display: none;
+}
+
+tajweed.ZQ {
+  color: var(--tajweed-izhar, var(--palette-indigo));
+}
+:root.tajweed-fade-izhar :is(tajweed.ZQ) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-izhar :is(tajweed.ZQ) {
+  display: none;
+}
+
+tajweed.Rq,
+tajweed.RqQ {
+  color: var(--tajweed-light-ra, var(--palette-red));
+}
+:root.tajweed-fade-light-ra :is(tajweed.Rq, tajweed.RqQ) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-light-ra :is(tajweed.Rq, tajweed.RqQ) {
+  display: none;
+}
+
+tajweed.RqW {
+  color: var(--tajweed-light-ra-reading-on, var(--palette-orange));
+}
+:root.tajweed-fade-light-ra-reading-on :is(tajweed.RqW) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-light-ra-reading-on :is(tajweed.RqW) {
+  display: none;
+}
+
+tajweed.TqL {
+  color: var(--tajweed-light-lam, var(--palette-red));
+}
+:root.tajweed-fade-light-lam :is(tajweed.TqL) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-light-lam :is(tajweed.TqL) {
+  display: none;
+}
+
+tajweed.TfL {
+  color: var(--tajweed-heavy-lam, var(--palette-blue));
+}
+:root.tajweed-fade-heavy-lam :is(tajweed.TfL) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-heavy-lam :is(tajweed.TfL) {
+  display: none;
+}
+
+tajweed.Th {
+  color: var(--tajweed-ta-marbutah, var(--palette-blue));
+}
+:root.tajweed-fade-ta-marbutah :is(tajweed.Th) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-ta-marbutah :is(tajweed.Th) {
+  display: none;
+}
+
+tajweed.EdAyh {
+  color: var(--tajweed-dropped-ending, var(--palette-gray));
+}
+:root.tajweed-fade-dropped-ending :is(tajweed.EdAyh) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-dropped-ending :is(tajweed.EdAyh) {
+  display: none;
+}
+
+tajweed.slnt,
+tajweed.laam_shamsiyah,
+tajweed.LaY {
+  color: var(--tajweed-silent-letter, var(--palette-gray));
+}
+:root.tajweed-fade-silent-letter :is(tajweed.slnt, tajweed.laam_shamsiyah, tajweed.LaY) {
+  opacity: 0.35;
+}
+:root.tajweed-hide-silent-letter :is(tajweed.slnt, tajweed.laam_shamsiyah, tajweed.LaY) {
+  display: none;
 }
 
 .end {
   display: none;
-}
-
-/* transliteration.org's rules (the Imlaei Tajweed Script), in the hues of its StyleA.css. Its pale greys
-   are darkened to stay readable */
-
-tajweed.HmA {
-  @apply text-sky-600 dark:text-sky-400;
-}
-
-tajweed.HmI,
-tajweed.HmU,
-tajweed.TqL {
-  @apply text-red-600 dark:text-red-400;
-}
-
-tajweed.MS2 {
-  @apply text-amber-800 dark:text-amber-300;
-}
-
-tajweed.MS,
-tajweed.MB {
-  @apply text-orange-600 dark:text-orange-400;
-}
-
-tajweed.ML {
-  @apply text-rose-800 dark:text-rose-400;
-}
-
-tajweed.MWT,
-tajweed.Rq,
-tajweed.RqQ {
-  @apply text-red-800 dark:text-red-500;
-}
-
-tajweed.MJF {
-  @apply text-violet-700 dark:text-violet-400;
-}
-
-tajweed.Q,
-tajweed.TfL,
-tajweed.Th {
-  @apply text-blue-700 dark:text-blue-400;
-}
-
-tajweed.GhSh {
-  @apply text-cyan-600 dark:text-cyan-400;
-}
-
-tajweed.Gh,
-tajweed.DY,
-tajweed.DJ {
-  @apply text-teal-700 dark:text-teal-400;
-}
-
-tajweed.Kh,
-tajweed.DW,
-tajweed.LaY,
-tajweed.EdAyh {
-  @apply text-neutral-500 dark:text-neutral-400;
-}
-
-tajweed.KhQ,
-tajweed.KhW {
-  @apply text-zinc-600 dark:text-zinc-300;
-}
-
-tajweed.IM {
-  @apply text-lime-600 dark:text-lime-400;
-}
-
-tajweed.ZQ {
-  @apply text-indigo-800 dark:text-indigo-300;
-}
-
-tajweed.RqW {
-  @apply text-orange-700 dark:text-orange-500;
 }
 
 /* the thick letters */
@@ -115,7 +289,7 @@ tajweed.R {
   @apply font-bold;
 }
 
-/* the reader turned the tajweed colours off */
+/* the reader turned the tajweed colors off; the fade and hide looks still apply */
 :root.no-tajweed tajweed {
   color: inherit;
   font-weight: inherit;

@@ -1,4 +1,5 @@
 import config from "./config";
+import { parseTajweedRules } from "./tajweed";
 
 export const READER_SETTINGS_KEY = "reader-settings";
 export const PLAYER_SETTINGS_KEY = "player-settings";
@@ -23,12 +24,14 @@ const isRecord = (value: unknown): value is Record<string, unknown> => typeof va
 export const parseReaderSettings = (value?: string): ReaderSettings => {
   const data = parseJson(value);
   if (isRecord(data) && typeof data.splitView === "boolean" && Array.isArray(data.left) && Array.isArray(data.right)) {
-    const { textSize, tajweedColors, glosses, ...settings } = data as unknown as ReaderSettings;
+    const { textSize, tajweedColors, glosses, tajweedRules, ...settings } = data as unknown as ReaderSettings;
+    const rules = parseTajweedRules(tajweedRules);
     return {
       ...settings,
       ...(typeof textSize === "number" && { textSize }),
       ...(typeof tajweedColors === "boolean" && { tajweedColors }),
       ...(typeof glosses === "boolean" && { glosses }),
+      ...(rules && { tajweedRules: rules }),
     };
   }
   return config.defaultReaderSettings;

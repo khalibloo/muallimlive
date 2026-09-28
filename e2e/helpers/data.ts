@@ -32,11 +32,11 @@ export const translationText = (chapterId: number, translationId: number, verse:
     verse - 1
   ].text;
 
-/** Visible text of a verse of the colour-coded transliteration (0): its tajweed markup stripped */
+/** Visible text of a verse of the color-coded transliteration (0): its tajweed markup stripped */
 export const transliterationText = (chapterId: number, verse: number) =>
   translationText(chapterId, 0, verse).replace(/<[^>]+>/g, "");
 
-/** A verse's word groups in the colour-coded transliteration, with their glosses */
+/** A verse's word groups in the color-coded transliteration, with their glosses */
 export const transliterationWords = (chapterId: number, verse: number) =>
   readFixture<GetVersesTranslationResponse>(`chapters/${chapterId}/translations/0`).translations[verse - 1].words!;
 
