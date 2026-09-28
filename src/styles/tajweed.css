@@ -33,3 +33,83 @@
 .end {
   display: none;
 }
+
+/* transliteration.org's rules (the Imlaei Tajweed Script), in the hues of its StyleA.css. Its pale greys
+   are darkened to stay readable */
+
+tajweed.HmA {
+  @apply text-sky-600 dark:text-sky-400;
+}
+
+tajweed.HmI,
+tajweed.HmU,
+tajweed.TqL {
+  @apply text-red-600 dark:text-red-400;
+}
+
+tajweed.MS2 {
+  @apply text-amber-800 dark:text-amber-300;
+}
+
+tajweed.MS,
+tajweed.MB {
+  @apply text-orange-600 dark:text-orange-400;
+}
+
+tajweed.ML {
+  @apply text-rose-800 dark:text-rose-400;
+}
+
+tajweed.MWT,
+tajweed.Rq {
+  @apply text-red-800 dark:text-red-500;
+}
+
+tajweed.MJF {
+  @apply text-violet-700 dark:text-violet-400;
+}
+
+tajweed.Q,
+tajweed.TfL,
+tajweed.Th {
+  @apply text-blue-700 dark:text-blue-400;
+}
+
+tajweed.GhSh {
+  @apply text-cyan-600 dark:text-cyan-400;
+}
+
+tajweed.Gh,
+tajweed.DY,
+tajweed.DJ {
+  @apply text-teal-700 dark:text-teal-400;
+}
+
+tajweed.Kh,
+tajweed.DW,
+tajweed.LaY,
+tajweed.EdAyh {
+  @apply text-neutral-500 dark:text-neutral-400;
+}
+
+tajweed.KhQ,
+tajweed.KhW {
+  @apply text-zinc-600 dark:text-zinc-300;
+}
+
+tajweed.IM {
+  @apply text-lime-600 dark:text-lime-400;
+}
+
+tajweed.ZQ {
+  @apply text-indigo-800 dark:text-indigo-300;
+}
+
+tajweed.RqW {
+  @apply text-orange-700 dark:text-orange-500;
+}
+
+/* the thick letters */
+tajweed.R {
+  @apply font-bold;
+}

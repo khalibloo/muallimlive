@@ -95,6 +95,11 @@ interface VerseImlaeiSimple extends VerseContent {
   text_imlaei_simple: string;
 }
 
+/** transliteration.org's colour-coded Arabic, not from quran.com */
+interface VerseImlaeiTajweed extends VerseContent {
+  text_imlaei_tajweed: string;
+}
+
 interface VerseRecitation extends VerseContent {
   url: string;
 }
@@ -112,9 +117,17 @@ interface VerseTranslation {
 }
 
 type Verse =
-  VerseText | VerseIndopak | VerseImlaei | VerseImlaeiSimple | VerseUthmani | VerseUthmaniSimple | VerseUthmaniTajweed;
+  | VerseText
+  | VerseIndopak
+  | VerseImlaei
+  | VerseImlaeiSimple
+  | VerseImlaeiTajweed
+  | VerseUthmani
+  | VerseUthmaniSimple
+  | VerseUthmaniTajweed;
 
-type ArabicScript = "uthmani" | "uthmani_simple" | "uthmani_tajweed" | "imlaei" | "imlaei_simple" | "indopak";
+type ArabicScript =
+  "uthmani" | "uthmani_simple" | "uthmani_tajweed" | "imlaei" | "imlaei_simple" | "imlaei_tajweed" | "indopak";
 
 // resource response types
 
@@ -141,7 +154,15 @@ interface GetChaptersResponse {
 // data response types
 
 interface GetVersesArabicResponse {
-  verses: (VerseIndopak | VerseImlaei | VerseImlaeiSimple | VerseUthmani | VerseUthmaniSimple | VerseUthmaniTajweed)[];
+  verses: (
+    | VerseIndopak
+    | VerseImlaei
+    | VerseImlaeiSimple
+    | VerseImlaeiTajweed
+    | VerseUthmani
+    | VerseUthmaniSimple
+    | VerseUthmaniTajweed
+  )[];
 }
 
 interface GetVersesRecitationResponse {

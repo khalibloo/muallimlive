@@ -104,6 +104,8 @@
     "home": "Home",
     "imlaei-script": "Imlaei Script",
     "imlaei-simple-script": "Imlaei Simple Script",
+    "imlaei-tajweed-script": "Imlaei Tajweed Script (Learning Aid)",
+    "imlaei-tajweed-warning": "The Imlaei Tajweed Script helps learners with more detailed tajweed colours, from transliteration.org. Its spelling is not always accurate: it uses modern spelling rather than the Uthmani script of the mushaf, and has some mistakes. Check the text against a mushaf.",
     "import": "Import",
     "import-invalid": "This isn't a MuallimLive backup file",
     "import-success": "Imported {faves, plural, one {# favorite} other {# favorites}} and {notes, plural, one {# note} other {# notes}}",

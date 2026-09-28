@@ -187,6 +187,17 @@ describe("ReaderSettingsForm", () => {
     });
   });
 
+  it("warns about the spelling of the Imlaei Tajweed Script once it's picked", async () => {
+    const { user } = renderForm();
+    const warning = /The Imlaei Tajweed Script helps learners/;
+    expect(screen.queryByText(warning)).not.toBeInTheDocument();
+
+    await user.type(screen.getByRole("combobox", { name: "Right pane content 1" }), "arabic");
+    await user.click(await screen.findByText("Imlaei Tajweed Script (Learning Aid)", { exact: false }));
+
+    expect(await screen.findByText(warning)).toBeInTheDocument();
+  });
+
   it("offers only languages that have tafsirs", async () => {
     const { user } = renderForm();
 

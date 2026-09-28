@@ -27,6 +27,10 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
   const responsive = Grid.useBreakpoint();
   const [form] = Form.useForm<ReaderSettings>();
   const useSplitView = Form.useWatch("splitView", form) ?? readerSettings.splitView;
+  const left = Form.useWatch("left", form) ?? readerSettings.left;
+  const right = Form.useWatch("right", form) ?? readerSettings.right;
+  // transliteration.org's colour-coded Arabic is a learning aid, and its spelling isn't the mushaf's
+  const showsImlaeiTajweed = [...left, ...right].some((item) => item?.content?.[2] === "imlaei_tajweed");
 
   const translationTypes = sortBy(
     [
@@ -169,6 +173,7 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
       {useSplitView && !responsive.md && (
         <Alert className="mt-2" type="warning" title={t("mobile-panes-merged")} showIcon />
       )}
+      {showsImlaeiTajweed && <Alert className="mt-2" type="warning" title={t("imlaei-tajweed-warning")} showIcon />}
       <Form.Item name="splitView" label={t("use-split-view")} colon={false} valuePropName="checked">
         <Switch />
       </Form.Item>

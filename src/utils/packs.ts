@@ -19,6 +19,7 @@ export const ARABIC_SCRIPTS = {
   indopak: "indopak-script",
   imlaei: "imlaei-script",
   imlaei_simple: "imlaei-simple-script",
+  imlaei_tajweed: "imlaei-tajweed-script",
   uthmani: "uthmani-script",
   uthmani_simple: "uthmani-simple-script",
   uthmani_tajweed: "uthmani-tajweed-script",
