@@ -28,7 +28,7 @@ const GlossedText: React.FC<Props> = ({ html, words, className }) => {
               <SafeHtml
                 inline
                 tabIndex={0}
-                className="cursor-help rounded-sm border-b border-dotted border-current hover:bg-surface-elevated"
+                className="cursor-help rounded-sm border-0 border-b border-dotted border-current hover:bg-surface-elevated"
                 html={group.html}
               />
             </Tooltip>

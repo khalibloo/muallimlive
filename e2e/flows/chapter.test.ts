@@ -35,9 +35,19 @@ test.describe("Reading a chapter", () => {
     await testPage.goto("/quran/1");
     const word = transliterationWords(1, 1).find((w) => w.translation)!;
 
-    await testPage.getByRole("article", { name: "Verse 1", exact: true }).getByText(word.text, { exact: true }).hover();
+    const glossed = testPage
+      .getByRole("article", { name: "Verse 1", exact: true })
+      .getByText(word.text, { exact: true });
+    await glossed.hover();
 
     await expect(testPage.getByRole("tooltip", { name: word.translation, exact: true })).toBeVisible();
+    // only underlined
+    expect(
+      await glossed.evaluate((el) => {
+        const style = getComputedStyle(el);
+        return [style.borderTopWidth, style.borderRightWidth, style.borderBottomWidth, style.borderLeftWidth];
+      }),
+    ).toEqual(["0px", "0px", "1px", "0px"]);
   });
 
   test("renders later verses when scrolled to the end", async ({ testPage }) => {
