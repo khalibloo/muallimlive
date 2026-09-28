@@ -69,6 +69,29 @@ describe("Verse", () => {
     expect(screen.queryByText("Right tafsir")).not.toBeInTheDocument();
   });
 
+  it("shows a transliteration's word glosses unless they're hidden", async () => {
+    const user = userEvent.setup();
+    const transliteration: VerseText = {
+      id: 1,
+      verse_key: "1:2",
+      text: "<tajweed class=HmA>A</tajweed>l-Ĥamdu Lillāhi",
+      isHTML: true,
+      words: [{ text: "Al-Ĥamdu", translation: "praise" }, { text: "Lillāhi" }],
+    };
+    const { rerender } = renderVerse({ right: [transliteration] });
+
+    await user.hover(screen.getByText("l-Ĥamdu"));
+    expect(await screen.findByRole("tooltip")).toHaveTextContent("praise");
+
+    rerender(
+      <TestProviders>
+        <Verse {...defaultProps} right={[transliteration]} hideGlosses />
+      </TestProviders>,
+    );
+    expect(screen.getByText(/Lillāhi/)).not.toHaveAttribute("tabindex");
+    expect(screen.getByText("A")).toHaveAttribute("class", "HmA");
+  });
+
   it("renders a single pane when only one side has content", () => {
     renderVerse({ right: [] });
 

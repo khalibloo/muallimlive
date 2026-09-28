@@ -30,6 +30,7 @@ export const getVerseTexts = async ({ type, id }: ContentPack, chapter: Chapter)
       verse_key: `${chapter.id}:${i + 1}`,
       // some translations mark footnotes with <sup>
       isHTML: true,
+      ...(t.words && { words: t.words }),
     }));
   }
 

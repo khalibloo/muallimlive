@@ -106,6 +106,8 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
         ? { splitView: true, left, right }
         : { splitView: false, left: [...left, ...right], right: [] }),
       textSize: values.textSize ?? 100,
+      tajweedColors: values.tajweedColors ?? true,
+      glosses: values.glosses ?? true,
     };
     await saveReaderSettings(cleanedValues);
 
@@ -168,13 +170,24 @@ const ReaderSettingsForm: React.FC<Props> = ({ readerSettings, languages, tafsir
   }
 
   return (
-    <Form form={form} onFinish={handleSubmit} initialValues={{ textSize: 100, ...readerSettings }} requiredMark={false}>
+    <Form
+      form={form}
+      onFinish={handleSubmit}
+      initialValues={{ textSize: 100, tajweedColors: true, glosses: true, ...readerSettings }}
+      requiredMark={false}
+    >
       <Alert type="info" title={t("split-view-info")} showIcon />
       {useSplitView && !responsive.md && (
         <Alert className="mt-2" type="warning" title={t("mobile-panes-merged")} showIcon />
       )}
       {showsImlaeiTajweed && <Alert className="mt-2" type="warning" title={t("imlaei-tajweed-warning")} showIcon />}
       <Form.Item name="splitView" label={t("use-split-view")} colon={false} valuePropName="checked">
+        <Switch />
+      </Form.Item>
+      <Form.Item name="tajweedColors" label={t("tajweed-colors")} colon={false} valuePropName="checked">
+        <Switch />
+      </Form.Item>
+      <Form.Item name="glosses" label={t("word-glosses")} colon={false} valuePropName="checked">
         <Switch />
       </Form.Item>
       <Form.Item name="textSize" label={t("text-size")} colon={false}>

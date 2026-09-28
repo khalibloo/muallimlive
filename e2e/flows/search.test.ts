@@ -1,6 +1,6 @@
 import type { Page } from "@playwright/test";
 
-import { chapterName } from "../helpers/data";
+import { chapterName, translationText } from "../helpers/data";
 import { expect, test } from "../helpers/fixtures";
 import { openSettings } from "../helpers/settings";
 
@@ -22,7 +22,9 @@ test.describe("Verse search", () => {
     await searchbox.fill("begotten");
 
     const result = dialog.getByRole("article", { name: "Verse 112:3", exact: true });
-    await expect(result.getByText("begotten", { exact: true })).toBeVisible();
+    // the tafsir mentions it too
+    const translation = result.getByRole("paragraph").filter({ hasText: translationText(112, 22, 3) });
+    await expect(translation.getByText("begotten", { exact: true })).toBeVisible();
     await result.getByRole("link", { name: `${chapterName(112)} 112:3`, exact: true }).click();
 
     await expect(dialog).toBeHidden();

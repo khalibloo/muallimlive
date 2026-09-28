@@ -64,8 +64,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
   };
 };
 
-// Applies the theme and text size cookies before the first paint. The precached offline page keeps the ones it was
-// saved with; on other pages this sets what the server already rendered.
+const NO_TAJWEED_CLASS = "no-tajweed";
+
+// Applies the theme, text size and tajweed colours cookies before the first paint. The precached offline page keeps
+// the ones it was saved with; on other pages this sets what the server already rendered.
 const SETTINGS_SCRIPT = `(() => {
   const cookie = (name) => {
     const entry = document.cookie.split("; ").find((c) => c.startsWith(name + "="));
@@ -74,13 +76,16 @@ const SETTINGS_SCRIPT = `(() => {
   const schemes = ${JSON.stringify(COLOR_SCHEMES)};
   const scheme = schemes.find((s) => s === cookie("${COLOR_SCHEME_KEY}")) ?? "${config.defaultColorScheme}";
   let textSize = 100;
+  let tajweedColors = true;
   try {
     const settings = JSON.parse(cookie("${READER_SETTINGS_KEY}"));
     if (typeof settings.textSize === "number") textSize = settings.textSize;
+    if (settings.tajweedColors === false) tajweedColors = false;
   } catch {}
   const html = document.documentElement;
   html.classList.remove(...schemes);
   html.classList.add(scheme);
+  html.classList.toggle("${NO_TAJWEED_CLASS}", !tajweedColors);
   html.style.setProperty("--reader-scale", textSize / 100);
 })()`;
 
@@ -111,7 +116,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = async ({ children })
   return (
     <html
       lang="en"
-      className={clsx(amiriQuran.variable, colorScheme)}
+      className={clsx(amiriQuran.variable, colorScheme, {
+        [NO_TAJWEED_CLASS]: readerSettings.tajweedColors === false,
+      })}
       style={{ "--reader-scale": (readerSettings.textSize ?? 100) / 100 } as React.CSSProperties}
       // SETTINGS_SCRIPT may change the class and style before hydration
       suppressHydrationWarning

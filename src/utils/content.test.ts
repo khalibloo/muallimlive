@@ -27,6 +27,15 @@ describe("getVerseTexts", () => {
     expect(fetchData).toHaveBeenCalledWith("chapters/1/translations/20");
   });
 
+  it("keeps a transliteration's word glosses", async () => {
+    const words = [{ text: "Bismi", translation: "In the name of" }, { text: "Allāhi" }];
+    vi.mocked(fetchData).mockResolvedValue({ translations: [{ text: "Bismi Allāhi", words }] });
+
+    await expect(getVerseTexts({ type: "translation", id: "0" }, chapter)).resolves.toEqual([
+      { id: 1, verse_key: "1:1", text: "Bismi Allāhi", isHTML: true, words },
+    ]);
+  });
+
   it("fills in the verses a tafsir skips", async () => {
     vi.mocked(fetchData).mockResolvedValue({ tafsirs: [{ verse_id: 2, text: "<p>Two</p>" }] });
 

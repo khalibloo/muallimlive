@@ -1,0 +1,86 @@
+{
+  "translations": [
+    {
+      "resource_id": 0,
+      "text": "<tajweed class=R>Q</tajweed>ul Huwa <tajweed class=HmA>A</tajweed><tajweed class=TfL>ll</tajweed>āhu 'Aĥa<tajweed class=Q>d</tajweed><tajweed class=EdAyh>un</tajweed>",
+      "words": [
+        {
+          "text": "Qul",
+          "translation": "he said/said"
+        },
+        {
+          "text": "Huwa",
+          "translation": "he/him/it/he is/it is"
+        },
+        {
+          "text": "Allāhu",
+          "translation": "God"
+        },
+        {
+          "text": "'Aĥadun",
+          "translation": "anyone (anybody)/any/one"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "<tajweed class=HmA>A</tajweed><tajweed class=TfL>ll</tajweed>āhu <tajweed class=HmA>A</tajweed><tajweed class=R>ş</tajweed>-<tajweed class=R>Ş</tajweed>ama<tajweed class=Q>d</tajweed><tajweed class=EdAyh>u</tajweed>",
+      "words": [
+        {
+          "text": "Allāhu",
+          "translation": "God"
+        },
+        {
+          "text": "Aş-Şamadu",
+          "translation": "the lord/the master/the needed for everything/the eternal/the everlasting/the intended/the steadfast/the depended on"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Lam Yali<tajweed class=Q>d</tajweed> Wa Lam Yūla<tajweed class=Q>d</tajweed>",
+      "words": [
+        {
+          "text": "Lam",
+          "translation": "why/for what/for what reason/for what purpose/wherefore"
+        },
+        {
+          "text": "Yalid",
+          "translation": "give birth/procreate/bring into being"
+        },
+        {
+          "text": "Wa"
+        },
+        {
+          "text": "Lam"
+        },
+        {
+          "text": "Yūlad"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Walam Yaku<tajweed class=Kh>n</tajweed> Lahu Kufūan 'Aĥa<tajweed class=Q>d</tajweed><tajweed class=EdAyh>un</tajweed>",
+      "words": [
+        {
+          "text": "Walam"
+        },
+        {
+          "text": "Yakun"
+        },
+        {
+          "text": "Lahu",
+          "translation": "a born to him/a father"
+        },
+        {
+          "text": "Kufūan"
+        },
+        {
+          "text": "'Aĥadun",
+          "translation": "anyone (anybody)/any/one"
+        }
+      ]
+    }
+  ]
+}

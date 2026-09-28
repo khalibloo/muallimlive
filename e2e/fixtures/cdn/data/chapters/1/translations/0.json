@@ -1,0 +1,161 @@
+{
+  "translations": [
+    {
+      "resource_id": 0,
+      "text": "Bismi <tajweed class=HmA>A</tajweed><tajweed class=TqL>ll</tajweed><tajweed class=MS2>ā</tajweed>hi <tajweed class=HmA>A</tajweed>r-<tajweed class=R>Ra</tajweed>ĥmani <tajweed class=HmA>A</tajweed>r-<tajweed class=R>Ra</tajweed>ĥ<tajweed class=MS>ī</tajweed>m<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Bismi",
+          "translation": "In the name of"
+        },
+        {
+          "text": "Allāhi",
+          "translation": "God"
+        },
+        {
+          "text": "Ar-Raĥmani",
+          "translation": "the most gracious"
+        },
+        {
+          "text": "Ar-Raĥīmi",
+          "translation": "the most merciful"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Al-Ĥamdu Li<tajweed class=TqL>ll</tajweed><tajweed class=MS2>ā</tajweed>h <tajweed class=R>Ra</tajweed>bbi <tajweed class=HmA>A</tajweed>l-`Ālam<tajweed class=MS>ī</tajweed>n<tajweed class=EdAyh>a</tajweed>",
+      "words": [
+        {
+          "text": "Al-Ĥamdu",
+          "translation": "the praise/the gratitude/the thanks"
+        },
+        {
+          "text": "Lillāh",
+          "translation": "to God/for God"
+        },
+        {
+          "text": "Rabbi",
+          "translation": "lord"
+        },
+        {
+          "text": "Al-`Ālamīna"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Ar-<tajweed class=R>Ra</tajweed>ĥmani <tajweed class=HmA>A</tajweed>r-<tajweed class=R>Ra</tajweed>ĥ<tajweed class=MS>ī</tajweed>m<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Ar-Raĥmani",
+          "translation": "the most gracious"
+        },
+        {
+          "text": "Ar-Raĥīmi",
+          "translation": "the most merciful"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Māliki Ya<tajweed class=MS2>w</tajweed>mi <tajweed class=HmA>A</tajweed>d-D<tajweed class=MS>ī</tajweed>n<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Māliki",
+          "translation": "Master"
+        },
+        {
+          "text": "Yawmi",
+          "translation": "day/a day/24 hour day/time between sunrise and sunset/time"
+        },
+        {
+          "text": "Ad-Dīni",
+          "translation": "Judgement Day"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "'<tajweed class=MB>Ī</tajweed>y<tajweed class=MS2>ā</tajweed>ka Na`budu Wa 'Īy<tajweed class=MS2>ā</tajweed>ka Nasta`<tajweed class=MS>ī</tajweed>n<tajweed class=EdAyh>u</tajweed>",
+      "words": [
+        {
+          "text": "'Īyāka",
+          "translation": "(only) you (s/m)"
+        },
+        {
+          "text": "Na`budu",
+          "translation": "we worship"
+        },
+        {
+          "text": "Wa 'Īyāka",
+          "translation": "and only you"
+        },
+        {
+          "text": "Nasta`īnu",
+          "translation": "we ask for help"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "<tajweed class=HmI><u>A</u></tajweed>hdinā <tajweed class=HmA>A</tajweed><tajweed class=R>ş</tajweed>-<tajweed class=R>Ş</tajweed>i<tajweed class=R>r</tajweed><tajweed class=MS2>ā</tajweed><tajweed class=R>ţ</tajweed>a <tajweed class=HmA>A</tajweed>l-Musta<tajweed class=R>q</tajweed><tajweed class=MS>ī</tajweed>m<tajweed class=EdAyh>a</tajweed>",
+      "words": [
+        {
+          "text": "Ahdinā",
+          "translation": "guide us"
+        },
+        {
+          "text": "Aş-Şirāţa",
+          "translation": "the road/the way"
+        },
+        {
+          "text": "Al-Mustaqīma",
+          "translation": "Correct"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "<tajweed class=R>Ş</tajweed>i<tajweed class=R>r</tajweed><tajweed class=MS2>ā</tajweed><tajweed class=R>ţ</tajweed>a <tajweed class=HmA>A</tajweed>l-La<u>dh</u><tajweed class=MS2>ī</tajweed>na 'An`amta `Alayhim <tajweed class=R><u>Gh</u></tajweed>a<tajweed class=MS2>y</tajweed><tajweed class=RqW>r</tajweed>i <tajweed class=HmA>A</tajweed>l-Ma<tajweed class=R><u>gh</u></tajweed>đ<tajweed class=MS2>ū</tajweed>bi `Ala<tajweed class=MS2>yhim</tajweed> Wa Lā <tajweed class=HmA>A</tajweed>đ-<tajweed class=R>Đ</tajweed><tajweed class=ML>ā</tajweed>ll<tajweed class=MS>ī</tajweed>n<tajweed class=EdAyh>a</tajweed>",
+      "words": [
+        {
+          "text": "Şirāţa",
+          "translation": "the path"
+        },
+        {
+          "text": "Al-Ladhīna",
+          "translation": "those"
+        },
+        {
+          "text": "'An`amta",
+          "translation": "you blessed"
+        },
+        {
+          "text": "`Alayhim",
+          "translation": "on them"
+        },
+        {
+          "text": "Ghayri",
+          "translation": "not"
+        },
+        {
+          "text": "Al-Maghđūbi",
+          "translation": "the angered"
+        },
+        {
+          "text": "`Alayhim",
+          "translation": "on them"
+        },
+        {
+          "text": "Wa Lā",
+          "translation": "But not"
+        },
+        {
+          "text": "Ađ-Đāllīna",
+          "translation": "the misuided (p)"
+        }
+      ]
+    }
+  ]
+}

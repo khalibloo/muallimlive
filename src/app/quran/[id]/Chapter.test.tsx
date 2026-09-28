@@ -157,6 +157,34 @@ describe("Chapter", () => {
     expect(screen.getAllByRole("button", { name: "Play verse" })).toHaveLength(3);
   });
 
+  it("hides the word glosses when the reader turned them off", () => {
+    const glossed = verseText(1, "Bismi Allāhi", {
+      words: [{ text: "Bismi", translation: "In the name of" }, { text: "Allāhi" }],
+    });
+    const renderGlossed = (settings: ReaderSettings) =>
+      render(
+        <TestProviders>
+          <Chapter
+            chapter={alFatihah}
+            chapters={chapters}
+            leftContent={[]}
+            rightContent={[[glossed]]}
+            readerSettings={settings}
+            versesRecitations={versesRecitations}
+            recitations={recitations}
+            playerSettings={{ reciter: 1, hideTafsirs: true }}
+          />
+        </TestProviders>,
+      );
+
+    const { unmount } = renderGlossed(readerSettings);
+    expect(screen.getByText("Bismi")).toHaveAttribute("tabindex", "0");
+    unmount();
+
+    renderGlossed({ ...readerSettings, glosses: false });
+    expect(screen.getByText("Bismi Allāhi")).not.toHaveAttribute("tabindex");
+  });
+
   it("introduces the chapter with its names, details and the bismillah", () => {
     renderChapter();
 

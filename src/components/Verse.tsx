@@ -9,6 +9,7 @@ import { chapterPath } from "@/utils/chapters";
 import lf from "@/utils/localforage";
 import { verseKey } from "@/utils/userData";
 import Fave from "./Fave";
+import GlossedText from "./GlossedText";
 import Notes from "./Notes";
 import SafeHtml from "./SafeHtml";
 import Share from "./Share";
@@ -22,6 +23,7 @@ interface Props {
   left: VerseText[];
   right: VerseText[];
   hideTafsirs?: boolean;
+  hideGlosses?: boolean;
   audioUrl?: string;
   onPlay: () => void;
   onEnded: () => void;
@@ -53,6 +55,7 @@ const Verse: React.FC<Props> = ({
   left,
   right,
   hideTafsirs,
+  hideGlosses,
   onPlay,
   onEnded,
   isPlaying,
@@ -67,6 +70,20 @@ const Verse: React.FC<Props> = ({
   const rightColSpan = split ? 12 : 24;
   const leftItems = (hideTafsirs ? left.filter((v) => !v.isTafsir) : left).filter((v) => v.text);
   const rightItems = hideTafsirs ? right.filter((v) => !v.isTafsir) : right;
+
+  const renderText = (v: VerseText, className: string) => {
+    if (v.words && !hideGlosses) {
+      return <GlossedText className={className} html={v.text} words={v.words} />;
+    }
+    if (v.isHTML) {
+      return <SafeHtml className={className} html={v.text} />;
+    }
+    return (
+      <Typography.Text className={className} strong={v.isBold}>
+        {v.text}
+      </Typography.Text>
+    );
+  };
 
   const { ref } = useInView({
     rootMargin: "-200px 0px",
@@ -155,13 +172,7 @@ const Verse: React.FC<Props> = ({
               {leftItems.map((v, i) => (
                 // items are one verse's text from each configured source, so ids repeat but order is stable
                 <li key={i} className={clsx("py-3", { "text-right": v.isArabic })}>
-                  {v.isHTML ? (
-                    <SafeHtml className={verseTextClassName(v)} html={v.text} />
-                  ) : (
-                    <Typography.Text className={verseTextClassName(v)} strong={v.isBold}>
-                      {v.text}
-                    </Typography.Text>
-                  )}
+                  {renderText(v, verseTextClassName(v))}
                 </li>
               ))}
             </ul>
@@ -172,13 +183,7 @@ const Verse: React.FC<Props> = ({
             <ul className="list-none m-0 p-0 divide-y divide-line">
               {rightItems.map((v, i) => (
                 <li key={i} className={clsx("w-full py-3", { "text-right": v.isArabic })}>
-                  {v.isHTML ? (
-                    <SafeHtml className={clsx(verseTextClassName(v, true), { "font-bold": v.isBold })} html={v.text} />
-                  ) : (
-                    <Typography.Text className={verseTextClassName(v, true)} strong={v.isBold}>
-                      {v.text}
-                    </Typography.Text>
-                  )}
+                  {renderText(v, clsx(verseTextClassName(v, true), { "font-bold": v.isBold && v.isHTML }))}
                 </li>
               ))}
             </ul>

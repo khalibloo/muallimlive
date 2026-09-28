@@ -61,7 +61,8 @@ tajweed.ML {
 }
 
 tajweed.MWT,
-tajweed.Rq {
+tajweed.Rq,
+tajweed.RqQ {
   @apply text-red-800 dark:text-red-500;
 }
 
@@ -112,4 +113,10 @@ tajweed.RqW {
 /* the thick letters */
 tajweed.R {
   @apply font-bold;
+}
+
+/* the reader turned the tajweed colours off */
+:root.no-tajweed tajweed {
+  color: inherit;
+  font-weight: inherit;
 }

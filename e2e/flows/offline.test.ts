@@ -1,11 +1,19 @@
 import type { BrowserContext, Page } from "@playwright/test";
 
 import { MEDIA_URI } from "../helpers/audio";
-import { arabicText, chapterHeading, chapterLabel, collectionName, hadithText, translationText } from "../helpers/data";
+import {
+  arabicText,
+  chapterHeading,
+  chapterLabel,
+  collectionName,
+  hadithText,
+  translationText,
+  transliterationWords,
+} from "../helpers/data";
 import { expect, test } from "../helpers/fixtures";
 import { openSettings } from "../helpers/settings";
 
-// Default reader settings: Yusuf Ali (22), a tafsir, Uthmani Tajweed and a transliteration (57)
+// Default reader settings: Yusuf Ali (22), a tafsir, Uthmani Tajweed and the colour-coded transliteration (0)
 const YUSUF_ALI = 22;
 const SAHEEH = 20;
 const CHAPTER = 114;
@@ -56,21 +64,26 @@ test.describe("Offline reading", () => {
     await expect(verse.getByText(translationText(CHAPTER, YUSUF_ALI, 1), { exact: true })).toBeVisible();
     await expect(verse.getByText(arabicText(CHAPTER, "uthmani_tajweed", 1))).toBeVisible();
     await expect(testPage.getByText(/hasn't been downloaded for offline use/)).toBeHidden();
+    // the downloaded transliteration keeps its word glosses
+    const word = transliterationWords(CHAPTER, 1).find((w) => w.translation)!;
+    await verse.getByText(word.text, { exact: true }).hover();
+    await expect(testPage.getByRole("tooltip", { name: word.translation, exact: true })).toBeVisible();
   });
 
-  test("shows the theme and text size chosen after the app was saved offline", async ({
+  test("shows the theme, text size and tajweed colours chosen after the app was saved offline", async ({
     testPage,
     context,
     baseURL,
   }) => {
-    // the offline page is saved with the default dark theme and text size
+    // the offline page is saved with the default dark theme, text size and tajweed colours
     await gotoControlled(testPage, "/");
     await downloadAllText(testPage);
     const readerSettings = {
       splitView: true,
       left: [{ content: ["translation", "en", YUSUF_ALI] }, { content: ["tafsir", "en", 0] }],
-      right: [{ content: ["translation", "ar", "uthmani_tajweed"] }, { content: ["translation", "en", 57] }],
+      right: [{ content: ["translation", "ar", "uthmani_tajweed"] }, { content: ["translation", "en", 0] }],
       textSize: 140,
+      tajweedColors: false,
     };
     await context.addCookies([
       { name: "color-scheme", value: "light", url: baseURL },
@@ -89,6 +102,7 @@ test.describe("Offline reading", () => {
     expect(
       await testPage.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--reader-scale")),
     ).toBe("1.4");
+    await expect(testPage.locator("html")).toHaveClass(/\bno-tajweed\b/);
     await expect.poll(buttonColor).toBe(lightButton);
   });
 

@@ -1,0 +1,117 @@
+{
+  "translations": [
+    {
+      "resource_id": 0,
+      "text": "<tajweed class=R>Q</tajweed>ul 'A`ū<u>dh</u>u Bi<tajweed class=R>ra</tajweed>bbi <tajweed class=HmA>A</tajweed><tajweed class=GhSh>n</tajweed>-N<tajweed class=MS>ā</tajweed>s<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Qul",
+          "translation": "he said/said"
+        },
+        {
+          "text": "'A`ūdhu",
+          "translation": "I seek protection"
+        },
+        {
+          "text": "Birabbi"
+        },
+        {
+          "text": "An-Nāsi",
+          "translation": "the people"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Maliki <tajweed class=HmA>A</tajweed><tajweed class=GhSh>n</tajweed>-N<tajweed class=MS>ā</tajweed>s<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Maliki",
+          "translation": "owner/possessor"
+        },
+        {
+          "text": "An-Nāsi",
+          "translation": "the people"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "'Ilahi <tajweed class=HmA>A</tajweed><tajweed class=GhSh>n</tajweed>-N<tajweed class=MS>ā</tajweed>s<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "'Ilahi",
+          "translation": "is a god"
+        },
+        {
+          "text": "An-Nāsi",
+          "translation": "the people"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Mi<tajweed class=KhQ>n</tajweed> <u>Sh</u>ar<tajweed class=RqW>r</tajweed>i <tajweed class=HmA>A</tajweed>l-Wasw<tajweed class=MS2>ā</tajweed>si <tajweed class=HmA>A</tajweed>l-<tajweed class=R><u>Kh</u></tajweed>a<tajweed class=GhSh>nn</tajweed><tajweed class=MS>ā</tajweed>s<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Min",
+          "translation": "of"
+        },
+        {
+          "text": "Sharri"
+        },
+        {
+          "text": "Al-Waswāsi",
+          "translation": "the inspirer and talker/the giver of evil suggestions and temptations (whisperer of evil influences)"
+        },
+        {
+          "text": "Al-Khannāsi",
+          "translation": "the devil"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Al-La<u>dh</u>ī Yu<tajweed class=MS2>waswi</tajweed>su Fī <tajweed class=R>Ş</tajweed>ud<tajweed class=MS2>ū</tajweed><tajweed class=RqW>r</tajweed>i <tajweed class=HmA>A</tajweed><tajweed class=GhSh>n</tajweed>-N<tajweed class=MS>ā</tajweed>s<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Al-Ladhī",
+          "translation": "who/which/that/what/he who/it who/whom"
+        },
+        {
+          "text": "Yuwaswisu",
+          "translation": "inspires and talks to/gives evil suggestions and temptations/ (whispers evil influences)"
+        },
+        {
+          "text": "Fī",
+          "translation": "in"
+        },
+        {
+          "text": "Şudūri",
+          "translation": "chests/(innermosts)"
+        },
+        {
+          "text": "An-Nāsi",
+          "translation": "the people"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Mina <tajweed class=HmA>A</tajweed>l-Ji<tajweed class=GhSh>nn</tajweed>ati Wa <tajweed class=HmA>A</tajweed><tajweed class=GhSh>n</tajweed>-N<tajweed class=MS>ā</tajweed>s<tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Mina",
+          "translation": "of"
+        },
+        {
+          "text": "Al-Jinnati"
+        },
+        {
+          "text": "Wa An-Nāsi",
+          "translation": "and/by (an oath)/prefix that could change the tense or meaning of some words (if you are unable to locate a word where the first letter is"
+        }
+      ]
+    }
+  ]
+}

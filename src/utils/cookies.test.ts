@@ -40,6 +40,16 @@ describe("parseReaderSettings", () => {
       right: [],
     });
   });
+
+  it("keeps boolean tajweed colours and glosses switches and drops any other", () => {
+    const settings: ReaderSettings = { splitView: false, left: [], right: [], tajweedColors: false, glosses: true };
+    expect(parseReaderSettings(JSON.stringify(settings))).toEqual(settings);
+    expect(parseReaderSettings(JSON.stringify({ ...settings, tajweedColors: "no", glosses: 0 }))).toEqual({
+      splitView: false,
+      left: [],
+      right: [],
+    });
+  });
 });
 
 describe("parsePlaySettings", () => {

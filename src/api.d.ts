@@ -69,6 +69,14 @@ interface VerseText extends VerseContent {
   isBold?: boolean;
   isArabic?: boolean;
   isTafsir?: boolean;
+  /** A transliteration's word groups, in the text's order */
+  words?: VerseWord[];
+}
+
+/** A word group of a transliteration, with its gloss when it has one */
+interface VerseWord {
+  text: string;
+  translation?: string;
 }
 
 interface VerseIndopak extends VerseContent {
@@ -114,6 +122,8 @@ interface VerseTafsir {
 interface VerseTranslation {
   resource_id: number;
   text: string;
+  /** Only the colour-coded transliteration (0) has them */
+  words?: VerseWord[];
 }
 
 type Verse =

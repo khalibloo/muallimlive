@@ -1,0 +1,117 @@
+{
+  "translations": [
+    {
+      "resource_id": 0,
+      "text": "<tajweed class=R>Q</tajweed>ul 'A`ū<u>dh</u>u Bi<tajweed class=R>ra</tajweed>bbi <tajweed class=HmA>A</tajweed>l-Fala<tajweed class=\"Q R\">q</tajweed><tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Qul",
+          "translation": "he said/said"
+        },
+        {
+          "text": "'A`ūdhu",
+          "translation": "I seek protection"
+        },
+        {
+          "text": "Birabbi"
+        },
+        {
+          "text": "Al-Falaqi"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Mi<tajweed class=KhQ>n</tajweed> <u>Sh</u>ar<tajweed class=RqW>r</tajweed>i Mā <tajweed class=R><u>Kh</u></tajweed>ala<tajweed class=\"Q R\">q</tajweed><tajweed class=EdAyh>a</tajweed>",
+      "words": [
+        {
+          "text": "Min",
+          "translation": "of"
+        },
+        {
+          "text": "Sharri"
+        },
+        {
+          "text": "Mā",
+          "translation": "what"
+        },
+        {
+          "text": "Khalaqa",
+          "translation": "share of blessing/good luck/fortune"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Wa Mi<tajweed class=KhQ>n</tajweed> <u>Sh</u>ar<tajweed class=RqW>r</tajweed>i <tajweed class=R><u>Gh</u></tajweed>āsi<tajweed class=R>q</tajweed>in 'I<u>dh</u>ā Wa<tajweed class=R>q</tajweed>a<tajweed class=Q>b</tajweed><tajweed class=EdAyh>a</tajweed>",
+      "words": [
+        {
+          "text": "Wa Min",
+          "translation": "then"
+        },
+        {
+          "text": "Sharri"
+        },
+        {
+          "text": "Ghāsiqin",
+          "translation": "intense dark night/moon"
+        },
+        {
+          "text": "'Idhā",
+          "translation": "then/therefore"
+        },
+        {
+          "text": "Waqaba"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Wa Mi<tajweed class=KhQ>n</tajweed> <u>Sh</u>ar<tajweed class=RqW>r</tajweed>i <tajweed class=HmA>A</tajweed><tajweed class=GhSh>n</tajweed>-Naffā<u>th</u><tajweed class=MS2>ā</tajweed>ti Fī <tajweed class=HmA>A</tajweed>l-`U<tajweed class=R>q</tajweed>a<tajweed class=Q>d</tajweed><tajweed class=EdAyh>i</tajweed>",
+      "words": [
+        {
+          "text": "Wa Min",
+          "translation": "then"
+        },
+        {
+          "text": "Sharri"
+        },
+        {
+          "text": "An-Naffāthāti"
+        },
+        {
+          "text": "Fī",
+          "translation": "in"
+        },
+        {
+          "text": "Al-`Uqadi"
+        }
+      ]
+    },
+    {
+      "resource_id": 0,
+      "text": "Wa Mi<tajweed class=KhQ>n</tajweed> <u>Sh</u>ar<tajweed class=RqW>r</tajweed>i Ĥāsidin 'I<u>dh</u>ā Ĥasa<tajweed class=Q>d</tajweed><tajweed class=EdAyh>a</tajweed>",
+      "words": [
+        {
+          "text": "Wa Min",
+          "translation": "then"
+        },
+        {
+          "text": "Sharri"
+        },
+        {
+          "text": "Ĥāsidin",
+          "translation": "an envious/an envious with jealousy/a jealous"
+        },
+        {
+          "text": "'Idhā",
+          "translation": "then/therefore"
+        },
+        {
+          "text": "Ĥasada",
+          "translation": "he envied/he envied with jealousy"
+        }
+      ]
+    }
+  ]
+}

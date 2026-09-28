@@ -23,8 +23,13 @@ const isRecord = (value: unknown): value is Record<string, unknown> => typeof va
 export const parseReaderSettings = (value?: string): ReaderSettings => {
   const data = parseJson(value);
   if (isRecord(data) && typeof data.splitView === "boolean" && Array.isArray(data.left) && Array.isArray(data.right)) {
-    const { textSize, ...settings } = data as unknown as ReaderSettings;
-    return typeof textSize === "number" ? { ...settings, textSize } : settings;
+    const { textSize, tajweedColors, glosses, ...settings } = data as unknown as ReaderSettings;
+    return {
+      ...settings,
+      ...(typeof textSize === "number" && { textSize }),
+      ...(typeof tajweedColors === "boolean" && { tajweedColors }),
+      ...(typeof glosses === "boolean" && { glosses }),
+    };
   }
   return config.defaultReaderSettings;
 };

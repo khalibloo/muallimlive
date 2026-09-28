@@ -241,6 +241,7 @@
     "sync-use-drive-only": "Use Drive only",
     "tafsir": "Tafsir",
     "tafsirs": "Tafsirs",
+    "tajweed-colors": "Tajweed Colours",
     "terms-accuracy": "We try our best to ensure the accuracy of our content, but we make no claims or guarantees. We're not perfect and neither is our work.",
     "terms-agreement": "By using our services, you agree to the following terms.",
     "terms-have-fun": "Have fun!",
@@ -275,6 +276,7 @@
     "verse-reference": "Verse {chapter}:{verse}",
     "volume": "Volume",
     "volume-level": "Volume level",
+    "word-glosses": "Word Glosses",
     "yes": "Yes"
   }
 }

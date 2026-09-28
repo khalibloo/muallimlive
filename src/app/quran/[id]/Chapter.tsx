@@ -299,6 +299,7 @@ const Chapter: React.FC<Props> = ({
                     left={item.left}
                     right={item.right}
                     hideTafsirs={readerMode === "recitation" && playbackConfig.hideTafsirs}
+                    hideGlosses={readerSettings.glosses === false}
                     audioUrl={versesRecitations?.find((a) => a.verse_key === `${chapterNumber}:${i + 1}`)?.url}
                     onPlay={() => {
                       setPlayingVerseNumber(i + 1);

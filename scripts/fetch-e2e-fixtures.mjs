@@ -9,9 +9,10 @@ const OUT_DIR = join(import.meta.dirname, "..", "e2e", "fixtures", "cdn", "data"
 
 // Short chapters keep the fixtures small: Al-Fatihah plus the last three surahs
 const CHAPTERS = [1, 112, 113, 114];
-// Default reader settings (src/utils/config.ts) plus Saheeh International (20) for the settings tests
+// Default reader settings (src/utils/config.ts) plus Saheeh International (20) and the older transliteration (57)
+// for the settings tests
 const ARABIC_SCRIPTS = ["uthmani_tajweed"];
-const TRANSLATIONS = [22, 57, 20];
+const TRANSLATIONS = [22, 0, 20, 57];
 const TAFSIRS = [0];
 // Default reciter (1) plus Mishari Rashid al-`Afasy (7) for the reciter-change tests
 const RECITATIONS = [1, 7];

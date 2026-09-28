@@ -10,6 +10,10 @@ interface ReaderSettings {
   right: VerseLayoutItem[];
   /** Verse text size in percent, 100 by default */
   textSize?: number;
+  /** Colours the tajweed rules in the texts that mark them, on by default */
+  tajweedColors?: boolean;
+  /** Shows a transliteration's word glosses on hover or tap, on by default */
+  glosses?: boolean;
 }
 
 interface PlaySettings {

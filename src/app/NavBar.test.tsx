@@ -194,7 +194,12 @@ describe("NavBar", () => {
     await user.click(within(dialog).getByRole("button", { name: "Save Changes" }));
 
     expect(await screen.findByText("Changes Saved Successfully")).toBeInTheDocument();
-    expect(saveReaderSettings).toHaveBeenCalledWith({ ...settingsResources.readerSettings, textSize: 100 });
+    expect(saveReaderSettings).toHaveBeenCalledWith({
+      ...settingsResources.readerSettings,
+      textSize: 100,
+      tajweedColors: true,
+      glosses: true,
+    });
     await waitFor(() => expect(screen.queryByRole("dialog", { name: "Settings" })).not.toBeInTheDocument());
   });
 

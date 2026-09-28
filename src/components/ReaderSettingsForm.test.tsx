@@ -58,6 +58,8 @@ const readerSettings: ReaderSettings = {
   left: [{ content: ["translation", "en", 20] }, { content: ["tafsir", "en", 169] }],
   right: [{ content: ["translation", "ar", "uthmani_tajweed"] }, { content: ["translation", "en", 131] }],
   textSize: 120,
+  tajweedColors: true,
+  glosses: true,
 };
 
 const renderForm = (settings = readerSettings) => {
@@ -131,7 +133,25 @@ describe("ReaderSettingsForm", () => {
       left: [...readerSettings.left, ...readerSettings.right],
       right: [],
       textSize: 120,
+      tajweedColors: true,
+      glosses: true,
     });
+  });
+
+  it("turns off the tajweed colours and word glosses, which default to on", async () => {
+    const { tajweedColors: _, glosses: __, ...withoutSwitches } = readerSettings;
+    const { user, onSubmit } = renderForm(withoutSwitches);
+
+    const tajweedColors = screen.getByRole("switch", { name: "Tajweed Colours" });
+    const glosses = screen.getByRole("switch", { name: "Word Glosses" });
+    expect(tajweedColors).toBeChecked();
+    expect(glosses).toBeChecked();
+    await user.click(tajweedColors);
+    await user.click(glosses);
+    await user.click(screen.getByRole("button", { name: "Save Changes" }));
+
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(saveReaderSettings).toHaveBeenCalledWith({ ...readerSettings, tajweedColors: false, glosses: false });
   });
 
   it("changes the text size, which defaults to 100%", async () => {

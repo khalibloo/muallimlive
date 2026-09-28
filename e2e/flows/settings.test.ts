@@ -1,13 +1,12 @@
 import type { Locator, Page } from "@playwright/test";
 
 import { expect, test } from "../helpers/fixtures";
-import { translationText } from "../helpers/data";
+import { translationText, transliterationText, transliterationWords } from "../helpers/data";
 import { openSettings } from "../helpers/settings";
 
 // Chapter 114's translations are plain text (some others embed footnote markup)
 const CHAPTER = 114;
 const YUSUF_ALI = 22;
-const TRANSLITERATION = 57;
 const SAHEEH = 20;
 
 const openDisplaySettings = (page: Page) => openSettings(page, "Display Settings");
@@ -40,7 +39,7 @@ test.describe("Display settings", () => {
 
   test("removing a content type hides it and persists", async ({ testPage }) => {
     await testPage.goto(`/quran/${CHAPTER}`);
-    const transliteration = testPage.getByText(translationText(CHAPTER, TRANSLITERATION, 1), { exact: true });
+    const transliteration = testPage.getByText(transliterationText(CHAPTER, 1), { exact: true });
     await expect(transliteration).toBeVisible();
 
     const dialog = await openDisplaySettings(testPage);
@@ -98,7 +97,7 @@ test.describe("Display settings", () => {
 
     // All four content types are still shown, now in a single pane
     await expect(testPage.getByText(translationText(CHAPTER, YUSUF_ALI, 1), { exact: true })).toBeVisible();
-    await expect(testPage.getByText(translationText(CHAPTER, TRANSLITERATION, 1), { exact: true })).toBeVisible();
+    await expect(testPage.getByText(transliterationText(CHAPTER, 1), { exact: true })).toBeVisible();
 
     await testPage.reload();
     const reopened = await openDisplaySettings(testPage);
@@ -107,6 +106,51 @@ test.describe("Display settings", () => {
       await expect(reopened.getByRole("combobox", { name, exact: true })).toBeVisible();
     }
     await expect(reopened.getByRole("combobox", { name: "Right pane content 1", exact: true })).toBeHidden();
+  });
+
+  test("turning the tajweed colours off uncolours the texts and persists", async ({ testPage }) => {
+    await testPage.goto(`/quran/${CHAPTER}`);
+    const verse = testPage.getByRole("article", { name: "Verse 1", exact: true });
+    // how many of the verse's markings (in the Arabic and the transliteration) look different from their text
+    const styledMarkings = () =>
+      verse.locator("tajweed").evaluateAll(
+        (markings) =>
+          markings.filter((el) => {
+            const [own, text] = [getComputedStyle(el), getComputedStyle(el.parentElement!)];
+            return own.color !== text.color || own.fontWeight !== text.fontWeight;
+          }).length,
+      );
+    await expect.poll(styledMarkings).toBeGreaterThan(0);
+
+    const dialog = await openDisplaySettings(testPage);
+    await dialog.getByRole("switch", { name: "Tajweed Colours", exact: true }).click();
+    await saveSettings(testPage, dialog);
+
+    await expect.poll(styledMarkings).toBe(0);
+    await testPage.reload();
+    await expect(verse).toBeVisible();
+    await expect.poll(styledMarkings).toBe(0);
+  });
+
+  test("turning the word glosses off stops showing them and persists", async ({ testPage }) => {
+    await testPage.goto(`/quran/${CHAPTER}`);
+    const verse = testPage.getByRole("article", { name: "Verse 1", exact: true });
+    const word = transliterationWords(CHAPTER, 1).find((w) => w.translation)!;
+    const gloss = testPage.getByRole("tooltip", { name: word.translation, exact: true });
+    await verse.getByText(word.text, { exact: true }).hover();
+    await expect(gloss).toBeVisible();
+
+    const dialog = await openDisplaySettings(testPage);
+    await dialog.getByRole("switch", { name: "Word Glosses", exact: true }).click();
+    await saveSettings(testPage, dialog);
+
+    const transliteration = verse.getByText(transliterationText(CHAPTER, 1), { exact: true });
+    await expect(transliteration).toBeVisible();
+    await expect(transliteration.locator("[tabindex]")).toHaveCount(0);
+    await testPage.reload();
+    await transliteration.hover();
+    await expect(gloss).toBeHidden();
+    await expect(transliteration.locator("[tabindex]")).toHaveCount(0);
   });
 
   test("an empty content row must be filled in before saving", async ({ testPage }) => {
