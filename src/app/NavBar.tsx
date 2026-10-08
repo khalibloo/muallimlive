@@ -152,6 +152,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
         title={t("settings")}
       >
         <Tabs
+          tabBarGutter={responsive.md ? undefined : 16}
           activeKey={settingsTab}
           onChange={setSettingsTab}
           items={[
@@ -179,6 +180,7 @@ const NavBar: React.FC<Props> = ({ settingsResources, colorScheme: renderedSchem
                     notification.success({ title: t("changes-saved") });
                     closeSettingsModal();
                   }}
+                  onCancel={closeSettingsModal}
                 />
               ),
             },

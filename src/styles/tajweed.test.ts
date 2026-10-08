@@ -13,16 +13,27 @@ describe("tajweed.css", () => {
   it.each(TAJWEED_RULES.map((rule) => [rule.id, rule] as const))("styles the %s rule", (id, { classes, color }) => {
     const selectors = classes.map((c) => `tajweed.${c}`).join(", ");
     expect(tajweedCss).toContain(`${selectors} { color: var(--tajweed-${id}, var(--palette-${color})); }`);
-    expect(tajweedCss).toContain(`:root.tajweed-fade-${id} :is(${selectors}) { opacity: 0.35; }`);
-    expect(tajweedCss).toContain(`:root.tajweed-hide-${id} :is(${selectors}) { display: none; }`);
+    // the settings' preview shows its own looks, not the saved ones
+    for (const [look, cls, declaration] of [
+      ["faded", "fade", "opacity: 0.35;"],
+      ["hidden", "hide", "display: none;"],
+    ]) {
+      expect(tajweedCss, look).toContain(
+        `:root.tajweed-${cls}-${id} :is(${selectors}):not(.tajweed-preview *), ` +
+          `.tajweed-preview.tajweed-${cls}-${id} :is(${selectors}) { ${declaration} }`,
+      );
+    }
   });
 
-  it("styles no plain classes but the verse-end marker", () => {
-    expect(tajweedCss.match(/(?<![\w-])\.[A-Za-z_-]+/g)).toEqual([".end"]);
+  it("styles no plain classes but the verse-end marker and the preview", () => {
+    expect(new Set(tajweedCss.match(/(?<![\w-])\.[A-Za-z_-]+/g))).toEqual(new Set([".end", ".tajweed-preview"]));
   });
 
-  it("keeps the tajweed colors switch overriding the colors", () => {
-    expect(tajweedCss).toContain(":root.no-tajweed tajweed { color: inherit; font-weight: inherit; }");
+  it("keeps the tajweed colors switch overriding the colors, in the page and the preview", () => {
+    expect(tajweedCss).toContain(
+      ":root.no-tajweed tajweed:not(.tajweed-preview *), .tajweed-preview.no-tajweed tajweed " +
+        "{ color: inherit; font-weight: inherit; }",
+    );
   });
 });
 

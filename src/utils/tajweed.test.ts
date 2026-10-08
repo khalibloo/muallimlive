@@ -81,6 +81,14 @@ describe("tajweedStyles", () => {
     expect(tajweedStyles()).toEqual({ classNames: [], style: {} });
     expect(tajweedStyles({})).toEqual({ classNames: [], style: {} });
   });
+
+  it("styles every rule of the form's values, for the preview", () => {
+    const choices = toTajweedChoices({ qalqalah: { look: "hidden" } });
+    const { classNames, style } = tajweedStyles(choices);
+    expect(classNames).toEqual(["tajweed-hide-qalqalah"]);
+    expect(Object.keys(style)).toHaveLength(26);
+    expect(style["--tajweed-qalqalah"]).toBe("var(--palette-lime)");
+  });
 });
 
 describe("the settings form values", () => {

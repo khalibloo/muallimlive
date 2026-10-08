@@ -167,7 +167,7 @@ describe("NavBar", () => {
   it.each([
     // jsdom has no Cache Storage, so the storage tab reports it as unsupported
     ["Offline Storage", "Storage", "This browser doesn't support offline storage."],
-    ["Sync & Backup", "Sync & Backup", "Sync with Google Drive"],
+    ["Sync & Backup", "Sync", "Sync with Google Drive"],
   ])("opens %s on the %s tab", async (item, tab, content) => {
     const user = renderNavBar();
 
@@ -214,6 +214,17 @@ describe("NavBar", () => {
     expect(await screen.findByText("Changes Saved Successfully")).toBeInTheDocument();
     expect(saveReaderSettings).toHaveBeenCalledWith({ ...settingsResources.readerSettings, tajweedColors: false });
     await waitFor(() => expect(screen.queryByRole("dialog", { name: "Settings" })).not.toBeInTheDocument());
+  });
+
+  it("closes the tajweed settings without saving on cancel", async () => {
+    const user = renderNavBar();
+    const dialog = await openSettings(user, "Tajweed");
+
+    await user.click(within(dialog).getByRole("switch", { name: "Tajweed Colors" }));
+    await user.click(within(dialog).getByRole("button", { name: "Cancel" }));
+
+    await waitFor(() => expect(screen.queryByRole("dialog", { name: "Settings" })).not.toBeInTheDocument());
+    expect(saveReaderSettings).not.toHaveBeenCalled();
   });
 
   describe("with offline downloads", () => {

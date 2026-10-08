@@ -5,19 +5,24 @@ import { openSettings, saveSettings } from "../helpers/settings";
 
 const openTajweedSettings = (page: Page) => openSettings(page, "Tajweed");
 
+const ruleGroup = (dialog: Locator, rule: string) => dialog.getByRole("group", { name: rule, exact: true });
+
 const pickColor = async (page: Page, dialog: Locator, rule: string, color: string) => {
-  const box = dialog.getByRole("combobox", { name: `Color for ${rule}`, exact: true });
+  const box = ruleGroup(dialog, rule).getByRole("combobox", { name: "Color", exact: true });
   await box.fill(color);
   await expect(page.getByRole("option", { name: color, exact: true })).toBeAttached();
   await box.press("Enter");
 };
 
-// the Segmented radio inputs are hidden behind their labels, so click the label
-const pickLook = (dialog: Locator, rule: string, look: string) =>
-  dialog
-    .getByRole("radiogroup", { name: `Look for ${rule}`, exact: true })
-    .getByText(look, { exact: true })
-    .click();
+// Under load an option click can land before the popup settles and be dropped, so retry until it shows
+const pickLook = async (page: Page, dialog: Locator, rule: string, look: string) => {
+  const group = ruleGroup(dialog, rule);
+  await expect(async () => {
+    await group.getByRole("combobox", { name: "Look", exact: true }).click();
+    await page.getByText(look, { exact: true }).last().click({ timeout: 2000 });
+    await expect(group.getByText(look, { exact: true })).toBeVisible({ timeout: 1000 });
+  }).toPass();
+};
 
 test.describe("Tajweed settings", () => {
   test("hiding hamzat al-wasl hides it in both scripts and persists", async ({ testPage }) => {
@@ -29,7 +34,7 @@ test.describe("Tajweed settings", () => {
     await expect(uthmani).toBeVisible();
 
     const dialog = await openTajweedSettings(testPage);
-    await pickLook(dialog, "Hamzat al-Wasl", "Hidden");
+    await pickLook(testPage, dialog, "Hamzat al-Wasl", "Hidden");
     await saveSettings(testPage, dialog);
 
     await expect(transliteration).toBeHidden();
@@ -54,7 +59,7 @@ test.describe("Tajweed settings", () => {
 
     const dialog = await openTajweedSettings(testPage);
     await pickColor(testPage, dialog, "Qalqalah", "Blue");
-    await pickLook(dialog, "Qalqalah", "Faded");
+    await pickLook(testPage, dialog, "Qalqalah", "Faded");
     await saveSettings(testPage, dialog);
 
     await expect.poll(async () => (await look()).opacity).toBe("0.35");
@@ -83,7 +88,7 @@ test.describe("Tajweed settings", () => {
     await expect.poll(styledMarkings).toBeGreaterThan(0);
 
     const dialog = await openTajweedSettings(testPage);
-    await pickLook(dialog, "Hamzat al-Wasl", "Hidden");
+    await pickLook(testPage, dialog, "Hamzat al-Wasl", "Hidden");
     await dialog.getByRole("switch", { name: "Tajweed Colors", exact: true }).click();
     await saveSettings(testPage, dialog);
 
@@ -93,5 +98,28 @@ test.describe("Tajweed settings", () => {
     await expect(verse).toBeVisible();
     await expect.poll(styledMarkings).toBe(0);
     await expect(hamzat).toBeHidden();
+  });
+
+  test("previews an unsaved change without applying it, and discards it on cancel", async ({ testPage }) => {
+    await testPage.goto("/quran/113");
+    const onPage = testPage.getByRole("article", { name: "Verse 1", exact: true }).locator("tajweed.qalaqah").first();
+    await expect(onPage).toBeVisible();
+
+    const dialog = await openTajweedSettings(testPage);
+    const preview = dialog.getByRole("region", { name: "Preview", exact: true });
+    await pickLook(testPage, dialog, "Qalqalah", "Hidden");
+
+    await expect(preview.locator("tajweed.qalaqah, tajweed.Q").first()).toBeAttached();
+    await expect(preview.locator("tajweed.qalaqah, tajweed.Q").first()).toBeHidden();
+    // the Select's popup can scroll the virtualized verse list away from verse 1, so check the page's rule styles
+    await expect(testPage.locator("html")).not.toHaveClass(/tajweed-hide-qalqalah/);
+
+    await dialog.getByRole("button", { name: "Cancel", exact: true }).click();
+    await expect(dialog).toBeHidden();
+    await testPage.keyboard.press("Home");
+    await expect(onPage).toBeVisible();
+
+    const reopened = await openTajweedSettings(testPage);
+    await expect(ruleGroup(reopened, "Qalqalah").getByText("Normal", { exact: true })).toBeVisible();
   });
 });

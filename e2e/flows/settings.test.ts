@@ -168,8 +168,8 @@ test.describe("Display settings", () => {
     await expect(storage.getByRole("heading", { name: "Text Content", exact: true })).toBeVisible();
     await expect(storage.getByRole("heading", { name: "Recitation Audio", exact: true })).toBeVisible();
 
-    await dialog.getByRole("tab", { name: "Sync & Backup", exact: true }).click();
-    const sync = dialog.getByRole("tabpanel", { name: "Sync & Backup", exact: true });
+    await dialog.getByRole("tab", { name: "Sync", exact: true }).click();
+    const sync = dialog.getByRole("tabpanel", { name: "Sync", exact: true });
     await expect(sync.getByRole("link", { name: "Sync with Google Drive", exact: true })).toBeVisible();
   });
 });

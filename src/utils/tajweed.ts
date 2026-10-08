@@ -119,8 +119,8 @@ export const parseTajweedRules = (value: unknown): Record<string, TajweedRuleSty
   return Object.keys(rules).length > 0 ? rules : undefined;
 };
 
-/** The `<html>` classes and style variables that apply the rules' styles in `tajweed.css` */
-export const tajweedStyles = (rules: Record<string, TajweedRuleStyle> = {}) => {
+/** The `<html>` (or preview) classes and style variables that apply the rules' styles in `tajweed.css` */
+export const tajweedStyles = (rules: Record<string, Partial<TajweedChoice>> = {}) => {
   const classNames: string[] = [];
   const style: Record<string, string> = {};
   for (const { id } of TAJWEED_RULES) {
