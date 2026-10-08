@@ -12,10 +12,8 @@ const Footer: React.FC = () => {
             <Link href="/terms">{t("terms-of-service")}</Link> | <Link href="/privacy">{t("privacy-policy")}</Link>
           </Typography.Text>
         </div>
-        <div>
-          <Typography.Text className="text-center">
-            {t("copyright-notice", { year: new Date().getFullYear() })}
-          </Typography.Text>
+        <div className="text-center">
+          <Typography.Text>{t("copyright-notice", { year: new Date().getFullYear() })}</Typography.Text>
         </div>
       </Col>
     </Row>

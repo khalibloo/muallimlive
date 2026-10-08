@@ -174,6 +174,7 @@ const Chapter: React.FC<Props> = ({
       <FloatButton.BackTop aria-label={t("back-to-top")} />
       <Drawer
         placement="left"
+        size="min(378px, 100vw - 3rem)"
         closable={false}
         styles={{ body: { padding: 0 } }}
         onClose={closeChaptersDrawer}

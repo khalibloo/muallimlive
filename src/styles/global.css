@@ -121,4 +121,16 @@
   .verse-badge::after {
     transform: rotate(45deg);
   }
+
+  /* Phones have no room to spare around a dialog */
+  @media (width < 48rem) {
+    .ant-modal {
+      top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .ant-modal-container {
+      padding: 1rem;
+    }
+  }
 }

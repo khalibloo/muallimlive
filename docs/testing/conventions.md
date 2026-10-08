@@ -196,6 +196,7 @@ e2e/
   smoke/
     pages.test.ts          # Every page renders
     cookie-notice.test.ts  # Cookie notice
+    responsive.test.ts     # Pages and dialogs fit a phone (isMobile, 360px)
   flows/
     chapter.test.ts        # Reading, navigation, progress
     favourites.test.ts

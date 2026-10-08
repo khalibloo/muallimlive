@@ -20,8 +20,8 @@ const BasicLayout: React.FC<Props> = ({ settingsResources, colorScheme, children
       <Layout.Header className="w-full p-0 fixed z-10 shadow-md">
         <NavBar settingsResources={settingsResources} colorScheme={colorScheme} />
       </Layout.Header>
-      <Layout.Content className="mt-16 py-12 flex flex-col">{children}</Layout.Content>
-      <Layout.Footer className="border-t border-line">
+      <Layout.Content className="mt-16 md:py-12 flex flex-col">{children}</Layout.Content>
+      <Layout.Footer className="border-t border-line px-4 md:px-12">
         <Footer />
       </Layout.Footer>
     </Layout>

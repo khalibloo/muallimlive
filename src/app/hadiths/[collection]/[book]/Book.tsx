@@ -35,7 +35,7 @@ const Book: React.FC<Props> = ({ collection, book, hadiths }) => {
         <Input
           allowClear
           type="search"
-          className="flex-1"
+          className="min-w-48 flex-1"
           aria-label={t("filter-hadiths")}
           placeholder={t("filter-hadiths")}
           value={query}

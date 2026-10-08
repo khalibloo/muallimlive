@@ -116,7 +116,7 @@ const OfflineStorage: React.FC<Props> = ({
   return (
     <>
       <Alert type="info" showIcon title={t("offline-storage-info")} />
-      <div className="flex items-center justify-between gap-4 mt-6">
+      <div className="flex flex-wrap items-center justify-between gap-4 mt-6">
         <Typography.Title level={4} className="m-0">
           {t("offline-text")}
         </Typography.Title>
@@ -175,7 +175,7 @@ const OfflineStorage: React.FC<Props> = ({
       </ul>
 
       <section aria-labelledby="offline-hadiths">
-        <div className="flex items-center justify-between gap-4 mt-6">
+        <div className="flex flex-wrap items-center justify-between gap-4 mt-6">
           <Typography.Title level={4} id="offline-hadiths" className="m-0">
             {t("offline-hadiths")}
           </Typography.Title>
